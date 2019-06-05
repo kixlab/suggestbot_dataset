@@ -46,5 +46,5 @@ The 'sourcedocs' folder contains parsed source pages of each additional informat
 
 ### tidy folder
 - In the 'tidy' folder, also parsed source pages are stored in .txt format. 
-- Each source page is parsed using [Html2text](http://alir3z4.github.io/html2text/) and then [Newspaper3k](https://newspaper.readthedocs.io/en/latest/). 
+- Each source page is parsed using [Html2text](http://alir3z4.github.io/html2text/) package and then [Newspaper3k](https://newspaper.readthedocs.io/en/latest/) package. 
 - The title of each txt file refers to the id of additional information (info_id). For example, '1.txt' contains parsed source page of url provided in the additional information with info_id=1.
