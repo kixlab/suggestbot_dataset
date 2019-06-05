@@ -10,7 +10,7 @@ This TSV file has 5 fields, desvribed as below
 3. post_text: The text of the post
 4. post_infoneed: 0 if the post does not need additional information, 1 if the post needs additional information
 5. post_IACid: The ID of the post in IAC 2.0 dataset
-6. post_parentid: The ID of the parent post in IAC 2.0 dataset
+6. post_parent: The ID of the parent post in IAC 2.0 dataset
 
 ## arguments.tsv
 This TSV file has 5 fields, described as below
@@ -40,11 +40,11 @@ This TSV file has 9 fields, described as below
 The 'sourcedocs' folder contains parsed source pages of each additional information. There are two subfolder - tidy and untidy. 
 
 ### untidy folder
-- In 'untidy' folder, parsed source pages are stored in .txt format.
+- In the 'untidy' folder, parsed source pages are stored in .txt format.
 - Each source page is parsed using [Html2text](http://alir3z4.github.io/html2text/) package.
 - The title of each txt file refers to the id of additional information (info_id). For example, '1.txt' contains parsed source page of url provided in the additional information with info_id=1. 
 
 ### tidy folder
-- In 'tidy' folder, also parsed source pages are stored in .txt format. 
+- In the 'tidy' folder, also parsed source pages are stored in .txt format. 
 - Each source page is parsed using [Html2text](http://alir3z4.github.io/html2text/) and then [Newspaper3k](https://newspaper.readthedocs.io/en/latest/). 
 - The title of each txt file refers to the id of additional information (info_id). For example, '1.txt' contains parsed source page of url provided in the additional information with info_id=1.
