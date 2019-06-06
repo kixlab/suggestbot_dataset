@@ -5,12 +5,10 @@ The dataset is separated into three files (pharagraph.tsv, arguments.tsv, additi
 
 ## posts.tsv
 This TSV file has 5 fields, desvribed as below
-1. post_id: The ID for each post
+1. post_id: The ID for each post, same with the ID of the post in IAC 2.0 dataset
 2. post_topic: The topic of the discussion thread, given in the original IAC dataset
 3. post_text: The text of the post
 4. post_infoneed: 0 if the post does not need additional information, 1 if the post needs additional information
-5. post_IACid: The ID of the post in IAC 2.0 dataset
-6. post_parent: The ID of the parent post in IAC 2.0 dataset
 
 ## arguments.tsv
 This TSV file has 5 fields, described as below
