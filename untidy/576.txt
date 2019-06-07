@@ -1,0 +1,2545 @@
+
+
+![Page protected with pending
+
+changes](//upload.wikimedia.org/wikipedia/en/thumb/b/b7/Pending-protection-
+
+shackle.svg/20px-Pending-protection-shackle.svg.png)
+
+# Greenhouse gas
+
+From Wikipedia, the free encyclopedia
+
+![Changes must be reviewed before being displayed on this
+
+page.](/w/extensions/FlaggedRevs/frontend/modules/img/doc-
+
+magnify.png)![show/hide
+
+details](/w/extensions/FlaggedRevs/frontend/modules/img/arrow-down.png)
+
+This is the latest accepted revision, reviewed on _6 June 2019_.
+
+Jump to navigation Jump to search
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Greenhouse-
+
+effect-t445.svg/330px-Greenhouse-effect-t445.svg.png)
+
+The greenhouse effect of solar radiation on the Earth's surface caused by
+greenhouse gases
+
+A **greenhouse gas** is a gas that absorbs and emits radiant energy within the
+thermal infrared range. Greenhouse gases cause the greenhouse effect.[1] The
+primary greenhouse gases in Earth's atmosphere are water vapor, carbon
+dioxide, methane, nitrous oxide and ozone. Without greenhouse gases, the
+average temperature of Earth's surface would be about −18 °C (0 °F),[2] rather
+than the present average of 15 °C (59 °F).[3][4][5] The atmospheres of Venus,
+Mars and Titan also contain greenhouse gases.
+
+Human activities since the beginning of the Industrial Revolution (around
+1750) have produced a 45% increase in the atmospheric concentration of carbon
+dioxide (CO  
+2), from 280 ppm in 1750 to 406 ppm in early 2017. This increase has occurred
+despite the uptake of more than half of the emissions by various natural
+"sinks" involved in the carbon cycle.[6][7] The vast majority of anthropogenic
+carbon dioxide emissions (i.e., emissions produced by human activities) come
+from combustion of fossil fuels, principally coal, oil, and natural gas, with
+additional contributions coming from deforestation, changes in land use, soil
+erosion and agriculture (including livestock).[8][9]
+
+Should greenhouse gas emissions continue at their rate in 2017, global warming
+could cause Earth's surface temperature to exceed historical values as early
+as 2047, with potentially harmful effects on ecosystems, biodiversity and
+human livelihoods.[10] At current emission rates temperatures could increase
+by 2 °C, which the United Nations' IPCC designated as the upper limit to avoid
+"dangerous" levels, by 2036.[11]
+
+## Contents
+
+                    
+                                                * 1 Gases in Earth's atmosphere
+                              * 1.1 Greenhouse gases
+                              * 1.2 Non-greenhouse gases
+                              * 1.3 Indirect radiative effects
+                              * 1.4 Contribution of clouds to Earth's greenhouse effect
+                            * 2 Impacts on the overall greenhouse effect
+                              * 2.1 Proportion of direct effects at a given moment
+                              * 2.2 Atmospheric lifetime
+                              * 2.3 Radiative forcing
+                              * 2.4 Global warming potential
+                            * 3 Natural and anthropogenic sources
+                              * 3.1 Ice cores
+                              * 3.2 Changes since the Industrial Revolution
+                            * 4 Anthropogenic greenhouse gases
+                              * 4.1 Sectors
+                                * 4.1.1 Tourism
+                                * 4.1.2 Trucking and haulage
+                                * 4.1.3 Plastic
+                            * 5 Role of water vapor
+                            * 6 Direct greenhouse gas emissions
+                              * 6.1 Regional and national attribution of emissions
+                              * 6.2 From land-use change
+                              * 6.3 Greenhouse gas intensity
+                              * 6.4 Cumulative and historical emissions
+                              * 6.5 Changes since a particular base year
+                              * 6.6 Annual emissions
+                              * 6.7 Top emitter countries
+                                * 6.7.1 Annual
+                                * 6.7.2 Cumulative
+                              * 6.8 Embedded emissions
+                              * 6.9 Effect of policy
+                              * 6.10 Projections
+                              * 6.11 Relative CO2 emission from various fuels
+                            * 7 Life-cycle greenhouse-gas emissions of energy sources
+                            * 8 Removal from the atmosphere
+                              * 8.1 Natural processes
+                              * 8.2 Negative emissions
+                            * 9 History of scientific research
+                            * 10 See also
+                            * 11 References
+                            * 12 Bibliography
+                            * 13 External links
+                              * 13.1 Carbon dioxide emissions
+                    
+
+## Gases in Earth's atmosphere[edit]
+
+Main articles: Greenhouse effect and Atmosphere of Earth
+
+The most common gases in Earth's atmosphere are nitrogen (78%), oxygen (21%),
+and argon (0.9%). The next most common gases are carbon dioxide, nitrous
+oxides, methane, and ozone. They are trace gases that account for almost one
+tenth of 1% of Earth's atmosphere.
+
+See also: Global warming and Carbon dioxide in Earth's atmosphere
+
+![refer to caption and adjacent
+
+text](//upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Atmospheric_Transmission.png/390px-
+
+Atmospheric_Transmission.png)
+
+Atmospheric absorption and scattering at different wavelengths of
+electromagnetic waves. The largest absorption band of carbon dioxide is not
+far from the maximum in the thermal emission from ground, and it partly closes
+the window of transparency of water; hence its major effect.
+
+### Greenhouse gases[edit]
+
+Greenhouse gases are those that absorb and emit infrared radiation in the
+wavelength range emitted by Earth.[1] In order, the most abundant[
+_clarification needed_ ] greenhouse gases in Earth's atmosphere are:[
+_citation needed_ ]
+
+                    
+                                                * Water vapor (H
+                    
+
+2O)
+
+                    
+                                                * Carbon dioxide (CO
+                    
+
+2)
+
+                    
+                                                * Methane (CH
+                    
+
+4)
+
+                    
+                                                * Nitrous oxide (N
+                    
+
+2O)
+
+                    
+                                                * Ozone (O
+                    
+
+3)
+
+                    
+                                                * Chlorofluorocarbons (CFCs)
+                            * Hydrofluorocarbons (includes HCFCs and HFCs)
+                    
+
+Atmospheric concentrations are determined by the balance between sources
+(emissions of the gas from human activities and natural systems) and sinks
+(the removal of the gas from the atmosphere by conversion to a different
+chemical compound or absorption by bodies of water).[12] The proportion of an
+emission remaining in the atmosphere after a specified time is the "airborne
+fraction" (AF). The _annual airborne fraction_ is the ratio of the atmospheric
+increase in a given year to that year's total emissions. As of 2006 the annual
+airborne fraction for CO  
+2 was about 0.45. The annual airborne fraction increased at a rate of 0.25 ±
+0.21% per year over the period 1959–2006.[13]
+
+### Non-greenhouse gases[edit]
+
+The major atmospheric constituents, nitrogen (N  
+2), oxygen (O  
+2), and argon (Ar), are not greenhouse gases because molecules containing two
+atoms of the same element such as N  
+2 and O  
+2 have no net change in the distribution of their electrical charges when they
+vibrate, and monatomic gases such as Ar do not have vibrational modes. Hence
+they are almost totally unaffected by infrared radiation. Some molecules
+containing just two atoms of different elements, such as carbon monoxide (CO)
+and hydrogen chloride (HCl), do absorb infrared radiation, but these molecules
+are short-lived in the atmosphere owing to their reactivity and solubility.
+Therefore, they do not contribute significantly to the greenhouse effect and
+often are omitted when discussing greenhouse gases.
+
+### Indirect radiative effects[edit]
+
+![world map of carbon monoxide concentrations in the lower
+
+atmosphere](//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Mopitt_first_year_carbon_monoxide.jpg/220px-
+
+Mopitt_first_year_carbon_monoxide.jpg)
+
+The false colors in this image represent concentrations of carbon monoxide in
+the lower atmosphere, ranging from about 390 parts per billion (dark brown
+pixels), to 220 parts per billion (red pixels), to 50 parts per billion (blue
+pixels).[14]
+
+Some gases have indirect radiative effects (whether or not they are greenhouse
+gases themselves). This happens in two main ways. One way is that when they
+break down in the atmosphere they produce another greenhouse gas. For example,
+methane and carbon monoxide (CO) are oxidized to give carbon dioxide (and
+methane oxidation also produces water vapor). Oxidation of CO to CO  
+2 directly produces an unambiguous increase in radiative forcing although the
+reason is subtle. The peak of the thermal IR emission from Earth's surface is
+very close to a strong vibrational absorption band of CO  
+2 (wavelength 15 microns, or wavenumber 667 cm−1). On the other hand, the
+single CO vibrational band only absorbs IR at much shorter wavelengths (4.7
+microns, or 2145 cm−1), where the emission of radiant energy from Earth's
+surface is at least a factor of ten lower. Oxidation of methane to CO  
+2, which requires reactions with the OH radical, produces an instantaneous
+reduction in radiative absorption and emission since CO  
+2 is a weaker greenhouse gas than methane. However, the oxidations of CO and
+CH  
+4 are entwined since both consume OH radicals. In any case, the calculation of
+the total radiative effect includes both direct and indirect forcing.
+
+A second type of indirect effect happens when chemical reactions in the
+atmosphere involving these gases change the concentrations of greenhouse
+gases. For example, the destruction of non-methane volatile organic compounds
+(NMVOCs) in the atmosphere can produce ozone. The size of the indirect effect
+can depend strongly on where and when the gas is emitted.[15]
+
+Methane has indirect effects in addition to forming CO  
+2. The main chemical that reacts with methane in the atmosphere is the hydroxyl radical (OH), thus more methane means that the concentration of OH goes down. Effectively, methane increases its own atmospheric lifetime and therefore its overall radiative effect. The oxidation of methane can produce both ozone and water; and is a major source of water vapor in the normally dry stratosphere. CO and NMVOCs produce CO  
+2 when they are oxidized. They remove OH from the atmosphere, and this leads
+to higher concentrations of methane. The surprising effect of this is that the
+global warming potential of CO is three times that of CO  
+2.[16] The same process that converts NMVOCs to carbon dioxide can also lead
+to the formation of tropospheric ozone. Halocarbons have an indirect effect
+because they destroy stratospheric ozone. Finally, hydrogen can lead to ozone
+production and CH  
+4 increases as well as producing stratospheric water vapor.[15]
+
+### Contribution of clouds to Earth's greenhouse effect[edit]
+
+The major non-gas contributor to Earth's greenhouse effect, clouds, also
+absorb and emit infrared radiation and thus have an effect on greenhouse gas
+radiative properties. Clouds are water droplets or ice crystals suspended in
+the atmosphere.[17][18]
+
+## Impacts on the overall greenhouse effect[edit]
+
+![refer to caption and adjacent
+
+text](//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Attribution_of_individual_atmospheric_component_contributions_to_the_terrestrial_greenhouse_effect%2C_separated_into_feedback_and_forcing_categories_%28NASA%29.png/220px-
+
+Attribution_of_individual_atmospheric_component_contributions_to_the_terrestrial_greenhouse_effect%2C_separated_into_feedback_and_forcing_categories_%28NASA%29.png)
+
+Schmidt _et al._ (2010)[19] analysed how individual components of the
+atmosphere contribute to the total greenhouse effect. They estimated that
+water vapor accounts for about 50% of Earth's greenhouse effect, with clouds
+contributing 25%, carbon dioxide 20%, and the minor greenhouse gases and
+aerosols accounting for the remaining 5%. In the study, the reference model
+atmosphere is for 1980 conditions. Image credit: NASA.[20]
+
+The contribution of each gas to the greenhouse effect is determined by the
+characteristics of that gas, its abundance, and any indirect effects it may
+cause. For example, the direct radiative effect of a mass of methane is about
+84 times stronger than the same mass of carbon dioxide over a 20-year time
+frame[21] but it is present in much smaller concentrations so that its total
+direct radiative effect is smaller, in part due to its shorter atmospheric
+lifetime. On the other hand, in addition to its direct radiative impact,
+methane has a large, indirect radiative effect because it contributes to ozone
+formation. Shindell _et al._ (2005)[22] argue that the contribution to climate
+change from methane is at least double previous estimates as a result of this
+effect.[23]
+
+When ranked by their direct contribution to the greenhouse effect, the most
+important are:[17][ _not in citation given_ ]
+
+Compound  
+| Formula  
+| Concentration in  
+atmosphere[24] (ppm) | Contribution  
+(%)  
+---|---|---|---  
+**Water vapor and clouds** | H  
+2O | 10–50,000(A) | **36–72%**  
+**Carbon dioxide** | CO  
+2 | ~400 | **9–26%**  
+**Methane** | CH  
+4 | ~1.8 | **4–9%**  
+**Ozone** | O  
+3 | 2–8(B) | **3–7%**  
+**notes:**
+
+(A) Water vapor strongly varies locally[25]  
+(B) The concentration in stratosphere. About 90% of the ozone in Earth's
+atmosphere is contained in the stratosphere.
+
+In addition to the main greenhouse gases listed above, other greenhouse gases
+include sulfur hexafluoride, hydrofluorocarbons and perfluorocarbons (see IPCC
+list of greenhouse gases). Some greenhouse gases are not often listed. For
+example, nitrogen trifluoride has a high global warming potential (GWP) but is
+only present in very small quantities.[26]
+
+### Proportion of direct effects at a given moment[edit]
+
+It is not possible to state that a certain gas causes an exact percentage of
+the greenhouse effect. This is because some of the gases absorb and emit
+radiation at the same frequencies as others, so that the total greenhouse
+effect is not simply the sum of the influence of each gas. The higher ends of
+the ranges quoted are for each gas alone; the lower ends account for overlaps
+with the other gases.[17][18] In addition, some gases, such as methane, are
+known to have large indirect effects that are still being quantified.[27]
+
+### Atmospheric lifetime[edit]
+
+Aside from water vapor, which has a residence time of about nine days,[28]
+major greenhouse gases are well mixed and take many years to leave the
+atmosphere.[29] Although it is not easy to know with precision how long it
+takes greenhouse gases to leave the atmosphere, there are estimates for the
+principal greenhouse gases. Jacob (1999)[30] defines the lifetime τ
+{\displaystyle \tau } ![\\tau
+
+](https://wikimedia.org/api/rest_v1/media/math/render/svg/38a7dcde9730ef0853809fefc18d88771f95206c)
+of an atmospheric species X in a one-box model as the average time that a
+molecule of X remains in the box. Mathematically τ {\displaystyle \tau }
+![\\tau
+
+](https://wikimedia.org/api/rest_v1/media/math/render/svg/38a7dcde9730ef0853809fefc18d88771f95206c)
+can be defined as the ratio of the mass m {\displaystyle m}
+![m](https://wikimedia.org/api/rest_v1/media/math/render/svg/0a07d98bb302f3856cbabc47b2b9016692e3f7bc)
+(in kg) of X in the box to its removal rate, which is the sum of the flow of X
+out of the box ( F o u t {\displaystyle F_{out}}
+![F_{{out}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/010777ed1b8fe2ac62e41ec617400d95065c5bec)),
+chemical loss of X ( L {\displaystyle L}
+![L](https://wikimedia.org/api/rest_v1/media/math/render/svg/103168b86f781fe6e9a4a87b8ea1cebe0ad4ede8)),
+and deposition of X ( D {\displaystyle D}
+![D](https://wikimedia.org/api/rest_v1/media/math/render/svg/f34a0c600395e5d4345287e21fb26efd386990e6))
+(all in kg/s): τ = m F o u t + L + D {\displaystyle \tau ={\frac
+{m}{F_{out}+L+D}}} ![\\tau ={\\frac
+
+{m}{F_{{out}}+L+D}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/181e5432246a85f54af3b8a2defb06fa88fe8d38).[30]
+If output of this gas into the box ceased, then after time τ {\displaystyle
+\tau } ![\\tau
+
+](https://wikimedia.org/api/rest_v1/media/math/render/svg/38a7dcde9730ef0853809fefc18d88771f95206c),
+its concentration would decrease by about 63%.
+
+The atmospheric lifetime of a species therefore measures the time required to
+restore equilibrium following a sudden increase or decrease in its
+concentration in the atmosphere. Individual atoms or molecules may be lost or
+deposited to sinks such as the soil, the oceans and other waters, or
+vegetation and other biological systems, reducing the excess to background
+concentrations. The average time taken to achieve this is the mean lifetime.
+
+Carbon dioxide has a variable atmospheric lifetime, and cannot be specified
+precisely.[31] The atmospheric lifetime of CO  
+2 is estimated of the order of 30–95 years.[32] This figure accounts for CO  
+2 molecules being removed from the atmosphere by mixing into the ocean,
+photosynthesis, and other processes. However, this excludes the balancing
+fluxes of CO  
+2 into the atmosphere from the geological reservoirs, which have slower
+characteristic rates.[33] Although more than half of the CO  
+2 emitted is removed from the atmosphere within a century, some fraction
+(about 20%) of emitted CO  
+2 remains in the atmosphere for many thousands of years.[34] [35] [36] Similar
+issues apply to other greenhouse gases, many of which have longer mean
+lifetimes than CO  
+2, e.g. N2O has a mean atmospheric lifetime of 121 years.[21]
+
+### Radiative forcing[edit]
+
+Earth absorbs some of the radiant energy received from the sun, reflects some
+of it as light and reflects or radiates the rest back to space as heat.[37]
+Earth's surface temperature depends on this balance between incoming and
+outgoing energy.[37] If this energy balance is shifted, Earth's surface
+becomes warmer or cooler, leading to a variety of changes in global
+climate.[37]
+
+A number of natural and man-made mechanisms can affect the global energy
+balance and force changes in Earth's climate.[37] Greenhouse gases are one
+such mechanism.[37] Greenhouse gases absorb and emit some of the outgoing
+energy radiated from Earth's surface, causing that heat to be retained in the
+lower atmosphere.[37] As explained above, some greenhouse gases remain in the
+atmosphere for decades or even centuries, and therefore can affect Earth's
+energy balance over a long period.[37] Radiative forcing quantifies the effect
+of factors that influence Earth's energy balance, including changes in the
+concentrations of greenhouse gases.[37] Positive radiative forcing leads to
+warming by increasing the net incoming energy, whereas negative radiative
+forcing leads to cooling.[37]
+
+### Global warming potential[edit]
+
+The global warming potential (GWP) depends on both the efficiency of the
+molecule as a greenhouse gas and its atmospheric lifetime. GWP is measured
+relative to the same **mass** of CO  
+2 and evaluated for a specific timescale. Thus, if a gas has a high (positive)
+radiative forcing but also a short lifetime, it will have a large GWP on a
+20-year scale but a small one on a 100-year scale. Conversely, if a molecule
+has a longer atmospheric lifetime than CO  
+2 its GWP will increase when the timescale is considered. Carbon dioxide is
+defined to have a GWP of 1 over all time periods.
+
+Methane has an atmospheric lifetime of 12 ± 3 years. The 2007 IPCC report
+lists the GWP as 72 over a time scale of 20 years, 25 over 100 years and 7.6
+over 500 years.[38] A 2014 analysis, however, states that although methane's
+initial impact is about 100 times greater than that of CO  
+2, because of the shorter atmospheric lifetime, after six or seven decades,
+the impact of the two gases is about equal, and from then on methane's
+relative role continues to decline.[39] The decrease in GWP at longer times is
+because methane is degraded to water and CO  
+2 through chemical reactions in the atmosphere.
+
+Examples of the atmospheric lifetime and GWP relative to CO  
+2 for several greenhouse gases are given in the following table:
+
+Atmospheric lifetime and GWP relative to CO  
+2 at different time horizon for various greenhouse gases Gas name | Chemical  
+formula | Lifetime  
+(years)[21] | Global warming potential (GWP) for given time horizon  
+---|---|---|---  
+20-yr[21] | 100-yr[21] | 500-yr[38]  
+**Carbon dioxide** | CO  
+2 | 30–95 | 1 | 1 | 1  
+**Methane** | CH  
+4 | 12 | 84 | 28 | 7.6  
+**Nitrous oxide** | N  
+2O | 121 | 264 | 265 | 153  
+**CFC-12** | CCl  
+2F  
+2 | 100 | 10 800 | 10 200 | 5 200  
+**HCFC-22** | CHClF  
+2 | 12 | 5 280 | 1 760 | 549  
+**Tetrafluoromethane** | CF  
+4 | 50 000 | 4 880 | 6 630 | 11 200  
+**Hexafluoroethane** | C  
+2F  
+6 | 10 000 | 8 210 | 11 100 | 18 200  
+**Sulfur hexafluoride** | SF  
+6 | 3 200 | 17 500 | 23 500 | 32 600  
+**Nitrogen trifluoride** | NF  
+3 | 500 | 12 800 | 16 100 | 20 700
+
+The use of CFC-12 (except some essential uses) has been phased out due to its
+ozone depleting properties.[40] The phasing-out of less active HCFC-compounds
+will be completed in 2030.[41]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/1/14/M15-162b-EarthAtmosphere-
+
+CarbonDioxide-FutureRoleInGlobalWarming-
+
+Simulation-20151109.jpg/315px-M15-162b-EarthAtmosphere-CarbonDioxide-
+
+FutureRoleInGlobalWarming-Simulation-20151109.jpg)
+
+Carbon dioxide in Earth's atmosphere if _half_ of global-warming
+emissions[42][43] are _not_ absorbed.  
+(NASA simulation; 9 November 2015)
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/d/df/15-233-Earth-
+
+GlobalAirQuality-2014NitrogenDioxideLevels-20151214.jpg/273px-15-233-Earth-
+
+GlobalAirQuality-2014NitrogenDioxideLevels-20151214.jpg)
+
+Nitrogen dioxide 2014 – global air quality levels  
+(released 14 December 2015).[44]
+
+## Natural and anthropogenic sources[edit]
+
+![refer to caption and article
+
+text](//upload.wikimedia.org/wikipedia/commons/thumb/5/52/Carbon_History_and_Flux_Rev.png/220px-
+
+Carbon_History_and_Flux_Rev.png)
+
+Top: Increasing atmospheric carbon dioxide levels as measured in the
+atmosphere and reflected in ice cores. Bottom: The amount of net carbon
+increase in the atmosphere, compared to carbon emissions from burning fossil
+fuel.
+
+![refer to caption and image
+
+description](//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Diagram_showing_a_simplified_representation_of_the_Earth%27s_annual_carbon_cycle_%28US_DOE%29.png/220px-
+
+Diagram_showing_a_simplified_representation_of_the_Earth%27s_annual_carbon_cycle_%28US_DOE%29.png)
+
+This diagram shows a simplified representation of the contemporary global
+carbon cycle. Changes are measured in gigatons of carbon per year (GtC/y).
+Canadell _et al._ (2007) estimated the growth rate of global average
+atmospheric CO  
+2 for 2000–2006 as 1.93 parts-per-million per year (4.1 petagrams of carbon
+per year).[45]
+
+Aside from purely human-produced synthetic halocarbons, most greenhouse gases
+have both natural and human-caused sources. During the pre-industrial
+Holocene, concentrations of existing gases were roughly constant, because the
+large natural sources and sinks roughly balanced. In the industrial era, human
+activities have added greenhouse gases to the atmosphere, mainly through the
+burning of fossil fuels and clearing of forests.[46][47]
+
+The 2007 Fourth Assessment Report compiled by the IPCC (AR4) noted that
+"changes in atmospheric concentrations of greenhouse gases and aerosols, land
+cover and solar radiation alter the energy balance of the climate system", and
+concluded that "increases in anthropogenic greenhouse gas concentrations is
+very likely to have caused most of the increases in global average
+temperatures since the mid-20th century".[48] In AR4, "most of" is defined as
+more than 50%.
+
+_Abbreviations used in the two tables below: ppm =parts-per-million; ppb =
+parts-per-billion; ppt = parts-per-trillion; W/m 2 = watts per square metre_
+
+Current greenhouse gas concentrations[49] Gas | Pre-1750  
+tropospheric  
+concentration[50] | Recent  
+tropospheric  
+concentration[51] | Absolute increase  
+since 1750 | Percentage  
+increase  
+since 1750 | Increased  
+radiative forcing  
+(W/m2)[52]  
+---|---|---|---|---|---  
+Carbon dioxide (CO  
+2) | 280 ppm[53] | 395.4 ppm[54] | 115.4 ppm | 41.2% | 1.88  
+Methane (CH  
+4) | 700 ppb[55] | 1893 ppb /[56][57]  
+1762 ppb[56] | 1193 ppb /  
+1062 ppb | 170.4% /  
+151.7% | 0.49  
+Nitrous oxide (N  
+2O) | 270 ppb[52][58] | 326 ppb /[56]  
+324 ppb[56] | 56 ppb /  
+54 ppb | 20.7% /  
+20.0% | 0.17  
+Tropospheric  
+ozone (O  
+3) | 237 ppb[50] | 337 ppb[50] | 100 ppb | 42% | 0.4[59]  
+Relevant to radiative forcing and/or ozone depletion; all of the following
+have no natural sources and hence zero amounts pre-industrial[49] Gas | Recent  
+tropospheric  
+concentration | Increased  
+radiative forcing  
+(W/m2)  
+---|---|---  
+CFC-11  
+(trichlorofluoromethane)  
+(CCl  
+3F) | 236 ppt /  
+234 ppt | 0.061  
+CFC-12 (CCl  
+2F  
+2) | 527 ppt /  
+527 ppt | 0.169  
+CFC-113 (Cl  
+2FC-CClF  
+2) | 74 ppt /  
+74 ppt | 0.022  
+HCFC-22 (CHClF  
+2) | 231 ppt /  
+210 ppt | 0.046  
+HCFC-141b (CH  
+3CCl  
+2F) | 24 ppt /  
+21 ppt | 0.0036  
+HCFC-142b (CH  
+3CClF  
+2) | 23 ppt /  
+21 ppt | 0.0042  
+Halon 1211 (CBrClF  
+2) | 4.1 ppt /  
+4.0 ppt | 0.0012  
+Halon 1301 (CBrClF  
+3) | 3.3 ppt /  
+3.3 ppt | 0.001  
+HFC-134a (CH  
+2FCF  
+3) | 75 ppt /  
+64 ppt | 0.0108  
+Carbon tetrachloride (CCl  
+4) | 85 ppt /  
+83 ppt | 0.0143  
+Sulfur hexafluoride (SF  
+6) | 7.79 ppt /[60]  
+7.39 ppt[60] | 0.0043  
+Other halocarbons | Varies by  
+substance | collectively  
+0.02  
+Halocarbons in total | | 0.3574
+
+![refer to caption and article
+
+text](//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Vostok_Petit_data.svg/220px-
+
+Vostok_Petit_data.svg.png)
+
+400,000 years of ice core data
+
+Ice cores provide evidence for greenhouse gas concentration variations over
+the past 800,000 years (see the following section). Both CO  
+2 and CH  
+4 vary between glacial and interglacial phases, and concentrations of these
+gases correlate strongly with temperature. Direct data does not exist for
+periods earlier than those represented in the ice core record, a record that
+indicates CO  
+2 mole fractions stayed within a range of 180 ppm to 280 ppm throughout the
+last 800,000 years, until the increase of the last 250 years. However, various
+proxies and modeling suggests larger variations in past epochs; 500 million
+years ago CO  
+2 levels were likely 10 times higher than now.[61] Indeed, higher CO  
+2 concentrations are thought to have prevailed throughout most of the
+Phanerozoic eon, with concentrations four to six times current concentrations
+during the Mesozoic era, and ten to fifteen times current concentrations
+during the early Palaeozoic era until the middle of the Devonian period, about
+400 Ma.[62][63][64] The spread of land plants is thought to have reduced CO  
+2 concentrations during the late Devonian, and plant activities as both
+sources and sinks of CO  
+2 have since been important in providing stabilising feedbacks.[65] Earlier
+still, a 200-million year period of intermittent, widespread glaciation
+extending close to the equator (Snowball Earth) appears to have been ended
+suddenly, about 550 Ma, by a colossal volcanic outgassing that raised the CO  
+2 concentration of the atmosphere abruptly to 12%, about 350 times modern
+levels, causing extreme greenhouse conditions and carbonate deposition as
+limestone at the rate of about 1 mm per day.[66] This episode marked the close
+of the Precambrian eon, and was succeeded by the generally warmer conditions
+of the Phanerozoic, during which multicellular animal and plant life evolved.
+No volcanic carbon dioxide emission of comparable scale has occurred since. In
+the modern era, emissions to the atmosphere from volcanoes are approximately
+0.645 billion tons of CO  
+2 per year, whereas humans contribute 29 billion tons of CO  
+2 each year.[67][66][68][69]
+
+### Ice cores[edit]
+
+Measurements from Antarctic ice cores show that before industrial emissions
+started atmospheric CO  
+2 mole fractions were about 280 parts per million (ppm), and stayed between
+260 and 280 during the preceding ten thousand years.[70] Carbon dioxide mole
+fractions in the atmosphere have gone up by approximately 35 percent since the
+1900s, rising from 280 parts per million by volume to 387 parts per million in
+2009. One study using evidence from stomata of fossilized leaves suggests
+greater variability, with carbon dioxide mole fractions above 300 ppm during
+the period seven to ten thousand years ago,[71] though others have argued that
+these findings more likely reflect calibration or contamination problems
+rather than actual CO  
+2 variability.[72][73] Because of the way air is trapped in ice (pores in the
+ice close off slowly to form bubbles deep within the firn) and the time period
+represented in each ice sample analyzed, these figures represent averages of
+atmospheric concentrations of up to a few centuries rather than annual or
+decadal levels.
+
+### Changes since the Industrial Revolution[edit]
+
+![Refer to
+
+caption](//upload.wikimedia.org/wikipedia/commons/thumb/0/06/CO2_increase_rate.png/220px-
+
+CO2_increase_rate.png)
+
+Recent year-to-year increase of atmospheric CO  
+2.
+
+![Refer to
+
+caption](//upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Major_greenhouse_gas_trends.png/220px-
+
+Major_greenhouse_gas_trends.png)
+
+Major greenhouse gas trends.
+
+Since the beginning of the Industrial Revolution, the concentrations of most
+of the greenhouse gases have increased. For example, the mole fraction of
+carbon dioxide has increased from 280 ppm to 400 ppm, or 120 ppm over modern
+pre-industrial levels. The first 30 ppm increase took place in about 200
+years, from the start of the Industrial Revolution to 1958; however the next
+90 ppm increase took place within 56 years, from 1958 to 2014.[74][75]
+
+Recent data also shows that the concentration is increasing at a higher rate.
+In the 1960s, the average annual increase was only 37% of what it was in 2000
+through 2007.[76]
+
+Total cumulative emissions from 1870 to 2017 were 425±20 GtC (1539 GtCO2) from
+fossil fuels and industry, and 180±60 GtC (660 GtCO2) from land use change.
+Land-use change, such as deforestation, caused about 31% of cumulative
+emissions over 1870–2017, coal 32%, oil 25%, and gas 10%.[77]
+
+Today,[ _when?_ ] the stock of carbon in the atmosphere increases by more than
+3 million tonnes per annum (0.04%) compared with the existing stock.[
+_clarification needed_ ] This increase is the result of human activities by
+burning fossil fuels, deforestation and forest degradation in tropical and
+boreal regions.[78]
+
+The other greenhouse gases produced from human activity show similar increases
+in both amount and rate of increase. Many observations are available online in
+a variety of Atmospheric Chemistry Observational Databases.
+
+## Anthropogenic greenhouse gases[edit]
+
+See also: Climate change and ecosystems
+
+![](//upload.wikimedia.org/wikipedia/en/thumb/5/51/NOAA_Annual_Greenhouse_Gas_Index_2012.png/250px-
+
+NOAA_Annual_Greenhouse_Gas_Index_2012.png)
+
+This graph shows changes in the annual greenhouse gas index (AGGI) between
+1979 and 2011. [79] The AGGI measures the levels of greenhouse gases in the
+atmosphere based on their ability to cause changes in Earth's climate.[79]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Global_greenhouse_gas_emissions_by_sector%2C_1990-2005%2C_in_carbon_dioxide_equivalents_%28EPA%2C_2010%29.png/250px-
+
+Global_greenhouse_gas_emissions_by_sector%2C_1990-2005%2C_in_carbon_dioxide_equivalents_%28EPA%2C_2010%29.png)
+
+This bar graph shows global greenhouse gas emissions by sector from 1990 to
+2005, measured in carbon dioxide equivalents.[80]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Global_Carbon_Emissions.svg/250px-
+
+Global_Carbon_Emissions.svg.png)
+
+Modern global CO2 emissions from the burning of fossil fuels.
+
+Since about 1750 human activity has increased the concentration of carbon
+dioxide and other greenhouse gases. Measured atmospheric concentrations of
+carbon dioxide are currently 100 ppm higher than pre-industrial levels.[81]
+Natural sources of carbon dioxide are more than 20 times greater than sources
+due to human activity,[82] but over periods longer than a few years natural
+sources are closely balanced by natural sinks, mainly photosynthesis of carbon
+compounds by plants and marine plankton. As a result of this balance, the
+atmospheric mole fraction of carbon dioxide remained between 260 and 280 parts
+per million for the 10,000 years between the end of the last glacial maximum
+and the start of the industrial era.[83]
+
+It is likely that anthropogenic (i.e., human-induced) warming, such as that
+due to elevated greenhouse gas levels, has had a discernible influence on many
+physical and biological systems.[84] Future warming is projected to have a
+range of impacts, including sea level rise,[85] increased frequencies and
+severities of some extreme weather events,[85] loss of biodiversity,[86] and
+regional changes in agricultural productivity.[86]
+
+The main sources of greenhouse gases due to human activity are:
+
+                    
+                                                * burning of fossil fuels and deforestation leading to higher carbon dioxide concentrations in the air. Land use change (mainly deforestation in the tropics) account for up to one third of total anthropogenic CO
+                    
+
+2 emissions.[83]
+
+                    
+                                                * livestock enteric fermentation and manure management,[87] paddy rice farming, land use and wetland changes, man-made lakes,[88] pipeline losses, and covered vented landfill emissions leading to higher methane atmospheric concentrations. Many of the newer style fully vented septic systems that enhance and target the fermentation process also are sources of atmospheric methane.
+                            * use of chlorofluorocarbons (CFCs) in refrigeration systems, and use of CFCs and halons in fire suppression systems and manufacturing processes.
+                            * agricultural activities, including the use of fertilizers, that lead to higher nitrous oxide (N
+                    
+
+2O) concentrations.
+
+The seven sources of CO  
+2 from fossil fuel combustion are (with percentage contributions for
+2000–2004):[89]
+
+Seven main fossil fuel  
+combustion sources | Contribution  
+(%)  
+---|---  
+Liquid fuels (e.g., gasoline, fuel oil) | 36%  
+Solid fuels (e.g., coal) | 35%  
+Gaseous fuels (e.g., natural gas) | 20%  
+Cement production | 3 %  
+Flaring gas industrially and at wells | < 1%  
+Non-fuel hydrocarbons | < 1%  
+"International bunker fuels" of transport  
+not included in national inventories[90] | 4 %
+
+Carbon dioxide, methane, nitrous oxide (N  
+2O) and three groups of fluorinated gases (sulfur hexafluoride (SF  
+6), hydrofluorocarbons (HFCs), and perfluorocarbons (PFCs)) are the major
+anthropogenic greenhouse gases,[91]:147[92] and are regulated under the Kyoto
+Protocol international treaty, which came into force in 2005.[93] Emissions
+limitations specified in the Kyoto Protocol expired in 2012.[93] The Cancún
+agreement, agreed on in 2010, includes voluntary pledges made by 76 countries
+to control emissions.[94] At the time of the agreement, these 76 countries
+were collectively responsible for 85% of annual global emissions.[94]
+
+Although CFCs are greenhouse gases, they are regulated by the Montreal
+Protocol, which was motivated by CFCs' contribution to ozone depletion rather
+than by their contribution to global warming. Note that ozone depletion has
+only a minor role in greenhouse warming, though the two processes often are
+confused in the media. On 15 October 2016, negotiators from over 170 nations
+meeting at the summit of the United Nations Environment Programme reached a
+legally binding accord to phase out hydrofluorocarbons (HFCs) in an amendment
+to the Montreal Protocol.[95][96][97]
+
+### Sectors[edit]
+
+![\[icon\]](//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Wiki_letter_w_cropped.svg/20px-
+
+Wiki_letter_w_cropped.svg.png)|
+
+This section **needs expansion** with: Information on emissions from other
+sectors. You can help by adding to it. _( July 2013)_
+
+---|--- 
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Greenhouse_Gas_by_Sector.png/220px-
+
+Greenhouse_Gas_by_Sector.png)
+
+This figure shows the relative fraction of anthropogenic greenhouse gases
+coming from each of eight categories of sources, as estimated by the Emission
+Database for Global Atmospheric Research version 4.2, fast track 2010 project.
+These values are intended to provide a snapshot of global annual greenhouse
+gas emissions in the year 2010. The top panel shows the sum over all
+anthropogenic greenhouse gases, weighted by their global warming potential
+over the next 100 years. This consists of 72% carbon dioxide, 20% methane, 5%
+nitrous oxide and 3% other gases. Lower panels show the comparable information
+for each of these three primary greenhouse gases, with the same coloring of
+sectors as used in the top chart. Segments with less than 1% fraction are not
+labeled.
+
+#### Tourism[edit]
+
+According to UNEP global tourism is closely linked to climate change. Tourism
+is a significant contributor to the increasing concentrations of greenhouse
+gases in the atmosphere. Tourism accounts for about 50% of traffic movements.
+Rapidly expanding air traffic contributes about 2.5% of the production of CO  
+2. The number of international travelers is expected to increase from 594 million in 1996 to 1.6 billion by 2020, adding greatly to the problem unless steps are taken to reduce emissions.[98]
+
+#### Trucking and haulage[edit]
+
+The trucking and haulage industry plays a part in production of CO  
+2, contributing around 20% of the UK's total carbon emissions a year, with
+only the energy industry having a larger impact at around 39%.[99] Average
+carbon emissions within the haulage industry are falling—in the thirty-year
+period from 1977 to 2007, the carbon emissions associated with a 200-mile
+journey fell by 21 percent; NOx emissions are also down 87 percent, whereas
+journey times have fallen by around a third.[100] Due to their size, HGVs
+often receive criticism regarding their CO2 emissions; however, rapid
+development in engine technology and fuel management is having a largely
+positive effect.
+
+#### Plastic[edit]
+
+Plastic is produced mainly from Fossil fuels. Plastic manufacturing is
+estimated to use 8 percent of yearly global oil production. The EPA estimates
+as many as five ounces of carbon dioxide are emitted for each ounce of
+polyethylene terephthalate (PET) produced—the type of plastic most commonly
+used for beverage bottles,[101] the transportation produce greenhouse gases
+also.[102] Plastic waste emits carbon dioxide when it degrades. In 2018
+research claimed that some of the most common plastics in the environment
+release the greenhouse gases methane and ethylene when exposed to sunlight in
+an amount that can affect the earth climate.[103][104]
+
+From the other side, if it is placed in a landfill, it becomes a carbon
+sink[105] although biodegradable plastics have caused methane emissions. [106]
+Due to the lightness of plastic versus glass or metal, plastic may reduce
+energy consumption. For example, packaging beverages in PET plastic rather
+than glass or metal is estimated to save 52% in transportation energy, if the
+glass or metal package is single use, of course.
+
+In 2019 a new report "Plastic and Climate" was published. According to the
+report plastic will contribute greenhouse gases in the equivalent of 850
+million tons of carbon dioxide (CO2) to the atmosphere in 2019. In current
+trend, annual emissions will grow to 1.34 billion tons by 2030. By 2050
+plastic could emit 56 billion tons of Greenhouse gas emissions, as much as 14
+percent of the Earth's remaining carbon budget.[107] The report says that only
+solutions which involve a reduction in consumption can solve the problem,
+while others like biodegradable plastic, ocean cleanup, using renewable energy
+in plastic industry can do little, and in some cases may even worsen it.[108]
+
+## Role of water vapor[edit]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/BAMS_climate_assess_boulder_water_vapor_2002.png/330px-
+
+BAMS_climate_assess_boulder_water_vapor_2002.png)
+
+Increasing water vapor in the stratosphere at Boulder, Colorado.
+
+Water vapor accounts for the largest percentage of the greenhouse effect,
+between 36% and 66% for clear sky conditions and between 66% and 85% when
+including clouds.[18] Water vapor concentrations fluctuate regionally, but
+human activity does not directly affect water vapor concentrations except at
+local scales, such as near irrigated fields. Indirectly, human activity that
+increases global temperatures will increase water vapor concentrations, a
+process known as water vapor feedback.[109] The atmospheric concentration of
+vapor is highly variable and depends largely on temperature, from less than
+0.01% in extremely cold regions up to 3% by mass in saturated air at about 32
+°C.[110] (See Relative humidity#other important facts.)
+
+The average residence time of a water molecule in the atmosphere is only about
+nine days, compared to years or centuries for other greenhouse gases such as
+CH  
+4 and CO  
+2.[111] Thus, water vapor responds to and amplifies effects of the other
+greenhouse gases. The Clausius–Clapeyron relation establishes that more water
+vapor will be present per unit volume at elevated temperatures. This and other
+basic principles indicate that warming associated with increased
+concentrations of the other greenhouse gases also will increase the
+concentration of water vapor (assuming that the relative humidity remains
+approximately constant; modeling and observational studies find that this is
+indeed so). Because water vapor is a greenhouse gas, this results in further
+warming and so is a "positive feedback" that amplifies the original warming.
+Eventually other earth processes offset these positive feedbacks, stabilizing
+the global temperature at a new equilibrium and preventing the loss of Earth's
+water through a Venus-like runaway greenhouse effect.[112]
+
+## Direct greenhouse gas emissions[edit]
+
+Between the period 1970 to 2004, greenhouse gas emissions (measured in CO  
+2-equivalent)[113] increased at an average rate of 1.6% per year, with CO  
+2 emissions from the use of fossil fuels growing at a rate of 1.9% per
+year.[114][115] Total anthropogenic emissions at the end of 2009 were
+estimated at 49.5 gigatonnes CO  
+2-equivalent.[116]:15 These emissions include CO  
+2 from fossil fuel use and from land use, as well as emissions of methane,
+nitrous oxide and other greenhouse gases covered by the Kyoto Protocol.
+
+At present, the primary source of CO  
+2 emissions is the burning of coal, natural gas, and petroleum for electricity
+and heat.[117]
+
+### Regional and national attribution of emissions[edit]
+
+See also: Kyoto Protocol and government action
+
+According to the Environmental Protection Agency (EPA), GHG emissions in the
+United States can be traced from different sectors.
+
+There are several different ways of measuring greenhouse gas emissions, for
+example, see World Bank (2010)[118]:362 for tables of national emissions data.
+Some variables that have been reported[119] include:
+
+                    
+                                                * Definition of measurement boundaries: Emissions can be attributed geographically, to the area where they were emitted (the territory principle) or by the activity principle to the territory produced the emissions. These two principles result in different totals when measuring, for example, electricity importation from one country to another, or emissions at an international airport.
+                            * Time horizon of different gases: Contribution of a given greenhouse gas is reported as a CO
+                    
+
+2 equivalent. The calculation to determine this takes into account how long
+that gas remains in the atmosphere. This is not always known accurately and
+calculations must be regularly updated to reflect new information.
+
+                    
+                                                * What sectors are included in the calculation (e.g., energy industries, industrial processes, agriculture etc.): There is often a conflict between transparency and availability of data.
+                            * The measurement protocol itself: This may be via direct measurement or estimation. The four main methods are the emission factor-based method, mass balance method, predictive emissions monitoring systems, and continuous emissions monitoring systems. These methods differ in accuracy, cost, and usability.
+                    
+
+These different measures are sometimes used by different countries to assert
+various policy/ethical positions on climate change (Banuri _et al._ , 1996, p.
+94).[120] The use of different measures leads to a lack of comparability,
+which is problematic when monitoring progress towards targets. There are
+arguments for the adoption of a common measurement tool, or at least the
+development of communication between different tools.[119]
+
+Emissions may be measured over long time periods. This measurement type is
+called historical or cumulative emissions. Cumulative emissions give some
+indication of who is responsible for the build-up in the atmospheric
+concentration of greenhouse gases (IEA, 2007, p. 199).[121]
+
+The national accounts balance would be positively related to carbon emissions.
+The national accounts balance shows the difference between exports and
+imports. For many richer nations, such as the United States, the accounts
+balance is negative because more goods are imported than they are exported.
+This is mostly due to the fact that it is cheaper to produce goods outside of
+developed countries, leading the economies of developed countries to become
+increasingly dependent on services and not goods. We believed that a positive
+accounts balance would means that more production was occurring in a country,
+so more factories working would increase carbon emission levels.[122]
+
+Emissions may also be measured across shorter time periods. Emissions changes
+may, for example, be measured against a base year of 1990. 1990 was used in
+the United Nations Framework Convention on Climate Change (UNFCCC) as the base
+year for emissions, and is also used in the Kyoto Protocol (some gases are
+also measured from the year 1995).[91]:146, 149 A country's emissions may also
+be reported as a proportion of global emissions for a particular year.
+
+Another measurement is of per capita emissions. This divides a country's total
+annual emissions by its mid-year population.[118]:370 Per capita emissions may
+be based on historical or annual emissions (Banuri _et al._ , 1996, pp.
+106–07).[120]
+
+While cities are sometimes considered to be disproportionate contributors to
+emissions, per-capita emissions tend to be lower for cities than the averages
+in their countries.[123]
+
+### From land-use change[edit]
+
+![Refer to
+
+caption.](//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Greenhouse_gas_emissions_from_agriculture%2C_forestry_and_other_land_use%2C_1970-2010.png/220px-
+
+Greenhouse_gas_emissions_from_agriculture%2C_forestry_and_other_land_use%2C_1970-2010.png)
+
+Greenhouse gas emissions from agriculture, forestry and other land use,
+1970–2010.
+
+Land-use change, e.g., the clearing of forests for agricultural use, can
+affect the concentration of greenhouse gases in the atmosphere by altering how
+much carbon flows out of the atmosphere into carbon sinks.[124] Accounting for
+land-use change can be understood as an attempt to measure "net" emissions,
+i.e., gross emissions from all sources minus the removal of emissions from the
+atmosphere by carbon sinks (Banuri _et al._ , 1996, pp. 92–93).[120]
+
+There are substantial uncertainties in the measurement of net carbon
+emissions.[125] Additionally, there is controversy over how carbon sinks
+should be allocated between different regions and over time (Banuri _et al._ ,
+1996, p. 93).[120] For instance, concentrating on more recent changes in
+carbon sinks is likely to favour those regions that have deforested earlier,
+e.g., Europe.
+
+### Greenhouse gas intensity[edit]
+
+See also: List of countries by carbon intensity
+
+![Refer to
+
+caption.](//upload.wikimedia.org/wikipedia/commons/thumb/7/70/GHG_intensity_2000.svg/180px-
+
+GHG_intensity_2000.svg.png)
+
+Greenhouse gas intensity in the year 2000, including land-use change.
+
+|
+
+![Refer to
+
+caption.](//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Carbon_intensity_of_GDP_%28using_PPP%29_for_different_regions%2C_1982-2011.png/170px-
+
+Carbon_intensity_of_GDP_%28using_PPP%29_for_different_regions%2C_1982-2011.png)
+
+Carbon intensity of GDP (using PPP) for different regions, 1982–2011.
+
+|
+
+![Refer to
+
+caption.](//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Carbon_intensity_of_GDP_%28using_MER%29_for_different_regions%2C_1982-2011_%28corrected%29.png/170px-
+
+Carbon_intensity_of_GDP_%28using_MER%29_for_different_regions%2C_1982-2011_%28corrected%29.png)
+
+Carbon intensity of GDP (using MER) for different regions, 1982–2011.
+
+---|---|--- 
+
+Greenhouse gas intensity is a ratio between greenhouse gas emissions and
+another metric, e.g., gross domestic product (GDP) or energy use. The terms
+"carbon intensity" and "emissions intensity" are also sometimes used.[126]
+Emission intensities may be calculated using market exchange rates (MER) or
+purchasing power parity (PPP) (Banuri _et al._ , 1996, p. 96).[120]
+Calculations based on MER show large differences in intensities between
+developed and developing countries, whereas calculations based on PPP show
+smaller differences.
+
+### Cumulative and historical emissions[edit]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Cumulative_energy-
+
+related_carbon_dioxide_emissions_between_1850-2005_for_low-income%2C_middle-
+
+income%2C_high-income%2C_the_EU-15%2C_and_OECD_countries.png/220px-
+
+Cumulative_energy-related_carbon_dioxide_emissions_between_1850-2005_for_low-
+
+income%2C_middle-income%2C_high-income%2C_the_EU-15%2C_and_OECD_countries.png)
+
+Cumulative energy-related CO  
+2 emissions between the years 1850–2005 grouped into low-income, middle-
+income, high-income, the EU-15, and the OECD countries.
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Cumulative_energy-
+
+related_carbon_dioxide_emissions_between_1850-2005_for_different_countries.png/220px-
+
+Cumulative_energy-
+
+related_carbon_dioxide_emissions_between_1850-2005_for_different_countries.png)
+
+Cumulative energy-related CO  
+2 emissions between the years 1850–2005 for individual countries.
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/8/84/CO2_responsibility_1950-2000.svg/220px-
+
+CO2_responsibility_1950-2000.svg.png)
+
+Map of cumulative per capita anthropogenic atmospheric CO  
+2 emissions by country. Cumulative emissions include land use change, and are
+measured between the years 1950 and 2000.
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/6/61/Yearly_trends_in_annual_regional_carbon_dioxide_emissions_from_fuel_combustion_between_1971_and_2009.png/220px-
+
+Yearly_trends_in_annual_regional_carbon_dioxide_emissions_from_fuel_combustion_between_1971_and_2009.png)
+
+Regional trends in annual CO  
+2 emissions from fuel combustion between 1971 and 2009.
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Regional_trends_in_annual_per_capita_carbon_dioxide_emissions_from_fuel_combustion_between_1971_and_2009.png/220px-
+
+Regional_trends_in_annual_per_capita_carbon_dioxide_emissions_from_fuel_combustion_between_1971_and_2009.png)
+
+Regional trends in annual per capita CO  
+2 emissions from fuel combustion between 1971 and 2009.
+
+Cumulative anthropogenic (i.e., human-emitted) emissions of CO  
+2 from fossil fuel use are a major cause of global warming,[127] and give some
+indication of which countries have contributed most to human-induced climate
+change.[128]:15
+
+Top-5 historic CO  
+2 contributors by region over the years 1800 to 1988 (in %) Region |
+Industrial  
+CO  
+2 | Total  
+CO  
+2  
+---|---|---  
+OECD North America | 33.2 | 29.7  
+OECD Europe | 26.1 | 16.6  
+Former USSR | 14.1 | 12.5  
+China | 5.5 | 6.0  
+Eastern Europe | 5.5 | 4.8
+
+The table above to the left is based on Banuri _et al._ (1996, p. 94).[120]
+Overall, developed countries accounted for 83.8% of industrial CO  
+2 emissions over this time period, and 67.8% of total CO  
+2 emissions. Developing countries accounted for industrial CO  
+2 emissions of 16.2% over this time period, and 32.2% of total CO  
+2 emissions. The estimate of total CO  
+2 emissions includes biotic carbon emissions, mainly from deforestation.
+Banuri _et al._ (1996, p. 94)[120] calculated per capita cumulative emissions
+based on then-current population. The ratio in per capita emissions between
+industrialized countries and developing countries was estimated at more than
+10 to 1.
+
+Including biotic emissions brings about the same controversy mentioned earlier
+regarding carbon sinks and land-use change (Banuri _et al._ , 1996, pp.
+93–94).[120] The actual calculation of net emissions is very complex, and is
+affected by how carbon sinks are allocated between regions and the dynamics of
+the climate system.
+
+Non-OECD countries accounted for 42% of cumulative energy-related CO  
+2 emissions between 1890 and 2007.[129]:179–80 Over this time period, the US
+accounted for 28% of emissions; the EU, 23%; Russia, 11%; China, 9%; other
+OECD countries, 5%; Japan, 4%; India, 3%; and the rest of the world,
+18%.[129]:179–80
+
+### Changes since a particular base year[edit]
+
+See also: Kyoto Protocol § Government action and emissions
+
+Between 1970 and 2004, global growth in annual CO  
+2 emissions was driven by North America, Asia, and the Middle East.[130] The
+sharp acceleration in CO  
+2 emissions since 2000 to more than a 3% increase per year (more than 2 ppm
+per year) from 1.1% per year during the 1990s is attributable to the lapse of
+formerly declining trends in carbon intensity of both developing and developed
+nations. China was responsible for most of global growth in emissions during
+this period. Localised plummeting emissions associated with the collapse of
+the Soviet Union have been followed by slow emissions growth in this region
+due to more efficient energy use, made necessary by the increasing proportion
+of it that is exported.[89] In comparison, methane has not increased
+appreciably, and N  
+2O by 0.25% y−1.
+
+Using different base years for measuring emissions has an effect on estimates
+of national contributions to global warming.[128]:17–18[131] This can be
+calculated by dividing a country's highest contribution to global warming
+starting from a particular base year, by that country's minimum contribution
+to global warming starting from a particular base year. Choosing between
+different base years of 1750, 1900, 1950, and 1990 has a significant effect
+for most countries.[128]:17–18 Within the G8 group of countries, it is most
+significant for the UK, France and Germany. These countries have a long
+history of CO  
+2 emissions (see the section on Cumulative and historical emissions).
+
+### Annual emissions[edit]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/GHG_per_capita_2000.svg/220px-
+
+GHG_per_capita_2000.svg.png)
+
+Per capita anthropogenic greenhouse gas emissions by country for the year 2000
+including land-use change.
+
+Annual per capita emissions in the industrialized countries are typically as
+much as ten times the average in developing countries.[91]:144 Due to China's
+fast economic development, its annual per capita emissions are quickly
+approaching the levels of those in the Annex I group of the Kyoto Protocol
+(i.e., the developed countries excluding the US).[132] Other countries with
+fast growing emissions are South Korea, Iran, and Australia (which apart from
+the oil rich Persian Gulf states, now has the highest percapita emission rate
+in the world). On the other hand, annual per capita emissions of the EU-15 and
+the US are gradually decreasing over time.[132] Emissions in Russia and
+Ukraine have decreased fastest since 1990 due to economic restructuring in
+these countries.[133]
+
+Energy statistics for fast growing economies are less accurate than those for
+the industrialized countries. For China's annual emissions in 2008, the
+Netherlands Environmental Assessment Agency estimated an uncertainty range of
+about 10%.[132]
+
+The greenhouse gas footprint refers to the emissions resulting from the
+creation of products or services. It is more comprehensive than the commonly
+used carbon footprint, which measures only carbon dioxide, one of many
+greenhouse gases.
+
+2015 was the first year to see both total global economic growth and a
+reduction of carbon emissions.[134]
+
+### Top emitter countries[edit]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/CO2_emission_pie_chart.svg/220px-
+
+CO2_emission_pie_chart.svg.png)
+
+Global carbon dioxide emissions by country.
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Ghg-
+
+co2-2012.svg/330px-Ghg-co2-2012.svg.png)
+
+The top 40 countries emitting all greenhouse gases, showing both that derived
+from all sources including land clearance and forestry and also the CO2
+component excluding those sources. Per capita figures are included. "World
+Resources Institute data".. Note that Indonesia and Brazil show very much
+higher than on graphs simply showing fossil fuel use.
+
+See also: List of countries by carbon dioxide emissions, List of countries by
+carbon dioxide emissions per capita, List of countries by greenhouse gas
+emissions, and List of countries by greenhouse gas emissions per capita
+
+#### Annual[edit]
+
+In 2009, the annual top ten emitting countries accounted for about two-thirds
+of the world's annual energy-related CO  
+2 emissions.[135]
+
+Top-10 annual energy-related CO  
+2 emitters for the year 2009[ _citation needed_ ] Country | % of global total  
+annual emissions | Tonnes of GHG  
+per capita  
+---|---|---  
+![](//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/23px-
+
+Flag_of_the_People%27s_Republic_of_China.svg.png) China | 23.6 | 5.1  
+![](//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/23px-
+
+Flag_of_the_United_States.svg.png) United States | 17.9 | 16.9  
+![](//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/23px-
+
+Flag_of_India.svg.png) India | 5.5 | 1.4  
+![](//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-
+
+Flag_of_Russia.svg.png) Russia | 5.3 | 10.8  
+![](//upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/23px-
+
+Flag_of_Japan.svg.png) Japan | 3.8 | 8.6  
+![](//upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/23px-
+
+Flag_of_Germany.svg.png) Germany | 2.6 | 9.2  
+![](//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/23px-
+
+Flag_of_Iran.svg.png) Iran | 1.8 | 7.3  
+![](//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/23px-
+
+Flag_of_Canada_%28Pantone%29.svg.png) Canada | 1.8 | 15.4  
+![](//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/23px-
+
+Flag_of_South_Korea.svg.png) South Korea | 1.8 | 10.6  
+![](//upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/23px-
+
+Flag_of_the_United_Kingdom.svg.png) United Kingdom | 1.6 | 7.5
+
+#### Cumulative[edit]
+
+![File:The C-Story of Human
+
+Civilization.webm](//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/The_C-
+
+Story_of_Human_Civilization.webm/220px--The_C-
+
+Story_of_Human_Civilization.webm.jpg) Play media
+
+The C-Story of Human Civilization by PIK
+
+Top-10 cumulative energy-related CO  
+2 emitters between 1850 and 2008[ _citation needed_ ] Country | % of world  
+total | Metric tonnes  
+CO  
+2 per person  
+---|---|---  
+![](//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/23px-
+
+Flag_of_the_United_States.svg.png) United States | 28.5 | 1,132.7  
+![](//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/23px-
+
+Flag_of_the_People%27s_Republic_of_China.svg.png) China | 9.36 | 85.4  
+![](//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-
+
+Flag_of_Russia.svg.png) Russia | 7.95 | 677.2  
+![](//upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/23px-
+
+Flag_of_Germany.svg.png) Germany | 6.78 | 998.9  
+![](//upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/23px-
+
+Flag_of_the_United_Kingdom.svg.png) United Kingdom | 5.73 | 1,127.8  
+![](//upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/23px-
+
+Flag_of_Japan.svg.png) Japan | 3.88 | 367  
+![](//upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/23px-
+
+Flag_of_France.svg.png) France | 2.73 | 514.9  
+![](//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/23px-
+
+Flag_of_India.svg.png) India | 2.52 | 26.7  
+![](//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/23px-
+
+Flag_of_Canada_%28Pantone%29.svg.png) Canada | 2.17 | 789.2  
+![](//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/23px-
+
+Flag_of_Ukraine.svg.png) Ukraine | 2.13 | 556.4
+
+### Embedded emissions[edit]
+
+One way of attributing greenhouse gas (GHG) emissions is to measure the
+embedded emissions (also referred to as "embodied emissions") of goods that
+are being consumed. Emissions are usually measured according to production,
+rather than consumption.[136] For example, in the main international treaty on
+climate change (the UNFCCC), countries report on emissions produced within
+their borders, e.g., the emissions produced from burning fossil
+fuels.[129]:179[137]:1 Under a production-based accounting of emissions,
+embedded emissions on imported goods are attributed to the exporting, rather
+than the importing, country. Under a consumption-based accounting of
+emissions, embedded emissions on imported goods are attributed to the
+importing country, rather than the exporting, country.
+
+Davis and Caldeira (2010)[137]:4 found that a substantial proportion of CO  
+2 emissions are traded internationally. The net effect of trade was to export
+emissions from China and other emerging markets to consumers in the US, Japan,
+and Western Europe. Based on annual emissions data from the year 2004, and on
+a per-capita consumption basis, the top-5 emitting countries were found to be
+(in tCO  
+2 per person, per year): Luxembourg (34.7), the US (22.0), Singapore (20.2),
+Australia (16.7), and Canada (16.6).[137]:5 Carbon Trust research revealed
+that approximately 25% of all CO  
+2 emissions from human activities 'flow' (i.e., are imported or exported) from
+one country to another. Major developed economies were found to be typically
+net importers of embodied carbon emissions—with UK consumption emissions 34%
+higher than production emissions, and Germany (29%), Japan (19%) and the US
+(13%) also significant net importers of embodied emissions.[138]
+
+### Effect of policy[edit]
+
+See also: Kyoto Protocol and government action
+
+Governments have taken action to reduce greenhouse gas emissions (climate
+change mitigation). Assessments of policy effectiveness have included work by
+the Intergovernmental Panel on Climate Change,[139] International Energy
+Agency,[140][141] and United Nations Environment Programme.[142] Policies
+implemented by governments have included[143][144][145] national and regional
+targets to reduce emissions, promoting energy efficiency, and support for
+renewable energy such as Solar energy as an effective use of renewable energy
+because solar uses energy from the sun and does not release pollutants into
+the air.
+
+Countries and regions listed in Annex I of the United Nations Framework
+Convention on Climate Change (UNFCCC) (i.e., the OECD and former planned
+economies of the Soviet Union) are required to submit periodic assessments to
+the UNFCCC of actions they are taking to address climate change.[145]:3
+Analysis by the UNFCCC (2011)[145]:8 suggested that policies and measures
+undertaken by Annex I Parties may have produced emission savings of 1.5
+thousand Tg CO  
+2-eq in the year 2010, with most savings made in the energy sector. The
+projected emissions saving of 1.5 thousand Tg CO  
+2-eq is measured against a hypothetical "baseline" of Annex I emissions, i.e.,
+projected Annex I emissions in the absence of policies and measures. The total
+projected Annex I saving of 1.5 thousand CO  
+2-eq does not include emissions savings in seven of the Annex I
+Parties.[145]:8
+
+### Projections[edit]
+
+Further information: climate change scenario § Quantitative emissions
+projections
+
+See also: Global climate model § Projections of future climate change
+
+A wide range of projections of future emissions have been produced.[146]
+Rogner _et al._ (2007)[147] assessed the scientific literature on greenhouse
+gas projections. Rogner _et al._ (2007)[114] concluded that unless energy
+policies changed substantially, the world would continue to depend on fossil
+fuels until 2025–2030. Projections suggest that more than 80% of the world's
+energy will come from fossil fuels. This conclusion was based on "much
+evidence" and "high agreement" in the literature.[114] Projected annual
+energy-related CO  
+2 emissions in 2030 were 40–110% higher than in 2000, with two-thirds of the
+increase originating in developing countries.[114] Projected annual per capita
+emissions in developed country regions remained substantially lower (2.8–5.1
+tonnes CO  
+2) than those in developed country regions (9.6–15.1 tonnes CO  
+2).[148] Projections consistently showed increase in annual world emissions of
+"Kyoto" gases,[149] measured in CO  
+2-equivalent) of 25–90% by 2030, compared to 2000.[114]
+
+### Relative CO
+
+2 emission from various fuels[edit]
+
+One liter of gasoline, when used as a fuel, produces 2.32 kg (about 1300
+liters or 1.3 cubic meters) of carbon dioxide, a greenhouse gas. One US gallon
+produces 19.4 lb (1,291.5 gallons or 172.65 cubic feet)[150][151][152]
+
+Mass of carbon dioxide emitted per quantity of energy for various fuels[153]
+Fuel name | CO  
+2  
+emitted  
+(lbs/106 Btu) | CO  
+2  
+emitted  
+(g/MJ) | CO  
+2  
+emitted  
+(g/kWh)  
+---|---|---|---  
+Natural gas | 117 | 50.30 | 181.08  
+Liquefied petroleum gas | 139 | 59.76 | 215.14  
+Propane | 139 | 59.76 | 215.14  
+Aviation gasoline | 153 | 65.78 | 236.81  
+Automobile gasoline | 156 | 67.07 | 241.45  
+Kerosene | 159 | 68.36 | 246.10  
+Fuel oil | 161 | 69.22 | 249.19  
+Tires/tire derived fuel | 189 | 81.26 | 292.54  
+Wood and wood waste | 195 | 83.83 | 301.79  
+Coal (bituminous) | 205 | 88.13 | 317.27  
+Coal (sub-bituminous) | 213 | 91.57 | 329.65  
+Coal (lignite) | 215 | 92.43 | 332.75  
+Petroleum coke | 225 | 96.73 | 348.23  
+Tar-sand Bitumen | [ _citation needed_ ] | [ _citation needed_ ] | [ _citation
+needed_ ]  
+Coal (anthracite) | 227 | 97.59 | 351.32
+
+## Life-cycle greenhouse-gas emissions of energy sources[edit]
+
+Main article: Life-cycle greenhouse-gas emissions of energy sources
+
+A 2011 IPCC report included a literature review of numerous energy sources'
+total life cycle CO  
+2 emissions. Below are the CO  
+2 emission values that fell at the 50th percentile of all studies
+surveyed.[154]
+
+**Lifecycle greenhouse gas emissions by electricity source.** Technology |
+Description | 50th percentile  
+(g CO  
+2/kWhe)  
+---|---|---  
+Hydroelectric | reservoir | 4  
+Ocean Energy | wave and tidal | 8  
+Wind | onshore | 12  
+Nuclear | various generation II reactor types | 16  
+Biomass | various | 18  
+Solar thermal | parabolic trough | 22  
+Geothermal | hot dry rock | 45  
+Solar PV | Polycrystalline silicon | 46  
+Natural gas | various combined cycle turbines without scrubbing | 469  
+Coal | various generator types without scrubbing | 1001
+
+## Removal from the atmosphere[edit]
+
+### Natural processes[edit]
+
+Greenhouse gases can be removed from the atmosphere by various processes, as a
+consequence of:
+
+                    
+                                                * a physical change (condensation and precipitation remove water vapor from the atmosphere).
+                            * a chemical reaction within the atmosphere. For example, methane is oxidized by reaction with naturally occurring hydroxyl radical, OH **·** and degraded to  CO
+                    
+
+2 and water vapor (CO  
+2 from the oxidation of methane is not included in the methane Global warming
+potential). Other chemical reactions include solution and solid phase
+chemistry occurring in atmospheric aerosols.
+
+                    
+                                                * a physical exchange between the atmosphere and the other compartments of the planet. An example is the mixing of atmospheric gases into the oceans.
+                            * a chemical change at the interface between the atmosphere and the other compartments of the planet. This is the case for CO
+                    
+
+2, which is reduced by photosynthesis of plants, and which, after dissolving
+in the oceans, reacts to form carbonic acid and bicarbonate and carbonate ions
+(see ocean acidification).
+
+                    
+                                                * a photochemical change. Halocarbons are dissociated by UV light releasing Cl **·** and F **·** as free radicals in the stratosphere with harmful effects on ozone (halocarbons are generally too stable to disappear by chemical reaction in the atmosphere).
+                    
+
+### Negative emissions[edit]
+
+Main article: Negative carbon dioxide emission
+
+A number of technologies remove greenhouse gases emissions from the
+atmosphere. Most widely analysed are those that remove carbon dioxide from the
+atmosphere, either to geologic formations such as bio-energy with carbon
+capture and storage[155][156][157] and carbon dioxide air capture,[157] or to
+the soil as in the case with biochar.[157] The IPCC has pointed out that many
+long-term climate scenario models require large-scale manmade negative
+emissions to avoid serious climate change.[158]
+
+## History of scientific research[edit]
+
+In the late 19th century scientists experimentally discovered that N  
+2 and O  
+2 do not absorb infrared radiation (called, at that time, "dark radiation"),
+while water (both as true vapor and condensed in the form of microscopic
+droplets suspended in clouds) and CO  
+2 and other poly-atomic gaseous molecules do absorb infrared radiation. In the
+early 20th century researchers realized that greenhouse gases in the
+atmosphere made Earth's overall temperature higher than it would be without
+them. During the late 20th century, a scientific consensus evolved that
+increasing concentrations of greenhouse gases in the atmosphere cause a
+substantial rise in global temperatures and changes to other parts of the
+climate system,[159] with consequences for the environment and for human
+health.
+
+## See also[edit]
+
+                    
+                                                * Attribution of recent climate change
+                            * Carbon accounting
+                            * Carbon credit
+                            * Carbon emissions reporting
+                            * Carbon neutrality
+                            * Carbon offset
+                            * Carbon tax
+                            * Cap and Trade
+                            * Deforestation and climate change
+                            * Effects of global warming
+                            * Emission standard
+                            * Environmental impact of aviation
+                            * Greenhouse debt
+                            * Hydrogen economy
+                            * Integrated Carbon Observation System
+                            * List of countries by electricity production from renewable sources
+                            * List of international environmental agreements
+                            * Low-carbon economy
+                            * Methane
+                            * Mobile source air pollution
+                            * Paris Agreement
+                            * Perfluorotributylamine
+                            * Physical properties of greenhouse gases
+                            * Sustainability measurement
+                            * Top contributors to greenhouse gas emissions
+                            * VOC Exempt solvents
+                            * Waste management
+                            * World energy consumption
+                            * Zero-emissions vehicle
+                    
+
+## References[edit]
+
+                    
+                                                1. ^ _**a**_ _**b**_ "IPCC AR4 SYR Appendix Glossary" (PDF). Retrieved 14 December 2008.
+                            2. **^** "NASA GISS: Science Briefs: Greenhouse Gases: Refining the Role of Carbon Dioxide". _www.giss.nasa.gov_. Retrieved  26 April 2016.
+                            3. **^** Karl TR, Trenberth KE (2003). "Modern global climate change". _Science_. **302** (5651): 1719–23. Bibcode:2003Sci...302.1719K. doi:10.1126/science.1090228. PMID 14657489.
+                            4. **^** Le Treut H.; Somerville R.; Cubasch U.; Ding Y.; Mauritzen C.; Mokssit A.; Peterson T.; Prather M. _Historical overview of climate change science_ (PDF). Retrieved 14 December 2008. in IPCC AR4 WG1 2007
+                            5. **^** "NASA Science Mission Directorate article on the water cycle". Nasascience.nasa.gov. Archived from the original on 17 January 2009. Retrieved  16 October 2010.
+                            6. **^** "Frequently asked global change questions". Carbon Dioxide Information Analysis Center.
+                            7. **^** ESRL Web Team (14 January 2008). "Trends in carbon dioxide". Esrl.noaa.gov. Retrieved 11 September 2011.
+                            8. **^** EPA,OA, US. "Global Greenhouse Gas Emissions Data – US EPA". _US EPA_.
+                            9. **^** "AR4 SYR Synthesis Report Summary for Policymakers – 2 Causes of change". _ipcc.ch_. Archived from the original on 28 February 2018. Retrieved  9 October 2015.
+                            10. **^** Mora, C (2013). "The projected timing of climate departure from recent variability". _Nature_. **502** (7470): 183–87. Bibcode:2013Natur.502..183M. doi:10.1038/nature12540. PMID 24108050.
+                            11. **^** Mann, Michael E. (1 April 2014). "Earth Will Cross the Climate Danger Threshold by 2036". Scientific American. Retrieved 30 August 2016.
+                            12. **^** "FAQ 7.1". p. 14. in IPCC AR4 WG1 2007
+                            13. **^** Canadell, J.G.; Le Quere, C.; Raupach, M.R.; Field, C.B.; Buitenhuis, E.T.; Ciais, P.; Conway, T.J.; Gillett, N.P.; Houghton, R.A.; Marland, G. (2007). "Contributions to accelerating atmospheric CO
+                    
+
+2 growth from economic activity, carbon intensity, and efficiency of natural
+sinks". _Proc. Natl. Acad. Sci. USA_. **104** (47): 18866–70.
+Bibcode:2007PNAS..10418866C. doi:10.1073/pnas.0702737104. PMC 2141868. PMID
+17962418.
+
+                    
+                                                14. **^** "The Chemistry of Earth's Atmosphere". _Earth Observatory_. NASA. Archived from the original on 20 September 2008.
+                            15. ^ _**a**_ _**b**_ Forster, P.; et al. (2007). "2.10.3 Indirect GWPs". _Changes in Atmospheric Constituents and in Radiative Forcing_. Contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge University Press. Retrieved  2 December 2012.
+                            16. **^** MacCarty, N. "Laboratory Comparison of the Global-Warming Potential of Six Categories of Biomass Cooking Stoves" (PDF). Approvecho Research Center. Archived from the original (PDF) on 11 November 2013.
+                            17. ^ _**a**_ _**b**_ _**c**_ Kiehl, J.T.; Kevin E. Trenberth (1997). "Earth's annual global mean energy budget" (PDF). _Bulletin of the American Meteorological Society_. **78** (2): 197–208. Bibcode:1997BAMS...78..197K. doi:10.1175/1520-0477(1997)078<0197:EAGMEB>2.0.CO;2. Archived from the original (PDF) on 30 March 2006. Retrieved 1 May 2006.
+                            18. ^ _**a**_ _**b**_ _**c**_ "Water vapour: feedback or forcing?". RealClimate. 6 April 2005. Retrieved  1 May 2006.
+                            19. **^** Schmidt, G.A.; R. Ruedy; R.L. Miller; A.A. Lacis (2010), "The attribution of the present-day total greenhouse effect" (PDF), _J. Geophys. Res._ , **115** (D20), pp. D20106, Bibcode:2010JGRD..11520106S, doi:10.1029/2010JD014287, archived from the original (PDF) on 22 October 2011, D20106. Web page 
+                            20. **^** Lacis, A. (October 2010), _NASA GISS: CO 2: The Thermostat that Controls Earth's Temperature_, New York: NASA GISS
+                            21. ^ _**a**_ _**b**_ _**c**_ _**d**_ _**e**_ "Appendix 8.A" (PDF). _Intergovernmental Panel on Climate Change Fifth Assessment Report_. p. 731.
+                            22. **^** Shindell, Drew T. (2005). "An emissions-based view of climate forcing by methane and tropospheric ozone". _Geophysical Research Letters_. **32** (4): L04803. Bibcode:2005GeoRL..32.4803S. doi:10.1029/2004GL021900.
+                            23. **^** "Methane's Impacts on Climate Change May Be Twice Previous Estimates". Nasa.gov. 30 November 2007. Retrieved  16 October 2010.
+                            24. **^** "Climate Change Indicators: Atmospheric Concentrations of Greenhouse Gases". _Climate Change Indicators_. United States Environmental Protection Agency. Retrieved  20 January 2017.
+                            25. **^** Wallace, John M. and Peter V. Hobbs. Atmospheric Science; _An Introductory Survey_. Elsevier. Second Edition, 2006. ISBN 978-0127329512. Chapter 1
+                            26. **^** Prather, Michael J.; J Hsu (2008). "NF
+                    
+
+3, the greenhouse gas missing from Kyoto". _Geophysical Research Letters_.
+**35** (12): L12810. Bibcode:2008GeoRL..3512810P. doi:10.1029/2008GL034542.
+
+                    
+                                                27. **^** Isaksen, Ivar S.A.; Michael Gauss; Gunnar Myhre; Katey M. Walter Anthony; Carolyn Ruppel (20 April 2011). "Strong atmospheric chemistry feedback to climate warming from Arctic methane emissions" (PDF). _Global Biogeochemical Cycles_. **25** (2): n/a. Bibcode:2011GBioC..25B2002I. doi:10.1029/2010GB003845. Retrieved  29 July 2011.
+                            28. **^** "AGU Water Vapor in the Climate System". Eso.org. 27 April 1995. Retrieved  11 September 2011.
+                            29. **^** Betts (2001). "6.3 Well-mixed Greenhouse Gases". _Chapter 6 Radiative Forcing of Climate Change_. Working Group I: The Scientific Basis IPCC Third Assessment Report – Climate Change 2001. UNEP/GRID-Arendal – Publications. Archived from the original on 29 June 2011. Retrieved  16 October 2010.
+                            30. ^ _**a**_ _**b**_ Jacob, Daniel (1999). _Introduction to atmospheric chemistry_. Princeton University Press. pp. 25–26. ISBN 978-0691001852. Archived from the original on 2 September 2011.
+                            31. **^** "How long will global warming last?". RealClimate. Retrieved  12 June 2012.
+                            32. **^** Jacobson, M.Z. (2005). "Correction to "Control of fossil-fuel particulate black carbon and organic matter, possibly the most effective method of slowing global warming."". _J. Geophys. Res_. **110**. p. D14105. Bibcode:2005JGRD..11014105J. doi:10.1029/2005JD005888.
+                            33. **^** Archer, David (2009). "Atmospheric lifetime of fossil fuel carbon dioxide". _Annual Review of Earth and Planetary Sciences_. **37**. pp. 117–34. Bibcode:2009AREPS..37..117A. doi:10.1146/annurev.earth.031208.100206.
+                            34. **^** "Frequently Asked Question 10.3: If emissions of greenhouse gases are reduced, how quickly do their concentrations in the atmosphere decrease?". _Global Climate Projections_. Retrieved  1 June 2011. in IPCC AR4 WG1 2007
+                            35. **^** See also: Archer, David (2005). "Fate of fossil fuel CO
+                    
+
+2 in geologic time" (PDF). _Journal of Geophysical Research_. **110** (C9):
+C09S05.1–6. Bibcode:2005JGRC..11009S05A. doi:10.1029/2004JC002625. Retrieved
+27 July 2007.
+
+                    
+                                                36. **^** See also: Caldeira, Ken; Wickett, Michael E. (2005). "Ocean model predictions of chemistry changes from carbon dioxide emissions to the atmosphere and ocean" (PDF). _Journal of Geophysical Research_. **110** (C9): C09S04.1–12. Bibcode:2005JGRC..11009S04C. doi:10.1029/2004JC002671. Archived from the original (PDF) on 10 August 2007. Retrieved 27 July 2007.
+                            37. ^ _**a**_ _**b**_ _**c**_ _**d**_ _**e**_ _**f**_ _**g**_ _**h**_ _**i**_ Edited quote from public-domain source: "Climate Change Indicators in the United States". U.S. Environmental Protection Agency (EPA). 2010. Greenhouse Gases: Figure 1. The Annual Greenhouse Gas Index, 1979–2008: Background.. PDF (p. 18)
+                            38. ^ _**a**_ _**b**_ "Table 2.14" (PDF). _IPCC Fourth Assessment Report_. p. 212.
+                            39. **^** Chandler, David L. "How to count methane emissions". _MIT News_. Retrieved  20 August 2018. Referenced paper is Trancik, Jessika; Edwards, Morgan (25 April 2014). "Climate impacts of energy technologies depend on emissions timing" (PDF). _Nature Climate Change_. **4** : 347. Archived from the original (PDF) on 16 January 2015. Retrieved 15 January 2015.
+                            40. **^** Vaara, Miska (2003), _Use of ozone depleting substances in laboratories_, TemaNord, p. 170, ISBN 978-9289308847, archived from the original on 6 August 2011
+                            41. **^** Montreal Protocol
+                            42. **^** St. Fleur, Nicholas (10 November 2015). "Atmospheric Greenhouse Gas Levels Hit Record, Report Says". _New York Times_. Retrieved  11 November 2015.
+                            43. **^** Ritter, Karl (9 November 2015). "UK: In 1st, global temps average could be 1 degree C higher". _AP News_. Retrieved  11 November 2015.
+                            44. **^** Cole, Steve; Gray, Ellen (14 December 2015). "New NASA Satellite Maps Show Human Fingerprint on Global Air Quality". _NASA_. Retrieved  14 December 2015.
+                            45. **^** Canadell, J.G.; et al. (20 November 2007), "Contributions to Accelerating Atmospheric CO2 Growth from Economic Activity, Carbon Intensity, and Efficiency of Natural Sinks (Results and Discussion: Growth in Atmospheric CO2)", _Proceedings of the National Academy of Sciences of the United States of America_ , **104** (47): 18866–70, Bibcode:2007PNAS..10418866C, doi:10.1073/pnas.0702737104, PMC 2141868 , PMID 17962418
+                            46. **^** "Historical Overview of Climate Change Science – FAQ 1.3 Figure 1" (PDF). p. 116. in IPCC AR4 WG1 2007
+                            47. **^** "Chapter 3, IPCC Special Report on Emissions Scenarios, 2000" (PDF). Intergovernmental Panel on Climate Change. 2000. Retrieved 16 October 2010.
+                            48. **^** Intergovernmental Panel on Climate Change (17 November 2007). "Climate Change 2007: Synthesis Report" (PDF). p. 5. Retrieved 20 January 2017.
+                            49. ^ _**a**_ _**b**_ Blasing, T.J. 2013
+                            50. ^ _**a**_ _**b**_ _**c**_ Ehhalt, D.; et al., "Table 4.1", _Atmospheric Chemistry and Greenhouse Gases_, archived from the original on 3 January 2013 , in IPCC TAR WG1 2001, pp. 244–45. Referred to by: Blasing, T.J. (February 2013), _Current Greenhouse Gas Concentrations_, doi:10.3334/CDIAC/atg.032 , on Blasing, T.J. 2013. Based on Blasing _et al._ (2013): Pre-1750 concentrations of CH4,N2O and current concentrations of O3, are taken from Table 4.1 (a) of the IPCC Intergovernmental Panel on Climate Change), 2001. Following the convention of IPCC (2001), inferred global-scale trace-gas concentrations from prior to 1750 are assumed to be practically uninfluenced by human activities such as increasingly specialized agriculture, land clearing, and combustion of fossil fuels. Preindustrial concentrations of industrially manufactured compounds are given as zero. The short atmospheric lifetime of ozone (hours-days) together with the spatial variability of its sources precludes a globally or vertically homogeneous distribution, so that a fractional unit such as parts per billion would not apply over a range of altitudes or geographical locations. Therefore a different unit is used to integrate the varying concentrations of ozone in the vertical dimension over a unit area, and the results can then be averaged globally. This unit is called a Dobson Unit (D.U.), after G.M.B. Dobson, one of the first investigators of atmospheric ozone. A Dobson unit is the amount of ozone in a column that, unmixed with the rest of the atmosphere, would be 10 micrometers thick at standard temperature and pressure.
+                            51. **^** Because atmospheric concentrations of most gases tend to vary systematically over the course of a year, figures given represent averages over a 12-month period for all gases except ozone (O3), for which a current global value has been estimated (IPCC, 2001, Table 4.1a). CO
+                    
+
+2 averages for year 2012 are taken from the National Oceanic and Atmospheric
+Administration, Earth System Research Laboratory, web site:
+www.esrl.noaa.gov/gmd/ccgg/trends maintained by Dr. Pieter Tans. For other
+chemical species, the values given are averages for 2011. These data are found
+on the CDIAC AGAGE web site: http://cdiac.ornl.gov/ndps/alegage.html or the
+AGAGE home page: http://agage.eas.gatech.edu.
+
+                    
+                                                52. ^ _**a**_ _**b**_ Forster, P.; et al., "Table 2.1", _Changes in Atmospheric Constituents and in Radiative Forcing_ , in IPCC AR4 WG1 2007, p. 141. Referred to by: Blasing, T.J. 2013
+                            53. **^** Prentice, I.C.; et al. "Executive summary". _The Carbon Cycle and Atmospheric Carbon Dioxide_. Archived from the original on 7 December 2009. , in IPCC TAR WG1 2001, p. 185. Referred to by: Blasing, T.J. (February 2013), _Current Greenhouse Gas Concentrations_, doi:10.3334/CDIAC/atg.032 , on Blasing, T.J. 2013
+                            54. **^** Recent CO
+                    
+
+2 concentration (395.4 ppm) is the 2013 average taken from globally averaged
+marine surface data given by the National Oceanic and Atmospheric
+Administration Earth System Research Laboratory, website:
+http://www.esrl.noaa.gov/gmd/ccgg/trends/index.html#global. Please read the
+material on that web page and reference Dr. Pieter Tans when citing this
+average (Dr. Pieter Tans, NOAA/ESRL http://www.esrl.noaa.gov/gmd/ccgg/trends).
+The oft-cited Mauna Loa average for 2012 is 393.8 ppm, which is a good
+approximation although typically about 1 ppm higher than the spatial average
+given above. Refer to http://www.esrl.noaa.gov/gmd/ccgg/trends for records
+back to the late 1950s.
+
+                    
+                                                55. **^** ppb = parts-per-billion
+                            56. ^ _**a**_ _**b**_ _**c**_ _**d**_ The first value in a cell represents Mace Head, Ireland, a mid-latitude Northern-Hemisphere site, while the second value represents Cape Grim, Tasmania, a mid-latitude Southern-Hemisphere site. "Current" values given for these gases are annual arithmetic averages based on monthly background concentrations for year 2011. The SF
+                    
+
+6 values are from the AGAGE gas chromatography – mass spectrometer (gc-ms)
+Medusa measuring system.
+
+                    
+                                                57. **^** "Advanced Global Atmospheric Gases Experiment (AGAGE)". Data compiled from finer time scales in the  Prinn; etc (2000). "ALE/GAGE/AGAGE database".
+                            58. **^** The pre-1750 value for N
+                    
+
+2O is consistent with ice-core records from 10,000 BCE through 1750 CE:
+"Summary for policymakers", _Figure SPM.1_ , IPCC, in IPCC AR4 WG1 2007, p. 3.
+Referred to by: Blasing, T.J. (February 2013), _Current Greenhouse Gas
+Concentrations_ , doi:10.3334/CDIAC/atg.032 , on Blasing, T.J. 2013
+
+                    
+                                                59. **^** Changes in stratospheric ozone have resulted in a decrease in radiative forcing of 0.05 W/m2: Forster, P.; et al., "Table 2.12", _Changes in Atmospheric Constituents and in Radiative Forcing_ , in IPCC AR4 WG1 2007, p. 204. Referred to by: Blasing, T.J. 2013
+                            60. ^ _**a**_ _**b**_ " SF
+                    
+
+6 data from January 2004". "Data from 1995 through 2004". National Oceanic and
+Atmospheric Administration (NOAA), Halogenated and other Atmospheric Trace
+Species (HATS). Sturges, W.T.; et al. "Concentrations of SF  
+6 from 1970 through 1999, obtained from Antarctic firn (consolidated deep
+snow) air samples".
+
+                    
+                                                61. **^** File:Phanerozoic Carbon Dioxide.png
+                            62. **^** Berner, Robert A. (January 1994). "GEOCARB II: a revised model of atmospheric CO
+                    
+
+2 over Phanerozoic time" (PDF). _American Journal of Science_. **294** (1):
+56–91. Bibcode:1994AmJS..294...56B. doi:10.2475/ajs.294.1.56. [ _permanent
+dead link_ ]
+
+                    
+                                                63. **^** Royer, D.L.; R.A. Berner; D.J. Beerling (2001). "Phanerozoic atmospheric CO
+                    
+
+2 change: evaluating geochemical and paleobiological approaches". _Earth-
+Science Reviews_. **54** (4): 349–92. Bibcode:2001ESRv...54..349R.
+doi:10.1016/S0012-8252(00)00042-8.
+
+                    
+                                                64. **^** Berner, Robert A.; Kothavala, Zavareth (2001). "GEOCARB III: a revised model of atmospheric CO
+                    
+
+2 over Phanerozoic time" (PDF). _American Journal of Science_. **301** (2):
+182–204. Bibcode:2001AmJS..301..182B. CiteSeerX 10.1.1.393.582.
+doi:10.2475/ajs.301.2.182. Archived from the original (PDF) on 6 August 2004.
+
+                    
+                                                65. **^** Beerling, D.J.; Berner, R.A. (2005). "Feedbacks and the co-evolution of plants and atmospheric  CO
+                    
+
+2". _Proc. Natl. Acad. Sci. USA_. **102** (5): 1302–05.
+Bibcode:2005PNAS..102.1302B. doi:10.1073/pnas.0408724102. PMC 547859. PMID
+15668402.
+
+                    
+                                                66. ^ _**a**_ _**b**_ Hoffmann, PF; AJ Kaufman; GP Halverson; DP Schrag (1998). "A neoproterozoic snowball earth". _Science_. **281** (5381): 1342–46. Bibcode:1998Sci...281.1342H. doi:10.1126/science.281.5381.1342. PMID 9721097.
+                            67. **^** Siegel, Ethan. "How Much CO2 Does A Single Volcano Emit?". _Forbes_. Retrieved  6 September 2018.
+                            68. **^** Gerlach, TM (1991). "Present-day CO
+                    
+
+2 emissions from volcanoes". _Transactions of the American Geophysical Union_.
+**72** (23): 249–55. Bibcode:1991EOSTr..72..249.. doi:10.1029/90EO10192.
+
+                    
+                                                69. **^** See also: "U.S. Geological Survey". 14 June 2011. Retrieved 15 October 2012.
+                            70. **^** Flückiger, Jacqueline (2002). "High-resolution Holocene N
+                    
+
+2O ice core record and its relationship with CH  
+4 and CO  
+2". _Global Biogeochemical Cycles_. **16** : 1010.
+Bibcode:2002GBioC..16a..10F. doi:10.1029/2001GB001417.
+
+                    
+                                                71. **^** Friederike Wagner; Bent Aaby; Henk Visscher (2002). "Rapid atmospheric CO
+                    
+
+2 changes associated with the 8,200-years-B.P. cooling event". _Proc. Natl.
+Acad. Sci. USA_. **99** (19): 12011–14. Bibcode:2002PNAS...9912011W.
+doi:10.1073/pnas.182420699. PMC 129389. PMID 12202744.
+
+                    
+                                                72. **^** Andreas Indermühle; Bernhard Stauffer; Thomas F. Stocker (1999). "Early Holocene Atmospheric CO
+                    
+
+2 Concentrations". _Science_. **286** (5446): 1815.
+doi:10.1126/science.286.5446.1815a. IndermÜhle, A (1999). "Early Holocene
+atmospheric CO  
+2 concentrations". _Science_. **286** (5446): 1815a–15.
+doi:10.1126/science.286.5446.1815a.
+
+                    
+                                                73. **^** H. J. Smith; M. Wahlen; D. Mastroianni (1997). "The CO
+                    
+
+2 concentration of air trapped in GISP2 ice from the Last Glacial Maximum-
+Holocene transition". _Geophysical Research Letters_. **24** (1): 1–4.
+Bibcode:1997GeoRL..24....1S. doi:10.1029/96GL03700.
+
+                    
+                                                74. **^** Charles J. Kibert (2016). "Background". _Sustainable Construction: Green Building Design and Delivery_. Wiley. ISBN 978-1119055327.
+                            75. **^** "Full Mauna Loa CO 2 record". Earth System Research Laboratory. 2005. Retrieved 6 May 2017.
+                            76. **^** Tans, Pieter (3 May 2008). "Annual CO
+                    
+
+2 mole fraction increase (ppm) for 1959–2007". National Oceanic and
+Atmospheric Administration Earth System Research Laboratory, Global Monitoring
+Division. "additional details".; see also Masarie, K.A.; Tans, P.P. (1995).
+"Extension and integration of atmospheric carbon dioxide data into a globally
+consistent measurement record". _J. Geophys. Res_. **100** (D6): 11593–610.
+Bibcode:1995JGR...10011593M. doi:10.1029/95JD00859.
+
+                    
+                                                77. **^** "Global Carbon Project (GCP)". _www.globalcarbonproject.org_. Retrieved  19 May 2019.
+                            78. **^** Dumitru-Romulus Târziu; Victor-Dan Păcurar (January 2011). "Pădurea, climatul și energia". _Rev. pădur._ (in Romanian). **126** (1): 34–39. ISSN 1583-7890. 16720. Archived from the original on 16 April 2013. Retrieved  11 June 2012.(webpage has a translation button)
+                            79. ^ _**a**_ _**b**_ "Climate Change Indicators in the United States". NOAA. 2012. Figure 4. The Annual Greenhouse Gas Index, 1979–2011.
+                            80. **^** "Climate Change Indicators in the United States". US Environmental Protection Agency (EPA). 2010. Figure 2. Global Greenhouse Gas Emissions by Sector, 1990–2005.
+                            81. **^** "Climate Change 2001: Working Group I: The Scientific Basis: figure 6-6". Archived from the original on 14 June 2006. Retrieved  1 May 2006.
+                            82. **^** "The present carbon cycle – Climate Change". Grida.no. Retrieved  16 October 2010.
+                            83. ^ _**a**_ _**b**_ _Couplings Between Changes in the Climate System and Biogeochemistry_ (PDF). Retrieved 13 May 2008. in IPCC AR4 WG1 2007
+                            84. **^** IPCC (2007d). "6.1 Observed changes in climate and their effects, and their causes". _6 Robust findings, key uncertainties_. Climate Change 2007: Synthesis Report. A Contribution of Working Groups I, II, and III to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC). Geneva: IPCC.
+                            85. ^ _**a**_ _**b**_ "6.2 Drivers and projections of future climate changes and their impacts". _6 Robust findings, key uncertainties_. Climate Change 2007: Synthesis Report. A Contribution of Working Groups I, II, and III to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC). Geneva, Switzerland: IPCC. 2007d.
+                            86. ^ _**a**_ _**b**_ "3.3.1 Impacts on systems and sectors". _3 Climate change and its impacts in the near and long term under different scenarios_. Climate Change 2007: Synthesis Report. A Contribution of Working Groups I, II, and III to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC). Geneva: IPCC. 2007d. Archived from the original on 3 November 2018. Retrieved  31 August 2012.
+                            87. **^** Steinfeld, H.; Gerber, P.; Wassenaar, T.; Castel, V.; Rosales, M.; de Haan, C. (2006). "Livestock's long shadow". FAO Livestock, Environment and Development (LEAD) Initiative.
+                            88. **^** Ciais, Phillipe; Sabine, Christopher; et al. "Carbon and Other Biogeochemical Cycles" (PDF). In Stocker Thomas F.; et al. (eds.). _Climate Change 2013: The Physical Science Basis_. IPCC. p. 473.
+                            89. ^ _**a**_ _**b**_ Raupach, M.R.; et al. (2007). "Global and regional drivers of accelerating CO
+                    
+
+2 emissions" (PDF). _Proc. Natl. Acad. Sci. USA_. **104** (24): 10288–93.
+Bibcode:2007PNAS..10410288R. doi:10.1073/pnas.0700609104. PMC 1876160. PMID
+17519334.
+
+                    
+                                                90. **^** Schrooten, L; De Vlieger, Ina; Int Panis, Luc; Styns, R. Torfs, K; Torfs, R (2008). "Inventory and forecasting of maritime emissions in the Belgian sea territory, an activity based emission model". _Atmospheric Environment_. **42** (4): 667–76. Bibcode:2008AtmEn..42..667S. doi:10.1016/j.atmosenv.2007.09.071.
+                            91. ^ _**a**_ _**b**_ _**c**_ Grubb, M. (July – September 2003). "The economics of the Kyoto protocol" (PDF). _World Economics_. **4** (3). Archived from the original (PDF) on 17 July 2011.
+                            92. **^** Lerner & K. Lee Lerner, Brenda Wilmoth (2006). "Environmental issues: essential primary sources". Thomson Gale. Retrieved 11 September 2006.
+                            93. ^ _**a**_ _**b**_ "Kyoto Protocol". United Nations Framework Convention on Climate Change. Home > Kyoto Protocol.
+                            94. ^ _**a**_ _**b**_ King, D.; et al. (July 2011), "Copenhagen and Cancún", _International climate change negotiations: Key lessons and next steps_ , Oxford: Smith School of Enterprise and the Environment, University of Oxford, p. 12, doi:10.4210/ssee.pbs.2011.0003 (inactive 18 February 2019), archived from the original on 1 August 2013 "PDF available" (PDF). Archived from the original (PDF) on 13 January 2012.
+                            95. **^** Johnston, Chris; Milman, Oliver; Vidal, John (15 October 2016). "Climate change: global deal reached to limit use of hydrofluorocarbons". _The Guardian_. Retrieved  21 August 2018.
+                            96. **^** "Climate change: 'Monumental' deal to cut HFCs, fastest growing greenhouse gases". BBC News. 15 October 2016. Retrieved  15 October 2016.
+                            97. **^** "Nations, Fighting Powerful Refrigerant That Warms Planet, Reach Landmark Deal". New York Times. 15 October 2016. Retrieved  15 October 2016.
+                            98. **^** "Environmental Impacts of Tourism – Global Level". UNEP.
+                            99. **^** "A Cheaper and More Efficient Freight Industry In and Out of the UK". _freightbestpractice.org.uk_. Retrieved  13 September 2015.[ _permanent dead link_ ]
+                            100. **^** Newbold, Richard (19 May 2014), _A practical guide for fleet operators_, returnloads.net , retrieved 20 January 2017.
+                            101. **^** Glazner, Elizabeth. "Plastic Pollution and Climate Change". _Plastic Pollution Coalition_. Plastic Pollution Coalition. Retrieved  6 August 2018.
+                            102. **^** Luise Blue, Marie-. "What Is the Carbon Footprint of a Plastic Bottle?". _Sciencing_. Leaf Group Ltd. Retrieved  6 August 2018.
+                            103. **^** Jeanne Royer, Sarah-; Ferrón, Sara; T. Wilson, Samuel; M. Karl, David (1 August 2018). "Production of methane and ethylene from plastic in the environment". _PLOS One_. **13** (Plastic, Climate Change): e0200574. doi:10.1371/journal.pone.0200574. PMC 6070199. PMID 30067755.
+                            104. **^** Rosane, Olivia (2 August 2018). "Study Finds New Reason to Ban Plastic: It Emits Methane in the Sun" (Plastic, Climate Change). Ecowatch. Retrieved 6 August 2018.
+                            105. **^** EPA (2012). "Landfilling" (PDF).
+                            106. **^** Levis, James W.; Barlaz, Morton A. (July 2011). "Is Biodegradability a Desirable Attribute for Discarded Solid Waste? Perspectives from a National Landfill Greenhouse Gas Inventory Model". _Environmental Science & Technology_. **45** (13): 5470–5476. Bibcode:2011EnST...45.5470L. doi:10.1021/es200721s. PMID 21615182.
+                            107. **^** "Sweeping New Report on Global Environmental Impact of Plastics Reveals Severe Damage to Climate". _Center for International Environmental Law (CIEL)_. Retrieved  16 May 2019.
+                            108. **^** _Plastic & Climate The Hidden Costs of a Plastic Planet_ (PDF). Center for International Environmental Law, Environmental Integrity Project, FracTracker Alliance, Global Alliance for Incinerator Alternatives, 5 Gyres, and Break Free From Plastic. May 2019. pp. 82–85. Retrieved 20 May 2019.
+                            109. **^** Held, I.M. and Soden, B.J., 2000. Water vapor feedback and global warming. Annual review of energy and the environment, 25(1), pp.441–475.
+                            110. **^** Evans, Kimberly Masters (2005). "The greenhouse effect and climate change". _The environment: a revolution in attitudes_. Detroit: Thomson Gale. ISBN 978-0787690823.
+                            111. **^** "Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2010" (PDF). U.S. Environmental Protection Agency. 15 April 2012. p. 1.4. Retrieved 2 June 2012.
+                            112. **^** Held, I.M.; Soden, B.J. (2000). "Water Vapor Feedback and Global Warming1". _Annual Review of Energy and the Environment_. **25** : 441–75. CiteSeerX 10.1.1.22.9397. doi:10.1146/annurev.energy.25.1.441.
+                            113. **^** Includes the Kyoto "basket" of GHGs
+                            114. ^ _**a**_ _**b**_ _**c**_ _**d**_ _**e**_ "Introduction". _Executive Summary_. in Rogner et al. 2007
+                            115. **^** "Introduction". _1.3.1 Review of the last three decades_. in Rogner et al. 2007 This citation clarifies the time period (1970–2004) for the observed emissions trends.
+                            116. **^** _Bridging the Emissions Gap: A UNEP Synthesis Report_ (PDF), Nairobi, Kenya: United Nations Environment Programme (UNEP), November 2011, ISBN 978-9280732290 UNEP Stock Number: DEW/1470/NA
+                            117. **^** "Global Greenhouse Gas Emissions Data". _EPA_. Retrieved  4 March 2014. "The burning of coal, natural gas, and oil for electricity and heat is the largest single source of global greenhouse gas emissions."
+                            118. ^ _**a**_ _**b**_ "Selected Development Indicators" (PDF). _World Development Report 2010: Development and Climate Change_ (PDF). Washington, DC: The International Bank for Reconstruction and Development / The World Bank. 2010. Tables A1 and A2. doi:10.1596/978-0-8213-7987-5. ISBN 978-0821379875.
+                            119. ^ _**a**_ _**b**_ Bader, N.; Bleichwitz, R. (2009). "Measuring urban greenhouse gas emissions: The challenge of comparability. _S.A.P.I.EN.S._ **2** (3)". Sapiens.revues.org. Retrieved  11 September 2011.
+                            120. ^ _**a**_ _**b**_ _**c**_ _**d**_ _**e**_ _**f**_ _**g**_ _**h**_ Banuri, T. (1996). _Equity and social considerations. In: Climate change 1995: Economic and social dimensions of climate change. Contribution of Working Group III to the Second Assessment Report of the Intergovernmental Panel on Climate Change (J.P. Bruce et al. Eds.)_ (PDF). This version: Printed by Cambridge University Press, Cambridge and New York. PDF version: IPCC website. doi:10.2277/0521568544. ISBN 978-0521568548.
+                            121. **^** _World energy outlook 2007 edition – China and India insights_. International Energy Agency (IEA), Head of Communication and Information Office, 9 rue de la Fédération, 75739 Paris Cedex 15, France. 2007. p. 600. ISBN 978-9264027305. Archived from the original on 15 June 2010. Retrieved 4 May 2010.
+                            122. **^** Holtz-Eakin, D. (1995). "Stoking the fires? CO
+                    
+
+2 emissions and economic growth". _Journal of Public Economics_. **57** (1):
+85–101. doi:10.1016/0047-2727(94)01449-X.
+
+                    
+                                                123. **^** Dodman, David (April 2009). "Blaming cities for climate change? An analysis of urban greenhouse gas emissions inventories". _Environment and Urbanization_. **21** (1): 185–201. doi:10.1177/0956247809103016. ISSN 0956-2478.
+                            124. **^** B. Metz; O.R. Davidson; P.R. Bosch; R. Dave; L.A. Meyer (eds.), _Annex I: Glossary J–P_, archived from the original on 3 May 2010
+                            125. **^** Markandya, A. (2001). "7.3.5 Cost Implications of Alternative GHG Emission Reduction Options and Carbon Sinks". In B. Metz; et al. (eds.). _Costing Methodologies_. Climate Change 2001: Mitigation. Contribution of Working Group III to the Third Assessment Report of the Intergovernmental Panel on Climate Change. Print version: Cambridge University Press, Cambridge and New York. This version: GRID-Arendal website. doi:10.2277/0521015022 (inactive 18 February 2019). ISBN 978-0521015028. Archived from the original on 5 August 2011. Retrieved 11 April 2011.
+                            126. **^** Herzog, T. (November 2006). Yamashita, M.B. (ed.). _Target: intensity – an analysis of greenhouse gas intensity targets_ (PDF). World Resources Institute. ISBN 978-1569736388. Retrieved 11 April 2011.
+                            127. **^** Botzen, W.J.W.; et al. (2008). "Cumulative CO
+                    
+
+2 emissions: shifting international responsibilities for climate debt".
+_Climate Policy_. **8** (6): 570. doi:10.3763/cpol.2008.0539.
+
+                    
+                                                128. ^ _**a**_ _**b**_ _**c**_ Höhne, N.; et al. (24 September 2010). "Contributions of individual countries' emissions to climate change and their uncertainty" (PDF). _Climatic Change_. **106** (3): 359–91. doi:10.1007/s10584-010-9930-6. Archived from the original (PDF) on 26 April 2012.
+                            129. ^ _**a**_ _**b**_ _**c**_ _World Energy Outlook 2009_ (PDF), Paris: International Energy Agency (IEA), 2009, pp. 179–80, ISBN 978-9264061309, archived from the original (PDF) on 24 September 2015, retrieved 27 December 2011
+                            130. **^** "Introduction", _1.3.1 Review of the last three decades_ in Rogner et al. 2007
+                            131. **^** The cited paper uses the term "start date" instead of "base year."
+                            132. ^ _**a**_ _**b**_ _**c**_ "Global  CO
+                    
+
+2 emissions: annual increase halves in 2008". Netherlands Environmental
+Assessment Agency (PBL) website. 25 June 2009. Retrieved 5 May 2010.
+
+                    
+                                                133. **^** "Global Carbon Mechanisms: Emerging lessons and implications (CTC748)". Carbon Trust. March 2009. p. 24. Retrieved  31 March 2010.
+                            134. **^** Vaughan, Adam (7 December 2015). "Global emissions to fall for first time during a period of economic growth". _The Guardian_. ISSN 0261-3077. Retrieved  23 December 2016.
+                            135. **^** _CO
+                    
+
+2 Emissions From Fuel Combustion: Highlights (2011 edition)_, Paris, France:
+International Energy Agency (IEA), 2011, p. 9, archived from the original on
+17 March 2017, retrieved 7 March 2012
+
+                    
+                                                136. **^** Helm, D.; et al. (10 December 2007). _Too Good To Be True? The UK's Climate Change Record_ (PDF). p. 3. Archived from the original (PDF) on 15 July 2011.
+                            137. ^ _**a**_ _**b**_ _**c**_ Davis, S.J.; K. Caldeira (8 March 2010). "Consumption-based Accounting of CO
+                    
+
+2 Emissions" (PDF). _Proceedings of the National Academy of Sciences of the
+United States of America_. **107** (12): 5687–5692.
+Bibcode:2010PNAS..107.5687D. doi:10.1073/pnas.0906974107. PMC 2851800. PMID
+20212122. Retrieved 18 April 2011.
+
+                    
+                                                138. **^** "International Carbon Flows". Carbon Trust. May 2011. Retrieved  12 November 2012.
+                            139. **^** e.g., Gupta _et al._ (2007) assessed the scientific literature on climate change mitigation policy:  Gupta, S.; et al. _Policies, instruments, and co-operative arrangements_. in Rogner et al. 2007
+                            140. **^** "Energy Policy". Paris: International Energy Agency (IEA). 2012.
+                            141. **^** "IEA Publications on 'Energy Policy '". Paris: Organization for Economic Co-operation and Development (OECD) / International Energy Agency (IEA). 2012.
+                            142. **^** _Bridging the Emissions Gap: A UNEP Synthesis Report_ (PDF), Nairobi, Kenya: United Nations Environment Programme (UNEP), November 2011, ISBN 978-9280732290 UNEP Stock Number: DEW/1470/NA
+                            143. **^** "4. Energizing development without compromising the climate" (PDF). _World Development Report 2010: Development and Climate Change_ (PDF). Washington, DC: The International Bank for Reconstruction and Development / The World Bank. 2010. p. 192, Box 4.2: Efficient and clean energy can be good for development. doi:10.1596/978-0-8213-7987-5. ISBN 978-0821379875.
+                            144. **^** _Sixth compilation and synthesis of initial national communications from Parties not included in Annex I to the Convention. Note by the secretariat. Executive summary_ (PDF). Geneva, Switzerland: United Nations Framework Convention on Climate Change (UNFCCC). 2005. pp. 10–12.
+                            145. ^ _**a**_ _**b**_ _**c**_ _**d**_ _Compilation and synthesis of fifth national communications. Executive summary. Note by the secretariat_ (PDF). Geneva (Switzerland): United Nations Framework Convention on Climate Change (UNFCCC). 2011. pp. 9–10.
+                            146. **^** Fisher, B.; et al. "3.1 Emissions scenarios". _Issues related to mitigation in the long-term context_. in Rogner et al. 2007
+                            147. **^** "1.3.2 Future outlook". _Introduction_. in Rogner et al. 2007
+                            148. **^** "1.3.2.4 Total GHG emissions". _Introduction_. in Rogner et al. 2007
+                            149. **^** carbon dioxide, methane, nitrous oxide, sulfur hexafluoride
+                            150. **^** "Greenhouse Gas Emissions from a Typical Passenger Vehicle" (PDF). _Epa.gov_. US Environment Protection Agency. Retrieved  11 September 2011.
+                            151. **^** Engber, Daniel (1 November 2006). "How gasoline becomes CO
+                    
+
+2, Slate Magazine". Slate Magazine. Retrieved 11 September 2011.
+
+                    
+                                                152. **^** "Volume calculation for carbon dioxide". Icbe.com. Retrieved  11 September 2011.
+                            153. **^** "Voluntary Reporting of Greenhouse Gases Program". Energy Information Administration. Archived from the original on 1 November 2004. Retrieved  21 August 2009.
+                            154. **^** Moomaw, W.; P. Burgherr; G. Heath; M. Lenzen; J. Nyboer; A. Verbruggen (2011). "Annex II: Methodology" (PDF). _IPCC Special Report on Renewable Energy Sources and Climate Change Mitigation_ : 10. Archived from the original (PDF) on 22 September 2014. Retrieved 17 June 2016.
+                            155. **^** Obersteiner M; Azar C; Kauppi P; et al. (October 2001). "Managing climate risk". _Science_. **294** (5543): 786–87. doi:10.1126/science.294.5543.786b. PMID 11681318.
+                            156. **^** Azar, C.; Lindgren, K.; Larson, E.D.; Möllersten, K. (2006). "Carbon capture and storage from fossil fuels and biomass – Costs and potential role in stabilising the atmosphere" (PDF). _Climatic Change_. **74** (1–3): 47–79. doi:10.1007/s10584-005-3484-7.
+                            157. ^ _**a**_ _**b**_ _**c**_ "Geoengineering the climate: science, governance and uncertainty". _The Royal Society_. 2009. Archived from the original on 7 September 2009. Retrieved  12 September 2009.
+                            158. **^** Fischer, B.S.; Nakicenovic, N.; Alfsen, K.; Morlot, J. Corfee; de la Chesnaye, F.; Hourcade, J.-Ch.; Jiang, K.; Kainuma, M.; La Rovere, E.; Matysek, A.; Rana, A.; Riahi, K.; Richels, R.; Rose, S.; van Vuuren, D.; Warren, R., _Issues related to mitigation in the long term context_ (PDF) in Rogner et al. 2007
+                            159. **^** Cook, J.; Nuccitelli, D.; Green, S.A.; Richardson, M.; Winkler, B.R.; Painting, R.; Way, R.; Jacobs, P.; Skuce, A. (2013). "Quantifying the consensus on anthropogenic global warming in the scientific literature". _Environmental Research Letters_. **8** (2): 024024. Bibcode:2013ERL.....8b4024C. doi:10.1088/1748-9326/8/2/024024.
+                    
+
+## Bibliography[edit]
+
+                    
+                                                * _Carbon Dioxide Information Analysis Center (CDIAC)_, Oak Ridge, TN, 2012
+                            * IPCC TAR WG1 (2001), Houghton, J.T.; Ding, Y.; Griggs, D.J.; Noguer, M.; van der Linden, P.J.; Dai, X.; Maskell, K.; Johnson, C.A. (eds.), _Climate Change 2001: The Scientific Basis_, Contribution of Working Group I (WG1) to the Third Assessment Report (TAR) of the Intergovernmental Panel on Climate Change (IPCC), Cambridge University Press, ISBN 978-0521807678, archived from the original on 30 March 2016 (pb: ISBN 0521014956)
+                            * Rogner, H.-H.; Zhou, D.; Bradley, R.; Crabbé, P.; Edenhofer, O.; Hare, B.; Kuijpers, L.; Yamaguchi, M. (2007), B. Metz; O.R. Davidson; P.R. Bosch; R. Dave; L.A. Meyer (eds.), _Climate Change 2007: Mitigation. Contribution of Working Group III to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change_, Cambridge University Press, ISBN 978-0521880114, archived from the original on 21 January 2012, retrieved 14 January 2012
+                            * IPCC AR4 WG1 (2007), Solomon, S.; Qin, D.; Manning, M.; Chen, Z.; Marquis, M.; Averyt, K.B.; Tignor, M.; Miller, H.L. (eds.), _Climate Change 2007: The Physical Science Basis – Contribution of Working Group I (WG1) to the Fourth Assessment Report (AR4) of the Intergovernmental Panel on Climate Change (IPCC)_, Cambridge University Press, ISBN 978-0521880091 (pb: ISBN 978-0521705967)
+                            * Van Dijk, P.; Zhang, J.; Jun, W.; Kuenzer, C.; Wolf, K.H. (2011). "Assessment of the contribution of in-situ combustion of coal to greenhouse gas emission; based on a comparison of Chinese mining information to previous remote sensing estimates". _International Journal of Coal Geology_. **86** (1 Special Issue RS/GIS): 108–19. doi:10.1016/j.coal.2011.01.009.
+                            * Zhou, Yiqin (2011). _Compar[ison of] Fresh or Ensiled Fodders (e.g., Grass, Legume, Corn) on the Production of Greenhouse Gases Following Enteric Fermentation in Beef Cattle_. Rouyn-Noranda, Qué.: Université du Québec en Abitibi-Témiscamingue. _N.B_.: Research report.
+                            * Blasing, T.J. (February 2013), _Current Greenhouse Gas Concentrations_, doi:10.3334/CDIAC/atg.032
+                    
+
+## External links[edit]
+
+![](//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-
+
+Commons-logo.svg.png) | Wikimedia Commons has media related to _**Greenhouse
+gases**_.  
+---|---  
+* The official greenhouse gas emissions data of developed countries from the UNFCCC * Greenhouse gas at Curlie * Annual Greenhouse Gas Index (AGGI) from NOAA * Atmospheric spectra of GHGs and other trace gases * How Much Greenhouse Gas Does the United States Emit?
+
+### Carbon dioxide emissions[edit]
+
+                    
+                                                * International Energy Annual: Reserves
+                            * Trends in Atmospheric Carbon Dioxide at NOAA
+                            * NOAA CMDL CCGG – Interactive Atmospheric Data Visualization NOAA CO
+                    
+
+2 data
+
+                    
+                                                * Carbon Dioxide Information Analysis Center (CDIAC)
+                            * Little Green Data Book 2007, World Bank. Lists CO
+                    
+
+2 statistics by country, including per capita and by country income class.
+
+                    
+                                                * Database of carbon emissions of power plants
+                            * NASA's Orbiting Carbon Observatory
+                    
+                            * v
+                            * t
+                            * e
+                    
+
+Global warming and climate change
+
+* * *
+
+|
+
+Temperatures
+
+* * *
+                    
+                                                * Brightness temperature
+                            * Effective temperature
+                            * Geologic record
+                            * Hiatus
+                            * Historical climatology
+                            * Instrumental record
+                            * Paleoclimatology
+                            * Paleotempestology
+                            * Proxy data
+                            * Record of the past 1,000 years
+                            * Satellite measurements
+                    
+
+|
+
+Causes
+
+* * *
+
+| Anthropogenic  
+(caused by human activity)|
+
+                    
+                                                * Attribution of recent climate change
+                            * Aviation
+                            * Biofuel
+                            * Black carbon
+                            * Carbon dioxide
+                            * Deforestation
+                            * Earth's energy budget
+                            * Ecocide
+                            * Fossil fuel
+                            * Global dimming
+                            * Global warming potential
+                            * Greenhouse effect
+                            * (Infrared window)
+                            * Greenhouse gases
+                            * Land use, land-use change, and forestry
+                            * Radiative forcing
+                            * Tropospheric ozone
+                    
+
+---|---  
+Natural|
+
+                    
+                                                * Albedo
+                            * Bond events
+                            * Climate oscillations
+                            * Climate sensitivity
+                            * Cloud forcing
+                            * Cosmic rays
+                            * Feedbacks
+                            * Glaciation
+                            * Global cooling
+                            * Milankovitch cycles
+                            * Ocean variability
+                              * AMO
+                              * ENSO
+                              * IOD
+                              * PDO
+                            * Orbital forcing
+                            * Solar variation
+                            * Volcanism
+                    
+
+Models|
+
+                    
+                                                * Global climate model
+                    
+
+|
+
+History
+
+* * *
+                    
+                                                * History of climate change science
+                            * Atmospheric thermodynamics
+                            * Svante Arrhenius
+                            * James Hansen
+                            * Charles David Keeling
+                    
+
+|
+
+Opinion and climate change
+
+* * *
+
+| General|
+
+                    
+                                                * Environmental ethics
+                            * Media coverage of climate change
+                            * Public opinion on climate change
+                            * (Popular culture)
+                            * Scientific opinion on climate change
+                            * Scientists who disagree with the mainstream assessment
+                            * Climate change denial
+                            * Global warming conspiracy theory
+                    
+
+---|---  
+By country & region|
+
+                    
+                                                * Africa
+                            * Arctic
+                            * Argentina
+                            * Australia
+                            * Bangladesh
+                            * Belgium
+                            * Canada
+                            * China
+                            * Europe
+                            * European Union
+                            * Finland
+                            * Grenada
+                            * India
+                            * Japan
+                            * Luxembourg
+                            * New Zealand
+                            * Norway
+                            * Russia
+                            * Scotland
+                            * South Korea
+                            * Sweden
+                            * Tuvalu
+                            * United Kingdom
+                            * United States
+                    
+
+|
+
+Politics
+
+* * *
+
+|
+
+                    
+                                                * Clean Power Plan
+                            * Climate change denial
+                            * (Manufactured controversy)
+                            * Intergovernmental Panel on Climate Change (IPCC)
+                            * March for Science
+                            * People's Climate March
+                            * United Nations Framework Convention on Climate Change (UNFCCC / FCCC)
+                            * Global climate regime
+                    
+
+* * *
+
+|
+
+Potential effects and issues
+
+* * *
+
+| General|
+
+                    
+                                                * Abrupt climate change
+                            * Anoxic event
+                            * Arctic dipole anomaly
+                            * Arctic haze
+                            * Arctic methane emissions
+                            * Central American dry corridor
+                            * Climate change and agriculture
+                            * Climate change and ecosystems
+                            * Climate change and gender
+                            * Climate change and poverty
+                            * Drought
+                            * Economics of global warming
+                            * Effects on plant biodiversity
+                            * Effects on health
+                            * Effects on humans
+                            * Effects on marine mammals
+                            * Environmental migrant
+                            * Extinction risk from global warming
+                            * Fisheries and climate change
+                            * Forest dieback
+                            * Industry and society
+                            * Iris hypothesis
+                            * Megadrought
+                            * Ocean acidification
+                            * Ozone depletion
+                            * Physical impacts
+                            * Polar stratospheric cloud
+                            * Regime shift
+                            * Retreat of glaciers since 1850
+                            * Runaway climate change
+                            * Sea level rise
+                            * Season creep
+                            * Shutdown of thermohaline circulation
+                            * Surf breaks and waves
+                    
+
+---|---  
+By country|
+
+                    
+                                                * Australia
+                            * South Asia
+                              * India
+                              * Nepal
+                            * United States
+                    
+
+|
+
+Mitigation
+
+* * *
+
+| Kyoto Protocol|
+
+                    
+                                                * Clean Development Mechanism
+                            * Joint Implementation
+                            * Bali Road Map
+                            * 2009 United Nations Climate Change Conference
+                    
+
+---|---  
+Governmental|
+
+                    
+                                                * European Climate Change Programme
+                            * G8 Climate Change Roundtable
+                            * United Kingdom Climate Change Programme
+                            * Paris Agreement
+                              * United States withdrawal
+                            * Regional climate change initiatives in the United States
+                            * List of climate change initiatives
+                    
+
+Emissions reduction|
+
+                    
+                                                * Carbon credit
+                            * Carbon-neutral fuel
+                            * Carbon offset
+                            * Carbon tax
+                            * Emissions trading
+                            * Fossil fuel phase-out
+                    
+
+Carbon-free energy|
+
+                    
+                                                * Efficient energy use
+                            * Renewable energy
+                            * Low-carbon economy
+                            * Nuclear power
+                            * Carbon capture and storage
+                    
+
+Personal|
+
+                    
+                                                * Individual action on climate change
+                            * Simple living
+                    
+
+Other|
+
+                    
+                                                * Carbon dioxide removal
+                            * Carbon sink
+                            * Climate action
+                            * Climate Action Plan
+                            * Climate change mitigation scenarios
+                            * Climate engineering
+                            * Individual and political action on climate change
+                            * Reducing emissions from deforestation and forest degradation
+                            * Reforestation
+                            * Urban reforestation
+                    
+
+|
+
+Proposed adaptations
+
+* * *
+
+| Strategies|
+
+                    
+                                                * Damming glacial lakes
+                            * Desalination
+                            * Drought tolerance
+                            * Irrigation investment
+                            * Rainwater storage
+                            * Sustainable development
+                            * Weather modification
+                    
+
+---|---  
+Programmes|
+
+                    
+                                                * Land allocation decision support system
+                    
+                            * ![List-Class article](//upload.wikimedia.org/wikipedia/en/thumb/d/db/Symbol_list_class.svg/16px-Symbol_list_class.svg.png) Glossary
+                            * ![List-Class article](//upload.wikimedia.org/wikipedia/en/thumb/d/db/Symbol_list_class.svg/16px-Symbol_list_class.svg.png) Index
+                            * ![Category](//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png) Climate change
+                            * ![Category](//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png) Global warming
+                            * ![Portal](//upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/16px-Portal-puzzle.svg.png) Portal
+                    
+                            * ![Aegopodium podagraria1 ies.jpg](//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Aegopodium_podagraria1_ies.jpg/24px-Aegopodium_podagraria1_ies.jpg)Environment portal
+                            * ![Global Warming Map.jpg](//upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Global_Warming_Map.jpg/24px-Global_Warming_Map.jpg)Global warming portal
+                            * ![Wind-turbine-icon.svg](//upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Wind-turbine-icon.svg/21px-Wind-turbine-icon.svg.png)Renewable Energy portal
+                            * ![Sustainable development.svg](//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Sustainable_development.svg/24px-Sustainable_development.svg.png)Sustainable development portal
+                    
+
+Authority control ![Edit this at
+
+Wikidata](//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-
+
+Blue_pencil.svg.png)|
+
+                    
+                                                * GND: 4438735-0
+                            * LCCN: sh90000985
+                    
+
+---|--- 
+
+![](//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1)
+
+Retrieved from
+"https://en.wikipedia.org/w/index.php?title=Greenhouse_gas&oldid=900555458"
+
+Categories:
+
+                    
+                                                * Climate forcing agents
+                            * Greenhouse gases
+                    
+
+Hidden categories:
+
+                    
+                                                * All articles with dead external links
+                            * Articles with dead external links from March 2018
+                            * Articles with permanently dead external links
+                            * CS1 Romanian-language sources (ro)
+                            * Pages with DOIs inactive as of 2019
+                            * Wikipedia pending changes protected pages
+                            * Wikipedia indefinitely move-protected pages
+                            * Use dmy dates from June 2019
+                            * Wikipedia articles needing clarification from April 2019
+                            * All articles with unsourced statements
+                            * Articles with unsourced statements from April 2019
+                            * All articles with failed verification
+                            * Articles with failed verification from April 2016
+                            * All articles with vague or ambiguous time
+                            * Vague or ambiguous time from May 2019
+                            * Wikipedia articles needing clarification from April 2011
+                            * Articles to be expanded from July 2013
+                            * All articles to be expanded
+                            * Articles using small message boxes
+                            * Articles with unsourced statements from August 2015
+                            * Articles with unsourced statements from August 2013
+                            * Commons category link is on Wikidata
+                            * Articles with Curlie links
+                            * Wikipedia articles with GND identifiers
+                            * Wikipedia articles with LCCN identifiers
+                            * Articles containing video clips
+                    
+
+## Navigation menu
+
+### Personal tools
+
+                    
+                                                * Not logged in
+                            * Talk
+                            * Contributions
+                            * Create account
+                            * Log in
+                    
+
+### Namespaces
+
+                    
+                                                * Article
+                            * Talk
+                    
+
+### Variants
+
+### Views
+
+                    
+                                                * Read
+                            * Edit
+                            * View history
+                    
+
+### More
+
+### Search
+
+### Navigation
+
+                    
+                                                * Main page
+                            * Contents
+                            * Featured content
+                            * Current events
+                            * Random article
+                            * Donate to Wikipedia
+                            * Wikipedia store
+                    
+
+### Interaction
+
+                    
+                                                * Help
+                            * About Wikipedia
+                            * Community portal
+                            * Recent changes
+                            * Contact page
+                    
+
+### Tools
+
+                    
+                                                * What links here
+                            * Related changes
+                            * Upload file
+                            * Special pages
+                            * Permanent link
+                            * Page information
+                            * Wikidata item
+                            * Cite this page
+                    
+
+### In other projects
+
+                    
+                                                * Wikimedia Commons
+                    
+
+### Print/export
+
+                    
+                                                * Create a book
+                            * Download as PDF
+                            * Printable version
+                    
+
+### Languages
+
+                    
+                                                * Afrikaans
+                            * العربية
+                            * Azərbaycanca
+                            * বাংলা
+                            * Bân-lâm-gú
+                            * Беларуская
+                            * Български
+                            * Català
+                            * Čeština
+                            * Dansk
+                            * Deutsch
+                            * Eesti
+                            * Español
+                            * Esperanto
+                            * Euskara
+                            * فارسی
+                            * Français
+                            * Galego
+                            * ગુજરાતી
+                            * 한국어
+                            * हिन्दी
+                            * Hrvatski
+                            * Bahasa Indonesia
+                            * Íslenska
+                            * Italiano
+                            * עברית
+                            * ქართული
+                            * Қазақша
+                            * Kiswahili
+                            * Latina
+                            * Latviešu
+                            * Lëtzebuergesch
+                            * Lietuvių
+                            * Lingua Franca Nova
+                            * Magyar
+                            * Македонски
+                            * मराठी
+                            * მარგალური
+                            * Bahasa Melayu
+                            * Монгол
+                            * မြန်မာဘာသာ
+                            * Na Vosa Vakaviti
+                            * Nederlands
+                            * 日本語
+                            * Norsk
+                            * Norsk nynorsk
+                            * ਪੰਜਾਬੀ
+                            * پښتو
+                            * Polski
+                            * Português
+                            * Română
+                            * Русский
+                            * Scots
+                            * සිංහල
+                            * Simple English
+                            * Slovenčina
+                            * Slovenščina
+                            * Српски / srpski
+                            * Srpskohrvatski / српскохрватски
+                            * Suomi
+                            * Svenska
+                            * தமிழ்
+                            * తెలుగు
+                            * ไทย
+                            * Türkçe
+                            * Українська
+                            * Tiếng Việt
+                            * Walon
+                            * 粵語
+                            * 中文
+                    
+
+Edit links
+
+                    
+                                                * This page was last edited on 6 June 2019, at 10:38 (UTC).
+                            * Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+                            * Privacy policy
+                            * About Wikipedia
+                            * Disclaimers
+                            * Contact Wikipedia
+                            * Developers
+                            * Cookie statement
+                            * Mobile view
+                            * ![Wikimedia Foundation](/static/images/wikimedia-button.png)
+                            * ![Powered by MediaWiki](/static/images/poweredby_mediawiki_88x31.png)
+                    
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication _[C.]: Century_ [m.]: married _[FT]:
+Financial Times_ [ _]: required_ [MB]: megabytes _[UV]: Ultraviolet_ [ UV]:
+Ultraviolet
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+  *[m.]: married
+  *[FT]: Financial Times
+  *[*]: required
+  *[MB]: megabytes
+  *[UV]: Ultraviolet
+  *[ UV]: Ultraviolet
+

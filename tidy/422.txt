@@ -1,0 +1,62 @@
+How bad is the radiation on Mars?
+Diagram showing the amount of cosmic radiation the surface of Mars is exposed to. Credit: NASA
+
+Human exploration of Mars has been ramping up in the past few decades. In addition to the eight active missions on or around the Red Planet, seven more robotic landers, rovers and orbiters are scheduled to be deployed there by the end of the decade. And by the 2030s and after, several space agencies are planning to mount crewed missions to the surface as well.
+
+On top of that, there are even plenty of volunteers who are prepared to make a one-way journey to Mars, and people advocating that we turn it into a second home. All of these proposals have focused attention on the peculiar hazards that come with sending human beings to Mars. Aside from its cold, dry environment, lack of air, and huge sandstorms, there's also the matter of its radiation.
+
+Causes:
+
+Mars has no protective magnetosphere, as Earth does. Scientists believe that at one time, Mars also experienced convection currents in its core, creating a dynamo effect that powered a planetary magnetic field. However, roughly 4.2 billions year ago – either due to a massive impact from a large object, or rapid cooling in its core – this dynamo effect ceased.
+
+As a result, over the course of the next 500 million years, Mars atmosphere was slowly stripped away by solar wind. Between the loss of its magnetic field and its atmosphere, the surface of Mars is exposed to much higher levels of radiation than Earth. And in addition to regular exposure to cosmic rays and solar wind, it receives occasional lethal blasts that occur with strong solar flares.
+
+Credit: Universe Today Investigations:
+
+NASA's 2001 Mars Odyssey spacecraft was equipped with a special instrument called the Martian Radiation Experiment (or MARIE), which was designed to measure the radiation environment around Mars. Since Mars has such a thin atmosphere, radiation detected by Mars Odyssey would be roughly the same as on the surface.
+
+Over the course of about 18 months, the Mars Odyssey probe detected ongoing radiation levels which are 2.5 times higher than what astronauts experience on the International Space Station – 22 millirads per day, which works out to 8000 millirads (8 rads) per year. The spacecraft also detected 2 solar proton events, where radiation levels peaked at about 2,000 millirads in a day, and a few other events that got up to about 100 millirads.
+
+For comparison, human beings in developed nations are exposed to (on average) 0.62 rads per year. And while studies have shown that the human body can withstand a dose of up to 200 rads without permanent damage, prolonged exposure to the kinds of levels detected on Mars could lead to all kinds of health problems – like acute radiation sickness, increased risk of cancer, genetic damage, and even death.
+
+And given that exposure to any amount of radiation carries with it some degree of risk, NASA and other space agencies maintain a strict policy of ALARA (As-Low-As-Reasonable-Achievable) when planning missions.
+
+Artist impression of a Mars settlement with cutaway view. Credit: NASA Ames Research Center
+
+Human explorers to Mars will definitely need to deal with the increased radiation levels on the surface. What's more, any attempts to colonize the Red Planet will also require measures to ensure that exposure to radiation is minimized. Already, several solutions – both short term and long- have been proposed to address this problem.
+
+For example, NASA maintains multiple satellites that study the sun, the space environment throughout the solar system, and monitor for galactic cosmic rays (GCRs), in the hopes of gaining a better understanding of solar and cosmic radiation. They've also been looking for ways to develop better shielding for astronauts and electronics.
+
+In 2014, NASA launched the Reducing Galactic Cosmic Rays Challenge, an incentive-based competition that awarded a total of $12,000 to ideas on how to reduce astronauts' exposure to galactic cosmic rays. After the initial challenge in April of 2014, a follow-up challenge took place in July that awarded a prize of $30,000 for ideas involving active and passive protection.
+
+When it comes to long-term stays and colonization, several more ideas have been floated in the past. For instance, as Robert Zubrin and David Baker explained in their proposal for a low-cast "Mars Direct" mission, habitats built directly into the ground would be naturally shielded against radiation. Zubrin expanded on this in his 1996 book The Case for Mars: The Plan to Settle the Red Planet and Why We Must.
+
+Proposals have also been made to build habitats above-ground using inflatable modules encased in ceramics created using Martian soil. Similar to what has been proposed by both NASA and the ESA for a settlement on the Moon, this plan would rely heavily on robots using 3-D printing technique known as "sintering", where sand is turned into a molten material using x-rays.
+
+Credit: Universe Today
+
+MarsOne, the non-profit organization dedicated to colonizing Mars in the coming decades, also has proposals for how to shield Martian settlers. Addressing the issue of radiation, the organization has proposed building shielding into the mission's spacecraft, transit vehicle, and habitation module. In the event of a solar flare, where this protection is insufficient, they advocate creating a dedicated radiation shelter (located in a hollow water tank) inside their Mars Transit Habitat.
+
+But perhaps the most radical proposal for reducing Mars' exposure to harmful radiation involves jump-starting the planet's core to restore its magnetosphere. To do this, we would need to liquefy the planet's outer core so that it can convect around the inner core once again. The planet's own rotation would begin to create a dynamo effect, and a magnetic field would be generated.
+
+According to Sam Factor, a graduate student with the Department of Astronomy at the University of Texas, there are two ways to do this. The first would be to detonate a series of thermonuclear warheads near the planet's core, while the second involves running an electric current through the planet, producing resistance at the core which would heat it up.
+
+In addition, a 2008 study conducted by researchers from the National Institute for Fusion Science (NIFS) in Japan addressed the possibility of creating an artificial magnetic field around Earth. After considering continuous measurements that indicated a 10% drop in intensity in the past 150 years, they went on to advocate how a series of planet-encircling superconducting rings could compensate for future losses.
+
+With some adjustments, such a system could be adapted for Mars, creating an artificial magnetic field that could help shield the surface from some of the harmful radiation it regularly receives. In the event that terraformers attempt to create an atmosphere for Mars, this system could also ensure that it is protected from solar wind.
+
+Lastly, a study in 2007 by researchers from the Institute for Mineralogy and Petrology in Switzerland and the Faculty of Earth and Life Sciences at Vrije University in Amsterdam managed to replicate what Mars' core looks like. Using a diamond chamber, the team was able to replicate pressure conditions on iron-sulfur and iron-nickel-sulfur systems that correspond to the center of Mars.
+
+Approximate true-color rendering of the central part of the “Columbia Hills”, taken by NASA’s Mars Exploration Rover Spirit panoramic camera. Credit: NASA/JPL
+
+What they found was that at the temperatures expected in the Martian core (~1500 K, or 1227 °C; 2240 °F), the inner core would be liquid, but some solidification would occur in the outer core. This is quite different from Earth's core, where the solidification of the inner core releases heat that keeps the outer core molten, thus creating the dynamo effect that powers our magnetic field.
+
+The absence of a solid inner core on Mars would mean that the once-liquid outer core must have had a different energy source. Naturally, that heat source has since failed, causing the outer core to solidify, thus arresting any dynamo effect. However, their research also showed that planetary cooling could lead to core solidification in the future, either due to iron-rich solids sinking towards the center or iron-sulfides crystallizing in the core.
+
+In other words, Mars' core might become solid someday, which would heat the outer core and turn it molten. Combined with the planet's own rotation, this would generate the dynamo effect that would once again fire up the planet's magnetic field. If this is true, then colonizing Mars and living there safely could be a simple matter of waiting for the core to crystallize.
+
+There's no way around it. At present, the radiation on the surface of Mars is pretty hazardous! Therefore, any crewed missions to the planet in the future will need to take into account radiation shielding and counter-measures. And any long-term stays there – at least for the foreseeable future – are going to have to be built into the ground, or hardened against solar and cosmic rays.
+
+But you know what they say about necessity being the mother of invention, right? And with such luminaries as Stephen Hawking saying that we need to start colonizing other worlds in order to survive as a species, and people like Elon Musk and Bas Lansdrop looking to make it happen, we're sure to see some very inventive solutions in the coming generations!
+
+Explore further Mars' ionosphere shaped by crustal magnetic fields

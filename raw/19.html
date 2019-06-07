@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head>
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/info/basics/3.htm" />
+<link rel="shortlink" href="/node/27" />
+  <title>Stem Cell Basics III. | stemcells.nih.gov</title>
+
+<link rel="stylesheet" type="text/css" href="/sites/all/themes/stemcells_theme/stemcell_includes/Band.css">
+<link rel="stylesheet" type="text/css" href="/sites/all/themes/stemcells_theme/stemcell_includes/controls.css">
+<link rel="stylesheet" type="text/css" href="/sites/all/themes/stemcells_theme/stemcell_includes/zz1_blue.css">
+<link rel="stylesheet" type="text/css" href="/sites/all/themes/stemcells_theme/stemcell_includes/core.css">
+<link rel="stylesheet" type="text/css" href="/sites/all/themes/stemcells_theme/stemcell_includes/stemcell.css">
+<link rel="stylesheet" type="text/css" href="/sites/all/themes/stemcells_theme/stemcell_includes/stemcell_print.css" media="print">
+
+<script type="text/javascript" async src="/sites/all/themes/stemcells_theme/stemcell_includes/glosspop.js"></script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-21455298-23', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	<script type="text/javascript">
+/*Google Analytics Automatic External Link, Downloads, Mailto Tracking- jQuery GA Async Version*/
+if (typeof jQuery != 'undefined') {
+    jQuery(document).ready(function($) {
+        var filetypes = /\.(zip|exe|pdf|doc*|xls*|ppt*|mp3)$/i;
+        var baseHref = '';
+        if (jQuery('base').attr('href') != undefined)
+            baseHref = jQuery('base').attr('href');
+        jQuery('a').each(function() {
+            var href = jQuery(this).attr('href');
+            if (href && (href.match(/^https?\:/i)) && (!href.match(document.domain))) {
+                jQuery(this).click(function() {
+                    var extLink = href.replace(/^https?\:\/\//i, '');
+                    _gaq.push(['_trackEvent', 'External', 'Link Click', extLink]);
+                    if (jQuery(this).attr('target') != undefined && jQuery(this).attr('target').toLowerCase() != '_blank') {
+                        setTimeout(function() { location.href = href; }, 200);
+                        return false;
+                    }
+                });
+            }
+            else if (href.toLowerCase().match('.*nih.gov.*') && href.toLowerCase().indexOf('nidcd.nih.gov') == -1) {
+                jQuery(this).click(function() {
+                    //Exit link tracking for other .nih.gov domains (excludes nidcd.nih.gov)
+                    var extLink = href.replace(/^https?\:\/\//i, '');
+                    _gaq.push(['_trackEvent', 'External', 'Link Click', extLink]);
+                });
+            }
+            else if (href && href.match(/^mailto\:/i)) {
+                jQuery(this).click(function() {
+                    var mailLink = href.replace(/^mailto\:/i, '');
+                    _gaq.push(['_trackEvent', 'Email', 'mailto', mailLink]);
+                });
+            }
+            else if (href && href.match(filetypes)) {
+                jQuery(this).click(function() {
+                    var extension = (/[.]/.exec(href)) ? /[^.]+$/.exec(href) : undefined;
+                    var filePath = href;
+                    _gaq.push(['_trackEvent', 'Download',extension+ ' Click', filePath]);
+                    if (jQuery(this).attr('target') != undefined && jQuery(this).attr('target').toLowerCase() != '_blank') {
+                        setTimeout(function() { location.href = baseHref + href; }, 200);
+                        return false;
+                    }
+                });
+            }
+        });
+    });
+}
+</script>
+
+
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+  
+  <style>
+@import url("https://stemcells.nih.gov/sites/all/modules/date/date_api/date.css?pso94j");
+@import url("https://stemcells.nih.gov/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pso94j");
+@import url("https://stemcells.nih.gov/modules/field/theme/field.css?pso94j");
+@import url("https://stemcells.nih.gov/modules/user/user.css?pso94j");
+@import url("https://stemcells.nih.gov/sites/all/modules/views/css/views.css?pso94j");
+@import url("https://stemcells.nih.gov/sites/all/modules/ckeditor/css/ckeditor.css?pso94j");
+</style>
+<style>
+@import url("https://stemcells.nih.gov/sites/all/modules/ctools/css/ctools.css?pso94j");
+</style>
+<style>
+@import url("https://stemcells.nih.gov/sites/all/themes/stemcells_theme/css/styles.css?pso94j");
+</style>
+  <script src="https://stemcells.nih.gov/misc/jquery.js?v=1.4.4"></script>
+<script src="https://stemcells.nih.gov/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script src="https://stemcells.nih.gov/misc/jquery.once.js?v=1.2"></script>
+<script src="https://stemcells.nih.gov/misc/drupal.js?pso94j"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stemcells_theme","theme_token":"v-wpkcBpFQELGE9cXDDH9z6L3TLLj_SfKXodpyVUK84","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/stemcells_theme\/system.base.css":1,"sites\/all\/themes\/stemcells_theme\/system.menus.css":1,"sites\/all\/themes\/stemcells_theme\/system.messages.css":1,"sites\/all\/themes\/stemcells_theme\/system.theme.css":1,"sites\/all\/themes\/stemcells_theme\/comment.css":1,"sites\/all\/themes\/stemcells_theme\/node.css":1,"sites\/all\/themes\/stemcells_theme\/css\/styles.css":1}}});</script>
+      <!--[if lt IE 9]>
+    <script src="/sites/all/themes/zen/js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+
+<!-- shutdown language begin
+<style>
+	.shutdownbox {
+		background-color:yellow; 
+		clear:both; 
+		border: 2px solid black; 
+		padding: 5px; 
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		z-index:9999;
+		}
+	.closebtn {
+		border: 2px solid black; 
+		padding: 2px;
+		float:right;
+		font-weight:900;
+		background-color: white;
+		}	
+		
+</style>
+<div class="shutdownbox"> 
+
+<span class="closebtn" onclick="this.parentElement.style.display='none';">X</span> 
+<p>Due  to the lapse in government funding, the information on this website may not be  up to date, transactions submitted via the website may not be processed, and  the agency may not be able to respond to inquiries until appropriations are  enacted. </p>
+
+Updates regarding government operating status  and resumption of normal operations can be found at <a href="http://www.usa.gov">http://www.usa.gov</a>.
+</div>
+ shutdown language end -->
+
+<div id="wrapper">
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-27 node-type-page section-info" >
+
+<script type="text/javascript">
+	    
+    var usagov_sayt_url = "//search.usa.gov/search?utf8=✓&sc=0&m=&embedded=&affiliate=stemcells&filter=moderate&commit=Search&query=";
+	    
+	    
+
+function RedirecttoSearchUSAgov() {
+		            
+	        window.location.href = usagov_sayt_url + document.getElementById('query').value;
+	    }
+function keypress(e)
+{
+    var Ucode=e.keyCode? e.keyCode : e.charCode
+    if (Ucode == 13)
+    {
+        
+        RedirecttoSearchUSAgov();
+    }
+}
+
+</script>
+
+
+<div id="banner">
+						<ul id="nihribbon">
+							<li class="hhs" style="margin-left:10px"><a href="//www.hhs.gov/">U.S. Department of Health &amp; Human Services</a></li>
+						</ul>
+						<div class="nihlogo" style="margin-left:10px"><a href="//www.nih.gov/"><img src="/sites/all/themes/stemcells_theme/stemcell_includes/banner-nihlogo.png" width="391" height="60" alt="National Institutes of Health (NIH) - Turning Discovery Into Health"></a></div>
+		
+							<!-- USASearch -->
+							<div id="searchForm" style="margin-right:10px">
+                                        <form accept-charset="UTF-8" action="//search.usa.gov/search" id="search_form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+
+    <input id="affiliate" name="affiliate" type="hidden" value="stemcells.nih.gov" />
+    <input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="text" />
+    <input name="commit" type="image" value="Search" src="/sites/all/themes/stemcells_theme/stemcell_includes/button-search.png" style="float:right"/>
+    <div id="tips"><a href="/tips.htm">Search Tips</a></div>
+  </form>
+                                        
+                                        
+                            </div>	
+		</div>	<div id="globalnav">
+						<ul>
+							<!-- ********* Info Center TAB ********* -->
+						  <li id="healthinfotab">
+							<div class="tab"><a href="/info.htm"><span>Info Center</span></a></div>
+							</li>
+							<!-- ********* Research Topics TAB ********* -->
+						  <li id="grantstab">
+							<div class="tab"><a href="/research.htm"><span>Research Topics</span></a></div>
+							</li>
+							<!-- ********* Federal Policy TAB ********* -->
+						  <li id="newstab">
+							<div class="tab"><a href="/policy.htm"><span>Federal Policy</span></a></div>
+							</li>
+							<!-- ********* Announcements TAB ********* -->
+						  <li id="researchtab">
+							<div class="tab"><a href="/glossary.htm"><span>Glossary</span></a></div>
+							</li>
+							<!-- ********* last TAB ********* -->		  
+						  <li id="lasttab">
+							<div class="tab"></div>
+							</li>
+						</ul>
+		</div>
+    	<div id="bannertwo">
+			<div id="breadcrumbs">&nbsp;</div>		
+	  		<h2 class="sectionheader">Stem Cell Information</h2>
+	  	</div>
+		
+        <div id="leftnav">
+	        <div id="navmenu">
+ 
+  <ul>
+      <li><a href="/info.htm">General Information</a></li>
+      <li><a href="/trials.htm">Clinical Trials</a></li> 
+	      <li><a href="/funding.htm">Funding Information</a></li> 
+		   <li><a href="/research.htm">Current Research</a></li> 
+    <li><a href="/policy.htm">Policy</a></li>
+	  <li><a href="/glossary.htm">Glossary</a></li>
+    <li><a href="/sitemap.htm">Site Map</a></li> 
+  </ul>
+</div>
+
+
+        </div>
+
+ <div id="content">
+      <p class="skip-link__wrapper">
+      <a href="#main-menu" class="skip-link visually-hidden visually-hidden--focusable" id="skip-link">Jump to navigation</a>
+    </p>
+      
+<div class="layout-center">
+
+  <header class="header" role="banner">
+
+    
+    
+    
+    
+  </header>
+
+  <div class="layout-3col layout-swap">
+
+    
+    <main class="layout-3col__full" role="main">
+            <h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first"><a href="/">Home</a></span> <span class="delimiter">»</span> <span class="inline even"><a href="/info.htm">General Information</a></span> <span class="delimiter">»</span> <span class="inline odd"><a href="/info/basics.htm">Stem Cell Basics</a></span> <span class="delimiter">»</span> <span class="inline even last">Stem Cell Basics III.</span></div>      <a href="#skip-link" class="visually-hidden visually-hidden--focusable" id="main-content">Back to top</a>
+                    <h1>Stem Cell Basics III.</h1>
+                                          
+
+
+<article class="node node-page view-mode-full clearfix node-27" about="/info/basics/3.htm" typeof="foaf:Document">
+
+      <header>
+                  <span property="dc:title" content="Stem Cell Basics III." class="rdf-meta element-hidden"></span>
+      
+          </header>
+  
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><ol>
+<li>
+		<a href="/info/basics/1.htm">Introduction: What are stem cells, and why are they important?</a></li>
+<li>
+		<a href="/info/basics/2.htm">What are the unique properties of all stem cells?</a></li>
+<li>
+		<a href="/info/basics/3.htm">What are embryonic stem cells?</a></li>
+<li>
+		<a href="/info/basics/4.htm">What are adult stem cells?</a></li>
+<li>
+		<a href="/info/basics/5.htm">What are the similarities and differences between embryonic and adult stem cells?</a></li>
+<li>
+		<a href="/info/basics/6.htm">What are induced pluripotent stem cells?</a></li>
+<li>
+		<a href="/info/basics/7.htm">What are the potential uses of human stem cells and the obstacles that must be overcome before these potential uses will be realized?</a></li>
+<li>
+		<a href="/info/basics/8.htm">Where can I get more information?</a></li>
+</ol>
+<h2>
+	III. What are embryonic stem cells?</h2>
+<h3>
+	A. What stages of early embryonic development are important for generating embryonic stem cells?</h3>
+<p>
+	<a href="/glossary.htm#embryonicsc" title="Look up this term\'s definition">Embryonic stem cells</a>, as their name suggests, are derived from embryos. Most embryonic stem cells are derived from embryos that develop from eggs that have been fertilized <a href="/glossary.htm#invitro" title="Look up this term\'s definition"><em>in vitro</em></a>—in an <a href="/glossary.htm#ivf" title="Look up this term\'s definition"><em>in vitro</em> fertilization</a> clinic—and then donated for research purposes with informed consent of the donors. They are <em>not</em> derived from eggs fertilized in a woman's body.</p>
+<h3>
+	B. How are embryonic stem cells grown in the laboratory?</h3>
+<p>
+	Growing cells in the laboratory is known as <a href="/glossary.htm#cellculture" title="Look up this term\'s definition">cell culture</a>. Human embryonic stem cells (hESCs) are&nbsp;generated by transferring&nbsp;cells from a <a href="/glossary.htm#preimplantation"><u><strong>preimplantation</strong></u></a>-stage embryo&nbsp;into a plastic laboratory culture dish that contains a nutrient broth known as <a href="/glossary.htm#culturemedium" title="Look up this term\'s definition">culture medium</a>. The cells divide and spread over the surface of the dish. In the original protocol, the inner surface of the culture dish was coated with mouse embryonic skin cells&nbsp;specially treated so they will not divide. This coating layer of cells is called a <a href="/glossary.htm#feederlayer" title="Look up this term\'s definition">feeder layer</a>. The mouse cells in the bottom of the culture dish provide the cells a sticky surface to which they can attach. Also, the feeder cells release nutrients into the culture medium. Researchers have now&nbsp;devised ways to grow embryonic stem cells without mouse feeder cells. This is a significant scientific advance because of the risk that viruses or other macromolecules in the mouse cells may be transmitted to the human cells.</p>
+<p>
+	The process of generating an embryonic stem cell line is somewhat inefficient, so lines are not produced each time cells from the preimplantation-stage embryo are placed into a culture dish. However, if the plated cells survive, divide and multiply enough to crowd the dish, they are removed gently and plated into several fresh culture dishes. The process of re-plating or subculturing the cells is repeated many times and for many months. Each cycle of <a href="/glossary.htm#subculturing">subculturing</a> the cells is referred to as a <a href="/glossary.htm#passage">passage</a>. Once the cell line is established, the original cells yield millions of embryonic stem cells. Embryonic stem cells that have proliferated in cell culture for six or more months without differentiating, are <a href="/glossary.htm#pluripotent">pluripotent</a>, and appear genetically normal are referred to as an <a href="/glossary.htm#embryonicline">embryonic stem cell line</a>. At any stage in the process, batches of cells can be frozen and shipped to other laboratories for further culture and experimentation.</p>
+<h3>
+	C. What laboratory tests are used to identify embryonic stem cells?</h3>
+<p>
+	At various points during the process of generating embryonic stem cell lines, scientists test the cells to see whether they exhibit the fundamental properties that make them embryonic stem cells. This process is called characterization.</p>
+<p>
+	Scientists who study human embryonic stem cells have not yet agreed on a standard battery of tests that measure the cells' fundamental properties. However, laboratories that grow human embryonic stem cell lines use several kinds of tests, including:</p>
+<ul>
+<li>
+		Growing and subculturing the stem cells for many months. This ensures that the cells are capable of long-term growth and self-renewal. Scientists inspect the cultures through a microscope to see that the cells look healthy and remain <a href="/glossary.htm#undifferentiated" title="Look up this term\'s definition">undifferentiated</a>.</li>
+<li>
+		Using specific techniques to determine the presence of transcription factors that are typically produced by undifferentiated cells. Two of the most&nbsp;important transcription factors are Nanog and Oct4. Transcription factors help turn <a href="/glossary.htm#gene">genes</a> on and off at the right time, which is an important part of the processes of cell <a href="/glossary.htm#differentiation">differentiation</a> and embryonic development. In this case, both Oct 4 and Nanog are associated with maintaining the stem cells in an undifferentiated state, capable of self-renewal.</li>
+<li>
+		Using specific techniques to determine the presence of particular cell surface markers that are typically produced by undifferentiated cells.</li>
+<li>
+		Examining the chromosomes under a microscope. This is a method to assess whether the chromosomes are damaged or if the number of chromosomes has changed. It does not detect genetic mutations in the cells.</li>
+<li>
+		Determining whether the cells can be re-grown, or subcultured, after freezing, thawing, and re-plating.</li>
+<li>
+		Testing whether the human embryonic stem cells are pluripotent by 1) allowing the cells to differentiate spontaneously in cell culture; 2) manipulating the cells so they will differentiate to form cells characteristic of the three <a href="/glossary.htm#Germlayers">germ layers</a>; or 3) injecting the cells into a mouse with a suppressed immune system to test for the formation of a benign tumor called a <a href="/glossary.htm#teratoma" title="Look up this term\'s definition">teratoma</a>. Since the mouse’s immune system is suppressed, the injected human stem cells are not rejected by the mouse immune system and scientists can observe growth and differentiation of the human stem cells. Teratomas typically contain a mixture of many differentiated or partly differentiated cell types—an indication that the embryonic stem cells are capable of differentiating into multiple cell types.</li>
+</ul>
+<h3>
+	D. How are embryonic stem cells stimulated to differentiate?</h3>
+<p>
+	As long as the embryonic stem cells in culture are grown under appropriate conditions, they can remain undifferentiated (unspecialized). But if cells are allowed to clump together to form <a href="/glossary.htm#embryoidbod" title="Look up this term\'s definition">embryoid bodies</a>, they begin to differentiate spontaneously. They can form muscle cells, nerve cells, and many other cell types. Although spontaneous differentiation is a good indication that a culture of embryonic stem cells is healthy, the process is uncontrolled and therefore an inefficient strategy to produce cultures of specific cell types.</p>
+<p>
+	So, to generate cultures of specific types of differentiated cells—heart muscle cells, blood cells, or nerve cells, for example—scientists try to control the differentiation of embryonic stem cells. They change the chemical composition of the culture medium, alter the surface of the culture dish, or modify the cells by inserting specific genes. Through years of experimentation, scientists have established some basic protocols or "recipes" for the <a href="/glossary.htm#directeddiff" title="Look up this term\'s definition">directed differentiation</a> of embryonic stem cells into some specific cell types (<a href="/info/basics/pages/basics3.aspx#figure1">Figure 1</a>). (For additional examples of directed differentiation of embryonic stem cells, refer to the <a href="/info/scireport/pages/2006report.aspx"> 2006 NIH stem cell report</a>.)</p>
+<p>
+	<a name="_figure1"></a><img alt="Directed differentiation of mouse embryonic stem cells.  This figure is a flow chart showing the steps scientists take to isolate and differentiate mouse embryonic stem cells.  A mouse blastocyst is shown in the upper left, with its inner cell mass (ICM) labeled.  Arrows indicate removal of the ICM and plating in a tissue culture dish, labeled as “undifferentiated embryonic stem cells.”  The next arrow indicates the passage of time and shows that the cells in the plate have now become embryoid bodies.  From this culture dish, an arrow indicates that the next step is “induce initial differentiation and select precursors.”  Next, two arrows show two possible fates, and the label underneath indicates that the scientists “expand precursors.”  The two possible precursor types are “neuronal precursors” or “pancreatic precursors.”  The final step indicates “complete differentiation to generate functional cells.”  The bottom left shows a fluorescently labeled microscope image of “dopamine- and serotonin-secreting neurons” and the bottom right shows a fluorescently labeled microscope image of “insulin-secreting pancreatic islet-like clusters.”" src="/sites/all/themes/stemcells_theme/stemcell_includes/figure1_sm.jpg" /></p>
+<p>
+	Figure 1. Directed differentiation of mouse embryonic stem cells. <a href="/sites/all/themes/stemcells_theme/stemcell_includes/figure1_lg.jpg" rel="_external" target="_blank">Click here</a> for larger image. (© 2008 Terese Winslow)</p>
+<p>
+	If scientists can reliably direct the differentiation of embryonic stem cells into specific cell types, they may be able to use the resulting, differentiated cells to treat certain diseases in the future. Diseases that might be treated by transplanting cells generated from human embryonic stem cells include diabetes, traumatic spinal cord injury, <a href="http://www.ninds.nih.gov/disorders/md/md.htm" target="_blank">Duchenne's muscular dystrophy</a>, heart disease, and vision and hearing loss.</p>
+<p>
+	<a href="/info/basics/2.htm"><img alt="&lt;" src="/sites/all/themes/stemcells_theme/stemcell_includes/bullet_info_rev.gif" />&nbsp;Previous</a>&nbsp;|&nbsp;III. What are embryonic stem cells?&nbsp;|&nbsp;<a href="/info/basics/4.htm">Next&nbsp;<img alt="&gt;" src="/sites/all/themes/stemcells_theme/stemcell_includes/bullet_info.gif" /></a></p>
+</div></div></div>
+  
+  
+</article>
+          </main>
+
+    <div class="layout-swap__top layout-3col__full">
+
+      <a href="#skip-link" class="visually-hidden visually-hidden--focusable" id="main-menu" tabindex="-1">Back to top</a>
+
+      
+      
+    </div>
+
+    
+    
+  </div>
+
+  
+</div>
+
+    </div>
+   <div id="footer">
+            
+    
+    	<ul id="footerLinks" class="inlineLinks">
+		<li>&nbsp;</li>
+		<li><a href="/contact-us.htm">Contact Us</a></li>
+		<li><a href="/accessibility.htm">Accessibility</a></li>
+		<li><a href="/privacy-statement.htm">Privacy statement</a></li>
+		<li><a href="/disclaimer.htm">Disclaimer</a></li>
+	</ul>
+	
+	<p id="citation"><strong>Page citation:</strong> <span id="ctl00_ctl21_lblPageTitle">NIH Stem Cell Information Home Page</span>. In <em>Stem Cell Information</em> [World Wide Web site]. Bethesda, MD: National Institutes of Health, U.S. Department of Health and Human Services, <span id="ctl00_ctl21_lblLateModifcation">2016</span> [cited <span id="ctl00_ctl21_lblCurrDate">June 6, 2019</span>]  Available at  
+	 &lt; 
+
+//stemcells.nih.gov/info/basics/3.htm&gt;
+    	</p>
+
+	<!-- NIH LOGOS -->
+	<div class="logotext2">
+		<a href="//www.hhs.gov/" target="_blank" rel="external">U.S. Department of Health &amp; Human Services (HHS)</a> | 
+		<a href="//usa.gov/" rel="external" target="_blank">USA.gov - Government Made Easy</a><br>
+                <a href="//www.nih.gov/" target="_blank" rel="external">National Institutes of Health (NIH)</a>, 9000 Rockville Pike,
+                                                Bethesda, Maryland 20892<br>
+                <em>NIH…&nbsp;Turning Discovery Into Health</em><sup>®</sup>
+        </div>
+
+
+        </div>
+        
+    </div>  <script type="text/javascript">
+//<![CDATA[
+      var usasearch_config = { siteHandle:"stemcells.nih.gov" };
+
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "//search.usa.gov/javascripts/remote.loader.js";
+      document.getElementsByTagName("head")[0].appendChild(script);
+
+//]]>
+</script>
+</body>
+</div>
+</html>

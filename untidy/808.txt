@@ -1,0 +1,411 @@
+
+
+![](https://blogs.ei.columbia.edu/wp-content/uploads/2015/07/logo.png)
+
+![](https://blogs.ei.columbia.edu/wp-content/themes/sotp-
+
+foundation/images/logo-ei.png)![](https://blogs.ei.columbia.edu/wp-
+
+content/themes/sotp-
+
+foundation/images/separator.png)![](https://blogs.ei.columbia.edu/wp-
+
+content/themes/sotp-foundation/images/logo-cu.png)
+
+#### News from the Earth Institute
+
+  * # 
+
+  * Menu
+
+  * Agriculture
+
+  * Climate
+  * Earth Sciences
+  * Ecology
+  * Energy
+  * Health
+  * Sustainability
+  * Urbanization
+  * Water
+
+Climate
+
+## What Are Climate Models and How Accurate Are They?
+
+by Guest Blogger|May 18, 2018
+
+![](/wp-content/themes/sotp-foundation/images/icon-comments.png) Comments
+
+**By Lauren Harper**
+
+![temperatures based on climate model](http://blogs.ei.columbia.edu/wp-
+
+content/uploads/2018/05/temperature-model.gif)
+
+Temperature projections based on a climate model. Source: NOAA
+
+There’s a famous saying that “The climate is what you expect; the weather is
+what you get.” As a native Texan moving to New York, I had an idea of what to
+expect, but was not fully prepared for what I would get. Because New York’s
+climate is drastically different from what I’m used to, every morning before I
+leave my apartment I religiously check the weather forecast. Very quickly I
+know if it’s going to rain, whether there’s a storm brewing off the coast, or
+if I will need extra layers.
+
+Whereas weather can change dramatically from day to day, the climate means the
+average conditions over roughly 30 years—how warm is the region, on average,
+and how much precipitation does it get in a year? Texas’s climate, for
+example, tends to be warmer for the majority of the year, whereas New York is
+on average cooler with clearly defined seasons.
+
+Weather and climate are sometimes used interchangeably, but scientists,
+meteorologists and researchers study and model them differently.
+
+**What is a Weather Model?**
+
+“Today’s weather forecast is partly cloudy with a chance of showers in the
+late afternoon…” This is a familiar weather summary that you have probably
+heard before from a meteorologist. To make these predictions, meteorologists
+use weather data and forecast models to determine current and future
+atmospheric conditions.
+
+![Weather Balloon, Weather Modeling, NASA](http://blogs.ei.columbia.edu/wp-
+
+content/uploads/2018/05/553790main_ED11-0150-037_full_full-303x220.jpg)
+
+NASA Dryden meteorologists prepare to launch a weather balloon next to a Sonic
+Detection And Ranging wind profiling unit. Photo: NASA Dryden / Tom Tshida
+
+Because weather takes place hour by hour, forecast models use current
+atmospheric and oceanic conditions to predict future weather. The forecast
+takes into account humidity, temperature, air pressure, wind speed and
+direction, as well as cloud cover. Geographic location, proximity to water,
+urban structures, latitude and elevation can also influence the weather you
+experience.
+
+Weather models work at resolutions high enough to generate different
+predictions for neighboring towns, in some cases, but only over short
+timescales of about two weeks maximum.
+
+**What is a Climate Model?**
+
+Essentially, climate models are an extension of weather forecasting. But
+whereas weather models make predictions over specific areas and short
+timespans, climate models are broader and analyze long timespans. They predict
+how average conditions will change in a region over the coming decades.
+
+![Climate Modeling, 3-D Grid](http://blogs.ei.columbia.edu/wp-
+
+content/uploads/2018/05/11-263x303.png)
+
+Illustration of the three-dimensional grid of a climate model. Image: Ruddiman
+
+Climate models include more atmospheric, oceanic and land processes than
+weather models do—such as ocean circulation and melting glaciers. These models
+are typically generated from mathematical equations that use thousands of data
+points to simulate the transfer of energy and water that takes place in
+climate systems.
+
+Scientists use climate models to understand complex earth systems. These
+models allow them to test hypotheses and draw conclusions on past and future
+climate systems. This can help them determine whether abnormal weather events
+or storms are a result of changes in climate or just part of the routine
+climate variation. For example, when predicting tropical cyclones during
+hurricane season, scientists can use climate models to predict the number of
+tropical storms that may form off the coast and in what regions they are
+likely to make landfall.
+
+When creating climate models, scientists use one of three common types of
+simple climate models: energy balance models, intermediate complexity models,
+and general circulation models. These models use numbers to simplify the
+complexities that exist when taking into account all the factors that affect
+climate, like atmospheric mixing and ocean current.
+
+Energy balance models help to forecast climate changes as a result of Earth’s
+energy budget. This model takes into account surface temperatures from solar
+energy, albedo or reflectivity, and the natural cooling from the earth
+emitting heat back out into space. To predict climate, scientists use an
+equation that represents the amount of energy coming in versus going out, to
+understand the changes in heat storage—for example, as more heat-absorbing CO2
+fills up the atmosphere. Scientists then take this equation and plug it into
+box models that represent a square of land within a three-dimensional grid, to
+express climate in a region or even across a continent.
+
+_This video explaining climate modeling was created by the Commonwealth
+Scientific and Industrial Research Organisation (CSIRO) in collaboration with
+Australian Bureau of Meteorology._
+
+Intermediate complexity models are similar to energy balance models but they
+include and combine several of Earth’s geographical structures—land, oceans,
+and ice features, for instance. These geographical features allow intermediate
+complexity models to simulate large-scale climate scenarios such as glacial
+fluctuations, ocean current shifts, and atmospheric composition changes over
+long timescales. Intermediate complexity models describe the climate with less
+spatial and time-specific detail, so they are best used for large-scale and
+low-frequency variations in the earth’s climate system.
+
+![Ice, Ice Core, Modeling, Research, Carbon
+
+Dating](http://blogs.ei.columbia.edu/wp-
+
+content/uploads/2018/05/2616_p1000526-1280px-90-303x233.jpg)
+
+An ice core. Credit: NASA's Goddard Space Flight Center/Ludovic Brucker
+
+General circulation models are the most complex and precise models for
+understanding climate systems and predicting climate change. These models
+include information regarding the atmospheric chemistry, land type, carbon
+cycle, ocean circulation and glacial makeup of the isolated area. This type of
+model also uses a three-dimensional grid, with each box representing around
+100 square kilometers of land, air, or sea, which is better resolution than
+the typical 200 to 600 kilometers per box. This model is more sophisticated
+than the energy balance and intermediate complexity models, but it does
+require a larger amount of computing time—each simulation could take several
+weeks to run.
+
+**What Can Climate Models Tell Us About the Future and Past?**
+
+For many decades, scientists have been collecting data on climate using cores
+from ice, trees, and coral, as well as carbon dating. From this research they
+have discovered details about past human activity, temperature changes in our
+oceans, periods of extreme drought, and much more.
+
+As more data points are collected, they increase the accuracy of existing
+climate models. This enhances climate forecasting, because past climate data
+helps to establish a baseline for typical climate systems. From there,
+researchers establish climate variables that they want to keep the same, like
+cloud cover, and variables they want to test, like increased carbon dioxide,
+to evaluate hypotheses about future changes. These could estimate anything
+from sea level rise to increased temperatures and risk of drought and forest
+fires.
+
+**How Accurate are Climate Models?**
+
+Since the world can’t afford to wait decades to measure the accuracy of
+climate model predictions, scientists test a model’s accuracy using past
+events. If the model accurately predicts past events that we know happened,
+then it should be pretty good at predicting the future, too. And the more we
+learn about past and present conditions, the more accurate these models
+become.
+
+Climate models are complex because of the all the elements that are in flux
+within Earth’s systems. If our atmosphere was like the moon’s, climate
+modeling would be fairly easy because the moon barely has an atmosphere. On
+Earth, climate scientists must account for temperature fluctuations, wind
+patterns, ocean currents, land surface characteristics and much more. Because
+of this, the models always consider some level of uncertainty – but models
+measuring smaller areas with higher resolutions produce more accurate models.
+Despite a small amount of uncertainty, scientists find climate models of the
+21st century to be pretty accurate because they are based on well-founded
+physical principles of earth system processes. This basis solidifies the
+confidence of the scientific community that human emissions are changing the
+climate, which will impact the entire planet.
+
+**Why Are Climate Models Important?**
+
+Understanding past, present and future climate helps us to understand how
+Earth’s systems naturally function. This information, combined with climate
+models, allows us to determine how both natural and manmade influences have
+and will impact changes in our climate. These predictions and results can also
+suggest how to mitigate the worst effects of climate change, and they help
+decision-makers to prioritize environmental issues based on scientific
+evidence.
+
+![Climate Change Vulnerability ](http://blogs.ei.columbia.edu/wp-
+
+content/uploads/2018/05/Climate-Model-2-303x182.jpg)
+
+Climate change vulnerability. Credit: Wesleyan University and Columbia
+University
+
+Numerous models have shown that the climate is changing. Increased greenhouse
+gas emissions from human activities are resulting in positive feedbacks in our
+climate systems. These positive feedbacks can result in not so positive
+changes in earth systems, like melting glacial ice, rising ocean temperatures,
+increasing odds of severe flooding and drought, and climbing surface
+temperatures.
+
+_A climate model predicts future temperatures. This model was developed by
+several climate modeling research groups, including NASA 's Goddard Institute
+for Space Studies._
+
+It is crucial that we continue to collect data and improve models, increasing
+their accuracy to refining our knowledge of climate and weather. It is also
+imperative that we recognize the importance of data-driven results and
+science-backed facts as they influence how communities and policy-makers plan
+for the future. Climate and weather models both have the ability to advance
+the way we plan our cities, influence business opportunities, and even how we
+plan out our day. These models are our best chance at finding ways to mitigate
+the dangerous effects of climate change.
+
+_**Lauren Harper** is an intern in the Earth Institute communications
+department. She is a graduate student in the Environmental Science and Policy
+Program at Columbia’s School of International and Public Affairs._
+
+### Get our newsletter
+
+I'd like to get more stories like this.
+
+Email address
+
+Secure and Spam free...
+
+* * *
+
+#### Tags:
+
+ClimateClimate ModelingWeather
+
+### Related Posts
+
+![](https://blogs.ei.columbia.edu/wp-
+
+content/uploads/2019/05/Winckler_CoreSites-200x150.jpg)Drilling the Seabed
+Below Earth's Most Powerful Ocean Current
+![](https://blogs.ei.columbia.edu/wp-
+
+content/uploads/2019/03/DSC_0034-200x150.jpg)Scientists See Fingerprint of
+Warming Climate on Droughts Going Back to 1900
+
+### Leave a Reply
+
+![avatar](https://secure.gravatar.com/avatar/?s=40&d=mm&r=g)
+
+I agree to help cultivate an open and respectful discussion. I understand rude
+and/or profane comments will be automatically deleted.
+
+__
+
+__
+
+__
+
+__This comment form is under antispam protection
+
+* * *
+
+![avatar](https://secure.gravatar.com/avatar/?s=48&d=mm&r=g)
+
+I agree to help cultivate an open and respectful discussion. I understand rude
+and/or profane comments will be automatically deleted.
+
+__
+
+__
+
+__
+
+__This comment form is under antispam protection
+
+* * *
+
+**Subscribe**
+
+Notify of
+
+new follow-up comments new replies to my comments
+
+  * Search for:
+
+  * ![](https://blogs.ei.columbia.edu/wp-content/themes/sotp-foundation/images/button-newsletter.png)
+
+  * ## Featured Story
+
+![](https://blogs.ei.columbia.edu/wp-content/uploads/2019/06/action-cement-
+
+construction-2219024-200x150.jpg)
+
+#### Floods, Infrastructure and Climate Change
+
+  * ![Earth Institute Fieldwork Map](https://blogs.ei.columbia.edu/wp-content/themes/sotp-foundation/images/button-map.png)
+  * Tweets by earthinstitute
+  * ## Upcoming Events
+
+BP Statistical Review of World Energy 2019 New York Scientific Data Summit
+2019
+
+* * *
+
+  * ## Topics
+
+Topics Select Category Agriculture Climate Earth Sciences Ecology Education
+Energy Gender Equality General Earth Institute Health Natural Disasters
+Poverty / Development Press Release Sustainability Urbanization Water
+
+  * ## Research Centers & Programs
+
+Climate MattersLamont-Doherty Earth ObservatoryMasters in Development
+PracticeWater Matters
+
+  * ## Authors
+
+Advanced Consortium on Cooperation, Conflict, and ComplexityAdam FischerAdrian
+SoghoianAlyssa RomeAvantika GoswamiAlice GraffAlex HallidayAdrienne
+KenyonAllison LadueAlejandra BorundaAlex FischerAllison GreenbergAnna
+MazhirovAmy McDermottRoger AndersonAndrea BascheAngelie SinghArif NooriAshley
+CurtisHuili ZhuAdam SobelAnnie TickellAdam YukelsonRobert S. ChenBenjamin
+PrestonBrian KahnBob AndersonCassie XuCathy VaughanColumbia Center on
+Sustainable InvestmentCatherine FullertonCenter for International Earth
+Science Information NetworkColumbia Water CenterCenter for Research on
+Environmental DecisionsCari ShimkusCourtney SmallCourtney St. JohnDebbie
+CookDebra TillingerDavid FunkhouserDavida HellerDiana B SierraDavid
+MaurrasseDonna ShillingtonDiego VillarrealDwi SusantoEarth InstituteEve
+WarburtonEinat LevCenter on Global Energy PolicyEric HolthausElizabeth
+RobinsonEmily RothenbergEve SolomonElisabeth SydorFarah HegaziKyle
+FrischkornFrancesco FiondellaFrank NitscheGina AckermanGavin SchmidtElisabeth
+GawthropGeoffrey HealGilma MantillaGisela WincklerGrant GoodrichHamsa
+SubramaniamHannah ChangHima BataviaHayley MartinezIndrani DasInternational
+Research Institute for Climate and SocietyIvy MorganJaclyn Leigh CarlsenJames
+WarieroJessica CrespoJeffrey SachsJennifer VettelJesper FrantJessica
+FanzoJeremy HinsdaleJill A. VanTongerenJim CochranJim GahertyJonathan
+NicholsJohn McArthurJohn MutterJu Young LeeJulia Apland HitzJulie
+ArrighiKatherine AllenKalpana VenkatasubramanianKate BrashKate MorrisKate
+WeinbergerKatherine ReganKatie HornerKatie JohnsonKavita Jain-CocksKelsie
+DeFranciaKelsey DyezKevin KrajickKate Kennedy FreemanKim Anne KastensKim
+MartineauKlaus LacknerKristin FrancozKatherine SchulmanKirsty TintoKyu
+LeeKathy ZhangLakis PolycarpouLareef ZubairLaura LyLauren BarredoLauren
+ZieglerLenfest CenterLonnie ThompsonLaura PirainoLindsay SiegelLucia
+RodriguezMadeleine RubensteinMargie TurrinMariapaola SuttoMarie DeNoia
+AronsohnMary-Elena CarrMattias ChesleyMeaghan DalyMelika EdquistMeg ReitzMegan
+WinstonMeghna BhattacharjeeMichael B. GerrardMichael BarnettMichelle
+CordrayMichelle ShevinMike StecklerMolly HellmuthMilap PatelMarivi Perdomo
+CabaMeg TowleMargo WeissNatalie Unwin-KuruneriNikhil NarulaNatalia MrozNeil
+PedersonNathan RudderPaola MejiaPatrick KinneyPaul BlockPeter ColemanPeter
+KelemenPeter SchlosserPatty MechaelPratigya PolissarPoonam AroraPhebe
+PiersonPrabhjot DhadiallaPrabhjot SinghPamela VreelandRenee ChoRebecca
+FowlerRonny FriedrichRebecca GreenwaldRichard GonzalezRichard PlunzBob
+CroccoRobert HsuRustom MasalawalaSabin Center for Climate Change LawSamantha
+TressSarah BrennanSarah Wakefield AdhyaSuzanne CarbotteThomas ChenScott
+BarrettSelim TliliSarah FechtShahid NaeemShahzeen Z. AttariSidney
+HemmingSharon KimStacy MorfordSamantha OstrowskiShama PerveenBeth
+StaufferStephanie RuizStephen HammerStephen YangSteve CohenSarah TweedieSusan
+BlausteinSusan KarutiTanya HeikkilaTheresa E. HernandezTim CreytsTim
+CroneTimothy GildnerTobias SiegfriedTamara PlummerTristan JonesTracy
+SlagleTrevor WilliamsUyen Kim HuynhUjala QadirUpmanu LallWilliam MenkeYanis
+Ben AmorYochanan KushnirYombo Tankoano
+
+  * ## Archives
+
+Select Year 2019 (206) 2018 (434) 2017 (370) 2016 (396) 2015 (415) 2014 (383)
+2013 (334) 2012 (508) 2011 (511) 2010 (549) 2009 (285) 2008 (11)
+
+  * _**State of the Planet** is a forum for discussion on varying viewpoints. The opinions expressed by the authors and those providing comments are theirs alone, and do not necessarily reflect the opinions of the Earth Institute or Columbia University._
+
+Earth Institute, Columbia University  
+Ask a Question / Suggest a Story
+
+wpDiscuz
+
+### Get our newsletter
+
+Sign me up for the Earth Institute newsletter, so I can receive more stories
+like this.
+
+Email address
+
+This website uses cookies as well as similar tools and technologies to
+understand visitors' experiences. By continuing to use this website, you
+consent to Columbia University's usage of cookies and similar technologies, in
+accordance with the Columbia University Website Cookie Notice.Close
+

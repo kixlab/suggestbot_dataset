@@ -1,0 +1,1118 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta name="msvalidate.01" content="1E73A4327A5FCE4381DF8DE4C2AC3391" />
+	<meta name="naver-site-verification" content="ee852014dcd6e344584de4bc71a84cd7d2941590"/>
+	<meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700|PT+Serif:400,700|Noto+Sans+KR:400,500,700" rel="stylesheet">
+	<script src="https://imboldn.com/wp-content/themes/imboldn-cb/js/kakao.min.js"></script>
+	<script type='text/javascript'>
+	  //<![CDATA[
+	    // // 사용할 앱의 JavaScript 키를 설정해 주세요.
+	    Kakao.init('09ffd82722b3f2b648d7e76a7f01aacf');
+	  //]]>
+	</script>
+	
+	<!-- Google Tag Manager
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-5KF6B4Q');</script> -->
+	
+	<!-- Google AdSense -->
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+	     (adsbygoogle = window.adsbygoogle || []).push({
+	          google_ad_client: "ca-pub-7120886332620194",
+	          enable_page_level_ads: true
+	     });
+	</script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63681854-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	
+	gtag('config', 'UA-63681854-1');
+	</script>
+	
+	
+		
+		<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org/",
+		  "@type": "WebSite",
+		  "name": "IMBOLDN",
+		  "alternateName": "임볼든",
+		  "description": "The Lifestyle Guide for Men on the Cutting Edge.",
+		  "url": "https://www.imboldn.com",
+		  "potentialAction": {
+		    "@type": "SearchAction",
+		    "target": "https://www.imboldn.com/?s={search_term_string}",
+		    "query-input": "required name=search_term_string"
+		  }
+		}
+		</script>
+		<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "NewsMediaOrganization",
+		  "name": "IMBOLDN",
+		  "alternateName": "임볼든",
+		  "description": "The Lifestyle Guide for Men on the Cutting Edge.",
+		  "url": "https://www.imboldn.com",
+		  "logo": "https://www.imboldn.com/wp-content/uploads/2019/01/imboldn-logo-black-1.png",
+		  "contactPoint": {
+		    "@type": "ContactPoint",
+		    "telephone": "+82-2-2026-8931",
+		    "contactType": "customer service",
+		    "areaServed": "KR",
+		    "availableLanguage": ["English","Korean"]
+		  },
+		  "sameAs": [
+		    "https://www.facebook.com/imboldn/",
+		    "https://twitter.com/imboldn",
+		    "https://www.instagram.com/imboldn/",
+		    "https://www.youtube.com/channel/UCDmHivEx6vA-mCWwlGgp0iA",
+		    "https://www.pinterest.co.kr/IMBOLDN/"
+		  ]
+		}
+		</script>
+		
+	<title>The Horsepower Wars are Over. Or Are they?</title>
+<link rel="alternate" hreflang="en-us" href="https://imboldn.com/digest/the-horsepower-wars-are-over-or-are-they/" />
+<link rel="alternate" hreflang="ko-kr" href="https://imboldn.com/ko/digest/%eb%a7%88%eb%a0%a5horsepower-%ec%a0%84%ec%9f%81%ec%9d%98-%eb%81%9d-%ea%b3%bc%ec%97%b0/" />
+
+<!-- This site is optimized with the Yoast SEO plugin v11.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="From classic cars to modern marvels, we take a look at the most powerful and groundbreaking automobiles around, and the horsepower wars that inspired them."/>
+<link rel="canonical" href="https://imboldn.com/digest/the-horsepower-wars-are-over-or-are-they/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="The Horsepower Wars are Over. Or Are they?" />
+<meta property="og:description" content="Challenger, GTO, Roadrunner, all classic car names from the 1960&#039;s and &#039;70&#039;s. Packing monster V8&#039;s, these were built for getting from one red light to the next as fast as possible. But times change, Detroit&#039;s horsepower obsession died and sanity returned. Not for long though. Power sells, and like adversaries peering out from behind the barricades, manufacturers can&#039;t resist taking shots at one another. Neither is this competition a purely American phenomenon. The Germans seem unable to resist a good scrap. Heck, even the French and the Brits join in from time to time." />
+<meta property="og:url" content="https://imboldn.com/digest/the-horsepower-wars-are-over-or-are-they/" />
+<meta property="og:site_name" content="IMBOLDN" />
+<meta property="article:publisher" content="https://www.facebook.com/imboldn" />
+<meta property="article:section" content="Cars" />
+<meta property="fb:app_id" content="832360140258127" />
+<meta property="og:image" content="https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-header.jpg" />
+<meta property="og:image:secure_url" content="https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-header.jpg" />
+<meta property="og:image:width" content="1600" />
+<meta property="og:image:height" content="900" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="From classic cars to modern marvels, we take a look at the most powerful and groundbreaking automobiles around, and the horsepower wars that inspired them." />
+<meta name="twitter:title" content="The Horsepower Wars are Over. Or Are they?" />
+<meta name="twitter:site" content="@imboldn" />
+<meta name="twitter:image" content="https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-header.jpg" />
+<meta name="twitter:creator" content="@imboldn" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://imboldn.com/#organization","name":"IMBOLDN","url":"https://imboldn.com/","sameAs":["https://www.facebook.com/imboldn","https://www.instagram.com/imboldn/","https://www.youtube.com/channel/UCDmHivEx6vA-mCWwlGgp0iA","https://www.pinterest.com/IMBOLDN/","https://twitter.com/imboldn"]},{"@type":"WebSite","@id":"https://imboldn.com/#website","url":"https://imboldn.com/","name":"IMBOLDN","publisher":{"@id":"https://imboldn.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://imboldn.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"https://imboldn.com/digest/the-horsepower-wars-are-over-or-are-they/#webpage","url":"https://imboldn.com/digest/the-horsepower-wars-are-over-or-are-they/","inLanguage":"en-US","name":"The Horsepower Wars are Over. Or Are they?","isPartOf":{"@id":"https://imboldn.com/#website"},"image":{"@type":"ImageObject","@id":"https://imboldn.com/digest/the-horsepower-wars-are-over-or-are-they/#primaryimage","url":"https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-header.jpg","width":1600,"height":900},"primaryImageOfPage":{"@id":"https://imboldn.com/digest/the-horsepower-wars-are-over-or-are-they/#primaryimage"},"datePublished":"2018-04-17T16:00:37+00:00","dateModified":"2018-04-18T12:49:10+00:00","description":"From classic cars to modern marvels, we take a look at the most powerful and groundbreaking automobiles around, and the horsepower wars that inspired them.","breadcrumb":{"@id":"https://imboldn.com/digest/the-horsepower-wars-are-over-or-are-they/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://imboldn.com/digest/the-horsepower-wars-are-over-or-are-they/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://imboldn.com/","url":"https://imboldn.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://imboldn.com/digest/","url":"https://imboldn.com/digest/","name":"Digests"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"https://imboldn.com/digest/the-horsepower-wars-are-over-or-are-they/","url":"https://imboldn.com/digest/the-horsepower-wars-are-over-or-are-they/","name":"The Horsepower Wars are Over. Or Are they?"}}]}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//imboldn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="IMBOLDN &raquo; Feed" href="https://imboldn.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="IMBOLDN &raquo; Comments Feed" href="https://imboldn.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="IMBOLDN &raquo; The Horsepower Wars are Over. Or Are they? Comments Feed" href="https://imboldn.com/digest/the-horsepower-wars-are-over-or-are-they/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/imboldn.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.1"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://imboldn.com/wp-includes/css/dist/block-library/style.min.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-style-css'  href='https://imboldn.com/wp-content/plugins/woo-gutenberg-products-block/build/style.css?ver=2.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://imboldn.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wcml-dropdown-0-css'  href='https://imboldn.com/wp-content/plugins/woocommerce-multilingual/templates/currency-switchers/legacy-dropdown/style.css?ver=4.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css'  href='https://imboldn.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=3.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='https://imboldn.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=3.6.4' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='https://imboldn.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=3.6.4' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='wpml-menu-item-0-css'  href='//imboldn.com/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-style-css'  href='https://imboldn.com/wp-content/plugins/woo-product-gallery-slider/assets/public/css/slick.css?ver=2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-theme-css'  href='https://imboldn.com/wp-content/plugins/woo-product-gallery-slider/assets/public/css/slick-theme.css?ver=2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='venobox-style-css'  href='https://imboldn.com/wp-content/plugins/woo-product-gallery-slider/assets/public/css/venobox.css?ver=2.0' type='text/css' media='all' />
+<style id='venobox-style-inline-css' type='text/css'>
+
+                .wpgs-for .slick-arrow,.wpgs-nav .slick-prev::before, .wpgs-nav .slick-next::before{
+                        color: ;
+            
+
+                
+                }
+</style>
+<link rel='stylesheet' id='flaticon-wpgs-css'  href='https://imboldn.com/wp-content/plugins/woo-product-gallery-slider/assets/public/css/font/flaticon.css?ver=2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='imboldn-style-css'  href='https://imboldn.com/wp-content/themes/imboldn-cb/style.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css'  href='https://imboldn.com/wp-content/themes/imboldn-cb/css/animate.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='icon-style-css'  href='https://imboldn.com/wp-content/themes/imboldn-cb/css/icons.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css'  href='https://imboldn.com/wp-content/themes/imboldn-cb/css/slick.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='simple-favorites-css'  href='https://imboldn.com/wp-content/plugins/favorites/assets/css/favorites.css?ver=2.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mc4wp-form-basic-css'  href='https://imboldn.com/wp-content/plugins/mailchimp-for-wp/assets/css/form-basic.min.css?ver=4.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ari-fancybox-css'  href='https://imboldn.com/wp-content/plugins/ari-fancy-lightbox/assets/fancybox/jquery.fancybox.min.css?ver=1.3.6' type='text/css' media='all' />
+<script type='text/javascript' src='https://imboldn.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://imboldn.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/plugins/sitepress-multilingual-cms/res/js/jquery.cookie.js?ver=4.2.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpml_cookies = {"_icl_current_language":{"value":"en","expires":1,"path":"\/"}};
+var wpml_cookies = {"_icl_current_language":{"value":"en","expires":1,"path":"\/"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js?ver=4.2.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var favorites_data = {"ajaxurl":"https:\/\/imboldn.com\/wp-admin\/admin-ajax.php","nonce":"95652605b5","favorite":"Favorite <i class=\"sf-icon-star-empty\"><\/i>","favorited":"Favorited <i class=\"sf-icon-star-full\"><\/i>","includecount":"","indicate_loading":"1","loading_text":"Loading","loading_image":"","loading_image_active":"","loading_image_preload":"","cache_enabled":"1","button_options":{"button_type":{"label":"Favorite","icon":"<i class=\"sf-icon-favorite\"><\/i>","icon_class":"sf-icon-favorite","state_default":"Favorite","state_active":"Favorited"},"custom_colors":false,"box_shadow":false,"include_count":false,"default":{"background_default":false,"border_default":false,"text_default":false,"icon_default":false,"count_default":false},"active":{"background_active":false,"border_active":false,"text_active":false,"icon_active":false,"count_active":false}},"authentication_modal_content":"<p>Please login to add favorites.<\/p>\n<p><a href=\"\/login\/\" class=\"btn-normal\">Login<\/a><a href=\"#\" data-favorites-modal-close>Dismiss this notice<\/a><\/p>\n","authentication_redirect":"","dev_mode":"","logged_in":"","user_id":"0","authentication_redirect_url":"https:\/\/imboldn.com\/login"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/plugins/favorites/assets/js/favorites.min.js?ver=2.3.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ARI_FANCYBOX = {"lightbox":{"loop":true,"backFocus":false,"trapFocus":false,"thumbs":{"hideOnClose":false},"touch":{"vertical":true,"momentum":true},"buttons":["slideShow","fullScreen","thumbs","close"],"lang":"custom","i18n":{"custom":{"PREV":"Previous","NEXT":"Next","PLAY_START":"Start slideshow (P)","PLAY_STOP":"Stop slideshow (P)","FULL_SCREEN":"Full screen (F)","THUMBS":"Thumbnails (G)","CLOSE":"Close (Esc)","ERROR":"The requested content cannot be loaded. <br\/> Please try again later."}}},"convert":{"images":{"convert":true,"post_grouping":true},"woocommerce":{"convert":true}},"viewers":{"pdfjs":{"url":"https:\/\/imboldn.com\/wp-content\/plugins\/ari-fancy-lightbox\/assets\/pdfjs\/web\/viewer.html"}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/plugins/ari-fancy-lightbox/assets/fancybox/jquery.fancybox.min.js?ver=1.3.6'></script>
+<link rel='https://api.w.org/' href='https://imboldn.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://imboldn.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://imboldn.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.1" />
+<meta name="generator" content="WooCommerce 3.6.4" />
+<link rel='shortlink' href='https://imboldn.com/?p=101605' />
+<link rel="alternate" type="application/json+oembed" href="https://imboldn.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fimboldn.com%2Fdigest%2Fthe-horsepower-wars-are-over-or-are-they%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://imboldn.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fimboldn.com%2Fdigest%2Fthe-horsepower-wars-are-over-or-are-they%2F&#038;format=xml" />
+<meta name="generator" content="WPML ver:4.2.4 stt:1,29;" />
+<style type="text/css">BODY .fancybox-container{z-index:20000000000}BODY .fancybox-is-open .fancybox-bg{opacity:0.85}BODY .fancybox-bg {background-color:#282b33}BODY .fancybox-thumbs {background-color:transparent}</style><style type="text/css">/* Mailchimp for WP - Checkbox Styles */
+.mc4wp-checkbox-wp-registration-form {
+  clear: both;
+  display: block;
+  position: static;
+  width: auto; }
+  .mc4wp-checkbox-wp-registration-form input {
+    float: none;
+    width: auto;
+    position: static;
+    margin: 0 6px 0 0;
+    padding: 0;
+    vertical-align: middle;
+    display: inline-block !important;
+    max-width: 21px;
+    -webkit-appearance: checkbox; }
+  .mc4wp-checkbox-wp-registration-form label {
+    float: none;
+    display: block;
+    cursor: pointer;
+    width: auto;
+    position: static;
+    margin: 0 0 16px 0; }
+</style>	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	            <script type="text/javascript">
+				
+                var pafw_ajaxurl = 'https://imboldn.com/wp-admin/admin-ajax.php?lang=en';
+            </script>
+			      <meta name="onesignal" content="wordpress-plugin"/>
+          <link rel="manifest"
+            href="https://imboldn.com/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/manifest.json.php?gcm_sender_id="/>
+          <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>    <script>
+
+      window.OneSignal = window.OneSignal || [];
+
+      OneSignal.push( function() {
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = "OneSignalSDKUpdaterWorker.js.php";
+        OneSignal.SERVICE_WORKER_PATH = "OneSignalSDKWorker.js.php";
+        OneSignal.SERVICE_WORKER_PARAM = { scope: '/' };
+
+        OneSignal.setDefaultNotificationUrl("https://imboldn.com");
+        var oneSignal_options = {};
+        window._oneSignalInitOptions = oneSignal_options;
+
+        oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = '0c046348-1a01-4e2e-9170-fad083a17c8a';
+oneSignal_options['autoRegister'] = true;
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['title'] = "IMBOLDN";
+oneSignal_options['welcomeNotification']['message'] = "Thanks for subscribing!";
+oneSignal_options['welcomeNotification']['url'] = "https://imboldn.com";
+oneSignal_options['path'] = "https://imboldn.com/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/";
+oneSignal_options['safari_web_id'] = "web.onesignal.auto.05255d72-c150-4ea5-804e-422907370478";
+oneSignal_options['promptOptions'] = { };
+              OneSignal.init(window._oneSignalInitOptions);
+                    });
+
+      function documentInitOneSignal() {
+        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+        var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i < oneSignal_elements.length; i++)
+          oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+      }
+
+      if (document.readyState === 'complete') {
+           documentInitOneSignal();
+      }
+      else {
+           window.addEventListener("load", function(event){
+               documentInitOneSignal();
+          });
+      }
+    </script>
+
+		<style type="text/css">
+					.site-title,
+			.site-description {
+				position: absolute;
+				clip: rect(1px, 1px, 1px, 1px);
+			}
+				</style>
+		<link rel="icon" href="https://imboldn.com/wp-content/uploads/2019/01/cropped-imboldn-favicon-1-2-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://imboldn.com/wp-content/uploads/2019/01/cropped-imboldn-favicon-1-2-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://imboldn.com/wp-content/uploads/2019/01/cropped-imboldn-favicon-1-2-180x180.png" />
+<meta name="msapplication-TileImage" content="https://imboldn.com/wp-content/uploads/2019/01/cropped-imboldn-favicon-1-2-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			html[lang="ko-KR"] .woocommerce-order-received article .entry-header .entry-title {
+	letter-spacing: 0;
+}
+.woocommerce ul.order_details {
+	padding: 0;
+}
+.inicis_vbank_account_table tr td {
+	font-size: 0.875rem;
+}
+.inicis_vbank_account_table tr td:first-child {
+	width: 180px;
+	background-color: #f9f9f9;
+}
+.woocommerce .woocommerce-customer-details address {
+	border-radius: 0 !important;
+	border: none !important;
+	font-size: 0.875rem !important;
+	color: #808080 !important;
+	padding: 0;
+	
+}
+
+.entry-content h3 {
+	line-height: 1.4;
+}
+.entry-content h5 {
+	font-size: 17px;
+	line-height: 1.7rem;
+}
+
+.slick-slide {
+	margin: 0 1px !important;
+}
+
+.home #imboldn-digest ul.three-cols > li .entry-meta ul.sharing {
+	width: 100%;
+}
+.woocommerce form .form-row label {
+	font-size: 0.75rem;
+	color: #ac7f61 !important;
+}
+.cb-gallery-slick-dots li button {
+	font-size: 0 !important;
+}
+.hidden-field {
+	display: none !important;
+}
+
+article#post-130737,
+article#post-131129,
+article#post-131118,
+article#post-130741,
+article#post-130735,
+article#post-129743,
+article#post-129742,
+article#post-130739 {
+	  max-width: 800px;
+    margin: 100px auto 0 auto !important;
+    float: none;
+}
+
+.site-header .navigation-top .icon-bag {
+	display: none !important;
+}
+.mobile-menu-area .icon-bag, .site-header .site-branding .icon-bag {
+	display: none !important;
+}
+.search-no-results .loop-sidebar-banner {
+	display: none !important;
+}
+.category .cushion-banner {
+	width: 100%;
+	float: left;
+}
+
+/* 2019.02.18 */	
+.price-area .price-action {
+	float: right !important;
+	margin: 0 !important;
+}
+.price-area .price-info-wrap {
+	margin: 0 !important;
+	padding: 0 15px !important;
+}
+.wp-block-gallery.columns-1 .blocks-gallery-item figcaption {
+	padding: 20px !important;
+}
+
+/* 2019.02.27 */
+.woocommerce nav.woocommerce-pagination {
+	width: 100%;
+	float: left;
+}
+.woocommerce .woocommerce-billing-fields h3 {
+	border-bottom: none !important;
+}
+.woocommerce .woocommerce-billing-fields h3::after {
+	border-bottom: none !important;
+}
+
+.woocommerce-terms-and-conditions-wrapper {
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	margin: 0 0 20px 0;
+}
+.woocommerce-terms-and-conditions-wrapper .woocommerce-terms-and-conditions-checkbox-text {
+	color: #101010;
+	font-size: 0.875rem !important;
+	font-weight: 700;
+}
+#place_order {
+	margin: 0 20px 20px 0;
+}
+.woocommerce table.my_account_orders .button {
+	padding: 10px 15px;
+	margin: 0 10px 0 0;
+}
+.fancybox-navigation {
+	display: block !important;
+}
+.fancybox-toolbar button,
+.fancybox-navigation button {
+	color: #fff !important;
+}
+.entry-content h4 {
+ font-size: 1.125rem !important;
+}
+.single-product .entry-content h5 {
+	letter-spacing: -0.25px;
+}
+
+@media all and (max-width: 834px) {
+		.category .cushion-banner .loop-cushion {
+		margin: 0 0 20px 0 !important;
+		padding: 0 0 20px 0 !important;
+		border-bottom: 1px dotted #ddd !important;
+		border-top: none !important;
+	}
+}
+.entry-content h4 {
+ font-size: 1.125rem !important;
+	width: 100%;
+	float: left;
+	margin: 0 0 18px 0;
+}		</style>
+		</head>
+
+<body class="digest-template-default single single-digest postid-101605 wp-custom-logo woocommerce-no-js chrome no-sidebar">
+<!-- Google Tag Manager (noscript)
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KF6B4Q"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+	
+	<header id="masthead" class="site-header" role="banner">
+        <div class="site-branding">
+            <div class="inner">
+	            
+				<nav class="desktop-only menu-language-navigation-container"><ul id="lang-nav" class="menu"><li id="menu-item-wpml-ls-15131-en" class="menu-item-language menu-item-language-current menu-item wpml-ls-slot-15131 wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-15131-en"><a title="English" href="https://imboldn.com/digest/the-horsepower-wars-are-over-or-are-they/"><span class="wpml-ls-native">English</span></a></li>
+<li id="menu-item-wpml-ls-15131-ko" class="menu-item-language menu-item wpml-ls-slot-15131 wpml-ls-item wpml-ls-item-ko wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-15131-ko"><a title="한국어" href="https://imboldn.com/ko/digest/%eb%a7%88%eb%a0%a5horsepower-%ec%a0%84%ec%9f%81%ec%9d%98-%eb%81%9d-%ea%b3%bc%ec%97%b0/"><span class="wpml-ls-native">한국어</span></a></li>
+</ul></nav>				
+                <span class="icons icon-40 icon-search icon-white mobile-only"></span>
+                <span class="icons icon-bag icon-40 icon-white mobile-only">
+                	<!-- <a href="https://imboldn.com/cart/" title="View your shopping cart"></a> -->
+                </span>
+                
+                	                <a href="https://imboldn.com/" class="custom-logo-link" rel="home"><img width="700" height="102" src="https://imboldn.com/wp-content/uploads/2019/01/imboldn-logo-black-1.png" class="custom-logo" alt="IMBOLDN - The Lifestyle Guide for Men on the Cutting Edge" srcset="https://imboldn.com/wp-content/uploads/2019/01/imboldn-logo-black-1.png 700w, https://imboldn.com/wp-content/uploads/2019/01/imboldn-logo-black-1-300x44.png 300w, https://imboldn.com/wp-content/uploads/2019/01/imboldn-logo-black-1-540x79.png 540w" sizes="(max-width: 700px) 100vw, 700px" /></a>						<p class="site-title"><a href="https://imboldn.com/" rel="home">IMBOLDN</a></p>
+												<p class="site-description">The Lifestyle Guide for Men on the Cutting Edge</p>
+									                
+                	                <ul class="utility-line">
+		                							<li><a href="https://imboldn.com/login?redirect_to=https%3A%2F%2Fimboldn.com%2Fdigest%2Fthe-horsepower-wars-are-over-or-are-they%2F" title="Login">Login</a></li>
+							<!-- <li><a href="/register/" title="Register">Register</a></li> -->
+							
+							                </ul>
+                                
+                <div class="top-icon-set">
+	                <span class="icons icon-star icon-40 icon-circle icon-circle-gray icon-black desktop-only"><a href="/favorites/"></a></span>
+	                <span class="icons icon-bag icon-40 icon-circle icon-circle-gray icon-black desktop-only">
+	                	<a href="https://imboldn.com/cart/" title="View your shopping cart">
+															                	</a>
+	                </span>
+	                <span class="icons icon-search icon-40 icon-circle icon-circle-gray icon-black desktop-only"></span>
+                </div> <!-- .top-icon-seet -->
+                
+                <span class="icons icon-menu icon-40 icon-white mobile-only"></span>
+            </div><!-- .inner -->
+        </div> <!-- .site-branding -->
+        <div class="navigation-top">
+            <div class="inner">
+	            <a href="https://imboldn.com"><img class="logo-white" src="https://imboldn.com/wp-content/themes/imboldn-cb/images/logo/imboldn-logo-white.png" alt="IMBOLDN" /></a>
+	            <!-- <span class="icons icon-imboldn icon-40 icon-white desktop-only"><a href="https://imboldn.com/"></a></span> -->
+				<nav class="menu-main-navigation-container"><ul id="primary-nav" class="menu"><li id="menu-item-136040" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-136040"><a href="https://imboldn.com/everyday-carry/">Everyday Carry</a>
+<ul class="sub-menu">
+	<li id="menu-item-136041" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136041"><a href="https://imboldn.com/everyday-carry/bags/">Bags</a></li>
+	<li id="menu-item-136042" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136042"><a href="https://imboldn.com/everyday-carry/tools/">Tools</a></li>
+	<li id="menu-item-136044" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136044"><a href="https://imboldn.com/everyday-carry/watches/">Watches</a></li>
+	<li id="menu-item-136043" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136043"><a href="https://imboldn.com/everyday-carry/everyday-carry-misc/">EDC-Misc.</a></li>
+</ul>
+</li>
+<li id="menu-item-136045" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-136045"><a href="https://imboldn.com/tech/">Tech</a>
+<ul class="sub-menu">
+	<li id="menu-item-136046" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136046"><a href="https://imboldn.com/tech/audio/">Audio</a></li>
+	<li id="menu-item-136047" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136047"><a href="https://imboldn.com/tech/photo-and-video/">Photo &#038; Video</a></li>
+	<li id="menu-item-136048" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136048"><a href="https://imboldn.com/tech/gear/">Gear</a></li>
+	<li id="menu-item-136049" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136049"><a href="https://imboldn.com/tech/tech-misc/">Misc.</a></li>
+</ul>
+</li>
+<li id="menu-item-136050" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-136050"><a href="https://imboldn.com/style/">Style</a>
+<ul class="sub-menu">
+	<li id="menu-item-136052" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136052"><a href="https://imboldn.com/style/apparel/">Apparel</a></li>
+	<li id="menu-item-136053" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136053"><a href="https://imboldn.com/style/footwear/">Footwear</a></li>
+	<li id="menu-item-136054" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136054"><a href="https://imboldn.com/style/grooming/">Grooming</a></li>
+	<li id="menu-item-136051" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136051"><a href="https://imboldn.com/style/style-misc/">Style-Misc.</a></li>
+</ul>
+</li>
+<li id="menu-item-136055" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-136055"><a href="https://imboldn.com/rides/">Rides</a>
+<ul class="sub-menu">
+	<li id="menu-item-136056" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136056"><a href="https://imboldn.com/rides/cars/">Cars</a></li>
+	<li id="menu-item-136057" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136057"><a href="https://imboldn.com/rides/motorcycles/">Motorcycles</a></li>
+	<li id="menu-item-136058" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136058"><a href="https://imboldn.com/rides/bicycles/">Bicycles</a></li>
+	<li id="menu-item-136059" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136059"><a href="https://imboldn.com/rides/rides-misc/">Misc.</a></li>
+</ul>
+</li>
+<li id="menu-item-136060" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-136060"><a href="https://imboldn.com/art-and-design/">Art &#038; Design</a>
+<ul class="sub-menu">
+	<li id="menu-item-136061" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136061"><a href="https://imboldn.com/art-and-design/architecture-and-interiors/">Architecture &#038; Interiors</a></li>
+	<li id="menu-item-136062" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136062"><a href="https://imboldn.com/art-and-design/books/">Books</a></li>
+	<li id="menu-item-136063" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136063"><a href="https://imboldn.com/art-and-design/culture/">Culture</a></li>
+	<li id="menu-item-136064" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136064"><a href="https://imboldn.com/art-and-design/art-and-design-misc/">Misc.</a></li>
+</ul>
+</li>
+<li id="menu-item-136065" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-136065"><a href="https://imboldn.com/lifestyle/">Lifestyle</a>
+<ul class="sub-menu">
+	<li id="menu-item-136066" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136066"><a href="https://imboldn.com/lifestyle/bar-and-kitchen/">Bar &#038; Kitchen</a></li>
+	<li id="menu-item-136067" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136067"><a href="https://imboldn.com/lifestyle/outdoor/">Outdoor</a></li>
+	<li id="menu-item-136068" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136068"><a href="https://imboldn.com/lifestyle/health-and-fitness/">Health &#038; Fitness</a></li>
+	<li id="menu-item-136069" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136069"><a href="https://imboldn.com/lifestyle/lifestyle-misc/">Misc.</a></li>
+</ul>
+</li>
+<li id="menu-item-136101" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-136101"><a href="/digest/">Digest</a></li>
+<li id="menu-item-136102" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-136102"><a href="/video/">Video</a></li>
+</ul></nav>				<span class="icons icon-bag icon-40 icon-white desktop-only">
+                	<a href="https://imboldn.com/cart/" title="View your shopping cart">
+												                	</a>
+                </span>
+                <span class="icons icon-search icon-40 icon-white desktop-only"></span>
+            </div><!-- .inner -->
+        </div> <!-- .navigation-top -->
+    </header> <!-- #masthead -->
+
+    <div class="dark-blue-modal mobile-menu-area mobile-only">
+    <div class="inner">
+	    <span class="icons icon-close icon-40 icon-white mobile-only"></span>
+	    
+	    <!-- <a href="https://imboldn.com/" class="custom-logo-link" rel="home"><img width="700" height="102" src="https://imboldn.com/wp-content/uploads/2019/01/imboldn-logo-black-1.png" class="custom-logo" alt="IMBOLDN - The Lifestyle Guide for Men on the Cutting Edge" srcset="https://imboldn.com/wp-content/uploads/2019/01/imboldn-logo-black-1.png 700w, https://imboldn.com/wp-content/uploads/2019/01/imboldn-logo-black-1-300x44.png 300w, https://imboldn.com/wp-content/uploads/2019/01/imboldn-logo-black-1-540x79.png 540w" sizes="(max-width: 700px) 100vw, 700px" /></a> -->
+	    
+	    <nav class="menu-language-navigation-container mobile-only"><ul id="lang-nav" class="menu"><li class="menu-item-language menu-item-language-current menu-item wpml-ls-slot-15131 wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-15131-en"><a title="English" href="https://imboldn.com/digest/the-horsepower-wars-are-over-or-are-they/"><span class="wpml-ls-native">English</span></a></li>
+<li class="menu-item-language menu-item wpml-ls-slot-15131 wpml-ls-item wpml-ls-item-ko wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-15131-ko"><a title="한국어" href="https://imboldn.com/ko/digest/%eb%a7%88%eb%a0%a5horsepower-%ec%a0%84%ec%9f%81%ec%9d%98-%eb%81%9d-%ea%b3%bc%ec%97%b0/"><span class="wpml-ls-native">한국어</span></a></li>
+</ul></nav>		
+		<div class="wish-and-star">
+						<span class="icons icon-star icon-40 icon-white mobile-only"><a href="/favorites/"></a></span>
+		</div>
+		
+	    <nav class="menu-main-navigation-container"><ul id="primary-nav" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-136040"><a href="https://imboldn.com/everyday-carry/">Everyday Carry</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136041"><a href="https://imboldn.com/everyday-carry/bags/">Bags</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136042"><a href="https://imboldn.com/everyday-carry/tools/">Tools</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136044"><a href="https://imboldn.com/everyday-carry/watches/">Watches</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136043"><a href="https://imboldn.com/everyday-carry/everyday-carry-misc/">EDC-Misc.</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-136045"><a href="https://imboldn.com/tech/">Tech</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136046"><a href="https://imboldn.com/tech/audio/">Audio</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136047"><a href="https://imboldn.com/tech/photo-and-video/">Photo &#038; Video</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136048"><a href="https://imboldn.com/tech/gear/">Gear</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136049"><a href="https://imboldn.com/tech/tech-misc/">Misc.</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-136050"><a href="https://imboldn.com/style/">Style</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136052"><a href="https://imboldn.com/style/apparel/">Apparel</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136053"><a href="https://imboldn.com/style/footwear/">Footwear</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136054"><a href="https://imboldn.com/style/grooming/">Grooming</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136051"><a href="https://imboldn.com/style/style-misc/">Style-Misc.</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-136055"><a href="https://imboldn.com/rides/">Rides</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136056"><a href="https://imboldn.com/rides/cars/">Cars</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136057"><a href="https://imboldn.com/rides/motorcycles/">Motorcycles</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136058"><a href="https://imboldn.com/rides/bicycles/">Bicycles</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136059"><a href="https://imboldn.com/rides/rides-misc/">Misc.</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-136060"><a href="https://imboldn.com/art-and-design/">Art &#038; Design</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136061"><a href="https://imboldn.com/art-and-design/architecture-and-interiors/">Architecture &#038; Interiors</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136062"><a href="https://imboldn.com/art-and-design/books/">Books</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136063"><a href="https://imboldn.com/art-and-design/culture/">Culture</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136064"><a href="https://imboldn.com/art-and-design/art-and-design-misc/">Misc.</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-136065"><a href="https://imboldn.com/lifestyle/">Lifestyle</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136066"><a href="https://imboldn.com/lifestyle/bar-and-kitchen/">Bar &#038; Kitchen</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136067"><a href="https://imboldn.com/lifestyle/outdoor/">Outdoor</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136068"><a href="https://imboldn.com/lifestyle/health-and-fitness/">Health &#038; Fitness</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136069"><a href="https://imboldn.com/lifestyle/lifestyle-misc/">Misc.</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-136101"><a href="/digest/">Digest</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-136102"><a href="/video/">Video</a></li>
+</ul></nav>		
+		<nav class="menu-footer-navigation-container"><ul id="menu-footer-navigation" class="menu"><li id="menu-item-130744" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-130744"><a href="https://imboldn.com/about/">About</a></li>
+<li id="menu-item-130733" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-130733"><a href="https://imboldn.com/personal_policy/">Privacy Policy</a></li>
+<li id="menu-item-130734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-130734"><a href="https://imboldn.com/agreement/">Terms of Use</a></li>
+<li id="menu-item-130743" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-130743"><a href="https://imboldn.com/contact/">Contact</a></li>
+</ul></nav>		
+		            <ul class="utility-line">
+                					<li><a href="/login/" title="Login">Login</a></li>
+					<!-- <li><a href="/register/" title="Register">Register</a></li> -->
+				            </ul>
+        		
+		<ul class="sharing">
+			<li class="icons icon-50 icon-white icon-facebook icon-circle icon-circle-dark"><a href="https://twitter.com/imboldn" target="_blank"></a></li>
+			<li class="icons icon-50 icon-white icon-twitter icon-circle icon-circle-dark"><a href="https://www.facebook.com/imboldn.kr/" target="_blank"></a></li>
+			<li class="icons icon-50 icon-white icon-googleplus icon-circle icon-circle-dark"><a href="https://plus.google.com/110960152602788053710" target="_blank"></a></li>
+			<li class="icons icon-50 icon-white icon-pinterest icon-circle icon-circle-dark"><a href="https://www.pinterest.co.kr/IMBOLDN/" target="_blank"></a></li>
+			<li class="icons icon-50 icon-white icon-instagram icon-circle icon-circle-dark"><a href="https://www.instagram.com/imboldn/" target="_blank"></a></li>
+			<li class="icons icon-50 icon-white icon-youtube icon-circle icon-circle-dark"><a href="https://www.youtube.com/channel/UCDmHivEx6vA-mCWwlGgp0iA" target="_blank"></a></li>
+		</ul>
+		
+		<p class="copyright">&copy; IMBOLDN ALL RIGHTS RESERVED</p>
+    </div> <!-- .inner -->
+</div> <!-- .mobile-menu-area -->
+
+<span class="icons icon-top icon-50 icon-black"><a href="#top"></a></span>
+
+<script>
+	jQuery(document).ready(function($) {
+	    $(".mobile-menu-area .inner .menu-main-navigation-container > ul > li.menu-item-has-children.menu-item-136040").click(function() {
+			$( ".menu-item-136040 .sub-menu" ).toggle( "fast", function() {
+		  });
+		})
+		$(".mobile-menu-area .inner .menu-main-navigation-container > ul > li.menu-item-has-children.menu-item-136045").click(function() {
+			$( ".menu-item-136045 .sub-menu" ).toggle( "fast", function() {
+		    // Animation complete.
+		  });
+		})
+		$(".mobile-menu-area .inner .menu-main-navigation-container > ul > li.menu-item-has-children.menu-item-136050").click(function() {
+			$( ".menu-item-136050 .sub-menu" ).toggle( "fast", function() {
+		    // Animation complete.
+		  });
+		})
+		$(".mobile-menu-area .inner .menu-main-navigation-container > ul > li.menu-item-has-children.menu-item-136055").click(function() {
+			$( ".menu-item-136055 .sub-menu" ).toggle( "fast", function() {
+		    // Animation complete.
+		  });
+		})
+		$(".mobile-menu-area .inner .menu-main-navigation-container > ul > li.menu-item-has-children.menu-item-136060").click(function() {
+			$( ".menu-item-136060 .sub-menu" ).toggle( "fast", function() {
+		    // Animation complete.
+		  });
+		})
+		$(".mobile-menu-area .inner .menu-main-navigation-container > ul > li.menu-item-has-children.menu-item-136065").click(function() {
+			$( ".menu-item-136065 .sub-menu" ).toggle( "fast", function() {
+		    // Animation complete.
+		  });
+		})
+		
+		$(".mobile-menu-area .inner .menu-main-navigation-korean-container > ul > li.menu-item-has-children.menu-item-136070").click(function() {
+			$( ".menu-item-136070 .sub-menu" ).toggle( "fast", function() {
+		    // Animation complete.
+		  });
+		})
+		$(".mobile-menu-area .inner .menu-main-navigation-korean-container > ul > li.menu-item-has-children.menu-item-136075").click(function() {
+			$( ".menu-item-136075 .sub-menu" ).toggle( "fast", function() {
+		    // Animation complete.
+		  });
+		})
+		$(".mobile-menu-area .inner .menu-main-navigation-korean-container > ul > li.menu-item-has-children.menu-item-136080").click(function() {
+			$( ".menu-item-136080 .sub-menu" ).toggle( "fast", function() {
+		    // Animation complete.
+		  });
+		})
+		$(".mobile-menu-area .inner .menu-main-navigation-korean-container > ul > li.menu-item-has-children.menu-item-136085").click(function() {
+			$( ".menu-item-136085 .sub-menu" ).toggle( "fast", function() {
+		    // Animation complete.
+		  });
+		})
+		$(".mobile-menu-area .inner .menu-main-navigation-korean-container > ul > li.menu-item-has-children.menu-item-136090").click(function() {
+			$( ".menu-item-136090 .sub-menu" ).toggle( "fast", function() {
+		    // Animation complete.
+		  });
+		})
+		$(".mobile-menu-area .inner .menu-main-navigation-korean-container > ul > li.menu-item-has-children.menu-item-136095").click(function() {
+			$( ".menu-item-136095 .sub-menu" ).toggle( "fast", function() {
+		    // Animation complete.
+		  });
+		})
+	});    
+</script><!-- Mobile Menu Area -->
+    <div class="dark-blue-modal search-area">
+    <div class="inner">
+	    <span class="icons icon-close icon-40 icon-white"></span>
+	    <form role="search" method="get" class="search-form" action="https://imboldn.com/">
+		    <label>
+		        <span class="screen-reader-text">Search for:</span>
+		        <input type="hidden" name="lang" value="en"/>
+		        <input type="search" class="search-field"
+		            placeholder="Looking for something?"
+		            value="" name="s"
+		            title="Search for:" />
+		    </label>
+		    <input type="submit" class="search-submit"
+		        value="Search" />
+		</form>			
+    </div>
+</div> <!-- .search-area --><!-- Mobile Menu Area -->
+
+	<div id="content" class="site-content">
+	
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+			<div class="inner">
+				
+				<article id="post-101605" class="post-101605 digest type-digest status-publish has-post-thumbnail hentry">
+	
+	<script type="application/ld+json">
+	{
+	  "@context": "http://schema.org",
+	  "@type": "NewsArticle",
+	  "mainEntityOfPage": {
+	    "@type": "WebPage",
+	    "@id": "https://imboldn.com/digest/the-horsepower-wars-are-over-or-are-they/"
+	  },
+	  "headline": "The Horsepower Wars are Over. Or Are they?",
+	  "image": "https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-header.jpg",
+	  "datePublished": "2018-04-17T12:00:37-04:00",
+	  "dateModified": "2018-04-18T08:49:10-04:00",
+	  "author": {
+	    "@type": "Person",
+	    "name": "LauraMaurer"
+	  },
+	   "publisher": {
+	    "@type": "Organization",
+	    "name": "IMBOLDN",
+	    "logo": {
+	      "@type": "ImageObject",
+	      "url": "https://imboldn.com/wp-content/themes/imboldn-cb/images/logo/imboldn-logo-black.png"
+	    }
+	  },
+	  "description": ""
+	}
+	</script>
+	
+		<header class="entry-header wide-area desktop-only" style="background-image: url('https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-header.jpg'); background-position: % %;">
+		<div class="black-gradient"></div>
+		<div class="inner">
+			<div class="entry-meta">
+				<h1 class="entry-title">The Horsepower Wars are Over. Or Are they?</h1>				
+				<p>From classic cars to modern marvels, we take a look at the most powerful and groundbreaking automobiles around.</p>				
+				<span class="entry-category entry-date">
+					April 17, 2018					<span style="text-transform: lowercase; font-style: italic; font-family: 'PT Serif', serif; font-size: 0.667rem; letter-spacing: 0;">&nbsp;&nbsp;by&nbsp;&nbsp;</span>
+					The IMBOLDN Editors									</span>
+				
+				
+			</div><!-- .entry-meta -->
+		</div><!-- .inner -->
+	</header> <!-- .entry-header for desktop -->
+	
+	<header class="entry-header wide-area mobile-only" style="background-image: url('https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-header.jpg'); background-position: % %;">
+		<div class="black-gradient"></div>
+		<div class="inner">
+			
+			<div class="entry-meta">
+				<h1 class="entry-title">The Horsepower Wars are Over. Or Are they?</h1>				
+				<p>From classic cars to modern marvels, we take a look at the most powerful and groundbreaking automobiles around.</p>				
+				<span class="entry-category entry-date">
+					April 17, 2018 <span style="text-transform: lowercase; font-style: italic; font-family: 'PT Serif', serif; font-size: 0.667rem; letter-spacing: 0;">&nbsp;&nbsp;by&nbsp;&nbsp;</span>
+					The IMBOLDN Editors									</span>
+				
+				
+			</div><!-- .entry-meta -->
+		</div><!-- .inner -->
+	</header> <!-- .entry-header for mobile -->
+
+	<div class="entry-wrap">
+		
+	
+		<div class="header-extra">
+			 
+
+			<div class="price-area empty"></div>
+				<ul class="sharing">
+	<li class="icons icon-40 icon-circle icon-circle-gray icon-black icon-facebook icon-circle">
+	<a href="https://www.facebook.com/sharer.php?u=https://imboldn.com/digest/the-horsepower-wars-are-over-or-are-they/&amp;t=The+Horsepower+Wars+are+Over.+Or+Are+they%3F" title="The Horsepower Wars are Over. Or Are they?" onclick="window.open(this.href); return false;"></a></li>
+	<li class="icons icon-40 icon-circle icon-circle-gray icon-black icon-twitter icon-circle">
+	<a href="https://twitter.com/intent/tweet?text=The+Horsepower+Wars+are+Over.+Or+Are+they%3F&url=https://imboldn.com/digest/the-horsepower-wars-are-over-or-are-they/&via=IMBOLDN" target="_blank"></a></li>
+	<li class="icons icon-40 icon-circle icon-circle-gray icon-black icon-pinterest icon-circle"><a href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fimboldn.com%2Fdigest%2Fthe-horsepower-wars-are-over-or-are-they%2F&media=https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-header.jpg&description=" class="pin-it-button" count-layout="horizontal" target="_blank"></a></li>
+		<li class="icons icon-40 icon-circle icon-circle-gray icon-email icon-black"><a href='mailto:?subject=Check this post - The Horsepower Wars are Over. Or Are they?&amp;body=https://imboldn.com/digest/the-horsepower-wars-are-over-or-are-they/'></a></li>
+	<li class="icon-star-fill"><span class="simplefavorite-button preset" data-postid="101605" data-siteid="1" data-groupid="1" data-favoritecount="0" style=""><i class="sf-icon-favorite" style=""></i>Favorite</span></li>
+</ul>		</div><!-- .header-extra -->
+	
+		<div id="digest-entry-content" class="entry-content">
+			
+			<p>Challenger, GTO, Roadrunner, all classic car names from the 1960&#8217;s and &#8217;70&#8217;s. Packing monster V8&#8217;s, these were built for getting from one red light to the next as fast as possible. But times change, Detroit&#8217;s horsepower obsession died and sanity returned.</p>
+<p>Not for long though. Power sells, and like adversaries peering out from behind the barricades, manufacturers can&#8217;t resist taking shots at one another. Neither is this competition a purely American phenomenon. The Germans seem unable to resist a good scrap. Heck, even the French and the Brits join in from time to time.</p>
+<h2>Horsepower wars: the early years</h2>
+<p>In the &#8217;50&#8217;s and &#8217;60&#8217;s cars were cheap and young men had money in their pockets. Racing inevitably followed. Quick to spot a market, Detroit built ever faster cars while sales-hungry marketing teams boasted of their power.</p>
+<blockquote class="wp-block-quote">Detroit built ever faster cars while sales-hungry marketing teams boasted of their power.</blockquote><p>Chevrolet claimed 450 hp for their LS6-equipped Chevelle SS. The 1970 Pontiac Firebird was rated at 330 hp, and the fabled 426 cu. in. Chrysler Hemi motor put out 425 hp. Of course, some caveats are in order. First, these numbers were gross outputs, not the power actually achieved at the rear wheels. That could be up to 30% lower. And second, these cars weren&#8217;t what you might call well-rounded. They were built for running the quarter-mile.</p>
+<p>Take a Saturday evening stroll down almost any Main Street in the late &#8217;60&#8217;s and you&#8217;d see them: two cars lined up at a red light, snarling and shaking as they waited for it to change. Horsepower ruled. Then three things happened. Insurance rates went up, the switch to unleaded gasoline lowered compression ratios, which meant less power, and the oil crisis came along. The horsepower war seemed over, though it turned out more of a ceasefire.</p>
+<figure class="wp-block-image"><img width="800" height="600" src="https://imboldn.com/wp-content/uploads/2018/04/Horsepower-wars-12-1024x768.jpg" class="attachment-large size-large" alt="" srcset="https://imboldn.com/wp-content/uploads/2018/04/Horsepower-wars-12-1024x768.jpg 1024w, https://imboldn.com/wp-content/uploads/2018/04/Horsepower-wars-12-300x225.jpg 300w, https://imboldn.com/wp-content/uploads/2018/04/Horsepower-wars-12-768x576.jpg 768w, https://imboldn.com/wp-content/uploads/2018/04/Horsepower-wars-12.jpg 1200w" sizes="(max-width: 800px) 100vw, 800px" /><figcaption>Lamborghini Countach LP 500S</figcaption></figure><h2>Meanwhile, over in Europe</h2>
+<p>While companies like Jaguar and Ferrari were building beautiful, and for the era, powerful, cars, horsepower wasn&#8217;t a focus of competition through the &#8217;60&#8217;s. In the late &#8217;70&#8217;s and into the &#8217;80&#8217;s though that began to change . Lamborghini unleashed the Countach, Rolls-Royce turbocharged the engine in their Bentley Mulsanne and Ferrari gave us the Testarossa.</p>
+<p>These cars were far out reach for the average “petrolhead”, but what they could afford were German sedans. With no speed limits on their autobahns, the Germans were expert at engineering very, very fast cars. And so began the next round.</p>
+<figure class="wp-block-image"><img width="800" height="450" src="https://imboldn.com/wp-content/uploads/2018/04/horse-powerwars-13-1024x576.jpg" class="attachment-large size-large" alt="" srcset="https://imboldn.com/wp-content/uploads/2018/04/horse-powerwars-13-1024x576.jpg 1024w, https://imboldn.com/wp-content/uploads/2018/04/horse-powerwars-13-300x169.jpg 300w, https://imboldn.com/wp-content/uploads/2018/04/horse-powerwars-13-768x432.jpg 768w, https://imboldn.com/wp-content/uploads/2018/04/horse-powerwars-13.jpg 1600w" sizes="(max-width: 800px) 100vw, 800px" /><figcaption></figcaption></figure><h2>The German battle</h2>
+<p>Audi, BMW and Mercedes pride themselves on building sporting sedans. Some drivers though were willing to sacrifice creature comforts in exchange for more performance. And so BMW&#8217;s &#8216;M&#8217; brand was born. And AMG Mercedes, and in more recent years, the &#8216;S&#8217; and &#8216;RS&#8217; lines from Audi.</p>
+<p>Few would disagree the benchmark for sporting sedans is BMW&#8217;s M3. This first emerged in 1985 as the E30 coupe and convertible. A 2.3 liter four cylinder made 192 hp. A few years later a specialist engineering company known as AMG unveiled modified versions of the Mercedes-Benz 190 and 300.</p>
+<blockquote class="wp-block-quote">Audi, BMW and Mercedes pride themselves on building sporting sedans. Some drivers though were willing to sacrifice creature comforts in exchange for more performance.</blockquote><p>The AMG 190E came with an in-line six that made 231 hp while the AMG 300E got a 5.0 liter V8 good for 340 hp.</p>
+<p>The M3 got faster. The E36 model made 282 hp, followed later by the 420 hp E92 . Meanwhile, Mercedes bought AMG and gave us every faster versions of their luxo sedans and wagons. (For a real &#8216;sleeper&#8217; search out their E63 wagon, available with over 600 hp.)</p>
+<p>Determined not to be bystanders, Audi built cars like the Quattro. This lead to vehicles like the 444 hp RS6, launched in 2002 with a twin-turbo 4.2 liter V8 shoehorned-in under the hood.</p>
+<h2>Enough already!</h2>
+<p>Keen drivers know there&#8217;s a limit to how much power you can use, safely, on public roads. And as Porsche&#8217;s Andreas Preuninger, told the UK&#8217;s &#8216;Car&#8217; magazine in 2015, more power adds weight in terms of bigger brakes and stronger suspensions. In fact he said then, “For my personal tastes, around 500bhp is enough.” Perhaps that&#8217;s why the 2018 Porsche 911 Targa 4 GTS makes &#8216;only&#8217; 450 hp.</p>
+<h2>Is the war over?</h2>
+<p>No. Engine outputs keep rising. Back in 2010 Car &#038; Driver counted nearly 40 cars on the market with outputs over 400 hp. For a while 500 hp seemed the performance benchmark. And then it was 600 hp.</p>
+<p>Proving Audi are still in the game, the RS7 Performance is rated at 605 hp and the R8 V10 Plus at 610 hp. From the UK the Aston Martin DB11 has exactly 600 hp and the Bentley Continental GT Speed 633 hp. GM fired a triple salvo with the 640 hp Cadillac CTS-V, 650 hp Camaro ZL1 and 650 hp Corvette Z06, and then there&#8217;s the now discontinued 645 hp Viper from Dodge.</p>
+<ul class="wp-block-gallery columns-1"><li><figure><img width="800" height="600" src="https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-01-1024x768.jpg" class="attachment-large size-large" alt="" srcset="https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-01-1024x768.jpg 1024w, https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-01-300x225.jpg 300w, https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-01-768x576.jpg 768w, https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-01.jpg 1200w" sizes="(max-width: 800px) 100vw, 800px" /></figure></li><li><figure><img width="800" height="600" src="https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-02-1024x768.jpg" class="attachment-large size-large" alt="" srcset="https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-02-1024x768.jpg 1024w, https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-02-300x225.jpg 300w, https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-02-768x576.jpg 768w, https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-02.jpg 1200w" sizes="(max-width: 800px) 100vw, 800px" /></figure></li><li><figure><img width="800" height="600" src="https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-03-1024x768.jpg" class="attachment-large size-large" alt="" srcset="https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-03-1024x768.jpg 1024w, https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-03-300x225.jpg 300w, https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-03-768x576.jpg 768w, https://imboldn.com/wp-content/uploads/2018/04/horsepower-wars-03.jpg 1200w" sizes="(max-width: 800px) 100vw, 800px" /></figure></li></ul><p>But these aren&#8217;t the top dogs. Outputs are still going up. Bentley offers a 700 hp Continental Supersports, and Chrysler brings three 700+ hp monsters to the fight. (That&#8217;s the Challenger SRT Demon, the SRT Hellcat, and the Jeep Trackhawk.)</p>
+<p>So who is king? For now it&#8217;s the Bugatti Chiron at 1,500 hp, although tiny Swedish manufacturer Koenigsegg seems determined to get one up on the French-built though of German parentage, hypercar.</p>
+<h2>Will it end?</h2>
+<p>It&#8217;s worth noting that these horsepower gains have come without increases in engine size. In fact engines in many modern supercars are smaller than they used to be. This is because new technology, particularly turbocharging, has enabled increased output per liter.</p>
+<blockquote class="wp-block-quote">Engines in many modern supercars are smaller than they used to be. This is because new technology, particularly turbocharging, has enabled increased output per liter.</blockquote><p>Turbocharging has an Achilles heel though: lag – the time needed to spin up the turbine to pump more air into the engine. But engineers have a solution there, two in fact. In the interests of fuel efficiency, electric turbochargers are replacing exhaust-driven units, and those can start spinning as soon as the gas pedal goes down. And then there&#8217;s hybrid technology. Electric motors deliver an instantaneous surge of torque, as anyone who&#8217;s witnessed a Tesla drag race can attest.</p>
+<p>So are the horsepower wars over? Not a chance.</p>
+			
+			
+					</div> <!-- .entry-content -->
+	
+		<footer class="entry-footer">
+						
+			<p id="breadcrumbs"><span><span><a href="https://imboldn.com/" >Home</a> » <span><a href="https://imboldn.com/digest/" >Digests</a> » <span class="breadcrumb_last" aria-current="page">The Horsepower Wars are Over. Or Are they?</span></span></span></span></p>			
+						
+			<div style="width: 100%; float: none !important; clear: both !important;">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- IMBOLDN Flexible -->
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-7120886332620194"
+				     data-ad-slot="8458672234"
+				     data-ad-format="auto"
+				     data-full-width-responsive="true"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+		</footer><!-- .entry-footer -->
+	</div>
+	
+<aside id="secondary" class="single-sidebar-area widget-area">
+	
+	<div style="width: 100%; float: none !important; clear: both !important;">
+		<!-- IMBOLDN Single Sidebar (222×600) -->
+		<div class="google-adsense single-sidebar-banner">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- IMBOLDN Single Sidebar (282×600) -->
+			<ins class="adsbygoogle"
+			     style="display:inline-block;width:282px;height:600px"
+			     data-ad-client="ca-pub-7120886332620194"
+			     data-ad-slot="2020825195"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+		
+		<div class="imboldn-banner single-sidebar-banner"></div>
+	</div>
+	
+		
+</aside><!-- .sidebar-area -->	<div class="related-articles select-manually">
+	<h3>Related Articles</h3>
+	<div class="related-wrap">
+				
+		
+				
+		<article id="post-154221" class="two-cols post-154221 digest type-digest status-publish has-post-thumbnail hentry">
+							<div class="entry-thumbnail" style="background-image: url('https://imboldn.com/wp-content/uploads/2019/05/rendered-800x450.jpg'); background-position: 50% 50%;">
+					<a href="https://imboldn.com/digest/10-best-sunglasses-for-summer/"></a>
+				</div><!-- .entry-thumbnail -->
+						
+			<div class="entry-meta">
+				<h4 class="entry-title">10 Best Sunglasses for Summer</h4>
+				<p>Shield your eyes in style with this season&#8217;s best sunglasses.</p>
+			</div> <!-- .entry-meta -->		
+		</article>
+		
+				
+		<article id="post-154067" class="two-cols post-154067 digest type-digest status-publish has-post-thumbnail hentry">
+							<div class="entry-thumbnail" style="background-image: url('https://imboldn.com/wp-content/uploads/2019/05/Ferrari-SF90-Stradale-08-1-800x450.jpg'); background-position: 50% 50%;">
+					<a href="https://imboldn.com/digest/imboldn-week-in-review-138/"></a>
+				</div><!-- .entry-thumbnail -->
+						
+			<div class="entry-meta">
+				<h4 class="entry-title">IMBOLDN Week In Review</h4>
+				<p>Put a twist on the familiar with this week&#8217;s highlights: a hybrid Ferrari, a quirky handheld console, a futuristic coffee grinder, and more.</p>
+			</div> <!-- .entry-meta -->		
+		</article>
+		
+				
+		<article id="post-153661" class="two-cols post-153661 digest type-digest status-publish has-post-thumbnail hentry">
+							<div class="entry-thumbnail" style="background-image: url('https://imboldn.com/wp-content/uploads/2019/05/Wine-paring-BBQ-102-800x450.jpg'); background-position: 50% 50%;">
+					<a href="https://imboldn.com/digest/be-king-of-the-cookout-with-this-new-crop-of-bbq-and-wine-pairings/"></a>
+				</div><!-- .entry-thumbnail -->
+						
+			<div class="entry-meta">
+				<h4 class="entry-title">Be King of the Cookout with This New Crop of BBQ and Wine Pairings</h4>
+				<p>Eat and drink outside the box with these mouth watering wine and BBQ pairings.</p>
+			</div> <!-- .entry-meta -->		
+		</article>
+		
+				
+		<article id="post-145657" class="two-cols post-145657 digest type-digest status-publish has-post-thumbnail hentry">
+							<div class="entry-thumbnail" style="background-image: url('https://imboldn.com/wp-content/uploads/2019/04/48-hours-in-york-header-800x450.jpg'); background-position: 50% 50%;">
+					<a href="https://imboldn.com/digest/48-hours-in-york-england/"></a>
+				</div><!-- .entry-thumbnail -->
+						
+			<div class="entry-meta">
+				<h4 class="entry-title">48 Hours in York, England</h4>
+				<p>A little slice of medieval times dropped right into the 21st century.</p>
+			</div> <!-- .entry-meta -->		
+		</article>
+		
+				
+		<article id="post-153022" class="two-cols post-153022 digest type-digest status-publish has-post-thumbnail hentry">
+							<div class="entry-thumbnail" style="background-image: url('https://imboldn.com/wp-content/uploads/2019/05/EN-WIR_main-IMG-3568-800x450.jpg'); background-position: 50% 50%;">
+					<a href="https://imboldn.com/digest/imboldn-week-in-review-137/"></a>
+				</div><!-- .entry-thumbnail -->
+						
+			<div class="entry-meta">
+				<h4 class="entry-title">IMBOLDN Week In Review</h4>
+				<p>Welcome the new and revisit the old with this week&#8217;s highlights, including a new MacBook Pro, an aged Tennessee whiskey, a classic BMW motorcycle, and more.</p>
+			</div> <!-- .entry-meta -->		
+		</article>
+		
+				
+		<article id="post-145380" class="two-cols post-145380 digest type-digest status-publish has-post-thumbnail hentry">
+							<div class="entry-thumbnail" style="background-image: url('https://imboldn.com/wp-content/uploads/2019/04/shutterstock_760358647-800x450.jpg'); background-position: 50% 50%;">
+					<a href="https://imboldn.com/digest/like-this-try-that-rose/"></a>
+				</div><!-- .entry-thumbnail -->
+						
+			<div class="entry-meta">
+				<h4 class="entry-title">Like This, Try That: Rosé</h4>
+				<p>We&#8217;re shining a light on one of the most misunderstood varietals out there.</p>
+			</div> <!-- .entry-meta -->		
+		</article>
+		
+						
+				
+	</div>
+</div><!-- related-projects -->
+
+</article><!-- #post-101605 -->
+
+	<nav class="navigation post-navigation" role="navigation">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://imboldn.com/digest/imboldn-week-in-review-81/" rel="prev">IMBOLDN Week In Review</a></div><div class="nav-next"><a href="https://imboldn.com/digest/like-that-try-this-cabernet-edition/" rel="next">Like That? Try This: Cabernet Edition</a></div></div>
+	</nav>				
+			</div><!-- .inner -->
+		</main><!-- #main -->
+	</div><!-- #primary -->
+	
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer">
+		<div class="footer-top">
+			<div class="inner">
+				<nav class="menu-footer-navigation-container"><ul id="menu-footer-navigation-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-130744"><a href="https://imboldn.com/about/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-130733"><a href="https://imboldn.com/personal_policy/">Privacy Policy</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-130734"><a href="https://imboldn.com/agreement/">Terms of Use</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-130743"><a href="https://imboldn.com/contact/">Contact</a></li>
+</ul></nav>			</div><!-- .inner -->
+		</div>
+		<div class="inner">
+			
+			<div class="site-info">
+				<div class="social-sharing">
+					<ul class="sharing">
+												<li class="icons icon-40 icon-white icon-facebook icon-circle icon-circle-dark"><a href="https://www.facebook.com/imboldn/" target="_blank"></a></li>
+						<li class="icons icon-40 icon-white icon-twitter icon-circle icon-circle-dark"><a href="https://twitter.com/imboldn" target="_blank"></a></li>
+						<li class="icons icon-40 icon-white icon-pinterest icon-circle icon-circle-dark"><a href="https://www.pinterest.co.kr/IMBOLDN/" target="_blank"></a></li>
+						<li class="icons icon-40 icon-white icon-instagram icon-circle icon-circle-dark"><a href="https://www.instagram.com/imboldn/" target="_blank"></a></li>
+						<li class="icons icon-40 icon-white icon-youtube icon-circle icon-circle-dark"><a href="https://www.youtube.com/channel/UCDmHivEx6vA-mCWwlGgp0iA" target="_blank"></a></li>
+											</ul>
+				</div>
+				
+				<!-- Begin Mailchimp Signup Form -->
+				
+					
+									<div id="mc_embed_signup" class="newsletter-subscription">
+					<h2>Stay in the loop</h2>
+					<p>Get the best stories in your inbox daily.</p>	
+					<form action="https://imboldn.us9.list-manage.com/subscribe/post?u=9d9f22e49381d816a917e5b82&amp;id=67ea571b62" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					    <div id="mc_embed_signup_scroll">
+							<div class="mc-field-group">
+								<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+							</div>
+							<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9d9f22e49381d816a917e5b82_67ea571b62" tabindex="-1" value=""></div>
+						    
+						    <span>By submitting, you agree to the Terms & Conditions and Privacy & Cookies Policy.</span>
+						    
+						    <div class="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+					    </div>
+					</form>
+				</div>	
+				
+				<div class="company">
+					<div class="inner">
+						<p class="copyright"><br/>Imboldn™ All Rights Reserved</p>
+					</div>
+				</div>
+				
+									
+								
+				
+				
+			</div><!-- .site-info -->
+		</div><!-- .inner -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+	
+<script type="text/javascript" src="//s.skimresources.com/js/82676X1534325.skimlinks.js"></script>
+	<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+	<script type='text/javascript'>
+/* <![CDATA[ */
+var wcml_mc_settings = {"wcml_spinner":"https:\/\/imboldn.com\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/img\/ajax-loader.gif","current_currency":{"code":"USD","symbol":"&#36;"},"cache_enabled":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/plugins/woocommerce-multilingual/res/js/wcml-multi-currency.min.js?ver=4.6.3'></script>
+<script type='text/javascript' src='https://imboldn.com/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var DavesWordPressLiveSearchConfig = {"resultsDirection":"down","showThumbs":"true","showExcerpt":"false","showMoreResultsLink":"true","minCharsToSearch":"1","xOffset":"0","yOffset":"0","blogURL":"https:\/\/imboldn.com","ajaxURL":"https:\/\/imboldn.com\/wp-admin\/admin-ajax.php","viewMoreText":"View more results","outdatedJQuery":"Dave's WordPress Live Search requires jQuery 1.2.6 or higher. WordPress ships with current jQuery versions. But if you are seeing this message, it's likely that another plugin is including an earlier version.","resultTemplate":"<ul id=\"dwls_search_results\" class=\"search_results dwls_search_results\" role=\"presentation\" aria-hidden=\"true\">\n<input type=\"hidden\" name=\"query\" value=\"<%- resultsSearchTerm %>\" \/>\n<% _.each(searchResults, function(searchResult, index, list) { %>\n        <%\n        \/\/ Thumbnails\n        if(DavesWordPressLiveSearchConfig.showThumbs == \"true\" && searchResult.attachment_thumbnail) {\n                liClass = \"post_with_thumb\";\n        }\n        else {\n                liClass = \"\";\n        }\n        %>\n        <li class=\"daves-wordpress-live-search_result <%- liClass %> '\">\n        <% if(DavesWordPressLiveSearchConfig.showThumbs == \"true\" && searchResult.attachment_thumbnail) { %>\n                <img src=\"<%= searchResult.attachment_thumbnail %>\" class=\"post_thumb\" \/>\n        <% } %>\n\n        <a href=\"<%= searchResult.permalink %>\" class=\"daves-wordpress-live-search_title\"><%= searchResult.post_title %><\/a>\n\n        <% if(searchResult.post_price !== undefined) { %>\n                <p class=\"price\"><%- searchResult.post_price %><\/p>\n        <% } %>\n\n        <% if(DavesWordPressLiveSearchConfig.showExcerpt == \"true\" && searchResult.post_excerpt) { %>\n                <p class=\"excerpt clearfix\"><%= searchResult.post_excerpt %><\/p>\n        <% } %>\n\n        <% if(e.displayPostMeta) { %>\n                <p class=\"meta clearfix daves-wordpress-live-search_author\" id=\"daves-wordpress-live-search_author\">Posted by <%- searchResult.post_author_nicename %><\/p><p id=\"daves-wordpress-live-search_date\" class=\"meta clearfix daves-wordpress-live-search_date\"><%- searchResult.post_date %><\/p>\n        <% } %>\n        <div class=\"clearfix\"><\/div><\/li>\n<% }); %>\n\n<% if(searchResults[0].show_more !== undefined && searchResults[0].show_more && DavesWordPressLiveSearchConfig.showMoreResultsLink == \"true\") { %>\n        <div class=\"clearfix search_footer\"><a href=\"<%= DavesWordPressLiveSearchConfig.blogURL %>\/?s=<%-  resultsSearchTerm %>\"><%- DavesWordPressLiveSearchConfig.viewMoreText %><\/a><\/div>\n<% } %>\n\n<\/ul>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/plugins/daves-wordpress-live-search/js/daves-wordpress-live-search.min.js?ver=5.2.1'></script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/plugins/daves-wordpress-live-search/js/excanvas.compiled.js?ver=5.2.1'></script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/plugins/daves-wordpress-live-search/js/spinners.min.js?ver=5.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/imboldn.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.3'></script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/imboldn.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.6.4'></script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.6.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_8415b504f72fe73a7013969c98ba06bf","fragment_name":"wc_fragments_8415b504f72fe73a7013969c98ba06bf","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.6.4'></script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/plugins/woo-product-gallery-slider/assets/public/js/slick.min.js?ver=2.0'></script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/plugins/woo-product-gallery-slider/assets/public/js/venobox.min.js?ver=2.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpgs_var = {"wLightboxframewidth":"710","wcaption":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/plugins/woo-product-gallery-slider/assets/public/js/wpgs.js?ver=2.0'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(){
+jQuery('.wpgs-for').slick({slidesToShow:1,slidesToScroll:1,arrows:true,fade:!1,infinite:!1,autoplay:true,nextArrow:'<i class="flaticon-right-arrow"></i>',prevArrow:'<i class="flaticon-back"></i>',asNavFor:'.wpgs-nav'});jQuery('.wpgs-nav').slick({slidesToShow:9,slidesToScroll:1,asNavFor:'.wpgs-for',dots:!1,infinite:!1,arrows:true,centerMode:!1,focusOnSelect:!0,responsive:[{breakpoint:767,settings:{slidesToShow:3,slidesToScroll:1,vertical:!1,draggable:!0,autoplay:!1,isMobile:!0,arrows:!1}},],})
+
+      });
+</script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/themes/imboldn-cb/js/creativeband.js?ver=20180904'></script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/themes/imboldn-cb/js/jquery.cookie.js?ver=20180904'></script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/themes/imboldn-cb/js/infinite-scroll.pkgd.min.js?ver=20180904'></script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/themes/imboldn-cb/js/wow.js?ver=20180904'></script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/themes/imboldn-cb/js/jquery.fitvids.js?ver=20180904'></script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/themes/imboldn-cb/js/slick.min.js?ver=20180904'></script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/themes/imboldn-cb/js/navigation.js?ver=20151215'></script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/themes/imboldn-cb/js/skip-link-focus-fix.js?ver=20151215'></script>
+<script type='text/javascript' src='https://imboldn.com/wp-includes/js/comment-reply.min.js?ver=5.2.1'></script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/plugins/woocommerce-multilingual/res/js/front-scripts.min.js?ver=4.6.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var actions = {"is_lang_switched":"0","force_reset":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://imboldn.com/wp-content/plugins/woocommerce-multilingual/res/js/cart_widget.min.js?ver=4.6.3'></script>
+<script type='text/javascript' src='https://imboldn.com/wp-includes/js/wp-embed.min.js?ver=5.2.1'></script>
+        <script type="text/javascript">
+        /* <![CDATA[ */
+            if( typeof woocommerce_price_slider_params !== 'undefined' ) {
+                woocommerce_price_slider_params.currency_format_symbol = wcml_mc_settings.current_currency.symbol;
+            }
+        /* ]]> */
+        </script>
+		
+<!-- Naver Analytics -->
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+	if(!wcs_add) var wcs_add = {};
+	wcs_add["wa"] = "d04ad29c42cde0";
+	wcs_do();
+</script>
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"5c6fea50bc","applicationID":"214985505","transactionName":"MwNSbUdQWBIEVUANVwpJcVpBWFkPSkVdCl8IAw==","queueTime":0,"applicationTime":991,"atts":"H0RRGw9KSxw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

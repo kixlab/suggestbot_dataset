@@ -1,0 +1,62 @@
+What Are Climate Models and How Accurate Are They?
+What Are Climate Models and How Accurate Are They?
+
+by Guest Blogger | May 18, 2018
+
+By Lauren Harper
+
+There’s a famous saying that “The climate is what you expect; the weather is what you get.” As a native Texan moving to New York, I had an idea of what to expect, but was not fully prepared for what I would get. Because New York’s climate is drastically different from what I’m used to, every morning before I leave my apartment I religiously check the weather forecast. Very quickly I know if it’s going to rain, whether there’s a storm brewing off the coast, or if I will need extra layers.
+
+Whereas weather can change dramatically from day to day, the climate means the average conditions over roughly 30 years—how warm is the region, on average, and how much precipitation does it get in a year? Texas’s climate, for example, tends to be warmer for the majority of the year, whereas New York is on average cooler with clearly defined seasons.
+
+Weather and climate are sometimes used interchangeably, but scientists, meteorologists and researchers study and model them differently.
+
+What is a Weather Model?
+
+“Today’s weather forecast is partly cloudy with a chance of showers in the late afternoon…” This is a familiar weather summary that you have probably heard before from a meteorologist. To make these predictions, meteorologists use weather data and forecast models to determine current and future atmospheric conditions.
+
+Because weather takes place hour by hour, forecast models use current atmospheric and oceanic conditions to predict future weather. The forecast takes into account humidity, temperature, air pressure, wind speed and direction, as well as cloud cover. Geographic location, proximity to water, urban structures, latitude and elevation can also influence the weather you experience.
+
+Weather models work at resolutions high enough to generate different predictions for neighboring towns, in some cases, but only over short timescales of about two weeks maximum.
+
+What is a Climate Model?
+
+Essentially, climate models are an extension of weather forecasting. But whereas weather models make predictions over specific areas and short timespans, climate models are broader and analyze long timespans. They predict how average conditions will change in a region over the coming decades.
+
+Climate models include more atmospheric, oceanic and land processes than weather models do—such as ocean circulation and melting glaciers. These models are typically generated from mathematical equations that use thousands of data points to simulate the transfer of energy and water that takes place in climate systems.
+
+Scientists use climate models to understand complex earth systems. These models allow them to test hypotheses and draw conclusions on past and future climate systems. This can help them determine whether abnormal weather events or storms are a result of changes in climate or just part of the routine climate variation. For example, when predicting tropical cyclones during hurricane season, scientists can use climate models to predict the number of tropical storms that may form off the coast and in what regions they are likely to make landfall.
+
+When creating climate models, scientists use one of three common types of simple climate models: energy balance models, intermediate complexity models, and general circulation models. These models use numbers to simplify the complexities that exist when taking into account all the factors that affect climate, like atmospheric mixing and ocean current.
+
+Energy balance models help to forecast climate changes as a result of Earth’s energy budget. This model takes into account surface temperatures from solar energy, albedo or reflectivity, and the natural cooling from the earth emitting heat back out into space. To predict climate, scientists use an equation that represents the amount of energy coming in versus going out, to understand the changes in heat storage—for example, as more heat-absorbing CO2 fills up the atmosphere. Scientists then take this equation and plug it into box models that represent a square of land within a three-dimensional grid, to express climate in a region or even across a continent.
+
+This video explaining climate modeling was created by the Commonwealth Scientific and Industrial Research Organisation (CSIRO) in collaboration with Australian Bureau of Meteorology.
+
+Intermediate complexity models are similar to energy balance models but they include and combine several of Earth’s geographical structures—land, oceans, and ice features, for instance. These geographical features allow intermediate complexity models to simulate large-scale climate scenarios such as glacial fluctuations, ocean current shifts, and atmospheric composition changes over long timescales. Intermediate complexity models describe the climate with less spatial and time-specific detail, so they are best used for large-scale and low-frequency variations in the earth’s climate system.
+
+General circulation models are the most complex and precise models for understanding climate systems and predicting climate change. These models include information regarding the atmospheric chemistry, land type, carbon cycle, ocean circulation and glacial makeup of the isolated area. This type of model also uses a three-dimensional grid, with each box representing around 100 square kilometers of land, air, or sea, which is better resolution than the typical 200 to 600 kilometers per box. This model is more sophisticated than the energy balance and intermediate complexity models, but it does require a larger amount of computing time—each simulation could take several weeks to run.
+
+What Can Climate Models Tell Us About the Future and Past?
+
+For many decades, scientists have been collecting data on climate using cores from ice, trees, and coral, as well as carbon dating. From this research they have discovered details about past human activity, temperature changes in our oceans, periods of extreme drought, and much more.
+
+As more data points are collected, they increase the accuracy of existing climate models. This enhances climate forecasting, because past climate data helps to establish a baseline for typical climate systems. From there, researchers establish climate variables that they want to keep the same, like cloud cover, and variables they want to test, like increased carbon dioxide, to evaluate hypotheses about future changes. These could estimate anything from sea level rise to increased temperatures and risk of drought and forest fires.
+
+How Accurate are Climate Models?
+
+Since the world can’t afford to wait decades to measure the accuracy of climate model predictions, scientists test a model’s accuracy using past events. If the model accurately predicts past events that we know happened, then it should be pretty good at predicting the future, too. And the more we learn about past and present conditions, the more accurate these models become.
+
+Climate models are complex because of the all the elements that are in flux within Earth’s systems. If our atmosphere was like the moon’s, climate modeling would be fairly easy because the moon barely has an atmosphere. On Earth, climate scientists must account for temperature fluctuations, wind patterns, ocean currents, land surface characteristics and much more. Because of this, the models always consider some level of uncertainty – but models measuring smaller areas with higher resolutions produce more accurate models. Despite a small amount of uncertainty, scientists find climate models of the 21st century to be pretty accurate because they are based on well-founded physical principles of earth system processes. This basis solidifies the confidence of the scientific community that human emissions are changing the climate, which will impact the entire planet.
+
+Why Are Climate Models Important?
+
+Understanding past, present and future climate helps us to understand how Earth’s systems naturally function. This information, combined with climate models, allows us to determine how both natural and manmade influences have and will impact changes in our climate. These predictions and results can also suggest how to mitigate the worst effects of climate change, and they help decision-makers to prioritize environmental issues based on scientific evidence.
+
+Numerous models have shown that the climate is changing. Increased greenhouse gas emissions from human activities are resulting in positive feedbacks in our climate systems. These positive feedbacks can result in not so positive changes in earth systems, like melting glacial ice, rising ocean temperatures, increasing odds of severe flooding and drought, and climbing surface temperatures.
+
+A climate model predicts future temperatures. This model was developed by several climate modeling research groups, including NASA’s Goddard Institute for Space Studies.
+
+It is crucial that we continue to collect data and improve models, increasing their accuracy to refining our knowledge of climate and weather. It is also imperative that we recognize the importance of data-driven results and science-backed facts as they influence how communities and policy-makers plan for the future. Climate and weather models both have the ability to advance the way we plan our cities, influence business opportunities, and even how we plan out our day. These models are our best chance at finding ways to mitigate the dangerous effects of climate change.
+
+Lauren Harper is an intern in the Earth Institute communications department. She is a graduate student in the Environmental Science and Policy Program at Columbia’s School of International and Public Affairs.

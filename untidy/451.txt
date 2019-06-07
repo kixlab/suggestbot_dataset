@@ -1,0 +1,2422 @@
+
+
+# Ozone depletion
+
+From Wikipedia, the free encyclopedia
+
+Jump to navigation Jump to search
+
+Stratospheric phenomena of Earth
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/NASA_and_NOAA_Announce_Ozone_Hole_is_a_Double_Record_Breaker.png/290px-
+
+NASA_and_NOAA_Announce_Ozone_Hole_is_a_Double_Record_Breaker.png)
+
+Image of the largest Antarctic ozone hole ever recorded over the South Pole in
+September 2006
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/4/46/Future_ozone_layer_concentrations.gif/220px-
+
+Future_ozone_layer_concentrations.gif)
+
+NASA projections of stratospheric ozone concentrations if chlorofluorocarbons
+had not been banned
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Atmosphere_layers-
+
+en.svg/170px-Atmosphere_layers-en.svg.png)
+
+Layers of the atmosphere (not to scale). The Earth's ozone layer is mainly
+found in the lower portion of the stratosphere from approximately 20 to 30 km
+(12 to 19 mi).
+
+External audio![Atmospheric
+
+ozone.svg](//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Atmospheric_ozone.svg/210px-
+
+Atmospheric_ozone.svg.png)
+
+* * *
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Nuvola_apps_arts.svg/16px-
+
+Nuvola_apps_arts.svg.png) “Whatever Happened to the Ozone Hole?”,
+_Distillations_ Podcast Episode 230, April 17, 2018, Science History Institute
+
+**Ozone depletion** consists of two related events observed since the late
+1970s: a steady lowering of about four percent in the total amount of ozone in
+Earth's atmosphere (the ozone layer), and a much larger springtime decrease in
+stratospheric ozone around Earth's polar regions.[1] The latter phenomenon is
+referred to as the **ozone hole**. There are also springtime polar
+tropospheric ozone depletion events in addition to these stratospheric events.
+
+The main cause of ozone depletion and the ozone hole is manufactured
+chemicals, especially manufactured halocarbon refrigerants, solvents,
+propellants and foam-blowing agents (chlorofluorocarbons (CFCs), HCFCs,
+halons), referred to as **ozone-depleting substances** ( **ODS** ). These
+compounds are transported into the stratosphere by turbulent mixing after
+being emitted from the surface, mixing much faster than the molecules can
+settle.[2] Once in the stratosphere, they release halogen atoms through
+photodissociation, which catalyze the breakdown of ozone (O3) into oxygen
+(O2).[3] Both types of ozone depletion were observed to increase as emissions
+of halocarbons increased.
+
+Ozone depletion and the ozone hole have generated worldwide concern over
+increased cancer risks and other negative effects. The ozone layer prevents
+most harmful UVB wavelengths of ultraviolet light (UV light) from passing
+through the Earth's atmosphere. These wavelengths cause skin cancer, sunburn
+and cataracts, which were projected to increase dramatically as a result of
+thinning ozone, as well as harming plants and animals. These concerns led to
+the adoption of the Montreal Protocol in 1987, which bans the production of
+CFCs, halons and other ozone-depleting chemicals.
+
+The ban came into effect in 1989. Ozone levels stabilized by the mid-1990s and
+began to recover in the 2000s. Recovery is projected to continue over the next
+century, and the ozone hole is expected to reach pre-1980 levels by around
+2075.[4] The Montreal Protocol is considered the most successful international
+environmental agreement to date.[5][6]
+
+## Contents
+
+                    
+                                                * 1 Ozone cycle overview
+                            * 2 Observations on ozone layer depletion
+                              * 2.1 Compounds in the atmosphere
+                                * 2.1.1 CFCs and related compounds in the atmosphere
+                              * 2.2 Computer modeling
+                            * 3 Ozone hole and its causes
+                              * 3.1 Interest in ozone layer depletion
+                            * 4 Consequences of ozone layer depletion
+                              * 4.1 Increased UV
+                              * 4.2 Biological effects
+                                * 4.2.1 Basal and squamous cell carcinomas
+                                * 4.2.2 Malignant melanoma
+                                * 4.2.3 Cortical cataracts
+                                * 4.2.4 Increased tropospheric ozone
+                                * 4.2.5 Increased production of vitamin D
+                                * 4.2.6 Effects on animals
+                                * 4.2.7 Effects on crops
+                            * 5 Public policy
+                              * 5.1 ODS requirements in the marine industry
+                            * 6 Prospects of ozone depletion
+                            * 7 Research history
+                              * 7.1 Rowland–Molina hypothesis
+                              * 7.2 Antarctic ozone hole
+                              * 7.3 Arctic ozone hole
+                              * 7.4 Tibet ozone hole
+                              * 7.5 Potential depletion by storm clouds
+                            * 8 Ozone depletion and global warming
+                            * 9 Misconceptions
+                              * 9.1 CFC weight
+                              * 9.2 Percentage of man-made chlorine
+                              * 9.3 First observation
+                              * 9.4 Location of hole
+                            * 10 World Ozone Day
+                            * 11 See also
+                            * 12 References
+                            * 13 Further reading
+                            * 14 External links
+                    
+
+## Ozone cycle overview[edit]
+
+Three forms (or allotropes) of oxygen are involved in the ozone-oxygen cycle:
+oxygen atoms (O or atomic oxygen), oxygen gas (O  
+2 or diatomic oxygen), and ozone gas (O  
+3 or triatomic oxygen). Ozone is formed in the stratosphere when oxygen
+molecules photodissociate after absorbing ultraviolet photons. This converts a
+single O  
+2 into two atomic oxygen radicals. The atomic oxygen radicals then combine
+with separate O  
+2 molecules to create two O  
+3 molecules. These ozone molecules absorb ultraviolet (UV) light, following
+which ozone splits into a molecule of O  
+2 and an oxygen atom. The oxygen atom then joins up with an oxygen molecule to
+regenerate ozone. This is a continuing process that terminates when an oxygen
+atom recombines with an ozone molecule to make two O  
+2 molecules.
+
+O + O  
+3 → 2 O  
+2
+
+The total amount of ozone in the stratosphere is determined by a balance
+between photochemical production and recombination.
+
+Ozone can be destroyed by a number of free radical catalysts; the most
+important are the hydroxyl radical (OH·), nitric oxide radical (NO·), chlorine
+radical (Cl·) and bromine radical (Br·). The dot is a notation to indicate
+that each species has an unpaired electron and is thus extremely reactive. All
+of these have both natural and man-made sources; at the present time, most of
+the OH· and NO· in the stratosphere is naturally occurring, but human activity
+has drastically increased the levels of chlorine and bromine. These elements
+are found in stable organic compounds, especially chlorofluorocarbons, which
+can travel to the stratosphere without being destroyed in the troposphere due
+to their low reactivity. Once in the stratosphere, the Cl and Br atoms are
+released from the parent compounds by the action of ultraviolet light, e.g.
+
+CFCl  
+3 + electromagnetic radiation → Cl· + ·CFCl  
+2
+
+Ozone is a highly reactive molecule that easily reduces to the more stable
+oxygen form with the assistance of a catalyst. Cl and Br atoms destroy ozone
+molecules through a variety of catalytic cycles. In the simplest example of
+such a cycle,[7] a chlorine atom reacts with an ozone molecule (O  
+3), taking an oxygen atom to form chlorine monoxide (ClO) and leaving an
+oxygen molecule (O  
+2). The ClO can react with a second molecule of ozone, releasing the chlorine
+atom and yielding two molecules of oxygen. The chemical shorthand for these
+gas-phase reactions is:
+
+                    
+                                                * Cl· + O
+                    
+
+3 → ClO + O  
+2  
+A chlorine atom removes an oxygen atom from an ozone molecule to make a ClO
+molecule
+
+                    
+                                                * ClO + O
+                    
+
+3 → Cl· + 2 O  
+2  
+This ClO can also remove an oxygen atom from another ozone molecule; the
+chlorine is free to repeat this two-step cycle
+
+The overall effect is a decrease in the amount of ozone, though the rate of
+these processes can be decreased by the effects of null cycles. More
+complicated mechanisms have also been discovered that lead to ozone
+destruction in the lower stratosphere.
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ozone_cycle.svg/370px-
+
+Ozone_cycle.svg.png)
+
+The ozone cycle
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/7/7d/TOMS_Global_Ozone_65N-65S.png/370px-
+
+TOMS_Global_Ozone_65N-65S.png)
+
+Global monthly average total ozone amount
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Min_ozone.jpg/370px-
+
+Min_ozone.jpg)
+
+Lowest value of ozone measured by TOMS each year in the ozone hole
+
+A single chlorine atom would continuously destroy ozone (thus a catalyst) for
+up to two years (the time scale for transport back down to the troposphere)
+were it not for reactions that remove them from this cycle by forming
+reservoir species such as hydrogen chloride (HCl) and chlorine nitrate (ClONO  
+2). Bromine is even more efficient than chlorine at destroying ozone on a per
+atom basis, but there is much less bromine in the atmosphere at present. Both
+chlorine and bromine contribute significantly to overall ozone depletion.
+Laboratory studies have also shown that fluorine and iodine atoms participate
+in analogous catalytic cycles. However, fluorine atoms react rapidly with
+water and methane to form strongly bound HF in the Earth's stratosphere, while
+organic molecules containing iodine react so rapidly in the lower atmosphere
+that they do not reach the stratosphere in significant quantities.
+
+A single chlorine atom is able to react with an average of 100,000 ozone
+molecules before it is removed from the catalytic cycle. This fact plus the
+amount of chlorine released into the atmosphere yearly by chlorofluorocarbons
+(CFCs) and hydrochlorofluorocarbons (HCFCs) demonstrates the danger of CFCs
+and HCFCs to the environment.[8][9]
+
+## Observations on ozone layer depletion[edit]
+
+The ozone hole is usually measured by reduction in the total _column ozone_
+above a point on the Earth's surface. This is normally expressed in Dobson
+units; abbreviated as "DU". The most prominent decrease in ozone has been in
+the lower stratosphere. Marked decreases in column ozone in the Antarctic
+spring and early summer compared to the early 1970s and before have been
+observed using instruments such as the Total Ozone Mapping Spectrometer
+(TOMS).[10]
+
+Reductions of up to 70 percent in the ozone column observed in the austral
+(southern hemispheric) spring over Antarctica and first reported in 1985
+(Farman et al.) are continuing. Antarctic total column ozone in September and
+October have continued to be 40–50 percent lower than pre-ozone-hole values
+since the 1990s.[1] A gradual trend toward "healing" was reported in 2016.[11]
+In 2017, NASA announced that the ozone hole was the weakest since 1988 because
+of warm stratospheric conditions. It is expected to recover around 2070.[12]
+
+The amount lost is more variable year-to-year in the Arctic than in the
+Antarctic. The greatest Arctic declines are in the winter and spring, reaching
+up to 30 percent when the stratosphere is coldest.
+
+Reactions that take place on polar stratospheric clouds (PSCs) play an
+important role in enhancing ozone depletion.[13] PSCs form more readily in the
+extreme cold of the Arctic and Antarctic stratosphere. This is why ozone holes
+first formed, and are deeper, over Antarctica. Early models failed to take
+PSCs into account and predicted a gradual global depletion, which is why the
+sudden Antarctic ozone hole was such a surprise to many
+scientists.[14][15][16]
+
+It is more accurate to speak of ozone depletion in middle latitudes rather
+than holes. Total column ozone declined below pre-1980 values between 1980 and
+1996 for mid-latitudes. In the northern mid-latitudes, it then increased from
+the minimum value by about two percent from 1996 to 2009 as regulations took
+effect and the amount of chlorine in the stratosphere decreased. In the
+Southern Hemisphere's mid-latitudes, total ozone remained constant over that
+time period. There are no significant trends in the tropics, largely because
+halogen-containing compounds have not had time to break down and release
+chlorine and bromine atoms at tropical latitudes.[1][17]
+
+Large volcanic eruptions have been shown to have substantial albeit uneven
+ozone-depleting effects, as observed with the 1991 eruption of Mt. Pinotubo in
+the Philippines.[18]
+
+Ozone depletion also explains much of the observed reduction in stratospheric
+and upper tropospheric temperatures.[19][20] The source of the warmth of the
+stratosphere is the absorption of UV radiation by ozone, hence reduced ozone
+leads to cooling. Some stratospheric cooling is also predicted from increases
+in greenhouse gases such as CO  
+2 and CFCs themselves; however, the ozone-induced cooling appears to be
+dominant.[21]
+
+Predictions of ozone levels remain difficult, but the precision of models'
+predictions of observed values and the agreement among different modeling
+techniques have increased steadily.[1] The World Meteorological Organization
+Global Ozone Research and Monitoring Project—Report No. 44 comes out strongly
+in favor of the Montreal Protocol, but notes that a UNEP 1994 Assessment
+overestimated ozone loss for the 1994–1997 period.[22]
+
+### Compounds in the atmosphere[edit]
+
+#### CFCs and related compounds in the atmosphere[edit]
+
+Chlorofluorocarbons (CFCs) and other halogenated ozone depleting substances
+(ODS) are mainly responsible for man-made chemical ozone depletion. The total
+amount of effective halogens (chlorine and bromine) in the stratosphere can be
+calculated and are known as the equivalent effective stratospheric chlorine
+(EESC).[23]
+
+CFCs were invented by Thomas Midgley, Jr. in the 1930s. They were used in air
+conditioning and cooling units, as aerosol spray propellants prior to the
+1970s, and in the cleaning processes of delicate electronic equipment. They
+also occur as by-products of some chemical processes. No significant natural
+sources have ever been identified for these compounds—their presence in the
+atmosphere is due almost entirely to human manufacture. As mentioned above,
+when such ozone-depleting chemicals reach the stratosphere, they are
+dissociated by ultraviolet light to release chlorine atoms. The chlorine atoms
+act as a catalyst, and each can break down tens of thousands of ozone
+molecules before being removed from the stratosphere. Given the longevity of
+CFC molecules, recovery times are measured in decades. It is calculated that a
+CFC molecule takes an average of about five to seven years to go from the
+ground level up to the upper atmosphere, and it can stay there for about a
+century, destroying up to one hundred thousand ozone molecules during that
+time.[24][ _verification needed_ ]
+
+1,1,1-Trichloro-2,2,2-trifluoroethane, also known as CFC-113a, is one of four
+man-made chemicals newly discovered in the atmosphere by a team at the
+University of East Anglia. CFC-113a is the only known CFC whose abundance in
+the atmosphere is still growing. Its source remains a mystery, but illegal
+manufacturing is suspected by some. CFC-113a seems to have been accumulating
+unabated since 1960. Between 2010 and 2012, emissions of the gas jumped by 45
+percent.[25][26]
+
+### Computer modeling[edit]
+
+Scientists have attributed ozone depletion to the increase of man-made
+(anthropogenic) halogen compounds from CFCs by combining observational data
+with computer models. These complex chemistry transport models (e.g. SLIMCAT,
+CLaMS—Chemical Lagrangian Model of the Stratosphere) work by combining
+measurements of chemicals and meteorological fields with chemical reaction
+rate constants. They identify key chemical reactions and transport processes
+that bring CFC photolysis products into contact with ozone.
+
+## Ozone hole and its causes[edit]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Uars_ozone_waves.jpg/370px-
+
+Uars_ozone_waves.jpg)
+
+Ozone hole in North America during 1984 (abnormally warm reducing ozone
+depletion) and 1997 (abnormally cold resulting in increased seasonal
+depletion). Source: NASA[27]
+
+The Antarctic ozone hole is an area of the Antarctic stratosphere in which the
+recent ozone levels have dropped to as low as 33 percent of their pre-1975
+values. The ozone hole occurs during the Antarctic spring, from September to
+early December, as strong westerly winds start to circulate around the
+continent and create an atmospheric container. Within this polar vortex, over
+50 percent of the lower stratospheric ozone is destroyed during the Antarctic
+spring.[28]
+
+As explained above, the primary cause of ozone depletion is the presence of
+chlorine-containing source gases (primarily CFCs and related halocarbons). In
+the presence of UV light, these gases dissociate, releasing chlorine atoms,
+which then go on to catalyze ozone destruction. The Cl-catalyzed ozone
+depletion can take place in the gas phase, but it is dramatically enhanced in
+the presence of polar stratospheric clouds (PSCs).[29]
+
+These polar stratospheric clouds form during winter, in the extreme cold.
+Polar winters are dark, consisting of three months without solar radiation
+(sunlight). The lack of sunlight contributes to a decrease in temperature and
+the polar vortex traps and chills air. Temperatures hover around or below −80
+°C. These low temperatures form cloud particles. There are three types of PSC
+clouds—nitric acid trihydrate clouds, slowly cooling water-ice clouds, and
+rapid cooling water-ice (nacerous) clouds—provide surfaces for chemical
+reactions whose products will, in the spring lead to ozone destruction.[30]
+
+The photochemical processes involved are complex but well understood. The key
+observation is that, ordinarily, most of the chlorine in the stratosphere
+resides in "reservoir" compounds, primarily chlorine nitrate (ClONO  
+2) as well as stable end products such as HCl. The formation of end products
+essentially remove Cl from the ozone depletion process. The former sequester
+Cl, which can be later made available via absorption of light at shorter
+wavelengths than 400 nm.[31] During the Antarctic winter and spring, however,
+reactions on the surface of the polar stratospheric cloud particles convert
+these "reservoir" compounds into reactive free radicals (Cl and ClO). The
+process by which the clouds remove NO  
+2 from the stratosphere by converting it to nitric acid in the PSC particles,
+which then are lost by sedimentation is called denitrification. This prevents
+newly formed ClO from being converted back into ClONO  
+2. 
+
+The role of sunlight in ozone depletion is the reason why the Antarctic ozone
+depletion is greatest during spring. During winter, even though PSCs are at
+their most abundant, there is no light over the pole to drive chemical
+reactions. During the spring, however, the sun comes out, providing energy to
+drive photochemical reactions and melt the polar stratospheric clouds,
+releasing considerable ClO, which drives the hole mechanism. Further warming
+temperatures near the end of spring break up the vortex around mid-December.
+As warm, ozone and NO  
+2-rich air flows in from lower latitudes, the PSCs are destroyed, the enhanced
+ozone depletion process shuts down, and the ozone hole closes.[32]
+
+Most of the ozone that is destroyed is in the lower stratosphere, in contrast
+to the much smaller ozone depletion through homogeneous gas phase reactions,
+which occurs primarily in the upper stratosphere.[33]
+
+### Interest in ozone layer depletion[edit]
+
+Public misconceptions and misunderstandings of complex issues like the ozone
+depletion are common. The limited scientific knowledge of the public led to a
+confusion with global warming[34] or the perception of global warming as a
+subset of the "ozone hole".[35] In the beginning, classical green NGOs
+refrained from using CFC depletion for campaigning, as they assumed the topic
+was too complicated.[36] They became active much later, e.g. in Greenpeace's
+support for a CFC-free fridge produced by the former East German company VEB
+dkk Scharfenstein.[36][37]
+
+The metaphors used in the CFC discussion (ozone shield, ozone hole) are not
+"exact" in the scientific sense. The "ozone hole" is more of a _depression_ ,
+less "a hole in the windshield". The ozone does not disappear through the
+layer, nor is there a uniform "thinning" of the ozone layer. However they
+resonated better with non-scientists and their concerns.[38] The ozone hole
+was seen as a "hot issue" and imminent risk[39] as lay people feared severe
+personal consequences such as skin cancer, cataracts, damage to plants, and
+reduction of plankton populations in the ocean's photic zone. Not only on the
+policy level, ozone regulation compared to climate change fared much better in
+public opinion. Americans voluntarily switched away from aerosol sprays before
+legislation was enforced, while climate change failed to achieve comparable
+concern and public action.[38] The sudden recognition in 1985 that there was a
+substantial "hole" was widely reported in the press. The especially rapid
+ozone depletion in Antarctica had previously been dismissed as a measurement
+error.[40] Scientific consensus was established after regulation.[36]
+
+While the Antarctic ozone hole has a relatively small effect on global ozone,
+the hole has generated a great deal of public interest because:
+
+                    
+                                                * Many have worried that ozone holes might start appearing over other areas of the globe, though to date the only other large-scale depletion is a smaller ozone "dimple" observed during the Arctic spring around the North Pole. Ozone at middle latitudes has declined, but by a much smaller extent (a decrease of about 4–5 percent).
+                            * If stratospheric conditions become more severe (cooler temperatures, more clouds, more active chlorine), global ozone may decrease at a greater pace. Standard global warming theory predicts that the stratosphere will cool.[41]
+                            * When the Antarctic ozone hole breaks up each year, the ozone-depleted air drifts out into nearby regions. Decreases in the ozone level of up to 10 percent have been reported in New Zealand in the month following the breakup of the Antarctic ozone hole,[42] with ultraviolet-B radiation intensities increasing by more than 15 percent since the 1970s.[43][44]
+                    
+
+## Consequences of ozone layer depletion[edit]
+
+Since the ozone layer absorbs UVB ultraviolet light from the sun, ozone layer
+depletion increases surface UVB levels (all else equal), which could lead to
+damage, including increase in skin cancer. This was the reason for the
+Montreal Protocol. Although decreases in stratospheric ozone are well-tied to
+CFCs and to increases in surface UVB, there is no direct observational
+evidence linking ozone depletion to higher incidence of skin cancer and eye
+damage in human beings. This is partly because UVA, which has also been
+implicated in some forms of skin cancer, is not absorbed by ozone, and because
+it is nearly impossible to control statistics for lifestyle changes over time.
+
+### Increased UV[edit]
+
+Ozone, while a minority constituent in Earth's atmosphere, is responsible for
+most of the absorption of UVB radiation. The amount of UVB radiation that
+penetrates through the ozone layer decreases exponentially with the slant-path
+thickness and density of the layer. When stratospheric ozone levels decrease,
+higher levels of UVB reach the Earth’s surface.[1][45] UV-driven phenolic
+formation in tree rings has dated the start of ozone depletion in northern
+latitudes to the late 1700s.[46]
+
+In October 2008, the Ecuadorian Space Agency published a report called
+HIPERION. The study used ground instruments in Ecuador and the last 28 years'
+data from 12 satellites of several countries, and found that the UV radiation
+reaching equatorial latitudes was far greater than expected, with the UV Index
+climbing as high as 24 in Quito; the WHO considers 11 as an extreme index and
+a great risk to health. The report concluded that depleted ozone levels around
+the mid-latitudes of the planet are already endangering large populations in
+these areas.[47] Later, the CONIDA, the Peruvian Space Agency, published its
+own study, which yielded almost the same findings as the Ecuadorian study.
+
+### Biological effects[edit]
+
+The main public concern regarding the ozone hole has been the effects of
+increased surface UV radiation on human health. So far, ozone depletion in
+most locations has been typically a few percent and, as noted above, no direct
+evidence of health damage is available in most latitudes. If the high levels
+of depletion seen in the ozone hole were to be common across the globe, the
+effects could be substantially more dramatic. As the ozone hole over
+Antarctica has in some instances grown so large as to affect parts of
+Australia, New Zealand, Chile, Argentina, and South Africa, environmentalists
+have been concerned that the increase in surface UV could be significant.[48]
+
+Ozone depletion would magnify all of the effects of UV on human health, both
+positive (including production of vitamin D) and negative (including sunburn,
+skin cancer, and cataracts). In addition, increased surface UV leads to
+increased tropospheric ozone, which is a health risk to humans.
+
+#### Basal and squamous cell carcinomas[edit]
+
+The most common forms of skin cancer in humans, basal and squamous cell
+carcinomas, have been strongly linked to UVB exposure. The mechanism by which
+UVB induces these cancers is well understood—absorption of UVB radiation
+causes the pyrimidine bases in the DNA molecule to form dimers, resulting in
+transcription errors when the DNA replicates. These cancers are relatively
+mild and rarely fatal, although the treatment of squamous cell carcinoma
+sometimes requires extensive reconstructive surgery. By combining
+epidemiological data with results of animal studies, scientists have estimated
+that every one percent decrease in long-term stratospheric ozone would
+increase the incidence of these cancers by two percent.[49]
+
+#### Malignant melanoma[edit]
+
+Another form of skin cancer, malignant melanoma, is much less common but far
+more dangerous, being lethal in about 15–20 percent of the cases diagnosed.
+The relationship between malignant melanoma and ultraviolet exposure is not
+yet fully understood, but it appears that both UVB and UVA are involved.
+Because of this uncertainty, it is difficult to estimate the effect of ozone
+depletion on melanoma incidence. One study showed that a 10 percent increase
+in UVB radiation was associated with a 19 percent increase in melanomas for
+men and 16 percent for women.[50] A study of people in Punta Arenas, at the
+southern tip of Chile, showed a 56 percent increase in melanoma and a 46
+percent increase in nonmelanoma skin cancer over a period of seven years,
+along with decreased ozone and increased UVB levels.[51]
+
+#### Cortical cataracts[edit]
+
+Epidemiological studies suggest an association between ocular cortical
+cataracts and UVB exposure, using crude approximations of exposure and various
+cataract assessment techniques. A detailed assessment of ocular exposure to
+UVB was carried out in a study on Chesapeake Bay Watermen, where increases in
+average annual ocular exposure were associated with increasing risk of
+cortical opacity.[52] In this highly exposed group of predominantly white
+males, the evidence linking cortical opacities to sunlight exposure was the
+strongest to date. Based on these results, ozone depletion is predicted to
+cause hundreds of thousands of additional cataracts by 2050.[53]
+
+#### Increased tropospheric ozone[edit]
+
+Increased surface UV leads to increased tropospheric ozone. Ground-level ozone
+is generally recognized to be a health risk, as ozone is toxic due to its
+strong oxidant properties. The risks are particularly high for young children,
+the elderly, and those with asthma or other respiratory difficulties. At this
+time, ozone at ground level is produced mainly by the action of UV radiation
+on combustion gases from vehicle exhausts.[54]
+
+#### Increased production of vitamin D[edit]
+
+Vitamin D is produced in the skin by ultraviolet light. Thus, higher UVB
+exposure raises human vitamin D in those deficient in it. Recent research
+(primarily since the Montreal Protocol) shows that many humans have less than
+optimal vitamin D levels. In particular, in the U.S. population, the lowest
+quarter of vitamin D (<17.8 ng/ml) were found using information from the
+National Health and Nutrition Examination Survey to be associated with an
+increase in all-cause mortality in the general population.[55] While blood
+level of vitamin D in excess of 100 ng/ml appear to raise blood calcium
+excessively and to be associated with higher mortality, the body has
+mechanisms that prevent sunlight from producing vitamin D in excess of the
+body's requirements.[56]
+
+#### Effects on animals[edit]
+
+A November 2010 report by scientists at the Institute of Zoology in London
+found that whales off the coast of California have shown a sharp rise in sun
+damage, and these scientists "fear that the thinning ozone layer is to
+blame".[57] The study photographed and took skin biopsies from over 150 whales
+in the Gulf of California and found "widespread evidence of epidermal damage
+commonly associated with acute and severe sunburn", having cells that form
+when the DNA is damaged by UV radiation. The findings suggest "rising UV
+levels as a result of ozone depletion are to blame for the observed skin
+damage, in the same way that human skin cancer rates have been on the increase
+in recent decades."[58]
+
+#### Effects on crops[edit]
+
+An increase of UV radiation would be expected to affect crops. A number of
+economically important species of plants, such as rice, depend on
+cyanobacteria residing on their roots for the retention of nitrogen.
+Cyanobacteria are sensitive to UV radiation and would be affected by its
+increase.[59] "Despite mechanisms to reduce or repair the effects of increased
+ultraviolet radiation, plants have a limited ability to adapt to increased
+levels of UVB, therefore plant growth can be directly affected by UVB
+radiation."[60]
+
+## Public policy[edit]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/4/46/Future_ozone_layer_concentrations.gif/220px-
+
+Future_ozone_layer_concentrations.gif)
+
+NASA projections of stratospheric ozone concentrations if chlorofluorocarbons
+had not been banned
+
+The full extent of the damage that CFCs have caused to the ozone layer is not
+known and will not be known for decades; however, marked decreases in column
+ozone have already been observed. The Montreal and Vienna conventions were
+installed long before a scientific consensus was established or important
+uncertainties in the science field were being resolved.[36] The ozone case was
+understood comparably well by lay persons as e.g. _Ozone shield_ or _ozone
+hole_ were useful "easy-to-understand bridging metaphors".[38] Americans
+voluntarily switched away from aerosol sprays, resulting in a 50 percent sales
+loss even before legislation was enforced.[38]
+
+After a 1976 report by the United States National Academy of Sciences
+concluded that credible scientific evidence supported the ozone depletion
+hypothesis[61] a few countries, including the United States, Canada, Sweden,
+Denmark, and Norway, moved to eliminate the use of CFCs in aerosol spray
+cans.[62] At the time this was widely regarded as a first step towards a more
+comprehensive regulation policy, but progress in this direction slowed in
+subsequent years, due to a combination of political factors (continued
+resistance from the halocarbon industry and a general change in attitude
+towards environmental regulation during the first two years of the Reagan
+administration) and scientific developments (subsequent National Academy
+assessments that indicated that the first estimates of the magnitude of ozone
+depletion had been overly large). A critical DuPont manufacturing patent for
+Freon was set to expire in 1979. The United States banned the use of CFCs in
+aerosol cans in 1978.[62] The European Community rejected proposals to ban
+CFCs in aerosol sprays, and in the U.S., CFCs continued to be used as
+refrigerants and for cleaning circuit boards. Worldwide CFC production fell
+sharply after the U.S. aerosol ban, but by 1986 had returned nearly to its
+1976 level.[62] In 1993, DuPont Canada closed its CFC facility.[63]
+
+The U.S. government's attitude began to change again in 1983, when William
+Ruckelshaus replaced Anne M. Burford as Administrator of the United States
+Environmental Protection Agency. Under Ruckelshaus and his successor, Lee
+Thomas, the EPA pushed for an international approach to halocarbon
+regulations. In 1985 twenty nations, including most of the major CFC
+producers, signed the Vienna Convention for the Protection of the Ozone Layer,
+which established a framework for negotiating international regulations on
+ozone-depleting substances. That same year, the discovery of the Antarctic
+ozone hole was announced, causing a revival in public attention to the issue.
+In 1987, representatives from 43 nations signed the Montreal Protocol.
+Meanwhile, the halocarbon industry shifted its position and started supporting
+a protocol to limit CFC production. However, this shift was uneven with DuPont
+acting more quickly than its European counterparts. DuPont may have feared
+court action related to increased skin cancer, especially as the EPA had
+published a study in 1986 claiming that an additional 40 million cases and
+800,000 cancer deaths were to be expected in the U.S. in the next 88
+years.[64] The EU shifted its position as well after Germany gave up its
+defence of the CFC industry and started supporting moves towards regulation.
+Government and industry in France and the UK tried to defend their CFC
+producing industries even after the Montreal Protocol had been signed.[65]
+
+At Montreal, the participants agreed to freeze production of CFCs at 1986
+levels and to reduce production by 50 percent by 1999.[62] After a series of
+scientific expeditions to the Antarctic produced convincing evidence that the
+ozone hole was indeed caused by chlorine and bromine from manmade
+organohalogens, the Montreal Protocol was strengthened at a 1990 meeting in
+London. The participants agreed to phase out CFCs and halons entirely (aside
+from a very small amount marked for certain "essential" uses, such as asthma
+inhalers) by 2000 in non-Article 5 countries and by 2010 in Article 5 (less
+developed) signatories.[66] At a 1992 meeting in Copenhagen, the phase-out
+date was moved up to 1996.[66] At the same meeting, methyl bromide (MeBr), a
+fumigant used primarily in agricultural production, was added to the list of
+controlled substances. For all substances controlled under the protocol,
+phaseout schedules were delayed for less developed ('Article 5(1)') countries,
+and phaseout in these countries was supported by transfers of expertise,
+technology, and money from non-Article 5(1) Parties to the Protocol.
+Additionally, exemptions from the agreed schedules could be applied for under
+the Essential Use Exemption (EUE) process for substances other than methyl
+bromide and under the Critical Use Exemption (CUE) process for methyl
+bromide.[67][68]
+
+Civil society including especially NGOs, played critical roles at all stages
+of policy development leading up to the Vienna Conference, the Montreal
+Protocol, and in assessing compliance afterwards.[69][70][71][72] The major
+companies claimed that no alternatives to HFC existed.[73] An ozone-safe
+hydrocarbon refrigerant was developed at a Hamburg technological institute in
+Germany, and in 1992 came to the attention of the non-governmental
+organization (NGO) Greenpeace. Greenpeace was given the patent, called it
+"Greenfreeze," and left the patent as open source.[74][75] The NGO then worked
+successfully first with a small and struggling company to market an appliance
+beginning in Europe, then Asia and later Latin America, receiving a 1997 UNEP
+award.[76][77] By 1995, Germany had already made CFC refrigerators
+illegal.[77] Since 2004, corporations like Coca-Cola, Carlsberg, and IKEA have
+been forming a coalition to promote the ozone-safe Greenfreeze units.
+Production spread to companies like Electrolux, Bosch, and LG, with sales
+reaching some 300 million refrigerators by 2008.[76][78] In Latin America, a
+domestic Argentinian company began Greenfreeze production in 2003, while the
+giant Bosch in Brazil began a year later.[79][80] By 2013 it was being used by
+some 700 million refrigerators, making up about 40 percent of the market.[73]
+In the U.S., however, change has been much slower. To some extent, CFCs were
+being replaced by the less damaging hydrochlorofluorocarbons (HCFCs), although
+concerns remain regarding HCFCs also. In some applications, hydrofluorocarbons
+(HFCs) were being used to replace CFCs. HFCs, which contain no chlorine or
+bromine, do not contribute at all to ozone depletion although they are potent
+greenhouse gases. The best known of these compounds is probably HFC-134a
+(R-134a), which in the United States has largely replaced CFC-12 (R-12) in
+automobile air conditioners. In laboratory analytics (a former "essential"
+use) the ozone depleting substances can be replaced with various other
+solvents.[81] Chemical companies like Du Pont, whose representatives even
+disparaged Greenfreeze as "that German technology," maneuvered the EPA to
+block the technology in the U.S. until 2011.[82][83][84][85] Ben & Jerry's of
+Unilever and General Electric, spurred by Greenpeace, had expressed formal
+interest in 2008 which figured in the EPA's final approval.[76][86]
+
+More recently, policy experts have advocated for efforts to link ozone
+protection efforts to climate protection efforts.[87][88] Many ODS are also
+greenhouse gases, some thousands of times more powerful agents of radiative
+forcing than carbon dioxide over the short and medium term. Thus policies
+protecting the ozone layer have had benefits in mitigating climate change. In
+fact, the reduction of the radiative forcing due to ODS probably masked the
+true level of climate change effects of other greenhouse gases, and was
+responsible for the "slow down" of global warming from the mid-90s.[89] Policy
+decisions in one arena affect the costs and effectiveness of environmental
+improvements in the other.
+
+### ODS requirements in the marine industry[edit]
+
+The IMO has amended MARPOL Annex VI Regulation 12 regarding ozone depleting
+substances. As from July 1, 2010, all vessels where MARPOL Annex VI is
+applicable should have a list of equipment using ozone depleting substances.
+The list should include name of ODS, type and location of equipment, quantity
+in kg and date. All changes since that date should be recorded in an ODS
+Record book on board recording all intended or unintended releases to the
+atmosphere. Furthermore, new ODS supply or landing to shore facilities should
+be recorded as well.
+
+## Prospects of ozone depletion[edit]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ozone_hole_recovery.jpg/220px-
+
+Ozone_hole_recovery.jpg)
+
+Ozone levels stabilized in the 1990s following the Montreal Protocol, and have
+started to recover. They are projected to reach pre-1980 levels before
+2075.[4]
+
+![](//upload.wikimedia.org/wikipedia/en/thumb/a/a3/TotalCl_NOAA-
+
+HATS.png/220px-TotalCl_NOAA-HATS.png)
+
+Ozone-depleting gas trends
+
+Since the adoption and strengthening of the Montreal Protocol has led to
+reductions in the emissions of CFCs, atmospheric concentrations of the most-
+significant compounds have been declining. These substances are being
+gradually removed from the atmosphere; since peaking in 1994, the Effective
+Equivalent Chlorine (EECl) level in the atmosphere had dropped about 10
+percent by 2008. The decrease in ozone-depleting chemicals has also been
+significantly affected by a decrease in bromine-containing chemicals. The data
+suggest that substantial natural sources exist for atmospheric methyl bromide
+(CH  
+3Br).[1] The phase-out of CFCs means that nitrous oxide (N  
+2O), which is not covered by the Montreal Protocol, has become the most highly
+emitted ozone-depleting substance and is expected to remain so throughout the
+21st century.[90]
+
+A 2005 IPCC review of ozone observations and model calculations concluded that
+the global amount of ozone has now approximately stabilized. Although
+considerable variability is expected from year to year, including in polar
+regions where depletion is largest, the ozone layer is expected to begin to
+recover in coming decades due to declining ozone-depleting substance
+concentrations, assuming full compliance with the Montreal Protocol.[91]
+
+The Antarctic ozone hole is expected to continue for decades. Ozone
+concentrations in the lower stratosphere over Antarctica will increase by 5–10
+percent by 2020 and return to pre-1980 levels by about 2060–2075. This is
+10–25 years later than predicted in earlier assessments, because of revised
+estimates of atmospheric concentrations of ozone-depleting substances,
+including a larger predicted future usage in developing countries. Another
+factor that may prolong ozone depletion is the drawdown of nitrogen oxides
+from above the stratosphere due to changing wind patterns.[92] A gradual trend
+toward "healing" was reported in 2016.[11]
+
+## Research history[edit]
+
+See also: Ozone–oxygen cycle
+
+The basic physical and chemical processes that lead to the formation of an
+ozone layer in the Earth's stratosphere were discovered by Sydney Chapman in
+1930. Short-wavelength UV radiation splits an oxygen (O  
+2) molecule into two oxygen (O) atoms, which then combine with other oxygen
+molecules to form ozone. Ozone is removed when an oxygen atom and an ozone
+molecule "recombine" to form two oxygen molecules, i.e. O + O  
+3 → 2O  
+2. In the 1950s, David Bates and Marcel Nicolet presented evidence that various free radicals, in particular hydroxyl (OH) and nitric oxide (NO), could catalyze this recombination reaction, reducing the overall amount of ozone. These free radicals were known to be present in the stratosphere, and so were regarded as part of the natural balance—it was estimated that in their absence, the ozone layer would be about twice as thick as it currently is. 
+
+In 1970 Paul Crutzen pointed out that emissions of nitrous oxide (N  
+2O), a stable, long-lived gas produced by soil bacteria, from the Earth's
+surface could affect the amount of nitric oxide (NO) in the stratosphere.
+Crutzen showed that nitrous oxide lives long enough to reach the stratosphere,
+where it is converted into NO. Crutzen then noted that increasing use of
+fertilizers might have led to an increase in nitrous oxide emissions over the
+natural background, which would in turn result in an increase in the amount of
+NO in the stratosphere. Thus human activity could affect the stratospheric
+ozone layer. In the following year, Crutzen and (independently) Harold
+Johnston suggested that NO emissions from supersonic passenger aircraft, which
+would fly in the lower stratosphere, could also deplete the ozone layer.
+However, more recent analysis in 1995 by David W. Fahey, an atmospheric
+scientist at the National Oceanic and Atmospheric Administration, found that
+the drop in ozone would be from 1–2 percent if a fleet of 500 supersonic
+passenger aircraft were operated.[93] This, Fahey expressed, would not be a
+showstopper for advanced supersonic passenger aircraft development.[94]
+
+### Rowland–Molina hypothesis[edit]
+
+In 1974 Frank Sherwood Rowland, Chemistry Professor at the University of
+California at Irvine, and his postdoctoral associate Mario J. Molina suggested
+that long-lived organic halogen compounds, such as CFCs, might behave in a
+similar fashion as Crutzen had proposed for nitrous oxide. James Lovelock had
+recently discovered, during a cruise in the South Atlantic in 1971, that
+almost all of the CFC compounds manufactured since their invention in 1930
+were still present in the atmosphere. Molina and Rowland concluded that, like
+N  
+2O, the CFCs would reach the stratosphere where they would be dissociated by
+UV light, releasing chlorine atoms. A year earlier, Richard Stolarski and
+Ralph Cicerone at the University of Michigan had shown that Cl is even more
+efficient than NO at catalyzing the destruction of ozone. Similar conclusions
+were reached by Michael McElroy and Steven Wofsy at Harvard University.
+Neither group, however, had realized that CFCs were a potentially large source
+of stratospheric chlorine—instead, they had been investigating the possible
+effects of HCl emissions from the Space Shuttle, which are very much smaller.
+
+The Rowland–Molina hypothesis was strongly disputed by representatives of the
+aerosol and halocarbon industries. The Chair of the Board of DuPont was quoted
+as saying that ozone depletion theory is "a science fiction tale … a load of
+rubbish … utter nonsense".[95] Robert Abplanalp, the President of Precision
+Valve Corporation (and inventor of the first practical aerosol spray can
+valve), wrote to the Chancellor of UC Irvine to complain about Rowland's
+public statements.[96] Nevertheless, within three years most of the basic
+assumptions made by Rowland and Molina were confirmed by laboratory
+measurements and by direct observation in the stratosphere. The concentrations
+of the source gases (CFCs and related compounds) and the chlorine reservoir
+species (HCl and ClONO  
+2) were measured throughout the stratosphere, and demonstrated that CFCs were
+indeed the major source of stratospheric chlorine, and that nearly all of the
+CFCs emitted would eventually reach the stratosphere. Even more convincing was
+the measurement, by James G. Anderson and collaborators, of chlorine monoxide
+(ClO) in the stratosphere. ClO is produced by the reaction of Cl with
+ozone—its observation thus demonstrated that Cl radicals not only were present
+in the stratosphere but also were actually involved in destroying ozone.
+McElroy and Wofsy extended the work of Rowland and Molina by showing that
+bromine atoms were even more effective catalysts for ozone loss than chlorine
+atoms and argued that the brominated organic compounds known as halons, widely
+used in fire extinguishers, were a potentially large source of stratospheric
+bromine. In 1976 the United States National Academy of Sciences released a
+report concluding that the ozone depletion hypothesis was strongly supported
+by the scientific evidence. In response the United States, Canada and Norway
+banned the use of CFCs in aerosol spray cans in 1978. Early estimates were
+that, if CFC production continued at 1977 levels, the total atmospheric ozone
+would after a century or so reach a steady state, 15 to 18 percent below
+normal levels. By 1984, when better evidence on the speed of critical
+reactions was available, this estimate was changed to 5 to 9 percent steady-
+state depletion.[97]
+
+Crutzen, Molina, and Rowland were awarded the 1995 Nobel Prize in Chemistry
+for their work on stratospheric ozone.
+
+### Antarctic ozone hole[edit]
+
+The discovery of the Antarctic "ozone hole" by British Antarctic Survey
+scientists Farman, Gardiner and Shanklin (first reported in a paper in
+_Nature_ in May 1985[98] ) came as a shock to the scientific community,
+because the observed decline in polar ozone was far larger than anyone had
+anticipated.[40] Satellite measurements showing massive depletion of ozone
+around the south pole were becoming available at the same time. However, these
+were initially rejected as unreasonable by data quality control algorithms
+(they were filtered out as errors since the values were unexpectedly low); the
+ozone hole was detected only in satellite data when the raw data was
+reprocessed following evidence of ozone depletion in _in situ_
+observations.[65] When the software was rerun without the flags, the ozone
+hole was seen as far back as 1976.[99]
+
+Susan Solomon, an atmospheric chemist at the National Oceanic and Atmospheric
+Administration (NOAA), proposed that chemical reactions on polar stratospheric
+clouds (PSCs) in the cold Antarctic stratosphere caused a massive, though
+localized and seasonal, increase in the amount of chlorine present in active,
+ozone-destroying forms. The polar stratospheric clouds in Antarctica are only
+formed when there are very low temperatures, as low as −80 °C, and early
+spring conditions. In such conditions the ice crystals of the cloud provide a
+suitable surface for conversion of unreactive chlorine compounds into reactive
+chlorine compounds, which can deplete ozone easily.
+
+Moreover, the polar vortex formed over Antarctica is very tight and the
+reaction occurring on the surface of the cloud crystals is far different from
+when it occurs in atmosphere. These conditions have led to ozone hole
+formation in Antarctica. This hypothesis was decisively confirmed, first by
+laboratory measurements and subsequently by direct measurements, from the
+ground and from high-altitude airplanes, of very high concentrations of
+chlorine monoxide (ClO) in the Antarctic stratosphere.[100]
+
+Alternative hypotheses, which had attributed the ozone hole to variations in
+solar UV radiation or to changes in atmospheric circulation patterns, were
+also tested and shown to be untenable.[101]
+
+Meanwhile, analysis of ozone measurements from the worldwide network of
+ground-based Dobson spectrophotometers led an international panel to conclude
+that the ozone layer was in fact being depleted, at all latitudes outside of
+the tropics.[17] These trends were confirmed by satellite measurements. As a
+consequence, the major halocarbon-producing nations agreed to phase out
+production of CFCs, halons, and related compounds, a process that was
+completed in 1996.
+
+Since 1981 the United Nations Environment Programme, under the auspices of the
+World Meteorological Organization, has sponsored a series of technical reports
+on the Scientific Assessment of Ozone Depletion, based on satellite
+measurements. The 2007 report showed that the hole in the ozone layer was
+recovering and the smallest it had been for about a decade.[102] The 2010
+report found, "Over the past decade, global ozone and ozone in the Arctic and
+Antarctic regions is no longer decreasing but is not yet increasing. The ozone
+layer outside the Polar regions is projected to recover to its pre-1980 levels
+some time before the middle of this century. In contrast, the springtime ozone
+hole over the Antarctic is expected to recover much later."[103] In 2012, NOAA
+and NASA reported "Warmer air temperatures high above the Antarctic led to the
+second smallest season ozone hole in 20 years averaging 17.9 million square
+kilometres. The hole reached its maximum size for the season on Sept 22,
+stretching to 21.2 million square kilometres."[104] A gradual trend toward
+"healing" was reported in 2016.[11]
+
+The hole in the Earth's ozone layer over the South Pole has affected
+atmospheric circulation in the Southern Hemisphere all the way to the
+equator.[105] The ozone hole has influenced atmospheric circulation all the
+way to the tropics and increased rainfall at low, subtropical latitudes in the
+Southern Hemisphere.
+
+### Arctic ozone hole[edit]
+
+On March 3, 2005, the journal _Nature_ [106] published an article linking
+2004's unusually large Arctic ozone hole to solar wind activity.
+
+On March 15, 2011, a record ozone layer loss was observed, with about half of
+the ozone present over the Arctic having been destroyed.[107][108][109] The
+change was attributed to increasingly cold winters in the Arctic stratosphere
+at an altitude of approximately 20 km (12 mi), a change associated with global
+warming in a relationship that is still under investigation.[108] By March 25,
+the ozone loss had become the largest compared to that observed in all
+previous winters with the possibility that it would become an ozone hole.[110]
+This would require that the quantities of ozone to fall below 200 Dobson
+units, from the 250 recorded over central Siberia.[110] It is predicted that
+the thinning layer would affect parts of Scandinavia and Eastern Europe on
+March 30–31.[110]
+
+On October 2, 2011, a study was published in the journal _Nature_ , which said
+that between December 2010 and March 2011 up to 80 percent of the ozone in the
+atmosphere at about 20 kilometres (12 mi) above the surface was
+destroyed.[111] The level of ozone depletion was severe enough that scientists
+said it could be compared to the ozone hole that forms over Antarctica every
+winter.[111] According to the study, "for the first time, sufficient loss
+occurred to reasonably be described as an Arctic ozone hole."[111] The study
+analyzed data from the Aura and CALIPSO satellites, and determined that the
+larger-than-normal ozone loss was due to an unusually long period of cold
+weather in the Arctic, some 30 days more than typical, which allowed for more
+ozone-destroying chlorine compounds to be created.[112] According to Lamont
+Poole, a co-author of the study, cloud and aerosol particles on which the
+chlorine compounds are found "were abundant in the Arctic until mid March
+2011—much later than usual—with average amounts at some altitudes similar to
+those observed in the Antarctic, and dramatically larger than the near-zero
+values seen in March in most Arctic winters".[112]
+
+### Tibet ozone hole[edit]
+
+As winters that are colder are more affected, at times there is an ozone hole
+over Tibet. In 2006, a 2.5 million square kilometer ozone hole was detected
+over Tibet.[113] Also again in 2011 an ozone hole appeared over mountainous
+regions of Tibet, Xinjiang, Qinghai and the Hindu Kush, along with an
+unprecedented hole over the Arctic, though the Tibet one is far less intense
+than the ones over the Arctic or Antarctic.[114]
+
+### Potential depletion by storm clouds[edit]
+
+Research in 2012 showed that the same process that produces the ozone hole
+over Antarctica occurs over summer storm clouds in the United States, and thus
+may be destroying ozone there as well.[115][116]
+
+## Ozone depletion and global warming[edit]
+
+Main article: Ozone depletion and global warming
+
+Among others, Robert Watson had a role in the science assessment and in the
+regulation efforts of ozone depletion and global warming.[36] Prior to the
+1980s, the EU, NASA, NAS, UNEP, WMO and the British government had dissenting
+scientific reports and Watson played a role in the process of unified
+assessments. Based on the experience with the ozone case, the IPCC started to
+work on a unified reporting and science assessment[36] to reach a consensus to
+provide the IPCC Summary for Policymakers.
+
+There are various areas of linkage between ozone depletion and global warming
+science:
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Radiative-
+
+forcings.svg/370px-Radiative-forcings.svg.png)
+
+Radiative forcing from various greenhouse gases and other sources
+
+                    
+                                                * The same CO
+                    
+
+2 radiative forcing that produces global warming is expected to cool the
+stratosphere.[117] This cooling, in turn, is expected to produce a relative
+_increase_ in ozone ( O  
+3) depletion in polar area and the frequency of ozone holes.[118]
+
+                    
+                                                * Conversely, ozone depletion represents a radiative forcing of the climate system. There are two opposing effects: Reduced ozone causes the stratosphere to absorb less solar radiation, thus cooling the stratosphere while warming the troposphere; the resulting colder stratosphere emits less long-wave radiation downward, thus cooling the troposphere. Overall, the cooling dominates; the IPCC concludes " _observed stratospheric O
+                    
+
+3 losses over the past two decades have caused a negative forcing of the
+surface-troposphere system_"[19] of about −0.15 ± 0.10 watts per square meter
+(W/m2).[91]
+
+                    
+                                                * One of the strongest predictions of the greenhouse effect is that the stratosphere will cool.[117] Although this cooling has been observed, it is not trivial to separate the effects of changes in the concentration of greenhouse gases and ozone depletion since both will lead to cooling. However, this can be done by numerical stratospheric modeling. Results from the National Oceanic and Atmospheric Administration's Geophysical Fluid Dynamics Laboratory show that above 20 km (12 mi), the greenhouse gases dominate the cooling.[119]
+                            * As noted under 'Public Policy', ozone depleting chemicals are also often greenhouse gases. The increases in concentrations of these chemicals have produced 0.34 ± 0.03 W/m2 of radiative forcing, corresponding to about 14 percent of the total radiative forcing from increases in the concentrations of well-mixed greenhouse gases.[91]
+                            * The long term modeling of the process, its measurement, study, design of theories and testing take decades to document, gain wide acceptance, and ultimately become the dominant paradigm. Several theories about the destruction of ozone were hypothesized in the 1980s, published in the late 1990s, and are currently being investigated. Dr Drew Schindell, and Dr Paul Newman, NASA Goddard, proposed a theory in the late 1990s, using computational modeling methods to model ozone destruction, that accounted for 78 percent of the ozone destroyed. Further refinement of that model accounted for 89 percent of the ozone destroyed, but pushed back the estimated recovery of the ozone hole from 75 years to 150 years. (An important part of that model is the lack of stratospheric flight due to depletion of fossil fuels.)
+                    
+
+## Misconceptions[edit]
+
+### CFC weight[edit]
+
+Since CFC molecules are heavier than air (nitrogen or oxygen), it is commonly
+believed that the CFC molecules cannot reach the stratosphere in significant
+amount.[120] However, atmospheric gases are not sorted by weight; the forces
+of wind can fully mix the gases in the atmosphere. Lighter CFCs are evenly
+distributed throughout the turbosphere and reach the upper atmosphere,[121]
+although some of the heavier CFCs are not evenly distributed.[122]
+
+### Percentage of man-made chlorine[edit]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Sources_stratospheric_chlorine.png/300px-
+
+Sources_stratospheric_chlorine.png)
+
+Sources of stratospheric chlorine
+
+Another misconception is that "it is generally accepted that natural sources
+of tropospheric chlorine are four to five times larger than man-made ones."
+While this statement is strictly true, _tropospheric_ chlorine is irrelevant;
+it is _stratospheric_ chlorine that affects ozone depletion. Chlorine from
+ocean spray is soluble and thus is washed by rainfall before it reaches the
+stratosphere. CFCs, in contrast, are insoluble and long-lived, allowing them
+to reach the stratosphere. In the lower atmosphere, there is much more
+chlorine from CFCs and related haloalkanes than there is in HCl from salt
+spray, and in the stratosphere halocarbons are dominant.[123] Only methyl
+chloride, which is one of these halocarbons, has a mainly natural source,[124]
+and it is responsible for about 20 percent of the chlorine in the
+stratosphere; the remaining 80 percent comes from manmade sources.
+
+Very violent volcanic eruptions can inject HCl into the stratosphere, but
+researchers[125] have shown that the contribution is not significant compared
+to that from CFCs. A similar erroneous assertion is that soluble halogen
+compounds from the volcanic plume of Mount Erebus on Ross Island, Antarctica
+are a major contributor to the Antarctic ozone hole.[125]
+
+Nevertheless, a 2015 study[126] showed that the role of Mount Erebus volcano
+in the Antarctic ozone depletion was probably underestimated. Based on the
+NCEP/NCAR reanalysis data over the last 35 years and by using the NOAA HYSPLIT
+trajectory model, researchers showed that Erebus volcano gas emissions
+(including hydrogen chloride (HCl)) can reach the Antarctic stratosphere via
+high-latitude cyclones and then the polar vortex. Depending on Erebus volcano
+activity, the additional annual HCl mass entering the stratosphere from Erebus
+varies from 1.0 to 14.3 kt.
+
+### First observation[edit]
+
+G.M.B. Dobson mentioned that when springtime ozone levels in the Antarctic
+over Halley Bay were first measured in 1956, he was surprised to find that
+they were ~320 DU, or about 150 DU below spring Arctic levels of ~450 DU.
+These were at that time the only known Antarctic ozone values available. What
+Dobson describes is essentially the _baseline_ from which the ozone hole is
+measured: actual ozone hole values are in the 150–100 DU range.[127]
+
+The discrepancy between the Arctic and Antarctic noted by Dobson was primarily
+a matter of timing: during the Arctic spring ozone levels rose smoothly,
+peaking in April, whereas in the Antarctic they stayed approximately constant
+during early spring, rising abruptly in November when the polar vortex broke
+down.
+
+The behavior seen in the Antarctic ozone hole is completely different. Instead
+of staying constant, early springtime ozone levels suddenly drop from their
+already low winter values, by as much as 50 percent, and normal values are not
+reached again until December.[128]
+
+### Location of hole[edit]
+
+Some people thought that the ozone hole should be above the sources of CFCs.
+However, CFCs are well mixed globally in the troposphere and stratosphere. The
+reason for occurrence of the ozone hole above Antarctica is not because there
+are more CFCs concentrated but because the low temperatures help form polar
+stratospheric clouds.[129] In fact, there are findings of significant and
+localized "ozone holes" above other parts of the earth.[130][ _better source
+needed_ ]
+
+## World Ozone Day[edit]
+
+In 1994, the United Nations General Assembly voted to designate September 16
+as the International Day for the Preservation of the Ozone Layer, or "World
+Ozone Day", to commemorate the signing of the Montreal Protocol on that date
+in 1987.[131]
+
+## See also[edit]
+
+                    
+                                                * ![Global Warming Map.jpg](//upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Global_Warming_Map.jpg/32px-Global_Warming_Map.jpg) Global warming portal
+                            * ![Aegopodium podagraria1 ies.jpg](//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Aegopodium_podagraria1_ies.jpg/32px-Aegopodium_podagraria1_ies.jpg) Environment portal
+                            * ![Earth Day Flag.png](//upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Earth_Day_Flag.png/32px-Earth_Day_Flag.png) Ecology portal
+                    
+
+## References[edit]
+
+                    
+                                                1. ^ _**a**_ _**b**_ _**c**_ _**d**_ _**e**_ _**f**_ "Twenty Questions and Answers About the Ozone Layer" (PDF). _Scientific Assessment of Ozone Depletion: 2010_. World Meteorological Organization. 2011. Retrieved  March 13, 2015.
+                            2. **^** Andino, Jean M. (October 21, 1999). "Chlorofluorocarbons (CFCs) are heavier than air, so how do scientists suppose that these chemicals reach the altitude of the ozone layer to adversely affect it?". _Scientific American_. **264** : 68.
+                            3. **^** "Part III. The Science of the Ozone Hole". Retrieved  March 5, 2007.
+                            4. ^ _**a**_ _**b**_ "The Antarctic Ozone Hole Will Recover". NASA. June 4, 2015. Retrieved  August 5, 2017.
+                            5. **^** "The Ozone Hole-The Montreal Protocol on Substances that Deplete the Ozone Layer". Theozonehole.com. September 16, 1987. Retrieved  May 15, 2019.
+                            6. **^** "Background for International Day for the Preservation of the Ozone Layer - 16 September". _www.un.org_. Retrieved  May 15, 2019.
+                            7. **^** Newman, Paul A. "Chapter 5: Stratospheric Photochemistry Section 4.2.8 ClX catalytic reactions". In Todaro, Richard M. (ed.). _Stratospheric ozone: an electronic textbook_. NASA Goddard Space Flight Center Atmospheric Chemistry and Dynamics Branch. Retrieved  May 28, 2016.
+                            8. **^** "Stratospheric Ozone Depletion by Chlorofluorocarbons (Nobel Lecture)—Encyclopedia of Earth". Eoearth.org. Archived from the original on September 9, 2011.
+                            9. **^** Scientific Assessment of Ozone Depletion 2010, National Oceanic & Atmospheric Administration
+                            10. **^** "The Ozone Hole Tour: Part II. Recent Ozone Depletion". University of Cambridge. Retrieved  March 28, 2011.
+                            11. ^ _**a**_ _**b**_ _**c**_ Solomon, S.; Ivy, D. J.; Kinnison, D.; Mills, M. J.; Neely Rr, 3rd; Schmidt, A. (June 30, 2016). "Emergence of healing in the Antarctic ozone layer". _Science_. **353** (6296): 269–74. Bibcode:2016Sci...353..269S. doi:10.1126/science.aae0061. PMID 27365314.
+                            12. **^** Mersmann, Katy; Stein, Theo (November 2, 2017). "Warm Air Helped Make 2017 Ozone Hole Smallest Since 1988". _nasa.gov_. Retrieved  December 31, 2017.
+                            13. **^** U.S. EPA: Ozone Depletion. epa.gov
+                            14. **^** Zafar, A. Mannan; Müller, Rolf; Grooss, Jens-Uwe; Robrecht, Sabine; Vogel, Bärbel; Lehmann, Ralph (January 2018). "The relevance of reactions of the methyl peroxy radical (CH3O2) and methylhypochlorite (CH3OCl) for Antarctic chlorine activation and ozone loss" (PDF). _Tellus B: Chemical and Physical Meteorology_. **70** (1): 1–18. doi:10.1080/16000889.2018.1507391. ISSN 1600-0889.
+                            15. **^** Son, Seok-Woo; Han, Bo-Reum; Garfinkel, Chaim I.; Kim, Seo-Yeon; Park, Rokjin; Abraham, N. Luke; Hideharu Akiyoshi; Archibald, Alexander T.; Butchart, N. (2018). "Tropospheric jet response to Antarctic ozone depletion: An update with Chemistry-Climate Model Initiative (CCMI) models". _Environmental Research Letters_. **13** (5): 054024. Bibcode:2018ERL....13e4024S. doi:10.1088/1748-9326/aabf21. ISSN 1748-9326.
+                            16. **^** "Largest-ever Ozone Hole over Antarctica". _earthobservatory.nasa.gov_. September 11, 2000. Retrieved  November 26, 2018.
+                            17. ^ _**a**_ _**b**_ "Myth: Ozone Depletion Occurs Only In Antarctica". EPA. June 28, 2006. Retrieved  March 28, 2011.
+                            18. **^** Self, Stephen, et al. (1996). "The Atmospheric Impact of the 1991 Mount Pinatubo Eruption". USGS. Retrieved May 28, 2016.
+                            19. ^ _**a**_ _**b**_ "Climate Change 2001: Working Group I: The Scientific Basis". _Intergovernmental Panel on Climate Change Work Group I_. 2001. pp. Chapter 6.4 Stratospheric Ozone. Archived from the original on June 3, 2016. Retrieved May 28, 2016.
+                            20. **^** 2008 News, Briefs, and Features. NASA
+                            21. **^** "Climate Change 2013: The Physical Science Basis". UNEP. Retrieved  May 28, 2016.
+                            22. **^** "Scientific Assessment of Ozone Depletion 1998 – Preface". US National Oceanic & Atmospheric Administration. Retrieved  December 21, 2012.
+                            23. **^** Newman, P. A.; Daniel, J. S.; Waugh, D. W.; Nash, E. R. (2007). "A new formulation of equivalent effective stratospheric chlorine (EESC)". _Atmos. Chem. Phys_. **7** (17): 4537–52. doi:10.5194/acp-7-4537-2007.
+                            24. **^** "chlorofluorocarbons". Encyclopedia.com. Retrieved  March 28, 2011.
+                            25. **^** Laube, Johannes C.; Newland, Mike J.; Hogan, Christopher; Brenninkmeijer, Carl A. M.; Fraser, Paul J.; Martinerie, Patricia; Oram, David E.; Reeves, Claire E.; Röckmann, Thomas; Schwander, Jakob; Witrant, Emmanuel; Sturges, William T. (March 9, 2014). "Newly detected ozone-depleting substances in the atmosphere" (PDF). _Nature Geoscience_. **7** (4): 266–269. Bibcode:2014NatGe...7..266L. doi:10.1038/ngeo2109.
+                            26. **^** McGrath, Matt (March 9, 2014). "Mysterious new man-made gases pose threat to ozone layer". _BBC News_. Retrieved  March 10, 2014.
+                            27. **^** Nash, Eric; Newman, Paul (September 19, 2001). "NASA Confirms Arctic Ozone Depletion Trigger". _Image of the Day_. NASA. Retrieved  April 16, 2011.
+                            28. **^** Sparling, Brien (June 26, 2001). "Antarctic Ozone Hole". NASA Advanced Supercomputing Department. Archived from the original on April 3, 2009. Retrieved April 16, 2011.CS1 maint: Unfit url (link)
+                            29. **^** Parson, Robert (December 16, 1997). "Antarctic ozone-depletion FAQ, section 7". Faqs.org. Retrieved April 16, 2011.
+                            30. **^** Toon, Owen B.; Turco, Richard P. (June 1991). "Polar Stratospheric Clouds and Ozone Depletion" (PDF). _Scientific American_. **264** (6): 68–74. Bibcode:1991SciAm.264...68T. doi:10.1038/scientificamerican0691-68. Retrieved  April 16, 2011.
+                            31. **^** Sumi´nska-Ebersoldt; Lehmann, R.; Wegner, T.; Grooß, J.-U.; Hösen, E.; Weigel, R.; Frey, W.; Griessbach, S.; Mitev, V.; Emde, C.; Volk, C. M.; Borrmann, S.; Rex, M.; Stroh, F.; von Hobe, M. (July 2011). "ClOOCl photolysis at high solar zenith angles: analysis of the RECONCILE self-match flight". _Atmos. Chem. Phys_. **12** (3): 1353–1365. Bibcode:2012ACP....12.1353S. doi:10.5194/acp-12-1353-2012.
+                            32. **^** "Ozone Facts: What is the Ozone Hole?". _Ozone Hole Watch_. NASA. November 18, 2009. Retrieved  April 16, 2011.
+                            33. **^** Rowland, Frank Sherwood (May 29, 2006). "Stratospheric ozone depletion". _Phil. Trans. R. Soc. B_. **361** (1469): 769–790. doi:10.1098/rstb.2005.1783. PMC 1609402. PMID 16627294. "4. Free radical reactions for ozone removal: Reaction 4.1"
+                            34. **^** Boyesa, Edward; Stanisstreeta, Martin (1992). "Students' perceptions of global warming". _International Journal of Environmental Studies_. **42** (4): 287–300. doi:10.1080/00207239208710804.
+                            35. **^** Compare Sheldon Ungar, 2000 and various web sites such as Gavin Schmidt's realclimate complaint in Ozone depletion and global warming 2005 or the UCS FAQ on the topic
+                            36. ^ _**a**_ _**b**_ _**c**_ _**d**_ _**e**_ _**f**_ Reiner Grundmann _Technische Problemlösung, Verhandeln und umfassende Problemlösun_ g, generic problem solving capability) in Gesellschaftliche Komplexität und kollektive Handlungsfähigkeit (Societys complexity and collective ability to act), ed. Schimank, U. (2000). Frankfurt/Main: Campus, p.154-182 book summary at the Max Planck Gesellschaft
+                            37. **^** Gunkel, Christoph (September 13, 2013). "Öko-Coup aus Ostdeutschland". _Der Spiegel_ (in German). Retrieved  September 4, 2015.
+                            38. ^ _**a**_ _**b**_ _**c**_ _**d**_ Ungar, Sheldon (July 1, 2000). "Knowledge, ignorance and the popular culture: climate change versus the ozone hole". _Public Understanding of Science_. **9** (3): 297–312. doi:10.1088/0963-6625/9/3/306.
+                            39. **^** Grundmann, Reiner (May 14, 2007). "Climate Change and Knowledge Politics" (PDF). _Environmental Politics_. **16** (3): 414–432. CiteSeerX 10.1.1.535.4984. doi:10.1080/09644010701251656. Archived from the original (PDF) on August 26, 2014.
+                            40. ^ _**a**_ _**b**_ Zehr, Stephen C. (1994). "Accounting for the Ozone Hole: Scientific Representations of an Anomaly and Prior Incorrect Claims in Public Settings". _The Sociological Quarterly_. **35** (4): 603–19. doi:10.1111/j.1533-8525.1994.tb00419.x. JSTOR 4121521.
+                            41. **^** "Climate Change 2001: Working Group I: The Scientific Basis". _Intergovernmental Panel on Climate Change Work Group I_. 2001. pp. Chapter 9.3.2 Patterns of Future Climate Change. Archived from the original on June 3, 2016. Retrieved May 28, 2016.
+                            42. **^** Muir, Patricia (March 6, 2008). "Stratospheric Ozone Depletion". Oregon State University. Retrieved April 16, 2011.
+                            43. **^** "Long-term increase in summer UV radiation". NIWA. September 9, 1999. Retrieved  December 4, 2013.
+                            44. **^** McKenzie, Richard; Conner, Brian; Bodeker, Greg (September 10, 1999). "Increased Summertime UV Radiation in New Zealand in Response to Ozone Loss". _Science_. **285** (5434): 1709–1711. doi:10.1126/science.285.5434.1709. PMID 10481002.
+                            45. **^** "Health and Environmental Effects of Ozone Layer Depletion". EPA. February 15, 2013. Retrieved  September 26, 2013.
+                            46. **^** "Reconstruction of Paleobehavior of Ozonosphere Based on Response to UV-B Radiation Effect in Dendrochronologic Signal" (PDF). Atmospheric Radiation Measurement, USA. Retrieved May 28, 2016.
+                            47. **^** The HIPERION Report (PDF) (Report). Ecuadorian Civilian Space Agency. 2008.
+                            48. **^** Lilley, Ray (October 5, 2000). "Ozone Hole Over City for First Time". Associated Press. Retrieved March 13, 2015.
+                            49. **^** de Gruijl, Frank R. (Summer 1995). "Impacts of a Projected Depletion of the Ozone Layer". _Consequences_. **1** (2).
+                            50. **^** Fears, T. R.; Bird, C. C.; Guerry d, 4th; Sagebiel, R. W.; Gail, M. H.; Elder, D. E.; Halpern, A.; Holly, E. A.; Hartge, P.; Tucker, M. A. (2002). "Average midrange ultraviolet radiation flux and time outdoors predict melanoma risk". _Cancer Res_. **62** (14): 3992–6. PMID 12124332.
+                            51. **^** Abarca, J. F.; Casiccia, C. C. (December 2002). "Skin cancer and ultraviolet-B radiation under the Antarctic ozone hole: southern Chile, 1987–2000". _Photodermatol Photoimmunol Photomed_. **18** (6): 294–302. doi:10.1034/j.1600-0781.2002.02782.x. PMID 12535025.
+                            52. **^** West, S. K.; Duncan, D. D.; Muñoz, B.; Rubin, G. S.; Fried, L. P.; Bandeen-Roche, K.; Schein, O. D. (1998). "Sunlight exposure and risk of lens opacities in a population-based study: the Salisbury Eye Evaluation project". _JAMA_. **280** (8): 714–8. doi:10.1001/jama.280.8.714. PMID 9728643.
+                            53. **^** Dobson, R. (2005). "Ozone depletion will bring big rise in number of cataracts". _BMJ_. **331** (7528): 1292–1295. doi:10.1136/bmj.331.7528.1292-d. PMC 1298891.
+                            54. **^** "Ozone: Good Up High, Bad Nearby" (PDF). EPA. Archived from the original on June 2, 2013. Retrieved March 13, 2015.CS1 maint: Unfit url (link)
+                            55. **^** Melamed, M. L.; Michos, E. D.; Post, W.; Astor, B. (2008). "25-hydroxyl Vitamin D Levels and the Risk of Mortality in the General Population". _Arch. Intern. Med_. **168** (15): 1629–37. doi:10.1001/archinte.168.15.1629. PMC 2677029. PMID 18695076.
+                            56. **^** Vieth R (1999). "Vitamin D supplementation, 25-hydroxyvitamin D concentrations, and safety". _Am. J. Clin. Nutr_. **69** (5): 842–56. doi:10.1093/ajcn/69.5.842. PMID 10232622.
+                            57. **^** "Sunburned whales: Troubling environment news of the week". _The Washington Post_. BlogPost (blog). November 11, 2010. Retrieved  March 28, 2011.
+                            58. **^** Thomas, Abbie (November 10, 2010). "Whales showing more sun damage". Abc.net.au. Retrieved March 28, 2011.
+                            59. **^** Sinha, R. P.; Singh, S. C.; Häder, D. P. (1999). "Photoecophysiology of cyanobacteria". _Recent Research Developments in Photochemistry and Photobiology_. **3** : 91–101.
+                            60. **^** "Health and Environmental Effects of Ozone Layer In Plants". U.S Environmental Protection Agency. February 15, 2013. Retrieved  November 12, 2013.
+                            61. **^** National Academy of Sciences (1976). _Halocarbons, effects on stratospheric ozone_. Washington, DC. Retrieved  May 28, 2016.
+                            62. ^ _**a**_ _**b**_ _**c**_ _**d**_ Morrisette, Peter M. (1989). "The Evolution of Policy Responses to Stratospheric Ozone Depletion". _Natural Resources Journal_. **29** : 793–820. Retrieved April 20, 2010.
+                            63. **^** Sawchuk, Arthur R. (December 19, 1994). "Voluntary Initiatives to Reduce Greenhouse Gas Emissions", "Archived copy" (PDF). Archived from the original (PDF) on July 6, 2011. Retrieved June 3, 2010.CS1 maint: Archived copy as title (link). DuPont Canada Inc.
+                            64. **^** Shabecoff, Philip (November 5, 1986). "U.S. Report Predicts Rise in Skin Cancer with Loss of Ozone". _The New York Times_. p. A1. Retrieved January 10, 2013.
+                            65. ^ _**a**_ _**b**_ Grundmann, Reiner (2001). _Transnational Environmental Policy: the ozone layer_. New York: Routledge. ISBN 978-0-415-22423-9.
+                            66. ^ _**a**_ _**b**_ "Amendments to the Montreal Protocol | Ozone Layer Protection | US EPA". Epa.gov. June 28, 2006. Retrieved  March 28, 2011.
+                            67. **^** Gareau, Brian J. (2010). "A critical review of the successful CFC phase-out versus the delayed methyl bromide phase-out in the Montreal Protocol". _International Environmental Agreements: Politics, Law and Economics_. **10** (3): 209–231. doi:10.1007/s10784-010-9120-z.
+                            68. **^** Decanio, Stephen J.; Norman, Catherine S. (July 2005). "Economics of the 'Critical use' of Methyl Bromide under the Montreal Protocol". _Contemporary Economic Policy_. **23** (3): 376–393. doi:10.1093/cep/byi028.
+                            69. **^** Sarma, K. Madhava "Compliance with the Multilateral Environmental Agreements to Protect the Ozone Layer" in Ulrich Beyerlin et al. Ensuring Compliance with Multilateral Environmental Agreements Leiden: Martinus Nijhoff 2006
+                            70. **^** Mate, John (2001). "Making a Difference: A Case Study of the Greenpeace Ozone Campaign". _Review of European Community and International Environmental Law_. **10** (2): 190–198. doi:10.1111/1467-9388.00275.
+                            71. **^** Currie, Duncan E.J. (2005) "The Experience of Greenpeace International" in Tullio Treves et al. (eds.) _Civil Society, International Courts, and Compliance Bodies_ The Hague, The Netherlands: TMC Asser.
+                            72. **^** Benedick, Richard Elliot (1991) _Ozone Diplomacy_. Cambridge, MA: Harvard University.
+                            73. ^ _**a**_ _**b**_ "Happy birthday, Greenfreeze!". _Greenpeace International_. Retrieved  May 28, 2016.
+                            74. **^** Stafford, Edwin R.; Hartman, Cathy L.; Liang, Ying (October 10, 2016). "Wayback Machine" (PDF). _Business Horizons_. **46** (2): 47–56. doi:10.1016/S0007-6813(03)00009-0. Archived from the original (PDF) on October 10, 2016.
+                            75. **^** "Climate-Friendly Greenfreezers Come to the United States". _NBC New York_. Retrieved  May 28, 2016.
+                            76. ^ _**a**_ _**b**_ _**c**_ "Greenpeace USA". Greenpeace.org. September 23, 2015. Retrieved  September 27, 2015.
+                            77. ^ _**a**_ _**b**_ "Greenfreeze: A Revolution In Domestic Refrigeration". Ecomall.com. January 1, 1995. Retrieved  May 28, 2016.
+                            78. **^** "Natural Refrigerants – Businesses". _Greenpeace International_. Retrieved  May 28, 2016.
+                            79. **^** "La Historia del "Greenfreeze "". Ilustrados!. Retrieved September 27, 2015.
+                            80. **^** "Lanzan la primera de las "Propuestas Greenpeace": la heladera "Greenfreeze" | Greenpeace Argentina". Greenpeace.org. Retrieved  September 27, 2015.
+                            81. **^** "Use of Ozone Depleting Substances in Laboratories. TemaNord 516/2003" (PDF). Norden.org. January 1, 2003. Archived from the original on February 27, 2008. Retrieved March 28, 2011.CS1 maint: Unfit url (link)
+                            82. **^** "Der Greenfreeze – endlich in den USA angekommen". _Greenpeace_. Retrieved  May 28, 2016.
+                            83. **^** "Discurso de Frank Guggenheim no lançamento do Greenfreeze". _Brasil_. Retrieved  May 28, 2016.
+                            84. **^** "SNAP Program Chronology | Alternatives / SNAP | US EPA". Epa.gov. October 15, 2014. Retrieved  September 27, 2015.
+                            85. **^** "Greenfreeze F-Gas Victory! Greener Refrigerators Finally Legal in the U.S." _Greenpeace USA_. December 14, 2011. Archived from the original on January 29, 2012. Retrieved  January 1, 2018.
+                            86. **^** "GE Opening a Door to a Future of Cleaner Home Refrigeration" (Press release). Archived from the original on June 5, 2011. Retrieved  August 24, 2014.CS1 maint: Unfit url (link)
+                            87. **^** Molina, M.; Zaelke, D.; Sarma, K. M.; Andersen, S. O.; Ramanathan, V.; Kaniaru, D. (2009). "Reducing abrupt climate change risk using the Montreal Protocol and other regulatory actions to complement cuts in CO 2 emissions". _Proceedings of the National Academy of Sciences_. **106** (49): 20616–20621. Bibcode:2009PNAS..10620616M. doi:10.1073/pnas.0902568106. PMC 2791591. PMID 19822751.
+                            88. **^** Norman, Catherine; Decanio, Stephen; Fan, Lin (2008). "The Montreal Protocol at 20: Ongoing opportunities for integration with climate protection". _Global Environmental Change_. **18** (2): 330–340. doi:10.1016/j.gloenvcha.2008.03.003.
+                            89. **^** Estrada, Francisco (2013). "Statistically derived contributions of diverse human influences to twentieth-century temperature changes". _Nature Geoscience_. **6** (12): 1050–1055. Bibcode:2013NatGe...6.1050E. doi:10.1038/ngeo1999. hdl:2144/27169.
+                            90. **^** "NOAA Study Shows Nitrous Oxide Now Top Ozone-Depleting Emission". Noaanews.noaa.gov. August 27, 2009. Retrieved  April 6, 2011.
+                            91. ^ _**a**_ _**b**_ _**c**_ "Summary for Policymakers". _IPCC/TEAP special report on safeguarding the ozone layer and the global climate system: issues related to hydrofluorocarbons and perfluorocarbons_. Cambridge: Published for the Intergovernmental Panel on Climate Change [by] Cambridge University Press. 2005. ISBN 978-0-521-86336-0. Archived from the original (PDF) on October 29, 2010. Retrieved May 28, 2016.
+                            92. **^** Canada's SCISAT satellite explains 2006 ozone-layer depletion. Canadian Space Agency. October 6, 2006.
+                            93. **^** Lipkin, Richard (October 7, 1995). SST emissions cut stratospheric ozone. (The introduction of 500 new supersonic transport planes by 2015 could deplete the ozone layer by as much as 1%). Science News.
+                            94. **^** "Increase in supersonic jets could be threat to ozone U-2 plane trails Concorde, studies exhaust particles". _The Baltimore Sun_. Newsday. October 8, 1995. Retrieved  December 21, 2012.
+                            95. **^** "Du Pont: A case study in the 3D corporate strategy". Greenpeace. 1997. Archived from the original on April 6, 2012. CS1 maint: Unfit url (link)
+                            96. **^** Roan, Sharon (1989) _Ozone crisis: The 15-year evolution of a sudden global emergency_ , New York: Wiley, p. 56 ISBN 0-471-52823-4
+                            97. **^** _Causes and Effects of Stratospheric Ozone Reduction: An Update_. National Research Council. 1982. p. Summary, 3. doi:10.17226/319. ISBN 978-0-309-03248-3.
+                            98. **^** Farman, J. C.; Gardiner, B. G.; Shanklin, J. D. (1985). "Large losses of total ozone in Antarctica reveal seasonal ClO x/NOx interaction". _Nature_. **315** (6016): 207–210. Bibcode:1985Natur.315..207F. doi:10.1038/315207a0.
+                            99. **^** History and politics accessed September 30, 2016.
+                            100. **^** Solomon, P. M.; Connor, B.; De Zafra, R. L.; Parrish, A.; Barrett, J.; Jaramillo, M. (1987). "High concentrations of chlorine monoxide at low altitudes in the Antarctic spring stratosphere: Secular variation". _Nature_. **328** (6129): 411–413. doi:10.1038/328411a0.
+                            101. **^** Reddy, Jeevananda (November 4, 2008). _Climate Change Myths and Realities_. p. 32. Retrieved  December 20, 2018.
+                            102. **^** "Ozone hole closing up, research shows". _ABC News_. Australian Broadcasting Commission. November 16, 2007.
+                            103. **^** "New report highlights two-way link between ozone layer and climate change". _UNEP News Center_. November 16, 2010.
+                            104. **^** "NOAA, NANA: Antarctic ozone hole second smallest in 20 years". October 24, 2012.
+                            105. **^** "Study Links Ozone Hole to Weather Shifts". The Earth Institute – Columbia University. April 22, 2011. Retrieved  December 21, 2012.
+                            106. **^** Schiermeier, Quirin (2005). "Solar wind hammers the ozone layer". _Nature_. doi:10.1038/news050228-12. Retrieved  May 28, 2016.
+                            107. **^** Dell'Amore, Christine (March 22, 2011). "First North Pole Ozone Hole Forming?". National Geographic. Retrieved April 6, 2011.
+                            108. ^ _**a**_ _**b**_ Helmholtz Association of German Research Centres (March 14, 2011). "Arctic on the verge of record ozone loss". Science Daily. Retrieved April 6, 2011.
+                            109. **^** "The Arctic Ozone Sieve: More Global Weirding?". Scienceblogs.com. March 25, 2011. Archived from the original on April 4, 2011. Retrieved  April 6, 2011.CS1 maint: Unfit url (link)
+                            110. ^ _**a**_ _**b**_ _**c**_ "Developing ozone hole approaches Europe". EurActiv. Archived from the original on April 4, 2011. Retrieved  April 6, 2011.
+                            111. ^ _**a**_ _**b**_ _**c**_ "Arctic ozone loss at record level". BBC News Online. October 2, 2011. Archived from the original on October 3, 2011. Retrieved  October 3, 2011.
+                            112. ^ _**a**_ _**b**_ "Unprecedented Arctic Ozone Loss in 2011, Says NASA-Led Study" (Press release). NASA. October 2, 2011. Retrieved  July 1, 2016.
+                            113. **^** "Earth news: Chinese Scientists Find New Ozone Hole Over Tibet". Elainemeinelsupkis.typepad.com. May 4, 2006. Retrieved  April 6, 2011.
+                            114. **^** Schiermeier, Quirin (February 22, 1999). "The Great Beyond: Arctic ozone hole causes concern". Blogs.nature.com. Retrieved April 6, 2011.
+                            115. **^** Oskin, Becky (July 26, 2012). "Storm Clouds May Punch Holes in Ozone". LiveScience. Retrieved March 13, 2015.
+                            116. **^** Fountain, Henry (July 27, 2012). "Storms Threaten Ozone Layer Over U.S., Study Says". _The New York Times_. p. A1. Retrieved March 13, 2015.
+                            117. ^ _**a**_ _**b**_ Hegerl, Gabriele C.; et al. "Understanding and Attributing Climate Change" (PDF). _Climate Change 2007: The Physical Science Basis. Contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change_. Intergovernmental Panel on Climate Change. p. 675. Retrieved  February 1, 2008.
+                            118. **^** "Ozone Depletion". UNEP/DEWA/Earthwatch. January 16, 2010. Archived from the original on January 16, 2010.
+                            119. **^** "The Relative Roles of Ozone and Other Greenhouse Gases in Climate Change in the Stratosphere". Geophysical Fluid Dynamics Laboratory. February 29, 2004. Archived from the original on January 20, 2009. Retrieved  March 13, 2015.CS1 maint: Unfit url (link)
+                            120. **^** Silverman, Amy (May 4, 1995). "Freon Easy". Phoenix News. Retrieved April 6, 2011.
+                            121. **^** FAQ, part I, section 1.3.
+                            122. **^** Fabian, P.; Borchers, R.; Krüger, B. C.; Lal, S. (1985). "The vertical distribution of CFC-114 (CClF2-CClF2) in the atmosphere". _Journal of Geophysical Research_. **90** (D7): 13091. Bibcode:1985JGR....9013091F. doi:10.1029/JD090iD07p13091.
+                            123. **^** ozone-depletion FAQ, Part II, section 4.3
+                            124. **^** Yokouchi, Y.; Noijiri, Y.; Barrie, L. A.; Toom-Sauntry, D.; Machida, T.; Inuzuka, Y.; Akimoto, H.; Li, H. -J.; Fujinuma, Y.; Aoki, S. (2000). "A strong source of methyl chloride to the atmosphere from tropical coastal land". _Nature_. **403** (6767): 295–298. Bibcode:2000Natur.403..295Y. doi:10.1038/35002049. PMID 10659845.
+                            125. ^ _**a**_ _**b**_ ozone-depletion FAQ, Part II, section 4.4
+                            126. **^** Zuev, V.V.; Zueva, N.E.; Savelieva, E.S.; Gerasimov, V.V. (2015). "The Antarctic ozone depletion caused by Erebus volcano gas emissions". _Atmospheric Environment_. **122** : 393–399. Bibcode:2015AtmEn.122..393Z. doi:10.1016/j.atmosenv.2015.10.005.
+                            127. **^** Dobson, G.M.B. (1968) _Exploring the Atmosphere_ , 2nd Edition, Oxford.
+                            128. **^** ozone-depletion FAQ, Part III, section 6. faqs.org
+                            129. **^** "ozone-depletion FAQ, Antarctic". Faqs.org. Retrieved  April 6, 2011.
+                            130. **^** "Ozone hole: Definition". Answers.com. Retrieved  April 6, 2011.
+                            131. **^** Andersen, Stephen O.; Sarma, K. Madhava (2002). _Protecting the Ozone Layer: The United Nations History_. Earthscan. p. 272. ISBN 9781849772266.
+                    
+
+## Further reading[edit]
+
+                    
+                                                * Andersen, S. O. and K. M. Sarma. (2002). _Protecting the Ozone Layer: The United Nations History_ , Earthscan Press. London.
+                            * Benedick, Richard Elliot; World Wildlife Fund (U.S.); Institute for the Study of Diplomacy. Georgetown University. (1998). _Ozone Diplomacy: New Directions in Safeguarding the Planet_ (2nd ed.). Harvard University Press. ISBN 978-0-674-65003-9. Retrieved May 28, 2016. (Ambassador Benedick was the Chief U.S. Negotiator at the meetings that resulted in the Montreal Protocol.)
+                            * Chasek, Pamela S., David L. Downie, and Janet Welsh Brown (2013). _Global Environmental Politics_ , 6th Edition, Boulder: Westview Press.
+                            * Gareau, Brian (2013). _From Precaution to Profit: Contemporary Challenges to Environmental Protection in the Montreal Protocol_. Yale University Press. ISBN 978-0-300-17526-4. Archived from the original on March 30, 2013.
+                            * Grundmann, Reiner (2001). _Transnational Environmental Policy: Reconstructing Ozone_. Psychology Press. ISBN 978-0-415-22423-9. Retrieved May 28, 2016.
+                            * Parson, Edward (2004). _Protecting the Ozone Layer: Science and Strategy_. Oxford: Oxford University Press.
+                    
+
+## External links[edit]
+
+                    
+                                                * Ozone layer at Curlie
+                            * NOAA/ESRL Ozone Depletion
+                            * NOAA Ozone Depleting Gas Index
+                            * The Ozone Hole
+                            * MACC stratospheric ozone service delivers maps, datasets and validation reports about the past and current state of the ozone layer.
+                            * Green Cooling Initiative on alternative natural refrigerants cooling technologies
+                            * "Ozone Hole: How We Saved the Planet" premiered April 10, 2019 PBS
+                    
+                            * v
+                            * t
+                            * e
+                    
+
+Human impact on the environment
+
+* * *
+
+General|
+
+                    
+                                                * Environmental issues
+                              * list of issues
+                            * Human impact
+                            * Impact assessment
+                            * Planetary boundaries
+                    
+
+|
+
+![Planetary
+
+boundaries](//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Planetary_boundaries.svg/140px-
+
+Planetary_boundaries.svg.png)
+
+Causes|
+
+                    
+                                                * Agriculture
+                              * fishing
+                              * irrigation
+                              * meat production
+                              * cocoa production
+                              * palm oil
+                            * Energy industry
+                              * biofuels
+                              * biodiesel
+                              * coal
+                              * electricity generation
+                              * nuclear power
+                              * oil shale
+                              * petroleum
+                              * reservoirs
+                              * wind power
+                            * Genetic pollution
+                            * Industrialisation
+                            * Land use
+                            * Manufacturing
+                              * cleaning agents
+                              * concrete
+                              * plastics
+                              * nanotechnology
+                              * paint
+                              * paper
+                              * pesticides
+                              * pharmaceuticals and personal care
+                            * Mining
+                            * Overdrafting
+                            * Overfishing
+                            * Overgrazing
+                            * Overexploitation
+                            * Overpopulation
+                            * Particulates
+                            * Pollution
+                            * Quarrying
+                            * Reservoirs
+                            * Tourism
+                            * Transport
+                              * aviation
+                              * roads
+                              * shipping
+                            * Urbanization
+                              * urban sprawl
+                            * War
+                    
+
+Effects|
+
+                    
+                                                * Biodiversity threats
+                              * biodiversity loss
+                              * decline in amphibian populations
+                              * decline in insect populations
+                            * Climate change
+                              * global warming
+                              * runaway climate change
+                            * Coral reefs
+                            * Deforestation
+                            * Defaunation
+                            * Desertification
+                            * Ecocide
+                            * Erosion
+                            * Environmental degradation
+                            * Freshwater cycle
+                            * Habitat destruction
+                            * Holocene extinction
+                            * Nitrogen cycle
+                            * Land degradation
+                            * Land consumption
+                            * Land surface effects on climate
+                            * Loss of green belts
+                            * Phosphorus cycle
+                            * Ocean acidification
+                            * Ozone depletion
+                            * Resource depletion
+                            * Water degradation
+                            * Water scarcity
+                    
+
+Mitigation|
+
+                    
+                                                * Birth control
+                            * Cleaner production
+                            * Climate change mitigation
+                            * Climate engineering
+                            * Community resilience
+                            * Decoupling
+                            * Ecological engineering
+                            * Environmental engineering
+                            * Environmental mitigation
+                            * Industrial ecology
+                            * Mitigation banking
+                            * Organic farming
+                            * Reforestation
+                              * urban
+                            * Restoration ecology
+                            * Sustainable consumption
+                            * Waste minimization
+                    
+                            * ![Commons page](//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png) **Commons**
+                            * ![Category](//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png) Category
+                            * by country
+                            * assessment
+                            * mitigation
+                    
+                            * v
+                            * t
+                            * e
+                    
+
+Global warming and climate change
+
+* * *
+
+|
+
+Temperatures
+
+* * *
+                    
+                                                * Brightness temperature
+                            * Effective temperature
+                            * Geologic record
+                            * Hiatus
+                            * Historical climatology
+                            * Instrumental record
+                            * Paleoclimatology
+                            * Paleotempestology
+                            * Proxy data
+                            * Record of the past 1,000 years
+                            * Satellite measurements
+                    
+
+|
+
+Causes
+
+* * *
+
+| Anthropogenic  
+(caused by human activity)|
+
+                    
+                                                * Attribution of recent climate change
+                            * Aviation
+                            * Biofuel
+                            * Black carbon
+                            * Carbon dioxide
+                            * Deforestation
+                            * Earth's energy budget
+                            * Ecocide
+                            * Fossil fuel
+                            * Global dimming
+                            * Global warming potential
+                            * Greenhouse effect
+                            * (Infrared window)
+                            * Greenhouse gases
+                            * Land use, land-use change, and forestry
+                            * Radiative forcing
+                            * Tropospheric ozone
+                    
+
+---|---  
+Natural|
+
+                    
+                                                * Albedo
+                            * Bond events
+                            * Climate oscillations
+                            * Climate sensitivity
+                            * Cloud forcing
+                            * Cosmic rays
+                            * Feedbacks
+                            * Glaciation
+                            * Global cooling
+                            * Milankovitch cycles
+                            * Ocean variability
+                              * AMO
+                              * ENSO
+                              * IOD
+                              * PDO
+                            * Orbital forcing
+                            * Solar variation
+                            * Volcanism
+                    
+
+Models|
+
+                    
+                                                * Global climate model
+                    
+
+|
+
+History
+
+* * *
+                    
+                                                * History of climate change science
+                            * Atmospheric thermodynamics
+                            * Svante Arrhenius
+                            * James Hansen
+                            * Charles David Keeling
+                    
+
+|
+
+Opinion and climate change
+
+* * *
+
+| General|
+
+                    
+                                                * Environmental ethics
+                            * Media coverage of climate change
+                            * Public opinion on climate change
+                            * (Popular culture)
+                            * Scientific opinion on climate change
+                            * Scientists who disagree with the mainstream assessment
+                            * Climate change denial
+                            * Global warming conspiracy theory
+                    
+
+---|---  
+By country & region|
+
+                    
+                                                * Africa
+                            * Arctic
+                            * Argentina
+                            * Australia
+                            * Bangladesh
+                            * Belgium
+                            * Canada
+                            * China
+                            * Europe
+                            * European Union
+                            * Finland
+                            * Grenada
+                            * India
+                            * Japan
+                            * Luxembourg
+                            * New Zealand
+                            * Norway
+                            * Russia
+                            * Scotland
+                            * South Korea
+                            * Sweden
+                            * Tuvalu
+                            * United Kingdom
+                            * United States
+                    
+
+|
+
+Politics
+
+* * *
+
+|
+
+                    
+                                                * Clean Power Plan
+                            * Climate change denial
+                            * (Manufactured controversy)
+                            * Intergovernmental Panel on Climate Change (IPCC)
+                            * March for Science
+                            * People's Climate March
+                            * United Nations Framework Convention on Climate Change (UNFCCC / FCCC)
+                            * Global climate regime
+                    
+
+* * *
+
+|
+
+Potential effects and issues
+
+* * *
+
+| General|
+
+                    
+                                                * Abrupt climate change
+                            * Anoxic event
+                            * Arctic dipole anomaly
+                            * Arctic haze
+                            * Arctic methane emissions
+                            * Central American dry corridor
+                            * Climate change and agriculture
+                            * Climate change and ecosystems
+                            * Climate change and gender
+                            * Climate change and poverty
+                            * Drought
+                            * Economics of global warming
+                            * Effects on plant biodiversity
+                            * Effects on health
+                            * Effects on humans
+                            * Effects on marine mammals
+                            * Environmental migrant
+                            * Extinction risk from global warming
+                            * Fisheries and climate change
+                            * Forest dieback
+                            * Industry and society
+                            * Iris hypothesis
+                            * Megadrought
+                            * Ocean acidification
+                            * Ozone depletion
+                            * Physical impacts
+                            * Polar stratospheric cloud
+                            * Regime shift
+                            * Retreat of glaciers since 1850
+                            * Runaway climate change
+                            * Sea level rise
+                            * Season creep
+                            * Shutdown of thermohaline circulation
+                            * Surf breaks and waves
+                    
+
+---|---  
+By country|
+
+                    
+                                                * Australia
+                            * South Asia
+                              * India
+                              * Nepal
+                            * United States
+                    
+
+|
+
+Mitigation
+
+* * *
+
+| Kyoto Protocol|
+
+                    
+                                                * Clean Development Mechanism
+                            * Joint Implementation
+                            * Bali Road Map
+                            * 2009 United Nations Climate Change Conference
+                    
+
+---|---  
+Governmental|
+
+                    
+                                                * European Climate Change Programme
+                            * G8 Climate Change Roundtable
+                            * United Kingdom Climate Change Programme
+                            * Paris Agreement
+                              * United States withdrawal
+                            * Regional climate change initiatives in the United States
+                            * List of climate change initiatives
+                    
+
+Emissions reduction|
+
+                    
+                                                * Carbon credit
+                            * Carbon-neutral fuel
+                            * Carbon offset
+                            * Carbon tax
+                            * Emissions trading
+                            * Fossil fuel phase-out
+                    
+
+Carbon-free energy|
+
+                    
+                                                * Efficient energy use
+                            * Renewable energy
+                            * Low-carbon economy
+                            * Nuclear power
+                            * Carbon capture and storage
+                    
+
+Personal|
+
+                    
+                                                * Individual action on climate change
+                            * Simple living
+                    
+
+Other|
+
+                    
+                                                * Carbon dioxide removal
+                            * Carbon sink
+                            * Climate action
+                            * Climate Action Plan
+                            * Climate change mitigation scenarios
+                            * Climate engineering
+                            * Individual and political action on climate change
+                            * Reducing emissions from deforestation and forest degradation
+                            * Reforestation
+                            * Urban reforestation
+                    
+
+|
+
+Proposed adaptations
+
+* * *
+
+| Strategies|
+
+                    
+                                                * Damming glacial lakes
+                            * Desalination
+                            * Drought tolerance
+                            * Irrigation investment
+                            * Rainwater storage
+                            * Sustainable development
+                            * Weather modification
+                    
+
+---|---  
+Programmes|
+
+                    
+                                                * Land allocation decision support system
+                    
+                            * ![List-Class article](//upload.wikimedia.org/wikipedia/en/thumb/d/db/Symbol_list_class.svg/16px-Symbol_list_class.svg.png) Glossary
+                            * ![List-Class article](//upload.wikimedia.org/wikipedia/en/thumb/d/db/Symbol_list_class.svg/16px-Symbol_list_class.svg.png) Index
+                            * ![Category](//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png) Climate change
+                            * ![Category](//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png) Global warming
+                            * ![Portal](//upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/16px-Portal-puzzle.svg.png) Portal
+                    
+                            * v
+                            * t
+                            * e
+                    
+
+Pollution
+
+* * *
+
+Air pollution|
+
+                    
+                                                * Acid rain
+                            * Air quality index
+                            * Atmospheric dispersion modeling
+                            * Chlorofluorocarbon
+                            * Indoor air quality
+                            * Global dimming
+                            * Global distillation
+                            * Global warming
+                            * Ozone depletion
+                            * Atmospheric particulate matter
+                            * Smog
+                    
+
+Water pollution|
+
+                    
+                                                * Environmental impact of pharmaceuticals and personal care products
+                            * Environmental impact of shipping
+                            * Environmental monitoring
+                            * Eutrophication
+                            * Freshwater environmental quality parameters
+                            * Groundwater pollution
+                            * Hypoxia
+                            * Marine debris
+                            * Marine pollution
+                            * Nutrient pollution
+                            * Ocean acidification
+                            * Oil spill
+                            * Septic tank
+                            * Surface runoff
+                            * Thermal pollution
+                            * Turbidity
+                            * Urban runoff
+                            * Wastewater
+                            * Water quality
+                            * Water stagnation
+                            * Waterborne diseases
+                    
+
+Soil contamination|
+
+                    
+                                                * Bioremediation
+                            * Electrical resistance heating
+                            * Herbicide
+                            * Open defecation
+                            * Pesticide
+                            * Phytoremediation
+                            * Soil Guideline Values (SGVs)
+                    
+
+Radioactive contamination|
+
+                    
+                                                * Actinides in the environment
+                            * Bioremediation of radioactive waste
+                            * Environmental radioactivity
+                            * Fission product
+                            * Nuclear fallout
+                            * Plutonium in the environment
+                            * Radiation poisoning
+                            * Radium in the environment
+                            * Uranium in the environment
+                    
+
+Other types of pollution|
+
+                    
+                                                * Land degradation
+                            * Light pollution
+                            * Pollution from nanomaterials
+                            * Noise pollution
+                            * Radio spectrum pollution
+                            * Urban heat island
+                            * Visual pollution
+                    
+
+Inter-government treaties|
+
+                    
+                                                * Basel Convention
+                            * CLRTAP
+                            * Kyoto Protocol
+                            * MARPOL Convention
+                            * Montreal Protocol
+                            * OSPAR
+                            * Rotterdam Convention
+                            * Stockholm Convention
+                    
+
+Major organizations|
+
+                    
+                                                * Basel Action Network
+                            * Central Pollution Control Board (India)
+                            * DEFRA
+                            * Environment Agency (England)
+                            * Scottish Environment Protection Agency
+                            * U.S. EPA
+                            * European Environment Agency
+                            * Greenpeace
+                    
+                            * v
+                            * t
+                            * e
+                    
+
+Natural resources
+
+* * *
+
+Air|
+
+| Pollution / quality|
+
+                    
+                                                * Ambient standards (USA)
+                            * Index
+                            * Indoor
+                              * developing nations
+                            * Law
+                              * Clean Air Act (USA)
+                            * Ozone depletion
+                    
+
+---|---  
+Emissions|
+
+                    
+                                                * Airshed
+                            * Trading
+                            * Deforestation (REDD)
+                    
+
+![Carson Falls on Mount Kinabalu,
+
+Borneo](//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Carson_Fall_Mt_Kinabalu.jpg/100px-
+
+Carson_Fall_Mt_Kinabalu.jpg)
+
+Energy|
+
+                    
+                                                * Law
+                            * Resources
+                            * Fossil fuels (peak oil)
+                            * Geothermal
+                            * Hydro
+                              * tidal
+                              * wave
+                            * Nuclear
+                            * Solar
+                              * sunlight
+                              * shade
+                            * Wind
+                    
+
+Land|
+
+                    
+                                                * Arable
+                              * peak farmland
+                            * Degradation
+                            * Law
+                              * property
+                            * Management
+                              * habitat conservation
+                            * Minerals
+                              * mining
+                                * law
+                                * sand
+                              * peak
+                              * rights
+                            * Soil
+                              * conservation
+                              * fertility
+                              * health
+                              * resilience
+                            * Use
+                              * planning
+                              * reserve
+                    
+
+Life|
+
+                    
+                                                * Biodiversity
+                            * Bioprospecting
+                            * Biosphere
+                            * Bushfood
+                            * Bushmeat
+                            * Fisheries
+                              * law
+                              * management
+                            * Food
+                            * Forests
+                              * genetic resources
+                              * law
+                              * management
+                            * Game
+                              * law
+                            * Gene bank
+                            * Herbalist plants
+                            * Marine conservation
+                            * Non-timber forest products
+                            * Rangeland
+                            * Seed bank
+                            * Wildlife
+                              * conservation
+                              * management
+                            * Wood
+                    
+
+Water|
+
+| Types / location|
+
+                    
+                                                * Aquifer
+                              * storage and recovery
+                            * Drinking
+                            * Fresh
+                            * Groundwater
+                              * pollution
+                              * recharge
+                              * remediation
+                            * Hydrosphere
+                            * Ice
+                              * bergs
+                              * glacial
+                              * polar
+                            * Irrigation
+                              * _huerta_
+                            * Rain
+                              * harvesting
+                            * Stormwater
+                            * Surface water
+                            * Wastewater
+                              * reclaimed
+                    
+
+---|---  
+Aspects|
+
+                    
+                                                * Desalination
+                            * Floods
+                            * Law
+                            * Leaching
+                            * Sanitation
+                            * Conflict
+                            * Conservation
+                            * Peak water
+                            * Pollution
+                            * Privatization
+                            * Quality
+                            * Right
+                            * Resources
+                              * management
+                              * policy
+                    
+
+Related|
+
+|
+
+                    
+                                                * Commons
+                              * enclosure
+                              * global
+                              * land
+                              * tragedy of
+                            * Economics
+                              * ecological
+                              * land
+                            * Ecosystem services
+                            * Exploitation
+                              * overexploitation
+                              * Earth Overshoot Day
+                            * Management
+                              * adaptive
+                            * Natural capital
+                              * accounting
+                            * Nature reserve
+                            * Systems ecology
+                            * Urban ecology
+                            * Wilderness
+                    
+
+* * *
+
+Resource|
+
+                    
+                                                * Common-pool
+                            * Conflict (perpetuation)
+                            * Curse
+                            * Depletion
+                            * Extraction
+                            * Nationalism
+                            * Renewable / Non-renewable
+                    
+                            * ![Portal](//upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/16px-Portal-puzzle.svg.png) Portal
+                            * ![Category](//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png) Category
+                    
+                            * v
+                            * t
+                            * e
+                    
+
+Global catastrophic risks
+
+* * *
+                    
+                                                * Future of the Earth
+                            * Ultimate fate of the universe
+                    
+
+Technological|
+
+                    
+                                                * Grey goo
+                            * Kinetic bombardment
+                            * Mutual assured destruction
+                              * Dead Hand
+                              * Doomsday device
+                            * Synthetic intelligence / Artificial intelligence
+                              * Existential risk from artificial intelligence
+                              * AI takeover
+                            * Technological singularity
+                            * Transhumanism
+                            * Year 2000 problem
+                    
+
+Sociological|
+
+                    
+                                                * Malthusian catastrophe
+                            * New World Order (conspiracy theory)
+                            * Nuclear holocaust
+                              * winter
+                              * famine
+                              * cobalt
+                            * Societal collapse
+                            * World War III
+                    
+
+Ecological|
+
+| Climate change|
+
+                    
+                                                * Extinction risk from global warming
+                              * Tipping points in the climate system
+                            * Global terrestrial stilling
+                            * Ice age
+                            * Ecocide
+                            * Human impact on the environment
+                            * Ozone depletion
+                            * Cascade effect
+                            * Supervolcano
+                              * winter
+                    
+
+---|---  
+Earth Overshoot Day|
+
+                    
+                                                * Overexploitation
+                            * Overpopulation
+                              * Human overpopulation
+                    
+
+Biological|
+
+| Extinction|
+
+                    
+                                                * Extinction event
+                            * Human extinction
+                            * Genetic erosion
+                            * Genetic pollution
+                    
+
+---|---  
+Others|
+
+                    
+                                                * Dysgenics
+                            * Pandemic
+                              * Biological agent
+                            * Transhumanism
+                    
+
+Astronomical|
+
+                    
+                                                * Big Crunch
+                            * Big Rip
+                            * Coronal mass ejection
+                            * Gamma-ray burst
+                            * Hypercane
+                            * Impact event
+                              * Asteroid impact avoidance
+                              * Potentially hazardous object
+                            * Rogue planet
+                            * Solar flare
+                    
+
+Mythological|
+
+| Eschatology|
+
+                    
+                                                * Buddhist
+                            * Hindu
+                            * Last Judgment
+                              * Christian
+                                * Book of Revelation
+                              * Islamic
+                              * Jewish
+                            * Norse
+                            * Zoroastrian
+                    
+
+---|---  
+Others|
+
+                    
+                                                * 2011 end times prediction
+                            * 2012 phenomenon
+                            * Apocalypse
+                            * Armageddon
+                            * Blood moon prophecy
+                            * Doomsday Clock
+                            * End time
+                            * List of dates predicted for apocalyptic events
+                            * Nibiru cataclysm
+                            * Rapture
+                            * Revelation 12 sign prophecy
+                            * Third Temple
+                    
+
+Fictional|
+
+                    
+                                                * Alien invasion
+                            * Apocalyptic and post-apocalyptic fiction
+                              * List of apocalyptic and post-apocalyptic fiction
+                              * List of apocalyptic films
+                            * Climate fiction
+                            * Disaster films
+                              * List of disaster films
+                            * List of fictional doomsday devices
+                            * Zombie apocalypse
+                    
+                            * ![Category](//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png) Categories 
+                              * Apocalypticism
+                              * Future problems
+                              * Hazards
+                              * Risk analysis
+                              * Doomsday scenarios
+                    
+
+Authority control ![Edit this at
+
+Wikidata](//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-
+
+Blue_pencil.svg.png)|
+
+                    
+                                                * BNE: XX538283
+                            * BNF: cb122513346 (data)
+                            * GND: 4220886-5
+                            * LCCN: sh88004697
+                            * NARA: 10643009
+                            * SUDOC: 031265057
+                    
+
+---|--- 
+
+![](//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1)
+
+Retrieved from
+"https://en.wikipedia.org/w/index.php?title=Ozone_depletion&oldid=899813297"
+
+Categories:
+
+                    
+                                                * Ozone depletion
+                    
+
+Hidden categories:
+
+                    
+                                                * CS1 maint: Unfit url
+                            * CS1 German-language sources (de)
+                            * CS1 maint: Archived copy as title
+                            * Articles with short description
+                            * Use mdy dates from May 2016
+                            * Use American English from May 2016
+                            * All Wikipedia articles written in American English
+                            * All pages needing factual verification
+                            * Wikipedia articles needing factual verification from April 2011
+                            * All articles lacking reliable references
+                            * Articles lacking reliable references from March 2018
+                            * Articles with Curlie links
+                            * Wikipedia articles with BNE identifiers
+                            * Wikipedia articles with BNF identifiers
+                            * Wikipedia articles with GND identifiers
+                            * Wikipedia articles with LCCN identifiers
+                            * Wikipedia articles with NARA identifiers
+                            * Wikipedia articles with SUDOC identifiers
+                    
+
+## Navigation menu
+
+### Personal tools
+
+                    
+                                                * Not logged in
+                            * Talk
+                            * Contributions
+                            * Create account
+                            * Log in
+                    
+
+### Namespaces
+
+                    
+                                                * Article
+                            * Talk
+                    
+
+### Variants
+
+### Views
+
+                    
+                                                * Read
+                            * Edit
+                            * View history
+                    
+
+### More
+
+### Search
+
+### Navigation
+
+                    
+                                                * Main page
+                            * Contents
+                            * Featured content
+                            * Current events
+                            * Random article
+                            * Donate to Wikipedia
+                            * Wikipedia store
+                    
+
+### Interaction
+
+                    
+                                                * Help
+                            * About Wikipedia
+                            * Community portal
+                            * Recent changes
+                            * Contact page
+                    
+
+### Tools
+
+                    
+                                                * What links here
+                            * Related changes
+                            * Upload file
+                            * Special pages
+                            * Permanent link
+                            * Page information
+                            * Wikidata item
+                            * Cite this page
+                    
+
+### In other projects
+
+                    
+                                                * Wikimedia Commons
+                    
+
+### Print/export
+
+                    
+                                                * Create a book
+                            * Download as PDF
+                            * Printable version
+                    
+
+### Languages
+
+                    
+                                                * العربية
+                            * Azərbaycanca
+                            * বাংলা
+                            * भोजपुरी
+                            * Български
+                            * Bosanski
+                            * Català
+                            * Čeština
+                            * Deutsch
+                            * Eesti
+                            * Ελληνικά
+                            * Español
+                            * فارسی
+                            * Français
+                            * Gaeilge
+                            * ગુજરાતી
+                            * 한국어
+                            * Հայերեն
+                            * हिन्दी
+                            * Hrvatski
+                            * Bahasa Indonesia
+                            * Italiano
+                            * עברית
+                            * ಕನ್ನಡ
+                            * ქართული
+                            * Қазақша
+                            * Kreyòl ayisyen
+                            * Кыргызча
+                            * Magyar
+                            * Македонски
+                            * Bahasa Melayu
+                            * Монгол
+                            * Nederlands
+                            * 日本語
+                            * Polski
+                            * Português
+                            * Русский
+                            * සිංහල
+                            * Simple English
+                            * Slovenčina
+                            * Slovenščina
+                            * Српски / srpski
+                            * Srpskohrvatski / српскохрватски
+                            * Suomi
+                            * Svenska
+                            * Tagalog
+                            * தமிழ்
+                            * తెలుగు
+                            * ไทย
+                            * Türkçe
+                            * Українська
+                            * Tiếng Việt
+                            * 中文
+                    
+
+Edit links
+
+                    
+                                                * This page was last edited on 1 June 2019, at 15:19 (UTC).
+                            * Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+                            * Privacy policy
+                            * About Wikipedia
+                            * Disclaimers
+                            * Contact Wikipedia
+                            * Developers
+                            * Cookie statement
+                            * Mobile view
+                            * ![Wikimedia Foundation](/static/images/wikimedia-button.png)
+                            * ![Powered by MediaWiki](/static/images/poweredby_mediawiki_88x31.png)
+                    
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication _[C.]: Century_ [m.]: married _[FT]:
+Financial Times_ [ _]: required_ [MB]: megabytes _[UV]: Ultraviolet_ [ UV]:
+Ultraviolet
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+  *[m.]: married
+  *[FT]: Financial Times
+  *[*]: required
+  *[MB]: megabytes
+  *[UV]: Ultraviolet
+  *[ UV]: Ultraviolet
+

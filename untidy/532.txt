@@ -1,0 +1,244 @@
+
+
+Go to Main Content (Accesskey 2)  
+Go to Site Menu (Accesskey 3)
+
+![NASA Logo, National Aeronautics and Space
+
+Administration](https://www.giss.nasa.gov/gfx/2013/nasa.png)
+
+# National Aeronautics and Space Administration
+
+## Goddard Institute for Space Studies
+
+## Goddard Space Flight Center
+
+Sciences and Exploration Directorate  
+Earth Sciences Division
+
+## Science Briefs
+
+### Do Variations in the Solar Cycle Affect Our Climate System?
+
+By David Rind -- January 2009
+
+There have been many arguments as to whether or not the eleven-year sunspot
+cycle affects our weather and climate. With our increased ability to monitor
+the sun, we are now aware that there is a small change in the total solar
+irradiance accompanying shifts from solar maximum conditions (with many
+sunspots) to solar minimum (with, basically, none). There is also a more
+substantial change in the ultraviolet (UV) portion of the solar spectrum, with
+direct impacts primarily in the stratosphere (above ~10km).
+
+![Line plot of total solar irradiance over the past three solar
+
+cycles](fig1_s.jpg)
+
+**Figure 1.** Total solar irradiance over the past three solar cycles, since
+1975, varying between 1365 and 1367 W/m 2. (Click for large JPEG or PDF.)
+
+The effect of these changes on our temperature record has been noted by some
+researchers, and, like the change in solar irradiance, it too appears to be
+small. But there is little agreement on just how that change arises.
+Furthermore, there are claims that the sunspot cycle is associated with
+changes in storm tracks and rainfall. How could this happen with so little
+change in total energy?
+
+To understand the processes involved, we recently completed an extensive
+series of climate model experiments, involving 1600 simulated years with
+varying UV and total solar irradiance (TSI). Our experiments show that the
+solar cycle influences tropospheric rainfall patterns in a manner consistent
+with some observations, with increased solar activity favoring precipitation
+north of the equator (for example, the South Asian monsoon) and decreased
+precipitation both near the equator and at northern mid-latitudes. The word
+"favoring" is used advisedly; in the experiments it is a "weighting of the
+dice", an increase in the likelihood of these effects while accounting for
+less than one standard deviation of the variability (a result found in
+observations as well). Locally it can account for 15-20% of rainfall totals.
+The influence also seems to have been modified by global warming, and so its
+effectiveness may change with time. The impact of the solar cycle on
+precipitation in the model experiments arises from two different mechanisms,
+the first involving UV changes, the second total solar irradiance.
+
+The increase of incident solar UV during solar maximum conditions leads to
+increased generation of stratospheric ozone in the mid-to-upper stratosphere,
+which ultimately results in greater ozone in the tropical lower stratosphere.
+This helps warm that region via both short- and long-wave absorption. In
+response to this more stable vertical profile for tropical tropospheric
+processes, tropical convection preferentially shifts off the equator, favoring
+monsoonal effects during Northern Hemisphere summer and on the annual average.
+
+![Line plot of total solar output over the past three solar
+
+cycles](fig2_s.gif)
+
+**Figure 2, at right.** Results show the percentage of the 1600 years of
+experiments during which solar maximum conditions produced increased (green)
+or decreased (brown) precipitation at different latitudes on the annual
+average. The top panel shows the experiments which used climatological
+(unchanging) SSTs; here the influence comes primarily from the solar UV
+variations affecting the stratosphere. The bottom panel is for the experiments
+with historically-varying SSTs, in which TSI changes have influenced the
+surface. Precipitation decreases occur greater than 50% of the time south of
+the equator in both figures, but decreases in mid-latitudes result primarily
+from the UV changes (top figure). Recent variations in SSTs due to other
+sources (such as greenhouse gases) appear to have minimized the mid-latitude
+response. (Click for large GIF or PDF.)
+
+In addition, the solar-plus-ozone change leads to increased tropical
+stratospheric warming in the mid-to-upper stratosphere during solar maximum
+conditions. Higher latitudes during Southern Hemisphere winter receive no such
+augmentation, and the increased latitudinal temperature gradient results in
+stronger stratospheric west winds. Via the interaction of these wind changes
+and planetary waves propagating up from the troposphere, the circulation in
+the stratosphere weakens, a response characterized by greater relative
+upwelling in the Southern Hemisphere extratropics, and more downwelling in the
+northern extratropics. This downwelling has a tendency to extend into the
+troposphere, limiting convection and rainfall during Northern Hemisphere
+summer at these latitudes, producing drier conditions. This effect is seen in
+some paleoclimate records and has been attributed to solar influence.
+
+Total solar irradiance changes, though of small magnitude, do appear to affect
+sea surface temperatures (SSTs), most obviously at latitudes where cloud cover
+is small and irradiance is abundant, such as the Northern Hemisphere
+subtropics during summer. The increased SSTs then help intensify circulations
+spiraling away from the subtropics, again favoring reduced rainfall near the
+equator and to the south, as well as northern mid-latitudes. Hence, both the
+UV and TSI forcings produce similar effects, with the latter helping to
+sharpen the response.
+
+SSTs however have been influenced by other forcings, such as greenhouse gases,
+over the last few decades, and these transient changes will obviously affect
+the solar cycle influence. Similarly, increased carbon dioxide in the
+stratosphere has led to gradual cooling conditions, which affects the UV
+influence on the stratospheric circulation. So while the solar influence may
+have produced a broadly similar hydrologic response for many centuries, it now
+competes with potentially stronger perturbations. Its effect may well decrease
+with time.
+
+#### Reference
+
+Rind, D., J. L. Lean, J. Lerner, P. Lonergan, and A. Leboissetier, 2008:
+Exploring the stratospheric/tropospheric response to solar forcing. J.
+Geophys. Res., **113** , D24103, doi:10.1029/2008JD010114.
+
+Note: PDF documents require the free Adobe Reader or compatible viewing
+software to be viewed.
+
+#### Contact
+
+Please address all inquiries about this research to Dr. David Rind.
+
+### Site Menu
+
+                    
+                                                * GISS Home
+                            * News & Features
+                              * Recent News & Features
+                              * 2018 News & Features
+                              * 2017 News & Features
+                              * 2016 News & Features
+                              * 2015 News & Features
+                              * NASA Releases
+                              * Science Briefs
+                              * Other Features
+                              * News/Feature Video
+                            * Projects & Groups
+                              * Projects Overview
+                              * Global Climate Modeling
+                              * Astrobiology / NExSS
+                              * Climate Impacts
+                              * ISCCP
+                              * SWING2
+                            * Datasets
+                              * Datasets Overview
+                              * Surface Temperature
+                              * Model E Simulations
+                              * Model Forcings
+                              * ROCKE-3D Simulations
+                              * ISCCP Data Products
+                              * GACP Data Products
+                            * Publications
+                              * Publications Overview
+                              * Early On-Line
+                              * Accepted & In Press
+                              * 2019 Publications
+                              * 2018 Publications
+                              * 2017 Publications
+                              * 2016 Publications
+                              * 2015 Publications
+                              * Authors
+                              * Annual Best
+                              * Most Cited
+                              * Dissertations
+                              * Help
+                            * Software
+                              * Software Overview
+                              * GCM Model E
+                              * GCM Model II
+                              * Panoply Data Viewer
+                              * G.Projector
+                              * Mars24 Sunclock
+                            * Education
+                              * Education Overview
+                              * Graduate Study
+                              * Postdoc Research
+                              * CCRI
+                              * Internships
+                              * Ask a Scientist
+                            * Events
+                              * Events Overview
+                              * Past Events
+                            * About GISS
+                              * About GISS
+                              * Management Staff
+                              * Personnel Directory
+                              * Visitors' Info
+                              * Employment
+                    
+
+![NASA Logo, National Aeronautics and Space
+
+Administration](https://www.giss.nasa.gov/gfx/2013/nasa.png)
+
+![Goddard Space Flight Center](https://www.giss.nasa.gov/gfx/2013/gsig.png)
+
+                    
+                                                * NASA Official:  Gavin A. Schmidt
+                            * Website Curator:  Robert B. Schmunk
+                            * Page updated: 2018-04-10 16:53
+                    
+                            * NASA Privacy Policy & Important Notices
+                            * Contact Us
+                    
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication _[C.]: Century_ [m.]: married _[FT]:
+Financial Times_ [ _]: required_ [MB]: megabytes _[UV]: Ultraviolet_ [ UV]:
+Ultraviolet
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+  *[m.]: married
+  *[FT]: Financial Times
+  *[*]: required
+  *[MB]: megabytes
+  *[UV]: Ultraviolet
+  *[ UV]: Ultraviolet
+

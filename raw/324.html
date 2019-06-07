@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+  <title>Induced Abortion in the United States | Guttmacher Institute</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="MobileOptimized" content="width" />
+<meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
+<meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="https://www.guttmacher.org/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta http-equiv="cleartype" content="on" />
+<noscript><link href="https://www.guttmacher.org/sites/all/themes/gutt/build/img/svg/icons.fallback.css" rel="stylesheet"></noscript><meta name="description" content="Nearly half (45%) of all pregnancies among U.S. women in 2011 were unintended, and about four in 10 of these were terminated by abortion.1 Nineteen percent of pregnancies (excluding miscarriages) in 2014 ended in abortion.2" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.guttmacher.org/fact-sheet/induced-abortion-united-states" />
+<link rel="shortlink" href="https://www.guttmacher.org/node/27177" />
+<meta property="og:site_name" content="Guttmacher Institute" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.guttmacher.org/fact-sheet/induced-abortion-united-states" />
+<meta property="og:title" content="Induced Abortion in the United States" />
+<meta property="og:description" content="Nearly half (45%) of all pregnancies among U.S. women in 2011 were unintended, and about four in 10 of these were terminated by abortion.1 Nineteen percent of pregnancies (excluding miscarriages) in 2014 ended in abortion.2" />
+<meta property="og:updated_time" content="2019-02-14T17:11:02-05:00" />
+<meta property="og:image" content="https://www.guttmacher.org/sites/default/files/styles/open_graph_large/public/images/inducedabortionfspreviewimage.jpg?itok=Ki5M8c9K" />
+<meta property="article:published_time" content="2016-05-03T14:08:50-04:00" />
+<meta property="article:modified_time" content="2019-02-14T17:11:02-05:00" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.guttmacher.org/sites/default/files/favicon.ico" />
+  <link type="text/css" rel="stylesheet" href="https://www.guttmacher.org/sites/default/files/css/css_tGTNtRAsNJmcVz4r7F6YCijbrQGDbBmziHSrRd1Stqc.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.guttmacher.org/sites/default/files/css/css_xiJvG1op6daa3hbu-vXf0LiUFN__NIQ4QttbOdkhTS4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.guttmacher.org/sites/default/files/css/css_3l8pbGsoelIYJztmyJXZFaRdyCu8Sk59LXyxPcJZ5R4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//cloud.typography.com/7141574/630228/css/fonts.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.guttmacher.org/sites/default/files/css/css_qhAuchI6vYaiFSwYMjtZlKyhnNwStPijwZHWy7SYNBA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.guttmacher.org/sites/default/files/css/css_KM0Fj2ZzJJCDr3F4cFVBXnFPVg97NC-ZYMFXk93UMjs.css" media="print" />
+<link type="text/css" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" media="all" />
+  <script type="text/javascript" src="https://www.guttmacher.org/sites/default/files/js/js_a8MyAHRjajLu6SNTDzhm_ZUhUeIq_Ao6d-T9QrOU9BI.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.migrateMute=true;jQuery.migrateTrace=false;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.guttmacher.org/sites/default/files/js/js_QKUnvH8Zg3P0QCYxdcsesrVy09YdkDemCkhl478axn4.js"></script>
+<script type="text/javascript" src="https://www.guttmacher.org/sites/default/files/js/js_9k9l6haqJ3dZ6codRtL8eMyNhiLgYLyVEkAGirRC8ZQ.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+document.createElement( "picture" );
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.guttmacher.org/sites/default/files/js/js_QnlXiLN29ZqiFlwaGa834ekHuOevvff8Hk8nDqm2Ook.js"></script>
+<script type="text/javascript" src="https://www.guttmacher.org/sites/default/files/js/js_sKVKVwwixSehh-N_tYzXxB8p1JE5dL8hoNQk2cyIVdI.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.CKEDITOR_BASEPATH = '/profiles/aten_dev_base/libraries/ckeditor/'
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.guttmacher.org/sites/default/files/js/js_lrXthlMMaFPyOmLx8bePcwNLYMBqJ2dBd04X72H5i_U.js"></script>
+<script type="text/javascript" src="https://www.guttmacher.org/sites/default/files/js/js_aJaYfTa99OrdP9sGlobAdF11fru0N73K99hAHg8dDrs.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"gutt","theme_token":"IGh0MzcSTFSpGoRs6VnTdprnkpzWTnWCLN4f01DLNcc","js":{"sites\/all\/modules\/patched\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/patched\/picture\/picture.min.js":1,"sites\/all\/themes\/gutt\/build\/img\/svg\/grunticon.loader.js":1,"0":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"1":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery-migrate\/1\/jquery-migrate.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.button.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.mouse.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.draggable.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.position.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.resizable.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.dialog.min.js":1,"2":1,"sites\/all\/modules\/patched\/apachesolr_sort\/apachesolr_sort.js":1,"sites\/all\/modules\/contrib\/tweetable_text\/tweetable-text.js":1,"sites\/all\/libraries\/remodal\/dist\/remodal.js":1,"3":1,"sites\/all\/modules\/contrib\/minimal_share\/js\/minimal-share.js":1,"sites\/all\/modules\/custom\/gutt_global_elements\/js\/gutt_global_elements.social_tracking.js":1,"sites\/all\/modules\/custom\/gutt_global_elements\/js\/gutt_global_elements.state_selector.js":1,"sites\/all\/modules\/custom\/gutt_report\/js\/references.js":1,"sites\/all\/modules\/custom\/gutt_global_elements\/js\/gutt_global_elements.chosen.js":1,"sites\/all\/libraries\/chosen\/chosen.jquery.js":1,"sites\/all\/libraries\/amcharts\/amcharts.js":1,"sites\/all\/libraries\/amcharts\/serial.js":1,"sites\/all\/libraries\/amcharts\/pie.js":1,"sites\/all\/libraries\/amcharts\/exporting\/amexport.js":1,"sites\/all\/libraries\/amcharts\/exporting\/rgbcolor.js":1,"sites\/all\/libraries\/amcharts\/exporting\/canvg.js":1,"sites\/all\/libraries\/amcharts\/exporting\/filesaver.js":1,"sites\/all\/themes\/gutt\/build\/js\/main.js":1,"sites\/all\/themes\/gutt\/build\/js\/sw-n.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"sites\/all\/modules\/patched\/footnotes\/footnotes.css":1,"profiles\/aten_dev_base\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/aten_dev_base\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"profiles\/aten_dev_base\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/patched\/picture\/picture_wysiwyg.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/contrib\/tweetable_text\/tweetable-text.css":1,"modules\/user\/user.css":1,"profiles\/aten_dev_base\/modules\/contrib\/views\/css\/views.css":1,"profiles\/aten_dev_base\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/remodal\/dist\/remodal.css":1,"sites\/all\/libraries\/remodal\/dist\/remodal-default-theme.css":1,"profiles\/aten_dev_base\/modules\/patched\/node_embed\/plugins\/node_embed\/node_embed.css":1,"sites\/all\/modules\/contrib\/minimal_share\/css\/minimal-share.css":1,"sites\/all\/libraries\/chosen\/chosen.css":1,"sites\/all\/libraries\/amcharts\/css\/state-center.css":1,"\/\/cloud.typography.com\/7141574\/630228\/css\/fonts.css":1,"profiles\/aten_dev_base\/themes\/center\/css\/override\/kill\/ctools.css":1,"profiles\/aten_dev_base\/themes\/center\/css\/override\/kill\/field.css":1,"profiles\/aten_dev_base\/themes\/center\/css\/override\/kill\/node.css":1,"profiles\/aten_dev_base\/themes\/center\/css\/override\/kill\/system.messages.css":1,"profiles\/aten_dev_base\/themes\/center\/css\/override\/kill\/system.menus.css":1,"profiles\/aten_dev_base\/themes\/center\/css\/override\/kill\/user.css":1,"profiles\/aten_dev_base\/themes\/center\/css\/override\/kill\/views.css":1,"profiles\/aten_dev_base\/themes\/center\/css\/override\/kill\/field_collection.theme.css":1,"profiles\/aten_dev_base\/themes\/center\/css\/override\/keep\/system.base.css":1,"profiles\/aten_dev_base\/themes\/center\/css\/override\/keep\/system.theme.css":1,"profiles\/aten_dev_base\/themes\/center\/css\/override\/keep\/search.css":1,"profiles\/aten_dev_base\/themes\/center\/css\/override\/keep\/vertical-tabs.css":1,"sites\/all\/themes\/gutt\/build\/css\/screen.css":1,"sites\/all\/themes\/gutt\/build\/css\/jplayer.css":1,"sites\/all\/themes\/gutt\/build\/css\/print.css":1,"https:\/\/use.fontawesome.com\/releases\/v5.5.0\/css\/all.css":1}},"better_exposed_filters":{"views":{"related_content_by_similar_terms":{"displays":{"block":{"filters":{"status_1":{"required":true}}}}},"now":{"displays":{"block":{"filters":[]}}}}},"urlIsAjaxTrusted":{"\/fact-sheet\/induced-abortion-united-states":true,"\/article\/2019\/06\/medicare-america-act-hr-2452-116th-congress-potential-impact-sexual-and-reproductive?q=node\/add":true},"gutt_state_policy_date":"2019-05-15 00:00:00","gutt":{"gutt_default_tab":"us"}});
+//--><!]]>
+</script>
+    <script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0063/0484.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script></head>
+
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-27177 node-type-fact-sheet" >
+  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-59CQSP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-59CQSP');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <div id="page" class="page full-header">
+            <header id="header--sticky" class="header" aria-role="banner">
+  <div id="header-control-panel" class="header-control-panel clearfix">
+
+    <div class="header-branding">
+      <h1 class="header-title"><a href="/"><b>Guttmacher</b> Institute</a></h1>
+    </div>
+
+    <button class="header-toggle toggle" aria-expanded="false" aria-controls="header-drawer">Menu</button>
+          <button class="header-donate-button toggle" aria-controls="donate-nav-sticky">Donate</button>
+      <nav id="donate-nav-sticky" aria-expanded="false" class="donate-nav-container">
+        <div id="block-menu-block-gutt-global-elements-donate" class="block block-menu-block donate-nav">
+
+      
+  <div  class="block-content block-content">
+    <div class="menu-block-wrapper menu-block-gutt_global_elements-donate menu-name-donate-menu parent-mlid-0 menu-level-1">
+  <ul class="nav"><li class="first leaf menu-mlid-46215 nav-item"><a href="https://give.guttmacher.org/checkout/donation?eid=109478" title="" class="nav-link">Make a gift today</a></li>
+<li class="leaf menu-mlid-46216 nav-item"><a href="https://give.guttmacher.org/checkout/donation?eid=110766" title="" class="nav-link">Make a monthly gift</a></li>
+<li class="leaf menu-mlid-49703 nav-item"><a href="https://give.guttmacher.org/campaign/the-guttmacher-guardians/c168864" title="" class="nav-link">Become a Guttmacher Guardian</a></li>
+<li class="last leaf menu-mlid-46218 nav-item"><a href="/donate/other" title="" class="nav-link">Other ways to give</a></li>
+</ul></div>
+  </div>
+</div>
+      </nav>
+              <div class="header-social">
+          <h2 class="block-title element-invisible">Connect With Us</h2>
+<div class="item-list"><ul class="nav nav--social"><li class="nav-item first"><a href="https://www.facebook.com/guttmacher" class="nav-link nav-link--social nav-link--facebook" title="Facebook">Facebook</a></li>
+<li class="nav-item last"><a href="https://twitter.com/Guttmacher" class="nav-link nav-link--social nav-link--twitter" title="Twitter">Twitter</a></li>
+</ul></div>      </div>
+             <div class="header-search-form">
+        <form class="search-form" action="/fact-sheet/induced-abortion-united-states" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <input title="Enter the terms you wish to search for." class="form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<input class="icon_search search-button form-submit" type="submit" id="edit-submit" name="op" value="Search" /><input type="hidden" name="form_build_id" value="form--pUQ-7tXdWYL1le3D9sSFqJ77MzB-PeZO6s-PS6gpp0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>     </div>
+      </div>
+  <div id="header-drawer" class="header-drawer">
+    <div class="header-utilities clearfix">
+                    <form class="search-form" action="/fact-sheet/induced-abortion-united-states" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <input title="Enter the terms you wish to search for." class="form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<input class="icon_search search-button form-submit" type="submit" id="edit-submit" name="op" value="Search" /><input type="hidden" name="form_build_id" value="form--pUQ-7tXdWYL1le3D9sSFqJ77MzB-PeZO6s-PS6gpp0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                        <div class="header-drawer-social">
+              <h2 class="block-title element-invisible">Connect With Us</h2>
+<div class="item-list"><ul class="nav nav--social"><li class="nav-item first"><a href="https://www.facebook.com/guttmacher" class="nav-link nav-link--social nav-link--facebook" title="Facebook">Facebook</a></li>
+<li class="nav-item last"><a href="https://twitter.com/Guttmacher" class="nav-link nav-link--social nav-link--twitter" title="Twitter">Twitter</a></li>
+</ul></div>        </div>
+            </div>
+    <div class="header-regions">
+      <div class="header-region-tabs clearfix">
+                  <button class="header-region-tab header-region-tab--us" role="tab" aria-selected="true" aria-controls="header-region--us--sticky">United States</button>
+                          <button class="header-region-tab header-region-tab--world" role="tab" aria-selected="false" aria-controls="header-region--world--sticky">International</button>
+              </div>
+      <div class="header-regions-panels clearfix">
+                  <nav id="header-region--us--sticky" class="header-region-panel" role="tabpanel" aria-hidden="false" data-region="us">
+              <h2 class="block-title element-invisible">United States Menu</h2>
+<div class="menu-block-wrapper menu-block-gutt_global_elements-us menu-name-united-states-menu parent-mlid-0 menu-level-1">
+  <ul class="nav nav--region"><li class="first leaf menu-mlid-19939 nav-item"><a href="/united-states/abortion" class="nav-link">Abortion</a></li>
+<li class="leaf menu-mlid-19940 nav-item"><a href="/united-states/contraception" class="nav-link">Contraception</a></li>
+<li class="leaf menu-mlid-19941 nav-item"><a href="/united-states/hiv-stis" class="nav-link">HIV &amp; STIs</a></li>
+<li class="leaf menu-mlid-19943 nav-item"><a href="/united-states/pregnancy" class="nav-link">Pregnancy</a></li>
+<li class="last leaf menu-mlid-19942 nav-item"><a href="/united-states/teens" class="nav-link">Teens</a></li>
+</ul></div>
+          </nav>
+                          <nav id="header-region--world--sticky" role="tabpanel" class="header-region-panel" aria-hidden="true" data-region="world">
+              <h2 class="block-title element-invisible">International Menu</h2>
+<div class="menu-block-wrapper menu-block-gutt_global_elements-int menu-name-international-menu parent-mlid-0 menu-level-1">
+  <ul class="nav nav--region"><li class="first leaf menu-mlid-19944 nav-item"><a href="/international/abortion" class="nav-link">Abortion</a></li>
+<li class="leaf menu-mlid-19945 nav-item"><a href="/international/contraception" class="nav-link">Contraception</a></li>
+<li class="leaf menu-mlid-19946 nav-item"><a href="/international/hiv/stis" class="nav-link">HIV &amp; STIs</a></li>
+<li class="leaf menu-mlid-19948 nav-item"><a href="/international/pregnancy" class="nav-link">Pregnancy</a></li>
+<li class="last leaf menu-mlid-19947 nav-item"><a href="/international/teens" class="nav-link">Teens</a></li>
+</ul></div>
+          </nav>
+        
+                    <div id="block-boxes-front-pitch" class="block block-boxes block-boxes-simple pitch">
+
+          <h2 class="block-title pitch-title">Good reproductive health policy starts with credible research</h2>
+  
+  <div  class="block-content block-content pitch-content">
+    <p><span> </span></p>
+
+
+  </div>
+</div>
+              </div>
+    </div>
+    <nav class="header-menu">
+                      <h2 class="block-title element-invisible">About Menu</h2>
+<div class="menu-block-wrapper menu-block-gutt_global_elements-utility menu-name-utility-menu parent-mlid-0 menu-level-1">
+  <ul class="header-nav"><li class="first last expanded menu-mlid-48017 nav-item"><a href="/about" class="nav-link">About</a><ul class="header-nav"><li class="first leaf menu-mlid-48018 nav-item"><a href="/about/staff" class="nav-link">Staff</a></li>
+<li class="leaf menu-mlid-48241 nav-item"><a href="/about/partnerships-collaborations" title="" class="nav-link">Partnerships &amp; Collaborations</a></li>
+<li class="leaf menu-mlid-48048 nav-item"><a href="/about/board" class="nav-link">Board</a></li>
+<li class="leaf menu-mlid-48049 nav-item"><a href="/about/job-opportunities" class="nav-link">Job Opportunities</a></li>
+<li class="leaf menu-mlid-48022 nav-item"><a href="/about/financials" class="nav-link">Financials</a></li>
+<li class="expanded menu-mlid-48023 nav-item"><a href="/about/history" class="nav-link">History</a><ul class="header-nav"><li class="first last leaf menu-mlid-49701 nav-item"><a href="/about/guttmacher-50th-anniversary" class="nav-link">Guttmacher 50th Anniversary</a></li>
+</ul></li>
+<li class="leaf menu-mlid-48019 nav-item"><a href="/about/contact" class="nav-link">Contact</a></li>
+<li class="last leaf menu-mlid-49648 nav-item"><a href="/cory-l-richards-memorial-scholarship" class="nav-link">Cory L. Richards Scholarship</a></li>
+</ul></li>
+</ul></div>
+        
+                    <div id="block-menu-block-gutt-global-elements-our-work" class="block block-menu-block">
+
+          <h2 class="block-title">Our Work by</h2>
+  
+  <div  class="block-content block-content">
+    <div class="menu-block-wrapper menu-block-gutt_global_elements-our-work menu-name-menu-our-work parent-mlid-0 menu-level-1">
+  <ul class="header-nav"><li class="first expanded menu-mlid-49543 nav-item"><a href="/geography" title="" class="nav-link">Geography</a><ul class="header-nav"><li class="first leaf menu-mlid-49574 nav-item"><a href="/geography/global" title="" class="nav-link">Global</a></li>
+<li class="leaf menu-mlid-49544 nav-item"><a href="/geography/asia" title="" class="nav-link">Asia</a></li>
+<li class="leaf menu-mlid-49545 nav-item"><a href="/geography/latin-america-caribbean" title="" class="nav-link">Latin America &amp; the Caribbean</a></li>
+<li class="leaf menu-mlid-49546 nav-item"><a href="/geography/sub-saharan-africa" title="" class="nav-link">Sub-Saharan Africa</a></li>
+<li class="last leaf menu-mlid-49547 nav-item"><a href="/geography/united-states" title="" class="nav-link">United States</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-49548 nav-item"><a href="/type" title="" class="nav-link">Type</a><ul class="header-nav"><li class="first leaf menu-mlid-49604 nav-item"><a href="/recent-research" title="" class="nav-link">Recent Research</a></li>
+<li class="expanded menu-mlid-49709 nav-item"><span title="Policy Resources" class="nav-link nolink">Policy Resources</span><ul class="header-nav"><li class="first leaf menu-mlid-49585 nav-item"><a href="/state-policy-resources" title="State Policy Resources" class="nav-link">State Policy</a></li>
+<li class="last leaf menu-mlid-49710 nav-item"><a href="/us-policy-resources" title="U.S. Policy Resources" class="nav-link">U.S. Policy</a></li>
+</ul></li>
+<li class="leaf menu-mlid-49549 nav-item"><a href="/news-releases" title="" class="nav-link">News Releases</a></li>
+<li class="leaf menu-mlid-49550 nav-item"><a href="https://data.guttmacher.org/" title="" class="nav-link">Data Center</a></li>
+<li class="leaf menu-mlid-49551 nav-item"><a href="/gpr/current" title="" class="nav-link">Guttmacher Policy Review</a></li>
+<li class="expanded menu-mlid-49552 nav-item"><a href="/journals" title="" class="nav-link">Peer-Reviewed Journals</a><ul class="header-nav"><li class="first leaf has-children menu-mlid-49555 nav-item"><a href="/journals/ipsrh/current" title="" class="nav-link">International Perspectives on Sexual and Reproductive Health</a></li>
+<li class="last leaf has-children menu-mlid-49556 nav-item"><a href="/journals/psrh/current" title="" class="nav-link">Perspectives on Sexual and Reproductive Health</a></li>
+</ul></li>
+<li class="leaf menu-mlid-49553 nav-item"><a href="/population-center" title="" class="nav-link">Population Center</a></li>
+<li class="last leaf menu-mlid-49554 nav-item"><a href="/guttmacher-lancet-commission" title="" class="nav-link">Guttmacher-Lancet Commission</a></li>
+</ul></li>
+</ul></div>
+  </div>
+</div>
+            </nav>
+  </div>
+</header>
+<div id="header-overlay"></div>
+        <header id="header--desktop" class="header" aria-role="banner">
+  <div class="header-desktop-branding l--constrained">
+    <a href="/" class="header-logo link--block">
+      <img src="/sites/all/themes/gutt/logo.svg" alt="Guttmacher Institute" onerror="this.onerror=null; this.src='/sites/all/themes/gutt/logo.png'" />
+    </a>
+  </div>
+  <div class="header-desktop-utilities l--constrained">
+          <button class="header-donate-button toggle" aria-controls="donate-nav-desktop">Donate Now</button>
+      <nav id="donate-nav-desktop" aria-expanded="false" class="donate-nav-container">
+        <div id="block-menu-block-gutt-global-elements-donate" class="block block-menu-block donate-nav">
+
+      
+  <div  class="block-content block-content">
+    <div class="menu-block-wrapper menu-block-gutt_global_elements-donate menu-name-donate-menu parent-mlid-0 menu-level-1">
+  <ul class="nav"><li class="first leaf menu-mlid-46215 nav-item"><a href="https://give.guttmacher.org/checkout/donation?eid=109478" title="" class="nav-link">Make a gift today</a></li>
+<li class="leaf menu-mlid-46216 nav-item"><a href="https://give.guttmacher.org/checkout/donation?eid=110766" title="" class="nav-link">Make a monthly gift</a></li>
+<li class="leaf menu-mlid-49703 nav-item"><a href="https://give.guttmacher.org/campaign/the-guttmacher-guardians/c168864" title="" class="nav-link">Become a Guttmacher Guardian</a></li>
+<li class="last leaf menu-mlid-46218 nav-item"><a href="/donate/other" title="" class="nav-link">Other ways to give</a></li>
+</ul></div>
+  </div>
+</div>
+      </nav>
+              <div class="header-social">
+          <h2 class="block-title element-invisible">Connect With Us</h2>
+<div class="item-list"><ul class="nav nav--social"><li class="nav-item first"><a href="https://www.facebook.com/guttmacher" class="nav-link nav-link--social nav-link--facebook" title="Facebook">Facebook</a></li>
+<li class="nav-item last"><a href="https://twitter.com/Guttmacher" class="nav-link nav-link--social nav-link--twitter" title="Twitter">Twitter</a></li>
+</ul></div>      </div>
+              <div class="header-search-form">
+        <form class="search-form" action="/fact-sheet/induced-abortion-united-states" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <input title="Enter the terms you wish to search for." class="form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<input class="icon_search search-button form-submit" type="submit" id="edit-submit" name="op" value="Search" /><input type="hidden" name="form_build_id" value="form--pUQ-7tXdWYL1le3D9sSFqJ77MzB-PeZO6s-PS6gpp0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>      </div>
+        <nav class="header-utility-menu clearfix">
+                <h2 class="block-title element-invisible">About Menu</h2>
+<div class="menu-block-wrapper menu-block-gutt_global_elements-utility menu-name-utility-menu parent-mlid-0 menu-level-1">
+  <ul class="header-nav"><li class="first last expanded menu-mlid-48017 nav-item"><a href="/about" class="nav-link">About</a><ul class="header-nav"><li class="first leaf menu-mlid-48018 nav-item"><a href="/about/staff" class="nav-link">Staff</a></li>
+<li class="leaf menu-mlid-48241 nav-item"><a href="/about/partnerships-collaborations" title="" class="nav-link">Partnerships &amp; Collaborations</a></li>
+<li class="leaf menu-mlid-48048 nav-item"><a href="/about/board" class="nav-link">Board</a></li>
+<li class="leaf menu-mlid-48049 nav-item"><a href="/about/job-opportunities" class="nav-link">Job Opportunities</a></li>
+<li class="leaf menu-mlid-48022 nav-item"><a href="/about/financials" class="nav-link">Financials</a></li>
+<li class="expanded menu-mlid-48023 nav-item"><a href="/about/history" class="nav-link">History</a><ul class="header-nav"><li class="first last leaf menu-mlid-49701 nav-item"><a href="/about/guttmacher-50th-anniversary" class="nav-link">Guttmacher 50th Anniversary</a></li>
+</ul></li>
+<li class="leaf menu-mlid-48019 nav-item"><a href="/about/contact" class="nav-link">Contact</a></li>
+<li class="last leaf menu-mlid-49648 nav-item"><a href="/cory-l-richards-memorial-scholarship" class="nav-link">Cory L. Richards Scholarship</a></li>
+</ul></li>
+</ul></div>
+                    <div id="block-menu-block-gutt-global-elements-our-work" class="block block-menu-block">
+
+          <h2 class="block-title">Our Work by</h2>
+  
+  <div  class="block-content block-content">
+    <div class="menu-block-wrapper menu-block-gutt_global_elements-our-work menu-name-menu-our-work parent-mlid-0 menu-level-1">
+  <ul class="header-nav"><li class="first expanded menu-mlid-49543 nav-item"><a href="/geography" title="" class="nav-link">Geography</a><ul class="header-nav"><li class="first leaf menu-mlid-49574 nav-item"><a href="/geography/global" title="" class="nav-link">Global</a></li>
+<li class="leaf menu-mlid-49544 nav-item"><a href="/geography/asia" title="" class="nav-link">Asia</a></li>
+<li class="leaf menu-mlid-49545 nav-item"><a href="/geography/latin-america-caribbean" title="" class="nav-link">Latin America &amp; the Caribbean</a></li>
+<li class="leaf menu-mlid-49546 nav-item"><a href="/geography/sub-saharan-africa" title="" class="nav-link">Sub-Saharan Africa</a></li>
+<li class="last leaf menu-mlid-49547 nav-item"><a href="/geography/united-states" title="" class="nav-link">United States</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-49548 nav-item"><a href="/type" title="" class="nav-link">Type</a><ul class="header-nav"><li class="first leaf menu-mlid-49604 nav-item"><a href="/recent-research" title="" class="nav-link">Recent Research</a></li>
+<li class="expanded menu-mlid-49709 nav-item"><span title="Policy Resources" class="nav-link nolink">Policy Resources</span><ul class="header-nav"><li class="first leaf menu-mlid-49585 nav-item"><a href="/state-policy-resources" title="State Policy Resources" class="nav-link">State Policy</a></li>
+<li class="last leaf menu-mlid-49710 nav-item"><a href="/us-policy-resources" title="U.S. Policy Resources" class="nav-link">U.S. Policy</a></li>
+</ul></li>
+<li class="leaf menu-mlid-49549 nav-item"><a href="/news-releases" title="" class="nav-link">News Releases</a></li>
+<li class="leaf menu-mlid-49550 nav-item"><a href="https://data.guttmacher.org/" title="" class="nav-link">Data Center</a></li>
+<li class="leaf menu-mlid-49551 nav-item"><a href="/gpr/current" title="" class="nav-link">Guttmacher Policy Review</a></li>
+<li class="expanded menu-mlid-49552 nav-item"><a href="/journals" title="" class="nav-link">Peer-Reviewed Journals</a><ul class="header-nav"><li class="first leaf has-children menu-mlid-49555 nav-item"><a href="/journals/ipsrh/current" title="" class="nav-link">International Perspectives on Sexual and Reproductive Health</a></li>
+<li class="last leaf has-children menu-mlid-49556 nav-item"><a href="/journals/psrh/current" title="" class="nav-link">Perspectives on Sexual and Reproductive Health</a></li>
+</ul></li>
+<li class="leaf menu-mlid-49553 nav-item"><a href="/population-center" title="" class="nav-link">Population Center</a></li>
+<li class="last leaf menu-mlid-49554 nav-item"><a href="/guttmacher-lancet-commission" title="" class="nav-link">Guttmacher-Lancet Commission</a></li>
+</ul></li>
+</ul></div>
+  </div>
+</div>
+          </nav>
+
+          <div id="block-boxes-front-pitch" class="block block-boxes block-boxes-simple pitch">
+
+          <h2 class="block-title pitch-title">Good reproductive health policy starts with credible research</h2>
+  
+  <div  class="block-content block-content pitch-content">
+    <p><span> </span></p>
+
+
+  </div>
+</div>
+      </div>
+  <div class="header-regions">
+    <div class="header-region-tabs">
+      <div class="header-region-tabs-inner l--constrained clearfix">
+                  <button class="header-region-tab header-region-tab--us" role="tab" aria-selected="true" aria-controls="header-region--us">United States</button>
+                          <button class="header-region-tab header-region-tab--world" role="tab" aria-selected="false" aria-controls="header-region--world">International</button>
+              </div>
+    </div>
+    <div class="header-regions-panels">      <div class="header-regions-panels-inner l--constrained">
+        <nav id="header-region--us" class="header-region-panel" role="tabpanel" aria-hidden="false" data-region="us">
+            <h2 class="block-title element-invisible">United States Menu</h2>
+<div class="menu-block-wrapper menu-block-gutt_global_elements-us menu-name-united-states-menu parent-mlid-0 menu-level-1">
+  <ul class="nav nav--region"><li class="first leaf menu-mlid-19939 nav-item"><a href="/united-states/abortion" class="nav-link">Abortion</a></li>
+<li class="leaf menu-mlid-19940 nav-item"><a href="/united-states/contraception" class="nav-link">Contraception</a></li>
+<li class="leaf menu-mlid-19941 nav-item"><a href="/united-states/hiv-stis" class="nav-link">HIV &amp; STIs</a></li>
+<li class="leaf menu-mlid-19943 nav-item"><a href="/united-states/pregnancy" class="nav-link">Pregnancy</a></li>
+<li class="last leaf menu-mlid-19942 nav-item"><a href="/united-states/teens" class="nav-link">Teens</a></li>
+</ul></div>
+        </nav>
+                    <nav id="header-region--world" role="tabpanel" class="header-region-panel" aria-hidden="true" data-region="world">
+            <h2 class="block-title element-invisible">International Menu</h2>
+<div class="menu-block-wrapper menu-block-gutt_global_elements-int menu-name-international-menu parent-mlid-0 menu-level-1">
+  <ul class="nav nav--region"><li class="first leaf menu-mlid-19944 nav-item"><a href="/international/abortion" class="nav-link">Abortion</a></li>
+<li class="leaf menu-mlid-19945 nav-item"><a href="/international/contraception" class="nav-link">Contraception</a></li>
+<li class="leaf menu-mlid-19946 nav-item"><a href="/international/hiv/stis" class="nav-link">HIV &amp; STIs</a></li>
+<li class="leaf menu-mlid-19948 nav-item"><a href="/international/pregnancy" class="nav-link">Pregnancy</a></li>
+<li class="last leaf menu-mlid-19947 nav-item"><a href="/international/teens" class="nav-link">Teens</a></li>
+</ul></div>
+        </nav>
+      </div>
+    </div>
+  </div>
+      <div id="block-views-now-block" class="block block-views header-now l--constrained clearfix">
+
+          <h2 class="block-title header-now-heading">Now</h2>
+  
+  <div  class="block-content block-content">
+    <div class="view view-now view-id-now view-display-id-block view-dom-id-ea7c824cf27414c31a31a3f6db5a9d08">
+      
+
+      
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    <a href="/news-release/2018/developing-regions-greater-investment-needed-help-adolescents-prevent-unintended" class="header-now-title">20 million adolescent women in developing regions have an unmet need for modern contraception</a>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </header>
+      <div class="main">
+        
+    
+    
+    
+    
+    
+    <div class="content l--constrained clearfix">
+      <div class="content-primary">
+                    
+<article id="node-27177" class="article--full l--constrained--padded node node-fact-sheet" about="/fact-sheet/induced-abortion-united-states" typeof="sioc:Item foaf:Document">
+  <div class="article-content l--sidebar-after clearfix">
+    <div class="l-primary">
+      <header class="article-header--simple">
+                <span property="dc:title" content="Induced Abortion in the United States" class="rdf-meta element-hidden"></span>        <div class="article-metaline metaline"><span class="metaline-item"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-01-24T00:00:00-05:00">January 2018</span></span> <span class="metaline-item"><a href="/search/site?f%5B0%5D=bundle%3Afact_sheet">Fact Sheet</a></span></div>
+        <h1 class="article-title">Induced Abortion in the United States</h1>
+              </header>
+
+              <section id="article-body" class="section--article article-body">
+          <ul><li>Nearly half (45%) of all pregnancies among U.S. women in 2011 were unintended, and about four in 10 of these were terminated by abortion.<sup><a href="#" name="" id="">1</a></sup></li>
+	<li>Nineteen percent of pregnancies (excluding miscarriages) in 2014 ended in abortion.<sup><a href="#" name="" id="">2</a></sup></li>
+	<li>Approximately 926,200 abortions were performed in 2014, down 12% from 1.06 million in 2011. In 2014, some 1.5% of women aged 15–44 had an abortion.<sup><a href="#" name="" id="">2</a></sup> Just under half of these women (45%) reported having a previous abortion.<sup><a href="#" name="" id="">3</a></sup></li>
+	<li>The abortion rate in 2014 was 14.6 abortions per 1,000 women aged 15–44, down 14% from 16.9 per 1,000 in 2011.<sup><a href="#" name="" id="">2</a></sup> This is the lowest rate ever observed in the United States; in 1973, the year abortion became legal, the rate was 16.3.<sup><a href="#" name="" id="">4</a></sup></li>
+	<li>At 2014 abortion rates, one in 20 women (5%) will have an abortion by age 20, about one in five (19%) by age 30 and about one in four (24%) by age 45.<sup><a href="#" name="" id="">5</a></sup><p> </p>
+	</li>
+</ul><p>
+<figure class="embed node node-image" about="/image/2017/trends-abortion-graph" typeof="sioc:Item foaf:Document"><span property="dc:title" content="Trends In Abortion (Graph)" class="rdf-meta element-hidden"></span>
+      <a href="https://www.guttmacher.org/sites/default/files/images/trendsinabortiongraph.png"><img typeof="foaf:Image" src="https://www.guttmacher.org/sites/default/files/styles/scale_900x720/public/images/trendsinabortiongraph.png?itok=6n7i9B7I" width="900" height="605" alt="" /></a>  
+  </figure></p>
+
+<h2><strong>WHO HAS ABORTIONS?</strong></h2>
+
+<ul><li>More than half of all U.S. abortion patients in 2014 were in their 20s: Patients aged 20–24 obtained 34% of all abortions, and patients aged 25–29 obtained 27%.<sup><a href="#" name="" id="">6</a></sup></li>
+	<li>Twelve percent of abortion patients in 2014 were adolescents: Those aged 18–19 accounted for 8% of all abortions, 15–17-year-olds for 3% and those younger than 15 for 0.2%.<sup><a href="#" name="" id="">6</a></sup></li>
+	<li>White patients accounted for 39% of abortion procedures in 2014, blacks for 28%, Hispanics for 25% and patients of other races and ethnicities for 9%.<sup><a href="#" name="" id="">6</a></sup></li>
+	<li>Seventeen percent of abortion patients in 2014 identified as mainline Protestant, 13% as evangelical Protestant and 24% as Catholic; 38% reported no religious affiliation and the remaining 8% reported some other affiliation.<sup><a href="#" name="" id="">6</a></sup></li>
+	<li>The vast majority (94%) of abortion patients in 2014 identified as heterosexual or straight. Four percent of patients said they were bisexual, while 0.3% identified as homosexual, gay or lesbian and 1% identified as “something else.”<sup><a href="#" name="" id="">6</a></sup></li>
+	<li>In 2014, some 46% of all abortion patients had never married and were not cohabiting. However, nearly half were living with a male partner in the month they became pregnant, including 14% who were married and 31% who were cohabiting.<sup><a href="#" name="" id="">6</a></sup></li>
+	<li>Fifty-nine percent of abortions in 2014 were obtained by patients who had had at least one birth.<sup><a href="#" name="" id="">6</a></sup></li>
+	<li>Some 75% of abortion patients in 2014 were poor or low-income. Twenty-six percent of patients had incomes of 100–199% of the federal poverty level, and 49% had incomes of less than 100% of the federal poverty level ($15,730 for a family of two).<a href="#fn0" name="fn0a" id="fn0a">*</a><sup><a href="#" name="" id="">6</a></sup></li>
+	<li>The reasons patients gave for having an abortion underscored their understanding of the responsibilities of parenthood and family life. The three most common reasons—each cited by three-fourths of patients—were concern for or responsibility to other individuals; the inability to afford raising a child; and the belief that having a baby would interfere with work, school or the ability to care for dependents. Half said they did not want to be a single parent or were having problems with their husband or partner.<sup><a href="#" name="" id="">7</a></sup></li>
+	<li>Fifty-one percent of abortion patients in 2014 were using a contraceptive method in the month they became pregnant, most commonly condoms (24%) or a hormonal method (13%).<sup><a href="#" name="" id="">8</a></sup></li>
+</ul><h2><strong>PROVIDERS AND SERVICES</strong></h2>
+
+<ul><li>The number of U.S. abortion-providing facilities declined 3% between 2011 and 2014 (from 1,720 to 1,671). The number of clinics providing abortion services declined 6% over this period (from 839 to 788). Ninety percent of all U.S. counties lacked a clinic in 2014, and 39% of women of reproductive age lived in those counties.<sup><a href="#" name="" id="">2</a></sup></li>
+	<li>In 2014, some 46% of abortion clinics offered very early abortions (at four weeks’ gestation or earlier, before the first missed period), and 99% offered the procedure up to eight weeks from the last menstrual period. Seventy-two percent of clinics offered abortions up to 12 weeks, 25% up to 20 weeks and 10% up to 24 weeks.<sup><a href="#" name="" id="">9</a></sup></li>
+	<li>In 2014, the average amount paid for an abortion in a nonhospital setting at 10 weeks’ gestation and with local anesthesia was $508. The average paid for an early medication abortion (up to 9 weeks’ gestation) was $535.<sup><a href="#" name="" id="">9</a></sup></li>
+	<li>Eighty-four percent of clinics reported at least one form of antiabortion harassment in 2011. Picketing was reported by 80%, and phone calls by 47%. Fifty-three percent of clinics were picketed 20 times or more in a year. Three percent of clinics reported receiving at least one bomb threat in 2011.<sup><a href="#" name="" id="">10</a></sup></li>
+</ul><p> </p>
+
+<p>
+<figure class="embed node node-image" about="/image/2017/when-women-have-abortions-graph" typeof="sioc:Item foaf:Document"><span property="dc:title" content="When Women Have Abortions (Graph)" class="rdf-meta element-hidden"></span>
+      <a href="https://www.guttmacher.org/sites/default/files/images/whenwomenhaveabortionsgraph_0.png"><img typeof="foaf:Image" src="https://www.guttmacher.org/sites/default/files/styles/scale_900x720/public/images/whenwomenhaveabortionsgraph_0.png?itok=b7vUDQzk" width="699" height="720" alt="" /></a>  
+  </figure></p>
+
+<h2><strong>EARLY MEDICATION ABORTION</strong></h2>
+
+<ul><li>In September 2000, the U.S. Food and Drug Administration approved mifepristone to be marketed in the United States for nonsurgical abortion.</li>
+	<li>According to U.S. Food and Drug Administration guidelines, medication abortion is approved for abortions up to 10 weeks’ gestation. The protocol involves two drugs—mifepristone and misoprostol—one of which can be taken at home following a provider visit.</li>
+	<li>Medication abortions accounted for 31% of all nonhospital abortions in 2014, and for 45% of abortions before nine weeks’ gestation.<sup><a href="#" name="" id="">2</a></sup></li>
+	<li>In 2014, some 87% of all nonhospital abortion providers—900 facilities—provided one or more medication abortions,<sup><a href="#" name="" id="">2</a></sup> and 26% of clinics provided only early medication abortion.<sup><a href="#" name="" id="">9</a></sup></li>
+	<li>Medication abortions increased from 6% of all nonhospital abortions in 2001 to 31% in 2014, even while the overall number of abortions continued to decline. Data from the Centers for Disease Control and Prevention show that the average time of abortion has shifted earlier within the first trimester; this is likely due, in part, to the availability of medication abortion services.<sup><a href="#" name="" id="">11</a></sup></li>
+</ul><h2><strong>SAFETY OF ABORTION</strong></h2>
+
+<ul><li>A first-trimester abortion is one of the safest medical procedures and carries minimal risk: Major complications (those requiring hospital care, surgery or transfusion) occur at a rate of less than 0.5%.<sup><a href="#" name="" id="">12,13</a></sup></li>
+	<li>Abortions performed in the first trimester pose virtually no long-term risk of problems such as infertility, ectopic pregnancy, spontaneous abortion (miscarriage) or birth defect, and little or no risk of preterm or low-birth-weight deliveries.<sup><a href="#" name="" id="">14</a></sup></li>
+	<li>Exhaustive reviews by panels convened by the U.S. and UK governments have concluded that there is no association between abortion and breast cancer. There is also no indication that abortion is a risk factor for other cancers.<sup><a href="#" name="" id="">14</a></sup></li>
+	<li>Leading experts have concluded that among women who have an unplanned pregnancy, the risk of mental health problems is no greater if they have a single first-trimester abortion than if they carry the pregnancy to term.<sup><a href="#" name="" id="">15</a></sup></li>
+	<li>The risk of death associated with abortion increases with the length of pregnancy, from 0.3 for every 100,000 abortions at or before eight weeks to 6.7 per 100,000 at 18 weeks or later.<sup><a href="#" name="" id="">16</a></sup></li>
+</ul><h2><strong>INSURANCE COVERAGE AND PAYMENT</strong></h2>
+
+<ul><li>Most U.S. abortion patients had health insurance in 2014. Thirty-five percent had Medicaid coverage, while 31% had private insurance.<sup><a href="#" name="" id="">6</a></sup> However, insurance does not necessarily cover abortion services, and even when it does, patients may not use their coverage for a variety of reasons (e.g., because they do not know their plan covers it, they are concerned about confidentiality or their provider does not accept their plan).<sup><a href="#" name="" id="">17</a></sup></li>
+	<li>Overall, 53% of abortion patients paid out of pocket for their procedure in 2014.<sup><a href="#" name="" id="">6</a></sup></li>
+	<li>Medicaid was the second-most-common method of payment, reported by 24% of abortion patients. The overwhelming majority of these patients lived in the 15 states that allow state funds to be used to pay for abortion.<sup><a href="#" name="" id="">6</a></sup></li>
+	<li>Fifteen percent of patients used private insurance to pay for the procedure. Most patients with private insurance (61%) paid out of pocket.<sup><a href="#" name="" id="">6</a></sup></li>
+</ul><h2><strong>LAW AND POLICY</strong></h2>
+
+<ul><li>Since recognizing a woman’s constitutional right to abortion in 1973 in <em>Roe v. Wade,</em> the U.S. Supreme Court has in subsequent decisions reaffirmed that right. The Court has held that a state cannot ban abortion before viability (the point at which a fetus can survive outside the uterus), and that any restriction on abortion after viability must contain exceptions to protect the life and health of the woman. Furthermore, any previability abortion restriction cannot create an “undue burden” by placing a substantial obstacle in the path of a woman seeking an abortion. This “undue burden” standard was established in <em>Planned Parenthood v. Casey</em> in 1992 and clarified in the 2016 decision in <em>Whole Woman’s Health v. Hellerstedt.</em> The latter affirmed that courts must consider credible evidence when evaluating the constitutionality of abortion restrictions and strike down measures that do not have tangible benefits that outweigh the real-world burdens imposed on women.</li>
+	<li>The Hyde Amendment, in effect since 1977, essentially bans federal dollars from being used for abortion coverage for women insured by Medicaid, the nation’s main public health insurance program for low-income Americans. Similar restrictions apply to other federal programs and operate to deny abortion care or coverage to women with disabilities, Native Americans, prison inmates, poor women in the District of Columbia, military personnel and federal employees.<sup><a href="#" name="" id="">18</a></sup></li>
+	<li>Although the Hyde Amendment bars federal funds from being used to provide Medicaid coverage of abortion, states may use their own, nonfederal funds. Seventeen states have a policy requiring the state to provide abortion coverage under Medicaid, but just 15 appear to be doing so in practice.<sup><a href="#" name="" id="">19</a></sup></li>
+	<li>As of January 1, 2018, all but 10 states had imposed at least one of five major abortion restrictions­: unnecessary regulations on abortion clinics, mandated counseling designed to dissuade a woman from obtaining an abortion, a mandated waiting period before an abortion, a requirement of parental involvement before a minor obtains an abortion or prohibition on the use of state Medicaid funds to pay for medically necessary abortions.<sup><a href="#" name="" id="">20–23</a></sup></li>
+	<li>In 2014, some 76% of abortion patients were able to obtain an abortion within seven days of calling to book an appointment. The 7% of abortion patients who had to wait more than 14 days between booking an appointment and obtaining the procedure were more likely to have been exposed to disruptive life events or to live in a state with a required waiting period.<sup><a href="#" name="" id="">24</a></sup></li>
+	<li>In 2000, a total of 13 states had at least four types of major abortion restrictions, qualifying them as hostile to abortion rights.<sup><a href="#" name="" id="">25</a></sup> By 2017, 29 states met this definition.<sup><a href="#" name="" id="">26</a></sup> The proportion of U.S. women of reproductive age living in hostile states rose from 31% to 58% during this time period.</li>
+	<li>In contrast, the number of states that were supportive of abortion rights fell from 17 to 12 between 2000 and 2017.<sup><a href="#" name="" id="">25,26</a></sup> The proportion of women of reproductive age living in supportive states declined from 40% to 30% over this period.</li>
+</ul>        </section>
+      
+      
+              <section class="section--article article-references">
+          <h2 class="heading--ruled">References</h2>
+          <div class="references">
+            <p><strong>1.</strong> Finer LB and Zolna MR, Declines in unintended pregnancy in the United States, 2008–2011, <em>New England Journal of Medicine</em>, 2016, 374(9):843–852, doi:10.1056/NEJMsa1506575.</p>
+
+<p><strong>2.</strong> Jones RK and Jerman J, Abortion incidence and service availability in the United States, 2014, <em>Perspectives on Sexual and Reproductive Health</em>, 2017, 49(1):17–27, doi:10.1363/psrh.12015.</p>
+
+<p><strong>3.</strong> Jones RK, Jerman J and Ingerick M, Which abortion patients have had a prior abortion? Findings from the 2014 U.S. Abortion Patient Survey, <em>Journal of Women’s Health</em>, 2017, doi:10.1089/jwh.2017.6410.</p>
+
+<p><strong>4.</strong> Jones RK and Jerman J, Abortion incidence and service availability in the United States, 2011, <em>Perspectives on Sexual and Reproductive Health</em>, 2014, 46(1):3–14, doi:10.1363/46e0414.</p>
+
+<p><strong>5.</strong> Jones RK and Jerman J, Population group abortion rates and lifetime incidence of abortion: United States, 2008–2014, <em>American Journal of Public Health</em>, 2017, doi:10.2105/AJPH.2017.304042.</p>
+
+<p><strong>6.</strong> Jerman J, Jones RK and Onda T, <em>Characteristics of U.S. Abortion Patients in 2014 and Changes Since 2008</em>, New York: Guttmacher Institute, 2016, <a href="https://www.guttmacher.org/report/characteristics-us-abortion-patients-2014">https://www.guttmacher.org/report/characteristics-us-abortion-patients-2014</a>.</p>
+
+<p><strong>7. </strong>Finer LB et al., Reasons U.S. women have abortions: quantitative and qualitative perspectives, <em>Perspectives on Sexual and Reproductive Health</em>, 2005, 37(3):110–118, doi:10.1363/3711005.</p>
+
+<p><strong>8.</strong> Jones RK, Reported contraceptive use in the month of becoming pregnant among U.S. abortion patients in 2000 and 2014, <em>Contraception</em>, 2018, doi:10.1016/j.contraception.2017.12.018.</p>
+
+<p><strong>9.</strong> Jones RK, Ingerick M and Jerman J, Differences in abortion service delivery in hostile, middle-ground and supportive states in 2014, <em>Women’s Health Issues</em>, 2018, doi:10.1016/j.whi.2017.12.003.</p>
+
+<p><strong>10.</strong> Jerman J and Jones RK, Secondary measures of access to abortion services in the United States, 2011 and 2012: gestational age limits, cost, and harassment, <em>Women’s Health Issues</em>, 2014, 24(4):e419–e424, doi:10.1016/j.whi.2014.05.002.</p>
+
+<p><strong>11.</strong> Jatlaoui TC et al., Abortion surveillance — United States, 2013, <em>Morbidity and Mortality Weekly Report</em>, 2016, Vol. 65, Number SS-12, <a href="https://www.cdc.gov/mmwr/volumes/65/ss/ss6512a1.htm">https://www.cdc.gov/mmwr/volumes/65/ss/ss6512a1.htm</a>.</p>
+
+<p><strong>12.</strong> Upadhyay UD et al., Incidence of emergency department visits and complications after abortion, <em>Obstetrics and Gynecology</em>, 2015, 125(1):175–183, doi:10.1097/AOG.0000000000000603.</p>
+
+<p><strong>13.</strong> White K, Carroll E and Grossman D, Complications from first-trimester aspiration abortion: a systematic review of the literature, <em>Contraception</em>, 2015, 92(5):422–438, doi:10.1016/j.contraception.2015.07.013.</p>
+
+<p><strong>14.</strong> Boonstra HD et al., <em>Abortion in Women’s Lives</em>, New York: Guttmacher Institute, 2006, <a href="https://www.guttmacher.org/report/abortion-womens-lives">https://www.guttmacher.org/report/abortion-womens-lives</a>.</p>
+
+<p><strong>15.</strong> Major B et al., <em>Report of the APA Task Force on Mental Health and Abortion</em>, Washington, DC: American Psychological Association, 2008, <a href="http://www.apa.org/pi/women/programs/abortion/mental-health.pdf">http://www.apa.org/pi/women/programs/abortion/mental-health.pdf</a>.</p>
+
+<p><strong>16.</strong> Zane S et al., Abortion-related mortality in the United States, 1998–2010, <em>Obstetrics &amp; Gynecology</em>, 2015, 126(2):258–265, doi:10.1097/AOG.0000000000000945.</p>
+
+<p><strong>17.</strong> Guttmacher Institute, Memo on private insurance coverage of abortion, 2011, <a href="https://www.guttmacher.org/article/2011/01/memo-private-insurance-coverage-abortion">https://www.guttmacher.org/article/2011/01/memo-private-insurance-covera...</a>.</p>
+
+<p><strong>18.</strong> Donovan M, In real life: federal restrictions on abortion coverage and the women they impact, <em>Guttmacher Policy Review</em>, 2017, 20:1–7.</p>
+
+<p><strong>19.</strong> Boonstra HD, Abortion in the lives of women struggling financially: why insurance coverage matters, <em>Guttmacher Policy Review</em>, 2016, 19:46–52.</p>
+
+<p><strong>20.</strong> Guttmacher Institute, Targeted regulation of abortion providers, <em>State Laws and Policies (as of January 2018)</em>, 2018, <a href="https://www.guttmacher.org/state-policy/explore/targeted-regulation-abortion-providers">https://www.guttmacher.org/state-policy/explore/targeted-regulation-abor...</a>.</p>
+
+<p><strong>21.</strong> Guttmacher Institute, Counseling and waiting periods for abortion, <em>State Laws and Policies (as of January 2018)</em>, 2018, <a href="https://www.guttmacher.org/state-policy/explore/counseling-and-waiting-periods-abortion">https://www.guttmacher.org/state-policy/explore/counseling-and-waiting-p...</a>.</p>
+
+<p><strong>22.</strong> Guttmacher Institute, Parental involvement in minors’ abortions, <em>State Laws and Policies (as of January 2018)</em>, 2018, <a href="https://www.guttmacher.org/state-policy/explore/parental-involvement-minors-abortions">https://www.guttmacher.org/state-policy/explore/parental-involvement-min...</a>.</p>
+
+<p><strong>23.</strong> Guttmacher Institute, State funding of abortion under Medicaid, <em>State Laws and Policies (as of January 2018)</em>, 2018, <a href="https://www.guttmacher.org/state-policy/explore/state-funding-abortion-under-medicaid">https://www.guttmacher.org/state-policy/explore/state-funding-abortion-u...</a>.</p>
+
+<p><strong>24.</strong> Jones RK and Jerman J, <em>Time to Appointment and Delays in Accessing Care Among U.S. Abortion Patients</em>, New York: Guttmacher Institute, 2016, <a href="https://www.guttmacher.org/report/delays-in-accessing-care-among-us-abortion-patients">https://www.guttmacher.org/report/delays-in-accessing-care-among-us-abor...</a>.</p>
+
+<p><strong>25.</strong> Gold RB and Nash E, Troubling trend: more states hostile to abortion rights as middle ground shrinks, <em>Guttmacher Policy Review</em>, 2012, 15(1):14–19.</p>
+
+<p><strong>26.</strong> Nash E et al., <em>Policy Trends in the States, 2017</em>, New York: Guttmacher Institute, 2018, <a href="https://www.guttmacher.org/article/2018/01/policy-trends-states-2017">https://www.guttmacher.org/article/2018/01/policy-trends-states-2017</a>.<br />
+	 </p>
+
+<p><strong>Figure 1: Trends in abortion </strong><br /><strong>In 2014, the U.S. abortion rate reached a historic low </strong><br /><strong>Source:</strong> reference 2.</p>
+
+<p><strong>Figure 2: When women have abortions </strong><br /><strong>Two-thirds of abortions occur at eight weeks of pregnancy or earlier; 89% occur in the first 12 weeks, 2013 </strong><br /><strong>Source:</strong> Calculated from the Centers for Disease Control and Prevention’s annual abortion surveillance summary (reference 11), with adjustments for changes in states reporting data.</p>
+
+
+          </div>
+        </section>
+      
+              <section class="section--article article-references">
+          <h2 class="heading--ruled">Footnotes</h2>
+          <p><a href="#fn0a" name="fn0" id="fn0">*</a>Poverty guidelines are updated periodically in the Federal Register by the U.S. Department of Health and Human Services under the authority of 42 USC 9902(2).</p>
+
+
+        </section>
+      
+      
+            <div class="ref-modal"><div class="close"><a href="#"><i class="fa fa-times" aria-hidden="true"></i></a></div><div class="ref-modal-inner"></div></div>
+    </div>
+
+    <div class="article-secondary l-secondary">
+      
+  <div class="file-pdf">
+    <span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="https://www.guttmacher.org/sites/default/files/factsheet/fb_induced_abortion.pdf" type="application/pdf; length=114095" title="fb_induced_abortion.pdf">Download Fact Sheet</a></span>  </div>
+
+
+  <div class="article-share minimal-share-wrapper article-section">
+    <h3 class="minimal-share-heading">Share</h3>
+    <p class="minimal-share"><a href="https://www.facebook.com/sharer.php?u=https%3A//www.guttmacher.org/fact-sheet/induced-abortion-united-states&amp;t=Induced%20Abortion%20in%20the%20United%20States" class="facebook" data-width="600" data-height="500">Facebook</a><a href="https://twitter.com/intent/tweet?status=Induced%20Abortion%20in%20the%20United%20States%20-%20https%3A//www.guttmacher.org/fact-sheet/induced-abortion-united-states" class="twitter" data-width="600" data-height="260">Twitter</a><a href="/cdn-cgi/l/email-protection#95aae6e0f7fff0f6e1a8dcfbf1e0f6f0f1b0a7a5d4f7fae7e1fcfafbb0a7a5fcfbb0a7a5e1fdf0b0a7a5c0fbfce1f0f1b0a7a5c6e1f4e1f0e6b3f4f8e5aef7faf1eca8fde1e1e5e6b0a6d4babae2e2e2bbf2e0e1e1f8f4f6fdf0e7bbfae7f2baf3f4f6e1b8e6fdf0f0e1bafcfbf1e0f6f0f1b8f4f7fae7e1fcfafbb8e0fbfce1f0f1b8e6e1f4e1f0e6" class="email">Email</a></p>
+  </div>
+
+
+
+
+
+
+<!--     <div class="article-section filters">
+      </div>
+ -->
+
+  <section class="article-terms article-section">
+          <h3 class="terms-heading">Topic</h3><div class="terms"><h4 class="terms-subheading">United States</h4><ul class="terms-list"><li class="terms-item"><a href="/united-states/abortion" class="terms-link-primary">Abortion</a></li></ul></div>              <h3 class="terms-heading">Geography</h3><div class="terms"><ul class="terms-list"><li class="terms-item"><a href="/geography/united-states" class="terms-link-primary">United States</a></li></ul></div>          </section>
+    </div>
+  </div>
+</article>
+      </div>
+
+            </div>
+      </div>
+            <section class="support l--constrained clearfix">
+    <div id="block-gutt-global-elements-support" class="block block-gutt-global-elements">
+
+      
+  <div  class="block-content block-content">
+    <header class="support-header">
+  <h2 class="support-heading">Support Our Work</h2>
+  <p class="support-description">Your support enables the Guttmacher Institute to advance sexual and reproductive health and rights in the United States and globally through our interrelated program of high-quality research, evidence-based advocacy and strategic communications.</header>
+
+<div class="support-donate">
+  <div class="support-buttons">
+    <a href="https://give.guttmacher.org/checkout/donation?eid=109478" class="support-button">Donate Now</a>
+  </div>
+</div>
+  </div>
+</div>
+</section>
+<footer class="footer" aria-role="content-info">
+  <div class="footer-inner l--constrained clearfix">
+    <div class="footer-logo">
+      <a href="/" class="link--block footer-logo-link">
+        <img class="footer-logo-image" src="/sites/all/themes/gutt/logo.svg" alt="Guttmacher Institute"  onerror="this.onerror=null; this.src='/sites/all/themes/gutt/logo.png'" />
+      </a>
+    </div>
+          <div class="footer-popcenter">
+        <a href="/population-center" id="logo--popcenter" class="link--block footer-popcenter-link"><img class="footer-popcenter-image" src="/sites/all/modules/custom/gutt_global_elements/img/popcenter-logo.svg" alt="Guttmacher Center for Population Research Innovation and Dissemination"  onerror="this.onerror=null; this.src='/sites/all/modules/custom/gutt_global_elements/img/popcenter-logo.png'" /></a>      </div>
+              <div class="footer-updates">
+        <div id="block-gutt-signup-footer" class="block block-gutt-signup">
+
+          <h2 class="block-title">Sign Up for Guttmacher Updates</h2>
+  
+  <div  class="block-content block-content">
+    <form action="/article/2019/06/medicare-america-act-hr-2452-116th-congress-potential-impact-sexual-and-reproductive?q=node/add" method="post" id="gutt-signup-footer-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-email">
+  <label class="form-item-label element-invisible" for="edit-email">E-mail Address </label>
+ <input placeholder="Enter an email address" type="text" id="edit-email" name="email" value="" size="60" maxlength="128" class="form-text" />
+</div>
+<input type="hidden" name="lists" value="Guttmacher Update" />
+<input type="hidden" name="form_build_id" value="form-IVV0fSZryCSzMp86bOdlJAOPTOYdHFPi7Ir-RhUPgHI" />
+<input type="hidden" name="form_id" value="gutt_signup_footer_form" />
+<input type="submit" id="edit-submit--2" name="op" value="Sign Up" class="form-submit" /></div></form>  </div>
+</div>
+      </div>
+              <div class="footer-social">
+          <h2 class="block-title element-invisible">Connect With Us</h2>
+<div class="item-list"><ul class="nav nav--social"><li class="nav-item first"><a href="https://www.facebook.com/guttmacher" class="nav-link nav-link--social nav-link--facebook" title="Facebook">Facebook</a></li>
+<li class="nav-item"><a href="https://twitter.com/Guttmacher" class="nav-link nav-link--social nav-link--twitter" title="Twitter">Twitter</a></li>
+<li class="nav-item"><a href="http://guttmacher.tumblr.com/" class="nav-link nav-link--social nav-link--tumblr" title="Tumblr">Tumblr</a></li>
+<li class="nav-item"><a href="https://www.youtube.com/user/Guttmacher" class="nav-link nav-link--social nav-link--youtube" title="YouTube">YouTube</a></li>
+<li class="nav-item last"><a href="https://www.linkedin.com/company/guttmacher-institute" class="nav-link nav-link--social nav-link--linkedin" title="LinkedIn">LinkedIn</a></li>
+</ul></div>      </div>
+        <div class="footer-colophon">
+                <div class="footer-menu">
+              <h2 class="block-title element-invisible">Footer Menu</h2>
+<div class="menu-block-wrapper menu-block-gutt_global_elements-footer menu-name-footer-menu parent-mlid-0 menu-level-1">
+  <ul class="footer-nav"><li class="first leaf menu-mlid-29308 nav-item"><a href="/privacy-policy" class="nav-link">Privacy Policy</a></li>
+<li class="last leaf menu-mlid-48243 nav-item"><a href="/updates?type=new" title="" class="nav-link">Updates Sign-up</a></li>
+</ul></div>
+        </div>
+                        <div class="footer-copyright">
+            &copy; 2019 Guttmacher Institute. The Guttmacher Institute is registered as a 501(c)(3) nonprofit organization under the tax identification number 13-2890727. Contributions are tax deductible to the fullest extent allowable.        </div>
+            </div>
+  </div>
+</footer>
+
+    </div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="https://www.guttmacher.org/sites/default/files/js/js_7Ukqb3ierdBEL0eowfOKzTkNu-Le97OPm-UqTS5NENU.js"></script>
+<script type="text/javascript" src="https://www.guttmacher.org/sites/default/files/js/js_oC_yd-8i_ddkKWH7pcFBFNU_ryliTlQITc-ourAczuY.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+grunticon(["https://www.guttmacher.org/sites/all/themes/gutt/build/img/svg/icons.data.svg.css", "https://www.guttmacher.org/sites/all/themes/gutt/build/img/svg/icons.data.png.css", "https://www.guttmacher.org/sites/all/themes/gutt/build/img/svg/icons.fallback.css"]);
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"fd60cacc1d","applicationID":"14780357","transactionName":"YlFUMRMHDURWVEYNXlsbdwYVDwxZGFldAFRqRFcCBDkVXlJA","queueTime":0,"applicationTime":333,"atts":"ThZXR1sdHko=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

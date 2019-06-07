@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="msvalidate.01" content="41969DB57D11BA64AEE68EAB043A3E25" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="width=device-width">
+		<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://www.americanactionforum.org/xmlrpc.php">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<meta property="fb:pages" content="329138183746" />
+
+	<!--[if lt IE 9]>
+	<script src="https://www.americanactionforum.org/wp-content/themes/aaf/js/lib/html5shiv.min.js"></script>
+	<script src="https://www.americanactionforum.org/wp-content/themes/aaf/js/lib/respond.min.js"></script>
+	<![endif]-->
+	<script>(function () {
+			document.documentElement.className = 'js'
+		})();
+	</script>
+	<title>OPEC Still Influences Oil Prices - AAF</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v10.0.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://www.americanactionforum.org/insight/opec-still-influences-oil-prices/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="OPEC Still Influences Oil Prices - AAF" />
+<meta property="og:description" content="While policymakers may be keen to seek a policy action to depress oil prices, the best course of action may be to do nothing, as high prices on their own will incentivize increased non-OPEC production, improved efficiency, and fuel substitution." />
+<meta property="og:url" content="https://www.americanactionforum.org/insight/opec-still-influences-oil-prices/" />
+<meta property="og:site_name" content="AAF" />
+<meta property="article:publisher" content="https://www.facebook.com/AmericanActionForum/" />
+<meta property="article:section" content="Energy and Environment" />
+<meta property="og:image" content="https://www.americanactionforum.org/wp-content/uploads/2017/10/uber.jpg" />
+<meta property="og:image:secure_url" content="https://www.americanactionforum.org/wp-content/uploads/2017/10/uber.jpg" />
+<meta property="og:image:width" content="1500" />
+<meta property="og:image:height" content="1000" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="While policymakers may be keen to seek a policy action to depress oil prices, the best course of action may be to do nothing, as high prices on their own will incentivize increased non-OPEC production, improved efficiency, and fuel substitution." />
+<meta name="twitter:title" content="OPEC Still Influences Oil Prices - AAF" />
+<meta name="twitter:site" content="@aaf" />
+<meta name="twitter:image" content="https://www.americanactionforum.org/wp-content/uploads/2017/10/uber.jpg" />
+<meta name="twitter:creator" content="@aaf" />
+<script type='application/ld+json'>{"@context":"https://schema.org","@type":"Organization","url":"https://www.americanactionforum.org/","sameAs":["https://www.facebook.com/AmericanActionForum/","https://www.instagram.com/americanactionforum/","https://www.youtube.com/user/AmericanActionForum","https://twitter.com/aaf"],"@id":"https://www.americanactionforum.org/#organization","name":"American Action Forum","logo":"https://www.americanactionforum.org/wp-content/uploads/2015/08/Generic-AAF-Image.png"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//www.americanactionforum.org' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='main-css'  href='https://www.americanactionforum.org/wp-content/themes/aaf/style.min.css?ver=1.8.189' type='text/css' media='all' />
+<link rel='shortlink' href='https://www.americanactionforum.org/?p=18431' />
+			<meta property="fb:pages" content="329138183746" />
+					<!-- Icons -->
+		<link rel="apple-touch-icon-precomposed icon" sizes="144x144" href="https://www.americanactionforum.org/wp-content/themes/aaf/images/fav-144x144.png">
+		<link rel="apple-touch-icon-precomposed icon" sizes="114x114" href="https://www.americanactionforum.org/wp-content/themes/aaf/images/fav-114x114.png">
+		<link rel="apple-touch-icon-precomposed icon" sizes="72x72" href="https://www.americanactionforum.org/wp-content/themes/aaf/images/fav-72x72.png">
+		<link rel="shortcut icon" sizes="16x16" href="https://www.americanactionforum.org/wp-content/themes/aaf/images/fav-16x16.png">
+		<meta name="msapplication-TileImage" content="https://www.americanactionforum.org/wp-content/themes/aaf/images/fav-144x144.png">
+		<meta name="msapplication-TileColor" content="#323b4d">
+		<meta name="theme-color" content="#323b4d">
+
+		<!-- TYPEKIT -->
+		<!-- <script src="//use.typekit.net/.js"></script><script>try{Typekit.load();}catch(e){}</script> -->
+		
+	<!-- Begin 33Across SiteCTRL -->
+	<script>
+		var Tynt=Tynt||[];Tynt.push('aFvHI2ATWr5POhrkHcnlxd');
+		(function(){var h,s=document.createElement('script');
+			s.src=(window.location.protocol==='https:'?
+					'https':'http')+'://cdn.tynt.com/ti.js';
+			h=document.getElementsByTagName('script')[0];
+			h.parentNode.insertBefore(s,h);})();
+	</script>
+	<!-- End 33Across SiteCTRL -->
+</head>
+<body class="insight-template-default single single-insight postid-18431">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KP8FLV"
+				  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-KP8FLV');</script>
+<!-- End Google Tag Manager -->
+<!-- Facebook SDK -->
+<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script><div class="closeSubscribe disabled"></div>
+<header class="site-header">
+  <div class="header-wrapper">
+
+    <div class="top-row">
+      <div class="logo-container"><a href="https://www.americanactionforum.org"><img
+            src="https://www.americanactionforum.org/wp-content/themes/aaf/images/logo.svg"></a></div>
+      <div class="search-container-desktop">
+        <!-- TODO: Social Links are hardcoded -->
+        <span class="header-social">
+          <a href="https://www.facebook.com/AmericanActionForum/" target="_blank"><img src="https://www.americanactionforum.org/wp-content/themes/aaf/images/aaf-facebook.png"></a>
+          <a href="https://twitter.com/AAF" target="_blank"><img src="https://www.americanactionforum.org/wp-content/themes/aaf/images/aaf-twitter.png"></a>
+          <a href="https://www.youtube.com/user/AmericanActionForum" target="_blank"><img src="https://www.americanactionforum.org/wp-content/themes/aaf/images/aaf-youtube.png"></a>
+          <a href="https://www.instagram.com/americanactionforum/" target="_blank"><img src="https://www.americanactionforum.org/wp-content/themes/aaf/images/aaf-instagram.png"></a>
+        </span>
+        <a class="header-link1" href="https://www.americanactionforum.org/donate">Donate</a>
+        <a class="header-link2" href="https://www.americanactionforum.org/subscribe">Subscribe</a>
+
+        <div class="header-subscribe-menu disabled">
+	<img class="arrow-icon" src="https://www.americanactionforum.org/wp-content/themes/aaf/images/aaf-check-arrow.png">
+	<img class="arrow-spinner" src="https://www.americanactionforum.org/wp-content/themes/aaf/images/spinner.gif">
+	<div class="thankyou-message"><h1>Thank You!</h1></div>
+
+	<form action="https://americanactionforum.us7.list-manage.com/subscribe/post?u=47129334134c26e1b8926d742&amp;id=64783a8335" method="POST" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup-all" target="_blank">
+		<div class="hidden-inputs">
+						<input type=hidden name="slid" value="6700EAF45F07D38EE1A87B788BF1D6C5" />
+			<input type=hidden name="cmd" value="subscribe" />
+			<input type=hidden name="goto" value="https://www.americanactionforum.org/insight/opec-still-influences-oil-prices/#thankyou" />
+			<input type="hidden" name="errors_to" value="" />
+
+						<input type="radio" data-toggle="radio" class="format_mime" name="format" value="mime" />
+			<input type="radio" data-toggle="radio" class="format_html" name="format" value="html" checked />
+			<input type="radio" data-toggle="radio" class="format_plain" name="format" value="plain" />
+
+      <input class="custom_aaf_daily_dish" type="checkbox" value="1" name="group[22925][1]" id="mce-group[22925]-22925-0" checked>
+      <input class="custom_aaf_health_checkup" type="checkbox" value="2" name="group[22925][2]" id="mce-group[22925]-22925-1" checked>
+      <input class="custom_aaf_u6_fix" type="checkbox" value="4" name="group[22925][4]" id="mce-group[22925]-22925-2" checked>
+      <input class="custom_aaf_week_in_regs" type="checkbox" value="8" name="group[22925][8]" id="mce-group[22925]-22925-3" checked>
+
+		</div>
+
+		<div class="subscribe-table">
+			<div class="subscribe-header">Yes</div>
+			<div class="subscribe-header">No</div>
+			<div class="subscribe-header-main">&nbsp;</div>
+
+			<div class="subscribe-header"><span class="chk-ok" checked></span><input type="radio" name="daily-dish-check" value="yes" checked /></div>
+			<div class="subscribe-header"><span class="chk-no"></span><input type="radio" name="daily-dish-check" value="no" /></div>
+			<div class="subscribe-header-main"><h5>The Daily Dish</h5><p>Serving economic news and views every morning.</p></div>
+
+			<div class="subscribe-header"><span class="chk-ok" checked></span><input type="radio" name="u6-fix-check" value="yes" checked /></div>
+			<div class="subscribe-header"><span class="chk-no"></span><input type="radio" name="u6-fix-check" value="no" /></div>
+			<div class="subscribe-header-main"><h5>U6 Fix</h5><p>Analysis on the underemployment number in the monthly jobs report.</p></div>
+
+			<div class="subscribe-header"><span class="chk-ok" checked></span><input type="radio" name="week-in-reg-check" value="yes" checked /></div>
+			<div class="subscribe-header"><span class="chk-no"></span><input type="radio" name="week-in-reg-check" value="no" /></div>
+			<div class="subscribe-header-main"><h5>The Week in Regulation</h5>Weekly analysis of newly proposed and final rules, including their cost.</div>
+
+      <div class="subscribe-header"><span class="chk-ok" checked></span><input type="radio" name="health-checkup-check" value="yes" checked /></div>
+      <div class="subscribe-header"><span class="chk-no"></span><input type="radio" name="health-checkup-check" value="no" /></div>
+      <div class="subscribe-header-main"><h5>Weekly Checkup</h5>Weekly analysis of what’s happening in health care.</div>
+
+      <div class="mc-field-group">
+        <input type="email" value="" name="EMAIL" class="required email" placeholder="Email Address" id="mce-EMAIL">
+      </div>
+		</div>
+    <div id="mce-responses" class="clear">
+      <div class="response" id="mce-error-response" style="display:none"></div>
+      <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_47129334134c26e1b8926d742_64783a8335" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="sub-button button"></div>
+	</form>
+  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='MMERGE5';ftypes[5]='text';fnames[6]='MMERGE6';ftypes[6]='text';fnames[7]='MMERGE7';ftypes[7]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+</div>
+
+
+
+        <span class="header-search"><img src="https://www.americanactionforum.org/wp-content/themes/aaf/images/aaf-search.png"></span>
+        <form style="display:none;" role="search" method="get" class="search-form"
+            action="https://www.americanactionforum.org/search-form">
+          <div class="form-group">
+		<input type="search" class="search-field form-control" placeholder="Search terms go here." value="" name="search" title="Search Box" />
+	<input type="submit" class="search-submit btn" value="Search" />
+	<p class="ui-warning">At least one search term must be present.</p>
+</div>        </form>
+
+      </div>
+    </div>
+
+    <div class="bottom-row">
+      <div class="menu-container-desktop">
+        <div class="menu-top-main-menu-container"><ul id="menu-top-main-menu" class="header-navigation"><li id="menu-item-4" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4"><a href="/daily-dish">The Daily Dish</a></li>
+<li id="menu-item-2292" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2292"><a href="https://www.americanactionforum.org/topics/">Research</a></li>
+<li id="menu-item-11579" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11579"><a href="https://www.americanactionforum.org/press-contact/">Press</a></li>
+<li id="menu-item-11575" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11575"><a href="https://www.americanactionforum.org/about/">About AAF</a></li>
+<li id="menu-item-2033" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2033"><a href="/event">Events</a></li>
+<li id="menu-item-2034" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2034"><a href="/experts">Experts</a></li>
+</ul></div>      </div>
+      <div class="menu-container-mobile">
+        <div class="hamburger-container">
+          <button class="toggle-mobile-menu">
+            <i class="fa fa-bars"></i>
+            <i class="fa fa-times" style="display:none"></i>
+          </button>
+        </div>
+        <div style="clear:both;"></div>
+        <div class="mobile-menu">
+          <div class="menu-top-main-menu-container"><ul id="menu-top-main-menu-1" class="mobile-navigation"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4"><a href="/daily-dish">The Daily Dish</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2292"><a href="https://www.americanactionforum.org/topics/">Research</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11579"><a href="https://www.americanactionforum.org/press-contact/">Press</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11575"><a href="https://www.americanactionforum.org/about/">About AAF</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2033"><a href="/event">Events</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2034"><a href="/experts">Experts</a></li>
+</ul></div>          <div class="search-container-top-search">
+            <form role="search" method="get" class="search-form"
+                action="https://www.americanactionforum.org/search-form/">
+              <div class="form-group">
+		<input type="search" class="search-field form-control" placeholder="Search terms go here." value="" name="search" title="Search Box" />
+	<input type="submit" class="search-submit btn" value="Search" />
+	<p class="ui-warning">At least one search term must be present.</p>
+</div>            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</header>
+<!-- .site-header -->
+	<main id="main" class="site-main" role="main">
+
+				
+<article id="post-18431" class="post-18431 insight type-insight status-publish has-post-thumbnail hentry category-energy-environment">
+
+	<div class="main-content  ">
+		<div class="share-palette-desktop">
+			<span class="share-icons">
+				<a href="https://www.facebook.com/sharer/sharer.php?u=https://www.americanactionforum.org/insight/opec-still-influences-oil-prices/" target="_blank">
+					<img src="https://www.americanactionforum.org/wp-content/themes/aaf/images/aaf-facebook.png">
+				</a>
+				<a href="https://twitter.com/share?text=OPEC+Still+Influences+Oil+Prices&url=https://www.americanactionforum.org/insight/opec-still-influences-oil-prices/" target="_blank">
+					<img src="https://www.americanactionforum.org/wp-content/themes/aaf/images/aaf-twitter.png">
+				</a>
+									<a href="https://www.americanactionforum.org/print/?url=https://www.americanactionforum.org/insight/opec-still-influences-oil-prices/">
+					<img src="https://www.americanactionforum.org/wp-content/themes/aaf/images/aaf-pdf.png">
+				</a>
+								<a href="https://www.americanactionforum.org/print/?url=https://www.americanactionforum.org/insight/opec-still-influences-oil-prices/?print">
+					<img src="https://www.americanactionforum.org/wp-content/themes/aaf/images/aaf-print.png">
+				</a>
+			</span>
+		</div>
+		
+					<div class="share-palette-mobile">
+				<span class="share-icons"><a href="" target="_blank"></a></span>
+				<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<img src="https://www.americanactionforum.org/wp-content/themes/aaf/images/aaf-mobile-share.png">
+					</button>
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						<li>
+						<span class="share-icons">
+							<a href="https://www.facebook.com/AmericanActionForum/" target="_blank">
+								<img src="https://www.americanactionforum.org/wp-content/themes/aaf/images/aaf-facebook.png">
+							</a>
+							<a href="https://twitter.com/AAF" target="_blank">
+								<img src="https://www.americanactionforum.org/wp-content/themes/aaf/images/aaf-twitter.png">
+							</a>
+							<a href="" target="_blank">
+								<img src="https://www.americanactionforum.org/wp-content/themes/aaf/images/aaf-pdf.png"></a>
+							<a href="" target="_blank">
+								<img src="https://www.americanactionforum.org/wp-content/themes/aaf/images/aaf-print.png">
+							</a>
+						</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		
+		<p class="post-type">Insight</p><p class="post-date">June 25, 2018</p><h1 class="aaf-title">OPEC Still Influences Oil Prices</h1><p class="post-authors">Philip Rossetti</p><div class="body-content"><h3><strong>Summary</strong></h3>
+<ul>
+<li>Despite huge increases in U.S. oil production, the combination of increased oil demand and artificial constraints  on output through an agreement between OPEC and Russia, which together control more than half of global oil production, has forced prices to rise.</li>
+<li>Agreements to cut production, such as OPEC&#8217;s, are often difficult to maintain as higher oil prices encourage nations to boost production, but falling production in Venezuela allows other OPEC members to boost production without exceeding the overall compliance targets.</li>
+<li>High oil prices encourage policymakers to act, but the best policy response is usually to do nothing: High prices on their own will incentivize increased non-OPEC production, improved efficiency, and fuel substitution.</li>
+</ul>
+<p><strong> </strong></p>
+<h3><strong>Introduction</strong></h3>
+<p>At an Organization of the Petroleum Exporting Countries (OPEC) summit last week, the cartel of petroleum exporters deliberated on whether to increase their oil output, eventually agreeing to increase total production by an assumed 600,000 barrels per day. As oil prices were relatively high most of that week, with Brent crude oil trading at $75 per barrel, even President Trump was on the bandwagon <a href="https://www.usatoday.com/story/news/politics/2018/06/22/donald-trump-wants-opec-increase-oil-production-lower-prices/725347002/">calling for OPEC</a> to increase its production.</p>
+<p>The events of the past week show just how much power OPEC still holds over U.S. energy security, even though just two years ago the cartel seemed broken. As oil prices rise, the allure of government action to lower prices strengthens. Such action, while potentially attractive politically, would be policy folly, as it ignores the market dynamics at work when prices rise.</p>
+<p><strong> </strong></p>
+<h3><strong>But I thought OPEC was dead…?</strong></h3>
+<p><a href="https://www.fool.com/investing/2016/06/04/rip-opec-1960-2016.aspx">Tales of OPEC’s death</a> have been exaggerated. In late 2014, oil prices took a nose dive from over $100 per barrel to lows that dipped under $30 per barrel. Prices dropped initially because shale oil production in the United States caused U.S. oil production to double from around 5 million barrels per day (b/d) to 10 million b/d (and still increasing, recently <a href="https://www.reuters.com/article/us-usa-oil-production/u-s-oil-output-jumps-to-record-10-47-million-barrels-per-day-in-march-eia-idUSKCN1IW2F7">reaching 10.5 million b/d</a>). This massive increase threatened the ability of OPEC to manipulate prices. The cartel functions because member countries can raise prices by cutting output in a coordinated way, but the increased U.S. output reduced OPEC’s overall market share, and thus their leverage. The shale oil revolution meant the demise of OPEC, at least in theory.</p>
+<p>In 2015, decisionmakers in Saudi Arabia saw a threat from the upstart U.S. producers and kept their oil output high, believing that a period of sustained low oil prices would force costly producers in the United States out of the market. Yet as shale producers in the United States proved exceptionally resilient even under low prices (due to rapidly improving productivity), Saudi Arabia—whose finances rely heavily on oil revenues—eventually caved and cut output to force a price increase. This output cut came in the form of the <a href="http://www.opec.org/opec_web/en/press_room/4052.htm">2016 Vienna Agreement</a> among OPEC members and Russia. OPEC represents approximately 40 percent of the world’s <a href="https://www.eia.gov/totalenergy/data/browser/?tbl=T11.01B#/?f=M&amp;start=197301&amp;end=201802&amp;charted=">crude oil production</a>, and Russia around 13 percent. OPEC and Russia together controlled enough of global oil production that they could force a price increase by cutting output (a classic example of market manipulation by a cartel). In the 2016 agreement, OPEC and Russia agreed to cut their combined output by 1.8 million barrels per day.</p>
+<p>Stability in an agreement like what came from OPEC and Russia in 2016 is often tenuous. When prices rise, participants have incentives to defect and claim more money by increasing output. When prices fall, oil-reliant nations still have incentives to defect because increasing production can alleviate revenue shortfalls. Yet instead OPEC was over-compliant and managed to keep under proposed production caps. U.S. production alone is not enough to keep up with rising demand (<a href="http://www.opec.org/opec_web/static_files_project/media/downloads/publications/MOMR%20May%202018.pdf">1.65 million b/d per year</a>), and prices are consequently rising. Even the recent deal to increase OPEC output merely returns production levels to the agreed upon targets from 2016. How did OPEC manage to succeed in this?</p>
+<p>The strength of OPEC’s agreement has been aided by involuntary output cuts—mostly in Venezuela. The South American producer’s output has slid from 2.2 million barrels per day in 2016 to a mere <a href="http://www.opec.org/opec_web/static_files_project/media/downloads/publications/MOMR%20May%202018.pdf">1.4 million</a> barrels per day in 2018 due to the nation’s inability to invest in productivity improvements as it struggles with political and economic crises. Venezuela alone represents 44 percent of the required output cut from OPEC. Elsewhere, conflict is <a href="https://www.reuters.com/article/us-libya-security-oil-ports/east-libyan-forces-advance-to-retake-oil-ports-idUSKBN1JH166?il=0">flaring up in Libya’s oil crescent</a> and disrupting output, and President Trump’s promise to reimpose sanctions on Iran threatens their oil sales on the market. Not to mention other crises in oil producing nations, such as Nigeria. The upshot is that major players in OPEC’s market collusion have had to make relatively few changes to their output to meet production targets, making production caps easy to comply with. As a result, the United States—despite its huge output increase—is not entirely free of OPEC’s influence.</p>
+<p>&nbsp;</p>
+<h3><strong>Policy Solution: Patience</strong></h3>
+<p>The lesson of the latest OPEC agreement is that the United States is not yet comfortably “energy secure.” Americans still care about OPEC because they still control enough of market production to influence prices. That means when the United States is interacting with foreign oil producers politically—such as sanctioning Venezuela, Russia, or Iran—it still must be cognizant of how those actions will affect domestic oil prices.</p>
+<p>Policymakers today may be tempted to attempt to depress oil prices. In the past policies to control prices were tried, mostly unsuccessfully. During the oil crises of the 1970s, President Nixon implemented price controls on oil which lasted through President Carter’s Administration. President Carter sought creation of a “<a href="https://www.washingtonpost.com/archive/politics/1979/06/21/carter-proposes-100-million-solar-energy-bank/7d7ced0d-56ee-4e30-95c8-4f16e4c038a7/">solar bank</a>.” In 2005 and again in 2007, Congress enacted the Renewable Fuel Standard (RFS), a policy intended to replace petroleum fuel with ethanol (mostly from corn). All of these efforts have failed, with the RFS especially not only raising prices but also hurting incentives for domestic oil production more than those of foreign producers, <a href="https://www.americanactionforum.org/research/renewable-fuel-standards-policy-failures-economic-burdens/">AAF has shown</a>.</p>
+<p>The latest proposed policy is a reconsideration of “NOPEC,” an old legislative effort that would allow OPEC members to be sued by Americans for market manipulation. Until recently, U.S. presidents have always rejected NOPEC, as it would legitimize the efforts of foreign actors to sue the United States. President Trump is reportedly more amenable to the idea, but it is not entirely clear how, in practice, a U.S. court would extract court-awarded damages from a foreign government is not entirely clear.</p>
+<p>The best policy, as time has shown, is to minimize government interference. As OPEC pushes prices higher, it creates incentives for other producers to enter the market. OPEC’s “spare capacity” is <a href="https://www.eia.gov/finance/markets/crudeoil/supply-opec.php">projected to decline</a>, which shows a weakening of the cartel’s ability to manipulate prices and force out risk-taking competitors. Higher oil prices also spur the consumption of alternative fuels, improvements in efficiency, and the substitution of equipment (e.g. electric vehicle adoption). High oil prices in the 1970s incentivized electricity producers to use less oil, and now America only gets <a href="https://www.eia.gov/tools/faqs/faq.php?id=427&amp;t=3">0.5 percent of its electricity</a> from petroleum. Reagan’s lifting of price controls incentivized productivity and caused <a href="https://www.americanactionforum.org/research/reformed-saudi-economy-good-oil-markets/">oil prices to fall in 1981</a>, and more recently high prices were what allowed U.S. oil producers to take risks with shale production techniques. Government subsidies or regulations won’t break OPEC—the market will.</p>
+<p>&nbsp;</p>
+<h3><strong>Conclusion</strong></h3>
+<p>The continued ability of OPEC to influence global oil prices demonstrates that the U.S. economy remains far from immune to the influence of other oil-producing nations. Policymakers will continue to have incentives to focus on the near-term, but markets, as ever, hold much stronger incentives to diminish the power of cartels like OPEC, and that fact should be a guiding principle for any upcoming change in policy. Long-term energy security will require that government interventions do not undercut incentives for the private sector to improve productivity or reduce consumption.</p>
+</div><p class="disclaimer"><a href="https://www.americanactionforum.org/disclaimer">Disclaimer</a></p><div class="author-container">			<div class="author-inner">
+				<a href="https://www.americanactionforum.org/experts/philip-rossetti">
+					<div class="author">
+						<img class="author-image" src="https://www.americanactionforum.org/wp-content/uploads/2016/02/Rossetti-2-300x300.png"><h1 class="author-name">Philip Rossetti</h1><h2>Director of Energy Policy and Data Analyst</h2><p>Philip Rossetti is the Director of Energy at the American Action Forum.</p>					</div>
+				</a>
+			</div>
+			</div><div class="related-posts-container"><h1 class="related-posts">Related Posts</h1><div class="post-wrapper">
+<div class="card ">
+	<div class="card-research card-inner">
+		<a class="card-link" href="https://www.americanactionforum.org/research/renewable-fuel-standards-policy-failures-economic-burdens/">
+			<div class="date-type">
+				<p>April 19, 2018</p>				<p class="post-type">Research</p>
+			</div>
+			<div class="title-author">
+				<h1 class="aaf-title">The Renewable Fuel Standard’s Policy Failures and Economic Burdens</h1><p class="post-authors">Philip Rossetti</p>			</div>
+							<div class="excerpt ">
+							<p class="aaf-excerpt">The RFS has failed to achieve its policy goals while imposing significant other costs on consumers, and reforming the program’s design would not fix…</p>
+						</div>
+			
+		</a>
+	</div>
+	<div class="card-bottom"></div>
+</div>
+</div><div class="post-wrapper">
+<div class="card ">
+	<div class="card-research card-inner">
+		<a class="card-link" href="https://www.americanactionforum.org/research/reformed-saudi-economy-good-oil-markets/">
+			<div class="date-type">
+				<p>August 31, 2016</p>				<p class="post-type">Research</p>
+			</div>
+			<div class="title-author">
+				<h1 class="aaf-title">Reformed Saudi Economy Could Be Good for Oil Markets</h1><p class="post-authors">Philip Rossetti</p>			</div>
+							<div class="excerpt ">
+							<p class="aaf-excerpt">Increased oil production in the United States not only lowers prices and increases energy independence, but decreases the market share of price-manipulating…</p>
+						</div>
+			
+		</a>
+	</div>
+	<div class="card-bottom"></div>
+</div>
+</div></div>
+	</div>
+
+			<div class="side-content">
+      			<div class="author-container">			<div class="author-inner">
+				<a href="https://www.americanactionforum.org/experts/philip-rossetti">
+					<div class="author">
+						<img class="author-image" src="https://www.americanactionforum.org/wp-content/uploads/2016/02/Rossetti-2-300x300.png"><h1 class="author-name">Philip Rossetti</h1><h2>Director of Energy Policy and Data Analyst</h2><p>Philip Rossetti is the Director of Energy at the American Action Forum.</p>					</div>
+				</a>
+			</div>
+			</div>		</div>
+	
+</article><!-- #post-## -->
+
+		
+	</main><!-- .site-main -->
+
+<footer id="colophon" class="site-footer" role="contentinfo">
+	<div class="site-info">
+
+		<div class="footer-menu">
+
+			<div id="footer-social-links" class="social-links-wrap">
+				<div class="social-links">
+  <span id="footer-social-links-facebook" class="social-links-facebook">
+    <a target="_blank" href="https://www.facebook.com/AmericanActionForum/"><img src="https://www.americanactionforum.org/wp-content/themes/aaf/images/aaf-facebook.png"></a>
+  </span>
+  <span id="footer-social-links-twitter" class="social-links-twitter">
+    <a target="_blank" href="https://twitter.com/AAF"><img src="https://www.americanactionforum.org/wp-content/themes/aaf/images/aaf-twitter.png"></a>
+  </span>
+  <span id="footer-social-links-youtube" class="social-links-youtube">
+    <a target="_blank" href="https://www.youtube.com/user/AmericanActionForum"><img src="https://www.americanactionforum.org/wp-content/themes/aaf/images/aaf-youtube.png"></a>
+  </span>
+	<span id="footer-social-links-instagram" class="social-links-instagram">
+		<a href="https://www.instagram.com/americanactionforum/" target="_blank"><img src="https://www.americanactionforum.org/wp-content/themes/aaf/images/aaf-instagram.png"></a>
+	</span>
+</div>			</div>
+			<div class="blue-hr">
+
+			</div>
+
+			
+			<div class="footer-links">
+				<a href="https://www.americanactionforum.org/donate" class="footer-link">Donate</a>
+				<a href="https://www.americanactionforum.org/daily-dish" class="footer-link">The Daily Dish</a>
+				<a href="https://www.americanactionforum.org/careers" class="footer-link">Careers</a>
+				<a href="https://www.americanactionforum.org/internships" class="footer-link">Internships</a>
+				<a href="https://www.americanactionforum.org/contact-us" class="footer-link">Contact Us</a>
+			</div>
+
+			<div class="footer-search">
+		  
+                <div class='gf_browser_chrome gform_wrapper' id='gform_wrapper_1' ><form method='post' enctype='multipart/form-data'  id='gform_1'  action='/insight/opec-still-influences-oil-prices/'>
+                        <div class='gform_heading'>
+                            <h3 class='gform_title'>Daily Dish Signup Footer</h3>
+                            <span class='gform_description'></span>
+                        </div>
+                        <div class='gform_body'><ul id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below'><li id='field_1_1'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_1' >Get the Daily Dish<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_1' id='input_1_1' type='text' value='' class='medium' tabindex='1'  placeholder='Email' aria-required="true" aria-invalid="false" />
+                        </div></li>
+                            </ul></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_1' class='gform_button button' value='Submit' tabindex='2' onclick='if(window["gf_submitting_1"]){return false;}  window["gf_submitting_1"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_1"]){return false;} window["gf_submitting_1"]=true;  jQuery("#gform_1").trigger("submit",[true]); }' /> 
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsImI4MDc1NzQ5ODZmMjVlNjcyZmViNzU0OWIxOGYxOTcxIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>			</div>
+
+		</div>
+
+		<div class="footer-legal legal-wrap">
+			<p><a href="https://www.americanactionforum.org/privacy-policy">Privacy Policy</a></p>
+		</div>
+
+	</div>
+	<!-- .site-info -->
+</footer><!-- .site-footer -->
+
+<div class="bottom-footer-wrapper">
+  <div class="footer-logo-container"><a href="https://www.americanactionforum.org"><img src="https://www.americanactionforum.org/wp-content/themes/aaf/images/logo.svg"></a></div>
+
+  <div class="footer-disclaimer">
+    <p>The American Action Forum is a 21st century center-right policy institute providing actionable research and analysis to solve America’s most pressing policy challenges.</p>
+  </div>
+</div>
+<link rel='stylesheet' id='gforms_reset_css-css'  href='https://www.americanactionforum.org/wp-content/plugins/gravityforms/css/formreset.min.css?ver=2.4.6.15' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_formsmain_css-css'  href='https://www.americanactionforum.org/wp-content/plugins/gravityforms/css/formsmain.min.css?ver=2.4.6.15' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_ready_class_css-css'  href='https://www.americanactionforum.org/wp-content/plugins/gravityforms/css/readyclass.min.css?ver=2.4.6.15' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_browsers_css-css'  href='https://www.americanactionforum.org/wp-content/plugins/gravityforms/css/browsers.min.css?ver=2.4.6.15' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.americanactionforum.org/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='https://www.americanactionforum.org/wp-content/themes/aaf/js/lib/bootstrap.min.js?ver=3.3.6'></script>
+<script type='text/javascript' src='https://www.americanactionforum.org/wp-content/themes/aaf/js/aaf.min.js?ver=1.8.189'></script>
+<script type='text/javascript' src='https://www.americanactionforum.org/wp-includes/js/wp-embed.min.js?ver=ba991dae88c8dcdf89b20b16ba0bf38d'></script>
+<script type='text/javascript' src='https://www.americanactionforum.org/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.4.6.15'></script>
+<script type='text/javascript'> jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [1, 1]) } ); </script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"a6e512a78c","applicationID":"15951219","transactionName":"NFwGYUsHXkQAAkIMXQ0WJVZND19ZTghYAVcb","queueTime":0,"applicationTime":408,"atts":"GBsFFwMdTUo=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

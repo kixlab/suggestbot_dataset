@@ -1,0 +1,2743 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]><html xmlns="http://www.w3.org/1999/xhtml" tal:attributes="lang language;" class="no-js ie6 oldie"><![endif]-->
+<!--[if IE 7]><html xmlns="http://www.w3.org/1999/xhtml" tal:attributes="lang language;" class="no-js ie7 oldie"><![endif]-->
+<!--[if IE 8]><html xmlns="http://www.w3.org/1999/xhtml" tal:attributes="lang language;" class="no-js ie8 oldie"><![endif]-->
+<!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml" class="no-js" lang="en"><!--<![endif]-->
+
+    
+    
+    
+    
+    
+
+
+<head>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- viewport meta needed for proper view on an ipad -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#069" />
+
+    <meta name="description" content="Information on the environment for those
+      involved in developing, adopting, implementing and evaluating environmental
+      policy, and also the general public" />
+    <link href="https://plus.google.com/104345627234408209119" rel="publisher" />
+    
+
+
+
+
+
+
+    <meta name="DC.description" content=" Total greenhouse gas emissions in the EU-27, excluding emission and removals from land-use, land use change and forestry (LULUCF), decreased by 0.7 % between 2004 and 2005 and by 7.9 % between 1990 and 2005. Emissions decreased strongly in the new Member States during the 1990s but since 2000, the trends have been almost identical in the EU-15 and in the new Member States. Between 1990 and 2005, greenhouse gas emissions decreased in all sectors except in the transport sector, where they increased significantly.   In the EU-15, total greenhouse gas emissions (excluding LULUCF) decreased by 0.8 % between 2004 and 2005, by 1.5 % between 1990 and 2005 and by 2.0 % between the Kyoto base year and 2005. This means the EU-15 has achieved one fourth of the total reduction needed to achieve the 8 % reduction from base-year level required by 2008-2012 under the Kyoto Protocol. However, the target can also be reached through actions outside the EU (use of Kyoto mechanisms).   In the 12 new Member States, total greenhouse gas emissions (excluding LULUCF) decreased by 0.3 % between 2004 and 2005 and by 27.8 % between 1990 and 2005. Except in Slovenia, 2005 emissions of all the new Member States that have a Kyoto target were well below their Kyoto target. " />
+<meta name="description" content=" Total greenhouse gas emissions in the EU-27, excluding emission and removals from land-use, land use change and forestry (LULUCF), decreased by 0.7 % between 2004 and 2005 and by 7.9 % between 1990 and 2005. Emissions decreased strongly in the new Member States during the 1990s but since 2000, the trends have been almost identical in the EU-15 and in the new Member States. Between 1990 and 2005, greenhouse gas emissions decreased in all sectors except in the transport sector, where they increased significantly.   In the EU-15, total greenhouse gas emissions (excluding LULUCF) decreased by 0.8 % between 2004 and 2005, by 1.5 % between 1990 and 2005 and by 2.0 % between the Kyoto base year and 2005. This means the EU-15 has achieved one fourth of the total reduction needed to achieve the 8 % reduction from base-year level required by 2008-2012 under the Kyoto Protocol. However, the target can also be reached through actions outside the EU (use of Kyoto mechanisms).   In the 12 new Member States, total greenhouse gas emissions (excluding LULUCF) decreased by 0.3 % between 2004 and 2005 and by 27.8 % between 1990 and 2005. Except in Slovenia, 2005 emissions of all the new Member States that have a Kyoto target were well below their Kyoto target. " />
+<meta name="DC.format" content="text/plain" />
+<meta name="DC.type" content="Indicator Assessment" />
+<meta name="DC.date.valid_range" content="2008/02/21 - 2017/08/25" />
+<meta name="keywords" content="climate, csi, greenhouse gases, air, ozone, emissions" />
+<meta name="DC.date.modified" content="2017-08-25T11:47:20+02:00" />
+<meta name="DC.subject" content="climate, csi, greenhouse gases, air, ozone, emissions" />
+<meta name="DC.date.created" content="2007-11-16T17:16:21+02:00" />
+<meta name="DC.language" content="en" />
+
+  
+    
+        
+            
+            
+            
+            
+                <style>
+/* - critical.css - */
+/* https://www.eea.europa.eu/portal_css/critical.css?original=1 */
+/* *//* */@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-display:swap;src:local("Open Sans Regular"),local("OpenSans-Regular"),url("https://www.eea.europa.eu/GoogleFonts-OpenSans-Regular1-v15.woff2") format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-display:swap;src:local("Open Sans Regular"),local("OpenSans-Regular"),url("https://www.eea.europa.eu/GoogleFonts-OpenSans-Regular2-v15.woff2") format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"),local("OpenSans-Bold"),url("https://www.eea.europa.eu/GoogleFonts-OpenSans-Bold1-v15.woff2") format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"),local("OpenSans-Bold"),url("https://www.eea.europa.eu/GoogleFonts-OpenSans-Bold2-v15.woff2") format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-display:swap;src:local("Open Sans Regular"),local("OpenSans-Regular"),url("https://www.eea.europa.eu/GoogleFonts-OpenSans-Regular1-v15.woff2") format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-display:swap;src:local("Open Sans Regular"),local("OpenSans-Regular"),url("https://www.eea.europa.eu/GoogleFonts-OpenSans-Regular2-v15.woff2") format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"),local("OpenSans-Bold"),url("https://www.eea.europa.eu/GoogleFonts-OpenSans-Bold1-v15.woff2") format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"),local("OpenSans-Bold"),url("https://www.eea.europa.eu/GoogleFonts-OpenSans-Bold2-v15.woff2") format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@media screen{*{margin:0;padding:0}}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}::-webkit-input-placeholder,:-ms-input-placeholder,::placeholder{color:#777}:link,:visited{text-decoration:none}ul,ol{list-style:none}h1,h2,h3,h4,h5,h6,pre,code{font-size:1em}h1,.h1{font-size:180%}h2,.h2{font-size:150%}a img,:link img,:visited img{border:none}a{color:#346f83;outline:none;cursor:pointer}a:hover{color:#8e004d}a:visited{color:#8e004d}table{border-spacing:0}img{vertical-align:text-bottom}iframe{border:0 none}input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}label{font-weight:bold}legend{display:block;margin-bottom:17px;color:#333333}.clearfix::after,.eea-container::after,.row::after,.form-horizontal .form-group::after,.nav::after,.navbar::after,.navbar-header::after,.navbar-collapse::after{clear:both}.clearfix::before,.clearfix::after,.eea-container::before,.eea-container::after,.row::before,.row::after,.form-horizontal .form-group::before,.form-horizontal .form-group::after,.nav::before,.nav::after,.navbar::before,.navbar::after,.navbar-header::before,.navbar-header::after,.navbar-collapse::before,.navbar-collapse::after{content:" ";display:table}.visualClear{display:block;clear:both}.hiddenStructure{border:0 !important;clip:rect(0 0 0 0) !important;clip-path:inset(50%) !important;height:1px !important;margin:-1px !important;overflow:hidden !important;padding:0 !important;position:absolute !important;white-space:nowrap !important;width:1px !important}.eea-slide-tooltips,#portal-logo-link-header,.navbar-toggle,.hiddenElem,.site-description,#print-warning,#portaltab-eeahome,#portal-searchbox,#edit-bar{display:none}.hidden{display:none !important}html{font-size:16px !important}body{font:75% 'Open Sans',Verdana,Helvetica,Arial,sans-serif;color:#333;margin:0;padding:0}#globalnav-holder{display:block}#visual-portal-wrapper{max-width:1024px;margin:30px auto 0 auto;padding:0;clear:both}#footer-wrapper{background-color:#004B87;margin:2em 0 0 0;padding:2em 0;clear:both}h1,h2,h3,h4,h5,h6{color:#004B87;font-weight:bold;font-family:'Open Sans', Verdana, Helvetica, Arial, sans-serif;line-height:1.5}p{font-family:'Open Sans', Verdana, Helvetica, Arial, sans-serif;margin:0 0 0.75em 0;line-height:1.5em}ul{margin:0 0 0 1.5em}.space-between{justify-content:space-between}.flex{display:flex}.flex-container{max-width:1024px;width:100%;margin:auto;display:flex;align-items:baseline;flex-wrap:wrap}.eea-container{margin:0 auto;padding:0 15px;max-width:1400px}.fullwidth .eea-container{max-width:100%}.pull-left{float:left !important}.pull-right{float:right !important}.list-items>li{display:list-item}.contentViews li{display:inline}.list-inline li{display:inline !important}.list-inline li::before{content:" "}@media screen{.width-full{width:100%}.row{width:100%;display:block;position:relative}.cell{position:relative;float:left}.width-3\:4{width:58.5%}}.width-1\:4{width:35.5%}.panel{display:none;z-index:600;background:transparent;border:0}#header-holder{width:100%;clear:both;display:block;position:relative}#header-holder .navbar{background-color:#FFF;border-bottom:1px solid #ececec}.navbar-toggle{position:relative;float:right;padding:9px 10px;margin-top:1em;margin-bottom:8px;background:transparent none;border:1px solid #ddd;border-radius:4px;cursor:pointer}.navbar-collapse{visibility:hidden;display:none}#portal-top{display:flex;flex-wrap:wrap}#portal-header{display:flex;justify-content:space-between;align-items:center;clear:both;position:relative;margin:0 auto;overflow:inherit;min-height:60px;z-index:initial;width:100%}#printLogo{display:block;width:auto;height:40px}#portal-globalnav{clear:both;display:flex;height:50px;list-style:none;margin:0 auto;max-width:1024px;padding:0;position:relative}.secondary-portaltabs{color:#666}#secondary-globalnav-tips{width:0;padding:0 !important;font-size:12px}.portal-globalnav>li,.secondary-portaltabs>li{margin:0;height:50px;display:flex;line-height:normal}.portal-globalnav>li>a,.eea-siteaction>a{display:flex;align-items:center}.portal-globalnav>li>a{color:inherit;padding:1em 0.75em}#portal-personaltools-wrapper{display:none}.eea-siteaction>a,.eea-siteaction>a:hover,.eea-siteaction .eea-icon{color:inherit;cursor:pointer}.siteaction-title{display:none;margin-left:0.2em}#siteaction-chooselang-menu .siteaction-title,#siteaction-search-menu .siteaction-title{display:inline-block}#siteaction-europe-menu{padding-left:1em;padding-right:0}.icon-siteaction-europe-flag{background:url("https://www.eea.europa.eu/europe-flag.svg") no-repeat top left;display:inline-block;width:60px;height:38px;-webkit-background-size:contain;background-size:contain}.fullwidth #portal-globalnav,.fullwidth #portal-header,.fullwidth .flex-container,.fullwidth #visual-portal-wrapper{max-width:100%}.fullwidth #visual-portal-wrapper{overflow:hidden}.fullwidth #portal-columns{min-width:100%}#eea-above-content{min-height:1px}.plone-breadcrumb{font-size:100%;margin-bottom:.5em;border-width:0 0 1px 0;border-style:solid;border-color:#ececec}.plone-breadcrumb-list>li{font-weight:400;display:inline-block;position:relative;padding:0 25px 0 0;margin:0;line-height:1}.plone-breadcrumb-list{display:inline-block;padding:8px 0;list-style:none;margin:0}.plone-breadcrumb-list .eea-icon{vertical-align:0}.fullwidth .plone-breadcrumb .container{margin:0;min-width:100%}.plone-breadcrumb-list>li+li:after{content:"\f054";position:absolute;color:#cccccc;padding:0;font-family:"FontAwesome";top:0;left:-18px}.plone-breadcrumb a{color:#086ca3}.plone-breadcrumb .breadcrumbSeparator,.plone-breadcrumb #breadcrumbs-you-are-here{display:none}.portalMessage{background-color:#f3f3f3;padding:1em;clear:both}#megatopics-area{font-size:0.9em;margin-bottom:1.5em;display:flex;flex-wrap:wrap;-ms-flex-wrap:nowrap;justify-content:space-between;width:100%}#megatopics-area .portlet,#megatopics-area dd{margin:0;padding:0;min-height:255px}.portlet-megatopic{display:flex;white-space:nowrap;flex:1}.portlet-megatopic ul{height:auto;margin:1.5em;padding:0}#portal-columns{padding-top:1em}.content-core p,.content-core li{font-size:115%}.content-core li,.portlet li,.portletStaticText li{margin-bottom:0.25em;line-height:1.5em;display:list-item}.documentContent li a{display:inline}.content-core ul{margin-left:1.5em}.content-core dt{font-weight:bold;margin-bottom:0}.portletHeader,.portlet .portletHeader{font-weight:normal;margin-bottom:1em}#content .featured p:last-child{margin-bottom:0}#main-content{display:flex;flex-wrap:wrap;justify-content:space-between}#portal-column-content{min-width:635px;padding:0 15px}#portal-column-two{min-width:350px}#portal-column-two .portlet{margin:0 0 1em 0}.column-area,.right-column-area{width:59.5%;flex-basis:59.5%;margin:0 0;padding:0}.right-column-area{width:39%;flex-basis:37.5%;order:1}.frontpage #highlights-area{padding:0;overflow:hidden}.featured,.portlet{margin-bottom:1em;padding:1.5em;background:#ffffff;border:1px solid #ececec}.figure-left{float:left}#article-language{margin-top:-40px;position:absolute;right:1.5em;display:block}.documentExportActions{float:right;margin:0 0 1em 1em}#news-header{height:35px;clear:both;display:block;margin:14px 0 5px 0}#news-header h2{border:none;font-size:160%;font-weight:normal;margin:6px;padding:0}#articles-area h2{padding-top:0;line-height:1em;border-bottom:0;font-weight:normal}#semantic-data-service{margin-top:0}#topic-selector{position:absolute;margin-top:2.8em;left:0;margin-left:8em}.filter-topic{float:left;text-align:left;width:81%;padding-top:6px;margin-top:0}.gallery-layout-selection{float:right;position:relative;top:5px;list-style:none;margin-bottom:10px;display:inline}#visual-portal-wrapper .eea-tabs{padding:0 10px 0 0;margin:0;font-size:12px;list-style:none none;background-color:#004B87;border:1px solid #ececec;border-bottom:0}.eea-tabs::before,.eea-tabs::after{display:table;content:" ";clear:both}#whatsnew-gallery .eea-tabs>li{float:left}#visual-portal-wrapper .eea-tabs.two-rows>li>a{line-height:2.5}.eea-tabs>li{margin:0;padding:0;display:inline-block}.eea-tabs>li>a{max-width:195px;position:relative;display:block;color:#fff;text-shadow:1px 1px 1px #000000;padding:8px}.eea-tabs.two-rows>li>a{line-height:1.35}.eea-tabs-panels{border:1px solid #ececec;padding:15px;clear:both}.eea-tabs-panel{display:none}.eea-tabs-panel:first-of-type{display:block}.tileImage{float:left;margin:1em 1em 1em 0}.archives{float:right;margin:1.5em 25px 15px 15px;position:relative;top:8px;line-height:1em}#eea-mobile-shortcut.shortcut-default,#enquiry-service-shortcut.shortcut-default{padding:25px 21px}.shortcut-default{text-align:left;padding:1.5em;background:#ffffff;margin-bottom:1em;border:1px solid #ececec}@media screen and (min-width: 1200px){.navbar-collapse{display:block;height:auto;overflow:visible;visibility:visible}}@media all and (-ms-high-contrast: none), (-ms-high-contrast: active){.hiddenStructure{display:none !important}#portal-logo-link{width:213px;display:block}}/* */
+/* */
+
+</style>
+            
+            
+        
+
+    
+        
+            
+            
+                
+                    <link rel="preload" onload="this.onload=null;this.rel='stylesheet'" href="https://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1558388351037513018.css" as="style" />
+                    <noscript><link rel="stylesheet" href="https://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1558388351037513018.css" /></noscript>
+                
+                
+            
+            
+            
+            
+        
+
+    
+        
+            
+            
+                
+                    <link rel="preload" onload="this.onload=null;this.rel='stylesheet'" href="https://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1558388351039083004.css" as="style" />
+                    <noscript><link rel="stylesheet" href="https://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1558388351039083004.css" /></noscript>
+                
+                
+            
+            
+            
+            
+        
+
+    
+        
+            
+            
+                
+                    <link rel="preload" onload="this.onload=null;this.rel='stylesheet'" href="https://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1558388351039293051.css" media="all" as="style" />
+                    <noscript><link rel="stylesheet" href="https://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1558388351039293051.css" media="all" /></noscript>
+                
+                
+            
+            
+            
+            
+        
+
+    
+        
+            
+            
+                
+                    <link rel="preload" onload="this.onload=null;this.rel='stylesheet'" href="https://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1558388351041013002.css" as="style" />
+                    <noscript><link rel="stylesheet" href="https://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1558388351041013002.css" /></noscript>
+                
+                
+            
+            
+            
+            
+        
+
+    
+
+    <script>
+        !function(t){"use strict";t.loadCSS||(t.loadCSS=function(){});var e=loadCSS.relpreload={};if(e.support=function(){var e;try{e=t.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),e.bindMediaToggle=function(t){function e(){t.media=a}var a=t.media||"all";t.addEventListener?t.addEventListener("load",e):t.attachEvent&&t.attachEvent("onload",e),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(e,3e3)},e.poly=function(){if(!e.support())for(var a=t.document.getElementsByTagName("link"),n=0;n<a.length;n++){var o=a[n];"preload"!==o.rel||"style"!==o.getAttribute("as")||o.getAttribute("data-loadcss")||(o.setAttribute("data-loadcss",!0),e.bindMediaToggle(o))}},!e.support()){e.poly();var a=t.setInterval(e.poly,500);t.addEventListener?t.addEventListener("load",function(){e.poly(),t.clearInterval(a)}):t.attachEvent&&t.attachEvent("onload",function(){e.poly(),t.clearInterval(a)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:t.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+    </script>
+    
+      <script src="https://www.eea.europa.eu/raven.min.js" ></script>
+    
+
+
+
+  
+
+
+<title>
+  Greenhouse gas emission trends
+  &mdash;
+
+  European Environment Agency
+</title>
+
+
+    
+
+    
+
+    
+        
+            
+        
+        
+            <base href="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/" /><!--[if lt IE 7]></base><![endif]-->
+        
+    
+
+    
+
+    
+    <!-- dummy used until eea.pagedesign is installed, this file can be removed later -->
+
+
+    
+    
+
+
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    <script type="text/javascript">/* jslint:disable */
+!function(){var e=function(){function e(){if(!r.isReady){try{document.documentElement.doScroll("left")}catch(t){return void setTimeout(e,1)}r.ready()}}var t,n,o={};o["[object Boolean]"]="boolean",o["[object Number]"]="number",o["[object String]"]="string",o["[object Function]"]="function",o["[object Array]"]="array",o["[object Date]"]="date",o["[object RegExp]"]="regexp",o["[object Object]"]="object";var r={isReady:!1,readyWait:1,holdReady:function(e){e?r.readyWait++:r.ready(!0)},ready:function(e){if(!0===e&&!--r.readyWait||!0!==e&&!r.isReady){if(!document.body)return setTimeout(r.ready,1);if(r.isReady=!0,!0!==e&&--r.readyWait>0)return;t.resolveWith(document,[window.jQuery])}},bindReady:function(){if(!t){if(t=r._Deferred(),"complete"===document.readyState)return setTimeout(r.ready,1);if(document.addEventListener)document.addEventListener("DOMContentLoaded",n,!1),window.addEventListener("load",r.ready,!1);else if(document.attachEvent){document.attachEvent("onreadystatechange",n),window.attachEvent("onload",r.ready);var o=!1;try{o=null==window.frameElement}catch(e){}document.documentElement.doScroll&&o&&e()}}},_Deferred:function(){var e,t,n,o=[],i={done:function(){if(!n){var t,d,a,c,u,y=arguments;for(e&&(u=e,e=0),t=0,d=y.length;t<d;t++)a=y[t],"array"===(c=r.type(a))?i.done.apply(i,a):"function"===c&&o.push(a);u&&i.resolveWith(u[0],u[1])}return this},resolveWith:function(r,i){if(!n&&!e&&!t){i=i||[],t=1;try{for(;o[0];)o.shift().apply(r,i)}finally{e=[r,i],t=0}}return this},resolve:function(){return i.resolveWith(this,arguments),this},isResolved:function(){return!(!t&&!e)},cancel:function(){return n=1,o=[],this}};return i},type:function(e){return null==e?String(e):o[Object.prototype.toString.call(e)]||"object"}};return document.addEventListener?n=function(){document.removeEventListener("DOMContentLoaded",n,!1),r.ready()}:document.attachEvent&&(n=function(){"complete"===document.readyState&&(document.detachEvent("onreadystatechange",n),r.ready())}),function(e){r.bindReady();r.type(e);t.done(e)}}();window.jQuery=$=jq=function(t,n){return"function"==typeof t?e(t):new jQuery.fn.init(t,n)},window.jQuery.fn=window.jQuery.prototype={init:function(){return this}},window.jQuery.fn.init.prototype=window.jQuery.fn,window.jQuery.fn.ready=e}();
+</script>
+
+        <script type="text/javascript"> context_url='https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2';</script>
+    
+        <link rel="canonical" href="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends-6/assessment-2" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.eea.europa.eu/favicon.ico" />
+    <link rel="apple-touch-icon" href="https://www.eea.europa.eu/touch_icon.png" />
+
+
+<script type="text/javascript">
+        jQuery(function($){
+            if (typeof($.datepicker) != "undefined"){
+              $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional[''],
+                {dateFormat: 'dd/mm/yy'}));
+            }
+        });
+        </script>
+
+
+<meta property="og:title" content="Greenhouse gas emission trends" /><meta property="og:url" content="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2" /><meta property="og:image" content="https://www.eea.europa.eu/logo.jpg" /><meta property="og:site_name" content="European Environment Agency" /><meta property="og:description" content=" Total greenhouse gas emissions in the EU-27, excluding emission and removals from land-use, land use change and forestry (LULUCF), decreased by 0.7 % between 2004 and 2005 and by 7.9 % between 1990 and 2005. Emissions decreased strongly in the new Member States during the 1990s but since 2000, the trends have been almost identical in the EU-15 and in the new Member States. Between 1990 and 2005, greenhouse gas emissions decreased in all sectors except in the transport sector, where they increased significantly.   In the EU-15, total greenhouse gas emissions (excluding LULUCF) decreased by 0.8 % between 2004 and 2005, by 1.5 % between 1990 and 2005 and by 2.0 % between the Kyoto base year and 2005. This means the EU-15 has achieved one fourth of the total reduction needed to achieve the 8 % reduction from base-year level required by 2008-2012 under the Kyoto Protocol. However, the target can also be reached through actions outside the EU (use of Kyoto mechanisms).   In the 12 new Member States, total greenhouse gas emissions (excluding LULUCF) decreased by 0.3 % between 2004 and 2005 and by 27.8 % between 1990 and 2005. Except in Slovenia, 2005 emissions of all the new Member States that have a Kyoto target were well below their Kyoto target. " /><meta property="og:type" content="article" />
+
+
+    <link rel="alternate" href="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/atom.xml" title="Greenhouse gas emission trends - Atom" type="application/rss+xml" />
+
+    <link rel="alternate" href="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/rss.xml" title="Greenhouse gas emission trends - RSS 2.0" type="application/rss+xml" />
+
+    <link rel="alternate" href="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/RSS" title="Greenhouse gas emission trends - RSS 1.0" type="application/rss+xml" />
+
+
+    <link rel="search" href="https://www.eea.europa.eu/search_form" title="Search this site" />
+
+
+
+  <link rel="alternate" hreflang="en" href="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2" />
+
+</head>
+
+<body class="template-view portaltype-assessment site-SITE section-data-and-maps subsection-indicators subsection-indicators-greenhouse-gas-emission-trends subsection-indicators-greenhouse-gas-emission-trends-greenhouse-gas-emission-trends-assessment-2 icons-on userrole-anonymous scroll-analytics expired-content en" dir="ltr" data-portal-url="https://www.eea.europa.eu" data-base-url="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2" data-sentry-env="W1 AWS" data-sentry-ver="19.5.22" data-sentry-dsn="https://b8f49a13f9704ac88fb4c9bb30539028@sentry.eea.europa.eu/2">
+
+    <div id="print-warning">
+        <p>Do something for our planet, print this page only if needed. Even a small action can make an enormous difference when millions of people do it!</p>
+    </div>
+
+    <a class="eea-template back-to-toc-button link-without-style" href="#document-toc" title="Back to table of contents"></a>
+
+    <div id="header-holder">
+                               <div class="navbar navbar-default navbar-fixed-top">
+                               <div class="eea-container">
+                               <div class="navbar-header">
+                               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                               <span class="sr-only">Toggle navigation</span>
+                               <span class="icon-bar"></span>
+                               <span class="icon-bar"></span>
+                               <span class="icon-bar"></span>
+                               </button>
+                               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                               <div id="portal-top">
+                               
+                               <!-- ClickTale Top part -->
+<script type="text/javascript">
+var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
+
+<div id="portal-header">
+    <p class="hiddenStructure">
+  <a accesskey="2" href="#content">Skip to content.</a> |
+
+  <a accesskey="6" href="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2#eea-portlet-navigation-tree">Skip to navigation</a>
+</p>
+
+<div id="logo-en" class="portal-logo">
+
+    <a href="https://www.eea.europa.eu" accesskey="1" id="portal-logo-link" title="European Environment Agency">
+        <img src="https://www.eea.europa.eu/EEA-logo-25-anniversary.svg" alt="European Environment Agency" id="printLogo" />
+    </a>
+</div>
+
+
+
+<div id="portal-searchbox" class="portal-searchbox">
+    
+    <script>(function() {
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = 'https://www.eea.europa.eu/eea-custom-search.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+            })();</script>
+    
+        <div class="gsc-control-cse gsc-control-cse-en gsc-control-wrapper-cse">
+            <form method="get" class="gsc-search-box gsc-search-box-tools" autocomplete="off" action="https://www.eea.europa.eu/eea-custom-search">
+                <table class="gsc-search-box">
+                    <tr>
+                        <td class="gsc-input">
+                            <div class="gsc-input-box">
+                                <input type="text" name="q" class="gsc-input-query js-gsc-input-query" placeholder="Search" data-tags-url="https://www.eea.europa.eu/eea-custom-search.tags" />
+                                
+                            </div>
+                        </td>
+                        <td class="gsc-search-button">
+                            <button class="gsc-search-button gsc-search-button-v2">
+                                <span class="eea-icon eea-icon-search"><!-- empty --></span>
+                            </button>
+                        </td>
+                        <td class="gsc-clear-button">
+                            <div class="gsc-clear-button"><!-- empty --></div>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="eea-search-links">
+            <a href="http://search.apps.eea.europa.eu" class="pull-left search_advanced_link">
+                <span>Advanced search</span>
+            </a>
+            <a class="pull-right search_glossary_link" href="/help/glossary">A-Z Glossary</a>
+        </div>
+    
+
+</div>
+
+
+     <div id="globalnav-holder">
+        <h5 class="hiddenStructure">Sections</h5>
+        <ul id="portal-globalnav"  class="portal-globalnav">
+
+            
+                
+                    <li id="portaltab-eeahome" class="plain">
+                     <a href="http://www.eea.europa.eu/" title="">
+                        <span>European Environment Agency</span>
+                    </a>
+                    </li>
+                
+
+                
+            
+                
+                    <li id="portaltab-themes" class="plain">
+                     <a href="/themes" title="Explore by environmental topics">
+                        <span>Topics</span>
+                    </a>
+                    </li>
+                
+
+                
+            
+                
+                    <li id="portaltab-countries" class="plain">
+                     <a href="/countries-and-regions" title="">
+                        <span>Countries</span>
+                    </a>
+                    </li>
+                
+
+                
+            
+                
+                    <li id="portaltab-data-and-maps" class="plain">
+                     <a href="/data-and-maps" title="Environmental data, charts, maps, indicators and interactive data applications">
+                        <span>Data and maps</span>
+                    </a>
+                    </li>
+                
+
+                
+            
+                
+                    <li id="portaltab-indicators" class="eea-nav-current">
+                     <a href="/data-and-maps/indicators/" title="">
+                        <span>Indicators</span>
+                    </a>
+                    </li>
+                
+
+                
+            
+                
+                    <li id="portaltab-reports" class="plain">
+                     <a href="/publications" title="">
+                        <span>Publications</span>
+                    </a>
+                    </li>
+                
+
+                
+            
+                
+                    <li id="portaltab-media" class="plain">
+                     <a href="/media" title="">
+                        <span>Media</span>
+                    </a>
+                    </li>
+                
+
+                
+            
+                
+                    <li id="portaltab-abouteea" class="plain">
+                     <a href="/about-us" title="">
+                        <span>About us</span>
+                    </a>
+                    </li>
+                
+
+                
+            
+
+        </ul>
+    </div>
+
+    <ul id="secondary-portaltabs" class="plain secondary-portaltabs">
+        
+            
+
+               <li class="eea-siteaction" id="siteaction-chooselang-menu">
+                   <a href="https://www.eea.europa.eu/chooselang/" target="_blank" title="EEA homepage in your language" accesskey="">
+                                   <span class="eea-icon eea-icon-lg eea-icon-globe eea-icon-marginless"><!-- --></span>
+                       <span class="siteaction-title">EN</span>
+                   </a>
+               </li>
+               <li class="eea-siteaction" id="siteaction-login-menu">
+                   <a href="https://www.eea.europa.eu/login/" target="_blank" title="Log in to CMS" accesskey="">
+                                   <span class="eea-icon eea-icon-lg eea-icon-sign-in"><!-- --></span>
+                       <span class="siteaction-title">Log in to CMS</span>
+                   </a>
+               </li>
+               <li class="eea-siteaction" id="siteaction-search-menu">
+                   <a href="http://search.apps.eea.europa.eu" target="_blank" title="Search" accesskey="">
+                                   <span class="eea-icon eea-icon-lg eea-icon-search eea-icon-marginless"><!-- --></span>
+                       <span class="siteaction-title">Search</span>
+                   </a>
+               </li>
+               <li class="eea-siteaction" id="siteaction-europe-menu">
+                   <a href="https://europa.eu/european-union/about-eu_en" target="_blank" title="The EEA is an agency of the European Union" accesskey="">
+                                   <span class="icon-siteaction-europe-flag"><!-- --></span>
+                       <span class="siteaction-title">The EEA is an agency of the European Union</span>
+                   </a>
+               </li>
+           
+        
+        <li id="secondary-globalnav-tips">
+            
+
+        <div id="js-siteaction-panels">
+
+            <div class="panel" id="tip-siteaction-chooselang-menu">
+                <div class="panel-top">
+                    <!-- -->
+                </div>
+                <div class="panel-content shadow">
+                    
+                    <ul id="chooselang" class="list-items">
+                        
+                        <li><a href="https://www.eea.europa.eu/sq" title="Albanian">Albanian (sq)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/bg" title="Bulgarian">Български (bg)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/bs" title="Bosnian">Bosnian (bs)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/cs" title="Czech">čeština (cs)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/hr" title="Croatian">Hrvatski (hr)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/da" title="Danish">dansk (da)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/nl" title="Dutch">Nederlands (nl)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/el" title="Greek">ελληνικά (el)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu" title="English">English (en)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/et" title="Estonian">eesti (et)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/fi" title="Finnish">Suomi (fi)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/fr" title="French">Français (fr)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/de" title="German">Deutsch (de)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/hu" title="Hungarian">magyar (hu)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/is" title="Icelandic">Íslenska (is)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/it" title="Italian">italiano (it)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/lv" title="Latvian">Latviešu (lv)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/lt" title="Lithuanian">lietuvių (lt)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/mk" title="Macedonian">Macedonian (mk)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/mt" title="Maltese">Malti (mt)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/no" title="Norwegian">Norsk (no)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/pl" title="Polish">polski (pl)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/pt" title="Portuguese">Português (pt)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/ro" title="Romanian">Română (ro)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/sk" title="Slovak">slovenčina (sk)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/sl" title="Slovenian">Slovenščina (sl)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/es" title="Spanish">Español (es)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/sv" title="Swedish">Svenska (sv)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/tr" title="Turkish">Türkçe (tr)</a></li>
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div class="panel" id="tip-siteaction-search-menu">
+                <div class="panel-top">
+                    <!-- -->
+                </div>
+                <div class="panel-content shadow">
+                    <div class="portal-searchbox">
+                        
+        <div class="gsc-control-cse gsc-control-cse-en gsc-control-wrapper-cse">
+            <form method="get" class="gsc-search-box gsc-search-box-tools" autocomplete="off" action="https://www.eea.europa.eu/eea-custom-search">
+                <table class="gsc-search-box">
+                    <tr>
+                        <td class="gsc-input">
+                            <div class="gsc-input-box">
+                                <input type="text" name="q" class="gsc-input-query js-gsc-input-query" placeholder="Search" data-tags-url="https://www.eea.europa.eu/eea-custom-search.tags" />
+                                
+                            </div>
+                        </td>
+                        <td class="gsc-search-button">
+                            <button class="gsc-search-button gsc-search-button-v2">
+                                <span class="eea-icon eea-icon-search"><!-- empty --></span>
+                            </button>
+                        </td>
+                        <td class="gsc-clear-button">
+                            <div class="gsc-clear-button"><!-- empty --></div>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="eea-search-links">
+            <a href="http://search.apps.eea.europa.eu" class="pull-left search_advanced_link">
+                <span>Advanced search</span>
+            </a>
+            <a class="pull-right search_glossary_link" href="/help/glossary">A-Z Glossary</a>
+        </div>
+    
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel" id="tip-siteaction-login-menu">
+                <div class="panel-top">
+                    <!-- -->
+                </div>
+                <div class="panel-content shadow">
+                    
+                        
+
+        <dl class="portalMessage error enable_cookies_message" style="display:none">
+            <dt>Error</dt>
+            <dd>Cookies are not enabled. You must enable cookies before you can log in.</dd>
+        </dl>
+
+        
+
+        <div class="portalMessage informationMessage">
+            
+                <p>The EEA Web CMS works best with following browsers:</p>
+                <div class="cms-browsers-links">
+                    <ul>
+                        <li class="cms-chrome">Google Chrome (recommended)</li>
+                        <li class="cms-firefox">Firefox</li>
+                    </ul>
+                    <p class="discreet">Internet Explorer is not recommended for the CMS area.</p>
+                </div>
+            
+        </div>
+
+            <form class="enableAutoFocus login_form" method="post" action="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/login_form">
+
+                <div class="login-form">
+
+                    <input type="hidden" name="came_from" value="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2" />
+
+                    <input type="hidden" name="next" />
+
+                    <input type="hidden" name="ajax_load" />
+
+                    <input type="hidden" name="ajax_include_head" />
+
+                    <input type="hidden" name="target" />
+
+                    <input type="hidden" name="mail_password_url" />
+
+                    <input type="hidden" name="join_url" />
+                    <input type="hidden" name="form.submitted" value="1" />
+                    <input type="hidden" name="js_enabled" value="0" />
+                    <input type="hidden" name="cookies_enabled" value="" />
+                    <input type="hidden" name="login_name" value="" />
+                    <input type="hidden" name="pwd_empty" value="0" />
+
+                    <div class="field">
+
+                        <label rel="__ac_name">Login Name</label>
+
+                        
+
+                        
+
+                        <input type="text" size="15" name="__ac_name" value="" />
+
+                </div>
+
+                <div class="field">
+
+                        <label rel="__ac_password">Password</label>
+
+                        
+
+                        <input type="password" size="15" name="__ac_password" />
+                </div>
+
+                    
+
+                    <div class="formControls">
+
+                        <input class="context" type="submit" name="submit" value="Log in" />
+
+                    </div>
+
+                </div>
+
+            </form>
+
+            
+
+            
+
+            <div class="login-forgotten-password">
+                <strong>Forgot your password?</strong>
+                <p class="discreet">If you have forgotten your password, <span>
+                        <a href="https://www.eea.europa.eu/mail_password_form?userid=">we can send you a new one</a></span>.</p>
+            </div>
+
+            
+
+        
+                    
+                </div>
+            </div>
+
+        </div>
+
+
+        
+        </li>
+    </ul>
+
+
+<div id="portal-personaltools-wrapper">
+
+<p class="hiddenStructure">Personal tools</p>
+
+
+
+
+
+</div>
+
+<script type="text/javascript">var object_archived = true;;</script>
+
+</div>
+
+                               
+                               </div>
+                               </div>
+                               </div>
+                               </div>
+                               </div>
+                               </div>
+
+    <div id="eea-above-columns"><nav id="portal-breadcrumbs" class="plone-breadcrumb">
+  <div class="eea-container breadcrumbs-container">
+    <span id="breadcrumbs-you-are-here" class="hiddenStructure">You are here:</span>
+    <ol aria-labelledby="breadcrumbs-you-are-here" class="plone-breadcrumb-list">
+      <li id="breadcrumbs-home">
+        <a title="Home" href="https://www.eea.europa.eu">
+            <em class="eea-icon eea-icon-lg eea-icon-home eea-icon-marginless"></em>
+        </a>
+      </li>
+      <li id="breadcrumbs-1">
+        
+          <a href="https://www.eea.europa.eu/data-and-maps" title="Data and maps">Data and maps</a>
+          
+        
+      </li>
+      <li id="breadcrumbs-2">
+        
+          <a href="https://www.eea.europa.eu/data-and-maps/indicators" title="Indicators">Indicators</a>
+          
+        
+      </li>
+      <li id="breadcrumbs-3">
+        
+          <a href="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends" title="Greenhouse gas emission trends">Greenhouse gas emission trends</a>
+          
+        
+      </li>
+      <li id="breadcrumbs-4">
+        
+          
+          <span id="breadcrumbs-current">Greenhouse gas emission trends</span>
+        
+      </li>
+    </ol>
+  </div>
+</nav>
+</div>
+
+<div id="visual-portal-wrapper">
+
+        <div id="portal-columns" class="row">
+
+        <!-- start of the main and left columns -->
+        <div id="visual-column-wrapper">
+
+        <div id="portal-column-content" class="cell width-full position-0">
+
+            
+                
+                    <div id="viewlet-above-content">
+
+
+<div id="eea-alchemy-modalEnabled"></div>
+
+
+
+</div>
+                
+            
+
+            
+                <div id="region-content" class="">
+
+                    
+                        
+
+                        
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+    
+
+                    
+
+                    
+                        <div id="content"  class="documentContent panels wf-state-published archived-content">
+
+                            
+
+                            
+                                <div class="content-header">
+                                    
+                                    <div class="assessment_view" >
+      <h1 class="documentFirstHeading">Greenhouse gas emission trends</h1>
+    </div>
+                                    
+                                        
+                                            
+
+    <div class="documentExportActions">
+
+            <ul>
+                  <li id="export-action-download_pdf">
+                      <a class="pull-left" rel="nofollow" href="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/download.pdf" title="Download as PDF">
+                        <span class="eea-icon eea-icon-3x eea-icon-file-pdf-o"></span>
+                        <span class="export-action-title">PDF</span>
+                      </a>
+                  </li>
+            </ul>
+    </div>
+
+
+<!-- LANGUAGE SWITCHER DEFINITION -->
+
+
+    
+
+        
+
+        
+    
+
+
+
+    <div class="documentByLine" id="plone-document-byline">
+
+        <noscript>
+          
+          <div class="portalMessage warning">This website has limited functionality with javascript off. Please make sure javascript is enabled in your browser.</div>
+        </noscript>
+
+        
+            <span class="portalType">Indicator Assessment</span>
+
+            <div class="inline-block" id="version-global-id">
+                <span class="byline-separator"></span>
+                
+                    <strong>Prod-ID:</strong>
+                
+                <span>IND-37-en</span>
+            </div>
+
+            
+                <div class="inline-block" id="indicator-codes">
+                    
+                    <strong>Also known as:</strong>
+                    
+                     <span>
+                     CSI 010
+                     , 
+                     </span>
+                     <span>
+                     CLIM 050
+                     
+                     </span>
+                </div>
+            
+
+            
+                <span class="byline-separator"></span>
+                <span class="state-expired">expired</span>
+            
+            <span class="docDate creationDate">
+                <span class="byline-separator"></span>
+                Created 16 Nov 2007
+            </span>
+            <span class="docDate publishDate">
+                <span class="byline-separator"></span>
+                Published 21 Feb 2008
+            </span>
+            <span class="docDate modificationDate">
+                   <span class="byline-separator"></span>
+                   Last modified 25 Aug 2017
+            </span>
+        
+
+        
+            <div class="documentByLineReadingStats inline-block">
+                <span class="byline-separator"></span>
+                <span class="documentByLineReadingTime">27</span>
+                <span>min read</span>
+            </div>
+        
+
+        
+        
+    </div>
+
+
+
+
+
+    
+    
+    
+            <div class="eea-available-version">
+
+                <!-- Information about new versions -->
+                
+                    
+                        <div class="portalMessage warningMessage">
+                            
+                                <span><strong>This is an old version</strong>, kept for reference only.<br><br></span>
+                                <span>
+                                   <a class="standardButton" style="font-size:100%;" href="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends-6/assessment-2">Go to latest  version</a>
+                                </span>
+                            
+                            <script>
+                                $(document.body).ready(function () {
+                                $(".warningMessage").fadeIn(200).fadeOut(200).fadeIn(200).fadeOut(200).fadeIn(200).fadeOut(200).fadeIn(200);
+                                });
+                            </script>
+                            
+                        </div>
+                    
+                
+            </div>
+        
+
+
+
+
+<!-- environmental topics tags -->
+
+
+    
+
+      <div class="documentByLine" id="themes-tags">
+            <span class="listHead">Topics:</span>
+            
+              <span>
+                <a class="link-category" rel="tag" href="https://www.eea.europa.eu/themes/climate">Climate change mitigation</a>
+                  <span class="separator">, </span>
+              </span>
+            
+      </div>
+
+    
+
+
+<div class="portalMessage archiveMessage">This page was <strong>archived</strong> on <span>25 Aug 2017</span> with reason: <span>
+    A new version has been published
+    
+  </span></div>
+
+                                        
+                                    
+
+                                    
+                                        
+                                        
+            
+                <div id="parent-fieldname-description" class="documentDescription">
+                    Total greenhouse gas emissions in the EU-27, excluding emission and removals from land-use, land use change and forestry (LULUCF), decreased by 0.7 % between 2004 and 2005 and by 7.9 % between 1990 and 2005. Emissions decreased strongly in the new Member States during the 1990s but since 2000, the trends have been almost identical in the EU-15 and in the new Member States. Between 1990 and 2005, greenhouse gas emissions decreased in all sectors except in the transport sector, where they increased significantly.   In the EU-15, total greenhouse gas emissions (excluding LULUCF) decreased by 0.8 % between 2004 and 2005, by 1.5 % between 1990 and 2005 and by 2.0 % between the Kyoto base year and 2005. This means the EU-15 has achieved one fourth of the total reduction needed to achieve the 8 % reduction from base-year level required by 2008-2012 under the Kyoto Protocol. However, the target can also be reached through actions outside the EU (use of Kyoto mechanisms).   In the 12 new Member States, total greenhouse gas emissions (excluding LULUCF) decreased by 0.3 % between 2004 and 2005 and by 27.8 % between 1990 and 2005. Except in Slovenia, 2005 emissions of all the new Member States that have a Kyoto target were well below their Kyoto target. 
+                </div>
+            
+            
+        
+                                    
+
+                                    
+                                </div>
+
+                                <div id="content-core" class="content-core">
+                                    <div class='assessment_view'>
+      
+
+      
+
+      
+
+      <div class="keyMessage">
+        <h3>Key messages</h3>
+        <p>Total greenhouse gas emissions in the EU-27, excluding emission and removals from land-use, land use change and forestry (LULUCF), decreased by 0.7 % between 2004 and 2005 and by 7.9 % between 1990 and 2005. Emissions decreased strongly in the new Member States during the 1990s but since 2000, the trends have been almost identical in the EU-15 and in the new Member States. Between 1990 and 2005, greenhouse gas emissions decreased in all sectors except in the transport sector, where they increased significantly.</p> <p>In the EU-15, total greenhouse gas emissions (excluding LULUCF) decreased by 0.8 % between 2004 and 2005, by 1.5 % between 1990 and 2005 and by 2.0 % between the Kyoto base year and 2005. This means the EU-15 has achieved one fourth of the total reduction needed to achieve the 8 % reduction from base-year level required by 2008-2012 under the Kyoto Protocol. However, the target can also be reached through actions outside the EU (use of Kyoto mechanisms).</p> <p>In the 12 new Member States, total greenhouse gas emissions (excluding LULUCF) decreased by 0.3 % between 2004 and 2005 and by 27.8 % between 1990 and 2005. Except in Slovenia, 2005 emissions of all the new Member States that have a Kyoto target were well below their Kyoto target.</p>
+      </div>
+
+      <div>
+        <div>
+          <h2 class="policy_question"><span>What progress has been made in reducing greenhouse gas emissions in Europe?</span></h2>
+          
+
+    <div class="indicator-figure-plus-container">
+        
+
+            <!-- figure rendering -->
+            <div class="indicator-figure-plus" id="greenhouse-gas-emissions-in-the-eu-27-the-eu-15-and-in-new-member-states-1990-2005-index-100-base-year-level-eu-15-or-1990-levels-eu-27-new-member-states">
+                
+
+                <p class="figure-title">Greenhouse gas emissions in the EU-27, the EU-15 and in new Member States, 1990-2005, index 100 = base year level (EU-15) or 1990 levels (EU-27, new Member States)</p>
+                
+
+                
+                    <div class="indicator-figure-image">
+                        <a title="Downloads and more info" href="https://www.eea.europa.eu/data-and-maps/figures/greenhouse-gas-emissions-in-the-eu-27-the-eu-15-and-in-new-member-states-1990-2005-index-100-base-year-level-eu-15-or-1990-levels-eu-27-new-member-states">
+                            <img alt="Greenhouse gas emissions in the EU-27, the EU-15 and in new Member States, 1990-2005, index 100 = base year level (EU-15) or 1990 levels (EU-27, new Member States)" title="Greenhouse gas emissions in the EU-27, the EU-15 and in new Member States, 1990-2005, index 100 = base year level (EU-15) or 1990 levels (EU-27, new Member States)" src="https://www.eea.europa.eu/data-and-maps/figures/greenhouse-gas-emissions-in-the-eu-27-the-eu-15-and-in-new-member-states-1990-2005-index-100-base-year-level-eu-15-or-1990-levels-eu-27-new-member-states/image_xlarge" />
+                        </a>
+                    </div>
+
+                    <div class="visualClear" ><!-- --></div>
+                    
+                        <div class="googlechart-notes">
+                            <div class="googlecharts-note">
+                                <p class="callout">
+                                    <strong>Note:</strong>
+                                    
+                                    <span>N/A</span>
+                                </p>
+                            </div>
+                        </div>
+                    
+
+                    <div>
+
+                        <strong>Data source:</strong>
+                        <!-- We only show deprecated datasource free text field,
+                        form old figures, otherwise we use the new approach
+                        with related sources (which overrules the old one) -->
+                        <p>
+                            <p>EEA, based on EU-15 Member States greenhouse gas inventories 1990-2005.</p>
+                        </p>
+                        <!-- Show related data sources -->
+                        
+                        
+                    </div>
+
+                    <a class="standardButton" href="https://www.eea.europa.eu/data-and-maps/figures/greenhouse-gas-emissions-in-the-eu-27-the-eu-15-and-in-new-member-states-1990-2005-index-100-base-year-level-eu-15-or-1990-levels-eu-27-new-member-states">Downloads and more info</a>
+
+                
+            </div>
+
+            <!-- gis rendering -->
+            
+
+            <!-- daviz rendering -->
+            
+            <div class="visualClear"><!-- --></div>
+        
+    </div>
+    <div class="indicator-figure-plus-container">
+        
+
+            <!-- figure rendering -->
+            <div class="indicator-figure-plus" id="greenhouse-gas-emissions-in-the-eu-27-the-eu-15-and-in-new-member-states-1990-2005">
+                
+
+                <p class="figure-title">Greenhouse gas emissions in the EU-27, the EU-15 and in new Member States, 1990-2005</p>
+                
+
+                
+                    <div class="indicator-figure-image">
+                        <a title="Downloads and more info" href="https://www.eea.europa.eu/data-and-maps/figures/greenhouse-gas-emissions-in-the-eu-27-the-eu-15-and-in-new-member-states-1990-2005">
+                            <img alt="Greenhouse gas emissions in the EU-27, the EU-15 and in new Member States, 1990-2005" title="Greenhouse gas emissions in the EU-27, the EU-15 and in new Member States, 1990-2005" src="https://www.eea.europa.eu/data-and-maps/figures/greenhouse-gas-emissions-in-the-eu-27-the-eu-15-and-in-new-member-states-1990-2005/image_xlarge" />
+                        </a>
+                    </div>
+
+                    <div class="visualClear" ><!-- --></div>
+                    
+                        <div class="googlechart-notes">
+                            <div class="googlecharts-note">
+                                <p class="callout">
+                                    <strong>Note:</strong>
+                                    <span>Index 100 = 2000 levels</span>
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    
+
+                    <div>
+
+                        <strong>Data source:</strong>
+                        <!-- We only show deprecated datasource free text field,
+                        form old figures, otherwise we use the new approach
+                        with related sources (which overrules the old one) -->
+                        <p>
+                            <p>EEA, based on EU Member States greenhouse gas inventories 1990-2005.</p>
+                        </p>
+                        <!-- Show related data sources -->
+                        
+                        
+                    </div>
+
+                    <a class="standardButton" href="https://www.eea.europa.eu/data-and-maps/figures/greenhouse-gas-emissions-in-the-eu-27-the-eu-15-and-in-new-member-states-1990-2005">Downloads and more info</a>
+
+                
+            </div>
+
+            <!-- gis rendering -->
+            
+
+            <!-- daviz rendering -->
+            
+            <div class="visualClear"><!-- --></div>
+        
+    </div>
+    <div class="indicator-figure-plus-container">
+        
+
+            <!-- figure rendering -->
+            <div class="indicator-figure-plus" id="change-in-greenhouse-gas-emissions-in-europe-between-the-base-years-and-2005-compared-to-kyoto-targets-for-2008-2012">
+                
+
+                <p class="figure-title">Change in greenhouse gas emissions in Europe between the base years and 2005, compared to Kyoto targets for 2008-2012</p>
+                
+
+                
+                    <div class="indicator-figure-image">
+                        <a title="Downloads and more info" href="https://www.eea.europa.eu/data-and-maps/figures/change-in-greenhouse-gas-emissions-in-europe-between-the-base-years-and-2005-compared-to-kyoto-targets-for-2008-2012">
+                            <img alt="Change in greenhouse gas emissions in Europe between the base years and 2005, compared to Kyoto targets for 2008-2012" title="Change in greenhouse gas emissions in Europe between the base years and 2005, compared to Kyoto targets for 2008-2012" src="https://www.eea.europa.eu/data-and-maps/figures/change-in-greenhouse-gas-emissions-in-europe-between-the-base-years-and-2005-compared-to-kyoto-targets-for-2008-2012/image_xlarge" />
+                        </a>
+                    </div>
+
+                    <div class="visualClear" ><!-- --></div>
+                    
+                        <div class="googlechart-notes">
+                            <div class="googlecharts-note">
+                                <p class="callout">
+                                    <strong>Note:</strong>
+                                    <span>The EU-27, Cyprus and Malta have no target under the Kyoto Protocol, and therefore no legal base year</span>
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    
+
+                    <div>
+
+                        <strong>Data source:</strong>
+                        <!-- We only show deprecated datasource free text field,
+                        form old figures, otherwise we use the new approach
+                        with related sources (which overrules the old one) -->
+                        <p>
+                            <p>EEA, based on EU Member States greenhouse gas inventories 1990-2005.</p>
+                        </p>
+                        <!-- Show related data sources -->
+                        
+                        
+                    </div>
+
+                    <a class="standardButton" href="https://www.eea.europa.eu/data-and-maps/figures/change-in-greenhouse-gas-emissions-in-europe-between-the-base-years-and-2005-compared-to-kyoto-targets-for-2008-2012">Downloads and more info</a>
+
+                
+            </div>
+
+            <!-- gis rendering -->
+            
+
+            <!-- daviz rendering -->
+            
+            <div class="visualClear"><!-- --></div>
+        
+    </div>
+
+
+
+          <h4>2005 greenhouse gas emissions</h4> <p>In 2005, total greenhouse gas emissions, excluding emission and removals from land-use, land use change and forestry (LULUCF) were:</p> <ul> <li>5 177 million tonnes CO<sub>2</sub>-equivalent (Mt CO<sub>2</sub>-eq.) in the EU-27;</li> <li>4 192 Mt CO<sub>2</sub>-eq. in the pre-2004 EU Member States (EU-15);</li> <li>985 Mt CO<sub>2</sub>-eq. in the 12 new Member States.</li></ul> <p>In 2005, the EU-15 accounted for 81 % of total EU-27 greenhouse gas emissions. The largest emitters of greenhouse gas emissions in the EU-27 were Germany (19 %), the United Kingdom (13 %), Italy (11 %), France (11 %) and Spain (9 %).</p> <h4>2004-2005 trends</h4> <p>Between 2004 and 2005, total greenhouse gas emissions, excluding LULUCF:</p> <ul> <li>decreased by by 0.7 % (38 Mt CO<sub>2</sub>-eq.) in the EU-27;</li> <li>decreased by 0.8 % (35 Mt CO<sub>2</sub>-eq.) in the EU-15;</li> <li>decreased by 0.3 % (3 Mt CO<sub>2</sub>-eq.) in the new Member States.</li></ul> <p>In absolute terms, emissions were reduced most in Germany (-23 Mt CO<sub>2</sub>-eq.) and Finland (-12 Mt CO<sub>2</sub>-eq.). In Germany, a shift from coal to gas in the production of public electricity and heat was one of the main reasons for the decrease in emissions. In addition, emissions from road transportation and from households and services declined substantially. In Finland, emission reductions were mainly due to a substantial decrease in the use of fossil fuels in the production of public electricity and heat, mainly due to electricity imports. Coal use, in particular, decreased.</p> <p>Emissions increased most in Spain (+15 Mt CO<sub>2</sub>-eq.). This increase came mainly from public electricity and heat production and was due to a rise in electricity generation from fossil thermal power stations (17 %) and a decrease in electricity generation from hydropower plants (-33 %). Other EU-15 countries which saw emissions increase between 2004 and 2005 are: Austria, Greece, Ireland, Italy and Portugal.</p> <p>In relative terms, the largest decreases were observed in Finland (-15 %) and Denmark (-6 %), while emissions in Lithuania and Malta increased by 7 % and 6 %, respectively. Emissions from Turkey increased by 6.5 % (+19 Mt CO<sub>2</sub>-eq.)</p> <h4>1990-2005 trends</h4> <p>Between&nbsp;1990 and 2005 (<a href="http://dataservice.eea.europa.eu/atlas/viewdata/viewpub.asp?id=3356">Figure 1</a>), total greenhouse gas emissions, excluding LULUCF:</p> <ul> <li>decreased by 7.9 % (444 Mt CO<sub>2</sub>-eq.) in the EU-27;</li> <li>decreased by 1.5 % (65 Mt CO<sub>2</sub>-eq.) in the EU-15;</li> <li>decreased by 27.8 % (379 Mt CO<sub>2</sub>-eq.) in the new Member States.</li></ul> <p>The 1990-2005 trends in total EU-27 greenhouse gas emissions were dominated by developments in Germany (-226 Mt CO<sub>2</sub>-eq. ), the United Kingdom (-114 Mt CO<sub>2</sub>-eq.) and Spain (+153 Mt CO<sub>2</sub>-eq.). Significant changes were also observed in Romania (-95 Mt CO<sub>2</sub>-eq.), Poland (-87 Mt CO<sub>2</sub>-eq.) and Italy (+63 Mt CO<sub>2</sub>-eq.).</p> <p>In relative terms, emissions decreased strongly in the new Member States between 1990 and 2000, mainly due to the introduction of market economies and the consequent restructuring or closure of heavily polluting and energy-intensive industries. However since 2000, the trends have been almost identical in the EU-15 and in the new Member States (<a href="http://dataservice.eea.europa.eu/atlas/viewdata/viewpub.asp?id=3350">Figure 2</a>). Between 1990 and 2005, emissions decreased most in Latvia (-59 %), Lithuania (-53 %) and Estonia (-53 %), while emissions increased most in Malta (+55 %), Spain (+53 %) and Portugal (+43 %). </p> <p>In the other EEA member countries, the most significant trend was the +84 % increase in emissions from Turkey (+150 Mt CO<sub>2</sub>-eq.).</p> <h4>Comparison with Kyoto targets (<a href="http://dataservice.eea.europa.eu/atlas/viewdata/viewpub.asp?id=3351"><u>Figure 3</u></a>)</h4> <p>In the EU-15, total greenhouse gas emissions, excluding LULUCF, decreased by 2.0 % (87 Mt CO<sub>2</sub>-eq.) between the Kyoto base year and 2005. Therefore in 2005, EU-15 greenhouse gas emissions stood well above the -8 % Kyoto target. The emissions of four EU-15 Member States (Sweden, the United Kingdom, Finland and France) were lower than their respective burden-sharing targets, while emissions from Greece&nbsp;were close to to target. Significant reductions need still to be&nbsp;made especially in Spain, Austria and Luxembourg, either by reducing domestic emissions or by making use of Kyoto mechanisms (see also <a href="http://themes.eea.europa.eu/IMS/CSI">CSI 011</a> and <a href="http://reports.eea.europa.eu/search_results?type=search&amp;SearchTitle=greenhouse+AND+projections&amp;Submit2=Search">EEA report on Greenhouse gas emissions trends and projections in Europe</a>).</p> <p>Of the 12 new Member States, Cyprus and Malta do not have a Kyoto target. The emissions of the other new Member States, except Slovenia, were well below their Kyoto target in 2005. The situation was similar in the EU acceding country Croatia.</p> <p>2005 emissions of the other EEA member countries stood above these countries' respective Kyoto targets. Reductions will be needed either by domestic measures or by making use of Kyoto mechanisms.</p> <p>Data related to emission trends since 1990 and progress towards Kyoto targets can be viewed at country level on the&nbsp;<a href="http://dataservice.eea.europa.eu/dataservice/viewdata/viewpvt.asp?id=418">EEA greenhouse gas data viewer</a>.</p>
+        </div>
+
+        
+          <h2 class="policy_question">What are the emission changes by sector and by greenhouse gas?</h2>
+	  
+
+    <div class="indicator-figure-plus-container">
+        
+
+            <!-- figure rendering -->
+            <div class="indicator-figure-plus" id="shares-by-sector-in-eu-15-greenhouse-gas-emissions-in-2005">
+                
+
+                <p class="figure-title">Shares by sector in EU-15 greenhouse gas emissions in 2005</p>
+                
+
+                
+                    <div class="indicator-figure-image">
+                        <a title="Downloads and more info" href="https://www.eea.europa.eu/data-and-maps/figures/shares-by-sector-in-eu-15-greenhouse-gas-emissions-in-2005">
+                            <img alt="Shares by sector in EU-15 greenhouse gas emissions in 2005" title="Shares by sector in EU-15 greenhouse gas emissions in 2005" src="https://www.eea.europa.eu/data-and-maps/figures/shares-by-sector-in-eu-15-greenhouse-gas-emissions-in-2005/image_xlarge" />
+                        </a>
+                    </div>
+
+                    <div class="visualClear" ><!-- --></div>
+                    
+                        <div class="googlechart-notes">
+                            <div class="googlecharts-note">
+                                <p class="callout">
+                                    <strong>Note:</strong>
+                                    <span>Emissions from the energy supply and use sector include emissions from energy supply industries, fugitive emissions, emissions from energy use in industry and other emissions from energy use</span>
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    
+
+                    <div>
+
+                        <strong>Data source:</strong>
+                        <!-- We only show deprecated datasource free text field,
+                        form old figures, otherwise we use the new approach
+                        with related sources (which overrules the old one) -->
+                        <p>
+                            <p>EEA, based on EU-15 Member States greenhouse gas inventories.</p>
+                        </p>
+                        <!-- Show related data sources -->
+                        
+                        
+                    </div>
+
+                    <a class="standardButton" href="https://www.eea.europa.eu/data-and-maps/figures/shares-by-sector-in-eu-15-greenhouse-gas-emissions-in-2005">Downloads and more info</a>
+
+                
+            </div>
+
+            <!-- gis rendering -->
+            
+
+            <!-- daviz rendering -->
+            
+            <div class="visualClear"><!-- --></div>
+        
+    </div>
+    <div class="indicator-figure-plus-container">
+        
+
+            <!-- figure rendering -->
+            <div class="indicator-figure-plus" id="changes-in-eu-27-greenhouse-gas-emissions-by-sector-1990-2005">
+                
+
+                <p class="figure-title">Changes in EU-27 greenhouse gas emissions by sector, 1990-2005</p>
+                
+
+                
+                    <div class="indicator-figure-image">
+                        <a title="Downloads and more info" href="https://www.eea.europa.eu/data-and-maps/figures/changes-in-eu-27-greenhouse-gas-emissions-by-sector-1990-2005">
+                            <img alt="Changes in EU-27 greenhouse gas emissions by sector, 1990-2005" title="Changes in EU-27 greenhouse gas emissions by sector, 1990-2005" src="https://www.eea.europa.eu/data-and-maps/figures/changes-in-eu-27-greenhouse-gas-emissions-by-sector-1990-2005/image_xlarge" />
+                        </a>
+                    </div>
+
+                    <div class="visualClear" ><!-- --></div>
+                    
+                        <div class="googlechart-notes">
+                            <div class="googlecharts-note">
+                                <p class="callout">
+                                    <strong>Note:</strong>
+                                    <span>International marine and aviation not included in the categories Total emissions, Energy and Transport.</span>
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    
+
+                    <div>
+
+                        <strong>Data source:</strong>
+                        <!-- We only show deprecated datasource free text field,
+                        form old figures, otherwise we use the new approach
+                        with related sources (which overrules the old one) -->
+                        <p>
+                            <p>EEA, based on EU Member States greenhouse gas inventories.</p>
+                        </p>
+                        <!-- Show related data sources -->
+                        
+                        
+                    </div>
+
+                    <a class="standardButton" href="https://www.eea.europa.eu/data-and-maps/figures/changes-in-eu-27-greenhouse-gas-emissions-by-sector-1990-2005">Downloads and more info</a>
+
+                
+            </div>
+
+            <!-- gis rendering -->
+            
+
+            <!-- daviz rendering -->
+            
+            <div class="visualClear"><!-- --></div>
+        
+    </div>
+    <div class="indicator-figure-plus-container">
+        
+
+            <!-- figure rendering -->
+            <div class="indicator-figure-plus" id="changes-in-eu-15-greenhouse-gas-emissions-by-sector-1990-2005">
+                
+
+                <p class="figure-title">Changes in EU-15 greenhouse gas emissions by sector, 1990-2005</p>
+                
+
+                
+                    <div class="indicator-figure-image">
+                        <a title="Downloads and more info" href="https://www.eea.europa.eu/data-and-maps/figures/changes-in-eu-15-greenhouse-gas-emissions-by-sector-1990-2005">
+                            <img alt="Changes in EU-15 greenhouse gas emissions by sector, 1990-2005" title="Changes in EU-15 greenhouse gas emissions by sector, 1990-2005" src="https://www.eea.europa.eu/data-and-maps/figures/changes-in-eu-15-greenhouse-gas-emissions-by-sector-1990-2005/image_xlarge" />
+                        </a>
+                    </div>
+
+                    <div class="visualClear" ><!-- --></div>
+                    
+                        <div class="googlechart-notes">
+                            <div class="googlecharts-note">
+                                <p class="callout">
+                                    <strong>Note:</strong>
+                                    <span>International marine and aviation not included in the categories; Total emissions, Energy and Transport.</span>
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    
+
+                    <div>
+
+                        <strong>Data source:</strong>
+                        <!-- We only show deprecated datasource free text field,
+                        form old figures, otherwise we use the new approach
+                        with related sources (which overrules the old one) -->
+                        <p>
+                            <p>EEA, based on EU Member States greenhouse gas inventories.</p>
+                        </p>
+                        <!-- Show related data sources -->
+                        
+                        
+                    </div>
+
+                    <a class="standardButton" href="https://www.eea.europa.eu/data-and-maps/figures/changes-in-eu-15-greenhouse-gas-emissions-by-sector-1990-2005">Downloads and more info</a>
+
+                
+            </div>
+
+            <!-- gis rendering -->
+            
+
+            <!-- daviz rendering -->
+            
+            <div class="visualClear"><!-- --></div>
+        
+    </div>
+    <div class="indicator-figure-plus-container">
+        
+
+            <!-- figure rendering -->
+            <div class="indicator-figure-plus" id="changes-in-greenhouse-gas-emissions-from-new-member-states-by-sector-1990-2005">
+                
+
+                <p class="figure-title">Changes in greenhouse gas emissions from new Member States by sector, 1990-2005</p>
+                
+
+                
+                    <div class="indicator-figure-image">
+                        <a title="Downloads and more info" href="https://www.eea.europa.eu/data-and-maps/figures/changes-in-greenhouse-gas-emissions-from-new-member-states-by-sector-1990-2005">
+                            <img alt="Changes in greenhouse gas emissions from new Member States by sector, 1990-2005" title="Changes in greenhouse gas emissions from new Member States by sector, 1990-2005" src="https://www.eea.europa.eu/data-and-maps/figures/changes-in-greenhouse-gas-emissions-from-new-member-states-by-sector-1990-2005/image_xlarge" />
+                        </a>
+                    </div>
+
+                    <div class="visualClear" ><!-- --></div>
+                    
+                        <div class="googlechart-notes">
+                            <div class="googlecharts-note">
+                                <p class="callout">
+                                    <strong>Note:</strong>
+                                    <span>International marine and aviation not included in the categories Total emissions, Energy and Transport.</span>
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    
+
+                    <div>
+
+                        <strong>Data source:</strong>
+                        <!-- We only show deprecated datasource free text field,
+                        form old figures, otherwise we use the new approach
+                        with related sources (which overrules the old one) -->
+                        <p>
+                            <p>EEA, based on EU Member States greenhouse gas inventories.</p>
+                        </p>
+                        <!-- Show related data sources -->
+                        
+                        
+                    </div>
+
+                    <a class="standardButton" href="https://www.eea.europa.eu/data-and-maps/figures/changes-in-greenhouse-gas-emissions-from-new-member-states-by-sector-1990-2005">Downloads and more info</a>
+
+                
+            </div>
+
+            <!-- gis rendering -->
+            
+
+            <!-- daviz rendering -->
+            
+            <div class="visualClear"><!-- --></div>
+        
+    </div>
+
+
+
+          <P>Greenhouse gas emissions can be viewed by country, year, gas and sector on the&nbsp;<A href="http://dataservice.eea.europa.eu/dataservice/viewdata/viewpvt.asp?id=418">EEA greenhouse gas data viewer</A>.</P> <P>Greenhouse gas emissions due to energy supply and use including transport represent 80 % of all greenhouse gas emissions in the EU-27, as well as in the EU-15 (<A href="http://dataservice.eea.europa.eu/atlas/viewdata/viewpub.asp?id=3352">Figure 4</A>). Between 1990 and 2005, EU-27 greenhouse gas emissions decreased in all sectors except in the transport sector, where they increased significantly (<A href="http://dataservice.eea.europa.eu/atlas/viewdata/viewpub.asp?id=3353"><FONT color=#810081>Figure 5</FONT></A>).</P> <H4>2004-2005 trends in the EU-15</H4> <P>In absolute terms, the main sectors contributing to emissions reductions between 2004 and 2005 in the EU-15 were public electricity and heat production, households and services, and road transport.</P> <UL> <LI>CO<SUB>2</SUB> emissions from public electricity and heat production decreased by 0.9% (-9.6 million tonnes) mainly due to a reduction in the reliance on coal.</LI> <LI>CO<SUB>2</SUB> emissions from households and services decreased by 1.7 % (7.0 million tonnes). Important decreases in emissions from household and services were reported by Germany, the United Kingdom and the Netherlands. One general reason for the decrease is the warmer weather conditions (milder winter) compared to the previous year.</LI> <LI>CO<SUB>2</SUB> emissions from road transport decreased by 0.8% (6 million tonnes). This is mainly attributed to Germany, and is due to increased amounts of diesel oil driven cars, the effects of the eco-tax and fuel buying from outside Germany (fuel tourism).</LI></UL> <H4>1990-2005 trends in the EU-15</H4> <P>Between 1990 and 2005, greenhouse gas emissions in the EU-15 decreased in all sectors except in the transport sector, where they increased significantly (+26 %)&nbsp;(<A href="http://dataservice.eea.europa.eu/atlas/viewdata/viewpub.asp?id=3354">Figure 6</A>). CO<SUB>2</SUB> emissions from international aviation and navigation (which are not included here) increased by 96 % and 50 %, respectively. The largest relative decreases was observed in emissions from the waste sector. Most of the emissions reductions occured in the 1990s,&nbsp;largely a result of:</P> <UL> <LI>increasing efficiency in power and heating plants,</LI> <LI>the economic restructuring in eastern Germany,</LI> <LI>the liberalisation of the energy market and subsequent changes in the choice of fuel used in electricity production from oil and coal to gas in the United Kingdom,</LI> <LI>significant reductions in nitrous oxide emissions in the chemical industry in France, Germany and the United Kingdom.</LI></UL> <P>After 1999, emissions rose again until 2004, due to increasing energy and transport demand. More solid and gaseous fuels were used for the production of public electricity and heat (whereas liquid fuels were used less). Higher transport volumes (freight and passengers) led to higher emissions from road transport, which is responsible for more than 90 % of domestic transport emissions. The use of diesel oil increased by 22 % while the use of gasoline decreased by 13 %.</P> <P><U>Energy supply and use (excluding transport)</U></P> <UL> <LI>Greenhouse gas emissions decreased by 3 %, due to a significant decrease of CO<SUB>2</SUB> emissions from manufacturing industries and construction.</LI> <LI>CO<SUB>2</SUB> emissions from manufacturing industries and construction decreased by 10 %, mainly due to efficiency improvements and structural changes in Germany after reunification. After an increase observed between 2003 and 2004, these emissions remained stable in 2005.</LI> <LI>CO<SUB>2</SUB> emissions from public electricity and heat production increased by +6 %, driven by increasing electricity production in thermal power plants (+38 %). However, in 2005, these emissions were decreasing for the second consecutive year (-0.9 % compared to 2004).</LI> <LI>CH<SUB>4</SUB> emissions from fugitive emissions decreased by 53 %, mainly due to the decline of coal mining.</LI> <LI>CO<SUB>2</SUB> emissions from households decreased by 1.7 %, while the number of dwellings increased by 18 %.</LI> <LI>Decoupling of greenhouse gas emissions from energy consumption has been observed in all Member States, although there are large differences between Member States.</LI></UL> <P><U>Transport</U></P> <UL> <LI>Greenhouse gas emissions (domestic transport) increased by 26%, mainly due to CO<SUB>2</SUB> emissions from road transport (which represent more than 90 % of domestic transport emissions). However, for the first time since 1990, CO<SUB>2</SUB> emissions from road transport decreased by 0.8 % (6.0 million tonnes) between 2004 and 2005. This is mainly attributed to Germany, and is due to an increased share of diesel-powered cars, increasing fuel prices (including effects of the eco-tax) and purchase of fuel outside Germany.</LI> <LI>CO<SUB>2</SUB> emissions from international aviation grew by 96 % and CO<SUB>2</SUB> emissions from international navigation (maritime transport) grew by 50 %. These emissions grew faster than in all other transport modes.</LI> <LI>N<SUB>2</SUB>O emissions increased by more than 100 %. The reason is mainly that catalytic converters, which reduce cars' exhaust emissions of certain air pollutants but produce N<SUB>2</SUB>O as a by-product, have become standard equipment. This strong growth is expected to stop soon as the whole fleet will soon be equipped with catalytic converters.</LI></UL> <P><U>Industrial processes</U></P> <UL> <LI>Greenhouse gas emissions (CO<SUB>2</SUB>, N<SUB>2</SUB>O and fluorinated gases) were reduced by 11 %.</LI> <LI>CO<SUB>2</SUB> emissions from cement production increased by 5 %.</LI> <LI>N<SUB>2</SUB>O emissions from chemical industries decreased by 54 %, mainly due to specific measures at adipic acid production plants in the United Kingdom, Germany, the Netherlands and France.</LI> <LI>Large increases mainly as the result of expanding use of HFCs (as a substitute for ozone depleting CFCs that were gradually phased out in the 1990s) were offset by decreases of emissions from the production of halocarbons and SF<SUB>6</SUB>.</LI> <LI>HFC emissions from refrigeration and air conditioning increased by a factor of more than 400.</LI></UL> <P><U>Agriculture and waste</U></P> <UL> <LI>Greenhouse gas emissions fell by 11 %. In particular, N<SUB>2</SUB>O emissions from agricultural soils fell by 13 %, due to a decline in fertiliser and manure use.</LI> <LI>Greenhouse gas emissions from waste fell by 38 %, mainly due to the development of landfill gas recovery.</LI></UL> <H4>1990-2005 trends in the new Member States</H4> <P>Between 1990 and 2005, greenhouse gas emissions in the new Member States have been reduced in all the main sectors responsible for greenhouse gas emissions except for transport, where emissions increased by 30 % (<A href="http://dataservice.eea.europa.eu/atlas/viewdata/viewpub.asp?id=3355">Figure 7</A>).</P> <P>Transport emissions decreased by 6 % between 1990 and 1995, but increased after 1995. The new Member States seem to be repeating the experience of Ireland, Portugal and Spain: starting from a relatively low transport level, all these countries experienced high economic growth which resulted in strong growth in transport and related greenhouse gas emissions.</P>
+        
+      </div>
+
+      <div class="visualClear"><!-- --></div>
+      <h2>Indicator specification and metadata</h2>
+      <div id="definition-and-units">
+          <h3>Indicator definition</h3>
+          
+            
+            <p>This indicator presents anthropogenic greenhouse gas emissions in   Europe from 1990 onwards. It analyses the trends (total and by sector) in relation to the European   Community and Member States Kyoto targets for the period 2008-2012.</p><h4>Definitions (from UNFCCC)<br /></h4><p><b>Emissions</b>: the release of greenhouse gases and/or their precursors  into the atmosphere over a specified area and period of time.</p><p><b>Greenhouse gases</b>: those gaseous constituents of the atmosphere,  both natural and anthropogenic, that absorb and re-emit infrared radiation.</p><p><b>Sink</b>: any process, activity or mechanism which removes a greenhouse gas,  an aerosol or a precursor of a greenhouse gas from the atmosphere.</p><p><b>Source</b>: any process or activity which releases a greenhouse gas, an  aerosol or a precursor of a greenhouse gas into the atmosphere. </p><p>Emissions by sources and removals by sinks of greenhouse gases are calculated according to the <a href="http://www.ipcc-nggip.iges.or.jp/public/gl/invs1.html">Revised 1996   IPCC Guidelines for   National Greenhouse Gas Inventories</a> (see <a href="http://ims.eionet.europa.eu/IMS/ISpecs/ISpecification20040909113419/full_spec#Methodology">Methodology</a>), as agreed upon by the Conference of the Parties to the UNFCCC.</p><h4>Scope</h4><p><b>Gases</b> </p><p>All the greenhouse gases covered by the Kyoto Protocol (CO<sub>2</sub>,   CH<sub>4</sub>, N<sub>2</sub>O, SF<sub>6</sub>, HFCs and PFCs). This does not include the greenhouse gases that are also ozone-depleting substances and which are controlled by the Montreal Protocol (see <a href="http://themes.eea.europa.eu/IMS/ISpecs/ISpecification20041007131537/IAssessment1229857558178/view_content">CSI 006</a>).</p><p>In order to be aggregated, non-CO<sub>2</sub> gases are weighed by   their respective global warming potential and presented in   CO<sub>2</sub>-equivalent units.</p><p><b>Emission sources</b></p><p>The indicator provides information on emissions from the main anthropogenic greenhouse gas sources, distributed by main emitting sectors (according IPCC nomenclature):<br /></p><ul><li>energy supply and use (including energy   industry, fugitive emissions, energy use by industry and by other sectors, excluding the transport sector); <br /></li><li>  transport; <br /></li><li>industry (processes, i.e. not including emissions from fossil fuel combustion for energy use);</li><li> agriculture; <br /></li><li>waste; <br /></li><li>other   (non-energy).</li></ul> <p>Unless otherwise mentioned, the indicator does not cover emissions from international bunkers (international aviation and maritime transport), which are not covered by the Kyoto Protocol. In particular, these emissions are not taken into account in the total greenhouse gas emissions reported at national and EU levels.</p><p>Emissions from land use, land-use change and forestry (LULUCF) are not included in total greenhouse gas emissions.<br /> </p> <p><b>Geographical area</b></p><p>The indicator covers all 27 Member States from the European Union. Some figures also include information concerning other EEA Member States.<br /></p><p><b>Period covered<br /></b></p><p>The indicator covers annual emissions since 1990.</p>
+          
+
+          <h3>Units</h3>
+          
+            
+            <p>Greenhouse gas emissions are expressed in 'million tonnes CO<sub>2</sub>-equivalent' (Mt CO<sub>2</sub>-eq.)<br /></p>
+          
+        </div>
+      <br class="visualClear" />
+
+      <div class="indicator-metadata-info">
+        <div id="justification-and-references">
+          <h3>Rationale</h3>
+          <h4>Justification for indicator selection</h4>
+          
+            <p>Climate change is one of our greatest environmental, social and economic threats. The warming of the climate system is unequivocal, says the Intergovernmental Panel on Climate Change (<a href="http://www.ipcc.ch/pdf/assessment-report/ar4/syr/ar4_syr_spm.pdf">IPCC</a>). Observations show increases in global average air and ocean temperatures, widespread melting of snow and ice, and rising global mean sea level. It is very likely that most of the warming can be attributed to the emissions of greenhouse gases by human activities. </p>
+<p>Over the past 150 years, mean temperature has increased by almost 0.8 °C globally and by about 1 °C in Europe. Without global action to limit emissions, the IPCC expects that global temperatures may increase further by 1.8 to 4.0 °C by 2100. This means that temperature increase since pre-industrial times would exceed 2 °C. Beyond this threshold irreversible and possibly catastrophic changes become far more likely.</p>
+<p>To halt climate change, global greenhouse gas emissions must be reduced significantly, and policies to do so must be put in place and fully implemented.</p>
+<p>The main sources of man-made greenhouse gases are:</p>
+<ul>
+<li>burning of fossil fuels in electricity generation, transport, industry and households;</li>
+<li>agriculture and land use changes like deforestation;</li>
+<li>land filling of waste;</li>
+<li>use of industrial fluorinated gases.</li>
+</ul>
+<p>The present indicator CSI 010 presents total and sectoral trends of greenhouse gas emissions in the European Union and other EEA member countries, and can be used to assess progress in reducing emissions in the EU and the individual Member States (see <a href="http://ims.eionet.europa.eu/IMS/ISpecs/ISpecification20040909113419/full_spec#PolicyContext">Policy context</a> section).</p>
+            
+          
+
+          <h4>Scientific references</h4>
+          <ul>
+            <li>No rationale references available</li>
+            
+          </ul>
+        </div>
+      </div>
+        <div id="policy-context-and-references">
+          <h3 id="policy_context">Policy context and targets</h3>
+
+          <h4>Context description</h4>
+          
+          <p><p>The present indicator CSI 010 aims to support the European Commission's annual assessment of progress in reducing emissions in the EU and the individual Member States to achieve the Kyoto Protocol targets under the EU Greenhouse Gas Monitoring Mechanism (<a href="http://eur-lex.europa.eu/pri/en/oj/dat/2004/l_049/l_04920040219en00010008.pdf">Council Decision 280/2004/EC concerning a mechanism for monitoring Community GHG emissions and for implementing the Kyoto Protocol</a>).</p><p><b>Background<br /></b></p><p>The <a href="http://unfccc.int/essential_background/items/2877.php">United Nations Framework Convention on Climate Change (UNFCCC)</a> sets an ultimate objective of stabilizing greenhouse gas (GHG) concentrations 'at a level that would prevent dangerous                                   anthropogenic (human induced) interference with the climate system.' It also requires precise and regularly                                   updated inventories of greenhouse gas emissions from industrialized countries. With a few exceptions, the 'base                                   year' for tabulating greenhouse gas emissions has been set as 1990.</p> <p>The <a href="http://unfccc.int/kyoto_protocol/items/2830.php">Kyoto Protocol</a> is an international agreement linked to the UNFCCC which sets binding targets for industrialized countries and the European community for reducing greenhouse gas emissions. These amount to an average of five per cent against 1990 levels over the five-year period 2008-2012. (See next section).<br /></p><p>The European Community (EC), as a party to the UNFCCC, reports annually on the greenhouse gas emissions within the area covered by its Member States. The <a href="http://reports.eea.europa.eu/search_results?type=search&amp;SearchTitle=greenhouse+and+inventory&amp;Submit2=Search">Annual European Community greenhouse gas inventory and inventory report</a>, officially submitted to the UNFCCC Secretariat, is prepared on behalf of the European Commission (DG Environment) by the European Environment Agency's European Topic Centre for Air and Climate Change (ETC/ACC) supported by the Joint Research Centre and Eurostat.</p> <p>The legal basis of the compilation of the EC inventory is <a href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2004:049:0001:0008:EN:PDF">Council Decision No 280/2004/EC concerning a mechanism for monitoring Community greenhouse gas emissions and for implementing the Kyoto Protocol</a>. The purpose of this decision is to:</p> <ol><li>monitor all anthropogenic GHG emissions covered by the Kyoto Protocol in the Member States;</li><li>evaluate progress towards meeting GHG reduction commitments under the UNFCCC and the Kyoto Protocol;</li><li>implement the UNFCCC and the Kyoto Protocol as regards national programmes, greenhouse gas inventories, national systems and registries of the Community and its Member States, and the relevant procedures under the Kyoto Protocol;</li><li>ensure the timeliness, completeness, accuracy, consistency, comparability and transparency of reporting by the Community and its Member States to the UNFCCC Secretariat.</li></ol><p> </p></p>
+          
+          
+
+          <h4>Targets</h4>
+          
+          <p><p>Under the Kyoto Protocol, the EU-15 has taken on a common commitment to reducing emissions by 8 % on average between 2008 and 2012, compared to base-year emissions.</p><p>Within this overall target, differentiated emission limitation or reduction targets have been agreed for each of the 15 pre-2004 Member States under an EU accord known as the 'burden-sharing agreement'. These targets are set out in the Annex II to the <a href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2002:130:0001:0020:EN:PDF">Council Decision 2002/358/EC concerning the approval, on behalf of the European Community, of the Kyoto Protocol to the UNFCCC and the joint fulfilment of commitments thereunder</a>.</p><p></p><p>The EU-12 Member States (apart from Cyprus and Malta) have individual targets under the Kyoto Protocol. Bulgaria, Czech Republic, Estonia, Latvia, Lithuania, Romania, Slovak Republic and Slovenia have reduction targets of 8 % from the base year, while Hungary and Poland have reduction targets of 6 %.</p><p>Of the additional EEA member countries, Norway and Iceland are allowed to increase emissions under the Kyoto Protocol by 1 % and 10 %, respectively, from their base-year emissions. Switzerland and Liechtenstein have reduction targets of 8 %. Turkey is a Party to the UNFCCC, but not to the Kyoto Protocol and therefore has no reduction target. Croatia, an EU candidate country which started accession negotiations with the EU in 2005, ratified the Kyoto Protocol in May 2007 and has a reduction target of 5 %.</p><p><b>Base year</b><br /></p> <p>Under the Kyoto Protocol, the greenhouse gas emission level in the base year is the relevant starting point for tracking progress. For most EU Member States, the base year is 1990 for carbon dioxide (CO<sub>2</sub>), methane (CH<sub>4</sub>) and nitrous oxide (N<sub>2</sub>O), and 1995 for fluorinated gases (SF<sub>6</sub>, HFCs and PFCs). Five of the new Member States have base years or periods under the Convention and the Kyoto Protocol that differ from 1990 for CO<sub>2</sub>, CH<sub>4</sub> and N<sub>2</sub>O, which is possible for economies in transition.</p><p><b>National Kyoto or burden-sharing targets (reduction from base-year levels)</b></p><table border="1" cellpadding="0" cellspacing="1" width="499" height="1321"><tbody><tr><th valign="bottom" width="60%">Country<br />&nbsp;<br /></th> <th valign="bottom" width="40%">Kyoto Target 2008-2012</th></tr> <tr> <td valign="bottom" width="60%"> <p>Austria</p></td> <td valign="bottom" width="40%"> <p class="c816" align="center">-13%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Belgium</p></td> <td valign="bottom" width="40%"> <p class="c816" align="center">-7.5%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Bulgaria <sup>[1]</sup></p></td> <td width="40%"> <p class="c816" align="center">-8.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Croatia</p></td> <td width="40%"> <p class="c816" align="center">-5.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Czech Republic</p></td> <td width="40%"> <p class="c816" align="center">-8.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Cyprus</p></td> <td width="40%"> <p class="c816" align="center">-</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Denmark <sup>[2]</sup></p></td> <td width="40%"> <p class="c816" align="center">-21.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Estonia</p></td> <td width="40%"> <p class="c816" align="center">-8.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Finland</p></td> <td width="40%"> <p class="c816" align="center">0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>France</p></td> <td width="40%"> <p class="c816" align="center">0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Germany</p></td> <td width="40%"> <p class="c816" align="center">-21.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Greece</p></td> <td width="40%"> <p class="c816" align="center">+25.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Hungary <sup>[3]</sup></p></td> <td width="40%"> <p class="c816" align="center">-6.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Iceland</p></td> <td width="40%"> <p class="c816" align="center">-10.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Ireland</p></td> <td width="40%"> <p class="c816" align="center">+13.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Italy</p></td> <td width="40%"> <p class="c816" align="center">-6.5%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Latvia</p></td> <td width="40%"> <p class="c816" align="center">-8.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Liechtenstein</p></td> <td width="40%"> <p class="c816" align="center">-8.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Lithuania</p></td> <td width="40%"> <p class="c816" align="center">-8.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Luxembourg</p></td> <td width="40%"> <p class="c816" align="center">-28.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Malta</p></td> <td width="40%"> <p class="c816" align="center">-</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Netherlands</p></td> <td width="40%"> <p class="c816" align="center">-6.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Norway</p></td> <td width="40%"> <p class="c816" align="center">1.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Poland <sup>[4]</sup></p></td> <td width="40%"> <p class="c816" align="center">-6.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Portugal</p></td> <td width="40%"> <p class="c816" align="center">+27.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Romania <sup>[5]</sup></p></td> <td width="40%"> <p class="c816" align="center">-8.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Slovakia</p></td> <td width="40%"> <p class="c816" align="center">-8.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Slovenia <sup>[6]</sup></p></td> <td width="40%"> <p class="c816" align="center">-8.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Spain</p></td> <td width="40%"> <p class="c816" align="center">+15.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Sweden</p></td> <td width="40%"> <p class="c816" align="center">+4.0%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>Turkey</p></td> <td width="40%"> <p class="c816" align="center">-</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>United Kingdom</p></td> <td width="40%"> <p class="c816" align="center">-12.5%</p></td></tr> <tr> <td valign="bottom" width="60%"> <p>EU-15 (pre-2004 EU Member States)</p></td> <td width="40%"> <p class="c816" align="center">-8.0%</p></td></tr></tbody></table> <p><sup>[1]</sup> The base year for Bulgaria is 1988.</p> <p><sup>[2]</sup> In Commission Decision 2006/944/EC determining the respective emission levels allocated to the Community and each of its Member States under the Kyoto Protocol, the respective emission levels were expressed in terms of tonnes of CO<sub>2</sub>-equivalent. In connection with Council Decision 2002/358/EC, the Council of Environment Ministers and the Commission have, in a joint statement, agreed to take into account inter alia the assumptions in Denmark's statement to the Council Conclusions of 16-17 June 1998 relating to base-year emissions in 2006. In 2006, it was decided to postpone a decision on this until after all Community and Member State initial reports have been reviewed under the Kyoto Protocol.<br /><sup><br />[3]</sup> The base year for Hungary is the average of 1985-1987.</p> <p><sup>[4]</sup> The base year for Poland is 1988.</p> <p><sup>[5]</sup> The base year for Romania is 1989.</p> <p><sup>[6]</sup> The base year for Slovenia is 1986.</p> <p>Detailed information on base-year levels&nbsp;is available from <a href="http://reports.eea.europa.eu/search_results?type=search&amp;SearchTitle=greenhouse+AND+projections&amp;Submit2=Search">EEA report on greenhouse gas emissions trends and projections in Europe</a>.</p></p>
+          
+          
+
+          
+          <h4>Related policy documents</h4>
+          <ul>
+            <li>
+              <a href="http://unfccc.int/essential_background/kyoto_protocol/items/2830.php">Kyoto Protocol to the UN Framework Convention on Climate Change</a>
+              <div> Kyoto Protocol to the United Nations Framework Convention on Climate   Change;    adopted at COP3 in Kyoto, Japan, on 11 December 1997 </div>
+            </li>
+            <li>
+              <a href="http://unfccc.int/national_reports/annex_i_ghg_inventories/reporting_requirements/items/2759.php">UNFCCC</a>
+              <div> UNFCCC reporting guidelines on annual inventories </div>
+            </li>
+          </ul>
+          
+          
+        </div>
+        <div id="methodology-and-references">
+          <h3>Methodology</h3>
+
+          
+          <h4>Methodology for indicator calculation</h4>
+          <p><div class="c815">    <p>The UNFCCC requires precise and regularly updated inventories of greenhouse gas emissions from industrialized countries, using comparable methodologies. To estimate anthropogenic greenhouse gas emissions, all countries must use the <a href="http://www.ipcc-nggip.iges.or.jp/public/gl/invs1.html">Revised 1996   IPCC Guidelines for   National Greenhouse Gas Inventories</a>.&nbsp;</p><p>In order to be agregated into one single figure, emissions of the different individual gases are    translated into CO<sub>2</sub> equivalents, using global warming potentials (GWP) as provided in the IPCC guidelines. GWP are a measure of how much a given mass of greenhouse gas is estimated to contribute to global warming.<br /></p><table border="1"><tbody><tr><th>Gas</th>       <th>        <p>Global warming potential (GWP)</p>       </th>      </tr>      <tr>       <td>carbon dioxine</td>       <td>1</td>      </tr>      <tr>       <td>methane</td>       <td>21</td>      </tr>      <tr>       <td>nitrous oxide</td>       <td>310</td>      </tr>      <tr>       <td>sulphur hexafluoride</td>       <td>23900</td>      </tr>     </tbody>    </table>    <br />    HFCs and PFCs comprise a large number of different gases that have    different GWPs. Countries report HFC and PFC in Mt CO<sub>2</sub>-equivalent.    <p>All total emissions exclude greenhouse gas emissions and removals from land use, land use change and    forestry (LULUCF) activities.</p></div></p>
+          
+          
+
+          
+          <h4>Methodology for gap filling</h4>
+          <p>The EC GHG inventory is compiled by using the inventory submissions of the EC Member States. If a Member State does not submit all data required for the compilation of the EC inventory, estimates for data missing for that Member State are made. In the following cases gap filling is made:<br /></p><ul><li>To complete specific years in the GHG inventory time-series for a specific Member State (for the most recent inventory year(s), for the base year or for some years of the time series from 1990 to the most recent year);</li><li>To complete individual source categories for individual Member States that did not estimate specific source categories for any year of the inventory time series. Gap filling methods are used for major gaps when it is highly certain that emissions from these source categories exist in the Member States concerned;</li><li>To provide complete background data tables for the European Community when some Member States only provided sectoral and summary tables. (In this case, the gap filling methods are used to further disaggregate the emission estimates provided by Member States.)</li><li>To enable the presentation of consistent trends for the EC.</li></ul><p>For data gaps in Member States’ inventory submissions, a gap-filling procedure is applied in accordance with the implementing provisions under Council Decision No 280/2004/EC for missing emission data. The methods used for gap filling include interpolation, extrapolation and clustering. These methods are consistent with the adjustment methods described in UNFCCC Adjustment Guidelines and in the IPCC GPG 2000.</p><p></p>
+          
+          
+
+          <h4>Methodology references</h4>
+          
+          
+          <p>No methodology references available.</p>
+          
+        </div>
+        <div id="uncertainties-part">
+          <h3 id="uncertainties">Uncertainties</h3>
+
+          <h4>Methodology uncertainty</h4>
+          
+          <p><b>Methodologies to estimate greenhouse gas emissions and removals</b></p><p><b>Difference of methodologies between countries</b></p><p>Since Member States use different national methodologies, national activity data or country-specificemission factors in accordance with IPCC and UNFCCC guidelines, these methodologies are reflected in the EC GHG inventory data. The EC believes that it is consistent with the UNFCCC reporting guidelines and the IPCC good practice guidelines to use different methodologies for one source category across the EC especially if this helps to reduce uncertainty and improve consistency of the emissions data provided that each methodology is consistent with the IPCC good practice guidelines.<br /></p><p><b>GWP</b></p><p>The IPCC suggests that the uncertainty in the total GWP   weighted emission estimates, for most European countries, is likely to be   better than +/- 20%. While uncertainties in the estimates of the   non-CO<sub>2</sub> gases are larger than this, the dominance of   CO<sub>2</sub>, with a much lower uncertainty than 20%, in the GWP emissions   results in the overall uncertainty of 20%.</p>
+          
+          
+
+          <h4>Data sets uncertainty</h4>
+          
+          <div class="c3">    <p><b>Evaluation<br /></b></p><p>The EEA uses data officially submitted by EU Member States and other EEA   countries which perform their own assessment into uncertainty of reported   data. In accordance with UNFCCC guidelines, the EC and its Member States use the IPCC <a href="http://www.ipcc-nggip.iges.or.jp/public/gp/english/">Good practice guidance and uncertainty management in national greenhouse gas inventories</a>, which is consistent with the <a href="http://www.ipcc-nggip.iges.or.jp/public/2006gl/index.html">Revised 1996 IPCC guidelines for national greenhouse gas inventories</a>. The use of this good practice guidance by countries is expected to lead to higher quality inventories and more reliable estimates of the magnitude of absolute and trend uncertainties in reported GHG inventories.</p><p>The annual EC GHG inventory report provides a section (1.7) on uncertainty evaluation. The results suggest that uncertainties at EU-15   level are between +/- 4% and 8% for total EU-15 greenhouse gas   emissions. N<sub>2</sub>O emissions of agriculture soils is the source contributing most to the overall uncertainty of the EC inventory.   </p><b>Trends</b><p>Total EU-27 and EU-15 GHG emission trends are likely to be more accurate than the   individual absolute annual emission estimates, because the annual values are   not independent of each other. The IPCC suggests that the uncertainty in   total GHG emission trends is ~ 4 to 5%. The total GHG emission estimates   are quite reliable and the limited number of interpolations used to build   the indicator do not introduce much uncertainty at the EU level.</p></div>
+          
+          
+
+          <h4>Rationale uncertainty</h4>
+          
+          <p>According to the latest scientific evidence available (<a href="http://www.ipcc.ch/ipccreports/assessments-reports.htm">IPCC Fourth Assessment Report 'Climate Change 2007'</a>):<br /></p><ul><li>Warming of the climate system is <b>unequivocal</b>.</li><li>Most of the observed increase in global average temperatures since the mid-20th century is <b>very likely </b>due to the observed increase in anthropogenic greenhouse gas concentrations. Global greenhouse gas emissions due to human activities have grown since pre-industrial times, with an increase of 70% between 1970 and 2004. Global atmospheric concentrations of CO<sub>2</sub>, methane (CH<sub>4</sub>) and nitrous oxide (N<sub>2</sub>O) have increased markedly as a result of human activities since 1750 and now far exceed pre-industrial values determined from ice cores spanning many thousands of years.<br /></li><li>There is <b>high agreement </b>and <b>much evidence </b>that with current climate change mitigation policies and related sustainable development practices, global GHG emissions will continue to grow over the next few decades.</li><li>Continued GHG emissions at or above current rates would cause further warming and induce many changes in the global climate system during the 21st century that would <b>very likely&nbsp;</b><b></b>be larger than those observed during the 20th century.</li><li>Anthropogenic warming could lead to some impacts that are abrupt or irreversible, depending upon the rate and magnitude of the climate change.<br /></li></ul><p>Words in bold represent calibrated expressions of uncertainty and confidence. Relevant terms are explained in the Box 'Treatment of uncertainty' in the Introduction of the <a href="http://www.ipcc.ch/pdf/assessment-report/ar4/syr/ar4_syr.pdf">AR4 Synthesis Report</a>. In particular, a likelihood <b>'very likely'</b> corresponds to a <b>probability of occurence higher than 90 %</b>. This uncertainty in specific outcomes is assessed using expert judgment and statistical analysis of a body of evidence (e.g. observations or model results).</p><p>The high confidence in the responsibility of anthropogenic greenhouse gas emissions for the warming of the climate system reemphasizes the relevance of monitoring and assessing greenhouse gas emission trends in Europe.</p>
+          
+          
+        </div>
+
+      <h3 id="data_specifications">Data sources</h3>
+      <ul>
+        <li>
+          <a href="https://www.eea.europa.eu/ds_resolveuid/DAT-13-en">National emissions reported to the UNFCCC and to the EU Greenhouse Gas Monitoring Mechanism</a><br/>
+            provided by
+          <span>
+           
+            <strong>Directorate-General for Environment (DG ENV)</strong>
+            , 
+           
+          </span>
+          <span>
+           
+            <strong>United Nations Framework Convention on Climate Change (UNFCCC)</strong>
+            
+           
+          </span>
+        </li>
+        
+        
+      </ul>
+
+        <div id="box-metadata" class="clearfix eea-accordion-panels collapsed-by-default non-exclusive">
+        <div class="eea-accordion-panel">
+            <h2 class="notoc eea-icon-right-container">Metadata</h2>
+            <div class="pane">
+            <div class="box-column-left">
+                
+                    <strong>Topics</strong>:<br /><br />
+                    
+                        <div id="themes-tags">
+                            
+                               <span>
+                                    <a class="link-category" rel="tag" title="Climate change mitigation" href="https://www.eea.europa.eu/themes/climate">Climate change mitigation</a>
+                                    
+                                </span>
+                            
+                        </div>
+                    
+                
+
+                
+                    
+                    <dt style="clear: left" id="keywords-tags">
+                        
+    <img class="eea-flexible-tooltip-right" src="https://www.eea.europa.eu/information.png" alt="information.png" title="Tags are commonly used for ad-hoc organization of content." />
+
+                        <span>Tags:</span>
+                    </dt>
+                    <dd class="documentByLine category">
+                        
+                            <span>
+                                <a class="link-category" rel="tag" title="climate">climate</a>
+                                <span class="separator">,</span>
+                            </span>
+                        
+                            <span>
+                                <a class="link-category" rel="tag" title="csi">csi</a>
+                                <span class="separator">,</span>
+                            </span>
+                        
+                            <span>
+                                <a class="link-category" rel="tag" title="greenhouse gases">greenhouse gases</a>
+                                <span class="separator">,</span>
+                            </span>
+                        
+                            <span>
+                                <a class="link-category" rel="tag" title="air">air</a>
+                                <span class="separator">,</span>
+                            </span>
+                        
+                            <span>
+                                <a class="link-category" rel="tag" title="ozone">ozone</a>
+                                <span class="separator">,</span>
+                            </span>
+                        
+                            <span>
+                                <a class="link-category" rel="tag" title="emissions">emissions</a>
+                                
+                            </span>
+                        
+                    </dd>
+                
+                
+                <div class="visualClear"><!-- --></div>
+                <strong>DPSIR</strong>: Pressure
+                <br/>
+                <strong>Typology</strong>: Performance indicator (Type B - Does it matter?)
+            </div>
+            <div class="box-column-right">
+                <div>
+                    <strong>Indicator codes</strong>
+                    <ul>
+                        <li>CSI 010</li>
+                        <li>CLIM 050</li>
+                    </ul>
+                </div>
+                
+    
+    
+
+
+                
+        
+    
+      <div class="eea-location-listing">
+        
+                <dt class="geotags">
+                    
+    <img class="eea-flexible-tooltip-right" src="https://www.eea.europa.eu/information.png" alt="information.png" title="Geographic coverage describes the locations/places covered by the content item." />
+
+                    <span>Geographic coverage:</span>
+                </dt>
+            
+
+        <h4>Countries</h4>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Austria">Austria</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Belgium">Belgium</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Bulgaria">Bulgaria</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Cyprus">Cyprus</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Czech Republic">Czech Republic</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Denmark">Denmark</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Estonia">Estonia</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Finland">Finland</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=France">France</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Germany">Germany</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Greece">Greece</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Hungary">Hungary</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Ireland">Ireland</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Italy">Italy</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Latvia">Latvia</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Lithuania">Lithuania</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Luxembourg">Luxembourg</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Malta">Malta</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Netherlands">Netherlands</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Poland">Poland</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Portugal">Portugal</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Romania">Romania</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Slovakia">Slovakia</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Slovenia">Slovenia</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Spain">Spain</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=Sweden">Sweden</a>
+            <span class="separator">,</span>
+          </span>
+        
+          <span>
+            <a class="link-category" rel="tag" href="https://www.eea.europa.eu/@@search?getGeographicCoverage%3Alist=United Kingdom">United Kingdom</a>
+            
+          </span>
+        
+
+        
+        
+      </div>
+    
+  
+
+            </div>
+            <div id="timestamps-info" class="clearfix">
+                      <div class="box-column-left">
+                          <h4>Dates</h4>
+            
+                          <div class="metadata_date">First draft created:</div>
+                          <div class="metadata_date"><div class="" id="parent-fieldname-creation_date-e118005b613e098f4f0bbc9bacd321a9"> 16 Nov 2007, 04:16 PM </div> </div>
+                          <div class="metadata_date">Publish date:</div>
+                          <div class="metadata_date"><div class="" id="parent-fieldname-effectiveDate-e118005b613e098f4f0bbc9bacd321a9"> 21 Feb 2008, 04:00 PM </div> </div>
+                          <div class="metadata_date">Last modified:</div>
+                          <div class="metadata_date"><div class="" id="parent-fieldname-modification_date-e118005b613e098f4f0bbc9bacd321a9"> 25 Aug 2017, 11:47 AM </div> </div>
+                      </div>
+            
+                      <div class="box-column-right">
+                          <div>
+                              <h4>Frequency of updates</h4>
+                              <div>Updates are scheduled twice per year</div>
+                          </div>
+                      </div>
+                  </div>
+                              <div id="contact-and-ownership" class="clearfix">
+                  <div class="box-column-left">
+                      <h4>EEA Contact Info</h4>
+                      
+                          
+                              
+                                  <a href="https://www.eionet.europa.eu/users/dejeafr" title="Contact indicator manager">François Dejean</a>
+                                  
+                              
+                          
+                          
+                      
+                  </div>
+        
+                <div class="box-column-right">
+                    
+                </div>
+        
+            </div>
+            </div>
+
+            
+
+        </div>
+        </div>
+
+    </div>
+                                </div>
+
+                                
+
+                                
+                                    
+                                        
+  
+
+                                    
+                                
+
+                                
+                                    
+  
+
+
+
+    
+    <div class="eea-accordion-panels collapsed-by-default non-exclusive" id="eea-versions-portlet">
+        <div class="eea-accordion-panel">
+            <h2 class="notoc eea-icon-right-container eea-icon eea-icon-link" style="width:100%">Permalinks</h2>
+            <div class="pane">
+                <dl id="permalinks" style="margin-top: 15px">
+
+    <dt>Permalink to this version</dt>
+    <dd>
+      <a href="https://www.eea.europa.eu/ds_resolveuid/e118005b613e098f4f0bbc9bacd321a9" title="e118005b613e098f4f0bbc9bacd321a9">e118005b613e098f4f0bbc9bacd321a9</a>
+    </dd>
+
+    <dt>Permalink to latest version</dt>
+    <dd>
+      <a href="https://www.eea.europa.eu/ds_resolveuid/IND-37-en" title="IND-37-en">IND-37-en</a>
+    </dd>
+
+  </dl>
+            </div>
+        </div>
+
+        
+    
+                <div class="eea-accordion-panel">
+                    <h2 class="notoc eea-icon-right-container eea-icon eea-icon-history" style="width:100%">Older versions</h2>
+                    <div class="pane">
+                        
+                            <div id="previous-versions">
+                                <div class="portletItem">
+                                    <a href="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-projections/greenhouse-gas-emission-projections-assessment-2" class="state-published versionUrl">
+                                        21 Feb 2008 - 
+                                        Progress to greenhouse gas emission targets
+                                    </a>
+                                </div>
+                                <div class="portletItem">
+                                    <a href="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-1" class="state-published versionUrl">
+                                        01 Feb 2007 - 
+                                        Greenhouse gas emission trends
+                                    </a>
+                                </div>
+                                <div class="portletItem">
+                                    <a href="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-projections/greenhouse-gas-emission-projections-assessment-1" class="state-published versionUrl">
+                                        01 Feb 2007 - 
+                                        Progress to greenhouse gas emission targets
+                                    </a>
+                                </div>
+                                <div class="portletItem">
+                                    <a href="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment" class="state-published versionUrl">
+                                        29 Nov 2005 - 
+                                        Greenhouse gas emission trends
+                                    </a>
+                                </div>
+                                <div class="portletItem">
+                                    <a href="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-projections/greenhouse-gas-emission-projections-assessment" class="state-published versionUrl">
+                                        29 Nov 2005 - 
+                                        Progress to greenhouse gas emission targets
+                                    </a>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            
+
+    </div>
+
+
+
+
+<!-- Geographic coverage -->
+
+
+<!-- Temporal coverage -->
+
+
+<div id="socialmedia-viewlet">
+
+    <div class="visualClear"><!-- --></div>
+
+    <div class="documentActions">
+        
+            <h5 class="hiddenStructure">Document Actions</h5>
+            <h2 class="share-title notoc">Share with others</h2>
+            
+            <table class="table-document-actions">
+                        <tr>
+                            <td>
+                <div id="socialmedia-list">
+                    <ul class="social-buttons">
+                        <li>
+                        <a rel="noopener" target="_blank" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A//www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2&amp;text=Greenhouse%20gas%20emission%20trends&amp;via=EUEnvironment">
+                                <span class="eea-icon eea-icon-twitter-square"><!-- --></span></a>
+                        </li>
+                        <li>
+                        <a rel="noopener" target="_blank" title="Share on Facebook" href="https://facebook.com/sharer.php?u=https%3A//www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2">
+                                <span class="eea-icon eea-icon-facebook-square"><!-- --></span></a>
+                        </li>
+                        <li>
+                        <a rel="noopener" target="_blank" title="Share on LinkedIn" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A//www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2&amp;title=Greenhouse%20gas%20emission%20trends&amp;summary=%20Total%20greenhouse%20gas%20emissions%20in%20the%20EU-27%2C%20excluding%20emission%20and%20removals%20from%20land-use%2C%20land%20use%20change%20and%20forestry%20%28LULUCF%29%2C%20decreased%20by%200.7%20%25%20between%202004%20and%202005%20and%20by%207.9%20%25%20between%201990%20and%202005.%20Emissions%20decreased%20strongly%20in%20the%20new%20Member%20States%20during%20the%201990s%20but%20since%202000%2C%20the%20trends%20have%20been%20almost%20identical%20in%20the%20EU-15%20and%20in%20the%20new%20Member%20States.%20Between%201990%20and%202005%2C%20greenhouse%20gas%20emissions%20decreased%20in%20all%20sectors%20except%20in%20the%20transport%20sector%2C%20where%20they%20increased%20significantly.%20%20%20In%20the%20EU-15%2C%20total%20greenhouse%20gas%20emissions%20%28excluding%20LULUCF%29%20decreased%20by%200.8%20%25%20between%202004%20and%202005%2C%20by%201.5%20%25%20between%201990%20and%202005%20and%20by%202.0%20%25%20between%20the%20Kyoto%20base%20year%20and%202005.%20This%20means%20the%20EU-15%20has%20achieved%20one%20fourth%20of%20the%20total%20reduction%20needed%20to%20achieve%20the%208%20%25%20reduction%20from%20base-year%20level%20required%20by%202008-2012%20under%20the%20Kyoto%20Protocol.%20However%2C%20the%20target%20can%20also%20be%20reached%20through%20actions%20outside%20the%20EU%20%28use%20of%20Kyoto%20mechanisms%29.%20%20%20In%20the%2012%20new%20Member%20States%2C%20total%20greenhouse%20gas%20emissions%20%28excluding%20LULUCF%29%20decreased%20by%200.3%20%25%20between%202004%20and%202005%20and%20by%2027.8%20%25%20between%201990%20and%202005.%20Except%20in%20Slovenia%2C%202005%20emissions%20of%20all%20the%20new%20Member%20States%20that%20have%20a%20Kyoto%20target%20were%20well%20below%20their%20Kyoto%20target.%20">
+                                <span class="eea-icon eea-icon-linkedin-square"><!-- --></span></a>
+                        </li>
+                        <li>
+                        <a rel="noopener" target="_blank" title="Share on Blogger" href="https://www.blogger.com/blog-this.g?u=https%3A//www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2&amp;n=Greenhouse%20gas%20emission%20trends&amp;t=%20Total%20greenhouse%20gas%20emissions%20in%20the%20EU-27%2C%20excluding%20emission%20and%20removals%20from%20land-use%2C%20land%20use%20change%20and%20forestry%20%28LULUCF%29%2C%20decreased%20by%200.7%20%25%20between%202004%20and%202005%20and%20by%207.9%20%25%20between%201990%20and%202005.%20Emissions%20decreased%20strongly%20in%20the%20new%20Member%20States%20during%20the%201990s%20but%20since%202000%2C%20the%20trends%20have%20been%20almost%20identical%20in%20the%20EU-15%20and%20in%20the%20new%20Member%20States.%20Between%201990%20and%202005%2C%20greenhouse%20gas%20emissions%20decreased%20in%20all%20sectors%20except%20in%20the%20transport%20sector%2C%20where%20they%20increased%20significantly.%20%20%20In%20the%20EU-15%2C%20total%20greenhouse%20gas%20emissions%20%28excluding%20LULUCF%29%20decreased%20by%200.8%20%25%20between%202004%20and%202005%2C%20by%201.5%20%25%20between%201990%20and%202005%20and%20by%202.0%20%25%20between%20the%20Kyoto%20base%20year%20and%202005.%20This%20means%20the%20EU-15%20has%20achieved%20one%20fourth%20of%20the%20total%20reduction%20needed%20to%20achieve%20the%208%20%25%20reduction%20from%20base-year%20level%20required%20by%202008-2012%20under%20the%20Kyoto%20Protocol.%20However%2C%20the%20target%20can%20also%20be%20reached%20through%20actions%20outside%20the%20EU%20%28use%20of%20Kyoto%20mechanisms%29.%20%20%20In%20the%2012%20new%20Member%20States%2C%20total%20greenhouse%20gas%20emissions%20%28excluding%20LULUCF%29%20decreased%20by%200.3%20%25%20between%202004%20and%202005%20and%20by%2027.8%20%25%20between%201990%20and%202005.%20Except%20in%20Slovenia%2C%202005%20emissions%20of%20all%20the%20new%20Member%20States%20that%20have%20a%20Kyoto%20target%20were%20well%20below%20their%20Kyoto%20target.%20">
+                                <span class="eea-icon eea-icon-bold"><!-- --></span></a>
+                        </li>
+                        <li>
+                        <a rel="noopener" target="_blank" title="Share on reddit" href="https://reddit.com/submit?url=https%3A//www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2&amp;title=Greenhouse%20gas%20emission%20trends">
+                                <span class="eea-icon eea-icon-reddit-square"><!-- --></span></a>
+                        </li>
+                        <li>
+                        <a rel="noopener" target="_blank" title="Share on StumbleUpon" href="http://www.stumbleupon.com/submit?url=https%3A//www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2">
+                                <span class="eea-icon eea-icon-stumbleupon-circle"><!-- --></span></a>
+                        </li>
+                    </ul>
+                </div>
+                            </td>
+                <td class="action-items">
+                   <ul class="action-buttons">
+                   <li id="document-action-rss">
+                       <a href="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/RSS" title="">
+                      <img src="https://www.eea.europa.eu/rss.gif" alt="RSS feed of this listing" title="RSS feed of this listing"/>
+                      
+                       </a>
+                   </li>
+                   <li id="document-action-rdf">
+                       <a href="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/@@rdf" title="">
+                      <img src="https://www.eea.europa.eu/rdf.png" alt="RDF" title="RDF"/>
+                      
+                       </a>
+                   </li>
+                   <li id="document-action-semantic">
+                       <a href="http://semantic.eea.europa.eu/factsheet.action?uri=http://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2" title="">
+                      <img src="https://www.eea.europa.eu/book_open.png" alt="Metadata sheet on semantic" title="Metadata sheet on semantic"/>
+                      
+                       </a>
+                   </li>
+                   <li id="document-action-download_pdf">
+                       <a href="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/download.pdf" title="">
+                      <img src="https://www.eea.europa.eu/++resource++eea.pdf.images/download-pdf.png" alt="Download as PDF" title="Download as PDF"/>
+                      
+                       </a>
+                   </li>
+                   </ul>
+
+               </td>
+                        </tr>
+            </table>
+        
+    </div>
+
+</div>
+
+<div class="qrbox featured">
+  <div class="qrbox-text" style="font-size:x-small;">
+
+    <p><strong>For references</strong>, please go to <a href="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2">https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2</a> or scan the QR code.</p>
+    
+    <p>
+      <span class="discreet">
+        PDF generated on 07 Jun 2019, 05:54 AM
+      </span>
+    </p>
+</div>
+
+<img class="qr" alt="EEA Page URL QR" title="EEA Page URL QR" src="https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/@@eeaqrcode" />
+</div>
+
+<!-- Exclude coverage -->
+
+    
+
+<div class="eea-pdf-viewlet" data-async="1">
+</div>
+
+                                
+
+                                
+                            
+                        </div>
+                    
+
+                    
+                </div>
+
+            
+
+            
+                
+                    <div id="viewlet-below-content"><div id="category" class="documentByLine">
+  Filed under:
+  <span>
+    <a href="https://www.eea.europa.eu/@@search?Subject%3Alist=climate" class="link-category" rel="tag">climate</a><span class="separator">,</span>
+  </span>
+  <span>
+    <a href="https://www.eea.europa.eu/@@search?Subject%3Alist=csi" class="link-category" rel="tag">csi</a><span class="separator">,</span>
+  </span>
+  <span>
+    <a href="https://www.eea.europa.eu/@@search?Subject%3Alist=greenhouse%20gases" class="link-category" rel="tag">greenhouse gases</a><span class="separator">,</span>
+  </span>
+  <span>
+    <a href="https://www.eea.europa.eu/@@search?Subject%3Alist=air" class="link-category" rel="tag">air</a><span class="separator">,</span>
+  </span>
+  <span>
+    <a href="https://www.eea.europa.eu/@@search?Subject%3Alist=ozone" class="link-category" rel="tag">ozone</a><span class="separator">,</span>
+  </span>
+  <span>
+    <a href="https://www.eea.europa.eu/@@search?Subject%3Alist=emissions" class="link-category" rel="tag">emissions</a>
+  </span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+                
+            
+        </div>
+
+        
+
+        <div id="portal-column-one">
+        </div>
+
+        
+        
+    </div>
+    <div class="visualClear"><!-- --></div>
+ </div>
+    <!-- end column wrapper -->
+
+</div>
+
+
+    
+        <div class="row">
+    <div id="footer-wrapper">
+        <div id="bg-wrapper">
+
+                <div id="portal-footer">
+                    
+
+
+<div id="portletwrapper-706c6f6e652e666f6f7465720a636f6e746578740a2f7777770a706f72746c65745f666f6f7465725f73656374696f6e73" class="portletWrapper kssattr-portlethash-706c6f6e652e666f6f7465720a636f6e746578740a2f7777770a706f72746c65745f666f6f7465725f73656374696f6e73">
+
+
+  
+    
+
+    <!-- eionet -->
+    <div class="colophon-section section-dark section-top">
+        <div class="section-centered">
+        <h2 class="mb-0 section-header h1 no-anchor">Eionet</h2>
+        <a href="https://www.eionet.europa.eu/" class="text-center">European Environment Information and Observation Network (Eionet)</a>
+        </div>
+    </div>
+     <!-- end eionet section -->
+
+
+    <!-- managed sites -->
+    <div class="colophon-section section-dark section-bordered">
+        <div class="section-centered space-around">
+
+            <h2 class="section-header h1 no-anchor"><span>The EEA also contributes to</span></h2>
+
+            <table class="left-table">
+                <tr><td class="table-link-title"><a href="https://biodiversity.europa.eu/" target="_blank">BISE</a></td>
+                    <td class="table-link-description">
+                        <a href="https://biodiversity.europa.eu/" target="_blank">Biodiversity Information System for Europe</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table-link-title">
+                        <a href="https://climate-adapt.eea.europa.eu/" target="_blank">Climate-ADAPT</a>
+                    </td>
+                    <td class="table-link-description">
+                        <a href="https://climate-adapt.eea.europa.eu/" target="_blank">Climate Adaptation Platform</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="table-link-title">
+                        <a href="https://insitu.copernicus.eu/" target="_blank">Copernicus In Situ</a>
+                    </td>
+                    <td class="table-link-description">
+                        <a href="https://insitu.copernicus.eu/" target="_blank">Copernicus in situ component</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table-link-title">
+                        <a href="https://land.copernicus.eu/" target="_blank">Copernicus Land</a>
+                    </td>
+                    <td class="table-link-description">
+                        <a href="https://land.copernicus.eu/" target="_blank">Copernicus land monitoring</a>
+                    </td>
+                </tr>
+            </table>
+
+            <table class="right-table">
+                <tr>
+                    <td class="table-link-description">
+                        <a href="https://prtr.eea.europa.eu/" target="_blank">European Pollutant Release and Transfer Register</a>
+                    </td>
+                    <td class="table-link-title">
+                        <a href="https://prtr.eea.europa.eu/" target="_blank">E-PRTR</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table-link-description"><a href="https://ipchem.jrc.ec.europa.eu/RDSIdiscovery/ipchem/index.html" target="_blank">Information Platform for Chemical Monitoring</a></td>
+                    <td class="table-link-title">
+                        <a href="https://ipchem.jrc.ec.europa.eu/RDSIdiscovery/ipchem/index.html" target="_blank">IPCHEM</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="table-link-description"><a href="https://water.europa.eu/marine" target="_blank">Marine Water Information System for Europe</a></td>
+                    <td class="table-link-title">
+                        <a href="https://water.europa.eu/marine" target="_blank">WISE-Marine</a>
+                    </td>
+                </tr>
+                <tr><td class="table-link-description"><a href="https://water.europa.eu/freshwater" target="_blank">Fresh Water Information System for Europe</a></td>
+                    <td class="table-link-title">
+                        <a href="https://water.europa.eu/freshwater" target="_blank">WISE-FreshWater</a>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+<!--  end managed sites -->
+
+     <!-- follow us -->
+    <div class="colophon-section section-dark section-bordered">
+
+        <h2 class="section-header h1 no-anchor">Follow us</h2>
+
+        <div class="section-centered">
+
+            <a class="link-plain media" title="Follow us on Twitter" href="https://twitter.com/euenvironment">
+                <span class="eea-icon  eea-icon-twitter-square eea-icon-4x"><!-- --></span></a>
+            <a class="link-plain media" title="Follow us on Facebook" href="https://www.facebook.com/European.Environment.Agency">
+                <span class="eea-icon  eea-icon-facebook-square eea-icon-4x"><!-- --></span></a>
+            <a class="link-plain media" title="Follow us on LinkedIn" href="https://www.linkedin.com/company/european-environment-agency">
+                <span class="eea-icon  eea-icon-linkedin-square eea-icon-4x"><!-- --></span></a>
+            <a class="link-plain media" title="Follow us on YouTube" href="https://www.youtube.com/user/EEAvideos">
+                <span class="eea-icon eea-icon-youtube-square eea-icon-4x"><!-- --></span></a>
+            <a class="link-plain media" title="Subscribe to RSS Feed" href="/subscription/news-feeds">
+                <span class="eea-icon eea-icon-rss-square eea-icon-4x"><!-- --></span></a>
+
+            <div class="media media--discreet">
+                <a class="link-plain media-link align-center" title="Subscribe by email" href="/subscription/targeted-subscription">
+                    <span class="eea-icon eea-icon-4x eea-icon-newspaper-o"><!-- --></span>
+                    <div class="media-body">
+                        <span>Sign up to receive our news notifications</span>
+                        <br>
+                        <span>and our quarterly e-newsletter</span>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- end follow us -->
+
+    <!-- contact us section -->
+    <div class="colophon-section section-dark section-bordered section-contact-us">
+        <div class="section-centered">
+
+            <h2 class="section-header h1 no-anchor">Contact us</h2>
+            <div class="media my-2">
+                <span class="eea-icon eea-icon-4x eea-icon-map-marker"><!-- --></span>
+                <div class="media-body">Kongens Nytorv 6 <br> 1050 Copenhagen K</div>
+            </div>
+
+            <div class="media my-2">
+                <span class="eea-icon eea-icon-4x eea-icon-phone"><!-- --></span>
+                <div class="media-body">
+                    <span>Phone number:</span>
+                    <br>
+                    <a href="tel:+4533367100">(+45) 33 36 71 00</a>
+                </div>
+            </div>
+
+            <div class="media my-2">
+                <span class="eea-icon eea-icon-4x eea-icon-comment"><!-- --></span>
+                <div class="media-body media-body-enquiries">
+                    <a href="//community.eea.europa.eu/" class="block">Ask your question via the EEA Forum</a>
+                    <a href="https://www.eea.europa.eu/media/">Media enquiries</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end contact us section -->
+
+
+
+  
+
+  
+
+</div>
+
+
+                    
+                 </div>
+        </div>
+    </div>
+</div>
+
+<div id="portal-colophon">
+    
+
+    <div class="colophonWrapper">
+        <div class="colophon-section  section-bordered">
+            <div class="section-centered">
+                <a href="https://europa.eu/european-union/about-eu_en">
+                    <div class="media mb-0">
+                    <span class="icon-siteaction-europe-flag" alt="EU flag" title="European Union Flag"><!-- empty --></span>
+                        <span class="europe-agency-text">The EEA is an agency of the European Union</span>
+                    </div>
+                </a>
+                </div>
+        </div>
+
+        <div class="colophon-section section-bordered-inversed">
+
+            <div class="section-centered eea-software-info">
+            <p class="colophon-links">
+                <span class="eea-icon eea-icon-tasks"><!-- empty --></span>
+                Engineered by:
+                <a href="https://www.eea.europa.eu/help/contact-info">EEA Web Team</a>
+            </p>
+                
+                <p class="colophon-links">
+                    Software updated on
+                    
+                    <em>22 May 2019 08:08</em>
+                    from version <em>19.5.20</em>
+                </p>
+            <p class="colophon-links">
+                Software version:
+                
+                <a href="https://github.com/eea/eea.docker.kgs/releases">EEA Plone KGS 19.5.22</a>
+            </p>
+
+            <p class="colophon-links">
+                <a href="https://www.eea.europa.eu/code" title="Code for developers">Code for developers</a>
+            </p>
+
+            
+
+            <p class="colophon-links">
+                <a href="https://www.eea.europa.eu/legal/">Legal notice</a>
+            </p>
+
+            <p class="colophon-links">
+                <a rel="license" href="http://creativecommons.org/licenses/by/2.5/dk/deed.en_GB" title="Creative Commons Attribution License">
+                    <span class="eea-icon eea-icon-creative-commons"><!-- empty --></span>
+                    <span>Creative commons license</span>
+                </a>
+            </p>
+
+            <p class="colophon-links">
+                <a href="https://www.eea.europa.eu/login_form" title="Log in to CMS">
+                    <strong>CMS login</strong></a>
+            </p>
+
+            
+            </div>
+        </div>
+        
+
+
+        
+
+    </div>
+    <!-- Matomo noscript -->
+    <noscript><p><img src="https://matomo.eea.europa.eu/piwik.php?idsite=3&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+    <!-- End Matomo Code -->
+    
+</div>
+
+
+
+
+
+
+
+<script data-diazo-keep='true' type="application/ld+json">
+{
+  "@context": {
+    "http://schema.org/Image": "http://schema.org/ImageObject",
+    "http://schema.org/productID": "http://schema.org/about"
+  },
+  "@graph": [
+    {
+      "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2",
+      "@type": "http://schema.org/WebPage",
+      "http://schema.org/productID": "IND-37-en",
+      "http://schema.org/publisher": {
+        "@id": "https://www.eea.europa.eu#organization"
+      }
+    },
+    {
+      "@id": "BreadCrumbsListItem2",
+      "@type": "http://schema.org/ListItem",
+      "http://schema.org/item": {
+        "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends#breadcrumb"
+      },
+      "http://schema.org/position": 4
+    },
+    {
+      "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_listing",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/height": "16px",
+      "http://schema.org/width": "16px"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_xlarge",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/height": "950px",
+      "http://schema.org/width": "950px"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/logo-square.png#logo",
+      "@type": "http://schema.org/ImageObject",
+      "http://schema.org/height": "190px",
+      "http://schema.org/url": "https://www.eea.europa.eu/logo-square.png",
+      "http://schema.org/width": "190px"
+    },
+    {
+      "@id": "#breadcrumb",
+      "@type": "http://schema.org/BreadcrumbList",
+      "http://schema.org/itemListElement": [
+        {
+          "@id": "BreadCrumbsListItem5"
+        },
+        {
+          "@id": "BreadCrumbsListItem4"
+        },
+        {
+          "@id": "BreadCrumbsListItem1"
+        },
+        {
+          "@id": "BreadCrumbsListItem3"
+        },
+        {
+          "@id": "BreadCrumbsListItem2"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_panoramic",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/height": "1080px",
+      "http://schema.org/width": "1920px"
+    },
+    {
+      "@id": "https://www.eea.europa.eu#author:alec",
+      "@type": "http://schema.org/Person",
+      "http://schema.org/name": "alec"
+    },
+    {
+      "@id": "BreadCrumbsListItem1",
+      "@type": "http://schema.org/ListItem",
+      "http://schema.org/item": {
+        "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2#breadcrumb"
+      },
+      "http://schema.org/position": 5
+    },
+    {
+      "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_print",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/height": "2000px",
+      "http://schema.org/width": "2000px"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_wide",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/height": "183px",
+      "http://schema.org/width": "325px"
+    },
+    {
+      "@id": "BreadCrumbsListItem5",
+      "@type": "http://schema.org/ListItem",
+      "http://schema.org/item": {
+        "@id": "https://www.eea.europa.eu#breadcrumb"
+      },
+      "http://schema.org/position": 1
+    },
+    {
+      "@id": "BreadCrumbsListItem4",
+      "@type": "http://schema.org/ListItem",
+      "http://schema.org/item": {
+        "@id": "https://www.eea.europa.eu/data-and-maps#breadcrumb"
+      },
+      "http://schema.org/position": 2
+    },
+    {
+      "@id": "https://www.eea.europa.eu#organization",
+      "@type": "http://schema.org/Organization",
+      "http://schema.org/contactPoint": {
+        "@id": "https://www.eea.europa.eu#contact-point-0"
+      },
+      "http://schema.org/logo": {
+        "@id": "https://www.eea.europa.eu/logo-square.png#logo"
+      },
+      "http://schema.org/name": "European Environment Agency",
+      "http://schema.org/sameAs": [
+        "https://www.facebook.com/European.Environment.Agency",
+        "https://www.youtube.com/user/EEAvideos",
+        "https://twitter.com/euenvironment"
+      ]
+    },
+    {
+      "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2#article",
+      "@type": "http://schema.org/Article",
+      "http://schema.org/author": {
+        "@id": "https://www.eea.europa.eu#author:alec"
+      },
+      "http://schema.org/dateModified": "2017-08-25T09:47:20+00:00",
+      "http://schema.org/datePublished": "2008-02-21T15:00:00+00:00",
+      "http://schema.org/description": "greenhouse-gas-emission-trends-assessment-2  Greenhouse gas emission trends   Total greenhouse gas emissions in the EU-27, excluding emission and removals from land-use, land use change and forestry (LULUCF), decreased by 0.7 % between 2004 and 2005 and by 7.9 % between 1990 and 2005. Emissions decreased strongly in the new Member States during the 1990s but since 2000, the trends have been almost identical in the EU-15 and in the new Member States. Between 1990 and 2005, greenhouse gas emissions decreased in all sectors except in the transport sector, where they increased significantly.   In the EU-15, total greenhouse gas emissions (excluding LULUCF) decreased by 0.8 % between 2004 and 2005, by 1.5 % between 1990 and 2005 and by 2.0 % between the Kyoto base year and 2005. This means the EU-15 has achieved one fourth of the total reduction needed to achieve the 8 % reduction from base-year level required by 2008-2012 under the Kyoto Protocol. However, the target can also be reached through actions outside the EU (use of Kyoto mechanisms).   In the 12 new Member States, total greenhouse gas emissions (excluding LULUCF) decreased by 0.3 % between 2004 and 2005 and by 27.8 % between 1990 and 2005. Except in Slovenia, 2005 emissions of all the new Member States that have a Kyoto target were well below their Kyoto target.   climate csi greenhouse gases air ozone emissions      CSI CSI010 CLIM CLIM050 010 050 ",
+      "http://schema.org/headline": "Greenhouse gas emission trends",
+      "http://schema.org/image": {
+        "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_large"
+      },
+      "http://schema.org/mainEntityOfPage": {
+        "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2"
+      },
+      "http://schema.org/publisher": {
+        "@id": "https://www.eea.europa.eu#organization"
+      }
+    },
+    {
+      "@id": "https://www.eea.europa.eu/data-and-maps#breadcrumb",
+      "@type": "http://schema.org/Thing",
+      "http://schema.org/image": "https://www.eea.europa.eu/data-and-maps/image_large",
+      "http://schema.org/name": "Data and maps",
+      "http://schema.org/url": "https://www.eea.europa.eu/data-and-maps"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2#breadcrumb",
+      "@type": "http://schema.org/Thing",
+      "http://schema.org/image": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_large",
+      "http://schema.org/name": "Greenhouse gas emission trends",
+      "http://schema.org/url": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_tile",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/height": "64px",
+      "http://schema.org/width": "64px"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/Assessment.png",
+      "@type": "http://schema.org/Image"
+    },
+    {
+      "@id": "https://www.eea.europa.eu#breadcrumb",
+      "@type": "http://schema.org/Thing",
+      "http://schema.org/image": "https://www.eea.europa.eu/image_large",
+      "http://schema.org/name": "European Environment Agency's home page",
+      "http://schema.org/url": "https://www.eea.europa.eu"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_icon",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/height": "32px",
+      "http://schema.org/width": "32px"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends#breadcrumb",
+      "@type": "http://schema.org/Thing",
+      "http://schema.org/image": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/image_large",
+      "http://schema.org/name": "Greenhouse gas emission trends",
+      "http://schema.org/url": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/data-and-maps/indicators#breadcrumb",
+      "@type": "http://schema.org/Thing",
+      "http://schema.org/image": "https://www.eea.europa.eu/data-and-maps/indicators/image_large",
+      "http://schema.org/name": "Indicators",
+      "http://schema.org/url": "https://www.eea.europa.eu/data-and-maps/indicators"
+    },
+    {
+      "@id": "https://www.eea.europa.eu#contact-point-0",
+      "@type": "http://schema.org/ContactPoint",
+      "http://schema.org/availableLanguage": [
+        "Danish",
+        "English"
+      ],
+      "http://schema.org/contactType": "customer support",
+      "http://schema.org/telephone": "(+45) 33 36 71 00"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_thumb",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/height": "128px",
+      "http://schema.org/width": "128px"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_large",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/contentSize": 95336,
+      "http://schema.org/height": "768px",
+      "http://schema.org/thumbnail": [
+        {
+          "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_print"
+        },
+        {
+          "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_listing"
+        },
+        {
+          "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_panoramic"
+        },
+        {
+          "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_tile"
+        },
+        {
+          "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_thumb"
+        },
+        {
+          "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_mini"
+        },
+        {
+          "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_xlarge"
+        },
+        {
+          "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_wide"
+        },
+        {
+          "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_icon"
+        },
+        {
+          "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_large"
+        },
+        {
+          "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_preview"
+        }
+      ],
+      "http://schema.org/url": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_large",
+      "http://schema.org/width": "768px"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_preview",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/height": "400px",
+      "http://schema.org/width": "400px"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/data-and-maps/indicators/greenhouse-gas-emission-trends/greenhouse-gas-emission-trends-assessment-2/image_mini",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/height": "200px",
+      "http://schema.org/width": "200px"
+    },
+    {
+      "@id": "BreadCrumbsListItem3",
+      "@type": "http://schema.org/ListItem",
+      "http://schema.org/item": {
+        "@id": "https://www.eea.europa.eu/data-and-maps/indicators#breadcrumb"
+      },
+      "http://schema.org/position": 3
+    }
+  ]
+}
+</script>
+    
+
+    
+    <script type="text/javascript">var w_inner_height = window.innerHeight;
+var w_inner_width = window.innerWidth;
+
+function isElementInViewport(el) {
+    // Detect if element is in viewport
+    var rect = el.getBoundingClientRect();
+    return (
+        rect.top > 0 && rect.left > 0 && rect.bottom <= w_inner_height && rect.right <= w_inner_width);
+}
+
+function enableLazy(element) {
+    var source = element.src;
+    var classes = element.className.length ? element.className + ' ' : '';
+    if (classes.indexOf('skip_lazy') === -1) {
+        element.className = classes + 'lazy';
+        element.setAttribute('data-src', source);
+        element.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=';
+        return false;
+    }
+    return true;
+}
+
+window.lazyElements = [];
+var imgs = document.querySelectorAll('img');
+Array.prototype.forEach.call(imgs, function(el) {
+    if (isElementInViewport(el) === false) {
+        if (enableLazy(el)) {
+            window.lazyElements.push(el);
+        }
+    }
+});
+</script>
+
+    
+    <script type="text/javascript" src="https://www.eea.europa.eu/portal_javascripts/EEADesign2006/ploneScripts1558522575734649897.js"></script>
+    <script type="text/javascript" src="https://www.eea.europa.eu/portal_javascripts/EEADesign2006/ploneScripts1558522575738380909.js"></script>
+    <script type="text/javascript" src="https://www.eea.europa.eu/portal_javascripts/EEADesign2006/ploneScripts1558522575739090919.js"></script>
+
+    
+    <script type="text/javascript" src="https://www.eea.europa.eu/collective.js.jqueryui.custom.min.eea.js">
+    </script>
+    <link href="++resource++eea.googlecharts.view.css" rel="stylesheet" type="text/css"/>
+<link href="++resource++eea.googlecharts.print.css" rel="stylesheet" type="text/css" media="print"/>
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="++resource++json2.js"></script>
+<script type="text/javascript" src="++resource++eea.googlecharts.embed_common.js"></script>
+<script type="text/javascript" src="++resource++eea.googlecharts.chart.js"></script>
+<script type="text/javascript" src="++resource++eea.googlecharts.datatable.js"></script>
+<script type="text/javascript" src="++resource++eea.googlecharts.embed_chart.js"></script>
+<script type="text/javascript" src="++resource++eea.googlecharts.embed_dashboard.js"></script>
+<script type="text/javascript" src="++resource++eea.googlecharts.custom_filters.js"></script>
+
+
+
+<script type="text/javascript">
+jQuery.fn.scrollStopped = function(callback) {
+    $(this).scroll(function(){
+        var self = this, $this = $(self);
+        if ($this.data('scrollTimeout')) {
+          clearTimeout($this.data('scrollTimeout'));
+        }
+        $this.data('scrollTimeout', setTimeout(callback,500,self));
+    });
+};
+
+jQuery(window).scrollStopped(function(){
+    function isScrolledIntoView(elem){
+        var docViewTop = $(window).scrollTop();
+        var docViewBottom = docViewTop + $(window).height();
+
+        var elemTop = $(elem).offset().top;
+        var elemBottom = elemTop + $(elem).height();
+
+        return ((elemTop <= docViewBottom) && (elemTop >= docViewTop)) || ((elemBottom <= docViewBottom) && (elemBottom >= docViewTop));
+    }
+    jQuery.each(jQuery('.embedded-dashboard:visible'), function(idx, elem){
+        if (isScrolledIntoView(elem)){
+            if (jQuery(elem).hasClass('not_visible')){
+                jQuery(elem).removeClass('not_visible');
+                if (jQuery(elem).hasClass('isChart')){
+                    var $elem = jQuery(elem);
+                    var vhash = elem.id.split('_')[2];
+                    eval('gl_charts[\'googlechart_view_' + vhash + '\'] = drawChart(jQuery(elem).data(\'settings\'), jQuery(elem).data(\'other_options\')).chart;');
+                }
+                else{
+                    drawDashboardEmbed(jQuery(elem).data('settings'));
+                }
+                jQuery(elem).trigger('eea.embed.loaded');
+            }
+        }
+    });
+});
+jQuery(document).ready(function(){
+    var charts = jQuery('.embedded-dashboard');
+
+    jQuery(window).resize(_.debounce(function() {
+        jQuery.each(charts, function(idx, elem){
+            var $elem = jQuery(elem);
+            var vhash = elem.id.split('_')[2];
+            var resize_chart_func = window['resize_chart_' + vhash];
+            if (resize_chart_func && $.isFunction(resize_chart_func)) {
+                resize_chart_func($elem);
+            }
+        });
+    }));
+    charts.bind('eea.embed.loaded', function(){
+        jQuery(window).trigger('resize');
+    });
+
+    jQuery('.embedded-daviz-visualization ul.formTabs a').click(function(){
+        jQuery("#fieldset-"+jQuery(this).attr("id").substr(15) + ' .embedded-dashboard').trigger('eea.embed.loaded');
+    });
+});
+</script>
+
+    
+    <script type="text/javascript" src="https://www.eea.europa.eu/++resource++indicators-toc.js">
+     </script>
+
+  <script type="text/javascript">
+    jQuery(document).ready(function($){
+        jQuery(".embedded-daviz-visualization").find("ul.formTabs a").bind("click", function(){
+            var embedded_obj = jQuery("#fieldset-"+jQuery(this).attr("id").substr(15)).find(".googlechart_dashboard")
+            if ((embedded_obj.length === 0) || (embedded_obj[0].innerHTML.trim().length != 0)){
+                return;
+            }
+            var id = embedded_obj.attr("id").substr(22);
+            if (embedded_obj.hasClass("isChart")){
+                drawChart(window["settings_" + id], window["other_options_" + id]);
+            }
+            else{
+                drawDashboardEmbed(window["settings_" + id]);
+            }
+        });
+        jQuery(".embedded-daviz-visualization").find("select.formTabs").bind("change", function(){
+            var embedded_obj = jQuery("#fieldset-"+jQuery(this).attr("value").substr(15)).find(".googlechart_dashboard")
+            if ((embedded_obj.length === 0) || (embedded_obj[0].innerHTML.trim().length != 0)){
+                return;
+            }
+            var id = embedded_obj.attr("id").substr(22);
+            if (embedded_obj.hasClass("isChart")){
+                drawChart(window["settings_" + id], window["other_options_" + id]);
+            }
+            else{
+                drawDashboardEmbed(window["settings_" + id]);
+            }
+        });
+
+    });
+  </script>
+
+  
+
+
+</body>
+
+</html>
+
+
+
+
+
+

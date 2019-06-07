@@ -1,0 +1,1915 @@
+
+
+# Quantum entanglement
+
+From Wikipedia, the free encyclopedia
+
+Jump to navigation Jump to search
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/2/2d/SPDC_figure.png/275px-
+
+SPDC_figure.png)
+
+Spontaneous parametric down-conversion process can split photons into type II
+photon pairs with mutually perpendicular polarization.
+
+## Part of a series on
+
+Quantum mechanics  
+i ℏ ∂ ∂ t | ψ ( t ) ⟩ = H ^ | ψ ( t ) ⟩ {\displaystyle i\hbar {\frac {\partial
+}{\partial t}}|\psi (t)\rangle ={\hat {H}}|\psi (t)\rangle } ![{\\displaystyle
+
+i\\hbar {\\frac {\\partial }{\\partial t}}|\\psi \(t\)\\rangle ={\\hat
+
+{H}}|\\psi \(t\)\\rangle
+
+}](https://wikimedia.org/api/rest_v1/media/math/render/svg/0de8741a7d26ae98689c7b3339e97dfafea9fd26)
+
+Schrödinger equation
+
+                    
+                                                * Introduction
+                            * Glossary
+                            * History
+                    
+
+Background
+
+                    
+                                                * Classical mechanics
+                            * Old quantum theory
+                            * Bra–ket notation
+                    
+                            * Hamiltonian
+                            * Interference
+                    
+
+Fundamentals
+
+                    
+                                                * Coherence
+                            * Decoherence
+                            * Complementarity
+                            * Energy level
+                            * Entanglement
+                            * Hamiltonian
+                            * Uncertainty principle
+                            * Ground state
+                            * Interference
+                            * Measurement
+                            * Nonlocality
+                            * Observable
+                            * Operator
+                            * Quantum
+                            * Quantum fluctuation
+                            * Quantum foam
+                            * Quantum levitation
+                            * Quantum number
+                            * Quantum noise
+                            * Quantum realm
+                            * Quantum state
+                            * Quantum system
+                            * Quantum teleportation
+                            * Qubit
+                            * Spin
+                            * Superposition
+                            * Symmetry
+                            * (Spontaneous) symmetry breaking
+                            * Vacuum state
+                            * Wave propagation
+                            * Wave function
+                              * Wave function collapse
+                              * Wave–particle duality
+                              * Matter wave
+                    
+
+Effects
+
+                    
+                                                * Zeeman effect
+                            * Stark effect
+                            * Aharonov–Bohm effect
+                            * Landau quantization
+                            * Quantum Hall effect
+                            * Quantum Zeno effect
+                            * Quantum tunnelling
+                            * Photoelectric effect
+                            * Casimir effect
+                    
+
+Experiments
+
+                    
+                                                * Afshar
+                            * Bell's inequality
+                            * Davisson–Germer
+                            * Double-slit
+                            * Elitzur–Vaidman
+                            * Franck–Hertz
+                            * Leggett–Garg inequality
+                            * Mach–Zehnder
+                            * Popper
+                    
+                            * Quantum eraser (delayed-choice)
+                    
+                            * Schrödinger's cat
+                            * Quantum suicide and immortality
+                            * Stern-Gerlach
+                            * Wheeler's delayed-choice
+                    
+
+Formulations
+
+                    
+                                                * Overview
+                    
+                            * Heisenberg
+                            * Interaction
+                            * Matrix
+                            * Phase-space
+                            * Schrödinger
+                            * Sum-over-histories (path-integral)
+                            * Hellmann–Feynman theorem
+                    
+
+Equations
+
+                    
+                                                * Dirac
+                            * Klein–Gordon
+                            * Pauli
+                            * Rydberg
+                            * Schrödinger
+                    
+
+Interpretations
+
+                    
+                                                * Overview
+                    
+                            * Consistent histories
+                            * Copenhagen
+                            * de Broglie–Bohm
+                            * Ensemble
+                            * Hidden-variable
+                            * Many-worlds
+                            * Objective collapse
+                            * Bayesian
+                            * Quantum logic
+                            * Relational
+                            * Stochastic
+                            * Scale relativity
+                            * Transactional
+                    
+
+Advanced topics
+
+                    
+                                                * Quantum annealing
+                            * Quantum chaos
+                            * Quantum computing
+                            * Density matrix
+                            * Quantum field theory
+                            * Fractional quantum mechanics
+                            * Quantum gravity
+                            * Quantum information science
+                            * Quantum machine learning
+                            * Perturbation theory (quantum mechanics)
+                            * Relativistic quantum mechanics
+                            * Scattering theory
+                            * Spontaneous parametric down-conversion
+                            * Quantum statistical mechanics
+                    
+
+Scientists
+
+                    
+                                                * Aharonov
+                            * Bell
+                            * Blackett
+                            * Bloch
+                            * Bohm
+                            * Bohr
+                            * Born
+                            * Bose
+                            * de Broglie
+                            * Candlin
+                            * Compton
+                            * Dirac
+                            * Davisson
+                            * Debye
+                            * Ehrenfest
+                            * Einstein
+                            * Everett
+                            * Fock
+                            * Fermi
+                            * Feynman
+                            * Glauber
+                            * Gutzwiller
+                            * Heisenberg
+                            * Hilbert
+                            * Jordan
+                            * Kramers
+                            * Pauli
+                            * Lamb
+                            * Landau
+                            * Laue
+                            * Moseley
+                            * Millikan
+                            * Onnes
+                            * Planck
+                            * Rabi
+                            * Raman
+                            * Rydberg
+                            * Schrödinger
+                            * Sommerfeld
+                            * von Neumann
+                            * Weyl
+                            * Wien
+                            * Wigner
+                            * Zeeman
+                            * Zeilinger
+                    
+                            * v
+                            * t
+                            * e
+                    
+
+**Quantum entanglement** is a physical phenomenon that occurs when pairs or
+groups of particles are generated, interact, or share spatial proximity in
+ways such that the quantum state of each particle cannot be described
+independently of the state of the others, even when the particles are
+separated by a large distance.
+
+Measurements of physical properties such as position, momentum, spin, and
+polarization, performed on entangled particles are found to be correlated. For
+example, if a pair of particles is generated in such a way that their total
+spin is known to be zero, and one particle is found to have clockwise spin on
+a certain axis, the spin of the other particle, measured on the same axis,
+will be found to be counterclockwise, as is to be expected due to their
+entanglement. However, this behavior gives rise to seemingly paradoxical
+effects: any measurement of a property of a particle performs an irreversible
+collapse on that particle and will change the original quantum state. In the
+case of entangled particles, such a measurement will be on the entangled
+system as a whole.
+
+Such phenomena were the subject of a 1935 paper by Albert Einstein, Boris
+Podolsky, and Nathan Rosen,[1] and several papers by Erwin Schrödinger shortly
+thereafter,[2][3] describing what came to be known as the EPR paradox.
+Einstein and others considered such behavior to be impossible, as it violated
+the local realism view of causality (Einstein referring to it as "spooky
+action at a distance")[4] and argued that the accepted formulation of quantum
+mechanics must therefore be incomplete.
+
+Later, however, the counterintuitive predictions of quantum mechanics were
+verified experimentally[5] in tests where the polarization or spin of
+entangled particles were measured at separate locations, statistically
+violating Bell's inequality. In earlier tests it couldn't be absolutely ruled
+out that the test result at one point could have been subtly transmitted to
+the remote point, affecting the outcome at the second location.[6] However so-
+called "loophole-free" Bell tests have been performed in which the locations
+were separated such that communications at the speed of light would have taken
+longer—in one case 10,000 times longer—than the interval between the
+measurements.[7][8]
+
+According to _some_ interpretations of quantum mechanics, the effect of one
+measurement occurs instantly. Other interpretations which don't recognize
+wavefunction collapse dispute that there is any "effect" at all. However, all
+interpretations agree that entanglement produces _correlation_ between the
+measurements and that the mutual information between the entangled particles
+can be exploited, but that any _transmission_ of information at faster-than-
+light speeds is impossible.[9][10]
+
+Quantum entanglement has been demonstrated experimentally with
+photons,[11][12][13][14] neutrinos,[15] electrons,[16][17] molecules as large
+as buckyballs,[18][19] and even small diamonds.[20][21] The utilization of
+entanglement in communication and computation is a very active area of
+research.
+
+## Contents
+
+                    
+                                                * 1 History
+                            * 2 Concept
+                              * 2.1 Meaning of entanglement
+                              * 2.2 Paradox
+                              * 2.3 Hidden variables theory
+                              * 2.4 Violations of Bell's inequality
+                              * 2.5 Other types of experiments
+                              * 2.6 Mystery of time
+                              * 2.7 Source for the arrow of time
+                              * 2.8 Emergent gravity
+                            * 3 Non-locality and entanglement
+                            * 4 Quantum mechanical framework
+                              * 4.1 Pure states
+                              * 4.2 Ensembles
+                              * 4.3 Reduced density matrices
+                              * 4.4 Two applications that use them
+                              * 4.5 Entanglement as a resource
+                              * 4.6 Classification of entanglement
+                              * 4.7 Entropy
+                                * 4.7.1 Definition
+                                * 4.7.2 As a measure of entanglement
+                              * 4.8 Entanglement measures
+                              * 4.9 Quantum field theory
+                            * 5 Applications
+                              * 5.1 Entangled states
+                              * 5.2 Methods of creating entanglement
+                              * 5.3 Testing a system for entanglement
+                            * 6 Naturally entangled systems
+                            * 7 Photosynthesis
+                            * 8 Living systems
+                            * 9 See also
+                            * 10 References
+                            * 11 Further reading
+                            * 12 External links
+                    
+
+## History[edit]
+
+![](//upload.wikimedia.org/wikipedia/commons/a/a0/NYT_May_4%2C_1935.jpg)
+
+Article headline regarding the EPR paper, in the May 4, 1935 issue of _The New
+York Times_.
+
+The counterintuitive predictions of quantum mechanics about strongly
+correlated systems were first discussed by Albert Einstein in 1935, in a joint
+paper with Boris Podolsky and Nathan Rosen.[1] In this study, the three
+formulated the EPR paradox, a thought experiment that attempted to show that
+quantum mechanical theory was incomplete. They wrote: "We are thus forced to
+conclude that the quantum-mechanical description of physical reality given by
+wave functions is not complete."[1]
+
+However, the three scientists did not coin the word _entanglement_ , nor did
+they generalize the special properties of the state they considered. Following
+the EPR paper, Erwin Schrödinger wrote a letter to Einstein in German in which
+he used the word _Verschränkung_ (translated by himself as _entanglement_ )
+"to describe the correlations between two particles that interact and then
+separate, as in the EPR experiment."[22]
+
+Schrödinger shortly thereafter published a seminal paper defining and
+discussing the notion of "entanglement." In the paper he recognized the
+importance of the concept, and stated:[2] "I would not call [entanglement]
+_one_ but rather _the_ characteristic trait of quantum mechanics, the one that
+enforces its entire departure from classical lines of thought."
+
+Like Einstein, Schrödinger was dissatisfied with the concept of entanglement,
+because it seemed to violate the speed limit on the transmission of
+information implicit in the theory of relativity.[23] Einstein later famously
+derided entanglement as " _spukhafte Fernwirkung_ "[24] or "spooky action at a
+distance."
+
+The EPR paper generated significant interest among physicists which inspired
+much discussion about the foundations of quantum mechanics (perhaps most
+famously Bohm's interpretation of quantum mechanics), but produced relatively
+little other published work. So, despite the interest, the weak point in EPR's
+argument was not discovered until 1964, when John Stewart Bell proved that one
+of their key assumptions, the principle of locality, as applied to the kind of
+hidden variables interpretation hoped for by EPR, was mathematically
+inconsistent with the predictions of quantum theory.
+
+Specifically, Bell demonstrated an upper limit, seen in Bell's inequality,
+regarding the strength of correlations that can be produced in any theory
+obeying local realism, and he showed that quantum theory predicts violations
+of this limit for certain entangled systems.[25] His inequality is
+experimentally testable, and there have been numerous relevant experiments,
+starting with the pioneering work of Stuart Freedman and John Clauser in
+1972[26] and Alain Aspect's experiments in 1982,[27] all of which have shown
+agreement with quantum mechanics rather than the principle of local realism.
+
+Until recently each had left open at least one loophole by which it was
+possible to question the validity of the results. However, in 2015 an
+experiment was performed that simultaneously closed both the detection and
+locality loopholes, and was heralded as "loophole-free"; this experiment ruled
+out a large class of local realism theories with certainty.[28] Alain Aspect
+notes that the setting-independence loophole – which he refers to as "far-
+fetched", yet, a "residual loophole" that "cannot be ignored" – has yet to be
+closed, and the free-will / _superdeterminism_ loophole is unclosable; saying
+"no experiment, as ideal as it is, can be said to be totally loophole-
+free."[29]
+
+A minority opinion holds that although quantum mechanics is correct, there is
+no superluminal instantaneous action-at-a-distance between entangled particles
+once the particles are separated.[30][31][32][33][34]
+
+Bell's work raised the possibility of using these super-strong correlations as
+a resource for communication. It led to the discovery of quantum key
+distribution protocols, most famously BB84 by Charles H. Bennett and Gilles
+Brassard[35] and E91 by Artur Ekert.[36] Although BB84 does not use
+entanglement, Ekert's protocol uses the violation of a Bell's inequality as a
+proof of security.
+
+In October 2018, physicists reported that quantum behavior can be explained
+with classical physics for a single particle, but not for multiple particles
+as in quantum entanglement and related nonlocality phenomena.[37][38]
+
+## Concept[edit]
+
+### Meaning of entanglement[edit]
+
+An entangled system is defined to be one whose quantum state cannot be
+factored as a product of states of its local constituents; that is to say,
+they are not individual particles but are an inseparable whole. In
+entanglement, one constituent cannot be fully described without considering
+the other(s). Note that the state of a composite system is always expressible
+as a sum, or superposition, of products of states of local constituents; it is
+entangled if this sum necessarily has more than one term.
+
+Quantum systems can become entangled through various types of interactions.
+For some ways in which entanglement may be achieved for experimental purposes,
+see the section below on methods. Entanglement is broken when the entangled
+particles decohere through interaction with the environment; for example, when
+a measurement is made.[39]
+
+As an example of entanglement: a subatomic particle decays into an entangled
+pair of other particles. The decay events obey the various conservation laws,
+and as a result, the measurement outcomes of one daughter particle must be
+highly correlated with the measurement outcomes of the other daughter particle
+(so that the total momenta, angular momenta, energy, and so forth remains
+roughly the same before and after this process). For instance, a spin-zero
+particle could decay into a pair of spin-½ particles. Since the total spin
+before and after this decay must be zero (conservation of angular momentum),
+whenever the first particle is measured to be spin up on some axis, the other,
+when measured on the same axis, is always found to be spin down. (This is
+called the spin anti-correlated case; and if the prior probabilities for
+measuring each spin are equal, the pair is said to be in the singlet state.)
+
+The special property of entanglement can be better observed if we separate the
+said two particles. Let's put one of them in the White House in Washington and
+the other in Buckingham Palace (think about this as a thought experiment, not
+an actual one). Now, if we measure a particular characteristic of one of these
+particles (say, for example, spin), get a result, and then measure the other
+particle using the same criterion (spin along the same axis), we find that the
+result of the measurement of the second particle will match (in a
+complementary sense) the result of the measurement of the first particle, in
+that they will be opposite in their values.
+
+The above result may or may not be perceived as surprising. A classical system
+would display the same property, and a hidden variable theory (see below)
+would certainly be required to do so, based on conservation of angular
+momentum in classical and quantum mechanics alike. The difference is that a
+classical system has definite values for all the observables all along, while
+the quantum system does not. In a sense to be discussed below, the quantum
+system considered here seems to acquire a probability distribution for the
+outcome of a measurement of the spin along any axis of the other particle upon
+measurement of the first particle. This probability distribution is in general
+different from what it would be without measurement of the first particle.
+This may certainly be perceived as surprising in the case of spatially
+separated entangled particles.
+
+### Paradox[edit]
+
+The paradox is that a measurement made on either of the particles apparently
+collapses the state of the entire entangled system—and does so
+instantaneously, before any information about the measurement result could
+have been communicated to the other particle (assuming that information cannot
+travel faster than light) and hence assured the "proper" outcome of the
+measurement of the other part of the entangled pair. In the Copenhagen
+interpretation, the result of a spin measurement on one of the particles is a
+collapse into a state in which each particle has a definite spin (either up or
+down) along the axis of measurement. The outcome is taken to be random, with
+each possibility having a probability of 50%. However, if both spins are
+measured along the same axis, they are found to be anti-correlated. This means
+that the random outcome of the measurement made on one particle seems to have
+been transmitted to the other, so that it can make the "right choice" when it
+too is measured.[40]
+
+The distance and timing of the measurements can be chosen so as to make the
+interval between the two measurements spacelike, hence, any causal effect
+connecting the events would have to travel faster than light. According to the
+principles of special relativity, it is not possible for any information to
+travel between two such measuring events. It is not even possible to say which
+of the measurements came first. For two spacelike separated events _x_ 1 and
+_x_ 2 there are inertial frames in which _x_ 1 is first and others in which
+_x_ 2 is first. Therefore, the correlation between the two measurements cannot
+be explained as one measurement determining the other: different observers
+would disagree about the role of cause and effect.
+
+(In fact similar paradoxes can arise even without entanglement: the position
+of a single particle is spread out over space, and two widely separated
+detectors attempting to detect the particle in two different places must
+instantaneously attain appropriate correlation, so that they do not both
+detect the particle.)
+
+### Hidden variables theory[edit]
+
+A possible resolution to the paradox is to assume that quantum theory is
+incomplete, and the result of measurements depends on predetermined "hidden
+variables".[41] The state of the particles being measured contains some hidden
+variables, whose values effectively determine, right from the moment of
+separation, what the outcomes of the spin measurements are going to be. This
+would mean that each particle carries all the required information with it,
+and nothing needs to be transmitted from one particle to the other at the time
+of measurement. Einstein and others (see the previous section) originally
+believed this was the only way out of the paradox, and the accepted quantum
+mechanical description (with a random measurement outcome) must be incomplete.
+
+### Violations of Bell's inequality[edit]
+
+The hidden variables theory fails, however, when we consider measurements of
+the spin of entangled particles along different axes (for example, along any
+of three axes that make angles of 120 degrees). If a large number of pairs of
+such measurements are made (on a large number of pairs of entangled
+particles), then statistically, if the local realist or hidden variables view
+were correct, the results would always satisfy Bell's inequality. A number of
+experiments have shown in practice that Bell's inequality is not satisfied.
+However, prior to 2015, all of these had loophole problems that were
+considered the most important by the community of physicists.[42][43] When
+measurements of the entangled particles are made in moving relativistic
+reference frames, in which each measurement (in its own relativistic time
+frame) occurs before the other, the measurement results remain
+correlated.[44][45]
+
+The fundamental issue about measuring spin along different axes is that these
+measurements cannot have definite values at the same time―they are
+incompatible in the sense that these measurements' maximum simultaneous
+precision is constrained by the uncertainty principle. This is contrary to
+what is found in classical physics, where any number of properties can be
+measured simultaneously with arbitrary accuracy. It has been proven
+mathematically that compatible measurements cannot show Bell-inequality-
+violating correlations,[46] and thus entanglement is a fundamentally non-
+classical phenomenon.
+
+### Other types of experiments[edit]
+
+In experiments in 2012 and 2013, polarization correlation was created between
+photons that never coexisted in time.[47][48] The authors claimed that this
+result was achieved by entanglement swapping between two pairs of entangled
+photons after measuring the polarization of one photon of the early pair, and
+that it proves that quantum non-locality applies not only to space but also to
+time.
+
+In three independent experiments in 2013 it was shown that classically-
+communicated separable quantum states can be used to carry entangled
+states.[49] The first loophole-free Bell test was held in TU Delft in 2015
+confirming the violation of Bell inequality.[50]
+
+In August 2014, Brazilian researcher Gabriela Barreto Lemos and team were able
+to "take pictures" of objects using photons that had not interacted with the
+subjects, but were entangled with photons that did interact with such objects.
+Lemos, from the University of Vienna, is confident that this new quantum
+imaging technique could find application where low light imaging is
+imperative, in fields like biological or medical imaging.[51]
+
+In 2015, Markus Greiner's group at Harvard performed a direct measurement of
+Renyi entanglement in a system of ultracold bosonic atoms.
+
+From 2016 various companies like IBM, Microsoft etc. have successfully created
+quantum computers and allowed developers and tech enthusiasts to openly
+experiment with concepts of quantum mechanics including quantum
+entanglement.[52]
+
+### Mystery of time[edit]
+
+There have been suggestions to look at the concept of time as an emergent
+phenomenon that is a side effect of quantum entanglement.[53][54] In other
+words, time is an entanglement phenomenon, which places all equal clock
+readings (of correctly prepared clocks, or of any objects usable as clocks)
+into the same history. This was first fully theorized by Don Page and William
+Wootters in 1983.[55] The Wheeler–DeWitt equation that combines general
+relativity and quantum mechanics – by leaving out time altogether – was
+introduced in the 1960s and it was taken up again in 1983, when Page and
+Wootters made a solution based on quantum entanglement. Page and Wootters
+argued that entanglement can be used to measure time.[56]
+
+In 2013, at the Istituto Nazionale di Ricerca Metrologica (INRIM) in Turin,
+Italy, researchers performed the first experimental test of Page and Wootters'
+ideas. Their result has been interpreted to confirm that time is an emergent
+phenomenon for internal observers but absent for external observers of the
+universe just as the Wheeler-DeWitt equation predicts.[56]
+
+### Source for the arrow of time[edit]
+
+Physicist Seth Lloyd says that quantum uncertainty gives rise to entanglement,
+the putative source of the arrow of time. According to Lloyd; "The arrow of
+time is an arrow of increasing correlations."[57] The approach to entanglement
+would be from the perspective of the causal arrow of time, with the assumption
+that the cause of the measurement of one particle determines the effect of the
+result of the other particle's measurement.
+
+### Emergent gravity[edit]
+
+Based on AdS/CFT correspondence, Mark Van Raamsdonk suggested that spacetime
+arises as an emergent phenomenon of the quantum degrees of freedom that are
+entangled and live in the boundary of the space-time.[58] Induced gravity can
+emerge from the entanglement first law.[59][60]
+
+## Non-locality and entanglement[edit]
+
+In the media and popular science, quantum non-locality is often portrayed as
+being equivalent to entanglement. While this is true for pure bipartite
+quantum states, in general entanglement is only necessary for non-local
+correlations, but there exist mixed entangled states that do not produce such
+correlations.[61] A well-known example are the Werner states that are
+entangled for certain values of p s y m {\displaystyle p_{sym}}
+![p_{sym}](https://wikimedia.org/api/rest_v1/media/math/render/svg/e67367fbdb2063b5b470bd7aeb040b48644702ce),
+but can always be described using local hidden variables.[62] Moreover, it was
+shown that, for arbitrary numbers of parties, there exist states that are
+genuinely entangled but admit a local model.[63] The mentioned proofs about
+the existence of local models assume that there is only one copy of the
+quantum state available at a time. If the parties are allowed to perform local
+measurements on many copies of such states, then many apparently local states
+(e.g., the qubit Werner states) can no longer be described by a local model.
+This is, in particular, true for all distillable states. However, it remains
+an open question whether all entangled states become non-local given
+sufficiently many copies.[64]
+
+In short, entanglement of a state shared by two parties is necessary but not
+sufficient for that state to be non-local. It is important to recognize that
+entanglement is more commonly viewed as an algebraic concept, noted for being
+a prerequisite to non-locality as well as to quantum teleportation and to
+superdense coding, whereas non-locality is defined according to experimental
+statistics and is much more involved with the foundations and interpretations
+of quantum mechanics.[65]
+
+## Quantum mechanical framework[edit]
+
+The following subsections are for those with a good working knowledge of the
+formal, mathematical description of quantum mechanics, including familiarity
+with the formalism and theoretical framework developed in the articles:
+bra–ket notation and mathematical formulation of quantum mechanics.
+
+### Pure states[edit]
+
+Consider two noninteracting systems A and B, with respective Hilbert spaces HA
+and HB. The Hilbert space of the composite system is the tensor product
+
+                    
+                                         H A ⊗ H B . {\displaystyle H_{A}\otimes H_{B}.} ![ H_A \\otimes H_B.](https://wikimedia.org/api/rest_v1/media/math/render/svg/19fca01f34c847473055f02b00ae2c3e51409901)
+                    
+
+If the first system is in state | ψ ⟩ A {\displaystyle \scriptstyle |\psi
+\rangle _{A}}![\\scriptstyle| \\psi
+
+\\rangle_A](https://wikimedia.org/api/rest_v1/media/math/render/svg/f9681e13f167f8733176121cc2539b720776228c)
+and the second in state | ϕ ⟩ B {\displaystyle \scriptstyle |\phi \rangle _
+{B}} ![\\scriptstyle| \\phi
+
+\\rangle_B](https://wikimedia.org/api/rest_v1/media/math/render/svg/4b6434f90f2e1651f30715211f7d1b763138a459),
+the state of the composite system is
+
+                    
+                                         | ψ ⟩ A ⊗ | ϕ ⟩ B . {\displaystyle |\psi \rangle _{A}\otimes |\phi \rangle _{B}.} ![|\\psi\\rangle_A \\otimes |\\phi\\rangle_B.](https://wikimedia.org/api/rest_v1/media/math/render/svg/c828da659b247951f5792107fc723ebe7c5577e9)
+                    
+
+States of the composite system that can be represented in this form are called
+separable states, or product states.
+
+Not all states are separable states (and thus product states). Fix a basis { |
+i ⟩ A } {\displaystyle \scriptstyle {|i\rangle _{A}}}![\\scriptstyle \\{|i
+
+\\rangle_A\\}](https://wikimedia.org/api/rest_v1/media/math/render/svg/2042882c925f8f3b969bee798c446e29161d6f16)
+for HA and a basis { | j ⟩ B } {\displaystyle \scriptstyle {|j\rangle _ {B}}}
+![\\scriptstyle \\{|j
+
+\\rangle_B\\}](https://wikimedia.org/api/rest_v1/media/math/render/svg/7f69f2bcbd291569b43602242681f7c7eb37c8c6)
+for HB. The most general state in _H A_ ⊗ _H B_ is of the form
+
+                    
+                                         | ψ ⟩ A B = ∑ i , j c i j | i ⟩ A ⊗ | j ⟩ B {\displaystyle |\psi \rangle _{AB}=\sum _{i,j}c_{ij}|i\rangle _{A}\otimes |j\rangle _{B}} ![|\\psi\\rangle_{AB} = \\sum_{i,j} c_{ij} |i\\rangle_A \\otimes |j\\rangle_B](https://wikimedia.org/api/rest_v1/media/math/render/svg/d211d5745f4b52151d8489776dfbdf1fee13dc1f).
+                    
+
+This state is separable if there exist vectors [ c i A ] , [ c j B ]
+{\displaystyle \scriptstyle [c_{i}^{A}],[c_{j}^{B}]} ![{\\displaystyle
+
+\\scriptstyle
+
+\[c_{i}^{A}\],\[c_{j}^{B}\]}](https://wikimedia.org/api/rest_v1/media/math/render/svg/e589a6b1f44cb3d763716fd930b19f7184291fd0)
+so that c i j = c i A c j B , {\displaystyle \scriptstyle
+c_{ij}=c_{i}^{A}c_{j}^{B},} ![\\scriptstyle c_{ij}=
+
+c^A_ic^B_j,](https://wikimedia.org/api/rest_v1/media/math/render/svg/f4b2830a67ab3746bc83cd778222bae348985cd7)
+yielding | ψ ⟩ A = ∑ i c i A | i ⟩ A {\displaystyle \scriptstyle |\psi \rangle
+_{A}=\sum_ {i}c_{i}^{A}|i\rangle _{A}}![\\scriptstyle
+
+|\\psi\\rangle_A = \\sum_{i} c^A_{i}
+
+|i\\rangle_A](https://wikimedia.org/api/rest_v1/media/math/render/svg/dc585a55999a4d1c60ab0cfa25a02f18f9ee9760)
+and | ϕ ⟩ B = ∑ j c j B | j ⟩ B . {\displaystyle \scriptstyle |\phi \rangle _
+{B}=\sum _{j}c_ {j}^{B}|j\rangle _{B}.}![\\scriptstyle |\\phi\\rangle_B =
+
+\\sum_{j} c^B_{j}
+
+|j\\rangle_B.](https://wikimedia.org/api/rest_v1/media/math/render/svg/02d0eca408bc930cfc8e53549ecd7c1374c33a55)
+It is inseparable if for any vectors [ c i A ] , [ c j B ] {\displaystyle
+\scriptstyle [c_ {i}^{A}],[c_{j}^{B}]} ![\\scriptstyle
+
+\[c^A_i\],\[c^B_j\]](https://wikimedia.org/api/rest_v1/media/math/render/svg/e589a6b1f44cb3d763716fd930b19f7184291fd0)
+at least for one pair of coordinates c i A , c j B {\displaystyle \scriptstyle
+c_{i}^{A},c_{j}^{B}} ![\\scriptstyle
+
+c^A_i,c^B_j](https://wikimedia.org/api/rest_v1/media/math/render/svg/8683bcd30c42cba0abc9548c9a699204c73f8f20)
+we have c i j ≠ c i A c j B . {\displaystyle \scriptstyle c_{ij}\neq
+c_{i}^{A}c_{j}^{B}.} ![\\scriptstyle c_{ij} \\neq
+
+c^A_ic^B_j.](https://wikimedia.org/api/rest_v1/media/math/render/svg/8b8a576928241459e7121a21a39e4c580b2ad16b)
+If a state is inseparable, it is called an 'entangled state'.
+
+For example, given two basis vectors { | 0 ⟩ A , | 1 ⟩ A } {\displaystyle
+\scriptstyle {|0\rangle _{A},|1\rangle_ {A}}} ![\\scriptstyle
+
+\\{|0\\rangle_A,
+
+|1\\rangle_A\\}](https://wikimedia.org/api/rest_v1/media/math/render/svg/9386951c3f53892387083501053d9ae90d5c5b1d)
+of HA and two basis vectors { | 0 ⟩ B , | 1 ⟩ B } {\displaystyle \scriptstyle
+{|0\rangle _{B},|1\rangle_ {B}}} ![\\scriptstyle \\{|0\\rangle_B,
+
+|1\\rangle_B\\}](https://wikimedia.org/api/rest_v1/media/math/render/svg/d43bb92e2ab37a1927ac0bfd50c704f258d6d274)
+of HB, the following is an entangled state:
+
+                    
+                                         1 2 ( | 0 ⟩ A ⊗ | 1 ⟩ B − | 1 ⟩ A ⊗ | 0 ⟩ B ) . {\displaystyle {\tfrac {1}{\sqrt {2}}}\left(|0\rangle _{A}\otimes |1\rangle _{B}-|1\rangle _{A}\otimes |0\rangle _{B}\right).} ![\\tfrac{1}{\\sqrt{2}} \\left \( |0\\rangle_A \\otimes |1\\rangle_B - |1\\rangle_A \\otimes |0\\rangle_B \\right \).](https://wikimedia.org/api/rest_v1/media/math/render/svg/4053aa0fcea6250c60262618348a170fc18ac03b)
+                    
+
+If the composite system is in this state, it is impossible to attribute to
+either system A or system B a definite pure state. Another way to say this is
+that while the von Neumann entropy of the whole state is zero (as it is for
+any pure state), the entropy of the subsystems is greater than zero. In this
+sense, the systems are "entangled". This has specific empirical ramifications
+for interferometry.[66] It is worthwhile to note that the above example is one
+of four Bell states, which are (maximally) entangled pure states (pure states
+of the _H A_ ⊗ _H B_ space, but which cannot be separated into pure states of
+each HA and HB).
+
+Now suppose Alice is an observer for system A, and Bob is an observer for
+system B. If in the entangled state given above Alice makes a measurement in
+the { | 0 ⟩ , | 1 ⟩ } {\displaystyle \scriptstyle {|0\rangle ,|1\rangle }}
+![\\scriptstyle \\{|0\\rangle,
+
+|1\\rangle\\}](https://wikimedia.org/api/rest_v1/media/math/render/svg/daadd2159fb83a19e0f538ab1bcdd999753ffb04)
+eigenbasis of A, there are two possible outcomes, occurring with equal
+probability:[67]
+
+                    
+                                                1. Alice measures 0, and the state of the system collapses to  | 0 ⟩ A | 1 ⟩ B {\displaystyle \scriptstyle |0\rangle _{A}|1\rangle _{B}} ![\\scriptstyle |0\\rangle_A |1\\rangle_B](https://wikimedia.org/api/rest_v1/media/math/render/svg/2cc5ace129e7af51062d3f2e8a4d10bbd424fd41).
+                            2. Alice measures 1, and the state of the system collapses to  | 1 ⟩ A | 0 ⟩ B {\displaystyle \scriptstyle |1\rangle _{A}|0\rangle _{B}} ![\\scriptstyle |1\\rangle_A |0\\rangle_B](https://wikimedia.org/api/rest_v1/media/math/render/svg/76b669b971b79d549e2d788d168232699ec5599b).
+                    
+
+If the former occurs, then any subsequent measurement performed by Bob, in the
+same basis, will always return 1. If the latter occurs, (Alice measures 1)
+then Bob's measurement will return 0 with certainty. Thus, system B has been
+altered by Alice performing a local measurement on system A. This remains true
+even if the systems A and B are spatially separated. This is the foundation of
+the EPR paradox.
+
+The outcome of Alice's measurement is random. Alice cannot decide which state
+to collapse the composite system into, and therefore cannot transmit
+information to Bob by acting on her system. Causality is thus preserved, in
+this particular scheme. For the general argument, see no-communication
+theorem.
+
+### Ensembles[edit]
+
+As mentioned above, a state of a quantum system is given by a unit vector in a
+Hilbert space. More generally, if one has less information about the system,
+then one calls it an 'ensemble' and describes it by a density matrix, which is
+a positive-semidefinite matrix, or a trace class when the state space is
+infinite-dimensional, and has trace 1. Again, by the spectral theorem, such a
+matrix takes the general form:
+
+                    
+                                         ρ = ∑ i w i | α i ⟩ ⟨ α i | , {\displaystyle \rho =\sum _{i}w_{i}|\alpha _{i}\rangle \langle \alpha _{i}|,} ![\\rho = \\sum_i w_i |\\alpha_i\\rangle \\langle\\alpha_i|,](https://wikimedia.org/api/rest_v1/media/math/render/svg/6b4708b78f8713fd851ab3f5d8e97d8f85b873c0)
+                    
+
+where the _w_ i are positive-valued probabilities (they sum up to 1), the
+vectors αi are unit vectors, and in the infinite-dimensional case, we would
+take the closure of such states in the trace norm. We can interpret ρ as
+representing an ensemble where wi is the proportion of the ensemble whose
+states are | α i ⟩ {\displaystyle |\alpha _{i}\rangle }
+![|\\alpha_i\\rangle](https://wikimedia.org/api/rest_v1/media/math/render/svg/0894b0cce03f69124a81e6f240e13af70918a098).
+When a mixed state has rank 1, it therefore describes a 'pure ensemble'. When
+there is less than total information about the state of a quantum system we
+need density matrices to represent the state.
+
+Experimentally, a mixed ensemble might be realized as follows. Consider a
+"black box" apparatus that spits electrons towards an observer. The electrons'
+Hilbert spaces are identical. The apparatus might produce electrons that are
+all in the same state; in this case, the electrons received by the observer
+are then a pure ensemble. However, the apparatus could produce electrons in
+different states. For example, it could produce two populations of electrons:
+one with state | z + ⟩ {\displaystyle |\mathbf {z} +\rangle }
+![|\\mathbf{z}+\\rangle](https://wikimedia.org/api/rest_v1/media/math/render/svg/567f15dd6efff02e103e9637ee7cf4954ff92662)
+with spins aligned in the positive **z** direction, and the other with state |
+y − ⟩ {\displaystyle |\mathbf {y} -\rangle }
+![|\\mathbf{y}-\\rangle](https://wikimedia.org/api/rest_v1/media/math/render/svg/ee2032e156f9a7256cfb8095258bce23a33e0345)
+with spins aligned in the negative **y** direction. Generally, this is a mixed
+ensemble, as there can be any number of populations, each corresponding to a
+different state.
+
+Following the definition above, for a bipartite composite system, mixed states
+are just density matrices on _H A_ ⊗ _H B_. That is, it has the general form
+
+                    
+                                         ρ = ∑ i w i [ ∑ j c ¯ i j ( | α i j ⟩ ⊗ | β i j ⟩ ) ] ⊗ [ ∑ k c i k ( ⟨ α i k | ⊗ ⟨ β i k | ) ] {\displaystyle \rho =\sum _{i}w_{i}\left[\sum _{j}{\bar {c}}_{ij}(|\alpha _{ij}\rangle \otimes |\beta _{ij}\rangle )\right]\otimes \left[\sum _{k}c_{ik}(\langle \alpha _{ik}|\otimes \langle \beta _{ik}|)\right]} ![\\rho =\\sum _{{i}}w_{i}\\left\[\\sum _{{j}}{\\bar  {c}}_{{ij}}\(|\\alpha _{{ij}}\\rangle \\otimes |\\beta _{{ij}}\\rangle \)\\right\]\\otimes \\left\[\\sum _{k}c_{{ik}}\(\\langle \\alpha _{{ik}}|\\otimes \\langle \\beta _{{ik}}|\)\\right\]](https://wikimedia.org/api/rest_v1/media/math/render/svg/bf6f2bd84a64fac8cafbb0c06e14180aad4e4401)
+                    
+
+where the _w_ i are positively valued probabilities, ∑ j | c i j | 2 = 1
+{\displaystyle \sum _{j}|c_ {ij}|^{2}=1} ![\\sum
+
+_{j}|c_{{ij}}|^{2}=1](https://wikimedia.org/api/rest_v1/media/math/render/svg/bc8a439ed3a43d33671d3cb9ffa9a619c5c41627),
+and the vectors are unit vectors. This is self-adjoint and positive and has
+trace 1.
+
+Extending the definition of separability from the pure case, we say that a
+mixed state is separable if it can be written as[68]:131–132
+
+                    
+                                         ρ = ∑ i w i ρ i A ⊗ ρ i B , {\displaystyle \rho =\sum _{i}w_{i}\rho _{i}^{A}\otimes \rho _{i}^{B},} ![\\rho =\\sum _{i}w_{i}\\rho _{i}^{A}\\otimes \\rho _{i}^{B},](https://wikimedia.org/api/rest_v1/media/math/render/svg/6597264612d7732f42fd586b145e28e9b04aa329)
+                    
+
+where the wi are positively valued probabilities and the ρ i A {\displaystyle
+\rho
+_{i}^{A}}![\\rho_i^A](https://wikimedia.org/api/rest_v1/media/math/render/svg/60b5bc5b7612e68b45a4ce589c0e4c289df55b34)
+'s and ρ i B {\displaystyle \rho _{i}^{B}}
+![\\rho_i^B](https://wikimedia.org/api/rest_v1/media/math/render/svg/475221b5b58c88f20750357c28e1c45b9087f9bf)'s
+are themselves mixed states (density operators) on the subsystems A and B
+respectively. In other words, a state is separable if it is a probability
+distribution over uncorrelated states, or product states. By writing the
+density matrices as sums of pure ensembles and expanding, we may assume
+without loss of generality that ρ i A {\displaystyle \rho
+_{i}^{A}}![\\rho_i^A](https://wikimedia.org/api/rest_v1/media/math/render/svg/60b5bc5b7612e68b45a4ce589c0e4c289df55b34)
+and ρ i B {\displaystyle \rho _ {i}^{B}}
+![\\rho_i^B](https://wikimedia.org/api/rest_v1/media/math/render/svg/475221b5b58c88f20750357c28e1c45b9087f9bf)
+are themselves pure ensembles. A state is then said to be entangled if it is
+not separable.
+
+In general, finding out whether or not a mixed state is entangled is
+considered difficult. The general bipartite case has been shown to be NP-
+hard.[69] For the 2 × 2 and 2 × 3 cases, a necessary and sufficient criterion
+for separability is given by the famous Positive Partial Transpose (PPT)
+condition.[70]
+
+### Reduced density matrices[edit]
+
+The idea of a reduced density matrix was introduced by Paul Dirac in 1930.[71]
+Consider as above systems A and B each with a Hilbert space HA, HB. Let the
+state of the composite system be
+
+                    
+                                         | Ψ ⟩ ∈ H A ⊗ H B . {\displaystyle |\Psi \rangle \in H_{A}\otimes H_{B}.} ![ |\\Psi \\rangle \\in H_A \\otimes H_B. ](https://wikimedia.org/api/rest_v1/media/math/render/svg/b222fc006a0cca79472f2fbb1313f03c2b512490)
+                    
+
+As indicated above, in general there is no way to associate a pure state to
+the component system A. However, it still is possible to associate a density
+matrix. Let
+
+                    
+                                         ρ T = | Ψ ⟩ ⟨ Ψ | {\displaystyle \rho _{T}=|\Psi \rangle \;\langle \Psi |} ![\\rho_T = |\\Psi\\rangle \\; \\langle\\Psi|](https://wikimedia.org/api/rest_v1/media/math/render/svg/354e47cf72ebfb19333d551ac631ca85d9fc2c0b).
+                    
+
+which is the projection operator onto this state. The state of A is the
+partial trace of ρT over the basis of system B:
+
+                    
+                                         ρ A = d e f ∑ j ⟨ j | B ( | Ψ ⟩ ⟨ Ψ | ) | j ⟩ B = Tr B ρ T . {\displaystyle \rho _{A}\ {\stackrel {\mathrm {def} }{=}}\ \sum _{j}\langle j|_{B}\left(|\Psi \rangle \langle \Psi |\right)|j\rangle _{B}={\hbox{Tr}}_{B}\;\rho _{T}.} ![\\rho_A \\ \\stackrel{\\mathrm{def}}{=}\\ \\sum_j \\langle j|_B \\left\( |\\Psi\\rangle \\langle\\Psi| \\right\) |j\\rangle_B = \\hbox{Tr}_B \\; \\rho_T.](https://wikimedia.org/api/rest_v1/media/math/render/svg/04ee503ffefad5e7df1fdea6c93961f7961efded)
+                    
+
+ρA is sometimes called the reduced density matrix of ρ on subsystem A.
+Colloquially, we "trace out" system B to obtain the reduced density matrix on
+A.
+
+For example, the reduced density matrix of A for the entangled state
+
+                    
+                                         1 2 ( | 0 ⟩ A ⊗ | 1 ⟩ B − | 1 ⟩ A ⊗ | 0 ⟩ B ) , {\displaystyle {\tfrac {1}{\sqrt {2}}}\left(|0\rangle _{A}\otimes |1\rangle _{B}-|1\rangle _{A}\otimes |0\rangle _{B}\right),} ![\\tfrac{1}{\\sqrt{2}} \\left \( |0\\rangle_A \\otimes |1\\rangle_B - |1\\rangle_A \\otimes |0\\rangle_B \\right\),](https://wikimedia.org/api/rest_v1/media/math/render/svg/0a819774559f3e64569ce18b2c7de993d2066d24)
+                    
+
+discussed above is
+
+                    
+                                         ρ A = 1 2 ( | 0 ⟩ A ⟨ 0 | A + | 1 ⟩ A ⟨ 1 | A ) {\displaystyle \rho _{A}={\tfrac {1}{2}}\left(|0\rangle _{A}\langle 0|_{A}+|1\rangle _{A}\langle 1|_{A}\right)} ![\\rho_A = \\tfrac{1}{2} \\left \( |0\\rangle_A \\langle 0|_A + |1\\rangle_A \\langle 1|_A \\right \)](https://wikimedia.org/api/rest_v1/media/math/render/svg/3478e10ff986e37438ad7f5545d605937b805854)
+                    
+
+This demonstrates that, as expected, the reduced density matrix for an
+entangled pure ensemble is a mixed ensemble. Also not surprisingly, the
+density matrix of A for the pure product state | ψ ⟩ A ⊗ | ϕ ⟩ B
+{\displaystyle |\psi \rangle _{A}\otimes |\phi \rangle_ {B}}
+![|\\psi\\rangle_A \\otimes
+
+|\\phi\\rangle_B](https://wikimedia.org/api/rest_v1/media/math/render/svg/3ff74a24657c12842e203b89a4427f0cfabd067d)
+discussed above is
+
+                    
+                                         ρ A = | ψ ⟩ A ⟨ ψ | A {\displaystyle \rho _{A}=|\psi \rangle _{A}\langle \psi |_{A}} ![{\\displaystyle \\rho _{A}=|\\psi \\rangle _{A}\\langle \\psi |_{A}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/2b672eec721c2dde05973d40e3a730ae07568e54).
+                    
+
+In general, a bipartite pure state ρ is entangled if and only if its reduced
+states are mixed rather than pure.
+
+### Two applications that use them[edit]
+
+Reduced density matrices were explicitly calculated in different spin chains
+with unique ground state. An example is the one-dimensional AKLT spin
+chain:[72] the ground state can be divided into a block and an environment.
+The reduced density matrix of the block is proportional to a projector to a
+degenerate ground state of another Hamiltonian.
+
+The reduced density matrix also was evaluated for XY spin chains, where it has
+full rank. It was proved that in the thermodynamic limit, the spectrum of the
+reduced density matrix of a large block of spins is an exact geometric
+sequence[73] in this case.
+
+### Entanglement as a resource[edit]
+
+In quantum information theory, entangled states are considered a 'resource',
+i.e., something costly to produce and that allows to implement valuable
+transformations. The setting in which this perspective is most evident is that
+of "distant labs", i.e., two quantum systems labeled "A" and "B" on each of
+which arbitrary quantum operations can be performed, but which do not interact
+with each other quantum mechanically. The only interaction allowed is the
+exchange of classical information, which combined with the most general local
+quantum operations gives rise to the class of operations called LOCC (local
+operations and classical communication). These operations do not allow the
+production of entangled states between the systems A and B. But if A and B are
+provided with a supply of entangled states, then these, together with LOCC
+operations can enable a larger class of transformations. For example, an
+interaction between a qubit of A and a qubit of B can be realized by first
+teleporting A's qubit to B, then letting it interact with B's qubit (which is
+now a LOCC operation, since both qubits are in B's lab) and then teleporting
+the qubit back to A. Note that two maximally entangled states of two qubits
+are used up in this process. Thus entangled states are a resource that enables
+the realization of quantum interactions (or of quantum channels) in a setting
+where only LOCC are available, but they are consumed in the process. There are
+other applications where entanglement can be seen as a resource, e.g., private
+communication or distinguishing quantum states.[74]
+
+### Classification of entanglement[edit]
+
+Not all quantum states are equally valuable as a resource. To quantify this
+value, different entanglement measures (see below) can be used, that assign a
+numerical value to each quantum state. However, it is often interesting to
+settle for a coarser way to compare quantum states. This gives rise to
+different classification schemes. Most entanglement classes are defined based
+on whether states can be converted to other states using LOCC or a subclass of
+these operations. The smaller the set of allowed operations, the finer the
+classification. Important examples are:
+
+                    
+                                                * If two states can be transformed into each other by a local unitary operation, they are said to be in the same _LU class_. This is the finest of the usually considered classes. Two states in the same LU class have the same value for entanglement measures and the same value as a resource in the distant-labs setting. There is an infinite number of different LU classes (even in the simplest case of two qubits in a pure state).[75][76]
+                            * If two states can be transformed into each other by local operations including measurements with probability larger than 0, they are said to be in the same 'SLOCC class' ("stochastic LOCC"). Qualitatively, two states  ρ 1 {\displaystyle \rho _{1}} ![\\rho _{1}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1e0f2d347f2a0ed7f7c9808c427a89813b957017) and  ρ 2 {\displaystyle \rho _{2}} ![\\rho _{2}](https://wikimedia.org/api/rest_v1/media/math/render/svg/793b211571b3ffe34c4639654d567296d29d7f72) in the same SLOCC class are equally powerful (since I can transform one into the other and then do whatever it allows me to do), but since the transformations  ρ 1 -> ρ 2 {\displaystyle \rho _{1}\to \rho _{2}} ![{\\displaystyle \\rho _{1}\\to \\rho _{2}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/942457dace61f7de964e603f92a3f2f16138d687) and  ρ 2 -> ρ 1 {\displaystyle \rho _{2}\to \rho _{1}} ![{\\displaystyle \\rho _{2}\\to \\rho _{1}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/7190e9057b105b0847bbb547e18f29bb647b6996) may succeed with different probability, they are no longer equally valuable. E.g., for two pure qubits there are only two SLOCC classes: the entangled states (which contains both the (maximally entangled) Bell states and weakly entangled states like  | 00 ⟩ + 0.01 | 11 ⟩ {\displaystyle |00\rangle +0.01|11\rangle } ![{\\displaystyle |00\\rangle +0.01|11\\rangle }](https://wikimedia.org/api/rest_v1/media/math/render/svg/587cf78fb2f0efce5b5bc27af0fa8fe01d95bf25)) and the separable ones (i.e., product states like  | 00 ⟩ {\displaystyle |00\rangle } ![|00\\rangle ](https://wikimedia.org/api/rest_v1/media/math/render/svg/79016644d7bb5d4282f69bf8af1befa3131445fb)).[77][78]
+                            * Instead of considering transformations of single copies of a state (like  ρ 1 -> ρ 2 {\displaystyle \rho _{1}\to \rho _{2}} ![{\\displaystyle \\rho _{1}\\to \\rho _{2}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/942457dace61f7de964e603f92a3f2f16138d687)) one can define classes based on the possibility of multi-copy transformations. E.g., there are examples when  ρ 1 -> ρ 2 {\displaystyle \rho _{1}\to \rho _{2}} ![{\\displaystyle \\rho _{1}\\to \\rho _{2}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/942457dace61f7de964e603f92a3f2f16138d687) is impossible by LOCC, but  ρ 1 ⊗ ρ 1 -> ρ 2 {\displaystyle \rho _{1}\otimes \rho _{1}\to \rho _{2}} ![{\\displaystyle \\rho _{1}\\otimes \\rho _{1}\\to \\rho _{2}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/18f007d3601506321810c4cea20dd31586650876) is possible. A very important (and very coarse) classification is based on the property whether it is possible to transform an arbitrarily large number of copies of a state  ρ {\displaystyle \rho } ![\\rho ](https://wikimedia.org/api/rest_v1/media/math/render/svg/1f7d439671d1289b6a816e6af7a304be40608d64) into at least one pure entangled state. States that have this property are called distillable. These states are the most useful quantum states since, given enough of them, they can be transformed (with local operations) into any entangled state and hence allow for all possible uses. It came initially as a surprise that not all entangled states are distillable, those that are not are called 'bound entangled'.[79][74]
+                    
+
+A different entanglement classification is based on what the quantum
+correlations present in a state allow A and B to do: one distinguishes three
+subsets of entangled states: (1) the _non-local states_ , which produce
+correlations that cannot be explained by a local hidden variable model and
+thus violate a Bell inequality, (2) the _steerable states_ that contain
+sufficient correlations for A to modify ("steer") by local measurements the
+conditional reduced state of B in such a way, that A can prove to B that the
+state they possess is indeed entangled, and finally (3) those entangled state
+that are neither non-local nor steerable. All three sets are non-empty.[80]
+
+### Entropy[edit]
+
+In this section, the entropy of a mixed state is discussed as well as how it
+can be viewed as a measure of quantum entanglement.
+
+#### Definition[edit]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Von_Neumann_entropy_for_bipartite_system_plot.svg/200px-
+
+Von_Neumann_entropy_for_bipartite_system_plot.svg.png)
+
+The plot of von Neumann entropy Vs Eigenvalue for a bipartite 2-level pure
+state. When the eigenvalue has value .5, von Neumann entropy is at a maximum,
+corresponding to maximum entanglement.
+
+In classical information theory H, the Shannon entropy, is associated to a
+probability distribution, p 1 , ⋯ , p n {\displaystyle p_{1},\cdots ,p_{n}}
+![p_1, \\cdots,
+
+p_n](https://wikimedia.org/api/rest_v1/media/math/render/svg/3711f3a8dc0f30eca8b99ff7fb660d911007ab7a),
+in the following way:[81]
+
+                    
+                                         H ( p 1 , ⋯ , p n ) = − ∑ i p i log 2 ⁡ p i . {\displaystyle H(p_{1},\cdots ,p_{n})=-\sum _{i}p_{i}\log _{2}p_{i}.} ![H\(p_1, \\cdots, p_n \) = - \\sum_i p_i \\log_2 p_i.](https://wikimedia.org/api/rest_v1/media/math/render/svg/875a53f0d12455b69f2b0ee8230fc98e151bc87a)
+                    
+
+Since a mixed state ρ is a probability distribution over an ensemble, this
+leads naturally to the definition of the von Neumann entropy:
+
+                    
+                                         S ( ρ ) = − Tr ( ρ log 2 ⁡ ρ ) . {\displaystyle S(\rho )=-{\hbox{Tr}}\left(\rho \log _{2}{\rho }\right).} ![S\(\\rho\) = - \\hbox{Tr} \\left\( \\rho \\log_2 {\\rho} \\right\).](https://wikimedia.org/api/rest_v1/media/math/render/svg/58c1e4f3606b03e38fd2c986ec9f25f30f917a83)
+                    
+
+In general, one uses the Borel functional calculus to calculate a non-
+polynomial function such as log2( _ρ_ ). If the nonnegative operator ρ acts on
+a finite-dimensional Hilbert space and has eigenvalues λ 1 , ⋯ , λ n
+{\displaystyle \lambda _{1},\cdots ,\lambda_ {n}} ![\\lambda_1, \\cdots,
+
+\\lambda_n](https://wikimedia.org/api/rest_v1/media/math/render/svg/5417ed32af96eccaa187bb395916020ef108ba2f),
+log2( _ρ_ ) turns out to be nothing more than the operator with the same
+eigenvectors, but the eigenvalues log 2 ⁡ ( λ 1 ) , ⋯ , log 2 ⁡ ( λ n )
+{\displaystyle \log _{2}(\lambda_ {1}),\cdots ,\log _{2}(\lambda_ {n})}
+![\\log _{2}\(\\lambda _{1}\),\\cdots ,\\log _{2}\(\\lambda
+
+_{n}\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/1576682bf3e6ee7a8fe1c9b2e99703c28f7e7649).
+The Shannon entropy is then:
+
+                    
+                                         S ( ρ ) = − Tr ( ρ log 2 ⁡ ρ ) = − ∑ i λ i log 2 ⁡ λ i {\displaystyle S(\rho )=-{\hbox{Tr}}\left(\rho \log _{2}{\rho }\right)=-\sum _{i}\lambda _{i}\log _{2}\lambda _{i}} ![S\(\\rho\) = - \\hbox{Tr} \\left\( \\rho \\log_2 {\\rho} \\right\) = - \\sum_i \\lambda_i \\log_2 \\lambda_i](https://wikimedia.org/api/rest_v1/media/math/render/svg/928c2d6ade5615fad5fe82e67e17ca9b07640bb4).
+                    
+
+Since an event of probability 0 should not contribute to the entropy, and
+given that
+
+                    
+                                         lim p -> 0 p log ⁡ p = 0 , {\displaystyle \lim _{p\to 0}p\log p=0,} ![ \\lim_{p \\to 0} p \\log p = 0,](https://wikimedia.org/api/rest_v1/media/math/render/svg/1e4050c3b4a3183e1f8af387f25474c7e83bd980)
+                    
+
+the convention 0 log(0) = 0 is adopted. This extends to the infinite-
+dimensional case as well: if ρ has spectral resolution
+
+                    
+                                         ρ = ∫ λ d P λ , {\displaystyle \rho =\int \lambda dP_{\lambda },} ![ \\rho = \\int \\lambda d P_{\\lambda},](https://wikimedia.org/api/rest_v1/media/math/render/svg/fe3ed8c6820ba4611ceaa17f37092fa6b1225f76)
+                    
+
+assume the same convention when calculating
+
+                    
+                                         ρ log 2 ⁡ ρ = ∫ λ log 2 ⁡ λ d P λ . {\displaystyle \rho \log _{2}\rho =\int \lambda \log _{2}\lambda dP_{\lambda }.} ![ \\rho \\log_2 \\rho = \\int \\lambda \\log_2 \\lambda d P_{\\lambda}.](https://wikimedia.org/api/rest_v1/media/math/render/svg/d1e2ffda24b73d9825c02dd64c462acebdeb6be9)
+                    
+
+As in statistical mechanics, the more uncertainty (number of microstates) the
+system should possess, the larger the entropy. For example, the entropy of any
+pure state is zero, which is unsurprising since there is no uncertainty about
+a system in a pure state. The entropy of any of the two subsystems of the
+entangled state discussed above is log(2) (which can be shown to be the
+maximum entropy for 2 × 2 mixed states).
+
+#### As a measure of entanglement[edit]
+
+Entropy provides one tool that can be used to quantify entanglement, although
+other entanglement measures exist.[82] If the overall system is pure, the
+entropy of one subsystem can be used to measure its degree of entanglement
+with the other subsystems.
+
+For bipartite pure states, the von Neumann entropy of reduced states is the
+unique measure of entanglement in the sense that it is the only function on
+the family of states that satisfies certain axioms required of an entanglement
+measure.
+
+It is a classical result that the Shannon entropy achieves its maximum at, and
+only at, the uniform probability distribution {1/ _n_ ,...,1/ _n_ }.
+Therefore, a bipartite pure state _ρ_ ∈ _H_ A ⊗ _H_ B is said to be a
+**maximally entangled state** if the reduced state [ _clarification needed_ ]
+of ρ is the diagonal matrix
+
+                    
+                                         [ 1 n ⋱ 1 n ] . {\displaystyle {\begin{bmatrix}{\frac {1}{n}}&&\\&\ddots &\\&&{\frac {1}{n}}\end{bmatrix}}.} ![\\begin{bmatrix} \\frac{1}{n}& & \\\\ & \\ddots & \\\\ & & \\frac{1}{n}\\end{bmatrix}.](https://wikimedia.org/api/rest_v1/media/math/render/svg/0ac2c4a2dbfa47eec57c86a3f4939f6aaf0adc23)
+                    
+
+For mixed states, the reduced von Neumann entropy is not the only reasonable
+entanglement measure.
+
+As an aside, the information-theoretic definition is closely related to
+entropy in the sense of statistical mechanics[ _citation needed_ ] (comparing
+the two definitions, we note that, in the present context, it is customary to
+set the Boltzmann constant _k_ = 1 ). For example, by properties of the Borel
+functional calculus, we see that for any unitary operator U,
+
+                    
+                                         S ( ρ ) = S ( U ρ U ∗ ) . {\displaystyle S(\rho )=S\left(U\rho U^{*}\right).} ![S\(\\rho\) = S \\left \(U \\rho U^* \\right\).](https://wikimedia.org/api/rest_v1/media/math/render/svg/c5d02f56f32da80d33bbfa1145e42f65612c57e7)
+                    
+
+Indeed, without this property, the von Neumann entropy would not be well-
+defined.
+
+In particular, U could be the time evolution operator of the system, i.e.,
+
+                    
+                                         U ( t ) = exp ⁡ ( − i H t ℏ ) , {\displaystyle U(t)=\exp \left({\frac {-iHt}{\hbar }}\right),} ![U\(t\) = \\exp \\left\(\\frac{-i H t }{\\hbar}\\right\),](https://wikimedia.org/api/rest_v1/media/math/render/svg/17432addf55e212c0242d9c0ca3cba98e3c95894)
+                    
+
+where H is the Hamiltonian of the system. Here the entropy is unchanged.
+
+The reversibility of a process is associated with the resulting entropy
+change, i.e., a process is reversible if, and only if, it leaves the entropy
+of the system invariant. Therefore, the march of the arrow of time towards
+thermodynamic equilibrium is simply the growing spread of quantum
+entanglement.[83] This provides a connection between quantum information
+theory and thermodynamics.
+
+Rényi entropy also can be used as a measure of entanglement.
+
+### Entanglement measures[edit]
+
+Entanglement measures quantify the amount of entanglement in a (often viewed
+as a bipartite) quantum state. As aforementioned, entanglement entropy is the
+standard measure of entanglement for pure states (but no longer a measure of
+entanglement for mixed states). For mixed states, there are some entanglement
+measures in the literature[82] and no single one is standard.
+
+                    
+                                                * Entanglement cost
+                            * Distillable entanglement
+                            * Entanglement of formation
+                            * Relative entropy of entanglement
+                            * Squashed entanglement
+                            * Logarithmic negativity
+                    
+
+Most (but not all) of these entanglement measures reduce for pure states to
+entanglement entropy, and are difficult (NP-hard) to compute.[84]
+
+### Quantum field theory[edit]
+
+The Reeh-Schlieder theorem of quantum field theory is sometimes seen as an
+analogue of quantum entanglement.
+
+## Applications[edit]
+
+Entanglement has many applications in quantum information theory. With the aid
+of entanglement, otherwise impossible tasks may be achieved.
+
+Among the best-known applications of entanglement are superdense coding and
+quantum teleportation.[85]
+
+Most researchers believe that entanglement is necessary to realize quantum
+computing (although this is disputed by some).[86]
+
+Entanglement is used in some protocols of quantum cryptography.[87][88] This
+is because the "shared noise" of entanglement makes for an excellent one-time
+pad. Moreover, since measurement of either member of an entangled pair
+destroys the entanglement they share, entanglement-based quantum cryptography
+allows the sender and receiver to more easily detect the presence of an
+interceptor.[ _citation needed_ ]
+
+In interferometry, entanglement is necessary for surpassing the standard
+quantum limit and achieving the Heisenberg limit.[89]
+
+### Entangled states[edit]
+
+There are several canonical entangled states that appear often in theory and
+experiments.
+
+For two qubits, the Bell states are
+
+                    
+                                         | Φ ± ⟩ = 1 2 ( | 0 ⟩ A ⊗ | 0 ⟩ B ± | 1 ⟩ A ⊗ | 1 ⟩ B ) {\displaystyle |\Phi ^{\pm }\rangle ={\frac {1}{\sqrt {2}}}(|0\rangle _{A}\otimes |0\rangle _{B}\pm |1\rangle _{A}\otimes |1\rangle _{B})} ![|\\Phi^\\pm\\rangle = \\frac{1}{\\sqrt{2}} \(|0\\rangle_A \\otimes |0\\rangle_B \\pm |1\\rangle_A \\otimes |1\\rangle_B\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/0c5e3e97f9337b2928160879b1039b554fa4efd2)
+                     | Ψ ± ⟩ = 1 2 ( | 0 ⟩ A ⊗ | 1 ⟩ B ± | 1 ⟩ A ⊗ | 0 ⟩ B ) {\displaystyle |\Psi ^{\pm }\rangle ={\frac {1}{\sqrt {2}}}(|0\rangle _{A}\otimes |1\rangle _{B}\pm |1\rangle _{A}\otimes |0\rangle _{B})} ![|\\Psi^\\pm\\rangle = \\frac{1}{\\sqrt{2}} \(|0\\rangle_A \\otimes |1\\rangle_B \\pm |1\\rangle_A \\otimes |0\\rangle_B\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/0a64205ed9939419e8ffeb71269e8c15a9dab681).
+                    
+
+These four pure states are all maximally entangled (according to the entropy
+of entanglement) and form an orthonormal basis (linear algebra) of the Hilbert
+space of the two qubits. They play a fundamental role in Bell's theorem.
+
+For M>2 qubits, the GHZ state is
+
+                    
+                                         | G H Z ⟩ = | 0 ⟩ ⊗ M + | 1 ⟩ ⊗ M 2 , {\displaystyle |\mathrm {GHZ} \rangle ={\frac {|0\rangle ^{\otimes M}+|1\rangle ^{\otimes M}}{\sqrt {2}}},} ![|\\mathrm{GHZ}\\rangle = \\frac{|0\\rangle^{\\otimes M} + |1\\rangle^{\\otimes M}}{\\sqrt{2}},](https://wikimedia.org/api/rest_v1/media/math/render/svg/e51e220f2b023d20c1e3d4c7461928e4bbafc1bf)
+                    
+
+which reduces to the Bell state | Φ + ⟩ {\displaystyle |\Phi ^{+}\rangle }
+![|\\Phi^+\\rangle](https://wikimedia.org/api/rest_v1/media/math/render/svg/4570afa1cbf91ef240b83f9ad1476558042f4361)
+for M = 2 {\displaystyle M=2}
+![M=2](https://wikimedia.org/api/rest_v1/media/math/render/svg/2801ac77396e68de0b640087e1531a2329067e9f).
+The traditional GHZ state was defined for M = 3 {\displaystyle M=3}
+![M=3](https://wikimedia.org/api/rest_v1/media/math/render/svg/f650bb93b4dc73fb000a07a4c9d7f3e3094e965d).
+GHZ states are occasionally extended to qudits, i.e., systems of _d_ rather
+than 2 dimensions.
+
+Also for M>2 qubits, there are spin squeezed states.[90] Spin squeezed states
+are a class of squeezed coherent states satisfying certain restrictions on the
+uncertainty of spin measurements, and are necessarily entangled.[91] Spin
+squeezed states are good candidates for enhancing precision measurements using
+quantum entanglement.[92]
+
+For two bosonic modes, a NOON state is
+
+                    
+                                         | ψ NOON ⟩ = | N ⟩ a | 0 ⟩ b + | 0 ⟩ a | N ⟩ b 2 , {\displaystyle |\psi _{\text{NOON}}\rangle ={\frac {|N\rangle _{a}|0\rangle _{b}+|{0}\rangle _{a}|{N}\rangle _{b}}{\sqrt {2}}},\,} ![|\\psi_\\text{NOON} \\rangle = \\frac{|N \\rangle_a |0\\rangle_b + |{0}\\rangle_a |{N}\\rangle_b}{\\sqrt{2}}, \\, ](https://wikimedia.org/api/rest_v1/media/math/render/svg/3460314458238d5e6daa7680355aa7589436a147)
+                    
+
+This is like the Bell state | Ψ + ⟩ {\displaystyle |\Psi ^{+}\rangle }
+![|\\Psi ^{+}\\rangle
+
+](https://wikimedia.org/api/rest_v1/media/math/render/svg/3fb516a603ad0d72c91c8e3e736aaad102d073f2)
+except the basis kets 0 and 1 have been replaced with "the _N_ photons are in
+one mode" and "the _N_ photons are in the other mode".
+
+Finally, there also exist twin Fock states for bosonic modes, which can be
+created by feeding a Fock state into two arms leading to a beam splitter. They
+are the sum of multiple of NOON states, and can used to achieve the Heisenberg
+limit.[93]
+
+For the appropriately chosen measure of entanglement, Bell, GHZ, and NOON
+states are maximally entangled while spin squeezed and twin Fock states are
+only partially entangled. The partially entangled states are generally easier
+to prepare experimentally.
+
+### Methods of creating entanglement[edit]
+
+Entanglement is usually created by direct interactions between subatomic
+particles. These interactions can take numerous forms. One of the most
+commonly used methods is spontaneous parametric down-conversion to generate a
+pair of photons entangled in polarisation.[74] Other methods include the use
+of a fiber coupler to confine and mix photons, photons emitted from decay
+cascade of the bi-exciton in a quantum dot,[94] the use of the Hong–Ou–Mandel
+effect, etc., In the earliest tests of Bell's theorem, the entangled particles
+were generated using atomic cascades.
+
+It is also possible to create entanglement between quantum systems that never
+directly interacted, through the use of entanglement swapping. Two
+independently-prepared, identical particles may also be entangled if their
+wave functions merely spatially overlap, at least partially.[95]
+
+### Testing a system for entanglement[edit]
+
+A density matrix ρ is called separable if it can be written as a convex sum of
+product states, namely
+
+ρ = ∑ j p j ρ j ( A ) ⊗ ρ j ( B ) {\displaystyle \displaystyle {\rho =\sum
+_{j}p_ {j}\rho _{j}^{(A)}\otimes \rho_ {j}^{(B)}}} ![{\\displaystyle
+
+\\displaystyle {\\rho =\\sum _{j}p_{j}\\rho _{j}^{\(A\)}\\otimes \\rho
+
+_{j}^{\(B\)}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/ac36e69425ae67d2a44ee4d6c448770a741fc153)
+
+with 1 ≥ p j ≥ 0 {\displaystyle 1\geq p_{j}\geq 0} ![{\\displaystyle 1\\geq
+
+p_{j}\\geq
+
+0}](https://wikimedia.org/api/rest_v1/media/math/render/svg/568326a3f3818e10ebe9e14c845e6a0bbdc1a3ac)probabilities.
+By definition, a state is entangled if it is not separable.
+
+For 2-Qubit and Qubit-Qutrit systems (2 × 2 and 2 × 3 respectively) the simple
+Peres–Horodecki criterion provides both a necessary and a sufficient criterion
+for separability, and thus -inadvertently- for detecting entanglement.
+
+However, for the general case, the criterion is merely a sufficient one for
+separability, as the problem becomes NP-hard when generalized.[96][97] A
+numerical approach to the problem is suggested by Jon Magne Leinaas, Jan
+Myrheim and Eirik Ovrum in their paper "Geometrical aspects of
+entanglement".[98] Leinaas et al. offer a numerical approach, iteratively
+refining an estimated separable state towards the target state to be tested,
+and checking if the target state can indeed be reached. An implementation of
+the algorithm (including a built-in Peres-Horodecki criterion testing) is
+"StateSeparator" web-app.
+
+In 2016 China launched the world’s first quantum communications satellite.[99]
+The $100m Quantum Experiments at Space Scale (QUESS) mission was launched on
+Aug 16, 2016, from the Jiuquan Satellite Launch Center in northern China at
+01:40 local time.
+
+For the next two years, the craft – nicknamed "Micius" after the ancient
+Chinese philosopher – will demonstrate the feasibility of quantum
+communication between Earth and space, and test quantum entanglement over
+unprecedented distances.
+
+In the June 16, 2017, issue of _Science_ , Yin et al. report setting a new
+quantum entanglement distance record of 1,203 km, demonstrating the survival
+of a two-photon pair and a violation of a Bell inequality, reaching a CHSH
+valuation of 2.37 ± 0.09, under strict Einstein locality conditions, from the
+Micius satellite to bases in Lijian, Yunnan and Delingha, Quinhai, increasing
+the efficiency of transmission over prior fiberoptic experiments by an order
+of magnitude.[100][101]
+
+## Naturally entangled systems[edit]
+
+The electron shell of multi-electron atoms always consists of entangled
+electrons. The correct ionization energy can be calculated only by
+consideration of electron entanglement.[102]
+
+## Photosynthesis[edit]
+
+It has been suggested that in the process of photosynthesis, entanglement is
+involved in the transfer of energy between light-harvesting complexes and
+photosynthetic reaction centers where the kinetic energy is harvested in the
+form of chemical energy. Without such a process, the efficient conversion of
+optical energy into chemical energy cannot be explained. Using femtosecond
+spectroscopy, the coherence of entanglement in the Fenna-Matthews-Olson
+complex was measured over hundreds of femtoseconds (a relatively long time in
+this regard) providing support to this theory.[103][104]
+
+## Living systems[edit]
+
+In October 2018, physicists reported producing quantum entanglement using
+living organisms, particularly between living bacteria and quantized
+light.[105][106]
+
+## See also[edit]
+
+                    
+                                                * ![icon](//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg/25px-Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg.png)Physics portal
+                    
+                            * CNOT gate
+                            * Concurrence (quantum computing)
+                            * Einstein's thought experiments
+                            * Entanglement distillation
+                            * Entanglement witness
+                            * Faster-than-light communication
+                            * Ghirardi–Rimini–Weber theory
+                            * Multipartite entanglement
+                            * Normally distributed and uncorrelated does not imply independent
+                            * Observer effect (physics)
+                            * Quantum coherence
+                            * Quantum discord
+                            * Quantum phase transition
+                            * Quantum computing
+                            * Quantum pseudo-telepathy
+                            * Quantum teleportation
+                            * Retrocausality
+                            * Separable state
+                            * Squashed entanglement
+                            * Ward's probability amplitude
+                            * Wheeler–Feynman absorber theory
+                    
+
+## References[edit]
+
+                    
+                                                1. ^ _**a**_ _**b**_ _**c**_ Einstein A, Podolsky B, Rosen N; Podolsky; Rosen (1935). "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?" (PDF). _Phys. Rev_. **47** (10): 777–780. Bibcode:1935PhRv...47..777E. doi:10.1103/PhysRev.47.777. CS1 maint: Multiple names: authors list (link)
+                            2. ^ _**a**_ _**b**_ Schrödinger E (1935). "Discussion of probability relations between separated systems". _Mathematical Proceedings of the Cambridge Philosophical Society_. **31** (4): 555–563. Bibcode:1935PCPS...31..555S. doi:10.1017/S0305004100013554.
+                            3. **^** Schrödinger E (1936). "Probability relations between separated systems". _Mathematical Proceedings of the Cambridge Philosophical Society_. **32** (3): 446–452. Bibcode:1936PCPS...32..446S. doi:10.1017/S0305004100019137.
+                            4. **^** Physicist John Bell depicts the Einstein camp in this debate in his article entitled "Bertlmann's socks and the nature of reality", p. 143 of _Speakable and unspeakable in quantum mechanics_ : "For EPR that would be an unthinkable 'spooky action at a distance'. To avoid such action at a distance they have to attribute, to the space-time regions in question, real properties in advance of observation, correlated properties, which predetermine the outcomes of these particular observations. Since these real properties, fixed in advance of observation, are not contained in quantum formalism, that formalism for EPR is incomplete. It may be correct, as far as it goes, but the usual quantum formalism cannot be the whole story." And again on p. 144 Bell says: "Einstein had no difficulty accepting that affairs in different places could be correlated. What he could not accept was that an intervention at one place could influence, immediately, affairs at the other." Downloaded 5 July 2011 from Bell, J. S. (1987). _Speakable and Unspeakable in Quantum Mechanics_ (PDF). CERN. ISBN 0521334950. Archived from the original (PDF) on 12 April 2015. Retrieved 14 June 2014.
+                            5. **^** "75 years of entanglement – Science News". 23 September 2013. Retrieved  13 October 2014.
+                            6. **^** Francis, Matthew. Quantum entanglement shows that reality can't be local, _Ars Technica_ , 30 October 2012
+                            7. **^** Matson, John (13 August 2012). "Quantum teleportation achieved over record distances". _Nature News_. doi:10.1038/nature.2012.11163.
+                            8. **^** Yin, Juan; Cao, Yuan; Yong, Hai-Lin; Ren, Ji-Gang; Liang, Hao; Liao, Sheng-Kai; Zhou, Fei; Liu, Chang; Wu, Yu-Ping; Pan, Ge-Sheng; Li, Li; Liu, Nai-Le; Zhang, Qiang; Peng, Cheng-Zhi; Pan, Jian-Wei (2013). "Bounding the speed of 'spooky action at a distance". _Physical Review Letters_. **110** (26): 260407. arXiv:1303.0614. Bibcode:2013PhRvL.110z0407Y. doi:10.1103/PhysRevLett.110.260407. PMID 23848853.
+                            9. **^** Roger Penrose, _The Road to Reality: A Complete Guide to the Laws of the Universe_ , London, 2004, p. 603.
+                            10. **^** Griffiths, David J. (2004), _Introduction to Quantum Mechanics (2nd ed.)_ , Prentice Hall, ISBN 978-0-13-111892-8
+                            11. **^** Kwiat, PG; Mattle, K; Weinfurter, H; Zeilinger, A; Sergienko, AV; Shih, Y (1995). "New High-Intensity Source of Polarization-Entangled Photon Pairs". _Physical Review Letters_. **75** (24): 4337–4341. Bibcode:1995PhRvL..75.4337K. doi:10.1103/PhysRevLett.75.4337. PMID 10059884.
+                            12. **^** Zhao, Z; Chen, YA; Zhang, AN; Yang, T; Briegel, HJ; Pan, JW (July 2004). "Experimental demonstration of five-photon entanglement and open-destination teleportation". _Nature_. **430** (6995): 54–58. arXiv:quant-ph/0402096. Bibcode:2004Natur.430...54Z. doi:10.1038/nature02643. PMID 15229594.
+                            13. **^** Lu, Chao-Yang (2007). "Experimental entanglement of six photons in graph states". _Nature Physics_. **3** (2): 91–95. arXiv:quant-ph/0609130. Bibcode:2007NatPh...3...91L. doi:10.1038/nphys507.
+                            14. **^** Yao, Xing-Can (2012). "Observation of eight-photon entanglement". _Nature Photonics_. **6** (4): 225–228. arXiv:1105.6318. Bibcode:2012NaPho...6..225Y. doi:10.1038/nphoton.2011.354.
+                            15. **^** J. A. Formaggio, D. I. Kaiser, M. M. Murskyj, and T. E. Weiss (2016), "Violation of the Leggett-Garg inequality in neutrino oscillations". _Phys. Rev. Lett._ Accepted 23 June 2016. 
+                            16. **^** Hensen, B.; et al. (21 October 2015). "Loophole-free Bell inequality violation using electron spins separated by 1.3 kilometres". _Nature_. **526** (7575): 682–686. arXiv:1508.05949. Bibcode:2015Natur.526..682H. doi:10.1038/nature15759. PMID 26503041. Retrieved  21 October 2015. See also free online access version.
+                            17. **^** Markoff, Jack (21 October 2015). "Sorry, Einstein. Quantum Study Suggests 'Spooky Action' Is Real". _The New York Times_. Retrieved  21 October 2015.
+                            18. **^** Arndt, M; Nairz, O; Vos-Andreae, J; Keller, C; van der Zouw, G; Zeilinger, A (14 October 1999). "Wave–particle duality of C60 molecules". _Nature_. **401** (6754): 680–682. Bibcode:1999Natur.401..680A. doi:10.1038/44348. PMID 18494170. (subscription required)
+                            19. **^** Olaf Nairz, Markus Arndt, and Anton Zeilinger, "Quantum interference experiments with large molecules", American Journal of Physics, 71 (April 2003) 319–325.
+                            20. **^** Lee, K. C.; Sprague, M. R.; Sussman, B. J.; Nunn, J.; Langford, N. K.; Jin, X.- M.; Champion, T.; Michelberger, P.; Reim, K. F.; England, D.; Jaksch, D.; Walmsley, I. A. (2 December 2011). "Entangling macroscopic diamonds at room temperature". _Science_. **334** (6060): 1253–1256. Bibcode:2011Sci...334.1253L. doi:10.1126/science.1211914. PMID 22144620. Lay summary.
+                            21. **^** sciencemag.org, supplementary materials
+                            22. **^** Kumar, M., _Quantum_ , Icon Books, 2009, p. 313.
+                            23. **^** Alisa Bokulich, Gregg Jaeger, _Philosophy of Quantum Information and Entanglement_ , Cambridge University Press, 2010, xv.
+                            24. **^** Letter from Einstein to Max Born, 3 March 1947; _The Born-Einstein Letters; Correspondence between Albert Einstein and Max and Hedwig Born from 1916 to 1955_ , Walker, New York, 1971. (cited in M. P. Hobson; et al., _Quantum Entanglement and Communication Complexity (1998)_ , pp. 1/13, CiteSeerX 10.1.1.20.8324)
+                            25. **^** J. S. Bell (1964). "On the Einstein-Poldolsky-Rosen paradox". _Physics_.
+                            26. **^** Freedman, Stuart J.; Clauser, John F. (1972). "Experimental Test of Local Hidden-Variable Theories". _Physical Review Letters_. **28** (14): 938–941. Bibcode:1972PhRvL..28..938F. doi:10.1103/PhysRevLett.28.938.
+                            27. **^** A. Aspect; P. Grangier & G. Roger (1982). "Experimental Realization of Einstein-Podolsky-Rosen-Bohm Gedankenexperiment: A New Violation of Bell's Inequalities". _Physical Review Letters_. **49** (2): 91–94. Bibcode:1982PhRvL..49...91A. doi:10.1103/PhysRevLett.49.91.
+                            28. **^** Hanson, Ronald (2015). "Loophole-free Bell inequality violation using electron spins separated by 1.3 kilometres". _Nature_. **526** (7575): 682–686. arXiv:1508.05949. Bibcode:2015Natur.526..682H. doi:10.1038/nature15759. PMID 26503041.
+                            29. **^** Aspect, Alain (16 December 2015). "Viewpoint: Closing the Door on Einstein and Bohr's Quantum Debate". _Physics_. **8**.
+                            30. **^** Sanctuary, B. C (2006). "Correlations in Entangled States". _International Journal of Modern Physics B_. **20** (11n13): 1496–1503. arXiv:quant-ph/0508238. doi:10.1142/S0217979206034078.
+                            31. **^** Yin, Juan; Cao, Yuan; Yong, Hai-Lin; Ren, Ji-Gang; Liang, Hao; Liao, Sheng-Kai; Zhou, Fei; Liu, Chang; Wu, Yu-Ping; Pan, Ge-Sheng; Zhang, Qiang; Peng, Cheng-Zhi; Pan, Jian-Wei (2004). "The Statistical Interpretation of Entangled States". arXiv:quant-ph/0404011.
+                            32. **^** Khrennikov, Andrei (2016). "After Bell". _Fortschritte der Physik_. **65** (6–8): 1600044. doi:10.1002/prop.201600044.
+                            33. **^** Yin, Juan; Cao, Yuan; Yong, Hai-Lin; Ren, Ji-Gang; Liang, Hao; Liao, Sheng-Kai; Zhou, Fei; Liu, Chang; Wu, Yu-Ping; Pan, Ge-Sheng; Zhang, Qiang; Peng, Cheng-Zhi; Pan, Jian-Wei (2016). "After Bell". _Fortschritte der Physik (Progress in Physics) } (2017)_. **65** (1600014): 6–8. arXiv:1603.08674.
+                            34. **^** Yin, Juan; Cao, Yuan; Yong, Hai-Lin; Ren, Ji-Gang; Liang, Hao; Liao, Sheng-Kai; Zhou, Fei; Liu, Chang; Wu, Yu-Ping; Pan, Ge-Sheng; Zhang, Qiang; Peng, Cheng-Zhi; Pan, Jian-Wei (2007). "Classical statistical distributions can violate Bell-type inequalities". _Journal of Physics A: Mathematical and Theoretical_. **41** (8): 085303. arXiv:quant-ph/0703251. doi:10.1088/1751-8113/41/8/085303.
+                            35. **^** C. H. Bennett and G. Brassard. "Quantum cryptography: Public key distribution and coin tossing". In _Proceedings of IEEE International Conference on Computers, Systems and Signal Processing_ , volume 175, page 8. New York, 1984. http://researcher.watson.ibm.com/researcher/files/us-bennetc/BB84highest.pdf
+                            36. **^** Ekert, A.K. (1991). "Quantum cryptography based on Bell's theorem". _Phys. Rev. Lett_. **67** (6): 661–663. Bibcode:1991PhRvL..67..661E. doi:10.1103/PhysRevLett.67.661. ISSN 0031-9007. PMID 10044956.
+                            37. **^** Staff (11 October 2018). "Public Release: 11-OCT-2018 - Where is it, the foundation of quantum reality?". _EurekAlert!_. Retrieved  13 October 2018.
+                            38. **^** Blasiak, Pawel (13 July 2018). "Local model of a qudit: Single particle in optical circuits". _Physical Review_. 98 (012118) (1). doi:10.1103/PhysRevA.98.012118. Retrieved  13 October 2018.
+                            39. **^** Asher Peres, _Quantum Theory, Concepts and Methods_ , Kluwer, 1993; ISBN 0-7923-2549-4 p. 115.
+                            40. **^** Rupert W., Anderson (28 March 2015). _The Cosmic Compendium: Interstellar Travel_ (First ed.). The Cosmic Compendium. p. 100. ISBN 9781329022027.
+                            41. **^** magazine, Elizabeth Gibney, Nature. "Cosmic Test Bolsters Einstein's "Spooky Action at a Distance"". _Scientific American_. Retrieved  4 February 2017.
+                            42. **^** I. Gerhardt; Q. Liu; A. Lamas-Linares; J. Skaar; V. Scarani; V. Makarov; C. Kurtsiefer (2011), "Experimentally faking the violation of Bell's inequalities", _Phys. Rev. Lett._ , **107** (17): 170404, arXiv:1106.3224 , Bibcode:2011PhRvL.107q0404G, doi:10.1103/PhysRevLett.107.170404, PMID 22107491
+                            43. **^** Santos, E (2004). "The failure to perform a loophole-free test of Bell's Inequality supports local realism". _Foundations of Physics_. **34** (11): 1643–1673. Bibcode:2004FoPh...34.1643S. doi:10.1007/s10701-004-1308-z.
+                            44. **^** H. Zbinden; et al. (2001). "Experimental test of nonlocal quantum correlations in relativistic configurations". _Phys. Rev. A_. **63** (2): 22111. arXiv:quant-ph/0007009. Bibcode:2001PhRvA..63b2111Z. doi:10.1103/PhysRevA.63.022111.
+                            45. **^** Some of the history of both referenced Zbinden, et al. experiments is provided in Gilder, L., _The Age of Entanglement_ , Vintage Books, 2008, pp. 321–324.
+                            46. **^** Cirel'son, B. S. (1980). "Quantum generalizations of Bell's inequality". _Letters in Mathematical Physics_. **4** (2): 93–100. Bibcode:1980LMaPh...4...93C. doi:10.1007/BF00417500.
+                            47. **^** Xiao-song Ma, Stefan Zotter, Johannes Kofler, Rupert Ursin, Thomas Jennewein, Časlav Brukner & Anton Zeilinger; Zotter; Kofler; Ursin; Jennewein; Brukner; Zeilinger (26 April 2012). "Experimental delayed-choice entanglement swapping". _Nature Physics_. **8** (6): 480–485. arXiv:1203.4834. Bibcode:2012NatPh...8..480M. doi:10.1038/nphys2294. CS1 maint: Multiple names: authors list (link)
+                            48. **^** Megidish, E.; Halevy, A.; Shacham, T.; Dvir, T.; Dovrat, L.; Eisenberg, H. S. (2013). "Entanglement Swapping between Photons that have Never Coexisted". _Physical Review Letters_. **110** (21): 210403. arXiv:1209.4191. Bibcode:2013PhRvL.110u0403M. doi:10.1103/physrevlett.110.210403. PMID 23745845.
+                            49. **^** "Classical carrier could create entanglement". physicsworld.com. 11 December 2013. Retrieved  14 June 2014.
+                            50. **^** "Loophole-free Bell test | Ronald Hanson".
+                            51. **^** Gibney, Elizabeth (2014). "Entangled photons make a picture from a paradox". _Nature_. doi:10.1038/nature.2014.15781. Retrieved  13 October 2014.
+                            52. **^** Rozatkar, Gaurav (16 August 2018). "Demonstration of quantum entanglement". _OSF_.
+                            53. **^** Moreva, Ekaterina (2014). "Time from quantum entanglement: an experimental illustration". _Physical Review A_. **89** (5): 052122. arXiv:1310.4691. Bibcode:2014PhRvA..89e2122M. doi:10.1103/PhysRevA.89.052122.
+                            54. **^** "Entangled toy universe shows time may be an illusion". Retrieved  13 October 2014.
+                            55. **^** David Deutsch, The Beginning of infinity. Page 299
+                            56. ^ _**a**_ _**b**_ "Quantum Experiment Shows How Time 'Emerges' from Entanglement". _Medium_. 23 October 2013. Retrieved  13 October 2014.
+                            57. **^** "New Quantum Theory Could Explain the Flow of Time". _Wired_. 25 April 2014. Retrieved  13 October 2014.
+                            58. **^** Van Raamsdonk, Mark (19 June 2010). "Building up spacetime with quantum entanglement". _General Relativity and Gravitation_. **42** (10): 2323–2329. arXiv:1005.3035. doi:10.1007/s10714-010-1034-0. ISSN 0001-7701.
+                            59. **^** Lee, Jae-Weon; Kim, Hyeong-Chan; Lee, Jungjai (2013). "Gravity from quantum information". _Journal of the Korean Physical Society_. **63** (5): 1094–1098. arXiv:1001.5445. doi:10.3938/jkps.63.1094. ISSN 0374-4884.
+                            60. **^** Swingle, Brian; Van Raamsdonk, Mark (12 May 2014). "Universality of Gravity from Entanglement". arXiv:1405.2933 [hep-th].
+                            61. **^** Nicolas Brunner; Daniel Cavalcanti; Stefano Pironio; Valerio Scarani; Stephanie Wehner (2014). "Bell nonlocality". _Rev. Mod. Phys_. **86** (2): 419–478. arXiv:1303.2849. doi:10.1103/RevModPhys.86.419.
+                            62. **^** Werner, R.F. (1989). "Quantum States with Einstein-Podolsky-Rosen correlations admitting a hidden-variable model". _Physical Review A_. **40** (8): 4277–4281. Bibcode:1989PhRvA..40.4277W. doi:10.1103/PhysRevA.40.4277. PMID 9902666.
+                            63. **^** R. Augusiak, M. Demianowicz, J. Tura and A. Acín (2015). "Entanglement and Nonlocality are Inequivalent for Any Number of Parties". _Phys. Rev. Lett_. **115** (3): 030404. arXiv:1407.3114. doi:10.1103/PhysRevLett.115.030404. hdl:2117/78836. PMID 26230773. CS1 maint: Multiple names: authors list (link)
+                            64. **^** Tamas Vértesi, Nicolas Brunner (2014). "Disproving the Peres conjecture: Bell nonlocality from bipartite bound entanglement". _Nature Communications_. **5** (5297): 5297. arXiv:1405.4502. doi:10.1038/ncomms6297. PMID 25370352. CS1 maint: Uses authors parameter (link)
+                            65. **^** In the literature "non-locality" is sometimes used to characterize concepts that differ from the non-existence of a local hidden variable model, e.g., whether states can be distinguished by local measurements and which can occur also for non-entangled states (see, e.g., Charles H. Bennett, David P. DiVincenzo, Christopher A. Fuchs, Tal Mor, Eric Rains, Peter W. Shor, John A. Smolin, and William K. Wootters (1999). "Quantum nonlocality without entanglement". _Phys. Rev. A_. **59** (2): 1070–1091. arXiv:quant-ph/9804053. doi:10.1103/PhysRevA.59.1070. CS1 maint: Uses authors parameter (link)). This non-standard use of the term is not discussed here.
+                            66. **^** Jaeger G, Shimony A, Vaidman L; Shimony; Vaidman (1995). "Two Interferometric Complementarities". _Phys. Rev_. **51** (1): 54–67. Bibcode:1995PhRvA..51...54J. doi:10.1103/PhysRevA.51.54. CS1 maint: Multiple names: authors list (link)
+                            67. **^** Nielsen, Michael A.; Chuang, Isaac L. (2000). _Quantum Computation and Quantum Information_. Cambridge University Press. pp. 112–113. ISBN 978-0-521-63503-5.
+                            68. **^** Laloe, Franck (2001), "Do We Really Understand Quantum Mechanics", _American Journal of Physics_ , **69** (6): 655–701, arXiv:quant-ph/0209123 , Bibcode:2001AmJPh..69..655L, doi:10.1119/1.1356698
+                            69. **^** Gurvits L (2003). _Classical deterministic complexity of Edmonds' Problem and quantum entanglement_. _Proceedings of the Thirty-fifth Annual ACM Symposium on Theory of Computing_. p. 10. arXiv:quant-ph/0303055. doi:10.1145/780542.780545. ISBN 978-1-58113-674-6.
+                            70. **^** Horodecki M, Horodecki P, Horodecki R; Horodecki; Horodecki (1996). "Separability of mixed states: necessary and sufficient conditions". _Physics Letters A_. **223** (1): 210. arXiv:quant-ph/9605038. Bibcode:1996PhLA..223....1H. CiteSeerX 10.1.1.252.496. doi:10.1016/S0375-9601(96)00706-2. CS1 maint: Multiple names: authors list (link)
+                            71. **^** Dirac, P. A. M. (2008). "Note on Exchange Phenomena in the Thomas Atom" (PDF). _Mathematical Proceedings of the Cambridge Philosophical Society_. **26** (3): 376. Bibcode:1930PCPS...26..376D. doi:10.1017/S0305004100016108.
+                            72. **^** Fan, H; Korepin V; Roychowdhury V (2004). "Entanglement in a Valence-Bond Solid State". _Physical Review Letters_. **93** (22): 227203. arXiv:quant-ph/0406067. Bibcode:2004PhRvL..93v7203F. doi:10.1103/PhysRevLett.93.227203. PMID 15601113.
+                            73. **^** Franchini, F.; Its, A. R.; Korepin, V. E.; Takhtajan, L. A. (2010). "Spectrum of the density matrix of a large _block of_ spins of the XY model in one dimension". _Quantum Information Processing_. **10** (3): 325–341. arXiv:1002.2931. doi:10.1007/s11128-010-0197-7.
+                            74. ^ _**a**_ _**b**_ _**c**_ Horodecki R, Horodecki P, Horodecki M, Horodecki K; Horodecki; Horodecki; Horodecki (2009). "Quantum entanglement". _Rev. Mod. Phys_. **81** (2): 865–942. arXiv:quant-ph/0702225. Bibcode:2009RvMP...81..865H. doi:10.1103/RevModPhys.81.865. CS1 maint: Multiple names: authors list (link)
+                            75. **^** >Grassl, M.; Rötteler, M.; Beth, T. (1998). "Computing local invariants of quantum-bit systems". _Phys. Rev. A_. **58** (3): 1833–1839. arXiv:quant-ph/9712040. doi:10.1103/PhysRevA.58.1833.
+                            76. **^** B. Kraus (2010). "Local unitary equivalence of multipartite pure states". _Phys. Rev. Lett_. **104** (2): 020504. arXiv:0909.5152. doi:10.1103/PhysRevLett.104.020504. PMID 20366579.
+                            77. **^** M. A. Nielsen (1999). "Conditions for a Class of Entanglement Transformations". _Phys. Rev. Lett_. **83** (2): 436. arXiv:quant-ph/9811053. doi:10.1103/PhysRevLett.83.436.
+                            78. **^** Gour, G. & Wallach, N. R. (2013). "Classification of Multipartite Entanglement of All Finite Dimensionality". _Phys. Rev. Lett_. **111** (6): 060502. arXiv:1304.7259. doi:10.1103/PhysRevLett.111.060502. PMID 23971544. CS1 maint: Uses authors parameter (link)
+                            79. **^** Horodecki, M.; Horodecki, P.; Horodecki, R. (1998). "Mixed-state entanglement and distillation: Is there a _bound_ entanglement in nature?". _Phys. Rev. Lett_. **80** (1998): 5239–5242. arXiv:quant-ph/9801069. doi:10.1103/PhysRevLett.80.5239.
+                            80. **^** H. M. Wiseman, S. J. Jones, and A. C. Doherty (2007). "Steering, Entanglement, Nonlocality, and the Einstein-Podolsky-Rosen Paradox". _Phys. Rev. Lett_. **98** (14): 140402. arXiv:quant-ph/0612147. doi:10.1103/PhysRevLett.98.140402. PMID 17501251. CS1 maint: Uses authors parameter (link)
+                            81. **^** Cerf, Nicolas J.; Cleve, Richard. "Information-theoretic interpretation of quantum error-correcting codes" (PDF).
+                            82. ^ _**a**_ _**b**_ Plenio; Virmani (2007). "An introduction to entanglement measures". _Quant. Inf. Comp_. **1** : 1–51. arXiv:quant-ph/0504163. Bibcode:2005quant.ph..4163P.
+                            83. **^** Wolchover, Natalie (25 April 2014). "New Quantum Theory Could Explain the Flow of Time". _www.wired.com_. Quanta Magazine. Retrieved  27 April 2014.
+                            84. **^** Huang, Yichen (21 March 2014). "Computing quantum discord is NP-complete". _New Journal of Physics_. **16** (3): 033027. arXiv:1305.5941. Bibcode:2014NJPh...16c3027H. doi:10.1088/1367-2630/16/3/033027.
+                            85. **^** Bouwmeester, Dik; Pan, Jian-Wei; Mattle, Klaus; Eibl, Manfred; Weinfurter, Harald & Zeilinger, Anton (1997). "Experimental Quantum Teleportation" (PDF). _Nature_. **390** (6660): 575–579. Bibcode:1997Natur.390..575B. doi:10.1038/37539.
+                            86. **^** Richard Jozsa; Noah Linden (2002). "On the role of entanglement in quantum computational speed-up". _Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences_. **459** (2036): 2011–2032. arXiv:quant-ph/0201143. Bibcode:2003RSPSA.459.2011J. CiteSeerX 10.1.1.251.7637. doi:10.1098/rspa.2002.1097.
+                            87. **^** Ekert, Artur K. (1991). "Quantum cryptography based on Bell's theorem". _Physical Review Letters_. **67** (6): 661–663. Bibcode:1991PhRvL..67..661E. doi:10.1103/PhysRevLett.67.661. PMID 10044956.
+                            88. **^** Yin, Juan; Cao, Yuan; Yong, Hai-Lin; Ren, Ji-Gang; Liang, Hao; Liao, Sheng-Kai; Zhou, Fei; Liu, Chang; Wu, Yu-Ping; Pan, Ge-Sheng; Zhang, Qiang; Peng, Cheng-Zhi; Pan, Jian-Wei (2010). "Contextuality offers device-independent security". arXiv:1006.0468 [quant-ph].
+                            89. **^** Pezze, Luca & Smerzi, Augusto (2009). "Entanglement, Nonlinear Dynamics, and the Heisenberg Limit". _Phys. Rev. Lett_. **102** (10): 100401. arXiv:0711.4840. Bibcode:2009PhRvL.102j0401P. doi:10.1103/PhysRevLett.102.100401. PMID 19392092.
+                            90. **^** Database error – Qwiki Archived 21 August 2012 at the Wayback Machine
+                            91. **^** Kitagawa, Masahiro; Ueda, Masahito (1993). "Squeezed Spin States". _Phys. Rev. A_. **47** (6): 5138–5143. Bibcode:1993PhRvA..47.5138K. doi:10.1103/physreva.47.5138. PMID 9909547.
+                            92. **^** Wineland, D. J.; Bollinger, J. J.; Itano, W. M.; Moore, F. L.; Heinzen, D. J. (1992). "Spin squeezing and reduced quantum noise in spectroscopy". _Phys. Rev. A_. **46** (11): R6797–R6800. Bibcode:1992PhRvA..46.6797W. doi:10.1103/PhysRevA.46.R6797. PMID 9908086.
+                            93. **^** Holland, M. J; Burnett, K (1993). "Interferometric detection of optical phase shifts at the Heisenberg limit". _Physical Review Letters_. **71** (9): 1355–1358. doi:10.1103/PhysRevLett.71.1355. PMID 10055519.
+                            94. **^** Akopian, N. (2006). "Entangled Photon Pairs from Semiconductor Quantum Dots". _Phys. Rev. Lett_. **96** (2): 130501. arXiv:quant-ph/0509060. Bibcode:2006PhRvL..96b0501D. doi:10.1103/PhysRevLett.96.020501. PMID 16486553.
+                            95. **^** Rosario Lo Franco and Giuseppe Compagno, "Indistinguishability of Elementary Systems as a Resource for Quantum Information Processing", Phys. Rev. Lett. 120, 240403, 14 June 2018.
+                            96. **^** Gurvits, L., Classical deterministic complexity of Edmonds' problem and quantum entanglement, in Proceedings of the 35th ACM Symposium on Theory of Computing, ACM Press, New York, 2003.
+                            97. **^** Sevag Gharibian, Strong NP-Hardness of the Quantum Separability Problem, Quantum Information and what's known as Quantum Computing, Vol. 10, No. 3&4, pp. 343–360, 2010. arXiv:0810.4507.
+                            98. **^** "Geometrical aspects of entanglement", Physical Review A 74, 012313 (2006)
+                            99. **^** http://physicsworld.com/cws/article/news/2016/aug/16/china-launches-world-s-first-quantum-science-satellite
+                            100. **^** Science 16 Jun 2017: Vol. 356, Issue 6343, pp. 1140-1144 DOI: 10.1126/science.aan3211
+                            101. **^** "China's quantum satellite achieves 'spooky action' at record distance". 14 June 2017.
+                            102. **^** Frank Jensen: _Introduction to Computational Chemistry._ Wiley, 2007, ISBN 978-0-470-01187-4.
+                            103. **^** Berkeley Lab Press Release: _Untangling the Quantum Entanglement Behind Photosynthesis: Berkeley scientists shine new light on green plant secrets._
+                            104. **^** Mohan Sarovar, Akihito Ishizaki, Graham R. Fleming, K. Birgitta Whaley: _Quantum entanglement in photosynthetic light harvesting complexes._ arXiv:0905.3787
+                            105. **^** Marletto, c.; Coles, D.M.; Farrow, T.; Vedral, V. (10 October 2018). "Entanglement between living bacteria and quantized light witnessed by Rabi splitting". _Journal of Physics Communications_. **2** (10). Retrieved  29 October 2018.
+                            106. **^** O'allaghan, Jonathan (29 October 2018). ""Schrödinger's Bacterium" Could Be a Quantum Biology Milestone - A recent experiment may have placed living organisms in a state of quantum entanglement". _Scientific American_. Retrieved  29 October 2018.
+                    
+
+## Further reading[edit]
+
+                    
+                                                * Bengtsson I; Życzkowski K (2006). "Geometry of Quantum States". _An Introduction to Quantum Entanglement_. Cambridge: Cambridge University Press. second, revised edition (2017)
+                            * Cramer, JG (2015). _The Quantum Handshake: Entanglement, Nonlocality and Transactions_. Springer Verlag. ISBN 978-3-319-24642-0.
+                            * Gühne, O.; Tóth, G. (2009). "Entanglement detection". _Physics Reports_. **474** (1–6): 1–75. arXiv:0811.2803. Bibcode:2009PhR...474....1G. doi:10.1016/j.physrep.2009.02.004.
+                            * Horodecki R, Horodecki P, Horodecki M, Horodecki K; Horodecki; Horodecki; Horodecki (2009). "Quantum entanglement". _Rev. Mod. Phys_. **81** (2): 865–942. arXiv:quant-ph/0702225. Bibcode:2009RvMP...81..865H. doi:10.1103/RevModPhys.81.865. CS1 maint: Multiple names: authors list (link)
+                            * Jaeger G (2009). _Entanglement, Information, and the Interpretation of Quantum Mechanics_. Heildelberg: Springer. ISBN 978-3-540-92127-1.
+                            * Plenio MB, Virmani S; Virmani (2007). "An introduction to entanglement measures". _Quant. Inf. Comp_. **1** (7): 1–51. arXiv:quant-ph/0504163. Bibcode:2005quant.ph..4163P.
+                            * Shadbolt PJ, Verde MR, Peruzzo A, Politi A, Laing A, Lobino M, Matthews JCF, Thompson MG, O'Brien JL; Verde; Peruzzo; Politi; Laing; Lobino; Matthews; Thompson; O'Brien (2012). "Generating, manipulating and measuring entanglement and mixture with a reconfigurable photonic circuit". _Nature Photonics_. **6** (1): 45–59. arXiv:1108.3309. Bibcode:2012NaPho...6...45S. doi:10.1038/nphoton.2011.283. CS1 maint: Multiple names: authors list (link)
+                            * Steward EG (2008). _Quantum Mechanics: Its Early Development and the Road to Entanglement_. Imperial College Press. ISBN 978-1-86094-978-4.
+                            * Vedral, V. (2002). "The role of relative entropy in quantum information theory". _Reviews of Modern Physics_. **74** (1): 197–234. arXiv:quant-ph/0102094. Bibcode:2002RvMP...74..197V. doi:10.1103/RevModPhys.74.197.
+                    
+
+## External links[edit]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-
+
+logo.svg/34px-Wikiquote-logo.svg.png) | Wikiquote has quotations related to:
+_**Quantum entanglement**_  
+---|---  
+* The original EPR paper * Quantum Entanglement at Stanford Encyclopedia of Philosophy * How to entangle photons experimentally (subscription required) * A creative interpretation of Quantum Entanglement * Albert's chest: entanglement for lay persons * How Quantum Entanglement Works * Explanatory video by _Scientific American_ magazine * Hanson Lab – Loophole-free Bell test ‘Spooky action at a distance’, no cheating. [ _dead link_ ] * Two Diamonds Linked by Strange Quantum Entanglement * Entanglement experiment with photon pairs – interactive * Multiple entanglement and quantum repeating * Quantum Entanglement and Bell's Theorem at MathPages * Audio – Cain/Gay (2009) Astronomy Cast Entanglement * Recorded research seminars at Imperial College relating to quantum entanglement * Quantum Entanglement and Decoherence: 3rd International Conference on Quantum Information (ICQI) * Ion trapping quantum information processing * IEEE Spectrum On-line: _The trap technique_ * Was Einstein Wrong?: A Quantum Threat to Special Relativity * _Spooky Actions At A Distance?_ : Oppenheimer Lecture, Prof. David Mermin (Cornell University) Univ. California, Berkeley, 2008. Non-mathematical popular lecture on YouTube, posted Mar 2008
+                    
+                                                * v
+                            * t
+                            * e
+                    
+
+Quantum mechanics
+
+* * *
+
+Background|
+
+                    
+                                                * Introduction
+                            * History
+                              * timeline
+                            * Glossary
+                            * Classical mechanics
+                            * Old quantum theory
+                    
+
+Fundamentals|
+
+                    
+                                                * Bra–ket notation
+                            * Casimir effect
+                            * Complementarity
+                            * Density matrix
+                            * Energy level
+                              * ground state
+                              * excited state
+                              * degenerate levels
+                              * Vacuum state
+                              * Zero-point energy
+                              * QED vacuum
+                              * QCD vacuum
+                            * Hamiltonian
+                            * Operator
+                            * Quantum coherence
+                            * Quantum decoherence
+                            * Measurement
+                            * Quantum
+                            * Quantum realm
+                            * Quantum system
+                            * Quantum state
+                            * Quantum number
+                            * Quantum entanglement
+                            * Quantum superposition
+                            * Quantum nonlocality
+                            * Quantum tunnelling
+                            * Quantum levitation
+                            * Quantum fluctuation
+                            * Quantum annealing
+                            * Quantum foam
+                            * Quantum noise
+                            * Heisenberg uncertainty principle
+                            * Spontaneous parametric down-conversion
+                            * Von Neumann entropy
+                            * Spin
+                            * Scattering theory
+                            * Symmetry in quantum mechanics
+                            * Symmetry breaking
+                            * Spontaneous symmetry breaking
+                            * Wave propagation
+                            * Quantum interference
+                            * Wave function
+                              * Wave function collapse
+                              * Wave–particle duality
+                              * Matter wave
+                            * Qubit
+                            * Qutrit
+                            * Observable
+                            * Probability distribution
+                    
+
+Formulations|
+
+                    
+                                                * Formulations
+                            * Heisenberg
+                            * Interaction
+                            * Matrix mechanics
+                            * Schrödinger
+                            * Path integral formulation
+                            * Phase space
+                    
+
+Equations|
+
+                    
+                                                * Dirac
+                            * Klein–Gordon
+                            * Pauli
+                            * Rydberg
+                            * Schrödinger
+                    
+
+Interpretations|
+
+                    
+                                                * Interpretations
+                            * Bayesian
+                            * Consistent histories
+                            * Copenhagen
+                            * de Broglie–Bohm
+                            * Ensemble
+                            * Hidden variables
+                            * Many worlds
+                            * Objective collapse
+                            * Quantum logic
+                            * Relational
+                            * Stochastic
+                            * Transactional
+                            * Cosmological
+                    
+
+Experiments|
+
+                    
+                                                * Afshar
+                            * Bell's inequality
+                            * Cold Atom Laboratory
+                            * Davisson–Germer
+                            * Delayed-choice quantum eraser
+                            * Double-slit
+                            * Franck–Hertz experiment
+                            * Leggett–Garg inequality
+                            * Mach-Zehnder inter.
+                            * Elitzur–Vaidman
+                            * Popper
+                            * Quantum eraser
+                            * Schrödinger's cat
+                            * Quantum suicide and immortality
+                            * Stern–Gerlach
+                            * Wheeler's delayed choice
+                    
+
+Science|
+
+                    
+                                                * Quantum Bayesianism
+                            * Quantum biology
+                            * Quantum calculus
+                            * Quantum chemistry
+                            * Quantum chaos
+                            * Quantum cognition
+                            * Quantum cosmology
+                            * Quantum differential calculus
+                            * Quantum dynamics
+                            * Quantum evolution
+                            * Quantum geometry
+                            * Quantum group
+                            * Quantum measurement problem
+                            * Quantum mind
+                            * Quantum probability
+                            * Quantum stochastic calculus
+                            * Quantum spacetime
+                    
+
+Technology|
+
+                    
+                                                * Quantum algorithms
+                            * Quantum amplifier
+                            * Quantum cellular automata
+                              * Quantum finite automata
+                            * Quantum electronics
+                            * Quantum logic gates
+                            * Quantum clock
+                            * Quantum channel
+                            * Quantum bus
+                            * Quantum circuit
+                            * Phase qubit
+                            * Matrix isolation
+                            * Quantum dot
+                            * Quantum dot display
+                            * Quantum dot solar cell
+                            * Quantum dot cellular automaton
+                            * Quantum dot single-photon source
+                            * Quantum dot laser
+                            * Quantum well
+                            * Quantum computing
+                              * Timeline
+                            * Quantum cryptography
+                            * Post-quantum cryptography
+                            * Quantum error correction
+                            * Quantum imaging
+                            * Quantum image processing
+                            * Quantum information
+                            * Quantum key distribution
+                            * Quantum machine
+                            * Quantum machine learning
+                            * Quantum metamaterial
+                            * Quantum metrology
+                            * Quantum network
+                            * Quantum neural network
+                            * Quantum optics
+                            * Quantum programming
+                            * Quantum sensors
+                            * Quantum simulator
+                            * Quantum teleportation
+                            * Quantum levitation
+                            * Time travel
+                            * Quantum complexity theory
+                    
+
+Extensions|
+
+                    
+                                                * Quantum statistical mechanics
+                            * Relativistic quantum mechanics
+                            * Quantum field theory
+                              * Axiomatic quantum field theory
+                              * Quantum field theory in curved spacetime
+                              * Thermal quantum field theory
+                              * Topological quantum field theory
+                              * Local quantum field theory
+                              * Conformal field theory
+                              * Two-dimensional conformal field theory
+                              * Liouville field theory
+                              * History
+                            * Quantum gravity
+                    
+                            * ![Category](//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png) Category
+                            * ![Portal](//upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/16px-Portal-puzzle.svg.png) Physics Portal
+                            * ![WikiProject](//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/16px-People_icon.svg.png) Physics WikiProject
+                            * ![Commons page](//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png) Commons
+                    
+
+Authority control ![Edit this at
+
+Wikidata](//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-
+
+Blue_pencil.svg.png)|
+
+                    
+                                                * BNF: cb166658073 (data)
+                            * GND: 4409616-1
+                            * LCCN: sh2011004527
+                            * SUDOC: 166990337
+                    
+
+---|--- 
+
+![](//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1)
+
+Retrieved from
+"https://en.wikipedia.org/w/index.php?title=Quantum_entanglement&oldid=900294394"
+
+Categories:
+
+                    
+                                                * Quantum information science
+                            * Quantum mechanics
+                            * Unsolved problems in physics
+                    
+
+Hidden categories:
+
+                    
+                                                * CS1 maint: Multiple names: authors list
+                            * Pages containing links to subscription-only content
+                            * CS1: long volume value
+                            * CS1 maint: Uses authors parameter
+                            * Webarchive template wayback links
+                            * Wikipedia articles needing clarification from May 2015
+                            * All articles with unsourced statements
+                            * Articles with unsourced statements from January 2009
+                            * Articles with unsourced statements from January 2018
+                            * All articles with dead external links
+                            * Articles with dead external links from February 2019
+                            * Use dmy dates from September 2016
+                            * Wikipedia articles with BNF identifiers
+                            * Wikipedia articles with GND identifiers
+                            * Wikipedia articles with LCCN identifiers
+                            * Wikipedia articles with SUDOC identifiers
+                    
+
+## Navigation menu
+
+### Personal tools
+
+                    
+                                                * Not logged in
+                            * Talk
+                            * Contributions
+                            * Create account
+                            * Log in
+                    
+
+### Namespaces
+
+                    
+                                                * Article
+                            * Talk
+                    
+
+### Variants
+
+### Views
+
+                    
+                                                * Read
+                            * Edit
+                            * View history
+                    
+
+### More
+
+### Search
+
+### Navigation
+
+                    
+                                                * Main page
+                            * Contents
+                            * Featured content
+                            * Current events
+                            * Random article
+                            * Donate to Wikipedia
+                            * Wikipedia store
+                    
+
+### Interaction
+
+                    
+                                                * Help
+                            * About Wikipedia
+                            * Community portal
+                            * Recent changes
+                            * Contact page
+                    
+
+### Tools
+
+                    
+                                                * What links here
+                            * Related changes
+                            * Upload file
+                            * Special pages
+                            * Permanent link
+                            * Page information
+                            * Wikidata item
+                            * Cite this page
+                    
+
+### In other projects
+
+                    
+                                                * Wikimedia Commons
+                            * Wikiquote
+                    
+
+### Print/export
+
+                    
+                                                * Create a book
+                            * Download as PDF
+                            * Printable version
+                    
+
+### Languages
+
+                    
+                                                * Alemannisch
+                            * العربية
+                            * Asturianu
+                            * বাংলা
+                            * Català
+                            * Čeština
+                            * Dansk
+                            * Deutsch
+                            * Eesti
+                            * Ελληνικά
+                            * Español
+                            * فارسی
+                            * Français
+                            * Gaeilge
+                            * Galego
+                            * 한국어
+                            * Հայերեն
+                            * हिन्दी
+                            * Hrvatski
+                            * Bahasa Indonesia
+                            * Italiano
+                            * עברית
+                            * ქართული
+                            * Lietuvių
+                            * Lumbaart
+                            * Magyar
+                            * Nederlands
+                            * नेपाली
+                            * 日本語
+                            * Norsk
+                            * Norsk nynorsk
+                            * ਪੰਜਾਬੀ
+                            * Polski
+                            * Português
+                            * Română
+                            * Русский
+                            * Sicilianu
+                            * Simple English
+                            * Slovenčina
+                            * Slovenščina
+                            * Српски / srpski
+                            * Suomi
+                            * Svenska
+                            * Tagalog
+                            * தமிழ்
+                            * Татарча/tatarça
+                            * ไทย
+                            * Türkçe
+                            * Українська
+                            * Tiếng Việt
+                            * 中文
+                    
+
+Edit links
+
+                    
+                                                * This page was last edited on 4 June 2019, at 17:57 (UTC).
+                            * Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+                            * Privacy policy
+                            * About Wikipedia
+                            * Disclaimers
+                            * Contact Wikipedia
+                            * Developers
+                            * Cookie statement
+                            * Mobile view
+                            * ![Wikimedia Foundation](/static/images/wikimedia-button.png)
+                            * ![Powered by MediaWiki](/static/images/poweredby_mediawiki_88x31.png)
+                    
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication _[C.]: Century_ [m.]: married _[FT]:
+Financial Times_ [ _]: required_ [MB]: megabytes _[UV]: Ultraviolet_ [ UV]:
+Ultraviolet
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+  *[m.]: married
+  *[FT]: Financial Times
+  *[*]: required
+  *[MB]: megabytes
+  *[UV]: Ultraviolet
+  *[ UV]: Ultraviolet
+

@@ -1,0 +1,1623 @@
+
+
+**Warning:** The NCBI web site requires JavaScript to function. more...
+
+        
+                  * NCBI![NCBI Logo](//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/28977)
+          * Skip to main content
+          * Skip to navigation
+          * Resources
+          * How To
+          * About NCBI Accesskeys
+        
+
+My NCBISign in to NCBISign Out
+
+# PMC
+
+US National Library of Medicine  
+National Institutes of Health
+
+Search databasePMCAll
+DatabasesAssemblyBiocollectionsBioProjectBioSampleBioSystemsBooksClinVarCloneConserved
+DomainsdbGaPdbVarESTGeneGenomeGEO DataSetsGEO
+ProfilesGSSGTRHomoloGeneIdentical Protein GroupsMedGenMeSHNCBI Web SiteNLM
+CatalogNucleotideOMIMPMCPopSetProbeProteinProtein ClustersPubChem
+BioAssayPubChem CompoundPubChem
+SubstancePubMedSNPSparcleSRAStructureTaxonomyToolKitToolKitAllToolKitBookghUniGene
+
+Search term
+
+Search
+
+        
+                  * Advanced
+          * Journal list
+          * Help
+        
+          * Journal List
+          * HHS Author Manuscripts
+          * PMC4144270
+        
+
+![Logo of nihpa](/corehtml/pmc/pmcgifs/logo-hhspa.png)
+
+EXS. Author manuscript; available in PMC 2014 Aug 26.
+
+Published in final edited form as:
+
+EXS. 2012; 101: 133–164.
+
+doi: 10.1007/978-3-7643-8340-4_6
+
+PMCID: PMC4144270
+
+NIHMSID: NIHMS414261
+
+PMID: 22945569
+
+# Heavy Metals Toxicity and the Environment
+
+Paul B Tchounwou,* Clement G Yedjou, Anita K Patlolla, and Dwayne J Sutton
+
+Author information Copyright and License information Disclaimer
+
+NIH-RCMI Center for Environmental Health, College of Science, Engineering and
+Technology, Jackson State University, 1400 Lynch Street, Box 18750, Jackson,
+MS 39217, USA
+
+*Correspondence to Paul B. Tchounwou. ude.smusj@uownuohct.b.luap, Tel: 601-979-0777 Fax: 601-979-0570
+
+Copyright notice
+
+See other articles in PMC that cite the published article.
+
+## Abstract
+
+Heavy metals are naturally occurring elements that have a high atomic weight
+and a density at least 5 times greater than that of water. Their multiple
+industrial, domestic, agricultural, medical and technological applications
+have led to their wide distribution in the environment; raising concerns over
+their potential effects on human health and the environment. Their toxicity
+depends on several factors including the dose, route of exposure, and chemical
+species, as well as the age, gender, genetics, and nutritional status of
+exposed individuals. Because of their high degree of toxicity, arsenic,
+cadmium, chromium, lead, and mercury rank among the priority metals that are
+of public health significance. These metallic elements are considered systemic
+toxicants that are known to induce multiple organ damage, even at lower levels
+of exposure. They are also classified as human carcinogens (known or probable)
+according to the U.S. Environmental Protection Agency, and the International
+Agency for Research on Cancer. This review provides an analysis of their
+environmental occurrence, production and use, potential for human exposure,
+and molecular mechanisms of toxicity, genotoxicity, and carcinogenicity.
+
+**Keywords:** Heavy metals, production and use, human exposure, toxicity,
+genotoxicity, carcinogenicity
+
+## Introduction
+
+Heavy metals are defined as metallic elements that have a relatively high
+density compared to water [1]. With the assumption that heaviness and toxicity
+are inter-related, heavy metals also include metalloids, such as arsenic, that
+are able to induce toxicity at low level of exposure [2]. In recent years,
+there has been an increasing ecological and global public health concern
+associated with environmental contamination by these metals. Also, human
+exposure has risen dramatically as a result of an exponential increase of
+their use in several industrial, agricultural, domestic and technological
+applications [3]. Reported sources of heavy metals in the environment include
+geogenic, industrial, agricultural, pharmaceutical, domestic effluents, and
+atmospheric sources [4]. Environmental pollution is very prominent in point
+source areas such as mining, foundries and smelters, and other metal-based
+industrial operations [1, 3, 4].
+
+Although heavy metals are naturally occurring elements that are found
+throughout the earth's crust, most environmental contamination and human
+exposure result from anthropogenic activities such as mining and smelting
+operations, industrial production and use, and domestic and agricultural use
+of metals and metal-containing compounds [4-7]. Environmental contamination
+can also occur through metal corrosion, atmospheric deposition, soil erosion
+of metal ions and leaching of heavy metals, sediment re-suspension and metal
+evaporation from water resources to soil and ground water [8]. Natural
+phenomena such as weathering and volcanic eruptions have also been reported to
+significantly contribute to heavy metal pollution [1, 3, 4, 7, 8]. Industrial
+sources include metal processing in refineries, coal burning in power plants,
+petroleum combustion, nuclear power stations and high tension lines, plastics,
+textiles, microelectronics, wood preservation and paper processing plants
+[9-11].
+
+It has been reported that metals such as cobalt (Co), copper (Cu), chromium
+(Cr), iron (Fe), magnesium (Mg), manganese (Mn), molybdenum (Mo), nickel (Ni),
+selenium (Se) and zinc (Zn) are essential nutrients that are required for
+various biochemical and physiological functions [12]. Inadequate supply of
+these micro-nutrients results in a variety of deficiency diseases or syndromes
+[12].
+
+Heavy metals are also considered as trace elements because of their presence
+in trace concentrations (ppb range to less than 10ppm) in various
+environmental matrices [13]. Their bioavailability is influenced by physical
+factors such as temperature, phase association, adsorption and sequestration.
+It is also affected by chemical factors that influence speciation at
+thermodynamic equilibrium, complexation kinetics, lipid solubility and
+octanol/water partition coefficients [14]. Biological factors such as species
+characteristics, trophic interactions, and biochemical/physiological
+adaptation, also play an important role [15].
+
+The essential heavy metals exert biochemical and physiological functions in
+plants and animals. They are important constituents of several key enzymes and
+play important roles in various oxidation-reduction reactions [12]. Copper for
+example serves as an essential co-factor for several oxidative stress-related
+enzymes including catalase, superoxide dismutase, peroxidase, cytochrome c
+oxidases, ferroxidases, monoamine oxidase, and dopamine β-monooxygenase
+[16-18]. Hence, it is an essential nutrient that is incorporated into a number
+of metalloenzymes involved in hemoglobin formation, carbohydrate metabolism,
+catecholamine biosynthesis, and cross-linking of collagen, elastin, and hair
+keratin. The ability of copper to cycle between an oxidized state, Cu(II), and
+reduced state, Cu(I), is used by cuproenzymes involved in redox reactions
+[16-18]. However, it is this property of copper that also makes it potentially
+toxic because the transitions between Cu(II) and Cu(I) can result in the
+generation of superoxide and hydroxyl radicals [16-19]. Also, excessive
+exposure to copper has been linked to cellular damage leading to Wilson
+disease in humans [18, 19]. Similar to copper, several other essential
+elements are required for biologic functioning, however, an excess amount of
+such metals produces cellular and tissue damage leading to a variety of
+adverse effects and human diseases. For some including chromium and copper,
+there is a very narrow range of concentrations between beneficial and toxic
+effects [19, 20]. Other metals such as aluminium (Al), antinomy (Sb), arsenic
+(As), barium (Ba), beryllium (Be), bismuth (Bi), cadmium (Cd), gallium (Ga),
+germanium (Ge), gold (Au), indium (In), lead (Pb), lithium (Li), mercury (Hg),
+nickel (Ni), platinum (Pt), silver (Ag), strontium (Sr), tellurium (Te),
+thallium (Tl), tin (Sn), titanium (Ti), vanadium (V) and uranium (U) have no
+established biological functions and are considered as non-essential metals
+[20].
+
+In biological systems, heavy metals have been reported to affect cellular
+organelles and components such as cell membrane, mitochondrial, lysosome,
+endoplasmic reticulum, nuclei, and some enzymes involved in metabolism,
+detoxification, and damage repair [21]. Metal ions have been found to interact
+with cell components such as DNA and nuclear proteins, causing DNA damage and
+conformational changes that may lead to cell cycle modulation, carcinogenesis
+or apoptosis [20-22]. Several studies from our laboratory have demonstrated
+that reactive oxygen species (ROS) production and oxidative stress play a key
+role in the toxicity and carcinogenicity of metals such as arsenic [23, 24,
+25], cadmium [26], chromium [27, 28], lead [29, 30], and mercury [31, 32].
+Because of their high degree of toxicity, these five elements rank among the
+priority metals that are of great public health significance. They are all
+systemic toxicants that are known to induce multiple organ damage, even at
+lower levels of exposure. According to the United States Environmental
+Protection Agency (U.S. EPA), and the International Agency for Research on
+Cancer (IARC), these metals are also classified as either "known" or
+"probable" human carcinogens based on epidemiological and experimental studies
+showing an association between exposure and cancer incidence in humans and
+animals.
+
+Heavy metal-induced toxicity and carcinogenicity involves many mechanistic
+aspects, some of which are not clearly elucidated or understood. However, each
+metal is known to have unique features and physic-chemical properties that
+confer to its specific toxicological mechanisms of action. This review
+provides an analysis of the environmental occurrence, production and use,
+potential for human exposure, and molecular mechanisms of toxicity,
+genotoxicity, and carcinogenicity of arsenic, cadmium, chromium, lead, and
+mercury.
+
+## Arsenic
+
+### Environmental Occurrence, Industrial Production and Use
+
+Arsenic is a ubiquitous element that is detected at low concentrations in
+virtually all environmental matrices [33]. The major inorganic forms of
+arsenic include the trivalent arsenite and the pentavalent arsenate. The
+organic forms are the methylated metabolites - monomethylarsonic acid (MMA),
+dimethylarsinic acid (DMA) and trimethylarsine oxide. Environmental pollution
+by arsenic occurs as a result of natural phenomena such as volcanic eruptions
+and soil erosion, and anthropogenic activities [33]. Several arsenic-
+containing compounds are produced industrially, and have been used to
+manufacture products with agricultural applications such as insecticides,
+herbicides, fungicides, algicides, sheep dips, wood preservatives, and dye-
+stuffs. They have also been used in veterinary medicine for the eradication of
+tapeworms in sheep and cattle [34]. Arsenic compounds have also been used in
+the medical field for at least a century in the treatment of syphilis, yaws,
+amoebic dysentery, and trypanosomaiasis [34,35]. Arsenic-based drugs are still
+used in treating certain tropical diseases such as African sleeping sickness
+and amoebic dysentery, and in veterinary medicine to treat parasitic diseases,
+including filariasis in dogs and black head in turkeys and chickens [35].
+Recently, arsenic trioxide has been approved by the Food and Drug
+Administration as an anticancer agent in the treatment of acute promeylocytic
+leukemia [36]. Its therapeutic action has been attributed to the induction of
+programmed cell death (apoptosis) in leukemia cells [24].
+
+### Potential for Human Exposure
+
+It is estimated that several million people are exposed to arsenic chronically
+throughout the world, especially in countries like Bangladesh, India, Chile,
+Uruguay, Mexico, Taiwan, where the ground water is contaminated with high
+concentrations of arsenic. Exposure to arsenic occurs via the oral route
+(ingestion), inhalation, dermal contact, and the parenteral route to some
+extent [33,34,37]. Arsenic concentrations in air range from 1 to 3 ng/m3 in
+remote locations (away from human releases), and from 20 to 100 ng/m3 in
+cities. Its water concentration is usually less than 10µg/L, although higher
+levels can occur near natural mineral deposits or mining sites. Its
+concentration in various foods ranges from 20 to 140 ng/kg [38]. Natural
+levels of arsenic in soil usually range from 1 to 40 mg/kg, but pesticide
+application or waste disposal can produce much higher values [25].
+
+Diet, for most individuals, is the largest source of exposure, with an average
+intake of about 50 µg per day. Intake from air, water and soil are usually
+much smaller, but exposure from these media may become significant in areas of
+arsenic contamination. Workers who produce or use arsenic compounds in such
+occupations as vineyards, ceramics, glass-making, smelting, refining of
+metallic ores, pesticide manufacturing and application, wood preservation,
+semiconductor manufacturing can be exposed to substantially higher levels of
+arsenic [39]. Arsenic has also been identified at 781 sites of the 1,300
+hazardous waste sites that have been proposed by the U.S. EPA for inclusion on
+the national priority list [33,39]. Human exposure at these sites may occur by
+a variety of pathways, including inhalation of dusts in air, ingestion of
+contaminated water or soil, or through the food chain [40].
+
+Contamination with high levels of arsenic is of concern because arsenic can
+cause a number of human health effects. Several epidemiological studies have
+reported a strong association between arsenic exposure and increased risks of
+both carcinogenic and systemic health effects [41]. Interest in the toxicity
+of arsenic has been heightened by recent reports of large populations in West
+Bengal, Bangladesh, Thailand, Inner Mongolia, Taiwan, China, Mexico,
+Argentina, Chile, Finland and Hungary that have been exposed to high
+concentrations of arsenic in their drinking water and are displaying various
+clinico-pathological conditions including cardiovascular and peripheral
+vascular disease, developmental anomalies, neurologic and neurobehavioural
+disorders, diabetes, hearing loss, portal fibrosis, hematologic disorders
+(anemia, leukopenia and eosinophilia) and carcinoma [25, 33, 35, 39]. Arsenic
+exposure affects virtually all organ systems including the cardiovascular,
+dermatologic, nervous, hepatobilliary, renal, gastro-intestinal, and
+respiratory systems [41]. Research has also pointed to significantly higher
+standardized mortality rates for cancers of the bladder, kidney, skin, and
+liver in many areas of arsenic pollution. The severity of adverse health
+effects is related to the chemical form of arsenic, and is also time- and
+dose-dependent [42,43]. Although the evidence of carcinogenicity of arsenic in
+humans seems strong, the mechanism by which it produces tumors in humans is
+not completely understood [44].
+
+### Mechanisms of Toxicity and Carcinogenicity
+
+Analyzing the toxic effects of arsenic is complicated because the toxicity is
+highly influenced by its oxidation state and solubility, as well as many other
+intrinsic and extrinsic factors [45]. Several studies have indicated that the
+toxicity of arsenic depends on the exposure dose, frequency and duration, the
+biological species, age, and gender, as well as on individual
+susceptibilities, genetic and nutritional factors [46]. Most cases of human
+toxicity from arsenic have been associated with exposure to inorganic arsenic.
+Inorganic trivalent arsenite (AsIII) is 2-10 times more toxic than pentavalent
+arsenate (AsV) [5]. By binding to thiol or sulfhydryl groups on proteins, As
+(III) can inactivate over 200 enzymes. This is the likely mechanism
+responsible for arsenic's widespread effects on different organ systems. As
+(V) can replace phosphate, which is involved in many biochemical pathways [5,
+47].
+
+One of the mechanisms by which arsenic exerts its toxic effect is through
+impairment of cellular respiration by the inhibition of various mitochondrial
+enzymes, and the uncoupling of oxidative phosphorylation. Most toxicity of
+arsenic results from its ability to interact with sulfhydryl groups of
+proteins and enzymes, and to substitute phosphorous in a variety of
+biochemical reactions [48]. Arsenic _in vitro_ reacts with protein sulfhydryl
+groups to inactivate enzymes, such as dihydrolipoyl dehydrogenase and
+thiolase, thereby producing inhibited oxidation of pyruvate and betaoxidation
+of fatty acids [49]. The major metabolic pathway for inorganic arsenic in
+humans is methylation. Arsenic trioxide is methylated to two major metabolites
+via a non-enzymatic process to monomethylarsonic acid (MMA), which is further
+methylated enzymatically to dimethyl arsenic acid (DMA) before excretion in
+the urine [40, 47]. It was previously thought that this methylation process is
+a pathway of arsenic detoxification, however, recent studies have pointed out
+that some methylated metabolites may be more toxic than arsenite if they
+contain trivalent forms of arsenic [41].
+
+Tests for genotoxicity have indicated that arsenic compounds inhibit DNA
+repair, and induce chromosomal aberrations, sister-chromatid exchanges, and
+micronuclei formation in both human and rodent cells in culture [50-52] and in
+cells of exposed humans [53]. Reversion assays with _Salmonella typhimurium_
+fail to detect mutations that are induced by arsenic compounds. Although
+arsenic compounds are generally perceived as weak mutagens in bacterial and
+animal cells, they exhibit clastogenic properties in many cell types _in vivo_
+and _in vitro_ [54]. In the absence of animal models, _in vitro_ cell
+transformation studies become a useful means of obtaining information on the
+carcinogenic mechanisms of arsenic toxicity. Arsenic and arsenical compounds
+are cytotoxic and induce morphological transformations of Syrian hamster
+embryo (SHE) cells as well as mouse C3H10T1/2 cells and BALB/3T3 cells [55,
+56].
+
+Based on the comet assay, it has been reported that arsenic trioxide induces
+DNA damage in human lymphophytes [57] and also in mice leukocytes [58].
+Arsenic compounds have also been shown to induce gene amplification, arrest
+cells in mitosis, inhibit DNA repair, and induce expression of the _c-fos_
+gene and the oxidative stress protein heme oxygenase in mammalian cells [58,
+59]. They have been implicated as promoters and comutagens for a variety of
+toxic agents [60]. Recent studies in our laboratory have demonstrated that
+arsenic trioxide is cytotoxic and able to transcriptionally induce a
+significant number of stress genes and related proteins in human liver
+carcinoma cells [61].
+
+Epidemiological investigations have indicated that long-term arsenic exposure
+results in promotion of carcinogenesis. Several hypotheses have been proposed
+to describe the mechanism of arsenic-induced carcinogenesis. Zhao et al. [62]
+reported that arsenic may act as a carcinogen by inducing DNA hypomethylation,
+which in turn facilitates aberrant gene expression. Additionally, it was found
+that arsenic is a potent stimulator of extracellular signal-regulated protein
+kinase Erk1 and AP-1 transactivational activity, and an efficient inducer of
+_c-fos_ and _c-jun_ gene expression [63]. Induction of _c-jun_ and _c-fos_ by
+arsenic is associated with activation of JNK [64]. However, the role of JNK
+activation by arsenite in cell transformation or tumor promotion is unclear.
+
+In another study, Trouba et al. [65] concluded that long-term exposure to high
+levels of arsenic might make cells more susceptible to mitogenic stimulation
+and that alterations in mitogenic signaling proteins might contribute to the
+carcinogenic action of arsenic. Collectively, several recent studies have
+demonstrated that arsenic can interfere with cell signaling pathways (e.g.,
+the p53 signaling pathway) that are frequently implicated in the promotion and
+progression of a variety of tumor types in experimental animal models, and of
+some human tumors [66, 68]. However, the specific alterations in signal
+transduction pathways or the actual targets that contribute to the development
+of arsenic-induced tumors in humans following chronic consumption of arsenic
+remains uncertain.
+
+Recent clinical trials have found that arsenic trioxide has therapeutic value
+in the treatment of acute promyelocytic leukemia, and there is interest in
+exploring its effectiveness in the treatment of a variety of other cancers
+[69,70]. In acute promyelocytic leukemia, the specific molecular event
+critical to the formation of malignant cells is known. A study by Puccetti et
+al. [71] found that forced overexpression of BCR-ABL susceptibility in human
+lymphoblasts cells resulted in greatly enhanced sensitivity to arsenic-induced
+apoptosis. They also concluded that arsenic trioxide is a tumor specific agent
+capable of inducing apoptosis selectively in acute promyelocytic leukemia
+cells. Several recent studies have shown that arsenic can induce apoptosis
+through alterations in other cell signaling pathways [72,73]. In addition to
+acute peomyelocytic leukemia, arsenic is thought to have therapeutic potential
+for myeloma [74]. In summary, numerous cancer chemotherapy studies in cell
+cultures and in patients with acute promyelocytic leukemia demonstrate that
+arsenic trioxide administration can lead to cell-cycle arrest and apoptosis in
+malignant cells.
+
+Previous studies have also examined p53 gene expression and mutation in tumors
+obtained from subjects with a history of arsenic ingestion. p53 participates
+in many cellular functions, cell-cycle control, DNA repair, differentiation,
+genomic plasticity and programmed cell death. Additional support for the
+hypothesis that arsenic can modulate gene expression has been provided by
+several different studies [75,76]. Collectively, these studies provide further
+evidence that various forms of arsenic can alter gene expression and that such
+changes could contribute substantially to the toxic and carcinogenic actions
+of arsenic treatment in human populations [77].
+
+Several _in vitro_ studies in our laboratory have demonstrated that arsenic
+modulates DNA synthesis, gene and protein expression, genotoxicity, mitosis
+and/or apoptotic mechanisms in various cell lines including keratinocytes,
+melanocytes, dendritic cells, dermal fibroblasts, microvascular endothelial
+cells, monocytes, and T-cells [78], colon cancer cells [79], lung cancer cells
+[80], human leukemia cells [81], Jurkat-T lymphocytes [82], and human liver
+carcinoma cells [83]. We have also shown that oxidative stress plays a key
+role in arsenic induced cytotoxicity, a process that is modulated by pro-
+and/or anti-oxidants such as ascorbic acid and n-acetyl cysteine [84-86]. We
+have further demonstrated that the toxicity of arsenic depends on its chemical
+form, the inorganic form being more toxic than the organic one [42].
+
+Various hypotheses have been proposed to explain the carcinogenicity of
+inorganic arsenic. Nevertheless, the molecular mechanisms by which this
+arsenical induces cancer are still poorly understood. Results of previous
+studies have indicated that inorganic arsenic does not act through classic
+genotoxic and mutagenic mechanisms, but rather may be a tumor promoter that
+modifies signal transduction pathways involved in cell growth and
+proliferation [68]. Although much progress has been recently made in the area
+of arsenic's possible mode(s) of carcinogenic action, a scientific consensus
+has not yet reached. A recent review discusses nine different possible modes
+of action of arsenic carcinogenesis: induced chromosomal abnormalities,
+oxidative stress, altered DNA repair, altered DNA methylation patterns,
+altered growth factors, enhanced cell proliferation, promotion/progression,
+suppression of p53, and gene amplification [87]. Presently, three modes
+(chromosomal abnormality, oxidative stress, and altered growth factors) of
+arsenic carcinogenesis have shown a degree of positive evidence, both in
+experimental systems (animal and human cells) and in human tissues. The
+remaining possible modes of carcinogenic action (progression of
+carcinogenesis, altered DNA repair, p53 suppression, altered DNA methylation
+patterns and gene amplification) do not have as much evidence, particularly
+from _in vivo_ studies with laboratory animals, _in vitro_ studies with
+cultured human cells, or human data from case or population studies. Thus, the
+mode-of-action studies suggest that arsenic might be acting as a cocarcinogen,
+a promoter, or a progressor of carcinogenesis.
+
+## Cadmium
+
+### Environmental Occurrence, Industrial Production and Use
+
+Cadmium is a heavy metal of considerable environmental and occupational
+concern. It is widely distributed in the earth's crust at an average
+concentration of about 0.1 mg/kg. The highest level of cadmium compounds in
+the environment is accumulated in sedimentary rocks, and marine phosphates
+contain about 15 mg cadmium/kg [88].
+
+Cadmium is frequently used in various industrial activities. The major
+industrial applications of cadmium include the production of alloys, pigments,
+and batteries [89]. Although the use of cadmium in batteries has shown
+considerable growth in recent years, its commercial use has declined in
+developed countries in response to environmental concerns. In the United
+States for example, the daily cadmium intake is about 0.4µg/kg/day, less than
+half of the U.S. EPA's oral reference dose [90]. This decline has been linked
+to the introduction of stringent effluent limits from plating works and, more
+recently, to the introduction of general restrictions on cadmium consumption
+in certain countries.
+
+### Potential for Human Exposure
+
+The main routes of exposure to cadmium are via inhalation or cigarette smoke,
+and ingestion of food. Skin absorption is rare. Human exposure to cadmium is
+possible through a number of several sources including employment in primary
+metal industries, eating contaminated food, smoking cigarettes, and working in
+cadmium-contaminated work places, with smoking being a major contributor [91,
+92]. Other sources of cadmium include emissions from industrial activities,
+including mining, smelting, and manufacturing of batteries, pigments,
+stabilizers, and alloys [93]. Cadmium is also present in trace amounts in
+certain foods such as leafy vegetables, potatoes, grains and seeds, liver and
+kidney, and crustaceans and mollusks [94]. In addition, foodstuffs that are
+rich in cadmium can greatly increase the cadmium concentration in human
+bodies. Examples are liver, mushrooms, shellfish, mussels, cocoa powder and
+dried seaweed. An important distribution route is the circulatory system
+whereas blood vessels are considered to be main stream organs of cadmium
+toxicity. Chronic inhalation exposure to cadmium particulates is generally
+associated with changes in pulmonary function and chest radiographs that are
+consistent with emphysema [95]. Workplace exposure to airborne cadmium
+particulates has been associated with decreases in olfactory function [96].
+Several epidemiologic studies have documented an association of chronic low-
+level cadmium exposure with decreases in bone mineral density and osteoporosis
+[97-99].
+
+Exposure to cadmium is commonly determined by measuring cadmium levels in
+blood or urine. Blood cadmium reflects recent cadmium exposure (from smoking,
+for example). Cadmium in urine (usually adjusted for dilution by calculating
+the cadmium/creatinine ratio) indicates accumulation, or kidney burden of
+cadmium [100, 101]. It is estimated that about 2.3% of the U.S. population has
+elevated levels of urine cadmium (>2µg/g creatinine), a marker of chronic
+exposure and body burden [102]. Blood and urine cadmium levels are typically
+higher in cigarette smokers, intermediate in former smokers and lower in
+nonsmokers [102, 103]. Because of continuing use of cadmium in industrial
+applications, the environmental contamination and human exposure to cadmium
+have dramatically increased during the past century [104].
+
+### Molecular Mechanisms of Toxicity and Carcinogenicity
+
+Cadmium is a severe pulmonary and gastrointestinal irritant, which can be
+fatal if inhaled or ingested. After acute ingestion, symptoms such as
+abdominal pain, burning sensation, nausea, vomiting, salivation, muscle
+cramps, vertigo, shock, loss of consciousness and convulsions usually appear
+within 15 to 30 min [105]. Acute cadmium ingestion can also cause
+gastrointestinal tract erosion, pulmonary, hepatic or renal injury and coma,
+depending on the route of poisoning [105, 106]. Chronic exposure to cadmium
+has a depressive effect on levels of norepinephrine, serotonin, and
+acetylcholine [107]. Rodent studies have shown that chronic inhalation of
+cadmium causes pulmonary adenocarcinomas [108, 109]. It can also cause
+prostatic proliferative lesions including adenocarcinomas, after systemic or
+direct exposure [110].
+
+Although the mechanisms of cadmium toxicity are poorly understood, it has been
+speculated that cadmium causes damage to cells primarily through the
+generation of ROS [111], which causes single-strand DNA damage and disrupts
+the synthesis of nucleic acids and proteins [112]. Studies using two-
+dimensional gel electrophoresis have shown that several stress response
+systems are expressed in response to cadmium exposure, including those for
+heat shock, oxidative stress, stringent response, cold shock, and SOS [113-
+115]. _In vitro_ studies indicate that cadmium induces cytotoxic effects at
+the concentrations 0.1 to 10 mM and free radical-dependent DNA damage [116,
+117]. _In vivo_ studies have shown that cadmium modulates male reproduction in
+mice model at a concentration of 1 mg/kg body weight [118]. However, cadmium
+is a weak mutagen when compared with other carcinogenic metals [119]. Previous
+reports have indicated that cadmium affects signal transduction pathways;
+inducing inositol polyphosphate formation, increasing cytosolic free calcium
+levels in various cell types [120], and blocking calcium channels [121, 122].
+At lower concentrations (1-100 µM), cadmium binds to proteins, decreases DNA
+repair [123], activates protein degradation, up-regulates cytokines and proto-
+oncogenes such as c- _fos_ , c- _jun_ , and c- _myc_ [124], and induces
+expression of several genes including metallothioneins [125], heme oxygenases,
+glutathione transferases, heat-shock proteins, acute-phase reactants, and DNA
+polymerase β [126].
+
+Cadmium compounds are classified as human carcinogens by several regulatory
+agencies. The International Agency for Research on Cancer [91] and the U.S.
+National Toxicology Program have concluded that there is adequate evidence
+that cadmium is a human carcinogen. This designation as a human carcinogen is
+based primarily on repeated findings of an association between occupational
+cadmium exposure and lung cancer, as well as on very strong rodent data
+showing the pulmonary system as a target site [91]. Thus, the lung is the most
+definitively established site of human carcinogenesis from cadmium exposure.
+Other target tissues of cadmium carcinogenesis in animals include injection
+sites, adrenals, testes, and the hemopoietic system [91, 108, 109]. In some
+studies, occupational or environmental cadmium exposure has also been
+associated with development of cancers of the prostate, kidney, liver,
+hematopoietic system and stomach [108, 109]. Carcinogenic metals including
+arsenic, cadmium, chromium, and nickel have all been associated with DNA
+damage through base pair mutation, deletion, or oxygen radical attack on DNA
+[126]. Animal studies have demonstrated reproductive and teratogenic effects.
+Small epidemiologic studies have noted an inverse relationship between cadmium
+in cord blood, maternal blood or maternal urine and birth weight and length at
+birth [127, 128].
+
+## Chromium
+
+### Environmental Occurrence, Industrial Production and Use
+
+Chromium (Cr) is a naturally occurring element present in the earth's crust,
+with oxidation states (or valence states) ranging from chromium (II) to
+chromium (VI) [129]. Chromium compounds are stable in the trivalent [Cr(III)]
+form and occur in nature in this state in ores, such as ferrochromite. The
+hexavalent [Cr(VI)] form is the second-most stable state [28]. Elemental
+chromium [Cr(0)] does not occur naturally. Chromium enters into various
+environmental matrices (air, water, and soil) from a wide variety of natural
+and anthropogenic sources with the largest release coming from industrial
+establishments. Industries with the largest contribution to chromium release
+include metal processing, tannery facilities, chromate production, stainless
+steel welding, and ferrochrome and chrome pigment production. The increase in
+the environmental concentrations of chromium has been linked to air and
+wastewater release of chromium, mainly from metallurgical, refractory, and
+chemical industries. Chromium released into the environment from anthropogenic
+activity occurs mainly in the hexavalent form [Cr(VI)] [130]. Hexavalent
+chromium [Cr(VI)] is a toxic industrial pollutant that is classified as human
+carcinogen by several regulatory and non-regulatory agencies [130-132]. The
+health hazard associated with exposure to chromium depends on its oxidation
+state, ranging from the low toxicity of the metal form to the high toxicity of
+the hexavalent form. All Cr(VI)-containing compounds were once thought to be
+man-made, with only Cr(III) naturally ubiquitous in air, water, soil and
+biological materials. Recently, however, naturally occurring Cr(VI) has been
+found in ground and surface waters at values exceeding the World Health
+Organization limit for drinking water of 50 µg of Cr(VI) per liter [133].
+Chromium is widely used in numerous industrial processes and as a result, is a
+contaminant of many environmental systems [134]. Commercially chromium
+compounds are used in industrial welding, chrome plating, dyes and pigments,
+leather tanning and wood preservation. Chromium is also used as anticorrosive
+in cooking systems and boilers [135, 136].
+
+### Potential for Human Exposure
+
+It is estimated that more than 300,000 workers are exposed annually to
+chromium and chromium-containing compounds in the workplace. In humans and
+animals, [Cr(III)] is an essential nutrient that plays a role in glucose, fat
+and protein metabolism by potentiating the action of insulin [5]. However,
+occupational exposure has been a major concern because of the high risk of Cr-
+induced diseases in industrial workers occupationally exposed to Cr(VI) [137].
+Also, the general human population and some wildlife may also be at risk. It
+is estimated that 33 tons of total Cr are released annually into the
+environment [130]. The U.S. Occupational Safety and Health Administration
+(OSHA) recently set a "safe" level of 5µg/m3, for an 8-hr time-weighted
+average, even though this revised level may still pose a carcinogenic risk
+[138]. For the general human population, atmospheric levels range from 1 to
+100 ng/cm3 [139], but can exceed this range in areas that are close to Cr
+manufacturing.
+
+Non-occupational exposure occurs via ingestion of chromium containing food and
+water whereas occupational exposure occurs via inhalation [140]. Chromium
+concentrations range between 1 and 3000 mg/kg in soil, 5 to 800 µg/L in sea
+water, and 26 µg/L to 5.2 mg/L in rivers and lakes [129]. Chromium content in
+foods varies greatly and depends on the processing and preparation. In
+general, most fresh foods typically contain chromium levels ranging from <10
+to 1,300 µg/kg. Present day workers in chromium-related industries can be
+exposed to chromium concentrations two orders of magnitude higher than the
+general population [141]. Even though the principal route of human exposure to
+chromium is through inhalation, and the lung is the primary target organ,
+significant human exposure to chromium has also been reported to take place
+through the skin [142, 143]. For example, the widespread incidence of
+dermatitis noticed among construction workers is attributed to their exposure
+to chromium present in cement [143]. Occupational and environmental exposure
+to Cr(VI)-containing compounds is known to cause multiorgan toxicity such as
+renal damage, allergy and asthma, and cancer of the respiratory tract in
+humans [5, 144].
+
+Breathing high levels of chromium (VI) can cause irritation to the lining of
+the nose, and nose ulcers. The main health problems seen in animals following
+ingestion of chromium (VI) compounds are irritation and ulcers in the stomach
+and small intestine, anemia, sperm damage and male reproductive system damage.
+Chromium (III) compounds are much less toxic and do not appear to cause these
+problems. Some individuals are extremely sensitive to chromium(VI) or
+chromium(III), allergic reactions consisting of severe redness and swelling of
+the skin have been noted. An increase in stomach tumors was observed in humans
+and animals exposed to chromium(VI) in drinking water. Accidental or
+intentional ingestion of extremely high doses of chromium (VI) compounds by
+humans has resulted in severe respiratory, cardiovascular, gastrointestinal,
+hematological, hepatic, renal, and neurological effects as part of the
+sequelae leading to death or in patients who survived because of medical
+treatment [141]. Although the evidence of carcinogenicity of chromium in
+humans and terrestrial mammals seems strong, the mechanism by which it causes
+cancer is not completely understood [145].
+
+### Mechanisms of Toxicity and Carcinogenicity
+
+Major factors governing the toxicity of chromium compounds are oxidation state
+and solubility. Cr(VI) compounds, which are powerful oxidizing agents and thus
+tend to be irritating and corrosive, appear to be much more toxic systemically
+than Cr(III) compounds, given similar amount and solubility [146, 147].
+Although the mechanisms of biological interaction are uncertain, the variation
+in toxicity may be related to the ease with which Cr(VI) can pass through cell
+membranes and its subsequent intracellular reduction to reactive
+intermediates. Since Cr(III) is poorly absorbed by any route, the toxicity of
+chromium is mainly attributable to the Cr(VI) form. It can be absorbed by the
+lung and gastrointestinal tract, and even to a certain extent by intact skin.
+The reduction of Cr(VI) is considered as being a detoxification process when
+it occurs at a distance from the target site for toxic or genotoxic effect
+while reduction of Cr(VI) may serve to activate chromium toxicity if it takes
+place in or near the cell nucleus of target organs [148]. If Cr(VI) is reduced
+to Cr(III) extracellularly, this form of the metal is not readily transported
+into cells and so toxicity is not observed. The balance that exists between
+extracellular Cr(VI) and intracellular Cr(III) is what ultimately dictates the
+amount and rate at which Cr(VI) can enter cells and impart its toxic effects
+[134].
+
+Cr(VI) enters many types of cells and under physiological conditions can be
+reduced by hydrogen peroxide (H2O2), glutathione (GSH) reductase, ascorbic
+acid, and GSH to produce reactive intermediates, including Cr(V), Cr(IV),
+thiylradicals, hydroxyl radicals, and ultimately, Cr(III). Any of these
+species could attack DNA, proteins, and membrane lipids, thereby disrupting
+cellular integrity and functions [149, 150].
+
+Studies with animal models have also reported many harmful effects of Cr (VI)
+on mammals. Subcutaneous administration of Cr (VI) to rats caused severe
+progressive proteinuria, urea nitrogen and creatinine, as well as elevation in
+serum alanine aminotransferase activity and hepatic lipid peroxide formation
+[151]. Similar studies reported by Gumbleton and Nicholls [152] found that Cr
+(VI) induced renal damage in rats when administered by single sub-cutaneous
+injections. Bagchi et al. demonstrated that rats received Cr (VI) orally in
+water induced hepatic mitochondrial and microsomal lipid peroxidation, as well
+as enhanced excretion of urinary lipid metabolites including malondialdehyde
+[153, 154].
+
+Adverse health effects induced by Cr (VI) have also been reported in humans.
+Epidemiological investigations have reported respiratory cancers in workers
+occupationally exposed to Cr (VI)-containing compounds [142, 148]. DNA strand
+breaks in peripheral lymphocytes and lipid peroxidation products in urine
+observed in chromium-exposed workers also support the evidence of Cr
+(VI)-induced toxicity to humans [155, 156]. Oxidative damage is considered to
+be the underlying cause of these genotoxic effects including chromosomal
+abnormalities [157, 158], and DNA strand breaks [159]. Nevertheless, recent
+studies indicate a biological relevance of non-oxidative mechanisms in Cr(VI)
+carcinogenesis [160].
+
+Carcinogenicity appears to be associated with the inhalation of the less
+soluble/insoluble Cr(VI) compounds. The toxicology of Cr(VI) does not reside
+with the elemental form. It varies greatly among a wide variety of very
+different Cr(VI) compounds [161]. Epidemiological evidence strongly points to
+Cr(VI) as the agent in carcinogenesis. Solubility and other characteristics of
+chromium, such as size, crystal modification, surface charge, and the ability
+to be phagocytized might be important in determining cancer risk [135].
+
+Studies in our laboratory have indicated that chromium (VI) is cytotoxic and
+able to induce DNA damaging effects such as chromosomal abnormalities [162],
+DNA strand breaks, DNA fragmentation and oxidative stress in Sprague-Dawley
+rats and human liver carcinoma cells [27, 28]. Recently, our laboratory has
+also demonstrated that chromium (VI) induces biochemical, genotoxic and
+histopathologic effects in liver and kidney of goldfish, _carassius auratus_
+[163].
+
+Various hypotheses have been proposed to explain the carcinogenicity of
+chromium and its salts, however some inherent difficulties exist when
+discussing metal carcinogenesis. A metal cannot be classified as carcinogenic
+per se since its different compounds may have different potencies. Because of
+the multiple chemical exposure in industrial establishments, it is difficult
+from an epidemiological standpoint to relate the carcinogenic effect to a
+single compound. Thus, the carcinogenic risk must often be related to a
+process or to a group of metal compounds rather than to a single substance.
+Differences in carcinogenic potential are related not only to different
+chemical forms of the same metal but also to the particle size of the inhaled
+aerosol and to physical characteristics of the particle such as surface charge
+and crystal modification [164].
+
+## Lead
+
+### Environmental Occurrence, Industrial Production and Use
+
+Lead is a naturally occurring bluish-gray metal present in small amounts in
+the earth's crust. Although lead occurs naturally in the environment,
+anthropogenic activities such as fossil fuels burning, mining, and
+manufacturing contribute to the release of high concentrations. Lead has many
+different industrial, agricultural and domestic applications. It is currently
+used in the production of lead-acid batteries, ammunitions, metal products
+(solder and pipes), and devices to shield X-rays. An estimated 1.52 million
+metric tons of lead were used for various industrial applications in the
+United Stated in 2004. Of that amount, lead-acid batteries production
+accounted for 83 percent, and the remaining usage covered a range of products
+such as ammunitions (3.5 percent), oxides for paint, glass, pigments and
+chemicals (2.6 percent), and sheet lead (1.7 percent) [165, 166].
+
+In recent years, the industrial use of lead has been significantly reduced
+from paints and ceramic products, caulking, and pipe solder [167]. Despite
+this progress, it has been reported that among 16.4 million United States
+homes with more than one child younger than 6 years per household, 25% of
+homes still had significant amounts of lead-contaminated deteriorated paint,
+dust, or adjacent bare soil [168]. Lead in dust and soil often re-contaminates
+cleaned houses [169] and contributes to elevating blood lead concentrations in
+children who play on bare, contaminated soil [170]. Today, the largest source
+of lead poisoning in children comes from dust and chips from deteriorating
+lead paint on interior surfaces [171]. Children who live in homes with
+deteriorating lead paint can achieve blood lead concentrations of 20µg/dL or
+greater [172].
+
+### Potential for Human Exposure
+
+Exposure to lead occurs mainly via inhalation of lead-contaminated dust
+particles or aerosols, and ingestion of lead-contaminated food, water, and
+paints [173, 174]. Adults absorb 35 to 50% of lead through drinking water and
+the absorption rate for children may be greater than 50%. Lead absorption is
+influenced by factors such as age and physiological status. In the human body,
+the greatest percentage of lead is taken into the kidney, followed by the
+liver and the other soft tissues such as heart and brain, however, the lead in
+the skeleton represents the major body fraction [175]. The nervous system is
+the most vulnerable target of lead poisoning. Headache, poor attention spam,
+irritability, loss of memory and dullness are the early symptoms of the
+effects of lead exposure on the central nervous system [170, 173].
+
+Since the late 1970's, lead exposure has decreased significantly as a result
+of multiple efforts including the elimination of lead in gasoline, and the
+reduction of lead levels in residential paints, food and drink cans, and
+plumbing systems [173, 174]. Several federal programs implemented by state and
+local health governments have not only focused on banning lead in gasoline,
+paint and soldered cans, but have also supported screening programs for lead
+poisoning in children and lead abatement in housing [167]. Despite the
+progress in these programs, human exposure to lead remains a serious health
+problem [176, 177]. Lead is the most systemic toxicant that affects several
+organs in the body including the kidneys, liver, central nervous system,
+hematopoetic system, endocrine system, and reproductive system [173].
+
+Lead exposure usually results from lead in deteriorating household paints,
+lead in the work place, lead in crystals and ceramic containers that leaches
+into water and food, lead use in hobbies, and lead use in some traditional
+medicines and cosmetics [167, 174]. Several studies conducted by the National
+Health and Nutrition Examination surveys (NHANES) have measured blood lead
+levels in the U.S. populations and have assessed the magnitude of lead
+exposure by age, gender, race, income and degree of urbanization [176].
+Although the results of these surveys have demonstrated a general decline in
+blood lead levels since the 1970s, they have also shown that large populations
+of children continue to have elevated blood lead levels (> 10µg/dL). Hence,
+lead poisoning remains one of the most common pediatric health problems in the
+United States today [167, 173, 174, 176-179]. Exposure to lead is of special
+concern among women particularly during pregnancy. Lead absorbed by the
+pregnant mother is readily transferred to the developing fetus [180]. Human
+evidence corroborates animal findings [181], linking prenatal exposure to lead
+with reduced birth weight and preterm delivery [182], and with neuro-
+developmental abnormalities in offspring [183].
+
+### Molecular Mechanisms of Toxicity and Carcinogenicity
+
+There are many published studies that have documented the adverse effects of
+lead in children and the adult population. In children, these studies have
+shown an association between blood level poisoning and diminished
+intelligence, lower intelligence quotient-IQ, delayed or impaired
+neurobehavioral development, decreased hearing acuity, speech and language
+handicaps, growth retardation, poor attention span, and anti social and
+diligent behaviors [178, 179, 184, 185]. In the adult population, reproductive
+effects, such as decreased sperm count in men and spontaneous abortions in
+women have been associated with high lead exposure [186, 187]. Acute exposure
+to lead induces brain damage, kidney damage, and gastrointestinal diseases,
+while chronic exposure may cause adverse effects on the blood, central nervous
+system, blood pressure, kidneys, and vitamin D metabolism [173, 174, 178, 179,
+184-187].
+
+One of the major mechanisms by which lead exerts its toxic effect is through
+biochemical processes that include lead's ability to inhibit or mimic the
+actions of calcium and to interact with proteins [173]. Within the skeleton,
+lead is incorporated into the mineral in place of calcium. Lead binds to
+biological molecules and thereby interfering with their function by a number
+of mechanisms. Lead binds to sulfhydryl and amide groups of enzymes, altering
+their configuration and diminishing their activities. Lead may also compete
+with essential metallic cations for binding sites, inhibiting enzyme activity,
+or altering the transport of essential cations such as calcium [188]. Many
+investigators have demonstrated that lead intoxication induces a cellular
+damage mediated by the formation of reactive oxygen species (ROS) [189]. In
+addition, Jiun and Hseien [190] demonstrated that the levels of
+malondialdehyde (MDA) in blood strongly correlate with lead concentration in
+the blood of exposed workers. Other studies showed that the activities of
+antioxidant enzymes, including superoxide dismutase (SOD), and glutathione
+peroxidase in erythrocytes of workers exposed to lead are remarkably higher
+than that in non-exposed workers [191]. A series of recent studies in our
+laboratory demonstrated that lead-induced toxicity and apoptosis in human
+cancer cells involved several cellular and molecular processes including
+induction of cell death and oxidative stress [29, 192], transcriptional
+activation of stress genes [30], DNA damage [29], externalization of
+phosphatidylserine and activation of caspase-3 [193].
+
+A large body of research has indicated that lead acts by interfering with
+calcium-dependent processes related to neuronal signaling and intracellular
+signal transduction. Lead perturbs intracellular calcium cycling, altering
+releasability of organelle stores, such as endoplasmic reticulum and
+mitochondria [194, 195]. In some cases lead inhibits calcium-dependent events,
+including calcium-dependent release of several neurotransmitters and receptor-
+coupled ionophores in glutamatergic neurons [196]. In other cases lead appears
+to augment calcium-dependent events, such as protein kinase C and calmodulin
+[194, 197].
+
+Experimental studies have indicated that lead is potentially carcinogenic,
+inducing renal tumors in rats and mice [198, 199], and is therefore considered
+by the IARC as a probable human carcinogen [200]. Lead exposure is also known
+to induce gene mutations and sister chromatid exchanges [201, 202],
+morphological transformations in cultured rodent cells [203], and to enhance
+anchorage independence in diploid human fibroblasts [204]. _In vitro_ and _in
+vivo_ studies indicated that lead compounds cause genetic damage through
+various indirect mechanisms that include inhibition of DNA synthesis and
+repair, oxidative damage, and interaction with DNA-binding proteins and tumor
+suppressor proteins. Studies by Roy and his group showed that lead acetate
+induced mutagenicity at a toxic dose at the _E. coli gpt_ locus transfected to
+V79 cells [205]. They also reported that toxic doses of lead acetate and lead
+nitrate induced DNA breaks at the _E. coli gpt_ locus transfected to V79 cells
+[205]. Another study by Wise and his collaborators found no evidence for
+direct genotoxic or DNA-damaging effects of lead except for lead chromate.
+They pointed out that the genotoxicity may be due to hexavalent chromate
+rather than lead [206].
+
+## Mercury
+
+### Environmental Occurrence, Industrial Production and Use
+
+Mercury is a heavy metal belonging to the transition element series of the
+periodic table. It is unique in that it exists or is found in nature in three
+forms (elemental, inorganic, and organic), with each having its own profile of
+toxicity [207]. At room temperature elemental mercury exists as a liquid which
+has a high vapor pressure and is released into the environment as mercury
+vapor. Mercury also exists as a cation with oxidation states of +1 (mercurous)
+or +2 (mercuric) [208]. Methylmercury is the most frequently encountered
+compound of the organic form found in the environment, and is formed as a
+result of the methylation of inorganic (mercuric) forms of mercury by
+microorganisms found in soil and water [209].
+
+Mercury is a widespread environmental toxicant and pollutant which induces
+severe alterations in the body tissues and causes a wide range of adverse
+health effects [210]. Both humans and animals are exposed to various chemical
+forms of mercury in the environment. These include elemental mercury vapor
+(Hg0), inorganic mercurous (Hg+1), mercuric (Hg+2), and the organic mercury
+compounds [211]. Because mercury is ubiquitous in the environment, humans,
+plants and animals are all unable to avoid exposure to some form of mercury
+[212].
+
+Mercury is utilized in the electrical industry (switches, thermostats,
+batteries), dentistry (dental amalgams), and numerous industrial processes
+including the production of caustic soda, in nuclear reactors, as antifungal
+agents for wood processing, as a solvent for reactive and precious metal, and
+as a preservative of pharmaceutical products [213]. The industrial demand for
+mercury peaked in 1964 and began to sharply decline between 1980 and 1994 as a
+result of federal bans on mercury additives in paints, pesticides, and the
+reduction of its use in batteries [214].
+
+### Potential for Human Exposure
+
+Humans are exposed to all forms of mercury through accidents, environmental
+pollution, food contamination, dental care, preventive medical practices,
+industrial and agricultural operations, and occupational operations [215]. The
+major sources of chronic, low level mercury exposure are dental amalgams and
+fish consumption. Mercury enters water as a natural process of off-gassing
+from the earth's crust and also through industrial pollution [216]. Algae and
+bacteria methylate the mercury entering the waterways. Methyl mercury then
+makes its way through the food chain into fish, shellfish, and eventually into
+humans [217].
+
+The two most highly absorbed species are elemental mercury (Hg0) and methyl
+mercury (MeHg). Dental amalgams contain over 50% elemental mercury [218]. The
+elemental vapor is highly lipophilic and is effectively absorbed through the
+lungs and tissues lining the mouth. After Hg0 enters the blood, it rapidly
+passes through cell membranes, which include both the blood-brain barrier and
+the placental barrier [219]. Once it gains entry into the cell, Hg0 is
+oxidized and becomes highly reactive Hg2+. Methyl mercury derived from eating
+fish is readily absorbed in the gastrointestinal tract and because of its
+lipid solubility, can easily cross both the placental and blood-brain
+barriers. Once mercury is absorbed it has a very low excretion rate. A major
+proportion of what is absorbed accumulates in the kidneys, neurological tissue
+and the liver. All forms of mercury are toxic and their effects include
+gastrointestinal toxicity, neurotoxicity, and nephrotoxicity [213].
+
+### Molecular Mechanisms of Mercury Toxicity and Carcingenicity
+
+The molecular mechanisms of toxicity of mercury are based on its chemical
+activity and biological features which suggest that oxidative stress is
+involved in its toxicity [220]. Through oxidative stress mercury has shown
+mechanisms of sulfhydryl reactivity. Once in the cell both Hg2+ and MeHg form
+covalent bonds with cysteine residues of proteins and deplete cellular
+antioxidants. Antioxidant enzymes serve as a line of cellular defense against
+mercury compounds [221]. The interaction of mercury compounds suggests the
+production of oxidative damage through the accumulation of reactive oxygen
+species (ROS) which would normally be eliminated by cellular antioxidants.
+
+In eukaryotic organisms the primary site for the production of reactive oxygen
+species (ROS) occurs in the mitochondria through normal metabolism [222].
+Inorganic mercury has been reported to increase the production of these ROS by
+causing defects in oxidative phosphorylation and electron transport at the
+ubiquinone-cytochrome b5 step [223]. Through the acceleration of the rate of
+electron transfer in the electron transport chain in the mitochondria, mercury
+induces the premature shedding of electrons to molecular oxygen which causes
+an increase in the generation of reactive oxygen species [224].
+
+Oxidative stress appears to also have an effect on calcium homeostasis. The
+role of calcium in the activation of proteases, endonucleases and
+phospholipases is well established. The activation of phospholipase A2 has
+been shown to result in an increase in reactive oxygen species through the
+increase generation of arachidonic acid. Arachidonic acid has also been shown
+to be an important target of reactive oxygen species [225]. Both organic and
+inorganic mercury have been shown to alter calcium homeostasis but through
+different mechanisms. Organic mercury compounds (MeHg) are believed to
+increase intracellular calcium by accelerating the influx of calcium from the
+extracellular medium and mobilizing intracellular stores, while inorganic
+mercury (Hg2+) compounds increase intracellular calcium stores only through
+the influx of calcium from the extracellular medium [226]. Mercury compounds
+have also been shown to induce increased levels of MDA in both the livers,
+kidneys, lungs and testes of rats treated with HgCl2 [227]. This increase in
+concentration was shown to correlate with the severity of hepatotoxicity and
+nephrotoxicity [228]. HgCl2-induced lipid peroxidation was shown to be
+significantly reduced by antioxidant pretreatment with selenium. Selenium has
+been shown to achieve this protective effect through direct binding to mercury
+or serving as a cofactor for glutathione peroxidase and facilitating its
+ability to scavenge ROS [229]. Vitamin E has also been reported to protect
+against HgCl2-induced lipid peroxidation in the liver [230].
+
+Metal-induced carcinogenicity has been a research subject of great public
+health interest. Generally, carcinogenesis is considered to have three stages
+including initiation, promotion, and progression and metastasis. Although
+mutations of DNA, which can activate oncogenesis or inhibit tumor suppression,
+were traditionally thought to be crucial factors for the initiation of
+carcinogenesis, recent studies have demonstrated that other molecular events
+such as transcription activation, signal transduction, oncogene amplification,
+and recombination, also constitute significant contributing factors [231,
+232]. Studies have shown that mercury and other toxic metals effect cellular
+organelles and adversely affect their biologic functions [231, 233].
+Accumulating evidence also suggests that ROS play a major role in the
+mediation of metal-induced cellular responses and carcinogenesis [234-236].
+
+The connection between mercury exposure and carcinogenesis is very
+controversial. While some studies have confirmed its genotoxic potential,
+others have not shown an association between mercury exposure and genotoxic
+damage [237]. In studies implicating mercury as a genotoxic agent, oxidative
+stress has been described has the molecular mechanism of toxicity. Hence,
+mercury has been shown to induce the formation of ROS known to cause DNA
+damage in cells, a process which can lead to the initiation of carcinogenic
+processes [238, 239]. The direct action of these free radicals on nucleic
+acids may generate genetic mutations. Although mercury-containing compounds
+are not mutagenic in bacterial assays, inorganic mercury has been shown to
+induce mutational events in eukaryotic cell lines with doses as low as 0.5 µM
+[240]. These free radicals may also induce conformational changes in proteins
+that are responsible for DNA repair, mitotic spindle, and chromosomal
+segregation [241]. To combat these effects, cells have antioxidant mechanisms
+that work to correct and avoid the formation of ROS (free radicals) in excess.
+These antioxidant mechanisms involve low molecular weight compounds such as
+vitamins C and E, melatonin, glutathione, superoxide dismutase, catalase,
+glutathione peroxidase and glutathione reductase that protect the cells by
+chelating mercury and reducing its oxidative stress potential [242].
+
+Glutathione levels in human populations exposed to methylmercury intoxication
+by eating contaminated fish have been shown to be higher than normal [243].
+These studies were also able to confirm a direct and positive correlation
+between mercury and glutathione levels in blood. They also confirmed an
+increased mitotic index and polyploidal aberrations associated with mercury
+exposure [243]. Epidemiological studies have demonstrated that enzymatic
+activity was altered in populations exposed to mercury; producing genotoxic
+alterations, and suggesting that both chronic and relatively low level mercury
+exposures may inhibit enzyme activity and induce oxidative stress in the cells
+[244]. There is no doubt that the connection between mercury exposure and
+carcinogenesis is very controversial. However, _in-vitro_ studies suggest that
+the susceptibility to DNA damage exists as a result of cellular exposure to
+mercury. These studies also indicate that mercury-induced toxicity and
+carcinogenicity may be cell-, organ- and/or species- specific.
+
+## Prospects
+
+A comprehensive analysis of published data indicates that heavy metals such as
+arsenic cadmium, chromium, lead, and mercury, occur naturally. However,
+anthropogenic activities contribute significantly to environmental
+contamination. These metals are systemic toxicants known to induce adverse
+health effects in humans, including cardiovascular diseases, developmental
+abnormalities, neurologic and neurobehavioral disorders, diabetes, hearing
+loss, hematologic and immunologic disorders, and various types of cancer. The
+main pathways of exposure include ingestion, inhalation, and dermal contact.
+The severity of adverse health effects is related to the type of heavy metal
+and its chemical form, and is also time- and dose-dependent. Among many other
+factors, speciation plays a key role in metal toxicokinetics and
+toxicodynamics, and is highly influenced by factors such as valence state,
+particle size, solubility, biotransformation, and chemical form. Several
+studies have shown that toxic metals exposure causes long term health problems
+in human populations. Although the acute and chronic effects are known for
+some metals, little is known about the health impact of mixtures of toxic
+elements. Recent reports have pointed out that these toxic elements may
+interfere metabolically with nutritionally essential metals such as iron,
+calcium, copper, and zinc [245, 246]. However, the literature is scarce
+regarding the combined toxicity of heavy metals. Simultaneous exposure to
+multiple heavy metals may produce a toxic effect that is either additive,
+antagonistic or synergistic.
+
+A recent review of a number of individual studies that addressed metals
+interactions reported that co-exposure to metal/metalloid mixtures of arsenic,
+lead and cadmium produced more severe effects at both relatively high dose and
+low dose levels in a biomarker-specific manner [247]. These effects were found
+to be mediated by dose, duration of exposure and genetic factors. Also, human
+co-exposure to cadmium and inorganic arsenic resulted in a more pronounced
+renal damage than exposure to each of the elements alone [248]. In many areas
+of metal pollution, chronic low dose exposure to multiple elements is a major
+public health concern. Elucidating the mechanistic basis of heavy metal
+interactions is essential for health risk assessment and management of
+chemical mixtures. Hence, research is needed to further elucidate the
+molecular mechanisms and public health impact associated with human exposure
+to mixtures of toxic metals.
+
+## Acknowledgement
+
+This research was supported in by the National Institutes of Health RCMI Grant
+No. 2G12RR013459, and in part by the National Oceanic and Atmospheric
+Administration ECSC Grant No. NA06OAR4810164 & Subcontract No. 000953.
+
+## References
+
+      1. Fergusson JE, editor. The Heavy Elements: Chemistry, Environmental Impact and Health Effects. Oxford: Pergamon Press; 1990. [Google Scholar]
+
+      2. Duffus JH. Heavy metals-a meaningless term? Pure Appl Chem. 2002;74(5):793–807. [Google Scholar]
+
+      3. Bradl H, editor. Heavy Metals in the Environment: Origin, Interaction and Remediation Volume 6. London: Academic Press; 2002. [Google Scholar]
+
+      4. He ZL, Yang XE, Stoffella PJ. Trace elements in agroecosystems and impacts on the environment. J Trace Elem Med Biol. 2005;19(2-3):125–140. [PubMed] [Google Scholar]
+
+      5. Goyer RA. Toxic effects of metals. In: Klaassen CD, editor. Cassarett and Doull's Toxicology: The Basic Science of Poisons. New York: McGraw-Hill Publisher; 2001. pp. 811–867. [Google Scholar]
+
+      6. Herawati N, Suzuki S, Hayashi K, Rivai IF, Koyoma H. Cadmium, copper and zinc levels in rice and soil of Japan, Indonesia and China by soil type. Bull Env Contam Toxicol. 2000;64:33–39. [PubMed] [Google Scholar]
+
+      7. Shallari S, Schwartz C, Hasko A, Morel JL. Heavy metals in soils and plants of serpentine and industrial sites of Albania. Sci Total Environ. 1998;19209:133–142. [PubMed] [Google Scholar]
+
+      8. Nriagu JO. A global assessment of natural sources of atmospheric trace metals. Nature. 1989;338:47–49. [Google Scholar]
+
+      9. Arruti A, Fernandez-Olmo I, Irabien A. Evaluation of the contribution of local sources to trace metals levels in urban PM2.5 and PM10 in the Cantabria region (Northern Spain) J Environ Monit. 2010;12(7):1451–1458. [PubMed] [Google Scholar]
+
+      10. Strater E, Westbeld A, Klemm O. Pollution in coastal fog at Alto Patache, Northern Chile. Environ Sci Pollut Res Int. 2010 [Epub ahead of print] [PubMed] [Google Scholar]
+
+      11. Pacyna JM. Monitoring and assessment of metal contaminants in the air. In: Chang LW, Magos L, Suzuli T, editors. Toxicology of Metals. Boca Raton, FL: CRC Press; 1996. pp. 9–28. [Google Scholar]
+
+      12. WHO/FAO/IAEA. World Health Organization. Switzerland: Geneva; 1996. Trace Elements in Human Nutrition and Health. [Google Scholar]
+
+      13. Kabata- Pendia A 3rd, editor. Trace Elements in Soils and Plants. Boca Raton, FL: CRC Press; 2001. [Google Scholar]
+
+      14. Hamelink JL, Landrum PF, Harold BL, William BH, editors. Bioavailability: Physical, Chemical, and Biological Interactions. Boca Raton, FL: CRC Press Inc; 1994. [Google Scholar]
+
+      15. Verkleji JAS. In: The effects of heavy metals stress on higher plants and their use as biomonitors In Plant as Bioindicators: Indicators of Heavy Metals in the Terrestrial Environment. Markert B, editor. New York: VCH; 1993. pp. 415–424. [Google Scholar]
+
+      16. Stern BR. Essentiality and toxicity in copper health risk assessment: overview, update and regulatory considerations. Toxicol Environ Health A. 2010;73(2):114–127. [PubMed] [Google Scholar]
+
+      17. Harvey LJ, McArdle HJ. Biomarkers of copper status: a brief update. Br J Nutr. 2008;99(S3):S10–S13. [PubMed] [Google Scholar]
+
+      18. Agency for Toxic Substances and Disease Registry (ATSDR) Toxicological Profile for Copper. Atlanta, GA: Centers for Disease Control; 2002. [Google Scholar]
+
+      19. Tchounwou P, Newsome C, Williams J, Glass K. Copper-induced cytotoxicity and transcriptional activation of stress genes in human liver carcinoma cells. Metal Ions Biol Med. 2008;10:285–290. [PMC free article] [PubMed] [Google Scholar]
+
+      20. Chang LW, Magos L, Suzuki T, editors. Toxicology of Metals. Boca Raton. FL, USA: CRC Press; 1996. [Google Scholar]
+
+      21. Wang S, Shi X. Molecular mechanisms of metal toxicity and carcinogenesis. Mol Cell Biochem. 2001;222:3–9. [PubMed] [Google Scholar]
+
+      22. Beyersmann D, Hartwig A. Carcinogenic metal compounds: recent insight into molecular and cellular mechanisms. Arch Toxicol. 2008;82(8):493–512. [PubMed] [Google Scholar]
+
+      23. Yedjou CG, Tchounwou PB. Oxidative stress in human leukemia cells (HL-60), human liver carcinoma cells (HepG2) and human Jerkat-T cells exposed to arsenic trioxide. Metal Ions Biol Med. 2006;9:298–303. [PMC free article] [PubMed] [Google Scholar]
+
+      24. Yedjou GC, Tchounwou PB. _In vitro_ cytotoxic and genotoxic effects of arsenic trioxide on human leukemia cells using the MTT and alkaline single cell gel electrophoresis (comet) assays. Mol Cell Biochem. 2007;301:123–130. [PMC free article] [PubMed] [Google Scholar]
+
+      25. Tchounwou PB, Centeno JA, Patlolla AK. Arsenic toxicity, mutagenesis and carcinogenesis - a health risk assessment and management approach. Mol Cell Biochem. 2004;255:47–55. [PubMed] [Google Scholar]
+
+      26. Tchounwou PB, Ishaque A, Schneider J. Cytotoxicity and transcriptional activation of stress genes in human liver carcinoma cells (HepG2) exposed to cadmium chloride. Mol Cell Biochem. 2001;222:21–28. [PubMed] [Google Scholar]
+
+      27. Patlolla A, Barnes C, Field J, Hackett D, Tchounwou PB. Potassium dichromate-induced cytotoxicity, genotoxicity and oxidative stress in human liver carcinoma (HepG2) cells. Int J Environ Res Public Health. 2009;6:643–653. [PMC free article] [PubMed] [Google Scholar]
+
+      28. Patlolla A, Barnes C, Yedjou C, Velma V, Tchounwou PB. Oxidative stress, DNA damage and antioxidant enzyme activity induced by hexavalent chromium in Sprague Dawley rats. Environ Toxicol. 2009;24(1):66–73. [PMC free article] [PubMed] [Google Scholar]
+
+      29. Yedjou GC, Tchounwou PB. N-acetyl-cysteine affords protection against lead-induced cytotoxicity and oxidative stress in human liver carcinoma (HepG2) cells. Intl J Environ Res Public Health. 2008;4(2):132–137. [PMC free article] [PubMed] [Google Scholar]
+
+      30. Tchounwou PB, Yedjou CG, Foxx D, Ishaque A, Shen E. Lead-induced cytotoxicity and transcriptional activation of stress genes in human liver carcinoma cells (HepG2) Mol Cell Biochem. 2004;255:161–170. [PubMed] [Google Scholar]
+
+      31. Sutton DJ, Tchounwou PB. Mercury induces the externalization of phosphatidylserine in human proximal tubule (HK-2) cells. Intl J Environ Res Public Health. 2007;4(2):138–144. [PMC free article] [PubMed] [Google Scholar]
+
+      32. Sutton D, Tchounwou PB, Ninashvili N, Shen E. Mercury induces cytotoxicity, and transcriptionally activates stress genes in human liver carcinoma cells. Intl J Mol Sci. 2002;3(9):965–984. [Google Scholar]
+
+      33. Agency for Toxic Substances and Disease Registry (ATSDR) Toxicological Profile for Arsenic TP-92/09. Georgia: Center for Disease Control, Atlanta; 2000. [Google Scholar]
+
+      34. Tchounwou PB, Wilson B, Ishaque A. Important considerations in the development of public health advisories for arsenic and arsenic-containing compounds in drinking water. Rev Environ Health. 1999;14(4):211–229. [PubMed] [Google Scholar]
+
+      35. Centeno JA, Tchounwou PB, Patlolla AK, Mullick FG, Murakat L, Meza E, Gibb H, Longfellow D, Yedjou CG. Environmental pathology and health effects of arsenic poisoning: a critical review. In: Naidu R, Smith E, Smith J, Bhattacharya P, editors. Managing Arsenic In the Environment: From Soil to Human Health. Adelaide, Australia: CSIRO Publishing Corp.; 2005. [Google Scholar]
+
+      36. Rousselot P, Laboume S, Marolleau JP, Larghero T, Noguera ML, Brouet JC, Fermand JP. Arsenic trioxide and melarsoprol induce apoptosis in plasma cell lines and in plasma cells from myeloma patients. Cancer Res. 1999;59:1041–1048. [PubMed] [Google Scholar]
+
+      37. National Research Council Canada (NRCC) Effects of Arsenic in the Environment. National Research Council of Canada; 1978. pp. 1–349. [Google Scholar]
+
+      38. Morton WE, Dunnette DA. Health effects of environmental arsenic. In: Nriagu JO, editor. Arsenic in the Environment Part II: Human Health and Ecosystem Effects. New York: John Wiley & Sons, Inc; 1994. pp. 17–34. [Google Scholar]
+
+      39. National Research Council. Arsenic in Drinking Water. 2001 Update. 2001 On line at: http://www.nap.edu/ books/0309076293/html/
+
+      40. Tchounwou PB, Centeno JA. Toxicologic pathology. In: Gad SC, editor. Handbook of Pre-Clinical Development. New York. NY: John Wiley & Sons; 2008. pp. 551–580. [Google Scholar]
+
+      41. Tchounwou PB, Patlolla AK, Centeno JA. Carcinogenic and systemic health effects associated with arsenic exposure-a critical review. Toxicol Pathol. 2003;31(6):575–588. [PubMed] [Google Scholar]
+
+      42. Tchounwou PB, Wilson BA, Abdelgnani AA, Ishaque AB, Patlolla AK. Differential cytotoxicity and gene expression in human liver carcinoma (HepG2) cells exposed to arsenic trioxide and monosodium acid methanearsonate (MSMA) Intl J Mol Sci. 2002;3:1117–1132. [Google Scholar]
+
+      43. Yedjou GC, Moore P, Tchounwou PB. Dose and time dependent response of human leukemia (HL-60) cells to arsenic trioxide. Intl J Environ Res Public Health. 2006;3(2):136–140. [PMC free article] [PubMed] [Google Scholar]
+
+      44. Chappell W, Beck B, Brown K, North D, Thornton I, Chaney R, Cothern R, Cothern CR, North DW, Irgolic K, Thornton I, Tsongas T. Inorganic arsenic: A need and an opportunity to improve risk assessment. Environ Health Perspect. 1997;105:1060–1067. [PMC free article] [PubMed] [Google Scholar]
+
+      45. Centeno JA, Gray MA, Mullick FG, Tchounwou PB, Tseng C. Arsenic in drinking water and health issues. In: Moore TA, Black A, Centeno JA, Harding JS, Trumm DA, editors. Metal Contaminants in New Zealand. New Zealand: Resolutionz Press; 2005. pp. 195–219. [Google Scholar]
+
+      46. Abernathy CO, Liu YP, Longfellow D, Aposhian HV, Beck B, Fowler B, Goyer R, Menzer R, Rossman T, Thompson C, Waalkes R. Arsenic: health effects, mechanisms of actions and research issues. Environ Health Perspect. 1999;107:593–597. [PMC free article] [PubMed] [Google Scholar]
+
+      47. Hughes MF. Arsenic toxicity and potential mechanisms of action. Toxicol Lett. 2002;133:1–16. [PubMed] [Google Scholar]
+
+      48. Wang Z, Rossman TG. In: The Toxicology of Metals. Cheng LW, editor. Vol. 1. Boca Raton, FL: CRC Press; 1996. pp. 221–243. [Google Scholar]
+
+      49. Belton JC, Benson NC, Hanna ML, Taylor RT. Growth inhibition and cytotoxic effects of three arsenic compounds on cultured Chinese hamster ovary cells. J Environ Sci Health. 1985;20A:37–72. [Google Scholar]
+
+      50. Li JH, Rossman TC. Inhibition of DNA ligase activity by arsenite: A possible mechanism of its comutagenesis. Mol Toxicol. 1989;2:1–9. [PubMed] [Google Scholar]
+
+      51. Jha AN, Noditi M, Nilsson R, Natarajan AT. Genotoxic effects of sodium arsenite on human cells. Mutat Res. 1992;284:215–221. [PubMed] [Google Scholar]
+
+      52. Hartmann A, Speit G. Comparative investigations of the genotoxic effects of metals in the single cell gel assay and the sister-chromatid exchange test. Environ Mol Mutagen. 1994;23:299–305. [PubMed] [Google Scholar]
+
+      53. Patlolla A, Tchounwou PB. Cytogenetic evaluation of arsenic trioxide toxicity in Sprague-Dawley rats. Mut Res - Gen Tox Environ Mutagen. 2005;587(1-2):126–133. [PubMed] [Google Scholar]
+
+      54. Basu A, Mahata J, Gupta S, Giri AK. Genetic toxicology of a paradoxical human carcinogen, arsenic: a review. Mutat Res. 2001;488:171–194. [PubMed] [Google Scholar]
+
+      55. Landolph JR. Molecular and cellular mechanisms of transformation of C3H/10T1/2C18 and diploid human fibroblasts by unique carcinogenic, non- mutagenic metal compounds. A review. Biol Trace Elem Res. 1989;21:459–467. [PubMed] [Google Scholar]
+
+      56. Takahashi M, Barrett JC, Tsutsui T. Transformation by inorganic arsenic compounds of normal Syrian hamster embryo cells into a neoplastic state in which they become anchorage-independent and cause tumors in newborn hamsters. Int J Cancer. 2002;99:629–634. [PubMed] [Google Scholar]
+
+      57. Anderson D, Yu TW, Phillips BJ, Schemezer P. The effect of various antioxidants and other modifying agents on oxygen-radical-generated DNA damage in human lymphocytes in the Comet assay. Mutation Res. 1994;307:261–271. [PubMed] [Google Scholar]
+
+      58. Saleha Banu B, Danadevi K, Kaiser Jamil, Ahuja YR, Visweswara Rao K, Ishap M. _In vivo_ genotoxic effect of arsenic trioxide in mice using comet assay. Toxicol. 2001;162:171–177. [PubMed] [Google Scholar]
+
+      59. Hartmann A, Peit G. Comparative investigations of the genotoxic effects of metals in the single cell gel assay and the sister chromatid exchange test. Environ Mol Mutagen. 1994;23:299–305. [PubMed] [Google Scholar]
+
+      60. Barrett JC, Lamb PW, Wang TC, Lee TC. Mechanisms of arsenic-induced cell transformation. Biol. Trace Ele Res. 1989;21:421–429. [PubMed] [Google Scholar]
+
+      61. Tchounwou PB, Yedjou CG, Dorsey WC. Arsenic trioxide - induced transcriptional activation and expression of stress genes in human liver carcinoma cells (HepG2) Cell Mol Biol. 2003;49:1071–1079. [PubMed] [Google Scholar]
+
+      62. Zhao CQ, Young MR, Diwan BA, Coogan TP, Waalkes MP. Association of arsenic-induced malignant transformation with DNA hypomethylation and aberrant gene expression. Proc Natl Acad Sci USA. 1997;94:10907–10912. [PMC free article] [PubMed] [Google Scholar]
+
+      63. Liu Y, Guyton KZ, Gorospe M, Xu Q, Lee JC, Holbrook NJ. Differential activation of ERK, JNK/SAPK and P38/CSBP/RK map kinase family members during the cellular response to arsenite. Free Rad Biol Med. 1996;21:771–781. [PubMed] [Google Scholar]
+
+      64. Ludwig S, Hoffmeyer A, Goebeler M, Kilian K, Hafner H, Neufeld B, Han J, Rapp UR. The stress inducer arsenite activates mitogen-activated protein kinases extracellular signal-regulated kinases 1 and 2 via a MAPK kinase 6/p38- dependent pathway. J Biol Chem. 1998;273:1917–1922. [PubMed] [Google Scholar]
+
+      65. Trouba KJ, Wauson EM, Vorce RL. Sodium arsenite-induced dysregulation of proteins involved in proliferative signaling. Toxicol Appl Pharmacol. 2000;164(2):161–170. [PubMed] [Google Scholar]
+
+      66. Vogt BL, Rossman TG. Effects of arsenite on p53, p21 and cyclin D expression in normal human fibroblasts- a possible mechanism for arsenite's comutagenicity. Mutat Res. 2001;478(1-2):159–168. [PubMed] [Google Scholar]
+
+      67. Chen NY, Ma WY, Huang C, Ding M, Dong Z. Activation of PKC is required for arsenite-induced signal transduction. J Environ Pathol Toxicol Oncol. 2000;19(3):297–306. [PubMed] [Google Scholar]
+
+      68. Porter AC, Fanger GR, Vaillancourt RR. Signal tansduction pathways regulated by arsenate and arsenite. Oncogene. 1999;18(54):7794–7802. [PubMed] [Google Scholar]
+
+      69. Soignet SL, Frankel SR, Douer D, Tallman MS, Kantarjian H, Calleja E, Stone RM, Kalaycio M, Scheinberg DA, Steinherz P, Sievers EL, Coutre S, Dahlberg S, Ellison R, Warrell RP., Jr United States multicenter study of arsenic trioxide in relapsed acute promyelocytic leukemia. J Clin Oncol. 2001;19(18):3852–3860. [PubMed] [Google Scholar]
+
+      70. Murgo AJ. Clinical trials of arsenic trioxide in hematologic and solid tumors: overview of the National Cancer Institute Cooperative Research and Development Studies. Oncologist. 2001;6(2):22–28. [PubMed] [Google Scholar]
+
+      71. Puccetti ES, Guller S, Orleth A, Bruggenolte N, Hoelzer D, Ottmann OG, Ruthardt M. BCR-ABL mediates arsenic trioxide-induced apoptosis independently of its aberrant kinase activity. Cancer Res. 2000;60(13):3409–3413. [PubMed] [Google Scholar]
+
+      72. Seol JG, Park WH, Kim ES, Jung CW, Hyun JM, Kim BK, Lee YY. Effect of arsenic trioxide on cell cycle arrest in head and neck cancer cell-line PCI-1. Biochem Biophys Res Commun. 1999;265(2):400–404. [PubMed] [Google Scholar]
+
+      73. Alemany M, Levin J. The effects of arsenic trioxide on human Megakaryocytic leukemia cell lines with a comparison of its effects on other cell lineages. Leukemia Lymphoma. 2000;38(1-2):153–163. [PubMed] [Google Scholar]
+
+      74. Deaglio S, Canella D, Baj G, Arnulfo A, Waxman S, Malavasi F. Evidence of an immunologic mechanism behind the therapeutic effects of arsenic trioxide on myeloma cells. Leuk Res. 2001;25(3):237–239. [PubMed] [Google Scholar]
+
+      75. Tully DB, Collins BJ, Overstreet JD, Smith CS, Dinse GE, Mumtaz MM, Chapin RE. Effects of arsenic, cadmium, chromium and lead on gene expression regulated by a battery of 13 different promoters in recombinant HepG2 cells. Toxicol Appl Pharmacol. 2000;168(2):79–90. [PubMed] [Google Scholar]
+
+      76. Lu T, Liu J, LeCluyse EL, Zhou YS, Cheng ML, Waalkes MP. Application of cDNA microarray to the study of arsenic-induced liver diseases in the population of Guizhou, China. Toxicol Sci. 2001;59(1):185–192. [PubMed] [Google Scholar]
+
+      77. Harris CC. Chemical and physical carcinogenesis: advances and perspectives. Cancer Res. 1991;51:5023s–5044s. [PubMed] [Google Scholar]
+
+      78. Graham-Evans B, Colhy HHP, Yu H, Tchounwou PB. Arsenic-induced genotoxic and cytotoxic effects in human keratinocytes, melanocytes, and dendritic cells. Intl J Environ Res Public Health. 2004;1(2):83–89. [PubMed] [Google Scholar]
+
+      79. Stevens JJ, Graham B, Walker AM, Tchounwou PB, Rogers C. The effects of arsenic trioxide on DNA synthesis and genotoxicity in human colon cancer cells. Intl J Environ Res Public Health. 2010;7(5):2018–2032. [PMC free article] [PubMed] [Google Scholar]
+
+      80. Walker AM, Stevens JJ, Ndebele K, Tchounwou PB. Arsenic trioxide modulates DNA synthesis and apoptosis in lung carcinoma cells. Intl J Environ Res Public Health. 2010;7(5):1996–2007. [PMC free article] [PubMed] [Google Scholar]
+
+      81. Yedjou CG, Tchounwou PB. Modulation of p53, _c-fos_ , RARE, cyclin A and cyclin D1 expression in human leukemia (HL-60) cells exposed to arsenic trioxide. Mol Cell Biochem. 2009;331:207–214. [PMC free article] [PubMed] [Google Scholar]
+
+      82. Yedjou C, Sutton LM, Tchounwou PB. Genotoxic mechanisms of arsenic trioxide effect in human Jurkat T-lymphoma cells. Metal Ions Biol Med. 2008;10:495–499. [PMC free article] [PubMed] [Google Scholar]
+
+      83. Brown E, Yedjou C, Tchounwou PB. Cytotoxicty and oxidative stress in human liver carcinoma cells exposed to arsenic trioxide. Metal Ions Biol Med. 2008;10:583–587. [PMC free article] [PubMed] [Google Scholar]
+
+      84. Yedjou CG, Thuisseu L, Tchounwou C, Gomes M, Howard C, Tchounwou PB. Ascorbic acid potentiation of arsenic trioxide anticancer activity against acute promyelocytic leukemia. Arch Drug Inf. 2009;2(4):59–65. [PMC free article] [PubMed] [Google Scholar]
+
+      85. Yedjou C, Rogers C, Brown E, Tchounwou P. Differential effect of ascorbic acid and n-acetyl-cysteine on arsenic trioxide - mediated oxidative stress in human leukemia (HL-60) cells. J Biochem Mol Tox. 2008;22:85–92. [PMC free article] [PubMed] [Google Scholar]
+
+      86. Yedjou GC, Moore P, Tchounwou PB. Dose- and time-dependent response of human leukemia (HL-60) cells to arsenic tic trioxide treatment. Intl J Environ Res Public Health. 2006;3(2):136–140. [PMC free article] [PubMed] [Google Scholar]
+
+      87. Miller WH, Schipper HM, Lee JS, Singer J, Waxman S. Mechanisms of action of arsenic trioxide - review. Cancer Res. 2002;62:3893–3903. [PubMed] [Google Scholar]
+
+      88. Gesamp. IMO/FAO/UNESCO/WMO/WHO/IAEA/UN/UNEP Joint Group of Experts on the Scientific Aspects of Marine Pollution: Report of the seventeenth session. Geneva, Switzerland: World Health Organization; 1987. (Reports and Studies No. 31) [Google Scholar]
+
+      89. Wilson DN Association Cadmium. Cadmium - market trends and influences; London. Cadmium 87 Proceedings of the 6th International Cadmium Conference; 1988. pp. 9–16. [Google Scholar]
+
+      90. U.S Environmental Protection Agency (EPA) [accessed 4 March 2009];Cadmium Compounds. 2006 [Google Scholar]
+
+      91. International Agency for Research on Cancer (IARC) Monographs - Cadmium. Lyon, France: 1993. [Google Scholar]
+
+      92. Paschal DC, Burt V, Caudill SP, Gunter EW, Pirkle JL, Sampson EJ, et al. Exposure of the U.S. population aged 6 years and older to cadmium: 1988-1994. Arch Environ Contam Toxicol. 2000;38:377–383. [PubMed] [Google Scholar]
+
+      93. Agency for Toxic Substances and Disease Registry (ATSDR) Draft Toxicological Profile for Cadmium. Atlanta, GA: 2008. [Google Scholar]
+
+      94. Satarug S, Baker JR, Urbenjapol S, Haswell-Elkins M, Reilly PE, Williams DJ, et al. A global perspective on cadmium pollution and toxicity in non-occupationally exposed population. Toxicol Lett. 2003;137:65–83. [PubMed] [Google Scholar]
+
+      95. Davison AG, Fayers PM, Taylor AJ, Venables KM, Darbyshire J, Pickering CA, et al. Cadmium fume inhalation and emphysema. Lancet. 1988;1(8587):663–667. [PubMed] [Google Scholar]
+
+      96. Mascagni P, Consonni D, Bregante G, Chiappino G, Toffoletto F. Olfactory function in workers exposed to moderate airborne cadmium levels. Neurotoxicol. 2003;24:717–724. [PubMed] [Google Scholar]
+
+      97. Åkesson A, Bjellerup P, Lundh T, Lidfeldt J, Nerbrand C, Samsioe G, et al. Cadmium-induced effects on bone in a population-based study of women. Environ Health Perspect. 2006;114:830–834. [PMC free article] [PubMed] [Google Scholar]
+
+      98. Gallagher CM, Kovach JS, Meliker JR. Urinary cadmium and osteoporosis in U.S. women ≥ 50 years of age: NHANES 1988-1994 and 1999-2004. Environ Health Perspect. 2008;116:1338–1343. [PMC free article] [PubMed] [Google Scholar]
+
+      99. Schutte R, Nawrot TS, Richart T, Thijs L, Vanderschueren D, Kuznetsova T, et al. Bone resorption and environmental exposure to cadmium in women: a population study. Environ Health Perspect. 2008;116:777–783. [PMC free article] [PubMed] [Google Scholar]
+
+      100. Jarup L, Berglund M, Elinder CG, et al. Health effects of cadmium exposure--a review of the literature and a risk estimate [published erratum appears in Scand J Work Environ Health 1998 Jun; 24(3):240] Scand J Work Environ Health. 1998;24(1):1. [PubMed] [Google Scholar]
+
+      101. Wittman R, Hu H. Cadmium exposure and nephropathy in a 28-year-old female metals worker. Environ Health Perspect. 2002;110:1261. [PMC free article] [PubMed] [Google Scholar]
+
+      102. Becker K, Kaus S, Krause C, Lepom P, Schulz C, Seiwert M, et al. German Environmental Survey 1998 (GerES III): environmental pollutants in blood of the German population. Intl J Hyg Environ Health. 2002;205:297–308. [PubMed] [Google Scholar]
+
+      103. Mannino DM, Holguin F, Greves HM, Savage-Brown A, Stock AL, Jones RL. Urinary cadmium levels predict lower lung function in current and former smokers: data from the Third National Health and Nutrition Examination Survey. Thorax. 2004;59:194–198. [PMC free article] [PubMed] [Google Scholar]
+
+      104. Elinder CG, Jarup L. Cadmium exposure and health risks: Recent findings. Ambio. 1996;25:370. [Google Scholar]
+
+      105. Baselt RC, Cravey RH. Disposition of Toxic Drugs and Chemicals in Man. 4th Edn. Chicago, IL: Year Book Medical Publishers; 1995. pp. 105–107. [Google Scholar]
+
+      106. Baselt RC. Disposition of Toxic Drugs and Chemicals in Man. 5th Ed. Foster City, CA: Chemical Toxicology Institute; 2000. [Google Scholar]
+
+      107. Singhal RL, Merali Z, Hrdina PD. Aspects of the biochemical toxicology of cadmium. Fed Proc. 1976;35(1):75–80. [PubMed] [Google Scholar]
+
+      108. Waalkes MP, Berthan G, editors. Handbook on Metal-Ligand Interactions of Biological Fluids. Vol. 2. New York: Marcel Dekker; 1995. pp. 471–482. [Google Scholar]
+
+      109. Waalkes MP, Misra RR, Chang LW, editors. Toxicology of Metals. Boca Raton, FL: CRC Press; 1996. pp. 231–244. [Google Scholar]
+
+      110. Waalkes MP, Rehm S. Fundam Appl Toxicol. 1992;19:512. [PubMed] [Google Scholar]
+
+      111. Stohs Bagchi. Oxidative mechanisms in the toxicity of metal ions. Free Radic Biol Med. 1995;18:321–336. [PubMed] [Google Scholar]
+
+      112. Mitra RS. Protein synthesis in _Escherichia coli_ during recovery from exposure to low levels of Cd 2+ Appl Environ Microbiol. 1984;47:1012–1016. [PMC free article] [PubMed] [Google Scholar]
+
+      113. Blom A, Harder W, Matin A. Unique and overlapping pollutant stress proteins of _Escherichia coli_. Appl Environ Microbiol. 1992;58:331–334. [PMC free article] [PubMed] [Google Scholar]
+
+      114. Feriance PA, Farewell Nystrom T. The cadmium-stress stimulon of Escherichia coli K-12. Microbiol. 1998;144:1045–1050. [PubMed] [Google Scholar]
+
+      115. Coogan TP, Bare RM, Waalkes MP. Cadmium-induced DNA strand damage in cultured liver cells: reduction in cadmium genotoxicity following zinc pretreatment. Toxicol Appl Pharmacol. 1992;113:227–233. [PubMed] [Google Scholar]
+
+      116. Tsuzuki K, Sugiyama M, Haramaki N. DNA single-strand breaks and cytotoxicity induced by chromate (VI), cadmium (II), and mercury (II) in hydrogen peroxide-resistant cell lines. Environ Health Perspect. 1994;102:341–342. [PMC free article] [PubMed] [Google Scholar]
+
+      117. Mukherjee S, Das SK, Kabiru W, Russell KR, Greaves K, Ademoyero AA, et al. Acute cadmium toxicity and male reproduction. Adv Reprod. 2002;6:143–155. [Google Scholar]
+
+      118. Rossman TG, Roy NK, Lin WC. Is cadmium genotoxic? IARC Sci Publ. 1992;118:367–375. [PubMed] [Google Scholar]
+
+      119. Smith JB, Dwyer SC, Smith L. Lowering extracellular pH evokes inositol polyphosphate formation and calcium mobilization. J Biol Chem. 1989;264:8723–8728. [PubMed] [Google Scholar]
+
+      120. Th'evenod F, Jones SW. Cadmium block of calcium current in frog sympathetic neurons. Biophys J. 1992;63:162–168. [PMC free article] [PubMed] [Google Scholar]
+
+      121. Suszkiw J, Toth G, Murawsky M, Cooper GP. Effects of Pb2+ and Cd2+ on acetylcholine release and Ca2+ movements in synaptosomes and subcellular fractions from rat brain and Torpedo electric organ. Brain Res. 1984;323:31–46. [PubMed] [Google Scholar]
+
+      122. Dally H, Hartwig A. Induction and repair inhibition of oxidative DNA damage by nickel (II) and cadmium (II) in mammalian cells. Carcinogenesis. 1997;18:1021–1026. [PubMed] [Google Scholar]
+
+      123. Abshire MK, Devor DE, Diwan BA, Shaughnessy JD, Jr, Waalkes MP. _In vitro_ exposure to cadmium in rat L6 myoblasts can result in both enhancement and suppression of malignant progression in vivo. Carcinogenesis. 1996;17:1349–1356. [PubMed] [Google Scholar]
+
+      124. Durnam DM, Palmiter RD. Transcriptional regulation of the mouse metallothionein-I gene by heavy metals. J Biol Chem. 1981;256:5712–5716. [PubMed] [Google Scholar]
+
+      125. Hwua Y, Yang J. Effect of 3-aminotriazole on anchorage independence and mutagenicity in cadmium- and lead-treated diploid human fibroblasts. Carcinogenesis. 1998;19:881–888. [PubMed] [Google Scholar]
+
+      126. Landolph J. Molecular mechanisms of transformation of CH3/10T1/2 C1 8 mouse embryo cells and diploid human fibroblasts by carcinogenic metal compounds. Environ Health Perspect. 1994;102:119–125. [PMC free article] [PubMed] [Google Scholar]
+
+      127. Nishijo M, Tawara K, Honda R, Nakagawa H, Tanebe K, Saito S. Relationship between newborn size and mother's blood cadmium levels, Toyama, Japan. Arch Environ Health. 2004;59(1):22–25. [PubMed] [Google Scholar]
+
+      128. Zhang YL, Zhao YC, Wang JX, Zhu HD, Liu QF, Fan YG, et al. Effect of environmental exposure to cadmium on pregnancy outcome and fetal growth: a study on healthy pregnant women in China. J Environ Sci Health B. 2004;39:2507–2515. [PubMed] [Google Scholar]
+
+      129. Jacobs JA, Testa SM. Overview of chromium(VI) in the environment: background and history. In: Guertin J, Jacobs JA, Avakian CP, editors. Chromium (VI) Handbook. Boca Raton, Fl: CRC Press; 2005. pp. 1–22. [Google Scholar]
+
+      130. Agency for Toxic Substances and Disease Registry (ATSDR) Toxicological Profile for Chromium. Atlanta, GA: U.S. Department of Health and Human Services, Public Health Service; [Google Scholar]
+
+      131. IARC. IARC Monographs on the Evaluation of Carcinogenic Risks to Humans Vol. 49. Lyon, France: IARC Scientific Publications, IARC; 1990. Chromium, nickel and welding. [Google Scholar]
+
+      132. U.S. EPA. Environmental Criteria and Assessment Office. Cincinnati, OH: United States Environmental Protection Agency; 1992. Integrated Risk Information System (IRIS) [Google Scholar]
+
+      133. Velma V, Vutukuru SS, Tchounwou PB. Ecotoxicology of hexavalent chromium in freshwater fish: a critical review. Rev Environ Health. 2009;24(2):129–145. [PMC free article] [PubMed] [Google Scholar]
+
+      134. Cohen MD, Kargacin B, Klein CB, Costa M. Mechanisms of chromium carcinogenicity and toxicity. Crit Rev Toxicol. 1993;23:255–281. [PubMed] [Google Scholar]
+
+      135. Norseth T. The carcinogenicity of chromium. Environ Health Perspect. 1981;40:121–130. [PMC free article] [PubMed] [Google Scholar]
+
+      136. Wang XF, Xing ML, Shen Y, Zhu X, Xu LH. Oral administration of Cr (VI) induced oxidative stress, DNA damage and apoptotic cell death in mice. Toxicology. 2006;228:16–23. [PubMed] [Google Scholar]
+
+      137. Guertin J. Toxicity and health effects of chromium (all oxidation states) In: Guertin J, Jacobs JA, Avakian CP, editors. Chromium (VI) Handbook. Boca Raton, FL: CRC Press; 2005. pp. 216–234. [Google Scholar]
+
+      138. Occupational Safety and Health Administration (OSHA) Federal Register. Vol. 71. Washington, DC: Final rule; 2006. Occupational exposure to hexavalent chromium; pp. 10099–10385. [PubMed] [Google Scholar]
+
+      139. Singh J, Pritchard DE, Carlisle DL, Mclean JA, Montaser A, Orenstein JM, Patierno SR. Internalization of carcinogenic lead chromate particles by cultured normal human lung epithelial cells: Formation of intracellular lead-inclusion bodies and induction of apoptosis. Toxicol Appl Pharmacol. 1999;161:240–248. [PubMed] [Google Scholar]
+
+      140. Langard S, Vigander T. Occurrence of lung cancer in workers producing chromium pigments. Br J Ind Med. 1983;40(1):71–74. [PMC free article] [PubMed] [Google Scholar]
+
+      141. Agency for Toxic Substances and Disease Registry (ATSDR) U.S. Department of Health and Human Services. Atlanta, GA: Public Health Service; 2008. Toxicological Profile for Chromium. [Google Scholar]
+
+      142. Costa M. Toxicity and carcinogenicity of Cr(VI) in animal models and humans. Critical Reviews in Toxicology. 1997;27:431–442. [PubMed] [Google Scholar]
+
+      143. Shelnutt SR, Goad P, Belsito DV. Dermatological toxicity of hexavalent chromium. Crit. Rev Toxicol. 2007;37:375–387. [PubMed] [Google Scholar]
+
+      144. WHO/IPCS. World Health Organization. Geneva, Switzerland: 1988. Environmental Health Criteria 61: Chromium. [Google Scholar]
+
+      145. Chen TL, Wise SS, Kraus S, Shaffiey F, Levine K, Thompson DW, Romano T, O'Hara T, Wise JP. Particulate hexavalent chromium is cytotoxic and genotoxic to the North Atlantic right whale (Eubalaena glacialis) lung and skin fibroblasts. Environ Mol Mutagenesis. 2009;50:387–393. [PubMed] [Google Scholar]
+
+      146. Connett PH, Wetterhahn KE. Metabolism of carcinogenic chromate by cellular constituents. Struct Bonding. 1983;54:93–24. [Google Scholar]
+
+      147. De Flora S, Bagnasco M, Serra D, Zanacchi P. Genotoxicity of chromium compounds: a review. Mutat Res. 1990;238:99–172. [PubMed] [Google Scholar]
+
+      148. Dayan AD, Paine AJ. Mechanisms of chromium toxicity, carcinogenicity and allergenicity: review of the literature from 1985 to 2000. Hum Exp Toxicol. 2001;20(9):439–451. [PubMed] [Google Scholar]
+
+      149. De Mattia G, Bravi MC, Laurenti O, De Luca O, Palmeri A, Sabatucci A, Mendico G, Ghiselli A. Impairment of cell and plasma redox state in subjects professionally exposed to chromium. Am J Ind Med. 2004;46(2):120–125. [PubMed] [Google Scholar]
+
+      150. O' Brien TJ, Ceryak S, Patierno SR. Complexities of chromium carcinogenesis: role of cellular response, repair and recovery mechanisms. Mutat Res. 2003;533:3–36. [PubMed] [Google Scholar]
+
+      151. Kim E, Na KJ. Nephrotoxicity of sodium dichromate depending on the route of administration. Arch Toxicol. 1991;65:537–541. [PubMed] [Google Scholar]
+
+      152. Gumbleton M, Nicholls PJ. Dose-response and time-response biochemical and histological study of potassium dichromate-induced nephrotoxicity in the rat. Food Chem Toxicol. 1988;26:37–44. [PubMed] [Google Scholar]
+
+      153. Bagchi D, Hassoun EA, Bagchi M, Muldoon D, Stohs SJ. Oxidative stress induced by chronic administration of sodium dichromate (Cr VI) to rats. Comp Biochem Physiol. 1995;1995;110C:281–287. [PubMed] [Google Scholar]
+
+      154. Bagchi D, Vuchetich PJ, Bagchi M, Hassoun EA, Tran MX, Tang L, Stohs SJ. Induction of oxidative stress by chronic administration of sodium dichromate (chromium VI) and cadmium chloride (cadmium II) to rats. Free Rad Biol Med. 1997;22:471–478. [PubMed] [Google Scholar]
+
+      155. Gambelunghe A, Piccinini R, Ambrogi M, Villarini M, Moretti M, Marchetti C, Abbritti G, Muzi G. Primary DNA damage in chrome-plating workers. Toxicology. 2003;188(2-3):187–195. [PubMed] [Google Scholar]
+
+      156. Goulart M, Batoreu MC, Rodrigues AS, Laires A, Rueff J. Lipoperoxidation products and thiol antioxidants in chromium-exposed workers. Mutagenesis. 2005;20(5):311–315. [PubMed] [Google Scholar]
+
+      157. Wise JP, Wise SS, Little JE. The cytotoxicity and genotoxicity of particulate and soluble hexavalent chromium in human lung cells. Mutat Res. 2002;517:221–229. [PubMed] [Google Scholar]
+
+      158. Wise SS, Holmes AL, Ketterer ME, Hartsock WJ, Fomchenko E, Katsifis SP, Thompson WD, Wise JP. Chromium is the proximate clastogenic species for lead chromate-induced clastogenicity in human bronchial cells. Mutat Res. 2004;560:79–89. [PubMed] [Google Scholar]
+
+      159. Xie H, Wise SS, Holmes AL, Xu B, Wakeman T, Pelsue SC, Singh NP, Wise JP. Carcinogenic lead chromate induces DNA double-strand breaks in human lung cells. Mutat Res. 2005;586:160–172. [PMC free article] [PubMed] [Google Scholar]
+
+      160. Zhitkovich A, Song Y, Quievryn G, Voitkun V. Non-oxidative mechanisms are responsible for the induction of mutagenesis by reduction of Cr(VI) with cysteine: role of ternary DNA adducts in Cr(III)-dependent mutagenesis. Biochem. 2001;40(2):549–60. [PubMed] [Google Scholar]
+
+      161. Katz SA, Salem H. The toxicology of chromium with respect to its chemical speciation: a review. J Appl Toxicol. 1993;13(3):217–224. [PubMed] [Google Scholar]
+
+      162. Patlolla AK, Armstrong N, Tchounwou PB. Cytogenetic evaluation of potassium dichromate toxicity in bone marrow cells of Sprague-Dawley rats. Metal Ions Biol Med. 2008;10:353–358. [Google Scholar]
+
+      163. Velma V, Tchounwou PB. Chromium-induced biochemical, genotoxic and histopathologic effects in liver and kidney of goldfish, carassius auratus. Mutat Res. 2010;698(1-2):43–51. [PMC free article] [PubMed] [Google Scholar]
+
+      164. Norseth T. The carcinogenicity of chromium and its salts. Br J Ind Med. 1986;3(10):649–651. [PMC free article] [PubMed] [Google Scholar]
+
+      165. Gabby PN. Lead: in Mineral Commodity Summaries. Reston, VA: U.S. Geological Survey; 2006. available at http://minerals.usgs.gov/minerals/pubs/commodity/lead/lead_mcs05.pdf. [Google Scholar]
+
+      166. Gabby PN. "Lead." Environmental Defense "Alternatives to Lead-Acid Starter Batteries," Pollution Prevention Fact Sheet. 2003 available at http://www.cleancarcampaign.org/FactSheet_BatteryAlts.pdf.
+
+      167. Centers for Disease control (CDC) Preventing Lead Poisoning in Young children: A statement by the Centers for Disease Control. Atlanta, GA: 1991. [Google Scholar]
+
+      168. Jacobs DE, Clickner RP, Zhou JY, et al. The prevalence of lead-based paint hazards in U.S. housing. Environ Health Perspect. 2002;110:A599–A606. [PMC free article] [PubMed] [Google Scholar]
+
+      169. Farfel MR, Chisolm JJ., Jr An evaluation of experimental practices for abatement of residential lead-based paint: report on a pilot project. Environ Res. 1991;55:199–212. [PubMed] [Google Scholar]
+
+      170. Centers for Disease Control and Prevention CDC) Managing Elevated Blood Lead Levels Among Young Children: Recommendations From the Advisory Committee on Childhood Lead Poisoning Prevention. Atlanta: 2001. [Google Scholar]
+
+      171. Lanphear BP, Matte TD, Rogers J, et al. The contribution of lead-contaminated house dust and residential soil to children's blood lead levels. A pooled analysis of 12 epidemiologic studies. Environ Res. 1998;79:51–68. [PubMed] [Google Scholar]
+
+      172. Charney E, Sayre J, Coulter M. Increased lead absorption in inner city children: where does the lead come from? Pediatrics. 1980;6:226–231. [PubMed] [Google Scholar]
+
+      173. Agency for Toxic Substances and Disease Registry (ATSDR. Public Health Service. Atlanta: U.S. Department of Health and Human Services; 1999. Toxicological Profile for Lead. [Google Scholar]
+
+      174. Agency for Toxic Substances and Disease Registry (ATSDR) Case Studies in Environmental Medicine - Lead Toxicity. Atlanta: Public Health Service, U.S. Department of Health and Human Services; 1992. [Google Scholar]
+
+      175. Flora SJS, Flora GJS, Saxena G. Environmental occurrence, health effects and management of lead poisoning. In: Cascas SB, Sordo J, editors. Lead: Chemistry, Analytical Aspects, Environmental Impacts and Health Effects. Netherlands: Elsevier Publication; 2006. pp. 158–228. [Google Scholar]
+
+      176. Pirkle JL, Brady DJ, Gunter EW, Kramer RA, Paschal DC, Flegal KM, Matte TD. The decline in blood lead levels in the United States: The National Health and Nutrition Examination Surveys (NHANES) J Am Med Assoc. 1994;272:284–291. [PubMed] [Google Scholar]
+
+      177. Pirkle JL, Kaufmann RB, Brody DJ, Hickman T, Gunter EW, Paschal DC. Exposure of the U.S. population to lead: 1991-1994. Environ Health Perspect. 1998;106(11):745–750. [PMC free article] [PubMed] [Google Scholar]
+
+      178. United States Environmental Protection Agency (U.S. EPA) Lead Compounds. Technology Transfer Network- Air Toxics Website. 2002 Online at: http://www.epa.gov/cgi-bin/epaprintonly.cgi.
+
+      179. Kaul B, Sandhu RS, Depratt C, Reyes F. Follow-up screening of lead-poisoned children near an auto battery recycling plant, Haina, Dominican Republic. Environ Health Perspect. 1999;107(11):917–920. [PMC free article] [PubMed] [Google Scholar]
+
+      180. Ong CN, Phoon WO, Law HY, Tye CY, Lim HH. Concentrations of lead in maternal blood, cord blood, and breast milk. Arch Dis Child. 1985;60:756–759. [PMC free article] [PubMed] [Google Scholar]
+
+      181. Corpas I, Gaspar I, Martinez S, Codesal J, Candelas S, Antonio MT. Testicular alterations in rats due to gestational and early lactational administration of lead. Report Toxicol. 1995;9:307–313. [PubMed] [Google Scholar]
+
+      182. Andrews KW, Savitz DA, Hertz-Picciotto I. Prenatal lead exposure in relation to gestational age and birth weight: a review of epidemiologic studies. Am J Ind Med. 1994;26:13–32. [PubMed] [Google Scholar]
+
+      183. Huel G, Tubert P, Frery N, Moreau T, Dreyfus J. Joint effect of gestational age and maternal lead exposure on psychomotor development of the child at six years. Neurotoxicol. 1992;13:249–254. [PubMed] [Google Scholar]
+
+      184. Litvak P, Slavkovich V, Liu X, Popovac D, Preteni E, Capuni-Paracka S, Hadzialjevic S, Lekic V, Lolacono N, Kline J, Graziano J. Hyperproduction of erythropoietin in nonanemic lead-exposed children. Environ Health Perspect. 1998;106(6):361–364. [PMC free article] [PubMed] [Google Scholar]
+
+      185. Amodio-Cocchieri R, Arnese A, Prospero E, Roncioni A, Barulfo L, Ulluci R, Romano V. Lead in human blood form children living in Campania, Italy. J Toxicol Environ Health. 1996;47:311–320. [PubMed] [Google Scholar]
+
+      186. Hertz-Picciotto I. The evidence that lead increases the risk for spontaneous abortion. Am J Ind Med. 2000;38:300–309. [PubMed] [Google Scholar]
+
+      187. Apostoli P, Kiss P, Stefano P, Bonde JP, Vanhoorne M. Male reproduction toxicity of lead in animals and humans. Occup Environ Med. 1998;55:364–374. [PMC free article] [PubMed] [Google Scholar]
+
+      188. Flora SJS, Saxena G, Gautam P, Kaur P, Gill KD. Lead induced oxidative stress and alterations in biogenic amines in different rat brain regions and their response to combined administration of DMSA and MiADMSA. Chem Biol Interac. 2007;170:209–220. [PubMed] [Google Scholar]
+
+      189. Hermes-Lima M, Pereira B, Bechara EJ. Are free radicals involved in lead poisoning? Xenobiotica. 1991;8:1085–1090. [PubMed] [Google Scholar]
+
+      190. Jiun YS, Hsien LT. Lipid peroxidation in workers exposed to lead. Arch Environ Health. 1994;49:256–259. [PubMed] [Google Scholar]
+
+      191. Bechara EJ, Medeiros MH, Monteiro HP, Hermes-Lima M, Pereira B, Demasi M. A free radical hypothesis of lead poisoning and inborn porphyrias associated with 5-aminolevulinic acid overload. Quim Nova. 1993;16:385–392. [Google Scholar]
+
+      192. Yedjou CG, Steverson M, Paul Tchounwou PB. Lead nitrate-induced oxidative stress in human liver carcinoma (HepG2) cells. Metal Ions Biol Med. 2006;9:293–297. [Google Scholar]
+
+      193. Yedjou CG, Milner J, Howard C, Tchounwou PB. Basic apoptotic mechanisms of lead toxicity in human leukemia (HL-60) cells. Intl J Environ Res Public Health. 2010;7(5):2008–2017. [PMC free article] [PubMed] [Google Scholar]
+
+      194. Goldstein G. Evidence that lead acts as a calcium substitute in second messenger metabolism. Neurotoxicol. 1993;14:97–102. [PubMed] [Google Scholar]
+
+      195. Simons T. Lead-calcium interactions in cellular lead toxicity. Neurotoxicol. 1993;14:77–86. [PubMed] [Google Scholar]
+
+      196. Vijverberg HPM, Oortgiesen M, Leinders T, van Kleef RGDM. Metal interactions with voltage- and receptor-activated ion channels. Environ Health Perspect. 1994;102(3):153–158. [PMC free article] [PubMed] [Google Scholar]
+
+      197. Schanne FA, Long GJ, Rosen JF. Lead induced rise in intracellular free calcium is mediated through activation of protein kinase C in osteoblastic bone cells. Biochim Biophys Acta. 1997;1360(3):247–254. [PubMed] [Google Scholar]
+
+      198. Waalkes MP, Hiwan BA, Ward JM, Devor DE, Goyer RA. Renal tubular tumors and a typical hepper plasics in B6C3F, mice exposed to lead acetate during gestation and lactation occur with minimal chronic nephropathy. Cancer Res. 1995;55:5265–5271. [PubMed] [Google Scholar]
+
+      199. Goyer RA. Lead toxicity: current concerns. Environ Health Prospect. 1993;100:177–187. [PMC free article] [PubMed] [Google Scholar]
+
+      200. International Agency for Research on Cancer (IARC) In IARC Monographs on the Evaluation of Carcinogenic Risks to Humans. Supplement 7. Volumes 1-42. Lyons, France: IARC; 1987. Overall Evaluation of Carcinogenicity: An updating of Monographs; pp. 230–232. [Google Scholar]
+
+      201. Yang JL, Wang LC, Chamg CY, Liu TY. Singlet oxygen is the major species participating in the induction of DNA strand breakage and 8-hydrocy-deoxyguanosine adduct by lead acetate. Environ Mol Mutagen. 1999;33:194–201. [PubMed] [Google Scholar]
+
+      202. Lin RH, Lee CH, Chen WK, Lin-Shiau SY. Studies on cytotoxic and genotoxic effects of cadmium nitrate and lead nitrate in Chinese hamster ovary cells. Environ Mol Mutagen. 1994;23:143–149. [PubMed] [Google Scholar]
+
+      203. Dipaolo JA, Nelson Rh, Casto BC. _In-vitro_ neoplastic transformation of Syrian hamster cell by lead acetate and its relevance to environmental carcinogenesis. Br J Cancer. 1978;38:452–455. [PMC free article] [PubMed] [Google Scholar]
+
+      204. Hwua YS, Yang JL. Effect of 3-amonotriazole on anchorage independence and multgenicity in cadmium-treated and lead-treated diploid human fibroblasts. Carcinogenesis. 1998;19:881–888. [PubMed] [Google Scholar]
+
+      205. Roy N, Rossman T. Mutagenesis and comutagenesis by lead compounds. Mutat Res. 1992;298:97–103. [PubMed] [Google Scholar]
+
+      206. Wise JP, Orenstein JM, Patierno SR. Inhibition of lead chromate clastogenesis by ascorbate: relationship to particle dissolution and uptake. Carcinogenesis. 1993;14:429–434. [PubMed] [Google Scholar]
+
+      207. Clarkson TW, Magos L, Myers GJ. The toxicology of mercury-current exposures and clinical manifestations. New Engl J Med. 2003;349:1731–1737. [PubMed] [Google Scholar]
+
+      208. Guzzi G, LaPorta CAM. Molecular mechanisms triggered by mercury. Toxicol. 2008;244:1–12. [PubMed] [Google Scholar]
+
+      209. Dopp E, Hartmann LM, Florea AM, Rettenmier AW, Hirner AV. Environmental distribution, analysis, and toxicity of organometal (loid) compounds. Crit Rev Toxicol. 2004;34:301–333. [PubMed] [Google Scholar]
+
+      210. Sarkar BA. Mercury in the environment: Effects on health and reproduction. Rev Environ Health. 2005;20:39–56. [PubMed] [Google Scholar]
+
+      211. Zahir A, Rizwi SJ, Haq SK, Khan RH. Low dose mercury toxicity and human health. Environ Toxicol Pharmacol. 2005;20:351–360. [PubMed] [Google Scholar]
+
+      212. Holmes P, Hames KAF, Levy LS. Is low-level mercury exposure of concern to human health? Sci Total Environ. 2009;408:171–182. [PubMed] [Google Scholar]
+
+      213. Tchounwou PB, Ayensu WK, Ninashvilli N, Sutton D. Environmental exposures to mercury and its toxicopathologic implications for public health. Environ Toxicol. 2003;18:149–175. [PubMed] [Google Scholar]
+
+      214. U.S. EPA (Environmental Protection Agency) Mercury Study Report to Congress. 1997 Available at: http://www.epa.gov/mercury /report.htm.
+
+      215. Sarkar BA. Mercury in the environment: Effects on health and reproduction. Rev Environ Health. 2005;20:39–56. [PubMed] [Google Scholar]
+
+      216. Dopp E, Hartmann LM, Florea AM, Rettenmier AW, Hirner AV. Environmental distribution, analysis, and toxicity of organometal (loid) compounds. Crit Rev Toxicol. 2004;34:301–333. [PubMed] [Google Scholar]
+
+      217. Sanfeliu C, Sebastia J, Cristofol R, Rodriquez-Farre E. Neurotoxicity of organomercurial compounds. Neurotox. Res. 2003;5:283–305. [PubMed] [Google Scholar]
+
+      218. Zahir A, Rizwi SJ, Haq SK, Khan RH. Low dose mercury toxicity and human health. Environ Toxicol Pharmacol. 2005;20:351–360. [PubMed] [Google Scholar]
+
+      219. Guzzi G, LaPorta CAM. Molecular mechanisms triggered by mercury. Toxicology. 2008;244:1–12. [PubMed] [Google Scholar]
+
+      220. Valko M, Morris H, Cronin MTD. Metals, Toxicity, and oxidative Stress. Curr Medici Chem. 2005;12:1161–1208. [PubMed] [Google Scholar]
+
+      221. Valko M, Rhodes CJ, Monocol J, Izakovic-Mazur M. Free radicals, metals and antioxidants in oxidative stress-induced cancer. Chem Biol Interac. 2006;160:1–40. [PubMed] [Google Scholar]
+
+      222. Shenker BJ, Guo TL, Shapiro IM. Mercury-induced apoptosis in human lymphoid cells: Evidence that the apoptotic pathway is mercurial species dependent. Environ Res Sec A. 2000;84:89–99. [PubMed] [Google Scholar]
+
+      223. Palmeira CM, Madeira VMC. Mercuric chloride toxicity in rat liver mitochondria and isolated hepatocytes. Environ Toxicol Pharmacol. 1997;3:229–235. [PubMed] [Google Scholar]
+
+      224. Lund BO, Miller DM, Woods JS. Mercury induced H2O2 formation and lipid peroxidation in vitro in rat kidney mitochondria. Biochem Pharmacol. 1991;42:S181–S187. [PubMed] [Google Scholar]
+
+      225. Clarkson TW, Magos L. The toxicology of mercury and its chemical _compounds_. Crit Rev Toxicol. 2006;36:609–662. [PubMed] [Google Scholar]
+
+      226. Sunja Kim S, Dayani L, Rosenberg PA, Li J. RIP1 kinase mediates arachidonic acid-induced oxidative death of oligodendrocyte precursors. Intl Physiol Pathophysiol Pharmacol. 2010;2(2):137–147. [PMC free article] [PubMed] [Google Scholar]
+
+      227. Lash LH, Putt DA, Hueni SE, Payton SG, Zwicki J. Interactive toxicity of inorganic mercury and trichloroethylene in rat and human proximal tubules (Effects of apoptosis, necrosis, and glutathione status) Toxicol Appl Pharmacol. 2007;221(3):349–362. [PMC free article] [PubMed] [Google Scholar]
+
+      228. Lund BO, Miller DM, Woods JS. Mercury induced H2O2 formation and lipid peroxidation in vitro in rat kidney mitochondria. Biochem Pharmacol. 1991;42:S181–S187. [PubMed] [Google Scholar]
+
+      229. Rooney JPK. The role of thiols, dithiols, nutritional factors and interacting ligands in the toxicology of mercury. Toxicol. 2007;234:145–156. [PubMed] [Google Scholar]
+
+      230. Agarwal R, Goel SK, Chandra R, Behari JR. Role of viamin E in preventing acute mercury toxicity in rat. Environ Toxicol Pharmacol. 2010;29:70–78. [PubMed] [Google Scholar]
+
+      231. Leaner VD, Donninger H, Birrer MJ. Transcription Factors as Targets for Cancer Therapy: AP-1 a Potential Therapeutic Target. Curr Cancer Therap Rev. 2007;3:1–6. [Google Scholar]
+
+      232. Marnett LJ. Oxyradicals and DNA damage. Carcinogenesis. 2000;21(3):361–370. [PubMed] [Google Scholar]
+
+      233. Zalups RK, Koropatnik J, editors. Molecular Biology and Toxicology of Metals. London: Taylor & Francis; 2000. [Google Scholar]
+
+      234. Magos L, Clarkson TW. Overview of the clinical toxicity of mercury. Ann Clin Biochem. 2006;43:257–268. [PubMed] [Google Scholar]
+
+      235. Valko M, Izakovic M, Mazur M, Rhodes CJ, Tesler J. Role of oxygen radicals in DNA damage and cancer incidence. Mol Cell Biochem. 2004;266:79–110. [PubMed] [Google Scholar]
+
+      236. Crespo-Lopez MR, Macedo GL, Pereira SID, Arrifano GPF, Picano-Dinc DLW, doNascimento JLM, Herculano AM. Mercury and human genotoxicity: Critical considerations and possible molecular mechanisms. Pharmacol Res. 2009;60:212–220. [PubMed] [Google Scholar]
+
+      237. Valko M, Izakovic M, Mazur M, Rhodes CJ, Tesler J. Role of oxygen radicals in DNA damage and cancer incidence. Mol Cell Biochem. 2004;266:79–110. [PubMed] [Google Scholar]
+
+      238. Valko M, Rhodes CJ, Monocol J, Izakovic-Mazur M. Free radicals, metals and antioxidants in oxidative stress-induced cancer. Chem Biol Interac. 2006;160:1–40. [PubMed] [Google Scholar]
+
+      239. Ogura H, Takeuchi T, Morimoto KA. A comparison of the 8-hydroxyl-deoxyguanosine, chromosome aberrations and micronucleus techniques for the assessment of the genotoxicity of mercury compounds in human blood lymphocytes. Mut Res. 1996;340:175–182. [PubMed] [Google Scholar]
+
+      240. Inoue M, Sato EF, Nishikawa M, Park AM, Kari Y, Imada I, Utsumi K. Mitochondrial generation of reactive oxygen species and its role in aerobic life. Curr Med Chem. 2003;10:2495–2505. [PubMed] [Google Scholar]
+
+      241. Valko M, Rhodes CJ, Monocol J, Izakovic-Mazur M. Free radicals, metals and antioxidants in oxidative stress-induced cancer. Chem Biol Interac. 2006;160:1–40. [PubMed] [Google Scholar]
+
+      242. Pinheiro MCN, Macchi BM, Vieira JLF, Oikawa T, Amoras WW, Santos EO. Mercury exposure and antioxidant defenses in women: a comparative study in the Amazon. Environ Res. 2008;107:53–59. [PubMed] [Google Scholar]
+
+      243. Amorim MI, Mergler D, Bahia MO, Miranda H, Lebel J. Cytogenetic damage related to low levels of methylmercury contamination in the Brazilian Amazon. Ann Acad Bras Cienc. 2000;72:497–507. [PubMed] [Google Scholar]
+
+      244. Rana SVS. Metals and apoptosis: recent developments. J Trace Elem Med Biol. 2008;22:262–284. [PubMed] [Google Scholar]
+
+      245. Lopez Alonso M, Prieto Montaña F, Miranda M, Castillo C, Hernandez J, Luis Benedito J. Interactions between toxic (As, Cd, Hg and Pb) and nutritional essential (Ca, Co, Cr, Cu, Fe, Mn, Mo, Ni, Se, Zn) elements in the tissues of cattle from NW Spain. Biometals. 2004;17(4):389–97. [PubMed] [Google Scholar]
+
+      246. Abdulla M, Chmielnicka J. New aspects on the distribution and metabolism of essential trace elements after dietary exposure to toxic metals. Biol Trace Elem Res. 1990;23:25–53. [PubMed] [Google Scholar]
+
+      247. Wang G, Fowler BA. Roles of biomarkers in evaluating interactions among mixtures of lead, cadmium and arsenic. Toxicol Appl Pharmacol. 2008;233(1):92–99. [PubMed] [Google Scholar]
+
+      248. Nordberg GF, Jin T, Hong F, Zhang A, Buchet JP, Bernard A. Biomarkers of cadmium and arsenic interactions. Toxicol Appl Pharmacol. 2005;206(2):191–197. [PubMed] [Google Scholar]
+
+## Formats:
+
+        
+                  * Article
+        
+
+|
+
+        
+                  * PubReader
+        
+
+|
+
+        
+                  * ePub (beta)
+        
+
+|
+
+        
+                  * PDF (138K)
+        
+
+|
+
+        
+                  * Citation
+        
+
+## Share
+
+        
+                  * ![Share on Facebook](//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/4047626) Facebook 
+          * ![Share on Twitter](//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/4047627) Twitter 
+          * ![Share on Google Plus](//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/4047628) Google+
+        
+
+Support Center Support Center
+
+External link. Please review our privacy policy.
+
+NLM
+
+NIH
+
+DHHS
+
+USA.gov
+
+National Center for Biotechnology Information, U.S. National Library of
+Medicine 8600 Rockville Pike, Bethesda MD, 20894 USA
+
+Policies and Guidelines | Contact
+
+![statistics](/stat?jsdisabled=true&ncbi_db=pmc&ncbi_pdid=article&ncbi_acc=&ncbi_domain=nihpa&ncbi_report=record&ncbi_type=fulltext&ncbi_objectid=&ncbi_pcid=/articles/PMC4144270/&ncbi_app=pmc)
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication _[C.]: Century_ [m.]: married _[FT]:
+Financial Times_ [ _]: required_ [MB]: megabytes _[UV]: Ultraviolet_ [ UV]:
+Ultraviolet *[cf]: confer
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+  *[m.]: married
+  *[FT]: Financial Times
+  *[*]: required
+  *[MB]: megabytes
+  *[UV]: Ultraviolet
+  *[ UV]: Ultraviolet
+  *[cf]: confer
+

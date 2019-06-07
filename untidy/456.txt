@@ -1,0 +1,86 @@
+
+
+## A Modern Almagest: An updated version of Ptolemy's Almagest
+
+The _Almagest_ of Claudius Ptolemy is often unfairly disparaged by modern
+commentators for a number of supposed failings. Firstly, it is often alleged
+that Ptolemy's adoption of circular orbits is a major source of error in his
+model. This is untrue. Planetary orbits are highly circular, due to their
+relatively small eccentricities (the departure from circularity scales as the
+eccentricity, e, squared). It is far more important to get the eccentricities
+of these orbits (i.e., the displacement of the Sun from the geometric center,
+which scales as e) correct, rather than the ellipticities. This is exactly
+what Ptolemy does in the Almagest. Secondly, it is generally supposed that
+Ptolemy's introduction of epicycles into his model is merely a clumsy way of
+retaining a geocentric model whilst allowing for retrograde motion. This is
+untrue. The deferents and epicycles in the Almagest have a clear physical
+significance. For a superior planet, the deferent represents the orbit of the
+planet around the Sun, whereas the epicycle represents the Earth's orbit. The
+opposite is true for an inferior planet. Thirdly, it is often alleged that
+Ptolemy's model requires epicycles on epicycles, and epicycles on epicycles on
+epicycles, etc., in order to fit the observational data to any degree of
+accuracy. This is untrue. In the first place, Ptolemy never proposed more than
+one level of epicycles. In the second place, a (slightly corrected) version of
+Ptolemy's model containing only 10 circles (four deferents and five epicycles)
+is capable of accounting for the apparent movements of the Sun and the five
+visible planets to an accuracy which is more than adequate for naked-eye
+astronomy. It is worth noting that Ptolemy's model contains fewer epicycles
+than that proposed by Copernicus, and is also more accurate.
+
+Misconceptions currently abound regarding the details of Ptolemy's model of
+the solar system, as well as its scientific merit. Part of the reason for this
+is that the Almagest is an extremely difficult book for a modern reader to
+comprehend. For instance, virtually all of its theoretical results are
+justified via lengthy and opaque geometric proofs. Moreover, the plane and
+spherical trigonometry employed by Ptolemy is rather primitive in nature, and,
+consequently, somewhat unwieldy. Dates are a major stumbling block, since
+three different systems are used, all of which are archaic, and essentially
+meaningless to the modern reader. Another difficulty is the unfamiliar, and
+far from optimal, Ancient Greek method of representing numbers and fractions.
+Finally, the terminology employed in the Almagest is, in many instances,
+significantly different to that used by modern astronomers.
+
+I have attempted to reconstruct Ptolemy's model of the solar system employing
+modern mathematical methods, standard dates, and conventional astronomical
+terminology. I hope that the result will make the full extent of Ptolemy's
+scientific achievement more manifest to a modern audience.
+
+This work is available in three formats:
+
+[PDF] A fully indexed and hyperlinked PDF file with embedded Type 1 fonts.
+[HTML] An HTML document. [BOOK] A profesionally-bound print-on-demand book.
+
+* * *
+
+Richard Fitzpatrick Last modified: Tue Apr 16 09:15:04 CDT 2013
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication _[C.]: Century_ [m.]: married _[FT]:
+Financial Times_ [ _]: required_ [MB]: megabytes _[UV]: Ultraviolet_ [ UV]:
+Ultraviolet
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+  *[m.]: married
+  *[FT]: Financial Times
+  *[*]: required
+  *[MB]: megabytes
+  *[UV]: Ultraviolet
+  *[ UV]: Ultraviolet
+

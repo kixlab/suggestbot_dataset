@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html dir='ltr' lang='en'>
+<head>
+<meta charset='utf-8'>
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"e79083cdd8","applicationID":"71306850","transactionName":"e15bR0tdXVtUSh9QR0tQTEAWQVlYRg==","queueTime":1,"applicationTime":76,"agent":""}</script>
+<script>(window.NREUM||(NREUM={})).loader_config={xpid:"VQYOV1NUCxAHVVJSAQkCVg=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(18),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(19),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var x=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof x&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof x&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(21)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(21)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(21)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(21)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(b?b.then(a):w?w(a):(E=-E,R.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(21)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var x=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!w&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(){var t=window.NREUM,n=t.info.accountID||null,e=t.info.agentID||null,r=t.info.trustKey||null,i="btoa"in window&&"function"==typeof window.btoa;if(!n||!e||!i)return null;var a={v:[0,1],d:{ty:"Browser",ac:n,ap:e,id:o.generateCatId(),tr:o.generateCatId(),ti:Date.now()}};return r&&n!==r&&(a.d.tk=r),btoa(JSON.stringify(a))}var o=t(16);n.exports={generateTraceHeader:r}},{}],11:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<p;r++)t.removeEventListener(l[r],this.listener,!1);n.aborted||(e.duration=s.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==n.status&&(n.status=0):a(this,t),e.cbTime=this.cbTime,d.emit("xhr-done",[t],t),c("xhr",[n,e,this.startTime]))}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return w(r)}function i(t,n){var e=f(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}function a(t,n){t.params.status=n.status;var e=o(n,t.lastSize);if(e&&(t.metrics.rxSize=e),t.sameOrigin){var r=n.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var s=t("loader");if(s.xhrWrappable){var c=t("handle"),f=t(12),u=t(10).generateTraceHeader,d=t("ee"),l=["load","error","abort","timeout"],p=l.length,h=t("id"),m=t(15),w=t(14),v=window.XMLHttpRequest;s.features.xhr=!0,t(9),d.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,n.loadCaptureCalled=!1,t.addEventListener("load",function(e){a(n,t)},!1),m&&(m>34||m<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),d.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),d.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var e=!1;if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(e=!!NREUM.init.distributed_tracing.enabled),e&&this.sameOrigin){var r=u();r&&n.setRequestHeader("newrelic",r)}}),d.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=w(r);i&&(e.txSize=i)}this.startTime=s.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{d.emit("internal-error",[e])}catch(r){}}};for(var a=0;a<p;a++)n.addEventListener(l[a],this.listener,!1)}),d.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),d.on("xhr-load-added",function(t,n){var e=""+h(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),d.on("xhr-load-removed",function(t,n){var e=""+h(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),d.on("addEventListener-end",function(t,n){n instanceof v&&"load"===t[0]&&d.emit("xhr-load-added",[t[1],t[2]],n)}),d.on("removeEventListener-end",function(t,n){n instanceof v&&"load"===t[0]&&d.emit("xhr-load-removed",[t[1],t[2]],n)}),d.on("fn-start",function(t,n,e){n instanceof v&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=s.now()))}),d.on("fn-end",function(t,n){this.xhrCbStart&&d.emit("xhr-cb-time",[s.now()-this.xhrCbStart,this.onload,n],n)})}},{}],12:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],13:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(18),s=t(19),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,n])}},{}],14:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],15:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],16:[function(t,n,e){function r(){function t(){return n?15&n[e++]:16*Math.random()|0}var n=null,e=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(n=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){function t(){return n?15&n[e++]:16*Math.random()|0}var n=null,e=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(n=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<16;i++)o.push(t().toString(16));return o.join("")}n.exports={generateUuid:r,generateCatId:o}},{}],17:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],18:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],19:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],20:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],21:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(19),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([x,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function w(t){return d[t]=d[t]||o(e)}function v(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},x={on:p,addEventListener:p,removeEventListener:h,emit:e,get:w,listeners:m,context:n,buffer:v,abort:a,aborted:!1};return x}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(18),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=b.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return R.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(18),u=t("ee"),d=t(17),l=window,p=l.document,h="addEventListener",m="attachEvent",w=l.XMLHttpRequest,v=w&&w.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:w,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},x=w&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:x,userAgent:d};t(13),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,R=t(20)},{}]},{},["loader",2,11,4,3]);</script>
+<meta content='width=device-width, minimum-scale=1, initial-scale=1' name='viewport'>
+<meta content='yes' name='apple-mobile-web-app-capable'>
+<meta content='black' name='apple-mobile-web-app-status-bar-style'>
+<meta content='430086400490662' property='fb:app_id'>
+<meta content='Aeon' property='og:site_name'>
+<meta content='@aeonmag' property='twitter:site'>
+<link href='https://aeon.co/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+<meta content='index, follow' name='robots'>
+<link href='https://aeon.co/essays/is-the-mother-a-container-for-the-foetus-or-is-it-part-of-her' rel='canonical'>
+<meta content='Does the mother contain the foetus or is it a part of her? On the metaphysics of pregnancy, and its ethical implications' name='description'>
+<meta content='Is the mother a container for the foetus or is it part of her? – Suki Finn | Aeon Essays' property='og:title'>
+<meta content='article' property='og:type'>
+<meta content='https://omicron.aeon.co/images/339bdfd2-6f6f-4a09-83f7-901e02872357/header_essay-gs1157794.jpg' property='og:image'>
+<meta content='Does the mother contain the foetus or is it a part of her? On the metaphysics of pregnancy, and its ethical implications' property='og:description'>
+<meta content='https://aeon.co/essays/is-the-mother-a-container-for-the-foetus-or-is-it-part-of-her' property='og:url'>
+<link href='https://aeon.co/amp/essays/is-the-mother-a-container-for-the-foetus-or-is-it-part-of-her' rel='amphtml'>
+<meta content='https://www.facebook.com/AeonMagazine' property='article:author'>
+<meta content='https://www.facebook.com/AeonMagazine' property='article:publisher'>
+<meta content='Philosophy' property='article:section'>
+<meta content='summary_large_image' property='twitter:card'>
+<meta content='Is the mother a container for the foetus or is it part of her? – Suki Finn | Aeon Essays' property='twitter:title'>
+<meta content='Does the mother contain the foetus or is it a part of her? On the metaphysics of pregnancy, and its ethical implications' property='twitter:description'>
+<meta content='https://omicron.aeon.co/images/339bdfd2-6f6f-4a09-83f7-901e02872357/header_essay-gs1157794.jpg' property='twitter:image:src'>
+
+
+<title>Is the mother a container for the foetus or is it part of her? | Aeon Essays</title>
+<link rel="stylesheet" media="all" href="https://alpha.aeon.co/assets/application-d78379aad45d8a00539ae65c9a8cc33f32506331da974eaca577e9db43f07a78.css" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="7Buhy9hbTHmtwhZ1nckGD3Ldc6gRbRp37rMx/ZQI3nqdiiqgRTdP+KTYiKiveL8BqzZLUmBYGUMiU0j9bQzAfA==" />
+<script>
+  window.Aeon = {}
+  window.Aeon.Data = {}
+  window.Aeon.Environment = "production"
+  window.Aeon.Friend = false
+  window.Aeon.SignInUrl = "https://aeon.co/sign-in"
+</script>
+
+<script>
+  if (window.location.host !== 'aeon.co') {
+    window.location.href = 'https://aeon.co'
+  }
+</script>
+<script>
+  if (window.top !== window.self) {
+    window.top.onbeforeunload = function () {}
+    window.top.location.href = window.self.location.href
+  }
+</script>
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MSXMBZ3');
+  </script>
+
+
+</head>
+
+<body class='essays show header-banner--drive page-type--philosophy comments-enabled'>
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MSXMBZ3" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+
+<div data-react-class="Aeon.DriveBanner" data-react-props="{&quot;donateURL&quot;:&quot;https://aeon.co/donate?theme=donation\u0026utm_medium=web\u0026utm_source=header-drive-banner&quot;,&quot;donateURLAU&quot;:&quot;https://aeon.co/donate?theme=donation\u0026utm_medium=web\u0026utm_source=header-drive-banner-au&quot;}"></div>
+
+
+<div data-react-class="Aeon.Menu" data-react-props="{}"></div>
+<a class='menu__close-cover' href='#' onclick='document.body.classList.remove(&#39;menu--open&#39;); return false;'></a>
+
+<header class='header header--top'>
+<div class='container header__container'>
+<a class="header__logo__link" href="https://aeon.co/"><svg xmlns="http://www.w3.org/2000/svg" width="174.65" height="61.413" viewBox="-14.554 -5.118 174.65 61.413" class="header__logo"><g fill="#9D1D20"><path d="M70.93 25.275c0 11.705 8.43 21.268 18.755 21.268 10.57 0 19.002-9.438 19.002-21.268 0-11.45-8.432-20.642-18.877-20.642-10.45 0-18.88 9.19-18.88 20.642m48.05.252c0 16.504-13.052 29.81-29.17 29.81-16.12 0-29.17-13.306-29.17-29.81 0-16.377 13.05-29.683 29.17-29.683 16.247 0 29.17 13.177 29.17 29.683M45.39 19.563c0-6.435-.266-10.854-.795-13.252-.525-2.398-1.35-4.217-2.47-5.456-.635-.72-1.48-1.08-2.535-1.08-1.575 0-2.856 1.02-3.853 3.06-1.782 3.56-2.674 8.435-2.674 14.63v2.1H45.39m11.146 4.017H33.29c.272 7.435 1.77 13.31 4.487 17.63 2.083 3.32 4.59 4.976 7.52 4.976 1.81 0 3.458-.673 4.936-2.01 1.485-1.34 3.07-3.75 4.76-7.225l1.544 1.322c-2.296 6.2-4.837 10.582-7.613 13.163-2.778 2.575-5.994 3.87-9.653 3.87-6.284 0-11.04-3.197-14.273-9.594C22.4 40.554 21.1 34.157 21.1 26.526c0-9.354 1.912-16.8 5.734-22.338 3.82-5.538 8.3-8.305 13.436-8.305 4.288 0 8.01 2.327 11.168 6.986 3.156 4.653 4.854 11.56 5.098 20.713M4.668 26.974c-6.007 2.037-9.014 5.404-9.014 9.97v4.566c0 2.88 1.323 5.046 3.967 5.046 2.883 0 5.048-2.524 5.048-5.648V26.974M14.876 55.32c-3.724 0-6.605-1.923-7.807-6.243C4.903 53.16 1.18 55.32-3.265 55.32c-6.725 0-11.29-5.165-11.29-14.05V38.5c0-10.572 8.168-15.615 19.223-19.7v-8.89c0-2.882-1.203-4.564-3.967-4.564-2.884 0-3.846 1.682-3.846 4.806V15.2h-9.73v-4.564c0-8.53 4.686-14.776 14.055-14.776 9.37 0 13.816 6.486 13.816 15.618V44.39c0 1.805.724 2.766 2.4 2.886v8.046h-2.522zM156.496 52.825v-39.79c0-7.597-.514-10.944-2.31-13.522-1.163-2.058-2.833-2.96-5.022-2.96-1.928 0-3.863 1.03-6.176 3.605-2.24 2.243-5.352 6.04-7.246 8.842.742-4.152.684-14.118.684-14.118-6.56 3.86-9.902 4.893-16.207 5.15V1.19c1.925.515 2.57.643 4.243 1.415.127 4.25.127 7.34.127 8.11v10.946l-.127 10.944V45.23c0 2.958 0 4.12-.127 7.596-1.416 1.283-1.93 1.413-3.73 2.184v1.285h18.78V55.01c-1.67-.774-2.187-1.028-3.474-2.184V10.973l.64-.64c2.063-1.933 3.99-3.092 5.28-3.092 2.697 0 3.47 2.06 3.47 8.5v37.085c-1.54 1.155-2.058 1.413-3.856 2.182v1.287h18.65v-1.542c-1.8-.643-2.315-.9-3.6-1.927"></path></g></svg>
+
+</a><nav class='header__left'>
+<a class='header__left__menu-trigger' href='#' onclick='document.body.classList.toggle(&#39;menu--open&#39;); return false;'>Menu</a>
+<span class='header__separator separator'>&nbsp;/&nbsp;</span>
+<span class='header__search'>
+<form acceptCharset='UTF-8' action='/search' method='get'>
+<a class='header__search-trigger' href='#' onclick='document.body.classList.toggle(&#39;search--open&#39;); this.parentNode.querySelector(&#39;input&#39;).focus(); return false;'>
+<span class='header__search-icon'><svg xmlns="http://www.w3.org/2000/svg" width="15.44" height="15.441" viewBox="-0.449 -0.658 15.44 15.441"><circle fill="none" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" cx="5.974" cy="5.765" r="3.482"></circle><path fill="none" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" d="M8.436 8.228l3.446 3.5"></path></svg>
+</span>
+</a>
+<input id='menu__search__input__header' name='q' placeholder='SEARCH' type='search'>
+</form>
+</span>
+</nav>
+<div class='header__search__cover' onclick='document.body.classList.remove(&#39;search--open&#39;); return false;'></div>
+<nav class='header__right'>
+<div class='header__social-icons social-hovers'>
+<div class='social-hovers__item'>
+<span class='fb-like' data-action='like' data-href='https://facebook.com/AeonMagazine' data-layout='button_count' data-share='false' data-show-faces='false'></span>
+<a target="_blank" class="header__social-icon--facebook" href="https://www.facebook.com/AeonMagazine"><span><svg viewBox="0 0 512 512" fill="currentColor">
+  <path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"></path>
+</svg>
+</span>
+</a></div>
+<div class='social-hovers__item'>
+<a class='twitter-follow-button' data-show-count='false' data-show-screen-name='false' href='https://twitter.com/aeonmag'></a>
+<a target="_blank" class="header__social-icon--twitter" href="https://twitter.com/aeonmag"><span><svg viewBox="0 0 16 16" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+  <path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.37-1.337.64-2.085.79-.598-.64-1.45-1.04-2.396-1.04-1.812 0-3.282 1.47-3.282 3.28 0 .26.03.51.085.75-2.728-.13-5.147-1.44-6.766-3.42C.83 2.58.67 3.14.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.41-.02-.61-.058.42 1.304 1.63 2.253 3.07 2.28-1.12.88-2.54 1.404-4.07 1.404-.26 0-.52-.015-.78-.045 1.46.93 3.18 1.474 5.04 1.474 6.04 0 9.34-5 9.34-9.33 0-.14 0-.28-.01-.42.64-.46 1.2-1.04 1.64-1.7z" fill-rule="nonzero"></path>
+</svg>
+</span>
+</a></div>
+<div class='social-hovers__item'>
+<a target="_blank" class="header__social-icon--instagram" href="https://www.instagram.com/aeonmag"><span><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913a5.885 5.885 0 0 0 1.384 2.126A5.868 5.868 0 0 0 4.14 23.37c.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558a5.898 5.898 0 0 0 2.126-1.384 5.86 5.86 0 0 0 1.384-2.126c.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913a5.89 5.89 0 0 0-1.384-2.126A5.847 5.847 0 0 0 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227a3.81 3.81 0 0 1-.899 1.382 3.744 3.744 0 0 1-1.38.896c-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421a3.716 3.716 0 0 1-1.379-.899 3.644 3.644 0 0 1-.9-1.38c-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 1 0 0-12.324zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405a1.441 1.441 0 0 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"></path></svg>
+</span>
+</a></div>
+</div>
+<div class='header__donate'>
+<a href="https://aeon.co/donate?utm_medium=web&amp;utm_source=top-bar">Donate</a>
+<span class='header__separator separator'>/&nbsp;</span>
+</div>
+<div class='header__newsletter'>
+<a href='#' onclick='document.body.classList.toggle(&#39;modal-newsletter--open&#39;); return false;'>
+Newsletter
+</a>
+</div>
+<span class='header__separator separator'>&nbsp;/</span>
+<div class='header__user header__user--anonymous'>
+<div class='user-nav'>
+<a class='header__sign-in' href='https://aeon.co/sign-in' title='Sign In'>
+<svg viewBox="0 0 24 24" fill="currentColor"><path fill="none" d="M0 0h24v24H0V0z"></path><g><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v1c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-1c0-2.66-5.33-4-8-4z"></path></g></svg>
+
+<span>Sign In</span>
+</a>
+</div>
+
+</div>
+</nav>
+</div>
+</header>
+
+<header class='header header--fixed'>
+<div class='container header__container'>
+<a class="header__logo__link" href="https://aeon.co/"><svg xmlns="http://www.w3.org/2000/svg" width="174.65" height="61.413" viewBox="-14.554 -5.118 174.65 61.413" class="header__logo"><g fill="#9D1D20"><path d="M70.93 25.275c0 11.705 8.43 21.268 18.755 21.268 10.57 0 19.002-9.438 19.002-21.268 0-11.45-8.432-20.642-18.877-20.642-10.45 0-18.88 9.19-18.88 20.642m48.05.252c0 16.504-13.052 29.81-29.17 29.81-16.12 0-29.17-13.306-29.17-29.81 0-16.377 13.05-29.683 29.17-29.683 16.247 0 29.17 13.177 29.17 29.683M45.39 19.563c0-6.435-.266-10.854-.795-13.252-.525-2.398-1.35-4.217-2.47-5.456-.635-.72-1.48-1.08-2.535-1.08-1.575 0-2.856 1.02-3.853 3.06-1.782 3.56-2.674 8.435-2.674 14.63v2.1H45.39m11.146 4.017H33.29c.272 7.435 1.77 13.31 4.487 17.63 2.083 3.32 4.59 4.976 7.52 4.976 1.81 0 3.458-.673 4.936-2.01 1.485-1.34 3.07-3.75 4.76-7.225l1.544 1.322c-2.296 6.2-4.837 10.582-7.613 13.163-2.778 2.575-5.994 3.87-9.653 3.87-6.284 0-11.04-3.197-14.273-9.594C22.4 40.554 21.1 34.157 21.1 26.526c0-9.354 1.912-16.8 5.734-22.338 3.82-5.538 8.3-8.305 13.436-8.305 4.288 0 8.01 2.327 11.168 6.986 3.156 4.653 4.854 11.56 5.098 20.713M4.668 26.974c-6.007 2.037-9.014 5.404-9.014 9.97v4.566c0 2.88 1.323 5.046 3.967 5.046 2.883 0 5.048-2.524 5.048-5.648V26.974M14.876 55.32c-3.724 0-6.605-1.923-7.807-6.243C4.903 53.16 1.18 55.32-3.265 55.32c-6.725 0-11.29-5.165-11.29-14.05V38.5c0-10.572 8.168-15.615 19.223-19.7v-8.89c0-2.882-1.203-4.564-3.967-4.564-2.884 0-3.846 1.682-3.846 4.806V15.2h-9.73v-4.564c0-8.53 4.686-14.776 14.055-14.776 9.37 0 13.816 6.486 13.816 15.618V44.39c0 1.805.724 2.766 2.4 2.886v8.046h-2.522zM156.496 52.825v-39.79c0-7.597-.514-10.944-2.31-13.522-1.163-2.058-2.833-2.96-5.022-2.96-1.928 0-3.863 1.03-6.176 3.605-2.24 2.243-5.352 6.04-7.246 8.842.742-4.152.684-14.118.684-14.118-6.56 3.86-9.902 4.893-16.207 5.15V1.19c1.925.515 2.57.643 4.243 1.415.127 4.25.127 7.34.127 8.11v10.946l-.127 10.944V45.23c0 2.958 0 4.12-.127 7.596-1.416 1.283-1.93 1.413-3.73 2.184v1.285h18.78V55.01c-1.67-.774-2.187-1.028-3.474-2.184V10.973l.64-.64c2.063-1.933 3.99-3.092 5.28-3.092 2.697 0 3.47 2.06 3.47 8.5v37.085c-1.54 1.155-2.058 1.413-3.856 2.182v1.287h18.65v-1.542c-1.8-.643-2.315-.9-3.6-1.927"></path></g></svg>
+
+</a><nav class='header__left'>
+<a class='header__left__menu-trigger' href='#' onclick='document.body.classList.toggle(&#39;menu--open&#39;); return false;'>Menu</a>
+<span class='header__separator separator'>&nbsp;/&nbsp;</span>
+<span class='header__search'>
+<form acceptCharset='UTF-8' action='/search' method='get'>
+<a class='header__search-trigger' href='#' onclick='document.body.classList.toggle(&#39;search--open&#39;); this.parentNode.querySelector(&#39;input&#39;).focus(); return false;'>
+<span class='header__search-icon'><svg xmlns="http://www.w3.org/2000/svg" width="15.44" height="15.441" viewBox="-0.449 -0.658 15.44 15.441"><circle fill="none" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" cx="5.974" cy="5.765" r="3.482"></circle><path fill="none" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" d="M8.436 8.228l3.446 3.5"></path></svg>
+</span>
+</a>
+<input id='menu__search__input__header' name='q' placeholder='SEARCH' type='search'>
+</form>
+</span>
+</nav>
+<div class='header__search__cover' onclick='document.body.classList.remove(&#39;search--open&#39;); return false;'></div>
+<nav class='header__right'>
+<div class='header__social-icons social-hovers'>
+<div class='social-hovers__item'>
+<span class='fb-like' data-action='like' data-href='https://facebook.com/AeonMagazine' data-layout='button_count' data-share='false' data-show-faces='false'></span>
+<a target="_blank" class="header__social-icon--facebook" href="https://www.facebook.com/AeonMagazine"><span><svg viewBox="0 0 512 512" fill="currentColor">
+  <path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"></path>
+</svg>
+</span>
+</a></div>
+<div class='social-hovers__item'>
+<a class='twitter-follow-button' data-show-count='false' data-show-screen-name='false' href='https://twitter.com/aeonmag'></a>
+<a target="_blank" class="header__social-icon--twitter" href="https://twitter.com/aeonmag"><span><svg viewBox="0 0 16 16" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+  <path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.37-1.337.64-2.085.79-.598-.64-1.45-1.04-2.396-1.04-1.812 0-3.282 1.47-3.282 3.28 0 .26.03.51.085.75-2.728-.13-5.147-1.44-6.766-3.42C.83 2.58.67 3.14.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.41-.02-.61-.058.42 1.304 1.63 2.253 3.07 2.28-1.12.88-2.54 1.404-4.07 1.404-.26 0-.52-.015-.78-.045 1.46.93 3.18 1.474 5.04 1.474 6.04 0 9.34-5 9.34-9.33 0-.14 0-.28-.01-.42.64-.46 1.2-1.04 1.64-1.7z" fill-rule="nonzero"></path>
+</svg>
+</span>
+</a></div>
+<div class='social-hovers__item'>
+<a target="_blank" class="header__social-icon--instagram" href="https://www.instagram.com/aeonmag"><span><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913a5.885 5.885 0 0 0 1.384 2.126A5.868 5.868 0 0 0 4.14 23.37c.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558a5.898 5.898 0 0 0 2.126-1.384 5.86 5.86 0 0 0 1.384-2.126c.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913a5.89 5.89 0 0 0-1.384-2.126A5.847 5.847 0 0 0 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227a3.81 3.81 0 0 1-.899 1.382 3.744 3.744 0 0 1-1.38.896c-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421a3.716 3.716 0 0 1-1.379-.899 3.644 3.644 0 0 1-.9-1.38c-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 1 0 0-12.324zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405a1.441 1.441 0 0 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"></path></svg>
+</span>
+</a></div>
+</div>
+<div class='header__donate'>
+<a href="https://aeon.co/donate?utm_medium=web&amp;utm_source=top-bar">Donate</a>
+<span class='header__separator separator'>/&nbsp;</span>
+</div>
+<div class='header__newsletter'>
+<a href='#' onclick='document.body.classList.toggle(&#39;modal-newsletter--open&#39;); return false;'>
+Newsletter
+</a>
+</div>
+<span class='header__separator separator'>&nbsp;/</span>
+<div class='header__user header__user--anonymous'>
+<div class='user-nav'>
+<a class='header__sign-in' href='https://aeon.co/sign-in' title='Sign In'>
+<svg viewBox="0 0 24 24" fill="currentColor"><path fill="none" d="M0 0h24v24H0V0z"></path><g><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v1c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-1c0-2.66-5.33-4-8-4z"></path></g></svg>
+
+<span>Sign In</span>
+</a>
+</div>
+
+</div>
+</nav>
+</div>
+</header>
+
+<div class='modal-friends'>
+<div class='friends-save'>
+<p class='friends-save__title'>Become a Friend of Aeon to save articles and enjoy other exclusive benefits</p>
+<a class='friends-save__big-button' href='https://aeon.co/donate?theme=friends&amp;utm_medium=web&amp;utm_source=friends-preview'>Make a donation</a>
+<span class='dropdown__triangle'></span>
+</div>
+
+<a class='close-cover' href='#' onclick='document.body.classList.remove(&#39;friends-modal--open&#39;); return false;'></a>
+</div>
+<div class='modal-newsletter'>
+<div class='newsletter-signup'>
+<span data-react-class="Aeon.NewsletterSignup" data-react-props="{&quot;newsletter_source&quot;:&quot;newsletter-signup-header&quot;}"></span>
+</div>
+
+<a class='close-cover' href='#' onclick='document.body.classList.remove(&#39;modal-newsletter--open&#39;); document.body.classList.remove(&#39;open--faq&#39;); return false;'></a>
+</div>
+<div class='modal-newsletter-faq'>
+<div class='faq newsletter_faq'>
+<div class='faq__content'>
+<a class='faq__close-icon' href='' onclick='document.body.classList.remove(&#39;open--newsletter-faq&#39;); return false;'>&times;</a>
+<div class='faq__header'>Newsletter Privacy Policy</div>
+<p>Aeon email newsletters are issued by the not-for-profit, registered charity Aeon Media Group Ltd (Australian Business Number 80 612 076 614). This Email Newsletter Privacy Statement pertains to the personally identifying information you voluntarily submit in the form of your email address to receive our email newsletters</p><p>More generally, when visiting the Aeon site you should refer to our site Privacy Policy <a href="https://aeon.co/privacy">here</a>.</p><p>This Email Newsletter Privacy Statement may change from time to time and was last revised 5 June, 2018.</p><p>By clicking ‘Subscribe’ you agree to the following:</p><ul><li>We will use the email address you provide to send you daily and/or weekly email (depending on your selection). We also send occasional donation requests and, no more than once a year, reader surveys.</li><li>The email address/es you provide will be transferred to our external marketing automation service ‘MailChimp’ for processing in accordance with their <a href="https://mailchimp.com/legal/privacy/?_ga=2.37985569.369556906.1526884532-1949438781.1481075689">Privacy Policy</a> and <a href="https://mailchimp.com/legal/terms/?_ga=2.51018027.369556906.1526884532-1949438781.1481075689">Terms</a>. We use MailChimp to issue our newsletters, donation requests and reader surveys. We have no control over, and assume no responsibility for, the conduct, practices or privacy policies of MailChimp.</li></ul><p><strong>Unsubscribing</strong></p><p>You can change your mind at any time by clicking the ‘unsubscribe link’ in the footer of emails you receive from us, or by contacting us at <a href="mailto:support@aeon.co">support@aeon.co</a>&nbsp;</p><p>If you want to review and correct the personal information we have about you, you can click on ‘update preferences’ in the footer of emails you receive from us, or by contacting us at <a href="mailto:support@aeon.co">support@aeon.co</a></p><p><strong>Security of your personal information</strong></p><p>We are committed to ensuring that your information is secure. We have taken reasonable measures to protect information about you from loss, theft, misuse or unauthorised access, disclosure, alteration and destruction. No physical or electronic security system is impenetrable however and you should take your own precautions to protect the security of any personally identifiable information you transmit. We cannot guarantee that the personal information you supply will not be intercepted while transmitted to us or our marketing automation service Mailchimp.</p><p><strong>Sharing your personal information&nbsp;</strong></p><p>We will not disclose your personal information except: (1) as described by this <a href="https://aeon.co/privacy" rel="">Privacy Policy </a>(2) after obtaining your permission to a specific use or disclosure or (3) if we are required to do so by a valid legal process or government request (such as a court order, a search warrant, a subpoena, a civil discovery request, or a statutory requirement). We will retain your information for as long as needed in light of the purposes for which is was obtained or to comply with our legal obligations and enforce our agreements.</p><p><strong>Access to your personal information</strong></p><p>You may request a copy of the personal information we hold about you by submitting a written request to <a href="mailto:support@aeon.co">support@aeon.co</a> We may only implement requests with respect to the personal information associated with the particular email address you use to send us the request. We will try and respond to your request as soon as reasonably practical. When you receive the information, if you think any of it is wrong or out of date, you can ask us to change or delete it for you.</p><p><br></p>
+</div>
+<a class='faq__close close-cover' href='' onclick='document.body.classList.remove(&#39;open--newsletter-faq&#39;); return false;'></a>
+</div>
+
+</div>
+<div data-react-class="Aeon.Flash" data-react-props="{&quot;type&quot;:null,&quot;message&quot;:null}"></div>
+
+<article>
+<div class='article-settings__article-wrap'>
+<article class='article-card article-card--col-3 article-card--featured article-card--section-philosophy audio' data-align-x='center' data-align-y='center' data-backdrop-strength='0' data-id='2134' data-playing='false'>
+<div class='gutter gutter--outer'>
+<div class='article-card__inner'>
+<div class='article-card__image-wrap' data-image-loaded='false'>
+<div data-react-class="Aeon.AnnotatedCorner" data-react-props="{&quot;id&quot;:2134}"></div>
+<figure class='responsive-image' style='background-image: url(&#39;https://omicron.aeon.co/images/339bdfd2-6f6f-4a09-83f7-901e02872357/header_essay-gs1157794.jpg&#39;)'>
+<div class='sizer__wrapper'>
+<div class='sizer'></div>
+</div>
+</figure>
+
+<div class='article-card__overlay'>
+</div>
+</div>
+<div class='article-card__contents'>
+<div class='article-card__contents__wrap container'>
+<div class='gutter gutter--inner'>
+<div class='article-card__meta'>
+<div class='article-card__save'><div data-react-class="Aeon.Save" data-react-props="{&quot;id&quot;:2134,&quot;url&quot;:&quot;https://aeon.co/essays/2134/save&quot;}"></div></div>
+<div class='article-card__class__wrapper'>
+<span class='article-card__class'>Essay<span class='article-card__separator separator'>/</span></span>
+</div><span class='article-card__topic'>Metaphysics</span></div>
+<div class='article__image__caption article__image__caption__mobile'>
+<div class='column'>
+<div class='gutter'><em>Photo by Jose Luis Pelaez Inc/GS</em></div>
+</div>
+</div>
+<h1 class='article-card__title'>
+Bun or bump?
+</h1>
+<h2 class='article-card__standfirst'>
+Does the mother contain the foetus or is it a part of her? On the metaphysics of pregnancy, and its ethical implications
+</h2>
+<p class='article-card__authors'>
+<span class='article-card__authors__inner'>Suki Finn</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+
+</div>
+<div class='article__image__caption container' data-caption-align='right'>
+<div class='column'>
+<div class='gutter'><em>Photo by Jose Luis Pelaez Inc/GS</em></div>
+</div>
+</div>
+<div class='article__wrapper'>
+<div class='article article--philosophy container essay' id='essay_2134'>
+<div class='article__body'>
+<div class='article__inline-sidebar article__body__meta'>
+<div class='gutter'>
+<div class='article__body__author-details'>
+<p class='article__body__author-name vcard'>
+<a href='https://aeon.co/users/suki-finn'>Suki Finn</a>
+</p>
+<p>is a postdoctoral research fellow in philosophy at the University of Southampton in the UK, working on the ERC-funded project ‘Better Understanding the Metaphysics of Pregnancy’. She also researches in the areas of metametaphysics and the philosophy of logic, and has published her work in various philosophy journals.</p>
+</div>
+<p class='article__word-count'>3,100 words</p>
+<p class='article__body__editor'>
+Edited by
+<a href="https://aeon.co/users/nigel-warburton">Nigel Warburton</a>
+</p>
+<a class='republish-button' href='https://aeon.co/syndication?id=ba663838-0d06-4386-8ee4-bb9e80f2ece2'>
+<div class='republish-button__text'>
+<span>Syndicate this Essay</span>
+</div>
+</a>
+
+
+<div class='sticky-wrapper'>
+<div class='article__actions'>
+<div class='container'>
+<div class='article__inline-sidebar'>
+<div class='gutter'>
+<div class='article__actions__buttons'>
+<span data-react-class="Aeon.ShareButtons" data-react-props="{&quot;id&quot;:2134,&quot;article&quot;:&quot;Essay#2134&quot;,&quot;url&quot;:&quot;https://aeon.co/essays/is-the-mother-a-container-for-the-foetus-or-is-it-part-of-her/save&quot;}" class="article__actions__buttons__save"></span>
+<span data-react-class="Aeon.SocialShareButtons" data-react-props="{&quot;pageUrl&quot;:&quot;https://aeon.co/essays/is-the-mother-a-container-for-the-foetus-or-is-it-part-of-her&quot;,&quot;facebookCount&quot;:1293,&quot;pageTitle&quot;:&quot;Is the mother a container for the foetus or is it part of her?&quot;}" class="article__actions__buttons__social"></span>
+<span data-react-class="Aeon.CommentButton" data-react-props="{&quot;count&quot;:39}" class="article__actions__buttons__comments"></span>
+</div>
+<span data-react-class="Aeon.CommentCard" data-react-props="{&quot;section_slug&quot;:&quot;philosophy&quot;,&quot;comments_count&quot;:39}"></span>
+<div class='friends-lounge__article-card'>
+<div class='friends-lounge__article-card__inner'>
+<a class='article-card__link' href='https://aeon.co/friends?utm_medium=web&amp;utm_source=friends-article-card'></a>
+<figure class='responsive-image' style='background-image: url(&#39;https://alpha.aeon.co/assets/friend-badge-bright-d90fc4b950b9503b98bdd1c68271a79b31433864eb81d59f080c0c739b6c4ec5.svg&#39;)'>
+<div class='sizer__wrapper'>
+<div class='sizer'></div>
+</div>
+</figure>
+
+<div class='friends-lounge__article-card__text'>
+<h2>
+Aeon for Friends
+</h2>
+<a class='button' href='https://aeon.co/friends?utm_medium=web&amp;utm_source=friends-article-card'>
+Find out more
+</a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='article__body__content'>
+<div class='gutter' data-selectable>
+<div class='has-dropcap'>
+<p>After a long wait, last year Bridget Jones once again graced our cinema screens. But things had changed considerably for the heroine, played by Renée Zellweger, in <em>Bridget Jones’s Baby</em> (2016). Following an emotional rollercoaster of romantic misunderstandings and sexual mishaps, Bridget becomes pregnant, a state that finds her in a reflective and deeply philosophical mood, as she sits in her kitchen, baking buns. She looks at the buns, growing bigger inside the oven, and then looks down to her belly and compares herself to her kitchen appliance, wondering: ‘Do I too have a bun in the oven? Is there a baby growing separately inside of me, or am I growing a baby part of my own?’ </p><p>Once the buns are ready, she tucks in to her baked delights, and gazes longingly at the portion she had set aside for friends and asks: ‘Is it true that I am eating for two? Are there actually two beings to be fed here, or just one that is bigger than normal?’ She also contemplates the option of terminating the pregnancy, and asks: ‘Is it really my body, and therefore my choice to abort? Do I have complete autonomy over my body, and what is actually included in what counts as my body?’ The musings go on and on…</p><p>Okay, so Bridget does not actually ask these questions, but philosophers do. The sciences (in particular, biology) have added immensely to our knowledge of how we and other things reproduce, and so it is natural to think that these questions are best left within the scientific domain. But this thought is mistaken, as there are philosophical issues around pregnancy that remain unanswered by the sciences, leaving many aspects of pregnancy a mystery.</p><p>To illustrate these, let us return to Bridget Jones. Bridget affectionately calls her pregnant bump her ‘baby’. We will less affectionately (but more accurately) use the term ‘foetus’, which will here be used generically to describe whatever Bridget is pregnant with at any stage during the pregnancy, all the way from conception to birth. We will not be talking solely of Bridget, nor will we be talking specifically about human mothers-to-be, but rather our discussion of the metaphysics of pregnancy will be applicable to any mammal with a placenta. As such, our discussion covers hamsters and hippos, but not, for example, kangaroos. For this reason, we will use the phrase ‘maternal organism’ to refer to the pregnant placental mammal regardless of whether it is a human or has the social status of being a mother. As for the role of the ‘paternal organism’, or father, this is obviously important and significant, but falls outside the remit of the study of the metaphysical state of pregnancy that I am focusing on here.</p><p>What, then, is the metaphysical relationship between the maternal organism and the foetus? One possible answer is that the foetus is a part of the maternal organism, just like the maternal organism’s organs and limbs are. Let us call this the <em>parthood model</em>. Another possible answer is that the maternal organism carries, or contains, the foetus, which is a distinct entity in its own right. Call this the <em>container model</em>. So which model is correct, and does it change throughout the pregnancy? This is not a mere matter of choice, nor an argument over the language we use to describe what is otherwise considered to be the same situation. Rather there is a fact of the matter to be found, and as we will see, the truth about the metaphysical relationship between the foetus and the maternal organism will have wide-reaching implications for our moral and legal practices regarding pregnancy. But before looking at such consequences, we shall next take a closer look at these two rival models of the metaphysics of pregnancy.</p><p><span class="ld-dropcap">T</span>he philosopher Elselijn Kingma at the University of Southampton, defends the parthood model in her paper ‘Were You a Part of Your Mother?: The Metaphysics of Pregnancy’ (forthcoming, <em>Mind</em>), which takes the foetus to be a proper part of the maternal organism. To be a proper part of something is to be a section of a whole, which comprises only some of the whole thing, and is not identified by the whole thing itself. In the case of pregnancy, the maternal organism is the whole, where the maternal organism has many sections, such as the maternal organism’s arms, legs, heart and lungs, etc. The foetus is simply one of those sections. And so we can say on this parthood model that the foetus is a proper part of the maternal organism, just like any other part of the maternal organism.</p><p>But it is important to note that the foetus can also be very different from the other parts of the maternal organism, as all the parts are different to each other in their own way, and some can be entities of their own with their own special status as well as being a part of something else. So all that this model states is that the foetus is a part of the maternal organism, but it does not specify what sort of thing the foetus is. On this model, the foetus and the maternal organism are not seen as completely separate things, but rather are related to each other as a part is to a whole. For the sake of an analogy, we can compare this metaphysical relationship between the maternal organism and foetus as being like that of a cat to its tail. The foetus is a part of the maternal organism just like a tail is a part of a cat. But a tail of a cat is not a cat itself – it is just a cat’s tail! Whereas, the foetus might at some point during the pregnancy actually be the same sort of thing as the maternal organism. For example, the foetus can be a human, just like the maternal organism is a human.</p><p>So can a human be part of another human? Let us revisit Bridget Jones for some help in visualising this. Imagine that Bridget shaves off her hair on Sunday after a bleaching disaster the day before (easily done). On Sunday, we have Bridget without hair, which is in some sense a part of the Bridget on Saturday, since it is just like the Bridget on Saturday with a part removed (namely the hair part), leaving the bald part of Bridget to roam free. So on Saturday we have the complete Bridget Jones, <em>avec</em> hair, and on Sunday a part is removed, leaving us with the remaining Bridget Jones, <em>sans</em> hair. Is bald Bridget from Sunday a part of hairy Bridget on Saturday? We might think, well, surely not, since if that were the case then on Saturday there would be two Bridgets present – the bald one and the hairy one, where the bald one is part of the hairy one – and that is too many Bridget Joneses existing for anyone’s liking, especially in the same place at the same time.</p><p class="pullquote">Perhaps Bridget is making a mistake when she talks to her bump as if it were a human and calls it ‘baby’</p><p>For this sort of reason, some philosophers have held a ‘maximality’ principle that restricts the type of thing that one can have as a part to not including the same type of thing as the whole. In other words, the maximality principle in this context claims that no thing can be a proper part of the same type of thing. So no cat can be a proper part of a cat, and no human can be a proper part of a human. This avoids the overpopulation that arises from co-location. Now if this maximality principle is true, then the parthood model of the metaphysics of pregnancy would have to claim that the foetus and the maternal organism are different types of things. This is because if the foetus is a proper part of the maternal organism, and no thing can be a proper part of the same type of thing, then the foetus is not the same type of thing as the maternal organism of which it is a part.</p><p>In the case of Bridget Jones, the maternal organism is a human, so what is the foetus if it is not a human? Perhaps the foetus becomes a human in its own right only at birth, once it is no longer a part of the maternal organism. If that is so, then Bridget is making a mistake when she talks to her bump as if it were a human and calls it ‘baby’. According to the parthood model combined with a maximality principle, it would be more accurate for Bridget to look upon her bump as if it were a growth of her own body, where she is growing her very own foetus part which is not a separate human existing inside of her.</p><p>This certainly seems to be more plausible early on in Bridget’s pregnancy, because just after the time of conception the foetus is constituted only by a bunch of cells, which you might think hardly qualifies it as human – it doesn’t look, think or act like a human! However, towards the end of Bridget’s pregnancy this combination of views might seem less plausible, since just before birth the foetus does seem to have many of the features of a human (although whether it is able to think and class as a person with rights is a different question). In order for the parthood model to allow for the foetus to be the same type of thing as the maternal organism, which in Bridget’s case is for both to count as humans, the maximality principle must be rejected. Otherwise, if the maximality principle is true, and the foetus and the maternal organism are the same types of thing, then the parthood model must be rejected, as the foetus cannot be considered part of a maternal organism.</p><p>An alternative view to the parthood model is the container model, which seems to be the extreme opposite of it, since it claims that the foetus is not a part of the maternal organism, but rather is contained inside the maternal organism. So, according to this container model, the maternal organism is literally a container for the foetus, where the relationship between the maternal organism and the foetus is like that of a niche to a tenant. A niche is something that encloses something else, such that the smaller thing is inside the larger thing, where the smaller thing is classed as the tenant. Think of this model as being like a tenant in a rented house, such that the house is the niche for its occupant. The foetus, as a tenant, inhabits the maternal organism, as a niche. This is a view held by the philosophers Barry Smith and Berit Brogaard in their <a href="https://academic.oup.com/jmp/article-abstract/28/1/45/897985/Sixteen-Days?redirectedFrom=fulltext" target="_blank">paper</a> ‘Sixteen Days’ (2003) in <em>The</em> <em>Journal of Medicine and Philosophy.</em> They provide the analogy of the foetus being inside some space in the maternal organism in much the same way as a tub of yogurt is inside a fridge or, as phrased earlier, the way a bun is inside an oven.</p><p>This container model (as with the parthood model) does not on its own state what sort of thing the foetus is, but rather claims only that it is contained in something else. Yet the paradigmatic cases of the tenant-niche relationship share the feature that the tenant is a different type of thing to the niche. For example: the renting tenant is a human, and the rented house that is the niche is a building; likewise, the bun that is the tenant is a food, and the oven that is the niche is an appliance. However, in the case of pregnancy, the tenant might be the same sort of thing as the niche, if we class both the maternal organism and the foetus as humans (or whichever animal is in question). If the definition of a niche requires it to be a different type of thing from the tenant, then this would render the container model incompatible with treating the foetus as being a thing of the same kind as the maternal organism. It is therefore of great importance for philosophers to study such definitions and concepts so as to inform the debates in which they’re applied.</p><p><span class="ld-dropcap">T</span>he applications of these models and concepts are not limited to debates in metaphysics: they also feature in debates in reproductive ethics. Many of the reasons that we cite to support our stance on abortion and surrogacy, for example, are based (sometimes unknowingly) on metaphysical grounds, as those debates depend on their philosophical foundations. As such, we will first need to get our metaphysics straight in order to inform our ethical opinions. The metaphysics of pregnancy matters not only because it has such implications, but it also lies within many of our surface values and disputes regarding pregnancy and the ethical questions that accompany it, which can be some of the most divisive social-value questions we face. Hence, the metaphysics of pregnancy relates importantly to issues of reproductive ethics, which demonstrates that doing philosophy is going to be a necessary first step to resolving such debates.</p><p>Let us first have a think about surrogacy. The container model is particularly evident in our concept of surrogate pregnancy, and at least appears to underpin most moral and legal views of surrogacy. The container model creates the image of the maternal organism as an incubator or environment for the foetus, where the foetus develops as an independent entity, separate from, and merely inside of, the maternal organism. The very naming of the surrogate as the ‘host’ demonstrates that the surrogate is seen as housing a separate entity, and surrogacy is often described as renting a womb. This shows that the surrogate is seen as a mere container, where the foetus inhabits the space that the surrogate host provides. Surrogacy is widely regarded as a service of gestation, where what the surrogate provides is the use of their body as a space within which the foetus can grow. As a result, surrogacy is thought of as bodily labour, where the work required is to provide nutrients and physical care to the foetus, implying that the role of the surrogate is to be a safe container for the foetus to grow independently. This all strongly suggests a container model in the metaphysics of pregnancy.</p><p>But on the parthood view of the metaphysics of pregnancy, the foetus is actually literally a part of that surrogate mother. Rather than renting a space like a womb, surrogacy then appears more like the trade of a body part (namely the foetus, a part of the surrogate). Now if this foetus is itself classified as a human, as well as being a part of the human maternal organism (thus rejecting the maximality principle), then a surrogate transaction is both a trade of a body part and a trade of a human. If the foetus is a part of the maternal organism, then the maternal organism is not so easily interchangeable, as the maternal organism and the foetus are then inextricably connected, much more so than if the maternal organism turns out to be just a container. On the parthood model, surrogacy seems to be more like the sale of a product, where that product is the foetus part of a maternal organism that can itself be classified as a human; this contrasts with the bodily labour of renting a womb that is suggested by the container model.</p><p class="pullquote">Pro-surrogacy and pro-abortion advocates appeal to a container model and a parthood model respectively</p><p>Now let us cast our eye over the thinking that underpins legalisation that allows some abortion. This might be motivated to some extent by the slogan ‘My body, my choice.’ If the parthood model is true, then this slogan is also literally true, for the foetus is indeed a part of the maternal organism’s body. Of course, the issue will then get complicated if the foetus qualifies as an organism with its own rights, which might conflict with the rights and choices of the maternal organism. This is where the maximality principle will have impact, since it will determine whether the maternal organism has a ‘non-human’ foetus as a part, or a ‘human’ foetus as a part. If the foetus is to qualify as a human, despite also being a part of another human, then it might not be just a matter of implementing ‘my body, my choice’, as that body includes another body. But on the other hand, if the container model is true, then this slogan will not be literally true, as the foetus is not part of the maternal organism’s body. Any appeal to ‘my body, my choice’ must then defend a maternal organism’s right to choose how her body is used, even if it results in the termination of a separate organism.</p><p>It is interesting here to note that some bio-political leanings can rest upon incompatible metaphysical views. For example, a more progressive stance that advocates both pro-surrogacy and pro-abortion might end up appealing to a container model and a parthood model respectively, in order to motivate the legitimacy of ‘renting a womb’ while also motivating the legitimacy of abortion as being ‘my body, my choice’. And on the other hand, a more conservative stance that advocates both anti-surrogacy and anti-abortion could end up appealing to a parthood model and a container model respectively, in order to motivate the illegitimacy of a trade of body parts while also motivating the illegitimacy of a termination of a separate being. Yet given the complexity of these debates, the parthood and container models will not on their own be sufficient to determine the legitimacy or illegitimacy of such stances, since the models alone do not determine the status of the foetus or what sort of thing the foetus is, but rather only whether it is a part of the maternal organism or not. What would then be required to make the necessary connection between these models and the bio-political views is some further philosophy, such as an endorsement or rejection of a maximality principle so as to determine whether the foetus is itself a human, and an exploration of the nature of personal identity and the human rights of foetuses so as to determine their personhood and moral status.</p><p>So, although no moral conclusions follow directly from the metaphysical models I’ve outlined, we do need to get clear about these metaphysical issues if we want to think coherently about the ethical and political questions surrounding reproduction. It really does make a difference whether you have a bun in your oven or whether the foetus is genuinely part of you.</p><p><em>This essay is part of a project that has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme, under grant agreement number 679586.</em></p><figure><img src="https://d2e1bqvws99ptg.cloudfront.net/user_image_upload/398/v3-finn-graphi.jpg" class="ld-image-block"><br /><figcaption class="ld-image-caption"></figcaption></figure>
+<div class='newsletter-signup newsletter-signup--wide'>
+<span data-react-class="Aeon.NewsletterSignup" data-react-props="{&quot;newsletter_source&quot;:&quot;newsletter-signup-article&quot;}"></span>
+</div>
+
+</div>
+</div>
+<div class='article__shares gutter'>
+<div class='article-card__authors__print'>
+<p class='article__body__author-name vcard'>Suki Finn</p>
+<p><p>is a postdoctoral research fellow in philosophy at the University of Southampton in the UK, working on the ERC-funded project ‘Better Understanding the Metaphysics of Pregnancy’. She also researches in the areas of metametaphysics and the philosophy of logic, and has published her work in various philosophy journals.</p></p>
+</div>
+<div class='article__site'>
+aeon.co
+</div>
+<div class='article__shares--footer'>
+<div class='topics-banner'>
+<a class='topics-banner__topic section--philosophy' href='https://aeon.co/philosophy/metaphysics'>Metaphysics</a>
+<a class='topics-banner__topic section--philosophy' href='https://aeon.co/philosophy/ethics'>Ethics</a>
+<a class='topics-banner__topic section--science' href='https://aeon.co/science/human-reproduction'>Human reproduction</a>
+</div>
+
+<time class='article__date published' datetime='2017-07-27 10:00:23 UTC'>27 July, 2017</time>
+</div>
+<a class='republish-button' href='https://aeon.co/syndication?id=ba663838-0d06-4386-8ee4-bb9e80f2ece2'>
+<div class='republish-button__text'>
+<span>Syndicate this Essay</span>
+</div>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div class='support-bar'>
+<div class='container'>
+<div class='support-bar__columns'>
+<div class='column'>
+<div class='support-bar__inner'>
+<div class='support-bar__heading'>Get Aeon straight <br />to your inbox</div>
+<a class='support-bar__button' onclick='document.body.classList.toggle(&#39;modal-newsletter--open&#39;); return false;'>
+Join our newsletter
+<svg fill="#fff" width="12" height="12" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg>
+
+</a>
+</div>
+</div>
+<div class='column'>
+<div class='support-bar__inner'>
+<div class='support-bar__heading'>Aeon is not-for-profit <br />and free for everyone</div>
+<a class='support-bar__button support' href='https://aeon.co/donate?utm_medium=web&amp;utm_source=support-bar-article-essays'>
+Make a donation
+<svg fill="#fff" width="12" height="12" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg>
+
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='article__related'>
+<div class='article-list--col-3 article-list--list article-list__wrapper'>
+<div class='article-list container'>
+<article class='article-card article-card--col-3 article-card--section-philosophy audio' data-align-x='left' data-align-y='bottom' data-backdrop-strength='2' data-feature-img-caption-align='right' data-id='3245' data-playing='false'>
+<div class='gutter gutter--outer'>
+<div class='article-card__inner'>
+<div class='article-card__image-wrap' data-image-loaded='false'>
+<div data-react-class="Aeon.AnnotatedCorner" data-react-props="{&quot;id&quot;:3245}"></div>
+<figure class='responsive-image' style='background-image: url(&#39;https://nu.aeon.co/images/c573d25d-b29f-405a-ac76-e65032a0017d/card_v3-essay-8b29879a.jpg&#39;)'>
+<div class='sizer__wrapper'>
+<div class='sizer'></div>
+</div>
+</figure>
+
+<div class='article-card__overlay'>
+</div>
+</div>
+<div class='article-card__contents'>
+<div class='article-card__contents__wrap container'>
+<div class='gutter gutter--inner'>
+<div class='article-card__meta'>
+<div class='article-card__save'><div data-react-class="Aeon.Save" data-react-props="{&quot;id&quot;:3245,&quot;url&quot;:&quot;https://aeon.co/essays/3245/save&quot;}"></div></div>
+<div class='article-card__class__wrapper'>
+<span class='article-card__class'>Essay<span class='article-card__separator separator'>/</span></span>
+</div><span class='article-card__topic'>Beauty and aesthetics</span></div>
+<a class="article-card__title" href="/essays/how-virtue-morphs-into-beauty-in-the-eye-of-the-beholder">More than skin deep</a>
+<h2 class='article-card__standfirst'>
+Beauty is a deeply moral matter that makes kindness, empathy and honesty attractive, while vice warps into ugliness
+</h2>
+<p class='article-card__authors'>
+<span class='article-card__authors__inner'>Panos Paris</span>
+</p>
+</div>
+</div>
+</div>
+<a class="article-card__link" href="/essays/how-virtue-morphs-into-beauty-in-the-eye-of-the-beholder"></a>
+</div>
+</div>
+</article>
+<article class='article-card article-card--col-3 article-card--section-culture audio' data-align-x='center' data-align-y='center' data-backdrop-strength='3' data-badge-color='white' data-card-play-icon-color='white' data-feature-img-caption-align='right' data-id='3233' data-playing='false'>
+<div class='gutter gutter--outer'>
+<div class='article-card__inner'>
+<div class='article-card__image-wrap' data-image-loaded='false'>
+<div data-react-class="Aeon.AnnotatedCorner" data-react-props="{&quot;id&quot;:3233}"></div>
+<figure class='responsive-image' style='background-image: url(&#39;https://omicron.aeon.co/images/cf96f10e-667c-4d84-afaf-c7ce65cc7e28/card_kate-holt-10706364576_463ab61e34_b.jpg&#39;)'>
+<div class='sizer__wrapper'>
+<div class='sizer'></div>
+</div>
+</figure>
+
+<div class='article-card__overlay'>
+</div>
+</div>
+<div class='article-card__contents'>
+<div class='article-card__contents__wrap container'>
+<div class='gutter gutter--inner'>
+<div class='article-card__meta'>
+<div class='article-card__save'><div data-react-class="Aeon.Save" data-react-props="{&quot;id&quot;:3233,&quot;url&quot;:&quot;https://aeon.co/ideas/3233/save&quot;}"></div></div>
+<div class='article-card__class__wrapper'>
+<span class='article-card__class'>Idea<span class='article-card__separator separator'>/</span></span>
+</div><span class='article-card__topic'>Dance and theatre</span></div>
+<a class="article-card__title" href="/ideas/the-dancing-species-how-moving-together-in-time-helps-make-us-human">The dancing species: how moving together in time helps make us human</a>
+<p class='article-card__authors'>
+<span class='article-card__authors__inner'>Kimerer LaMothe</span>
+</p>
+</div>
+</div>
+</div>
+<a class="article-card__link" href="/ideas/the-dancing-species-how-moving-together-in-time-helps-make-us-human"></a>
+</div>
+</div>
+</article>
+<article class='article-card article-card--col-3 article-card--section-science audio' data-align-x='center' data-align-y='center' data-backdrop-strength='3' data-badge-color='white' data-card-play-icon-color='white' data-feature-img-caption-align='right' data-id='3148' data-playing='false'>
+<div class='gutter gutter--outer'>
+<div class='article-card__inner'>
+<div class='article-card__image-wrap' data-image-loaded='false'>
+<div data-react-class="Aeon.AnnotatedCorner" data-react-props="{&quot;id&quot;:3148}"></div>
+<figure class='responsive-image' style='background-image: url(&#39;https://alpha.aeon.co/images/198cdd68-a565-4671-8aeb-c9423765be94/card_black-rain.jpg&#39;)'>
+<div class='sizer__wrapper'>
+<div class='sizer'></div>
+</div>
+</figure>
+
+<div class='article-card__overlay'>
+<div class='article-card__overlay__video-icon'>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 1225 1225" xml:space="preserve">
+<polygon fill="none" stroke="currentColor" stroke-width="40" stroke-miterlimit="10" points="457.2,844.9 457.2,349.9 839.6,599.6 "></polygon>
+<circle fill="none" stroke="currentColor" stroke-width="40" stroke-miterlimit="10" cx="615" cy="615" r="587.4"></circle>
+</svg>
+
+</div>
+</div>
+</div>
+<div class='article-card__contents'>
+<div class='article-card__contents__wrap container'>
+<div class='gutter gutter--inner'>
+<div class='article-card__meta'>
+<div class='article-card__save'><div data-react-class="Aeon.Save" data-react-props="{&quot;id&quot;:3148,&quot;url&quot;:&quot;https://aeon.co/videos/3148/save&quot;}"></div></div>
+<div class='article-card__class__wrapper'>
+<span class='article-card__class'>Video<span class='article-card__separator separator'>/</span></span>
+</div><span class='article-card__topic'>Astronomy</span></div>
+<a class="article-card__title" href="/videos/celebrating-the-rough-the-raw-and-the-human-in-hardcore-space-science">Celebrating the rough, the raw and the human in hardcore space science</a>
+<h2 class='article-card__standfirst'>
+3 minutes
+</h2>
+</div>
+</div>
+</div>
+<a class="article-card__link" href="/videos/celebrating-the-rough-the-raw-and-the-human-in-hardcore-space-science"></a>
+</div>
+</div>
+</article>
+
+<article class='article-card article-card--col-3 article-card--section-science audio' data-align-x='center' data-align-y='center' data-backdrop-strength='3' data-feature-img-caption-align='left' data-id='3220' data-playing='false'>
+<div class='gutter gutter--outer'>
+<div class='article-card__inner'>
+<div class='article-card__image-wrap' data-image-loaded='false'>
+<span class='audio-corner audio-corner__top '>
+<div class='audio-corner__button audio-corner__button--audio'>
+<div class='audio-corner__icon'><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24">
+  <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"></path>
+  <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+</div>
+</div>
+<div class='audio-corner__button audio-corner__button--play'>
+<div class='audio-corner__icon'><svg fill="currentColor" height="24" viewBox="0 0 24 24" width="24">
+  <path d="M8 5v14l11-7z"></path>
+  <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+</div>
+</div>
+<div class='audio-corner__button audio-corner__button--pause'>
+<div class='audio-corner__icon'><svg fill="currentColor" height="24" viewBox="0 0 24 24" width="24">
+  <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path>
+  <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+</div>
+</div>
+</span>
+
+<div data-react-class="Aeon.AnnotatedCorner" data-react-props="{&quot;id&quot;:3220}"></div>
+<figure class='responsive-image' style='background-image: url(&#39;https://alpha.aeon.co/images/be8ea1a1-b37e-4ddb-97be-0ca99038d41d/card_deep-field-essay-v1heic0611b.jpg&#39;)'>
+<div class='sizer__wrapper'>
+<div class='sizer'></div>
+</div>
+</figure>
+
+<div class='article-card__overlay'>
+</div>
+</div>
+<div class='article-card__contents'>
+<div class='article-card__contents__wrap container'>
+<div class='gutter gutter--inner'>
+<div class='article-card__meta'>
+<div class='article-card__save'><div data-react-class="Aeon.Save" data-react-props="{&quot;id&quot;:3220,&quot;url&quot;:&quot;https://aeon.co/essays/3220/save&quot;}"></div></div>
+<div class='article-card__class__wrapper'>
+<span class='article-card__class'>Essay<span class='article-card__separator separator'>/</span></span>
+</div><span class='article-card__topic'>Astronomy</span></div>
+<a class="article-card__title" href="/essays/on-the-hunt-for-the-universes-biggest-galaxies-far-far-away">Monsters in the dark</a>
+<h2 class='article-card__standfirst'>
+The Universe&#8217;s biggest galaxies could hold the key to the birth of the cosmos. Why are these behemoths so hard to find?
+</h2>
+<p class='article-card__authors'>
+<span class='article-card__authors__inner'>Matthew Bothwell</span>
+</p>
+</div>
+</div>
+</div>
+<a class="article-card__link" href="/essays/on-the-hunt-for-the-universes-biggest-galaxies-far-far-away"></a>
+</div>
+</div>
+</article>
+<article class='article-card article-card--col-3 article-card--section-science audio' data-align-x='center' data-align-y='center' data-backdrop-strength='3' data-badge-color='white' data-card-play-icon-color='white' data-feature-img-caption-align='right' data-id='3197' data-playing='false'>
+<div class='gutter gutter--outer'>
+<div class='article-card__inner'>
+<div class='article-card__image-wrap' data-image-loaded='false'>
+<span class='audio-corner audio-corner__top '>
+<div class='audio-corner__button audio-corner__button--audio'>
+<div class='audio-corner__icon'><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24">
+  <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"></path>
+  <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+</div>
+</div>
+<div class='audio-corner__button audio-corner__button--play'>
+<div class='audio-corner__icon'><svg fill="currentColor" height="24" viewBox="0 0 24 24" width="24">
+  <path d="M8 5v14l11-7z"></path>
+  <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+</div>
+</div>
+<div class='audio-corner__button audio-corner__button--pause'>
+<div class='audio-corner__icon'><svg fill="currentColor" height="24" viewBox="0 0 24 24" width="24">
+  <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path>
+  <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+</div>
+</div>
+</span>
+
+<div data-react-class="Aeon.AnnotatedCorner" data-react-props="{&quot;id&quot;:3197}"></div>
+<figure class='responsive-image' style='background-image: url(&#39;https://omicron.aeon.co/images/d4b339d3-0990-4b19-88c1-b49bad544c75/card_sized-sue-cantan-flickr-3250471422_f3d231e8c4_o.jpg&#39;)'>
+<div class='sizer__wrapper'>
+<div class='sizer'></div>
+</div>
+</figure>
+
+<div class='article-card__overlay'>
+</div>
+</div>
+<div class='article-card__contents'>
+<div class='article-card__contents__wrap container'>
+<div class='gutter gutter--inner'>
+<div class='article-card__meta'>
+<div class='article-card__save'><div data-react-class="Aeon.Save" data-react-props="{&quot;id&quot;:3197,&quot;url&quot;:&quot;https://aeon.co/ideas/3197/save&quot;}"></div></div>
+<div class='article-card__class__wrapper'>
+<span class='article-card__class'>Idea<span class='article-card__separator separator'>/</span></span>
+</div><span class='article-card__topic'>Computing and artificial intelligence</span></div>
+<a class="article-card__title" href="/ideas/how-do-you-teach-a-car-that-a-snowman-wont-walk-across-the-road">How do you teach a car that a snowman won’t walk across the road?</a>
+<p class='article-card__authors'>
+<span class='article-card__authors__inner'>Melanie Mitchell</span>
+</p>
+</div>
+</div>
+</div>
+<a class="article-card__link" href="/ideas/how-do-you-teach-a-car-that-a-snowman-wont-walk-across-the-road"></a>
+</div>
+</div>
+</article>
+<article class='article-card article-card--col-3 article-card--section-science audio' data-align-x='center' data-align-y='center' data-backdrop-strength='3' data-badge-color='white' data-card-play-icon-color='white' data-feature-img-caption-align='right' data-id='3093' data-playing='false'>
+<div class='gutter gutter--outer'>
+<div class='article-card__inner'>
+<div class='article-card__image-wrap' data-image-loaded='false'>
+<div data-react-class="Aeon.AnnotatedCorner" data-react-props="{&quot;id&quot;:3093}"></div>
+<figure class='responsive-image' style='background-image: url(&#39;https://nu.aeon.co/images/85fe3391-07aa-482a-9bee-6d188a1621cf/card_predicting-the-end-civilisation-v2.jpg&#39;)'>
+<div class='sizer__wrapper'>
+<div class='sizer'></div>
+</div>
+</figure>
+
+<div class='article-card__overlay'>
+<div class='article-card__overlay__video-icon'>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 1225 1225" xml:space="preserve">
+<polygon fill="none" stroke="currentColor" stroke-width="40" stroke-miterlimit="10" points="457.2,844.9 457.2,349.9 839.6,599.6 "></polygon>
+<circle fill="none" stroke="currentColor" stroke-width="40" stroke-miterlimit="10" cx="615" cy="615" r="587.4"></circle>
+</svg>
+
+</div>
+</div>
+</div>
+<div class='article-card__contents'>
+<div class='article-card__contents__wrap container'>
+<div class='gutter gutter--inner'>
+<div class='article-card__meta'>
+<div class='article-card__save'><div data-react-class="Aeon.Save" data-react-props="{&quot;id&quot;:3093,&quot;url&quot;:&quot;https://aeon.co/videos/3093/save&quot;}"></div></div>
+<div class='article-card__class__wrapper'>
+<span class='article-card__class'>Video<span class='article-card__separator separator'>/</span></span>
+</div><span class='article-card__topic'>Computing and artificial intelligence</span></div>
+<a class="article-card__title" href="/videos/civilisation-peaked-in-1940-and-will-collapse-by-2040-the-data-based-predictions-of-1973">Civilisation peaked in 1940 and will collapse by 2040: the data-based predictions of 1973</a>
+<h2 class='article-card__standfirst'>
+11 minutes
+</h2>
+</div>
+</div>
+</div>
+<a class="article-card__link" href="/videos/civilisation-peaked-in-1940-and-will-collapse-by-2040-the-data-based-predictions-of-1973"></a>
+</div>
+</div>
+</article>
+
+</div>
+</div>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aeon.co/essays/is-the-mother-a-container-for-the-foetus-or-is-it-part-of-her"
+  },
+  "headline": "Bun or bump?",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://omicron.aeon.co/images/339bdfd2-6f6f-4a09-83f7-901e02872357/header_essay-gs1157794.jpg",
+    "width": 1700,
+    "height": 680
+  },
+  "datePublished": "2017-07-27T10:00:23Z",
+  "dateModified": "2019-06-07T00:54:09Z",
+  "author": {
+    "@type": "Person",
+    "name": "Suki Finn"
+  },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Aeon",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://aeon.co/logo.png",
+      "width": 168,
+      "height": 60
+    }
+  },
+  "description": "Does the mother contain the foetus or is it a part of her? On the metaphysics of pregnancy, and its ethical implications"
+}
+</script>
+
+<div data-react-class="Aeon.Commenting" data-react-props="{&quot;comments_open&quot;:true,&quot;standfirst&quot;:&quot;Is the mother a container for the foetus or is it part of her?&quot;,&quot;section&quot;:&quot;philosophy&quot;,&quot;comments_count&quot;:39,&quot;comments_url&quot;:&quot;https://aeon.co/essays/is-the-mother-a-container-for-the-foetus-or-is-it-part-of-her/comments&quot;}"></div>
+
+<footer class='footer'>
+<div class='container footer__main'>
+<div class='column footer__links'>
+<div class='column'>
+<div class='gutter'>
+<nav class='footer__nav'>
+<a href="https://aeon.co/essays">Essays</a>
+<a href="https://aeon.co/ideas">Ideas</a>
+<a href="https://aeon.co/videos">Videos</a>
+</nav>
+</div>
+</div>
+<div class='column'>
+<div class='gutter'>
+<nav class='footer__nav'>
+<a href="https://aeon.co/about">About</a>
+<a href="https://aeon.co/contact">Contact</a>
+<a href="https://aeon.co/partners">Partners</a>
+</nav>
+</div>
+</div>
+<div class='column'>
+<div class='gutter'>
+<nav class='footer__nav'>
+<a href="https://aeon.co/feed.rss">RSS Feed</a>
+<a href="https://aeon.co/donate?utm_medium=web&amp;utm_source=footer">Donate</a>
+<a href="https://aeon.co/community-guidelines">Community Guidelines</a>
+</nav>
+</div>
+</div>
+</div>
+<div class='column footer__social'>
+<div class='gutter'>
+<p>Follow Aeon</p>
+<div>
+<p class='footer__social--facebook'>
+<div class="fb-like" data-href="https://www.facebook.com/AeonMagazine/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+</p>
+<p class='footer__social--twitter'>
+<a href="https://twitter.com/aeonmag" class="twitter-follow-button" data-show-count="false" data-size="default">Follow @aeonmag</a>
+</p>
+<p class='footer__social--instagram'>
+<span data-react-class="Aeon.InstagramFollow" data-react-props="{}"></span>
+</p>
+</div>
+</div>
+</div>
+<div class='column footer__newsletter'>
+<div class='gutter'>
+<div class='newsletter-signup'>
+<span data-react-class="Aeon.NewsletterSignup" data-react-props="{&quot;newsletter_source&quot;:&quot;newsletter-signup-footer&quot;}"></span>
+</div>
+
+</div>
+</div>
+</div>
+<div class='container footer__copyright'>
+<div class='gutter'>
+&copy; Aeon Media Group Ltd. 2012-2019.
+<a href="https://aeon.co/privacy">Privacy Policy.</a>
+</div>
+</div>
+</footer>
+
+
+<script src="https://alpha.aeon.co/assets/packs/manifest-7ac52ee71d3530a0c124.js"></script>
+<script src="https://alpha.aeon.co/assets/packs/common-46559880d7857851b3b9.js"></script>
+<script src="https://alpha.aeon.co/assets/packs/aeon-6cbea66f1fe08d842836.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-45522988-1', 'auto');
+
+  ga('require', 'ecommerce');
+  ga('send', 'pageview');
+</script>
+
+
+
+<div id='fb-root'></div>
+<script>
+  // facebook like button
+  (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=430086400490662"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));
+  // twitter follow button
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+</script>
+</body>
+</html>

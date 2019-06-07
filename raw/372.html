@@ -1,0 +1,2179 @@
+<!-- extend from base layout -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Description" content="An online resource for international trade data and economic complexity indicators available through interactive visualizations of countries and products.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    
+    <!-- Facebook Properties -->
+    <meta property="og:image" content="http://atlas.media.mit.edu/static/img/facebook.jpg" />
+    
+
+    <title>OEC
+
+ - China (CHN) Exports, Imports, and Trade Partners
+
+</title>
+
+    <link rel="shortcut icon" type="image/png" href="/static/img/favicon.ico?v=6">
+
+    <link type="text/css" rel="stylesheet" media="all" href="/static/css/oec-ltr.css?v=2" />
+    <link type="text/css" rel="stylesheet" media="all" href="/static/css/libs/font-awesome-4.3.0/css/font-awesome.min.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="/static/css/introjs.css" />
+
+    <script src="/static/js/libs/caman.full.min.js"></script>
+    <script src="/static/js/libs/modernizr.custom.js"></script>
+    <script src="/static/js/libs/d3.v3.min.js?v=3"></script>
+    <script src="/static/js/libs/d3plus.js?v=4"></script>
+    <script src="/static/js/libs/topojson.js?v=3"></script>
+    <script src="/static/js/libs/localforage.js"></script>
+    <script src="/static/js/libs/moment.min.js"></script>
+    <script src="/static/js/libs/jquery/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="/static/js/libs/intro.js"></script>
+    <script>moment.lang("en")</script>
+
+    
+    <script type="text/javascript" src="/static/js/visualization.js?4d6524ed?v=2"></script>
+    
+
+    <script>
+
+      function redirect(url, seconds){
+        seconds = !seconds && seconds !== 0 ? 6 : seconds;
+        if (seconds <=0){
+          window.location = url;
+        }
+        else {
+          seconds--;
+          d3.select("#redirect").text("This page will redirect in "+seconds+" seconds.")
+          setTimeout(function(){ redirect(url, seconds) }, 1000)
+        }
+      }
+
+      var resizeFunctions = [], scrollFunctions = [], cache_version = "19";
+
+      var oec = {};
+      oec.translations = {"gdp": "GDP", "share": "Percent", "export_val_growth_pct": "Annual Growth Rate (1 year)", "market_val": "Market Value", "export_val_growth_val_5": "Growth Value (5 year)", "export_val_growth_val": "Growth Value (1 year)", "gdp_pc_current_ppp": "GDPpc PPP (current)", "id": "ID", "no_results": "We couldn't find any results.", "loading": "Loading...", "import_val_growth_val_5": "Growth Value (5 year)", "export_val_growth_pct_5": "Annual Growth Rate (5 year)", "import_val_growth_val": "Growth Value (1 year)", "net_export_val": "Net Export Value", "loading_viz": "Loading Visualization", "gdp_pc_constant": "GDPpc (constant '05 US$)", "import_rca": "Import RCA", "gdp_pc_constant_ppp": "GDPpc PPP (constant '11)", "net_import_val": "Net Import Value", "import_val_growth_pct": "Annual Growth Rate (1 year)", "export_rca": "Export RCA", "eci_rank": "ECI Rank", "eci": "ECI", "import_val": "Import Value", "import_val_growth_pct_5": "Annual Growth Rate (5 year)", "export_val": "Export Value", "gdp_pc_current": "GDPpc (current US$)"};
+      oec.locale = "en";
+      oec.ui = {
+        "border": 1,
+        "font": {
+          "family": ["Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
+          "size": 13,
+          "weight": 200
+        },
+        "dark": {
+          "primary": "#212831",
+          "secondary": "white"
+        },
+        "light": {
+          "primary": "white",
+          "secondary": "#212831"
+        },
+        "margin": 0,
+        "padding": 5
+      };
+
+      oec.darkUI = d3plus.util.copy(oec.ui);
+      oec.darkUI.color = oec.ui.dark;
+      delete oec.darkUI.dark;
+      delete oec.darkUI.light;
+
+      var color = "#212831";
+
+      function analyze_palette(palette) {
+        if (!palette) return;
+        if (palette.constructor === String) {
+          palette = JSON.parse(palette.replace(/'/g, '"'));
+        }
+        var color;
+        for (var p = 0; p < palette.length; p++) {
+          var c = d3.hsl(palette[p]);
+          if (c.l > 0.5) {
+            color = d3plus.color.legible(palette[p]);
+            break;
+          }
+        }
+        return color;
+      }
+
+    </script>
+
+    
+    
+    <!-- Hotjar Tracking Code for https://atlas.media.mit.edu -->
+    <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:1218339,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
+  </head>
+  <body class="ltr profile">
+
+    <form id="download" action="/en/visualize/download/" method="post">
+      <div style="display:none;">
+        <input id="format" name="format" type="hidden" value="">
+        <input id="content" name="content" type="hidden" value="">
+        <input id="title" name="title" type="hidden" value="">
+      </div>
+    </form>
+
+    <div id="mask"></div>
+
+    <div class="modal" id="share">
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <h2>Share</h2>
+          <a href="#close" class="btn-close">×</a>
+        </div>
+        <div class="modal-body">
+          <h3>Short URL</h3>
+          <input type="text" class="short_url" onfocus="this.select()" onMouseUp="return false" value="">
+          <h3>Embed</h3>
+          <input type="text" class="embed_code" onfocus="this.select()" onMouseUp="return false" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://atlas.media.mit.edu/?controls=false&quot; frameborder=&quot;0&quot; &gt;&lt;/iframe&gt;">
+          <h3>Social Media</h3>
+          <a href="" class="share_button" target="_blank" onclick="javascript:popup(this.href);return false;" id="Facebook" title="Facebook">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="" class="share_button" target="_blank" onclick="javascript:popup(this.href);return false;" id="Twitter" title="Tweet" data-lang="en"  xml:lang="en">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="download">
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <h2>Download</h2>
+          <a href="#close" class="btn-close">×</a>
+        </div>
+        <div class="modal-body">
+          <a href="#svg" class="download_button" id="svg">
+            <i class="fa fa-file-code-o"></i> SVG
+          </a>
+          <a href="#png" class="download_button" id="png">
+            <i class="fa fa-file-image-o"></i> PNG
+          </a>
+          <a href="#csv" class="download_button" id="csv">
+            <i class="fa fa-file-excel-o"></i> CSV
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    
+
+    
+
+<div id="mobileNav">
+
+  <div class="modal_close">
+    <img src="/static/img/nav/x.png" />
+  </div>
+
+  <ul class="navLinks">
+    <li id="home">
+      <a href="/en/">Home</a>
+    </li>
+    <li id="country" class="active">
+  <a href="/en/profile/country/">Countries</a>
+</li>
+
+<li id="product">
+  <a href="/en/profile/hs92/">Products</a>
+</li>
+
+<li id="explore">
+  <a href="/en/visualize/tree_map/">Visualizations</a>
+</li>
+
+<li id="rankings">
+  <a href="/en/rankings/country/eci/">Rankings</a>
+  <div class="sub_menu">
+    <ul>
+      <li class="country">
+        <a href="/en/rankings/country/eci/">Countries</a>
+      </li>
+      <li class="product">
+        <a href="/en/rankings/product/sitc/">Products</a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+<li id="publications">
+  <a href="/publications/">Publications</a>
+</li>
+
+<li id="resources">
+  <a href="/en/resources/about/">About</a>
+  <div class="sub_menu">
+    <ul>
+      <li class="data">
+        <a href="/en/resources/data/">Data</a>
+      </li>
+      <li class="methodology">
+        <a href="/en/resources/methodology/">Methodology</a>
+      </li>
+      <li class="about">
+        <a href="/en/resources/about/">The Site</a>
+      </li>
+      <li class="permissions">
+        <a href="/en/resources/permissions/">Permissions</a>
+      </li>
+      <li class="faqs">
+        <a href="/en/resources/faqs/">FAQs</a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+<li id="api">
+  <a href="/api/">API</a>
+</li>
+  </ul>
+
+</div>
+
+<nav>
+
+  <a id="hamburger">
+    <img id="hamburger_button" src="/static/img/nav/menu.png" />
+  </a>
+
+  <a id="logo" href="/en/">
+    <img src="/static/img/home/logo-sm.png" alt="The Observatory of Economic Complexity">
+  </a>
+
+  <ul class="navLinks">
+    <li id="country" class="active">
+  <a href="/en/profile/country/">Countries</a>
+</li>
+
+<li id="product">
+  <a href="/en/profile/hs92/">Products</a>
+</li>
+
+<li id="explore">
+  <a href="/en/visualize/tree_map/">Visualizations</a>
+</li>
+
+<li id="rankings">
+  <a href="/en/rankings/country/eci/">Rankings</a>
+  <div class="sub_menu">
+    <ul>
+      <li class="country">
+        <a href="/en/rankings/country/eci/">Countries</a>
+      </li>
+      <li class="product">
+        <a href="/en/rankings/product/sitc/">Products</a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+<li id="publications">
+  <a href="/publications/">Publications</a>
+</li>
+
+<li id="resources">
+  <a href="/en/resources/about/">About</a>
+  <div class="sub_menu">
+    <ul>
+      <li class="data">
+        <a href="/en/resources/data/">Data</a>
+      </li>
+      <li class="methodology">
+        <a href="/en/resources/methodology/">Methodology</a>
+      </li>
+      <li class="about">
+        <a href="/en/resources/about/">The Site</a>
+      </li>
+      <li class="permissions">
+        <a href="/en/resources/permissions/">Permissions</a>
+      </li>
+      <li class="faqs">
+        <a href="/en/resources/faqs/">FAQs</a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+<li id="api">
+  <a href="/api/">API</a>
+</li>
+  </ul>
+
+  <div id="search_button">
+    <img src="/static/img/nav/search.png" />
+  </div>
+
+</nav>
+
+<div id="container">
+
+  <div id="content">
+    
+
+<article class="country">
+<header class="profile_header country" data-step="3" data-intro="The country profiles have been completely redesigned showing a set of quick stats to give an overview of the relative size of the particular country's economy (In this case: China).">
+  
+  
+  <div class="header_image">
+    <img src="/static/img/headers/country/aschn.jpg">
+  </div>
+  
+  <div id="title">
+    <img class="icon" src="/static/img/icons/country/country_aschn.png">
+    <h1>
+      China
+    </h1>
+  </div>
+
+  
+  <div id="stats">
+    
+    <div class="stat eci">
+      <div class="stat_text">
+        <h3>
+          
+            0.69
+          
+        </h3>
+        <sub>
+          Econ Complexity
+          
+          <span class="rank">33rd of 126</span>
+          
+        </sub>
+      </div>
+      
+      <div class="sparkline" data-array="[0.320765, 0.320562, 0.313648, 0.282005, 0.27951, 0.23883, 0.147123, 0.134055, 0.246918, 0.234761, 0.254205, 0.284872, 0.269057, 0.170488, 0.089156, 0.234956, 0.221438, 0.328308, 0.254555, 0.233022, 0.307929, 0.378568, 0.41801, 0.442061, 0.452979, 0.474971, 0.587449, 0.632635, 0.715732, 0.753508, 0.774908, 0.909906, 1.00792, 1.04036, 1.16379, 0.60941, 0.642376, 0.691307]"></div>
+      <div class="years">
+        <div class="year">1980</div>
+        <div class="year">2017</div>
+      </div>
+      
+    </div>
+    
+    <div class="stat export_val">
+      <div class="stat_text">
+        <h3>
+          
+            $2.41T
+          
+        </h3>
+        <sub>
+          Exports
+          
+          <span class="rank">1st of 221</span>
+          
+        </sub>
+      </div>
+      
+      <div class="sparkline" data-array="[16801648000.0, 19959193000.0, 19524525000.0, 18275170000.0, 21321067911.0, 23789933121.0, 27788030848.0, 42942122199.0, 55400015195.0, 68708335966.0, 82036018608.0, 101645820738.0, 125031686409.0, 143603902776.0, 173595473828.0, 208506959945.0, 227317268433.0, 258068288546.0, 258068288546.0, 289542099785.0, 370224082101.0, 382163676031.0, 448752508609.0, 565793281822.0, 748349401066.0, 934670644731.0, 1139991406085.0, 1346478683805.0, 1543026324716.0, 1329695579958.0, 1680027842958.0, 1898388434780.0, 2048782233080.0, 2209007280260.0, 2342343011340.0, 2161519297973.0, 1983808067477.0]"></div>
+      <div class="years">
+        <div class="year">1980</div>
+        <div class="year">2017</div>
+      </div>
+      
+    </div>
+    
+    <div class="stat import_val">
+      <div class="stat_text">
+        <h3>
+          
+            $1.54T
+          
+        </h3>
+        <sub>
+          Imports
+          
+          <span class="rank">2nd of 221</span>
+          
+        </sub>
+      </div>
+      
+      <div class="sparkline" data-array="[14746023000.0, 13364315000.0, 12064509000.0, 12383866000.0, 21379716828.0, 33516570984.0, 31036752040.0, 39731192676.0, 50792686050.0, 54383352810.0, 48489947240.0, 56105412460.0, 68208943481.0, 82783374888.0, 90772883045.0, 103981741281.0, 109360705766.0, 111226272812.0, 111226272812.0, 129483597381.0, 182526214884.0, 197738845336.0, 235091400976.0, 328811819911.0, 451152280436.0, 530654712168.0, 639380799282.0, 761205315216.0, 922480693199.0, 824448135489.0, 1147313209569.0, 1743394866360.0, 1818199227570.0, 1949992314700.0, 1958021301380.0, 1505008921537.0, 1299014558889.0]"></div>
+      <div class="years">
+        <div class="year">1980</div>
+        <div class="year">2017</div>
+      </div>
+      
+    </div>
+    
+    <div class="stat gdp_pc_current_ppp">
+      <div class="stat_text">
+        <h3>
+          
+            $16.8k
+          
+        </h3>
+        <sub>
+          GDP Per Capita
+          
+          <span class="rank">82nd of 214</span>
+          
+        </sub>
+      </div>
+      
+      <div class="sparkline" data-array="[1006.59, 1065.36, 1175.19, 1358.78, 1563.72, 1785.64, 1995.87, 2210.45, 2418.84, 2622.76, 2864.09, 3149.92, 3465.5, 3864.98, 4345.51, 4962.86, 5731.79, 6682.21, 7430.96, 8137.55, 9052.65, 10040.63, 10944.51, 11906.51, 13206.38, 14450.09, 15530.63, 16806.74]"></div>
+      <div class="years">
+        <div class="year">1990</div>
+        <div class="year">2017</div>
+      </div>
+      
+    </div>
+    
+  </div>
+
+  
+  
+  <div class="author">
+    <a href="https://flic.kr/p/8SLRid" target="_blank">
+      <i class="fa fa-camera"></i>Photo by Mike Behnken
+    </a>
+  </div>
+  
+
+  <div class="share">
+    <div class="drawer">
+      <div class="drawer-content">
+        <a href="http://www.facebook.com/dialog/feed?caption=The Observatory of Economic Complexity&amp;display=popup&amp;app_id=426745600805300&amp;name=China Profile&amp;link=http://atlas.media.mit.edu/en/profile/country/chn/&amp;redirect_uri=http://atlas.media.mit.edu/close/&amp;picture=http://atlas.media.mit.edu/static/img/facebook.jpg" onclick="javascript:popup(this.href);return false;" title="Share on Facebook">
+          <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/share?url=http://atlas.media.mit.edu/en/profile/country/chn/&amp;text=China Profile&amp;hashtags=oec,China" onclick="javascript:popup(this.href);return false;" title="Share on Twitter">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </div>
+    </div>
+    <img src="/static/img/profile/share.png" alt="share">
+  </div>
+
+  <div class="macromarket">
+  
+    Looking for commercial partners in China? List your company on <a href="https://macro.market/" target="_blank" data-ga="country-homepage" data-ga-cat="macro-market" data-ga-label="Country Homepage">Macro Market</a>.
+    <div class="links">
+      <a href="https://macro.market/country/aschn?source=oec" target="_blank" data-ga="country-importer" data-ga-cat="macro-market" data-ga-label="Country Importer">Importer</a>
+      <a href="https://macro.market/country/aschn?source=oec" target="_blank" data-ga="country-exporter" data-ga-cat="macro-market" data-ga-label="Country Exporter">Exporter</a>
+    </div>
+  
+  </div>
+
+</header>
+</article>
+
+
+<div id="topojson"></div>
+
+
+<article class="intro-article">
+<section>
+
+  <aside>
+
+    
+    
+    
+
+    <ul class="hierarchy contents country">
+      <li class="depth2">Visualizations</li>
+
+      
+      
+      <li class="depth6"><a href="#Exports">Exports</a></li>
+      
+      <li class="depth6"><a href="#Imports">Imports</a></li>
+      
+      <li class="depth6"><a href="#Trade_Balance">Trade Balance</a></li>
+      
+      <li class="depth6"><a href="#Destinations">Destinations</a></li>
+      
+      <li class="depth6"><a href="#Origins">Origins</a></li>
+      
+      
+      
+      <li class="depth6"><a href="#Product_Space">Product Space</a></li>
+      
+      <li class="depth6"><a href="#Complexity_and_Income_Inequality">Complexity and Income Inequality</a></li>
+      
+      <li class="depth6"><a href="#Economic_Complexity_Ranking">Economic Complexity Ranking</a></li>
+      
+      
+    </ul>
+
+  </aside>
+
+  <content>
+    <div class="columns">
+      <div class="macromarket">
+      
+        Looking for commercial partners in China? List your company on <a href="https://macro.market/" target="_blank" data-ga="country-homepage" data-ga-cat="macro-market" data-ga-label="Country Homepage">Macro Market</a>.
+        <div class="links">
+          <a href="https://macro.market/country/aschn" target="_blank" data-ga="country-importer" data-ga-cat="macro-market" data-ga-label="Country Importer">Importer</a>
+          <a href="https://macro.market/country/aschn" target="_blank" data-ga="country-exporter" data-ga-cat="macro-market" data-ga-label="Country Exporter">Exporter</a>
+        </div>
+      
+      </div>
+    
+      <p>China is the  largest export economy in the world and the 33rd most complex economy according to the Economic Complexity Index (ECI). In 2017, China exported $2.41T and imported $1.54T, resulting in a positive trade balance of $873B. In 2017 the GDP of China was $12.2T and its GDP per capita was $16.8k.</p>
+    
+      <p>The top exports of China are <a href='/en/profile/hs92/8525/'>Broadcasting Equipment</a> ($231B), <a href='/en/profile/hs92/8471/'>Computers</a> ($146B), <a href='/en/profile/hs92/8473/'>Office Machine Parts</a> ($90.8B), <a href='/en/profile/hs92/8542/'>Integrated Circuits</a> ($80.1B) and <a href='/en/profile/hs92/8517/'>Telephones</a> ($62B), using the 1992 revision of the HS (Harmonized System) classification. Its top imports are <a href='/en/profile/hs92/8542/'>Integrated Circuits</a> ($207B), <a href='/en/profile/hs92/2709/'>Crude Petroleum</a> ($144B), <a href='/en/profile/hs92/2601/'>Iron Ore</a> ($59B), <a href='/en/profile/hs92/8703/'>Cars</a> ($46.8B) and <a href='/en/profile/hs92/7108/'>Gold</a> ($40.3B).</p>
+    
+      <p>The top export destinations of China are <a href='/en/profile/country/usa/'>the United States</a> ($476B), <a href='/en/profile/country/hkg/'>Hong Kong</a> ($255B), <a href='/en/profile/country/jpn/'>Japan</a> ($157B), <a href='/en/profile/country/deu/'>Germany</a> ($109B) and <a href='/en/profile/country/kor/'>South Korea</a> ($98.1B). The top import origins are <a href='/en/profile/country/'>Other Asia</a> ($151B), <a href='/en/profile/country/kor/'>South Korea</a> ($149B), <a href='/en/profile/country/jpn/'>Japan</a> ($136B), <a href='/en/profile/country/usa/'>the United States</a> ($133B) and <a href='/en/profile/country/deu/'>Germany</a> ($95B).</p>
+    
+      <p>China borders <a href='/en/profile/country/afg/'>Afghanistan</a>, <a href='/en/profile/country/btn/'>Bhutan</a>, <a href='/en/profile/country/hkg/'>Hong Kong</a>, <a href='/en/profile/country/ind/'>India</a>, <a href='/en/profile/country/kaz/'>Kazakhstan</a>, <a href='/en/profile/country/kgz/'>Kyrgyzstan</a>, <a href='/en/profile/country/lao/'>Laos</a>, <a href='/en/profile/country/mac/'>Macau</a>, <a href='/en/profile/country/mng/'>Mongolia</a>, <a href='/en/profile/country/npl/'>Nepal</a>, <a href='/en/profile/country/pak/'>Pakistan</a>, <a href='/en/profile/country/prk/'>North Korea</a>, <a href='/en/profile/country/tjk/'>Tajikistan</a>, <a href='/en/profile/country/vnm/'>Vietnam</a> and <a href='/en/profile/country/rus/'>Russia</a> by land and <a href='/en/profile/country/brn/'>Brunei</a>, <a href='/en/profile/country/idn/'>Indonesia</a>, <a href='/en/profile/country/jpn/'>Japan</a>, <a href='/en/profile/country/kor/'>South Korea</a>, <a href='/en/profile/country/mys/'>Malaysia</a>, <a href='/en/profile/country/phl/'>the Philippines</a> and <a href='/en/profile/country/twn/'>Taiwan</a> by sea.</p>
+    
+    </div>
+  </content>
+</section>
+</article>
+
+<article class="viz-article">
+  <script>var build_data = [];</script>
+  
+  
+  
+  
+  
+  <section data-position="floating" data-step="5" data-intro="This is just a test">
+    <aside>
+      <a name="Exports" class="anchor"></a>
+      <h2>Exports</h2>
+      
+
+      
+        <p>In 2017 China exported $2.41T, making it the  largest exporter in the world. During the last five years the exports of China have increased at an annualized rate of 2.5%, from $2.12T in 2012 to $2.41T in 2017. The most recent exports are led by <a href="/en/profile/hs92/8525/">Broadcasting Equipment</a> which represent 9.6% of the total exports of China, followed by <a href="/en/profile/hs92/8471/">Computers</a>, which account for 6.08%.</p>
+      
+
+      
+      
+      <p class="explore_link">
+        <a href="/en/visualize/tree_map/hs92/export/chn/all/show/2017/" class="deep-link" target="_blank">Explore on Visualizations page <i class="fa fa-external-link"></i></a>
+        <a href="/en/resources/data/" class="deep-link" target="_blank">Data Sources <i class="fa fa-external-link"></i></a>
+      </p>
+      <div class="share_container">
+        <div class="share_icons_container">
+          <a href="https://twitter.com/share?url=http://atlas.media.mit.edu/en/visualize/tree_map/hs92/export/chn/all/show/2017/&amp;text=Products exported by China (2017)&amp;hashtags=oec" onclick="javascript:popup(this.href);return false;" title="Share on Twitter">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="http://www.facebook.com/dialog/feed?caption=The Observatory of Economic Complexity&amp;display=popup&amp;app_id=426745600805300&amp;name=Products exported by China (2017)&amp;link=http://atlas.media.mit.edu/en/visualize/tree_map/hs92/export/chn/all/show/2017/&amp;redirect_uri=http://atlas.media.mit.edu/close/&amp;picture=http://atlas.media.mit.edu/static/img/facebook.jpg" onclick="javascript:popup(this.href);return false;" title="Share on Facebook">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="#" class="share_toggle" data-target='share_short_url' title="Direct URL">
+            <i class="fa fa-link"></i>
+          </a>
+          <a href="#" class="share_toggle" data-target='share_embed_url' title="Embed URL">
+            <i class="fa fa-image"></i>
+          </a>
+        </div>
+        <div class="share_input_container">
+            <input class="share_input share_short_url" type="text" value="http://atlas.media.mit.edu/en/visualize/tree_map/hs92/export/chn/all/show/2017/" />
+
+            <input class="share_input share_embed_url" type="text" value='&lt;iframe width="560" height="315" src="http://atlas.media.mit.edu/en/visualize/embed/tree_map/hs92/export/chn/all/show/2017/?controls=false" frameborder="0" &gt;&lt;/iframe&gt;' />
+        </div>
+      </div>
+      
+    </aside>
+    <content>
+      
+      <div class="viz" data-title="Exports"></div>
+      <script>build_data.push({"lang": "en", "origin": {"id_2char": "cn", "display_id": "chn", "palette": "[\"#322634\",\"#f8f5e6\",\"#b4adad\",\"#ebe0bf\",\"#94978e\"]", "borders_land": "['asprk', 'eurus', 'asmng', 'askaz', 'astjk', 'askgz', 'asafg', 'aspak', 'asind', 'asnpl', 'asbtn', 'asbur', 'aslao', 'asvnm', 'ashkg', 'asmac']", "color": "#c8140a", "image": "/static/img/headers/country/aschn.jpg", "id_num": "156", "image_link": "https://flic.kr/p/8SLRid", "comtrade_name": "China", "image_author": "Mike Behnken", "id": "aschn", "borders_maritime": "['asidn', 'asbrn', 'asjpn', 'askor', 'asmys', 'asphl', 'astwn']", "icon": "/static/img/icons/country/country_aschn.png"}, "data_url": "/hs92/export/2017/chn/all/show/?output_depth=hs92_id_len.8", "classification": "hs92", "title": "Products exported by China (2017)", "dest": "all", "social": {"twitter": "https://twitter.com/share?url=http://atlas.media.mit.edu/en/visualize/tree_map/hs92/export/chn/all/show/2017/&text=Products exported by China (2017)&hashtags=oec", "google": "https://plus.google.com/share?url=http://atlas.media.mit.edu/en/visualize/tree_map/hs92/export/chn/all/show/2017/&hl=en", "facebook": "http://www.facebook.com/dialog/feed?caption=The Observatory of Economic Complexity&display=popup&app_id=426745600805300&name=Products exported by China (2017)&link=http://atlas.media.mit.edu/en/visualize/tree_map/hs92/export/chn/all/show/2017/&redirect_uri=http://atlas.media.mit.edu/close/&picture=http://atlas.media.mit.edu/static/img/facebook.jpg"}, "year": [2017], "id": 0, "url": "tree_map/hs92/export/chn/all/show/2017/", "attr_url": "/attr/hs92/en/", "viz": {"color": "#333", "slug": "tree_map", "name": "Tree Map"}, "prod": "show", "trade_flow": "export", "attr_type": "hs92", "year_str": 2017});</script>
+      
+    </content>
+
+  </section>
+  
+  <section >
+    <aside>
+      <a name="Imports" class="anchor"></a>
+      <h2>Imports</h2>
+      
+
+      
+        <p>In 2017 China imported $1.54T, making it the 2nd largest importer in the world. During the last five years the imports of China have increased at an annualized rate of 1.3%, from $1.42T in 2012 to $1.54T in 2017. The most recent imports are led by <a href="/en/profile/hs92/8542/">Integrated Circuits</a> which represent 13.5% of the total imports of China, followed by <a href="/en/profile/hs92/2709/">Crude Petroleum</a>, which account for 9.4%.</p>
+      
+
+      
+      
+      <p class="explore_link">
+        <a href="/en/visualize/tree_map/hs92/import/chn/all/show/2017/" class="deep-link" target="_blank">Explore on Visualizations page <i class="fa fa-external-link"></i></a>
+        <a href="/en/resources/data/" class="deep-link" target="_blank">Data Sources <i class="fa fa-external-link"></i></a>
+      </p>
+      <div class="share_container">
+        <div class="share_icons_container">
+          <a href="https://twitter.com/share?url=http://atlas.media.mit.edu/en/visualize/tree_map/hs92/import/chn/all/show/2017/&amp;text=Products imported by China (2017)&amp;hashtags=oec" onclick="javascript:popup(this.href);return false;" title="Share on Twitter">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="http://www.facebook.com/dialog/feed?caption=The Observatory of Economic Complexity&amp;display=popup&amp;app_id=426745600805300&amp;name=Products imported by China (2017)&amp;link=http://atlas.media.mit.edu/en/visualize/tree_map/hs92/import/chn/all/show/2017/&amp;redirect_uri=http://atlas.media.mit.edu/close/&amp;picture=http://atlas.media.mit.edu/static/img/facebook.jpg" onclick="javascript:popup(this.href);return false;" title="Share on Facebook">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="#" class="share_toggle" data-target='share_short_url' title="Direct URL">
+            <i class="fa fa-link"></i>
+          </a>
+          <a href="#" class="share_toggle" data-target='share_embed_url' title="Embed URL">
+            <i class="fa fa-image"></i>
+          </a>
+        </div>
+        <div class="share_input_container">
+            <input class="share_input share_short_url" type="text" value="http://atlas.media.mit.edu/en/visualize/tree_map/hs92/import/chn/all/show/2017/" />
+
+            <input class="share_input share_embed_url" type="text" value='&lt;iframe width="560" height="315" src="http://atlas.media.mit.edu/en/visualize/embed/tree_map/hs92/import/chn/all/show/2017/?controls=false" frameborder="0" &gt;&lt;/iframe&gt;' />
+        </div>
+      </div>
+      
+    </aside>
+    <content>
+      
+      <div class="viz" data-title="Imports"></div>
+      <script>build_data.push({"lang": "en", "origin": {"id_2char": "cn", "display_id": "chn", "palette": "[\"#322634\",\"#f8f5e6\",\"#b4adad\",\"#ebe0bf\",\"#94978e\"]", "borders_land": "['asprk', 'eurus', 'asmng', 'askaz', 'astjk', 'askgz', 'asafg', 'aspak', 'asind', 'asnpl', 'asbtn', 'asbur', 'aslao', 'asvnm', 'ashkg', 'asmac']", "color": "#c8140a", "image": "/static/img/headers/country/aschn.jpg", "id_num": "156", "image_link": "https://flic.kr/p/8SLRid", "comtrade_name": "China", "image_author": "Mike Behnken", "id": "aschn", "borders_maritime": "['asidn', 'asbrn', 'asjpn', 'askor', 'asmys', 'asphl', 'astwn']", "icon": "/static/img/icons/country/country_aschn.png"}, "data_url": "/hs92/import/2017/chn/all/show/?output_depth=hs92_id_len.8", "classification": "hs92", "title": "Products imported by China (2017)", "dest": "all", "social": {"twitter": "https://twitter.com/share?url=http://atlas.media.mit.edu/en/visualize/tree_map/hs92/import/chn/all/show/2017/&text=Products imported by China (2017)&hashtags=oec", "google": "https://plus.google.com/share?url=http://atlas.media.mit.edu/en/visualize/tree_map/hs92/import/chn/all/show/2017/&hl=en", "facebook": "http://www.facebook.com/dialog/feed?caption=The Observatory of Economic Complexity&display=popup&app_id=426745600805300&name=Products imported by China (2017)&link=http://atlas.media.mit.edu/en/visualize/tree_map/hs92/import/chn/all/show/2017/&redirect_uri=http://atlas.media.mit.edu/close/&picture=http://atlas.media.mit.edu/static/img/facebook.jpg"}, "year": [2017], "id": 0, "url": "tree_map/hs92/import/chn/all/show/2017/", "attr_url": "/attr/hs92/en/", "viz": {"color": "#333", "slug": "tree_map", "name": "Tree Map"}, "prod": "show", "trade_flow": "import", "attr_type": "hs92", "year_str": 2017});</script>
+      
+    </content>
+
+  </section>
+  
+  <section >
+    <aside>
+      <a name="Trade_Balance" class="anchor"></a>
+      <h2>Trade Balance</h2>
+      
+
+      
+        <p>As of 2017 China had a positive trade balance of $873B in net exports. As compared to their trade balance in 1995 when they still had a positive trade balance of $79.8B in net exports.</p>
+      
+
+      
+      
+      <p class="explore_link">
+        <a href="/en/visualize/line/hs92/show/chn/all/all/1995.2017/" class="deep-link" target="_blank">Explore on Visualizations page <i class="fa fa-external-link"></i></a>
+        <a href="/en/resources/data/" class="deep-link" target="_blank">Data Sources <i class="fa fa-external-link"></i></a>
+      </p>
+      <div class="share_container">
+        <div class="share_icons_container">
+          <a href="https://twitter.com/share?url=http://atlas.media.mit.edu/en/visualize/line/hs92/show/chn/all/all/1995.2017/&amp;text=Trade balance of China (1995-2017)&amp;hashtags=oec" onclick="javascript:popup(this.href);return false;" title="Share on Twitter">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="http://www.facebook.com/dialog/feed?caption=The Observatory of Economic Complexity&amp;display=popup&amp;app_id=426745600805300&amp;name=Trade balance of China (1995-2017)&amp;link=http://atlas.media.mit.edu/en/visualize/line/hs92/show/chn/all/all/1995.2017/&amp;redirect_uri=http://atlas.media.mit.edu/close/&amp;picture=http://atlas.media.mit.edu/static/img/facebook.jpg" onclick="javascript:popup(this.href);return false;" title="Share on Facebook">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="#" class="share_toggle" data-target='share_short_url' title="Direct URL">
+            <i class="fa fa-link"></i>
+          </a>
+          <a href="#" class="share_toggle" data-target='share_embed_url' title="Embed URL">
+            <i class="fa fa-image"></i>
+          </a>
+        </div>
+        <div class="share_input_container">
+            <input class="share_input share_short_url" type="text" value="http://atlas.media.mit.edu/en/visualize/line/hs92/show/chn/all/all/1995.2017/" />
+
+            <input class="share_input share_embed_url" type="text" value='&lt;iframe width="560" height="315" src="http://atlas.media.mit.edu/en/visualize/embed/line/hs92/show/chn/all/all/1995.2017/?controls=false" frameborder="0" &gt;&lt;/iframe&gt;' />
+        </div>
+      </div>
+      
+    </aside>
+    <content>
+      
+      <div class="viz" data-title="Trade Balance"></div>
+      <script>build_data.push({"lang": "en", "origin": {"id_2char": "cn", "display_id": "chn", "palette": "[\"#322634\",\"#f8f5e6\",\"#b4adad\",\"#ebe0bf\",\"#94978e\"]", "borders_land": "['asprk', 'eurus', 'asmng', 'askaz', 'astjk', 'askgz', 'asafg', 'aspak', 'asind', 'asnpl', 'asbtn', 'asbur', 'aslao', 'asvnm', 'ashkg', 'asmac']", "color": "#c8140a", "image": "/static/img/headers/country/aschn.jpg", "id_num": "156", "image_link": "https://flic.kr/p/8SLRid", "comtrade_name": "China", "image_author": "Mike Behnken", "id": "aschn", "borders_maritime": "['asidn', 'asbrn', 'asjpn', 'askor', 'asmys', 'asphl', 'astwn']", "icon": "/static/img/icons/country/country_aschn.png"}, "data_url": "/hs92/show/1995.2017/chn/all/all/?output_depth=hs92_id_len.6", "classification": "hs92", "title": "Trade balance of China (1995-2017)", "dest": "all", "social": {"twitter": "https://twitter.com/share?url=http://atlas.media.mit.edu/en/visualize/line/hs92/show/chn/all/all/1995.2017/&text=Trade balance of China (1995-2017)&hashtags=oec", "google": "https://plus.google.com/share?url=http://atlas.media.mit.edu/en/visualize/line/hs92/show/chn/all/all/1995.2017/&hl=en", "facebook": "http://www.facebook.com/dialog/feed?caption=The Observatory of Economic Complexity&display=popup&app_id=426745600805300&name=Trade balance of China (1995-2017)&link=http://atlas.media.mit.edu/en/visualize/line/hs92/show/chn/all/all/1995.2017/&redirect_uri=http://atlas.media.mit.edu/close/&picture=http://atlas.media.mit.edu/static/img/facebook.jpg"}, "year": [1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017], "id": 8, "url": "line/hs92/show/chn/all/all/1995.2017/", "attr_url": "/attr/country/en/", "viz": {"color": "#333", "slug": "line", "name": "Line"}, "prod": "all", "trade_flow": "show", "attr_type": "origin", "year_str": "1995.2017"});</script>
+      
+    </content>
+
+  </section>
+  
+  <section >
+    <aside>
+      <a name="Destinations" class="anchor"></a>
+      <h2>Destinations</h2>
+      
+
+      
+        <p>The top export destinations of China are <a href='/en/profile/country/usa/'>the United States</a> ($476B), <a href='/en/profile/country/hkg/'>Hong Kong</a> ($255B), <a href='/en/profile/country/jpn/'>Japan</a> ($157B), <a href='/en/profile/country/deu/'>Germany</a> ($109B) and <a href='/en/profile/country/kor/'>South Korea</a> ($98.1B).</p>
+      
+
+      
+      
+      <p class="explore_link">
+        <a href="/en/visualize/tree_map/hs92/export/chn/show/all/2017/" class="deep-link" target="_blank">Explore on Visualizations page <i class="fa fa-external-link"></i></a>
+        <a href="/en/resources/data/" class="deep-link" target="_blank">Data Sources <i class="fa fa-external-link"></i></a>
+      </p>
+      <div class="share_container">
+        <div class="share_icons_container">
+          <a href="https://twitter.com/share?url=http://atlas.media.mit.edu/en/visualize/tree_map/hs92/export/chn/show/all/2017/&amp;text=Import origins of China (2017)&amp;hashtags=oec" onclick="javascript:popup(this.href);return false;" title="Share on Twitter">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="http://www.facebook.com/dialog/feed?caption=The Observatory of Economic Complexity&amp;display=popup&amp;app_id=426745600805300&amp;name=Import origins of China (2017)&amp;link=http://atlas.media.mit.edu/en/visualize/tree_map/hs92/export/chn/show/all/2017/&amp;redirect_uri=http://atlas.media.mit.edu/close/&amp;picture=http://atlas.media.mit.edu/static/img/facebook.jpg" onclick="javascript:popup(this.href);return false;" title="Share on Facebook">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="#" class="share_toggle" data-target='share_short_url' title="Direct URL">
+            <i class="fa fa-link"></i>
+          </a>
+          <a href="#" class="share_toggle" data-target='share_embed_url' title="Embed URL">
+            <i class="fa fa-image"></i>
+          </a>
+        </div>
+        <div class="share_input_container">
+            <input class="share_input share_short_url" type="text" value="http://atlas.media.mit.edu/en/visualize/tree_map/hs92/export/chn/show/all/2017/" />
+
+            <input class="share_input share_embed_url" type="text" value='&lt;iframe width="560" height="315" src="http://atlas.media.mit.edu/en/visualize/embed/tree_map/hs92/export/chn/show/all/2017/?controls=false" frameborder="0" &gt;&lt;/iframe&gt;' />
+        </div>
+      </div>
+      
+    </aside>
+    <content>
+      
+      <div class="viz" data-title="Destinations"></div>
+      <script>build_data.push({"lang": "en", "origin": {"id_2char": "cn", "display_id": "chn", "palette": "[\"#322634\",\"#f8f5e6\",\"#b4adad\",\"#ebe0bf\",\"#94978e\"]", "borders_land": "['asprk', 'eurus', 'asmng', 'askaz', 'astjk', 'askgz', 'asafg', 'aspak', 'asind', 'asnpl', 'asbtn', 'asbur', 'aslao', 'asvnm', 'ashkg', 'asmac']", "color": "#c8140a", "image": "/static/img/headers/country/aschn.jpg", "id_num": "156", "image_link": "https://flic.kr/p/8SLRid", "comtrade_name": "China", "image_author": "Mike Behnken", "id": "aschn", "borders_maritime": "['asidn', 'asbrn', 'asjpn', 'askor', 'asmys', 'asphl', 'astwn']", "icon": "/static/img/icons/country/country_aschn.png"}, "data_url": "/hs92/export/2017/chn/show/all/?output_depth=hs92_id_len.8", "classification": "hs92", "title": "Import origins of China (2017)", "dest": "show", "social": {"twitter": "https://twitter.com/share?url=http://atlas.media.mit.edu/en/visualize/tree_map/hs92/export/chn/show/all/2017/&text=Import origins of China (2017)&hashtags=oec", "google": "https://plus.google.com/share?url=http://atlas.media.mit.edu/en/visualize/tree_map/hs92/export/chn/show/all/2017/&hl=en", "facebook": "http://www.facebook.com/dialog/feed?caption=The Observatory of Economic Complexity&display=popup&app_id=426745600805300&name=Import origins of China (2017)&link=http://atlas.media.mit.edu/en/visualize/tree_map/hs92/export/chn/show/all/2017/&redirect_uri=http://atlas.media.mit.edu/close/&picture=http://atlas.media.mit.edu/static/img/facebook.jpg"}, "year": [2017], "id": 1, "url": "tree_map/hs92/export/chn/show/all/2017/", "attr_url": "/attr/country/en/", "viz": {"color": "#333", "slug": "tree_map", "name": "Tree Map"}, "prod": "all", "trade_flow": "export", "attr_type": "dest", "year_str": 2017});</script>
+      
+    </content>
+
+  </section>
+  
+  <section >
+    <aside>
+      <a name="Origins" class="anchor"></a>
+      <h2>Origins</h2>
+      
+
+      
+        <p>The top import origins of China are <a href='/en/profile/country/'>Other Asia</a> ($151B), <a href='/en/profile/country/kor/'>South Korea</a> ($149B), <a href='/en/profile/country/jpn/'>Japan</a> ($136B), <a href='/en/profile/country/usa/'>the United States</a> ($133B) and <a href='/en/profile/country/deu/'>Germany</a> ($95B).</p>
+      
+
+      
+      
+      <p class="explore_link">
+        <a href="/en/visualize/tree_map/hs92/import/chn/show/all/2017/" class="deep-link" target="_blank">Explore on Visualizations page <i class="fa fa-external-link"></i></a>
+        <a href="/en/resources/data/" class="deep-link" target="_blank">Data Sources <i class="fa fa-external-link"></i></a>
+      </p>
+      <div class="share_container">
+        <div class="share_icons_container">
+          <a href="https://twitter.com/share?url=http://atlas.media.mit.edu/en/visualize/tree_map/hs92/import/chn/show/all/2017/&amp;text=Export destinations of China (2017)&amp;hashtags=oec" onclick="javascript:popup(this.href);return false;" title="Share on Twitter">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="http://www.facebook.com/dialog/feed?caption=The Observatory of Economic Complexity&amp;display=popup&amp;app_id=426745600805300&amp;name=Export destinations of China (2017)&amp;link=http://atlas.media.mit.edu/en/visualize/tree_map/hs92/import/chn/show/all/2017/&amp;redirect_uri=http://atlas.media.mit.edu/close/&amp;picture=http://atlas.media.mit.edu/static/img/facebook.jpg" onclick="javascript:popup(this.href);return false;" title="Share on Facebook">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="#" class="share_toggle" data-target='share_short_url' title="Direct URL">
+            <i class="fa fa-link"></i>
+          </a>
+          <a href="#" class="share_toggle" data-target='share_embed_url' title="Embed URL">
+            <i class="fa fa-image"></i>
+          </a>
+        </div>
+        <div class="share_input_container">
+            <input class="share_input share_short_url" type="text" value="http://atlas.media.mit.edu/en/visualize/tree_map/hs92/import/chn/show/all/2017/" />
+
+            <input class="share_input share_embed_url" type="text" value='&lt;iframe width="560" height="315" src="http://atlas.media.mit.edu/en/visualize/embed/tree_map/hs92/import/chn/show/all/2017/?controls=false" frameborder="0" &gt;&lt;/iframe&gt;' />
+        </div>
+      </div>
+      
+    </aside>
+    <content>
+      
+      <div class="viz" data-title="Origins"></div>
+      <script>build_data.push({"lang": "en", "origin": {"id_2char": "cn", "display_id": "chn", "palette": "[\"#322634\",\"#f8f5e6\",\"#b4adad\",\"#ebe0bf\",\"#94978e\"]", "borders_land": "['asprk', 'eurus', 'asmng', 'askaz', 'astjk', 'askgz', 'asafg', 'aspak', 'asind', 'asnpl', 'asbtn', 'asbur', 'aslao', 'asvnm', 'ashkg', 'asmac']", "color": "#c8140a", "image": "/static/img/headers/country/aschn.jpg", "id_num": "156", "image_link": "https://flic.kr/p/8SLRid", "comtrade_name": "China", "image_author": "Mike Behnken", "id": "aschn", "borders_maritime": "['asidn', 'asbrn', 'asjpn', 'askor', 'asmys', 'asphl', 'astwn']", "icon": "/static/img/icons/country/country_aschn.png"}, "data_url": "/hs92/import/2017/chn/show/all/?output_depth=hs92_id_len.8", "classification": "hs92", "title": "Export destinations of China (2017)", "dest": "show", "social": {"twitter": "https://twitter.com/share?url=http://atlas.media.mit.edu/en/visualize/tree_map/hs92/import/chn/show/all/2017/&text=Export destinations of China (2017)&hashtags=oec", "google": "https://plus.google.com/share?url=http://atlas.media.mit.edu/en/visualize/tree_map/hs92/import/chn/show/all/2017/&hl=en", "facebook": "http://www.facebook.com/dialog/feed?caption=The Observatory of Economic Complexity&display=popup&app_id=426745600805300&name=Export destinations of China (2017)&link=http://atlas.media.mit.edu/en/visualize/tree_map/hs92/import/chn/show/all/2017/&redirect_uri=http://atlas.media.mit.edu/close/&picture=http://atlas.media.mit.edu/static/img/facebook.jpg"}, "year": [2017], "id": 1, "url": "tree_map/hs92/import/chn/show/all/2017/", "attr_url": "/attr/country/en/", "viz": {"color": "#333", "slug": "tree_map", "name": "Tree Map"}, "prod": "all", "trade_flow": "import", "attr_type": "dest", "year_str": 2017});</script>
+      
+    </content>
+
+  </section>
+  
+  
+  
+  
+  
+</article>
+
+<!-- <article> -->
+<article class="titled-section">
+  
+  
+  <h1>Economic Complexity of China</h1>
+  
+  
+  
+  <section data-position="floating" data-step="6" data-intro="The product space...">
+    <aside>
+      <a name="Product_Space" class="anchor"></a>
+      <h2>Product Space</h2>
+      
+
+      
+        <p>The product space is a network connecting products that are likely to be co-exported and can be used to predict the evolution of a country’s export structure.</p><p>The economy of China has an Economic Complexity Index (ECI) of 0.691 making it the 33rd most complex country. China exports 540 products with revealed comparative advantage (meaning that its share of global exports is larger than what would be expected from the size of its export economy and from the size of a product’s global market).</p>
+      
+
+      
+      
+      <p class="explore_link">
+        <a href="/en/visualize/network/hs92/export/chn/all/show/2017/" class="deep-link" target="_blank">Explore on Visualizations page <i class="fa fa-external-link"></i></a>
+        <a href="/en/resources/data/" class="deep-link" target="_blank">Data Sources <i class="fa fa-external-link"></i></a>
+      </p>
+      <div class="share_container">
+        <div class="share_icons_container">
+          <a href="https://twitter.com/share?url=http://atlas.media.mit.edu/en/visualize/network/hs92/export/chn/all/show/2017/&amp;text=Product Space of China (2017)&amp;hashtags=oec" onclick="javascript:popup(this.href);return false;" title="Share on Twitter">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="http://www.facebook.com/dialog/feed?caption=The Observatory of Economic Complexity&amp;display=popup&amp;app_id=426745600805300&amp;name=Product Space of China (2017)&amp;link=http://atlas.media.mit.edu/en/visualize/network/hs92/export/chn/all/show/2017/&amp;redirect_uri=http://atlas.media.mit.edu/close/&amp;picture=http://atlas.media.mit.edu/static/img/facebook.jpg" onclick="javascript:popup(this.href);return false;" title="Share on Facebook">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="#" class="share_toggle" data-target='share_short_url' title="Direct URL">
+            <i class="fa fa-link"></i>
+          </a>
+          <a href="#" class="share_toggle" data-target='share_embed_url' title="Embed URL">
+            <i class="fa fa-image"></i>
+          </a>
+        </div>
+        <div class="share_input_container">
+            <input class="share_input share_short_url" type="text" value="http://atlas.media.mit.edu/en/visualize/network/hs92/export/chn/all/show/2017/" />
+
+            <input class="share_input share_embed_url" type="text" value='&lt;iframe width="560" height="315" src="http://atlas.media.mit.edu/en/visualize/embed/network/hs92/export/chn/all/show/2017/?controls=false" frameborder="0" &gt;&lt;/iframe&gt;' />
+        </div>
+      </div>
+      
+    </aside>
+    <content>
+      
+      <div class="viz" data-title="Product Space"></div>
+      <script>build_data.push({"lang": "en", "origin": {"id_2char": "cn", "display_id": "chn", "palette": "[\"#322634\",\"#f8f5e6\",\"#b4adad\",\"#ebe0bf\",\"#94978e\"]", "borders_land": "['asprk', 'eurus', 'asmng', 'askaz', 'astjk', 'askgz', 'asafg', 'aspak', 'asind', 'asnpl', 'asbtn', 'asbur', 'aslao', 'asvnm', 'ashkg', 'asmac']", "color": "#c8140a", "image": "/static/img/headers/country/aschn.jpg", "id_num": "156", "image_link": "https://flic.kr/p/8SLRid", "comtrade_name": "China", "image_author": "Mike Behnken", "id": "aschn", "borders_maritime": "['asidn', 'asbrn', 'asjpn', 'askor', 'asmys', 'asphl', 'astwn']", "icon": "/static/img/icons/country/country_aschn.png"}, "data_url": "/hs92/export/2017/chn/all/show/?output_depth=hs92_id_len.6", "classification": "hs92", "title": "Product Space of China (2017)", "dest": "all", "social": {"twitter": "https://twitter.com/share?url=http://atlas.media.mit.edu/en/visualize/network/hs92/export/chn/all/show/2017/&text=Product Space of China (2017)&hashtags=oec", "google": "https://plus.google.com/share?url=http://atlas.media.mit.edu/en/visualize/network/hs92/export/chn/all/show/2017/&hl=en", "facebook": "http://www.facebook.com/dialog/feed?caption=The Observatory of Economic Complexity&display=popup&app_id=426745600805300&name=Product Space of China (2017)&link=http://atlas.media.mit.edu/en/visualize/network/hs92/export/chn/all/show/2017/&redirect_uri=http://atlas.media.mit.edu/close/&picture=http://atlas.media.mit.edu/static/img/facebook.jpg"}, "year": [2017], "id": 5, "url": "network/hs92/export/chn/all/show/2017/", "attr_url": "/attr/hs92/en/", "viz": {"color": "#333", "slug": "network", "name": "Network"}, "prod": "show", "trade_flow": "export", "attr_type": "hs92", "year_str": 2017});</script>
+      
+    </content>
+
+  </section>
+  
+  <section >
+    <aside>
+      <a name="Complexity_and_Income_Inequality" class="anchor"></a>
+      <h2>Complexity and Income Inequality</h2>
+      
+
+      
+        <p>In this version of the product space products are colored according to their Product Gini Index, or PGI. The PGI of a product is the level of income inequality that we expect for the countries that export a product. For more information see: <a target='_blank' href='https://arxiv.org/abs/1505.07907'>Linking Economic Complexity, Institutions and Income Inequality</a> and <a target='_blank' href='https://arxiv.org/abs/1701.03770'>The structural constraints of income inequality in Latin America</a>.</p>
+      
+
+      
+      
+      <p class="explore_link">
+        <a href="/en/visualize/network/sitc/pgi/chn/all/show/2017/" class="deep-link" target="_blank">Explore on Visualizations page <i class="fa fa-external-link"></i></a>
+        <a href="/en/resources/data/" class="deep-link" target="_blank">Data Sources <i class="fa fa-external-link"></i></a>
+      </p>
+      <div class="share_container">
+        <div class="share_icons_container">
+          <a href="https://twitter.com/share?url=http://atlas.media.mit.edu/en/visualize/network/sitc/pgi/chn/all/show/2017/&amp;text=PGI Product Space of China (2017)&amp;hashtags=oec" onclick="javascript:popup(this.href);return false;" title="Share on Twitter">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="http://www.facebook.com/dialog/feed?caption=The Observatory of Economic Complexity&amp;display=popup&amp;app_id=426745600805300&amp;name=PGI Product Space of China (2017)&amp;link=http://atlas.media.mit.edu/en/visualize/network/sitc/pgi/chn/all/show/2017/&amp;redirect_uri=http://atlas.media.mit.edu/close/&amp;picture=http://atlas.media.mit.edu/static/img/facebook.jpg" onclick="javascript:popup(this.href);return false;" title="Share on Facebook">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="#" class="share_toggle" data-target='share_short_url' title="Direct URL">
+            <i class="fa fa-link"></i>
+          </a>
+          <a href="#" class="share_toggle" data-target='share_embed_url' title="Embed URL">
+            <i class="fa fa-image"></i>
+          </a>
+        </div>
+        <div class="share_input_container">
+            <input class="share_input share_short_url" type="text" value="http://atlas.media.mit.edu/en/visualize/network/sitc/pgi/chn/all/show/2017/" />
+
+            <input class="share_input share_embed_url" type="text" value='&lt;iframe width="560" height="315" src="http://atlas.media.mit.edu/en/visualize/embed/network/sitc/pgi/chn/all/show/2017/?controls=false" frameborder="0" &gt;&lt;/iframe&gt;' />
+        </div>
+      </div>
+      
+    </aside>
+    <content>
+      
+      <div class="viz" data-title="Complexity and Income Inequality"></div>
+      <script>build_data.push({"lang": "en", "origin": {"id_2char": "cn", "display_id": "chn", "palette": "[\"#322634\",\"#f8f5e6\",\"#b4adad\",\"#ebe0bf\",\"#94978e\"]", "borders_land": "['asprk', 'eurus', 'asmng', 'askaz', 'astjk', 'askgz', 'asafg', 'aspak', 'asind', 'asnpl', 'asbtn', 'asbur', 'aslao', 'asvnm', 'ashkg', 'asmac']", "color": "#c8140a", "image": "/static/img/headers/country/aschn.jpg", "id_num": "156", "image_link": "https://flic.kr/p/8SLRid", "comtrade_name": "China", "image_author": "Mike Behnken", "id": "aschn", "borders_maritime": "['asidn', 'asbrn', 'asjpn', 'askor', 'asmys', 'asphl', 'astwn']", "icon": "/static/img/icons/country/country_aschn.png"}, "data_url": "/sitc/pgi/2017/chn/all/show/?output_depth=sitc_id_len.6", "classification": "sitc", "title": "PGI Product Space of China (2017)", "dest": "all", "social": {"twitter": "https://twitter.com/share?url=http://atlas.media.mit.edu/en/visualize/network/sitc/pgi/chn/all/show/2017/&text=PGI Product Space of China (2017)&hashtags=oec", "google": "https://plus.google.com/share?url=http://atlas.media.mit.edu/en/visualize/network/sitc/pgi/chn/all/show/2017/&hl=en", "facebook": "http://www.facebook.com/dialog/feed?caption=The Observatory of Economic Complexity&display=popup&app_id=426745600805300&name=PGI Product Space of China (2017)&link=http://atlas.media.mit.edu/en/visualize/network/sitc/pgi/chn/all/show/2017/&redirect_uri=http://atlas.media.mit.edu/close/&picture=http://atlas.media.mit.edu/static/img/facebook.jpg"}, "year": [2017], "id": 5, "url": "network/sitc/pgi/chn/all/show/2017/", "attr_url": "/attr/sitc/en/", "viz": {"color": "#333", "slug": "network", "name": "Network"}, "prod": "show", "trade_flow": "pgi", "attr_type": "sitc", "year_str": 2017});</script>
+      
+    </content>
+
+  </section>
+  
+  <section >
+    <aside>
+      <a name="Economic_Complexity_Ranking" class="anchor"></a>
+      <h2>Economic Complexity Ranking</h2>
+      
+
+      
+        <p>In this version of the product space products are colored according to their Product Gini Index, or PGI. The PGI of a product is the level of income inequality that we expect for the countries that export a product. For more information see: <a target='_blank' href='https://arxiv.org/abs/1505.07907'>Linking Economic Complexity, Institutions and Income Inequality</a> and <a target='_blank' href='https://arxiv.org/abs/1701.03770'>The structural constraints of income inequality in Latin America</a>.</p>
+      
+
+      
+      
+      <p class="explore_link">
+        <a href="/en/visualize/line/sitc/eci/show/chn/all/1964.2017/" class="deep-link" target="_blank">Explore on Visualizations page <i class="fa fa-external-link"></i></a>
+        <a href="/en/resources/data/" class="deep-link" target="_blank">Data Sources <i class="fa fa-external-link"></i></a>
+      </p>
+      <div class="share_container">
+        <div class="share_icons_container">
+          <a href="https://twitter.com/share?url=http://atlas.media.mit.edu/en/visualize/line/sitc/eci/show/chn/all/1964.2017/&amp;text=Country Ranking for China (1964-2017)&amp;hashtags=oec" onclick="javascript:popup(this.href);return false;" title="Share on Twitter">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="http://www.facebook.com/dialog/feed?caption=The Observatory of Economic Complexity&amp;display=popup&amp;app_id=426745600805300&amp;name=Country Ranking for China (1964-2017)&amp;link=http://atlas.media.mit.edu/en/visualize/line/sitc/eci/show/chn/all/1964.2017/&amp;redirect_uri=http://atlas.media.mit.edu/close/&amp;picture=http://atlas.media.mit.edu/static/img/facebook.jpg" onclick="javascript:popup(this.href);return false;" title="Share on Facebook">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="#" class="share_toggle" data-target='share_short_url' title="Direct URL">
+            <i class="fa fa-link"></i>
+          </a>
+          <a href="#" class="share_toggle" data-target='share_embed_url' title="Embed URL">
+            <i class="fa fa-image"></i>
+          </a>
+        </div>
+        <div class="share_input_container">
+            <input class="share_input share_short_url" type="text" value="http://atlas.media.mit.edu/en/visualize/line/sitc/eci/show/chn/all/1964.2017/" />
+
+            <input class="share_input share_embed_url" type="text" value='&lt;iframe width="560" height="315" src="http://atlas.media.mit.edu/en/visualize/embed/line/sitc/eci/show/chn/all/1964.2017/?controls=false" frameborder="0" &gt;&lt;/iframe&gt;' />
+        </div>
+      </div>
+      
+    </aside>
+    <content>
+      
+      <div class="viz" data-title="Economic Complexity Ranking"></div>
+      <script>build_data.push({"lang": "en", "origin": "show", "data_url": "/attr/eci/", "classification": "sitc", "title": "Country Ranking for China (1964-2017)", "dest": {"id_2char": "cn", "display_id": "chn", "palette": "[\"#322634\",\"#f8f5e6\",\"#b4adad\",\"#ebe0bf\",\"#94978e\"]", "borders_land": "['asprk', 'eurus', 'asmng', 'askaz', 'astjk', 'askgz', 'asafg', 'aspak', 'asind', 'asnpl', 'asbtn', 'asbur', 'aslao', 'asvnm', 'ashkg', 'asmac']", "color": "#c8140a", "image": "/static/img/headers/country/aschn.jpg", "id_num": "156", "image_link": "https://flic.kr/p/8SLRid", "comtrade_name": "China", "image_author": "Mike Behnken", "id": "aschn", "borders_maritime": "['asidn', 'asbrn', 'asjpn', 'askor', 'asmys', 'asphl', 'astwn']", "icon": "/static/img/icons/country/country_aschn.png"}, "social": {"twitter": "https://twitter.com/share?url=http://atlas.media.mit.edu/en/visualize/line/sitc/eci/show/chn/all/1964.2017/&text=Country Ranking for China (1964-2017)&hashtags=oec", "google": "https://plus.google.com/share?url=http://atlas.media.mit.edu/en/visualize/line/sitc/eci/show/chn/all/1964.2017/&hl=en", "facebook": "http://www.facebook.com/dialog/feed?caption=The Observatory of Economic Complexity&display=popup&app_id=426745600805300&name=Country Ranking for China (1964-2017)&link=http://atlas.media.mit.edu/en/visualize/line/sitc/eci/show/chn/all/1964.2017/&redirect_uri=http://atlas.media.mit.edu/close/&picture=http://atlas.media.mit.edu/static/img/facebook.jpg"}, "year": [1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017], "id": 11, "url": "line/sitc/eci/show/chn/all/1964.2017/", "attr_url": "/attr/country/en/", "viz": {"color": "#333", "slug": "line", "name": "Line"}, "prod": "all", "trade_flow": "eci", "attr_type": "origin", "year_str": "1964.2017"});</script>
+      
+    </content>
+
+  </section>
+  
+  
+  
+  
+  
+</article>
+
+<!-- <article class="sisters"> -->
+<article class="titled-section sisters">
+  
+  
+  <h1>More on China from our other sites</h1>
+  
+  
+  
+  
+  
+  
+  
+</article>
+
+<!-- <article class="pantheon"> -->
+<article class="titled-section pantheon">
+  
+  
+  <h1><a target='_blank' href='http://pantheon.media.mit.edu'><img src='http://pantheon.media.mit.edu/pantheon_logo.png' /></h1>
+  
+  
+  
+  <section >
+    <aside>
+      <a name="pantheon" class="anchor"></a>
+      <h2>Globally Famous People of China</h2>
+      
+
+      
+        
+        <p>This treemap shows the cultural exports of China, as proxied by the production of globally famous historical characters</p>
+        
+        <p><a target='_blank' href='http://pantheon.media.mit.edu/treemap/country_exports/CN/all/-4000/2010/H15/pantheon/'>Explore on Pantheon <i class='fa fa-external-link'></i></a></p>
+        
+      
+
+      
+      
+    </aside>
+    <content>
+      
+      <iframe class="viz" data-url="http://pantheon.media.mit.edu/treemap/country_exports/CN/all/-4000/2010/H15/pantheon/embed"></iframe>
+      
+    </content>
+
+  </section>
+  
+  <section >
+    <aside>
+      <a name="pantheon" class="anchor"></a>
+      <h2>Globally Famous People of China by City</h2>
+      
+
+      
+        
+        <p>This treemap shows the cultural exports of China by city, as proxied by the production of globally famous historical characters.</p>
+        
+        <p><a target='_blank' href='http://pantheon.media.mit.edu/treemap/country_by_city/CN/CN/-4000/2010/H15/pantheon/'>Explore on Pantheon <i class='fa fa-external-link'></i></a></p>
+        
+      
+
+      
+      
+    </aside>
+    <content>
+      
+      <iframe class="viz" data-url="http://pantheon.media.mit.edu/treemap/country_by_city/CN/CN/-4000/2010/H15/pantheon/embed"></iframe>
+      
+    </content>
+
+  </section>
+  
+  
+</article>
+
+<article>
+  <section class="prof-nav">
+  
+  
+  
+  <a href="/en/profile/country/cck/" class="profile_header profile_button prev" style="background-color: #c8140a; background-image: url('/static/img/headers/country/as.jpg')">
+    <div class="button_cover"></div>
+    <i class="fa fa-angle-left"></i>
+    <h1>
+      Cocos (Keeling) Islands
+    </h1>
+    <img class="icon" src="/static/img/icons/country/country_ascck.png">
+  </a>
+  
+
+  
+  
+  
+
+  <a href="/en/profile/country/cxr/" class="profile_header profile_button next" style="background-color: #c8140a; background-image: url('/static/img/headers/country/as.jpg')">
+    <div class="button_cover"></div>
+    <img class="icon" src="/static/img/icons/country/country_ascxr.png">
+    <h1>
+      Christmas Island
+    </h1>
+    <i class="fa fa-angle-right"></i>
+  </a>
+  
+  </section>
+</article>
+
+<script>
+
+  // var palette = "['#322634', '#f8f5e6', '#b4adad', '#ebe0bf', '#94978e']";
+  // This is the old logic of using the image's palette to define color.
+  // if (palette.length) {
+  //   palette = JSON.parse(palette.replace(/'/g, '"'));
+  //   color = analyze_palette(palette);
+  //   if (!color) color = palette[1];
+  // }
+  // else {
+  //   color = d3plus.color.legible("#c8140a");
+  // }
+  // color = d3plus.color.legible("#c8140a");
+
+  d3.selectAll(".sparkline").each(function(){
+    var w = d3.select(this).node().offsetWidth;
+    d3.select(this).attr("data-width", w);
+    var a = JSON.parse(d3.select(this).attr("data-array"));
+    // var a = [1.171, 1.088, 1.275, 0.882, 1.171, 1.088, 1.275, 0.882, 1.171, 1.088, 1.275, 0.882];
+    var y = d3.scale.linear()
+      .domain([d3.min(a), d3.max(a)])
+      .range([d3.select(this).node().offsetHeight, 0]);
+
+    var x = d3.scale.linear()
+      .domain([0, a.length - 1])
+      .range([0, w]);
+
+    var line = d3.svg.line()
+      .x(function(d, i){ return x(i); })
+      .y(function(d){ return y(d); });
+
+    var svg = d3.select(this).append("svg")
+      .attr("width", "100%")
+      .append("g")
+        .attr("class", "sparkgroup")
+        .attr("transform", "scale(1,1)");
+
+    var path = svg.append("path")
+      .datum(a)
+      .attr("class", "sparkpath")
+      .attr("d", line);
+
+    var length = path.node().getTotalLength();
+
+    path
+      .attr("stroke-dasharray", length + " " + length)
+      .attr("stroke-dashoffset", length)
+      .transition().duration(2500).delay(500)
+        .attr("stroke-dashoffset", 0)
+
+  });
+
+  function resizeSparklines() {
+    d3.selectAll(".sparkline").each(function(){
+      var div = d3.select(this),
+          w = parseFloat(div.attr("data-width"), 10),
+          r = div.node().offsetWidth/w;
+      div.select(".sparkgroup").attr("transform", "scale(" + r + ",1)");
+    })
+  }
+  resizeFunctions.push(resizeSparklines);
+
+  // If it's a country page, create the map!
+  var map = d3.select("#topojson");
+  if (!map.empty()) {
+
+    load("/static/json/country_coords.json?v=2", function(coords){
+
+      var key = "countries",
+          id = "aschn",
+          width = 250,
+          height = width;
+
+      var svg = map.append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+      if (!coords.objects[key].lookup) {
+        coords.objects[key].lookup = coords.objects[key].geometries.reduce(function(obj, d){
+          obj[d.id] = d;
+          return obj;
+        }, {});
+        coords.objects[key].lookup.all = coords.objects[key].geometries;
+      }
+
+      var geo_ids = [id];
+      if (id === "eublx") {
+        geo_ids = ["eubel", "eulux"];
+      }
+
+      // List of countries that get cropped in the regular projection
+      var projection = d3.geo.mercator(),
+          path;
+
+      if (id === "xxwld") {
+
+        projection.scale(40).translate([width/2, height/2]);
+        path = d3.geo.path().projection(projection);
+
+      }
+      else {
+
+        var rotate = rotate = ["eurus"].indexOf(id) >= 0 ? -155 : 0;
+
+        projection.scale(1).translate([0,0]).rotate([rotate,0]);
+        path = d3.geo.path().projection(projection);
+
+        coords.objects[key].geometries = [];
+        geo_ids.forEach(function(g){
+          coords.objects[key].geometries.push(coords.objects[key].lookup[g]);
+        });
+
+        var country = topojson.feature(coords, coords.objects[key]).features[0];
+
+        // List of countries specifying how many landmasses to zoom to:
+        var landmass = {
+          "nausa": 1,
+          "saecu": 1,
+          "afsyc": 1,
+          "asmys": 2,
+          "eugbr": 2,
+          "asjpn": 4
+        }
+
+        if (landmass[id]) {
+
+          var areas = [], test = d3plus.util.copy(country);
+          country.geometry.coordinates.forEach(function(c, i){
+            test.geometry.coordinates = [c];
+            areas.push(path.area(test))
+          })
+
+          var sorted = areas.slice().sort(function(a, b){ return b-a; });
+          var maxArea = sorted[landmass[id] - 1];
+          country.geometry.coordinates = country.geometry.coordinates.filter(function(c, i){
+            return areas[i] >= maxArea;
+          });
+
+        }
+        else {
+
+          // Logic for removing small/far away geometries.
+          var test = d3plus.util.copy(country),
+              areas = [],
+              areaMax = 0,
+              distances = [],
+              center = path.centroid(country);
+
+          country.geometry.coordinates = country.geometry.coordinates.filter(function(c){
+
+            test.geometry.coordinates = [c];
+            var area = path.area(test);
+            if (area > 0) {
+              areas.push(area);
+              if (area > areaMax) {
+                areaMax = area;
+              }
+              distances.push(d3plus.network.distance(path.centroid(test), center))
+              return true;
+            }
+            else {
+              return false;
+            }
+
+          });
+
+          var distanceCutoff = d3.quantile(distances.reduce(function(arr, dist, i) {
+            if (dist) arr.push(areas[i]/dist);
+            return arr;
+          }, []), 0.9);
+
+          country.geometry.coordinates = country.geometry.coordinates.filter(function(c, i){
+            return distances[i] === 0 || areas[i]/distances[i] >= distanceCutoff;
+          });
+
+        }
+
+        var b = path.bounds(country),
+            zoom = d3.min([(b[1][0] - b[0][0]) * 100, 0.9]),
+            s = zoom / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / height),
+            t = [(width - s * (b[1][0] + b[0][0])) / 2, (height - s * (b[1][1] + b[0][1])) / 2];
+
+        projection
+          .scale(s)
+          .translate(t);
+
+      }
+
+      coords.objects[key].geometries = coords.objects[key].lookup.all;
+
+      var countries = topojson.feature(coords, coords.objects[key]);
+
+      // var scale = 0.5;
+      var group = svg.append("g")
+        .attr("id", "topojson-" + id)
+        // .attr("transform", "translate("+(width*(scale/2))+","+(height*(scale/2))+")scale("+scale+","+scale+")");
+
+      group.selectAll("path").data(countries.features)
+        .enter().append("path")
+        .attr("d", path)
+        .attr("class", "coords")
+        .classed("focus", function(d){
+          return id === "xxwld" || geo_ids.indexOf(d.id) >= 0 ? true : false;
+        });
+
+      map.classed("loaded", true);
+
+      // group.transition().duration(1000)
+      //   .attr("transform", "translate(0,0)scale(1,1)");
+
+    });
+
+  }
+
+  var builds = [];
+  d3.selectAll(".viz").each(function(d, i){
+    builds.push({
+      "container": d3.select(this),
+      "data": build_data[i],
+      "index": i,
+      "loaded": false,
+      "timer": false
+    })
+  })
+
+  function resizeApps() {
+
+    // if (window.innerWidth > 768) {
+    //   var header_height = d3.select("header").node().offsetHeight;
+    //   // map.style("margin-top", -header_height-10 +"px");
+    // }
+    // else {
+    //   // map.style("margin-top", "0px");
+    // }
+
+    var h = window.innerWidth < 768 ? window.innerHeight : window.innerHeight * 0.7;
+    builds.forEach(function(b, i){
+      var w = d3.select(b.container.node().parentNode).node().offsetWidth;
+      var height = b.data && b.data.viz.slug === "network" ? window.innerWidth > 768 ? w * 0.7 : w : h * 0.9;
+      height = height > 600 ? 600 : height;
+      b.container.style("height", height + "px");
+      b.top = b.container.node().offsetTop;
+      if (w !== b.width || h !== b.height) {
+        if (b.viz) {
+          if (b.loaded) b.viz.width(w).height(height).draw();
+        }
+        else {
+          b.container.style("width", w + "px");
+        }
+        b.width = w;
+        b.height = height;
+      }
+    })
+  }
+  resizeApps();
+  resizeFunctions.push(resizeApps);
+
+  var scrollBuffer = -150;
+  function buildInView(b) {
+    var top = window.scrollY, height = window.innerHeight;
+    return top+height > b.top+scrollBuffer && top+scrollBuffer < b.top+b.height;
+  }
+
+  function buildScroll(ms) {
+    if (ms === undefined) ms = 500;
+    for (var i = 0; i < builds.length; i++) {
+      var b = builds[i];
+      if (!b.timer && !b.loaded) {
+        if (buildInView(b)) {
+          b.timer = setTimeout(function(build){
+            clearTimeout(build.timer);
+            build.timer = false;
+            if (buildInView(build)) {
+              buildLoad(build)
+            }
+          }, ms, b)
+
+        }
+      }
+    }
+  }
+
+  function buildLoad(build) {
+    var url = build.container.attr("data-url");
+    if (url) {
+      build.container.attr("src", url);
+    }
+    else {
+      build.viz = visualization(build_data[build.index], build.container);
+    }
+    build.loaded = true;
+  }
+
+  buildScroll(0);
+
+  scrollFunctions.push(buildScroll);
+
+  var classification = "country";
+  if (classification === "product") classification = "hs92";
+  d3.select("header #title").on("click", function(){
+    search(classification);
+  });
+
+  // Demo Mode
+  // setTimeout(function(){
+  //   var s = 0;
+  //   var scroller = setInterval(function(){
+  //     window.scrollTo(0, s);
+  //     s++;
+  //     if (s === 4000) {
+  //       clearInterval(scroller);
+  //       window.location = "/en/profile/country/";
+  //     };
+  //   }, 25);
+  // }, 7000);
+
+  if (RegExp('tour', 'gi').test(window.location.search)) {
+    setTimeout(function(){
+
+      var intro = introJs();
+      intro.setOptions({
+        doneLabel: 'Next page'
+      });
+
+      intro.oncomplete(function() {
+        window.location.href = '/en/visualize/tree_map/hs92/export/ita/all/show/2013/?tour=true';
+      }).start();
+
+    }, 2000)
+  }
+
+  d3.select(".share").on("click", function(){
+    d3.select(this).classed("open", !d3.select(this).classed("open"));
+  });
+
+  function gravdept_next(elem) {
+      do {
+          elem = elem.nextSibling;
+      } while (elem && elem.nodeType != 1);
+      return elem;
+  }
+
+  function gravdept_toggle(elem) {
+      var nextElem = gravdept_next(elem);
+
+      if (nextElem.style.display==='block') { nextElem.style.display='none'; }
+      else { nextElem.style.display='block'; }
+  }
+
+  d3.selectAll(".share_toggle").on("click", function(){
+    var target_icon = d3.select(this).attr("data-target");
+
+    d3.select(this.parentNode.parentNode).selectAll(".share_input").style("display", "none");
+
+    target_icon = d3.select(this.parentNode.parentNode).select("."+target_icon);
+
+    target_icon.style("display", "inline-block");
+
+    d3.event.preventDefault();
+  })
+
+
+</script>
+
+  </div>
+
+  <footer>
+    <div class="top-footer">
+      <div class="top-footer-links">
+        <a id="mc" href="http://macro.media.mit.edu/" target="_blank">
+          <img src="/static/img/nav/collective-learning-mit-media-lab.png">
+        </a>
+        <a id="donate" href="https://giving.mit.edu/search/node/2743736" target="_blank">
+          <i class="fa fa-heart"></i> Donate
+        </a>
+      </div>
+    </div>
+
+    <div>
+      <ul class="lang">
+        
+        <li><a href="/de/profile/country/chn/">Deutsch</a></li>
+        
+        <li><a href="/en/profile/country/chn/">English</a></li>
+        
+        <li><a href="/es/profile/country/chn/">Español</a></li>
+        
+        <li><a href="/fr/profile/country/chn/">Français</a></li>
+        
+        <li><a href="/it/profile/country/chn/">Italiano</a></li>
+        
+        <li><a href="/nl/profile/country/chn/">Nederlands</a></li>
+        
+        <li><a href="/pt/profile/country/chn/">Português</a></li>
+        
+        <li><a href="/ru/profile/country/chn/">Pyccĸий</a></li>
+        
+        <li><a href="/vi/profile/country/chn/">Tiếng Việt</a></li>
+        
+        <li><a href="/tr/profile/country/chn/">Tϋrkçe</a></li>
+        
+        <li><a href="/el/profile/country/chn/">ελληνικά</a></li>
+        
+        <li><a href="/mn/profile/country/chn/">Монгол</a></li>
+        
+        <li><a href="/he/profile/country/chn/">עברית</a></li>
+        
+        <li><a href="/ar/profile/country/chn/">العربية</a></li>
+        
+        <li><a href="/hi/profile/country/chn/">हिन्दी</a></li>
+        
+        <li><a href="/ja/profile/country/chn/">日本語</a></li>
+        
+        <li><a href="/zh/profile/country/chn/">简化中国</a></li>
+        
+        <li><a href="/ko/profile/country/chn/">한국어</a></li>
+        
+      </ul>
+      The Observatory of Economic Complexity by <a xmlns:cc="http://creativecommons.org/ns#" href="http://alexandersimoes.com/" property="cc:attributionName" rel="cc:attributionURL">Alexander Simoes</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. Permissions beyond the scope of this license may be available <a xmlns:cc="http://creativecommons.org/ns#" href="/permissions/" rel="cc:morePermissions">here</a>.
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+        <img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by-sa/3.0/80x15.png" />
+      </a>
+    </div>
+
+  </footer>
+
+</div>
+
+<div id="search">
+  <div id="search_close">
+    <img src="/static/img/nav/x.png">
+    <div>[ esc ]</div>
+  </div>
+  <div id="search_div">
+    <input id="search_input" type="text" placeholder="Search" />
+    <div id="search_modes">
+      <select id="search_mode_selector">
+        <option value="all" selected>No Filter</option>
+        <option value="country">Countries</option>
+        <option value="hs92">Products</option>
+        <option value="explore">Visualizations</option>
+      </select>
+    </div>
+  </div>
+  <div id="search_results"></div>
+</div>
+
+<script>
+
+  var page = "profile", sub_page = "country" || "none";
+
+  d3.selectAll("nav ul li")
+    .on(d3plus.client.pointer.over, function(){
+      d3.select(this).select(".sub_menu").classed("open", true);
+    })
+    .on(d3plus.client.pointer.out, function(){
+      d3.select(this).select(".sub_menu").classed("open", false);
+    });
+
+  // Sets the logo, header, and stats background color.
+  // d3.selectAll("#logo, header, #stats").style("background-color", color);
+
+  // Sets the H2 colors
+  // d3.selectAll("h2").style("color", color);
+
+  // Sets the search box background color.
+  // var rgb = d3.rgb(color);
+  // d3.select("#search_button").style("background-color", "rgba("+rgb.r+", "+rgb.g+", "+rgb.b+", 0.1)");
+
+  // Sets paragraph link styles
+  // d3.selectAll("aside a, p a, h2 a")
+  //   .style("color", color)
+  //   .on(d3plus.client.pointer.over, function(){
+  //     d3.select(this).style("border-bottom", "2px solid " + color);
+  //   })
+  //   .on(d3plus.client.pointer.out, function(){
+  //     d3.select(this).style("border-bottom", "2px solid transparent");
+  //   })
+
+  // Styles the header, if present.
+  var header = d3.select("header"), img;
+  if (!header.empty()) {
+    header.attr("data-height", header.node().offsetHeight);
+    var icon = header.select(".icon");
+    if (!icon.empty()) {
+      icon.attr("data-height", icon.node().offsetWidth);
+    }
+    img = header.select(".header_image > img");
+    if (!img.empty()) {
+      resizeCanvas();
+    }
+  }
+
+  // Hamburger menu logic.
+  d3.select("#hamburger").on("click", function(){
+    d3.select("#hamburger_button").classed("open", true);
+    var open = d3.select("#mobileNav").classed("open");
+    d3.select("#mobileNav").classed("open", !open);
+    d3.select("#mask").classed("visible", !open);
+    d3.select("body").classed("frozen", !open);
+  });
+
+  d3.select("#mobileNav .modal_close").on("click", function(){
+    d3.select("#hamburger_button").classed("open", false);
+    d3.select("#mobileNav").classed("open", false);
+    d3.select("#mask").classed("visible", false);
+    d3.select("body").classed("frozen", false);
+  });
+
+  // Logic for resizing the header, if present.
+  function resizeHeader() {
+
+    if (!header.empty()) {
+
+      var originalHeight = parseFloat(header.attr("data-height")),
+          min = 40,
+          scrollHeight = originalHeight - window.scrollY,
+          newHeight = d3.max([scrollHeight, min]);
+
+      header
+        .style("height", newHeight+"px")
+        .style(d3plus.client.prefix()+"box-shadow", scrollHeight <= min ? "0 2px 4px rgba(0,0,0,0.5)" : "none");
+
+      var icon = header.select(".icon"),
+          normalized = d3.scale.linear()
+            .domain([min, originalHeight])
+            .range([0, 1]);
+      if (!icon.empty()) {
+        var iconSize = parseFloat(icon.attr("data-height")),
+            small = window.innerWidth <= 768,
+            iconScale = d3.scale.linear()
+              .domain([min, originalHeight])
+              .range([min * 0.75, iconSize]);
+        var iconSize = iconScale(newHeight);
+        var iconMargin = d3.scale.linear()
+              .domain([min, originalHeight])
+              .range([-iconSize, 0]);
+        icon
+          .style("width", iconSize+"px")
+          .style("height", iconSize+"px")
+          .style("margin-top", small ? d3.min([0, iconMargin(newHeight)])+"px" : "0px")
+          .style("opacity", small ? normalized(newHeight) : 1)
+      }
+
+      var title = header.select("h1");
+      if (!title.empty()) {
+        var fontSize = window.innerWidth <= 768 ? 35 : 50,
+            fontScale = d3.scale.linear()
+              .domain([min, originalHeight])
+              .range([20, fontSize]);
+        title.style("font-size", fontScale(newHeight)+"px");
+        var sub = header.select("sub");
+        if (!sub.empty()) {
+            var fontScale = d3.scale.linear()
+                  .domain([min, originalHeight])
+                  .range([0, 11]);
+            sub.style("font-size", fontScale(newHeight)+"px");
+        }
+      }
+
+    }
+
+  }
+
+  // Logic for resizing the header canvas image, if present.
+  function resizeCanvas() {
+
+    if (img && !img.empty()) {
+
+      setTimeout(function(){
+
+        var w = header.node().offsetWidth, h = header.node().offsetHeight, r = w/h;
+        var iw = img.node().offsetWidth, ih = img.node().offsetHeight, ir = iw/ih;
+        if (r > ir) {
+          var cw = w, ch = w/ir, l = 0, t = -(ch/2-h/2);
+        }
+        else {
+          var ch = h, cw = h*r, l = -(cw/2-w/2), t = 0;
+        }
+        if (!img.classed("loaded")) {
+          img
+            .style("width", cw+"px")
+            .style("height", ch+"px")
+            .style("left", l+"px")
+            .style("top", t+"px")
+            .classed("loaded", true);
+        }
+        else {
+          img.transition().duration(250)
+            .style("width", cw+"px")
+            .style("height", ch+"px")
+            .style("left", l+"px")
+            .style("top", t+"px");
+        }
+
+      }, 1000);
+
+    }
+
+    // resizeHeader();
+
+  }
+
+  resizeFunctions.push(resizeCanvas);
+  // scrollFunctions.push(resizeHeader);
+
+  function no_results() {
+
+    d3.select("#search_results").append("h1")
+      .classed("search-error", true)
+      .text(oec.translations.no_results);
+
+  }
+
+  function add_results(container, data) {
+
+    function draw(container, data) {
+
+      var g = container.node().id;
+      if (g === "search_results") g = search_mode;
+
+      var results = container.selectAll(".result")
+        .data(data, function(d, i){ return d.id || i; });
+
+      var enter = results.enter().append("a")
+        .attr("class", "result")
+        .attr("href", function(d){
+          var p = "/" + oec.locale + "/";
+          return !d.id ? p + "visualize/" + d.name : p + "profile/" + g + "/" + d.display_id;
+        })
+        .style("background-color", function(d){
+          return analyze_palette(d.palette) || d.color || "transparent";
+        })
+        .style("background-image", function(d){
+          return !d.id ? "url('/static/img/visualizations/" + d.name.split("/")[0] + ".png')" : d.image ? "url('" + d.image + "')" : "none";
+        });
+
+      enter.append("div").attr("class", "button_cover");
+
+      enter.append("img")
+        .attr("class", "icon")
+        .attr("src", function(d) {
+          return d.icon || "/static/img/icons/app/app_" + d.name.split("/")[0] + ".png";
+        });
+
+      enter.append("h1")
+        .text(function(d){
+          return d.value || d.name || d.display_id;
+        })
+
+      results.on("click", function(){
+        d3.select(this).classed("loading", true);
+      })
+
+      results.exit().remove();
+
+    }
+
+    if (data.constructor === String) {
+
+      var viz_loading = container.append("div")
+        .attr("class", "search-loading")
+        .text(oec.translations.loading);
+
+      d3.json(data, function(error, d){
+        viz_loading.remove();
+        if (error || !d.explore) {
+          no_results();
+        }
+        else {
+          draw(container, d.explore);
+        }
+      });
+
+    }
+    else {
+      draw(container, data);
+    }
+
+  }
+
+  var explore_default = [
+    {"name": "tree_map", "value": "Tree Map"},
+    {"name": "stacked", "value": "Stacked"},
+    {"name": "line", "value": "Line"},
+    {"name": "network", "value": "Network"},
+    {"name": "rings", "value": "Rings"},
+    {"name": "scatter", "value": "Scatter"},
+    {"name": "geo_map", "value": "Geo Map"}
+  ];
+
+  function search_results(data) {
+
+    if (!data) {
+      data = {};
+      if (search_mode === "all") {
+        data = {
+          "country": attrs.country.slice(0, default_cutoff),
+          "hs92": attrs.hs92.slice(0, default_cutoff)
+        };
+      }
+      else if (attrs[search_mode]) {
+        data[search_mode] = attrs[search_mode].slice(0, default_cutoff);
+      }
+    }
+
+    var titles = {};
+    d3.select("#search_mode_selector").selectAll("option").each(function(){
+      titles[this.value] = this.innerHTML;
+    })
+
+    var group_data = [];
+    ["country", "hs92", "explore"].forEach(function(g){
+      if (data[g] && data[g].length) {
+        group_data.push(g);
+      }
+    })
+
+    d3.select("#search_results").selectAll("*").remove();
+    if (group_data.length > 1) {
+
+      var groups = d3.select("#search_results").selectAll(".search_group")
+        .data(group_data, String);
+
+      groups.enter().append("div")
+        .attr("class", "search_group")
+        .attr("id", String)
+        .append("h1").text(function(g){ return titles[g]; });
+
+      groups.each(function(g){
+        add_results(d3.select(this), data[g]);
+      });
+
+      groups.exit().remove();
+
+    }
+    else if (group_data.length === 1) {
+
+      add_results(d3.select("#search_results"), data[group_data[0]]);
+
+    }
+    else if (search_query.length) {
+
+      no_results();
+
+    }
+
+  }
+
+  var search_mode,
+      search_default,
+      search_query = "",
+      attrs = {},
+      default_cutoff = 200,
+      search_form;
+
+  setTimeout(function(){
+
+    search_mode = window.innerWidth < 500 ? "country" : "all";
+    search_default = search_mode;
+
+    if (search_mode !== "all") {
+      var option = d3.select("#search_mode_selector");
+      option.select("[value=all]").remove();
+      option.select("[value="+search_mode+"]").attr("selected", true);
+    }
+
+    search_form = d3plus.form()
+      .data("#search_mode_selector")
+      .focus(search_mode, function(d){
+        if (d !== search_mode) {
+          clear_search(d);
+        }
+      })
+      .font({
+        "size": 12
+      })
+      .ui({"padding": 8})
+      .draw();
+
+  }, 10);
+
+  function filterData(a, q) {
+    if (q.length) {
+      return attrs[a].filter(function(d){
+        return d.name.toLowerCase().indexOf(q) >= 0 ||
+               d.id.indexOf(q) === 0 ||
+               (d.display_id && d.display_id.indexOf(q) === 0) ||
+               (d.keywords && d.keywords.indexOf(q) >= 0);
+      });
+    }
+    else {
+      return attrs[a].filter(function(d){
+        return a !== "country" ? d.id.length === 6 : d.id.length === 5;
+      }).slice(0, default_cutoff);
+    }
+  }
+
+  function search_term(q) {
+
+    d3.select("#search_results").selectAll("*").remove();
+
+    d3.select("#search_results").append("h1")
+      .classed("search-loading", true)
+      .text(oec.translations.loading);
+
+    var m = search_mode === "all" ? "" : "&mode=" + search_mode;
+
+    var categories = [];
+    if (search_mode === "all") {
+      categories = ["country", "hs92"];
+    }
+    else if (search_mode !== "explore") {
+      categories = [search_mode];
+    }
+
+    var data = {};
+    function loadAttr() {
+      if (categories.length) {
+        var a = categories.pop();
+        if (!attrs[a]) {
+          load("/attr/" + a + "/" + oec.locale + "/", function(d){
+            attrs[a] = d.data.filter(function(d){
+                return d.weight && d.display_id && d.id.length > 2;
+              }).sort(function(a, b){
+                return b.weight - a.weight;
+              });
+            data[a] = filterData(a, q);
+            loadAttr();
+          })
+        }
+        else {
+          data[a] = filterData(a, q);
+          loadAttr();
+        }
+      }
+      else if (["explore", "all"].indexOf(search_mode) >= 0 && q.length) {
+        data.explore = "/search/?mode=explore&q=" + q;
+        search_results(data);
+      }
+      else {
+        if (["all", "explore"].indexOf(search_mode) >= 0) {
+          data.explore = explore_default;
+        }
+        search_results(data);
+      }
+    }
+    loadAttr();
+
+  }
+
+  var searchInterval = "";
+  // Key events while the search input is active
+  d3.select("#search_input").on("keyup", function(){
+
+    // ESC to close search
+    if (d3.event.keyCode === 27) {
+      close_search();
+    }
+    else {
+
+      var q = this.value.toLowerCase();
+      if (q !== search_query) {
+        clearInterval(searchInterval);
+        search_query = q;
+
+        if (q.length) {
+          searchInterval = setTimeout(function(){
+            search_term(search_query);
+          }, 300);
+        }
+        else {
+          search_results();
+        }
+      }
+
+    }
+  })
+
+  d3.select("body").on("keyup", function(){
+
+    // Site key events when search is closed
+    if (!d3.select("#search").classed("visible") && document.activeElement.tagName.toLowerCase() !== "input") {
+
+      // Press "s" for search
+      if (d3.event.keyCode === 83) {
+        search("all");
+      }
+
+    }
+    else {
+
+      // Down key
+      if (d3.event.keyCode === 40) {
+        if(!d3.select("a.result:focus").empty()){
+          d3.select("a.result:focus").node().nextSibling.focus()
+        }
+        else {
+          d3.select("a.result").node().focus();
+        }
+        d3.event.preventDefault()
+      }
+
+      // Down key
+      if (d3.event.keyCode === 38) {
+        if(!d3.select("a.result:focus").empty()){
+          var prev = d3.select("a.result:focus").node().previousSibling;
+          if(d3.select(prev).classed("result")){
+            prev.focus();
+          }
+          else{
+            d3.select("#search_input").node().focus();
+          }
+        }
+        d3.event.preventDefault()
+      }
+
+      // Right key
+      if (d3.event.keyCode === 39 || d3.event.keyCode === 37) {
+        if(!d3.select("a.result:focus").empty()){
+          var direction = d3.event.keyCode === 39 ? 1 : -1
+          var curr_el = d3.select("a.result:focus").node()
+          var all_groups = Array.prototype.slice.call(document.querySelectorAll(".search_group"))
+          var curr_group = all_groups.indexOf(curr_el.parentNode)
+          var all_in_group = Array.prototype.slice.call(document.querySelectorAll(".search_group#"+curr_el.parentNode.id+" .result"))
+          var next_group = (curr_group+direction) < 0 ? (all_groups.length + (curr_group+direction)) : (curr_group+direction)%all_groups.length
+          var curr_el_index = all_in_group.indexOf(curr_el)
+          all_groups[next_group].childNodes[curr_el_index+1].focus()
+        }
+      }
+
+    }
+  })
+
+  d3.select("body").on("keydown", function(e) {
+    if (d3.select("#search").classed("visible")) {
+      if (d3.event.keyCode === 40 || d3.event.keyCode === 38) {
+         d3.event.preventDefault()
+      }
+    }
+  });
+
+  d3.select("#search").on("click", function(){
+    if (d3.event.toElement === this || d3.event.toElement === d3.select("#search_results").node()) {
+      close_search();
+    }
+  })
+
+  function clear_search(mode) {
+    search_mode = mode;
+    search_term("");
+    d3.select("#search_input").node().value = "";
+    d3.select("#search_input").node().focus();
+  }
+
+  function search(mode) {
+
+    if (mode && mode !== search_mode) {
+      search_form.focus(mode).draw();
+    }
+
+    d3.select("#search").style("visibility", "visible").classed("visible", true);
+    d3.select("body").classed("frozen", true);
+    d3.selectAll("#search_button, #search_close").classed("open", true);
+    d3.select("#search_input").node().focus();
+    search_term(search_query);
+
+  }
+
+  function close_search() {
+    d3.select("#search").classed("visible", false);
+    d3.select("body").classed("frozen", false);
+    d3.selectAll("#search_button, #search_close").classed("open", false);
+    setTimeout(function(){
+      d3.select("#search").style("visibility", "hidden");
+    }, 500);
+  }
+
+  d3.select("#search_button").on("click", function(){
+    search(search_default);
+  });
+
+  d3.select("#search_close").on("click", close_search);
+
+</script>
+
+
+
+    
+    
+
+    <!-- Google Analytics! -->
+    <script type="text/javascript">
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-22403682-3', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+    <!-- All Pages -->
+    <script type="text/javascript">
+
+      d3.selectAll(".close_message").on("click", function(){
+
+        d3.select("#server_message")
+          .style("margin-top", function(){
+            return -this.offsetHeight+"px"
+          }).transition().delay(600)
+          .remove()
+
+      });
+
+      if (resizeFunctions.length) {
+
+        var resize,
+            oldWidth = window.innerWidth,
+            oldHeight = window.innerHeight,
+            mobile = oldWidth < 768;
+
+        function resizeEnd() {
+          if (oldWidth !== window.innerWidth || (!mobile && oldHeight !== window.innerHeight)) {
+            oldWidth = window.innerWidth;
+            oldHeight = window.innerHeight;
+            for (var i = 0; i < resizeFunctions.length; i++) {
+              resizeFunctions[i]();
+            }
+          }
+        }
+
+        window.onresize = function(){
+          clearTimeout(resize);
+          resize = setTimeout(resizeEnd, 200);
+        }
+
+      }
+
+      if (scrollFunctions.length) {
+        document.onscroll = function(){
+          for (var i = 0; i < scrollFunctions.length; i++) {
+            scrollFunctions[i]();
+          }
+        }
+      }
+
+      // close modal windows
+      d3.selectAll(".modal .btn-close").on("click", function(){
+        d3.selectAll(".modal").classed("active", false);
+        d3.select("#mask").classed("visible", false);
+        d3.select("body").classed("frozen", false);
+        d3.event.preventDefault();
+      });
+
+      d3.select("#mask").on("click", function(){
+        d3.select("#mask").classed("visible", false);
+
+        d3.selectAll(".modal").classed("active", false);
+
+        d3.select("#hamburger_button").classed("open", false);
+        d3.select("#mobileNav").classed("open", false);
+        d3.select("body").classed("frozen", false);
+      })
+
+      d3.selectAll(".tour a").on(d3plus.client.pointer.click, function() {
+        window.location.href = '/?tour=true';
+        d3.event.preventDefault();
+      });
+
+      d3.selectAll("[data-tooltip]")
+        .on(d3plus.client.pointer.over,function(){
+
+          d3plus.tooltip.remove("data-tooltip");
+
+          var size = this.getBoundingClientRect();
+
+          d3plus.tooltip.remove("data-tooltip");
+          d3plus.tooltip.create({
+            "x": size.left+size.width/2,
+            "y": size.top+size.height/2,
+            "offset": size.height/2,
+            "arrow": true,
+            "description": d3.select(this).attr("data-tooltip"),
+            "width": "auto",
+            "id": "data-tooltip",
+            "align": "top center",
+            // "parent": parent,
+            "max_width": 180
+          })
+
+        })
+        .on(d3plus.client.pointer.out,function(){
+          d3plus.tooltip.remove("data-tooltip");
+        });
+
+      d3.selectAll("[data-ga]").on("click.ga", function(){
+
+        var _this = d3.select(this);
+        var action = _this.attr("data-ga") || "click";
+        var category = _this.attr("data-ga-cat") || "general";
+        var label = _this.attr("data-ga-label") || "n/a";
+
+        console.log("GA, action: ", action, "category: ", category, "label: ", label);
+
+        ga("send", {
+          hitType: "event",
+          eventCategory: category,
+          eventAction: action,
+          eventLabel: label
+        });
+
+      });
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,50 @@
+SOLUTION: ] The formula for degrees Celsius is: C = 5\9 (F � 32), where F stands for degrees Fahrenheit. Part 1: Solve the formula for F. Show all steps. Part 2: Determine how many degre
+] The formula for degrees Celsius is: C = 5\9 (F � 32), where F stands for degrees Fahrenheit. Part 1: Solve the formula for F. Show all steps. Part 2: Determine how many degrees Fahrenheit 6 degrees Celsius is.
+
+Part 1: Solve the formula for F. Show all steps.
+
+C = 5/9 (F � 32)
+
+9C = 5(F - 32)
+
+F - 32 = 9C/5
+
+F = 9C/5 + 32
+
+--------------
+
+Part 2: Determine how many degrees Fahrenheit 6 degrees Celsius is.
+
+F = 9*6/5 + 32
+
+F = 54/5 + 32
+
+F = 10.8 + 32
+
+F = 42.8
+
+-----------------------
+
+To convert "in your head":
+
+Add 40
+
+If converting from C to F, multiply by 1.8
+
+If converting from F to C, divide by 1.8
+
+Subtract 40
+
+-------------
+
+eg from 25C to F
+
+Add 40 --> 65
+
+Multiply by 9/5 --? 585/5 = 117
+
+Subtract 40 --> 77F
+
+
+
+You can put this solution on YOUR website!

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html lang="en-US" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en-US" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-US" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-US" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]> <html lang="en-US" class="no-js"> <![endif]-->
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	  <script src="https://html5shim.googlecode.com/svn/trunk/html5.js">
+	  </script>
+	<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" href="https://courses.lumenlearning.com/boundless-sociology/wp-content/themes/bombadil/favicon.ico" />
+<title>The Class Structure in the U.S. | Boundless Sociology</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://courses.lumenlearning.com/boundless-sociology/xmlrpc.php" />
+
+<link rel='dns-prefetch' href='//courses.lumenlearning.com' />
+<link rel='dns-prefetch' href='//use.typekit.net' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/courses.lumenlearning.com\/boundless-sociology\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='pressbooks/structure-css'  href='https://courses.lumenlearning.com/boundless-sociology/wp-content/themes/pressbooks-book/dist/styles/structure.css?id=73555eac1f448b204588' type='text/css' media='screen, print' />
+<link rel='stylesheet' id='pressbooks/webfonts-css'  href='https://fonts.googleapis.com/css?family=Oswald|Open+Sans+Condensed:300,300italic&#038;subset=latin,cyrillic,greek,cyrillic-ext,greek-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='pressbooks/theme-css'  href='https://courses.lumenlearning.com/boundless-sociology/wp-content/uploads/sites/1988/pressbooks/css/style.css?ver=1559875231' type='text/css' media='screen, print' />
+<link rel='stylesheet' id='dashicons-css'  href='https://courses.lumenlearning.com/boundless-sociology/wp-includes/css/dashicons.min.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='pressbooks/a11y-css'  href='https://courses.lumenlearning.com/boundless-sociology/wp-content/themes/pressbooks-book/dist/styles/a11y.css?id=67ce4802af40e4fea4f2' type='text/css' media='screen' />
+<script type='text/javascript' src='https://courses.lumenlearning.com/boundless-sociology/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script async type='text/javascript' src='https://courses.lumenlearning.com/boundless-sociology/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://courses.lumenlearning.com/boundless-sociology/wp-content/themes/bombadil/assets/js/iframe-resizer.js?ver=4.9.8'></script>
+<script type='text/javascript' src='//use.typekit.net/mje6fya.js?ver=1.0.0'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js?ver=3.7.3'></script>
+<![endif]-->
+<script async type='text/javascript' src='https://courses.lumenlearning.com/boundless-sociology/wp-content/themes/pressbooks-book/dist/scripts/toc.js?id=41dec06e39b599e9d22d'></script>
+<script async type='text/javascript' src='https://courses.lumenlearning.com/boundless-sociology/wp-content/themes/pressbooks-book/dist/scripts/a11y.js?id=3faa829da7a4aa2b976a'></script>
+<link rel='https://api.w.org/' href='https://courses.lumenlearning.com/boundless-sociology/wp-json/' />
+<link rel='prev' title='Social Class in the U.S.' href='https://courses.lumenlearning.com/boundless-sociology/chapter/social-class-in-the-u-s/' />
+<link rel='next' title='Social Mobility' href='https://courses.lumenlearning.com/boundless-sociology/chapter/social-mobility/' />
+<link rel="canonical" href="https://courses.lumenlearning.com/boundless-sociology/chapter/the-class-structure-in-the-u-s/" />
+<link rel='shortlink' href='https://courses.lumenlearning.com/boundless-sociology/?p=305' />
+<link rel="alternate" type="application/json+oembed" href="https://courses.lumenlearning.com/boundless-sociology/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcourses.lumenlearning.com%2Fboundless-sociology%2Fchapter%2Fthe-class-structure-in-the-u-s%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://courses.lumenlearning.com/boundless-sociology/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcourses.lumenlearning.com%2Fboundless-sociology%2Fchapter%2Fthe-class-structure-in-the-u-s%2F&#038;format=xml" />
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-73352819-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<meta itemprop='author' content='Boundless' id='author'>
+<meta itemprop='contributor' content='' id='contributor'>
+<meta itemprop='copyrightHolder' content='Lumen Learning' id='copyrightHolder'>
+<meta itemprop='editor' content='' id='editor'>
+<meta itemprop='image' content='https://courses.lumenlearning.com/boundless-sociology/wp-content/uploads/sites/1988/2017/06/skitterphoto-2104-default.jpg' id='image'>
+<meta itemprop='inLanguage' content='en' id='inLanguage'>
+<script>try{Typekit.load();}catch(e){}</script><style type="text/css">
+/* <![CDATA[ */
+img.latex { vertical-align: middle; border: none; background: none; }
+/* ]]> */
+</style>
+
+</head>
+<body class="singular chapter-template-default single single-chapter postid-305" id="theclassstructureintheu.s." itemscope itemtype="http://schema.org/WebPage" itemref="about copyrightHolder copyrightYear inLanguage publisher" >
+
+		
+		<!-- table of contents -->
+		
+			<div class="nav-container">
+
+				<!-- skip to content -->
+				<div class="skip-to-content">
+					<a href="#content">Skip to main content</a>
+				</div>
+
+									<!-- nav bar -->
+					<nav role="navigation"  style="background-color: #077FAB">
+						<!-- logo / branding -->
+						<div class="book-title-wrapper">
+							<div class="bombadil-logo"><a href="https://courses.lumenlearning.com/"><img src="https://courses.lumenlearning.com/boundless-sociology/wp-content/themes/bombadil/assets/images/LumenOnDark-150x69.png" alt="Lumen" /></a></div>
+						<!-- Book Title -->
+							<h1 class="book-title">
+																	<a href="https://courses.lumenlearning.com/boundless-sociology/" title="Boundless Sociology" rel="home">Boundless Sociology</a>
+															</h1>
+						</div>
+					</nav>
+
+											<div class="sub-nav">
+							<div class="sub-nav-wrapper">
+								<!-- page title -->
+																	<div class="author-wrap">
+										<h3>Stratification, Inequality, and Social Class in the U.S.</h3>
+									</div> <!-- end .author-name -->
+								
+								<!-- search bar -->
+								<form role="search" method="get" id="searchform" class="searchform" action="https://courses.lumenlearning.com/boundless-sociology/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form>							</div>
+						</div><!-- end sub-nav -->
+					
+							</div> <!-- end .nav-container -->
+
+	<div class="wrapper"><!-- for sitting footer at the bottom of the page -->
+			<div id="wrap">
+				<div id="content" role="main">
+
+		
+				<h2 class="entry-title">The Class Structure in the U.S.</h2>
+
+				<div id="post-305" class="standard post-305 chapter type-chapter status-publish hentry">
+
+					<div class="entry-content">
+											
+					<div class="boundless-concept">
+<h2>Class Structure in the U.S.</h2>
+<p>American society is stratified into social classes based on wealth, income, educational attainment, occupation, and social networks.</p>
+<div class="textbox learning-objectives">
+<h3>Learning Objectives</h3>
+<p>Discuss America’s class structure and its relation to the concept of the &#8220;American Dream&#8221;</p>
+</div>
+<div class="textbox key-takeaways">
+<h3>Key Takeaways</h3>
+<h4>Key Points</h4>
+<ul>
+<li>There are competing models for thinking about social classes in the U.S. — most Americans recognize a three-tier structure that includes the upper, middle, and lower classes, but variations delineate an upper-middle class and a working class.</li>
+<li>High income earners likely are substantially educated, have high- status occupations, and maintain powerful social networks.</li>
+<li>According to the &#8220;American Dream,&#8221; American society is meritocratic and class is achievement-based. In other words, one&#8217;s membership in a particular social class is based on educational and career accomplishments.</li>
+</ul>
+<h4>Key Terms</h4>
+<ul>
+<li><strong>social network</strong>: The web of a person&#8217;s social, family, and business contacts, who provide material and social resources and opportunities.</li>
+<li><strong>The American Dream</strong>: The belief that with hard work, courage, and determination, anyone can prosper and achieve success.</li>
+<li><strong>Corporate Elite</strong>: A class of high-salaried stockholders, such as corporate CEOs, who do not necessarily have inherited privilege but have achieved high status through their careers.</li>
+</ul>
+</div>
+<p>Most social scientists in the U.S. agree that society is stratified into social classes. Social classes are hierarchical groupings of individuals that are usually based on wealth, educational attainment, occupation, income, or membership in a subculture or social network. Social class in the United States is a controversial issue, having many competing definitions, models, and even disagreements over its very existence. Many Americans recognize a simple three-tier model that includes the upper class, the middle class, and the lower or working class. Some social scientists have proposed more complex models that may include as many as a dozen class levels. Meanwhile, some scholars deny the very existence of discrete social classes in American society. In spite of debate, most social scientists do agree that in the U.S. people are hierarchically ranked in a social class structure.</p>
+<h3>Models of U.S. Social Classes</h3>
+<p>A team of sociologists recently posited that there are six social classes in America. In this model, the upper class (3% of the population ) is divided into upper-upper class (1% of the U.S. population, earning hundreds of millions to billions per year) and the lower-upper class (2%, earning millions per year). The middle class (40%) is divided into upper-middle class (14%, earning $76,000 or more per year) and the lower-middle class (26%, earning $46,000 to $75,000 per year). The working class (30%) earns $19,000 to $45,000 per year. The lower class (27%) is divided into working poor (13%, earning $9000 to 18,000 per year) and underclass (14%, earning under $9000 per year). This model has gained traction as a tool for thinking about social classes in America, but it does not fully account for variations in status based on non-economic factors, such as education and occupational prestige. This critique is somewhat mitigated by the fact that income is often closely aligned with other indicators of status; for example, those with high incomes likely have substantial education, high status occupations, and powerful social networks.</p>
+<div class="wp-caption alignright" style="width: 437px;" data-global-id="gid://boundless/Image/30995">
+<div class="figure-cont"><img class="" src="https://textimgs.s3.amazonaws.com/boundless-sociology/class-us.svg#fixme" alt="image" width="427" height="427" /></p>
+<p class="wp-caption-text"><strong>United States Social Classes</strong>: While social scientists offer competing models of class structure, most agree that society is stratified by occupation, income, and educational attainment.</p>
+</div>
+</div>
+<p>A commonly used model for thinking about social classes in the U.S. attributes the following general characteristics to each tier: the upper class has vast accumulated wealth and significant control over corporations and political institutions, and their privilege is usually inherited; the corporate elite consists of high-salaried stockholders, such as corporate CEOs, who did not necessarily inherit privilege but have achieved high status through their careers; the upper-middle class consists of highly educated salaried professionals whose occupations are held in high esteem, such as lawyers, engineers, and professors; the middle class (the most vaguely defined and largest social class) is generally thought to include people in mid-level managerial positions or relatively low status professional positions, such as high school teachers and small business owners; the working class generally refers to those without college degrees who do low level service work, such as working as a sales clerk or housekeeper, and includes most people whose incomes fall below the poverty line. In the above outline of social class, status clearly depends not only on income, but also occupational prestige and educational attainment.</p>
+<h3>Debates over the Existence and Significance of U.S. Social Classes</h3>
+<p>According to the &#8220;American Dream,&#8221; American society is meritocratic and class is achievement-based. In other words, membership in a particular social class is based on educational and career accomplishments. Many sociologists dispute the existence of such class mobility and point to the ways in which social class is inherited. For example, a son or daughter of a wealthy individual may carry a higher status and different cultural connotations than a member of the nouveau riche (&#8220;new money&#8221;). Likewise, being born into a particular social class may confer advantages or disadvantages that increase the likelihood that an adult will remain in the social class into which they were born.</p>
+<p>Social theorists who dispute the existence of social classes in the U.S. tend to argue that society is stratified along a continuous gradation, rather than into delineated categories. In other words, there is inequality in America, with some people attaining higher status and higher standards of living than others. But there is no clear place to draw a line separating one status group from the next. Whether one ascribes to the view that classes are discrete groups or levels along a continuum, it is important to remember that all social classes in the United States, except the upper class, consist of tens of millions of people. Thus social classes form social groups so large that they feature considerable internal diversity and any statement regarding a given social class&#8217; culture should be seen as a broad generalization.</p>
+</div>
+<div class="boundless-concept">
+<h2>The Upper Class</h2>
+<p>The American upper class is the highest socioeconomic bracket in the social hierarchy and is defined by its members&#8217; great wealth and power.</p>
+<div class="textbox learning-objectives">
+<h3>Learning Objectives</h3>
+<p>Discuss the most important characteristics of the upper class in the U.S.</p>
+</div>
+<div class="textbox key-takeaways">
+<h3>Key Takeaways</h3>
+<h4>Key Points</h4>
+<ul>
+<li>Members of the upper class accumulate wealth through investments and capital gains, rather than through annual salaries.</li>
+<li>Households with net worths of $1 million or more may be identified as members of the upper-most socioeconomic demographic, depending on the class model used.</li>
+<li>Sociologist Leonard Beeghley asserts that all households with a net worth of $1 million or more are considered &#8220;rich. &#8221; He divides the rich into two sub- groups: the rich and the super-rich.</li>
+</ul>
+<h4>Key Terms</h4>
+<ul>
+<li><strong>investment</strong>: The expenditure of capital in expectation of deriving income or profit from its use.</li>
+<li><strong>capital gain</strong>: An increase in the value of a capital asset, such as stock or real estate.</li>
+</ul>
+</div>
+<p>The American upper class refers to the &#8220;top layer,&#8221; or highest socioeconomic bracket, of society in the United States. This social class is most commonly described as those with great wealth and power, and may also be referred to as the capitalist class, or simply as &#8220;the rich. &#8221; People in this class commonly have immense influence in the nation&#8217;s political and economic institutions as well as in the media.</p>
+<p>Many politicians, heirs to fortunes, top business executives such as CEOs, successful venture capitalists, and celebrities are considered members of the upper class. Some prominent and high-rung professionals may also be included if they attain great influence and wealth. The main distinguishing feature of this class is their source of income. While the vast majority of people and households derive their income from salaries, those in the upper class derive their income primarily from investments and capital gains.</p>
+<p>Households with a net worth of $1 million or more may be identified as members of the upper-most socioeconomic demographic, depending on the class model used. While most contemporary sociologists estimate that only 1% of households are members of the upper class, sociologist Leonard Beeghley asserts that all households with a net worth of $1 million or more are considered &#8220;rich. &#8221; He divides the rich into two sub-groups: the rich and the super-rich. The rich constitute roughly 5% of U.S. households and their wealth is largely in the form of home equity. Other contemporary sociologists, such as Dennis Gilbert, argue that this group is not part of the upper class but rather part of the upper middle class, as its standard of living is largely derived from occupation-generated income and its affluence falls far short of that attained by the top percentile. The super-rich, according to Beeghley, are those able to live off their wealth without depending on occupation-derived income. This demographic constitutes roughly 0.9% of American households. Beeghley&#8217;s definition of the super-rich is congruent with the definition of upper class employed by most other sociologists. The top.01% of the population, with an annual income of $9.5 million or more, received 5% of the income of the United States in 2007. These 15,000 families have been characterized as the &#8220;richest of the rich. &#8221;</p>
+</div>
+<div class="boundless-concept">
+<h2>The Upper Middle Class</h2>
+<p>The upper-middle class refers to people within the middle class that have high educational attainment, high salaries, and high status jobs.</p>
+<div class="textbox learning-objectives">
+<h3>Learning Objectives</h3>
+<p>Identify the central characteristics of the upper-middle class in the U.S.</p>
+</div>
+<div class="textbox key-takeaways">
+<h3>Key Takeaways</h3>
+<h4>Key Points</h4>
+<ul>
+<li>Members of the upper-middle class have substantially less wealth and prestige than the upper class, but a higher standard of living than the lower-middle class or working class.</li>
+<li>The U.S. upper-middle class consists mostly of white-collar professionals who have a high degree of autonomy in their work. The most common professions of the upper-middle class tend to center on conceptualizing, consulting, and instruction.</li>
+<li>In addition to having autonomy in their work, above-average incomes, and advanced educations, the upper middle class also tends to be powerful; members are influential in setting trends and shaping public opinion.</li>
+</ul>
+<h4>Key Terms</h4>
+<ul>
+<li><strong>educational attainment</strong>: Educational attainment is a term commonly used by statisticians to refer to the highest degree of education an individual has completed.</li>
+<li><strong>salaried professionals</strong>: White-collar employees whose work is largely self-directed and is compensated with an annual salary, rather than an hourly wage.</li>
+</ul>
+</div>
+<p>Sociologists use the term &#8220;upper-middle class&#8221; to refer to the social group consisting of higher-status members of the middle class. This is in contrast to the term &#8220;lower-middle class,&#8221; which is used for the group at the opposite end of the middle class stratum, and to the broader term &#8220;middle class. &#8221; There is considerable debate as to how to define the upper-middle class. According to the rubric laid out by sociologist Max Weber, the upper-middle class consists of well-educated professionals with graduate degrees and comfortable incomes.</p>
+<p>In 1951, sociologist C. Wright Mills conducted one of first major studies of the middle class in America. According to his definition, the middle class consists of an upper-middle class, made up of professionals distinguished by exceptionally high educational attainment and high economic security; and a lower-middle class, consisting of semi-professionals. While the groups overlap, differences between those at the center of both groups are considerable.</p>
+<p>Among modern sociologists, the American upper-middle class is defined using income, education, and occupation as primary indicators. There is some debate over what exactly the term &#8220;upper-middle class&#8221; means, but in academic models, the term generally applies to highly educated, salaried professionals whose work is largely self-directed. The U.S. upper-middle class consists mostly of white-collar professionals who have a high degree of autonomy in their work. The most common professions of the upper-middle class tend to center on conceptualizing, consulting, and instruction. They include such occupations as lawyer, physician, dentist, engineer, professor, architect, civil service executive, and civilian contractor. Many members of the upper-middle class have graduate degrees, such as law, business, or medical degrees, which are often required for professional occupations. Educational attainment is a distinguishing feature of the upper-middle class. Additionally, household incomes in the upper-middle class commonly exceed $100,000, with some smaller one-income earners earning incomes in the high 5-figure range.</p>
+<p>In addition to autonomy in their work, above-average incomes, and advanced educations, the upper middle class also tends to be powerful; members are influential in setting trends and shaping public opinion. Moreover, members of the upper-middle class are generally more economically secure than their lower-middle class counterparts. Holding advanced degrees and high status in corporations and institutions tends to insulate the upper-middle class from economic downturns. Members of this class are likely to be in the top income quintile, or the top 20% of the economic hierarchy.</p>
+<div class="wp-caption aligncenter" style="width: 498px;" data-global-id="gid://boundless/Image/1149">
+<div class="figure-cont"><img class="" src="https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1988/2017/05/31175847/campus-spring.jpeg" alt="image" width="488" height="366" /></p>
+<p class="wp-caption-text"><strong>University Campus</strong>: Advanced education is one of the most distinguishing features of the upper-middle class.</p>
+</div>
+</div>
+</div>
+<div class="boundless-concept">
+<h2>The Lower Middle Class</h2>
+<p>The lower-middle class are those with some education and comfortable salaries, but with socioeconomic statuses below the upper-middle class.</p>
+<div class="textbox learning-objectives">
+<h3>Learning Objectives</h3>
+<p>Discuss the differences between the lower and upper-middle class</p>
+</div>
+<div class="textbox key-takeaways">
+<h3>Key Takeaways</h3>
+<h4>Key Points</h4>
+<ul>
+<li>The lower-middle class, also sometimes simply referred to as &#8220;middle class,&#8221; includes roughly one third of U.S. households, and is thought to be growing.</li>
+<li>Individuals in the lower-middle class tend to hold low status professional or white collar jobs, such as school teacher, nurse, or paralegal.</li>
+<li>The lower-middle class is among the largest social classes, rivaled only by the working class, and it is thought to be growing.</li>
+</ul>
+<h4>Key Terms</h4>
+<ul>
+<li><strong>college education</strong>: Education beyond secondary school, usually culminating in a bachelor&#8217;s degree and serving as a necessary credential for middle class occupations.</li>
+<li><strong>White Collar</strong>: Describes a person who performs professional, managerial, or administrative work for a salary.</li>
+<li><strong>professional</strong>: A person whose occupation is highly skilled, salaried, and requires high educational attainment.</li>
+</ul>
+</div>
+<p>In developed nations across the world, the lower-middle class is a sub-division of the middle class that refers to households and individuals who are somewhat educated and usually stably employed, but who have not attained the education, occupational prestige, or income of the upper-middle class.</p>
+<p>In American society, the middle class is often divided into the lower-middle class and upper-middle class. The lower-middle class (also sometimes simply referred to as the middle class) consists of roughly one third of households—it is roughly twice as large as the upper-middle and upper classes. Lower-middle class individuals commonly have some college education or a bachelor&#8217;s degree and earn a comfortable living. The lower-middle class is among the largest social classes, rivaled only by the working class, and it is thought to be growing.</p>
+<p>Individuals in the lower-middle class tend to hold low status professional or white collar jobs, such as school teacher, nurse, or paralegal. These types of occupations usually require some education but generally do not require a graduate degree. Lower-middle class occupations usually provide comfortable salaries, but put individuals beneath the top third of incomes.</p>
+<div class="wp-caption aligncenter" style="width: 530px;" data-global-id="gid://boundless/Image/1152">
+<div class="figure-cont"><img class="" src="https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1988/2017/05/31175849/ndorf-2c-jp-mit-dorflehrer.jpeg" alt="image" width="520" height="395" /></p>
+<p class="wp-caption-text"><strong>Elementary School Teacher</strong>: Primary school teachers are generally considered lower-middle class. They usually hold college degrees, but often do not hold graduate degrees; they make comfortable incomes, but have low accumulated wealth; their work is largely self-directed, but is not high status.</p>
+</div>
+</div>
+<p>According to some class models the lower middle class is located roughly between the 52<sup>nd</sup> and 84<sup>th</sup> percentile of society. In terms of personal income distribution in 2005, that would mean gross annual personal incomes from about $32,500 to $60,000. Since 42% of all households had two income earners, with the majority of those in the top 40% of gross income, household income figures would be significantly higher, ranging from roughly $50,000 to $100,000 annually. In terms of educational attainment, 27% of persons had a bachelor&#8217;s degree or higher. If the upper middle and upper class combined are to constitute 16% of the population, it becomes clear that some of those in the lower middle class boast college degrees or some college education.</p>
+</div>
+<div class="boundless-concept">
+<h2>The Working Class</h2>
+<p>The working class consists of individuals and households with low educational attainment, low status occupations, and below average incomes.</p>
+<div class="textbox learning-objectives">
+<h3>Learning Objectives</h3>
+<p>Explain how differences in class culture may affect working-class students who enter the post-secondary education system</p>
+</div>
+<div class="textbox key-takeaways">
+<h3>Key Takeaways</h3>
+<h4>Key Points</h4>
+<ul>
+<li>Members of the working class usually have a high school diploma or some college education, and may work in low-skilled occupations like retail sales or manual labor.</li>
+<li>Due to differences between middle and working-class cultures, working-class college students may face &#8220;culture shock&#8221; upon entering the post-secondary education system, with its &#8220;middle class&#8221; culture.</li>
+<li>Working classes are mainly found in industrialized economies and in the urban areas of non-industrialized economies.</li>
+</ul>
+<h4>Key Terms</h4>
+<ul>
+<li><strong>working class</strong>: The social class of those who perform physical or low-skilled work for a living, as opposed to the professional or middle class, the upper class, or the upper middle class.</li>
+<li><strong>Blue Collar</strong>: Describes working-class occupations, especially those involving manual labor.</li>
+<li><strong>manual labor</strong>: Any work done by hand; usually implying it is unskilled or physically demanding.</li>
+</ul>
+</div>
+<p>Working class is a term used in the social sciences and in ordinary conversation to describe those employed in lower tier jobs (as measured by skill, education, and income), often extending to those who are unemployed or otherwise earning below-average incomes. Working classes are mainly found in industrialized economies and in the urban areas of non-industrialized economies.</p>
+<p>In the United States, the parameters of the working class remain vaguely defined and are contentious. Since many members of the working class, as defined by academic models, are often identified in the vernacular as being middle class, there is considerable ambiguity over the term&#8217;s meaning. In the class models devised by sociologists, the working class comprises between 30 percent and 35 percent of the population, roughly the same percentage as the lower middle class. Those in the working class are commonly employed in low-skilled occupations, including clerical and retail positions and blue collar or manual labor occupations. Low-level, white-collar employees are sometimes included in this class, such as secretaries and call center employees.</p>
+<p>Education, for example, can pose an especially intransigent barrier in the United States. Members of the working class commonly have only a high school diploma, although some may have minimal college courses to their credit as well. Due to differences between middle and working-class cultures, working-class college students may face &#8220;culture shock&#8221; upon entering the post-secondary education system, with its &#8220;middle class&#8221; culture. Research showing that working-class students are taught to value obedience over leadership and creativity can partially account for the difficulties that many working-class individuals face upon entering colleges and universities.</p>
+<div class="wp-caption aligncenter" style="width: 527px;" data-global-id="gid://boundless/Image/1153">
+<div class="figure-cont"><img class="" src="https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1988/2017/05/31175851/751px-battle-strike-1934.jpeg" alt="image" width="517" height="412" /></p>
+<p class="wp-caption-text"><strong>Battle Strike</strong>: Class War: Workers battle with the police during the Minneapolis Teamsters Strike of 1934.</p>
+</div>
+</div>
+</div>
+<div class="boundless-concept">
+<h2>The Lower Class</h2>
+<p>The lower class consists of those at the bottom of the socioeconomic hierarchy who have low education, low income, and low status jobs.</p>
+<div class="textbox learning-objectives">
+<h3>Learning Objectives</h3>
+<p>Differentiate between the terms &#8220;lower class,&#8221; &#8220;working poor,&#8221; and &#8220;underclass&#8221;</p>
+</div>
+<div class="textbox key-takeaways">
+<h3>Key Takeaways</h3>
+<h4>Key Points</h4>
+<ul>
+<li>Low educational attainment and disabilities are two of the main reasons individuals can either struggle to find work or fall into the lower class.</li>
+<li>Generally, the term lower class describes individuals working easily-filled employment positions. These positions typically have little prestige or economic compensation, and do not require workers to have a high school education.</li>
+<li>Lower class households are at the greatest risk of falling below the poverty line if a job holder suddenly becomes unemployed.</li>
+</ul>
+<h4>Key Terms</h4>
+<ul>
+<li><strong>Poverty line</strong>: This is the threshold of poverty used by the U.S. Census Bureau to define the minimum income one must earn to meet basic material needs.</li>
+<li><strong>public assistance</strong>: the various forms of material aid provided by the government to those who are in need</li>
+<li><strong>underclass</strong>: the poorest class of people in a given society</li>
+<li><strong>manual labor</strong>: Any work done by hand; usually implying it is unskilled or physically demanding.</li>
+</ul>
+</div>
+<h3>Defining the Lower Class</h3>
+<p>The lower class in the United States refers to individuals who are at, or near, the lower end of the socioeconomic hierarchy. As with all social classes in the United States, the lower class is loosely defined, and its boundaries and definitions are subject to debate. When used by social scientists, the lower class is typically defined as service employees, low-level manual laborers, and the unemployed. Those who are employed in lower class occupations are often colloquially referred to as the working poor. Those who do not participate in the labor force, and who rely on public assistance, such as food stamps and welfare checks, as their main source of income, are commonly identified as members of the underclass, or, colloquially, the poor. Generally, lower class individuals work easily-filled employment positions that have little prestige or economic compensation. These individuals often lack a high school education.</p>
+<h3>Unemployment and the Poverty Line</h3>
+<p>A number of things can cause an individual to become unemployed. Two of the most common causes are low educational attainment and disabilities, the latter of which includes both physical and mental ailments that preclude educational or occupational success. The poverty line is defined as the income level at which an individual becomes eligible for public assistance. While only about 12% of households fall below the poverty threshold at one point in time, the total percentage of households that will, at some point during the course of a single year, fall below the poverty line, is much higher. Many such households waver above and below the line throughout a single year. Lower class households are at the greatest risk of falling below this poverty line, particularly if a job holder becomes unemployed. For all of these reasons, lower class households are the most economically vulnerable in the United States.</p>
+<div class="wp-caption aligncenter" style="width: 471px;" data-global-id="gid://boundless/Image/4985">
+<div class="figure-cont"><img class="" src="https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1988/2017/05/31175853/gilbert-model.png" alt="image" width="461" height="351" /></p>
+<p class="wp-caption-text"><strong>Gilbert Model</strong>: This is a model of the socio-economic stratification of American society, as outlined by Dennis Gilbert.</p>
+</div>
+</div>
+</div>
+<div class="boundless-concept">
+<h2>Income Distribution</h2>
+<p>The United States has a high level of income inequality, with a wide gap between the top and bottom brackets of earners.</p>
+<div class="textbox learning-objectives">
+<h3>Learning Objectives</h3>
+<p>Explain the development of income distribution in the US since the 1970&#8217;s and what is meant by the &#8220;Great Divergence&#8221;</p>
+</div>
+<div class="textbox key-takeaways">
+<h3>Key Takeaways</h3>
+<h4>Key Points</h4>
+<ul>
+<li>Since the 1970s, inequality has increased dramatically in the United States.</li>
+<li>Different groups get different compensation for the same work. The discrepancy in wages between males and females is called the &#8221; gender wage gap,&#8221; and the discrepancy between whites and minorities is called the &#8220;racial wage gap&#8221;.</li>
+<li>While earnings from capital and investment are still a significant cause of inequality, income is increasingly segregated by occupation as well. Of earners, 60% in the top 0.1% are executives, managers, supervisors, and financial professionals.</li>
+</ul>
+<h4>Key Terms</h4>
+<ul>
+<li><strong>Race Wage Gap</strong>: The difference in earnings between racial or ethnic groups.</li>
+<li><strong>Gender Wage Gap</strong>: The difference between male and female earnings expressed as a percentage of male earnings.</li>
+<li><strong>great divergence</strong>: Refers to the growth of economic inequality in America since the 1970s.</li>
+</ul>
+</div>
+<div class="wp-caption alignleft" style="width: 318px;" data-global-id="gid://boundless/Image/1155">
+<div class="figure-cont"><img class="" src="https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1988/2017/05/31175855/education-median-income-2.png" alt="image" width="308" height="325" /></p>
+<p class="wp-caption-text"><strong>Income Distribution by Education</strong>: This graph illustrates the unequal distribution of income between groups with different levels of educational attainment. Education is an indicator of class position, meaning that unequal distribution of income by education points to inequality between the classes.</p>
+</div>
+</div>
+<p>Unequal distribution of income between genders, races, and the population, in general, in the United States has been the frequent subject of study by scholars and institutions. Inequality between male and female workers, called the &#8220;gender wage gap,&#8221; has decreased considerably over the last several decades. During the same time, inequality between black and white Americans, sometimes called the &#8220;race wage gap,&#8221; has stagnated, not improving but not getting worse. Nevertheless, data from a number of sources indicate that overall income inequality in the United States has grown significantly since the late 1970s, widening the gap between the country&#8217;s rich and poor.</p>
+<p>A number of studies by the U.S. Department of Commerce, Congressional Budget Office (CBO), and Internal Revenue Service (IRS) have found that the distribution of income in the United States has become increasingly unequal since the 1970s. Economist Paul Krugman and journalist Timothy Noah have referred to this trend as the &#8220;Great Divergence.&#8221; Since the 1970s, income inequality has grown almost continuously, with the exceptions being during the economic recessions in 1990-91, 2001, and 2007. The Great Divergence differs in some ways from the pre-Depression era inequality observed in the early 1900s (the last period of great inequality). Before 1937, a larger share of top earners&#8217; income came from capital (interest, dividends, income from rent, capital gains). Post-1970, a higher proportion of the income of high-income taxpayers comes predominantly from employment compensation–60% of earners in the top 0.1% are executives, managers, supervisors, and financial professionals, and the five most common professions among the top 1% of earners are managers, physicians, administrators, lawyers, and financial specialists. Still, much of the richest Americans&#8217; accumulated wealth is in the form of stocks and real estate.</p>
+</div>
+
+					</div><!-- .entry-content -->
+				</div><!-- #post-## -->
+
+                  <!-- CITATIONS AND ATTRIBUTIONS -->
+          <section class="citations-section" role="contentinfo">
+            <div class="post-citations sidebar">
+              <div role="button" aria-pressed="false" id="citation-header-305" class="collapsed license-attribution-dropdown">Licenses and Attributions</div>
+              <div id="citation-list-305" style="display:none;">
+                <div class="licensing"><div class="license-attribution-dropdown-subheading">CC licensed content, Shared previously</div><ul class="citation-list"><li>Curation and Revision. <strong>Provided by</strong>: Boundless.com. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li></ul><div class="license-attribution-dropdown-subheading">CC licensed content, Specific attribution</div><ul class="citation-list"><li>Social class in the United States. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/Social_class_in_the_United_States%23Academic_models">http://en.wikipedia.org/wiki/Social_class_in_the_United_States%23Academic_models</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Boundless. <strong>Provided by</strong>: Boundless Learning. <strong>Located at</strong>: <a target="_blank" href="http://www.boundless.com//sociology/definition/social-network">http://www.boundless.com//sociology/definition/social-network</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>The American Dream. <strong>Provided by</strong>: Wiktionary. <strong>Located at</strong>: <a target="_blank" href="http://en.wiktionary.org/wiki/The+American+Dream">http://en.wiktionary.org/wiki/The+American+Dream</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Boundless. <strong>Provided by</strong>: Boundless Learning. <strong>Located at</strong>: <a target="_blank" href="http://www.boundless.com//sociology/definition/corporate-elite">http://www.boundless.com//sociology/definition/corporate-elite</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Social structure of the United States. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/Social_structure_of_the_United_States">http://en.wikipedia.org/wiki/Social_structure_of_the_United_States</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/about/pdm">Public Domain: No Known Copyright</a></em></li><li>American upper class. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/American_upper_class">http://en.wikipedia.org/wiki/American_upper_class</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>investment. <strong>Provided by</strong>: Wiktionary. <strong>Located at</strong>: <a target="_blank" href="http://en.wiktionary.org/wiki/investment">http://en.wiktionary.org/wiki/investment</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>capital gain. <strong>Provided by</strong>: Wiktionary. <strong>Located at</strong>: <a target="_blank" href="http://en.wiktionary.org/wiki/capital_gain">http://en.wiktionary.org/wiki/capital_gain</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Social structure of the United States. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/Social_structure_of_the_United_States">http://en.wikipedia.org/wiki/Social_structure_of_the_United_States</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/about/pdm">Public Domain: No Known Copyright</a></em></li><li>educational attainment. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/educational%20attainment">http://en.wikipedia.org/wiki/educational%20attainment</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Upper middle class. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/Upper_middle_class">http://en.wikipedia.org/wiki/Upper_middle_class</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Boundless. <strong>Provided by</strong>: Boundless Learning. <strong>Located at</strong>: <a target="_blank" href="http://www.boundless.com//sociology/definition/salaried-professionals">http://www.boundless.com//sociology/definition/salaried-professionals</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Social structure of the United States. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/Social_structure_of_the_United_States">http://en.wikipedia.org/wiki/Social_structure_of_the_United_States</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/about/pdm">Public Domain: No Known Copyright</a></em></li><li>Campus Spring. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/File:Campus_Spring.jpg">http://en.wikipedia.org/wiki/File:Campus_Spring.jpg</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>American middle class. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/American_middle_class%23Lower_middle_class">http://en.wikipedia.org/wiki/American_middle_class%23Lower_middle_class</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Lower middle class. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/Lower_middle_class">http://en.wikipedia.org/wiki/Lower_middle_class</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Boundless. <strong>Provided by</strong>: Boundless Learning. <strong>Located at</strong>: <a target="_blank" href="http://www.boundless.com//sociology/definition/college-education">http://www.boundless.com//sociology/definition/college-education</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>White Collar. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/White%20Collar">http://en.wikipedia.org/wiki/White%20Collar</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>professional. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/professional">http://en.wikipedia.org/wiki/professional</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Social structure of the United States. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/Social_structure_of_the_United_States">http://en.wikipedia.org/wiki/Social_structure_of_the_United_States</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/about/pdm">Public Domain: No Known Copyright</a></em></li><li>Campus Spring. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/File:Campus_Spring.jpg">http://en.wikipedia.org/wiki/File:Campus_Spring.jpg</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Teacher. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/Teacher">http://en.wikipedia.org/wiki/Teacher</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/about/pdm">Public Domain: No Known Copyright</a></em></li><li>Working class. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/Working_class">http://en.wikipedia.org/wiki/Working_class</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Working class in the United States. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/Working_class_in_the_United_States">http://en.wikipedia.org/wiki/Working_class_in_the_United_States</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Blue Collar. <strong>Provided by</strong>: Wiktionary. <strong>Located at</strong>: <a target="_blank" href="http://en.wiktionary.org/wiki/Blue+Collar">http://en.wiktionary.org/wiki/Blue+Collar</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>working class. <strong>Provided by</strong>: Wiktionary. <strong>Located at</strong>: <a target="_blank" href="http://en.wiktionary.org/wiki/working_class">http://en.wiktionary.org/wiki/working_class</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>manual labor. <strong>Provided by</strong>: Wiktionary. <strong>Located at</strong>: <a target="_blank" href="http://en.wiktionary.org/wiki/manual_labor">http://en.wiktionary.org/wiki/manual_labor</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Social structure of the United States. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/Social_structure_of_the_United_States">http://en.wikipedia.org/wiki/Social_structure_of_the_United_States</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/about/pdm">Public Domain: No Known Copyright</a></em></li><li>Campus Spring. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/File:Campus_Spring.jpg">http://en.wikipedia.org/wiki/File:Campus_Spring.jpg</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Teacher. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/Teacher">http://en.wikipedia.org/wiki/Teacher</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/about/pdm">Public Domain: No Known Copyright</a></em></li><li>Battle strike 1934. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/File:Battle_strike_1934.jpg">http://en.wikipedia.org/wiki/File:Battle_strike_1934.jpg</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>American lower class. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/American_lower_class">http://en.wikipedia.org/wiki/American_lower_class</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>underclass. <strong>Provided by</strong>: Wiktionary. <strong>Located at</strong>: <a target="_blank" href="http://en.wiktionary.org/wiki/underclass">http://en.wiktionary.org/wiki/underclass</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Poverty line. <strong>Provided by</strong>: Wiktionary. <strong>Located at</strong>: <a target="_blank" href="http://en.wiktionary.org/wiki/Poverty+line">http://en.wiktionary.org/wiki/Poverty+line</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>public assistance. <strong>Provided by</strong>: Wiktionary. <strong>Located at</strong>: <a target="_blank" href="http://en.wiktionary.org/wiki/public_assistance">http://en.wiktionary.org/wiki/public_assistance</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>manual labor. <strong>Provided by</strong>: Wiktionary. <strong>Located at</strong>: <a target="_blank" href="http://en.wiktionary.org/wiki/manual_labor">http://en.wiktionary.org/wiki/manual_labor</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Social structure of the United States. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/Social_structure_of_the_United_States">http://en.wikipedia.org/wiki/Social_structure_of_the_United_States</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/about/pdm">Public Domain: No Known Copyright</a></em></li><li>Campus Spring. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/File:Campus_Spring.jpg">http://en.wikipedia.org/wiki/File:Campus_Spring.jpg</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Teacher. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/Teacher">http://en.wikipedia.org/wiki/Teacher</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/about/pdm">Public Domain: No Known Copyright</a></em></li><li>Battle strike 1934. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/File:Battle_strike_1934.jpg">http://en.wikipedia.org/wiki/File:Battle_strike_1934.jpg</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Gilbert model. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/File:Gilbert_model.png">http://en.wikipedia.org/wiki/File:Gilbert_model.png</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Income inequality in the United States. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/Income_inequality_in_the_United_States">http://en.wikipedia.org/wiki/Income_inequality_in_the_United_States</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Gender Wage Gap. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/Gender%20Wage%20Gap">http://en.wikipedia.org/wiki/Gender%20Wage%20Gap</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Boundless. <strong>Provided by</strong>: Boundless Learning. <strong>Located at</strong>: <a target="_blank" href="http://www.boundless.com//sociology/definition/race-wage-gap">http://www.boundless.com//sociology/definition/race-wage-gap</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Boundless. <strong>Provided by</strong>: Boundless Learning. <strong>Located at</strong>: <a target="_blank" href="http://www.boundless.com//sociology/definition/great-divergence">http://www.boundless.com//sociology/definition/great-divergence</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Social structure of the United States. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/Social_structure_of_the_United_States">http://en.wikipedia.org/wiki/Social_structure_of_the_United_States</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/about/pdm">Public Domain: No Known Copyright</a></em></li><li>Campus Spring. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/File:Campus_Spring.jpg">http://en.wikipedia.org/wiki/File:Campus_Spring.jpg</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Teacher. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/Teacher">http://en.wikipedia.org/wiki/Teacher</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/about/pdm">Public Domain: No Known Copyright</a></em></li><li>Battle strike 1934. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/File:Battle_strike_1934.jpg">http://en.wikipedia.org/wiki/File:Battle_strike_1934.jpg</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Gilbert model. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/File:Gilbert_model.png">http://en.wikipedia.org/wiki/File:Gilbert_model.png</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA: Attribution-ShareAlike</a></em></li><li>Income inequality in the United States. <strong>Provided by</strong>: Wikipedia. <strong>Located at</strong>: <a target="_blank" href="http://en.wikipedia.org/wiki/Income_inequality_in_the_United_States">http://en.wikipedia.org/wiki/Income_inequality_in_the_United_States</a>. <strong>License</strong>: <em><a target="_blank" rel="license" href="https://creativecommons.org/about/pdm">Public Domain: No Known Copyright</a></em></li></ul></div>              </div>
+            </div>
+          </section>
+        
+
+									<!-- edit page button -->
+									
+				<!-- page nav buttons -->
+				<nav class="bottom-nav-buttons" role="navigation">
+					<a class="post-nav-button" id="prev" href="https://courses.lumenlearning.com/boundless-sociology/chapter/social-class-in-the-u-s/">
+				Previous			</a>
+		
+					<a class="post-nav-button" id="next" href="https://courses.lumenlearning.com/boundless-sociology/chapter/social-mobility/">
+				Next			</a>
+			</nav>
+			</div><!-- #content -->
+
+			
+	<!-- This does nothing and exists only to block sidebar.php of the Luther theme from rendering. -->
+
+	</div><!-- #wrap -->
+	<div class="push"></div>
+
+	</div><!-- .wrapper for sitting footer at the bottom of the page -->
+
+<div class="footer">
+	<div class="inner">
+		<!-- logo options -->
+									<img class="lumen-footer-logo" src="https://courses.lumenlearning.com/boundless-sociology/wp-content/themes/bombadil/assets/images/FooterLumenCandela.png" alt="Footer Logo Lumen Candela" />
+						</div><!-- #inner -->
+</div><!-- #footer -->
+
+<script type='text/javascript' src='https://courses.lumenlearning.com/boundless-sociology/wp-content/themes/bombadil/assets/js/audio-behavior.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://courses.lumenlearning.com/boundless-sociology/wp-content/themes/bombadil/assets/js/hide-answer.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://courses.lumenlearning.com/boundless-sociology/wp-content/themes/bombadil/assets/js/lti-buttons.js?ver=4.9.8'></script>
+<script async type='text/javascript' src='https://courses.lumenlearning.com/boundless-sociology/wp-content/themes/pressbooks-book/dist/scripts/keyboard-nav.js?id=5530f96084c639f108ac'></script>
+<script type='text/javascript' src='https://courses.lumenlearning.com/boundless-sociology/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thePost = {"id":"305"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://courses.lumenlearning.com/boundless-sociology/wp-content/themes/bombadil/assets/js/attributions.js?ver=4.9.8'></script>
+<script>if (typeof sendIframeResize === "function") { sendIframeResize(); }</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0d4d84695b","applicationID":"12680714","transactionName":"ZQBaNkRZXEdZBkcLWlxKeQFCUV1aFxZaDFJeAA==","queueTime":0,"applicationTime":306,"atts":"SUdZQAxDT0k=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

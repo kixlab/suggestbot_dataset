@@ -1,0 +1,282 @@
+
+            
+                            * Atmosphere
+                * Heat
+                * Humans
+                * Land
+                * Life
+                * Natural Events
+                  * All
+                  * Drought
+                  * Dust and Haze
+                  * Earthquakes
+                  * Fires
+                  * Floods
+                  * Landslides
+                  * Man-made
+                  * Sea and Lake Ice
+                  * Severe Storms
+                  * Temperature Extremes
+                  * Unique Imagery
+                  * Volcanoes
+                  * Water Color
+                * Remote Sensing
+                * ![Snow & Ice](/img/topics/topic-snowIce.svg)Snow & Ice
+                * Water
+            
+                * Topics
+            
+
+![NASA](/img/logo-meatball2.png) ![NASA](/img/logo-meatball1.png)
+
+![Earth Observatory](/img/logoWhite.png) ![Earth Observatory](/img/logo.png)
+
+            
+                            *         *         * Images
+                * Global Maps
+                * Articles
+                * Blogs
+            
+
+Some features of this site are not compatible with your browser. Install Opera
+Mini to better experience this site.
+
+![NASA](/img/logo-meatball1.png) ![Earth Observatory](/img/logo.png)
+
+![1885-1894](/ContentWOC/images/decadaltemp/GISS_1885-1894.png)
+
+![](/ContentWOC/images/decadaltemp/giss_temperature_palette.png)
+
+play
+
+prev next
+
+7.6923076923077% Complete
+
+1885-94
+
+2005-14
+
+1885-94
+
+All
+
+The world is getting warmer. Whether the cause is human activity or natural
+variability--and the preponderance of evidence says it's humans--thermometer
+readings all around the world have risen steadily since the beginning of the
+Industrial Revolution. (Click on bullets above to step through the decades.)
+
+According to an ongoing temperature analysis conducted by scientists at NASA's
+Goddard Institute for Space Studies (GISS), the average global temperature on
+Earth has increased by about 0.8° Celsius (1.4° Fahrenheit) since 1880. Two-
+thirds of the warming has occurred since 1975, at a rate of roughly
+0.15-0.20°C per decade.
+
+But why should we care about one degree of warming? After all, the temperature
+fluctuates by many degrees every day where we live.
+
+The global temperature record represents an average over the entire surface of
+the planet. The temperatures we experience locally and in short periods can
+fluctuate significantly due to predictable cyclical events (night and day,
+summer and winter) and hard-to-predict wind and precipitation patterns. But
+the global temperature mainly depends on how much energy the planet receives
+from the Sun and how much it radiates back into space--quantities that change
+very little. The amount of energy radiated by the Earth depends significantly
+on the chemical composition of the atmosphere, particularly the amount of
+heat-trapping greenhouse gases.
+
+A one-degree _global_ change is significant because it takes a vast amount of
+heat to warm all the oceans, atmosphere, and land by that much. In the past, a
+one- to two-degree drop was all it took to plunge the Earth into the Little
+Ice Age. A five-degree drop was enough to bury a large part of North America
+under a towering mass of ice 20,000 years ago.
+
+The maps above show temperature anomalies, or changes, not absolute
+temperature. They depict how much various regions of the world have warmed or
+cooled when compared with a base period of 1951-1980. (The global mean surface
+air temperature for that period was estimated to be 14°C (57°F), with an
+uncertainty of several tenths of a degree.) In other words, the maps show how
+much warmer or colder a region is compared to the norm for that region from
+1951-1980.
+
+Global temperature records start around 1880 because observations did not
+sufficiently cover enough of the planet prior to that time. The period of
+1951-1980 was chosen largely because the U.S. National Weather Service uses a
+three-decade period to define "normal" or average temperature. The GISS
+temperature analysis effort began around 1980, so the most recent 30 years was
+1951-1980. It is also a period when many of today's adults grew up, so it is a
+common reference that many people can remember.
+
+The line plot below shows yearly temperature anomalies from 1880 to 2014 as
+recorded by NASA, NOAA, the Japan Meteorological Agency, and the Met Office
+Hadley Centre (United Kingdom). Though there are minor variations from year to
+year, all four records show peaks and valleys in sync with each other. All
+show rapid warming in the past few decades, and all show the last decade as
+the warmest.
+
+![Annual Temperature
+
+Anomoly](/ContentWOC/images/decadaltemp/annual_temperature_anomalies_2014.png)
+
+To conduct its analysis, GISS uses publicly available data from 6,300
+meteorological stations around the world; ship- and buoy-based observations of
+sea surface temperature; and Antarctic research station measurements. These
+three data sets are loaded into a computer analysis program--available for
+public download from the GISS web site--that calculates trends in temperature
+anomalies relative to the average temperature for the same month during
+1951-1980.
+
+The objective, according to GISS scientists, is to provide an estimate of
+temperature change that could be compared with predictions of global climate
+change in response to atmospheric carbon dioxide, aerosols, and changes in
+solar activity.
+
+As the maps show, global warming doesn't mean temperatures rose everywhere at
+every time by one degree. Temperatures in a given year or decade might rise 5
+degrees in one region and drop 2 degrees in another. Exceptionally cold
+winters in one region might be followed by exceptionally warm summers. Or a
+cold winter in one area might be balanced by an extremely warm winter in
+another part of the globe.
+
+Generally, warming is greater over land than over the oceans because water is
+slower to absorb and release heat (thermal inertia). Warming may also differ
+substantially within specific land masses and ocean basins. The graph below
+shows the long-term temperature trends in relation to El Niño or La Niña
+events, which can skew temperatures warmer or colder in any one year. Orange
+bars represent global temperature anomalies in El Niño years, with the red
+line showing the longer trend. Blue bars depict La Niña years, with a blue
+line showing the trend. Neutral years are shown in gray, and the black line
+shows the overall temperature trend since 1950.
+
+![Annual Temperature vs
+
+Average](/ContentWOC/images/decadaltemp/graph_gis_2014.png)
+
+Since the year 2000, land temperature changes are 50 percent greater in the
+United States than ocean temperature changes; two to three times greater in
+Eurasia; and three to four times greater in the Arctic and the Antarctic
+Peninsula. Warming of the ocean surface has been largest over the Arctic
+Ocean, second largest over the Indian and Western Pacific Oceans, and third
+largest over most of the Atlantic Ocean.
+
+In the global maps at the top of this page, the years from 1885 to 1945 tend
+to appear cooler (more blues than reds), growing less cool as we move toward
+the 1950s. Decades within the base period do not appear particularly warm or
+cold because they are the standard against which all decades are measured. The
+leveling off between the 1940s and 1970s may be explained by natural
+variability and possibly by cooling effects of aerosols generated by the rapid
+economic growth after World War II.
+
+Fossil fuel use also increased in the post-War era (5 percent per year),
+boosting greenhouse gases. But aerosol cooling is more immediate, while
+greenhouse gases accumulate slowly and take much longer to leave the
+atmosphere. The strong warming trend of the past three decades likely reflects
+a shift from comparable aerosol and greenhouse gas effects to a predominance
+of greenhouse gases, as aerosols were curbed by pollution controls, according
+to GISS director Jim Hansen.
+
+            
+                            1. #### References
+            
+                2. Hansen, J., R. Ruedy, M. Sato, and K. Lo (2010). Global surface temperature change. _Reviews of Geophysics,_ 48 (RG4004)
+                3. National Academy of Sciences (2010). Advancing the Science of Climate Change. Accessed December 1, 2010.
+                4. NASA (2010, January 21). 2009: Second Warmest Year on Record; End of Warmest Decade. Accessed November 30, 2010.
+                5. NASA (2010, January 21). NASA Climatologist Gavin Schmidt Discusses the Surface Temperature Record. Accessed November 30, 2010.
+                6. NASA Earth Observatory (2010, June 3) Fact Sheet: Global Warming. November 30, 2010.
+                7. NASA Goddard Institute for Space Studies (n.d.). GISS Surface Temperature Analysis.  Accessed November 30, 2010.
+                8. NOAA National Climatic Data Center (n.d.). Global Warming Frequently Asked Questions. Accessed December 1, 2010.
+                9. NOAA Paleoclimatology. (n.d.) Climate Timeline Tool: Climate Resources for 1000 Years. Accessed December 1, 2010.
+            
+
+### World of Change: Global Temperatures
+
+**World Of Change**  
+Antarctic Ozone Hole  
+Shrinking Aral Sea  
+Padma River  
+Columbia Glacier, Alaska  
+Growing Deltas in Atchafalaya Bay  
+Water Level in Lake Powell  
+Recovery at Mt. St. Helens  
+Antarctic Sea Ice  
+Arctic Sea Ice  
+Snowpack in the Sierra Nevada  
+Sprawling Shanghai  
+Athabasca Oil Sands  
+Coastline Change  
+Ice Loss in Glacier National Park  
+Mountaintop Mining, West Virginia  
+Development of Orlando, Florida  
+Global Temperatures  
+Amazon Deforestation  
+Fire in Etosha National Park  
+Green Seasons of Maine  
+Drought Cycles in Australia  
+Burn Recovery in Yellowstone  
+Severe Storms  
+Seasons of the Indus River  
+Urbanization of Dubai  
+Seasons of Lake Tahoe  
+Solar Activity  
+Larsen-B Ice Shelf  
+Mesopotamia Marshes  
+Yellow River Delta  
+El Niño, La Niña, and Rainfall  
+Global Biosphere
+
+Atmosphere Heat Land Water Human Presence World of Change
+
+# Subscribe
+
+to our newsletters
+
+![Earth Observatory](/img/logo-mark.svg)
+
+            
+                            * ![Facebook](/img/social-facebook.svg)
+                * ![Twitter](/img/social-twitter.svg)
+                * ![Instagram](/img/social-instagram.svg)
+                * ![RSS](/img/social-rss.svg)
+            
+                * Feeds
+                * Contact
+                * About
+                * Image Use Policy
+                * Privacy Policy
+            
+
+Webmaster Paul Przyborski
+
+NASA Official Robert Levy
+
+The Earth Observatory is part of the  
+EOS Project Science Office at  
+NASA Goddard Space Flight Center
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication _[C.]: Century_ [m.]: married _[FT]:
+Financial Times_ [ _]: required_ [MB]: megabytes
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+  *[m.]: married
+  *[FT]: Financial Times
+  *[*]: required
+  *[MB]: megabytes
+

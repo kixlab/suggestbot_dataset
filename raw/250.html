@@ -1,0 +1,616 @@
+<!DOCTYPE html><html lang="en" xmlns:fb="http://www.facebook.com/2008/fbml"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link rel="stylesheet" href="//smallbusiness.chron.com/style.css" type="text/css"><link rel="shortcut icon" href="//smallbusiness.chron.com/favicon.ico"><link rel="icon" href="//smallbusiness.chron.com/favicon.ico"><!-- Custom Dimension dataLayer --><script title="dataLayer" type="text/javascript">
+  var dataLayer = [] || window.dataLayer;
+
+  function getPublishedDateISO() {
+    var pubDate ="2013-07-18 04:16:00" || "2013-07-17 22:31:39.226000" || null
+
+    if (pubDate) {
+      return new Date(pubDate.replace(/ /g, 'T')).toISOString()
+    } else {
+      return
+    }
+  }
+
+  function getUpdatedDateISO() {
+    var updateDate ="2013-07-17 22:31:39.226000" || null
+
+    if (updateDate) {
+      return new Date(updateDate.replace(/ /g, 'T')).toISOString()
+    } else {
+      return
+    }
+  }
+
+  function create_UUID() {
+     var pow = Math.pow(10, 10);
+     var uuid = Math.floor(Math.random()*pow) + '.' + Math.floor(Math.random()*pow);
+     return uuid;
+  }
+
+  function find_ppid() {
+     if(!localStorage.getItem('ppid')) {
+        ppid = create_UUID();
+        localStorage.setItem('ppid', ppid);
+        return ppid;
+     } else {
+        return localStorage.getItem('ppid');
+     }
+  }
+
+  var ppid = find_ppid() || '';
+
+  dataLayer.push({
+    "pagetype": "Article",
+    "subpagetype": "Topic View",
+    "pageview_type": "standard",
+    "studioid": "2ca2b87f-d930-4ff2-b6cb-5a205c672c14",
+    "content_id": "",
+    "content_name": "Is RAM for Temporary Storage?",
+    "author": "Micah McDunnigan",
+    "lg_uuid": ppid,
+    "scroll": 0,"category": "Business Technology &amp; Customer Support","subcategory": "Computers","adcat1": "technology_computing","adcat2": "hardware","adcat3": "computer_peripherals","topic1": [],
+    "topic2": [],
+    "topic3": [],
+    "tags": [],
+    "published": getPublishedDateISO() || getUpdatedDateISO() || '', 
+    "updated": getUpdatedDateISO() || getPublishedDateISO() || ''
+  })
+</script><!-- End Custom Dimension dataLayer --><script type="text/javascript">
+  // Determine WebP Support
+// Adapted from https://github.com/Modernizr/Modernizr/blob/master/feature-detects/img/webp.js
+(function() {
+	webp_flag = false;
+ 	var image = new Image();
+	image.src = 'data:image/webp;base64,UklGRiwAAABXRUJQVlA4ICAAAAAUAgCdASoBAAEAL/3+/3+CAB/AAAFzrNsAAP5QAAAAAA==';
+	image.onload = function() {
+		webp_flag = (image.width == 1);
+	}
+})();
+
+if (typeof $ !== 'undefined'){
+	// Lazy Load Images
+	$.fn.lazyImage = function(callback) {
+		var imgLen = this.length,
+				count = 0;
+		return this.each(function() {
+			if ($(this).attr('data-src')) {
+				var imgTag = this, imgSrc = $(this).attr('data-src'), del;
+				if (webp_flag) {
+					// Checks that image is using DM Resize and is not a .gif file
+					if (imgSrc.match(/DM\-Resize/g) && imgSrc.match(/webp=1/g) && (imgSrc.indexOf('.gif') == -1)) {
+						imgSrc = imgSrc + '&format=webp&quality=80';
+					}
+				}
+				i = new Image();
+				i.onload = function() {
+					$(imgTag).attr('src',imgSrc).fadeTo(400,1,function() {
+						(count += 1) && (imgLen == count) && (typeof callback == 'function') && callback.call(this);
+					});
+				};
+				i.src = imgSrc;
+			}
+		});
+	};
+
+	// Post Load Scripts
+	function lazyScript(check, url, callback) {
+		if ( ! check() ) { return; }
+		$.ajax({
+			url: url,
+			dataType: 'script',
+			success: callback,
+			cache: true
+		});
+	};
+}
+
+
+
+// *** helper functions for removing jquery *** //
+
+// cross-browser doc ready function
+function docReady(callback) {
+	if (document.readyState != 'loading'){
+		callback();
+	} else if (document.addEventListener) {
+		document.addEventListener('DOMContentLoaded', callback);
+	} else {
+		document.attachEvent('onreadystatechange', function() {
+			if (document.readyState != 'loading')
+				callback();
+		});
+	}
+}
+
+// cross-browser add event listener (IE8)
+function addListener(el, eventName, handler) {
+	if (el && el.addEventListener)
+		el.addEventListener(eventName, handler);
+	else if (el && el.attachEvent) {
+		el.attachEvent('on' + eventName, function(){
+			handler.call(el);
+		});
+	} else
+		return false;
+		//console.error("couldn't attach event: " + eventName + " to element: " + el);
+}
+
+function removeClass(el, className){
+	if (el && el.classList)
+		el.classList.remove(className);
+	else if (el)
+		el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+	else
+		return false;
+		//console.error("couldn't remove class: " + className + " from element: " + el);
+}
+
+function addClass(el, className){
+	if (el && el.classList)
+	  el.classList.add(className);
+	else if (el)
+	  el.className += ' ' + className;
+	else
+		return false;
+		//console.error("couldn't add class: " + className + " to element: " + el);
+}
+
+function hasClass(el, className){
+	if (el && el.classList)
+	  return el.classList.contains(className);
+	else if (el)
+	  return new RegExp('(^| )' + className + '( |$)', 'gi').test(el.className);
+	else
+		return null;
+}
+
+function getIndex(el){
+  let i = 0;
+  while (el.previousSibling != null){
+    if (el.previousSibling.nodeType == 1){
+      // only count actual elements, not text nodes
+      i++;
+    }
+    el = el.previousSibling;
+  }
+  return i;
+}
+
+//add forEach support for IE 8
+if (typeof Array.prototype.forEach != 'function') {
+  Array.prototype.forEach = function(callback){
+    for (var i = 0; i < this.length; i++){
+      callback.apply(this, [this[i], i, this]);
+    }
+  };
+}
+</script><!-- Permutative Global --><script> !function(n,e,o,r,i){if(!e){e=e||{},window.permutive=e,e.q=[],e.config=i||{},e.config.projectId=o,e.config.apiKey=r,e.config.environment=e.config.environment||"production";for(var t=["addon","identify","track","trigger","query","segment","segments","ready","on","once","user","consent"],c=0;c<t.length;c++){var f=t[c];e[f]=function(n){return function(){var o=Array.prototype.slice.call(arguments,0);e.q.push({functionName:n,arguments:o})}}(f)}}}(document,window.permutive,"5814efa5-d41d-4a89-b176-1cc26fae87cd","e4ecf9e0-0a2f-42d6-a720-8fff2402c221",{});  
+window.googletag=window.googletag||{},window.googletag.cmd=window.googletag.cmd||[],window.googletag.cmd.push(function(){if(0===window.googletag.pubads().getTargeting("permutive").length){var g=window.localStorage.getItem("_pdfps");window.googletag.pubads().setTargeting("permutive",g?JSON.parse(g):[])}});
+
+window.permutive.addon('web', {
+  "page": {
+    "pagetype": "Article",
+    "subpagetype": "Topic View",
+    "pageview_type": "standard",
+    "content_name": "Is RAM for Temporary Storage?","adcat1": "technology_computing","adcat2": "hardware","adcat3": "computer_peripherals","tags": [],
+    "published": window.getPublishedDateISO() || window.getUpdatedDateISO() || '', 
+    "updated": window.getUpdatedDateISO() || window.getPublishedDateISO() || '',
+    "topic1": [],
+    "topic2": [],
+    "topic3": [],
+    "content_name": "Is RAM for Temporary Storage?",
+    "scroll": 0,
+    "user": {
+      "lg_uuid": ppid
+    }
+  }
+})
+
+window.permutive.readyWithTimeout=function(e,i,t){var u=!1,n=function(){u||(e(),u=!0)};(t=t||1/0)!==1/0&&window.setTimeout(n,t),permutive.ready(n,i)};
+</script><script async src="https://cdn.permutive.com/5814efa5-d41d-4a89-b176-1cc26fae87cd-web.js"></script><!-- Bing Webmaster Tool Auth --><meta name="msvalidate.01" content="129B5DE6FF8DD0ECBDD457C93FF101E3"><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://smallbusiness.chron.com/ram-temporary-storage-71143.html",
+  "url": "https://smallbusiness.chron.com/ram-temporary-storage-71143.html",
+  "name":"Is RAM for Temporary Storage?",
+  "breadcrumb":{
+    "@type":"BreadcrumbList",
+    "itemListElement":[
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Website",
+          "@id": "https://smallbusiness.chron.com/computers/",
+          "url": "https://smallbusiness.chron.com/computers/",
+          "name": "Computers"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Website",
+          "@id": "https://smallbusiness.chron.com/business-technology-customer-support/",
+          "url": "https://smallbusiness.chron.com/business-technology-customer-support/",
+          "name": "Business Technology &amp; Customer Support"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Website",
+          "@id": "https://smallbusiness.chron.com/",
+          "url": "https://smallbusiness.chron.com/",
+          "name": "Small Business"
+        }
+      }
+    ]
+  },
+  "inLanguage":"en-US",
+  "mainEntity":{
+    "@type":"Article",
+    "@id": "https://smallbusiness.chron.com/ram-temporary-storage-71143.html",
+    "url": "https://smallbusiness.chron.com/ram-temporary-storage-71143.html",
+    "mainEntityOfPage": "true",
+    "datePublished":"2013-07-18 04:16:00",
+    "dateModified":"2016-10-26 17:33:40.784000",
+    "headline": "Is RAM for Temporary Storage?",
+    "description":"Is RAM for Temporary Storage?. Computers store long-term data in two places: their storage drives, and the read-only memory chips on the motherboards that store firmware. The RAM sticks are for the processor to store the data programs need while they are running, but are unnecessary after you exit the programs. Even though they are only for temporary data, having a sufficient amount of RAM for your computers&#39; workload is essential for them to run properly.",
+    "keywords": "RAM temporary storage, random access memory, what is RAM",
+    "Publisher": {
+      "@type": "Organization",
+      "name": "Chron.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://smallbusiness.chron.com/images/channel-logo.png"}
+    },
+    "Author":{
+      "@type":"person",
+      "name":"Micah McDunnigan"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://photos.demandstudios.com/getty/article/170/147/dv264003_XS.jpg",
+      "height": "400",
+      "width": "313"
+    }
+  }
+}
+</script><title>Is RAM for Temporary Storage? | Chron.com</title><meta name="description" content="Computers store long-term data in two places: their storage drives, and the read-only memory chips on the motherboards that store firmware. The RAM sticks are for the processor to store the data programs need while they are running, but are unnecessary after you exit the programs. Even though they are only for ..."><meta property="og:type" content="article"><meta property="og:description" content="Computers store long-term data in two places: their storage drives, and the read-only memory chips on the motherboards that store firmware. The RAM sticks are for the processor to store the data programs need while they are running, but are unnecessary after you exit the programs. Even though they are only for ..."><meta property="og:title" content="Is RAM for Temporary Storage?"><meta property="og:image" content="//img-aws.ehowcdn.com/340x221p/photos.demandstudios.com/getty/article/170/147/dv264003.jpg"><link rel="canonical" href="https://smallbusiness.chron.com/ram-temporary-storage-71143.html"><script type="text/javascript">
+        var adwiz_errors = '',
+            JuicePageUrl = "",
+	    taxOverride = null,
+            secOverride = null,
+	    cccOverride = null,
+	    YSMTier,
+	    YSMCategory,
+	    APSpageUrl,
+	    juice_errors = "";
+        
+
+	var juiceURL = (window.location.href.slice(-1) === '/') ?  window.location.href.slice(0,-1) :  window.location.href;
+	juiceURL = (juiceURL.toLowerCase().indexOf('http://') == 0) ?  juiceURL.substr(7, juiceURL.length) : juiceURL;
+	juiceURL = (juiceURL.toLowerCase().indexOf('https://') == 0) ?  juiceURL.substr(8, juiceURL.length) : juiceURL;
+	juiceURL = juiceURL.substr(0, 300);
+        JuicePageUrl = juiceURL;	   
+
+        !function (e, f, u, i) {
+          if (!document.getElementById(i)){
+            e.async = 1;
+            e.src = u;
+            e.id = i;
+            f.parentNode.insertBefore(e, f);
+          }
+        }(document.createElement('script'),
+        document.getElementsByTagName('script')[0],
+	"https://aps.hearstnp.com/SRO/GetJS?url="+ juiceURL,
+        'partner_ad_render');
+
+        var VIEWPORT_WIDTH = document.documentElement.clientWidth || document.body.clientWidth;
+
+
+        var scriptSrc;
+        if (VIEWPORT_WIDTH < 775) {
+            // Mobile script src
+            scriptSrc = '//cdn.taboola.com/libtrc/hearstlocalnews-chronmobile/loader.js ';
+        } else {
+            // Desktop script src
+            scriptSrc = '//cdn.taboola.com/libtrc/hearstlocalnews-chron/loader.js ';
+        }
+        window._taboola = window._taboola || [];
+        _taboola.push({other:'auto'});
+        !function (e, f, u, i) {
+        if (!document.getElementById(i)){
+          e.async = 1;
+          e.src = u;
+          e.id = i;
+          f.parentNode.insertBefore(e, f);
+        }
+        }(document.createElement('script'),
+        document.getElementsByTagName('script')[0],
+        scriptSrc,
+        'tb_loader_script');
+        if(window.performance && typeof window.performance.mark == 'function')
+        {window.performance.mark('tbl_ic');}
+    </script></head> <body id="article-template" class="smallbusiness article topic-view"> <!-- body-top --> <!-- google tag manager --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WGZCHF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WGZCHF');</script> <!-- end google tag manager --><!-- end body-top --><header id="header" class="clearfix"><style>
+.site-nav {
+    background: #000;
+    height: 50px;
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+.shadow-nav {
+    -moz-box-shadow: 0 3px 4px -2px #222;
+    -webkit-box-shadow: 0 3px 4px -2px #222;
+    box-shadow: 0 3px 4px -2px #222;
+    height: 10px;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    z-index: 401;
+}
+.site-nav .innerWrap {
+    display: flex;
+    float: none;
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+}
+ul.topnav {
+    clear: both;
+    display: flex;
+    height: 50px;
+    list-style: none;
+    z-index: 400;
+}
+ul.topnav li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+ul.topnav li a {
+    color: #FFF;
+    float: left;
+    font-size: 15px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-style: bold;
+    font-family: 'RobotoBold',arial,sans-serif;    
+}
+.no-mobile-header {
+    width: 120px;
+}
+li.home.mobile-header {
+    width: 120px;
+    margin-right: 60px;
+}
+
+li.mobile-back-button.mobile-header {
+   display: none;		    
+}
+.mobile-logo { 
+   background: url("https://www.chron.com/img/logo.svg") no-repeat;
+   background-position: 0 0;
+   background-size: 138px 84px;
+   margin-bottom: -moz-calc((55px - 28px) / 2);
+   margin-bottom: -webkit-calc((55px - 28px) / 2);
+   margin-bottom: -o-calc((55px - 28px) / 2);
+   margin-bottom: calc((55px - 28px) / 2);
+   margin-top: -moz-calc((55px - 28px) / 2);
+   margin-top: -webkit-calc((55px - 28px) / 2);
+   margin-top: -o-calc((55px - 28px) / 2);
+   margin-top: calc((55px - 28px) / 2);
+   display: flex;
+   float: left;
+   height: 28px;
+   margin-left: auto;
+   margin-right: auto;
+   webkit-transform: rotate(0deg);
+   moz-transform: rotate(0deg);
+   ms-transform: rotate(0deg);
+   o-transform: rotate(0deg);
+   transform: rotate(0deg);
+   width: 138px;
+}
+.leaderboard {
+    display: block;
+    height: 90px;
+    padding: 2px 0 2px 0;
+    float: none;
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+}
+
+@media (max-width: 980px)  {
+ .leaderboard,
+ .no-mobile-header {
+    display: none;
+ }
+
+ .hst-siteheader {
+    top: 0;
+    position: fixed;
+    z-index: 40;
+    width: 100%;
+ }
+ 
+ li.home.mobile-header {
+    margin-left: 25px;
+    text-align: center;
+ }
+
+ li.mobile-back-button.mobile-header {
+    display: flex;
+    margin-left: 12px;
+ }
+
+ #page {
+    margin-top: 50px;
+ }
+}
+</style> <div class="leaderboard"><!-- Begin Hearst Ad --> <div id="A728"></div> <!-- End Hearst Ad --></div> <div class="hst-siteheader"> <nav id="siteNav" class="site-nav"> <div class="shadow-nav"></div> <div class="innerWrap"> <ul class="topnav"> <li class="mobile-back-button mobile-header"> <a href="//smallbusiness.chron.com/" data-event="back nav" aria-label="Back to home button"> <svg height="40" width="25" viewbox="0 0 40 25"> <path style="stroke:white;stroke-width:5;fill:none;" d="M25 40 L3 20 L25 0"></path> </svg> </a> </li> <li class="home mobile-header"> <a href="https://www.chron.com" target="_blank" aria-label="Home link"> <div class="mobile-logo"></div></a> </li> <li class="no-mobile-header"><a href="http://www.chron.com/news/houston-texas/">Local</a></li> <li class="no-mobile-header"><a href="http://www.chron.com/news/nation-world/">US &amp; World</a></li> <li class="no-mobile-header"><a href="http://www.chron.com/sports/">Sports</a></li> <li class="no-mobile-header"><a href="http://www.chron.com/business/">Business</a></li> <li class="no-mobile-header"><a href="http://www.chron.com/entertainment/">A&amp;E</a></li> <li class="no-mobile-header"><a href="http://www.chron.com/life/">Life</a></li> <li class="no-mobile-header"><a href="http://www.chron.com/jobs/">Jobs</a></li> <li class="no-mobile-header"><a href="https://cars.chron.com/">Cars</a></li> <li class="no-mobile-header"><a href="http://www.chron.com/homes/">Real Estate</a></li> </ul> </div> </nav> </header> </header><div id="page"><a href="#main" id="skipLink">Skip to main content.</a><div id="content" class="clearfix"><nav id="breadcrumbs"> <ol class="clearfix"> <li> <a href="https://smallbusiness.chron.com/"> Small Business</a><span class="sep">&raquo;</span></li> <li> <a href="https://smallbusiness.chron.com/business-technology-customer-support/"> Business Technology & Customer Support</a><span class="sep">&raquo;</span></li> <li> <a href="https://smallbusiness.chron.com/computers/"> Computers</a><span class="sep">&raquo;</span></li> </ol> </nav><div id="main"> <header id="title"> <h1>Is RAM for Temporary Storage?</h1> <cite> <i>by Micah McDunnigan</i> </cite> </header> <article id="article-section"> <div id="top-image" class="clearfix"> <figure id="main-article-photo" class="article-image"> <img src="//img-aws.ehowcdn.com/340x221p/photos.demandstudios.com/getty/article/170/147/dv264003.jpg" onerror="this.src = '/images/logo-fallback.svg'" alt="Sufficient RAM is essential for running multiple applications on your computers." title="Photodisc/Photodisc/Getty Images"> <figcaption class="article-image-credits"> <p class="photo-cap">Sufficient RAM is essential for running multiple applications on your computers.</p> <p class="photo-attribution">Photodisc/Photodisc/Getty Images</p> </figcaption> </figure><div id="related-articles"> <h3>Related Articles</h3> <ul> <li><span>1 </span><a href="//smallbusiness.chron.com/difference-between-pc-memory-hard-drive-capacity-66908.html">What Is the Difference Between PC Memory & Hard Drive Capacity?</a></li> <li><span>2 </span><a href="//smallbusiness.chron.com/difference-sram-dram-67940.html">The Difference in SRAM & DRAM</a></li> <li><span>3 </span><a href="//smallbusiness.chron.com/hard-drive-size-affect-computer-68979.html">How Does Hard Drive Size Affect a Computer?</a></li> <li><span>4 </span><a href="//smallbusiness.chron.com/full-can-hard-drive-computer-run-properly-70004.html">How Full Can Your Hard Drive Be for Your Computer to Run Properly?</a></li> </ul> </div> </div> <div id="section-0" class="section summary"><p><p>Computers store long-term data in two places: their storage drives, and the read-only memory chips on the motherboards that store firmware. The RAM sticks are for the processor to store the data programs need while they are running, but are unnecessary after you exit the programs. Even though they are only for temporary data, having a sufficient amount of RAM for your computers' workload is essential for them to run properly.</p></p> </div> <script>
+		var VIEWPORT_WIDTH = document.documentElement.clientWidth || document.body.clientWidth;
+		if (VIEWPORT_WIDTH > 500) {
+
+
+		       
+   	                  document.write('<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></scr'+'ipt><ins class="adsbygoogle" style="display:inline-block;min-width:320px;max-width:390px;width:100%;height:125px" data-ad-client="ca-pub-3235755782694080" data-ad-slot="1166178349"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</scr'+'ipt>');
+
+		    
+
+		 
+		} else {
+
+		       
+		          document.write('<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></scr'+'ipt><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3235755782694080" data-ad-slot="6655448747" data-ad-format="link"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</scr'+'ipt>');
+
+		    
+		}
+		</script> <div id="section-1" class="section"><h2>Random Access Memory</h2> <p><p>Random access memory, as its name suggests, is for your computer to store the random data which programs generate and use during the course of their execution. You can think of the RAM as scratch paper for your programs. Just as you throw away scratch paper you use for calculations once you have your final figure, your computer disregards the data it stores in its RAM once the processes are complete.</p></p> </div><div id="section-2" class="section"><h2>Limitations</h2> <p><p>RAM is both used for temporary storage, and from a technical perspective it is only capable of temporary storage. The hard drive is capable of storing information after the computer turns off, but RAM is not. Once your computer turns off, any data that was in your RAM sticks is lost.</p></p> <script>
+		var VIEWPORT_WIDTH = document.documentElement.clientWidth || document.body.clientWidth;
+		if (VIEWPORT_WIDTH > 500) {
+
+	   	            document.write('<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></scr'+'ipt><!-- SMALLBUSINESS_LOWLINE --><ins class="adsbygoogle" style="display:inline-block;min-width:320px;max-width:1200px;width:100%;height:75px" data-ad-client="ca-pub-3235755782694080" data-ad-slot="1530628549"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</scr'+'ipt>');	        
+		} 
+		</script> </div><div id="section-3" class="section"><h2>Overflow</h2> <p><p>Some operating systems, such as UNIX-based systems and Windows, use a special partition set aside on the hard drive called swap space as extra temporary memory. When your computer runs out of space to store temporary data on the RAM sticks, the extra data flows over into the swap space. It takes the processor longer to read data from the hard drive than it does from RAM, but still leads to better performance than the system running out of temporary storage space entirely.</p></p> </div><div id="section-4" class="section"><h2>Performance</h2> <p><p>The availability of memory for temporary storage has a huge impact on how your computer operates. The more programs you have running, the more temporary data your computer has to store. When your computer runs out of temporary storage, then certain processes will have to stop until space opens up. You will see this on your computer as sluggish performance and your machine occasionally freezing up. The more RAM your computer has for temporary storage, the smoother the computer will run.</p></p> </div> <script>
+        var ad_height,
+            adblocked_ad_height,
+            VIEWPORT_WIDTH = document.documentElement.clientWidth || document.body.clientWidth;
+
+        if (VIEWPORT_WIDTH > 500) {
+            ad_height = '455px';
+            adblocked_ad_height = '250px';
+        } else {
+            ad_height = '550px';
+            adblocked_ad_height = '425px';
+        }
+    </script> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <div id="google-article-block" class="main-ad pub_300x250 pub_300x250m pub_728x90 text-ad textAd text_ad text_ads text-ads text-ad-links"> <!-- WORK_MAIN --> <ins id="ggads" class="adsbygoogle" style="display:inline-block;min-width:320px;max-width:1200px;width:100%;" data-ad-client="ca-pub-3235755782694080" data-ad-slot="2642911548"> </ins> <script>
+        document.getElementById('ggads').style.height = ad_height;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script> </div> <div id="adReplacement"></div> <style>
+      /* This style seem important, DO NOT REMOVE */
+      #adReplacement {
+        display: block !important;
+      }
+
+      #adReplacement script, .adsbygoogle script, .inline-ad script {
+       display: none !important;
+      }
+    </style> <script src="/scripts/detectab.js"></script> <script>
+      function replaceAds(){
+          var mainAd = document.querySelector('#google-article-block');
+          var linkAd = document.querySelector('#radlinks');
+
+          document.write = function(content) {
+              document.querySelector('#adReplacement').innerHTML = content;
+          }
+
+          mainAd.parentNode.removeChild(mainAd);
+          linkAd.parentNode.removeChild(linkAd);
+
+          document.write('<ins id="ggabads" class="adsbygoogle" style="display:inline-block;min-width:320px;max-width:1200px;width:100%;height:250px" data-ad-client="ca-pub-3235755782694080" data-ad-slot="3138963539"></ins>');
+
+          document.getElementById('ggabads').style.height = adblocked_ad_height;
+
+          var adBlockLinkUnit = '<ins class="adsbygoogle" style="display:block;height:190px;" data-ad-client="ca-pub-3235755782694080" data-ad-slot="8467311836" data-ad-format="link" data-full-width-responsive="true"></ins>';
+          document.querySelector('#adblock-link-unit').innerHTML = adBlockLinkUnit;
+
+         (adsbygoogle = window.adsbygoogle || []).push({});
+          adsbygoogle.push({});
+
+          // Display sidebar ad
+          // window._taboola = window._taboola || [];
+          // _taboola.push({
+          //   mode: 'thumbnails-rr-abp-mode',
+          //   container: 'taboola-right-rail-abp-thumbnails',
+          //   placement: 'Right Rail ABP Thumbnails'
+          // });
+
+      }
+    docReady(function() {
+      AdblockPlus.detect("px.gif", function(usesABP)
+      {
+        if (usesABP) {
+          replaceAds();
+        } else {
+          // window._taboola = window._taboola || [];
+          // _taboola.push({mode:'thumbs-2r', container:'taboola-below', placement:'below'});
+        }
+
+      });
+    });
+    </script> <!-- Taboola --> <div id="taboola-below-article-thumbnails"></div> <script type="text/javascript">
+      window._taboola = window._taboola || [];
+      _taboola.push({
+        mode: 'thumbnails-a',
+        container: 'taboola-below-article-thumbnails',
+        placement: 'Below Article Thumbnails - Demand',
+        target_type: 'mix'
+      });
+    </script> <div class="s2nPlayer k-VtBBB6Nk" data-type="float"></div> <div id="references2" class="section"> <h4>References <span id="references_count">(3)</span></h4> <ul><li><a href="http://www.pcmag.com/encyclopedia/term/50159/ram" rel="nofollow">PCMag Encyclopedia: Definition of - RAM</a></li><li><a href="http://www.pcmag.com/encyclopedia/term/42192/dynamic-ram" rel="nofollow">PCMag Encyclopedia: Definition of Dynamic RAM</a></li><li><a href="http://www.centos.org/docs/5/html/5.1/Deployment_Guide/s1-swap-what-is.html" rel="nofollow">CentOS: What is Swap Space?</a></li></ul> </div> <div id="author" class="section"> <h4>About the Author</h4> <p>Micah McDunnigan has been writing on politics and technology since 2007. He has written technology pieces and political op-eds for a variety of student organizations and blogs. McDunnigan earned a Bachelor of Arts in international relations from the University of California, Davis.</p> </div> <div id="photo-credits" class="section"> <h4>Photo Credits</h4> <ul> <li>Photodisc/Photodisc/Getty Images</li> </ul> </div> <link type="text/css" media="all" rel="stylesheet" href="/css/citation.css"> <div class="citation-widget"> <svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" width="76px" height="76px" viewbox="0 0 76 76" version="1.1"> <title>bibliography-icon</title> <desc>icon for annotation tool</desc> <defs/> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Group"> <circle id="bg-circle" class="custom-color" fill="#4A90E2" cx="38" cy="38" r="38"/> <rect stroke="#FFFFFF" x="11.5" y="22.5" width="53" height="35"/> <rect stroke="#FFFFFF" x="13.5" y="22.5" width="49" height="33"/> <path d="M14.7328644,23.3720185 C22.8457736,17.6981969 30.3790829,17.6981969 37.3327922,23.3720185 L37.3327922,54.8402725 C31.3602309,51.0400934 23.8269216,51.0400934 14.7328644,54.8402725 C14.7328644,47.4609893 14.7328644,30.457963 14.7328644,23.3720185 Z" fill="#FFFFFF"/> <path d="M38.6201299,23.3720185 C46.6931823,17.9421802 54.2264916,17.9421802 61.2200578,23.3720185 C61.2200578,31.6776931 61.2200578,50.9587036 61.2200578,54.8402725 C54.6284121,50.5387171 47.0951028,50.5387171 38.6201299,54.8402725 L38.6201299,23.3720185 Z" fill="#FFFFFF"/> <polygon id="bookmark" class="custom-color" fill="#4A90E2" points="41 19 46 19 46 47 43.5 44.8716033 41 47"/> </g> </g> </svg> Cite this Article <div class="popup"> <h5>Choose Citation Style</h5> <button class="choose-style active" data-style="MLA">MLA</button> <button class="choose-style" data-style="APA">APA</button> <button class="choose-style" data-style="Chicago">Chicago (B)</button> <div class="output"> <div class="style MLA active"> McDunnigan, Micah. "Is RAM for Temporary Storage?" <em>Small Business - Chron.com</em>, http://smallbusiness.chron.com/ram-temporary-storage-71143.html. Accessed 06 June 2019. </div> <div class="style APA"> McDunnigan, Micah. (n.d.). Is RAM for Temporary Storage? <em>Small Business - Chron.com</em>. Retrieved from http://smallbusiness.chron.com/ram-temporary-storage-71143.html </div> <div class="style Chicago"> McDunnigan, Micah. "Is RAM for Temporary Storage?" accessed June 06, 2019. http://smallbusiness.chron.com/ram-temporary-storage-71143.html </div> </div> <button class="copy-citation">Copy Citation</button> <div class="copied-flash">Note: Depending on which text editor you're pasting into, you might have to add the italics to the site name.</div> </div> </div><div ub-in-page="5a39c0b58195f8259e0b5c24"></div> </article> </div> <aside id="sidebar"> <div id="adblock-link-unit"></div> <div id="radlinks" class="widget"><!-- SMALLBUSINESS_LINK --> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3235755782694080" data-ad-slot="5742379214" data-ad-format="link"></ins> <script> 
+(adsbygoogle = window.adsbygoogle || []).push({}); 
+</script> </div> <div id="top-300" class="widget"><div id="A300"></div> </div> <div id="more-read" class="widget clearfix"> <h3><span>More</span> Articles</h3> <ul> <li class="clearfix"><a href="//smallbusiness.chron.com/change-flash-video-buffering-mac-snow-leopard-33473.html"> <img src="//img-aws.ehowcdn.com/137x77/photos.demandstudios.com/getty/article/251/11/80836368.jpg" onerror="this.src = '/images/logo-fallback.svg'" alt="How to Change Flash Video Buffering on Mac Snow Leopard" title="How to Change Flash Video Buffering on Mac Snow Leopard" width="137" height="77"> <p> Change Flash Video Buffering on Mac Snow Leopard</p> </a></li> <li class="clearfix"><a href="//smallbusiness.chron.com/panda-cloud-antivirus-system-requirements-59629.html"> <img src="//img-aws.ehowcdn.com/137x77/photos.demandstudios.com/getty/article/185/41/medfrd1248.jpg" onerror="this.src = '/images/logo-fallback.svg'" alt="Panda Cloud Antivirus System Requirements" title="Panda Cloud Antivirus System Requirements" width="137" height="77"> <p>Panda Cloud Antivirus System Requirements</p> </a></li> <li class="clearfix"><a href="//smallbusiness.chron.com/defragment-cache-files-52564.html"> <img src="//img-aws.ehowcdn.com/137x77/photos.demandstudios.com/getty/article/189/40/86531160.jpg" onerror="this.src = '/images/logo-fallback.svg'" alt="How to Defragment Cache Files" title="How to Defragment Cache Files" width="137" height="77"> <p> Defragment Cache Files</p> </a></li> <li class="clearfix"><a href="//smallbusiness.chron.com/make-computer-run-faster-administrative-privileges-79877.html"> <img src="//img-aws.ehowcdn.com/137x77/photos.demandstudios.com/getty/article/139/36/175747847.jpg" onerror="this.src = '/images/logo-fallback.svg'" alt="How to Make Your Computer Run Faster Without Administrative Privileges" title="How to Make Your Computer Run Faster Without Administrative Privileges" width="137" height="77"> <p> Make Your Computer Run Faster Without Administrative Privileges</p> </a></li> </ul> </div> <div id="bottom-300" class="widget"><!-- Begin Hearst Ad --> <div id="B300"></div> <!-- End Hearst Ad --></div> <div id="also-viewed" class="widget"> <h3><span>Also</span> Viewed</h3> <ul> <li><a href="//smallbusiness.chron.com/delete-ntfs-partition-45594.html"> Delete an NTFS Partition </a></li> <li><a href="//smallbusiness.chron.com/ways-increase-ram-hdd-transfer-rates-71014.html"> Ways to Increase RAM & HDD Transfer Rates </a></li> <li><a href="//smallbusiness.chron.com/remove-hp-data-protector-51941.html"> Remove HP Data Protector </a></li> <li><a href="//smallbusiness.chron.com/compare-processor-performance-56380.html"> Compare Processor Performance </a></li> <li><a href="//smallbusiness.chron.com/average-merchandise-turnover-clothing-stores-18292.html"> The Average Merchandise Turnover for Clothing Stores </a></li> <li><a href="//smallbusiness.chron.com/adding-second-hard-drive-increase-memory-desktop-computer-68257.html"> Will Adding a Second Hard Drive Increase My Memory on a Desktop Computer? </a></li> <li><a href="//smallbusiness.chron.com/causes-excessive-hard-drive-activity-windows-xp-pro-66401.html"> What Causes Excessive Hard Drive Activity in Windows XP Pro? </a></li> </ul> </div> <div id="s-300" class="widget"><!-- Begin Hearst Ad --> <div id="S300"> </div> <!-- End Hearst Ad --></div> </aside> </div><footer class="clearfix"><footer> <div class="hdnce-e hdnce-item-41834"><!-- mid:freeform.41834 --> <div class="header"> <span class="logo">Logo</span> <span class="top"><a href="#">Return to Top</a></span> </div> <div class="body"> <div class="about"> <h3>About</h3> <ul> <li><a href="https://www.chron.com/privacy_policy/">Privacy Notice</a></li> <li><a href="https://www.chron.com/privacy_policy/#caprivacyrights">Your California Privacy Rights</a></li> <li><a href="https://www.chron.com/privacy_policy/#interestbasedads ">Interest Based Ads</a></li> <li><a href="https://www.chron.com/terms_of_use/">Terms of Use</a></li> <li><a href="https://www.hearst.com/newspapers/houston-chronicle">Our Company</a></li> <li><a href="https://www.chron.com/careers">Careers</a></li> <li><a href="https://marketing.chron.com/home">Advertise with Us</a></li> <li><a href="https://www.aboutads.info/choices/" class="adchoices">Ad Choices</a></li> </ul> </div> <div class="contact"> <h3>Contact</h3> <ul> <li><a href="https://myaccount.houstonchronicle.com/FAQ.aspx">Customer Service</a></li> <li><a href="https://www.chron.com/about/newsroom/">Newsroom Contacts</a></li> </ul> </div> <div class="connect"> <h3>Connect</h3> <ul> <li><a href="https://www.chron.com/newsletters/">Email Newsletter</a></li> <li><a href="https://www.facebook.com/chroncom" class="facebook">Facebook</a></li> <li><a href="https://twitter.com/houstonchron" class="twitter">Twitter</a></li> <li><a href="https://www.pinterest.com/houstonchron/" class="pinterest">Pinterest</a></li> <li><a href="https://plus.google.com/+houstonchronicle/posts" class="google">Google</a></li> <li><a href="https://instagram.com/houstonchron/" class="instagram">Instagram</a></li> </ul> </div> <div class="subscribe"> <h3>Subscribe</h3> <ul> <li><a href="https://www.chron.com/ipad/">iPad app</a></li> <li><a href="https://www.houstonchronicle.com/">HoustonChronicle.com</a></li> <li><a href="https://www.houstonchronicle.com/archive">Houston Chronicle Archives</a></li> <li><a href="https://digital.olivesoftware.com/Olive/ODN/HoustonChronicleDemo/">eEdition Demo</a></li> <li><a href="https://digital.olivesoftware.com/Olive/ODN/houstonchronicle/Default.aspx">Today's eNewspaper</a></li> </ul> </div> </div> <div class="footer"> <span class="logo">Hearst Newspapers</span> <span class="copyright">© Copyright 2019 Hearst Newspapers, LLC</span> </div> </div> </footer> </footer></div><script>(function(d,t){var cjs=d.createElement(t),dhd=d.getElementsByTagName(t)[0];cjs.async=1;cjs.src='//smallbusiness.chron.com/scripts/custom.js';dhd.parentNode.insertBefore(cjs,dhd);}(document,'script'));</script> <script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({flush: true});
+</script><script type="text/javascript">
+	var EU = document.cookie.split(';').filter(function(item) { return item.indexOf('region=EU') >= 0 }).length;
+
+
+        if (!EU) {
+
+
+
+    	   if (window.location.href.indexOf('work.chron.com') > -1) {
+	       	 var videoSrc = "//embed.sendtonews.com/player3/embedcode.js?fk=TnRwhbkw&cid=8188&offsetx=0&offsety=0&floatwidth=400&floatposition=bottom-right";
+
+	   } else if (window.location.href.indexOf('smallbusiness.chron.com') > -1) {
+	       	 var videoSrc = "//embed.sendtonews.com/player3/embedcode.js?fk=VtBBB6Nk&cid=8187&offsetx=0&offsety=0&floatwidth=400&floatposition=bottom-right";
+
+	   } else if (window.location.href.indexOf('livehealthy.chron.com') > -1) {
+	       	 var videoSrc = "//embed.sendtonews.com/player3/embedcode.js?fk=Yp2dIWI1&cid=8416&offsetx=0&offsety=0&floatwidth=400&floatposition=bottom-right";
+
+	   }
+
+           !function (e, f, u, i) {
+              if (!document.getElementById(i)){
+                e.async = 1;
+                e.src = u;
+                e.id = i;
+       	   	e.setAttribute('data-type', 's2nScript');
+                f.parentNode.insertBefore(e, f);
+              }
+           }(document.createElement('script'),
+	     document.getElementsByTagName('script')[0],
+       	     videoSrc,
+             'partner_video_loader');
+
+
+
+	}
+
+        !function (e, f, u, i) {
+          if (!document.getElementById(i)){
+            e.async = 1;
+            e.src = u;
+            e.id = i;
+            f.parentNode.insertBefore(e, f);
+          }
+        }(document.createElement('script'),
+        document.getElementsByTagName('script')[0],
+	"//nexus.ensighten.com/hearst/news-3p/Bootstrap.js",
+        'partner_tag_loader');
+</script> </body> </html>

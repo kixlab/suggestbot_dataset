@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+
+<html lang="en-US" class="no-js">
+<head>
+	<meta charset=""><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Security-Policy" content="default-src https://* 'unsafe-inline' 'unsafe-eval' data:; upgrade-insecure-requests;">
+			<script>
+			// Google Tag Manager
+			(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl+'&amp;gtm_auth=1rT9WxKtoVrlrpfysHCQ-Q&amp;gtm_preview=env-2&amp;gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-55MKBQW');
+		</script>
+		<style>.async-hide { opacity: 0 !important} </style>
+		<script>
+		(function(a,s,y,n,c,h,i,d,e){
+			// we don't need this, we need to specifically mark optimize spots
+			s.className+=' '+y;
+			// okay yeah we need this tho
+			h.start=1*new Date;
+			h.end=i=function(){
+				// okay instead of screwing w/ the document classname we need to remove the class from all elements w/ the class
+				s.className=s.className.replace(RegExp(' ?'+y),'');
+				// you may have noticed this but it means that if this runs before those elements are ready they stay hidden	
+			};
+			(a[n]=a[n]||[]).hide=h;
+			setTimeout(function(){i(); h.end=null},c);
+			h.timeout=c;
+		})(
+			window, //a
+			document.documentElement, //s
+			'async-hide', //y
+			'dataLayer', //n
+			3000, //c
+			{'GTM-55MKBQW':true} //h
+		);</script>
+	
+	<style>
+@font-face{font-family:'MallorySubset';src:url(data:application/font-woff;charset=utf-8;base64,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)format('woff');unicode-range:U+0021-U+007E}body,caption,input,textarea,select,option,legend,fieldset{font-family:Georgia,"Times New Roman","Bitstream Vera Serif",serif;font-size:16px;line-height:1.5}.fonts-stage-1 h1,.fonts-stage-1 h2,.fonts-stage-1 h3,.fonts-stage-1 h4,.fonts-stage-1 h5{font-family:MallorySubset,sans-serif;font-weight:bold;font-style:normal}
+</style>
+<script>
+!function(){if(sessionStorage.criticalFoftDataUriFontsLoaded)document.documentElement.className+=" fonts-stage-1 fonts-stage-2";else{!function(){function e(e,t){document.addEventListener?e.addEventListener("scroll",t,!1):e.attachEvent("scroll",t)}function t(e){document.body?e():document.addEventListener?document.addEventListener("DOMContentLoaded",function t(){document.removeEventListener("DOMContentLoaded",t),e()}):document.attachEvent("onreadystatechange",function t(){"interactive"!=document.readyState&&"complete"!=document.readyState||(document.detachEvent("onreadystatechange",t),e())})}function n(e){this.a=document.createElement("div"),this.a.setAttribute("aria-hidden","true"),this.a.appendChild(document.createTextNode(e)),this.b=document.createElement("span"),this.c=document.createElement("span"),this.h=document.createElement("span"),this.f=document.createElement("span"),this.g=-1,this.b.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.c.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.f.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.h.style.cssText="display:inline-block;width:200%;height:200%;font-size:16px;max-width:none;",this.b.appendChild(this.h),this.c.appendChild(this.f),this.a.appendChild(this.b),this.a.appendChild(this.c)}function o(e,t){e.a.style.cssText="max-width:none;min-width:20px;min-height:20px;display:inline-block;overflow:hidden;position:absolute;width:auto;margin:0;padding:0;top:-999px;left:-999px;white-space:nowrap;font:"+t+";"}function i(e){var t=e.a.offsetWidth,n=t+100;return e.f.style.width=n+"px",e.c.scrollLeft=n,e.b.scrollLeft=e.b.scrollWidth+100,e.g!==t&&(e.g=t,!0)}function a(t,n){function o(){var e=a;i(e)&&null!==e.a.parentNode&&n(e.g)}var a=t;e(t.b,o),e(t.c,o),i(t)}function s(e,t){var n=t||{};this.family=e,this.style=n.style||"normal",this.weight=n.weight||"normal",this.stretch=n.stretch||"normal"}function d(){if(null===r){var e=document.createElement("div");try{e.style.font="condensed 100px sans-serif"}catch(e){}r=""!==e.style.font}return r}function l(e,t){return[e.style,e.weight,d()?e.stretch:"","100px",t].join(" ")}var c=null,r=null,h=null;s.prototype.load=function(e,i){var s=this,d=e||"BESbswy",r=i||3e3,f=(new Date).getTime();return new Promise(function(e,i){if(null===h&&(h=!!window.FontFace),h){var u=new Promise(function(e,t){function n(){(new Date).getTime()-f>=r?t():document.fonts.load(l(s,s.family),d).then(function(t){1<=t.length?e():setTimeout(n,25)},function(){t()})}n()}),m=new Promise(function(e,t){setTimeout(t,r)});Promise.race([m,u]).then(function(){e(s)},function(){i(s)})}else t(function(){function t(){var t;(t=-1!=w&&-1!=v||-1!=w&&-1!=y||-1!=v&&-1!=y)&&((t=w!=v&&w!=y&&v!=y)||(null===c&&(t=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent),c=!!t&&(536>parseInt(t[1],10)||536===parseInt(t[1],10)&&11>=parseInt(t[2],10))),t=c&&(w==g&&v==g&&y==g||w==b&&v==b&&y==b||w==x&&v==x&&y==x)),t=!t),t&&(null!==E.parentNode&&E.parentNode.removeChild(E),clearTimeout(F),e(s))}function h(){if((new Date).getTime()-f>=r)null!==E.parentNode&&E.parentNode.removeChild(E),i(s);else{var e=document.hidden;!0!==e&&void 0!==e||(w=u.a.offsetWidth,v=m.a.offsetWidth,y=p.a.offsetWidth,t()),F=setTimeout(h,50)}}var u=new n(d),m=new n(d),p=new n(d),w=-1,v=-1,y=-1,g=-1,b=-1,x=-1,E=document.createElement("div"),F=0;E.dir="ltr",o(u,l(s,"sans-serif")),o(m,l(s,"serif")),o(p,l(s,"monospace")),E.appendChild(u.a),E.appendChild(m.a),E.appendChild(p.a),document.body.appendChild(E),g=u.a.offsetWidth,b=m.a.offsetWidth,x=p.a.offsetWidth,h(),a(u,function(e){w=e,t()}),o(u,l(s,'"'+s.family+'",sans-serif')),a(m,function(e){v=e,t()}),o(m,l(s,'"'+s.family+'",serif')),a(p,function(e){y=e,t()}),o(p,l(s,'"'+s.family+'",monospace'))})})},"undefined"!=typeof module?module.exports=s:(window.FontFaceObserver=s,window.FontFaceObserver.prototype.load=s.prototype.load)}();var e=new FontFaceObserver("MallorySubset");Promise.all([e.load()]).then(function(){document.documentElement.className+=" fonts-stage-1";var e=new FontFaceObserver("Mallory"),t=new FontFaceObserver("Calluna");Promise.all([e.load(),t.load()]).then(function(){document.documentElement.className+=" fonts-stage-2",sessionStorage.criticalFoftDataUriFontsLoaded=!0})})}}();
+</script>
+<title>Inside the Top-Secret Abortion Underground &#8211; Mother Jones</title>
+<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="Vszdhhc4evgm_TsXnyu3OflD21DCmCMnElpbSe18Jmg" />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Mother Jones &raquo; Feed" href="https://www.motherjones.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Mother Jones &raquo; Comments Feed" href="https://www.motherjones.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.motherjones.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.1"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='all-css-0' href='https://www.motherjones.com/_static/??-eJyVzt0KwjAMBeAXsoYxB3ohPsro2ui6pT80qWNvb9XdCu7uBM53CCxJuWCoWGQwzGAdCwwUzazIDVnnFVhWwqN34VgLB6jCxCAYBGREX52PNeQphm1jN9B2RHYx7DHxiZn0+i9JkUUJ+kRa6qmZUb5D90LUL87K2Osszvx43ReVqDxcYJhQkjbzR2/5Xb/5a9N1l3PXNqf2Bfa9giE=' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.motherjones.com/wp-includes/js/jquery/jquery.js?m=1558469541g'></script>
+<link rel='https://api.w.org/' href='https://www.motherjones.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.motherjones.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.motherjones.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.1" />
+<link rel="canonical" href="https://www.motherjones.com/crime-justice/2018/02/inside-the-top-secret-abortion-underground/" />
+<link rel='shortlink' href='https://www.motherjones.com/?p=572616' />
+<link rel="alternate" type="application/json+oembed" href="https://www.motherjones.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.motherjones.com%2Fcrime-justice%2F2018%2F02%2Finside-the-top-secret-abortion-underground%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.motherjones.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.motherjones.com%2Fcrime-justice%2F2018%2F02%2Finside-the-top-secret-abortion-underground%2F&#038;format=xml" />
+			<meta property="fb:pages" content="7642602143" />
+			<style type='text/css'>img#wpstats{display:none}</style><meta property="og:url" content="https://www.motherjones.com/crime-justice/2018/02/inside-the-top-secret-abortion-underground/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Inside the top-secret abortion underground " />
+<meta property="og:description" content="Code names, top-secret training, and a movement of women determined to avoid the medical establishment." />
+<meta property="og:image" content="https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_2000x1124.jpg?w=1200&amp;h=630&amp;crop=1" />
+<meta property="article:published" content="2018-02-01T06:00:38-04:00" />
+<meta property="article:modified" content="2018-02-14T19:45:08-04:00" />
+<meta property="article:section" content="Crime and Justice" />
+<meta property="article:tag" content="Civil Liberties" />
+<meta property="article:tag" content="Investigations" />
+<meta property="article:tag" content="Reproductive Rights" />
+<meta property="article:tag" content="Sex and Gender" />
+<meta property="og:site_name" content="Mother Jones" />
+<meta property="fb:admins" content="13301307,670317733,1198876232,38509772,106892,2907757,306289,602422192,4101301,513450539" />
+<meta property="fb:pages" content="7642602143" />
+<meta property="fb:pages" content="1072916546168933" />
+<meta property="fb:pages" content="416261761736915" />
+<meta property="fb:pages" content="149244498452823" />
+<meta property="fb:pages" content="111917028836008" />
+<meta property="twitter:url" content="https://www.motherjones.com/crime-justice/2018/02/inside-the-top-secret-abortion-underground/" />
+<meta property="twitter:site" content="@Motherjones" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta name="twitter:dnt" content="on" />			<style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style>
+			<script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script>
+		<link rel="icon" href="https://www.motherjones.com/wp-content/uploads/2017/09/cropped-favicon-512x512.png?w=32" sizes="32x32" />
+<link rel="icon" href="https://www.motherjones.com/wp-content/uploads/2017/09/cropped-favicon-512x512.png?w=192" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.motherjones.com/wp-content/uploads/2017/09/cropped-favicon-512x512.png?w=180" />
+<meta name="msapplication-TileImage" content="https://www.motherjones.com/wp-content/uploads/2017/09/cropped-favicon-512x512.png?w=270" />
+</head>
+
+<body class="post-template-default single single-post postid-572616 single-format-standard mj_content_type-full_width_article">
+<!-- Google Tag Manager (noscript) -->
+			<noscript>
+				<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55MKBQW&#038;gtm_auth=1rT9WxKtoVrlrpfysHCQ-Q&#038;gtm_preview=env-2&#038;gtm_cookies_win=x" height="0" width="0" style="display:none;visibility:hidden">
+				</iframe>
+			</noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		<a href="#main" class="visuallyhidden">Skip to main content</a>
+<nav id="navbar" role="navigation">
+	<ul>
+		<li class="logo">
+			<a href="/" data-ga-label="Home" data-ga-category="Navbar|Floating">
+				
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 813.67 165.61"><path d="M53.72 97.86h-.39l-8.05-86.64H0v152.49h28.78v-85.9l-1.67-36.19 2.05 14.73 14.39 107.36h19.18L77.12 56.35l2.05-14.73-1.66 36.19v-.04 85.94h28.77V11.22H62.54l-8.82 86.64M391.4 87.12c0-33.06-1.23-58.67-34-58.67S321 61.67 321 91.17c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.07s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.01-3.49.78-13.92.78-22.8zm-42.79-3.22c0-13.9 1.92-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94zM148.49 28.44c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c.01-35.87.01-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.02 27.23-.79 36.07-10 36.07zM442.34 28.44c-9.37 0-13.73 8.49-16 17.24l-2.56 19.49V30h-29v133.7h31.08V92.19c0-26 7.86-30.34 15.94-30.34 11.79 0 14.55 14.16 14.55 14.16V35.77s-5.48-7.33-14.01-7.33zm-145.72 0c-10.55 0-17.44 7.48-19.7 18.65l-2.17 12.5V11.22h-31.08v152.49h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.57 5.37 14.67v88.63h31.08V50.92c0-11.48-4.8-22.48-20.91-22.48zm261.29.34c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c0-35.87 0-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.03 27.22-.8 36.06-10 36.06zm95.16-104.81c-10.55 0-17.44 7.48-19.7 18.65l-2.18 12.5V30h-31.07v133.7h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.59 5.37 14.67v88.63H674V50.92c0-11.48-4.82-22.48-20.93-22.48zm-196.65 91.04v35.95s5.38 9.57 24.19 9.57c28.22 0 35.09-23.13 35.09-48.79v-105h-28.78v92.09c0 26-7.86 30.34-15.94 30.34-11.8-.01-14.56-14.16-14.56-14.16zm294.37-2.96c2.8 10.71 8.62 21.34 21.82 21.34 8.73 0 12.83-3 13.24-11.5.89-18.69-34.34-27.06-34.34-59.75 0-28.46 13.87-38.16 33.77-38.16 11.63 0 23.26 7.85 26.62 15.53V76c-3.36-9.36-10.27-20.08-19.8-20.08-7.55 0-11.17 3.6-11.51 10.72-.92 19.3 33.09 26.18 33.09 56.64 0 25.71-9 42-34.34 42-20.13 0-28.54-17.68-28.54-17.68zm-2.95-29.4c0-33.06-1.23-58.67-34-58.67s-36.45 33.23-36.45 62.73c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.08s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.07-3.49.83-13.92.83-22.8zm-42.78-3.22c0-13.9 1.94-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94z"/><path class="cls-1" d="M221.79 0l-37 33.52s5.88 14.91 5.88 40.66v65.18c0 18.45 10.74 25.93 25.9 25.93 10.43 0 17.28-2.83 23.6-8.49v-27.63c-2.51 4.56-5.31 7-9.72 7-4.67 0-8.69-3.38-8.69-10.79V58.2h18.44V30h-18.41z"/></svg>
+			</a>
+		</li>
+		<div class="social-container navbar">
+			<ul>
+				<li class="facebook"><a class="social" href="http://facebook.com/sharer.php?u=https%3A%2F%2Fwww.motherjones.com%2Fcrime-justice%2F2018%2F02%2Finside-the-top-secret-abortion-underground%2F" target="_blank" data-ga-label="FacebookShare" data-ga-category="Navbar|Floating"><i class="icon-facebook"></i><span class="share-text">Share on Facebook</span></a></li>
+				<li class="twitter"><a class="social" target="_blank" href="https://twitter.com/intent/tweet?text=Inside%20the%20top-secret%20abortion%20underground&url=https%3A%2F%2Fwww.motherjones.com%2Fcrime-justice%2F2018%2F02%2Finside-the-top-secret-abortion-underground%2F&amp;via=MotherJones" data-ga-label="TwitterShare" data-ga-category="Navbar|Floating"><i class="icon-twitter"></i><span class="share-text">Share on Twitter</span></a></li><li class="email"><a href="mailto:?subject=Inside%20the%20Top-Secret%20Abortion%20Underground&body=On%20a%20summer%20day%20in%202015%2C%20Renata%20and%20more%20than%20a%20dozen%20women%2C%20all%20strangers%20from%20different%20parts%20of%20the%20country%2C%20sat%20in%20a%20semicircle%20on%20the%20living-room%20floor%20of%20a%20house%2C%20deep%20in%20the%20rural%20South.%20A%20lean%20twentysomething%20with%20a%20wide%20smile%20and%20olive%20skin%2C%20Renata%20was%20the%20only%20nonwhite%20person%20in%20the%20%5B%E2%80%A6%5Dhttps%3A%2F%2Fwww.motherjones.com%2Fcrime-justice%2F2018%2F02%2Finside-the-top-secret-abortion-underground%2F" target="_blank" data-ga-label="Email" data-ga-category="Navbar|Floating"><i class="icon-mail"></i><span class="share-text">Email</span></a></li><li class="print"><a href="#" title="Print this article" rel="nofollow" data-ga-category="Navbar|Floating" data-ga-label="Print" onclick="window.print(); return false;"><i class="icon-print"></i><span class="share-text">Print</span></a></li><li class="comment"><a href="#disqus-container" data-ga-label="Comment" data-ga-category="Navbar|Floating" onclick="mj_display_disqus();"><i class="icon-comment"></i><span class="share-text">Comments</span></a></li></ul></div>		<li class="menu-button">
+ 			<a
+				data-ga-label="MenuExpand"
+				data-ga-category="Navbar|Floating"
+				tabindex="0"
+				 onclick="expandMenu();"			>
+				<svg id="nav-menu-svg" width="36px" height="36px" enable-background="new 0 0 125 125" version="1.1" viewBox="0 0 125 125" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+					<path d="m0 100.87"/>
+					<rect y="0" width="125" height="20"/>
+					<rect y="40" width="125" height="20"/>
+					<rect y="80" width="125" height="20"/>
+				</svg>
+				<svg id="nav-close-svg" width="34px" height="34px" x="0px" y="0px" version="1.1" viewBox="0 0 19.8 19.8" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+					<polygon points="19.8,2.4 17.4,0 9.9,7.5 2.4,0 0,2.4 7.5,9.9 0,17.4 2.4,19.8 9.9,12.3 17.4,19.8 19.8,17.4 12.3,9.9 "/>
+				</svg>
+			</a>
+		</li>
+		<li class="donate-link article-page desktop">
+			<a href="https://secure.actblue.com/donate/motherjones/?refcode=7HEGP002&amount=50.00&recurring=0"
+				title="Donate"
+				target="_blank"
+				data-ga-label="Donate"
+				data-ga-category="Navbar|Floating"
+			>Donate</a>
+		</li>
+		<li class="donate-link article-page mobile" style="display:none;">
+			<a href="https://secure.actblue.com/donate/motherjones/?refcode=7HEGP007&amount=50.00&recurring=0"
+				title="Donate"
+				target="_blank"
+				data-ga-label="Donate"
+				data-ga-category="Navbar|Floating"
+			>Donate</a>
+		</li>
+		<li class="subscribe-link article-page hidden-xxs">
+			<a href="https://store.motherjones.com/pages/magazine-subscriptions"
+				title="Subscribe"
+				target="_blank"
+				data-ga-label="Subscribe"
+				data-ga-category="Navbar|Floating"
+			>Subscribe</a>
+		</li>
+	</ul>
+	<div id="combined-nav">
+		<div id="mj_topnav_select" class="menu-top-nav-container"><ul id="mj_topnav_options"><li>
+<form
+	role="search"
+	method="get"
+	class="search-form"
+	action="https://www.motherjones.com/"
+	data-ga-label="Search"
+	data-ga-category="Search"
+>
+	<label>
+		<input type="search" class="search-field" placeholder="Search&hellip;" value="" name="s" title="Search for:" />
+	</label>
+	<input type="submit" class="search-submit" value="Submit"></input>
+	<button type="submit"><i class="icon-search"></i></button>
+</form>
+</li><li id="menu-item-755717" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-755717"><a href="https://www.motherjones.com/politics/2019/05/who-was-naive-about-bernie-sanders-meeting-the-sandinistas/" data-ga-category="Topnav" data-ga-action="https://www.motherjones.com/politics/2019/05/who-was-naive-about-bernie-sanders-meeting-the-sandinistas/" data-ga-label="NavPosition_1|bernie-sanders">Bernie Sanders</a></li>
+<li id="menu-item-755718" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-755718"><a href="https://www.motherjones.com/politics/2019/05/a-new-right-wing-disinformation-campaign-biden-was-part-of-a-deep-state-plot-against-trump/" data-ga-category="Topnav" data-ga-action="https://www.motherjones.com/politics/2019/05/a-new-right-wing-disinformation-campaign-biden-was-part-of-a-deep-state-plot-against-trump/" data-ga-label="NavPosition_2|right-wing-disinfo-campaign">Right-Wing Disinfo Campaign</a></li>
+<li id="menu-item-755719" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-755719"><a href="https://www.motherjones.com/politics/2019/05/abortion-physician-only-nurse-access-maine/" data-ga-category="Topnav" data-ga-action="https://www.motherjones.com/politics/2019/05/abortion-physician-only-nurse-access-maine/" data-ga-label="NavPosition_3|abortion-access">Abortion Access</a></li>
+</ul></div>		<div id="mj_menu_select" class="menu-floating-navbar-container"><ul id="mj_menu_options"><li id="menu-item-405555" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-405555"><a href="https://www.motherjones.com/./politics/" data-ga-category="Navbar|Floating" data-ga-action="https://www.motherjones.com/./politics/" data-ga-label="NavPosition_1">Politics</a></li>
+<li id="menu-item-405556" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-405556"><a href="https://www.motherjones.com/./environment/" data-ga-category="Navbar|Floating" data-ga-action="https://www.motherjones.com/./environment/" data-ga-label="NavPosition_2">Environment</a></li>
+<li id="menu-item-405558" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-405558"><a href="https://www.motherjones.com/./crime-justice/" data-ga-category="Navbar|Floating" data-ga-action="https://www.motherjones.com/./crime-justice/" data-ga-label="NavPosition_3">Crime and Justice</a></li>
+<li id="menu-item-405559" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-405559"><a href="https://www.motherjones.com/./food/" data-ga-category="Navbar|Floating" data-ga-action="https://www.motherjones.com/./food/" data-ga-label="NavPosition_4">Food</a></li>
+<li id="menu-item-405557" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-405557"><a href="https://www.motherjones.com/./media/" data-ga-category="Navbar|Floating" data-ga-action="https://www.motherjones.com/./media/" data-ga-label="NavPosition_5">Media</a></li>
+<li id="menu-item-405563" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-405563"><a href="https://www.motherjones.com/topics/investigations/" data-ga-category="Navbar|Floating" data-ga-action="https://www.motherjones.com/topics/investigations/" data-ga-label="NavPosition_6">Investigations</a></li>
+<li id="menu-item-405562" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-405562"><a href="https://www.motherjones.com/topics/photoessays/" data-ga-category="Navbar|Floating" data-ga-action="https://www.motherjones.com/topics/photoessays/" data-ga-label="NavPosition_7">Photos</a></li>
+<li id="menu-item-615549" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-615549"><a href="/magazine" data-ga-category="Navbar|Floating" data-ga-action="/magazine" data-ga-label="NavPosition_8">Magazine</a></li>
+<li id="menu-item-405598" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405598"><a href="https://www.motherjones.com/podcasts/" data-ga-category="Navbar|Floating" data-ga-action="https://www.motherjones.com/podcasts/" data-ga-label="NavPosition_9">Podcasts</a></li>
+<li id="menu-item-579708" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579708"><a href="https://www.motherjones.com/newsletters/" data-ga-category="Navbar|Floating" data-ga-action="https://www.motherjones.com/newsletters/" data-ga-label="NavPosition_10">Newsletters</a></li>
+</ul></div>	</div>
+</nav>
+<!-- end following navbar -->
+<div id="overlay-ad-bg" class="hidden"><div class="overlay-ad-wrapper"><p class="overlay-ad-aux"><span class="ad-label">Advertisement</span><span class="close">Close X</span></p><div class='dfw-unit' data-adunit='Overlay' id='Overlay' data-size-mapping='mapping1'></div></div></div><div id="TopROS970x250" class="ad-unit col-12"><div class='dfw-unit' data-adunit='ROS_ATF_970x250' id='ROS_ATF_970x250' data-size-mapping='mapping2'></div></div><nav id="topnav" role="navigation">
+	<div class="grid">
+		<div id="topic-menu" class="grid col-8">
+			<div id="mj_topnav_select" class="menu-top-nav-container"><ul id="mj_topnav_options"><li>
+<form
+	role="search"
+	method="get"
+	class="search-form"
+	action="https://www.motherjones.com/"
+	data-ga-label="Search"
+	data-ga-category="Search"
+>
+	<label>
+		<input type="search" class="search-field" placeholder="Search&hellip;" value="" name="s" title="Search for:" />
+	</label>
+	<input type="submit" class="search-submit" value="Submit"></input>
+	<button type="submit"><i class="icon-search"></i></button>
+</form>
+</li><li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-755717"><a href="https://www.motherjones.com/politics/2019/05/who-was-naive-about-bernie-sanders-meeting-the-sandinistas/" data-ga-category="Topnav" data-ga-action="https://www.motherjones.com/politics/2019/05/who-was-naive-about-bernie-sanders-meeting-the-sandinistas/" data-ga-label="NavPosition_1|bernie-sanders">Bernie Sanders</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-755718"><a href="https://www.motherjones.com/politics/2019/05/a-new-right-wing-disinformation-campaign-biden-was-part-of-a-deep-state-plot-against-trump/" data-ga-category="Topnav" data-ga-action="https://www.motherjones.com/politics/2019/05/a-new-right-wing-disinformation-campaign-biden-was-part-of-a-deep-state-plot-against-trump/" data-ga-label="NavPosition_2|right-wing-disinfo-campaign">Right-Wing Disinfo Campaign</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-755719"><a href="https://www.motherjones.com/politics/2019/05/abortion-physician-only-nurse-access-maine/" data-ga-category="Topnav" data-ga-action="https://www.motherjones.com/politics/2019/05/abortion-physician-only-nurse-access-maine/" data-ga-label="NavPosition_3|abortion-access">Abortion Access</a></li>
+</ul></div>		</div>
+		<div class="subscribe-link col-4">
+			<a 
+				href="https://store.motherjones.com/pages/magazine-subscriptions"
+				title="Subscribe"
+				data-ga-label="Subscribe|Text"
+				data-ga-category="Masthead">
+
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 viewbox="0 0 120 93" style="enable-background:new 0 0 120 93; max-width:1.5rem;" xml:space="preserve">
+					<path d="M113.97,12.88V0.37h-4.01c-1.58,0-35.61,0.3-50.15,23.55C45.26,0.67,11.23,0.37,9.65,0.37H5.64v12.52
+						c-3.72-0.32-6.02-0.37-6.02-0.37v80.24H59.8h60.18V12.51C119.98,12.51,117.68,12.56,113.97,12.88z M105.94,8.63v5.18
+						c-11.46,1.65-27.54,5.35-38.83,13.68C76.98,12.86,97.3,9.42,105.94,8.63z M13.66,8.62C22.3,9.4,42.63,12.8,52.5,27.5
+						c-11.29-8.34-27.37-12.04-38.84-13.69V8.62z"/>
+				</svg>
+				<span>Subscribe to our magazine</span>
+			</a>
+		</div>
+	</div>
+</nav>
+<!-- end following navbar -->
+<div id="page" class="grid">
+	<header id="masthead" class="site-header col-12">
+		<section class="banner grid" role="banner">
+			<div class="logo col-4">
+				<a href="/" title="Return to Mother Jones Homepage"
+					data-ga-label="Home"
+					data-ga-category="Masthead"
+				>
+					
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 813.67 165.61"><path d="M53.72 97.86h-.39l-8.05-86.64H0v152.49h28.78v-85.9l-1.67-36.19 2.05 14.73 14.39 107.36h19.18L77.12 56.35l2.05-14.73-1.66 36.19v-.04 85.94h28.77V11.22H62.54l-8.82 86.64M391.4 87.12c0-33.06-1.23-58.67-34-58.67S321 61.67 321 91.17c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.07s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.01-3.49.78-13.92.78-22.8zm-42.79-3.22c0-13.9 1.92-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94zM148.49 28.44c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c.01-35.87.01-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.02 27.23-.79 36.07-10 36.07zM442.34 28.44c-9.37 0-13.73 8.49-16 17.24l-2.56 19.49V30h-29v133.7h31.08V92.19c0-26 7.86-30.34 15.94-30.34 11.79 0 14.55 14.16 14.55 14.16V35.77s-5.48-7.33-14.01-7.33zm-145.72 0c-10.55 0-17.44 7.48-19.7 18.65l-2.17 12.5V11.22h-31.08v152.49h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.57 5.37 14.67v88.63h31.08V50.92c0-11.48-4.8-22.48-20.91-22.48zm261.29.34c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c0-35.87 0-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.03 27.22-.8 36.06-10 36.06zm95.16-104.81c-10.55 0-17.44 7.48-19.7 18.65l-2.18 12.5V30h-31.07v133.7h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.59 5.37 14.67v88.63H674V50.92c0-11.48-4.82-22.48-20.93-22.48zm-196.65 91.04v35.95s5.38 9.57 24.19 9.57c28.22 0 35.09-23.13 35.09-48.79v-105h-28.78v92.09c0 26-7.86 30.34-15.94 30.34-11.8-.01-14.56-14.16-14.56-14.16zm294.37-2.96c2.8 10.71 8.62 21.34 21.82 21.34 8.73 0 12.83-3 13.24-11.5.89-18.69-34.34-27.06-34.34-59.75 0-28.46 13.87-38.16 33.77-38.16 11.63 0 23.26 7.85 26.62 15.53V76c-3.36-9.36-10.27-20.08-19.8-20.08-7.55 0-11.17 3.6-11.51 10.72-.92 19.3 33.09 26.18 33.09 56.64 0 25.71-9 42-34.34 42-20.13 0-28.54-17.68-28.54-17.68zm-2.95-29.4c0-33.06-1.23-58.67-34-58.67s-36.45 33.23-36.45 62.73c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.08s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.07-3.49.83-13.92.83-22.8zm-42.78-3.22c0-13.9 1.94-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94z"/><path class="cls-1" d="M221.79 0l-37 33.52s5.88 14.91 5.88 40.66v65.18c0 18.45 10.74 25.93 25.9 25.93 10.43 0 17.28-2.83 23.6-8.49v-27.63c-2.51 4.56-5.31 7-9.72 7-4.67 0-8.69-3.38-8.69-10.79V58.2h18.44V30h-18.41z"/></svg>
+				</a>
+			</div>
+			<div class="subscribe-donate col-8">
+				<a
+					href="https://secure.actblue.com/donate/motherjones?refcode=7HEGP001&amount=50.00&recurring=0"
+					title="Donate"
+					data-ga-label="Donate"
+					data-ga-category="Masthead"
+				>
+					<button class="donate">
+						Donate
+					</button>
+				</a>
+				<div id="mj-nonprofit-tagline">Smart, Fearless Journalism</div>
+			</div>
+		</section>
+		<nav id="static-navbar" role="navigation">
+	<a name="navigation" id="navigation"></a>
+	<ul class="menu">
+		<li id="menu-item-405545" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-405545"><a href="https://www.motherjones.com/./politics/" data-ga-category="Masthead" data-ga-action="https://www.motherjones.com/./politics/" data-ga-label="NavPosition_1">Politics</a></li>
+<li id="menu-item-405546" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-405546"><a href="https://www.motherjones.com/./environment/" data-ga-category="Masthead" data-ga-action="https://www.motherjones.com/./environment/" data-ga-label="NavPosition_2">Environment</a></li>
+<li id="menu-item-405549" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-405549"><a href="https://www.motherjones.com/./crime-justice/" data-ga-category="Masthead" data-ga-action="https://www.motherjones.com/./crime-justice/" data-ga-label="NavPosition_3">Crime and Justice</a></li>
+<li id="menu-item-405547" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-405547"><a href="https://www.motherjones.com/./food/" data-ga-category="Masthead" data-ga-action="https://www.motherjones.com/./food/" data-ga-label="NavPosition_4">Food</a></li>
+<li id="menu-item-405548" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-405548"><a href="https://www.motherjones.com/./media/" data-ga-category="Masthead" data-ga-action="https://www.motherjones.com/./media/" data-ga-label="NavPosition_5">Media</a></li>
+<li id="menu-item-405551" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-405551"><a href="https://www.motherjones.com/topics/investigations/" data-ga-category="Masthead" data-ga-action="https://www.motherjones.com/topics/investigations/" data-ga-label="NavPosition_6">Investigations</a></li>
+<li id="menu-item-405550" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-405550"><a href="https://www.motherjones.com/topics/photoessays/" data-ga-category="Masthead" data-ga-action="https://www.motherjones.com/topics/photoessays/" data-ga-label="NavPosition_7">Photos</a></li>
+<li id="menu-item-405552" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-405552"><a href="/magazine" data-ga-category="Masthead" data-ga-action="/magazine" data-ga-label="NavPosition_8">Magazine</a></li>
+<li id="menu-item-745391" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-745391"><a href="https://www.motherjones.com/podcasts/" data-ga-category="Masthead" data-ga-action="https://www.motherjones.com/podcasts/" data-ga-label="NavPosition_9">Podcasts</a></li>
+		<li role="search" id="search-li" tabindex="0">
+			<i class="icon-search"></i>
+			
+<form
+	role="search"
+	method="get"
+	class="search-form"
+	action="https://www.motherjones.com/"
+	data-ga-label="Search"
+	data-ga-category="Search"
+>
+	<label>
+		<input type="search" class="search-field" placeholder="Search&hellip;" value="" name="s" title="Search for:" />
+	</label>
+	<input type="submit" class="search-submit" value="Submit"></input>
+	<button type="submit"><i class="icon-search"></i></button>
+</form>
+		</li>
+	</ul>
+</nav>
+<div id="ticker" class="col-12"><section id="custom_html-13" class="widget_text widget widget_custom_html"><h2 class="widget-title">Kevin Drum message</h2><div class="textwidget custom-html-widget"><div class="ticker-content format-letter">
+	<style>
+		.ticker-content.format-letter {
+			background:#fff;
+			border:1.5px solid #f2f3ef;
+			padding:2.5rem;
+		}
+		.ticker-content.format-letter p {
+			text-align:left;
+			font-size:1.1875rem;
+			line-height:1.5;
+		}
+		.ticker-content.format-letter p a.ticker-read-more {
+			color:inherit;
+			background-image: url('https://motherjones.com/wp-content/themes/motherjones/img/orange-border.png');
+			background-repeat: repeat-x;
+			text-decoration: none;
+			text-shadow: -1px 0 0 #fff, 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff,
+				-1px -1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+		}
+		.ticker-content.format-letter p a.ticker-read-more:hover {
+			background-image: none;
+			color: #ff6900;
+			text-shadow: none;
+			opacity:1;
+		}
+		.ticker-content.format-letter .letter-headshot {
+			border-radius:50%;
+			float:right;
+			margin:0 .5rem 2rem 2rem;
+		}
+		.ticker-content.format-letter .letter-signature {
+			display: block;
+		}
+		.ticker-content.format-letter p.salutation {
+			font-size:1.5rem;
+			margin-bottom: 1rem;
+			margin-top:1rem;
+			margin-left:0;
+			line-height: 1rem;
+		}
+		.ticker-content.format-letter p.letter-body {
+			font-family: Calluna, serif;
+			font-weight:normal;
+			position:relative;
+		}
+		.ticker-content.format-letter p.letter-body .btn-primary {
+			border-radius:.5rem;
+			margin-left:2rem;
+			display:inline-block;
+			margin-top: -1.5rem;
+			vertical-align: text-bottom;
+			zoom: 80%;
+			background-image: none !important;
+			padding: .65rem .85rem;
+		}
+		.ticker-content.format-letter .ticker-mobile {
+			display:none;
+		}
+		@media only screen and (max-width: 992px) {
+			#ticker .widget {
+				padding:0;
+			}
+		}
+		@media only screen and (max-width: 768px) {
+			.ticker-content.format-letter {
+				padding:1rem;
+			}
+			.ticker-content.format-letter p,
+			.ticker-content.format-letter p.salutation {
+				font-size:1rem;
+			}
+			.ticker-content.format-letter p.salutation {
+				margin-bottom: .5rem;
+			}
+			.ticker-content.format-letter .letter-headshot {
+				width: 120px;
+				margin:0 0 1rem 1rem;
+			}
+		}
+		@media only screen and (max-width: 480px) {
+			.ticker-content.format-letter .ticker-mobile {
+				display:block;
+				padding-top: 1rem;
+			}
+			.ticker-content.format-letter .ticker-mobile p {
+				text-align:center;
+			}
+			.ticker-content.format-letter .ticker-desktop {
+				display:none;
+			}
+			.ticker-content.format-letter .letter-headshot {
+				width: 90px;
+				position:absolute;
+				bottom:3rem;
+				right:1rem;
+				margin:1rem;
+			}
+			.ticker-content.format-letter .letter-signature {
+				max-width:160px;
+			}
+			.ticker-content.format-letter p.letter-body .btn-primary {
+				position:relative;
+				display:block;
+				/*margin-left:0;
+				margin-top:1rem;*/
+				padding: .5rem .75rem;
+				margin: 1rem auto 1rem auto;
+				zoom:80%;
+				text-align: center;
+			}
+		}
+		@media only screen and (max-width: 400px) {
+			.ticker-content.format-letter .letter-title {
+				display:block;
+			}
+			.ticker-content.format-letter .letter-headshot {
+				width: 80px;
+				margin:1.5rem 1rem;
+			}
+		}
+	</style>
+	<div class="ticker-desktop">
+		<img class="letter-headshot jetpack-lazy-image" src="https://www.motherjones.com/wp-content/uploads/2018/10/Drum_bio_gradient_900.jpg?w=200" alt="Kevin Drum photo" width="200" data-lazy-src="https://www.motherjones.com/wp-content/uploads/2018/10/Drum_bio_gradient_900.jpg?w=200&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img class="letter-headshot" src="https://www.motherjones.com/wp-content/uploads/2018/10/Drum_bio_gradient_900.jpg?w=200" alt="Kevin Drum photo" width="200"></noscript>
+		<p class="salutation">Dear reader,</p>
+		<p class="letter-body">"<a href="https://www.motherjones.com/kevin-drum/2019/05/theres-a-new-kind-of-corruption-in-town/" data-ga-category="MembershipBar" data-ga-label="ReadMore">There's a New Kind of Corruption in Town</a>:" That's my post where I talk about the new types of corruption that more and more seem to define us, and ask readers to help crowdfund the new <em>Mother Jones</em> Corruption Project. My take? Corruption is nothing new, but today feels different, and a big reason why is the growing dismissal of the media that once exposed My Lai, the Rambler, Bull Connor and Watergate. Please check out the full post, and pitch in with a tax-deductible donation if <a href="https://www.motherjones.com/media/2019/04/mother-jones-corruption-project/" data-ga-category="MembershipBar" data-ga-label="ReadMore">our plan</a> sounds good to you.</p>
+		<img src="https://practice.motherjones.com/wp-content/uploads/2019/06/drum_signature.png" width="80" style="margin: 1rem 1rem 0 0" data-lazy-src="https://practice.motherjones.com/wp-content/uploads/2019/06/drum_signature.png?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class=" jetpack-lazy-image"><noscript><img src="https://practice.motherjones.com/wp-content/uploads/2019/06/drum_signature.png" width="80" style="margin: 1rem 1rem 0 0"/></noscript>
+		<p class="letter-body">Kevin Drum, <span class="letter-title"><em>Mother Jones</em></span><a data-ga-category="MembershipBar" data-ga-label="Donate" href="https://secure.actblue.com/donate/motherjones?refcode=7H94PR04&amount=50.00&recurring=0" style="background-image: none !important;" target="_blank"  rel="noopener noreferrer"><button class="btn-primary">Donate</button></a></p>
+	</div>
+	<div class="ticker-mobile">
+		<p class="letter-body">"<a class="ticker-read-more" href="https://www.motherjones.com/kevin-drum/2019/05/theres-a-new-kind-of-corruption-in-town/" data-ga-category="MembershipBar" data-ga-label="ReadMore1">There's a New Kind of Corruption in Town</a>:" Kevin Drum makes the case to pitch in for <em>MoJo</em>'s new <a href="https://www.motherjones.com/media/2019/04/mother-jones-corruption-project/" data-ga-category="MembershipBar" data-ga-label="ReadMore2">Corruption Project</a>.</p>
+		<p class="letter-body">
+			<a data-ga-category="MembershipBar" data-ga-label="Donate" href="https://secure.actblue.com/donate/motherjones?refcode=7H94PRM4&amount=50.00&recurring=0" style="background-image: none !important;" target="_blank"  rel="noopener noreferrer"><button class="btn-primary">Donate</button></a></p>
+	</div>
+</div></div></section></div>	</header><!-- .site-header -->
+
+<script>var mj_pub_date=1517464838;</script><header class="entry-header media-header"><div id="overlay-data"><h1 class="entry-title">Inside the Top-Secret Abortion Underground</h1><h3 class="dek">Code names, top-secret training, and a movement of women determined to avoid the medical establishment.</h3><p class="byline-dateline">
+	<span class="byline"><a href="https://www.motherjones.com/author/nina-liss-schultz/" title="Posts by Nina Liss-Schultz">Nina Liss-Schultz</a></span><span class="dateline"><a href="https://www.motherjones.com/mag/2018/02/toc/">March/April 2018 Issue</a></span></p>
+	</div>
+	<div id="header-image">
+		<img width="2000" height="1124" src="https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_title_2000x1124.jpg?w=2000&amp;h=1124&amp;crop=1" class="attachment-full_width_giant size-full_width_giant jetpack-lazy-image" alt="" data-lazy-srcset="https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_title_2000x1124.jpg 2000w, https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_title_2000x1124.jpg?resize=208,117 208w, https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_title_2000x1124.jpg?resize=321,180 321w, https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_title_2000x1124.jpg?resize=630,354 630w, https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_title_2000x1124.jpg?resize=990,556 990w, https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_title_2000x1124.jpg?resize=642,361 642w" data-lazy-sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" data-lazy-src="https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_title_2000x1124.jpg?w=2000&amp;h=1124&amp;crop=1&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />	</div>
+<meta itemprop="description" content="On a summer day in 2015, Renata and more than a dozen women, all strangers from different parts of the country, sat in a semicircle on the living-room floor of a house, deep in the rural South. A lean twentysomething with a wide smile and olive skin, Renata was the only nonwhite person in the [&hellip;]" />
+<meta itemprop="datePublished" content="2018-02-01T06:00:38-04:00" />
+<meta itemprop="dateModified" content="2018-02-14T19:45:08-04:00" />
+<meta itemprop="image" content="https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_2000x1124.jpg?w=208&amp;h=117&amp;crop=1" /><p class="art-byline">Chloe Aftel</header>
+
+<main id="main" class="site-main" role="main">
+	<section class="main-col col-12">
+		<article class="full-width entry-content">
+			<div class="social-container top hidden-md hidden-sm hidden-xs hidden-xxs">
+			<ul>
+				<li class="facebook"><a class="social" href="http://facebook.com/sharer.php?u=https%3A%2F%2Fwww.motherjones.com%2Fcrime-justice%2F2018%2F02%2Finside-the-top-secret-abortion-underground%2F" target="_blank" data-ga-label="FacebookShare" data-ga-category="TopOfArticle"><i class="icon-facebook"></i><span class="share-text">Share on Facebook</span></a></li>
+				<li class="twitter"><a class="social" target="_blank" href="https://twitter.com/intent/tweet?text=Inside%20the%20top-secret%20abortion%20underground&url=https%3A%2F%2Fwww.motherjones.com%2Fcrime-justice%2F2018%2F02%2Finside-the-top-secret-abortion-underground%2F&amp;via=MotherJones" data-ga-label="TwitterShare" data-ga-category="TopOfArticle"><i class="icon-twitter"></i><span class="share-text">Share on Twitter</span></a></li><li class="email"><a href="mailto:?subject=Inside%20the%20Top-Secret%20Abortion%20Underground&body=On%20a%20summer%20day%20in%202015%2C%20Renata%20and%20more%20than%20a%20dozen%20women%2C%20all%20strangers%20from%20different%20parts%20of%20the%20country%2C%20sat%20in%20a%20semicircle%20on%20the%20living-room%20floor%20of%20a%20house%2C%20deep%20in%20the%20rural%20South.%20A%20lean%20twentysomething%20with%20a%20wide%20smile%20and%20olive%20skin%2C%20Renata%20was%20the%20only%20nonwhite%20person%20in%20the%20%5B%E2%80%A6%5Dhttps%3A%2F%2Fwww.motherjones.com%2Fcrime-justice%2F2018%2F02%2Finside-the-top-secret-abortion-underground%2F" target="_blank" data-ga-label="Email" data-ga-category="TopOfArticle"><i class="icon-mail"></i><span class="share-text">Email</span></a></li><li class="print"><a href="#" title="Print this article" rel="nofollow" data-ga-category="TopOfArticle" data-ga-label="Print" onclick="window.print(); return false;"><i class="icon-print"></i><span class="share-text">Print</span></a></li><li class="comment"><a href="#disqus-container" data-ga-label="Comment" data-ga-category="TopOfArticle" onclick="mj_display_disqus();"><i class="icon-comment"></i><span class="share-text">Comments</span></a></li></ul></div>
+			<div id="fullwidth-body">
+				<p class="p1"><span class="s1"><span class="section-lead">On a summer</span> day in 2015, Renata and more than a dozen women, all strangers from different parts of the country, sat in a semicircle on the living-room floor of a house, deep in the rural South. A lean twentysomething with a wide smile and olive skin, Renata was the only nonwhite person in the group. And she felt conspicuous in other ways too—many of the women struck her as kind of &#8220;new agey,&#8221; and some had been involved in a &#8220;crystal energetics&#8221; midwifery program. All of them had big red binders full of worksheets and documents related to the topic at hand: how to help women self-induce an abortion. &#8220;My initial thought,&#8221; she recalls, &#8220;is, &#8216;What the fuck did I get myself into?'&#8221;</span></p>
+<p class="p1"><span class="s1">Renata had come from Arizona to attend the weeklong training. She learned how, in the late 19th and early 20th centuries, white male doctors consolidated their professional power in part by sidelining female and often nonwhite midwives and other community healers. She learned which drugs and herbs induce a miscarriage and where to buy the small, plastic, strawlike instrument that is inserted into the uterus and suctions out an unwanted pregnancy. If problems arise, what should one say to avoid scrutiny at the emergency room? In which states is self-induced abortion, and helping women self-induce, a crime?</span></p>
+<p class="p1"><span class="s1">On the second day, the group split into pairs, and in different rooms they practiced pelvic exams. Renata (whose name, along with those of other providers and clients in this story, has been changed) and her partner, propped up by pillows, tried not to pinch each other with the plastic speculum they were still learning to use. &#8220;It was emotional,&#8221; she remembers. &#8220;It&#8217;s a heavy topic, and you&#8217;re working with each other&#8217;s bodies.&#8221; The next day, a member of the group demonstrated on a woman having her period how a manual vacuum aspiration device, a handheld plastic syringe used by clinics for first-trimester abortions, could pull out the menses—or a pregnancy.</span></p>
+<aside class="p1 pullquote-left"><span class="s1">&#8220;We all deserve the right to choose how, where, and with whom we want to have our abortions.&#8221;</span></aside>
+<p class="p1"><span class="s1">As long as women have had unwanted pregnancies, other women have helped them resolve the problem. After the mid-19th century, when abortion was outlawed, women either found a physician who did it on the sly or turned to traditional helpers, a practice that continued even after the Supreme Court legalized abortion in 1973. Today, as abortion rights are restricted at an <a href="https://www.guttmacher.org/tags/reproductive-health-crisis">unprecedented rate</a>—between 2011 and 2016, more than <a href="https://www.bloomberg.com/news/articles/2016-02-24/abortion-clinics-are-closing-at-a-record-pace">160 clinics closed</a>—this informal network of nonmedical providers is responsible for a small but significant number of abortions nationwide.</span></p>
+<p class="p1"><span class="s1">Renata is part of a growing underground movement of people across America who have taught themselves to help women terminate pregnancies without a doctor. I talked to dozens of these clandestine providers, and our conversations offer a rare glimpse into a world that is shrouded in secrecy and fear. Some urged me not to write about their work. But their efforts reveal a new aspect of how the war on reproductive rights has played out, and how a new generation of activists has come to believe that it&#8217;s reasonable to handle this aspect of women&#8217;s health care outside a medical setting. And they are determined to give more women that opportunity, no matter the legal risk.</span></p>
+<p class="p1"><span class="s1">In the nearly three years since her training, Renata has helped about 20 women have abortions in Arizona, a state <a href="https://www.guttmacher.org/infographic/2017/22-states-are-extremely-hostile-abortion">extremely hostile to abortion rights</a>. She says she knows as many as 75 people, some of whom are queer or gender-nonconforming, who either provide these services or train others. For a 2016 study, University of Washington researcher Alison Ojanen-Goldsmith asked 19 people doing home abortions to count everyone they knew who had used alternative abortion methods. All told, the group identified 843 people, some of whom were also providers. Of those identified as providers, the study participants estimated that each person was involved in anywhere between 10 and 100 home abortions. &#8220;That&#8217;s huge,&#8221; Ojanen-Goldsmith says. &#8220;There are potentially thousands of these abortions happening every year.&#8221;</span></p>
+<p class="p1"><span class="s1">Having or even soliciting a self-induced abortion, however, <a href="https://www.sialegalteam.org/halt-criminalization">is illegal in Arizona and six other states</a>—Delaware, Idaho, Nevada, New York, Oklahoma, and South Carolina. Even in states without an outright ban, underground providers operate in, at best, a legal gray area. The Self-Induced Abortion Legal Team, which since 2015 has conducted research on self-induced abortion and the law, has identified about 40 types of legislation that could potentially be used to prosecute those who self-induce or help others do so. They range from murder and child endangerment to less obvious offenses, like failing to report a birth or improperly disposing of human remains. Because of the strong taboo against abortions, says SIA lawyer Farah Diaz-Tello, prosecutors may be more inclined to seek the harshest possible charges. And even outside the law, the work has plenty of critics, among them some abortion rights advocates who say this practice is medically or legally risky.</span></p>
+<p class="p1"><span class="s1">Some providers of clandestine abortions say that ending a pregnancy outside a clinic is akin to other forms of alternative health care like herbal therapies or home birth. And they believe the procedure represents a way for women to better understand their own bodies, especially their wombs, which are regarded with reverence. They see their work as a necessary effort to expand options for safe abortions. Many of their clients <i>could </i>go to a clinic but would rather terminate pregnancies on their own terms. As one secretive online resource for underground providers puts it, &#8220;Clinical abortion care plays a vital role,&#8221; but &#8220;we all deserve the right to choose how, where, and with whom we want to have our abortions.&#8221;</span></p>
+<p class="p1"><span class="s1"><span class="section-lead">The familiar narrative</span> of abortion access in America goes something like this: Back when the practice was illegal, women struggling with unwanted pregnancies sought out quack doctors for help, in some cases ending up blindfolded on strangers&#8217; kitchen tables. By the mid-1960s, when between 200,000 and 1.2 million illegal abortions were performed each year, about 200 deaths from botched abortions were reported annually. Hospital wards were created specifically for women who developed infections or started hemorrhaging after trying to do it themselves. Then came the 1973 <i>Roe v. Wade </i>Supreme Court decision. Clinics with professional doctors sprang up to help women end their pregnancies safely. Abortion foes, led in part by Catholics, Moral Majority leaders, and conservative legislators, organized to fight &#8220;abortion on demand.&#8221; After the tea party&#8217;s 2010 victories in Congress and state legislatures, hundreds of new restrictions were passed in short order, forcing clinics to close and, researchers suspect, increasingly driving abortions underground.</span></p>
+<figure id="attachment_573082"  class="inline-image alignnone" style="max-width: 630px;"><img class="size-full wp-image-573082 jetpack-lazy-image" src="https://www.motherjones.com/wp-content/uploads/2018/01/432_012918_underground_630.jpg" alt width="630" height="833" data-lazy-srcset="https://www.motherjones.com/wp-content/uploads/2018/01/432_012918_underground_630.jpg 630w, https://www.motherjones.com/wp-content/uploads/2018/01/432_012918_underground_630.jpg?resize=321,424 321w, https://www.motherjones.com/wp-content/uploads/2018/01/432_012918_underground_630.jpg?resize=268,354 268w" data-lazy-sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px" data-lazy-src="https://www.motherjones.com/wp-content/uploads/2018/01/432_012918_underground_630.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img class="size-full wp-image-573082" src="https://www.motherjones.com/wp-content/uploads/2018/01/432_012918_underground_630.jpg" alt="" width="630" height="833" srcset="https://www.motherjones.com/wp-content/uploads/2018/01/432_012918_underground_630.jpg 630w, https://www.motherjones.com/wp-content/uploads/2018/01/432_012918_underground_630.jpg?resize=321,424 321w, https://www.motherjones.com/wp-content/uploads/2018/01/432_012918_underground_630.jpg?resize=268,354 268w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px" /></noscript><figcaption class="wp-caption-text">
+<p><span class="media-caption">Even pro-choice physicians stop short of endorsing underground providers, arguing that someone with inadequate training may not recognize complications.</span></p>
+<p><span class="media-credit">Chloe Aftel</span></figcaption></figure>
+<p class="p1"><span class="s1">That story is true enough. But what&#8217;s also true is that for generations women have ended their pregnancies, successfully and without consequence, on their own or with the help of friends. In the early 1800s, when abortion was only illegal after the point of &#8220;quickening,&#8221; or discernible fetal movement (at roughly 16 to 20 weeks), women consulted medical guides with names like <i>Domestic Medicine </i>and <i>The</i> <i>Female Medical Repository </i>that described techniques for &#8220;unblocking obstructed menses,&#8221; such as quinine concoctions or cocktails of juniper and bitter apple. Herbalists and midwives offered teas made from the black cohosh root, a practice still in use today.</span></p>
+<p class="p1"><span class="s1">Later in the century, the newly formed American Medical Association spearheaded efforts to criminalize abortion, which historians believe was part of a larger campaign to monopolize the market and restrict competition, including from midwives. Physicians, almost exclusively men, publicly questioned the morality of abortion—and by extension the morality of the lay practitioners who provided it. Horatio Storer, a Harvard-educated &#8220;father of gynecology&#8221; and chairman of an anti-abortion AMA committee, wrote in an 1860s text that Anglo-Saxon American women should reject abortion to preserve cultural dominance. &#8220;Shall [America] be filled by our own children or by those of aliens?&#8221; Storer wrote. &#8220;This is a question that our own women must answer; upon their loins depends the future destiny of the nation.&#8221; Still, abortion continued in the shadows. By the time the women&#8217;s liberation movement demanded a public reckoning with the private oppressions women faced, access to abortion had once again become a concern.</span></p>
+<p class="p1"><span class="s1"><span class="section-lead">In the early</span> 1960s, Carol Downer was a typist with four children at home and a marriage on the rocks. When she got pregnant a fifth time, she found someone who she thought was a doctor who agreed to give her an illegal abortion. He left wads of gauze in her uterus and a thin strip dangling from her cervix; in a later conversation, he said she could finally remove it. The material, hardened and dried with blood, felt like a sharp razor passing through her body, Downer, now 84 years old, told me. The experience radicalized her.</span></p>
+<p class="p1"><span class="s1">She joined the Los Angeles chapter of the National Organization for Women and, through a member of the group, met Harvey Karman, an abortionist whom she began shadowing. The first time Downer saw a cervix, she says, &#8220;I had an epiphany. It was just crystal clear the key role that ignorance of our bodies played in this whole situation.&#8221; If women understood their bodies and what the procedure involved, she reasoned, &#8220;we wouldn&#8217;t be sticking knitting needles into our uteruses and dying—or using douches of lye.&#8221;</span></p>
+<p class="p1"><span class="s1">Karman was pioneering a new way to perform abortions. Instead of scraping the lining of the uterus with a tool called a curette, a painful and invasive procedure, he used suction to remove the pregnancy. Downer and a friend believed this could revolutionize women&#8217;s ability to abort independently, eventually leading to the exclusion of intermediaries, like Karman, in the process. The biggest hurdle was the pelvic exam, which they practiced while using the suction technique to remove each other&#8217;s menses.</span></p>
+<p class="p1"><span class="s1">In 1971, after California, unlike most states, had liberalized its abortion laws, Downer&#8217;s group placed a notice in a Los Angeles newspaper announcing a meeting about reproductive health that was in fact intended to discuss Karman&#8217;s suction technique. Thirty women showed up at a bookstore in Venice Beach, but when Downer described freeing women to do abortions on their own, the crowd grew quiet. Sensing their worry, Downer lifted her skirt and hopped onto a desk, using a speculum and mirror to show the others how easy pelvic exams were to perform. &#8220;People were so happy, so interested,&#8221; she remembers. &#8220;They wanted to be a part of it.&#8221; The women began meeting weekly, and one of them figured out how to simplify Karman&#8217;s device with everyday materials including a mason jar, aquarium tubing, forceps, and a syringe to create suction.</span></p>
+<p class="p1"><span class="s1">Abortions were important, but the women also learned how to do pelvic self-exams and understand the biology of ovulation. Before long, Downer and another friend embarked on a tour to spread their self-help gospel to groups across the country. In California, hospitals had begun offering limited abortion services, and Downer&#8217;s group referred pregnant women to a physician at one of them while teaching self-help on other topics like natural contraception. But she also witnessed as many as 100 menstrual-extraction abortions outside clinical settings.</span></p>
+<figure id="attachment_572793"  class="inline-image aligncenter" style="max-width: 960px;"><img class="size-full wp-image-572793 jetpack-lazy-image" src="https://www.motherjones.com/wp-content/uploads/2018/01/20180215underground960.jpg" alt width="960" height="628" data-lazy-srcset="https://www.motherjones.com/wp-content/uploads/2018/01/20180215underground960.jpg 960w, https://www.motherjones.com/wp-content/uploads/2018/01/20180215underground960.jpg?resize=321,210 321w, https://www.motherjones.com/wp-content/uploads/2018/01/20180215underground960.jpg?resize=541,354 541w, https://www.motherjones.com/wp-content/uploads/2018/01/20180215underground960.jpg?resize=642,420 642w" data-lazy-sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" data-lazy-src="https://www.motherjones.com/wp-content/uploads/2018/01/20180215underground960.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img class="size-full wp-image-572793" src="https://www.motherjones.com/wp-content/uploads/2018/01/20180215underground960.jpg" alt="" width="960" height="628" srcset="https://www.motherjones.com/wp-content/uploads/2018/01/20180215underground960.jpg 960w, https://www.motherjones.com/wp-content/uploads/2018/01/20180215underground960.jpg?resize=321,210 321w, https://www.motherjones.com/wp-content/uploads/2018/01/20180215underground960.jpg?resize=541,354 541w, https://www.motherjones.com/wp-content/uploads/2018/01/20180215underground960.jpg?resize=642,420 642w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></noscript><figcaption class="wp-caption-text">
+<p><span class="media-caption">The implements used in a clandestine abortion</span></p>
+<p><span class="media-credit">Chloe Aftel</span></figcaption></figure>
+<p class="p1"><span class="s1">Similar efforts were taking place all over the country. In Chicago, an organization of self-trained women called Jane offered abortions in the four years before <i>Roe</i>, ultimately terminating upward of 11,000 pregnancies, according to a book written by medical historian Leslie Reagan. <a href="https://www.theatlantic.com/politics/archive/2016/05/how-the-clergy-innovated-abortion-services/484517/">A network of pastors and other religious officials</a> created a nationwide referral service to connect women with safe, if illegal, abortion doctors. Outside the underground networks, feminist groups were pushing for better education about how women&#8217;s bodies work and a health care system that was more responsive to their needs, culminating in the 1973 publication of <i>Our Bodies, Ourselves</i>, a groundbreaking manual exploring all aspects of women&#8217;s health.</span></p>
+<p class="p1"><span class="s1">Within weeks of abortion becoming legal nationally, Downer opened a women-run clinic that offered instruction in self-help but where licensed physicians performed abortions. Years later, thanks to some of the tools her group pioneered, suction became standard practice for first-trimester abortions. But her greatest legacy may be her role in reviving the community health care traditions in which women helped other women. &#8220;We hearkened to the message that women need to take back our health care,&#8221; Downer says, to &#8220;regain female knowledge&#8221; of reproduction.</span></p>
+<p class="p1"><span class="s1"><span class="section-lead">Sitting across from</span> me on a bench in the secluded corner of a coffee shop in Arizona, Renata, who grew up in California&#8217;s Central Valley with Mexican immigrant parents, describes her work with clients. Typically with no other options, always referred by word-of-mouth, they call her by a code name that she didn&#8217;t want to share with me. Establishing trust works both ways; Renata vets them thoroughly, since she must be sure they won&#8217;t turn her in to law enforcement. She explains worst-case scenarios, backup plans, and, should complications arise, the necessity of telling an emergency room physician that they might be having a miscarriage. For most of her clients, their income level and immigration status make health insurance impossible and hospitals and clinics intimidating. (Renata charges clients on a sliding scale and often collects about $25, which means she&#8217;s typically losing money.) &#8220;It&#8217;s hard enough to set foot in a school, let alone a hyperformal clinic,&#8221; she says. Even though many clinics also charge on a sliding scale, her clients are often fearful of leaving &#8220;a paper trail,&#8221; not having an ID, or encountering language barriers. All they want is a safe and effective way to end their pregnancies. </span></p>
+<p class="p1"><span class="s1">Usually, Renata gives them misoprostol, one of two drugs for what is known as a medication abortion. In clinics doctors tell patients to take mifepristone first, to end the pregnancy, and then misoprostol to expel it from the body. But in the 1980s, women in Latin America realized that misoprostol, otherwise known as miso, was <a href="https://www.guttmacher.org/journals/ipsrh/2012/09/use-medicines-changing-face-abortion">effective on its own</a>. Even more appealing, miso is cheap and widely available, since it&#8217;s also used as an anti-ulcer drug. A friend with a medical license sends Renata the drugs and she gives them to her clients, often supplemented by a regimen of herbs. She sits with them during the abortion, which can take a full day, and follows up regularly once it&#8217;s done. After the procedure, Renata destroys all the client&#8217;s records.</span></p>
+<aside class="p1 pullquote-left"><span class="s1">Over the last decade, Arizona has passed extremely restrictive abortion legislation. One doctor says the number of patients asking about self-induced abortion has skyrocketed.</span></aside>
+<p class="p1"><span class="s1">It&#8217;s unclear exactly how many people have been prosecuted for helping someone end a pregnancy. Before abortion was legalized, police raided two apartments where the Janes worked in 1972. Three women waiting for abortions were taken to the hospital, and seven Janes were arrested, including a high school English teacher, several stay-at-home mothers, and a student. One of the providers swallowed a list of patients&#8217; names she carried in her purse. All seven were referred to a grand jury for indictment, but the case was dismissed when the Supreme Court legalized abortion. That same year, police raided Downer&#8217;s self-help clinic in Los Angeles after someone reported that she had treated a yeast infection by inserting yogurt into a woman&#8217;s vagina. She was arrested and charged with practicing medicine without a license, which she beat by arguing that her home remedy was not, in fact, medicine.</span></p>
+<p class="p1"><span class="s1">More recently, women who weren&#8217;t affiliated with the at-home abortion movement have been prosecuted. In 2012, <a href="https://www.nytimes.com/2014/09/22/magazine/a-mother-in-jail-for-helping-her-daughter-have-an-abortion.html">Jennifer Whalen</a>, a 36-year-old mother of three in rural Pennsylvania, where about 85 percent of counties are without an abortion clinic, ordered abortion drugs online for her 16-year-old daughter. The closest abortion clinic was 75 miles away, and the procedure would cost up to $600. After taking the drugs, her daughter got scared, so they drove to the ER, where staff reported Whalen to child protective services. Her daughter was fine, but nearly two years later Whalen was charged with a felony for offering a medical consultation without a license, and with three misdemeanors: endangering the welfare of a child, dispensing drugs without being a pharmacist, and assault. She pleaded guilty to the felony and one misdemeanor and was sentenced to 9 to 18 months in jail. In 2015, an Arkansas nurse gave drugs to a friend who ended her pregnancy at home before going to the emergency room, according to an incident report. Her friend was reported to law enforcement and later was convicted of concealing a birth; the nurse ultimately pleaded guilty to unlawful abortion.</span></p>
+<figure id="attachment_573087"  class="inline-image alignnone" style="max-width: 960px;"><img class="size-full wp-image-573087 jetpack-lazy-image" src="https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_e_960.jpg" alt width="960" height="640" data-lazy-srcset="https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_e_960.jpg 960w, https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_e_960.jpg?resize=321,214 321w, https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_e_960.jpg?resize=531,354 531w, https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_e_960.jpg?resize=642,428 642w" data-lazy-sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" data-lazy-src="https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_e_960.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img class="size-full wp-image-573087" src="https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_e_960.jpg" alt="" width="960" height="640" srcset="https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_e_960.jpg 960w, https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_e_960.jpg?resize=321,214 321w, https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_e_960.jpg?resize=531,354 531w, https://www.motherjones.com/wp-content/uploads/2018/01/432_underground_e_960.jpg?resize=642,428 642w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></noscript><figcaption class="wp-caption-text">
+<p><span class="media-caption">Since 2015, Renata, a clandestine provider in Arizona, has helped about 20 people end their pregnancies.</span></p>
+<p><span class="media-credit">Chloe Aftel</span></figcaption></figure>
+<p class="p1"><span class="s1">Renata and the other providers I interviewed are terrified they could end up in the same predicament. One woman, based in a Western state, who has helped about 150 women—many of them sex workers—end their pregnancies said she constantly rotates through burner phones to stay under the radar. When I asked her how she stays safe, she replied half-jokingly, &#8220;My partner has a lot of guns.&#8221; She wrote to me shortly after her second child was born: &#8220;I know that I am putting myself and my family at risk for being without me if I am prosecuted or worse. I do this work to help people who need it.&#8221; In California, I spoke to Ruth, another provider who started performing at-home abortions after finding the clinic experience to be too sterile and isolating. &#8220;Staying at home, choosing who is with them and who is not, gives people autonomy,&#8221; Ruth said.</span></p>
+<p class="p1"><span class="s1">But doctors are skeptical that self-induced abortion is a safe option. I talked with a Planned Parenthood abortion physician—one of just a handful in Arizona—who asked to remain anonymous to protect his identity and his family&#8217;s safety. He&#8217;s not surprised more women aren&#8217;t making it to his clinic these days. Over the last decade, Arizona has passed <a href="https://www.prochoiceamerica.org/state-law/arizona/#political-information-executive">extremely restrictive</a> abortion legislation. One law stipulates that surgical abortion can only be performed by a physician; a second law forbids physician assistants from dispensing abortion drugs. In 2008, there were 10 Planned Parenthood clinics that provided abortion services. Now, there are only four. Plus, patients face mandatory waiting periods and parental consent laws.</span></p>
+<p class="p1"><span class="s1">The state has also passed strict regulations of abortion by medication. In March 2016, new guidelines from the Food and Drug Administration recommended that mifepristone could be used until the 10th week of pregnancy and at lower doses than previously thought. But a day later, Republican Gov. Doug Ducey signed a bill requiring Arizona doctors to use the outdated protocol, forcing women to undergo a less effective regimen with more side effects. (That measure was subsequently repealed.) The state has banned physicians from prescribing abortion drugs by phone, so women may have to drive hours for an initial mandatory counseling appointment before sitting out a required 24-hour waiting period and returning for their prescription.</span></p>
+<figure id="attachment_572780"  class="inline-image alignright" style="max-width: 290px;"><a href="https://www.motherjones.com/politics/2017/05/fetal-homicide-abortion-rights-restrictions/"><img class="size-medium wp-image-572780 jetpack-lazy-image" src="https://www.motherjones.com/wp-content/uploads/2018/01/201705fetalhomicide290.jpg?w=290" alt width="290" height="303" data-lazy-srcset="https://www.motherjones.com/wp-content/uploads/2018/01/201705fetalhomicide290.jpg 290w, https://www.motherjones.com/wp-content/uploads/2018/01/201705fetalhomicide290.jpg?resize=32,32 32w" data-lazy-sizes="(max-width: 290px) 85vw, 290px" data-lazy-src="https://www.motherjones.com/wp-content/uploads/2018/01/201705fetalhomicide290.jpg?w=290&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img class="size-medium wp-image-572780" src="https://www.motherjones.com/wp-content/uploads/2018/01/201705fetalhomicide290.jpg?w=290" alt="" width="290" height="303" srcset="https://www.motherjones.com/wp-content/uploads/2018/01/201705fetalhomicide290.jpg 290w, https://www.motherjones.com/wp-content/uploads/2018/01/201705fetalhomicide290.jpg?resize=32,32 32w" sizes="(max-width: 290px) 85vw, 290px" /></noscript></a><figcaption class="wp-caption-text"><a href="https://www.motherjones.com/politics/2017/05/fetal-homicide-abortion-rights-restrictions/"></p>
+<p><span class="media-caption">RELATED: She Was Desperate. She Tried to End Her Own Pregnancy. She Was Thrown in Jail.</span></p>
+<p></a></figcaption></figure>
+<p class="p1"><span class="s1">The Arizona doctor says that over the last two years, the number of patients who have asked him about self-induced abortion has skyrocketed. He regularly Googles &#8220;self-induced abortion,&#8221; so he has some sense of what his clients might be seeing, but he is ultimately skeptical about its safety for every patient. Women come to him with complications. &#8220;I ask myself, &#8216;Is this something I&#8217;d want my daughter to do?&#8217; And the answer is no. But the reality is I can understand.&#8221;</span></p>
+<p class="p1"><span class="s1">Daniel Grossman, a prominent abortion rights expert and a professor of obstetrics and gynecology at the University of California-San Francisco, notes that research does support some methods of self-induced abortion. &#8220;I don&#8217;t believe self-induced abortion is necessarily unsafe,&#8221; he says when I reach him by phone. He adds that women can &#8220;very safely&#8221; take misoprostol on their own. But as a physician, he can&#8217;t ethically recommend that they use menstrual extraction kits and other such devices to end their pregnancies. There&#8217;s a risk of uterine perforation and hemorrhaging, which can be deadly. The safety of these methods depends on the provider, he says, and someone with inadequate training may not know when there&#8217;s a complication. As for the herbs, which are believed to flush out the contents of the uterus, like miso does, Grossman says their safety and efficacy haven&#8217;t been proved. </span></p>
+<p class="p1"><span class="s1">Even Heather Booth, the founding member of Jane who ran an underground abortion service out of her dorm room at the University of Chicago and describes her cause as a righteous &#8220;good deed,&#8221; stopped short of saying she approved of what Renata and her colleagues are doing. When I asked if she still saw a need for underground abortion, she demurred. &#8220;I think we need to do everything possible to make [abortion] available to all and ensure that the services are available for all.&#8221;</span></p>
+<p class="p1"><span class="s1">All the underground providers I spoke with rejected the notion that&nbsp;</span><span class="s1">the care they provide is unsafe. Many harbor a deep dislike of the medical establishment and are convinced their work will always be criticized because doctors see out-of-clinic care as a threat to their monopoly. As with Downer and the 19th-century midwives, they seek to provide a different type of care entirely.</span></p>
+<aside class="p1 pullquote-left"><span class="s1">&#8220;Is this something I&#8217;d want my daughter to do? The answer is no. But the reality is I can understand.&#8221;</span></aside>
+<p class="p1"><span class="s1">As part of her study, Ojanen-Goldsmith asked participants who had previously self-induced, some of whom were also providers, why they did it. Nearly two-thirds had had at least one clinical termination prior to their self-induced abortion, and more than half had worked or volunteered in traditional settings. They self-induced either to avoid a clinic—perhaps because of an onerous restriction or affordability—or because they wanted something like an herbal regimen, a spiritual ceremony, or the comfort of their own homes. Diaz-Tello notes, &#8220;It&#8217;s not all out of desperation.&#8221;</span></p>
+<p class="p1"><span class="s1">Renata knows this all too well. She recently helped a transgender man, a citizen who could have afforded Planned Parenthood but didn&#8217;t feel comfortable there, end his unwanted pregnancy. As for safety concerns, she points out that she always discusses them with her clients but adds that no one has ever been deterred. &#8220;They know they have no other options,&#8221; she says. &#8220;People are fucking terrified of continuing their pregnancies.&#8221; </span></p>
+<p class="p1"><span class="s1"><span class="section-lead">On a blazing</span> hot summer day last year, Renata shows me into the two-bedroom red-brick house she shares with her boyfriend. A pit bull greets us, and sitting on an entryway table is a speculum decorated with rhinestones and feathers. They had recently moved into the house from a smaller one-bedroom apartment so that Renata could see clients in the extra room. </span></p>
+<p class="p1"><span class="s1">Renata&#8217;s sister is her only family member who knows what she does. She is alone in her shadowy work, and in more ways than one—she has met just a handful of providers of color on the job and worries that, because most of the underground providers she knows are white, women of color who need help ending a pregnancy might hesitate before contacting them. She hopes more Spanish speakers and people of color will get trained to provide at-home abortions, but until then, she&#8217;ll do what she can. &#8220;You create a system when the need is high enough.&#8221;</span></p>
+<p class="p1"><span class="s1">One of her clients is Sofia, a botanist in her 20s who was seven weeks pregnant when Renata gave her misoprostol last October. Someday, Sofia plans to have children with her current partner, but this pregnancy came as a shock. She had immigrated to the United States from Mexico as a small child and was undocumented until recently. She decided she just couldn&#8217;t afford a baby. &#8220;I want to make sure that I&#8217;m at a better place in terms of finances when I do have a child,&#8221; she says softly over the phone.</span></p>
+<p class="p1"><span class="s1">Her experience as an undocumented immigrant—living most of her life under the radar and without health insurance—and her traumatizing memories of navigating a hospital system unsympathetic to Spanish speakers, plus the expense, made her wary of what she might face in a clinic. So, she found Renata. &#8220;I knew that if I was going to do this, I had the choice and the option of doing it at home,&#8221; she tells me before breaking into tears. &#8220;I haven&#8217;t told people in my homeland. It&#8217;s stigmatized. There was never the option to have an abortion.&#8221; With the help of herbs and miso, Sofia successfully ended her pregnancy.</span></p>
+<p class="p1"><span class="s1">&#8220;Renata is a role model in the way she supported me through this,&#8221; Sofia says. &#8220;It takes a special kind of person to do this work, especially to do this underground, without people knowing much.&#8221;</span></p>
+<p class="p1"><em><span class="s1">This article has been updated.</span></em></p>
+			</div>
+
+			<footer class="entry-footer">
+				
+		<div class="newsletter-signup grid grid-bleed">
+			<div class="col-12">
+									<h3>
+						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 164 110" style="enable-background:new 0 0 164 110; max-width:1.8rem;" xml:space="preserve">
+							<path d="M0,0.48v109.22h163.84V0.48H0z M81.92,64.62l-68.27-41.6l5.69-9.33l62.59,38.14l62.59-38.14l5.69,9.33L81.92,64.62z"></path>
+						</svg>
+						Looking for news you can trust?
+					</h3>
+					<p>Subscribe to our free newsletters.</p>
+							</div>
+			<div class="col-12">
+				<form
+					action="https://api.maropost.com/accounts/585/forms/3289/subscribe/177d8ba3b7fe7d39e28dcba73123eeffbd01878b"
+					method="post"
+					data-ga-label="NewsletterSignup"
+					data-ga-category="EndOfArticle"
+					id="TopOfArticleNewsletterSignup" 					onsubmit="return mj_check_email(this, event);"
+				>
+					<input include_blank="true" start_year="1950" type="hidden" name="custom_fields[outreach_affiliate_code]" id="custom_fields_outreach_affiliate_code" value="EndOfArticle" />
+					<input include_blank="true" start_year="1950" type="hidden" name="custom_fields[signup_url]" id="signup_url" value="" />
+					<input type="hidden" value="" id="email_field" name="email_const_mp" />
+					<input include_blank="true" start_year="1950" name="contact_fields[email]" id="cons_email" placeholder="Email" type="text" />
+					<input id="newsletter-signup" type="submit" name="commit" id="submit" value="Sign Up" />
+				</form>
+			</div>
+		</div>
+
+		<section id="mj-article-bottom-membership-widget-3" class="widget mj-article-bottom-membership-widget"><h3>THE MOTHER JONES CORRUPTION PROJECT</h3><p>The more we thought about how our journalism can have the most impact heading into the 2020 election, the more we realized that so many of today's stories come down to corruption: <strong>democracy and the rule of law being undermined by the wealthy and powerful for their own gain</strong>.</p>
+
+<p>So we're launching a new <em>Mother Jones</em> Corruption Project to do deep, time-intensive reporting on systemic corruption. <strong>We aim to hire, build a team, and give them the time and space needed to understand how we got here and how we might get out</strong>. We'll publish what we find as a major series in the summer of 2020, including a special issue of our magazine, a dedicated online portal, and video and podcast series so it doesn't get lost in the daily deluge of breaking news.</p>
+
+<p>It's unlike anything we've done before and we've got seed funding to get started, but we're asking readers to help crowdfund this new beat with an additional $500,000 so we can go even bigger. You can read why we're taking this approach and what we want to accomplish in "<a href="https://www.motherjones.com/media/2019/04/mother-jones-corruption-project/" data-ga-category="ArticleBottomMembershipWidget" data-ga-label="ReadMore1">Corruption Isn't Just Another Scandal. It's the Rot Beneath All of Them</a>," and if you like how it sounds, please help fund it with a tax-deductible donation today.</p>			<a
+				target="_blank"
+				href="https://secure.actblue.com/donate/motherjones?refcode=7H94PBA3&amp;amount=50.00&amp;recurring=0"
+				data-ga-label="Donate"
+				data-ga-category="ArticleBottomMembershipWidget"
+			>
+				<button class="btn-primary">Donate Now</button>
+			</a>
+		</section>			</footer><!-- .entry-footer -->
+		</article><!-- #post-## -->
+	</section>
+
+	<section class="section col-xs-12" id="eoa-related">
+		<h2 class="section-heading">Related</h2>
+		<ul class="post-list grid">
+			
+<li class="grid col-sm-3 col-xxs-12">
+	<div class="col-5 col-sm-12 col-xs-5 col-xxs-5 order-1"><a
+			href="https://www.motherjones.com/politics/2017/12/abortion-access-is-a-myth-for-rural-women-in-hawaii/"
+			title="Abortion Access Is a Myth For Rural Women in Hawaii"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RelatedArticle-1|thumbnail"
+			data-ga-action="https://www.motherjones.com/politics/2017/12/abortion-access-is-a-myth-for-rural-women-in-hawaii/"
+		><img width="990" height="557" src="https://www.motherjones.com/wp-content/uploads/2017/12/20171129_hawaii-access.jpg?w=990" class="article-image wp-post-image jetpack-lazy-image" alt="" data-lazy-srcset="https://www.motherjones.com/wp-content/uploads/2017/12/20171129_hawaii-access.jpg 2000w, https://www.motherjones.com/wp-content/uploads/2017/12/20171129_hawaii-access.jpg?resize=208,117 208w, https://www.motherjones.com/wp-content/uploads/2017/12/20171129_hawaii-access.jpg?resize=321,180 321w, https://www.motherjones.com/wp-content/uploads/2017/12/20171129_hawaii-access.jpg?resize=630,354 630w, https://www.motherjones.com/wp-content/uploads/2017/12/20171129_hawaii-access.jpg?resize=990,556 990w, https://www.motherjones.com/wp-content/uploads/2017/12/20171129_hawaii-access.jpg?resize=642,361 642w" data-lazy-sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" data-lazy-src="https://www.motherjones.com/wp-content/uploads/2017/12/20171129_hawaii-access.jpg?w=990&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a></div><div class="col-7 col-sm-12 col-xs-7 col-xxs-7 order-2"><a
+		href="https://www.motherjones.com/politics/2017/12/abortion-access-is-a-myth-for-rural-women-in-hawaii/"
+		title="Abortion Access Is a Myth For Rural Women in Hawaii"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RelatedArticle-1|headline"
+		data-ga-action="https://www.motherjones.com/politics/2017/12/abortion-access-is-a-myth-for-rural-women-in-hawaii/"
+	><h3 class="hed">Abortion Access Is a Myth For Rural Women in Hawaii</h3><p class="byline"><a href="https://www.motherjones.com/author/maha-ahmed/" title="Posts by Maha Ahmed">Maha Ahmed</a></p></a></div></li>
+<li class="grid col-sm-3 col-xxs-12">
+	<div class="col-5 col-sm-12 col-xs-5 col-xxs-5 order-1"><a
+			href="https://www.motherjones.com/politics/2017/05/fetal-homicide-abortion-rights-restrictions/"
+			title="She Was Desperate. She Tried to End Her Own Pregnancy. She Was Thrown in Jail"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RelatedArticle-2|thumbnail"
+			data-ga-action="https://www.motherjones.com/politics/2017/05/fetal-homicide-abortion-rights-restrictions/"
+		><img width="990" height="557" src="https://www.motherjones.com/wp-content/uploads/feticide_a-2000x1124_3.jpg?w=990" class="article-image wp-post-image jetpack-lazy-image" alt="" data-lazy-src="https://www.motherjones.com/wp-content/uploads/feticide_a-2000x1124_3.jpg?w=990&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a></div><div class="col-7 col-sm-12 col-xs-7 col-xxs-7 order-2"><a
+		href="https://www.motherjones.com/politics/2017/05/fetal-homicide-abortion-rights-restrictions/"
+		title="She Was Desperate. She Tried to End Her Own Pregnancy. She Was Thrown in Jail"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RelatedArticle-2|headline"
+		data-ga-action="https://www.motherjones.com/politics/2017/05/fetal-homicide-abortion-rights-restrictions/"
+	><h3 class="hed">She Was Desperate. She Tried to End Her Own Pregnancy. She Was Thrown in Jail</h3><p class="byline"><a href="https://www.motherjones.com/author/nina-liss-schultz/" title="Posts by Nina Liss-Schultz">Nina Liss-Schultz</a></p></a></div></li>
+<li class="grid col-sm-3 col-xxs-12">
+	<div class="col-5 col-sm-12 col-xs-5 col-xxs-5 order-1"><a
+			href="https://www.motherjones.com/crime-justice/2019/06/alabama-banned-abortions-then-its-lawmakers-remembered-rapists-can-get-parental-rights/"
+			title="Alabama Banned Abortions. Then Its Lawmakers Remembered Rapists Can Get Parental Rights."
+			data-ga-category="EndOfArticle"
+			data-ga-label="RelatedArticle-1|thumbnail"
+			data-ga-action="https://www.motherjones.com/crime-justice/2019/06/alabama-banned-abortions-then-its-lawmakers-remembered-rapists-can-get-parental-rights/"
+		><img width="593" height="307" src="https://www.motherjones.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-04-at-2.23.22-PM.png?w=593" class="article-image wp-post-image jetpack-lazy-image" alt="" data-lazy-srcset="https://www.motherjones.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-04-at-2.23.22-PM.png 593w, https://www.motherjones.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-04-at-2.23.22-PM.png?resize=321,166 321w" data-lazy-sizes="(max-width: 593px) 85vw, 593px" data-lazy-src="https://www.motherjones.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-04-at-2.23.22-PM.png?w=593&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a></div><div class="col-7 col-sm-12 col-xs-7 col-xxs-7 order-2"><a
+		href="https://www.motherjones.com/crime-justice/2019/06/alabama-banned-abortions-then-its-lawmakers-remembered-rapists-can-get-parental-rights/"
+		title="Alabama Banned Abortions. Then Its Lawmakers Remembered Rapists Can Get Parental Rights."
+		data-ga-category="EndOfArticle"
+		data-ga-label="RelatedArticle-1|headline"
+		data-ga-action="https://www.motherjones.com/crime-justice/2019/06/alabama-banned-abortions-then-its-lawmakers-remembered-rapists-can-get-parental-rights/"
+	><h3 class="hed">Alabama Banned Abortions. Then Its Lawmakers Remembered Rapists Can Get Parental Rights.</h3><p class="byline"><a href="https://www.motherjones.com/author/samantha-michaels/" title="Posts by Samantha Michaels">Samantha Michaels</a></p></a></div></li>
+<li class="grid col-sm-3 col-xxs-12">
+	<div class="col-5 col-sm-12 col-xs-5 col-xxs-5 order-1"><a
+			href="https://www.motherjones.com/crime-justice/2019/05/new-hampshire-lawmakers-just-overrode-the-republican-governors-veto-and-abolished-the-death-penalty/"
+			title="New Hampshire Lawmakers Just Overrode the Republican Governor’s Veto and Abolished the Death Penalty"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RelatedArticle-2|thumbnail"
+			data-ga-action="https://www.motherjones.com/crime-justice/2019/05/new-hampshire-lawmakers-just-overrode-the-republican-governors-veto-and-abolished-the-death-penalty/"
+		><img width="990" height="557" src="https://www.motherjones.com/wp-content/uploads/2019/05/newhampshirerepeal-53019.jpg?w=990" class="article-image wp-post-image jetpack-lazy-image" alt="" data-lazy-srcset="https://www.motherjones.com/wp-content/uploads/2019/05/newhampshirerepeal-53019.jpg 2000w, https://www.motherjones.com/wp-content/uploads/2019/05/newhampshirerepeal-53019.jpg?resize=208,117 208w, https://www.motherjones.com/wp-content/uploads/2019/05/newhampshirerepeal-53019.jpg?resize=321,180 321w, https://www.motherjones.com/wp-content/uploads/2019/05/newhampshirerepeal-53019.jpg?resize=630,354 630w, https://www.motherjones.com/wp-content/uploads/2019/05/newhampshirerepeal-53019.jpg?resize=990,556 990w, https://www.motherjones.com/wp-content/uploads/2019/05/newhampshirerepeal-53019.jpg?resize=642,361 642w" data-lazy-sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" data-lazy-src="https://www.motherjones.com/wp-content/uploads/2019/05/newhampshirerepeal-53019.jpg?w=990&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a></div><div class="col-7 col-sm-12 col-xs-7 col-xxs-7 order-2"><a
+		href="https://www.motherjones.com/crime-justice/2019/05/new-hampshire-lawmakers-just-overrode-the-republican-governors-veto-and-abolished-the-death-penalty/"
+		title="New Hampshire Lawmakers Just Overrode the Republican Governor’s Veto and Abolished the Death Penalty"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RelatedArticle-2|headline"
+		data-ga-action="https://www.motherjones.com/crime-justice/2019/05/new-hampshire-lawmakers-just-overrode-the-republican-governors-veto-and-abolished-the-death-penalty/"
+	><h3 class="hed">New Hampshire Lawmakers Just Overrode the Republican Governor’s Veto and Abolished the Death Penalty</h3><p class="byline"><a href="https://www.motherjones.com/author/nathalie-baptiste/" title="Posts by Nathalie Baptiste">Nathalie Baptiste</a></p></a></div></li>		</ul>
+	</section>
+
+	<section class="ad"><div class="incontent-ad-container"></div></section>
+
+	<section class="section col-xs-12" id="eoa-recommend">
+		<h2 class="section-heading">We Recommend</h2>
+		<ul class="post-list grid">
+			
+<li class="grid col-sm-6 col-xxs-12">
+	<div class="col-5 order-1"><a
+			href="https://www.motherjones.com/environment/2019/06/jay-inslee-says-he-may-defy-the-dnc-on-a-climate-change-debate/"
+			title="Jay Inslee Says He May Defy the DNC on a Climate Change Debate"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RecommendedArticle-1|thumbnail"
+			data-ga-action="https://www.motherjones.com/environment/2019/06/jay-inslee-says-he-may-defy-the-dnc-on-a-climate-change-debate/"
+		><img width="990" height="507" src="https://www.motherjones.com/wp-content/uploads/2019/06/inslee-060619.jpg?w=990" class="article-image wp-post-image jetpack-lazy-image" alt="" data-lazy-srcset="https://www.motherjones.com/wp-content/uploads/2019/06/inslee-060619.jpg 2000w, https://www.motherjones.com/wp-content/uploads/2019/06/inslee-060619.jpg?resize=321,164 321w, https://www.motherjones.com/wp-content/uploads/2019/06/inslee-060619.jpg?resize=630,323 630w, https://www.motherjones.com/wp-content/uploads/2019/06/inslee-060619.jpg?resize=990,507 990w, https://www.motherjones.com/wp-content/uploads/2019/06/inslee-060619.jpg?resize=642,329 642w" data-lazy-sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" data-lazy-src="https://www.motherjones.com/wp-content/uploads/2019/06/inslee-060619.jpg?w=990&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a></div><div class="col-7 order-2"><a
+		href="https://www.motherjones.com/environment/2019/06/jay-inslee-says-he-may-defy-the-dnc-on-a-climate-change-debate/"
+		title="Jay Inslee Says He May Defy the DNC on a Climate Change Debate"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RecommendedArticle-1|headline"
+		data-ga-action="https://www.motherjones.com/environment/2019/06/jay-inslee-says-he-may-defy-the-dnc-on-a-climate-change-debate/"
+	><h3 class="hed">Jay Inslee Says He May Defy the DNC on a Climate Change Debate</h3><p class="byline"><a href="https://www.motherjones.com/author/rebecca-leber/" title="Posts by Rebecca Leber">Rebecca Leber</a></p></a></div></li>
+<li class="grid col-sm-6 col-xxs-12">
+	<div class="col-5 order-1"><a
+			href="https://www.motherjones.com/politics/2019/06/after-a-mass-shooting-virginia-is-rethinking-its-gun-laws-and-rewiring-the-2020-race/"
+			title="After a Mass Shooting, Virginia Is Rethinking Its Gun Laws—and Rewiring the 2020 Race"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RecommendedArticle-2|thumbnail"
+			data-ga-action="https://www.motherjones.com/politics/2019/06/after-a-mass-shooting-virginia-is-rethinking-its-gun-laws-and-rewiring-the-2020-race/"
+		><img width="990" height="507" src="https://www.motherjones.com/wp-content/uploads/2019/06/AP_19152576024147-1.jpg?w=990" class="article-image wp-post-image jetpack-lazy-image" alt="" data-lazy-srcset="https://www.motherjones.com/wp-content/uploads/2019/06/AP_19152576024147-1.jpg 2000w, https://www.motherjones.com/wp-content/uploads/2019/06/AP_19152576024147-1.jpg?resize=321,164 321w, https://www.motherjones.com/wp-content/uploads/2019/06/AP_19152576024147-1.jpg?resize=630,323 630w, https://www.motherjones.com/wp-content/uploads/2019/06/AP_19152576024147-1.jpg?resize=990,507 990w, https://www.motherjones.com/wp-content/uploads/2019/06/AP_19152576024147-1.jpg?resize=642,329 642w" data-lazy-sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" data-lazy-src="https://www.motherjones.com/wp-content/uploads/2019/06/AP_19152576024147-1.jpg?w=990&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a></div><div class="col-7 order-2"><a
+		href="https://www.motherjones.com/politics/2019/06/after-a-mass-shooting-virginia-is-rethinking-its-gun-laws-and-rewiring-the-2020-race/"
+		title="After a Mass Shooting, Virginia Is Rethinking Its Gun Laws—and Rewiring the 2020 Race"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RecommendedArticle-2|headline"
+		data-ga-action="https://www.motherjones.com/politics/2019/06/after-a-mass-shooting-virginia-is-rethinking-its-gun-laws-and-rewiring-the-2020-race/"
+	><h3 class="hed">After a Mass Shooting, Virginia Is Rethinking Its Gun Laws—and Rewiring the 2020 Race</h3><p class="byline"><a href="https://www.motherjones.com/author/kara-voght/" title="Posts by Kara Voght">Kara Voght</a></p></a></div></li>
+<li class="grid col-sm-6 col-xxs-12">
+	<div class="col-5 order-1"><a
+			href="https://www.motherjones.com/politics/2019/06/twitter-iran-bots-mek/"
+			title="The Suspicious Twitter Network Trolling for Regime Change in Iran"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RecommendedArticle-3|thumbnail"
+			data-ga-action="https://www.motherjones.com/politics/2019/06/twitter-iran-bots-mek/"
+		><img width="990" height="557" src="https://www.motherjones.com/wp-content/uploads/2019/06/20190430_zap_c210_036.jpeg?w=990" class="article-image wp-post-image jetpack-lazy-image" alt="" data-lazy-srcset="https://www.motherjones.com/wp-content/uploads/2019/06/20190430_zap_c210_036.jpeg 2000w, https://www.motherjones.com/wp-content/uploads/2019/06/20190430_zap_c210_036.jpeg?resize=208,117 208w, https://www.motherjones.com/wp-content/uploads/2019/06/20190430_zap_c210_036.jpeg?resize=321,180 321w, https://www.motherjones.com/wp-content/uploads/2019/06/20190430_zap_c210_036.jpeg?resize=630,354 630w, https://www.motherjones.com/wp-content/uploads/2019/06/20190430_zap_c210_036.jpeg?resize=990,556 990w, https://www.motherjones.com/wp-content/uploads/2019/06/20190430_zap_c210_036.jpeg?resize=642,361 642w" data-lazy-sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" data-lazy-src="https://www.motherjones.com/wp-content/uploads/2019/06/20190430_zap_c210_036.jpeg?w=990&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a></div><div class="col-7 order-2"><a
+		href="https://www.motherjones.com/politics/2019/06/twitter-iran-bots-mek/"
+		title="The Suspicious Twitter Network Trolling for Regime Change in Iran"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RecommendedArticle-3|headline"
+		data-ga-action="https://www.motherjones.com/politics/2019/06/twitter-iran-bots-mek/"
+	><h3 class="hed">The Suspicious Twitter Network Trolling for Regime Change in Iran</h3><p class="byline"><a href="https://www.motherjones.com/author/ali-breland/" title="Posts by Ali Breland">Ali Breland</a></p></a></div></li>
+<li class="grid col-sm-6 col-xxs-12">
+	<div class="col-5 order-1"><a
+			href="https://www.motherjones.com/politics/2019/06/how-lobbyists-are-cashing-in-on-trumps-chaotic-libyan-policy/"
+			title="How Lobbyists Are Cashing In on Trump&#8217;s Chaotic Libya Policy"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RecommendedArticle-4|thumbnail"
+			data-ga-action="https://www.motherjones.com/politics/2019/06/how-lobbyists-are-cashing-in-on-trumps-chaotic-libyan-policy/"
+		><img width="990" height="557" src="https://www.motherjones.com/wp-content/uploads/2019/05/GettyImages-1074739622.jpg?w=990" class="article-image wp-post-image jetpack-lazy-image" alt="" data-lazy-srcset="https://www.motherjones.com/wp-content/uploads/2019/05/GettyImages-1074739622.jpg 2000w, https://www.motherjones.com/wp-content/uploads/2019/05/GettyImages-1074739622.jpg?resize=208,117 208w, https://www.motherjones.com/wp-content/uploads/2019/05/GettyImages-1074739622.jpg?resize=321,180 321w, https://www.motherjones.com/wp-content/uploads/2019/05/GettyImages-1074739622.jpg?resize=630,354 630w, https://www.motherjones.com/wp-content/uploads/2019/05/GettyImages-1074739622.jpg?resize=990,556 990w, https://www.motherjones.com/wp-content/uploads/2019/05/GettyImages-1074739622.jpg?resize=642,361 642w" data-lazy-sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" data-lazy-src="https://www.motherjones.com/wp-content/uploads/2019/05/GettyImages-1074739622.jpg?w=990&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a></div><div class="col-7 order-2"><a
+		href="https://www.motherjones.com/politics/2019/06/how-lobbyists-are-cashing-in-on-trumps-chaotic-libyan-policy/"
+		title="How Lobbyists Are Cashing In on Trump&#8217;s Chaotic Libya Policy"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RecommendedArticle-4|headline"
+		data-ga-action="https://www.motherjones.com/politics/2019/06/how-lobbyists-are-cashing-in-on-trumps-chaotic-libyan-policy/"
+	><h3 class="hed">How Lobbyists Are Cashing In on Trump&#8217;s Chaotic Libya Policy</h3><p class="byline"><a href="https://www.motherjones.com/author/dan-friedman/" title="Posts by Dan Friedman">Dan Friedman</a></p></a></div></li>		</ul>
+	</section>
+
+	<section class="ad"><div class="incontent-ad-container"></div></section>
+
+	<section class="section col-xs-12" id="eoa-recent">
+		<h2 class="section-heading">Recent</h2>
+		<ul class="post-list grid">
+			
+<li class="grid col-sm-3 col-xxs-12">
+	<div class="col-5 col-sm-12 col-xs-5 col-xxs-5 order-1"><a
+			href="https://www.motherjones.com/politics/2019/06/trump-d-day-ceremony-media/"
+			title="On the 75th Anniversary of D-Day, Trump Obsesses Over Media Coverage"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RecentArticle-1|thumbnail"
+			data-ga-action="https://www.motherjones.com/politics/2019/06/trump-d-day-ceremony-media/"
+		><img width="981" height="557" src="https://www.motherjones.com/wp-content/uploads/2019/06/20190606-trump-d-day.png?w=981" class="article-image wp-post-image jetpack-lazy-image" alt="" data-lazy-srcset="https://www.motherjones.com/wp-content/uploads/2019/06/20190606-trump-d-day.png 2000w, https://www.motherjones.com/wp-content/uploads/2019/06/20190606-trump-d-day.png?resize=208,117 208w, https://www.motherjones.com/wp-content/uploads/2019/06/20190606-trump-d-day.png?resize=321,182 321w, https://www.motherjones.com/wp-content/uploads/2019/06/20190606-trump-d-day.png?resize=624,354 624w, https://www.motherjones.com/wp-content/uploads/2019/06/20190606-trump-d-day.png?resize=990,562 990w, https://www.motherjones.com/wp-content/uploads/2019/06/20190606-trump-d-day.png?resize=642,364 642w" data-lazy-sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" data-lazy-src="https://www.motherjones.com/wp-content/uploads/2019/06/20190606-trump-d-day.png?w=981&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a></div><div class="col-7 col-sm-12 col-xs-7 col-xxs-7 order-2"><a
+		href="https://www.motherjones.com/politics/2019/06/trump-d-day-ceremony-media/"
+		title="On the 75th Anniversary of D-Day, Trump Obsesses Over Media Coverage"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RecentArticle-1|headline"
+		data-ga-action="https://www.motherjones.com/politics/2019/06/trump-d-day-ceremony-media/"
+	><h3 class="hed">On the 75th Anniversary of D-Day, Trump Obsesses Over Media Coverage</h3><p class="byline"><a href="https://www.motherjones.com/author/inae-oh/" title="Posts by Inae Oh">Inae Oh</a></p></a></div></li>
+<li class="grid col-sm-3 col-xxs-12">
+	<div class="col-5 col-sm-12 col-xs-5 col-xxs-5 order-1"><a
+			href="https://www.motherjones.com/politics/2019/06/state-department-attacks-critics-of-trump-iran-policy-house-dems-investigate/"
+			title="Controversial State Department Program Backing Trump&#8217;s Iran Policy Draws Congressional Scrutiny"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RecentArticle-2|thumbnail"
+			data-ga-action="https://www.motherjones.com/politics/2019/06/state-department-attacks-critics-of-trump-iran-policy-house-dems-investigate/"
+		><img width="990" height="557" src="https://www.motherjones.com/wp-content/uploads/2019/06/GettyImages-1150781658.jpg?w=990" class="article-image wp-post-image jetpack-lazy-image" alt="" data-lazy-srcset="https://www.motherjones.com/wp-content/uploads/2019/06/GettyImages-1150781658.jpg 2000w, https://www.motherjones.com/wp-content/uploads/2019/06/GettyImages-1150781658.jpg?resize=208,117 208w, https://www.motherjones.com/wp-content/uploads/2019/06/GettyImages-1150781658.jpg?resize=321,180 321w, https://www.motherjones.com/wp-content/uploads/2019/06/GettyImages-1150781658.jpg?resize=630,354 630w, https://www.motherjones.com/wp-content/uploads/2019/06/GettyImages-1150781658.jpg?resize=990,556 990w, https://www.motherjones.com/wp-content/uploads/2019/06/GettyImages-1150781658.jpg?resize=642,361 642w" data-lazy-sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" data-lazy-src="https://www.motherjones.com/wp-content/uploads/2019/06/GettyImages-1150781658.jpg?w=990&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a></div><div class="col-7 col-sm-12 col-xs-7 col-xxs-7 order-2"><a
+		href="https://www.motherjones.com/politics/2019/06/state-department-attacks-critics-of-trump-iran-policy-house-dems-investigate/"
+		title="Controversial State Department Program Backing Trump&#8217;s Iran Policy Draws Congressional Scrutiny"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RecentArticle-2|headline"
+		data-ga-action="https://www.motherjones.com/politics/2019/06/state-department-attacks-critics-of-trump-iran-policy-house-dems-investigate/"
+	><h3 class="hed">Controversial State Department Program Backing Trump&#8217;s Iran Policy Draws Congressional Scrutiny</h3><p class="byline"><a href="https://www.motherjones.com/author/dan-friedman/" title="Posts by Dan Friedman">Dan Friedman</a></p></a></div></li>
+<li class="grid col-sm-3 col-xxs-12">
+	<div class="col-5 col-sm-12 col-xs-5 col-xxs-5 order-1"><a
+			href="https://www.motherjones.com/politics/2019/06/judge-deals-a-blow-to-efforts-to-block-census-citizenship-question-at-supreme-court/"
+			title="Judge Deals a Blow to Effort to Block Census Citizenship Question at Supreme Court"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RecentArticle-3|thumbnail"
+			data-ga-action="https://www.motherjones.com/politics/2019/06/judge-deals-a-blow-to-efforts-to-block-census-citizenship-question-at-supreme-court/"
+		><img width="990" height="557" src="https://www.motherjones.com/wp-content/uploads/2019/06/AP060519ross.jpg?w=990" class="article-image wp-post-image jetpack-lazy-image" alt="" data-lazy-srcset="https://www.motherjones.com/wp-content/uploads/2019/06/AP060519ross.jpg 2000w, https://www.motherjones.com/wp-content/uploads/2019/06/AP060519ross.jpg?resize=208,117 208w, https://www.motherjones.com/wp-content/uploads/2019/06/AP060519ross.jpg?resize=321,180 321w, https://www.motherjones.com/wp-content/uploads/2019/06/AP060519ross.jpg?resize=630,354 630w, https://www.motherjones.com/wp-content/uploads/2019/06/AP060519ross.jpg?resize=990,556 990w, https://www.motherjones.com/wp-content/uploads/2019/06/AP060519ross.jpg?resize=642,361 642w" data-lazy-sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" data-lazy-src="https://www.motherjones.com/wp-content/uploads/2019/06/AP060519ross.jpg?w=990&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a></div><div class="col-7 col-sm-12 col-xs-7 col-xxs-7 order-2"><a
+		href="https://www.motherjones.com/politics/2019/06/judge-deals-a-blow-to-efforts-to-block-census-citizenship-question-at-supreme-court/"
+		title="Judge Deals a Blow to Effort to Block Census Citizenship Question at Supreme Court"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RecentArticle-3|headline"
+		data-ga-action="https://www.motherjones.com/politics/2019/06/judge-deals-a-blow-to-efforts-to-block-census-citizenship-question-at-supreme-court/"
+	><h3 class="hed">Judge Deals a Blow to Effort to Block Census Citizenship Question at Supreme Court</h3><p class="byline"><a href="https://www.motherjones.com/author/ari-berman/" title="Posts by Ari Berman">Ari Berman</a></p></a></div></li>
+<li class="grid col-sm-3 col-xxs-12">
+	<div class="col-5 col-sm-12 col-xs-5 col-xxs-5 order-1"><a
+			href="https://www.motherjones.com/politics/2019/06/donald-trump-said-8-really-stupid-things-about-climate-today/"
+			title="Donald Trump Said Really Stupid Things About Climate Today. Here Are 8 Facts He Ignored."
+			data-ga-category="EndOfArticle"
+			data-ga-label="RecentArticle-4|thumbnail"
+			data-ga-action="https://www.motherjones.com/politics/2019/06/donald-trump-said-8-really-stupid-things-about-climate-today/"
+		><img width="990" height="557" src="https://www.motherjones.com/wp-content/uploads/2019/06/donald-trump.jpg?w=990" class="article-image wp-post-image jetpack-lazy-image" alt="" data-lazy-srcset="https://www.motherjones.com/wp-content/uploads/2019/06/donald-trump.jpg 2000w, https://www.motherjones.com/wp-content/uploads/2019/06/donald-trump.jpg?resize=208,117 208w, https://www.motherjones.com/wp-content/uploads/2019/06/donald-trump.jpg?resize=321,180 321w, https://www.motherjones.com/wp-content/uploads/2019/06/donald-trump.jpg?resize=630,354 630w, https://www.motherjones.com/wp-content/uploads/2019/06/donald-trump.jpg?resize=990,556 990w, https://www.motherjones.com/wp-content/uploads/2019/06/donald-trump.jpg?resize=642,361 642w" data-lazy-sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" data-lazy-src="https://www.motherjones.com/wp-content/uploads/2019/06/donald-trump.jpg?w=990&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></a></div><div class="col-7 col-sm-12 col-xs-7 col-xxs-7 order-2"><a
+		href="https://www.motherjones.com/politics/2019/06/donald-trump-said-8-really-stupid-things-about-climate-today/"
+		title="Donald Trump Said Really Stupid Things About Climate Today. Here Are 8 Facts He Ignored."
+		data-ga-category="EndOfArticle"
+		data-ga-label="RecentArticle-4|headline"
+		data-ga-action="https://www.motherjones.com/politics/2019/06/donald-trump-said-8-really-stupid-things-about-climate-today/"
+	><h3 class="hed">Donald Trump Said Really Stupid Things About Climate Today. Here Are 8 Facts He Ignored.</h3><p class="byline"><a href="https://www.motherjones.com/author/fiona-harvey/" title="Posts by Fiona Harvey">Fiona Harvey</a></p></a></div></li>		</ul>
+	</section>
+
+	<div id="promos-container">
+		<section id="mj-incontent-ad-widget-4" class="widget mj-incontent-ad-widget"><div class="incontent-ad-container"></div></section><section id="mj-house-promo-widget-2" class="widget mj-house-promo-widget"><div class="grid">
+	<div class="col-2 col-lg-2 col-md-12 col-sm-10 col-xs-12 col-xxs-12"></div>
+	<div class="incontent-promo-sm col-lg-6 col-md-12 col-sm-10 col-xs-12 col-xxs-12">
+		<div class="promo-all">
+			<h3>
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewbox="0 0 164 110" style="enable-background:new 0 0 164 110;" xml:space="preserve">
+					<path d="M0,0.48v109.22h163.84V0.48H0z M81.92,64.62l-68.27-41.6l5.69-9.33l62.59,38.14l62.59-38.14l5.69,9.33L81.92,64.62z"/>
+				</svg>
+				Sign up for our newsletters
+			</h3>
+			<p><em>Subscribe and we'll send </em> Mother Jones <em>straight to your inbox.</em></p>
+			<div>
+				<form action="https://api.maropost.com/accounts/585/forms/3289/subscribe/177d8ba3b7fe7d39e28dcba73123eeffbd01878b" method="post" data-ga-label="Position_1|NewsletterSubscribe" data-ga-category="InContentPromos" id="HousePromoNewsletterSignup" onsubmit="return mj_check_email(this, event);" data-gtm-vis-recent-on-screen-8851012_28="23034" data-gtm-vis-first-on-screen-8851012_28="23034" data-gtm-vis-total-visible-time-8851012_28="100" data-gtm-vis-has-fired-8851012_28="1">
+					<input include_blank="true" start_year="1950" type="hidden" name="custom_fields[outreach_affiliate_code]" id="custom_fields_outreach_affiliate_code" value="InContent">
+					<input include_blank="true" start_year="1950" type="hidden" name="custom_fields[signup_url]" id="signup_url" value="">
+					<input type="hidden" value="" id="email_field" name="email_const_mp">
+					<input include_blank="true" start_year="1950" name="contact_fields[email]" id="cons_email" placeholder="Email" type="text">
+					<input id="newsletter-signup" type="submit" name="commit" value="Sign Up">
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="col-4"></div>
+</div></section><section id="mj-incontent-ad-widget-11" class="widget mj-incontent-ad-widget"><div class="incontent-ad-container"></div></section><section id="mj-house-promo-widget-3" class="widget mj-house-promo-widget"><div class="grid">
+	<div class="col-2 col-lg-2 col-md-12 col-sm-10 col-xs-12 col-xxs-12"></div>
+	<div class="incontent-promo-sm col-lg-6 col-md-12 col-sm-10 col-xs-12 col-xxs-12">
+		<div class="promo-all">
+			<h3>
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 viewbox="0 0 120 93" style="enable-background:new 0 0 120 93;max-width:1.8rem;" xml:space="preserve">
+					<path d="M113.97,12.88V0.37h-4.01c-1.58,0-35.61,0.3-50.15,23.55C45.26,0.67,11.23,0.37,9.65,0.37H5.64v12.52
+						c-3.72-0.32-6.02-0.37-6.02-0.37v80.24H59.8h60.18V12.51C119.98,12.51,117.68,12.56,113.97,12.88z M105.94,8.63v5.18
+						c-11.46,1.65-27.54,5.35-38.83,13.68C76.98,12.86,97.3,9.42,105.94,8.63z M13.66,8.62C22.3,9.4,42.63,12.8,52.5,27.5
+						c-11.29-8.34-27.37-12.04-38.84-13.69V8.62z"/>
+				</svg>
+				Get our award-winning magazine
+			</h3>
+			<p><em>Save big on a full year of investigations, ideas, and insights.</em></p>	
+			<a class="btn" href="https://secure.motherjones.com/fnx/?action=SUBSCRIPTION&b_country=United+States&pub_code=MJM&term_pub=MJM&list_source=SEGYC" title="Subscribe" data-ga-label="Position_2|MagazineSubscribe" data-ga-category="InContentPromos">Subscribe</a>	
+		</div>
+	</div>
+	<div class="col-4"></div>
+</div></section><section id="mj-incontent-ad-widget-10" class="widget mj-incontent-ad-widget"><div class="incontent-ad-container"></div></section><section id="mj-house-promo-widget-4" class="widget mj-house-promo-widget"><div class="grid">
+	<div class="col-2 col-lg-2 col-md-12 col-sm-10 col-xs-12 col-xxs-12"></div>
+	<div class="incontent-promo-sm col-lg-6 col-md-12 col-sm-10 col-xs-12 col-xxs-12">
+		<div class="promo-all">
+			<h3>
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 viewbox="0 0 115 92" style="enable-background:new 0 0 115 92;" xml:space="preserve">
+					<g>
+						<path d="M57.49,26.04c2.43-8.41,6.13-14.79,11.12-19.14c4.98-4.35,11.03-6.52,18.15-6.52c8.41,0,15.17,2.83,20.29,8.5
+							c5.11,5.66,7.67,13.16,7.67,22.48c0,8.17-4.07,14.75-7.62,19.72c-3.56,4.97-19.5,15.13-19.5,15.13
+							c-16.56,7.7-26.6,16.3-30.11,25.81c-3.6-9.56-13.62-18.16-30.05-25.81C26.84,65.9,11.32,56.06,7.79,51.14
+							C4.25,46.21,0.2,39.62,0.2,31.35c0-9.32,2.57-16.81,7.71-22.48s11.89-8.5,20.26-8.5c7.15,0,13.21,2.18,18.18,6.52
+							C51.3,11.25,55.02,17.63,57.49,26.04z"/>
+					</g>
+				</svg>
+				Support our journalism
+			</h3>
+			<p><em>Help </em>Mother Jones<em>' reporters dig deep with a tax-deductible donation.</em></p>
+			<a class="btn" href="https://secure.motherjones.com/fnx/?action=SUBSCRIPTION&b_country=United+States&pub_code=DON&term_pub=DON&list_source=7HEGPBA1&term=XX.1.50.00.DON.D.0.19079" data-ga-label="Position_3|Donate" data-ga-category="InContentPromos">Donate</a><!-- needs new list_source -->
+		</div>
+	</div>
+	<div class="col-4"></div>
+</div></section><section id="mj-incontent-ad-widget-9" class="widget mj-incontent-ad-widget"><div class="incontent-ad-container"></div></section><section id="mj-incontent-ad-widget-8" class="widget mj-incontent-ad-widget"><div class="incontent-ad-container"></div></section><section id="mj-incontent-ad-widget-7" class="widget mj-incontent-ad-widget"><div class="incontent-ad-container"></div></section><section id="mj-incontent-ad-widget-6" class="widget mj-incontent-ad-widget"><div class="incontent-ad-container"></div></section><section id="mj-incontent-ad-widget-5" class="widget mj-incontent-ad-widget"><div class="incontent-ad-container"></div></section><section id="mj-incontent-ad-widget-3" class="widget mj-incontent-ad-widget"><div class="incontent-ad-container"></div></section><section id="mj-incontent-ad-widget-2" class="widget mj-incontent-ad-widget"><div class="incontent-ad-container"></div></section>	</div>
+<section class="ad"><div class='dfw-unit' data-adunit='ROS_BTF_970x250_3' id='ROS_BTF_970x250_3' data-size-mapping='mapping3'></div><div class='dfw-unit' data-adunit='ROS_BTF_300x250_3' id='ROS_BTF_300x250_3' data-size-mapping='mapping4'></div></section><section id="mj-comments-container" class="section col-xs-12"><div id="disqus-container">
+	<p id="new-comment-warning" class="col-lg-8 col-md-10 col-sm-10 col-xs-12 col-xxs-12">
+		<strong>Coming soon:</strong> We’re going to introduce some 
+		major changes to the comments section. And we want
+		<a data-ga-label="CommentsFeedback" data-ga-category="EndOfArticle"
+			href="https://www.motherjones.com/media/2019/06/were-launching-a-better-commenting-experience-and-we-want-your-feedback/"
+		>your feedback</a>.
+	</p>
+	<div id="disqus_thread"></div>
+	<div id="disqus-noscript"
+		 onclick="mj_display_disqus(); jQuery(this).addClass(&quot;hidden&quot;); return false;"	>
+		<a href="http://motherjones.com.disqus.com/?url=https%3A%2F%2Fwww.motherjones.com%2Fnode%2F756086"
+			id="disqus-display-comments"
+			data-ga-label="CommentsExpand"
+			data-ga-category="EndOfArticle"
+		>
+		  <i class="icon-plus"></i>view comments
+	  </a>
+	</div>
+</div>
+</section>
+		</main>
+	</div><!-- #page -->
+
+	<div id="site-footer-promos" class="grid">
+		<section id="custom_html-11" class="widget_text widget widget_custom_html"><h2 class="widget-title">Mag Promo</h2><div class="textwidget custom-html-widget"><div id="footer-promo-mag" class="grid">
+	<div class="col-sm-4 col-xs-12">
+		<h3>Independent. In print. In your mailbox.</h3>
+		<p>Inexpensive, too! Subscribe today and get a full year of Mother Jones for just $12.</p>
+		<a href="https://store.motherjones.com/pages/magazine-subscriptions" title="Subscribe" data-ga-label="MagazineSubscribe" data-ga-category="FooterSubscribe"><button class="btn-primary">Subscribe</button></a>
+	</div>
+	<div class="col-sm-8 col-xs-12 grid">
+		<div class="mag-promo col-xs-4 col-xxs-12">
+			<a href="/magazine" data-ga-category="FooterSubscribe" data-ga-label="MagCover_1|image">
+				<img border="0" src="https://www.motherjones.com/wp-content/uploads/2019/03/mojocover_mj19_2400x3150.jpg.jpg?w=575" alt="Mother Jones Magazine Cover : May + June 2019" data-lazy-src="https://www.motherjones.com/wp-content/uploads/2019/03/mojocover_mj19_2400x3150.jpg.jpg?w=575&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class=" jetpack-lazy-image"><noscript><img border="0" src="https://www.motherjones.com/wp-content/uploads/2019/03/mojocover_mj19_2400x3150.jpg.jpg?w=575" alt="Mother Jones Magazine Cover : May + June 2019"></noscript>
+			</a>
+			<a href="/magazine" data-ga-category="FooterSubscribe" data-ga-label="MagCover_1|text">June 2019</a>
+		</div>
+		<div class="mag-promo col-xs-4 col-xxs-12">
+			<a href="/mag/2019/03/toc" data-ga-category="FooterSubscribe" data-ga-label="MagCover_2|image">
+				<img border="0" src="https://www.motherjones.com/wp-content/uploads/2019/01/mojocover_ma19_2400x3150.jpg?w=575" alt="Mother Jones Magazine Cover : March + April 2019" data-lazy-src="https://www.motherjones.com/wp-content/uploads/2019/01/mojocover_ma19_2400x3150.jpg?w=575&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class=" jetpack-lazy-image"><noscript><img border="0" src="https://www.motherjones.com/wp-content/uploads/2019/01/mojocover_ma19_2400x3150.jpg?w=575" alt="Mother Jones Magazine Cover : March + April 2019"></noscript>
+			</a>
+			<a href="/magazine" data-ga-category="FooterSubscribe" data-ga-label="MagCover_2|text">April 2019</a>
+		</div>
+		<div class="mag-promo col-xs-4 hidden-xxs">
+			<a href="/mag/2019/01/toc" data-ga-category="FooterSubscribe" data-ga-label="MagCover_3|image">
+				<img src="https://motherjones.com/wp-content/uploads/2018/11/mojocover_jf19_2400x3150.jpg?w=575" alt="Mother Jones Magazine Cover : January + February 2019" border="none" data-lazy-src="https://motherjones.com/wp-content/uploads/2018/11/mojocover_jf19_2400x3150.jpg?w=575&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class=" jetpack-lazy-image"><noscript><img src="https://motherjones.com/wp-content/uploads/2018/11/mojocover_jf19_2400x3150.jpg?w=575" alt="Mother Jones Magazine Cover : January + February 2019" border="none"></noscript>
+			</a>
+			<a href="/mag/2019/01/toc/" data-ga-category="FooterSubscribe" data-ga-label="MagCover_3|text">February 2019</a>
+		</div>
+	</div>
+</div></div></section><section id="custom_html-10" class="widget_text widget widget_custom_html"><h2 class="widget-title">Podcast Promo</h2><div class="textwidget custom-html-widget"><div id="footer-promo-podcast" class="grid">
+	<div class="col-4">
+		<a href="https://itunes.apple.com/us/podcast/the-mother-jones-podcast/id1386408605?mt=2" data-ga-category="FooterSubscribe" data-ga-label="PodcastSubscribe|archive">
+			<img class="podcast-img jetpack-lazy-image" src="/wp-content/themes/motherjones/img/the-mother-jones-podcast-logo-615-615.png?w=200" alt="podcast" scale="0" data-lazy-src="/wp-content/themes/motherjones/img/the-mother-jones-podcast-logo-615-615.png?w=200&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img class="podcast-img" src="/wp-content/themes/motherjones/img/the-mother-jones-podcast-logo-615-615.png?w=200" alt="podcast" scale="0"></noscript>
+		</a>
+	</div>
+	<div class="col-8">
+		<h3>Smart. Fearless. Audio.</h3>
+		<p>It's us but for your ears. Listen on Apple Podcasts.</p>
+		<a href="https://itunes.apple.com/us/podcast/the-mother-jones-podcast/id1386408605?mt=2" data-ga-category="FooterSubscribe" data-ga-label="PodcastSubscribe">Subscribe &raquo;</a>
+	</div>
+</div></div></section>
+		<section class="widget newsletter-signup grid">
+			<div class="ns-inner col-md-12 col-sm-10 col-xs-12 col-xxs-12">
+				<div>
+					<div class="col-12">
+						<h3>Looking for news you can trust?</h3>
+						<p>Subscribe to our free newsletters.</p>
+					</div>
+					<div class="col-12">
+						<form
+							action="https://api.maropost.com/accounts/585/forms/3289/subscribe/177d8ba3b7fe7d39e28dcba73123eeffbd01878b"
+							method="post"
+							data-ga-label="NewsletterSubscribe"
+							data-ga-category="FooterSubscribe"
+							id="BottomPromoNewsletterSignup" 							onsubmit="return mj_check_email(this, event);"
+						>
+							<input include_blank="true" start_year="1950" type="hidden" name="custom_fields[outreach_affiliate_code]" id="custom_fields_outreach_affiliate_code" value="Bottom_Promo" />
+							<input include_blank="true" start_year="1950" type="hidden" name="custom_fields[signup_url]" id="signup_url" value="" />
+							<input type="hidden" value="" id="email_field" name="email_const_mp" />
+							<input include_blank="true" start_year="1950" name="contact_fields[email]" id="cons_email" placeholder="Your email here" type="text" />
+							<input id="newsletter-signup" type="submit" name="commit" id="submit" value="Sign Up" />
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+			</div>
+
+	<footer id="site-footer">
+		<div class="container grid">
+			<section class="logo col-md-3 col-sm-12">
+				<a href="/" class="footer-logo">
+					
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 813.67 165.61"><path d="M53.72 97.86h-.39l-8.05-86.64H0v152.49h28.78v-85.9l-1.67-36.19 2.05 14.73 14.39 107.36h19.18L77.12 56.35l2.05-14.73-1.66 36.19v-.04 85.94h28.77V11.22H62.54l-8.82 86.64M391.4 87.12c0-33.06-1.23-58.67-34-58.67S321 61.67 321 91.17c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.07s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.01-3.49.78-13.92.78-22.8zm-42.79-3.22c0-13.9 1.92-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94zM148.49 28.44c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c.01-35.87.01-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.02 27.23-.79 36.07-10 36.07zM442.34 28.44c-9.37 0-13.73 8.49-16 17.24l-2.56 19.49V30h-29v133.7h31.08V92.19c0-26 7.86-30.34 15.94-30.34 11.79 0 14.55 14.16 14.55 14.16V35.77s-5.48-7.33-14.01-7.33zm-145.72 0c-10.55 0-17.44 7.48-19.7 18.65l-2.17 12.5V11.22h-31.08v152.49h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.57 5.37 14.67v88.63h31.08V50.92c0-11.48-4.8-22.48-20.91-22.48zm261.29.34c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c0-35.87 0-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.03 27.22-.8 36.06-10 36.06zm95.16-104.81c-10.55 0-17.44 7.48-19.7 18.65l-2.18 12.5V30h-31.07v133.7h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.59 5.37 14.67v88.63H674V50.92c0-11.48-4.82-22.48-20.93-22.48zm-196.65 91.04v35.95s5.38 9.57 24.19 9.57c28.22 0 35.09-23.13 35.09-48.79v-105h-28.78v92.09c0 26-7.86 30.34-15.94 30.34-11.8-.01-14.56-14.16-14.56-14.16zm294.37-2.96c2.8 10.71 8.62 21.34 21.82 21.34 8.73 0 12.83-3 13.24-11.5.89-18.69-34.34-27.06-34.34-59.75 0-28.46 13.87-38.16 33.77-38.16 11.63 0 23.26 7.85 26.62 15.53V76c-3.36-9.36-10.27-20.08-19.8-20.08-7.55 0-11.17 3.6-11.51 10.72-.92 19.3 33.09 26.18 33.09 56.64 0 25.71-9 42-34.34 42-20.13 0-28.54-17.68-28.54-17.68zm-2.95-29.4c0-33.06-1.23-58.67-34-58.67s-36.45 33.23-36.45 62.73c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.08s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.07-3.49.83-13.92.83-22.8zm-42.78-3.22c0-13.9 1.94-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94z"/><path class="cls-1" d="M221.79 0l-37 33.52s5.88 14.91 5.88 40.66v65.18c0 18.45 10.74 25.93 25.9 25.93 10.43 0 17.28-2.83 23.6-8.49v-27.63c-2.51 4.56-5.31 7-9.72 7-4.67 0-8.69-3.38-8.69-10.79V58.2h18.44V30h-18.41z"/></svg>
+				</a>
+				<ul class="footer-social">
+					<li class="fb">
+						<a href="https://www.facebook.com/motherjones"
+							data-ga-category="SiteFooter"
+							data-ga-label="Facebook"
+						>
+							<i class="icon-facebook"></i>
+						</a>
+					</li>
+					<li class="tweet">
+						<a href="https://twitter.com/motherjones"
+							data-ga-category="SiteFooter"
+							data-ga-label="Twitter"
+						>
+							<i class="icon-twitter"></i>
+						</a>
+					</li>
+					<li class="instagram">
+						<a href="https://www.instagram.com/motherjonesmag/"
+							data-ga-category="SiteFooter"
+							data-ga-label="Instagram"
+						>
+							<i class="icon-instagram"></i>
+						</a>
+					</li>
+					<li class="rss">
+						<a href="http://feeds.feedburner.com/motherjones/feed"
+							data-ga-category="SiteFooter"
+							data-ga-label="RSS"
+						>
+							<i class="icon-rss"></i>
+						</a>
+					</li>
+					<li class="newsletter">
+						<a href="/newsletters"
+							data-ga-category="SiteFooter"
+							data-ga-label="Newsletter"
+						>
+							<i class="icon-mail"></i>
+						</a>
+					</li>
+				</ul>
+			</section>
+			<section class="menu col-md-9 col-sm-12 col-xs-12 grid">
+				<ul class="col-sm-4 col-xs-12"><li id="menu-item-612461" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612461"><a href="https://www.motherjones.com/about/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/about/" data-ga-label="Section_1_NavPosition_1">About</a></li>
+<li id="menu-item-612462" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612462"><a href="https://www.motherjones.com/about/staff/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/about/staff/" data-ga-label="Section_1_NavPosition_2">Our Staff</a></li>
+<li id="menu-item-612481" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612481"><a href="https://www.motherjones.com/about/financials/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/about/financials/" data-ga-label="Section_1_NavPosition_3">Financials</a></li>
+<li id="menu-item-612465" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612465"><a href="https://www.motherjones.com/jobs/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/jobs/" data-ga-label="Section_1_NavPosition_4">Jobs</a></li>
+<li id="menu-item-621474" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-621474"><a href="https://www.motherjones.com/events/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/events/" data-ga-label="Section_1_NavPosition_5">Events</a></li>
+<li id="menu-item-612464" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612464"><a href="https://www.motherjones.com/contact/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/contact/" data-ga-label="Section_1_NavPosition_6">Contact Us</a></li>
+</ul><ul class="col-sm-4 col-xs-12"><li id="menu-item-612467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612467"><a href="https://www.motherjones.com/support/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/support/" data-ga-label="Section_2_NavPosition_1">Support</a></li>
+<li id="menu-item-612468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612468"><a href="https://www.motherjones.com/support/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/support/" data-ga-label="Section_2_NavPosition_2">Ways to Give</a></li>
+<li id="menu-item-612470" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612470"><a href="https://www.motherjones.com/advertising/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/advertising/" data-ga-label="Section_2_NavPosition_3">Advertise With Us</a></li>
+<li id="menu-item-612471" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-612471"><a href="http://store.motherjones.com/?utm_source=motherjones&#038;utm_medium=footer&#038;utm_content=orangefooterlink&#038;utm_campaign=evergreen" data-ga-category="SiteFooter" data-ga-action="http://store.motherjones.com/?utm_source=motherjones&amp;utm_medium=footer&amp;utm_content=orangefooterlink&amp;utm_campaign=evergreen" data-ga-label="Section_2_NavPosition_4">Store</a></li>
+</ul><ul class="col-sm-4 col-xs-12"><li id="menu-item-612473" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-612473"><a href="https://store.motherjones.com/pages/magazine-subscriptions" data-ga-category="SiteFooter" data-ga-action="https://store.motherjones.com/pages/magazine-subscriptions" data-ga-label="Section_3_NavPosition_1">Subscribe</a></li>
+<li id="menu-item-612474" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-612474"><a href="https://store.motherjones.com/pages/magazine-subscriptions" data-ga-category="SiteFooter" data-ga-action="https://store.motherjones.com/pages/magazine-subscriptions" data-ga-label="Section_3_NavPosition_2">Magazine Subscriptions</a></li>
+<li id="menu-item-651049" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-651049"><a href="https://store.motherjones.com/pages/magazine-subscriptions" data-ga-category="SiteFooter" data-ga-action="https://store.motherjones.com/pages/magazine-subscriptions" data-ga-label="Section_3_NavPosition_3">Give a Gift Subscription</a></li>
+<li id="menu-item-612476" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612476"><a href="https://www.motherjones.com/newsletters/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/newsletters/" data-ga-label="Section_3_NavPosition_4">Email Newsletters</a></li>
+<li id="menu-item-612477" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612477"><a href="https://www.motherjones.com/podcasts/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/podcasts/" data-ga-label="Section_3_NavPosition_5">Podcasts</a></li>
+<li id="menu-item-612478" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612478"><a href="https://www.motherjones.com/customer-service/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/customer-service/" data-ga-label="Section_3_NavPosition_6">Customer Service</a></li>
+</ul>			</section>
+			<section class="bottom col-12">
+				<p class="copyright" role="contentinfo">
+				Copyright &copy; 2019 Mother Jones and the Foundation for National Progress. All Rights Reserved.<ul id="menu-copyright" class="menu"><li id="menu-item-405542" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405542"><a href="https://www.motherjones.com/about/terms/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/about/terms/" data-ga-label="Section_Copyright_NavPosition_1">Terms of Service</a></li>
+<li id="menu-item-405543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405543"><a href="https://www.motherjones.com/about/privacy-policy/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/about/privacy-policy/" data-ga-label="Section_Copyright_NavPosition_2">Privacy Policy</a></li>
+</ul>				</p>
+				<a href="https://wpvip.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit&#038;utm_term=www.motherjones.com" rel="generator nofollow" class="powered-by-wpcom"><img src="https://www.motherjones.com/wp-content/mu-plugins/vip-helpers/images/vip-powered-light-small.png" width="187" height="26" alt="Powered by WordPress.com VIP" /></a>			</section>
+		</div>
+	</footer>
+
+	<section id="custom_html-14" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><style>
+.mj-adhesion-widget.subscribe-show .text-container:before {display:none !important;}
+@media only screen and (max-width: 992px) {
+	.mj-adhesion-widget {
+        display:none!important;
+    }
+}
+</style></div></section><section id="mj-adblock-widget-2" class="widget mj-adblock-widget hide">		<section id="adblock-message" class="hide">
+			<div class="text-and-buttons-container grid">
+				<h2>We Noticed You Have An Ad Blocker On.</h2>				<div class="text-container col-md-8 col-sm-12">
+					<p class="long-text">
+										<strong>ONE QUICK THING:</strong>
+
+Did you see that <em>Mother Jones</em> is launching a new Corruption Project? <a href="https://www.motherjones.com/media/2019/04/mother-jones-corruption-project/?list_source=7H94PD01&amp;term=XX.1.50.00.DON.D.0.19646" data-ga-category="AdblockBottomAdhesion" data-ga-label="ReadMore">Check it out</a>, and if our plan makes sense to you, we hope you'll help us raise $500,000 and go all in.								</p>
+					<p class="short-text">
+										<strong>ONE QUICK THING:</strong>
+
+Did you see that <em>Mother Jones</em> is launching a new Corruption Project? <a href="https://www.motherjones.com/media/2019/04/mother-jones-corruption-project/?list_source=7H94PD01&amp;term=XX.1.50.00.DON.D.0.19646" data-ga-category="AdblockBottomAdhesion" data-ga-label="ReadMore">Check it out</a>, and if our plan makes sense to you, we hope you'll help us raise $500,000 and go all in.								</p>
+				</div>
+				<div class="buttons-container col-md-4 col-sm-12 col-xs-12">
+					<a href="https://secure.actblue.com/donate/motherjones?refcode=7H94PD01&#038;amount=50.00&#038;recurring=0" target="_blank"
+						data-ga-label="Donate"
+						data-ga-category="AdblockBottomAdhesion"
+					>
+						<button class="donate btn-primary">Donate</button>
+					</a>
+					<a data-ga-label="Close"
+					   data-ga-category="AdblockBottomAdhesion"
+					>
+						<button class="close">Not Now</button>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		</section><section id="mj-adhesion-widget-2" class="widget mj-adhesion-widget hide">		<section id="adhesion-subscribe" class="subscribe hide">
+			<div class="text-and-buttons-container grid">
+				<div class="text-container col-md-8 col-sm-12">
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 viewBox="0 0 813.7 165.6" style="enable-background:new 0 0 813.7 165.6;display:none;" xml:space="preserve">
+						<style type="text/css">
+							.st0{fill:#F26A21;}
+						</style>
+						<path class="st0" d="M53.7,97.9h-0.4l-8-86.6H0v152.5h28.8V77.8l-1.7-36.2l2,14.7l14.4,107.4h19.2L77.1,56.3l2.1-14.7l-1.7,36.2v0
+							v85.9h28.8V11.2H62.5L53.7,97.9 M391.4,87.1c0-33.1-1.2-58.7-34-58.7S321,61.7,321,91.2c0,37.5,5.6,74.1,39.7,74.1
+							c19.3,0,30.2-17.7,30.2-17.7v-31.1c0,0-8.4,21.2-24.6,21.2c-11.3,0-17.6-10.6-17.6-27.8h42C390.6,106.4,391.4,96,391.4,87.1z
+							 M348.6,83.9c0-13.9,1.9-24.9,9.6-24.9c8.2,0,10.2,12.3,10.2,24.9L348.6,83.9z M148.5,28.4c-38.8,0-38.8,27.2-38.8,65.1
+							c0,43.5,3.9,71.7,38.8,71.7s38.8-26,38.8-75C187.2,54.4,187.2,28.4,148.5,28.4z M148.5,132.9c-9.2,0-10-5-10-36.1
+							c0-29.3,0.8-36.1,10-36.1s10,7.1,10,36.1C158.5,124.1,157.7,132.9,148.5,132.9L148.5,132.9z M442.3,28.4c-9.4,0-13.7,8.5-16,17.2
+							l-2.6,19.5V30h-29v133.7h31.1V92.2c0-26,7.9-30.3,15.9-30.3c11.8,0,14.5,14.2,14.5,14.2V35.8C456.3,35.8,450.9,28.4,442.3,28.4
+							L442.3,28.4z M296.6,28.4c-10.5,0-17.4,7.5-19.7,18.6l-2.2,12.5V11.2h-31.1v152.5h31.1V74.3c0-5.1,0.4-13.9,6.3-13.9
+							s5.4,7.6,5.4,14.7v88.6h31.1V50.9C317.5,39.4,312.7,28.4,296.6,28.4L296.6,28.4z M557.9,28.8c-38.8,0-38.8,27.2-38.8,65.1
+							c0,43.5,3.9,71.7,38.8,71.7s38.8-26,38.8-75C596.7,54.7,596.7,28.8,557.9,28.8z M557.9,133.2c-9.2,0-10-5-10-36.1
+							c0-29.3,0.8-36.1,10-36.1s10,7.1,10,36.1C567.9,124.4,567.1,133.2,557.9,133.2z M653.1,28.4c-10.5,0-17.4,7.5-19.7,18.7l-2.2,12.5
+							V30h-31.1v133.7h31.1V74.3c0-5.1,0.4-13.9,6.3-13.9s5.4,7.6,5.4,14.7v88.6H674V50.9C674,39.4,669.2,28.4,653.1,28.4L653.1,28.4z
+							 M456.4,119.5v36c0,0,5.4,9.6,24.2,9.6c28.2,0,35.1-23.1,35.1-48.8v-105h-28.8v92.1c0,26-7.9,30.3-15.9,30.3
+							C459.2,133.6,456.4,119.5,456.4,119.5z M750.8,116.5c2.8,10.7,8.6,21.3,21.8,21.3c8.7,0,12.8-3,13.2-11.5
+							c0.9-18.7-34.3-27.1-34.3-59.8c0-28.5,13.9-38.2,33.8-38.2c11.6,0,23.3,7.8,26.6,15.5v32c-3.4-9.4-10.3-20.1-19.8-20.1
+							c-7.5,0-11.2,3.6-11.5,10.7c-0.9,19.3,33.1,26.2,33.1,56.6c0,25.7-9,42-34.3,42c-20.1,0-28.5-17.7-28.5-17.7L750.8,116.5z
+							 M747.8,87.1c0-33.1-1.2-58.7-34-58.7s-36.5,33.2-36.5,62.7c0,37.5,5.6,74.1,39.7,74.1c19.3,0,30.2-17.7,30.2-17.7v-31.1
+							c0,0-8.4,21.2-24.6,21.2c-11.3,0-17.7-10.6-17.7-27.8h42C747.1,106.4,747.8,96,747.8,87.1z M705.1,83.9c0-13.9,1.9-24.9,9.6-24.9
+							c8.2,0,10.2,12.3,10.2,24.9L705.1,83.9z"/>
+						<path class="st0" d="M221.8,0l-37,33.5c0,0,5.9,14.9,5.9,40.7v65.2c0,18.4,10.7,25.9,25.9,25.9c10.4,0,17.3-2.8,23.6-8.5v-27.6
+							c-2.5,4.6-5.3,7-9.7,7c-4.7,0-8.7-3.4-8.7-10.8V58.2h18.4V30h-18.4V0z"/>
+					</svg>
+
+					<p class="long-text">
+																<strong>THE <em>MOTHER JONES</em> CORRUPTION PROJECT</strong>
+
+We're crowdfunding to hire and build a new beat focused on systemic corruption—investigating how democracy and the rule of law are being undermined by those with wealth and power. Read why we believe <a href="https://www.motherjones.com/media/2019/04/mother-jones-corruption-project/?list_source=7H94PA02&amp;term=XX.1.50.00.DON.D.0.19472" data-ga-category="BottomAdhesion" data-ga-label="ReadMore">this is what the moment demands</a>, and please help fund it with a tax-deductible donation today.													</p>
+					<p class="short-text">
+																																				<strong>THE <em>MOTHER JONES</em> CORRUPTION PROJECT</strong>
+
+We're crowdfunding to hire and build a new beat focused on systemic corruption—investigating how democracy is being undermined by those with wealth and power. <a href="https://www.motherjones.com/media/2019/04/mother-jones-corruption-project/?list_source=7H94PAM2&amp;term=XX.1.50.00.DON.D.0.19532" data-ga-category="BottomAdhesion" data-ga-label="ReadMore">Read more</a>, and please help fund it with a tax-deductible donation today.																													</p>
+				</div>
+				<div class="buttons-container col-md-4 col-sm-12 col-xs-12">
+					<a href="https://secure.actblue.com/donate/motherjones?refcode=7H94PA02&#038;amount=50.00&#038;recurring=0"
+						data-ga-label="Donate"
+						data-ga-category="BottomAdhesion"
+						target="_blank"
+						class="donate_link">
+							<button class="donate btn-primary">Donate</button>
+					</a>
+					<a href="https://secure.actblue.com/donate/motherjones?refcode=7H85PA01&#038;amount=50.00&#038;recurring=0"
+						data-ga-label="Donate"
+						data-ga-category="BottomAdhesion"
+						target="_blank"
+						class="donate_link_short">
+							<button class="donate btn-primary">Donate</button>
+					</a>
+					<a href="https://secure.actblue.com/donate/motherjones?refcode=7H94PAM2&#038;amount=50.00&#038;recurring=0"
+						data-ga-label="Donate"
+						data-ga-category="BottomAdhesion"
+						target="_blank"
+						class="donate_link_short bottom-adhesion-mobile">
+							<button class="donate btn-primary">Donate</button>
+					</a>
+					<a
+						data-ga-label="Close"
+						data-ga-category="BottomAdhesion"
+					>
+						<button class="close">No Thanks</button>
+					</a>
+ 				</div>
+ 			</div>
+		</section>
+		<svg id="close-x" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.414 17.414"><defs><style>.a{fill:none;stroke:#999;stroke-width:2px;}</style></defs><g transform="translate(-1667.793 -999.793)"><line class="a" x2="16" y2="16" transform="translate(1668.5 1000.5)"/><line class="a" x1="16" y2="16" transform="translate(1668.5 1000.5)"/></g></svg>
+
+		</section><script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201923'></script>
+<script type='text/javascript' src='https://www.motherjones.com/wp-content/themes/motherjones/js/ads.min.js?ver=0.4.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mj_prebid_config = [{"code":"ROS_ATF_970x250","labelAny":["desktop"],"bids":[{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[970,250],"siteId":"225159"}}],"mediaTypes":{"banner":{"sizes":[[970,250],[1,1]]},"video":{"context":"outstream","playerSize":[970,250]}},"lazy_load":false,"refresh":true}];
+var mj_prebid_config = [{"code":"ROS_ATF_970x250","labelAny":["desktop"],"bids":[{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[970,250],"siteId":"225159"}}],"mediaTypes":{"banner":{"sizes":[[970,250],[1,1]]},"video":{"context":"outstream","playerSize":[970,250]}},"lazy_load":false,"refresh":true},{"code":"ROS_BTF_970x250_3","labelAny":["desktop"],"bids":[{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[970,250],"siteId":"225164"}}],"mediaTypes":{"banner":{"sizes":[[970,250],[1,1]]},"video":{"context":"outstream","playerSize":[970,250]}},"lazy_load":true,"refresh":true}];
+var mj_prebid_config = [{"code":"ROS_ATF_970x250","labelAny":["desktop"],"bids":[{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[970,250],"siteId":"225159"}}],"mediaTypes":{"banner":{"sizes":[[970,250],[1,1]]},"video":{"context":"outstream","playerSize":[970,250]}},"lazy_load":false,"refresh":true},{"code":"ROS_BTF_970x250_3","labelAny":["desktop"],"bids":[{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[970,250],"siteId":"225164"}}],"mediaTypes":{"banner":{"sizes":[[970,250],[1,1]]},"video":{"context":"outstream","playerSize":[970,250]}},"lazy_load":true,"refresh":true},{"code":"ROS_BTF_300x250_3","labelAny":["tablet","phone"],"bids":[{"bidder":"audienceNetwork","params":{"placementId":"221718354896689_488935751508280"}},{"bidder":"criteo","params":{"networkId":7074}}],"mediaTypes":{"banner":{"sizes":[[300,250],[300,250],[1,1]]},"video":{"context":"outstream","playerSize":[300,250]}},"lazy_load":true,"refresh":true}];
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mj_ad_config = [{"ads":[{"code":"Incontent_970x250_1","labelAny":["desktop"],"bids":[{"bidder":"teads","params":{"placementId":102601,"pageId":94756}},{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[970,250],"siteId":"304254"}}],"mediaTypes":{"banner":{"sizes":[[970,250],[1,1]]},"video":{"context":"outstream","playerSize":[970,250]}},"lazy_load":null,"refresh":false},{"code":"Incontent_970x250_2","labelAny":["desktop"],"bids":[{"bidder":"teads","params":{"placementId":102601,"pageId":94756}},{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[970,250],"siteId":"304255"}}],"mediaTypes":{"banner":{"sizes":[[970,250],[1,1]]},"video":{"context":"outstream","playerSize":[970,250]}},"lazy_load":true,"refresh":true},{"code":"Incontent_970x250_3","labelAny":["desktop"],"bids":[{"bidder":"teads","params":{"placementId":102601,"pageId":94756}},{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[970,250],"siteId":"304256"}}],"mediaTypes":{"banner":{"sizes":[[970,250],[1,1]]},"video":{"context":"outstream","playerSize":[970,250]}},"lazy_load":true,"refresh":true},{"code":"Incontent_970x250_4","labelAny":["desktop"],"bids":[{"bidder":"teads","params":{"placementId":102601,"pageId":94756}},{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[970,250],"siteId":"304257"}}],"mediaTypes":{"banner":{"sizes":[[970,250],[1,1]]},"video":{"context":"outstream","playerSize":[970,250]}},"lazy_load":true,"refresh":true},{"code":"Incontent_970x250_5","labelAny":["desktop"],"bids":[{"bidder":"teads","params":{"placementId":102601,"pageId":94756}},{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[970,250],"siteId":"304258"}}],"mediaTypes":{"banner":{"sizes":[[970,250],[1,1]]},"video":{"context":"outstream","playerSize":[970,250]}},"lazy_load":true,"refresh":true},{"code":"Incontent_970x250_6","labelAny":["desktop"],"bids":[{"bidder":"teads","params":{"placementId":102601,"pageId":94756}},{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[970,250],"siteId":"304259"}}],"mediaTypes":{"banner":{"sizes":[[970,250],[1,1]]},"video":{"context":"outstream","playerSize":[970,250]}},"lazy_load":true,"refresh":true},{"code":"Incontent_970x250_7","labelAny":["desktop"],"bids":[{"bidder":"teads","params":{"placementId":102601,"pageId":94756}},{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[970,250],"siteId":"304260"}}],"mediaTypes":{"banner":{"sizes":[[970,250],[1,1]]},"video":{"context":"outstream","playerSize":[970,250]}},"lazy_load":true,"refresh":true},{"code":"Incontent_970x250_8","labelAny":["desktop"],"bids":[{"bidder":"teads","params":{"placementId":102601,"pageId":94756}},{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[970,250],"siteId":"304261"}}],"mediaTypes":{"banner":{"sizes":[[970,250],[1,1]]},"video":{"context":"outstream","playerSize":[970,250]}},"lazy_load":true,"refresh":true},{"code":"Incontent_970x250_9","labelAny":["desktop"],"bids":[{"bidder":"teads","params":{"placementId":102601,"pageId":94756}},{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[970,250],"siteId":"304262"}}],"mediaTypes":{"banner":{"sizes":[[970,250],[1,1]]},"video":{"context":"outstream","playerSize":[970,250]}},"lazy_load":true,"refresh":true},{"code":"Incontent_970x250_10","labelAny":["desktop"],"bids":[{"bidder":"teads","params":{"placementId":102601,"pageId":94756}},{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[970,250],"siteId":"304263"}}],"mediaTypes":{"banner":{"sizes":[[970,250],[1,1]]},"video":{"context":"outstream","playerSize":[970,250]}},"lazy_load":true,"refresh":true}],"is_fullwidth":true},{"ads":[{"code":"Incontent_300x250_1","labelAny":["tablet","phone"],"bids":[{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[300,250],"siteId":"304264"}},{"bidder":"teads","params":{"placementId":102601,"pageId":94756}},{"bidder":"audienceNetwork","params":{"placementId":"221718354896689_621130024955518"}}],"mediaTypes":{"banner":{"sizes":[[300,250],[300,250],[1,1]]},"video":{"context":"outstream","playerSize":[300,250]}},"lazy_load":true,"refresh":true},{"code":"Incontent_300x250_2","labelAny":["tablet","phone"],"bids":[{"bidder":"teads","params":{"placementId":102601,"pageId":94756}},{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[300,250],"siteId":"304265"}},{"bidder":"audienceNetwork","params":{"placementId":"221718354896689_621130171622170"}}],"mediaTypes":{"banner":{"sizes":[[300,250],[300,250],[1,1]]},"video":{"context":"outstream","playerSize":[300,250]}},"lazy_load":true,"refresh":true},{"code":"Incontent_300x250_3","labelAny":["tablet","phone"],"bids":[{"bidder":"teads","params":{"placementId":102601,"pageId":94756}},{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[300,250],"siteId":"304266"}},{"bidder":"audienceNetwork","params":{"placementId":"221718354896689_621130214955499"}}],"mediaTypes":{"banner":{"sizes":[[300,250],[300,250],[1,1]]},"video":{"context":"outstream","playerSize":[300,250]}},"lazy_load":true,"refresh":true},{"code":"Incontent_300x250_4","labelAny":["tablet","phone"],"bids":[{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[300,250],"siteId":"304267"}},{"bidder":"teads","params":{"placementId":102601,"pageId":94756}},{"bidder":"audienceNetwork","params":{"placementId":"221718354896689_621130274955493"}}],"mediaTypes":{"banner":{"sizes":[[300,250],[300,250],[1,1]]},"video":{"context":"outstream","playerSize":[300,250]}},"lazy_load":true,"refresh":true},{"code":"Incontent_300x250_5","labelAny":["tablet","phone"],"bids":[{"bidder":"teads","params":{"placementId":102601,"pageId":94756}},{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[300,250],"siteId":"304268"}},{"bidder":"audienceNetwork","params":{"placementId":"221718354896689_621130384955482"}}],"mediaTypes":{"banner":{"sizes":[[300,250],[300,250],[1,1]]},"video":{"context":"outstream","playerSize":[300,250]}},"lazy_load":true,"refresh":true},{"code":"Incontent_300x250_6","labelAny":["tablet","phone"],"bids":[{"bidder":"teads","params":{"placementId":102601,"pageId":94756}},{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[300,250],"siteId":"304269"}},{"bidder":"audienceNetwork","params":{"placementId":"221718354896689_621130788288775"}}],"mediaTypes":{"banner":{"sizes":[[300,250],[300,250],[1,1]]},"video":{"context":"outstream","playerSize":[300,250]}},"lazy_load":true,"refresh":true},{"code":"Incontent_300x250_7","labelAny":["tablet","phone"],"bids":[{"bidder":"teads","params":{"placementId":102601,"pageId":94756}},{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[300,250],"siteId":"304270"}},{"bidder":"audienceNetwork","params":{"placementId":"221718354896689_621130861622101"}}],"mediaTypes":{"banner":{"sizes":[[300,250],[300,250],[1,1]]},"video":{"context":"outstream","playerSize":[300,250]}},"lazy_load":true,"refresh":true},{"code":"Incontent_300x250_8","labelAny":["tablet","phone"],"bids":[{"bidder":"teads","params":{"placementId":102601,"pageId":94756}},{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[300,250],"siteId":"304271"}},{"bidder":"audienceNetwork","params":{"placementId":"221718354896689_621130958288758"}}],"mediaTypes":{"banner":{"sizes":[[300,250],[300,250],[1,1]]},"video":{"context":"outstream","playerSize":[300,250]}},"lazy_load":true,"refresh":true},{"code":"Incontent_300x250_9","labelAny":["tablet","phone"],"bids":[{"bidder":"teads","params":{"placementId":102601,"pageId":94756}},{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[300,250],"siteId":"304272"}},{"bidder":"audienceNetwork","params":{"placementId":"221718354896689_621131071622080"}}],"mediaTypes":{"banner":{"sizes":[[300,250],[300,250],[1,1]]},"video":{"context":"outstream","playerSize":[300,250]}},"lazy_load":true,"refresh":true},{"code":"Incontent_300x250_10","labelAny":["tablet","phone"],"bids":[{"bidder":"teads","params":{"placementId":102601,"pageId":94756}},{"bidder":"criteo","params":{"networkId":7074}},{"bidder":"ix","params":{"size":[300,250],"siteId":"304273"}},{"bidder":"audienceNetwork","params":{"placementId":"221718354896689_621131148288739"}}],"mediaTypes":{"banner":{"sizes":[[300,250],[300,250],[1,1]]},"video":{"context":"outstream","playerSize":[300,250]}},"lazy_load":true,"refresh":true}]}];
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var campaign_start_time = {"value":"1556064060000"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mj_adhesion_config = {"is_single":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mj_disqus_config = {"disqus_url":"http:\/\/www.motherjones.com\/node\/572616","disqus_identifier":"\/node\/572616"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dfw = {"network_code":"49189977","mappings":{"InContent":[{"browser":[0,1],"ad_sizes":[[300,250]]},{"browser":[768,1],"ad_sizes":[[300,250]]},{"browser":[992,1],"ad_sizes":[[970,250]]},{"browser":[1060,1],"ad_sizes":[[970,250],[1060,520]]}]},"targeting":{"Page":["single"],"Category":["crime-justice"],"Tag":["civil-liberties","investigations","reproductive-rights","sex-and-gender"],"env":["www"]}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.motherjones.com/_static/??-eJydkd1qwzAMRl9ojtdBWHsx+ijDsZVYriV7/mlIn37e2kIvCkt2pw/O0QeSnKPQgQtwkcUCQZYU2pBc4Da7LGOCAU1HyJ3LL/JPfgyhQFrPkxNbK5DvQFMDhZYMbGokoAFStthYC/q0SVbGQsbA66VwhuTVsl5gdRYZVNJ2vZORJ//0DFRF9HVCbhyUqPRJfiJrOVT0Rnp1WQSSmq5rHuLjrsb7aq5Iiz/3e/qxe5EZZ6lyhvJruK8KaenMGP/hzDfnSB+7vj+87/u314P7Bm5UBXM='></script>
+			<script type="text/javascript">
+				var dfw_load = function() {
+					jQuery('.dfw-unit:not(.dfw-lazy-load)').dfp({
+						dfpID: 49189977,
+						collapseEmptyDivs: false,
+						setTargeting: {"Page":["single"],"Category":["crime-justice"],"Tag":["civil-liberties","investigations","reproductive-rights","sex-and-gender"],"env":["www"]},
+						sizeMapping: {"InContent":[{"browser":[0,1],"ad_sizes":[[300,250]]},{"browser":[768,1],"ad_sizes":[[300,250]]},{"browser":[992,1],"ad_sizes":[[970,250]]},{"browser":[1060,1],"ad_sizes":[[970,250],[1060,520]]}]}					});
+				};
+			</script>
+					<script type="text/javascript">
+				var dfw_load = function() {
+					jQuery('.dfw-unit:not(.dfw-lazy-load)').dfp({
+						dfpID: 49189977,
+						collapseEmptyDivs: false,
+						setTargeting: {"Page":["single"],"Category":["crime-justice"],"Tag":["civil-liberties","investigations","reproductive-rights","sex-and-gender"],"env":["www"]},
+						sizeMapping: {"mapping1":[{"browser":[0,1],"ad_sizes":[[300,250]]},{"browser":[768,1],"ad_sizes":[[300,250],[640,480],[400,520]]},{"browser":[992,1],"ad_sizes":[[640,480],[780,400],[400,520]]}],"mapping2":[{"browser":[0,1],"ad_sizes":[]},{"browser":[768,1],"ad_sizes":[]},{"browser":[992,1],"ad_sizes":[[970,250]]}],"mapping3":[{"browser":[0,1],"ad_sizes":[]},{"browser":[768,1],"ad_sizes":[]},{"browser":[992,1],"ad_sizes":[[970,250]]}],"mapping4":[{"browser":[0,1],"ad_sizes":[[300,250]]},{"browser":[768,1],"ad_sizes":[[300,250]]},{"browser":[992,1],"ad_sizes":[]}],"InContent":[{"browser":[0,1],"ad_sizes":[[300,250]]},{"browser":[768,1],"ad_sizes":[[300,250]]},{"browser":[992,1],"ad_sizes":[[970,250]]},{"browser":[1060,1],"ad_sizes":[[970,250],[1060,520]]}]}					});
+				};
+			</script>
+		<script type='text/javascript' src='https://stats.wp.com/e-201923.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.4',blog:'130213978',post:'572616',tz:'-4',srv:'www.motherjones.com'} ]);
+	_stq.push([ 'clickTrackerInit', '130213978', '572616' ]);
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"949ceaf672","applicationID":"42428067","transactionName":"MQZWYhAFXhdYAUBfWwhMdVUWDV8KFhFdWFMKBhlQFwhcO04LUEJcOQJGQgsHXAE=","queueTime":0,"applicationTime":220,"atts":"HUFBFFgfTUgbAxYMTxse","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

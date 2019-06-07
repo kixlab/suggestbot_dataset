@@ -1,0 +1,22 @@
+Emission And Absorption Spectra
+Emission spectra
+
+You have learnt previously about the structure of an atom. The electrons surrounding the atomic nucleus are arranged in a series of levels of increasing energy. Each element has a unique number of electrons in a unique configuration therefore each element has its own distinct set of energy levels. This arrangement of energy levels serves as the atom's unique fingerprint.
+
+In the early 1900s, scientists found that a liquid or solid heated to high temperatures would give off a broad range of colours of light. However, a gas heated to similar temperatures would emit light only at certain specific wavelengths (colours). The reason for this observation was not understood at the time.
+
+Scientists studied this effect using a discharge tube.
+
+Figure 12.6: Diagram of a discharge tube. The tube is filled with a gas. When a high enough voltage is applied across the tube, the gas ionises and acts like a conductor, allowing a current to flow through the circuit. The current excites the atoms of the ionised gas. When the atoms fall back to their ground state, they emit photons to carry off the excess energy.
+
+A discharge tube (shown in Figure 12.6) is a gas-filled, glass tube with a metal plate at both ends. If a large enough voltage difference is applied between the two metal plates, the gas atoms inside the tube will absorb enough energy to make some of their electrons come off, i.e. the gas atoms are ionised. These electrons start moving through the gas and create a current, which raises some electrons in other atoms to higher energy levels. Then as the electrons in the atoms fall back down, they emit electromagnetic radiation (light). The amount of light emitted at different wavelengths, called the emission spectrum, is shown for a discharge tube filled with hydrogen gas in Figure 12.6 below. Only certain wavelengths (i.e. colours) of light are seen, as shown by the lines in the picture.
+
+Figure 12.7: Figure 12.6: Diagram of the emission spectrum of hydrogen in the visible spectrum. Four lines are visible, and are labelled with their wavelengths. The three lines in the – range are in the blue part of the spectrum, while the higher line ( ) is in the red/orange part.
+
+Eventually, scientists realised that these lines come from photons of a specific energy, emitted by electrons making transitions between specific energy levels of the atom. Figure 12.7 shows an example of this happening. When an electron in an atom falls from a higher energy level to a lower energy level, it emits a photon to carry off the extra energy. This photon's energy is equal to the energy difference between the two energy levels ( ).
+
+As we previously discussed, the frequency of a photon is related to its energy through the equation . Since a specific photon frequency (or wavelength) gives us a specific colour, we can see how each coloured line is associated with a specific transition.
+
+Figure 12.8: In the first diagram are shown some of the electron energy levels for the hydrogen atom. The arrows show the electron transitions from higher energy levels to lower energy levels. The energies of the emitted photons are the same as the energy difference between two energy levels. You can think of absorption as the opposite process. The arrows would point upwards and the electrons would jump up to higher levels when they absorb a photon of the right energy. The second representation shows the wavelengths of the light that is emitted for the the various transitions. The transistions are grouped into a series based on the lowest level involved in the transition.
+
+Visible light is not the only kind of electromagnetic radiation emitted. More energetic or less energetic transitions can produce ultraviolet or infrared radiation. However, because each atom has its own distinct set of energy levels (its fingerprint!), each atom has its own distinct emission spectrum.

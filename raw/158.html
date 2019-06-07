@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-749937-4"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("config", "UA-749937-4", {"groups":"default","anonymize_ip":true,"allow_ad_personalization_signals":false});</script>
+<meta name="title" content="Is America A Christian Nation? | Americans United for Separation of Church and State" />
+<meta property="og:site_name" content="Americans United for Separation of Church and State" />
+<link rel="canonical" href="https://www.au.org/resources/publications/is-america-a-christian-nation" />
+<meta property="og:type" content="website" />
+<meta name="description" content="Is the United States a &quot;Christian nation&quot;? Some Americans think so. Religious Right activists and right-wing television preachers often claim that the United States was founded to be a Christian nation. Even some politicians agree. If the people who make this assertion are merely saying that most Americans are Christians, they might have a point. But those who argue that America is a Christian nation usually mean something more, insisting that the country should be officially Christian. The very character of our country is at stake in the outcome of this debate." />
+<meta property="og:url" content="https://www.au.org/resources/publications/is-america-a-christian-nation" />
+<meta name="abstract" content="Americans United for Separation of Church and State (Americans United or AU for short) is a 501(c)(3) nonprofit organization that advocates separation of church and state, a legal doctrine set forth in the Establishment Clause of the First Amendment to the United States Constitution, which says &quot;Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof.&quot;" />
+<meta property="og:title" content="Is America A Christian Nation?" />
+<meta property="og:description" content="Is the United States a &quot;Christian nation&quot;? Some Americans think so. Religious Right activists and right-wing television preachers often claim that the United States was founded to be a Christian nation. Even some politicians agree. If the people who make this assertion are merely saying that most Americans are Christians, they might have a point. But those who argue that America is a Christian nation usually mean something more, insisting that the country should be officially Christian. The very character of our country is at stake in the outcome of this debate." />
+<meta property="og:image" content="https://www.au.org/sites/default/files/styles/ogimage/public/Constitution%20American%20Flag%20cropped.jpg?itok=FLOhdAG7" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/core/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="revision" href="https://www.au.org/resources/publications/is-america-a-christian-nation" />
+
+    <title>Is America A Christian Nation? | Americans United for Separation of Church and State</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_c8uKrkdw3uTl-xXgGz0TtfMpOZq9ps2b3GoXRcXqFfo.css?ps8hfb" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_VfjSexG8x9xngxSu3-o-Q6NETPnhPcSHfJRP-fw-k5A.css?ps8hfb" />
+
+    
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+
+    
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="	crossorigin="anonymous"></script>
+	<script type='text/javascript' src='https://d1aqhv4sn5kxtx.cloudfront.net/actiontag/at.js' crossorigin='anonymous'></script>
+    <!-- EA Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-N462KH');</script>
+	<!-- End EA Google Tag Manager -->
+
+    <!-- EA Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N462KH"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+<meta property="fb:app_id" content="530879017276069"/>
+<link href="https://fonts.googleapis.com/css?family=Domine:400,700|Barlow+Condensed|Lato:400,700,900" rel="stylesheet"> 
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/themes/custom/au/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/themes/custom/au/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/themes/custom/au/favicons/favicon-16x16.png">
+<link rel="manifest" href="/themes/custom/au/favicons/manifest.json">
+<link rel="shortcut icon" href="/themes/custom/au/favicons/favicon.ico">
+<meta name="msapplication-config" content="/themes/custom/au/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+  </head>
+  <body class="page-node-7994 not-front path-node page-node-type-publications">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+      <header class="header" role="banner">
+	<div class="mobilebutton">
+		<button type="button" class="menu-toggle">
+		<span></span>
+		<div class="menu-opener-icon"></div>
+		</button>
+	</div>
+   <div class="region region-nav">
+   	<div class="container">  <div class="region region-navigation">
+    <nav role="navigation" aria-labelledby="block-actionmenu-menu" id="block-actionmenu" class="actionmenu block block-menu navigation menu--action-menu">
+            
+  <h2 class="visually-hidden" id="block-actionmenu-menu">Action Menu</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/become-a-member" target="_self" class="become-member" data-drupal-link-system-path="node/13569">Become a Member</a>
+              </li>
+                <li class="menu-item">
+        <a href="/renew-your-support" target="_self" rel="" class="renew" data-drupal-link-system-path="node/13568">Renew</a>
+              </li>
+                <li class="menu-item">
+        <a href="/action" target="_self" class="take-action" data-drupal-link-system-path="node/13610">Take Action</a>
+              </li>
+                <li class="menu-item">
+        <a href="/donate" target="_self" rel="" class="donate">Donate</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-au-main-menu-menu" id="block-au-main-menu" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-au-main-menu-menu">Main navigation</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/who-we-are" target="_self" rel="" data-drupal-link-system-path="node/13429">Who We Are</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/issues" target="_self" class="ourissues" data-drupal-link-system-path="issues">Our Issues</a>
+        			<button class="expand"></button>
+                        <ul class="dropdown-menu">
+                    <li class="menu-item">
+        <a href="/issues/schools" target="_self" rel="" data-drupal-link-system-path="taxonomy/term/328">Schools</a>
+              </li>
+                <li class="menu-item">
+        <a href="/issues/discrimination-in-the-name-of-religion" target="_self" data-drupal-link-system-path="taxonomy/term/369">Discrimination in the Name of Religion</a>
+              </li>
+                <li class="menu-item">
+        <a href="/issues/lgbtq-rights" target="_self" rel="" data-drupal-link-system-path="taxonomy/term/7083">LGBTQ Rights</a>
+              </li>
+                <li class="menu-item">
+        <a href="/issues/reproductive-rights" target="_self" rel="" data-drupal-link-system-path="taxonomy/term/368">Reproductive Rights</a>
+              </li>
+                <li class="menu-item">
+        <a href="/issues/religious-freedom" target="_self" rel="" data-drupal-link-system-path="taxonomy/term/7085">Religious Freedom</a>
+              </li>
+                <li class="menu-item">
+        <a href="/issues/government-support-of-religion" target="_self" rel="" data-drupal-link-system-path="taxonomy/term/351">Government Support of Religion</a>
+              </li>
+                <li class="menu-item">
+        <a href="/issues/churches-and-elections" target="_self" rel="" data-drupal-link-system-path="taxonomy/term/359">Churches &amp; Elections</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/media" target="_self" data-drupal-link-system-path="node/13438">Media</a>
+        			<button class="expand"></button>
+                        <ul class="dropdown-menu">
+                    <li class="menu-item">
+        <a href="/blogs" target="_self" data-drupal-link-system-path="blog">Blog</a>
+              </li>
+                <li class="menu-item">
+        <a href="/church-state" target="_self" data-drupal-link-system-path="church-state">Magazine</a>
+              </li>
+                <li class="menu-item">
+        <a href="/media/press-releases" target="_self" data-drupal-link-system-path="media/press-releases">Press Releases</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/get-involved" target="_self" rel="" data-drupal-link-system-path="node/13437">Get Involved</a>
+              </li>
+                <li class="menu-item">
+        <a href="/resources" target="_self" rel="" data-drupal-link-system-path="node/13436">Resources</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<section id="block-socialmenu" class="block socialblock">
+  
+    
+      
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="https://www.facebook.com/americansunited" target="_self" class="fa fa-facebook">Facebook</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://twitter.com/americansunited" target="_self" class="fa fa-twitter">Twitter</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.instagram.com/americansunited/" target="_self" class="fa fa-instagram">Instagram</a>
+              </li>
+        </ul>
+  
+
+
+  </section>
+
+  </div>
+ </div>
+  </div>
+  	<div class="container">
+        <section id="block-au-branding" class="block">
+  
+    
+        <a href="/" title="Home" rel="home" class="site-logo">
+      <img src="/themes/custom/au/logo.svg" alt="Home" />
+    </a>
+      </section>
+<nav role="navigation" aria-labelledby="block-welcomemenu-menu" id="block-welcomemenu" class="welcome block block-menu navigation menu--menu-welcome-menu">
+            
+  <h2 class="visually-hidden" id="block-welcomemenu-menu">Welcome menu</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/donate" class="donate">Donate</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+
+    </div>
+  </header>
+  
+<div class="bg region-hero" style='background-image:url(/sites/default/files/styles/banner/public/Constitution%20American%20Flag%20cropped.jpg?itok=stZly_0a)'>
+	 <div class="overlay"></div>
+	  <section class="container">
+	  		  		  		  		  <h2>Is America A Christian Nation?</h2></section>
+</div>
+<main role="main">
+ <div class="container">
+   <a id="main-content" tabindex="-1"></a>
+     <div class="region region-content">
+    <section id="block-au-americansunitedtheme-system-main" class="block">
+  
+    
+      
+<article role="article" about="/resources/publications/is-america-a-christian-nation" class="node node--type-publications node--view-mode-full">
+
+  
+    
+
+  <div class="node">
+
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>
+Is the United States a "Christian nation"? Some Americans think so. Religious Right activists and right-wing television preachers often claim that the United States was founded to be a Christian nation. Even some politicians agree. If the people who make this assertion are merely saying that most Americans are Christians, they might have a point. But those who argue that America is a Christian nation usually mean something more, insisting that the country should be officially Christian. The very character of our country is at stake in the outcome of this debate.</p>
+
+<p>Religious Right groups and their allies insist that the United States was designed to be officially Christian and that our laws should enforce the doctrines of (their version of) Christianity. Is this viewpoint accurate? Is there anything in the Constitution that gives special treatment or preference to Christianity? Did the founders of our government believe this or intend to create a government that gave special recognition to Christianity?</p>
+
+<p>The answer to all of these questions is no. The U.S. Constitution is a wholly secular document. It contains no mention of Christianity or Jesus Christ. In fact, the Constitution refers to religion only twice in the First Amendment, which bars laws "respecting an establishment of religion or prohibiting the free exercise thereof," and in Article VI, which prohibits "religious tests" for public office. Both of these provisions are evidence that the country was not founded as officially Christian.</p>
+
+<blockquote>
+<p>Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof;</p>
+
+<p>— First Amendment to the U.S. Constitution</p>
+</blockquote>
+
+<p>The Founding Fathers did not create a secular government because they disliked religion. Many were believers themselves. Yet they were well aware of the dangers of church-state union. They had studied and even seen first-hand the difficulties that church-state partnerships spawned in Europe. During the American colonial period, alliances between religion and government produced oppression and tyranny on our own shores.</p>
+
+<p>Many colonies, for example, had provisions limiting public office to "Trinitarian Protestants" and other types of laws designed to prop up the religious sentiments of the politically powerful. Some colonies had officially established churches and taxed all citizens to support them, whether they were members or not. Dissenters faced imprisonment, torture and even death.</p>
+
+<p>These arrangements led to bitterness and sectarian division. Many people began agitating for an end to "religious tests" for public office, tax subsidies for churches and other forms of state endorsement of religion. Those who led this charge were not anti-religion. Indeed, many were members of the clergy and people of deep piety. They argued that true faith did not need or want the support of government.</p>
+
+<p>Respect for religious pluralism gradually became the norm. When Thomas Jefferson wrote the Declaration of Independence, for example, he spoke of "unalienable rights endowed by our Creator." He used generic religious language that all religious groups of the day would respond to, not narrowly Christian language traditionally employed by nations with state churches.</p>
+
+<p>While some of the country's founders believed that the government should espouse Christianity, that viewpoint soon became a losing proposition. In Virginia, Patrick Henry argued in favor of tax support for Christian churches. But Henry and his cohorts were in the minority and lost that battle. Jefferson, James Madison and their allies among the state's religious groups ended Virginia's established church and helped pass the Virginia Statute for Religious Liberty, a 1786 law guaranteeing religious freedom to all.</p>
+
+<blockquote>
+<p>We the General Assembly of Virginia do enact that no man shall be compelled to frequent or support any religious worship, place, or ministry whatsoever, nor shall be enforced, restrained, molested, or burthened in his body or goods, nor shall otherwise suffer, on account of his religious opinions or belief; but that all men shall be free to profess, and by argument to maintain, their opinions in matters of religion, and that the same shall in no wise diminish, enlarge, or affect their civil capacities.</p>
+
+<p>— Virginia Statute for Religious Liberty</p>
+</blockquote>
+
+<p>Jefferson and Madison's viewpoint also carried the day when the Constitution, and later, the Bill of Rights, were written. Had an officially Christian nation been the goal of the founders, that concept would appear in the Constitution. It does not. Instead, our nation's governing document ensures religious freedom for everyone.</p>
+
+<p>Maryland representative Luther Martin said that a handful of delegates to the Constitutional Convention argued for formal recognition of Christianity in the Constitution, insisting that such language was necessary in order to "hold out some distinction between the professors of Christianity and downright infidelity or paganism." But that view was not adopted, and the Constitution gave government no authority over religion. Article VI, which allows persons of all religious viewpoints to hold public office, was adopted by a unanimous vote. Through ratification of the First Amendment, observed Jefferson, the American people built a "wall of separation between church and state."</p>
+
+<p>Some pastors who favored church-state union were outraged and delivered sermons asserting that the United States would not be a successful nation because its Constitution did not give special treatment to Christianity. But many others welcomed the new dawn of freedom and praised the Constitution and the First Amendment as true protectors of liberty.</p>
+
+<p>Early national leaders understood that separation of church and state would be good for all faiths including Christianity. Jefferson rejoiced that Virginia had passed his religious freedom law, noting that it would ensure religious freedom for "the Jew and the Gentile, the Christian and Mahometan, the Hindoo, the infidel of every denomination."</p>
+
+<p>Other early U.S. leaders echoed that view. President George Washington, in a famous 1790 letter to a Jewish congregation in Newport, R.I., celebrated the fact that Jews had full freedom of worship in America. Noted Washington, "All possess alike liberty of conscience and immunities of citizenship."</p>
+
+<p>Washington's administration even negotiated a treaty with the Muslim rulers of north Africa that stated explicitly that the United States was not founded on Christianity. The pact, known as the Treaty with Tripoli, was approved unanimously by the Senate in 1797, under the administration of John Adams. Article 11 of the treaty states, "[T]he government of the United States is not, in any sense, founded on the Christian religion…."</p>
+
+<blockquote>
+<p><em>The government of the United States is not, in any sense, founded on the Christian religion...</em></p>
+
+<p>— U.S. Treaty with Tripoli, 1797</p>
+</blockquote>
+
+<p>Admittedly, the U.S. government has not always lived up to its constitutional principles. In the late 19th century especially, officials often promoted a <em>de facto</em> form of Protestantism. Even the U.S. Supreme Court fell victim to this mentality in 1892, with Justice David Brewer declaring in <em>Holy Trinity v. United States</em> that America is "a Christian nation."</p>
+
+<p>It should be noted, however, that the <em>Holy Trinity</em> decision is a legal anomaly. It has rarely been cited by other courts, and the "Christian nation" declaration appeared in dicta, a legal term meaning writing that reflects a judge's personal opinion, not a mandate of the law. Also, it is unclear exactly what Brewer meant. In a book he wrote in 1905, Brewer pointed out that the United States is Christian in a cultural sense, not a legal one.</p>
+
+<p>A more accurate judicial view of the relationship between religion and government is described by Justice John Paul Stevens in his 1985 <em>Wallace v. Jaffree</em> ruling. Commenting on the constitutional right of all Americans to choose their own religious belief, Stevens wrote, "At one time it was thought that this right merely proscribed the preference of one Christian sect over another, but would not require equal respect for the conscience of the infidel, the atheist, or the adherent of a non-Christian faith such as Mohammedism or Judaism. But when the underlying principle has been examined in the crucible of litigation, the Court has unambiguously concluded that the individual freedom of conscience protected by the First Amendment embraces the right to select any religious faith or none at all."</p>
+
+<blockquote>
+<p><em>When the underlying principle has been examined in the crucible of litigation, the Court has unambiguously concluded that the individual freedom of conscience protected by the First Amendment embraces the right to select any religious faith or none at all.</em></p>
+
+<p>—Justice John Paul Stevens</p>
+</blockquote>
+
+<p>A determined faction of Christians has fought against this wise and time-tested policy throughout our history. In the mid 19th century, several efforts were made to add specific references to Christianity to the Constitution. One group, the National Reform Association (NRA), pushed a "Christian nation" amendment in Congress in 1864. NRA members believed that the Civil War was divine punishment for failing to mention God in the Constitution and saw the amendment as a way to atone for that omission.</p>
+
+<p>The NRA amendment called for "humbly acknowledging Almighty God as the source of all authority and power in civil government, the Lord Jesus Christ as the Ruler among the nations, [and] His revealed will as the supreme law of the land, in order to constitute a Christian government." Ten years later, the House Judiciary Committee voted against its adoption. The committee noted "the dangers which the union between church and state had imposed upon so many nations of the Old World" and said in light of that it was felt "inexpedient to put anything into the Constitution which might be construed to be a reference to any religious creed or doctrine."</p>
+
+<p>Similar theocratic proposals resurfaced in Congress sporadically over the years. As late as 1950, a proposal was introduced in the Senate that would have added language to the Constitution that "devoutly recognizes the Authority and Law of Jesus Christ, Saviour and Ruler of nations, through whom are bestowed the blessings of liberty." This amendment was never voted out of committee. Efforts to revive it in the early 1960s were unsuccessful.</p>
+
+<p>Today, America's religious demographics are changing, and diversity has greatly expanded since our nation's founding. The number of Jews has increased, and more Muslims are living in America than ever before. Other religions now represented in America include Hinduism, Buddhism and a myriad others. In addition, many Americans say they have no religious faith or identify themselves as atheists, agnostics or Humanists. According to some scholars, over 2,000 distinct religious groups and denominations exist in the United States.</p>
+
+<p>Also, even though most Americans identify as Christian, this does not mean they would back official government recognition of the Christian faith. Christian denominations disagree on points of doctrine, church structure and stands on social issues. Many Christians take a moderate or liberal perspective on church-state relations and oppose efforts to impose religion by government action.</p>
+
+<p>Americans should be proud that we live in a democracy that welcomes persons of many faiths and none. Around the globe, millions of people still dwell under oppressive regimes where religion and government are harshly commingled. (Iran and the former Taliban regime of Afghanistan are just two examples.) Many residents of those countries look to the United States as beacon of hope and a model for what their own nations might someday become.</p>
+
+<p>Only the principle of church-state separation can protect America's incredible degree of religious freedom. The individual rights and diversity we enjoy cannot be maintained if the government promotes Christianity or if our government takes on the trappings of a "faith-based" state.</p>
+
+<p>The United States, in short, was not founded to be an officially Christian nation or to espouse any official religion. Our government is neutral on religious matters, leaving such decisions to individuals. This democratic and pluralistic system has allowed a broad array of religious groups to grow and flourish and guarantees every individual American the right to determine his or her own spiritual path or to reject religion entirely. As a result of this policy, Americans enjoy more religious freedom than any people in world history. We should be proud of this accomplishment and work to preserve the constitutional principle that made it possible separation of church and state.</p></div>
+      
+  <div class="field field--name-field-publication-type field--type-entity-reference field--label-inline">
+    <div class="field__label">Type</div>
+              <div class="field__item"><a href="/brochurepublication-type/brochure" hreflang="en">Brochure</a></div>
+          </div>
+
+  <div class="field field--name-field-tags field--type-entity-reference field--label-inline">
+    <div class="field__label">Tags</div>
+          <div class="field__items">
+              <div class="field__item"><a href="/tags/christian-nation-myth" hreflang="en">Christian nation myth</a></div>
+              </div>
+      </div>
+
+  <div class="field field--name-field-file field--type-file field--label-inline">
+    <div class="field__label">Download</div>
+          <div class="field__items">
+              <div class="field__item">
+<span class="file file--mime-application-pdf file--application-pdf"> <a href="https://www.au.org/sites/default/files/christian-nation-pdf.pdf" type="application/pdf; length=219480">christian-nation-pdf.pdf</a></span>
+</div>
+              </div>
+      </div>
+
+</div>
+</article>
+  </section>
+
+  </div>
+
+ </div>
+</main>
+
+<section class="kicker kicksign">
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>Get the latest on Americans United news and actions in your inbox.</p></div>
+      
+ <div class="ngp-form"
+    data-form-url="https://actions.ngpvan.com/v1/Forms/xtjEL1FXGkCRxPT0dKtpeA2"
+	data-fastaction-endpoint="https://fastaction.ngpvan.com"
+    data-inline-errors="true"
+    data-labels="inline"
+    data-fastaction-nologin="true"
+    data-databag="everybody">
+</div>
+<noscript><span class="message">The browser you are using does not support this form. If you would like to make a gift, please try a different browser.</span></noscript>
+</section>
+<footer class="footer" role="contentinfo">
+	<div class="container"> 
+	  <div class="region region-footer">
+    <section id="block-footermsg" class="block">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>Our work is more important than ever and we need your help—donate to Americans United today.</p></div>
+      
+  </section>
+<nav role="navigation" aria-labelledby="block-au-footer-menu" id="block-au-footer" class="block block-menu navigation menu--footer">
+            
+  <h2 class="visually-hidden" id="block-au-footer-menu">Footer menu</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/who-we-are" target="_self" rel="" data-drupal-link-system-path="node/13429">Who We Are</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about/employment" target="_self" data-drupal-link-system-path="about/employment">Employment</a>
+              </li>
+                <li class="menu-item">
+        <a href="/donate/faqs" target="_self" data-drupal-link-system-path="node/6029">Donation FAQs</a>
+              </li>
+                <li class="menu-item">
+        <a href="/issues" target="_self" rel="" data-drupal-link-system-path="issues">Our Issues</a>
+              </li>
+                <li class="menu-item">
+        <a href="/resources" target="_self" rel="" data-drupal-link-system-path="node/13436">Resources</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.au.org/donate/other" title="Other ways to give">Other Ways to Give</a>
+              </li>
+                <li class="menu-item">
+        <a href="/get-involved" target="_self" rel="" data-drupal-link-system-path="node/13437">Get Involved</a>
+              </li>
+                <li class="menu-item">
+        <a href="/content/au-annual-reports-and-financial-information" target="_self" rel="" data-drupal-link-system-path="node/7821">Financial Information</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about/privacy-policy" target="_self" data-drupal-link-system-path="node/5937">Privacy Policy</a>
+              </li>
+                <li class="menu-item">
+        <a href="/action" target="_self" data-drupal-link-system-path="node/13610">Take Action</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.au.org/node/14800">State Nonprofit Disclosures</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about/security-policy" target="_self" rel="" data-drupal-link-system-path="node/5938">Security Policy</a>
+              </li>
+                <li class="menu-item">
+        <a href="/become-a-member" target="_self" data-drupal-link-system-path="node/13569">Become a Member</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://bit.ly/update-your-info-with-AU" target="_self" title="Update Your Personal Information For Our Email List &amp; Donations">Update Your Info</a>
+              </li>
+                <li class="menu-item">
+        <a href="/contact-us/form" data-drupal-link-system-path="node/14802">Contact Us</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<section id="block-footerbottom" class="block">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>“Americans United for Separation of Church and State,” “Americans United” and “Church &amp; State” are registered trademarks of Americans United for Separation of Church and State.</p>
+
+<p> </p>
+
+<p>Site contents © 2019 Americans United for Separation of Church and State</p></div>
+      
+  </section>
+<section id="block-address" class="address block">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><a class="btn donate" href="/donate">DONATE NOW</a>
+
+<address>
+    Americans United<br />
+for Separation of Church and State<br />
+1310 L Street NW, Suite 200<br />
+Washington, DC 20005<br />
+(202) 466-3234<br /><a href="mailto:americansunited@au.org" class="email">americansunited@au.org</a>  </address>
+<span>Security Metrics Certified</span></div>
+      
+  </section>
+<div class="search-block-form search block block-search container-inline" data-drupal-selector="search-block-form" id="block-searchform" role="search">
+  
+    
+      <form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Search</label>
+        <input title="Enter the terms you wish to search for." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search" class="button js-form-submit form-submit" />
+</div>
+
+</form>
+
+  </div>
+<section id="block-accreditations" class="accreditations block">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><ul><li><img alt="bbb" data-entity-type="file" data-entity-uuid="94d9273e-a08d-4b64-a29a-8ba941fe50ce" src="/sites/default/files/inline-images/bbb_1.jpg" /></li>
+	<li><img alt="GuideStar Seal" data-entity-type="file" data-entity-uuid="a55cc460-7db6-4b82-9f55-66ca13e84c25" src="/sites/default/files/inline-images/platinum%202019%20seal%20of%20transparency%20new_0.png" /></li>
+</ul></div>
+      
+  </section>
+
+  </div>
+
+	<footer class="poweredby">Powered by <a href="http://www.everyaction.com/?utm_source=&amp;utm_medium=poweredby&amp;utm_campaign=accelerator">EveryAction</a></footer>
+	</div>
+</footer>
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/7994","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","google_analytics":{"account":"UA-749937-4","trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"ajaxTrustedUrl":{"\/search\/node":true},"user":{"uid":0,"permissionsHash":"5364ca13190642b65de3d8ddb6f278425e229616e90cec5297d5209567b8583a"}}</script>
+<script src="/sites/default/files/js/js_j-uTdvUy7Laj8NHAFF-rFFwprPrgJwArjs7yORWixh4.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"47f7d61e55","applicationID":"50933806","transactionName":"M1JQMRBSVkZWBhBZVgoYcwYWWldbGBUFV1w7VFMGClY=","queueTime":0,"applicationTime":14,"atts":"HxVTR1hIRUg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

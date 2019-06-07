@@ -1,0 +1,2115 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+
+  
+  
+      
+  
+
+
+
+
+    
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"04bd4783a3","applicationID":"4166444","transactionName":"J1hXRkVYWAkAQ01LUhdYTEBUUmsJDFMQWEUdGFVbVUVVFxxuB1dDFl5cQRhEXAoS","queueTime":4,"applicationTime":707,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+    <meta name="keywords" value=""/>
+    <meta name="description" value="">
+    <meta property="author" content="David Closson">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js" type="text/javascript"></script>
+    <!--<script type=‘text/javascript’>
+(function (d, t) {
+ var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+ bh.type = ‘text/javascript’;
+ bh.src = ’https://www.bugherd.com/sidebarv2.js?apikey=lxvjqjguhkb5ath9xsjuyw';
+ s.parentNode.insertBefore(bh, s);
+ })(document, ‘script’);
+
+    </script>-->
+    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6439252/6324952/css/fonts.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"/>
+    <link href="//d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/stylesheets/video-js.min.css?16c05abcfcc09e5c6ae9206f45ba9045" media="screen" rel="stylesheet" type="text/css">
+    <link href="//d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/stylesheets/style.css?21a33b606b8ed41200140e41ed58104b" media="screen" rel="stylesheet" type="text/css">
+    <link href="//d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/stylesheets/all.min.css?1a2f476d991a3e7ff43283b7bf89f168" media="screen" rel="stylesheet" type="text/css">
+    <link href="//d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/stylesheets/styles.css?83b6251bb8177e06be90d09d44fb7437" media="screen" rel="stylesheet" type="text/css">
+    <link href="//d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/stylesheets/print.css?4a4ee2044deb144fe1aac3747a88594e" rel="stylesheet" type="text/css" media="print"/>
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="//feeds.feedburner.com/erlc_all"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="canonical" href="https://erlc.com/resource-library/articles/what-does-it-mean-to-be-made-in-gods-image"/>
+    <meta property="fb:pages" content="165566613453452"/>
+    <meta name="google-site-verification" content="T23oWoLCtM9jqBk5KXjDbAhafoOn3gZHpFGvq_iGYQ4" />
+    <title>
+        
+            
+                What does it mean to be made in God's image?
+                 |
+        
+        ERLC
+    </title>
+
+    
+
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+      <meta property="og:title" content="
+      What does it mean to be made in God&#39;s image?
+  ">
+  
+<meta property="article:publisher" content="erlcsbc" />
+<meta property="article:section" content="Articles" />
+<meta property="article:published_time" content="2016-05-04" />
+<meta property="og:url" content="https://erlc.com/resource-library/articles/what-does-it-mean-to-be-made-in-gods-image" />
+<meta property="og:rich_attachment" content="true">
+<meta property="og:site_name" content="ERLC" />
+<meta property="og:locale" content="en_us" />
+<meta property="og:description" content="
+    
+        The Christian faith and worldview is predicated on a set of nonnegotiable truths. One of these is...
+    
+" />
+
+
+  
+      <meta property="og:image" content="https://dncqdsevn7j5.cloudfront.net/images/dynamic/W1siZnUiLCJodHRwczovL2Qxbndmcnp4aGkxOGRwLmNsb3VkZnJvbnQubmV0L3VwbG9hZHMvcmVzb3VyY2VfbGlicmFyeS9saWJyYXJ5X2VudHJ5L3Byb21vX2ltYWdlLzEyNTMvMjAxNjA1MDRfSW1hZ2VfSW1hZ2UuanBnIl0sWyJwIiwidGh1bWIiLCIxMjAweDY0MCMiXV0/20160504_Image_Image.jpg?sha=8b688eace2e81d68" />
+      <meta property="og:image:type" content="image/jpg" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="640" />
+      
+
+  
+
+
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:type" content="article" />
+
+  
+      <meta property="og:see_also" content="https://erlc.com/resource-library/articles/take-a-lesson-from-the-stock-pot">
+  
+
+<meta name="twitter:site" content="@ERLC" />
+<meta name="twitter:title" content="
+      What does it mean to be made in God&#39;s image?
+  " />
+<meta name="twitter:description" content="
+    
+        The Christian faith and worldview is predicated on a set of nonnegotiable truths. One of these is...
+    
+" />
+
+    
+    
+    <meta property="twitter:image" content="http://dncqdsevn7j5.cloudfront.net/images/dynamic/W1siZnUiLCJodHRwczovL2Qxbndmcnp4aGkxOGRwLmNsb3VkZnJvbnQubmV0L3VwbG9hZHMvcmVzb3VyY2VfbGlicmFyeS9saWJyYXJ5X2VudHJ5L3Byb21vX2ltYWdlLzEyNTMvMjAxNjA1MDRfSW1hZ2VfSW1hZ2UuanBnIl0sWyJwIiwidGh1bWIiLCIxMjAweDY0MCMiXV0/20160504_Image_Image.jpg?sha=8b688eace2e81d68"/>
+    
+
+
+
+
+    
+
+    
+
+    
+
+    
+    
+        <link rel="shortcut icon" href="
+        //d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/images/32x32.png?965f567c1f03d113f2a7ca3cebc51ea9
+    "/>
+    
+
+
+    
+
+    
+    
+        <link rel="apple-touch-icon-precomposed" href="
+        //d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/images/apple-touch-icon.png?ce5364ef50663c2917fc2ad065db4ed6
+    "/>
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="
+        //d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/images/apple-touch-icon.png?ce5364ef50663c2917fc2ad065db4ed6
+    "/>
+    
+
+    
+    
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="
+        //d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/images/apple-touch-icon.png?ce5364ef50663c2917fc2ad065db4ed6
+    "/>
+    
+
+    
+    
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="
+        //d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/images/apple-touch-icon.png?ce5364ef50663c2917fc2ad065db4ed6
+    "/>
+    
+
+    
+    
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="
+        //d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/images/apple-touch-icon.png?ce5364ef50663c2917fc2ad065db4ed6
+    "/>
+    
+
+    
+    
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="
+        //d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/images/apple-touch-icon.png?ce5364ef50663c2917fc2ad065db4ed6
+    "/>
+    
+
+    
+    
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="
+        //d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/images/apple-touch-icon.png?ce5364ef50663c2917fc2ad065db4ed6
+    "/>
+    
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1829387683994674');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1"
+             src="https://www.facebook.com/tr?id=1829387683994674&ev=PageView
+&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K5JZRNT');</script>
+    <!-- End Google Tag Manager -->
+    <script type="text/javascript" defer="defer" src="https://extend.vimeocdn.com/ga/16913101.js"></script>
+    <script type='text/javascript'>
+        (function (d, t) {
+            var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            bh.type = 'text/javascript';
+            bh.src = 'https://www.bugherd.com/sidebarv2.js?apikey=lxvjqjguhkb5ath9xsjuyw';
+            s.parentNode.insertBefore(bh, s);
+        })(document, 'script');
+    </script>
+</head>
+
+<body data-spy="scroll" data-offset="80" data-target="#home-nav"
+      class="proto-body subpage  resource-library-library-entries-show">
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5JZRNT"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <div class="wrap" id="header_wrap">
+        
+<header class="site-header-beta">
+    <nav class="navbar navbar-beta navbar-default" role="navigation">
+        <div class="container-fluid-flex">
+            <div class="mobile-contact-wrapper hidden-md hidden-lg">
+                <a class="header-link header-link-icon" href="/highlights"><i class="far fa-envelope fa-lg"></i></a>
+            </div>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/"><img class="visible-xs visible-sm" src="//d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/images/erlc-logo-abbr-color.svg?1bc270b385e7a6afe68789203b183a1f" alt="ERLC Logo"><img class="hidden-xs hidden-sm" src="https://dncqdsevn7j5.cloudfront.net/images/dynamic/W1siZnUiLCJodHRwczovL2Qxbndmcnp4aGkxOGRwLmNsb3VkZnJvbnQubmV0L3NpdGVzLzU2OGFjYjkxNzJiZjRhYTljNDAwMDAwNi90aGVtZS9pbWFnZXMvZXJsY19sb2dvX2Jhbm5lcl82MDAucG5nIl0sWyJwIiwidGh1bWIiLCI0MDB4Il1d/erlc_logo_banner_600.png?sha=41887da66c1a700d" alt="ERLC Logo"></a>
+            </div>
+            <div class="header-link-wrapper">
+                <a class="hidden-xs hidden-sm header-link header-link-donate" href="about/donate">Donate</a>
+                <span class="hidden-xs hidden-sm header-separator"><img src="//d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/images/dots.png?775dd5c71c2a380b42af0683d70e9434" ></span>
+                <a class="hidden-xs hidden-sm header-link header-link-icon" href="/highlights"><i class="far fa-envelope fa-lg"></i></a>
+                <a class="hidden-xs hidden-sm header-link header-link-icon navbar-toggle header-link-search" data-toggle="collapse" href="#"><i class="fa fa-search fa-lg"></i></a>
+                <button type="button" class="navbar-toggle collapsed hamburger hamburger--spring" data-toggle="collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse fade always-collapse" id="mainNav">
+                <div class="container-fluid">
+                    <div class="row">
+                        <form id="navbar-search" class="navbar-form pull-left off" role="search" method="get" action="/search">
+                            <div class="form-group">
+                                <input type="search" id="search-box" class="form-control" name="q" placeholder="Search Resources">
+                            </div>
+                        </form>
+                        <!--<div class="menu-close pull-right"><a id="menuClose" href="#"><i class="fal fa-times fa-3x"></i></a>-->
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-md-2 col-md-offset-1">
+                                <h4><a href="/about">About</a></h4>
+                                <ul>
+                                    <li>
+                                        <a href="/about/president-russell-moore">Russell Moore</a>
+                                    </li>
+                                    <li>
+                                        <a href="/about/staff">Staff</a>
+                                    </li>
+                                    <li>
+                                        <a href="/about/leadership-council">Leadership Council</a>
+                                    </li>
+                                    <li>
+                                        <a href="/about/press-room">Press Room</a>
+                                    </li>
+                                    <li>
+                                        <a href="/about/public-policy">Public Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="/about/internships">Internships</a>
+                                    </li>
+                                    <li>
+                                        <a href="/about/employment">Employment</a>
+                                    </li>
+                                    <li>
+                                        <a href="/about/speaking-request">Speaking Request</a>
+                                    </li>
+                                    <li>
+                                        <a href="/about/faqs">FAQs</a>
+                                    </li>
+                                    <li>
+                                        <a href="/about/contact">Contact Us</a>
+                                    </li>
+
+                                </ul>
+                            </div><!--.col-md-2-->
+                            <div class="col-md-2">
+                                <h4><a href="/initiatives">Initiatives</a></h4>
+                                <ul>
+                                    <li>
+                                        <a target="_blank" rel="noopener" href="http://psalm139project.com/">Psalm 139 Project</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" rel="noopener" href="https://standforlife.org/">Stand for Life</a>
+                                    </li>
+                                    <li>
+                                        <a href="/initiatives/leland-house-press">Leland House Press</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" rel="noopener" href="http://www.globalhungerrelief.com/">Global Hunger Relief</a>
+                                    </li>
+                                    <li>
+                                        <a href="/initiatives/research-institute">Research Institute</a>
+                                    </li>
+                                    <li>
+                                        <a href="/initiatives/academy">ERLC Academy</a>
+                                    </li>
+                                </ul>
+                            </div><!--.col-md-2-->
+                            <div class="col-md-2">
+                                <h4><a href="/upcoming-events">Events</a></h4>
+                                <ul>
+                                    
+                                        
+                                            
+                                            
+                                                
+                                                    <li>
+                                                        
+                                                            <a href="/upcoming-events/sexual-abuse-and-the-southern-baptist-convention">
+                                                                
+                                                                Sexual Abuse and the Southern Baptist Convention
+                                                            </a>
+                                                    </li>
+                                                
+                                            
+                                                
+                                                    <li>
+                                                        
+                                                            <a href="/upcoming-events/2019-erlc-national-conference">
+                                                                
+                                                                2019 ERLC National Conference
+                                                            </a>
+                                                    </li>
+                                                
+                                            
+                                        
+                                    
+                                </ul>
+                            </div><!--.col-md-2-->
+                            <div class="col-md-2">
+                                <h4><a href="/resource-library">Resources</a></h4>
+                                <ul>
+                                    <li>
+                                        <a href="/resource-library/">Latest</a>
+                                    </li>
+                                    <li>
+                                        <a href="/resource-library/trending">Trending</a>
+                                    </li>
+                                    <li>
+                                        <a href="/resource-library/articles">Articles</a>
+                                    </li>
+                                    <li>
+                                        <a href="/resource-library/interviews">Interviews</a>
+                                    </li>
+                                    <li>
+                                        <a href="/resource-library/light-magazine-issues">Light Magazine</a>
+                                    </li>
+                                </ul>
+                            </div><!--.col-md-2-->
+                            <div class="col-md-2">
+                                <h4><a href="/resource-library/products/recently-added">Store</a></h4>
+                                <ul>
+                                    <li>
+                                        <a href="/resource-library/products/recently-added">Recently Added</a>
+                                    </li>
+                                    <li>
+                                        <a href="/resource-library/products/by-title">By Title</a>
+                                    </li>
+                                    <li>
+                                        <a href="/resource-library/products/by-author">By Author</a>
+                                    </li>
+                                    <li>
+                                        <a href="/resource-library/products/by-topic">By Topic</a>
+                                    </li>
+                                </ul>
+                            </div><!--.col-md-2-->
+                        </div><!--.row-->
+                        <div class="row resource-library-nav">
+                            <ul class="navbar-nav">
+                                
+                                    
+                                        
+                                            
+                                        
+                                    
+                                
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                
+                                    <li class="nav-item">
+                                        <span class="nav-label">browse by: </span>
+                                    </li>
+                                    <li class="nav-item dropdown all-resources-select visible">
+                                        <a id="dLabel" href="#" class="Articles nav-link dropdown-toggle"
+                                           data-toggle="dropdown" aria-haspopup="true"https://erlc.gospel.io/locomotive/current_site/edit
+                                        aria-expanded="false">Articles</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dLabel">
+                                            <li class="dropdown-item " data-target="all-resources"><a href="/resource-library/recently-added">All Resources</a></li>
+                                            
+                                                <li data-target="articles" class="dropdown-item selected"><a
+                                                            href="/resource-library/articles">Articles</a></li>
+                                            
+                                                <li data-target="book-reviews" class="dropdown-item"><a
+                                                            href="/resource-library/book-reviews">Book Reviews</a></li>
+                                            
+                                                <li data-target="bulletin-inserts" class="dropdown-item"><a
+                                                            href="/resource-library/bulletin-inserts">Bulletin Inserts</a></li>
+                                            
+                                                <li data-target="event-messages" class="dropdown-item"><a
+                                                            href="/resource-library/event-messages">Event Messages</a></li>
+                                            
+                                                <li data-target="forms" class="dropdown-item"><a
+                                                            href="/resource-library/forms">Forms</a></li>
+                                            
+                                                <li data-target="interviews" class="dropdown-item"><a
+                                                            href="/resource-library/interviews">Interviews</a></li>
+                                            
+                                                <li data-target="issue-briefs" class="dropdown-item"><a
+                                                            href="/resource-library/issue-briefs">Issue Briefs</a></li>
+                                            
+                                                <li data-target="light-magazine-issues" class="dropdown-item"><a
+                                                            href="/resource-library/light-magazine-issues">Light Magazine Issues</a></li>
+                                            
+                                                <li data-target="media-appearances" class="dropdown-item"><a
+                                                            href="/resource-library/media-appearances">Media Appearances</a></li>
+                                            
+                                                <li data-target="panel-discussions" class="dropdown-item"><a
+                                                            href="/resource-library/panel-discussions">Panel Discussions</a></li>
+                                            
+                                                <li data-target="podcasts" class="dropdown-item"><a
+                                                            href="/resource-library/podcasts">Podcasts</a></li>
+                                            
+                                                <li data-target="policy-briefs" class="dropdown-item"><a
+                                                            href="/resource-library/policy-briefs">Policy Briefs</a></li>
+                                            
+                                                <li data-target="press-interviews" class="dropdown-item"><a
+                                                            href="/resource-library/press-interviews">Press Interviews</a></li>
+                                            
+                                                <li data-target="press-releases" class="dropdown-item"><a
+                                                            href="/resource-library/press-releases">Press Releases</a></li>
+                                            
+                                                <li data-target="products" class="dropdown-item"><a
+                                                            href="/resource-library/products">Products</a></li>
+                                            
+                                                <li data-target="statements" class="dropdown-item"><a
+                                                            href="/resource-library/statements">Statements</a></li>
+                                            
+                                                <li data-target="video-explainers" class="dropdown-item"><a
+                                                            href="/resource-library/video-explainers">Video Explainers</a></li>
+                                            
+                                                <li data-target="white-papers" class="dropdown-item"><a
+                                                            href="/resource-library/white-papers">White Papers</a></li>
+                                            
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown resources-menu-list all-resources">
+                                        <a id="dLabel" href="#" class=" nav-link dropdown-toggle"
+                                           data-toggle="dropdown" aria-haspopup="true"
+                                           aria-expanded="false">Sort By:</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown-item"><a class="nav-link "
+                                                                         href="/resource-library/recently-added">Recent</a></li>
+                                            <li class="dropdown-item"><a class="nav-link "
+                                                                         href="/resource-library/title-index">Title</a></li>
+                                            <li class="dropdown-item"><a class="nav-link "
+                                                                         href="/resource-library/topic-index">Topics</a></li>
+                                            <li class="dropdown-item"><a class="nav-link "
+                                                                         href="/resource-library/author-index">Author</a></li>
+                                            <li class="dropdown-item"><a class="nav-link "
+                                                                         href="/resource-library/date-index">Date</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                        <li class="nav-item dropdown resources-menu-list articles">
+                                            <a id="dLabel" href="#" class=" nav-link dropdown-toggle"
+                                               data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">Sort By:</a>
+                                            <ul class="dropdown-menu">
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/articles/recently-added">
+                                                            Recent</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/articles/by-title">
+                                                             Title</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/articles/by-author">
+                                                             Author</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/articles/by-date">
+                                                             Date</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/articles/by-topic">
+                                                             Topic</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/articles/by-series">
+                                                             Series</a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    
+                                        <li class="nav-item dropdown resources-menu-list book-reviews">
+                                            <a id="dLabel" href="#" class=" nav-link dropdown-toggle"
+                                               data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">Sort By:</a>
+                                            <ul class="dropdown-menu">
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/book-reviews/recently-added">
+                                                            Recent</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/book-reviews/by-title">
+                                                             Title</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/book-reviews/by-author">
+                                                             Author</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/book-reviews/by-topic">
+                                                             Topic</a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    
+                                        <li class="nav-item dropdown resources-menu-list bulletin-inserts">
+                                            <a id="dLabel" href="#" class=" nav-link dropdown-toggle"
+                                               data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">Sort By:</a>
+                                            <ul class="dropdown-menu">
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/bulletin-inserts/recently-added">
+                                                            Recent</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/bulletin-inserts/by-date">
+                                                             Date</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/bulletin-inserts/by-topic">
+                                                             Topic</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/bulletin-inserts/by-media-type">
+                                                             Media Type</a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    
+                                        <li class="nav-item dropdown resources-menu-list event-messages">
+                                            <a id="dLabel" href="#" class=" nav-link dropdown-toggle"
+                                               data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">Sort By:</a>
+                                            <ul class="dropdown-menu">
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/event-messages/by-conference">
+                                                             Conference</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/event-messages/recently-added">
+                                                            Recent</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/event-messages/by-author">
+                                                             Author</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/event-messages/by-topic">
+                                                             Topic</a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    
+                                        <li class="nav-item dropdown resources-menu-list forms">
+                                            <a id="dLabel" href="#" class=" nav-link dropdown-toggle"
+                                               data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">Sort By:</a>
+                                            <ul class="dropdown-menu">
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/forms/recently-added">
+                                                            Recent</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/forms/by-title">
+                                                             Title</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/forms/by-date">
+                                                             Date</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/forms/by-topic">
+                                                             Topic</a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    
+                                        <li class="nav-item dropdown resources-menu-list interviews">
+                                            <a id="dLabel" href="#" class=" nav-link dropdown-toggle"
+                                               data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">Sort By:</a>
+                                            <ul class="dropdown-menu">
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/interviews/recently-added">
+                                                            Recent</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/interviews/by-author">
+                                                             Author</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/interviews/by-date">
+                                                             Date</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/interviews/by-topic">
+                                                             Topic</a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    
+                                        <li class="nav-item dropdown resources-menu-list issue-briefs">
+                                            <a id="dLabel" href="#" class=" nav-link dropdown-toggle"
+                                               data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">Sort By:</a>
+                                            <ul class="dropdown-menu">
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/issue-briefs/recently-added">
+                                                            Recent</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/issue-briefs/by-author">
+                                                             Author</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/issue-briefs/by-date">
+                                                             Date</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/issue-briefs/by-topic">
+                                                             Topic</a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    
+                                        <li class="nav-item dropdown resources-menu-list light-magazine-issues">
+                                            <a id="dLabel" href="#" class=" nav-link dropdown-toggle"
+                                               data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">Sort By:</a>
+                                            <ul class="dropdown-menu">
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/light-magazine-issues/by-tag">
+                                                             Tag</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/light-magazine-issues/recently-added">
+                                                            Recent</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/light-magazine-issues/by-author">
+                                                             Author</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/light-magazine-issues/by-date">
+                                                             Date</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/light-magazine-issues/by-topic">
+                                                             Topic</a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    
+                                        <li class="nav-item dropdown resources-menu-list media-appearances">
+                                            <a id="dLabel" href="#" class=" nav-link dropdown-toggle"
+                                               data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">Sort By:</a>
+                                            <ul class="dropdown-menu">
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/media-appearances/recently-added">
+                                                            Recent</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/media-appearances/by-author">
+                                                             Author</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/media-appearances/by-date">
+                                                             Date</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/media-appearances/by-topic">
+                                                             Topic</a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    
+                                        <li class="nav-item dropdown resources-menu-list panel-discussions">
+                                            <a id="dLabel" href="#" class=" nav-link dropdown-toggle"
+                                               data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">Sort By:</a>
+                                            <ul class="dropdown-menu">
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/panel-discussions/recently-added">
+                                                            Recent</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/panel-discussions/by-author">
+                                                             Author</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/panel-discussions/by-date">
+                                                             Date</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/panel-discussions/by-topic">
+                                                             Topic</a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    
+                                        <li class="nav-item dropdown resources-menu-list podcasts">
+                                            <a id="dLabel" href="#" class=" nav-link dropdown-toggle"
+                                               data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">Sort By:</a>
+                                            <ul class="dropdown-menu">
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/podcasts/recently-added">
+                                                            Recent</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/podcasts/by-title">
+                                                             Title</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/podcasts/by-author">
+                                                             Author</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/podcasts/by-date">
+                                                             Date</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/podcasts/by-topic">
+                                                             Topic</a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    
+                                        <li class="nav-item dropdown resources-menu-list policy-briefs">
+                                            <a id="dLabel" href="#" class=" nav-link dropdown-toggle"
+                                               data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">Sort By:</a>
+                                            <ul class="dropdown-menu">
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/policy-briefs/recently-added">
+                                                            Recent</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/policy-briefs/by-title">
+                                                             Title</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/policy-briefs/by-author">
+                                                             Author</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/policy-briefs/by-topic">
+                                                             Topic</a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    
+                                        <li class="nav-item dropdown resources-menu-list press-interviews">
+                                            <a id="dLabel" href="#" class=" nav-link dropdown-toggle"
+                                               data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">Sort By:</a>
+                                            <ul class="dropdown-menu">
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/press-interviews/recently-added">
+                                                            Recent</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/press-interviews/by-author">
+                                                             Author</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/press-interviews/by-date">
+                                                             Date</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/press-interviews/by-topic">
+                                                             Topic</a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    
+                                        <li class="nav-item dropdown resources-menu-list press-releases">
+                                            <a id="dLabel" href="#" class=" nav-link dropdown-toggle"
+                                               data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">Sort By:</a>
+                                            <ul class="dropdown-menu">
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/press-releases/recently-added">
+                                                            Recent</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/press-releases/by-author">
+                                                             Author</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/press-releases/by-date">
+                                                             Date</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/press-releases/by-topic">
+                                                             Topic</a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    
+                                        <li class="nav-item dropdown resources-menu-list products">
+                                            <a id="dLabel" href="#" class=" nav-link dropdown-toggle"
+                                               data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">Sort By:</a>
+                                            <ul class="dropdown-menu">
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/products/recently-added">
+                                                            Recent</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/products/by-title">
+                                                             Title</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/products/by-author">
+                                                             Author</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/products/by-topic">
+                                                             Topic</a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    
+                                        <li class="nav-item dropdown resources-menu-list statements">
+                                            <a id="dLabel" href="#" class=" nav-link dropdown-toggle"
+                                               data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">Sort By:</a>
+                                            <ul class="dropdown-menu">
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/statements/recently-added">
+                                                            Recent</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/statements/by-date">
+                                                             Date</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/statements/by-topic">
+                                                             Topic</a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    
+                                        <li class="nav-item dropdown resources-menu-list video-explainers">
+                                            <a id="dLabel" href="#" class=" nav-link dropdown-toggle"
+                                               data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">Sort By:</a>
+                                            <ul class="dropdown-menu">
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/video-explainers/recently-added">
+                                                            Recent</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/video-explainers/by-author">
+                                                             Author</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/video-explainers/by-date">
+                                                             Date</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/video-explainers/by-topic">
+                                                             Topic</a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    
+                                        <li class="nav-item dropdown resources-menu-list white-papers">
+                                            <a id="dLabel" href="#" class=" nav-link dropdown-toggle"
+                                               data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">Sort By:</a>
+                                            <ul class="dropdown-menu">
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/white-papers/by-tag">
+                                                             Tag</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/white-papers/recently-added">
+                                                            Recent</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/white-papers/by-title">
+                                                             Title</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/white-papers/by-author">
+                                                             Author</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/white-papers/by-date">
+                                                             Date</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/white-papers/by-topic">
+                                                             Topic</a>
+                                                    </li>
+                                                
+                                                    <li class="dropdown-item">
+                                                        
+                                                        <a class="nav-link"
+                                                           href="/resource-library/white-papers/by-media-type">
+                                                             Media Type</a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    
+                                
+                            </ul>
+                        </div>
+                        <p class="center-block text-center"><a class="btn btn-lg btn-primary header-donate" href="/about/donate">Donate</a></p>
+                    </div><!--.container-->
+                </div>
+            </div>
+    </nav>
+</header>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+        
+            
+                
+                
+                
+                
+            
+        
+    
+    <article id="content" role="main">
+        <header class="article-header container-fluid">
+            
+                
+                
+                    
+                        <div class="banner" role="banner"
+                             style="background: url(//d1nwfrzxhi18dp.cloudfront.net/uploads/resource_library/library_entry/promo_image/1253/20160504_Image_Image.jpg) center center; background-size: cover;"></div>
+                    
+                
+            
+        </header>
+        <div class="container-fluid">
+            <div class="row text-center header-info-wrapper" style="position: relative;">
+                
+
+                <div class="card header-card">
+                    <span class="badge">Article</span>
+                    
+                        <h1>What does it mean to be made in God's image?</h1>
+                        
+                        <p class="byline">
+                            By David Closson</span></p>
+                        <p class="date"><span>May 4, 2016</span></p>
+                        <div class="red-ornament"></div>
+                    
+                </div>
+
+            </div>
+        </div>
+        <div class="article-body">
+            
+                <div class="addthis_toolbox">
+                    <div class="custom_images">
+                        <ul class="nav nav-pills share share-icons  hidden-xs hidden-sm">
+                            <li><a href="/resource-library/articles/what-does-it-mean-to-be-made-in-gods-image/print">
+                                    <i class="ion-android-print"></i>
+                                </a></li>
+                            <li><a class="addthis_button_facebook facebook">
+                                    <i class="ion-social-facebook"></i>
+                                </a></li>
+                            <li><a class="addthis_button_twitter twitter">
+                                    <i class="ion-social-twitter"></i>
+                                </a></li>
+                            <li><a class="addthis_button_linkedin linkedin">
+                                    <i class="ion-social-linkedin"></i>
+                                </a></li>
+                            <li><a class="addthis_button_email">
+                                    <i class="ion-email"></i>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            
+            <!-- if it's not a product, magazine or podcast -->
+                
+                <p>The Christian faith and worldview is predicated on a set of nonnegotiable truths. One of these is that human life is inherently valuable. Christians have articulated and acted upon this transcendent understanding of human dignity throughout history, whether opposing infanticide and child abandonment, fighting against chattel slavery or engaging in civil disobedience to protest segregation. The powerful idea that every single person has inherent value is rooted in the image of God, a doctrine expressed in the opening chapter of Genesis.</p>
+
+<p>Although &ldquo;image of God&rdquo; has become ubiquitous in Christian literature and conversation in recent years, it has not been robustly defined. Perhaps this is due to the lack of agreement throughout church history on what exactly constitutes image of God,&nbsp;which no doubt stems from the fact that Scripture declares but does not elaborate on the axiom in detail. &nbsp;</p>
+
+<p>But much can and should be said. The fact that human beings are created in God&rsquo;s image shapes the Christian worldview and affects how we see God, the world and one another. It informs how we understand the rest of the Bible&rsquo;s story and provides a theological foundation for ethics and engagement. In short, a proper understanding of the image of God should animate everything we do, and as a result, we should endeavor to define it biblically; this will enable us to then survey what issues Christians should care about.</p>
+
+<p><strong>Different understandings of the image of God</strong></p>
+
+<p>Throughout church history, there has been universal agreement that image of God&nbsp;is a significant theological concept. But debate has abounded regarding what the image fundamentally refers to. &nbsp;</p>
+
+<p>Some have argued in favor of a structural view that believes man&rsquo;s ontological (the nature of being) qualities, such as rationality and cognitive capacity, constitute the image of God. These qualities distinguish man from the rest of creation. Early church leaders, such as Irenaeus and Augustine, as well as John Calvin, held variants of this view.</p>
+
+<p>Another position is the relational view that stresses the importance of man&rsquo;s relationships. Emil Brunner and Karl Barth advocated this approach, where being made in God&rsquo;s image fundamentally entails living in relationship with God and others.</p>
+
+<p>A third view is the functional or &ldquo;vice-regency&rdquo; position that posits man&rsquo;s derivative authority to rule on behalf of God defines the image. Unlike the rest of creation, it is man that functions as God&rsquo;s chief representative in the world. This view stresses the command to exercise dominion (Gen. 1:26-28).</p>
+
+<p><strong>The image of God and Ancient Near Eastern culture</strong></p>
+
+<p>It is evident in Genesis 1 that the Bible is content with simply asserting that man is somehow like God. Further elaboration is not provided. Why is this? As Bruce Ware has noted, technical terminology in speaking or writing is usually introduced and not explained in contexts where the audience is already familiar with specialized language. It seems fair to assume Moses was operating with this expectation. Therefore, considering Genesis 1 in light of the Ancient Near Eastern (ANE) usage of image of God&nbsp;might be helpful.</p>
+
+<p>A seminal study on ANE images is David J.A. Clines&#39;&nbsp;<em>The Image of God in Man</em>. Clines argues that ANE literature contains three commonalities in accounts that utilize image symbolism. First, a deity imputes a substance to an earthly king, enabling him to represent the divine. Second, the empowered king represents the deity by ruling as vice-regent. Third, only the king is ever given this privilege.</p>
+
+<p>Applying this to Genesis, it is reasonable that Moses had this background in mind. First, God breathed into Adam the breath of life. Divine empowerment was requisite to function as God&rsquo;s image. Second, man is tasked with exercising dominion and ruling as God&rsquo;s vice-regent. Clines&#39; third characteristic, however, does not apply. The Bible surprises us at this point by affirming that everyone bears God&rsquo;s image. Clines&#39; reconstruction of the ANE background is helpful and may account for why Moses did not furnish a more precise definition. His original readers would have had a framework to interpret image language and its connotations. &nbsp;</p>
+
+<p>Through the lens of the ANE background, it is clear that certain aspects of the structural, relational and functional perspectives provide a holistic understanding of what it means to be made in the image of God&nbsp;(i.e., the structural serves the purpose of the functional carried out in relationship).</p>
+
+<p>The image of God, therefore, includes both who man is and what he does. Ontological capacities and functionality are inseparably tied because the human person as a created whole is the image of God.</p>
+
+<p>Man is like a statue erected by an ancient king&mdash;as the statue bore the image of the king and signified rulership, man bears God&rsquo;s image in the cosmic temple of the world, representing his authority and dominion. Man is the visible representation of the invisible God. If one wants to know what God looks like, simply look at man, the crowning jewel of creation and the only creature made in God&rsquo;s image and likeness.</p>
+
+<p><strong>The image of God and cultural engagement</strong></p>
+
+<p>One of the tragic results of sin is that man no longer properly images God; the remnants of the image have been marred. The relationship with our Creator is broken, and redemptive history bears witness to man&rsquo;s inability to obey and honor God.</p>
+
+<p>But the glorious truth of the New Testament is that restoration is possible through Christ, the perfect image of God (Col. 1:15), whose redeeming work restores the image to repentant sinners and establishes them as co-heirs with Christ. &nbsp;</p>
+
+<p>In this light, the Biblical understanding of man&rsquo;s creation in God&rsquo;s image has stunning implications for Christian ethics. Not only is everyone created in God&rsquo;s image, but every human being is a potential future ruler of the universe.</p>
+
+<p>C.S. Lewis poignantly remarked: &ldquo;It is a serious thing . . . to remember that the dullest and most uninteresting person you talk to may one day be a creature which, if you saw it now, you would be strongly tempted to worship.&rdquo;</p>
+
+<p>In the new creation, God will once again set up his image bearers. But this time, God&rsquo;s vice-regents will be perfect because of their union with Christ. Paradoxically, the new creation has already begun. It was inaugurated when Jesus was raised from the dead and will be consummated when he returns.</p>
+
+<p>And as Christians waiting patiently for this day, we will endeavor to treat people made in God&rsquo;s image with dignity and respect irrespective of gender, race, age, nationality or economic status because we remember our King&rsquo;s words that as we did for &ldquo;the least of these my brothers, you did also to me&rdquo; (Matt. 25:40).</p>
+
+<p>Thus, we will care for those caught in the vice grip of poverty. We will fight against human trafficking. We will uphold the dignity of the elderly and disabled. We will advocate on behalf of immigrants. We will work for religious liberty and conscience freedom. We will stand for marriage. We will promote racial reconciliation. And we will fight the culture of death in all its ugly forms.</p>
+
+<p>We will do all this out of love for God and concern for those that bear his sacred image.</p>
+
+<p><em>Join us on January 18&ndash;20, 2018, &nbsp;for Evangelicals for Life 2018. Keep an eye out <a href="http://erlc.com/events">here</a> for more information.&nbsp;</em></p>
+
+                
+                
+                
+                
+            
+            
+                
+                    
+                        <div class="author-blurb container">
+                            <div class="row">
+                                
+                                    <div class="col-sm-2">
+                                        <img class="img-responsive"
+                                             src="https://dncqdsevn7j5.cloudfront.net/images/dynamic/W1siZnUiLCJodHRwczovL2Qxbndmcnp4aGkxOGRwLmNsb3VkZnJvbnQubmV0L3VwbG9hZHMvcmVzb3VyY2VfbGlicmFyeS9ncm91cGluZy9wcm9tb19pbWFnZS8xMzMxL0RhdmlkX0Nsb3Nzb24uanBnIl0sWyJwIiwidGh1bWIiLCIxMDB4MTAwIl1d/David_Closson.jpg?sha=73eb521873756571"/>
+                                    </div>
+                                
+                                <div class="col-sm-10">
+                                    
+                                    
+                                    <h4>David Closson</h4>
+                                    
+                                        <p class="excerpt">
+                                        
+
+
+
+
+
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+
+    
+      
+                    
+                      David Closson is a&nbsp;student pursuing his Ph. D at&nbsp;SBTS. He works as a research assistant for the ERLC&nbsp;and is currently a leader&nbsp;to the&nbsp;israel journey program.
+
+                    
+                  
+    
+  
+
+                                     <a href="/resource-library/author-index/david-closson">Read
+                                                More</a></p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+                
+            
+        </div>
+    </article>
+    
+    
+    
+    <div class="related-resources home-cards">
+        <h2 class="topic">Related Resources</h2>
+        <div class="card-small-wrapper">
+            
+            
+            
+            
+                
+
+                    <div class="card-small topic-related resource-0  "
+                            
+                        style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(https://dncqdsevn7j5.cloudfront.net/images/dynamic/W1siZnUiLCJodHRwczovL2Qxbndmcnp4aGkxOGRwLmNsb3VkZnJvbnQubmV0L3VwbG9hZHMvcmVzb3VyY2VfbGlicmFyeS9saWJyYXJ5X2VudHJ5L3Byb21vX2ltYWdlLzQxODMvR2V0dHlJbWFnZXMtOTA1ODM3MjMyLmpwZyJdLFsicCIsInRodW1iIiwiNDAweCJdXQ/GettyImages-905837232.jpg?sha=066fb37fba834566);
+                                background-position: center center;
+                                background-size: cover;" >
+                        <div class="badge">Sanctity of Life</div>
+                        <div class="card-text">
+                            <h3><a href="/resource-library/articles/how-pregnancy-resource-centers-empower-moms-to-choose-life">How pregnancy resource centers empower moms to choose life</a></h3>
+                            <p class="byline">By <span
+                                        class="author">Eric Mayo</span>
+                            </p>
+                        </div>
+                    </div>
+                    
+                
+            
+            
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                        <div class="card-small author-related resource-1  "
+                                                
+                                            style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(https://dncqdsevn7j5.cloudfront.net/images/dynamic/W1siZnUiLCJodHRwczovL2Qxbndmcnp4aGkxOGRwLmNsb3VkZnJvbnQubmV0L3VwbG9hZHMvcmVzb3VyY2VfbGlicmFyeS9saWJyYXJ5X2VudHJ5L3Byb21vX2ltYWdlLzI4NTUvR2V0dHlJbWFnZXMtNTg2MjA2MTY2LmpwZyJdLFsicCIsInRodW1iIiwiNDAweCJdXQ/GettyImages-586206166.jpg?sha=4bf34ba4a368bf67);
+                                                    background-position: center center;
+                                                    background-size: cover;" >
+                                            <div class="badge">Human Dignity</div>
+                                            <div class="card-text">
+                                                <h3><a href="/resource-library/articles/what-human-dignity-has-to-do-with-criminal-justice-reform">What human dignity has to do with criminal justice reform</a></h3>
+                                                <p class="byline">By <span
+                                                            class="author">David Closson</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        
+                                    
+                                
+                            
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                        <div class="card-small author-related resource-2 read-more-hidden "
+                                                
+                                            style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(https://dncqdsevn7j5.cloudfront.net/images/dynamic/W1siZnUiLCJodHRwczovL2Qxbndmcnp4aGkxOGRwLmNsb3VkZnJvbnQubmV0L3VwbG9hZHMvcmVzb3VyY2VfbGlicmFyeS9saWJyYXJ5X2VudHJ5L3Byb21vX2ltYWdlLzgyMy8yMDE1MDgwNF9Qb2xpdGljc19JbWFnZS5qcGciXSxbInAiLCJ0aHVtYiIsIjQwMHgiXV0/20150804_Politics_Image.jpg?sha=fa2b03f0b364aa76);
+                                                    background-position: center center;
+                                                    background-size: cover;" >
+                                            <div class="badge">Politics</div>
+                                            <div class="card-text">
+                                                <h3><a href="/resource-library/articles/4-reasons-christians-should-care-about-politics">4 reasons Christians should care about politics</a></h3>
+                                                <p class="byline">By <span
+                                                            class="author">David Closson</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        
+                                    
+                                
+                            
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                
+                            
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                            
+                        
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                        
+                                            <div class="card-small resource-3 read-more-hidden hidden-md hidden-lg"
+                                                    
+                                                style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(https://dncqdsevn7j5.cloudfront.net/images/dynamic/W1siZnUiLCJodHRwczovL2Qxbndmcnp4aGkxOGRwLmNsb3VkZnJvbnQubmV0L3VwbG9hZHMvcmVzb3VyY2VfbGlicmFyeS9saWJyYXJ5X2VudHJ5L3Byb21vX2ltYWdlLzM5MzQvUkRNX2FuZF9HZXR0eXMuanBnIl0sWyJwIiwidGh1bWIiLCI0MDB4Il1d/RDM_and_Gettys.jpg?sha=3703f8ac30db75f1);
+                                                        background-position: center center;
+                                                        background-size: cover;" >
+                                                <div class="badge">Sanctity of Life</div>
+                                                <div class="card-text">
+                                                    <h3><a href="/resource-library/event-messages/pro-life-activism-in-ireland-an-interview-with-keith-and-kristyn-getty">Pro-Life Activism in Ireland: An Interview with Keith and Kristyn Getty</a></h3>
+                                                    <p class="byline">By <span
+                                                                class="author">Russell Moore and Keith and Kristyn Getty</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            
+                                        
+                                    
+                                
+                            
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                        
+                                    
+                                
+                            
+                        
+                    
+                
+            
+        </div>
+        
+            <div class="read-more-button-container hidden-md hidden-lg text-center" style="margin-bottom: 2rem;">
+                <a class="btn btn-default" href="#">Show More</a>
+            </div>
+        
+    </div>
+
+
+
+
+
+    
+        <div class="section-footer">
+            <div class="container">
+                <ul class="breadcrumb-list">
+                    
+                        
+                            
+                                <li><a href="/">Home</a>
+                                    <i class="ion-chevron-right"> </i></li>
+                            
+                        
+                            
+                                <li><a href="/resource-library">Resource Library</a>
+                                    <i class="ion-chevron-right"> </i></li>
+                            
+                        
+                            
+                                <li><a href="/resource-library/articles">Articles</a>
+                                    <i class="ion-chevron-right"> </i></li>
+                            
+                        
+                            
+                                <li>What does it mean to be made in God's image?</li>
+                            
+                        
+                        
+                </ul>
+            </div>
+        </div>
+    
+    <!-- Global Footer -->
+    <footer class="site-footer" role="complementary">
+        <div class="container">
+            <div class="row">
+                <div class="container footer-container text-center">
+                    <div class="col-sm-4">
+                        <div class="footer-module">
+                            <h2>Initiatives</h2>
+                            <!-- <a href="http://www.erlc.com/network"><img class="logo-init" src="/img/LN.png"></a>
+                            <a href="http://www.canonandculture.com/"><img class="logo-init" src="/img/CandC-Footer-Logo.png"></a>
+                            <a href="http://www.globalhungerrelief.com/"><img class="logo-init" src="/img/ghr.png"></a>
+                            <a href="http://psalm139project.org/"><img class="logo-init" src="/img/Psalm139-Logo.png"></a> -->
+                            <ul class="list-unstyled">
+                                <li><a href="https://www.standforlife.org/" target="_blank">Stand for Life</a></li>
+                                <li><a href="http://psalm139project.org/"  target="_blank">Psalm 139 Project</a></li>
+                                <li><a href="http://www.globalhungerrelief.com/" target="_blank">Global Hunger Relief</a></li>
+                                <li><a href="https://erlc.com/initiatives/research-institute" target="_blank">Research Institute</a></li>
+
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+
+                        <h2>Nashville</h2>
+                        <p>901 Commerce Street, Suite 550
+                            <br>Nashville, Tennessee 37203
+                            <br>Phone: (615) 244-2495
+                            <br>Fax: (615) 242-0065</p>
+
+                        <!-- <h4>Press</h4>
+                        <p>Elizabeth Bristow
+                        <br>press@erlc.com
+                        <br>Phone: (202) 547-0209</p> -->
+
+                    </div>
+                    <div class="col-sm-4">
+                        <!-- <a href="http://erlc.com/"><img src="/img/erlc-footerlogo2015.png" class="logo-erlc-footer logo-white" alt="" style="max-width: 100%;"></a> -->
+                        <h2>Washington</h2>
+                        <p>505 Second St., N.E.
+                            <br>Washington, DC 20002
+                            <br>Phone: (202) 547-8105
+                            <br>Fax: (202) 547-8165</p>
+                    </div>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://twitter.com/ERLC" class="social twitter"><i class="ion-social-twitter"></i></a>
+                <a href="https://www.facebook.com/erlcsbc" class="social facebook"><i
+                            class="ion-social-facebook"></i></a>
+                <a href="http://instagram.com/erlcsbc" class="social instagram"><i class="ion-social-instagram"></i></a>
+                <a href="https://vimeo.com/erlc" class="social vimeo"><i class="ion-social-vimeo"></i></a>
+                <a href="https://www.youtube.com/channel/UCutFChK6m2a_8PFcLIu_g_w" class="social youtube"><i
+                            class="ion-social-youtube"></i></a>
+            </div>
+            <div class="legal">
+                ERLC &copy; 2019, All rights reserved. Site by <a href="http://mereagency.com">Mere.</a> <a
+                        href="/disclaimer">Disclaimer on links.</a>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="//d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/javascripts/jquery-1.11.1.min.js?92a4a1753d4c2db5f10ead3396ad7999" type="text/javascript" ></script>
+
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-572cd34739a0d617"></script>
+
+
+
+
+
+    
+    <script src="//d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/javascripts/bootstrap.min.js?606755099aa6496e803c30af3a37ea7b" type="text/javascript" ></script>
+
+<script src="//d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/javascripts/bootstrap-hover-dropdown.min.js?0f2ab49c7dfce82f32539d4e93f2b7f7" type="text/javascript" ></script>
+<script src="//d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/javascripts/js-cookie.js?e5c0cd0b7db07be431e26714a3aea473" type="text/javascript" ></script>
+
+
+<script>
+    $('.navbar-beta .navbar-toggle').on('click', function (e) {
+        e.preventDefault();
+        console.log('toggled.');
+        $('body').toggleClass('toggleOpen');
+        $('.site-header-beta').first().toggleClass('toggleOpen');
+        $('#mainNav').first().toggleClass('in');
+        $('.hamburger').first().toggleClass('is-active');
+        setTimeout(function () {
+            $('#search-box').focus();
+        }, 500);
+    });
+    $('#menuClose').on('click', function (e) {
+        e.preventDefault();
+        $('body').removeClass('toggleOpen');
+        $('.hamburger').first().toggleClass('is-active');
+        $('.navbar-collapse').removeClass('in');
+    });
+    $(document).ready(function () {
+
+        //Change ul of groupings in menu based on the category selected in the dropdown
+
+        var $selectBox = $(document).find('.all-resources-select'),
+            $navSelectBox = $('.resource-library-nav').find('.all-resources-select'),
+            $navList = $('.resource-library-nav').find('.resources-menu-list'),
+            $localBox = $('.resource-library-nav').find('.all-resources-select'),
+            $localList = $('.resource-library-nav').find('.resources-menu-list');
+
+        $localList.each(function () {
+            var $selectedOption = $localBox.find('.selected').first().data('target');
+            console.log('selected LocalBox target: ' + $selectedOption);
+            var $this = $(this);
+
+            $this.removeClass('visible');
+
+            if ($this.hasClass($selectedOption)) {
+                $this.addClass('visible');
+            }
+
+            if ($selectedOption == 'all') {
+                $('.resource-library-nav .all-resources').addClass('visible');
+            }
+        });
+
+        $selectBox.find('.dropdown-item').on('click', function (event) {
+            event.preventDefault();
+            var $targetOption = $(this).data('target'),
+                $thisText = $(this).text();
+            $('#dLabel').text($thisText);
+            $navList.removeClass('visible');
+            $navList.each(function () {
+                $this = $(this);
+                if ($this.hasClass($targetOption)) {
+                    $this.addClass('visible');
+                }
+            });
+        });
+
+        //cookie to hide banner for certain amount of time
+        if (typeof Cookies.get('banner') === 'undefined') {
+            console.log('theres no cookie.');
+            $('#banner').css('display', 'block');
+        };
+
+        $('#banner-close').on('click', function(e) {
+            e.preventDefault();
+            $('#banner').css('display', 'none');
+            Cookies.set('banner', 'hidden', { expires: 1 });
+
+        });
+    });
+
+    // Select all links with hashes
+    $('a[href*="#"]')
+    // Remove links that don't actually link to anything
+        .not('[href="#"]')
+        .not('[href="#0"]')
+        .click(function (event) {
+            // On-page links
+            console.log('triggered.');
+            if (
+                location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                &&
+                location.hostname == this.hostname
+            ) {
+                // Figure out element to scroll to
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                // Does a scroll target exist?
+                if (target.length) {
+                    // Only prevent default if animation is actually gonna happen
+                    event.preventDefault();
+                    $('html, body').animate({
+                        scrollTop: target.offset().top - 75
+                    }, 1000, function () {
+                        // Callback after animation
+                        // Must change focus!
+
+                    });
+                }
+            }
+        });
+</script>
+<script src="//d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/javascripts/video.min.js?52fbedc93f2c2fc963ae94e00b263c30" type="text/javascript" ></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    
+    
+    
+    
+    
+    
+    ga('create', 'UA-321491-1', 'auto', {'allowLinker': true});
+    ga('require', 'linker');
+    ga('linker:autoLink', ['eventbrite.com']);
+    ga('send', 'pageview', {
+        'dimension1': 'sanctity-of-life',
+        'dimension2': 'David Closson'
+    });
+</script>
+
+
+    <!-- FOXYCART -->
+    <script src="//cdn.foxycart.com/erlc/loader.js" async defer></script>
+    <!-- /FOXYCART -->
+
+
+
+<script>
+    $(document).on('ready', function () {
+        if ($(".pull-quote").length) {
+            $(".pull-quote").each(function () {
+                var tweet = $(this).find('p').text(),
+                    url = $(this).find('a.twitterfy').attr('href');
+                if (tweet.length > 116) tweet = tweet.substring(0, 116);
+                tweet += '...';
+                tweet += ' https://erlc.com/resource-library/articles/what-does-it-mean-to-be-made-in-gods-image';
+                url = url.replace('twitterfy', tweet);
+                $(this).find('a.twitterfy').attr('href', url);
+            });
+        }
+
+        $(".addthis_button_facebook").on("click", function () {
+            console.log('clicked fb quote share.');
+            ga('send', 'event', 'quote_share', 'facebook_quote_share', 'https://erlc.com/resource-library/articles/what-does-it-mean-to-be-made-in-gods-image', {transport: 'beacon'});
+            return;
+        });
+        $(".twitterfy").on("click", function () {
+            console.log('clicked twitter quote share.');
+            ga('send', 'event', 'quote_share', 'twitter_quote_share', 'https://erlc.com/resource-library/articles/what-does-it-mean-to-be-made-in-gods-image', {transport: 'beacon'});
+            return;
+        });
+    });
+</script>
+<!-- Book Review Widget -->
+
+
+
+    
+        <script>
+            // Inject Signup Widget after 3 paragraphs (.article-body 3rd p)
+            $signupMarkup = `
+	<div class="signup-widget clearfix">
+		<div class="signup-cta-container row">
+    		<div class="col-sm-7 text-col">
+    		    <div class="signup-icon hidden-xs hidden-sm">
+		            <img src="//d1nwfrzxhi18dp.cloudfront.net/sites/568acb9172bf4aa9c4000006/theme/images/envelope-copy-2.png" />
+		        </div>
+                <h3>Receive human dignity and pro-life content in your inbox each week
+</h3>
+                <span class="list-description">Sign up for ERLC Highlights</span>
+            </div>
+            <div class="col-sm-5 button-col">
+                <a class="btn btn-primary btn-lg" id="signup-trigger" href="#" target="_blank" rel="noopener">Sign Up</a>
+            </div>
+  		</div>
+  		<div class="row signup-form-wrapper">
+            <form class="col-sm-12 signup-widget-form" action="https://erlc.createsend.com/t/r/s/ulujtyh/" method="post" id="subForm">
+                <div class="form-group form-first-name col-sm-6">
+                    <label for="fielddrulllty">First Name</label><br />
+                    <input class="form-control" id="fielddrulllty" name="cm-f-drulllty" type="text" required />
+                </div>
+              <div class="form-group form-last-name col-sm-6">
+                <label for="fielddrullltj">Last Name</label><br />
+                <input class="form-control" id="fielddrullltj" name="cm-f-drullltj" type="text" required />
+              </div>
+                <div class="form-group form-email">
+                    <label for="fieldEmail">Email</label><br />
+                    <input class="form-control" id="fieldEmail" name="cm-ulujtyh-ulujtyh" type="email" required />
+                </div>
+              <input id="fielddrulllti-3" name="cm-fo-drulllti" value="9249001" type="hidden" checked />
+                <div class="form-group signup-button-group">
+                    <button id="signup-submit" class="btn btn-primary btn-lg" type="submit">Subscribe</button>
+                </div>
+            </form>
+  		</div>
+  	</div>`;
+            $('.article-body > p:nth-of-type(3)').after($signupMarkup);
+            //$('.signup-widget').after($formMarkup);
+            $(document).on('click', '#signup-trigger', function (e) {
+                e.preventDefault();
+                $('.signup-widget-form').slideToggle(250, 'swing', function () {
+                    if ($('.signup-widget-form').is(':hidden')) {
+                        $('#signup-trigger').text('Sign Up');
+                    } else {
+                        $('#signup-trigger').text('Close');
+                    }
+                });
+            });
+            $(document).on('submit', '#subForm.signup-widget-form', function (e) {
+                e.preventDefault();
+                console.log('signup widget form submitted.');
+                $.getJSON(
+                    this.action + "?callback=?",
+                    $(this).serialize(),
+                    function (data) {
+                        if (data.Status === 400) {
+                            $('#subForm').text("Error: " + data.Message);
+                        } else { // 200
+                            $('#subForm').text("Thank you. Your subscription is confirmed.");
+                        }
+                    });
+            });
+
+        </script>
+    
+
+<script>
+    $('.read-more-button-container').each(function () {
+        var $this = $(this);
+        var $thisButton = $this.find('a').first();
+        var $thisCardWrapper = $this.prev('.card-small-wrapper');
+        var $thisCards = $thisCardWrapper.find('.read-more-hidden');
+
+        $thisButton.on('click', function (e) {
+            e.preventDefault();
+
+            if ($thisButton.hasClass('showing')) {
+                $thisCards.slideUp();
+                $thisButton.text('Show More');
+                $thisButton.removeClass('showing');
+            } else {
+                $thisCards.slideDown({
+                    start: function () {
+                        $(this).css({
+                            display: "flex"
+                        })
+                    }
+                });
+                $thisButton.text('Show Fewer');
+                $thisButton.addClass('showing');
+            }
+        });
+    });
+
+    $('document').ready(function () {
+        $('p[style*="margin-left: 80px;"]').each(function () {
+            $(this).css('padding-left', '40px');
+        });
+        $('p[style*="margin-left: 40px;"]').each(function () {
+            $(this).css('padding-left', '20px');
+        })
+    });
+</script>
+
+</body>
+
+</html>

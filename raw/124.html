@@ -1,0 +1,1287 @@
+
+<!doctype html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5KTZ7H');</script>
+
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta class="foundation-mq">
+<link rel="shortcut icon" type="image/x-icon" href="https://draxe.com/wp-content/themes/mat_draxe/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="https://draxe.com/wp-content/themes/mat_draxe/assets/icons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://draxe.com/wp-content/themes/mat_draxe/assets/icons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://draxe.com/wp-content/themes/mat_draxe/assets/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://draxe.com/wp-content/themes/mat_draxe/assets/icons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://draxe.com/wp-content/themes/mat_draxe/assets/icons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://draxe.com/wp-content/themes/mat_draxe/assets/icons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://draxe.com/wp-content/themes/mat_draxe/assets/icons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://draxe.com/wp-content/themes/mat_draxe/assets/icons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://draxe.com/wp-content/themes/mat_draxe/assets/icons/apple-touch-icon-180x180.png">
+<meta name="msapplication-square70x70logo" content="https://draxe.com/wp-content/themes/mat_draxe/assets/icons/smalltile.png" />
+<meta name="msapplication-square150x150logo" content="https://draxe.com/wp-content/themes/mat_draxe/assets/icons/mediumtile.png" />
+<meta name="msapplication-wide310x150logo" content="https://draxe.com/wp-content/themes/mat_draxe/assets/icons/widetile.png" />
+<meta name="msapplication-square310x310logo" content="https://draxe.com/wp-content/themes/mat_draxe/images/icons/largetile.png" />
+<link rel="pingback" href="https://draxe.com/xmlrpc.php">
+<title>Natural Birth Control Methods: Which Really Work? - Dr. Axe</title>
+<script>
+        var WPAS_Ajax = {"ajaxurl":"\/wp-admin\/admin-ajax.php"};
+    </script>
+
+<meta name="description" content="Birth control pills come with a disturbing list of possible side effects, prompting women to search for natural birth control methods that are reliable." />
+<link rel="canonical" href="https://draxe.com/natural-birth-control/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="This hormone-free, natural birth control method used in Europe for 30 years has a 99.3 percent premium accuracy rate" />
+<meta property="og:description" content="No, it&#039;s not the calendar method, condoms or other natural birth control you&#039;ve heard about." />
+<meta property="og:url" content="https://draxe.com/natural-birth-control/" />
+<meta property="og:site_name" content="Dr. Axe" />
+<meta property="article:publisher" content="https://www.facebook.com/DrJoshAxe" />
+<meta property="article:tag" content="does rhythm method work" />
+<meta property="article:tag" content="natural birth control methods" />
+<meta property="article:tag" content="rhythm method" />
+<meta property="article:section" content="Pregnancy" />
+<meta property="og:image" content="https://draxe.com/wp-content/uploads/2016/12/BCNLMeme.jpg" />
+<meta property="og:image:secure_url" content="https://draxe.com/wp-content/uploads/2016/12/BCNLMeme.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Natural birth control - Dr. Axe" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Birth control pills come with a disturbing list of possible side effects, prompting women to search for natural birth control methods that are reliable." />
+<meta name="twitter:title" content="Natural Birth Control Methods: Which Really Work? - Dr. Axe" />
+<meta name="twitter:image" content="https://draxe.com/wp-content/uploads/2016/12/BCNLMeme.jpg" />
+<script type='application/ld+json'>{"@context":"https://schema.org","@type":"Organization","url":"https://draxe.com/","sameAs":["https://www.facebook.com/DrJoshAxe","https://www.instagram.com/drjoshaxe/","https://www.youtube.com/user/doctorjoshaxe","https://www.pinterest.com/draxe/"],"@id":"https://draxe.com/#organization","name":"Dr. Axe","logo":"https://draxe.com/wp-content/uploads/2015/04/dr_axe_logo-small-horiz-blue.jpg"}</script>
+
+<link rel='dns-prefetch' href='//draxe.com' />
+<link rel="alternate" type="application/rss+xml" title="Dr. Axe &raquo; Feed" href="https://draxe.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Dr. Axe &raquo; Comments Feed" href="https://draxe.com/comments/feed/" />
+<link rel='stylesheet' id='jpibfi-style-css' href='https://draxe.com/wp-content/plugins/jquery-pin-it-button-for-images/css/client.css?ver=3.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='site-css-css' href='https://draxe.com/wp-content/themes/mat_draxe/styles/style.css?ver=1559868153' type='text/css' media='all' />
+<script type='text/javascript' src='https://draxe.com/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='https://draxe.com/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpimagelazyload_settings = {"wpimagelazyloadsetting_skipiframe":"true","wpimagelazyloadsetting_skipparent":"","wpimagelazyloadsetting_skipallparent":"","wpimagelazyloadsetting_skipvideo":"false","wpimagelazyloadsetting_loadonposition":"0","wpimagelazyloadsetting_importantvc":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://draxe.com/wp-content/plugins/wp-image-lazy-load/image_lazy_load.js'></script>
+<script type='text/javascript' src='https://draxe.com/wp-content/themes/mat_draxe/wpas/js/scripts.js'></script>
+<link rel='https://api.w.org/' href='https://draxe.com/wp-json/' />
+<link rel='shortlink' href='https://draxe.com/?p=62142' />
+<link rel="alternate" type="application/json+oembed" href="https://draxe.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdraxe.com%2Fnatural-birth-control%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://draxe.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdraxe.com%2Fnatural-birth-control%2F&#038;format=xml" />
+
+<style type="text/css" media="screen">
+	.g { margin:0px; padding:0px; overflow:hidden; line-height:1; zoom:1; }
+	.g img { height:auto; }
+	.g-col { position:relative; float:left; }
+	.g-col:first-child { margin-left: 0; }
+	.g-col:last-child { margin-right: 0; }
+	@media only screen and (max-width: 480px) {
+		.g-col, .g-dyn, .g-single { width:100%; margin-left:0; margin-right:0; }
+	}
+</style>
+
+<meta property="fb:pages" content="79979911177" />
+<style type="text/css">
+	a.pinit-button.custom span {
+		}
+
+	.pinit-hover {
+		opacity: 0.5 !important;
+		filter: alpha(opacity=50) !important;
+	}
+	a.pinit-button {
+	border-bottom: 0 !important;
+	box-shadow: none !important;
+	margin-bottom: 0 !important;
+}
+a.pinit-button::after {
+    display: none;
+}</style>
+<script type="text/javascript"><!--
+function powerpress_pinw(pinw_url){window.open(pinw_url, 'PowerPressPlayer','toolbar=0,status=0,resizable=1,width=460,height=320');	return false;}
+//-->
+</script>
+<head>
+<meta name="msvalidate.01" content="F27CFD120113E09A235E9290D03BB40D" />
+</head>
+
+<script type="text/javascript">
+
+					var sampling_active = 1;
+					var sampling_rate   = 75;
+					var do_request = false;
+
+					if ( !sampling_active ) {
+						do_request = true;
+					} else {
+						var num = Math.floor(Math.random() * sampling_rate) + 1;
+						do_request = ( 1 === num );
+					}
+
+					if ( do_request ) {
+
+						/* Create XMLHttpRequest object and set variables */
+						var xhr = ( window.XMLHttpRequest )
+						  ? new XMLHttpRequest()
+						  : new ActiveXObject( "Microsoft.XMLHTTP" ),
+						url = 'https://draxe.com/wp-admin/admin-ajax.php',
+						params = 'action=update_views_ajax&token=d1c232f174&wpp_id=62142';
+						/* Set request method and target URL */
+						xhr.open( "POST", url, true );
+						/* Set request header */
+						xhr.setRequestHeader( "Content-type", "application/x-www-form-urlencoded" );
+						/* Hook into onreadystatechange */
+						xhr.onreadystatechange = function() {
+							if ( 4 === xhr.readyState && 200 === xhr.status ) {
+								if ( window.console && window.console.log ) {
+									window.console.log( xhr.responseText );
+								}
+							}
+						};
+						/* Send request */
+						xhr.send( params );
+
+					}
+
+				</script>
+
+<script type='text/javascript' src='https://draxe.com/wp-includes/js/tw-sack.min.js'></script>
+<meta property="marketing-tag" content="Herbs &amp; Spices" />
+<meta property="product-tag" content="Herbs &amp; Mushrooms" />
+<style type="text/css" id="wp-custom-css">
+			.postid-129770 div.ads {display:none;}		</style>
+
+<script>
+	(function(d) {
+	    var e = d.createElement('script');
+	    e.src = d.location.protocol + '//tag.bounceexchange.com/1554/i.js';
+	    e.async = true;
+	    d.getElementsByTagName("head")[0].appendChild(e);
+	}(document));
+	</script>
+
+</head>
+<body class="mat_health-template-default single single-mat_health postid-62142 dwpb-cover-page dwpb-allow-close section-blue-lt">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KTZ7H"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div id="fb-root"></div>
+<script id="facebook-jssdk" src="//connect.facebook.net/en_US/all.js#xfbml=1&appId=207830892699304" async></script>
+
+<header class="header" role="banner">
+<div class="header-top-container-wide show-for-large">
+<div class="row">
+<div class="logo columns medium-3 large-4">
+<a href="https://draxe.com" class="site-icon axe-logo">
+<span class="show-for-sr">Dr. Axe</span>
+</a>
+</div>
+<div class="columns medium-5 large-4">
+<form role="search" method="get" class="search-form" action="https://draxe.com" id="primary-search-form-input">
+<div class="input-group">
+<label>
+<span class="input-group-label screen-reader-text show-for-sr">Search for:</span>
+<input type="search" class="search-field input-group-field" placeholder="Search for Articles, Recipes, & More..." value="" name="s" title="Search for Articles, Recipes, & More... " id="primary-search-form-input">
+</label>
+<div class="input-group-button">
+<button class="search-submit button">
+<span class="site-icon search-icon"></span>
+</button>
+</div>
+</div>
+</form> </div>
+<div class="columns medium-4 large-4">
+<div class="social-links text-right">
+<a href="/about-dr-josh-axe/" class="about-link">About Dr. Axe</a><br class="show-for-medium-only">
+</div>
+
+</div>
+</div>
+</div>
+<div class="header-top-container-narrow hide-for-large">
+<div class="row">
+<div class="logo columns small-6">
+<a href="https://draxe.com" class="site-icon axe-logo">
+<span class="show-for-sr">Dr. Axe</span>
+</a>
+</div>
+<div class="columns small-6 text-right">
+<a class="site-icon search-icon" aria-hidden="true" data-toggle="mobile_search_container"></a>
+<button id="main-menu-toggle" class="menu-icon" type="button" data-toggle="main_nav_container"></button>
+</div>
+</div>
+</div>
+<div id="mobile_search_container" class="mobile-search" data-toggler="open">
+<div class="row">
+<div class="columns small-12">
+<form role="search" method="get" class="search-form" action="/">
+<div class="input-group">
+<label>
+<span class="input-group-label screen-reader-text show-for-sr">Search for:</span>
+<input type="search" class="search-field input-group-field" placeholder="Search for Articles, Recipes, & More..." value="" name="s" title="Search for Articles, Recipes, & More... ">
+</label>
+</div>
+</form>
+</div>
+</div>
+</div>
+<div id="main_nav_container" class="main-nav-container" data-toggler="open">
+<div id="main-nav" class="row small-collapse large-uncollapse">
+<div class="column small-12 nav-holder">
+<ul id="menu-main" class="joints-top-nav vertical large-horizontal menu" data-responsive-menu="accordion large-dropdown" data-multi-open><li id="menu-item-79656" class="blue-lt is-dropdown-submenu-parent health menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-79656"><a href="https://draxe.com/section/health/">Health</a>
+<ul class="menu vertical" data-responsive-menu="accordion large-dropdown">
+<li id="menu-item-126680" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-126680"><a href="https://draxe.com/health-category/allergies/">Allergies</a></li>
+<li id="menu-item-126681" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-126681"><a href="https://draxe.com/health-category/brain-health/">Brain Health</a></li>
+<li id="menu-item-126682" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-126682"><a href="https://draxe.com/health-category/cancer/">Cancer</a></li>
+<li id="menu-item-126683" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-126683"><a href="https://draxe.com/health-category/childrens-health/">Children’s Health</a></li>
+<li id="menu-item-126684" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-126684"><a href="https://draxe.com/health-category/diabetes/">Diabetes</a></li>
+<li id="menu-item-126685" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-126685"><a href="https://draxe.com/health-category/gut-health/">Gut Health</a></li>
+<li id="menu-item-126686" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-126686"><a href="https://draxe.com/health-category/heart-health/">Heart Health</a></li>
+<li id="menu-item-126687" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-126687"><a href="https://draxe.com/health-category/hormones/">Hormones</a></li>
+<li id="menu-item-126688" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-126688"><a href="https://draxe.com/health-category/mental-health/">Mental Health</a></li>
+<li id="menu-item-126689" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-126689"><a href="https://draxe.com/health-category/skin-health/">Skin Health</a></li>
+<li id="menu-item-126690" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-126690"><a href="https://draxe.com/health-category/symptoms/">Symptoms</a></li>
+<li id="menu-item-126691" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-126691"><a href="https://draxe.com/health-category/treatments/">Treatments</a></li>
+<li id="menu-item-126692" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-126692"><a href="https://draxe.com/health-category/weight-loss/">Weight Loss</a></li>
+</ul>
+</li>
+<li id="menu-item-126636" class="nutrition blue-dk is-dropdown-submenu-parent menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-126636"><a href="https://draxe.com/section/nutrition/">Nutrition</a>
+<ul class="menu vertical" data-responsive-menu="accordion large-dropdown">
+<li id="menu-item-126694" class="menu-item menu-item-type-taxonomy menu-item-object-nutrition_category menu-item-126694"><a href="https://draxe.com/nutrition-category/fruit/">Fruit</a></li>
+<li id="menu-item-126695" class="menu-item menu-item-type-taxonomy menu-item-object-nutrition_category menu-item-126695"><a href="https://draxe.com/nutrition-category/grains/">Grains</a></li>
+<li id="menu-item-128809" class="menu-item menu-item-type-taxonomy menu-item-object-nutrition_category menu-item-128809"><a href="https://draxe.com/nutrition-category/hemp/">Hemp</a></li>
+<li id="menu-item-126696" class="menu-item menu-item-type-taxonomy menu-item-object-nutrition_category menu-item-126696"><a href="https://draxe.com/nutrition-category/herbs/">Herbs &#038; Spices</a></li>
+<li id="menu-item-126697" class="menu-item menu-item-type-taxonomy menu-item-object-nutrition_category menu-item-126697"><a href="https://draxe.com/nutrition-category/mushrooms/">Mushrooms</a></li>
+<li id="menu-item-126698" class="menu-item menu-item-type-taxonomy menu-item-object-nutrition_category menu-item-126698"><a href="https://draxe.com/nutrition-category/probiotics/">Probiotics</a></li>
+<li id="menu-item-126699" class="menu-item menu-item-type-taxonomy menu-item-object-nutrition_category menu-item-126699"><a href="https://draxe.com/nutrition-category/protein/">Protein</a></li>
+<li id="menu-item-126700" class="menu-item menu-item-type-taxonomy menu-item-object-nutrition_category menu-item-126700"><a href="https://draxe.com/nutrition-category/supplements/">Supplements</a></li>
+<li id="menu-item-126701" class="menu-item menu-item-type-taxonomy menu-item-object-nutrition_category menu-item-126701"><a href="https://draxe.com/nutrition-category/vegetables/">Vegetables</a></li>
+<li id="menu-item-126702" class="menu-item menu-item-type-taxonomy menu-item-object-nutrition_category menu-item-126702"><a href="https://draxe.com/nutrition-category/vitamins/">Vitamins &#038; Minerals</a></li>
+</ul>
+</li>
+<li id="menu-item-126646" class="purple is-dropdown-submenu-parent food menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-126646"><a href="https://draxe.com/section/diets/">Diets</a>
+<ul class="menu vertical" data-responsive-menu="accordion large-dropdown">
+<li id="menu-item-126704" class="menu-item menu-item-type-taxonomy menu-item-object-dietss_category menu-item-126704"><a href="https://draxe.com/diets-category/fasting/">Fasting</a></li>
+<li id="menu-item-126707" class="menu-item menu-item-type-taxonomy menu-item-object-dietss_category menu-item-126707"><a href="https://draxe.com/diets-category/gluten-free/">Gluten-Free</a></li>
+<li id="menu-item-126706" class="menu-item menu-item-type-taxonomy menu-item-object-dietss_category menu-item-126706"><a href="https://draxe.com/diets-category/low-carb/">Low-Carb</a></li>
+<li id="menu-item-126703" class="menu-item menu-item-type-taxonomy menu-item-object-dietss_category menu-item-126703"><a href="https://draxe.com/diets-category/ketogenic/">Ketogenic</a></li>
+<li id="menu-item-126710" class="menu-item menu-item-type-taxonomy menu-item-object-dietss_category menu-item-126710"><a href="https://draxe.com/diets-category/mediterranean-diet/">Mediterranean Diet</a></li>
+<li id="menu-item-126708" class="menu-item menu-item-type-taxonomy menu-item-object-dietss_category menu-item-126708"><a href="https://draxe.com/diets-category/paleo/">Paleo</a></li>
+<li id="menu-item-126711" class="menu-item menu-item-type-taxonomy menu-item-object-dietss_category menu-item-126711"><a href="https://draxe.com/diets-category/plant-based/">Plant-Based</a></li>
+<li id="menu-item-126705" class="menu-item menu-item-type-taxonomy menu-item-object-dietss_category menu-item-126705"><a href="https://draxe.com/diets-category/vegan/">Vegan</a></li>
+<li id="menu-item-126709" class="menu-item menu-item-type-taxonomy menu-item-object-dietss_category menu-item-126709"><a href="https://draxe.com/diets-category/vegetarian/">Vegetarian</a></li>
+</ul>
+</li>
+<li id="menu-item-79687" class="top-link-recipes red is-dropdown-submenu-parent recipes menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-79687"><a href="https://draxe.com/section/recipes/">Recipes</a>
+<ul class="menu vertical" data-responsive-menu="accordion large-dropdown">
+<li id="menu-item-126723" class="menu-item menu-item-type-taxonomy menu-item-object-diet_type menu-item-126723"><a href="https://draxe.com/diet-type/gluten-free/">Gluten-Free</a></li>
+<li id="menu-item-126727" class="menu-item menu-item-type-taxonomy menu-item-object-diet_type menu-item-126727"><a href="https://draxe.com/diet-type/keto/">Ketogenic</a></li>
+<li id="menu-item-126728" class="menu-item menu-item-type-taxonomy menu-item-object-diet_type menu-item-126728"><a href="https://draxe.com/diet-type/low-carb/">Low-Carb</a></li>
+<li id="menu-item-126725" class="menu-item menu-item-type-taxonomy menu-item-object-diet_type menu-item-126725"><a href="https://draxe.com/diet-type/paleo/">Paleo</a></li>
+<li id="menu-item-126726" class="menu-item menu-item-type-taxonomy menu-item-object-diet_type menu-item-126726"><a href="https://draxe.com/diet-type/vegan/">Vegan</a></li>
+<li id="menu-item-126724" class="menu-item menu-item-type-taxonomy menu-item-object-diet_type menu-item-126724"><a href="https://draxe.com/diet-type/vegetarian/">Vegetarian</a></li>
+</ul>
+</li>
+<li id="menu-item-126693" class="purple-lt menu-item menu-item-type-custom menu-item-object-custom menu-item-126693"><a href="https://draxe.com/essential-oils/">Essential Oils</a></li>
+<li id="menu-item-126729" class="pink remedies is-dropdown-submenu-parent menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-126729"><a href="https://draxe.com/section/home-remedies/">DIY Remedies</a>
+<ul class="menu vertical" data-responsive-menu="accordion large-dropdown">
+<li id="menu-item-126731" class="menu-item menu-item-type-taxonomy menu-item-object-nat_rem_cat menu-item-126731"><a href="https://draxe.com/natural-remedies-category/body-care/">Body Care</a></li>
+<li id="menu-item-126733" class="menu-item menu-item-type-taxonomy menu-item-object-nat_rem_cat menu-item-126733"><a href="https://draxe.com/natural-remedies-category/cleaning/">Cleaning</a></li>
+<li id="menu-item-126732" class="menu-item menu-item-type-taxonomy menu-item-object-nat_rem_cat menu-item-126732"><a href="https://draxe.com/natural-remedies-category/hair-care/">Hair Care</a></li>
+<li id="menu-item-126734" class="menu-item menu-item-type-taxonomy menu-item-object-nat_rem_cat menu-item-126734"><a href="https://draxe.com/natural-remedies-category/oral-health/">Oral Health</a></li>
+<li id="menu-item-126730" class="menu-item menu-item-type-taxonomy menu-item-object-nat_rem_cat menu-item-126730"><a href="https://draxe.com/natural-remedies-category/skin-and-beauty/">Skin and Beauty</a></li>
+</ul>
+</li>
+<li id="menu-item-79742" class="green-lt is-dropdown-submenu-parent fitness menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-79742"><a href="https://draxe.com/section/fitness/">Fitness</a>
+<ul class="menu vertical" data-responsive-menu="accordion large-dropdown">
+<li id="menu-item-126712" class="menu-item menu-item-type-taxonomy menu-item-object-fitness_cat menu-item-126712"><a href="https://draxe.com/fitness-category/anatomy/">Anatomy</a></li>
+<li id="menu-item-126713" class="menu-item menu-item-type-taxonomy menu-item-object-fitness_cat menu-item-126713"><a href="https://draxe.com/fitness-category/injury-and-rehab/">Injury &#038; Rehab</a></li>
+<li id="menu-item-126714" class="menu-item menu-item-type-taxonomy menu-item-object-fitness_cat menu-item-126714"><a href="https://draxe.com/fitness-category/news-and-tips/">News &#038; Tips</a></li>
+<li id="menu-item-126715" class="menu-item menu-item-type-taxonomy menu-item-object-fitness_cat menu-item-126715"><a href="https://draxe.com/fitness-category/running/">Running</a></li>
+<li id="menu-item-126716" class="menu-item menu-item-type-taxonomy menu-item-object-fitness_cat menu-item-126716"><a href="https://draxe.com/fitness-category/workouts/">Workouts</a></li>
+<li id="menu-item-126717" class="menu-item menu-item-type-taxonomy menu-item-object-fitness_cat menu-item-126717"><a href="https://draxe.com/fitness-category/yoga/">Yoga</a></li>
+</ul>
+</li>
+<li id="menu-item-79744" class="blue-gray shop-icon is-dropdown-submenu-parent shop menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-79744"><a href="https://store.draxe.com">Shop</a>
+<ul class="menu vertical" data-responsive-menu="accordion large-dropdown">
+<li id="menu-item-79745" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79745"><a href="https://store.draxe.com/collections/popular-products">Top Sellers</a></li>
+<li id="menu-item-79746" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79746"><a href="https://store.draxe.com/collections/supplements">Supplements</a></li>
+<li id="menu-item-79747" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79747"><a href="https://store.draxe.com/collections/essential-oils">Essential Oils</a></li>
+<li id="menu-item-79748" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79748"><a href="https://store.draxe.com">View All</a></li>
+</ul>
+</li>
+</ul> </div>
+<hr class="nav-hr hide-for-large">
+<div class="columns small-6 hide-for-large">
+<a href="/about-dr-josh-axe/" class="about-link">About Dr. Axe</a>
+</div>
+<div class="columns small-6 hide-for-large text-right">
+<div class="social-links">
+<a class="social-link" href="https://www.facebook.com/DrJoshAxe" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle facebook fa-stack-2x"></i>
+<i class="fa fa-facebook fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Facebook</span>
+</a>
+<a class="social-link" href="https://www.instagram.com/drjoshaxe/" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle instagram fa-stack-2x"></i>
+<i class="fa fa-instagram fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Instagram</span>
+</a>
+<a class="social-link hide" href="https://plus.google.com/b/103498688661471602480/+drjoshaxe/posts" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle google-plus fa-stack-2x"></i>
+<i class="fa fa-google-plus fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Google Plus</span>
+</a>
+<a class="social-link" href="https://www.youtube.com/user/doctorjoshaxe" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle youtube fa-stack-2x"></i>
+<i class="fa fa-youtube-play fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Youtube</span>
+</a>
+<a class="social-link" href="//www.pinterest.com/draxe/" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle pinterest fa-stack-2x"></i>
+<i class="fa fa-pinterest-p fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Pintrest</span>
+</a>
+<a class="social-link" href="/rss-feed/" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle rss fa-stack-2x"></i>
+<i class="fa fa-rss fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on RSS</span>
+</a> </div>
+
+</div>
+</div>
+</div>
+</header>
+<div class="content-area post-content">
+<div class="row inner-content">
+<main class="large-8 medium-12 columns post-content" role="main">
+<article class="post-62142 mat_health type-mat_health status-publish has-post-thumbnail hentry category-pregnancy tag-does-rhythm-method-work tag-natural-birth-control-methods tag-rhythm-method" id="post-62142" role="article" itemscope itemtype="http://schema.org/BlogPosting" xmlns="http://www.w3.org/1999/html">
+<div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+
+<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Dr. Axe." href="https://draxe.com" class="home"><span property="name">Dr. Axe</span></a><meta property="position" content="1"></span> &gt; <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Health." href="https://draxe.com/health/" class="post post-mat_health-archive"><span property="name">Health</span></a><meta property="position" content="2"></span> &gt; <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to the Pregnancy category archives." href="https://draxe.com/health-category/pregnancy/?post_type=mat_health" class="taxonomy category" aria-current="page"><span property="name">Pregnancy</span></a><meta property="position" content="3"></span> </div>
+<header class="article-header" itemprop="mainEntityOfPage">
+<p class="fact-check">
+<a data-open="fact-check-modal" class="button small"><i class="fa fa-check" aria-hidden="true"></i> Fact Checked</a>
+</p>
+<div class="reveal" id="fact-check-modal" data-reveal>
+<button class="close-button" data-close aria-label="Close modal" type="button">
+<span aria-hidden="true">&times;</span>
+</button>
+<p>This Dr. Axe content is medically reviewed or fact checked to ensure factually accurate information. </p>
+<p>With strict editorial sourcing guidelines, we only link to academic research institutions, reputable media sites and, when research is available, medically peer-reviewed studies. Note that the numbers in parentheses (1, 2, etc.) are clickable links to these studies.</p>
+<p>The information in our articles is NOT intended to replace a one-on-one relationship with a qualified health care professional and is not intended as medical advice.</p>
+</div>
+<div class="reveal" id="evidence-based-modal" data-reveal>
+<button class="close-button" data-close aria-label="Close modal" type="button">
+<span aria-hidden="true">&times;</span>
+</button>
+<p>This article is based on scientific evidence, written by <a target="_blank" href="/about-us">experts</a> and fact checked by our trained editorial staff. Note that the numbers in parentheses (1, 2, etc.) are clickable links to medically peer-reviewed studies.</p>
+<p>Our team includes licensed nutritionists and dietitians, certified health education specialists, as well as certified strength and conditioning specialists, personal trainers and corrective exercise specialists. Our team aims to be not only thorough with its research, but also objective and unbiased.</p>
+<p>The information in our articles is NOT intended to replace a one-on-one relationship with a qualified health care professional and is not intended as medical advice.</p>
+</div> <h1 class="entry-title single-title" itemprop="headline">Natural Birth Control Methods: Benefits &#038; Effectiveness (Plus Which Really Work?)</h1>
+<p class="author">By <a href="/about-us"><span itemprop="author">Jillian Levy, CHHC</span></a></p>
+<p class="published"><span itemprop="datePublished">June 16, 2017</span></p>
+<div class="row">
+<div class="columns small-12">
+<div class="social-links share inverse">
+<a class="social-link" href="http://www.facebook.com/sharer/sharer.php?u=https://draxe.com/natural-birth-control/&title=Natural+Birth+Control+Methods%3A+Benefits+%26%23038%3B+Effectiveness+%28Plus+Which+Really+Work%3F%29" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle facebook fa-stack-2x"></i>
+<i class="fa fa-facebook fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Facebook</span>
+<span class="count facebook">
+880 </span>
+</a>
+<a class="social-link" href="http://twitter.com/share?text=Natural+Birth+Control+Methods%3A+Benefits+%26+Effectiveness+%28Plus+Which+Really+Work%3F%29+by+%40drjoshaxe&url=https://draxe.com/natural-birth-control/" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle twitter fa-stack-2x"></i>
+<i class="fa fa-twitter fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Twitter</span>
+<span class="count facebook">
+19 </span>
+</a>
+<a class="social-link hide" href="https://www.instagram.com/drjoshaxe/" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle instagram fa-stack-2x"></i>
+<i class="fa fa-instagram fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Instagram</span>
+<span class="count instagram">
+</span>
+</a>
+<a class="social-link hide" href="https://plus.google.com/b/103498688661471602480/+drjoshaxe/posts" target="_blank">
+ <span class="fa-stack">
+<i class="fa fa-circle google-plus fa-stack-2x"></i>
+<i class="fa fa-google-plus fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Google Plus</span>
+<span class="count google-plus">
+</span>
+</a>
+<a class="social-link hide" href="https://www.youtube.com/user/doctorjoshaxe" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle youtube fa-stack-2x"></i>
+<i class="fa fa-youtube-play fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Youtube</span>
+<span class="count youtube">
+</span>
+</a>
+<a class="social-link" href="http://pinterest.com/pin/create/bookmarklet/?media=https://draxe.com/wp-content/uploads/2016/12/BCBackground.jpg&url=https://draxe.com/natural-birth-control/&is_video=false&description=Natural+Birth+Control+Methods%3A+Benefits+%26+Effectiveness+%28Plus+Which+Really+Work%3F%29+by+%40draxe" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle pinterest fa-stack-2x"></i>
+<i class="fa fa-pinterest-p fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Pintrest</span>
+<span class="count pinterest ">
+1425 </span>
+</a>
+<a class="social-link email" href="/cdn-cgi/l/email-protection#556a2620373f303621681127142d307b363a386f751b34212027343975173c27213d75163a3b21273a39751830213d3a31266f7517303b30333c212675737665666d6e751033333036213c23303b302626757d0539202675023d3c363d7507303439392c75023a273e6a7c73373a312c683d212125266f7a7a3127342d307b363a387a3b34212027343978373c27213d78363a3b21273a397a">
+<span class="fa-stack">
+<i class="fa fa-circle default fa-stack-2x"></i>
+<i class="fa fa-envelope fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Share on Email</span>
+</a>
+<a class="social-link print" href="javascript:window.print()" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle default fa-stack-2x"></i>
+<i class="fa fa-print fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Print Article</span>
+</a> </div>
+</div>
+</div>
+</header>
+<span class="hide" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+<meta itemprop="name" content="Dr. Axe">
+<span itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop="url" content="https://draxe.com/wp-content/themes/mat_draxe/assets/icons/widetile.png">
+<meta itemprop="width" content="300">
+<meta itemprop="height" content="300">
+</span>
+</span>
+</span>
+<span class="hide" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop="url" content="https://draxe.com/wp-content/uploads/2016/12/BCBackground.jpg">
+<meta itemprop="width" content="300">
+<meta itemprop="height" content="300">
+</span>
+<section class="entry-content" itemprop="articleBody">
+<input class="jpibfi" type="hidden"><div id="mydiv-63145" class="mydiv"><img class="aligncenter size-full wp-image-63145" src="https://draxe.com/wp-content/uploads/2016/12/BCArticleMeme.jpg" alt="Natural birth control - Dr. Axe" width="735" height="735" srcset="https://draxe.com/wp-content/uploads/2016/12/BCArticleMeme.jpg 735w, https://draxe.com/wp-content/uploads/2016/12/BCArticleMeme-480x480.jpg 480w, https://draxe.com/wp-content/uploads/2016/12/BCArticleMeme-716x716.jpg 716w" sizes="(max-width: 735px) 100vw, 735px" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://draxe.com/natural-birth-control/" data-jpibfi-post-title="Natural Birth Control Methods: Benefits &#038; Effectiveness (Plus Which Really Work?)" data-jpibfi-src="https://draxe.com/wp-content/uploads/2016/12/BCArticleMeme.jpg"></div>
+<p>Wondering how to prevent pregnancy reliably and safely, without using <a href="https://draxe.com/just-say-no-to-birth-control-pills/" target="_blank" rel="noopener noreferrer"><strong>birth control pills</strong></a>? This article will cover some of the most time-tested natural birth control methods that are also now backed up by science. In addition, we&#8217;re taking a look at some risks associated with the leading way to currently prevent pregnancy: birth control pills.</p>
+<hr />
+<h3><strong>What&#8217;s Wrong with Birth Control Pills?</strong></h3>
+<p>About 70 percent of all women at some point turn to non-permanent, non-invasive hormonal methods of birth control — especially birth control pills. (<a href="https://www.guttmacher.org/fact-sheet/contraceptive-use-united-states" target="_blank" rel="noopener noreferrer">1</a>) Still, the<span class="s1"> dangers of birth control pills include possible side effects like: <a href="https://draxe.com/cystic-acne/" target="_blank" rel="noopener noreferrer"><strong>cystic acne</strong></a>, anxiety or moodiness, breast tenderness, weight gain, or for some, difficulty getting pregnant after stopping the pill. It&#8217;s so surprise that many women are looking for natural birth control methods instead. For women who wish to avoid unnecessary medical procedures, including those who consider one day having a <strong><a href="https://draxe.com/pregnant-consider-natural-child-birth-and-home-births/" target="_blank" rel="noopener noreferrer">natural child birth</a></strong>, this is especially true.</span></p>
+<p>Although there&#8217;s a lot of ongoing controversy regarding the pros and cons of using birth control pills, and every woman reacts somewhat differently, evidence suggests the effects of these hormonal medications can include both serious and minor reactions. <a href="https://draxe.com/serious-birth-control-pills-side-effects/" target="_blank" rel="noopener noreferrer"><strong>Birth control side effects</strong></a> are common and may include: (<a href="http://www.fda.gov/Drugs/DrugSafety/PostmarketDrugSafetyInformationforPatientsandProviders/ucm257175.htm" target="_blank" rel="noopener noreferrer">2</a>)</p>
+<ul>
+<li>Higher risk of breast cancer</li>
+<li>Increased risk of blood clotting, heart attack and stroke</li>
+<li>Migraines (including new cases or worsening of symptoms)</li>
+<li><a href="https://draxe.com/gallbladder-symptoms/" target="_blank" rel="noopener noreferrer"><strong>Gallbladder symptoms</strong></a> and disease</li>
+<li>Increased blood pressure</li>
+<li>Weight gain or changes in appetite</li>
+<li>Mood changes, including mood swings, increased anxiety or <a href="https://draxe.com/birth-control-pills-cause-depression/" target="_blank" rel="noopener noreferrer"><strong>symptoms of depression</strong></a></li>
+<li><a href="https://draxe.com/how-to-get-rid-of-nausea/" target="_blank" rel="noopener noreferrer"><strong>Nausea</strong></a>, irregular bleeding or spotting between periods</li>
+<li>Rarely, benign liver tumors</li>
+<li>Breast tenderness or swelling</li>
+</ul>
+<p>One of the risks of birth control pills (synthetic hormonal contraception) is that these medications impede the normal functioning of a woman’s ovaries, thereby interfering with their beneficial effects. Birth control pills fool a woman&#8217;s body into thinking she&#8217;s already pregnant by continuously raising levels of certain hormones, especially estrogen.</p>
+<p>This can have a negative impact on healthy bone production and maintenance, possibly contributing to significant bone loss among many other disorders. Evidence suggests that women who are the greatest risk of developing these problems are those who: older than 35, smoke, are overweight, have a family history of disorders tied to hormonal complications, and who have other health problems — like diabetes, high blood pressure, heart or vascular disease, or blood cholesterol and triglyceride abnormalities.</p>
+<p>In most cases, the lower the dose of synthetic hormones used, the fewer side effects that occur. However, even if a woman experiences no obvious side effects when taking the pill, synthetic hormones can still take a silent toll on a woman&#8217;s body that may show up many years later, including difficulty becoming pregnant. This isn&#8217;t always the case, and studies suggest that birth control pills are not a significant <a href="https://draxe.com/natural-infertility-treatment-remedies/" target="_blank" rel="noopener noreferrer"><strong>risk factor for infertility</strong></a>, but many women report missing signs of hormonal problems in their younger years due to masking them by taking the pill, only to find out years down the road that they had an untreated problem.</p>
+<hr />
+<h2><strong>9 Natural Birth Control Methods that Work (When Used Correctly)</strong></h2>
+<p>There are many safe and effective forms of natural birth control (natural contraceptives) to consider, including:</p>
+<p><strong>1. Male condoms</strong>: At around a 98 percent effectiveness rate when used correctly, they are nearly as effective as taking the pill. However, sometimes they are not used properly, which lowers their effectiveness (the same can be said for female condoms). (<a href="https://www.plannedparenthood.org/learn/birth-control/condom/how-effective-are-condoms" target="_blank" rel="noopener noreferrer">3</a>)</p>
+<p><strong>2. Female condoms</strong>: While these are not as familiar to most people, female condoms are 95 percent effective and are less likely to tear than male condoms. A female condom consists of a small pouch that fits inside the vagina before sex.</p>
+<p><strong>3. Natural family planning/fertility awareness</strong>: This is a great method for helping women track their natural cycles, identify times of fertility, treat <a href="https://draxe.com/pms-symptoms/" target="_blank" rel="noopener noreferrer"><strong>PMS symptoms</strong></a> and evaluate the effects of stress on hormones/menstrual cycle. More details on how to use this method are described below.</p>
+<p><strong>4. Temperature method</strong>: This is a way to pinpoint the day of ovulation so that sex can be avoided for a few days before and after peak ovulation days.  The temperature method involves taking your basal body temperature (your temperature upon first waking up in the morning) each morning with an accurate &#8220;basal&#8221; thermometer. Then, you note the rise in temperature that occurs after ovulation takes place. Ovulation causes a slight, but noticeable rise in body temperature which can be tracked over time. When you measure your temperature every morning, you can learn to evaluate data over several months to recognize your own fertility pattern. This helps you figure out which days to avoid sex. Temperature method is most reliable when combined with the mucus method; the two methods combined can have a success rate as high as 98 percent. Alone, the temperature method is about 75 percent effective. (<a href="http://www.mayoclinic.org/tests-procedures/basal-body-temperature/basics/risks/prc-20019978" target="_blank" rel="noopener noreferrer">4</a>)</p>
+<p>&nbsp;</p>
+<div id="mydiv-63410" class="mydiv"><img class="aligncenter size-full wp-image-63410" src="https://draxe.com/wp-content/uploads/2016/12/BirthControlGraphic-1.jpg" alt="Natural birth control methods - Dr. Axe" width="735" height="2052" srcset="https://draxe.com/wp-content/uploads/2016/12/BirthControlGraphic-1.jpg 735w, https://draxe.com/wp-content/uploads/2016/12/BirthControlGraphic-1-172x480.jpg 172w, https://draxe.com/wp-content/uploads/2016/12/BirthControlGraphic-1-367x1024.jpg 367w" sizes="(max-width: 735px) 100vw, 735px" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://draxe.com/natural-birth-control/" data-jpibfi-post-title="Natural Birth Control Methods: Benefits &#038; Effectiveness (Plus Which Really Work?)" data-jpibfi-src="https://draxe.com/wp-content/uploads/2016/12/BirthControlGraphic-1.jpg"></div>
+<p>&nbsp;</p>
+<p><strong>5. Diaphragms</strong>: These must be fitted by a doctor and are about 88 to 94 percent effective at preventing pregnancy. (<a href="https://www.plannedparenthood.org/learn/birth-control/diaphragm" target="_blank" rel="noopener noreferrer">5</a>) They are thin, soft rubber rings that are inserted into the upper part of the vagina to cover the cervix and act as a barrier to sperm. They last for about 2 years unused, and cost about $70.</p>
+<p><strong>6. Cervical cap</strong>: This is a heavy rubber cap that fits tightly over the cervix. It must be put into place by a doctor and can be left in place for 48 hours. These have a 85 to 91 percent effectiveness rate depending on how carefully it&#8217;s used. (<a href="https://www.plannedparenthood.org/learn/birth-control/cervical-cap" target="_blank" rel="noopener noreferrer">6</a>)</p>
+<p><strong>7 Lady Comp:</strong> Lady Comp is a type of fertility monitor that&#8217;s been used in Europe for nearly 30 years. According to <a href="https://www.lady-comp.co.uk/birth-control/lady-comp-pearly/" target="_blank" rel="noopener noreferrer">the official Lady Comp website</a>, this monitor is an &#8220;intelligent, non-invasive, natural method of contraception &#8230; it&#8217;s a next-generation fertility monitor that learns, analyses and indicates ovulation, fertile and non-fertile days with 99.3 percent premium accuracy, which is free of invasive hormones and side effects.&#8221; There are several monitors available depending on your budget and needs. Most tell you whether you&#8217;re fertile by displaying a red light on your &#8220;fertile days&#8221; and a green light during your infertile phase, allowing you to predict your peak-ovulation days.</p>
+<p><strong>8. Mucus method</strong>: This involves tracking changes in the amount and texture of vaginal discharge, which reflect rising levels of estrogen in the body. For the first few days after your period, there is often no discharge, but there will be a cloudy, tacky mucus as estrogen starts to rise. When the discharge starts to increase in volume and becomes clear and stringy, ovulation is near. A return to the tacky, cloudy mucus or no discharge means that ovulation has passed. This method can work very well (about 90 percent effectively) when used by women with regular cycles, however it&#8217;s not a good match for those who have <a href="https://draxe.com/irregular-periods/" target="_blank" rel="noopener noreferrer"><strong>irregular periods</strong></a>, frequent vaginal infections or irregular mucus, who have recently given birth, or who have taken emergency contraceptives recently (like Plan B). (<a href="http://www.myvmc.com/pregnancy/cervical-mucus-monitoring-methods-of-birth-control/" target="_blank" rel="noopener noreferrer">7</a>)</p>
+<p><strong>9. Calendar method</strong>: This is a term for practicing abstention from sex during the week the woman is ovulating. This technique works best when a woman’s menstrual cycle is very regular. The calendar method doesn’t work very well for couples who use it by itself (about a 75 percent success rate), but it can be effective when combined with the temperature and mucus methods (more on this type of &#8220;rhythm method&#8221; is described below).</p>
+<hr />
+<h3><strong>How Natural Birth Control Methods Work: Tracking Fertility Days</strong></h3>
+<p class="feature">Most women have an &#8220;average&#8221; cycle of about 28 days. Hormones in a woman&#8217;s body cause an egg to be released from the ovary, which is known as ovulation. The egg travels through the fallopian tube towards the uterus and is only available to be fertilized for 12 to 24 hours during the fertile window. If sperm penetrates the egg, the fertilized egg will attach to the lining of the uterus, and that is the <a href="https://draxe.com/6-steps-to-a-healthy-vibrant-pregnancy/" target="_blank" rel="noopener noreferrer"><strong>start of pregnancy</strong></a>.</p>
+<p class="feature">The <em>Your Fertility</em> website states that: &#8220;The likelihood of actually becoming pregnant is dramatically increased if you have intercourse in the three days leading up to and including ovulation. If a woman has sex on any of these three days, she has a 27 to 33 percent chance of becoming pregnant.&#8221;</p>
+<p class="feature">Other days surrounding the peak fertility days, the chance of conception drops to about 10 to 16 percent. The number of days in a woman&#8217;s cycle before ovulation will typically range from 13 to 20 days (starting from the first day of per period).</p>
+<p class="feature">There are about six days in a woman&#8217;s &#8220;fertile window.&#8221; (Refresher: &#8220;Fertile window&#8221; refers to the days during a woman&#8217;s cycle when she can get pregnant.) This window reflects the lifespan of sperm (5 days) and the lifespan of the ovum (24 hours). The natural birth control methods above help pinpoint these days. Sometimes, these methods use an extended fertility window to err on the safe side when it comes to preventing pregnancy, such as making the window 8 to 9 days instead of 6. (<a href="http://yourfertility.org.au/for-women/timing-and-conception/" target="_blank" rel="noopener noreferrer">8</a>)</p>
+<p><strong>In order to use many of these natural birth control methods, such as the calendar method, here are directions and guidelines to get you started:</strong></p>
+<p><strong>1. Start by keeping track of your cycles for about 3-6 months.</strong> The more time you give yourself to record data for your cycles, the more accurate these methods will be (many experts recommend preparing for 6 to 12 months of your cycle).</p>
+<p>Using a calendar, write down the number of days in each menstrual cycle — counting from the first day of your period to the first day of your next period. Ovulation happens about two weeks before the next expected period starts. If your cycle is on average 28 days long, and day one is when you first start bleeding, day 14 is around your most fertile day. If ovulation typically happens on day 14, your most fertile days are days 12, 13, and 14.</p>
+<p><strong>2. Once you have an idea of your regular cycle, take note of <em>your shortest menstrual cycle</em> on record. </strong>Subtract 18 from the total number of days in your shortest cycle. This number should be the first fertile day in your cycle. If your cycle is about 28 days long, subtract 18 from 28 to get 10. This means the 10th day after you begin bleeding (when your cycle starts) is <i>potentially</i> the most fertile day of the month, and the days surrounding this day are also potentially fertile. To be very careful about not getting pregnant, you may have to avoid sex for a longer period of time if your cycles vary in length (no sex for about 7 to 9 days per month).</p>
+<p><strong>3. Now do the same for your <em>longest menstrual cycle</em></strong>. Subtract 11 from the total number of days in your longest cycle. If the longest cycle was 30 days, it would look like this: 30-11= 19. This means 19 days after you start bleeding should be the last fertile day of your cycle. If you&#8217;re hoping to get pregnant,  you should plan to have sex during nearly all of your most fertile days. If you&#8217;re hoping to avoid pregnancy, avoid sex during your entire extended fertile window for best protection. For best results, try to keep tracking your cycle and updating your data every month to help you pinpoint your fertile window.</p>
+<hr />
+<h3><strong>Natural Ways to Prevent Pregnancy that Are NOT Reliable</strong></h3>
+<p>The fertility awareness method (FAM) and natural family planning (NFP) are two popular and effective forms of natural contraception that are often misunderstood and said to be unreliable. The misconceptions surrounding their effectiveness mostly stem from people associating FAM or NFP with the sometimes-inaccurate &#8220;rhythm method.&#8221;</p>
+<p><strong>What is the rhythm method?</strong></p>
+<p>The rhythm method is also called the calendar method or the calendar rhythm method.<em> </em>This is basically the method described above for tracking fertility days.<em> </em>Like other natural birth control methods, the rhythm method relies on avoiding conception by limiting sexual intercourse to the times of a woman&#8217;s menstrual cycle when ovulation is least likely to occur.</p>
+<p>The rhythm method was used by couples for many years prior to the development of FAM and NFP to help couples try and track fertility cycles in order to prevent pregnancy — but it didn&#8217;t utilize the same scientific principles or measurements that newer and improved fertility methods use (like temperature changes, mucus and so on). Therefore, many feel it does not do justice to the nature and practice of FAM or NFP (also called by other names like the Sympto-Thermal Method, the Ovulation Method, and the Billings Method. (<a href="http://americanpregnancy.org/preventing-pregnancy/natural-family-planning/" target="_blank" rel="noopener noreferrer">9</a>) FAM and NFP combine the calendar/rhythm method, the basal body temperature method and the cervical mucus method, so they do more than simply rely on one type of measurement.</p>
+<p>Overall, evidence suggests that calendar/rhythm methods work about 75 to 87 percent of the time, but that&#8217;s not a risk some couples are willing to take. (<a href="http://www.mayoclinic.org/tests-procedures/rhythm-method/basics/risks/prc-20013489" target="_blank" rel="noopener noreferrer">10</a>) In other words, in the first year of typical use, an estimated 13 out of 100 women practicing the rhythm method alone for birth control will get pregnant.</p>
+<p><strong>Other concerns with natural birth control being reliable (stress, irregular periods and inconsistency) :</strong></p>
+<p>Some couples, and doctors, also feel that FAM or NFP are difficult, time-consuming techniques that most women are not willing to learn and practice properly. This has contributed to their mixed (sometimes negative) reputation for not always working well.</p>
+<p>The key to using these natural birth control methods is to learn how to <em>accurately and diligently</em> track fertility. If a woman’s cycle is irregular, this may be more difficult to do. Overall, these methods take preparation and willingness to wait and learn. They are both based on a woman learning her signs of fertility. The main difference between them is that NFP practitioners choose, often due to religious reasons, to abstain from having sex during the woman’s fertile days. On the other hand, it&#8217;s common for FAM practitioner to use barrier methods of contraception (such as condoms) during fertile days.</p>
+<p>It&#8217;s important to note that certain factors can impact hormone levels and make it harder to determine your ovulation cycle naturally. For example, your normal basal body temperature can be thrown off due to being sick, fatigued and/or suffering from an ongoing <a href="https://draxe.com/lack-of-sleep-means-lack-of-weight-loss/" target="_blank" rel="noopener noreferrer"><strong>lack of sleep</strong></a>. Because these can change your body temperature, they make methods such as the temperature method unreliable when used alone. To prevent &#8220;accidents,&#8221; it&#8217;s a better idea to combine several natural birth control methods together for best results, such as the mucus method and temperature method. Programs including Lady Comp help do this for you by giving you temperature information and questions/prompts to look for.</p>
+<hr />
+<h3><strong>Precautions Regarding Natural Birth Control Methods</strong></h3>
+<p>Keep in mind that natural birth control methods don&#8217;t usually work 100 percent of the time, so remember there&#8217;s always a risk for conception if you choose to have sex. If you want to use natural methods for birth control, consult your healthcare provider first if any of the following situations apply to you, since these can affect your cycle and fertility:</p>
+<ul>
+<li>You recently had your very first period.</li>
+<li>You gave birth within the past several months.</li>
+<li>You recently stopped taking birth control pills or other hormonal contraceptives.</li>
+<li>You&#8217;re currently breastfeeding (this usually means you cannot get pregnant).</li>
+<li>You have irregular menstrual cycles, or sometimes miss periods for extended periods of time (called amenorrhea).</li>
+<li>You&#8217;re approaching menopause or in peri-menopause.</li>
+</ul>
+<hr />
+<h3><strong>Final Thoughts on Natural Birth Control Methods</strong></h3>
+<ul>
+<li class="p2"><span class="s1">More than 100 million women worldwide use birth control pills, however, there are dangers associated with birth control pills due to unnaturally altering a woman&#8217;s estrogen levels. Levels are often raised far too high, causing symptoms of &#8220;estrogen dominance.&#8221;</span></li>
+<li class="p2">Risks associated with birth control pills may include: moodiness or depression, breast tenderness, nutrient deficiencies and possibly a higher risk for certain types of cancers.</li>
+<li class="p2">I recommend utilizing safer, natural birth control methods that can also effectively help prevent pregnancy. These include Natural Family Planning (NFP, also called FAM), condoms or diaphragms, the temperature method or the mucus method.</li>
+</ul>
+<h4><strong><span style="color: #000080;">Read Next:</span> <span style="color: #3366ff;"><a style="color: #3366ff;" href="https://draxe.com/endocrine-disruptors-how-to-avoid-excess-estrogen/" target="_blank" rel="noopener noreferrer">How Endocrine Disruptors Destroy Your Body + The Dirty Dozen to Avoid</a></span></strong></h4>
+<hr /><a class='utm' href='https://live.draxe.com/eot?utm_source=content&utm_medium=organic&utm_campaign=Natural+Birth+Control+Methods%3A+Benefits+%26%23038%3B+Effectiveness+%28Plus+Which+Really+Work%3F%29'><img class='nopin eotWeb aligncenter wp-image-67166 size-large' src='https://draxe.com/wp-content/uploads/2017/07/eo-opt-in.jpg' width='640' data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://draxe.com/natural-birth-control/" data-jpibfi-post-title="Natural Birth Control Methods: Benefits &#038; Effectiveness (Plus Which Really Work?)" data-jpibfi-src="https://draxe.com/wp-content/uploads/2017/07/eo-opt-in.jpg"></a> </section>
+</article>  <div class="optin-after row" id="optin-after-health">
+<div class="optin-after-health-top large-12 columns">
+<div class="optin-wrapper">
+<div class="row image-container">
+<div class="optin-image">
+<img src="/wp-content/uploads/2017/06/hero-josh-axe.png" alt="Josh Axe">
+</div>
+<div class="large-8 columns optin-text">
+<h2>Get FREE Access!</h2>
+<p>Dr. Josh Axe is on a mission to provide you and your family with the highest quality nutrition tips and healthy recipes in the world...Sign up to get VIP access to his eBooks and valuable weekly health tips for <span class="yellow">FREE!</span></p>
+<div class="row">
+<div class="optin-home-box large-4 medium-4 small-4 columns"> <img class="optin-home-box-icon" src="/wp-content/uploads/2017/06/icon-book.png" alt="">
+<p><strong>Free eBook</strong> to boost
+<br>metabolism &amp; healing</p>
+</div>
+<div class="optin-home-box large-4 medium-4 small-4 columns"> <img class="optin-home-box-icon" src="/wp-content/uploads/2017/06/icon-recipes.png" alt="">
+<p><strong>30 Gluten-Free Recipes</strong>
+<br>&amp; detox juicing guide</p>
+</div>
+<div class="optin-home-box large-4 medium-4 small-4 columns"> <img class="optin-home-box-icon" src="/wp-content/uploads/2017/06/icon-guide.png" alt="">
+<p><strong>Shopping Guide &amp; </strong>
+<br>premium newsletter</p>
+</div>
+</div>
+<form id="after-post-optin" accept-charset="UTF-8" action="https://live.draxe.com/native/optin" class="infusion-form" method="POST" data-track="optin-after-health">
+<input type="hidden" name="utm_source" value="none">
+<input type="hidden" name="utm_medium" value="none">
+<input type="hidden" name="utm_campaign" value="none">
+<div class="infusion-field">
+<label class="hidden" for="email">Your Best Email *</label>
+<input class="infusion-field-input-container after-post-optin" id="inf_field_Email" name="email" type="text" placeholder="Your Best Email">
+</div>
+<div class="infusion-submit">
+<input type="submit" class="button" value="Register Today!">
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<div id="general-sidebar sidebar" class="sidebar general-sidebar large-4 medium-12 columns" role="complementary">
+<div id="ajdg_grpwidgets-2" class="widget ajdg_grpwidgets"><div class="g g-2"><div class="g-single a-50"><div class="ads" style="width:100%; text-align:center; margin:0px auto 20px;"><div style="margin-bottom: 5px; font-size:.8em;color:#0a0a0a;">Ad</div><a class="gofollow" data-track="NTAsMiwxLDYw" target="_blank" href="https://draxe.com/dr-axe-keto-diet-book?utm_medium=organic&utm_source=draxe.com&utm_campaign=KetoDietBook_300x250"><img src="https://draxe.com/wp-content/uploads/2019/03/KetoDietBook-Ad_300x250.jpg" /></a></div></div></div></div> <div id="execphp-69" class="widget widget_execphp"> <div class="execphpwidget"><div id='lightbox-inline-form-e334affb-24fb-45a5-9b88-9a8835f7fa11'></div></div>
+</div><div id="mat-widget-popular-2" class="widget widget_mat-widget-popular"> <section class="materiell-widget mat-popular-posts-widget row">
+<div class="popular-posts columns small-12 ">
+<h3 class="popular-title">
+<span class="trending-icon">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 26 26" style="enable-background:new 0 0 26 26;" xml:space="preserve">
+<g id="XMLID_222_">
+<path id="XMLID_228_" class="st0" d="M13,0.8C6.1,0.8,0.5,6.3,0.5,13.2c0,2.1,0.6,4.2,1.6,6.1L1,23.6c-0.1,0.4,0,0.8,0.2,1.2   c0.3,0.4,0.9,0.6,1.4,0.5l4.7-1.1c1.8,0.9,3.7,1.4,5.7,1.4c6.9,0,12.5-5.6,12.5-12.4C25.5,6.3,19.9,0.8,13,0.8z"></path>
+<path id="XMLID_225_" class="st1" d="M20,11.4c0.2,0.1,0.4,0,0.3-0.2L20,7.7c0-0.5-0.5-0.8-1-0.6l-3.3,1.2c-0.2,0.1-0.3,0.3,0,0.4   l0.7,0.4c0.2,0.1,0.3,0.4,0.1,0.6l-2.6,4c-0.2,0.3-0.7,0.5-1.1,0.4l-4.1-1.5c-0.2-0.1-0.6,0-0.7,0.2l-3.3,5.3   c-0.1,0.2-0.1,0.4,0.1,0.5l1.3,0.8c0.2,0.1,0.4,0,0.5-0.1l2.2-3.6c0.2-0.2,0.5-0.3,0.7-0.2l4.1,1.6c0.4,0.1,0.9,0,1.1-0.4l3.6-5.4   c0.2-0.4,0.8-0.5,1.1-0.2L20,11.4z M20,11.4"></path>
+</g>
+</svg>
+</span>
+Popular Posts </h3>
+<ul class="tabs" data-tabs id="popular_posts_tabs_mat-widget-popular-2">
+<li class="tabs-title is-active">
+<a href="#popular_posts_tabs_alltime_mat-widget-popular-2" aria-selected="true">
+All Time
+</a>
+</li>
+<li class="tabs-title">
+<a href="#popular_posts_tabs_week_mat-widget-popular-2" aria-selected="true">
+This Week
+</a>
+</li>
+</ul>
+<div class="tabs-content" data-tabs-content="popular_posts_tabs_mat-widget-popular-2">
+<div class="tabs-panel" id="popular_posts_tabs_week_mat-widget-popular-2">
+
+
+
+<div class="row small-up-1 ">
+<div class="popular-post-item column column-block"><span class="position thumb-position">1</span><span class="image-container"><a href="https://draxe.com/recipe/secret-detox-drink/" title="Secret Detox Drink Recipe (A Natural Detox Drink Recipe)" target="_self"><img src="https://draxe.com/wp-content/uploads/wordpress-popular-posts/5309-featured-150x100.jpg" width="150" height="100" title="Secret Detox Drink Recipe (A Natural Detox Drink Recipe)" alt="Secret Detox Drink Recipe (A Natural Detox Drink Recipe)" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a></span><a href="https://draxe.com/recipe/secret-detox-drink/" class="text-link">Secret Detox Drink Recipe (A Natural Detox Drink Recipe)</a></div><div class="column column-block" style="margin-bottom: 0;"><hr></div>
+<div class="popular-post-item column column-block"><span class="position thumb-position">2</span><span class="image-container"><a href="https://draxe.com/home-remedies-for-uti/" title="Top 12 Natural Home Remedies for UTI" target="_self"><img src="https://draxe.com/wp-content/uploads/wordpress-popular-posts/58244-featured-150x100.jpg" width="150" height="100" title="Top 12 Natural Home Remedies for UTI" alt="Top 12 Natural Home Remedies for UTI" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a></span><a href="https://draxe.com/home-remedies-for-uti/" class="text-link">Top 12 Natural Home Remedies for UTI</a></div><div class="column column-block" style="margin-bottom: 0;"><hr></div>
+<div class="popular-post-item column column-block"><span class="position thumb-position">3</span><span class="image-container"><a href="https://draxe.com/salt-water-flush-recipe/" title="Salt Water Flush Recipe" target="_self"><img src="https://draxe.com/wp-content/uploads/wordpress-popular-posts/44003-featured-150x100.jpg" width="150" height="100" title="Salt Water Flush Recipe" alt="Salt Water Flush Recipe" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a></span><a href="https://draxe.com/salt-water-flush-recipe/" class="text-link">Salt Water Flush Recipe</a></div><div class="column column-block" style="margin-bottom: 0;"><hr></div>
+<div class="popular-post-item column column-block"><span class="position thumb-position">4</span><span class="image-container"><a href="https://draxe.com/16-strep-throat-home-remedies/" title="16 Soothing Strep Throat Home Remedies" target="_self"><img src="https://draxe.com/wp-content/uploads/wordpress-popular-posts/64636-featured-150x100.jpg" width="150" height="100" title="16 Soothing Strep Throat Home Remedies" alt="16 Soothing Strep Throat Home Remedies" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a></span><a href="https://draxe.com/16-strep-throat-home-remedies/" class="text-link">16 Soothing Strep Throat Home Remedies</a></div><div class="column column-block" style="margin-bottom: 0;"><hr></div>
+<div class="popular-post-item column column-block"><span class="position thumb-position">5</span><span class="image-container"><a href="https://draxe.com/homemade-colon-cleanse-3-juices/" title="Homemade Colon Cleanse with 3 Juices" target="_self"><img src="https://draxe.com/wp-content/uploads/wordpress-popular-posts/44044-featured-150x100.jpg" width="150" height="100" title="Homemade Colon Cleanse with 3 Juices" alt="Homemade Colon Cleanse with 3 Juices" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a></span><a href="https://draxe.com/homemade-colon-cleanse-3-juices/" class="text-link">Homemade Colon Cleanse with 3 Juices</a></div><div class="column column-block" style="margin-bottom: 0;"><hr></div>
+</div>
+
+</div>
+<div class="tabs-panel is-active" id="popular_posts_tabs_alltime_mat-widget-popular-2">
+
+
+<div class="row small-up-1 ">
+<div class="popular-post-item column column-block"><span class="position thumb-position">1</span><span class="image-container"><a href="https://draxe.com/recipe/secret-detox-drink/" title="Secret Detox Drink Recipe (A Natural Detox Drink Recipe)" target="_self"><img src="https://draxe.com/wp-content/uploads/wordpress-popular-posts/5309-featured-150x100.jpg" width="150" height="100" title="Secret Detox Drink Recipe (A Natural Detox Drink Recipe)" alt="Secret Detox Drink Recipe (A Natural Detox Drink Recipe)" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a></span><a href="https://draxe.com/recipe/secret-detox-drink/" class="text-link">Secret Detox Drink Recipe (A Natural Detox Drink Recipe)</a></div><div class="column column-block" style="margin-bottom: 0;"><hr></div>
+<div class="popular-post-item column column-block"><span class="position thumb-position">2</span><span class="image-container"><a href="https://draxe.com/home-remedies-for-uti/" title="Top 12 Natural Home Remedies for UTI" target="_self"><img src="https://draxe.com/wp-content/uploads/wordpress-popular-posts/58244-featured-150x100.jpg" width="150" height="100" title="Top 12 Natural Home Remedies for UTI" alt="Top 12 Natural Home Remedies for UTI" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a></span><a href="https://draxe.com/home-remedies-for-uti/" class="text-link">Top 12 Natural Home Remedies for UTI</a></div><div class="column column-block" style="margin-bottom: 0;"><hr></div>
+<div class="popular-post-item column column-block"><span class="position thumb-position">3</span><span class="image-container"><a href="https://draxe.com/16-strep-throat-home-remedies/" title="16 Soothing Strep Throat Home Remedies" target="_self"><img src="https://draxe.com/wp-content/uploads/wordpress-popular-posts/64636-featured-150x100.jpg" width="150" height="100" title="16 Soothing Strep Throat Home Remedies" alt="16 Soothing Strep Throat Home Remedies" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a></span><a href="https://draxe.com/16-strep-throat-home-remedies/" class="text-link">16 Soothing Strep Throat Home Remedies</a></div><div class="column column-block" style="margin-bottom: 0;"><hr></div>
+<div class="popular-post-item column column-block"><span class="position thumb-position">4</span><span class="image-container"><a href="https://draxe.com/salt-water-flush-recipe/" title="Salt Water Flush Recipe" target="_self"><img src="https://draxe.com/wp-content/uploads/wordpress-popular-posts/44003-featured-150x100.jpg" width="150" height="100" title="Salt Water Flush Recipe" alt="Salt Water Flush Recipe" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a></span><a href="https://draxe.com/salt-water-flush-recipe/" class="text-link">Salt Water Flush Recipe</a></div><div class="column column-block" style="margin-bottom: 0;"><hr></div>
+<div class="popular-post-item column column-block"><span class="position thumb-position">5</span><span class="image-container"><a href="https://draxe.com/homemade-colon-cleanse-3-juices/" title="Homemade Colon Cleanse with 3 Juices" target="_self"><img src="https://draxe.com/wp-content/uploads/wordpress-popular-posts/44044-featured-150x100.jpg" width="150" height="100" title="Homemade Colon Cleanse with 3 Juices" alt="Homemade Colon Cleanse with 3 Juices" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a></span><a href="https://draxe.com/homemade-colon-cleanse-3-juices/" class="text-link">Homemade Colon Cleanse with 3 Juices</a></div><div class="column column-block" style="margin-bottom: 0;"><hr></div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+</section>
+</div><div id="execphp-1" class="widget widget_execphp"> <div class="execphpwidget"><a href="https://live.draxe.com/hlg?utm_source=draxe.com&utm_campaign=content&utm_medium=organic&utm_campaign=Natural Birth Control Methods: Benefits &#038; Effectiveness (Plus Which Really Work?)" onclick="javascript: pageTracker._trackPageview('/internal-link/draxe.com/hlg-webinar-sidebar-leadgen/');"><img src="https://draxe.com/wp-content/uploads/2017/07/hlg-opt-in-side.jpg" alt="Leaky Gut Webinar Advertisement" /></a></div>
+</div>
+</div>
+</div>
+</div>
+<section class="shortcode-post-set row no-section">
+<div class="columns small-12 large-8">
+<h2 class="section-title">
+<a href="https://draxe.com/health/">
+More Health </a>
+</h2>
+<div class="row small-up-1 medium-up-2">
+<article class="post-content-block-container column column-block">
+<div class="post-content-block" style="background-image:  url('https://draxe.com/wp-content/uploads/2014/06/HyperthyroidismThumbnail-480x480.jpg');">
+<a href="https://draxe.com/5-ways-treat-hyperthyroidism-naturally/" class="img-link"></a>
+<div class="post-text">
+<div class="post-share-container">
+<a class="social-link" href="http://www.facebook.com/sharer/sharer.php?u=https://draxe.com/5-ways-treat-hyperthyroidism-naturally/&title=Hyperthyroidism+Symptoms+and+Causes+%28Plus%2C+What+to+Do+About+It%29" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle facebook fa-stack-2x"></i>
+<i class="fa fa-facebook fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Facebook</span>
+<span class="count facebook">
+2467 </span>
+</a>
+<a class="social-link" href="http://twitter.com/share?text=Hyperthyroidism+Symptoms+and+Causes+%28Plus%2C+What+to+Do+About+It%29+by+%40drjoshaxe&url=https://draxe.com/5-ways-treat-hyperthyroidism-naturally/" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle twitter fa-stack-2x"></i>
+<i class="fa fa-twitter fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Twitter</span>
+<span class="count facebook">
+15 </span>
+</a>
+<a class="social-link hide" href="https://www.instagram.com/drjoshaxe/" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle instagram fa-stack-2x"></i>
+<i class="fa fa-instagram fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Instagram</span>
+<span class="count instagram">
+</span>
+</a>
+<a class="social-link hide" href="https://plus.google.com/b/103498688661471602480/+drjoshaxe/posts" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle google-plus fa-stack-2x"></i>
+<i class="fa fa-google-plus fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Google Plus</span>
+<span class="count google-plus">
+</span>
+</a>
+<a class="social-link hide" href="https://www.youtube.com/user/doctorjoshaxe" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle youtube fa-stack-2x"></i>
+<i class="fa fa-youtube-play fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Youtube</span>
+<span class="count youtube">
+</span>
+</a>
+<a class="social-link" href="http://pinterest.com/pin/create/bookmarklet/?media=https://draxe.com/wp-content/uploads/2014/06/HyperthyroidismThumbnail.jpg&url=https://draxe.com/5-ways-treat-hyperthyroidism-naturally/&is_video=false&description=Hyperthyroidism+Symptoms+and+Causes+%28Plus%2C+What+to+Do+About+It%29+by+%40draxe" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle pinterest fa-stack-2x"></i>
+<i class="fa fa-pinterest-p fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Pintrest</span>
+<span class="count pinterest ">
+1221 </span>
+</a>
+<a class="social-link email" href="/cdn-cgi/l/email-protection#546b2721363e313720691026152c317a373b396e741c2d243126203c2d263b3d303d273974072d3924203b392774353a3074173521273127747c043821277874033c352074203b74103b7415363b2120741d207d72363b302d693c202024276e7b7b3026352c317a373b397b617923352d27792026313520793c2d243126203c2d263b3d303d2739793a352021263538382d7b">
+<span class="fa-stack">
+<i class="fa fa-circle default fa-stack-2x"></i>
+<i class="fa fa-envelope fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Share on Email</span>
+</a>
+<a class="social-link print" href="javascript:window.print()" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle default fa-stack-2x"></i>
+<i class="fa fa-print fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Print Article</span>
+</a> <span class="share-count">
+3.7K <span class="site-icon axe-social"></span>
+</span>
+</div>
+<h3 class="post-title">
+<a href="https://draxe.com/5-ways-treat-hyperthyroidism-naturally/">
+Hyperthyroidism Symptoms and Causes (Plus, What to Do About It) </a>
+</h3>
+<div class="post-excerpt">
+Do you know the difference between hyperthyroidism vs hypothyroidism? Hyperthyroidism occurs when the ...
+</div>
+<div>
+<a href="https://draxe.com/5-ways-treat-hyperthyroidism-naturally/" class="read-more">Read
+More</a>
+</div>
+</div>
+</div>
+</article>
+<article class="post-content-block-container column column-block">
+<div class="post-content-block" style="background-image:  url('https://draxe.com/wp-content/uploads/2019/06/SunPoisoningThumbnail-480x480.jpg');">
+<a href="https://draxe.com/sun-poisoning-symptoms-treatment/" class="img-link"></a>
+<div class="post-text">
+<div class="post-share-container">
+<a class="social-link" href="http://www.facebook.com/sharer/sharer.php?u=https://draxe.com/sun-poisoning-symptoms-treatment/&title=6+Sun+Poisoning+Natural+Remedies+%28Plus%2C+How+It%26%238217%3Bs+Different+from+Sunburn%29" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle facebook fa-stack-2x"></i>
+<i class="fa fa-facebook fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Facebook</span>
+<span class="count facebook">
+22 </span>
+</a>
+<a class="social-link" href="http://twitter.com/share?text=6+Sun+Poisoning+Natural+Remedies+%28Plus%2C+How+It%E2%80%99s+Different+from+Sunburn%29+by+%40drjoshaxe&url=https://draxe.com/sun-poisoning-symptoms-treatment/" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle twitter fa-stack-2x"></i>
+<i class="fa fa-twitter fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Twitter</span>
+<span class="count facebook">
+22 </span>
+</a>
+<a class="social-link hide" href="https://www.instagram.com/drjoshaxe/" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle instagram fa-stack-2x"></i>
+<i class="fa fa-instagram fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Instagram</span>
+<span class="count instagram">
+</span>
+</a>
+<a class="social-link hide" href="https://plus.google.com/b/103498688661471602480/+drjoshaxe/posts" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle google-plus fa-stack-2x"></i>
+<i class="fa fa-google-plus fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Google Plus</span>
+<span class="count google-plus">
+</span>
+</a>
+<a class="social-link hide" href="https://www.youtube.com/user/doctorjoshaxe" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle youtube fa-stack-2x"></i>
+<i class="fa fa-youtube-play fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Youtube</span>
+<span class="count youtube">
+</span>
+</a>
+<a class="social-link" href="http://pinterest.com/pin/create/bookmarklet/?media=https://draxe.com/wp-content/uploads/2019/06/SunPoisoningThumbnail.jpg&url=https://draxe.com/sun-poisoning-symptoms-treatment/&is_video=false&description=6+Sun+Poisoning+Natural+Remedies+%28Plus%2C+How+It%E2%80%99s+Different+from+Sunburn%29+by+%40draxe" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle pinterest fa-stack-2x"></i>
+<i class="fa fa-pinterest-p fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Pintrest</span>
+<span class="count pinterest ">
+22 </span>
+</a>
+<a class="social-link email" href="/cdn-cgi/l/email-protection#c4fbb7b1a6aea1a7b0f980b685bca1eaa7aba9fee4f2e497b1aae494abadb7abaaadaaa3e48aa5b0b1b6a5a8e496a1a9a1a0ada1b7e4ec94a8b1b7e8e48cabb3e48db0e2e7fcf6f5f3ffb7e480ada2a2a1b6a1aab0e4a2b6aba9e497b1aaa6b1b6aaede2a6aba0bdf9acb0b0b4b7feebeba0b6a5bca1eaa7aba9ebb7b1aae9b4abadb7abaaadaaa3e9b7bda9b4b0aba9b7e9b0b6a1a5b0a9a1aab0eb">
+<span class="fa-stack">
+<i class="fa fa-circle default fa-stack-2x"></i>
+<i class="fa fa-envelope fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Share on Email</span>
+</a>
+<a class="social-link print" href="javascript:window.print()" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle default fa-stack-2x"></i>
+<i class="fa fa-print fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Print Article</span>
+</a> <span class="share-count">
+66 <span class="site-icon axe-social"></span>
+ </span>
+</div>
+<h3 class="post-title">
+<a href="https://draxe.com/sun-poisoning-symptoms-treatment/">
+6 Sun Poisoning Natural Remedies (Plus, How It&#8217;s Different from Sunburn) </a>
+</h3>
+<div class="post-excerpt">
+Unfortunately, most people have experienced a sunburn at some point in their ...
+</div>
+<div>
+<a href="https://draxe.com/sun-poisoning-symptoms-treatment/" class="read-more">Read
+More</a>
+</div>
+</div>
+</div>
+</article>
+<article class="post-content-block-container column column-block">
+<div class="post-content-block" style="background-image:  url('https://draxe.com/wp-content/uploads/2019/06/Probiotic_Dogs_800x800-480x480.jpg');">
+<a href="https://draxe.com/best-probiotics-for-dogs/" class="img-link"></a>
+<div class="post-text">
+<div class="post-share-container">
+<a class="social-link" href="http://www.facebook.com/sharer/sharer.php?u=https://draxe.com/best-probiotics-for-dogs/&title=The+Best+Probiotics+for+Dogs+%28%2B+5+Benefits%29" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle facebook fa-stack-2x"></i>
+<i class="fa fa-facebook fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Facebook</span>
+<span class="count facebook">
+22 </span>
+</a>
+<a class="social-link" href="http://twitter.com/share?text=The+Best+Probiotics+for+Dogs+%28%2B+5+Benefits%29+by+%40drjoshaxe&url=https://draxe.com/best-probiotics-for-dogs/" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle twitter fa-stack-2x"></i>
+<i class="fa fa-twitter fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Twitter</span>
+<span class="count facebook">
+22 </span>
+</a>
+<a class="social-link hide" href="https://www.instagram.com/drjoshaxe/" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle instagram fa-stack-2x"></i>
+<i class="fa fa-instagram fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Instagram</span>
+<span class="count instagram">
+</span>
+</a>
+<a class="social-link hide" href="https://plus.google.com/b/103498688661471602480/+drjoshaxe/posts" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle google-plus fa-stack-2x"></i>
+<i class="fa fa-google-plus fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Google Plus</span>
+<span class="count google-plus">
+</span>
+</a>
+<a class="social-link hide" href="https://www.youtube.com/user/doctorjoshaxe" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle youtube fa-stack-2x"></i>
+<i class="fa fa-youtube-play fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Youtube</span>
+<span class="count youtube">
+</span>
+</a>
+<a class="social-link" href="http://pinterest.com/pin/create/bookmarklet/?media=https://draxe.com/wp-content/uploads/2019/06/Probiotic_Dogs_800x800.jpg&url=https://draxe.com/best-probiotics-for-dogs/&is_video=false&description=The+Best+Probiotics+for+Dogs+%28%2B+5+Benefits%29+by+%40draxe" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle pinterest fa-stack-2x"></i>
+<i class="fa fa-pinterest-p fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Pintrest</span>
+<span class="count pinterest ">
+22 </span>
+</a>
+<a class="social-link email" href="/cdn-cgi/l/email-protection#28175b5d4a424d4b5c156c5a69504d064b474512087c404d086a4d5b5c08785a474a41475c414b5b084e475a086c474f5b080003081d086a4d464d4e415c5b010e4a474c5115405c5c585b1207074c5a49504d064b4745074a4d5b5c05585a474a41475c414b5b054e475a054c474f5b07">
+<span class="fa-stack">
+<i class="fa fa-circle default fa-stack-2x"></i>
+<i class="fa fa-envelope fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Share on Email</span>
+</a>
+<a class="social-link print" href="javascript:window.print()" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle default fa-stack-2x"></i>
+<i class="fa fa-print fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Print Article</span>
+</a> <span class="share-count">
+66 <span class="site-icon axe-social"></span>
+</span>
+</div>
+<h3 class="post-title">
+<a href="https://draxe.com/best-probiotics-for-dogs/">
+The Best Probiotics for Dogs (+ 5 Benefits) </a>
+</h3>
+<div class="post-excerpt">
+Probiotics are the &#8220;good&#8221; types of bacteria that play a role in ...
+</div>
+<div>
+<a href="https://draxe.com/best-probiotics-for-dogs/" class="read-more">Read
+More</a>
+</div>
+</div>
+</div>
+</article>
+<article class="post-content-block-container column column-block">
+<div class="post-content-block" style="background-image:  url('https://draxe.com/wp-content/uploads/2019/05/PFAS_Thumb-480x480.jpg');">
+<a href="https://draxe.com/pfas-contamination/" class="img-link"></a>
+<div class="post-text">
+<div class="post-share-container">
+<a class="social-link" href="http://www.facebook.com/sharer/sharer.php?u=https://draxe.com/pfas-contamination/&title=PFAS+Contamination%3A+Is+This+%26%238216%3BForever+Chemical%26%238217%3B+in+Your+Water%3F" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle facebook fa-stack-2x"></i>
+<i class="fa fa-facebook fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Facebook</span>
+<span class="count facebook">
+22 </span>
+</a>
+<a class="social-link" href="http://twitter.com/share?text=PFAS+Contamination%3A+Is+This+%E2%80%98Forever+Chemical%E2%80%99+in+Your+Water%3F+by+%40drjoshaxe&url=https://draxe.com/pfas-contamination/" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle twitter fa-stack-2x"></i>
+<i class="fa fa-twitter fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Twitter</span>
+<span class="count facebook">
+2 </span>
+</a>
+<a class="social-link hide" href="https://www.instagram.com/drjoshaxe/" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle instagram fa-stack-2x"></i>
+<i class="fa fa-instagram fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Instagram</span>
+<span class="count instagram">
+</span>
+</a>
+<a class="social-link hide" href="https://plus.google.com/b/103498688661471602480/+drjoshaxe/posts" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle google-plus fa-stack-2x"></i>
+<i class="fa fa-google-plus fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Google Plus</span>
+<span class="count google-plus">
+</span>
+</a>
+<a class="social-link hide" href="https://www.youtube.com/user/doctorjoshaxe" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle youtube fa-stack-2x"></i>
+<i class="fa fa-youtube-play fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Youtube</span>
+<span class="count youtube">
+</span>
+</a>
+<a class="social-link" href="http://pinterest.com/pin/create/bookmarklet/?media=https://draxe.com/wp-content/uploads/2019/05/PFAS_Thumb.jpg&url=https://draxe.com/pfas-contamination/&is_video=false&description=PFAS+Contamination%3A+Is+This+%E2%80%98Forever+Chemical%E2%80%99+in+Your+Water%3F+by+%40draxe" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle pinterest fa-stack-2x"></i>
+<i class="fa fa-pinterest-p fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Pintrest</span>
+<span class="count pinterest ">
+22 </span>
+</a>
+<a class="social-link email" href="/cdn-cgi/l/email-protection#c3fcb0b6a1a9a6a0b7fe87b182bba6eda0acaef9e393858290e380acadb7a2aeaaada2b7aaacadf9e38ab0e397abaab0e3e5e0fbf1f2f5f885acb1a6b5a6b1e380aba6aeaaa0a2afe5e0fbf1f2f4f8e3aaade39aacb6b1e394a2b7a6b1fce5a1aca7bafeabb7b7b3b0f9ececa7b1a2bba6eda0acaeecb3a5a2b0eea0acadb7a2aeaaada2b7aaacadec">
+<span class="fa-stack">
+<i class="fa fa-circle default fa-stack-2x"></i>
+<i class="fa fa-envelope fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Share on Email</span>
+</a>
+<a class="social-link print" href="javascript:window.print()" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle default fa-stack-2x"></i>
+<i class="fa fa-print fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Print Article</span>
+</a> <span class="share-count">
+46 <span class="site-icon axe-social"></span>
+</span>
+</div>
+<h3 class="post-title">
+<a href="https://draxe.com/pfas-contamination/">
+PFAS Contamination: Is This &#8216;Forever Chemical&#8217; in Your Water? </a>
+</h3>
+<div class="post-excerpt">
+Turns out America&#8217;s drinking water woes expand far beyond lead. A class ...
+</div>
+<div>
+<a href="https://draxe.com/pfas-contamination/" class="read-more">Read
+More</a>
+</div>
+</div>
+</div>
+</article>
+</div>
+<div class="text-center">
+<a href="https://draxe.com/health/" class="button view-all">View All</a>
+</div>
+</div>
+<div class="popular-posts columns small-12 large-4">
+<div class="popular-title-container">
+<h3 class="popular-title">
+<span class="trending-icon">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 26 26" style="enable-background:new 0 0 26 26;" xml:space="preserve">
+<g id="XMLID_222_">
+<path id="XMLID_228_" class="st0" d="M13,0.8C6.1,0.8,0.5,6.3,0.5,13.2c0,2.1,0.6,4.2,1.6,6.1L1,23.6c-0.1,0.4,0,0.8,0.2,1.2   c0.3,0.4,0.9,0.6,1.4,0.5l4.7-1.1c1.8,0.9,3.7,1.4,5.7,1.4c6.9,0,12.5-5.6,12.5-12.4C25.5,6.3,19.9,0.8,13,0.8z"></path>
+<path id="XMLID_225_" class="st1" d="M20,11.4c0.2,0.1,0.4,0,0.3-0.2L20,7.7c0-0.5-0.5-0.8-1-0.6l-3.3,1.2c-0.2,0.1-0.3,0.3,0,0.4   l0.7,0.4c0.2,0.1,0.3,0.4,0.1,0.6l-2.6,4c-0.2,0.3-0.7,0.5-1.1,0.4l-4.1-1.5c-0.2-0.1-0.6,0-0.7,0.2l-3.3,5.3   c-0.1,0.2-0.1,0.4,0.1,0.5l1.3,0.8c0.2,0.1,0.4,0,0.5-0.1l2.2-3.6c0.2-0.2,0.5-0.3,0.7-0.2l4.1,1.6c0.4,0.1,0.9,0,1.1-0.4l3.6-5.4   c0.2-0.4,0.8-0.5,1.1-0.2L20,11.4z M20,11.4"></path>
+</g>
+</svg>
+</span>
+Most Popular Health </h3>
+</div>
+<ul class="tabs" data-tabs id="popular_posts_tabs_1">
+<li class="tabs-title is-active">
+<a href="#popular_posts_tabs_alltime_1" aria-selected="true">
+All Time
+</a>
+</li>
+<li class="tabs-title">
+<a href="#popular_posts_tabs_week_1" aria-selected="true">
+This Week
+</a>
+</li>
+</ul>
+<div class="tabs-content" data-tabs-content="popular_posts_tabs_1">
+<div class="tabs-panel" id="popular_posts_tabs_week_1">
+
+
+<div class="row small-up-1 ">
+<div class="popular-post-item count column column-block"><span class="position">1</span><a href="https://draxe.com/what-causes-cancer/" class="text-link">What Causes Cancer? Here Are 11 Unexpected Things</a></div><div class="column column-block" style="margin-bottom: 0;"><hr></div>
+<div class="popular-post-item count column column-block"><span class="position">2</span><a href="https://draxe.com/best-sunscreens/" class="text-link">The Best Sunscreens of 2019 (and Toxic Ones to Avoid)</a></div><div class="column column-block" style="margin-bottom: 0;"><hr></div>
+<div class="popular-post-item count column column-block"><span class="position">3</span><a href="https://draxe.com/poop/" class="text-link">Poop: What&#8217;s Normal, What&#8217;s NOT + 7 Steps to Healthy Pooping</a></div><div class="column column-block" style="margin-bottom: 0;"><hr></div>
+<div class="popular-post-item count column column-block"><span class="position">4</span><a href="https://draxe.com/artificially-sweetened-drinks-increase-risk-of-stroke-and-dementia/" class="text-link">Bad News for Your Brain: Artificially Sweetened Drinks Increase Risk of Stroke and Dementia</a></div><div class="column column-block" style="margin-bottom: 0;"><hr></div>
+<div class="popular-post-item count column column-block"><span class="position">5</span><a href="https://draxe.com/juuling/" class="text-link">What Juuling Does to Your Body (It&#8217;s Not Pretty)</a></div><div class="column column-block" style="margin-bottom: 0;"><hr></div>
+</div>
+
+</div>
+<div class="tabs-panel is-sctive" id="popular_posts_tabs_alltime_1">
+
+
+<div class="row small-up-1 ">
+<div class="popular-post-item count column column-block"><span class="position">1</span><a href="https://draxe.com/how-to-stop-diarrhea/" class="text-link">How to Stop Diarrhea: Causes, Risk Factors and Home Remedies</a></div><div class="column column-block" style="margin-bottom: 0;"><hr></div>
+<div class="popular-post-item count column column-block"><span class="position">2</span><a href="https://draxe.com/candida-symptoms/" class="text-link">9 Candida Symptoms and 3 Steps to Treat Them</a></div><div class="column column-block" style="margin-bottom: 0;"><hr></div>
+<div class="popular-post-item count column column-block"><span class="position">3</span><a href="https://draxe.com/liver-cleanse/" class="text-link">Detox Your Liver: Try My 6-Step Liver Cleanse</a></div><div class="column column-block" style="margin-bottom: 0;"><hr></div>
+<div class="popular-post-item count column column-block"><span class="position">4</span><a href="https://draxe.com/how-to-get-rid-of-herpes/" class="text-link">How to Get Rid of Herpes Symptoms Naturally</a></div><div class="column column-block" style="margin-bottom: 0;"><hr></div>
+<div class="popular-post-item count column column-block"><span class="position">5</span><a href="https://draxe.com/10-ways-balance-hormones-naturally/" class="text-link">7 Steps to Balance Hormones Naturally</a></div><div class="column column-block" style="margin-bottom: 0;"><hr></div>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+<div id="tag-Stop Doing X" class="digioh"></div>
+<div class="social-proof-wrapper">
+<div class="row">
+<div class="social-proof-text large-2 medium-12 columns">
+<p>Let's Be Friends</p>
+</div>
+<div class="social-networks-wrapper">
+<div class="social-network">
+<a class="social-link facebook" href="https://www.facebook.com/DrJoshAxe" target="_blank">
+<span class="fa-stack fa-2x">
+<i class="fa fa-circle facebook fa-stack-2x"></i>
+<i class="fa fa-facebook fa-stack-1x" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Facebook</span>
+<span class="text">2.8M<br />Likes</span>
+</a>
+</div>
+<div class="social-network">
+<a class="social-link instagram" href="https://www.instagram.com/drjoshaxe/" target="_blank">
+<span class="fa-stack fa-2x">
+<i class="fa fa-circle instagram fa-stack-2x"></i>
+<i class="fa fa-instagram fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Instagram</span>
+<span class="text">460K<br />Followers</span>
+</a>
+</div>
+<div class="social-network">
+<a class="social-link youtube" href="https://www.youtube.com/user/doctorjoshaxe" target="_blank">
+<span class="fa-stack fa-2x">
+<i class="fa fa-circle youtube fa-stack-2x"></i>
+<i class="fa fa-youtube-play fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Youtube</span>
+<span class="text">1.7M<br />Subscribers</span>
+</a>
+</div>
+<div class="social-network end">
+<a class="social-link pinterest" href="//www.pinterest.com/draxe/" target="_blank">
+<span class="fa-stack fa-2x">
+<i class="fa fa-circle pinterest fa-stack-2x"></i>
+<i class="fa fa-pinterest-p fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Pinterest</span>
+<span class="text">442.6K<br />Followers</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer" role="contentinfo">
+<div id="inner-footer" class="footer-content row">
+<section class="non-menu-content columns small-12 large-5">
+<div class="social-links inverse">
+<h3>Follow us:</h3>
+<a class="social-link" href="https://www.facebook.com/DrJoshAxe" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle facebook fa-stack-2x"></i>
+<i class="fa fa-facebook fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Facebook</span>
+</a>
+<a class="social-link" href="https://www.instagram.com/drjoshaxe/" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle instagram fa-stack-2x"></i>
+<i class="fa fa-instagram fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Instagram</span>
+</a>
+<a class="social-link hide" href="https://plus.google.com/b/103498688661471602480/+drjoshaxe/posts" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle google-plus fa-stack-2x"></i>
+<i class="fa fa-google-plus fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Google Plus</span>
+</a>
+<a class="social-link" href="https://www.youtube.com/user/doctorjoshaxe" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle youtube fa-stack-2x"></i>
+<i class="fa fa-youtube-play fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Youtube</span>
+</a>
+<a class="social-link" href="//www.pinterest.com/draxe/" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle pinterest fa-stack-2x"></i>
+<i class="fa fa-pinterest-p fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on Pintrest</span>
+</a>
+<a class="social-link" href="/rss-feed/" target="_blank">
+<span class="fa-stack">
+<i class="fa fa-circle rss fa-stack-2x"></i>
+<i class="fa fa-rss fa-stack-1x fa-inverse" aria-hidden="true"></i>
+</span>
+<span class="show-for-sr">Dr. Axe on RSS</span>
+</a> </div>
+<div class="row">
+<div class="columns small-12 large-9">
+<div id='lightbox-inline-form-797a6fe6-877a-4e7a-bb6f-f2b2e2f84880'></div>
+</div>
+</div>
+</section>
+<div class="small-6 large-offset-1 large-3 columns">
+<nav role="navigation">
+<h3>Inside Dr. Axe</h3>
+<div class="menu-inside-dr-axe-container"><ul id="menu-inside-dr-axe" class="menu vertical"><li id="menu-item-116822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116822"><a href="https://draxe.com/about-us/">About Us</a></li>
+<li id="menu-item-79649" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79649"><a href="https://draxe.com/contact/">Contact</a></li>
+<li id="menu-item-79634" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79634"><a href="https://draxe.com/media-inquiries/">Media Inquiries</a></li>
+<li id="menu-item-99163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99163"><a href="https://draxe.com/upcoming-events/">Upcoming Events</a></li>
+<li id="menu-item-95731" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95731"><a href="https://draxe.com/stores-we-love/">Stores We Love</a></li>
+<li id="menu-item-79650" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79650"><a href="https://draxe.com/program-login/">Program Login</a></li>
+</ul></div> </nav>
+</div>
+<div class="small-6 large-3 columns">
+<nav role="navigation">
+<h3>Article Topics</h3>
+<div class="menu-article-topics-container"><ul id="menu-article-topics" class="menu vertical"><li id="menu-item-123060" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-123060"><a href="https://draxe.com/the-healing-power-of-bone-broth-for-digestion-arthritis-and-cellulite/">Bone Broth</a></li>
+<li id="menu-item-112502" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-112502"><a href="https://draxe.com/what-is-collagen/">Collagen</a></li>
+<li id="menu-item-126992" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126992"><a href="https://draxe.com/essential-oil-uses-benefits/">Essential Oils</a></li>
+<li id="menu-item-126993" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126993"><a href="https://draxe.com/7-signs-symptoms-you-have-leaky-gut/">Leaky Gut</a></li>
+<li id="menu-item-126994" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126994"><a href="https://draxe.com/keto-diet-food-list/">Keto Diet</a></li>
+<li id="menu-item-126995" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126995"><a href="https://draxe.com/omega-3-benefits-plus-top-10-omega-3-foods-list/">Omega 3s</a></li>
+<li id="menu-item-126996" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126996"><a href="https://draxe.com/probiotics-benefits-foods-supplements/">Probiotics</a></li>
+</ul></div> </nav>
+</div>
+<div class="separator-container small-12 columns text-center">
+<hr class="separator">
+</div>
+<div class="text-center footer-disclaimer  small-12 columns">
+<h4>Medical Disclaimer</h4>
+This content is strictly the opinion of Dr. Josh Axe and is for informational and educational purposes only. It is not intended to provide medical advice or to take the place of medical advice or treatment from a personal physician. All readers/viewers of this content are advised to consult their doctors or qualified health professionals regarding specific health questions. Neither Dr. Axe nor the publisher of this content takes responsibility for possible health consequences of any person or persons reading or following the information in this educational content. All viewers of this content, especially those taking prescription or over-the-counter medications, should consult their physicians before beginning any nutrition, supplement or lifestyle program. </div>
+</div>
+
+<div class="sub-footer">
+<div class="row">
+<div class="columns small-12 large-8 large-push-4">
+<div class="menu-sub-footer-container"><ul id="menu-sub-footer" class="menu vertical large-horizontal"><li id="menu-item-79750" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79750"><a href="https://draxe.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-79749" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79749"><a href="https://draxe.com/terms-of-use/">Terms of Use</a></li>
+<li id="menu-item-79751" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79751"><a href="https://draxe.com/affiliate-disclosure/">Affiliate Disclosure</a></li>
+<li id="menu-item-79752" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79752"><a href="https://draxe.com/dmca-policy/">DMCA Policy</a></li>
+<li id="menu-item-79753" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79753"><a href="http://careers.draxe.com/">Careers</a></li>
+</ul></div> </div>
+<div class="columns small-12 large-4 large-pull-8">
+<p class="source-org copyright">
+&copy; 2019 Dr. Axe.
+All Rights Reserved.
+</p>
+</div>
+</div>
+</div>
+</footer> 
+</div> 
+<div class="wp-footer">
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type='text/javascript'>
+/* <![CDATA[ */
+var click_object = {"ajax_url":"https:\/\/draxe.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://draxe.com/wp-content/plugins/adrotate-pro/library/jquery.adrotate.clicktracker.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jpibfi_options = {"hover":{"siteTitle":"Dr. Axe","image_selector":".jpibfi_container img","disabled_classes":"nopin;wp-smiley","enabled_classes":"","min_image_height":250,"min_image_height_small":0,"min_image_width":250,"min_image_width_small":0,"show_on":"[single],[home]","disable_on":"40469,42794,46748,53220,65143,70129,70539,70904,70906,72585,72586,72587,72590,72593,72595,75636,75752,75764,75858","show_button":"hover","button_margin_bottom":20,"button_margin_top":20,"button_margin_left":20,"button_margin_right":20,"button_position":"0","description_option":["img_title","img_alt","post_title"],"transparency_value":0.5,"pin_image":"old_default","pin_image_button":"square","pin_image_icon":"circle","pin_image_size":"normal","custom_image_url":"","scale_pin_image":false,"pin_linked_url":true,"pinLinkedImages":true,"use_post_url":"0","retina_friendly":"0","pinImageWidth":65,"pinImageHeight":41,"scroll_selector":"","support_srcset":false}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://draxe.com/wp-content/plugins/jquery-pin-it-button-for-images/js/jpibfi.client.js'></script>
+<script type='text/javascript' src='https://draxe.com/wp-content/plugins/page-links-to/js/new-tab.min.js'></script>
+<script type='text/javascript' src='https://draxe.com/wp-includes/js/underscore.min.js'></script>
+<script type='text/javascript' src='https://draxe.com/wp-content/themes/mat_draxe/scripts/scripts.js'></script>
+<script type='text/javascript' src='https://draxe.com/wp-includes/js/wp-embed.min.js'></script>
+
+<img src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/950638439/?value=0&amp;guid=ON&amp;script=0" alt="" height="1" width="1" border="0" style="border:none !important;" />
+</div>
+<script type="text/javascript">
+        window.dataLayer = window.dataLayer || []; 
+        dataLayer.push({
+            'event': 'viewArticle',
+            'articleTitle': 'Natural Birth Control Methods: Benefits & Effectiveness (Plus Which Really Work?)',
+            'leadGenTags': ["Stop Doing X"],
+            'marketingTags': ["Herbs & Spices"],
+            'productTags': ["Herbs & Mushrooms"],
+            'articleType': "mat_health",
+            'articleCategories': ["Pregnancy"]        });
+    </script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"dc29e85412","applicationID":"98810325","transactionName":"ZVxVNkZSDxVZUkMPVlwWdgFAWg4IF0JeCF5eXA==","queueTime":0,"applicationTime":570,"atts":"SRtWQA5IHBs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html> 

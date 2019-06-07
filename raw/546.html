@@ -1,0 +1,2414 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]><html xmlns="http://www.w3.org/1999/xhtml" tal:attributes="lang language;" class="no-js ie6 oldie"><![endif]-->
+<!--[if IE 7]><html xmlns="http://www.w3.org/1999/xhtml" tal:attributes="lang language;" class="no-js ie7 oldie"><![endif]-->
+<!--[if IE 8]><html xmlns="http://www.w3.org/1999/xhtml" tal:attributes="lang language;" class="no-js ie8 oldie"><![endif]-->
+<!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml" class="no-js" lang="en"><!--<![endif]-->
+
+    
+    
+    
+    
+    
+
+
+<head>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- viewport meta needed for proper view on an ipad -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#069" />
+
+    <meta name="description" content="Information on the environment for those
+      involved in developing, adopting, implementing and evaluating environmental
+      policy, and also the general public" />
+    <link href="https://plus.google.com/104345627234408209119" rel="publisher" />
+    
+
+
+
+
+
+
+    <meta name="DC.date.modified" content="2018-02-10T14:07:45+02:00" />
+<meta name="DC.format" content="text/plain" />
+<meta name="DC.type" content="HelpCenter FAQ" />
+<meta name="DC.date.created" content="2007-12-12T16:48:42+02:00" />
+<meta name="DC.language" content="en" />
+
+  
+    
+        
+            
+            
+            
+            
+                <style>
+/* - critical.css - */
+/* https://www.eea.europa.eu/portal_css/critical.css?original=1 */
+/* *//* */@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-display:swap;src:local("Open Sans Regular"),local("OpenSans-Regular"),url("https://www.eea.europa.eu/GoogleFonts-OpenSans-Regular1-v15.woff2") format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-display:swap;src:local("Open Sans Regular"),local("OpenSans-Regular"),url("https://www.eea.europa.eu/GoogleFonts-OpenSans-Regular2-v15.woff2") format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"),local("OpenSans-Bold"),url("https://www.eea.europa.eu/GoogleFonts-OpenSans-Bold1-v15.woff2") format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"),local("OpenSans-Bold"),url("https://www.eea.europa.eu/GoogleFonts-OpenSans-Bold2-v15.woff2") format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-display:swap;src:local("Open Sans Regular"),local("OpenSans-Regular"),url("https://www.eea.europa.eu/GoogleFonts-OpenSans-Regular1-v15.woff2") format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-display:swap;src:local("Open Sans Regular"),local("OpenSans-Regular"),url("https://www.eea.europa.eu/GoogleFonts-OpenSans-Regular2-v15.woff2") format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"),local("OpenSans-Bold"),url("https://www.eea.europa.eu/GoogleFonts-OpenSans-Bold1-v15.woff2") format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"),local("OpenSans-Bold"),url("https://www.eea.europa.eu/GoogleFonts-OpenSans-Bold2-v15.woff2") format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@media screen{*{margin:0;padding:0}}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}::-webkit-input-placeholder,:-ms-input-placeholder,::placeholder{color:#777}:link,:visited{text-decoration:none}ul,ol{list-style:none}h1,h2,h3,h4,h5,h6,pre,code{font-size:1em}h1,.h1{font-size:180%}h2,.h2{font-size:150%}a img,:link img,:visited img{border:none}a{color:#346f83;outline:none;cursor:pointer}a:hover{color:#8e004d}a:visited{color:#8e004d}table{border-spacing:0}img{vertical-align:text-bottom}iframe{border:0 none}input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}label{font-weight:bold}legend{display:block;margin-bottom:17px;color:#333333}.clearfix::after,.eea-container::after,.row::after,.form-horizontal .form-group::after,.nav::after,.navbar::after,.navbar-header::after,.navbar-collapse::after{clear:both}.clearfix::before,.clearfix::after,.eea-container::before,.eea-container::after,.row::before,.row::after,.form-horizontal .form-group::before,.form-horizontal .form-group::after,.nav::before,.nav::after,.navbar::before,.navbar::after,.navbar-header::before,.navbar-header::after,.navbar-collapse::before,.navbar-collapse::after{content:" ";display:table}.visualClear{display:block;clear:both}.hiddenStructure{border:0 !important;clip:rect(0 0 0 0) !important;clip-path:inset(50%) !important;height:1px !important;margin:-1px !important;overflow:hidden !important;padding:0 !important;position:absolute !important;white-space:nowrap !important;width:1px !important}.eea-slide-tooltips,#portal-logo-link-header,.navbar-toggle,.hiddenElem,.site-description,#print-warning,#portaltab-eeahome,#portal-searchbox,#edit-bar{display:none}.hidden{display:none !important}html{font-size:16px !important}body{font:75% 'Open Sans',Verdana,Helvetica,Arial,sans-serif;color:#333;margin:0;padding:0}#globalnav-holder{display:block}#visual-portal-wrapper{max-width:1024px;margin:30px auto 0 auto;padding:0;clear:both}#footer-wrapper{background-color:#004B87;margin:2em 0 0 0;padding:2em 0;clear:both}h1,h2,h3,h4,h5,h6{color:#004B87;font-weight:bold;font-family:'Open Sans', Verdana, Helvetica, Arial, sans-serif;line-height:1.5}p{font-family:'Open Sans', Verdana, Helvetica, Arial, sans-serif;margin:0 0 0.75em 0;line-height:1.5em}ul{margin:0 0 0 1.5em}.space-between{justify-content:space-between}.flex{display:flex}.flex-container{max-width:1024px;width:100%;margin:auto;display:flex;align-items:baseline;flex-wrap:wrap}.eea-container{margin:0 auto;padding:0 15px;max-width:1400px}.fullwidth .eea-container{max-width:100%}.pull-left{float:left !important}.pull-right{float:right !important}.list-items>li{display:list-item}.contentViews li{display:inline}.list-inline li{display:inline !important}.list-inline li::before{content:" "}@media screen{.width-full{width:100%}.row{width:100%;display:block;position:relative}.cell{position:relative;float:left}.width-3\:4{width:58.5%}}.width-1\:4{width:35.5%}.panel{display:none;z-index:600;background:transparent;border:0}#header-holder{width:100%;clear:both;display:block;position:relative}#header-holder .navbar{background-color:#FFF;border-bottom:1px solid #ececec}.navbar-toggle{position:relative;float:right;padding:9px 10px;margin-top:1em;margin-bottom:8px;background:transparent none;border:1px solid #ddd;border-radius:4px;cursor:pointer}.navbar-collapse{visibility:hidden;display:none}#portal-top{display:flex;flex-wrap:wrap}#portal-header{display:flex;justify-content:space-between;align-items:center;clear:both;position:relative;margin:0 auto;overflow:inherit;min-height:60px;z-index:initial;width:100%}#printLogo{display:block;width:auto;height:40px}#portal-globalnav{clear:both;display:flex;height:50px;list-style:none;margin:0 auto;max-width:1024px;padding:0;position:relative}.secondary-portaltabs{color:#666}#secondary-globalnav-tips{width:0;padding:0 !important;font-size:12px}.portal-globalnav>li,.secondary-portaltabs>li{margin:0;height:50px;display:flex;line-height:normal}.portal-globalnav>li>a,.eea-siteaction>a{display:flex;align-items:center}.portal-globalnav>li>a{color:inherit;padding:1em 0.75em}#portal-personaltools-wrapper{display:none}.eea-siteaction>a,.eea-siteaction>a:hover,.eea-siteaction .eea-icon{color:inherit;cursor:pointer}.siteaction-title{display:none;margin-left:0.2em}#siteaction-chooselang-menu .siteaction-title,#siteaction-search-menu .siteaction-title{display:inline-block}#siteaction-europe-menu{padding-left:1em;padding-right:0}.icon-siteaction-europe-flag{background:url("https://www.eea.europa.eu/europe-flag.svg") no-repeat top left;display:inline-block;width:60px;height:38px;-webkit-background-size:contain;background-size:contain}.fullwidth #portal-globalnav,.fullwidth #portal-header,.fullwidth .flex-container,.fullwidth #visual-portal-wrapper{max-width:100%}.fullwidth #visual-portal-wrapper{overflow:hidden}.fullwidth #portal-columns{min-width:100%}#eea-above-content{min-height:1px}.plone-breadcrumb{font-size:100%;margin-bottom:.5em;border-width:0 0 1px 0;border-style:solid;border-color:#ececec}.plone-breadcrumb-list>li{font-weight:400;display:inline-block;position:relative;padding:0 25px 0 0;margin:0;line-height:1}.plone-breadcrumb-list{display:inline-block;padding:8px 0;list-style:none;margin:0}.plone-breadcrumb-list .eea-icon{vertical-align:0}.fullwidth .plone-breadcrumb .container{margin:0;min-width:100%}.plone-breadcrumb-list>li+li:after{content:"\f054";position:absolute;color:#cccccc;padding:0;font-family:"FontAwesome";top:0;left:-18px}.plone-breadcrumb a{color:#086ca3}.plone-breadcrumb .breadcrumbSeparator,.plone-breadcrumb #breadcrumbs-you-are-here{display:none}.portalMessage{background-color:#f3f3f3;padding:1em;clear:both}#megatopics-area{font-size:0.9em;margin-bottom:1.5em;display:flex;flex-wrap:wrap;-ms-flex-wrap:nowrap;justify-content:space-between;width:100%}#megatopics-area .portlet,#megatopics-area dd{margin:0;padding:0;min-height:255px}.portlet-megatopic{display:flex;white-space:nowrap;flex:1}.portlet-megatopic ul{height:auto;margin:1.5em;padding:0}#portal-columns{padding-top:1em}.content-core p,.content-core li{font-size:115%}.content-core li,.portlet li,.portletStaticText li{margin-bottom:0.25em;line-height:1.5em;display:list-item}.documentContent li a{display:inline}.content-core ul{margin-left:1.5em}.content-core dt{font-weight:bold;margin-bottom:0}.portletHeader,.portlet .portletHeader{font-weight:normal;margin-bottom:1em}#content .featured p:last-child{margin-bottom:0}#main-content{display:flex;flex-wrap:wrap;justify-content:space-between}#portal-column-content{min-width:635px;padding:0 15px}#portal-column-two{min-width:350px}#portal-column-two .portlet{margin:0 0 1em 0}.column-area,.right-column-area{width:59.5%;flex-basis:59.5%;margin:0 0;padding:0}.right-column-area{width:39%;flex-basis:37.5%;order:1}.frontpage #highlights-area{padding:0;overflow:hidden}.featured,.portlet{margin-bottom:1em;padding:1.5em;background:#ffffff;border:1px solid #ececec}.figure-left{float:left}#article-language{margin-top:-40px;position:absolute;right:1.5em;display:block}.documentExportActions{float:right;margin:0 0 1em 1em}#news-header{height:35px;clear:both;display:block;margin:14px 0 5px 0}#news-header h2{border:none;font-size:160%;font-weight:normal;margin:6px;padding:0}#articles-area h2{padding-top:0;line-height:1em;border-bottom:0;font-weight:normal}#semantic-data-service{margin-top:0}#topic-selector{position:absolute;margin-top:2.8em;left:0;margin-left:8em}.filter-topic{float:left;text-align:left;width:81%;padding-top:6px;margin-top:0}.gallery-layout-selection{float:right;position:relative;top:5px;list-style:none;margin-bottom:10px;display:inline}#visual-portal-wrapper .eea-tabs{padding:0 10px 0 0;margin:0;font-size:12px;list-style:none none;background-color:#004B87;border:1px solid #ececec;border-bottom:0}.eea-tabs::before,.eea-tabs::after{display:table;content:" ";clear:both}#whatsnew-gallery .eea-tabs>li{float:left}#visual-portal-wrapper .eea-tabs.two-rows>li>a{line-height:2.5}.eea-tabs>li{margin:0;padding:0;display:inline-block}.eea-tabs>li>a{max-width:195px;position:relative;display:block;color:#fff;text-shadow:1px 1px 1px #000000;padding:8px}.eea-tabs.two-rows>li>a{line-height:1.35}.eea-tabs-panels{border:1px solid #ececec;padding:15px;clear:both}.eea-tabs-panel{display:none}.eea-tabs-panel:first-of-type{display:block}.tileImage{float:left;margin:1em 1em 1em 0}.archives{float:right;margin:1.5em 25px 15px 15px;position:relative;top:8px;line-height:1em}#eea-mobile-shortcut.shortcut-default,#enquiry-service-shortcut.shortcut-default{padding:25px 21px}.shortcut-default{text-align:left;padding:1.5em;background:#ffffff;margin-bottom:1em;border:1px solid #ececec}@media screen and (min-width: 1200px){.navbar-collapse{display:block;height:auto;overflow:visible;visibility:visible}}@media all and (-ms-high-contrast: none), (-ms-high-contrast: active){.hiddenStructure{display:none !important}#portal-logo-link{width:213px;display:block}}/* */
+/* */
+
+</style>
+            
+            
+        
+
+    
+        
+            
+            
+                
+                    <link rel="preload" onload="this.onload=null;this.rel='stylesheet'" href="https://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1558388351037513018.css" as="style" />
+                    <noscript><link rel="stylesheet" href="https://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1558388351037513018.css" /></noscript>
+                
+                
+            
+            
+            
+            
+        
+
+    
+        
+            
+            
+                
+                    <link rel="preload" onload="this.onload=null;this.rel='stylesheet'" href="https://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1558388351040683031.css" media="screen" as="style" />
+                    <noscript><link rel="stylesheet" href="https://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1558388351040683031.css" media="screen" /></noscript>
+                
+                
+            
+            
+            
+            
+        
+
+    
+        
+            
+            
+                
+                    <link rel="preload" onload="this.onload=null;this.rel='stylesheet'" href="https://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1558388351041013002.css" as="style" />
+                    <noscript><link rel="stylesheet" href="https://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1558388351041013002.css" /></noscript>
+                
+                
+            
+            
+            
+            
+        
+
+    
+
+    <script>
+        !function(t){"use strict";t.loadCSS||(t.loadCSS=function(){});var e=loadCSS.relpreload={};if(e.support=function(){var e;try{e=t.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),e.bindMediaToggle=function(t){function e(){t.media=a}var a=t.media||"all";t.addEventListener?t.addEventListener("load",e):t.attachEvent&&t.attachEvent("onload",e),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(e,3e3)},e.poly=function(){if(!e.support())for(var a=t.document.getElementsByTagName("link"),n=0;n<a.length;n++){var o=a[n];"preload"!==o.rel||"style"!==o.getAttribute("as")||o.getAttribute("data-loadcss")||(o.setAttribute("data-loadcss",!0),e.bindMediaToggle(o))}},!e.support()){e.poly();var a=t.setInterval(e.poly,500);t.addEventListener?t.addEventListener("load",function(){e.poly(),t.clearInterval(a)}):t.attachEvent&&t.attachEvent("onload",function(){e.poly(),t.clearInterval(a)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:t.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+    </script>
+    
+      <script src="https://www.eea.europa.eu/raven.min.js" ></script>
+    
+
+
+
+  
+
+
+<title>
+  How do human activities contribute to climate change and how do they compare with natural influences?
+  &mdash;
+
+  European Environment Agency
+</title>
+
+
+    
+
+    
+
+    
+        
+            
+        
+        
+            <base href="https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences" /><!--[if lt IE 7]></base><![endif]-->
+        
+    
+
+    
+
+    
+    <!-- dummy used until eea.pagedesign is installed, this file can be removed later -->
+
+
+    
+    
+
+
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    <script type="text/javascript">/* jslint:disable */
+!function(){var e=function(){function e(){if(!r.isReady){try{document.documentElement.doScroll("left")}catch(t){return void setTimeout(e,1)}r.ready()}}var t,n,o={};o["[object Boolean]"]="boolean",o["[object Number]"]="number",o["[object String]"]="string",o["[object Function]"]="function",o["[object Array]"]="array",o["[object Date]"]="date",o["[object RegExp]"]="regexp",o["[object Object]"]="object";var r={isReady:!1,readyWait:1,holdReady:function(e){e?r.readyWait++:r.ready(!0)},ready:function(e){if(!0===e&&!--r.readyWait||!0!==e&&!r.isReady){if(!document.body)return setTimeout(r.ready,1);if(r.isReady=!0,!0!==e&&--r.readyWait>0)return;t.resolveWith(document,[window.jQuery])}},bindReady:function(){if(!t){if(t=r._Deferred(),"complete"===document.readyState)return setTimeout(r.ready,1);if(document.addEventListener)document.addEventListener("DOMContentLoaded",n,!1),window.addEventListener("load",r.ready,!1);else if(document.attachEvent){document.attachEvent("onreadystatechange",n),window.attachEvent("onload",r.ready);var o=!1;try{o=null==window.frameElement}catch(e){}document.documentElement.doScroll&&o&&e()}}},_Deferred:function(){var e,t,n,o=[],i={done:function(){if(!n){var t,d,a,c,u,y=arguments;for(e&&(u=e,e=0),t=0,d=y.length;t<d;t++)a=y[t],"array"===(c=r.type(a))?i.done.apply(i,a):"function"===c&&o.push(a);u&&i.resolveWith(u[0],u[1])}return this},resolveWith:function(r,i){if(!n&&!e&&!t){i=i||[],t=1;try{for(;o[0];)o.shift().apply(r,i)}finally{e=[r,i],t=0}}return this},resolve:function(){return i.resolveWith(this,arguments),this},isResolved:function(){return!(!t&&!e)},cancel:function(){return n=1,o=[],this}};return i},type:function(e){return null==e?String(e):o[Object.prototype.toString.call(e)]||"object"}};return document.addEventListener?n=function(){document.removeEventListener("DOMContentLoaded",n,!1),r.ready()}:document.attachEvent&&(n=function(){"complete"===document.readyState&&(document.detachEvent("onreadystatechange",n),r.ready())}),function(e){r.bindReady();r.type(e);t.done(e)}}();window.jQuery=$=jq=function(t,n){return"function"==typeof t?e(t):new jQuery.fn.init(t,n)},window.jQuery.fn=window.jQuery.prototype={init:function(){return this}},window.jQuery.fn.init.prototype=window.jQuery.fn,window.jQuery.fn.ready=e}();
+</script>
+
+        <script type="text/javascript"> context_url='https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences';</script>
+    
+        <link rel="canonical" href="https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.eea.europa.eu/favicon.ico" />
+    <link rel="apple-touch-icon" href="https://www.eea.europa.eu/touch_icon.png" />
+
+
+<script type="text/javascript">
+        jQuery(function($){
+            if (typeof($.datepicker) != "undefined"){
+              $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional[''],
+                {dateFormat: 'dd/mm/yy'}));
+            }
+        });
+        </script>
+
+
+<meta property="og:title" content="How do human activities contribute to climate change and how do they compare with natural influences?" /><meta property="og:url" content="https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences" /><meta property="og:image" content="https://www.eea.europa.eu/logo.jpg" /><meta property="og:site_name" content="European Environment Agency" /><meta property="og:description" content="" /><meta property="og:type" content="article" />
+
+
+
+    <link rel="search" href="https://www.eea.europa.eu/search_form" title="Search this site" />
+
+
+</head>
+
+<body class="template-document_view portaltype-helpcenter_faq site-SITE section-themes subsection-climate subsection-climate-faq subsection-climate-faq-how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences icons-on userrole-anonymous en" dir="ltr" data-portal-url="https://www.eea.europa.eu" data-base-url="https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences" data-sentry-env="W1 AWS" data-sentry-ver="19.5.22" data-sentry-dsn="https://b8f49a13f9704ac88fb4c9bb30539028@sentry.eea.europa.eu/2">
+
+    <div id="print-warning">
+        <p>Do something for our planet, print this page only if needed. Even a small action can make an enormous difference when millions of people do it!</p>
+    </div>
+
+    <a class="eea-template back-to-toc-button link-without-style" href="#document-toc" title="Back to table of contents"></a>
+
+    <div id="header-holder">
+                               <div class="navbar navbar-default navbar-fixed-top">
+                               <div class="eea-container">
+                               <div class="navbar-header">
+                               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                               <span class="sr-only">Toggle navigation</span>
+                               <span class="icon-bar"></span>
+                               <span class="icon-bar"></span>
+                               <span class="icon-bar"></span>
+                               </button>
+                               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                               <div id="portal-top">
+                               
+                               <!-- ClickTale Top part -->
+<script type="text/javascript">
+var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
+
+<div id="portal-header">
+    <p class="hiddenStructure">
+  <a accesskey="2" href="#content">Skip to content.</a> |
+
+  <a accesskey="6" href="https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences#eea-portlet-navigation-tree">Skip to navigation</a>
+</p>
+
+<div id="logo-en" class="portal-logo">
+
+    <a href="https://www.eea.europa.eu" accesskey="1" id="portal-logo-link" title="European Environment Agency">
+        <img src="https://www.eea.europa.eu/EEA-logo-25-anniversary.svg" alt="European Environment Agency" id="printLogo" />
+    </a>
+</div>
+
+
+
+<div id="portal-searchbox" class="portal-searchbox">
+    
+    <script>(function() {
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = 'https://www.eea.europa.eu/eea-custom-search.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+            })();</script>
+    
+        <div class="gsc-control-cse gsc-control-cse-en gsc-control-wrapper-cse">
+            <form method="get" class="gsc-search-box gsc-search-box-tools" autocomplete="off" action="https://www.eea.europa.eu/eea-custom-search">
+                <table class="gsc-search-box">
+                    <tr>
+                        <td class="gsc-input">
+                            <div class="gsc-input-box">
+                                <input type="text" name="q" class="gsc-input-query js-gsc-input-query" placeholder="Search" data-tags-url="https://www.eea.europa.eu/eea-custom-search.tags" />
+                                
+                            </div>
+                        </td>
+                        <td class="gsc-search-button">
+                            <button class="gsc-search-button gsc-search-button-v2">
+                                <span class="eea-icon eea-icon-search"><!-- empty --></span>
+                            </button>
+                        </td>
+                        <td class="gsc-clear-button">
+                            <div class="gsc-clear-button"><!-- empty --></div>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="eea-search-links">
+            <a href="http://search.apps.eea.europa.eu" class="pull-left search_advanced_link">
+                <span>Advanced search</span>
+            </a>
+            <a class="pull-right search_glossary_link" href="/help/glossary">A-Z Glossary</a>
+        </div>
+    
+
+</div>
+
+
+     <div id="globalnav-holder">
+        <h5 class="hiddenStructure">Sections</h5>
+        <ul id="portal-globalnav"  class="portal-globalnav">
+
+            
+                
+                    <li id="portaltab-eeahome" class="plain">
+                     <a href="http://www.eea.europa.eu/" title="">
+                        <span>European Environment Agency</span>
+                    </a>
+                    </li>
+                
+
+                
+            
+                
+                    <li id="portaltab-themes" class="eea-nav-current">
+                     <a href="/themes" title="Explore by environmental topics">
+                        <span>Topics</span>
+                    </a>
+                    </li>
+                
+
+                
+            
+                
+                    <li id="portaltab-countries" class="plain">
+                     <a href="/countries-and-regions" title="">
+                        <span>Countries</span>
+                    </a>
+                    </li>
+                
+
+                
+            
+                
+                    <li id="portaltab-data-and-maps" class="plain">
+                     <a href="/data-and-maps" title="Environmental data, charts, maps, indicators and interactive data applications">
+                        <span>Data and maps</span>
+                    </a>
+                    </li>
+                
+
+                
+            
+                
+                    <li id="portaltab-indicators" class="plain">
+                     <a href="/data-and-maps/indicators/" title="">
+                        <span>Indicators</span>
+                    </a>
+                    </li>
+                
+
+                
+            
+                
+                    <li id="portaltab-reports" class="plain">
+                     <a href="/publications" title="">
+                        <span>Publications</span>
+                    </a>
+                    </li>
+                
+
+                
+            
+                
+                    <li id="portaltab-media" class="plain">
+                     <a href="/media" title="">
+                        <span>Media</span>
+                    </a>
+                    </li>
+                
+
+                
+            
+                
+                    <li id="portaltab-abouteea" class="plain">
+                     <a href="/about-us" title="">
+                        <span>About us</span>
+                    </a>
+                    </li>
+                
+
+                
+            
+
+        </ul>
+    </div>
+
+    <ul id="secondary-portaltabs" class="plain secondary-portaltabs">
+        
+            
+
+               <li class="eea-siteaction" id="siteaction-chooselang-menu">
+                   <a href="https://www.eea.europa.eu/chooselang/" target="_blank" title="EEA homepage in your language" accesskey="">
+                                   <span class="eea-icon eea-icon-lg eea-icon-globe eea-icon-marginless"><!-- --></span>
+                       <span class="siteaction-title">EN</span>
+                   </a>
+               </li>
+               <li class="eea-siteaction" id="siteaction-login-menu">
+                   <a href="https://www.eea.europa.eu/login/" target="_blank" title="Log in to CMS" accesskey="">
+                                   <span class="eea-icon eea-icon-lg eea-icon-sign-in"><!-- --></span>
+                       <span class="siteaction-title">Log in to CMS</span>
+                   </a>
+               </li>
+               <li class="eea-siteaction" id="siteaction-search-menu">
+                   <a href="http://search.apps.eea.europa.eu" target="_blank" title="Search" accesskey="">
+                                   <span class="eea-icon eea-icon-lg eea-icon-search eea-icon-marginless"><!-- --></span>
+                       <span class="siteaction-title">Search</span>
+                   </a>
+               </li>
+               <li class="eea-siteaction" id="siteaction-europe-menu">
+                   <a href="https://europa.eu/european-union/about-eu_en" target="_blank" title="The EEA is an agency of the European Union" accesskey="">
+                                   <span class="icon-siteaction-europe-flag"><!-- --></span>
+                       <span class="siteaction-title">The EEA is an agency of the European Union</span>
+                   </a>
+               </li>
+           
+        
+        <li id="secondary-globalnav-tips">
+            
+
+        <div id="js-siteaction-panels">
+
+            <div class="panel" id="tip-siteaction-chooselang-menu">
+                <div class="panel-top">
+                    <!-- -->
+                </div>
+                <div class="panel-content shadow">
+                    
+                    <ul id="chooselang" class="list-items">
+                        
+                        <li><a href="https://www.eea.europa.eu/sq" title="Albanian">Albanian (sq)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/bg" title="Bulgarian">Български (bg)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/bs" title="Bosnian">Bosnian (bs)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/cs" title="Czech">čeština (cs)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/hr" title="Croatian">Hrvatski (hr)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/da" title="Danish">dansk (da)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/nl" title="Dutch">Nederlands (nl)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/el" title="Greek">ελληνικά (el)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu" title="English">English (en)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/et" title="Estonian">eesti (et)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/fi" title="Finnish">Suomi (fi)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/fr" title="French">Français (fr)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/de" title="German">Deutsch (de)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/hu" title="Hungarian">magyar (hu)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/is" title="Icelandic">Íslenska (is)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/it" title="Italian">italiano (it)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/lv" title="Latvian">Latviešu (lv)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/lt" title="Lithuanian">lietuvių (lt)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/mk" title="Macedonian">Macedonian (mk)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/mt" title="Maltese">Malti (mt)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/no" title="Norwegian">Norsk (no)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/pl" title="Polish">polski (pl)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/pt" title="Portuguese">Português (pt)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/ro" title="Romanian">Română (ro)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/sk" title="Slovak">slovenčina (sk)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/sl" title="Slovenian">Slovenščina (sl)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/es" title="Spanish">Español (es)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/sv" title="Swedish">Svenska (sv)</a></li>
+                        
+                        <li><a href="https://www.eea.europa.eu/tr" title="Turkish">Türkçe (tr)</a></li>
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div class="panel" id="tip-siteaction-search-menu">
+                <div class="panel-top">
+                    <!-- -->
+                </div>
+                <div class="panel-content shadow">
+                    <div class="portal-searchbox">
+                        
+        <div class="gsc-control-cse gsc-control-cse-en gsc-control-wrapper-cse">
+            <form method="get" class="gsc-search-box gsc-search-box-tools" autocomplete="off" action="https://www.eea.europa.eu/eea-custom-search">
+                <table class="gsc-search-box">
+                    <tr>
+                        <td class="gsc-input">
+                            <div class="gsc-input-box">
+                                <input type="text" name="q" class="gsc-input-query js-gsc-input-query" placeholder="Search" data-tags-url="https://www.eea.europa.eu/eea-custom-search.tags" />
+                                
+                            </div>
+                        </td>
+                        <td class="gsc-search-button">
+                            <button class="gsc-search-button gsc-search-button-v2">
+                                <span class="eea-icon eea-icon-search"><!-- empty --></span>
+                            </button>
+                        </td>
+                        <td class="gsc-clear-button">
+                            <div class="gsc-clear-button"><!-- empty --></div>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="eea-search-links">
+            <a href="http://search.apps.eea.europa.eu" class="pull-left search_advanced_link">
+                <span>Advanced search</span>
+            </a>
+            <a class="pull-right search_glossary_link" href="/help/glossary">A-Z Glossary</a>
+        </div>
+    
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel" id="tip-siteaction-login-menu">
+                <div class="panel-top">
+                    <!-- -->
+                </div>
+                <div class="panel-content shadow">
+                    
+                        
+
+        <dl class="portalMessage error enable_cookies_message" style="display:none">
+            <dt>Error</dt>
+            <dd>Cookies are not enabled. You must enable cookies before you can log in.</dd>
+        </dl>
+
+        
+
+        <div class="portalMessage informationMessage">
+            
+                <p>The EEA Web CMS works best with following browsers:</p>
+                <div class="cms-browsers-links">
+                    <ul>
+                        <li class="cms-chrome">Google Chrome (recommended)</li>
+                        <li class="cms-firefox">Firefox</li>
+                    </ul>
+                    <p class="discreet">Internet Explorer is not recommended for the CMS area.</p>
+                </div>
+            
+        </div>
+
+            <form class="enableAutoFocus login_form" method="post" action="https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/login_form">
+
+                <div class="login-form">
+
+                    <input type="hidden" name="came_from" value="https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences" />
+
+                    <input type="hidden" name="next" />
+
+                    <input type="hidden" name="ajax_load" />
+
+                    <input type="hidden" name="ajax_include_head" />
+
+                    <input type="hidden" name="target" />
+
+                    <input type="hidden" name="mail_password_url" />
+
+                    <input type="hidden" name="join_url" />
+                    <input type="hidden" name="form.submitted" value="1" />
+                    <input type="hidden" name="js_enabled" value="0" />
+                    <input type="hidden" name="cookies_enabled" value="" />
+                    <input type="hidden" name="login_name" value="" />
+                    <input type="hidden" name="pwd_empty" value="0" />
+
+                    <div class="field">
+
+                        <label rel="__ac_name">Login Name</label>
+
+                        
+
+                        
+
+                        <input type="text" size="15" name="__ac_name" value="" />
+
+                </div>
+
+                <div class="field">
+
+                        <label rel="__ac_password">Password</label>
+
+                        
+
+                        <input type="password" size="15" name="__ac_password" />
+                </div>
+
+                    
+
+                    <div class="formControls">
+
+                        <input class="context" type="submit" name="submit" value="Log in" />
+
+                    </div>
+
+                </div>
+
+            </form>
+
+            
+
+            
+
+            <div class="login-forgotten-password">
+                <strong>Forgot your password?</strong>
+                <p class="discreet">If you have forgotten your password, <span>
+                        <a href="https://www.eea.europa.eu/mail_password_form?userid=">we can send you a new one</a></span>.</p>
+            </div>
+
+            
+
+        
+                    
+                </div>
+            </div>
+
+        </div>
+
+
+        
+        </li>
+    </ul>
+
+
+<div id="portal-personaltools-wrapper">
+
+<p class="hiddenStructure">Personal tools</p>
+
+
+
+
+
+</div>
+
+<script type="text/javascript">var object_archived = false;;</script>
+
+</div>
+
+                               
+                               </div>
+                               </div>
+                               </div>
+                               </div>
+                               </div>
+                               </div>
+
+    <div id="eea-above-columns"><nav id="portal-breadcrumbs" class="plone-breadcrumb">
+  <div class="eea-container breadcrumbs-container">
+    <span id="breadcrumbs-you-are-here" class="hiddenStructure">You are here:</span>
+    <ol aria-labelledby="breadcrumbs-you-are-here" class="plone-breadcrumb-list">
+      <li id="breadcrumbs-home">
+        <a title="Home" href="https://www.eea.europa.eu">
+            <em class="eea-icon eea-icon-lg eea-icon-home eea-icon-marginless"></em>
+        </a>
+      </li>
+      <li id="breadcrumbs-1">
+        
+          <a href="https://www.eea.europa.eu/themes" title="Environmental topics">Environmental topics</a>
+          
+        
+      </li>
+      <li id="breadcrumbs-2">
+        
+          <a href="https://www.eea.europa.eu/themes/climate" title="Climate change mitigation">Climate change mitigation</a>
+          
+        
+      </li>
+      <li id="breadcrumbs-3">
+        
+          <a href="https://www.eea.europa.eu/themes/climate/faq" title=" FAQ"> FAQ</a>
+          
+        
+      </li>
+      <li id="breadcrumbs-4">
+        
+          
+          <span id="breadcrumbs-current">How do human activities ...</span>
+        
+      </li>
+    </ol>
+  </div>
+</nav>
+</div>
+
+<div id="visual-portal-wrapper">
+
+        <div id="portal-columns" class="row">
+
+        <!-- start of the main and left columns -->
+        <div id="visual-column-wrapper">
+
+        <div id="portal-column-content" class="cell width-3:4 position-0">
+
+            
+                
+                    <div id="viewlet-above-content">
+
+
+<div id="eea-alchemy-modalEnabled"></div>
+
+
+
+</div>
+                
+            
+
+            
+                <div id="region-content" class="">
+
+                    
+                        
+
+                        
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+    
+
+                    
+
+                    
+                        <div id="content"  class="documentContent panels wf-state-published">
+
+                            
+
+                            
+                                <div class="content-header">
+                                    
+                                    
+                                        
+                                        
+            
+                <h1 id="parent-fieldname-title" class="documentFirstHeading">
+                    How do human activities contribute to climate change and how do they compare with natural influences?
+                </h1>
+            
+            
+        
+                                    
+                                    
+                                        
+                                            
+
+    
+
+
+<!-- LANGUAGE SWITCHER DEFINITION -->
+
+
+    
+
+
+
+    <div class="documentByLine" id="plone-document-byline">
+
+        <noscript>
+          
+          <div class="portalMessage warning">This website has limited functionality with javascript off. Please make sure javascript is enabled in your browser.</div>
+        </noscript>
+
+        
+            <span class="portalType">HelpCenter FAQ</span>
+
+            
+
+            
+
+            
+            
+            
+            
+        
+
+        
+
+        
+        
+    </div>
+
+
+
+
+<!-- environmental topics tags -->
+
+
+    
+
+
+                                        
+                                    
+
+                                    
+                                        
+                                        
+            
+                
+            
+            
+        
+                                    
+
+                                    
+                                </div>
+
+                                <div id="content-core" class="content-core">
+                                    
+      
+
+        
+
+  
+
+  
+
+    
+    
+      <div id="parent-fieldname-text"><p>Human activities contribute to <a title="" href="https://www.eea.europa.eu/themes/climate" class="internal-link" target="_self">climate change</a> by causing changes in Earth’s atmosphere in the amounts of greenhouse gases, aerosols (small particles), and cloudiness. The largest known contribution comes from the burning of fossil fuels, which releases carbon dioxide gas to the atmosphere.</p>
+<p><a title="" href="https://www.eea.europa.eu/../../../data-and-maps/indicators/greenhouse-gas-emission-trends-6/assessment-1" class="external-link" target="_self">Greenhouse gases</a> and aerosols affect climate by altering incoming solar radiation and out-going infrared (thermal) radiation that are part of Earth’s energy balance. Changing the atmospheric abundance or properties of these gases and particles can lead to a warming or cooling of the climate system.</p>
+<p>Since the start of the industrial era (about 1750), the overall effect of human activities on climate has been a warming influence. The human impact on climate during this era greatly exceeds that due to known changes in natural processes, such as solar changes and volcanic eruptions.</p>
+<h2 id="additional-information">Additional information<a data-anchorjs-icon="" href="https://www.eea.europa.eu/../eu-greenhouse-gas-inventory/eu-greenhouse-gas-inventory#additional-information" class="anchorjs-link "></a></h2>
+<ul>
+<li>Report: <span class="internal-link"><a title="" href="https://www.eea.europa.eu/../../../publications/analysis-of-key-trends-and" class="internal-link" target="_self">Analysis of key trends and drivers in greenhouse gas emissions in the EU</a><br /></span></li>
+<li>Report: <a title="" href="https://www.eea.europa.eu/publications/european-union-greenhouse-gas-inventory-2017" class="internal-link" target="_self">Annual European Union greenhouse gas inventory 1990–2015 and inventory report 2017</a></li>
+<li><span class="internal-link">Briefing: <a title="" href="https://www.eea.europa.eu/themes/climate/eu-greenhouse-gas-inventory/eu-greenhouse-gas-inventory-for" class="internal-link" target="_self">Key trends and drivers in greenhouse gas emissions in the EU in 2015 and the past 25 years</a></span></li>
+</ul>
+<ul>
+<li>Briefing:<a title="" href="https://www.eea.europa.eu/themes/climate/different-emission-estimates/emission-estimates-produced-by-eu" class="internal-link" target="_self"> Complementary emission estimates produced by EU organisations</a></li>
+</ul>
+<ul>
+<li><a title="" href="https://www.eea.europa.eu/../../../data-and-maps/data/data-viewers/greenhouse-gases-viewer" class="internal-link" target="_self">Greenhouse gas data viewer</a></li>
+</ul>
+<p> </p>
+<p><span>For more information, see </span><a href="http://www.ipcc.ch/pdf/assessment-report/ar4/wg1/ar4-wg1-faqs.pdf">FAQ 2.1</a><span>, extracted from Chapter 2 of "IPCC, 2007: </span><em><a href="http://www.ipcc.ch/ipccreports/ar4-wg1.htm">Climate Change 2007: The Physical Science Basis. Contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change</a></em><span> [Solomon, S., D. Qin, M. Manning, Z. Chen, M. Marquis, K.B. Averyt, M.Tignor and H.L. Miller (eds.)]. Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA".</span></p></div>
+    
+  
+
+
+
+      
+    
+                                </div>
+
+                                
+
+                                
+                                    
+                                        
+  
+
+                                    
+                                
+
+                                
+                                    
+  
+
+
+
+<!-- Geographic coverage -->
+
+
+<!-- Temporal coverage -->
+
+
+
+    
+    
+
+
+
+
+<div id="socialmedia-viewlet">
+
+    <div class="visualClear"><!-- --></div>
+
+    <div class="documentActions">
+        
+            <h5 class="hiddenStructure">Document Actions</h5>
+            <h2 class="share-title notoc">Share with others</h2>
+            
+            <table class="table-document-actions">
+                        <tr>
+                            <td>
+                <div id="socialmedia-list">
+                    <ul class="social-buttons">
+                        <li>
+                        <a rel="noopener" target="_blank" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=https%3A//www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences&amp;text=How%20do%20human%20activities%20contribute%20to%20climate%20change%20and%20how%20do%20they%20compare%20with%20natural%20influences%3F&amp;via=EUEnvironment">
+                                <span class="eea-icon eea-icon-twitter-square"><!-- --></span></a>
+                        </li>
+                        <li>
+                        <a rel="noopener" target="_blank" title="Share on Facebook" href="https://facebook.com/sharer.php?u=https%3A//www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences">
+                                <span class="eea-icon eea-icon-facebook-square"><!-- --></span></a>
+                        </li>
+                        <li>
+                        <a rel="noopener" target="_blank" title="Share on LinkedIn" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A//www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences&amp;title=How%20do%20human%20activities%20contribute%20to%20climate%20change%20and%20how%20do%20they%20compare%20with%20natural%20influences%3F&amp;summary=">
+                                <span class="eea-icon eea-icon-linkedin-square"><!-- --></span></a>
+                        </li>
+                        <li>
+                        <a rel="noopener" target="_blank" title="Share on Blogger" href="https://www.blogger.com/blog-this.g?u=https%3A//www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences&amp;n=How%20do%20human%20activities%20contribute%20to%20climate%20change%20and%20how%20do%20they%20compare%20with%20natural%20influences%3F&amp;t=">
+                                <span class="eea-icon eea-icon-bold"><!-- --></span></a>
+                        </li>
+                        <li>
+                        <a rel="noopener" target="_blank" title="Share on reddit" href="https://reddit.com/submit?url=https%3A//www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences&amp;title=How%20do%20human%20activities%20contribute%20to%20climate%20change%20and%20how%20do%20they%20compare%20with%20natural%20influences%3F">
+                                <span class="eea-icon eea-icon-reddit-square"><!-- --></span></a>
+                        </li>
+                        <li>
+                        <a rel="noopener" target="_blank" title="Share on StumbleUpon" href="http://www.stumbleupon.com/submit?url=https%3A//www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences">
+                                <span class="eea-icon eea-icon-stumbleupon-circle"><!-- --></span></a>
+                        </li>
+                    </ul>
+                </div>
+                            </td>
+                <td class="action-items">
+                   <ul class="action-buttons">
+                   <li id="document-action-rdf">
+                       <a href="https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/@@rdf" title="">
+                      <img src="https://www.eea.europa.eu/rdf.png" alt="RDF" title="RDF"/>
+                      
+                       </a>
+                   </li>
+                   <li id="document-action-semantic">
+                       <a href="http://semantic.eea.europa.eu/factsheet.action?uri=http://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences" title="">
+                      <img src="https://www.eea.europa.eu/book_open.png" alt="Metadata sheet on semantic" title="Metadata sheet on semantic"/>
+                      
+                       </a>
+                   </li>
+                   </ul>
+
+               </td>
+                        </tr>
+            </table>
+        
+    </div>
+
+</div>
+
+<div class="qrbox featured">
+  <div class="qrbox-text" style="font-size:x-small;">
+
+    <p><strong>For references</strong>, please go to <a href="https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences">https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences</a> or scan the QR code.</p>
+    
+    <p>
+      <span class="discreet">
+        PDF generated on 07 Jun 2019, 04:48 AM
+      </span>
+    </p>
+</div>
+
+<img class="qr" alt="EEA Page URL QR" title="EEA Page URL QR" src="https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/@@eeaqrcode" />
+</div>
+
+<!-- Exclude coverage -->
+
+    
+
+
+
+                                
+
+                                
+                            
+                        </div>
+                    
+
+                    
+                </div>
+
+            
+
+            
+                
+                    <div id="viewlet-below-content">
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+                
+            
+        </div>
+
+        
+
+        <div id="portal-column-one">
+        </div>
+
+        <div id="portal-column-two" class="cell width-1:4 position-3:4">
+            
+
+                
+                    
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777770a6e617669676174696f6e" data-portlethash="706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777770a6e617669676174696f6e">
+<dl class="portlet portletNavigationTree">
+
+  <dt class="portletHeader" id="firstHeader">
+    <a href="https://www.eea.europa.eu/themes/climate">Climate change mitigation</a>
+  </dt>
+
+  
+    
+
+  <dt class="portletSubMenuHeader">
+    <span class="title eea-icon-right-container">Menu</span>
+  </dt>
+
+  <dd class="portletItem lastItem">
+    <ul class="navTree navTreeLevel0">
+      
+
+
+
+<li class="navTreeItem visualNoMarker section-intro">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/intro" title="Climate change is already happening: temperatures are rising, rainfall patterns are shifting, glaciers and snow are melting, and the global mean sea level is rising. Most of the warming is very likely due to the observed increase in atmospheric greenhouse gas concentrations as a result of emissions from human activities. To mitigate climate change, we must reduce or prevent these emissions." class="state-published contenttype-document">
+          
+            <span>Climate change mitigation</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-highlights">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/highlights" title="" class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>News</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-articles">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/articles" title="" class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>Articles</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-publications">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/publications" title="" class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>Publications</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-multimedia">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/multimedia" title="" class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>Multimedia</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeItemInPath navTreeFolderish section-faq">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/faq" title="" class="state-published_eionet navTreeItemInPath navTreeFolderish contenttype-folder">
+          
+            <span>faq</span>
+        </a>
+
+    <ul class="navTree navTreeLevel1">
+        
+
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-faqs_topic">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/faq/faqs_topic" title="" class="state-published navTreeFolderish contenttype-topic">
+          
+            <span>FAQ</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker section-everything-on-climate-change-in-226-words">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/faq/everything-on-climate-change-in-226-words" title="" class="state-published contenttype-helpcenter_faq">
+          
+            <span>Climate change in 226 words</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker section-what-makes-climate-change">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/faq/what-makes-climate-change" title="" class="state-published contenttype-helpcenter_faq">
+          
+            <span>What makes the climate change?</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker section-how-is-the-climate-going-to-change-in-the-future">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/faq/how-is-the-climate-going-to-change-in-the-future" title="What are the projected changes for the 21st century and on the longer term?" class="state-published contenttype-helpcenter_faq">
+          
+            <span>How is the climate going to change in the future?</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker section-what-impacts-of-climate-change-have-already-been">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/faq/what-impacts-of-climate-change-have-already-been-observed" title="" class="state-published contenttype-helpcenter_faq">
+          
+            <span>What impacts of climate change have already been observed?</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker section-how-is-climate-changing-and-how-has-it-changed-in">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/faq/how-is-climate-changing-and-how-has-it-changed-in-the-past" title="What changes have been observed so far in climate?
+What is causing the present-day changes in climate?" class="state-published contenttype-helpcenter_faq">
+          
+            <span>How is climate changing and how has it changed in the past?</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker section-what-actions-can-be-taken-to-reduce-greenhouse-gas">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/faq/what-actions-can-be-taken-to-reduce-greenhouse-gas-emissions" title="What are the costs, the co-benefits and the longer term implications of mitigation actions?
+How can changes in lifestyle and behaviour patterns contribute?
+How can different sectors reduce emissions?
+Which actions have been taken in Europe to reduce greenhouse gas emissions?" class="state-published contenttype-helpcenter_faq">
+          
+            <span>What actions can be taken to reduce greenhouse gas emissions?</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker section-how-do-people-adapt-to-climate-change">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/faq/how-do-people-adapt-to-climate-change" title="What are the current adaptation strategies?
+What makes populations vulnerable to climate change?
+What are the relative roles of mitigation and adaptation?" class="state-published contenttype-helpcenter_faq">
+          
+            <span>How do people adapt to climate change?</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker section-what-impacts-are-expected-in-the-future">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/faq/what-impacts-are-expected-in-the-future" title="What impacts are expected on natural systems, on human populations, in specific regions?
+What is their magnitude?
+What are the projected impacts of extreme climate events?" class="state-published contenttype-helpcenter_faq">
+          
+            <span>What impacts are expected in the future?</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker section-what-is-the-greenhouse-effect">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/faq/what-is-the-greenhouse-effect" title="" class="state-published contenttype-helpcenter_faq">
+          
+            <span>What is the greenhouse effect?</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeCurrentNode section-how-do-human-activities-contribute-to-climate">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences" title="" class="state-published navTreeCurrentItem navTreeCurrentNode contenttype-helpcenter_faq">
+          
+            <span>How do human activities contribute to climate change and how do they compare with natural influences?</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker section-list-all">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/faq/folder_listing" title="List all items" class="state-published contenttype-document">
+          
+            <span>List all</span>
+        </a>
+
+    
+    
+</li>
+
+
+
+
+    </ul>
+    
+</li>
+
+
+
+
+    </ul>
+  </dd>
+
+
+
+  
+    
+
+  <dt class="portletSubMenuHeader">
+    <span class="title eea-icon-right-container">Data centre</span>
+  </dt>
+
+  <dd class="portletItem lastItem">
+    <ul class="navTree navTreeLevel0">
+      
+
+
+
+<li class="navTreeItem visualNoMarker section-dc">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/dc" title="The climate change data centre provides access to data and information on greenhouse gas emissions, climate change impacts, vulnerability and adaptation in Europe. Priority is given to policy-relevant data and information for European and national policy makers, influencers (such as NGOs, business, media and scientists) and the general public." class="state-published contenttype-document">
+          
+            <span>Data centre overview</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-interactive">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/interactive" title="" class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>Interactive maps and data viewers</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-ghg-country-profiles">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/ghg-country-profiles" title="The following country profiles summarise key data on greenhouse gas emissions for each EU Member State, the European Union (EU-27), the EU-15 and other EEA member countries. These brief and visual 2-page fact sheets complement the information available in the EEA GHG data and CITL viewers and in EEA report on greenhouse gas emission trends and projections." class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>GHG country profiles</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-dm">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/dm" title="" class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>Data and maps</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker section-reporting-obligations">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/reporting-obligations" title="" class="state-published contenttype-document">
+          
+            <span>Countries data reporting</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-gis">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/gis" title="Here you will find a wide range of Environmental Data from Europe as map services. This website will help to view these maps and create Internet applications using ArcGIS Server Technology APIs." class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>GIS applications API</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-indicators">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/indicators" title="" class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>Indicators</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-different-emission-estimates">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/different-emission-estimates" title="" class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>Different emission estimates produced by EU institutions</span>
+        </a>
+
+    
+    
+</li>
+
+
+
+
+    </ul>
+  </dd>
+
+
+
+  
+    
+
+  <dt class="portletSubMenuHeader">
+    <span class="title eea-icon-right-container">Subtopics</span>
+  </dt>
+
+  <dd class="portletItem lastItem">
+    <ul class="navTree navTreeLevel0">
+      
+
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-ozone-depleting-substances-and-climate-change">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/ozone-depleting-substances-and-climate-change" title="" class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>Ozone depleting substances and climate change</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-trends-and-projections-in-europe">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/trends-and-projections-in-europe" title="The EEA’s annual report on Trends and Projections in Europe updates the progress assessments of the EU and European countries towards their climate mitigation and energy targets. It also sets sights forward towards the EU’s 2020 and new 2030 targets on reducing greenhouse gas emissions, increasing renewable energy generation and improving energy efficiency.
+The assessments in the Trends and Projections in Europe report draw on the most recent data on EU and Member States’ progress to their climate and energy targets. These include: EU’s and Member States’ GHG inventory, Member States’ Effort Sharing datasets, Member States’s GHG projections, Proxyestimates of greenhouse gas emissions in the most recent year. 
+" class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>Trends and projections in Europe </span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-eu-greenhouse-gas-inventory">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/eu-greenhouse-gas-inventory" title="" class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>EU greenhouse gas inventory</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-financing-europe2019s-low-carbon-climate">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/financing-europe2019s-low-carbon-climate" title="" class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>Financing Europe’s low carbon, climate resilient future</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-national-policies-and-measures">
+
+    
+
+        <a href="https://www.eea.europa.eu/themes/climate/national-policies-and-measures" title="" class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>Policies and measures</span>
+        </a>
+
+    
+    
+</li>
+
+
+
+
+    </ul>
+  </dd>
+
+
+
+  
+    
+
+  
+</dl>
+
+</div>
+
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777770a636f6e746578742d656561726561646162696c697479636865636b6572" data-portlethash="706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777770a636f6e746578742d656561726561646162696c697479636865636b6572">
+
+
+  
+    
+  
+
+  
+
+</div>
+
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777770a706f72746c65745f67617a65747465" data-portlethash="706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777770a706f72746c65745f67617a65747465">
+
+
+  
+    <div>
+       <div>
+
+      <!-- the fancy box email subscription -->
+      <div style="display:none;">
+          <div style="width: 280px; height: 250px;" id="subscribe-popup">
+              <div>
+
+<dl class="portlet portlet-subscription">
+      <dt>Subscriptions</dt>
+      <dd class="portletItem">
+        <span><span><a href="https://www.eea.europa.eu/subscription/targeted-subscription">Sign up</a></span> to receive our reports (print and/or electronic) and quarterly e-newsletter.</span>
+      </dd>
+
+</dl>
+</div>
+          </div>
+      </div>
+
+      <dl class="portlet" id="portlet-followus">
+        <dt class="portletHeader">Follow us</dt>
+        <dd>
+            <a class="link-plain" title="Follow us on Twitter" href="http://twitter.com/euenvironment">
+                <span class="eea-icon eea-icon-marginless eea-icon-twitter-square eea-icon-3x"></span></a>
+        </dd>
+        <dd>
+            <a class="link-plain" title="Follow us on Facebook" href="http://www.facebook.com/European.Environment.Agency">
+                <span class="eea-icon eea-icon-marginless eea-icon-facebook-square eea-icon-3x"></span></a>
+        </dd>
+        <dd>
+            <a class="link-plain" title="Follow us on Linked In" href="https://www.linkedin.com/company/european-environment-agency">
+                <span class="eea-icon eea-icon-marginless eea-icon-linkedin-square eea-icon-3x"></span></a>
+        </dd>
+        <dd>
+            <a class="link-plain" title="Follow us on YouTube" href="http://www.youtube.com/user/EEAvideos">
+                <span class="eea-icon eea-icon-marginless eea-icon-youtube-square eea-icon-3x"></span></a>
+        </dd>
+        <dd>
+            <a class="link-plain" title="Subscribe to RSS Feed" href="https://www.eea.europa.eu/subscription/news-feeds">
+            <span class="eea-icon eea-icon-marginless eea-icon-rss-square eea-icon-3x"></span></a>
+        </dd>
+        <dd>
+            <a class="link-plain" title="Subscribe by email" href="https://www.eea.europa.eu/subscription/targeted-subscription">
+            <span class="eea-icon eea-icon-marginless eea-icon-marginless eea-icon-envelope eea-icon-3x"></span></a>
+        </dd>
+      </dl>
+</div>
+</div>
+  
+
+  
+
+</div>
+
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777772f534954450a706f72746c65745f636d735f6163746976697479" data-portlethash="706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777772f534954450a706f72746c65745f636d735f6163746976697479">
+
+
+  
+    
+
+
+
+
+  
+
+  
+
+</div>
+
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777772f534954452f7468656d65732f636c696d6174650a6272696566696e67732d66726f6d2d7468652d6c61746573742d6575726f7065616e2d73746174652d616e64" data-portlethash="706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777772f534954452f7468656d65732f636c696d6174650a6272696566696e67732d66726f6d2d7468652d6c61746573742d6575726f7065616e2d73746174652d616e64"><dl class="portlet portletCollection portlet-collection-briefings-from-the-latest-european-state-and">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="https://www.eea.europa.eu/themes/climate/briefings-soer/briefings">
+            <span>Briefings from the latest European state and outlook report</span>
+        </a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    
+    <dd class="portletItem odd">
+        <a href="https://www.eea.europa.eu/soer-2015/europe/mitigating-climate-change" class="tile contenttype-fiche" title="">
+            Mitigating climate change
+            
+        </a>
+    </dd>
+    
+    <dd class="portletItem even">
+        <a href="https://www.eea.europa.eu/soer-2015/countries-comparison/climate-change-mitigation" class="tile contenttype-fiche" title="">
+            Mitigating climate change — greenhouse gas emissions 
+            
+        </a>
+    </dd>
+    
+    <dd class="portletItem odd">
+        <a href="https://www.eea.europa.eu/soer-2015/europe/the-air-and-climate-system" class="tile contenttype-fiche" title="">
+            The air and climate system
+            
+        </a>
+    </dd>
+    
+
+    <dd class="portletFooter">
+        <span class="portletBottomLeft"></span>
+        <span>
+        <a href="https://www.eea.europa.eu/themes/climate/briefings-soer/briefings">
+           <span class="hiddenStructure">Briefings from the latest European state and outlook report - </span>
+           <span>More&hellip;</span>
+        </a>
+        </span>
+        <span class="portletBottomRight"></span>
+    </dd>
+
+</dl>
+</div>
+
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777772f534954452f7468656d65730a6565612d66656174757265642d61727469636c65" data-portlethash="706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777772f534954452f7468656d65730a6565612d66656174757265642d61727469636c65">
+                                
+
+    
+        <a href="https://www.eea.europa.eu/articles" class=" archives link-plain">
+            <span>Archive</span></a>
+    
+    
+        
+            <div class="featured">
+                <h2 class="column-title"><span>Featured article</span></h2>
+                <div class="featured-highlights">
+                    <div class="figure-left">
+                        
+                        
+                            <a href="https://www.eea.europa.eu/articles/eea-25-years-of-growing">
+                                    <img alt="EEA: 25 years of growing knowledge to support European environment policies" width="125" height="70" src="https://www.eea.europa.eu/articles/eea-25-years-of-growing/image_mini" title="EEA: 25 years of growing knowledge to support European environment policies" />
+                            </a>
+                        
+                    </div>
+
+                    
+
+                    
+                        <div class="featured-highlight-title">
+                            <h3 class="highlight">
+                                <a href="https://www.eea.europa.eu/articles/eea-25-years-of-growing" class="noPrint">EEA: 25 years of growing knowledge to support European environment policies</a></h3>
+                        </div>
+                        <div class="featured-highlight-description">
+                            <p>The European Union (EU) has one of the most ambitious sets of environment and climate targets in the world, covering a wide range of policy areas from air quality, waste and water quality to energy ...</p>
+                            <p><a href="https://www.eea.europa.eu/articles/eea-25-years-of-growing" class="moreLink">Read more</a></p>
+                        </div>
+                    
+                </div>
+            </div>
+        
+    
+
+                            
+</div>
+
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777772f534954452f7468656d65730a61737369676e6d656e74" data-portlethash="706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777772f534954452f7468656d65730a61737369676e6d656e74">
+
+
+  
+    
+
+    
+
+
+  
+
+  
+
+</div>
+
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777772f534954452f7468656d65730a6565612d70726f6d6f74696f6e2d67616c6c657279" data-portlethash="706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777772f534954452f7468656d65730a6565612d70726f6d6f74696f6e2d67616c6c657279">
+
+<div id="promo-gallery-wrapper">
+<div id="gallery-content-outer-sm">
+  <ul id="promo-gallery-content-sm">
+      
+                        <li>
+
+                            
+    
+
+    
+        
+                                    
+                                        
+                                            <a href="https://www.eea.europa.eu/signals/signals-2017/articles/shaping-the-future-of-energy" title="Shaping the future of energy in Europe: Clean, smart and renewable" class="">
+                                                <img alt="Shaping the future of energy in Europe: Clean, smart and renewable" src="https://www.eea.europa.eu/signals/signals-2017/articles/shaping-the-future-of-energy/image_preview" title="Shaping the future of energy in Europe: Clean, smart and renewable" />
+                                            </a>
+                                        
+                                        
+                                    
+                                    <div class="promo-item-desc-sm">
+                                        <h3><a href="https://www.eea.europa.eu/signals/signals-2017/articles/shaping-the-future-of-energy" class="">Shaping the future of energy in Europe: Clean, smart and renewable</a></h3>
+                                        
+                                    </div>
+                                
+    
+
+                        </li>
+        
+      
+                        <li>
+
+                            
+    
+
+    
+        
+                                    
+                                        
+                                            <a href="https://www.eea.europa.eu/media/audiovisuals/where-next-for-europes-environment/view" title="Where next for Europe's environment?" class="video-fancybox cloudvideo">
+                                                <img alt="Where next for Europe's environment?" src="https://www.eea.europa.eu/media/audiovisuals/where-next-for-europes-environment/image_preview" title="Where next for Europe's environment?" />
+                                            </a>
+                                        
+                                        
+                                    
+                                    <div class="promo-item-desc-sm">
+                                        <h3><a href="https://www.eea.europa.eu/media/audiovisuals/where-next-for-europes-environment/view" class="video-fancybox">Where next for Europe's environment?</a></h3>
+                                        
+                                    </div>
+                                
+    
+
+                        </li>
+        
+      
+                        <li>
+
+                            
+    
+
+    
+        
+                                    
+                                        
+                                            <a href="http://www.eea.europa.eu/data-and-maps/pam" title="Climate change mitigation policies and measures in Europe" class="">
+                                                <img alt="Climate change mitigation policies and measures in Europe" src="https://www.eea.europa.eu/data-and-maps/data/data-viewers/climate-change-mitigation-policies/image_preview" title="Climate change mitigation policies and measures in Europe" />
+                                            </a>
+                                        
+                                        
+                                    
+                                    <div class="promo-item-desc-sm">
+                                        <h3><a href="http://www.eea.europa.eu/data-and-maps/pam" class="">Climate change mitigation policies and measures in Europe</a></h3>
+                                        
+                                    </div>
+                                
+    
+
+                        </li>
+        
+    </ul>
+    </div>
+
+<!-- navigation outer -->
+
+<div id="navigator-outer-sm">
+    <ul id="promo-navigator-sm">
+  
+                    <li>
+                        <div>
+                        
+                        <img alt="Shaping the future of energy in Europe: Clean, smart and renewable" src="https://www.eea.europa.eu/signals/signals-2017/articles/shaping-the-future-of-energy/image_tile" title="Shaping the future of energy in Europe: Clean, smart and renewable" />
+                        
+
+                        
+                    </div>
+                    </li>
+  
+  
+                    <li>
+                        <div>
+                        
+                        <img alt="Where next for Europe's environment?" src="https://www.eea.europa.eu/media/audiovisuals/where-next-for-europes-environment/image_tile" title="Where next for Europe's environment?" />
+                        
+
+                        
+                    </div>
+                    </li>
+  
+  
+                    <li>
+                        <div>
+                        
+                        <img alt="Climate change mitigation policies and measures in Europe" src="https://www.eea.europa.eu/data-and-maps/data/data-viewers/climate-change-mitigation-policies/image_tile" title="Climate change mitigation policies and measures in Europe" />
+                        
+
+                        
+                    </div>
+                    </li>
+  
+        </ul>
+    </div>
+    <div class="controls-sm">
+        <a  href="#" id="prev-promo"><span class="eea-icon eea-icon-lg eea-icon-chevron-left"></span></a>
+        <a  href="#" id="next-promo"><span class="eea-icon eea-icon-lg eea-icon-chevron-right"></span></a>
+        <a  href="#" id="play-pause" title="Pause/Play slideshow" class="promo-gallery-pause eea-icon eea-icon-lg" aria-pressed="true" role="button" ></a>
+    </div>
+
+</div>
+ <!--end promotion_gallery macro -->
+
+</div>
+
+
+
+
+                
+            
+        </div>
+        
+    </div>
+    <div class="visualClear"><!-- --></div>
+ </div>
+    <!-- end column wrapper -->
+
+</div>
+
+
+    
+        <div class="row">
+    <div id="footer-wrapper">
+        <div id="bg-wrapper">
+
+                <div id="portal-footer">
+                    
+
+
+<div id="portletwrapper-706c6f6e652e666f6f7465720a636f6e746578740a2f7777770a706f72746c65745f666f6f7465725f73656374696f6e73" class="portletWrapper kssattr-portlethash-706c6f6e652e666f6f7465720a636f6e746578740a2f7777770a706f72746c65745f666f6f7465725f73656374696f6e73">
+
+
+  
+    
+
+    <!-- eionet -->
+    <div class="colophon-section section-dark section-top">
+        <div class="section-centered">
+        <h2 class="mb-0 section-header h1 no-anchor">Eionet</h2>
+        <a href="https://www.eionet.europa.eu/" class="text-center">European Environment Information and Observation Network (Eionet)</a>
+        </div>
+    </div>
+     <!-- end eionet section -->
+
+
+    <!-- managed sites -->
+    <div class="colophon-section section-dark section-bordered">
+        <div class="section-centered space-around">
+
+            <h2 class="section-header h1 no-anchor"><span>The EEA also contributes to</span></h2>
+
+            <table class="left-table">
+                <tr><td class="table-link-title"><a href="https://biodiversity.europa.eu/" target="_blank">BISE</a></td>
+                    <td class="table-link-description">
+                        <a href="https://biodiversity.europa.eu/" target="_blank">Biodiversity Information System for Europe</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table-link-title">
+                        <a href="https://climate-adapt.eea.europa.eu/" target="_blank">Climate-ADAPT</a>
+                    </td>
+                    <td class="table-link-description">
+                        <a href="https://climate-adapt.eea.europa.eu/" target="_blank">Climate Adaptation Platform</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="table-link-title">
+                        <a href="https://insitu.copernicus.eu/" target="_blank">Copernicus In Situ</a>
+                    </td>
+                    <td class="table-link-description">
+                        <a href="https://insitu.copernicus.eu/" target="_blank">Copernicus in situ component</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table-link-title">
+                        <a href="https://land.copernicus.eu/" target="_blank">Copernicus Land</a>
+                    </td>
+                    <td class="table-link-description">
+                        <a href="https://land.copernicus.eu/" target="_blank">Copernicus land monitoring</a>
+                    </td>
+                </tr>
+            </table>
+
+            <table class="right-table">
+                <tr>
+                    <td class="table-link-description">
+                        <a href="https://prtr.eea.europa.eu/" target="_blank">European Pollutant Release and Transfer Register</a>
+                    </td>
+                    <td class="table-link-title">
+                        <a href="https://prtr.eea.europa.eu/" target="_blank">E-PRTR</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table-link-description"><a href="https://ipchem.jrc.ec.europa.eu/RDSIdiscovery/ipchem/index.html" target="_blank">Information Platform for Chemical Monitoring</a></td>
+                    <td class="table-link-title">
+                        <a href="https://ipchem.jrc.ec.europa.eu/RDSIdiscovery/ipchem/index.html" target="_blank">IPCHEM</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="table-link-description"><a href="https://water.europa.eu/marine" target="_blank">Marine Water Information System for Europe</a></td>
+                    <td class="table-link-title">
+                        <a href="https://water.europa.eu/marine" target="_blank">WISE-Marine</a>
+                    </td>
+                </tr>
+                <tr><td class="table-link-description"><a href="https://water.europa.eu/freshwater" target="_blank">Fresh Water Information System for Europe</a></td>
+                    <td class="table-link-title">
+                        <a href="https://water.europa.eu/freshwater" target="_blank">WISE-FreshWater</a>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+<!--  end managed sites -->
+
+     <!-- follow us -->
+    <div class="colophon-section section-dark section-bordered">
+
+        <h2 class="section-header h1 no-anchor">Follow us</h2>
+
+        <div class="section-centered">
+
+            <a class="link-plain media" title="Follow us on Twitter" href="https://twitter.com/euenvironment">
+                <span class="eea-icon  eea-icon-twitter-square eea-icon-4x"><!-- --></span></a>
+            <a class="link-plain media" title="Follow us on Facebook" href="https://www.facebook.com/European.Environment.Agency">
+                <span class="eea-icon  eea-icon-facebook-square eea-icon-4x"><!-- --></span></a>
+            <a class="link-plain media" title="Follow us on LinkedIn" href="https://www.linkedin.com/company/european-environment-agency">
+                <span class="eea-icon  eea-icon-linkedin-square eea-icon-4x"><!-- --></span></a>
+            <a class="link-plain media" title="Follow us on YouTube" href="https://www.youtube.com/user/EEAvideos">
+                <span class="eea-icon eea-icon-youtube-square eea-icon-4x"><!-- --></span></a>
+            <a class="link-plain media" title="Subscribe to RSS Feed" href="/subscription/news-feeds">
+                <span class="eea-icon eea-icon-rss-square eea-icon-4x"><!-- --></span></a>
+
+            <div class="media media--discreet">
+                <a class="link-plain media-link align-center" title="Subscribe by email" href="/subscription/targeted-subscription">
+                    <span class="eea-icon eea-icon-4x eea-icon-newspaper-o"><!-- --></span>
+                    <div class="media-body">
+                        <span>Sign up to receive our news notifications</span>
+                        <br>
+                        <span>and our quarterly e-newsletter</span>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- end follow us -->
+
+    <!-- contact us section -->
+    <div class="colophon-section section-dark section-bordered section-contact-us">
+        <div class="section-centered">
+
+            <h2 class="section-header h1 no-anchor">Contact us</h2>
+            <div class="media my-2">
+                <span class="eea-icon eea-icon-4x eea-icon-map-marker"><!-- --></span>
+                <div class="media-body">Kongens Nytorv 6 <br> 1050 Copenhagen K</div>
+            </div>
+
+            <div class="media my-2">
+                <span class="eea-icon eea-icon-4x eea-icon-phone"><!-- --></span>
+                <div class="media-body">
+                    <span>Phone number:</span>
+                    <br>
+                    <a href="tel:+4533367100">(+45) 33 36 71 00</a>
+                </div>
+            </div>
+
+            <div class="media my-2">
+                <span class="eea-icon eea-icon-4x eea-icon-comment"><!-- --></span>
+                <div class="media-body media-body-enquiries">
+                    <a href="//community.eea.europa.eu/" class="block">Ask your question via the EEA Forum</a>
+                    <a href="https://www.eea.europa.eu/media/">Media enquiries</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end contact us section -->
+
+
+
+  
+
+  
+
+</div>
+
+
+                    
+                 </div>
+        </div>
+    </div>
+</div>
+
+<div id="portal-colophon">
+    
+
+    <div class="colophonWrapper">
+        <div class="colophon-section  section-bordered">
+            <div class="section-centered">
+                <a href="https://europa.eu/european-union/about-eu_en">
+                    <div class="media mb-0">
+                    <span class="icon-siteaction-europe-flag" alt="EU flag" title="European Union Flag"><!-- empty --></span>
+                        <span class="europe-agency-text">The EEA is an agency of the European Union</span>
+                    </div>
+                </a>
+                </div>
+        </div>
+
+        <div class="colophon-section section-bordered-inversed">
+
+            <div class="section-centered eea-software-info">
+            <p class="colophon-links">
+                <span class="eea-icon eea-icon-tasks"><!-- empty --></span>
+                Engineered by:
+                <a href="https://www.eea.europa.eu/help/contact-info">EEA Web Team</a>
+            </p>
+                
+                <p class="colophon-links">
+                    Software updated on
+                    
+                    <em>22 May 2019 08:08</em>
+                    from version <em>19.5.20</em>
+                </p>
+            <p class="colophon-links">
+                Software version:
+                
+                <a href="https://github.com/eea/eea.docker.kgs/releases">EEA Plone KGS 19.5.22</a>
+            </p>
+
+            <p class="colophon-links">
+                <a href="https://www.eea.europa.eu/code" title="Code for developers">Code for developers</a>
+            </p>
+
+            
+
+            <p class="colophon-links">
+                <a href="https://www.eea.europa.eu/legal/">Legal notice</a>
+            </p>
+
+            <p class="colophon-links">
+                <a rel="license" href="http://creativecommons.org/licenses/by/2.5/dk/deed.en_GB" title="Creative Commons Attribution License">
+                    <span class="eea-icon eea-icon-creative-commons"><!-- empty --></span>
+                    <span>Creative commons license</span>
+                </a>
+            </p>
+
+            <p class="colophon-links">
+                <a href="https://www.eea.europa.eu/login_form" title="Log in to CMS">
+                    <strong>CMS login</strong></a>
+            </p>
+
+            
+            </div>
+        </div>
+        
+
+
+        
+
+    </div>
+    <!-- Matomo noscript -->
+    <noscript><p><img src="https://matomo.eea.europa.eu/piwik.php?idsite=3&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+    <!-- End Matomo Code -->
+    
+</div>
+
+
+
+
+
+
+
+<script data-diazo-keep='true' type="application/ld+json">
+{
+  "@context": {
+    "http://schema.org/Image": "http://schema.org/ImageObject",
+    "http://schema.org/productID": "http://schema.org/about"
+  },
+  "@graph": [
+    {
+      "@id": "https://www.eea.europa.eu/themes/climate/faq#breadcrumb",
+      "@type": "http://schema.org/Thing",
+      "http://schema.org/image": "https://www.eea.europa.eu/themes/climate/faq/image_large",
+      "http://schema.org/name": " FAQ",
+      "http://schema.org/url": "https://www.eea.europa.eu/themes/climate/faq"
+    },
+    {
+      "@id": "BreadCrumbsListItem5",
+      "@type": "http://schema.org/ListItem",
+      "http://schema.org/item": {
+        "@id": "https://www.eea.europa.eu#breadcrumb"
+      },
+      "http://schema.org/position": 1
+    },
+    {
+      "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_preview",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/height": "400px",
+      "http://schema.org/width": "400px"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences#breadcrumb",
+      "@type": "http://schema.org/Thing",
+      "http://schema.org/image": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_large",
+      "http://schema.org/name": "How do human activities contribute to climate change and how do they compare with natural influences?",
+      "http://schema.org/url": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_large",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/contentSize": 12325,
+      "http://schema.org/height": "768px",
+      "http://schema.org/thumbnail": [
+        {
+          "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_print"
+        },
+        {
+          "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_mini"
+        },
+        {
+          "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_panoramic"
+        },
+        {
+          "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_wide"
+        },
+        {
+          "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_preview"
+        },
+        {
+          "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_large"
+        },
+        {
+          "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_listing"
+        },
+        {
+          "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_thumb"
+        },
+        {
+          "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_xlarge"
+        },
+        {
+          "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_icon"
+        },
+        {
+          "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_tile"
+        }
+      ],
+      "http://schema.org/url": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_large",
+      "http://schema.org/width": "768px"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/logo-square.png#logo",
+      "@type": "http://schema.org/ImageObject",
+      "http://schema.org/height": "190px",
+      "http://schema.org/url": "https://www.eea.europa.eu/logo-square.png",
+      "http://schema.org/width": "190px"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences",
+      "@type": "http://schema.org/WebPage",
+      "http://schema.org/publisher": {
+        "@id": "https://www.eea.europa.eu#organization"
+      }
+    },
+    {
+      "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_icon",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/height": "32px",
+      "http://schema.org/width": "32px"
+    },
+    {
+      "@id": "#breadcrumb",
+      "@type": "http://schema.org/BreadcrumbList",
+      "http://schema.org/itemListElement": [
+        {
+          "@id": "BreadCrumbsListItem2"
+        },
+        {
+          "@id": "BreadCrumbsListItem3"
+        },
+        {
+          "@id": "BreadCrumbsListItem4"
+        },
+        {
+          "@id": "BreadCrumbsListItem1"
+        },
+        {
+          "@id": "BreadCrumbsListItem5"
+        }
+      ]
+    },
+    {
+      "@id": "BreadCrumbsListItem1",
+      "@type": "http://schema.org/ListItem",
+      "http://schema.org/item": {
+        "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences#breadcrumb"
+      },
+      "http://schema.org/position": 5
+    },
+    {
+      "@id": "BreadCrumbsListItem3",
+      "@type": "http://schema.org/ListItem",
+      "http://schema.org/item": {
+        "@id": "https://www.eea.europa.eu/themes/climate#breadcrumb"
+      },
+      "http://schema.org/position": 3
+    },
+    {
+      "@id": "BreadCrumbsListItem2",
+      "@type": "http://schema.org/ListItem",
+      "http://schema.org/item": {
+        "@id": "https://www.eea.europa.eu/themes/climate/faq#breadcrumb"
+      },
+      "http://schema.org/position": 4
+    },
+    {
+      "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_tile",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/height": "64px",
+      "http://schema.org/width": "64px"
+    },
+    {
+      "@id": "BreadCrumbsListItem4",
+      "@type": "http://schema.org/ListItem",
+      "http://schema.org/item": {
+        "@id": "https://www.eea.europa.eu/themes#breadcrumb"
+      },
+      "http://schema.org/position": 2
+    },
+    {
+      "@id": "https://www.eea.europa.eu/themes/climate#breadcrumb",
+      "@type": "http://schema.org/Thing",
+      "http://schema.org/image": "https://www.eea.europa.eu/themes/climate/image_large",
+      "http://schema.org/name": "Climate change mitigation",
+      "http://schema.org/url": "https://www.eea.europa.eu/themes/climate"
+    },
+    {
+      "@id": "https://www.eea.europa.eu#breadcrumb",
+      "@type": "http://schema.org/Thing",
+      "http://schema.org/image": "https://www.eea.europa.eu/image_large",
+      "http://schema.org/name": "European Environment Agency's home page",
+      "http://schema.org/url": "https://www.eea.europa.eu"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_xlarge",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/height": "950px",
+      "http://schema.org/width": "950px"
+    },
+    {
+      "@id": "https://www.eea.europa.eu#organization",
+      "@type": "http://schema.org/Organization",
+      "http://schema.org/contactPoint": {
+        "@id": "https://www.eea.europa.eu#contact-point-0"
+      },
+      "http://schema.org/logo": {
+        "@id": "https://www.eea.europa.eu/logo-square.png#logo"
+      },
+      "http://schema.org/name": "European Environment Agency",
+      "http://schema.org/sameAs": [
+        "https://www.youtube.com/user/EEAvideos",
+        "https://www.facebook.com/European.Environment.Agency",
+        "https://twitter.com/euenvironment"
+      ]
+    },
+    {
+      "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences#article",
+      "@type": "http://schema.org/Article",
+      "http://schema.org/author": {
+        "@id": "https://www.eea.europa.eu#author:admin"
+      },
+      "http://schema.org/dateModified": "None",
+      "http://schema.org/datePublished": "None",
+      "http://schema.org/description": "How do human activities contribute to climate change and how do they compare with natural influences? ",
+      "http://schema.org/headline": "How do human activities contribute to climate change and how do they compare with natural influences?",
+      "http://schema.org/image": {
+        "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_large"
+      },
+      "http://schema.org/mainEntityOfPage": {
+        "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences"
+      },
+      "http://schema.org/publisher": {
+        "@id": "https://www.eea.europa.eu#organization"
+      }
+    },
+    {
+      "@id": "https://www.eea.europa.eu/themes#breadcrumb",
+      "@type": "http://schema.org/Thing",
+      "http://schema.org/image": "https://www.eea.europa.eu/themes/image_large",
+      "http://schema.org/name": "Environmental topics",
+      "http://schema.org/url": "https://www.eea.europa.eu/themes"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_wide",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/height": "183px",
+      "http://schema.org/width": "325px"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_mini",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/height": "200px",
+      "http://schema.org/width": "200px"
+    },
+    {
+      "@id": "https://www.eea.europa.eu#contact-point-0",
+      "@type": "http://schema.org/ContactPoint",
+      "http://schema.org/availableLanguage": [
+        "English",
+        "Danish"
+      ],
+      "http://schema.org/contactType": "customer support",
+      "http://schema.org/telephone": "(+45) 33 36 71 00"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_print",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/height": "2000px",
+      "http://schema.org/width": "2000px"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/document_icon.png",
+      "@type": "http://schema.org/Image"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_listing",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/height": "16px",
+      "http://schema.org/width": "16px"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_panoramic",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/height": "1080px",
+      "http://schema.org/width": "1920px"
+    },
+    {
+      "@id": "https://www.eea.europa.eu/themes/climate/faq/how-do-human-activities-contribute-to-climate-change-and-how-do-they-compare-with-natural-influences/image_thumb",
+      "@type": "http://schema.org/Image",
+      "http://schema.org/height": "128px",
+      "http://schema.org/width": "128px"
+    },
+    {
+      "@id": "https://www.eea.europa.eu#author:admin",
+      "@type": "http://schema.org/Person",
+      "http://schema.org/name": "admin"
+    }
+  ]
+}
+</script>
+    
+
+    
+    <script type="text/javascript">var w_inner_height = window.innerHeight;
+var w_inner_width = window.innerWidth;
+
+function isElementInViewport(el) {
+    // Detect if element is in viewport
+    var rect = el.getBoundingClientRect();
+    return (
+        rect.top > 0 && rect.left > 0 && rect.bottom <= w_inner_height && rect.right <= w_inner_width);
+}
+
+function enableLazy(element) {
+    var source = element.src;
+    var classes = element.className.length ? element.className + ' ' : '';
+    if (classes.indexOf('skip_lazy') === -1) {
+        element.className = classes + 'lazy';
+        element.setAttribute('data-src', source);
+        element.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=';
+        return false;
+    }
+    return true;
+}
+
+window.lazyElements = [];
+var imgs = document.querySelectorAll('img');
+Array.prototype.forEach.call(imgs, function(el) {
+    if (isElementInViewport(el) === false) {
+        if (enableLazy(el)) {
+            window.lazyElements.push(el);
+        }
+    }
+});
+</script>
+
+    
+    <script type="text/javascript" src="https://www.eea.europa.eu/portal_javascripts/EEADesign2006/ploneScripts1558522575734649897.js"></script>
+    <script type="text/javascript" src="https://www.eea.europa.eu/portal_javascripts/EEADesign2006/ploneScripts1558522575739090919.js"></script>
+
+    
+
+
+</body>
+
+</html>
+
+
+
+
+
+

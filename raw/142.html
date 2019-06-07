@@ -1,0 +1,1490 @@
+			<!DOCTYPE html>
+			<html lang="en-US">
+			<head>
+				<meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><meta name="application-name" id="app-name" content="pasadenastarnews"><link rel="pingback" href="https://www.pasadenastarnews.com/xmlrpc.php"><meta name="viewport" content="width=device-width, initial-scale=1">			<meta name="msvalidate.01" content="4B535F7EB2971D1FCBA5D1D3E3E292C3" />
+			<title>Statistics can be manipulated to prove anything &#8211; Pasadena Star News</title>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var scriptHelpers = {"staticPath":"https:\/\/assets.digitalfirstmedia.com\/prod\/static"};
+/* ]]> */
+</script>
+		<style>body{--primary:#d84315;--secondary:#eeff41;--tertiary:#ff5722}:root{--primary:#006fb7;--secondary:#d70000;--tertiary:#ffc518}@font-face{font-family:icomoon;src:url(../fonts/icomoon.eot);font-weight:400;font-style:normal}.full-view .article-share .sd-social-icon .sd-content ul li.share-facebook span,.full-view .article-share .sd-social-icon .sd-content ul li.share-print span,.full-view .article-share .sd-social-icon .sd-content ul li.share-reddit span,.full-view .article-share .sd-social-icon .sd-content ul li.share-twitter span,.icon-arrow-right,.icon-close,.icon-comment,.icon-facebook,.icon-feed,.icon-hamburger,.icon-plus,.icon-search,.icon-share-alt,.icon-twitter,.nav-primary .menu .menu-item-has-children>a:after,.pushnav .menu-item-has-children:not(.nav-alt-links)>a:before,.site-header .article-share .sd-social-icon .sd-content ul li.share-facebook span,.site-header .article-share .sd-social-icon .sd-content ul li.share-print span,.site-header .article-share .sd-social-icon .sd-content ul li.share-reddit span,.site-header .article-share .sd-social-icon .sd-content ul li.share-twitter span{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex;font-family:icomoon;font-style:normal;font-variant:normal;font-weight:400;-ms-flex-pack:center;justify-content:center;line-height:1;speak:none;text-transform:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.full-view .article-share .sd-social-icon .sd-content ul li.share-facebook span:before,.full-view .article-share .sd-social-icon .sd-content ul li.share-print span:before,.full-view .article-share .sd-social-icon .sd-content ul li.share-reddit span:before,.full-view .article-share .sd-social-icon .sd-content ul li.share-twitter span:before,.icon-arrow-right:before,.icon-close:before,.icon-comment:before,.icon-facebook:before,.icon-feed:before,.icon-hamburger:before,.icon-plus:before,.icon-search:before,.icon-share-alt:before,.icon-twitter:before,.pushnav .menu-item-has-children:not(.nav-alt-links)>a:before,.site-header .article-share .sd-social-icon .sd-content ul li.share-facebook span:before,.site-header .article-share .sd-social-icon .sd-content ul li.share-print span:before,.site-header .article-share .sd-social-icon .sd-content ul li.share-reddit span:before,.site-header .article-share .sd-social-icon .sd-content ul li.share-twitter span:before{color:inherit;font-size:inherit}.icon-comment:before{content:"\F075"}.icon-share-alt:before{content:"\F1E0"}.full-view .article-share .sd-social-icon .sd-content ul li.share-twitter span:before,.icon-twitter:before,.site-header .article-share .sd-social-icon .sd-content ul li.share-twitter span:before{content:"\F099"}.full-view .article-share .sd-social-icon .sd-content ul li.share-facebook span:before,.icon-facebook:before,.site-header .article-share .sd-social-icon .sd-content ul li.share-facebook span:before{content:"\F09A"}.icon-feed:before{content:"\F09E"}.full-view .article-share .sd-social-icon .sd-content ul li.share-reddit span:before,.site-header .article-share .sd-social-icon .sd-content ul li.share-reddit span:before{content:"\E608"}.icon-arrow-right:before{content:"\E111"}.icon-hamburger:before{content:"\E602"}.full-view .article-share .sd-social-icon .sd-content ul li.share-print span:before,.site-header .article-share .sd-social-icon .sd-content ul li.share-print span:before{content:"\E607"}.icon-search:before{content:"\E609"}.icon-plus:before{content:"\E606"}.icon-close:before{content:"\E209"}a,article,aside,body,div,figcaption,figure,form,h1,h2,h3,h4,h6,header,html,i,img,li,nav,ol,p,section,span,time,ul{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,figcaption,figure,header,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}button,input[type=submit]{border:none;background-color:transparent;font-size:inherit;appearance:none;-webkit-appearance:none;-moz-appearance:none}#content,.nav-primary .navigation-inner,.status-bar .status-bar-wrapper,.trending-bar .trending-bar-wrapper{max-width:81.25em;margin:0 auto;padding:0 .625rem}@media (min-width:80em){.full-view .article-body{margin-left:calc(12.5% - 18px + 1.25em);margin-left:calc(12.5% - 1.1rem + 1.25rem)}}@media (min-width:80em){.full-view .article-sidebar{width:calc(25% - 15px);width:calc(25% - .94rem)}}@media (min-width:80em){.full-view .article-body{width:calc(50% - 10px);width:calc(50% - .63rem)}}@media (min-width:80em){.full-view .article-body,.full-view .article-content-wrapper,.full-view .header-features{width:calc(75% - 5px);width:calc(75% - .32rem)}}@media (min-width:80em){.full-view>header{width:100%}}@media (min-width:65em) and (max-width:79.9375em){.full-view .article-body{margin-left:calc(7.69231% - 19px + 1.25em);margin-left:calc(7.69231% - 1.2rem + 1.25rem)}}@media (min-width:65em) and (max-width:79.9375em){.full-view .article-sidebar{width:calc(30.76923% - 14px);width:calc(30.76923% - .87rem)}}@media (min-width:65em) and (max-width:79.9375em){.full-view .article-body{width:calc(53.84615% - 10px);width:calc(53.84615% - .58rem)}}@media (min-width:65em) and (max-width:79.9375em){.full-view .article-content-wrapper,.full-view .header-features{width:calc(69.23077% - 7px);width:calc(69.23077% - .39rem)}}@media (min-width:65em) and (max-width:79.9375em){.full-view .article-body{width:calc(84.61538% - 4px);width:calc(84.61538% - .2rem)}}@media (min-width:65em) and (max-width:79.9375em){.full-view>header{width:100%}}@media (min-width:50em) and (max-width:64.9375em){.full-view .article-body{margin-left:calc(10% - 18px + 1.25em);margin-left:calc(10% - 1.2rem + 1.25rem)}}@media (min-width:50em) and (max-width:64.9375em){.full-view .article-sidebar .dfp-ad,.full-view .article-sidebar .sign-up-follow,.full-view .article-sidebar .widget-popular-stories{width:calc(50% - 10px);width:calc(50% - .63rem)}}@media (min-width:50em) and (max-width:64.9375em){.full-view .article-body{width:calc(80% - 4px);width:calc(80% - .25rem)}}@media (min-width:50em) and (max-width:64.9375em){.full-view .article-content-wrapper,.full-view .article-sidebar,.full-view .header-features,.full-view>header{width:100%}}@media (min-width:40em) and (max-width:49.9375em){.full-view .article-sidebar .widget-popular-stories{width:calc(50% - 10px);width:calc(50% - .63rem)}}@media (min-width:40em) and (max-width:49.9375em){.full-view .article-body,.full-view .article-content-wrapper,.full-view .article-sidebar,.full-view .article-sidebar .dfp-ad,.full-view .article-sidebar .sign-up-follow,.full-view .article-sidebar .widget-popular-stories,.full-view .header-features,.full-view>header{width:100%}}@media (min-width:20em) and (max-width:39.9375em){.full-view .article-body,.full-view .article-content-wrapper,.full-view .article-sidebar,.full-view .header-features,.full-view>header{width:100%}}html{box-sizing:border-box;font-size:100%}html *,html :after,html :before{box-sizing:inherit}html a{text-decoration:none}body{font-family:Helvetica,sans-serif;font-size:100%;margin:0;text-shadow:1px 1px 1px rgba(0,0,0,.004);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}h1{font:normal 600 2.25em/1.16667 Poppins,Helvetica,sans-serif}h2{font:normal 600 1.875em/1.06667 Poppins,Helvetica,sans-serif}h3{font:normal 600 1.5em/1.16667 Poppins,Helvetica,sans-serif}h4{font:normal 600 1.25em/1.2 Poppins,Helvetica,sans-serif}h6{font:normal 600 1em/1.25 Poppins,Helvetica,sans-serif}a{color:inherit}img{display:block;height:auto;max-width:100%}body,html{-webkit-overflow-scrolling:touch}#page{position:relative;overflow-x:hidden;overflow-y:auto}@media (max-width:64.9375em){#page #content,#page .status-bar{-webkit-backface-visibility:hidden;backface-visibility:hidden}}#content{margin-bottom:1em}#content:after,.article-share:after,.body-copy:after,.dfp-ad:after,.full-view:after,.full-view>header:after,.nav-primary .navigation-inner:after,.popular:after,.search-form.slide-search:after,.site-header:after,.status-bar .status-bar-wrapper:after,.trending-bar .trending-bar-wrapper:after,form:after{clear:both;content:'';display:table}.full-view .article-share .sd-social-icon .sd-content ul li .sharing-screen-reader-text,.sharing .label,.site-header .article-share .sd-social-icon .sd-content ul li .sharing-screen-reader-text{display:inline-block;height:0;position:fixed;visibility:hidden;width:0}form input[type=submit]{font:normal 700 1em/1 Poppins,Helvetica,sans-serif;border:none;border-radius:3px;min-width:6.875em;outline:none;padding:.625em .9375em;text-align:center}.meta .comments-link,.newsletter-simple a,form input[type=submit]{background-color:var(--primary);color:#fff;text-transform:uppercase}.meta .comments-link,.newsletter-simple a{font:normal 400 .8125em/1 Poppins,Helvetica,sans-serif;border:1px solid rgba(0,0,0,.15);border-radius:2px;letter-spacing:-.01em;padding:.75em 1.0625em;text-shadow:1px -1px 0 rgba(0,0,0,.04)}.widget-title{font:normal 700 1.125em/1.22222 Poppins,Helvetica,sans-serif}.popular .widget-title span{background-color:var(--tertiary);color:#fff;display:inline-block;padding:.625em .9375em;text-transform:uppercase}.body-copy{font:normal 400 1.03125em/1.63636 Source Serif Pro,Helvetica,sans-serif;letter-spacing:-.01em}.body-copy>*{margin-bottom:1em}input[type=text]{border:1px solid #9d9a98;border-radius:0;color:#1a1a1a;height:30px;padding:.5em .625em}.search-form{position:relative}body{background-color:#fafafa}.popular .widget-title{font:normal 400 1.3125em/1.14286 Source Serif Pro,Helvetica,sans-serif;border-bottom:2px solid var(--primary);color:#5d5b5a;letter-spacing:.035em;margin-bottom:1em;padding-bottom:.3125em;text-transform:uppercase}.popular .widget-title span{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex;-ms-flex-pack:start;justify-content:flex-start}.meta .comments-link,.newsletter-simple a{font:normal 600 .9375em/1 Poppins,Helvetica,sans-serif;background-color:transparent;border:2px solid var(--primary);border-radius:none;color:var(--primary);letter-spacing:.05em;padding:.8125em 1.0625em;text-shadow:none;text-transform:uppercase}a img{border:none}.breadcrumbs{float:left;clear:both;text-transform:uppercase}.breadcrumbs h6{font:normal 700 1em/1.375 Poppins,Helvetica,sans-serif;display:inline-block}.breadcrumbs .icon-arrow-right{display:inline-block;font-size:1.25em;line-height:1;vertical-align:top;color:#ddd8d5}figure{font-size:1rem}.image-wrapper{height:0;padding-bottom:56.25%;overflow:hidden;position:relative;width:100%}.image-wrapper img{left:0;position:absolute;top:0;width:100%}.header-features .image-wrapper{height:auto;padding-bottom:0;overflow:visible}.header-features .image-wrapper img{position:relative}.article-slideshow .video-ad-controls .countdown{float:right;display:none}@media (max-width:49.9375em){.article-slideshow .video-ad-controls .countdown{font-size:12px;display:block;width:100%}}.article-slideshow .video-ad-controls #countdownTimer{margin:0 5px}.article-slideshow .slide-caption,.article-slideshow .slide-credit{display:none}.article-slideshow .icon-close{background-color:#141414;border:1px solid #fff;border-radius:50%;color:#fff;font-size:1.25em;height:1.6em;width:1.6em;bottom:.25em;left:.25em;display:none;left:auto;line-height:1;right:.5em;padding:0;position:absolute;top:.5em;z-index:1}.meta{float:left;font:1rem;margin-bottom:3em;width:100%}.meta .comments-link{float:right}@media (max-width:49.9375em){.meta .comments-link{float:none;clear:both}}.meta .byline{font:normal 400 .875em/1.71429 Poppins,Helvetica,sans-serif}.meta .byline .author-name{color:var(--tertiary);font-weight:700;line-height:1.7;text-transform:uppercase}.meta .time{font:normal 400 .875em/1.42857 Poppins,Helvetica,sans-serif}.site-footer .menu-item-has-children .expander{position:absolute;display:none;top:0;right:0;width:2.9375em;height:2.9375em;text-align:center;z-index:4}.site-footer .menu-item-has-children .expander a{position:relative;display:inline-block;line-height:3;vertical-align:middle}@media (max-width:39.9375em){.site-footer .menu-item-has-children .expander{display:block}}.site-header{background-color:#fff;margin-bottom:1.5em;padding-top:.625em;position:relative;z-index:6}@media (min-width:65em){.site-header{padding-top:2.5em;height:auto}}.site-header .article-share,.site-header h4{display:none}@media (max-width:64.9375em){.site-header{-webkit-transform:translate(0);transform:translate(0)}.site-header .nav-wrapper{-webkit-transform:translateY(0);transform:translateY(0)}.site-header .slide-search{-webkit-transform:translateY(-3.75em);transform:translateY(-3.75em)}}.status-bar ul{float:right}.status-bar ul li{font:normal 400 .875em/1.28571 Poppins,Helvetica,sans-serif;display:inline-block}.status-bar ul a{text-decoration:none;color:#1a1a1a}@media (max-width:64.9375em){.status-bar{display:none}}.nav-primary{display:block;position:relative;text-align:center;width:100%}@media (max-width:64.9375em){.nav-primary{overflow:hidden}}.nav-primary .subscribe-special.menu-large>a{background-color:var(--primary);padding-top:9px;padding-bottom:9px;color:#fff;width:100%;text-align:center}.nav-primary .menu-main-navigation-container{font-family:Poppins,Helvetica,sans-serif;position:relative;height:3.75em}@media (max-width:64.9375em){.nav-primary .menu-main-navigation-container{margin:0 -10px}}.nav-primary .menu{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex;height:100%;padding:0}@media (max-width:64.9375em){.nav-primary .menu{-ms-flex-pack:center;justify-content:center}}.nav-primary .menu>li{margin-right:1.5625em;font-size:1rem}@media (max-width:64.9375em){.nav-primary .menu>li{border-right:1px solid #fff}.nav-primary .menu>li:last-child{border:none}}.nav-primary .menu>li>a{font:normal 700 1em/1 Poppins,Helvetica,sans-serif;display:block}@media (max-width:64.9375em){.nav-primary .menu>li>a{border:none;display:inline-block;font-weight:700;padding-right:.625em}}.nav-primary .menu .menu-item-has-children{position:relative}.nav-primary .menu .menu-item-has-children>a,.nav-primary .menu .menu-item-has-children>a:after{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex}.nav-primary .menu .menu-item-has-children>a:after{content:"\E10F";-ms-flex-pack:center;justify-content:center;margin-left:.15em}.nav-primary .menu .menu-item-has-children ul{background-color:#141414;display:none;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:start;justify-content:flex-start;padding:1em;position:absolute;top:100%;width:28.125em;z-index:7}.nav-primary .menu .menu-item-has-children ul li{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex;max-height:3.125em;width:calc(50% - 1em)}.nav-primary .menu .menu-item-has-children ul a{border-bottom:1px solid #1f1e1e;color:#fff;display:block;padding:1em 0;width:100%}.nav-primary li{display:inline-block}.nav-primary a{color:#1a1a1a;text-decoration:none}.nav-primary .icon-hamburger,.nav-primary .icon-search{display:none;font-size:2em}@media (max-width:64.9375em){.nav-primary .icon-hamburger,.nav-primary .icon-search{display:block;position:absolute;top:.46875em}}.nav-primary .icon-hamburger{left:.3125em}.nav-primary .icon-search{right:.3125em}@media (min-width:65em){.nav-primary .icon-search{font-size:1.5em;z-index:2}}.pushnav{background-color:#141414;height:100%;overflow:auto;position:fixed;width:260px;z-index:7;display:none}.pushnav li>a{border-bottom:1px solid #1f1e1e;display:block;width:100%;padding:.9375em .625em;color:#fff}.pushnav .menu-item-has-children:not(.nav-alt-links){overflow:hidden;position:relative}.pushnav .menu-item-has-children:not(.nav-alt-links) li:last-child{border-bottom:0}.pushnav .menu-item-has-children:not(.nav-alt-links)>a{background-color:#141414;display:inline-block;position:relative;width:100%;z-index:4}.pushnav .menu-item-has-children:not(.nav-alt-links)>a:before{-ms-flex-align:center;align-items:center;color:#fff;content:'\E10F';display:-ms-flexbox;display:flex;font-size:1.125em;height:100%;-ms-flex-pack:end;justify-content:flex-end;padding-right:.9375em;position:absolute;top:0;right:0}.pushnav .menu-item-has-children:not(.nav-alt-links)>ul{position:relative;background-color:#141414;-webkit-transform:translateY(-200%);transform:translateY(-200%);z-index:3}.pushnav .menu-item-has-children:not(.nav-alt-links)>ul a{padding:.625em}.trending-bar{float:left;position:relative;font-family:Poppins,Helvetica,sans-serif;width:100%}@media (max-width:64.9375em){.trending-bar{position:absolute;display:none;top:7.3125em;left:0;margin:0;z-index:5}}.trending-bar nav{width:100%;padding-left:5.625em;display:inline-block;float:left}@media (max-width:64.9375em){.trending-bar nav{padding-left:0}}.trending-bar ul{list-style:none;float:left;width:100%;overflow:hidden}@media (min-width:65em){.trending-bar ul{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around}}@media (max-width:64.9375em){.trending-bar ul{width:100%;height:auto;overflow:visible}}@media (max-width:64.9375em){.trending-bar li{display:block;float:none;line-height:1.25;margin:0}.trending-bar li:last-child a{border:none}}.trending-bar a{text-decoration:none}@media (max-width:64.9375em){.trending-bar a{border-bottom:1px solid #aaa7a4;color:#1a1a1a;display:block;font-size:.9375em;padding:1em}}.trending-bar .trending-bar-wrapper>p{position:absolute;top:.1875em;font-weight:800;line-height:1.875em}@media (max-width:64.9375em){.trending-bar .trending-bar-wrapper{padding:0}}@media (max-width:64.9375em){.trending-bar .label{display:none}}.logo{display:inline-block;font-size:1rem;position:relative}.logo a{overflow:hidden;text-indent:-9999px}.logo.custom-logo img{margin:0 auto;max-height:100%}.logo.custom-logo a{background-image:none}.popular{counter-reset:popular}.popular ol{list-style:none}.popular ol>*{margin-bottom:1em}.popular li{counter-increment:b;position:relative}.popular .widget-title{width:100%;margin-bottom:1em;line-height:1}.popular.section{background-color:#ecede7}.popular.section>h2{border-top:none}.popular.section ol{padding:0 1.25em 1.875em}.dfp-ad,.newsletter-simple{position:relative}.dfp-ad{display:block;font-size:1rem;margin:0 auto;overflow:hidden;text-align:center}.dfp-ad.dfp-top_leaderboard{clear:both;margin:0 auto 1.5em;top:0;width:100%}.article-sidebar .dfp-ad{top:0;margin:0 auto 1.5em}@media (max-width:750px){.header-banners{box-sizing:content-box;padding:0 10px;left:-10px;position:relative}}.search-form{display:inline-block;position:relative}@media (max-width:64.9375em){.search-form{padding:.625em}}.search-form input[type=submit]{display:inline-block;width:16.36364em}.search-form.header-search,.search-form.slide-search{clear:both;margin:0 auto}.search-form.header-search input[type=text],.search-form.slide-search input[type=text]{font:normal 400 1.125em/1.22222 Poppins,Helvetica,sans-serif;height:3.05556em;width:100%}.search-form.header-search,.search-form.slide-search{height:3.75em}.search-form.header-search input[type=submit],.search-form.slide-search input[type=submit]{display:none}.search-form.header-search input[type=text],.search-form.slide-search input[type=text]{height:100%}.search-form.header-search{display:none;height:2.5em;margin-top:.625em;position:absolute;right:.625em;width:10.9375em;z-index:1}@media (min-width:65em){.search-form.header-search{display:block}}.search-form.slide-search{display:none;position:absolute;width:100%}@media (max-width:64.9375em){.search-form.slide-search{display:block;top:0}}@media (min-width:20em) and (max-width:39.9375em){.search-form.slide-search{float:none;width:100%}}.sharedaddy li,.sharing li{display:inline-block;margin-right:1.25em}.article-share{position:relative}.article-share .sd-content{float:left;position:relative}.article-share .sd-sharing .share-end,.article-share .sd-sharing>h3{display:none}.full-view .article-share ul,.site-header .article-share ul{display:-ms-flexbox;display:flex;margin:0!important}.full-view .article-share .sd-content>ul li a,.full-view .article-share .sd-content>ul li span,.site-header .article-share .sd-content>ul li a,.site-header .article-share .sd-content>ul li span{width:100%;height:100%}.full-view .article-share .sd-social-icon .sd-content ul li a.sd-button,.site-header .article-share .sd-social-icon .sd-content ul li a.sd-button{height:100%;margin:0;padding:0;position:static;top:0;width:100%}.full-view .article-share .sd-social-icon .sd-content ul li a.sd-button span,.site-header .article-share .sd-social-icon .sd-content ul li a.sd-button span{font-size:1.25rem}.full-view .article-share .sd-social-icon .sd-content ul li[class*=share-],.site-header .article-share .sd-social-icon .sd-content ul li[class*=share-]{margin:0 .3125em 0 0!important}.full-view .article-share .sd-social-icon .sd-content ul li[class*=share-] a.sd-button,.site-header .article-share .sd-social-icon .sd-content ul li[class*=share-] a.sd-button{background-color:transparent}.full-view .article-share .sd-social-icon .sd-content ul li[class*=share-] a.sd-button:before,.site-header .article-share .sd-social-icon .sd-content ul li[class*=share-] a.sd-button:before{display:none}@media (max-width:64.9375em){.full-view .article-share .sd-social-icon .sd-content ul li.share-print,.full-view .article-share .sd-social-icon .sd-content ul li.share-reddit,.site-header .article-share .sd-social-icon .sd-content ul li.share-print,.site-header .article-share .sd-social-icon .sd-content ul li.share-reddit{display:none}}.full-view .article-share .sd-content>ul li,.site-header .article-share .sd-content>ul li,.site-header .article-share .share-alt{line-height:2;margin-right:.125em}.site-header .article-share .share-alt{display:none}@media (max-width:39.9375em){.site-header .article-share .share-alt{margin-right:0;width:2.5em}}@media (max-width:64.9375em){.full-view .article-share li:last-of-type,.site-header .article-share li:last-of-type{display:none}}.full-view .article-share .sharedaddy h3.sd-title,.site-header .article-share .sharedaddy h3.sd-title{display:none}@media (min-width:65em){.site-header .article-share{margin:0;position:absolute;top:.5em}}@media (max-width:64.9375em){.site-header .article-share{float:right;position:relative;top:.3125em}}@media (max-width:39.9375em){.site-header .article-share{background-color:#fff;height:2.5em;width:2.5em;z-index:1}.site-header .article-share .sharedaddy{background-color:#fff;left:0;padding:0 .3125em;position:absolute;-webkit-transform:translateX(2.5em);transform:translateX(2.5em);margin-top:0;width:auto}}.full-view>*{margin-bottom:2em}.full-view>header>*{margin-bottom:1em}.full-view>header>:last-child{margin-bottom:0}.full-view>header h1{margin-bottom:.44444em}.full-view>header .header-title-area h1{width:100%;margin-bottom:.26667em;clear:both}.full-view .article-body>*,.full-view .header-title-area>*{margin-bottom:1em}.full-view .article-body>:last-child,.full-view .header-title-area>:last-child{margin-bottom:0}.full-view .article-sidebar{float:right;position:relative}.section>*{margin-bottom:2em}.section>:last-child{margin-bottom:0}h1.entry-title{display:inline-block}.body-copy a{border-bottom:1px dotted var(--primary);color:var(--primary)}.header-features figcaption{padding:1.07143em 0 .71429em;position:relative;color:#5d5b5a;border-bottom:3px solid #ddd8d5;margin-bottom:1.0625em;font-size:.8125em;line-height:1.3}.article-header{border-bottom:3px solid transparent;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;float:none;-ms-flex-pack:justify;justify-content:space-between;margin:2em 0 -2.25em;padding:0;position:relative}.header-title-area{position:relative;z-index:1}.header-title-area>*{margin-bottom:.5em}.header-title-area>:last-child{margin-bottom:0}.header-title-area h1{font-size:1.9375em;line-height:1.1;font-weight:700;letter-spacing:-.03em}@media (min-width:40em){.header-title-area h1{font-size:2rem;line-height:1.15}}@media (min-width:65em){.header-title-area h1{font-size:2.25rem}}.headline-area{display:inline-block;margin:0;width:100%}@media (max-width:39.9375em){.headline-area{display:block}}.breadcrumbs{padding-top:1em}.meta{border-bottom:3px solid #ddd8d5;padding-bottom:1em;margin-bottom:1em;float:none}@media (max-width:39.9375em){.meta{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column}}.meta .comments-link{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex;font-size:.75rem;margin-top:.3125em}@media (max-width:39.9375em){.meta .comments-link{-ms-flex-pack:center;justify-content:center;-ms-flex-order:1;order:1}}@media (min-width:40em){.meta .comments-link{-ms-flex:0 0 12.5em;flex:0 0 12.5em;float:right}}.meta .comments-link .icon-comment{margin-right:.4375em}.meta .byline{font-size:.9375em}.meta .byline .author-name{color:var(--primary)}.meta .time{font-size:.8125rem}.site-footer .menu-item-has-children .expander{position:static}.site-footer .menu-item-has-children .expander a{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex;height:100%;-ms-flex-pack:center;justify-content:center}.site-footer .menu-item-has-children .expander a:before{display:none}.site-footer .menu-item-has-children .expander a:after{content:'';border-bottom:7px solid transparent;border-left:5px solid transparent;border-right:5px solid transparent;border-top:7px solid #aaa7a4;margin:.3em 0 0 .25em}.header-placeholder{display:none}@media (max-width:39.9375em){.header-placeholder{height:120px}}@media (min-width:40em) and (max-width:64.9375em){.header-placeholder{height:146px}}@media (min-width:65em){.header-placeholder{height:185px}}.site-header{background-color:transparent}@media (max-width:39.9375em){.site-header{padding-top:0;height:7.5em}}@media (max-width:64.9375em){.site-header{padding:0;height:7.8125em;margin-bottom:0}}@media (min-width:65em){.site-header{margin-bottom:1.5em;padding:5em 0 1.0625em}}.site-header .dfp-Sponsorship_1{display:none}@media (min-width:65em){.site-header .dfp-Sponsorship_1{position:absolute;right:.625em;top:-4.25em}}@media (max-width:64.9375em){.site-header .dfp-Sponsorship_1{position:static;margin-left:auto}}@media (min-width:1040px){.site-header .dfp-Sponsorship_1{display:block}}.logo{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex}@media (max-width:64.9375em){.logo{margin-left:.625em}}@media (min-width:65em){.logo{margin-bottom:0;position:absolute;text-align:left;top:-4.375em;width:100%}}.logo a{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex;height:55px;margin:0 .625em;position:relative;text-indent:0;width:420px}@media (min-width:40em) and (max-width:64.9375em){.logo a{margin:1.125em 0;height:40px;width:300px}}@media (max-width:39.9375em){.logo a{margin:.875em 0 .625em;height:26px;width:200px}}.nav-primary{border-bottom:1px solid #aaa7a4;margin-bottom:0;max-width:none}@media (min-width:65em){.nav-primary{border-top:5px solid #1f1e1e;padding:0;text-align:left}}@media (min-width:40em) and (max-width:64.9375em){.nav-primary{margin-bottom:0;border-bottom:none}}@media (max-width:64.9375em){.nav-primary{overflow:visible}}.nav-primary .subscribe-special.menu-large.modern-earthy-color>a{background-color:#0d1ea5;padding-top:9px;padding-bottom:9px;color:#fff;width:100%;text-align:center}.nav-primary .navigation-inner{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex;-ms-flex-pack:start;justify-content:flex-start;position:relative}@media (max-width:64.9375em){.nav-primary .navigation-inner{border-bottom:.1875em solid #1f1e1e;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:0}}.nav-primary .menu-main-navigation-container{height:3.125em}@media (max-width:64.9375em){.nav-primary .menu-main-navigation-container{display:none}}@media (min-width:65em) and (max-width:79.9375em){.nav-primary .menu-main-navigation-container{width:80vw}.nav-primary .menu-main-navigation-container .subscribe-special.menu-large>a{width:10.15em}}@media (min-width:80em){.nav-primary .menu-main-navigation-container{width:calc(100% - 18.75em)}.nav-primary .menu-main-navigation-container .subscribe-special.menu-large>a{width:10em}}.nav-primary .menu{padding:0}@media (max-width:64.9375em){.nav-primary .menu{-ms-flex-pack:start;justify-content:flex-start}}.nav-primary .menu>li{margin:0}@media (max-width:64.9375em){.nav-primary .menu>li{border:0}.nav-primary .menu>li.menu-large{display:none}}.nav-primary .menu>li>a{font:normal 600 .9375em/1.73333 Poppins,Helvetica,sans-serif;-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex}@media (max-width:64.9375em){.nav-primary .menu>li>a{padding-left:.625em}}@media (max-width:79.9375em){.nav-primary .menu>li>a{font-size:.9375em}}@media (min-width:65em) and (max-width:79.9375em){.nav-primary .menu>li>a{padding:0 1.28vw}}@media (min-width:80em){.nav-primary .menu>li>a{padding:0 .88235em}}.nav-primary .menu>li:last-child>a{border-right:0}@media (min-width:65em) and (max-width:79.9375em){.nav-primary .menu>li:first-child>a{padding-left:.71429em}}@media (min-width:80em){.nav-primary .menu>li:first-child>a{padding-left:.55556em}}@media (max-width:39.9375em){.nav-primary .menu .menu-item-has-children{position:static}}.nav-primary .menu .menu-item-has-children ul{background-color:var(--primary);-webkit-column-count:2;-moz-column-count:2;column-count:2}.nav-primary .menu .menu-item-has-children ul a{border-bottom:1px solid var(--tertiary)}@media (max-width:64.9375em){.nav-primary .menu .menu-item-has-children>a:after{display:none}}.nav-primary .menu .menu-item-has-children>a:after{content:'';border-bottom:7px solid transparent;border-left:5px solid transparent;border-right:5px solid transparent;border-top:7px solid #ddd8d5;margin:.55em 0 0 .35em}.nav-primary .icon-hamburger,.nav-primary .icon-search{position:static}@media (max-width:64.9375em){.nav-primary .icon-hamburger,.nav-primary .icon-search{font-size:1.375em}}@media (max-width:64.9375em){.nav-primary .icon-search{margin:0 .625em 0 auto;-ms-flex-order:1;order:1}}@media (max-width:49.9375em){.nav-primary .icon-search{margin-left:auto}}@media (min-width:65em){.nav-primary .icon-search{color:var(--primary);display:block;position:absolute;right:.625em;top:.54167em}}.nav-primary .icon-hamburger{margin:0 .625em 0 0}@media (max-width:64.9375em){.nav-primary .icon-hamburger{-ms-flex-order:2;order:2}}.pushnav li>a{font:normal 700 1.125em/1 Poppins,Helvetica,sans-serif}.pushnav .menu-item-has-children:not(.nav-alt-links){height:3.25em}.pushnav .menu-item-has-children:not(.nav-alt-links)>a{height:2.88889em}.pushnav .menu-item-has-children:not(.nav-alt-links)>ul a{font:normal 600 1em/1 Poppins,Helvetica,sans-serif}.status-bar{height:5em;left:27.8125em;padding:.625em .3125em;position:absolute;top:-5.3125em;z-index:7}.status-bar ul{border-left:1px solid #aaa7a4;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:distribute;justify-content:space-around;padding-left:.625em;-ms-flex-wrap:wrap;flex-wrap:wrap}.status-bar ul li{font:normal 400 .6875em/1.45455 Poppins,Helvetica,sans-serif;line-height:1;text-transform:uppercase}.status-bar a{padding:.71429em}.status-bar .status-bar-wrapper,.status-bar ul{height:100%}li.menu-item.status-button.status-subscribe{margin-left:10%;background-color:var(--primary);padding-top:9px;padding-bottom:9px;color:#fff;text-align:center;font:normal 600 .9375em/1.73333 Poppins,Helvetica,sans-serif}li.menu-item.status-button.status-subscribe>a{color:#fff;text-align:center;width:100%}@media screen and (max-width:1140px){li.menu-item.status-button.status-subscribe{display:none}}li.menu-item.status-button.status-subscribe.modern-earthy-color{margin-left:10%;background-color:#0d1ea5;padding-top:9px;padding-bottom:9px;color:#fff;text-align:center;font:normal 600 .9375em/1.73333 Poppins,Helvetica,sans-serif}li.menu-item.status-button.status-subscribe.modern-earthy-color>a{color:#fff;text-align:center;width:100%}@media screen and (max-width:1140px){li.menu-item.status-button.status-subscribe.modern-earthy-color{display:none}}.trending-bar{bottom:-1.0625em;position:absolute;width:100vw}@media (min-width:65em) and (max-width:79.9375em){.trending-bar{width:calc(100vw - 1.25em);left:.625em}}.trending-bar nav{float:none;padding:.5em 0}@media (min-width:65em){.trending-bar ul{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;height:1.125em;-ms-flex-pack:start;justify-content:flex-start;overflow:hidden}}.trending-bar li{line-height:1.15;padding-right:1.5625em;position:relative}.trending-bar a{color:#1f1e1e;font-family:Source Serif Pro,Helvetica,sans-serif}.trending-bar .trending-bar-wrapper p,.trending-bar a{font-size:.9375em}.trending-bar .trending-bar-wrapper{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex;padding:0 .3125em}@media (min-width:80em){.trending-bar .trending-bar-wrapper{max-width:80em}}.trending-bar .trending-bar-wrapper>p{color:var(--primary);display:block;font-size:.875em;padding-right:1.5625em;position:static;text-transform:uppercase;min-width:130px}.newsletter-simple a{display:inline-block}.newsletter-simple .newsletter-item{border-bottom:1px solid #fff;padding-bottom:1em}@media (max-width:64.9375em){.newsletter-simple .newsletter-item{padding:1em 0}}.article-sidebar .newsletter-simple{text-align:center;margin-bottom:1em}.article-sidebar .newsletter-simple .newsletter-item{-ms-flex-pack:center;justify-content:center}.prompt{font:normal 600 1em/1.3125 Poppins,Helvetica,sans-serif;color:#5d5b5a;margin-bottom:.75rem;position:relative;width:100%}.dfp-ad.dfp-top_leaderboard{width:100vw;background-color:#ecede7;padding:.3125em 0 .0625em;margin-left:-.625em}@media (min-width:80em){.dfp-ad.dfp-top_leaderboard{margin-left:calc((80em - 100vw) / 2)}}.dfp-ad.dfp-top_leaderboard>*{margin-bottom:0}.search-form.header-search{margin-top:0}.search-form.header-search input[type=text]{border-color:#ddd8d5;background-color:#fff;font-size:.9375em;padding:.75em}.popular .widget-title span{background-color:transparent;color:var(--primary);padding:0}.popular ol{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:.625em 0}.popular li,.popular li:nth-child(even){margin-right:1.25em}.popular li a{display:-ms-flexbox;display:flex;-ms-flex-pack:start;justify-content:flex-start}.popular li a:before{font:normal 600 1.3125em/1 Poppins,Helvetica,sans-serif;-ms-flex-align:center;background-color:var(--primary);border-radius:50%;color:#fff;content:counter(b);display:-ms-flexbox;display:flex;-ms-flex:0 0 auto;flex:0 0 2rem;font-family:Poppins,Helvetica,sans-serif;height:2rem;-ms-flex-pack:center;justify-content:center;line-height:2rem;margin-right:.625rem;width:2rem}.popular li a:before,.popular li span{align-items:center;max-width:100%}.popular li span{display:-ms-inline-flexbox;display:inline-flex;-ms-flex-align:center;width:100%}@media (max-width:64.9375em){.popular li span{font:normal 600 .9375em/1.26667 Poppins,Helvetica,sans-serif}}@media (min-width:65em){.popular li span{font:normal 600 1.0625em/1.23529 Poppins,Helvetica,sans-serif;letter-spacing:-.015em}}.popular.section{background-color:transparent}.popular.section ol{padding:.625em 0}.full-view .popular .widget-title{margin-bottom:1em}.full-view .popular .widget-title:before{content:none}@media (min-width:50em){.full-view .popular ol{-webkit-column-count:auto;-moz-column-count:auto;column-count:auto}}.full-view .popular ol:before{content:none}.full-view .popular li{font-size:.9375em;line-height:1.3;max-width:90%;width:90%}.sharedaddy,.sharing{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between}@media (max-width:39.9375em){.sharedaddy,.sharing{float:none;margin-top:.625em}}.sharedaddy ul{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex}.sharedaddy li,.sharing li{margin:0 .3125em 0 0}.sharedaddy li:last-child,.sharing li:last-child{margin:0}.sharing .icon-feed{border-radius:50%;font-size:1.25em;height:2em;width:2em;background-color:transparent;border:2px solid var(--primary);color:var(--primary);display:-ms-flexbox;display:flex;position:static}.sharing .icon-feed span:before{color:var(--primary)!important;font-size:.9375em}.sharing .icon-facebook{border-radius:50%;font-size:1.25em;height:2em;width:2em;background-color:transparent;border:2px solid #3b5998;color:#3b5998;display:-ms-flexbox;display:flex;position:static}.sharing .icon-facebook span:before{color:#3b5998!important;font-size:.9375em}.sharing .icon-twitter{border-radius:50%;font-size:1.25em;height:2em;width:2em;background-color:transparent;border:2px solid #00aced;color:#00aced;display:-ms-flexbox;display:flex;position:static}.sharing .icon-twitter span:before{color:#00aced!important;font-size:.9375em}.share-with-prompt{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex}@media (max-width:64.9375em){.share-with-prompt{-ms-flex-pack:justify;justify-content:space-between}}@media (min-width:65em){.share-with-prompt{-ms-flex-pack:center;justify-content:center}}.share-with-prompt .prompt{font:normal 600 1em/1.3125 Poppins,Helvetica,sans-serif;letter-spacing:-.01em}.full-view .share-with-prompt{text-align:center}.article-sidebar .sign-up-follow .share-with-prompt,.full-view .share-with-prompt{-ms-flex-direction:column;flex-direction:column}.article-sidebar .sign-up-follow .share-with-prompt .sharing{margin-bottom:0}.article-share{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between}.full-view .article-share{padding-top:.3125em}.full-view .article-share .sd-content>ul li{border-radius:50%;font-size:1.3125em;height:2.04762em;width:2.04762em}.site-header .article-share .sd-content>ul li{border-radius:50%;font-size:1.1875em;height:2em;width:2em}.full-view .article-share .sd-social-icon .sd-content>ul li,.site-header .article-share .sd-social-icon .sd-content>ul li{border-radius:50%;font-size:1.25em;height:2em;width:2em;background-color:transparent;border:2px solid var(--primary);color:var(--primary);display:-ms-flexbox;display:flex;position:static}.full-view .article-share .sd-social-icon .sd-content>ul li span:before,.site-header .article-share .sd-social-icon .sd-content>ul li span:before{color:var(--primary)!important;font-size:.9375em}@media (min-width:20em) and (max-width:79.9375em){.full-view .article-share .sd-social-icon .sd-content>ul li a.sd-button,.site-header .article-share .sd-social-icon .sd-content>ul li a.sd-button{margin-right:.75em}}.full-view .article-share .sd-social-icon .sd-content>ul li.share-facebook,.site-header .article-share .sd-social-icon .sd-content>ul li.share-facebook{border-radius:50%;font-size:1.25em;height:2em;width:2em;background-color:transparent;border:2px solid #3b5998;color:#3b5998;display:-ms-flexbox;display:flex;position:static}.full-view .article-share .sd-social-icon .sd-content>ul li.share-facebook span:before,.site-header .article-share .sd-social-icon .sd-content>ul li.share-facebook span:before{color:#3b5998!important;font-size:.9375em}.full-view .article-share .sd-social-icon .sd-content>ul li.share-twitter,.site-header .article-share .sd-social-icon .sd-content>ul li.share-twitter{border-radius:50%;font-size:1.25em;height:2em;width:2em;background-color:transparent;border:2px solid #00aced;color:#00aced;display:-ms-flexbox;display:flex;position:static}.full-view .article-share .sd-social-icon .sd-content>ul li.share-twitter span:before,.site-header .article-share .sd-social-icon .sd-content>ul li.share-twitter span:before{color:#00aced!important;font-size:.9375em}.full-view .article-share .sd-social-icon .sd-content>ul li.share-reddit,.site-header .article-share .sd-social-icon .sd-content>ul li.share-reddit{border-radius:50%;font-size:1.25em;height:2em;width:2em;background-color:transparent;border:2px solid #ff4500;color:#ff4500;display:-ms-flexbox;display:flex;position:static}.full-view .article-share .sd-social-icon .sd-content>ul li.share-reddit span:before,.site-header .article-share .sd-social-icon .sd-content>ul li.share-reddit span:before{color:#ff4500!important;font-size:.9375em}.full-view .article-share .sd-social-icon .sd-content>ul li.share-end,.site-header .article-share .sd-social-icon .sd-content>ul li.share-end{display:none}@media (max-width:64.9375em){.full-view .article-share li:last-of-type,.site-header .article-share li:last-of-type{display:block}}.full-view .article-content{display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between}.full-view .header-features{padding:3em 0 2em;width:100%}@media (min-width:65em){.full-view .article-sidebar{margin-top:3em}}.full-view .article-sidebar .sidebar-content>*{margin-bottom:2.5em}@media (min-width:40em) and (max-width:64.9375em){.full-view .article-sidebar .sign-up-follow,.full-view .article-sidebar .widget-popular-stories{float:left}}@media (min-width:40em) and (max-width:64.9375em){.full-view .article-sidebar .dfp-ad{float:right}}.full-view .article-sidebar .sharing{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-pack:center;justify-content:center;width:100%;margin-bottom:2em}.full-view .sign-up-follow{background-color:#ecede7;padding:1em 0}.popular li a:before{padding-top:.3125rem}.popular.section li a:before{padding-top:0}</style>
+		<script type="text/javascript">
+			!function(a){"use strict";a.loadCSS=function(b,c,d){var g,e=a.document,f=e.createElement("link");if(c)g=c;else{var h=(e.body||e.getElementsByTagName("head")[0]).childNodes;g=h[h.length-1]}var i=e.styleSheets;f.rel="stylesheet",f.href=b,f.media="only x",g.parentNode.insertBefore(f,c?g:g.nextSibling);var j=function(a){for(var b=f.href,c=i.length;c--;)if(i[c].href===b)return a();setTimeout(function(){j(a)})};return f.onloadcssdefined=j,j(function(){f.media=d||"all"}),f},"undefined"!=typeof module&&(module.exports=a.loadCSS)}(this);
+			loadCSS('https://assets.digitalfirstmedia.com/prod/static/css/modernearthy.221aa558842b7dd1db6c.css');
+		</script>
+	<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//assets.digitalfirstmedia.com' />
+<link rel='dns-prefetch' href='//s.ntv.io' />
+<link rel='dns-prefetch' href='//imasdk.googleapis.com' />
+<link rel='dns-prefetch' href='//cdn.blueconic.net' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Pasadena Star News &raquo; Feed" href="https://www.pasadenastarnews.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Pasadena Star News &raquo; Comments Feed" href="https://www.pasadenastarnews.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Pasadena Star News &raquo; Statistics can be manipulated to prove anything Comments Feed" href="https://www.pasadenastarnews.com/2014/05/24/statistics-can-be-manipulated-to-prove-anything/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.pasadenastarnews.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.1"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='all-css-0' href='https://www.pasadenastarnews.com/_static/??-eJx9j+EKwjAMhF/ILIhW9IeIj9K1mQbTdDQdY29vYQqi4K+Ey313BOcRWINMkQyDGUa2ir3k8ADhvviyoNVFqEusXTNssBEhayWtOMp0Y23QkEBz5YGDr5z1FfWt/s1o0uiLkSwf6487CLcBaYI3ZyXgNRp6M6prcco9C4GPd7LWC+sD7XJJ561zx/3h5HbuCeUaXYc=' type='text/css' media='all' />
+<link crossorigin="anonymous" rel='stylesheet' id='mason-fonts-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C600%2C700%7CSource+Serif+Pro%3A400%2C700&#038;ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-2' href='https://www.pasadenastarnews.com/_static/??-eJzTLy/QTc7PK0nNK9HPLdUtyClNz8wr1s9KLSlITM7Wj8/MS9Yvzk/OTMzRzclPzy9G4ejlZubpJRcX6+jjNwWoBMYGKbfPtTU0NbW0MDU2NDUEAFePLuY=' type='text/css' media='all' />
+<style>.headroom--not-top .logo a{ background-image: url( https://pasadenastarnews-com.go-vip.co/wp-content/uploads/2017/09/pasadena-star-news-pinned-logo.svg ); }</style><script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var adLayersDFP = {"layerDebugLabel":"Current ad layer","consoleDebugLabel":"Switch to Google console","adUnitPrefix":"div-gpt-ad-"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var adLayersAdServer = {"jsAPIClass":"AdLayersDFPAPI"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.pasadenastarnews.com/_static/??-eJzTLy/QTc7PK0nNK9EvyClNz8wr1k9M0c1JrEwtKtbPQuLopqQV6GUV6+gTrQOo2j7X1tDUxMjM0tTS0igLAKxQJss='></script>
+<script type='text/javascript' src='https://www.gstatic.com/firebasejs/5.7.0/firebase-app.js?ver=5.2.1'></script>
+<script type='text/javascript' src='https://www.gstatic.com/firebasejs/5.7.0/firebase-messaging.js?ver=5.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var webpush_config = {"apiKey":"AIzaSyD4u5lvjya6wgk4Z4ffX6b9_HXbpkCPPD8","projectId":"pasadena-star-news","messagingSenderId":"616993193236","secret":"LReXvGspgiDprxfXDKZg","vapidKey":"BFHtfkbqTpWLkrglsuVbnmv3oQk6iR4RfMbJkmCCJWbB7dfvtrtYkO9Ar_u37ptYqmn_YBYaWY0QwF91zA5TeXI","debug":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.pasadenastarnews.com/wp-content/plugins/dfm-notifications/js/webpush.js?m=1556829517g'></script>
+<script type='text/javascript' src='https://cdn.blueconic.net/digitalfirstmedia.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var MG2 = {"settings":{"environment":"prod","version":"mng","loadAttempts":null,"blockAttempts":null,"xCode":"","randomURLChoosing":false,"plugins":[{"name":"NXT","required":false,"initOptions":{"version":"mng","environment":"prod","siteCode":"MNG","configCode":"SCNGProdWP","clientCode":"mng","debug":false,"silentmode":false,"attr":"PSN","settingsKey":"LANG,PSN"}},{"name":"FP","required":true,"initOptions":{"version":"1.0","environment":"prod"}},{"name":"DL","required":true,"initOptions":{"version":"mng","environment":"prod","tagManager":"GTM","containerId":"GTM-NFD2QGD","collectors":["connext"]}}]}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.pasadenastarnews.com/wp-content/plugins/loader-wp-v.1.0/static/loader.min.js?ver=1.0.0'></script>
+<script type='text/javascript'>
+(function( MG2, MG2Loader ) {
+	if ( 'undefined' !== typeof MG2 && 'undefined' !== typeof MG2Loader) {
+		MG2Loader.init( MG2.settings );
+	}
+})( MG2, MG2Loader );
+</script>
+<link rel='https://api.w.org/' href='https://www.pasadenastarnews.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.pasadenastarnews.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.pasadenastarnews.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.1" />
+<link rel='shortlink' href='https://www.pasadenastarnews.com/?p=186162' />
+<link rel="alternate" type="application/json+oembed" href="https://www.pasadenastarnews.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.pasadenastarnews.com%2F2014%2F05%2F24%2Fstatistics-can-be-manipulated-to-prove-anything%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.pasadenastarnews.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.pasadenastarnews.com%2F2014%2F05%2F24%2Fstatistics-can-be-manipulated-to-prove-anything%2F&#038;format=xml" />
+
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+		
+			<link rel="manifest" href="https://www.pasadenastarnews.com/wp-content/plugins/dfm-notifications/js/manifest.json">
+				<style>
+		.getty.aligncenter {
+			text-align: center;
+		}
+		.getty.alignleft {
+			float: none;
+			margin-right: 0;
+		}
+		.getty.alignleft > div {
+			float: left;
+			margin-right: 5px;
+		}
+		.getty.alignright {
+			float: none;
+			margin-left: 0;
+		}
+		.getty.alignright > div {
+			float: right;
+			margin-left: 5px;
+		}
+		</style>
+		
+<!-- BEGIN wp-parsely Plugin Version 1.14 -->
+<meta name="wp-parsely_version" id="wp-parsely_version" content="1.14"/>
+			<script type="application/ld+json">
+		{"@context":"http:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/www.pasadenastarnews.com\/2014\/05\/24\/statistics-can-be-manipulated-to-prove-anything\/"},"headline":"Statistics can be manipulated to prove anything","url":"http:\/\/www.pasadenastarnews.com\/general-news\/20140524\/statistics-can-be-manipulated-to-prove-anything","dateCreated":"2014-05-24T23:04:21Z","datePublished":"2014-05-24T23:04:21Z","dateModified":"1970-01-01T00:00:01Z","articleSection":"News","author":[{"@type":"Person","name":"Robert Rector"}],"creator":["Robert Rector"],"keywords":[],"publisher":{"@type":"Organization","name":"Pasadena Star News","logo":"https:\/\/www.pasadenastarnews.com\/wp-content\/uploads\/2017\/09\/pasadena-default.jpg"}}
+		</script>
+
+			<!-- END wp-parsely Plugin Version 1.14 -->
+<script>
+			!function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");apstag.init({
+				pubID: '3391',
+				adServer: 'googletag'
+			});
+			 apstag.fetchBids({
+				slots: [
+					{
+						slotID: 'div-gpt-ad-SBB',
+						sizes: [[970, 30], [970, 250]]
+					},
+					{
+						slotID: 'div-gpt-ad-interstitial',
+						sizes: [[1, 1]]
+					},
+					{
+						slotID: 'div-gpt-ad-top_leaderboard',
+						sizes: [[728, 90], [970, 90], [970, 250], [970, 30], [300, 50], [320, 50], [320, 100]]
+					},
+					{
+						slotID: 'div-gpt-ad-Cube1_RRail_ATF',
+						sizes: [[300, 250], [300, 600], [300, 1050], [160, 600]]
+					},
+					{
+						slotID: 'div-gpt-ad-Cube2_RRail_mid',
+						sizes: [[300, 250]]
+					},
+					{
+						slotID: 'div-gpt-ad-Cube3_RRail_lower',
+						sizes: [[300, 250], [300, 600]]
+					},
+					{
+						slotID: 'div-gpt-ad-Cube3b_Flex',
+						sizes: [[300, 250]]
+					},
+					{
+						slotID: 'div-gpt-ad-Cube4_BottomLine',
+						sizes: [[300, 250]]
+					},
+					{
+						slotID: 'div-gpt-ad-Cube_Article',
+						sizes: [[300, 250]]
+					},
+					{
+						slotID: 'div-gpt-ad-bottom_leaderboard',
+						sizes: [[728, 90], [970, 90], [970, 250], [320, 50], [320, 100]]
+					}
+				],
+				timeout: 2e3
+			}, function(bids) {
+				// Your callback method, in this example it triggers the first DFP request for googletag's disableInitialLoad integration after bids have been set
+				googletag.cmd.push(function(){
+					apstag.setDisplayBids();
+					googletag.pubads().refresh();
+				});
+			});
+		</script><meta property="fb:pages" content="89360177833"/>
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<style type='text/css'>img#wpstats{display:none}</style><link rel="canonical" href="http://www.pasadenastarnews.com/general-news/20140524/statistics-can-be-manipulated-to-prove-anything" />					
+		<script async src="//js-sec.indexww.com/ht/p/185707-192819229389900.js"></script>
+		<script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+		<script type='text/javascript'>
+		var dfpAdUnits = {};
+		var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+		</script>			<script type="text/javascript">
+	var ranNum = Math.floor(Math.random()*101);
+	var ranRPN = ranNum.toString();
+	</script><script>
+
+function DetectDevice( userAgent ) {
+    userAgent = userAgent.toLowerCase();
+    if( RegExp( "ipod" ).test( userAgent ) || RegExp( "iphone" ).test( userAgent ) ) {
+        return "phone";
+    } else if( RegExp( "ipad" ).test( userAgent ) ) {
+        return "tablet";
+    } else if( RegExp( "android" ).test( userAgent ) ) {
+        if( RegExp( "mobile" ).test( userAgent ) ) {
+            return "phone";
+        }
+        return "tablet";
+    } else if( ( RegExp( "win" ).test( userAgent ) && ! RegExp( "compatible" ).test( userAgent ) ) || RegExp( "linux" ).test( userAgent ) || RegExp( "mac" ).test( userAgent ) ){
+        return "desktop";
+    }
+    return "unknown";
+}
+
+var dcatValue = DetectDevice( navigator.userAgent );
+
+</script><script type="text/javascript">
+
+function getParameterByName( dfmName, dfmUrl ) {
+	if ( typeof dfmUrl === "undefined") {
+		dfmUrl = window.location.href;
+	}
+	dfmName = dfmName.replace( /[\[\]]/g, "\$&" );
+	var regex = new RegExp( "[?&]" + dfmName + "(=([^&#]*)|&|#|$)" );
+	var dfmResults = regex.exec( dfmUrl );
+	if ( !dfmResults ) return '';
+	if ( !dfmResults[ 2 ] ) return '';
+	var dfmResult = decodeURIComponent( dfmResults[2].replace(/\+/g, " ") );
+	if( dfmResult.length > 15 ) return '';
+	for( var x = 0; x < dfmResult.length; x++ ) {
+		var charCode = dfmResult.charCodeAt( x );
+		if ( ! ( 
+			( 'a'.charCodeAt( 0 ) <= charCode && charCode <= 'z'.charCodeAt( 0 ) ) ||
+			( 'A'.charCodeAt( 0 ) <= charCode && charCode <= 'z'.charCodeAt( 0 ) ) ||
+			( '0'.charCodeAt( 0 ) <= charCode && charCode <= '9'.charCodeAt( 0 ) ) 
+			) ) {
+				return '';
+		}
+	}
+	return dfmResult;
+}
+
+var adTest = getParameterByName( "adtest" );
+
+</script>			<script type="text/javascript">
+			var dfpBuiltMappings = {}, dfpAdUnits = {};
+			googletag.cmd.push(function() {
+				dfpBuiltMappings["interstitial"] = googletag.sizeMapping().addSize([1000,200],[[1,1]]).addSize([750,200],[[1,1]]).build();
+dfpBuiltMappings["Sponsorship_1"] = googletag.sizeMapping().addSize([1000,200],[[300,50]]).addSize([750,200],[[300,50]]).addSize([300,200],[[300,50]]).build();
+dfpBuiltMappings["top_leaderboard"] = googletag.sizeMapping().addSize([1000,200],[[728,90],[970,90],[970,250],[970,30]]).addSize([750,200],[[728,90]]).addSize([300,200],[[300,50],[320,100],[320,50]]).build();
+dfpBuiltMappings["Cube1_RRail_ATF"] = googletag.sizeMapping().addSize([1000,200],[[300,250],[300,600],[300,1050],[160,600]]).addSize([750,200],[[300,250]]).addSize([300,200],[[300,250]]).build();
+dfpBuiltMappings["Sponsorship_2"] = googletag.sizeMapping().addSize([1000,200],[[1280,250],[728,90],[970,90],[970,250]]).addSize([750,200],[[1280,250],[728,90]]).addSize([300,200],[[1280,250],[320,50],[300,50]]).build();
+dfpBuiltMappings["Cube2_RRail_mid"] = googletag.sizeMapping().addSize([1000,200],[[300,250]]).addSize([750,200],[[300,250]]).addSize([300,200],[[300,250]]).build();
+dfpBuiltMappings["Cube_Article"] = googletag.sizeMapping().addSize([1000,200],[[300,250]]).addSize([750,200],[[300,250]]).addSize([300,200],[[300,250]]).build();
+dfpBuiltMappings["Cube3_RRail_lower"] = googletag.sizeMapping().addSize([1000,200],[[300,250]]).addSize([750,200],[[300,250]]).addSize([300,200],[[300,250]]).build();
+dfpBuiltMappings["bottom_leaderboard"] = googletag.sizeMapping().addSize([1000,200],[[728,90],[970,90],[970,250]]).addSize([750,200],[[728,90]]).addSize([300,200],[[320,100],[320,50],[300,50]]).build();
+dfpBuiltMappings["Slideshow_1"] = googletag.sizeMapping().addSize([1000,200],[[300,251]]).addSize([750,200],[[300,251]]).addSize([300,200],[[300,251]]).build();
+dfpBuiltMappings["mobile_adhesion"] = googletag.sizeMapping().addSize([750,200],[[728,90]]).addSize([300,200],[[320,50],[320,100]]).build();
+dfpAdUnits["interstitial"] = googletag.defineSlot("\/8013\/pasadenastarnews.com\/news",[1,1],"div-gpt-ad-interstitial").defineSizeMapping(dfpBuiltMappings["interstitial"]).setTargeting("POS",["interstitial"]).setTargeting("page",["article"]).setTargeting("RPN", ranRPN).setTargeting("rurl", [""]).setTargeting("articleid",["186162"]).setTargeting("adtest", adTest).addService(googletag.pubads());
+dfpAdUnits["Sponsorship_1"] = googletag.defineSlot("\/8013\/pasadenastarnews.com\/news",[300,50],"div-gpt-ad-Sponsorship_1").defineSizeMapping(dfpBuiltMappings["Sponsorship_1"]).setTargeting("POS",["Sponsorship_1"]).setTargeting("page",["article"]).setTargeting("RPN", ranRPN).setTargeting("rurl", [""]).setTargeting("articleid",["186162"]).setTargeting("adtest", adTest).addService(googletag.pubads());
+dfpAdUnits["top_leaderboard"] = googletag.defineSlot("\/8013\/pasadenastarnews.com\/news",[728,90],"div-gpt-ad-top_leaderboard").defineSizeMapping(dfpBuiltMappings["top_leaderboard"]).setTargeting("POS",["top_leaderboard"]).setTargeting("page",["article"]).setTargeting("RPN", ranRPN).setTargeting("rurl", [""]).setTargeting("articleid",["186162"]).setTargeting("adtest", adTest).addService(googletag.pubads());
+dfpAdUnits["Cube1_RRail_ATF"] = googletag.defineSlot("\/8013\/pasadenastarnews.com\/news",[300,250],"div-gpt-ad-Cube1_RRail_ATF").defineSizeMapping(dfpBuiltMappings["Cube1_RRail_ATF"]).setTargeting("POS",["Cube1_RRail_ATF"]).setTargeting("page",["article"]).setTargeting("RPN", ranRPN).setTargeting("rurl", [""]).setTargeting("articleid",["186162"]).setTargeting("adtest", adTest).addService(googletag.pubads());
+dfpAdUnits["Sponsorship_2"] = googletag.defineSlot("\/8013\/pasadenastarnews.com\/news",[1280,250],"div-gpt-ad-Sponsorship_2").defineSizeMapping(dfpBuiltMappings["Sponsorship_2"]).setTargeting("POS",["Sponsorship_2"]).setTargeting("page",["article"]).setTargeting("RPN", ranRPN).setTargeting("rurl", [""]).setTargeting("articleid",["186162"]).setTargeting("adtest", adTest).addService(googletag.pubads());
+dfpAdUnits["Cube2_RRail_mid"] = googletag.defineSlot("\/8013\/pasadenastarnews.com\/news",[300,250],"div-gpt-ad-Cube2_RRail_mid").defineSizeMapping(dfpBuiltMappings["Cube2_RRail_mid"]).setTargeting("POS",["Cube2_RRail_mid"]).setTargeting("page",["article"]).setTargeting("RPN", ranRPN).setTargeting("rurl", [""]).setTargeting("articleid",["186162"]).setTargeting("adtest", adTest).addService(googletag.pubads());
+dfpAdUnits["bottom_leaderboard"] = googletag.defineSlot("\/8013\/pasadenastarnews.com\/news",[728,90],"div-gpt-ad-bottom_leaderboard").defineSizeMapping(dfpBuiltMappings["bottom_leaderboard"]).setTargeting("POS",["bottom_leaderboard"]).setTargeting("page",["article"]).setTargeting("RPN", ranRPN).setTargeting("rurl", [""]).setTargeting("articleid",["186162"]).setTargeting("adtest", adTest).addService(googletag.pubads());
+dfpAdUnits["Cube_Article"] = googletag.defineSlot("\/8013\/pasadenastarnews.com\/news",[300,250],"div-gpt-ad-Cube_Article").defineSizeMapping(dfpBuiltMappings["Cube_Article"]).setTargeting("POS",["Cube_Article"]).setTargeting("page",["article"]).setTargeting("RPN", ranRPN).setTargeting("rurl", [""]).setTargeting("articleid",["186162"]).setTargeting("adtest", adTest).addService(googletag.pubads());
+dfpAdUnits["Slideshow_1"] = googletag.defineSlot("\/8013\/pasadenastarnews.com\/news",[300,251],"div-gpt-ad-Slideshow_1").defineSizeMapping(dfpBuiltMappings["Slideshow_1"]).setTargeting("POS",["Slideshow_1"]).setTargeting("page",["article"]).setTargeting("RPN", ranRPN).setTargeting("rurl", [""]).setTargeting("articleid",["186162"]).setTargeting("adtest", adTest).addService(googletag.pubads());
+dfpAdUnits["mobile_adhesion"] = googletag.defineSlot("\/8013\/pasadenastarnews.com\/news",[320,50],"div-gpt-ad-mobile_adhesion").defineSizeMapping(dfpBuiltMappings["mobile_adhesion"]).setTargeting("POS",["mobile_adhesion"]).setTargeting("page",["article"]).setTargeting("RPN", ranRPN).setTargeting("rurl", [""]).setTargeting("articleid",["186162"]).setTargeting("adtest", adTest).addService(googletag.pubads());
+googletag.pubads().enableAsyncRendering();
+googletag.pubads().enableSingleRequest();
+googletag.pubads().collapseEmptyDivs();
+googletag.pubads().disableInitialLoad();
+				if ( typeof AdLayersAPI === 'undefined' || ! AdLayersAPI.isDebug() ) {
+					googletag.enableServices();
+				}
+			});
+						var dfpSizeMapping = {"interstitial":[[[1000,200],[[1,1]]],[[750,200],[[1,1]]]],"Sponsorship_1":[[[1000,200],[[300,50]]],[[750,200],[[300,50]]],[[300,200],[[300,50]]]],"top_leaderboard":[[[1000,200],[[728,90],[970,90],[970,250],[970,30]]],[[750,200],[[728,90]]],[[300,200],[[300,50],[320,100],[320,50]]]],"Cube1_RRail_ATF":[[[1000,200],[[300,250],[300,600],[300,1050],[160,600]]],[[750,200],[[300,250]]],[[300,200],[[300,250]]]],"Sponsorship_2":[[[1000,200],[[1280,250],[728,90],[970,90],[970,250]]],[[750,200],[[1280,250],[728,90]]],[[300,200],[[1280,250],[320,50],[300,50]]]],"Cube2_RRail_mid":[[[1000,200],[[300,250]]],[[750,200],[[300,250]]],[[300,200],[[300,250]]]],"Cube_Article":[[[1000,200],[[300,250]]],[[750,200],[[300,250]]],[[300,200],[[300,250]]]],"Cube3_RRail_lower":[[[1000,200],[[300,250]]],[[750,200],[[300,250]]],[[300,200],[[300,250]]]],"bottom_leaderboard":[[[1000,200],[[728,90],[970,90],[970,250]]],[[750,200],[[728,90]]],[[300,200],[[320,100],[320,50],[300,50]]]],"Slideshow_1":[[[1000,200],[[300,251]]],[[750,200],[[300,251]]],[[300,200],[[300,251]]]],"mobile_adhesion":[[[750,200],[[728,90]]],[[300,200],[[320,50],[320,100]]]]};
+			var dfpAdLayer = {"post_id":899,"title":"Article"};
+			var dfpAdDetails = {"interstitial":{"path":"\/8013\/pasadenastarnews.com\/news","sizes":[1,1],"targeting":{"POS":["interstitial"],"page":["article"]}},"Sponsorship_1":{"path":"\/8013\/pasadenastarnews.com\/news","sizes":[300,50],"targeting":{"POS":["Sponsorship_1"],"page":["article"]}},"top_leaderboard":{"path":"\/8013\/pasadenastarnews.com\/news","sizes":[728,90],"targeting":{"POS":["top_leaderboard"],"page":["article"]}},"Cube1_RRail_ATF":{"path":"\/8013\/pasadenastarnews.com\/news","sizes":[300,250],"targeting":{"POS":["Cube1_RRail_ATF"],"page":["article"]}},"Sponsorship_2":{"path":"\/8013\/pasadenastarnews.com\/news","sizes":[1280,250],"targeting":{"POS":["Sponsorship_2"],"page":["article"]}},"Cube2_RRail_mid":{"path":"\/8013\/pasadenastarnews.com\/news","sizes":[300,250],"targeting":{"POS":["Cube2_RRail_mid"],"page":["article"]}},"Cube3_RRail_lower":{"path":"\/8013\/pasadenastarnews.com\/news","sizes":[300,250],"targeting":{"POS":["Cube3_RRail_lower"],"page":["article"]}},"bottom_leaderboard":{"path":"\/8013\/pasadenastarnews.com\/news","sizes":[728,90],"targeting":{"POS":["bottom_leaderboard"],"page":["article"]}},"Cube_Article":{"path":"\/8013\/pasadenastarnews.com\/news","sizes":[300,250],"targeting":{"POS":["Cube_Article"],"page":["article"]}},"Slideshow_1":{"path":"\/8013\/pasadenastarnews.com\/news","sizes":[300,251],"targeting":{"POS":["Slideshow_1"],"page":["article"]}},"mobile_adhesion":{"path":"\/8013\/pasadenastarnews.com\/news","sizes":[320,50],"targeting":{"POS":["mobile_adhesion"],"page":["article"]}}};
+			</script>
+			<style></style><!-- Google Tag Manager Data Layer -->
+<script type='text/javascript'>
+   analyticsEvent    = function() {};
+   analyticsSocial   = function() {};
+   analyticsVPV      = function() {};
+   analyticsClearVPV = function() {};
+   analyticsForm     = function() {};
+   window.dataLayer  = window.dataLayer || [];
+   dataLayer.push({
+      'ga_ua' : 'UA-61435456-15',
+      'quantcast' : 'p-4ctCQwtnNBNs2',
+      'quantcast label' : 'LANewsGroup',
+      'comscore' : '6035443',
+      'Publisher Domain' : 'pasadenastarnews.com',
+      'Publisher Product' : 'pasadenastarnews.com',
+      'kv' : 'News',
+      'Platform' : 'WP',
+      'Release Version' : '5.2.1',
+      'Digital Publisher' : '',
+      'Section' : 'News',
+      'Taxonomy1' : 'News',
+      'Taxonomy2' : '',
+      'Taxonomy3' : '',
+      'Taxonomy4' : '',
+      'Taxonomy5' : '',
+      'Publisher State' : 'SCNG',
+      'Page Type' : 'article',
+      'User ID' : '',
+      'Behind Paywall' : '',
+      'Mobile Presentation' : 'no',
+      'Content ID' : '186162',
+      'Publish Hour of Day' : '2014-05-24T23:04:21-07:00',
+      'Create Hour of Day' : '2014-05-24T23:04:21-07:00',
+      'Update Hour of Day' : '2017-08-29T09:25:35-07:00',
+      'Content Source' : '',
+      'Canonical URL' : 'http://www.pasadenastarnews.com/general-news/20140524/statistics-can-be-manipulated-to-prove-anything',
+      'Slug' : 'statistics-can-be-manipulated-to-prove-anything',
+      'Byline' : 'Robert Rector',
+      'Byline_Email' : 'RRector@SCNG.com',
+      'Content Title' : 'Statistics can be manipulated to prove anything',
+      'URL' : 'https://www.pasadenastarnews.com/2014/05/24/statistics-can-be-manipulated-to-prove-anything/',
+      'Page Title' : 'Statistics can be manipulated to prove anything',
+      'Article Characters' : '4453',
+      'Article Words' : '761',
+      'Print Export' : 'false',
+      'Dateline' : ''
+   });
+</script>
+<!-- End Google Tag Manager Data Layer -->
+<!-- Google Tag Manager -->
+<script>
+(function(w,d,s,l,i) {
+   w[l]=w[l]||[];
+   w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+   var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+   j.async=true;
+   j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})
+(window,document,'script','dataLayer','GTM-TLFP4R');
+</script><!-- End Google Tag Manager -->
+<link rel="amphtml" href="https://www.pasadenastarnews.com/2014/05/24/statistics-can-be-manipulated-to-prove-anything/amp/">
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Statistics can be manipulated to prove anything" />
+<meta property="og:url" content="http://www.pasadenastarnews.com/general-news/20140524/statistics-can-be-manipulated-to-prove-anything" />
+<meta property="og:description" content="There are several undeniable truths about statistics: First and foremost, they can be manipulated, massaged and misstated. In the immortal words of Homer Simpson, &#x201c;Aw, you can come up with s…" />
+<meta property="article:published_time" content="2014-05-24T23:04:21+00:00" />
+<meta property="article:modified_time" content="2017-08-29T09:25:35+00:00" />
+<meta property="og:site_name" content="Pasadena Star News" />
+<meta property="og:image" content="https://www.pasadenastarnews.com/wp-content/uploads/2017/09/pasadena-default.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:text:title" content="Statistics can be manipulated to prove anything" />
+<meta name="twitter:image" content="https://www.pasadenastarnews.com/wp-content/uploads/2017/09/pasadena-default.jpg" />
+<meta name="twitter:card" content="summary" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="icon" href="https://www.pasadenastarnews.com/wp-content/uploads/2017/08/pasadena-star-news-icon.png?w=32" sizes="32x32" />
+<link rel="icon" href="https://www.pasadenastarnews.com/wp-content/uploads/2017/08/pasadena-star-news-icon.png?w=37" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.pasadenastarnews.com/wp-content/uploads/2017/08/pasadena-star-news-icon.png?w=37" />
+<meta name="msapplication-TileImage" content="https://www.pasadenastarnews.com/wp-content/uploads/2017/08/pasadena-star-news-icon.png?w=37" />
+			</head>
+	
+			<body class="post-template-default single single-post postid-186162 single-format-standard wp-custom-logo">
+	
+			<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-TLFP4R' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+			<nav class="pushnav">
+				<ul id="pushnav" class="menu"><li id="menu-item-906" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-906 menu-large"><a href="https://www.pasadenastarnews.com/news/">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-907" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-907 menu-large"><a href="https://www.pasadenastarnews.com/news/">News</a></li>
+	<li id="menu-item-908" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-908 menu-large"><a href="https://www.pasadenastarnews.com/news/crime/">Crime + Public Safety</a></li>
+	<li id="menu-item-1996727" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1996727 menu-large"><a href="https://www.pasadenastarnews.com/tag/investigation">Investigative Reporting</a></li>
+	<li id="menu-item-909" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-909 menu-large"><a href="https://www.pasadenastarnews.com/news/politics/">Politics</a></li>
+	<li id="menu-item-1996728" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1996728 menu-large"><a href="https://www.pasadenastarnews.com/tag/health">Health</a></li>
+	<li id="menu-item-2152664" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2152664 menu-large"><a href="https://www.pasadenastarnews.com/news/environment/">Environment</a></li>
+</ul>
+</li>
+<li id="menu-item-914" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-914 menu-large"><a href="https://www.pasadenastarnews.com/local-news/">Local News</a>
+<ul class="sub-menu">
+	<li id="menu-item-1798156" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1798156 menu-large"><a href="https://www.pasadenastarnews.com/local-news/">Local News</a></li>
+	<li id="menu-item-98984" class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-98984 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/pasadena/">Pasadena</a></li>
+	<li id="menu-item-101299" class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-101299 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/san-marino/">San Marino</a></li>
+	<li id="menu-item-98693" class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-98693 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/altadena/">Altadena</a></li>
+	<li id="menu-item-101295" class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-101295 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/san-gabriel/">San Gabriel</a></li>
+	<li id="menu-item-101802" class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-101802 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/alhambra/">Alhambra</a></li>
+	<li id="menu-item-102163" class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-102163 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/monrovia/">Monrovia</a></li>
+	<li id="menu-item-102555" class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-102555 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/arcadia/">Arcadia</a></li>
+	<li id="menu-item-103138" class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-103138 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/temple-city/">Temple City</a></li>
+	<li id="menu-item-103948" class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-103948 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/monterey-park/">Monterey Park</a></li>
+	<li id="menu-item-103137" class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-103137 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/south-pasadena/">South Pasadena</a></li>
+	<li id="menu-item-104778" class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-104778 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/duarte/">Duarte</a></li>
+	<li id="menu-item-106285" class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-106285 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/rosemead/">Rosemead</a></li>
+	<li id="menu-item-106320" class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-106320 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/sierra-madre/">Sierra Madre</a></li>
+	<li id="menu-item-106850" class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-106850 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/el-monte/">El Monte</a></li>
+	<li id="menu-item-106645" class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-106645 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/south-el-monte/">South El Monte</a></li>
+	<li id="menu-item-107285" class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-107285 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/los-angeles/">Los Angeles</a></li>
+	<li id="menu-item-107436" class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-107436 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/">Los Angeles County</a></li>
+</ul>
+</li>
+<li id="menu-item-915" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-915 menu-large"><a href="https://www.pasadenastarnews.com/sports/">Sports</a>
+<ul class="sub-menu">
+	<li id="menu-item-916" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-916 menu-large"><a href="https://www.pasadenastarnews.com/sports/">Sports</a></li>
+	<li id="menu-item-917" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-917 menu-large"><a href="https://www.pasadenastarnews.com/sports/high-school-sports/">LA Varsity</a></li>
+	<li id="menu-item-95024" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-95024 menu-large"><a href="https://www.pasadenastarnews.com/sports/nfl/los-angeles-chargers/">Chargers</a></li>
+	<li id="menu-item-95026" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-95026 menu-large"><a href="https://www.pasadenastarnews.com/sports/nfl/los-angeles-rams/">Rams</a></li>
+	<li id="menu-item-94873" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-94873 menu-large"><a href="https://www.pasadenastarnews.com/sports/nba/lakers/">Lakers</a></li>
+	<li id="menu-item-94872" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-94872 menu-large"><a href="https://www.pasadenastarnews.com/sports/nba/clippers/">Clippers</a></li>
+	<li id="menu-item-95023" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-95023 menu-large"><a href="https://www.pasadenastarnews.com/sports/mlb/los-angeles-dodgers/">Dodgers</a></li>
+	<li id="menu-item-95019" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-95019 menu-large"><a href="https://www.pasadenastarnews.com/sports/mlb/los-angeles-angels/">Angels</a></li>
+	<li id="menu-item-95202" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-95202 menu-large"><a href="https://www.pasadenastarnews.com/sports/college-sports/usc/">USC</a></li>
+	<li id="menu-item-95201" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-95201 menu-large"><a href="https://www.pasadenastarnews.com/sports/college-sports/ucla/">UCLA</a></li>
+	<li id="menu-item-924" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-924 menu-large"><a href="https://www.pasadenastarnews.com/sports/college-sports/">College Sports</a></li>
+	<li id="menu-item-94809" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-94809 menu-large"><a href="https://www.pasadenastarnews.com/sports/nhl/los-angeles-kings/">Kings</a></li>
+	<li id="menu-item-94808" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-94808 menu-large"><a href="https://www.pasadenastarnews.com/sports/nhl/anaheim-ducks/">Ducks</a></li>
+	<li id="menu-item-923" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-923 menu-large"><a href="https://www.pasadenastarnews.com/sports/mmaboxing/">MMA/Boxing</a></li>
+	<li id="menu-item-925" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-925 menu-large"><a href="https://www.pasadenastarnews.com/sports/soccer/">Soccer</a></li>
+</ul>
+</li>
+<li id="menu-item-928" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-928 menu-large"><a href="https://www.pasadenastarnews.com/things-to-do/">Things to do</a>
+<ul class="sub-menu">
+	<li id="menu-item-927" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-927 menu-large"><a href="https://www.pasadenastarnews.com/things-to-do/">Things to do</a></li>
+	<li id="menu-item-929" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-929 menu-large"><a href="https://www.pasadenastarnews.com/things-to-do/restaurant-reviews-food/">Restaurant Reviews + Food</a></li>
+	<li id="menu-item-940" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-940 menu-large"><a href="https://www.pasadenastarnews.com/things-to-do/amusement-parks/">Amusement Parks</a></li>
+	<li id="menu-item-930" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-930 menu-large"><a href="https://www.pasadenastarnews.com/things-to-do/movies-tv/">Movies + TV</a></li>
+	<li id="menu-item-931" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-931 menu-large"><a href="https://www.pasadenastarnews.com/things-to-do/music-concerts/">Music + Concerts</a></li>
+	<li id="menu-item-932" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-932 menu-large"><a href="https://www.pasadenastarnews.com/things-to-do/theater/">Theater</a></li>
+	<li id="menu-item-934" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-934 menu-large"><a href="https://www.pasadenastarnews.com/things-to-do/home-garden/">Home + Garden</a></li>
+	<li id="menu-item-935" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-935 menu-large"><a href="https://www.pasadenastarnews.com/things-to-do/travel/">Travel</a></li>
+	<li id="menu-item-2142697" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2142697 menu-large"><a href="https://comicskingdom.com/?utm_source=dfm">Comics</a></li>
+	<li id="menu-item-2142698" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2142698 menu-large"><a href="http://puzzles.comicskingdom.com/?utm_source=dfm">Puzzles</a></li>
+</ul>
+</li>
+<li id="menu-item-901" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-901 menu-large"><a href="https://www.pasadenastarnews.com/business/">Business</a>
+<ul class="sub-menu">
+	<li id="menu-item-1996730" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1996730 menu-large"><a href="https://www.pasadenastarnews.com/business/">Business</a></li>
+	<li id="menu-item-2116007" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2116007 menu-large"><a href="https://www.pasadenastarnews.com/business/housing/">Housing</a></li>
+	<li id="menu-item-1996732" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1996732 menu-large"><a href="https://www.pasadenastarnews.com/tag/jobs">Jobs</a></li>
+</ul>
+</li>
+<li id="menu-item-34115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-34115 menu-large"><a href="http://www.legacy.com/obituaries/pasadenastarnews/">Obituaries</a>
+<ul class="sub-menu">
+	<li id="menu-item-2018789" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2018789 menu-large"><a href="https://www.legacy.com/obituaries/pasadenastarnews/">Obituaries</a></li>
+	<li id="menu-item-2018790" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2018790 menu-large"><a href="https://lang.theadhawk.com/lang-adportal/obits/index.html">Place an Obituary</a></li>
+</ul>
+</li>
+<li id="menu-item-945" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-945 menu-large"><a href="https://www.pasadenastarnews.com/opinion/">Opinion</a>
+<ul class="sub-menu">
+	<li id="menu-item-2102701" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2102701 menu-large"><a href="https://www.pasadenastarnews.com/opinion/">Opinion</a></li>
+</ul>
+</li>
+<li id="menu-item-2120064" class="menu-large modern-earthy-color subscribe-special modern-earthy-width menu-item menu-item-type-custom menu-item-object-custom menu-item-2120064"><a href="https://checkout.pasadenastarnews.com/">SUBSCRIBE NOW</a></li>
+</ul>			</nav>
+				
+			<div id="page" class="hfeed site">
+	
+					<div id="web-push-prompt" class="alert-bar" style="background-color: #000000;">
+			<div class="alert-bar-wrapper">
+				<div class="alert-bar-message">
+					<p style="color: #FFFFFF;" onclick="DfmWebPush.doRegisterPushPermission();">
+						GET BREAKING NEWS IN YOUR BROWSER. CLICK HERE TO TURN ON NOTIFICATIONS.					</p>
+				</div>
+				<div class="alert-bar-close">
+					<p 
+						style="color: #FFFFFF;"
+						onclick="DfmWebPush.closePushPrompt();"
+					>X
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="header-placeholder"></div><header class="site-header default headroom--top">
+<form class="search-form slide-search" method="GET"
+      action="https://www.pasadenastarnews.com/">
+
+	
+	<input type="text" placeholder="Search" name="s">
+	<input name="orderby" type="hidden" value="date"/>
+	<input name="order" type="hidden" value="desc"/>
+	<input type="submit" value="submit">
+
+	
+</form>
+
+			<div class="nav-wrapper">
+	
+					
+				<div class="nav-primary">
+
+					
+					<div class="navigation-inner">
+
+						<span class="icon-hamburger"></span><div class="custom-logo logo"><a href="https://www.pasadenastarnews.com"><img src="https://www.pasadenastarnews.com/wp-content/uploads/2017/09/pasadena-star-news-logo.svg" alt="Pasadena Star News"></a></div>			<div class="status-bar">
+				<div class="status-bar-wrapper">
+					<ul id="status-bar-menu" class="status-bar-menu"><li id="menu-item-1920048" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1920048"><a href="https://www.pasadenastarnews.com/newsletter/">Sign Up For Newsletters</a></li>
+<li id="menu-item-1798151" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1798151"><a href="https://myaccount.pasadenastarnews.com/access.aspx?">E-Edition</a></li>
+<li id="menu-item-1798152" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1798152"><a href="https://myaccount.pasadenastarnews.com/">Subscribe + Subscriber Services</a></li>
+<li id="menu-item-2120065" class="status-button modern-earthy-color status-subscribe menu-item menu-item-type-custom menu-item-object-custom menu-item-2120065"><a href="https://checkout.pasadenastarnews.com">SUBSCRIBE NOW</a></li>
+</ul>				</div>
+			</div>
+			
+<form class="search-form header-search" method="GET"
+      action="https://www.pasadenastarnews.com/">
+
+	
+	<input type="text" placeholder="Search" name="s">
+	<input name="orderby" type="hidden" value="date"/>
+	<input name="order" type="hidden" value="desc"/>
+	<input type="submit" value="submit">
+
+	
+</form>
+
+<span class="icon-search"></span><nav class="menu-main-navigation-container"><ul id="primary-menu" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-906 menu-large"><a href="https://www.pasadenastarnews.com/news/">News</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-907 menu-large"><a href="https://www.pasadenastarnews.com/news/">News</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-908 menu-large"><a href="https://www.pasadenastarnews.com/news/crime/">Crime + Public Safety</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1996727 menu-large"><a href="https://www.pasadenastarnews.com/tag/investigation">Investigative Reporting</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-909 menu-large"><a href="https://www.pasadenastarnews.com/news/politics/">Politics</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1996728 menu-large"><a href="https://www.pasadenastarnews.com/tag/health">Health</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2152664 menu-large"><a href="https://www.pasadenastarnews.com/news/environment/">Environment</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-914 menu-large"><a href="https://www.pasadenastarnews.com/local-news/">Local News</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1798156 menu-large"><a href="https://www.pasadenastarnews.com/local-news/">Local News</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-98984 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/pasadena/">Pasadena</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-101299 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/san-marino/">San Marino</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-98693 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/altadena/">Altadena</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-101295 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/san-gabriel/">San Gabriel</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-101802 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/alhambra/">Alhambra</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-102163 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/monrovia/">Monrovia</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-102555 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/arcadia/">Arcadia</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-103138 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/temple-city/">Temple City</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-103948 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/monterey-park/">Monterey Park</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-103137 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/south-pasadena/">South Pasadena</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-104778 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/duarte/">Duarte</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-106285 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/rosemead/">Rosemead</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-106320 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/sierra-madre/">Sierra Madre</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-106850 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/el-monte/">El Monte</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-106645 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/san-gabriel-valley/south-el-monte/">South El Monte</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-107285 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/los-angeles/">Los Angeles</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-location menu-item-107436 menu-large"><a href="https://www.pasadenastarnews.com/location/california/los-angeles-county/">Los Angeles County</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-category-ancestor current-menu-ancestor current-menu-parent current-category-parent menu-item-has-children menu-item-915 menu-large"><a href="https://www.pasadenastarnews.com/sports/">Sports</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-category-ancestor current-category-parent menu-item-916 menu-large"><a href="https://www.pasadenastarnews.com/sports/">Sports</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-917 menu-large"><a href="https://www.pasadenastarnews.com/sports/high-school-sports/">LA Varsity</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-95024 menu-large"><a href="https://www.pasadenastarnews.com/sports/nfl/los-angeles-chargers/">Chargers</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-95026 menu-large"><a href="https://www.pasadenastarnews.com/sports/nfl/los-angeles-rams/">Rams</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-94873 menu-large"><a href="https://www.pasadenastarnews.com/sports/nba/lakers/">Lakers</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-94872 menu-large"><a href="https://www.pasadenastarnews.com/sports/nba/clippers/">Clippers</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-95023 menu-large"><a href="https://www.pasadenastarnews.com/sports/mlb/los-angeles-dodgers/">Dodgers</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-95019 menu-large"><a href="https://www.pasadenastarnews.com/sports/mlb/los-angeles-angels/">Angels</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-95202 menu-large"><a href="https://www.pasadenastarnews.com/sports/college-sports/usc/">USC</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-95201 menu-large"><a href="https://www.pasadenastarnews.com/sports/college-sports/ucla/">UCLA</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-924 menu-large"><a href="https://www.pasadenastarnews.com/sports/college-sports/">College Sports</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-94809 menu-large"><a href="https://www.pasadenastarnews.com/sports/nhl/los-angeles-kings/">Kings</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-94808 menu-large"><a href="https://www.pasadenastarnews.com/sports/nhl/anaheim-ducks/">Ducks</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-923 menu-large"><a href="https://www.pasadenastarnews.com/sports/mmaboxing/">MMA/Boxing</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-925 menu-large"><a href="https://www.pasadenastarnews.com/sports/soccer/">Soccer</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-928 menu-large"><a href="https://www.pasadenastarnews.com/things-to-do/">Things to do</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-927 menu-large"><a href="https://www.pasadenastarnews.com/things-to-do/">Things to do</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-929 menu-large"><a href="https://www.pasadenastarnews.com/things-to-do/restaurant-reviews-food/">Restaurant Reviews + Food</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-940 menu-large"><a href="https://www.pasadenastarnews.com/things-to-do/amusement-parks/">Amusement Parks</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-930 menu-large"><a href="https://www.pasadenastarnews.com/things-to-do/movies-tv/">Movies + TV</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-931 menu-large"><a href="https://www.pasadenastarnews.com/things-to-do/music-concerts/">Music + Concerts</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-932 menu-large"><a href="https://www.pasadenastarnews.com/things-to-do/theater/">Theater</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-934 menu-large"><a href="https://www.pasadenastarnews.com/things-to-do/home-garden/">Home + Garden</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-935 menu-large"><a href="https://www.pasadenastarnews.com/things-to-do/travel/">Travel</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2142697 menu-large"><a href="https://comicskingdom.com/?utm_source=dfm">Comics</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2142698 menu-large"><a href="http://puzzles.comicskingdom.com/?utm_source=dfm">Puzzles</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-901 menu-large"><a href="https://www.pasadenastarnews.com/business/">Business</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1996730 menu-large"><a href="https://www.pasadenastarnews.com/business/">Business</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2116007 menu-large"><a href="https://www.pasadenastarnews.com/business/housing/">Housing</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1996732 menu-large"><a href="https://www.pasadenastarnews.com/tag/jobs">Jobs</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-34115 menu-large"><a href="http://www.legacy.com/obituaries/pasadenastarnews/">Obituaries</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2018789 menu-large"><a href="https://www.legacy.com/obituaries/pasadenastarnews/">Obituaries</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2018790 menu-large"><a href="https://lang.theadhawk.com/lang-adportal/obits/index.html">Place an Obituary</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-945 menu-large"><a href="https://www.pasadenastarnews.com/opinion/">Opinion</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2102701 menu-large"><a href="https://www.pasadenastarnews.com/opinion/">Opinion</a></li>
+</ul>
+</li>
+<li class="menu-large modern-earthy-color subscribe-special modern-earthy-width menu-item menu-item-type-custom menu-item-object-custom menu-item-2120064"><a href="https://checkout.pasadenastarnews.com/">SUBSCRIBE NOW</a></li>
+</ul></nav><div id="div-gpt-ad-Sponsorship_1" class="dfp-ad dfp-Sponsorship_1" data-ad-unit="Sponsorship_1">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-Sponsorship_1"); } );
+						}
+					</script>
+				</div>
+					</div>
+
+					
+				</div>
+
+				
+
+	<h4 class="entry-title">
+
+			<a class="article-title" href="https://www.pasadenastarnews.com/2014/05/24/statistics-can-be-manipulated-to-prove-anything/" title="Statistics can be manipulated to prove anything">
+	
+				<span class="dfm-title">
+			Statistics can be manipulated to prove anything		</span>
+
+			</a>
+	
+	</h4>
+	
+				<div class="article-share">
+					<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-186162" class="share-facebook sd-button share-icon no-text" href="https://www.pasadenastarnews.com/2014/05/24/statistics-can-be-manipulated-to-prove-anything/?share=facebook" target="_blank" title="Click to share on Facebook"><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-186162" class="share-twitter sd-button share-icon no-text" href="https://www.pasadenastarnews.com/2014/05/24/statistics-can-be-manipulated-to-prove-anything/?share=twitter" target="_blank" title="Click to share on Twitter"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter (Opens in new window)</span></a></li><li class="share-reddit"><a rel="nofollow noopener noreferrer" data-shared="" class="share-reddit sd-button share-icon no-text" href="https://www.pasadenastarnews.com/2014/05/24/statistics-can-be-manipulated-to-prove-anything/?share=reddit" target="_blank" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit (Opens in new window)</span></a></li><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon no-text" href="https://www.pasadenastarnews.com/2014/05/24/statistics-can-be-manipulated-to-prove-anything/?share=email" target="_blank" title="Click to email this to a friend"><span></span><span class="sharing-screen-reader-text">Click to email this to a friend (Opens in new window)</span></a></li><li class="share-print"><a rel="nofollow noopener noreferrer" data-shared="" class="share-print sd-button share-icon no-text" href="https://www.pasadenastarnews.com/2014/05/24/statistics-can-be-manipulated-to-prove-anything/#print" target="_blank" title="Click to print"><span></span><span class="sharing-screen-reader-text">Click to print (Opens in new window)</span></a></li><li class="share-end"></li></ul></div></div></div>					<span class="share-alt">
+					<a href="#" class="icon-share-alt">
+						<span></span>
+					</a>
+				</span>
+				</div>
+				
+<div class="widget widget-trending-stories"><div class="trending-bar trending">
+	<div class="trending-bar-wrapper">
+		<p class="label">
+			Trending:		</p>
+		<nav>
+			<ul>
+				
+
+	<li class="entry-title">
+
+			<a class="article-title" href="https://www.pasadenastarnews.com/2019/06/05/photos-2019-monrovia-high-school-graduation/" title="Photos: 2019 Monrovia High School Graduation">
+	
+				<span class="dfm-title">
+			Monrovia High graduation		</span>
+
+			</a>
+	
+	</li>
+
+
+	<li class="entry-title">
+
+			<a class="article-title" href="https://www.pasadenastarnews.com/2019/06/05/arcadia-election-results-voters-push-local-sales-tax-to-the-maximum/" title="Arcadia election results: Voters push local sales tax to the maximum">
+	
+				<span class="dfm-title">
+			Arcadia sales tax boost		</span>
+
+			</a>
+	
+	</li>
+
+
+	<li class="entry-title">
+
+			<a class="article-title" href="https://www.pasadenastarnews.com/2019/06/05/star-news-softball-2019-all-area-team-wilsons-devyn-netz-and-westridge-coach-karen-hanselman-lead-way/" title="Star-News All-Area Softball Team 2019: Maranatha’s Devyn Netz and Westridge coach Karen Hanselman lead way">
+	
+				<span class="dfm-title">
+			All-Area Softball Team		</span>
+
+			</a>
+	
+	</li>
+
+
+	<li class="entry-title">
+
+			<a class="article-title" href="https://www.pasadenastarnews.com/2019/06/06/star-news-baseball-2019-all-area-team-maranathas-dawson-netz-earns-top-honors/" title="Star-News All-Area Baseball Team 2019: Maranatha’s Dawson Netz earns top honors">
+	
+				<span class="dfm-title">
+			All-Area Baseball Team		</span>
+
+			</a>
+	
+	</li>
+
+
+	<li class="entry-title">
+
+			<a class="article-title" href="https://www.pasadenastarnews.com/2019/06/03/photos-pasadena-area-valedictorians-for-the-class-of-2019/" title="Photos: Pasadena-area valedictorians for the Class of 2019">
+	
+				<span class="dfm-title">
+			Pasadena-area valedictorians		</span>
+
+			</a>
+	
+	</li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
+</div>
+			</div>
+			</header>	
+			<div id="content" class="site-content">
+	
+						<div class="header-banners">
+				<div id="div-gpt-ad-interstitial" class="dfp-ad dfp-interstitial" data-ad-unit="interstitial">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-interstitial"); } );
+						}
+					</script>
+				</div>				<div id="div-gpt-ad-top_leaderboard" class="dfp-ad dfp-top_leaderboard" data-ad-unit="top_leaderboard">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-top_leaderboard"); } );
+						}
+					</script>
+				</div>			</div>
+				
+			<div id="primary" class="content-area"><main id="main" class="site-main" role="main">			<article id="post-186162" class="full-view post-186162 post type-post status-publish format-standard hentry category-news">
+			<header class="entry-header article-header">
+<div class="header-title-area"><div class="breadcrumbs">
+	<h6><a href="https://www.pasadenastarnews.com/news/">News</a></h6></div>
+<div class="headline-area"><div class="headlines">
+
+	<h1 class="entry-title">
+
+	
+				<span class="dfm-title">
+			Statistics can be manipulated to prove anything		</span>
+
+	
+	</h1>
+</div></div><div class="article-share"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-186162" class="share-facebook sd-button share-icon no-text" href="https://www.pasadenastarnews.com/2014/05/24/statistics-can-be-manipulated-to-prove-anything/?share=facebook" target="_blank" title="Click to share on Facebook"><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-186162" class="share-twitter sd-button share-icon no-text" href="https://www.pasadenastarnews.com/2014/05/24/statistics-can-be-manipulated-to-prove-anything/?share=twitter" target="_blank" title="Click to share on Twitter"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter (Opens in new window)</span></a></li><li class="share-reddit"><a rel="nofollow noopener noreferrer" data-shared="" class="share-reddit sd-button share-icon no-text" href="https://www.pasadenastarnews.com/2014/05/24/statistics-can-be-manipulated-to-prove-anything/?share=reddit" target="_blank" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit (Opens in new window)</span></a></li><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon no-text" href="https://www.pasadenastarnews.com/2014/05/24/statistics-can-be-manipulated-to-prove-anything/?share=email" target="_blank" title="Click to email this to a friend"><span></span><span class="sharing-screen-reader-text">Click to email this to a friend (Opens in new window)</span></a></li><li class="share-print"><a rel="nofollow noopener noreferrer" data-shared="" class="share-print sd-button share-icon no-text" href="https://www.pasadenastarnews.com/2014/05/24/statistics-can-be-manipulated-to-prove-anything/#print" target="_blank" title="Click to print"><span></span><span class="sharing-screen-reader-text">Click to print (Opens in new window)</span></a></li><li class="share-end"></li></ul></div></div></div></div></div></header><div class="article-content"><div class="article-content-wrapper"><div class="header-features"><div class="meta"><a href="#comments" class="comments-link"><span class="dsq-postid" rel="186162 https://www.pasadenastarnews.com?p=186162&amp;preview_id=186162"><i class="icon-comment"></i></span></a><div class="byline">By <a href="https://www.pasadenastarnews.com/author/robert-rector/" title="Posts by Robert Rector" class=" author-name" rel="author">Robert Rector</a> | <a href="mailto:RRector@SCNG.com">RRector@SCNG.com</a> | </div><div class="time">PUBLISHED: <time datetime="2014-05-24 16:04:21">May 24, 2014 at 11:04 pm</time> | UPDATED: <time class="updated" datetime="2017-08-29 02:25:35">August 29, 2017 at 9:25 am</time></div></div></div><div class="article-body"><div class="body-copy"><p>There are several undeniable truths about statistics: First and foremost, they can be manipulated, massaged and misstated. In the immortal words of Homer Simpson, &#x201c;Aw, you can come up with statistics to prove anything &#x2026; Forty percent of all people know that.&#x201d;</p>
+<p>Second, if bogus statistical information is repeated often enough, it eventually is considered to be true.</p>
+<p>As to Point One, consider a presidential debate. In 2012, when Barak Obama and Mitt Romney squared off, the president was heard to declare that &#x201c;Over the last 30 months, we&#x2019;ve seen 5 million jobs in the private sector created.&#x201d; But 30 months only dates back to January 2010. And the president took office in January 2009.  </p>
+<p>It turns out that in his first year in office, the country lost some 5 million jobs. While things got better, the cumulative job creation in the private sector during Obama&#x2019;s first term is in fact a more humble 125,000.</p>
+<p>Romney, for his part, said that &#x201c;If I&#x2019;m president I will create &#x2014; help create 12 million new jobs in this country with rising incomes.&#x201d; While that may have seemed impressive, it&#x2019;s the exact same figure that had been used by economic forecasters for how many jobs they already expected the economy would add over the next four years given a stable economy. And it had nothing to do with who was in the White House. </p>
+<p>As to Point Two, consider these Things We Believe But Shouldn&#x2019;t: </p>
+<p>The teen pregnancy rate is on the rise. No, it isn&#x2019;t. According to a report in the Washington Post, the teen pregnancy rate in 2009, of about 38 per thousand girls, was 39 percent lower than the 1991 peak of 62. Just four years later, in 2012, it reached a record low of about 29.</p>
+<p>People only use 10 per cent of their brains: Nobody knows for sure where this nugget came from, but as psychologist Scott Lilienfeld explains: &#x201c;The last century has witnessed the advent of increasingly sophisticated technologies for snooping in the brain&#x2019;s traffic&#8230; Despite this detailed mapping, no quiet areas awaiting new assignments have emerged. In fact, even simple tasks generally require contributions of processing areas spread throughout virtually the whole brain.&#x201d; Which means you&#x2019;re using all of your brain, even if you don&#x2019;t feel like it on occasion.</p>
+<p>Men think about sex every seven seconds: Calculated over 16 waking hours that adds up to 8,000 salacious thoughts in a day. While we&#x2019;ve known a few guys who met or maybe even exceeded that mark, a 2011 Ohio State study found that young men think about sex 19 times a day, compared with 10 for young women.</p><div id="div-gpt-ad-Cube_Article" class="dfp-ad dfp-Cube_Article" data-ad-unit="Cube_Article">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-Cube_Article"); } );
+						}
+					</script>
+				</div>
+<p>We&#x2019;re discussing all of this because of the emergence of one Tyler Vigen, a law school student at Harvard, who has once and for all exposed just how absurd statistical data can be in the wrong hands.</p>
+<p>He has created a website called Spurious Correlations (found at tylervigen.com) which, he says, isn&#x2019;t meant to create a distrust for research or even correlative data but instead foster interest in statistics and numerical research. Perhaps. We prefer to think he has a wicked sense of humor. </p>
+<p>Using data from the Center for Disease Control and the U.S. Census, he intertwines the numbers to reach statistical conclusions which are based on real data but which have to actual correlation whatsoever.  </p>
+<p>In his first example, he has illustrated in graph form that the number of people who trip and fall over their own feet is in direct correlation with the number of lawyers in Nevada. There is, of course, no plausible connection unless most the members of the Nevada bar handle slip and fall cases.</p>
+<p>Next up is a chart that show the number of people murdered by being pushed from high places corresponds with the precipitation in Tuscola County, Mississippi.</p>
+<p>Vigen has showed that the age of our Miss Americas declines in concert with the number of murders by steam, hot vapors and hot objects.</p>
+<p>Then we see that the number of sociology doctorates awarded is in direct proportion to the number of deaths caused by anticoagulants.</p>
+<p>By the same measurement, we find that the per capita consumption of mozzarella cheese is in statistical lockstep with civil engineering doctorates awarded.</p>
+<p>More intriguing is the chart that illustrates that the number of people who drowned by falling into a swimming pool correlates with the number of films in which Nicolas Cage has appeared.</p>
+</p></div></div></div><aside class="article-sidebar swappable" data-swap-location=".article-footer" data-swap-method="after" data-swap-max="l"><div class="sidebar-content"><div id="div-gpt-ad-Cube1_RRail_ATF" class="dfp-ad dfp-Cube1_RRail_ATF" data-ad-unit="Cube1_RRail_ATF">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-Cube1_RRail_ATF"); } );
+						}
+					</script>
+				</div><div class="sign-up-follow"><div class="newsletter-simple">
+	<div class="newsletter-item">
+		<p class="prompt">Get the latest news delivered daily!</p>
+		<a href="https://checkout.pasadenastarnews.com/vertLanding">
+		Subscribe</a>
+	</div>
+</div>
+<div class="share-with-prompt">
+	<span class="prompt">Follow Us</span>
+		<ul class="sharing">
+						<li>
+					<a href="https://facebook.com/pasadenastarnews"
+					   target="self"
+					   class="icon-facebook">
+						<span class="label">Facebook</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://twitter.com/PasStarNews"
+					   target="self"
+					   class="icon-twitter">
+						<span class="label">Twitter</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://www.pasadenastarnews.com/feed/"
+					   target="self"
+					   class="icon-feed">
+						<span class="label">RSS</span>
+					</a>
+				</li>
+					</ul>
+	</div>
+</div>
+<div class="widget widget-popular-stories"><section class="popular section" id="most-popular-stories">
+
+	<h2 class="widget-title">
+	<span>Most Popular</span>
+	</h2>
+
+	<ol>
+		
+			
+				<li class="entry-title">
+					<a class="article-title" href="http://www.pasadenastarnews.com/2019/06/05/photos-2019-monrovia-high-school-graduation/">
+						<span class="dfm-title">
+							Photos: 2019 Monrovia High School Graduation						</span>
+					</a>
+				</li>
+
+			
+			
+				<li class="entry-title">
+					<a class="article-title" href="http://www.pasadenastarnews.com/2019/06/06/monterey-park-residents-serve-recall-notices-to-two-city-councilmen/">
+						<span class="dfm-title">
+							Monterey Park residents serve recall notices to two city councilmen						</span>
+					</a>
+				</li>
+
+			
+			
+				<li class="entry-title">
+					<a class="article-title" href="http://www.pasadenastarnews.com/2016/11/18/cal-state-la-is-trying-to-use-a-bioscience-hub-to-bring-new-jobs-opportunity-to-struggling-region/">
+						<span class="dfm-title">
+							Cal State LA is trying to use a bioscience hub to bring new jobs, opportunity to struggling region						</span>
+					</a>
+				</li>
+
+			
+			
+				<li class="entry-title">
+					<a class="article-title" href="http://www.pasadenastarnews.com/2019/01/26/pasadenas-robinson-park-recreation-center-is-open-again-after-12-2-million-improvement/">
+						<span class="dfm-title">
+							Pasadena’s Robinson Park Recreation Center is open again after $12.2 million improvement						</span>
+					</a>
+				</li>
+
+			
+			
+				<li class="entry-title">
+					<a class="article-title" href="http://www.pasadenastarnews.com/2019/06/03/photos-pasadena-area-valedictorians-for-the-class-of-2019/">
+						<span class="dfm-title">
+							Photos: Pasadena-area valedictorians for the Class of 2019						</span>
+					</a>
+				</li>
+
+			
+			
+				<li class="entry-title">
+					<a class="article-title" href="http://www.pasadenastarnews.com/2018/10/26/foxs-in-altadena-will-start-serving-dinner-and-heres-whats-on-the-menu/">
+						<span class="dfm-title">
+							Fox’s in Altadena will start serving dinner, and here&#8217;s what&#8217;s on the menu						</span>
+					</a>
+				</li>
+
+			
+			
+				<li class="entry-title">
+					<a class="article-title" href="http://www.pasadenastarnews.com/2019/05/29/jacaranda-trees-invasion-of-the-purple-flowers-bring-peace-beauty-and-some-mess-to-socal/">
+						<span class="dfm-title">
+							Jacaranda trees: Invasion of the purple flowers bring peace, beauty (and some mess) to SoCal						</span>
+					</a>
+				</li>
+
+			
+			
+				<li class="entry-title">
+					<a class="article-title" href="http://www.pasadenastarnews.com/2019/06/06/star-news-baseball-2019-all-area-team-maranathas-dawson-netz-earns-top-honors/">
+						<span class="dfm-title">
+							Star-News All-Area Baseball Team 2019: Maranatha’s Dawson Netz earns top honors						</span>
+					</a>
+				</li>
+
+			
+			
+				<li class="entry-title">
+					<a class="article-title" href="http://www.pasadenastarnews.com/2019/06/05/car-damaged-in-pasadena-shooting-no-victim-found/">
+						<span class="dfm-title">
+							Car damaged in Pasadena shooting, no victim found						</span>
+					</a>
+				</li>
+
+			
+			
+				<li class="entry-title">
+					<a class="article-title" href="http://www.pasadenastarnews.com/2019/06/04/national-doughnut-day-2019-where-to-find-free-treats-and-deals/">
+						<span class="dfm-title">
+							National Doughnut Day 2019: Where to find free treats and deals						</span>
+					</a>
+				</li>
+
+			
+			
+				<li class="entry-title">
+					<a class="article-title" href="http://www.pasadenastarnews.com/2019/06/05/arcadia-election-results-voters-push-local-sales-tax-to-the-maximum/">
+						<span class="dfm-title">
+							Arcadia election results: Voters push local sales tax to the maximum						</span>
+					</a>
+				</li>
+
+			
+			
+				<li class="entry-title">
+					<a class="article-title" href="http://www.pasadenastarnews.com/2019/06/05/governor-newsom-help-the-most-vulnerable-californians/">
+						<span class="dfm-title">
+							Governor Newsom, help the most vulnerable Californians						</span>
+					</a>
+				</li>
+
+				</ol>
+</section>
+
+</div><div id="stick-trigger"></div><div id="div-gpt-ad-Cube2_RRail_mid" class="dfp-ad dfp-Cube2_RRail_mid" data-ad-unit="Cube2_RRail_mid">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-Cube2_RRail_mid"); } );
+						}
+					</script>
+				</div><div class="sidebar-bottom-flex-single"><div class="swappable swap-ad swap-ad-lower" data-swap-location=".feature-video" data-swap-method="after" data-swap-max="m"><div id="div-gpt-ad-Cube3_RRail_lower" class="dfp-ad dfp-Cube3_RRail_lower" data-ad-unit="Cube3_RRail_lower">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-Cube3_RRail_lower"); } );
+						}
+					</script>
+				</div></div></div></div></aside></div><footer class="article-footer"><div class="footer-meta"><div class="footer-meta-content">	<div class="about-the-author">
+		<div class="entry-author co-author">
+			<img alt='' src='https://secure.gravatar.com/avatar/ce370a7e644a7f66748bee909dcf50c4?s=85&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/ce370a7e644a7f66748bee909dcf50c4?s=170&#038;d=mm&#038;r=g 2x' class='avatar avatar-85 photo' height='85' width='85' />			<div class="about-author-content">
+				<h3 class="author vcard">
+					<span class="fn">
+						<a href="https://www.pasadenastarnews.com/author/robert-rector/">Robert Rector</a>
+					</span>
+				</h3>
+							</div>
+		</div>
+	</div>
+</div><div class="swappable swap-ad swap-ad-lower" data-swap-location=".feature-video" data-swap-method="after" data-swap-max="m"><div id="div-gpt-ad-Cube3_RRail_lower" class="dfp-ad dfp-Cube3_RRail_lower" data-ad-unit="Cube3_RRail_lower">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-Cube3_RRail_lower"); } );
+						}
+					</script>
+				</div></div></div><div id="comments"><div id="disqus_thread">
+	<div id="dsq-content">
+		<ul id="dsq-comments">
+					</ul>
+			</div>
+</div>
+		
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<script type="text/javascript" charset="utf-8">
+	var disqus_url = "https:\/\/www.pasadenastarnews.com\/2014\/05\/24\/statistics-can-be-manipulated-to-prove-anything\/";
+	var disqus_identifier = "186162 https:\/\/www.pasadenastarnews.com?p=186162&preview_id=186162";
+	var disqus_container_id = 'disqus_thread';
+	var disqus_domain = "disqus.com";
+	var disqus_shortname = "dfm-pasadenastarnews";
+		var disqus_config = function () {
+	    var config = this; // Access to the config object
+
+	    /* 
+	       All currently supported events:
+	        * preData — fires just before we request for initial data
+	        * preInit - fires after we get initial data but before we load any dependencies
+	        * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+	        * afterRender - fires when template is rendered but before we show it
+	        * onReady - everything is done
+	     */
+
+		config.callbacks.preData.push(function() {
+			// clear out the container (its filled for SEO/legacy purposes)
+			document.getElementById(disqus_container_id).innerHTML = '';
+		})
+		config.callbacks.onReady.push(function() {
+/*
+			// sync comments in the background so we don't block the page
+			var req = new XMLHttpRequest();
+			req.open('GET', '?cf_action=sync_comments&post_id=186162', true);
+			req.send(null);
+*/
+		});
+		
+			};
+	
+	var facebookXdReceiverPath = "https:\/\/www.pasadenastarnews.com\/wp-content\/themes\/vip\/plugins\/disqus\/xd_receiver.htm";
+</script>
+
+<script type="text/javascript" charset="utf-8">
+	var DsqLocal = {
+		'trackbacks': [
+		],
+		'trackback_url': "https:\/\/www.pasadenastarnews.com\/2014\/05\/24\/statistics-can-be-manipulated-to-prove-anything\/trackback\/"	};
+</script>
+
+<script type="text/javascript" charset="utf-8">
+(function() {
+	var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+	dsq.async = true;
+	dsq.src = '//' + disqus_shortname + '.' + disqus_domain + '/embed.js?pname=wordpress&pver=2.40';
+	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+</div><div class="recirc"><div class="OUTBRAIN" data-src="https://www.pasadenastarnews.com/2014/05/24/statistics-can-be-manipulated-to-prove-anything/" data-widget-id="AR_3" data-ob-template="LANG"></div>
+<div class="OUTBRAIN" data-src="https://www.pasadenastarnews.com/2014/05/24/statistics-can-be-manipulated-to-prove-anything/" data-widget-id="AR_4" data-ob-template="LANG"></div>
+<script type="text/javascript" async="async" src="https://widgets.outbrain.com/outbrain.js"></script></div><div id="div-gpt-ad-bottom_leaderboard" class="dfp-ad dfp-bottom_leaderboard" data-ad-unit="bottom_leaderboard">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-bottom_leaderboard"); } );
+						}
+					</script>
+				</div><div id="div-gpt-ad-Sponsorship_2" class="dfp-ad dfp-Sponsorship_2" data-ad-unit="Sponsorship_2">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-Sponsorship_2"); } );
+						}
+					</script>
+				</div></footer></article></div></main>
+		<div class="more-news">
+
+			<h2 class="widget-title">More in News</h2>
+
+			<ul>
+
+				
+					<li>
+						
+
+
+	<article class=" more-posts-view archive-view has-image post-2296104 post type-post status-publish format-standard has-post-thumbnail hentry category-news tag-celebrities tag-obituary tag-restaurants tag-top-stories-breeze tag-top-stories-ivdb tag-top-stories-ladn tag-top-stories-lbpt tag-top-stories-ocr tag-top-stories-pe tag-top-stories-psn tag-top-stories-rdf tag-top-stories-sgvt tag-top-stories-sun tag-top-stories-wdn location-california location-hollywood location-los-angeles location-los-angeles-county location-san-fernando-valley location-sylmar" data-id="2296104" data-timestamp="1559841427">
+
+		
+<figure>
+			<a href="https://www.pasadenastarnews.com/2019/06/06/sergio-gonzalez-served-stars-and-everyone-else-like-they-were-one-at-hollywoods-famous-musso-frank-grill/" title="Sergio Gonzalez served stars and everyone else like they were one, at Hollywood&#8217;s famous Musso &amp; Frank Grill" class=""></a>
+	
+	<a href="https://www.pasadenastarnews.com/2019/06/06/sergio-gonzalez-served-stars-and-everyone-else-like-they-were-one-at-hollywoods-famous-musso-frank-grill/" title="Sergio Gonzalez served stars and everyone else like they were one, at Hollywood&#8217;s famous Musso &amp; Frank Grill">
+		<div class="image-wrapper"><img alt="The beloved waiter, friend of the likes of Johnny Depp and Keith Richards, passed away at age 66 Tuesday." title="The beloved waiter, friend of the likes of Johnny Depp and Keith Richards, passed away at age 66 Tuesday." class="lazyload size-more_news" data-sizes="auto" data-src="https://www.pasadenastarnews.com/wp-content/uploads/2019/06/sergio-1.jpeg?w=524" data-srcset="https://www.pasadenastarnews.com/wp-content/uploads/2019/06/sergio-1.jpeg?w=524 620w,https://www.pasadenastarnews.com/wp-content/uploads/2019/06/sergio-1.jpeg?w=322 380w,https://www.pasadenastarnews.com/wp-content/uploads/2019/06/sergio-1.jpeg?w=419 500w,https://www.pasadenastarnews.com/wp-content/uploads/2019/06/sergio-1.jpeg?w=457 540w" ></div>	</a>
+</figure>
+
+<div class="article-info">
+	<header>
+
+		
+		
+		
+
+	<h5 class="entry-title">
+
+			<a class="article-title" href="https://www.pasadenastarnews.com/2019/06/06/sergio-gonzalez-served-stars-and-everyone-else-like-they-were-one-at-hollywoods-famous-musso-frank-grill/" title="Sergio Gonzalez served stars and everyone else like they were one, at Hollywood&#8217;s famous Musso &amp; Frank Grill">
+	
+				<span class="dfm-title">
+			Sergio Gonzalez served stars and everyone else like they were one, at Hollywood&#8217;s famous Musso &amp; Frank Grill		</span>
+
+			</a>
+	
+	</h5>
+
+		
+		
+		
+	</header>
+
+	
+		</div><!-- .article-info -->
+
+		
+		
+	</article>
+
+
+					</li>
+
+				
+					<li>
+						
+
+
+	<article class=" more-posts-view archive-view has-image post-2296087 post type-post status-publish format-standard has-post-thumbnail hentry category-news tag-health tag-top-stories-breeze tag-top-stories-ivdb tag-top-stories-ladn tag-top-stories-lbpt tag-top-stories-ocr tag-top-stories-pe tag-top-stories-psn tag-top-stories-rdf tag-top-stories-sgvt tag-top-stories-sun tag-top-stories-wdn location-california location-los-angeles-county location-orange-county location-riverside-county location-san-bernardino-county" data-id="2296087" data-timestamp="1559839967">
+
+		
+<figure>
+			<a href="https://www.pasadenastarnews.com/2019/06/06/undocumented-seniors-have-tenuous-chance-at-needed-health-care-as-coverage-debate-reaches-a-head/" title="Undocumented seniors have tenuous chance at needed health care as coverage debate reaches a head" class=""></a>
+	
+	<a href="https://www.pasadenastarnews.com/2019/06/06/undocumented-seniors-have-tenuous-chance-at-needed-health-care-as-coverage-debate-reaches-a-head/" title="Undocumented seniors have tenuous chance at needed health care as coverage debate reaches a head">
+		<div class="image-wrapper"><img alt="3 proposals addressing Medi-Cal expansion to undocumented immigrants are up for debate. The latest includes seniors, which are a small but high-need slice of the state’s undocumented population." title="3 proposals addressing Medi-Cal expansion to undocumented immigrants are up for debate. The latest includes seniors, which are a small but high-need slice of the state’s undocumented population." class="lazyload size-more_news" data-sizes="auto" data-src="https://www.pasadenastarnews.com/wp-content/uploads/2019/06/OCR-L-SENIORS-0606.01-1.jpg?w=467" data-srcset="https://www.pasadenastarnews.com/wp-content/uploads/2019/06/OCR-L-SENIORS-0606.01-1.jpg?w=467 620w,https://www.pasadenastarnews.com/wp-content/uploads/2019/06/OCR-L-SENIORS-0606.01-1.jpg?w=287 380w,https://www.pasadenastarnews.com/wp-content/uploads/2019/06/OCR-L-SENIORS-0606.01-1.jpg?w=373 500w,https://www.pasadenastarnews.com/wp-content/uploads/2019/06/OCR-L-SENIORS-0606.01-1.jpg?w=407 540w" ></div>	</a>
+</figure>
+
+<div class="article-info">
+	<header>
+
+		
+		
+		
+
+	<h5 class="entry-title">
+
+			<a class="article-title" href="https://www.pasadenastarnews.com/2019/06/06/undocumented-seniors-have-tenuous-chance-at-needed-health-care-as-coverage-debate-reaches-a-head/" title="Undocumented seniors have tenuous chance at needed health care as coverage debate reaches a head">
+	
+				<span class="dfm-title">
+			Undocumented seniors have tenuous chance at needed health care as coverage debate reaches a head		</span>
+
+			</a>
+	
+	</h5>
+
+		
+		
+		
+	</header>
+
+	
+		</div><!-- .article-info -->
+
+		
+		
+	</article>
+
+
+					</li>
+
+				
+					<li>
+						
+
+
+	<article class=" more-posts-view archive-view has-image post-2295937 post type-post status-publish format-standard has-post-thumbnail hentry category-news tag-beaches tag-top-stories-breeze tag-top-stories-ivdb tag-top-stories-ladn tag-top-stories-lbpt tag-top-stories-ocr tag-top-stories-pe tag-top-stories-psn tag-top-stories-rdf tag-top-stories-sgvt tag-top-stories-sun tag-top-stories-wdn location-california location-los-angeles-county location-south-bay" data-id="2295937" data-timestamp="1559831189">
+
+		
+<figure>
+			<a href="https://www.pasadenastarnews.com/2019/06/06/leo-carrillos-camp-concession-is-story-of-survival-nostalgia-as-store-reopens-following-woolsey-fire/" title="Leo Carrillo&#8217;s camp concession is story of survival, nostalgia as store reopens following Woolsey fire" class=""></a>
+	
+	<a href="https://www.pasadenastarnews.com/2019/06/06/leo-carrillos-camp-concession-is-story-of-survival-nostalgia-as-store-reopens-following-woolsey-fire/" title="Leo Carrillo&#8217;s camp concession is story of survival, nostalgia as store reopens following Woolsey fire">
+		<div class="image-wrapper"><img alt=" &#039;We’re kind of like the camping version of Cheers. We just know you and you know us,&#039; says Leo Carrillo Beach Store owner Tony Minicucci." title=" &#039;We’re kind of like the camping version of Cheers. We just know you and you know us,&#039; says Leo Carrillo Beach Store owner Tony Minicucci." class="lazyload size-more_news" data-sizes="auto" data-src="https://www.pasadenastarnews.com/wp-content/uploads/2019/06/1113_NWS_LDN-L-WOOLSEY-LEOCARRILLO-1113-_16A-1.jpg?w=447" data-srcset="https://www.pasadenastarnews.com/wp-content/uploads/2019/06/1113_NWS_LDN-L-WOOLSEY-LEOCARRILLO-1113-_16A-1.jpg?w=447 620w,https://www.pasadenastarnews.com/wp-content/uploads/2019/06/1113_NWS_LDN-L-WOOLSEY-LEOCARRILLO-1113-_16A-1.jpg?w=275 380w,https://www.pasadenastarnews.com/wp-content/uploads/2019/06/1113_NWS_LDN-L-WOOLSEY-LEOCARRILLO-1113-_16A-1.jpg?w=358 500w,https://www.pasadenastarnews.com/wp-content/uploads/2019/06/1113_NWS_LDN-L-WOOLSEY-LEOCARRILLO-1113-_16A-1.jpg?w=390 540w" ></div>	</a>
+</figure>
+
+<div class="article-info">
+	<header>
+
+		
+		
+		
+
+	<h5 class="entry-title">
+
+			<a class="article-title" href="https://www.pasadenastarnews.com/2019/06/06/leo-carrillos-camp-concession-is-story-of-survival-nostalgia-as-store-reopens-following-woolsey-fire/" title="Leo Carrillo&#8217;s camp concession is story of survival, nostalgia as store reopens following Woolsey fire">
+	
+				<span class="dfm-title">
+			Leo Carrillo&#8217;s camp concession is story of survival, nostalgia as store reopens following Woolsey fire		</span>
+
+			</a>
+	
+	</h5>
+
+		
+		
+		
+	</header>
+
+	
+		</div><!-- .article-info -->
+
+		
+		
+	</article>
+
+
+					</li>
+
+				
+					<li>
+						
+
+
+	<article class=" more-posts-view archive-view has-image post-2295808 post type-post status-publish format-standard has-post-thumbnail hentry category-california-news category-news tag-top-stories-breeze tag-top-stories-ivdb tag-top-stories-ladn tag-top-stories-lbpt tag-top-stories-ocr tag-top-stories-pe tag-top-stories-psn tag-top-stories-rdf tag-top-stories-sgvt tag-top-stories-sun tag-top-stories-wdn" data-id="2295808" data-timestamp="1559821912">
+
+		
+<figure>
+			<a href="https://www.pasadenastarnews.com/2019/06/06/leaders-of-white-supremacist-prison-gang-charged-in-killings/" title="Leaders of white supremacist California prison gang charged in killings" class=""></a>
+	
+	<a href="https://www.pasadenastarnews.com/2019/06/06/leaders-of-white-supremacist-prison-gang-charged-in-killings/" title="Leaders of white supremacist California prison gang charged in killings">
+		<div class="image-wrapper"><img alt="Leaders of the Aryan Brotherhood prison gang were charged Thursday with directing killings and drug smuggling from within California’s most secure prisons, U.S. prosecutors said." title="Leaders of the Aryan Brotherhood prison gang were charged Thursday with directing killings and drug smuggling from within California’s most secure prisons, U.S. prosecutors said." class="lazyload size-more_news" data-sizes="auto" data-src="https://www.pasadenastarnews.com/wp-content/uploads/2019/06/ap_17144825828436-1.jpg?w=495" data-srcset="https://www.pasadenastarnews.com/wp-content/uploads/2019/06/ap_17144825828436-1.jpg?w=495 620w,https://www.pasadenastarnews.com/wp-content/uploads/2019/06/ap_17144825828436-1.jpg?w=304 380w,https://www.pasadenastarnews.com/wp-content/uploads/2019/06/ap_17144825828436-1.jpg?w=396 500w,https://www.pasadenastarnews.com/wp-content/uploads/2019/06/ap_17144825828436-1.jpg?w=431 540w" ></div>	</a>
+</figure>
+
+<div class="article-info">
+	<header>
+
+		
+		
+		
+
+	<h5 class="entry-title">
+
+			<a class="article-title" href="https://www.pasadenastarnews.com/2019/06/06/leaders-of-white-supremacist-prison-gang-charged-in-killings/" title="Leaders of white supremacist California prison gang charged in killings">
+	
+				<span class="dfm-title">
+			Leaders of white supremacist California prison gang charged in killings		</span>
+
+			</a>
+	
+	</h5>
+
+		
+		
+		
+	</header>
+
+	
+		</div><!-- .article-info -->
+
+		
+		
+	</article>
+
+
+					</li>
+
+				
+			</ul>
+		</div>
+
+	<div id="div-gpt-ad-bottom_leaderboard" class="dfp-ad dfp-bottom_leaderboard" data-ad-unit="bottom_leaderboard">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-bottom_leaderboard"); } );
+						}
+					</script>
+				</div>
+			
+			</div><!-- #content -->
+
+						<footer class="site-footer">
+
+							<header class="footer-header">
+
+				
+				<div class="footer-header-wrapper">
+
+					<ul id="footer-links-menu" class="footer-links"><li id="menu-item-1798157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1798157"><a href="https://www.pasadenastarnews.com/traffic/">Live Traffic Map</a></li>
+<li id="menu-item-1798158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1798158"><a href="https://www.pasadenastarnews.com/weather/">Weather</a></li>
+<li id="menu-item-1798159" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-1798159"><a href="https://www.pasadenastarnews.com/tag/corrections/">Corrections</a></li>
+</ul>	<ul class="sharing">
+						<li>
+					<a href="https://facebook.com/pasadenastarnews"
+					   target="self"
+					   class="icon-facebook">
+						<span class="label">Facebook</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://twitter.com/PasStarNews"
+					   target="self"
+					   class="icon-twitter">
+						<span class="label">Twitter</span>
+					</a>
+				</li>
+								<li>
+					<a href="https://www.pasadenastarnews.com/feed/"
+					   target="self"
+					   class="icon-feed">
+						<span class="label">RSS</span>
+					</a>
+				</li>
+					</ul>
+	
+				</div>
+
+				
+			</header>
+			<div class="footer-menus-wrapper"><ul id="footer-menu" class="footer-menus"><li id="menu-item-973" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-973"><a>About Us</a><span class="expander"><a href="#" class="icon-plus"></a></span>
+
+<ul class="footer-menu">
+	<li id="menu-item-974" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-974"><a href="https://www.pasadenastarnews.com/about-us/">About Us</a></li>
+	<li id="menu-item-975" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-975"><a href="https://www.pasadenastarnews.com/contact-us/">Contact Us</a></li>
+	<li id="menu-item-977" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-977"><a href="http://www.socalnewsgroup.com/about-scng-1/">About SCNG</a></li>
+	<li id="menu-item-978" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-978"><a href="http://www.digitalfirstmedia.com/">MediaNews Group</a></li>
+	<li id="menu-item-976" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-976"><a href="https://careers-digitalfirstmedia.icims.com/">Work With Us</a></li>
+	<li id="menu-item-979" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-979"><a href="https://socalnewsgroup.mybrightsites.com/products?s%5Bf%5D%5Bc%5D%5B%5D=%2FPasadena+Star-News">Company Store</a></li>
+	<li id="menu-item-980" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-980"><a href="http://www.socalnie.com/">Newspapers in Education</a></li>
+</ul>
+</li>
+<li id="menu-item-953" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-953"><a>Advertising Sections</a><span class="expander"><a href="#" class="icon-plus"></a></span>
+
+<ul class="footer-menu">
+	<li id="menu-item-954" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-954"><a href="/autos">Autos</a></li>
+	<li id="menu-item-955" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-955"><a href="http://marketplace.socaladsonline.com/lang">Classified</a></li>
+	<li id="menu-item-956" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-956"><a href="https://careers.socalnewsgroup.com/">Jobs</a></li>
+	<li id="menu-item-957" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-957"><a href="http://pasadenastarnews.ca.newsmemory.com/marketplace.php">Local Ads</a></li>
+	<li id="menu-item-958" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-958"><a href="https://www.pasadenastarnews.com/homes/">Real Estate Ads</a></li>
+	<li id="menu-item-959" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-959"><a href="https://www.pasadenastarnews.com/weekly-ads/">Weekly Ads</a></li>
+	<li id="menu-item-960" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-960"><a href="http://pasadenastarnews.ca.newsmemory.com/ssindex.php">Special Sections</a></li>
+	<li id="menu-item-1798208" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1798208"><a href="http://sgvn.readerschoice.la/">Readers Choice</a></li>
+</ul>
+</li>
+<li id="menu-item-961" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-961"><a>How To Advertise</a><span class="expander"><a href="#" class="icon-plus"></a></span>
+
+<ul class="footer-menu">
+	<li id="menu-item-2120135" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2120135"><a href="https://www.digitalfirstmedia.com/advertise-with-us/">MediaNews Group Advertising</a></li>
+	<li id="menu-item-962" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-962"><a href="http://marketplace.socaladsonline.com/lang">Place a Classified Ad</a></li>
+	<li id="menu-item-963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-963"><a href="http://advertising.scng.com/pasadena-star-news-media-kit">Media Kit</a></li>
+	<li id="menu-item-1798148" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1798148"><a href="http://advertising.scng.com/southern-ca-advertising-scng-ad-inquiry-pasadena-star-news">Advertising Inquiry</a></li>
+</ul>
+</li>
+<li id="menu-item-965" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-965"><a>How to Find Us on Other Platforms</a><span class="expander"><a href="#" class="icon-plus"></a></span>
+
+<ul class="footer-menu">
+	<li id="menu-item-966" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-966"><a href="http://www.scngapps.com/">Mobile Apps</a></li>
+	<li id="menu-item-1920047" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1920047"><a href="https://www.pasadenastarnews.com/newsletter/">Newsletter Signup</a></li>
+	<li id="menu-item-969" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-969"><a href="https://myaccount.pasadenastarnews.com/access.aspx?premium=Y&#038;product=eEditionSBS">e-Edition</a></li>
+	<li id="menu-item-1920123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1920123"><a href="https://www.pasadenastarnews.com/newsletter/">Breaking News Alerts</a></li>
+	<li id="menu-item-971" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-971"><a href="http://www.pasadenastarnews.com/sitemap.xml">Site Map</a></li>
+	<li id="menu-item-972" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-972"><a href="http://www.pasadenastarnews.com/2017/08/31/how-to-get-an-rss-feed-of-any-pasadena-star-news-page-on-its-website/">RSS</a></li>
+</ul>
+</li>
+<li id="menu-item-981" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-981"><a>Customer Service</a><span class="expander"><a href="#" class="icon-plus"></a></span>
+
+<ul class="footer-menu">
+	<li id="menu-item-982" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-982"><a href="https://myaccount.pasadenastarnews.com/">Subscriber Services</a></li>
+	<li id="menu-item-983" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-983"><a href="https://checkout.pasadenastarnews.com/vertLanding">Subscribe</a></li>
+	<li id="menu-item-984" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-984"><a href="https://myaccount.pasadenastarnews.com/MembershipReward.aspx">Reader Rewards</a></li>
+	<li id="menu-item-985" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-985"><a href="https://www.pasadenastarnews.com/share-your-news/">Share Your News</a></li>
+</ul>
+</li>
+<li id="menu-item-986" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-986"><a>Partners</a><span class="expander"><a href="#" class="icon-plus"></a></span>
+
+<ul class="footer-menu">
+	<li id="menu-item-988" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-988"><a href="http://socalpreplegends.com/">SoCal Prep Legends</a></li>
+	<li id="menu-item-989" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-989"><a href="http://www.sgvtribune.com/">San Gabriel Valley Tribune</a></li>
+	<li id="menu-item-990" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-990"><a href="http://www.whittierdailynews.com/">Whittier Daily News</a></li>
+	<li id="menu-item-1798207" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1798207"><a href="http://www.dailynews.com">L.A. Daily News</a></li>
+	<li id="menu-item-987" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-987"><a href="http://www.thecannifornian.com/">The Cannifornian</a></li>
+	<li id="menu-item-1957905" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1957905"><a href="http://www.la-dev.com/Monster/Main/pasadenastar/index.html">Monster</a></li>
+</ul>
+</li>
+</ul></div>			<div class="colophon">
+
+				<ul id="footer-bottom-menu" class="menu"><li id="menu-item-2197817" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2197817"><a href="https://www.medianewsgroup.com/copyright/">Copyright © 2019 MediaNews Group, Inc.</a></li>
+<li id="menu-item-1982519" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1982519"><a href="https://www.medianewsgroup.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-2168924" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2168924"><a href="https://www.medianewsgroup.com/terms-of-use/">Terms of Use</a></li>
+<li id="menu-item-1982520" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1982520"><a href="https://www.medianewsgroup.com/cookie-policy/">Cookie Policy</a></li>
+<li id="menu-item-952" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-952"><a href="https://www.medianewsgroup.com/arbitration/">Arbitration</a></li>
+<li id="menu-item-1801192" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1801192"><a href="https://vip.wordpress.com/">Powered by WordPress.com VIP</a></li>
+<li id="menu-item-1953829" class="scng-logo menu-item menu-item-type-custom menu-item-object-custom menu-item-1953829"><a href="http://www.socalnewsgroup.com">Southern California News Group</a></li>
+<li id="menu-item-1953830" class="dfm-logo menu-item menu-item-type-custom menu-item-object-custom menu-item-1953830"><a href="http://www.digitalfirstmedia.com">MediaNews Group</a></li>
+</ul>			</div>
+			
+			</footer><!-- .site-footer -->
+			
+			</div><!-- #page -->
+
+				<div id="sharing_email" style="display: none;">
+		<form action="/2014/05/24/statistics-can-be-manipulated-to-prove-anything/" method="post">
+			<label for="target_email">Send to Email Address</label>
+			<input type="email" name="target_email" id="target_email" value="" />
+
+			
+				<label for="source_name">Your Name</label>
+				<input type="text" name="source_name" id="source_name" value="" />
+
+				<label for="source_email">Your Email Address</label>
+				<input type="email" name="source_email" id="source_email" value="" />
+
+						<input type="text" id="jetpack-source_f_name" name="source_f_name" class="input" value="" size="25" autocomplete="off" title="This field is for validation and should not be changed" />
+			
+			<div
+				class="g-recaptcha"
+				data-sitekey="6LdkxKQUAAAAACsHxmeRK-KlXl7MnOblfo6SbZ80"
+				data-theme="light"
+				data-type="image"
+				data-tabindex="0"></div>
+			<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=en_US" async></script>
+			
+			<img style="float: right; display: none" class="loading" src="https://www.pasadenastarnews.com/wp-content/mu-plugins/jetpack/modules/sharedaddy/images/loading.gif" alt="loading" width="16" height="16" />
+			<input type="submit" value="Send Email" class="sharing_send" />
+			<a rel="nofollow" href="#cancel" class="sharing_cancel" role="button">Cancel</a>
+
+			<div class="errors errors-1" style="display: none;">
+				Post was not sent - check your email addresses!			</div>
+
+			<div class="errors errors-2" style="display: none;">
+				Email check failed, please try again			</div>
+
+			<div class="errors errors-3" style="display: none;">
+				Sorry, your blog cannot share posts by email.			</div>
+		</form>
+	</div>
+<script>
+		(function(w) {
+			if ( null !== document.cookie.match(/^(.*;)?\s*igmRegID\s*=\s*[^;]+(.*)?$/) ) {
+				w.PARSELY = {
+	                autotrack: false,
+	                onReady: function() {
+	                    PARSELY.updateDefaults({
+	                        data: {
+	                            plan: "subscriber"
+	                        }
+	                    });
+	                    PARSELY.beacon.trackPageView();
+	                }
+            	};
+			}
+		})(window);
+        </script>	<script type="text/javascript">
+	// <![CDATA[
+		var disqus_shortname = "dfm-pasadenastarnews";
+		var disqus_domain = "disqus.com";
+		(function () {
+			var nodes = document.getElementsByTagName('span');
+			for (var i = 0, url; i < nodes.length; i++) {
+				if (nodes[i].className.indexOf('dsq-postid') != -1) {
+					nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+					url = nodes[i].parentNode.href.split('#', 1);
+					if (url.length == 1) url = url[0];
+					else url = url[1]
+					nodes[i].parentNode.href = url + '#disqus_thread';
+				}
+			}
+			var s = document.createElement('script'); s.async = true;
+			s.type = 'text/javascript';
+			s.src = '//' + disqus_domain + '/forums/' + disqus_shortname + '/count.js';
+			(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+		}());
+	//]]>
+	</script>
+
+
+<!-- START Parse.ly Include: Standard -->
+
+<div id="parsely-root" style="display: none">
+	<div id="parsely-cfg" data-parsely-site="pasadenastarnews.com"></div>
+</div>
+<script data-cfasync="false">
+	(function (s, p, d) {
+		var h = d.location.protocol, i = p + "-" + s,
+			e = d.getElementById(i), r = d.getElementById(p + "-root"),
+			u = h === "https:" ? "d1z2jf7jlzjs58.cloudfront.net"
+				: "static." + p + ".com";
+		if (e) return;
+		e = d.createElement(s);
+		e.id = i;
+		e.async = true;
+		e.setAttribute('data-cfasync', 'false');
+		e.src = h + "//" + u + "/p.js";
+		r.appendChild(e);
+	})("script", "parsely", document);
+</script>
+
+<!-- END Parse.ly Include: Standard -->
+<div id="mobile-adhesion"><button class="close-mobile-adhesion" onclick="closeMobileAdhesionAd()">Close</button>
+			<script>
+				function closeMobileAdhesionAd() {
+				    document.getElementById("mobile-adhesion").classList.add("closed");
+				}
+			</script>
+			<div id="div-gpt-ad-mobile_adhesion" class="dfp-ad dfp-mobile_adhesion" data-ad-unit="mobile_adhesion">
+					<script type="text/javascript">
+						if ( "undefined" !== typeof googletag ) {
+							googletag.cmd.push( function() { googletag.display("div-gpt-ad-mobile_adhesion"); } );
+						}
+					</script>
+				</div></div><script type='text/javascript'>
+/* <![CDATA[ */
+if ( 'undefined' !== typeof _snaq ) {
+_snaq.push(['setAuthor', 'Robert Rector']);
+_snaq.push(['setArticlePublishTime','2014-05-24T23:04:21-07:00']);
+_snaq.push(['setSection', 'News']);
+}
+/* ]]> */
+</script>
+<div id="mg2Widget-newsletter-container"></div><script type='text/javascript' src='https://www.pasadenastarnews.com/_static/??/wp-content/plugins/photonfill/vendor/picturefill.min.js,/wp-content/plugins/photonfill/vendor/lazysizes.min.js?m=1542695992j'></script>
+<script type='text/javascript' src='https://www.pasadenastarnews.com/wp-content/themes/wp-mason/static/js/ads.js?ver=1.0'></script>
+<script type='text/javascript' src='https://assets.digitalfirstmedia.com/prod/static/js/common.221aa558842b7dd1db6c.min.js?ver=1.0'></script>
+<!--[if lt IE 10]>
+<script type='text/javascript' src='https://assets.digitalfirstmedia.com/prod/static/js/polyfills.221aa558842b7dd1db6c.min.js?ver=1.0'></script>
+<![endif]-->
+<script type='text/javascript' src='https://assets.digitalfirstmedia.com/prod/static/js/modernearthy.221aa558842b7dd1db6c.min.js?ver=1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dfpAsyncAdUnits = ["#div-gpt-ad-Cube1_RRail_ATF","#div-gpt-ad-Cube2_RRail_mid","#div-gpt-ad-Cube3_RRail_lower"];
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.pasadenastarnews.com/wp-content/themes/wp-mason/static/js/global.min.js?m=1542695992g'></script>
+<script async type='text/javascript' src='https://s.ntv.io/serve/load.js'></script>
+<script type='text/javascript' src='https://imasdk.googleapis.com/js/sdkloader/ima3.js'></script>
+<script type='text/javascript' src='https://www.pasadenastarnews.com/_static/??/wp-includes/js/wp-embed.min.js,/wp-content/mu-plugins/jetpack/_inc/build/sharedaddy/sharing.min.js?m=1559853151j'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201923.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.4',blog:'135474150',post:'186162',tz:'-7',srv:'www.pasadenastarnews.com'} ]);
+	_stq.push([ 'clickTrackerInit', '135474150', '186162' ]);
+</script>
+
+			<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7998548d3f","applicationID":"50282252","transactionName":"Ml0BbUEAXENYUBBfWAsXIlpHCF1eFkANWFAJXQ==","queueTime":0,"applicationTime":282,"atts":"HhoWGwkaTxwbUkYMTBhF","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+			</html>
+			

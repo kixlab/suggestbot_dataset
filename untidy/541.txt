@@ -1,0 +1,4338 @@
+
+
+# small-m
+
+## Math! How much CO2 is emitted by human on earth annually?
+
+March 27, 2007 at 3:56 am (Environment, Math!)
+
+Another math time! 🙂
+
+And again, it is closely related to GW area.
+
+Currently (as of year 2007), human population on earth is 6.6 billion (via
+wikipedia). I went around to look for how much CO2 is exhaled out per person,
+and 2 claims were found (both via wikipedia):
+
+claim#1: an average person's respiration generates approximately 450 liters
+(roughly 900 grams) of carbon dioxide per day (CO2#Human_physiology)
+
+> I use the standard chemistry textbook theory (standard molar volume) to
+check this claim, 450L for 900 grams of CO2, and it is tallied.
+
+>
+
+> Thus, the amount of CO2 released by human per day is 0.9 kg/day
+
+claim#2: In an average resting adult, the lungs take up about 250ml of oxygen
+every minute while excreting about 200ml of carbon dioxide.
+(Respiratory_system)
+
+> So, 200 ml per minute and thus 200 ml x 60 X 24 = 288L
+
+>
+
+> Or equivalent to 565.36g/per day = 0.565 kg/day (after divide with standard
+molar volume constant and times with CO2 molar weight).
+
+>
+
+> Apparently claim#2 has lower CO2 emission compared to claim#1, but I will
+use both anyway to show the comparison.
+
+So, if there is 6.6 billion people out there and excreting CO2 at the rate of
+0.9 or 0.565 kg/day, the total CO2 emission by human alone annually is:
+
+claim#1: CO2 emission = 0.90 X 365 x 6 600 000 000
+
+= **2.168 x 10^9 tonnes/year**
+
+claim#2: CO2 emission = 0.565 x 365 x 6 600 000 000
+
+= **1.362 x 10^9 tonnes/year**
+
+But human activities, through the fossil fuel burning activities, releases
+24.136 x 10^9 tonnes per year (via wikipedia).
+
+So, **human breathing process** contribute to about 8.99% (claim#1) or 5.65%
+(claim#2) compared to the fuel burning related CO2.
+
+Conclusion? May be stop breathing does not really help in reducing CO2
+emission! 😛
+
+### Share this:
+
+                    
+                                                * Twitter
+                            * Facebook
+                            * ### Like this:
+                    
+
+Like Loading...
+
+### _Related_
+
+### 188 Comments
+
+                    
+                                                1. #### Math! How much CO2 is released by Dairy Cow? « small-m said,
+                    
+
+April 12, 2007 at 4:53 am
+
+[…] compared this value to human being on earth (as of year 2007), human
+population is breathing about 1362 million tonnes (case#1) or 2618 million
+tonnes (case#2) CO2 per year. By comparing the […]
+
+Reply
+
+                    
+                                                2. ![](https://0.gravatar.com/avatar/c949e65a83a31f63c3258d17391131fe?s=32&d=identicon&r=G)
+                    
+
+#### Brian Muller said,
+
+May 15, 2007 at 2:30 am
+
+Your math is off in example number 1 the answer should be 2.168 x 10^12
+tonnes/year.
+
+Thats off by 1000 times do your math again.
+
+Reply
+
+                    
+                                                  * ![](https://0.gravatar.com/avatar/ca70835e7f11b625cf25fea2c533f7a0?s=32&d=identicon&r=G)
+                    
+
+#### tjin said,
+
+April 29, 2012 at 12:36 pm
+
+don't care
+
+Reply
+
+                    
+                                                    * ![](https://0.gravatar.com/avatar/698e22b3c0e04be6b8e5d9e17c09cddc?s=32&d=identicon&r=G)
+                    
+
+#### Justin said,
+
+November 30, 2012 at 6:26 pm
+
+this is good information you
+
+                    
+                                                  * ![](https://0.gravatar.com/avatar/9efd0b47a145d4e4575cd673ae96c9a7?s=32&d=identicon&r=G)
+                    
+
+#### jessica liu said,
+
+March 6, 2013 at 1:10 am
+
+claim#1: CO2 emission = 0.90 X10^(-3) x 365 x 6 600 000 000
+
+= 2.168 x 10^9 tonnes/year
+
+Reply
+
+                    
+                                                  * ![](https://2.gravatar.com/avatar/8f66b8723b756ba79fe9be48b89cd40c?s=32&d=identicon&r=G)
+                    
+
+#### Charles said,
+
+October 19, 2013 at 3:26 am
+
+He switched units from Kg to metric tonnes.  
+It is 2.168 * 10^12 Kg.  
+However, you must divide by 1,000 to derive the number of metric tonnes; thus,
+2.168 * 10^9 is correct.
+
+Reply
+
+                    
+                                                  * ![](https://0.gravatar.com/avatar/cedd61ee0dc4096a42a738e07b03b5d2?s=32&d=identicon&r=G)
+                    
+
+#### Mike said,
+
+December 10, 2015 at 4:57 pm
+
+you idiot it's in kg so you have to convert to metric tonnes. Divide by 1000.
+The math is correct.
+
+Reply
+
+                    
+                                                  * ![](https://2.gravatar.com/avatar/b1c5030204bacb3ab00009636f2350dd?s=32&d=identicon&r=G)
+                    
+
+#### Dimitar Georgiev said,
+
+December 7, 2016 at 6:56 am
+
+Try it in tones before make statements 😀
+
+Reply
+
+                    
+                                                3. ![](https://2.gravatar.com/avatar/ef9a9e3d52a2c83c9d7f904127c7216b?s=32&d=identicon&r=G)
+                    
+
+#### mich said,
+
+May 15, 2007 at 6:27 am
+
+Hi Brian:  
+0.90 kg/day x 365 days x 6 600 000 000 = 2.168×10^12 kg or 2.168×10^9
+tonnes/year (1 tonne=1000 kg). I skipped the kg conversion to tonnes part.
+Checked if the number is tallied with yours.
+
+Reply
+
+                    
+                                                4. ![](https://0.gravatar.com/avatar/3321b3da9be26427771e507d62f19c0d?s=32&d=identicon&r=G)
+                    
+
+#### Neil Chapman said,
+
+June 16, 2007 at 12:46 am
+
+By my coarse calculation a typical car generates about as much CO2 as 12
+people. That means 6.5 billion people are equivalent to 500 million cars.
+
+Reply
+
+                    
+                                                  * ![](https://1.gravatar.com/avatar/13c9f554c4f659ca06d2e8ef9f9227c5?s=32&d=identicon&r=G)
+                    
+
+#### Second Sight said,
+
+September 19, 2011 at 10:30 pm
+
+Neil, how do you describe a "typical" car? half way between a real car and the
+new jelly beans? miles driven per day? gas (perish the thought fossil) mileage
+per gallon?
+
+I think you figures might be the other way around if u factor in all the
+variables.
+
+Reply
+
+                    
+                                                    * ![](https://0.gravatar.com/avatar/fd515ec7a99edd27d46a3a7fbaa7d340?s=32&d=identicon&r=G)
+                    
+
+#### smokey bear said,
+
+February 13, 2012 at 9:36 pm
+
+Typical (average) cars mean that every car is accounted for. Just like when
+average global temperatures are measured , every weather station is accounted
+for. Therefore, if every car is added up, then the more efficient cars are
+knocked down by less efficient cars, making Chapman's statement completely
+valid. All the variables are factored in. Just accept it. The only way to stop
+global warming is to stop breathing, and make all the animals, whales,
+zooplankton, and bacteria to stop breathing. Have fun and let me know how it
+goes.
+
+                    
+                                                5. ![](https://2.gravatar.com/avatar/ef9a9e3d52a2c83c9d7f904127c7216b?s=32&d=identicon&r=G)
+                    
+
+#### micpohling said,
+
+June 16, 2007 at 1:29 am
+
+Hi Neil:  
+Well, let's say a typical car emit 200g CO2 per 1 km travelled, and for a car
+to generate 12 persons CO2:12×0.9 kg = 10.8 kg CO2, that would be equivalent
+to 54km travelling distance per day. Do you drive your car that much? 🙂
+
+Reply
+
+                    
+                                                6. ![](https://1.gravatar.com/avatar/7553cbf973f6f2fab19690295cd58d34?s=32&d=identicon&r=G)
+                    
+
+#### Ed C said,
+
+July 16, 2007 at 5:55 pm
+
+Very interesting stuff! Also useful for someone like myself whom is convinced
+global warming isn't our fault (well, cars and CO2 anyway). My maths teacher
+told me that 50% (could've misheard it, might be 15%) of CO2 emissions are
+emitted by the production of concrete. Can anyone back this up? Thanks!
+
+Reply
+
+                    
+                                                7. ![](https://1.gravatar.com/avatar/7553cbf973f6f2fab19690295cd58d34?s=32&d=identicon&r=G)
+                    
+
+#### Ed C said,
+
+July 16, 2007 at 6:11 pm
+
+PS: I heard the average human emitted 400kg (0.4 tonnes) of CO2 a year so
+0.4[tonnes] x 6600000000 = 2640000000 (tonnes 2.64 x 10^9 tonnes/year I think)
+
+> 2.168 x 10^9 tonnes/year. Not sure what total CO2 emissions are and haven't
+the time to work it out!
+
+Reply
+
+                    
+                                                8. ![](https://2.gravatar.com/avatar/ef9a9e3d52a2c83c9d7f904127c7216b?s=32&d=identicon&r=G)
+                    
+
+#### mich said,
+
+July 16, 2007 at 10:59 pm
+
+Well Ed, your average 400kg per year is definitely slightly higher than my
+daily 0.9kg (less than 1 kg per day x 365 days will definitely less than
+400kg/year), so your calculation would yield higher number than mine. As for
+the concrete production, sorry for not hearing about that before. A quick
+check at Wikipedia, I guess the CO2 was released by Portland cement component
+in concrete " Portland cement, which is made primarily from limestone, certain
+clay minerals, and gypsum, in a high temperature process that drives off
+carbon dioxide and chemically combines the primary ingredients into new
+compounds."  
+http://en.wikipedia.org/wiki/Cement
+
+Reply
+
+                    
+                                                9. ![](https://1.gravatar.com/avatar/7553cbf973f6f2fab19690295cd58d34?s=32&d=identicon&r=G)
+                    
+
+#### Ed C said,
+
+July 18, 2007 at 4:02 pm
+
+Thanks for the info mich.  
+I checked again with my maths teacher, and she is convinced it is 51% (CO2
+emitted by concrete/cement [?] production). But then again, she is just a bit
+mad…  
+I only got the 400kg pa figure from a letter written to the motoring magazine,
+Top Gear, so I don't know how valid that is. Thanks again for the very useful
+article.
+
+Reply
+
+                    
+                                                  * ![](https://1.gravatar.com/avatar/1afe0874514061bfeb43680f360ce380?s=32&d=identicon&r=G)
+                    
+
+#### impulsoverde said,
+
+August 31, 2010 at 10:19 am
+
+Cement it,s about 3% emisions share, 1kg of cement emit 1kg of CO2  
+500g from combustible + 500 g fron CO3Ca to OCa
+
+Reply
+
+                    
+                                                10. ![](https://1.gravatar.com/avatar/179faea8a8849037439bcbff1fc808e5?s=32&d=identicon&r=G)
+                    
+
+#### Adam said,
+
+August 4, 2007 at 6:04 am
+
+The catch with cement factory emissions, is that in the hardening of the lime
+(calcium oxide) back into limestone (calcium carbonate), the primary
+ingredient in concrete to make it harden, the CO2 is put back in, so the net
+effect is entirely from the burned fossil fuels required to heat the limestone
+and cook it into lime, and not of the product itself. And that's with a
+rediculously efficient process. You want to talk terrible emissions, gas
+lawnmowers spit out all sorts of terrible crap and are horribly inefficient.
+Even candles are horribly inefficient as a light source.  
+Tell your teacher to do HER homework next time she tries to tell you to do
+yours 😛
+
+Reply
+
+                    
+                                                11. ![](https://1.gravatar.com/avatar/7553cbf973f6f2fab19690295cd58d34?s=32&d=identicon&r=G)
+                    
+
+#### Ed C said,
+
+August 4, 2007 at 7:44 am
+
+Thanks Adam, I sure will! I see your point with the concrete hardening process
+as I recently studied this at school. The quest continues to find that global
+warming isn't entirely our fault… (probably a lost cause by now)
+
+Reply
+
+                    
+                                                12. ![](https://2.gravatar.com/avatar/5f1132f89ea8d06eec380cf287958fb5?s=32&d=identicon&r=G)
+                    
+
+#### kevin said,
+
+August 14, 2007 at 1:09 pm
+
+This s not really a math question, but a thought of why with technology
+advancing at such a rate, hasnt anybody invented/discovered a method of
+changing CO2 into base elements carbon and oxygen. Please forgive my ignorance
+if there is a simple answer to this.
+
+Reply
+
+                    
+                                                  * ![](https://0.gravatar.com/avatar/fd515ec7a99edd27d46a3a7fbaa7d340?s=32&d=identicon&r=G)
+                    
+
+#### Robert Rebuchete said,
+
+February 13, 2012 at 9:39 pm
+
+expensive.
+
+Reply
+
+                    
+                                                  * ![](https://2.gravatar.com/avatar/2f06ac637a1fd5e14a14fdcd59c4816a?s=32&d=identicon&r=G)
+                    
+
+#### Bob said,
+
+November 15, 2013 at 8:31 pm
+
+Plants have figured it out. It's called Photosynthesis. The energy input that
+makes it expensive comes from sunlight. The problem is, if you burn the plant
+or let it decay where gases can re-enter the atmosphere, the CO2 returns to
+the atmosphere.
+
+Reply
+
+                    
+                                                13. ![](https://2.gravatar.com/avatar/ef9a9e3d52a2c83c9d7f904127c7216b?s=32&d=identicon&r=G)
+                    
+
+#### mich said,
+
+August 14, 2007 at 5:25 pm
+
+Well, the problem is breaking a stable molecule like CO2 into base C and O
+requires energy (be it natural process like photosynthesis or artificial), so
+it will eventually comes back to original question: where do you get the
+energy from?
+
+Reply
+
+                    
+                                                14. ![](https://1.gravatar.com/avatar/a226e0e6ea6dbf0745255de7aff890f2?s=32&d=identicon&r=G)
+                    
+
+#### snowy said,
+
+August 19, 2007 at 12:10 am
+
+erh does n't
+
+6H2O + 6CO2 -------> C6H12O6+ 6O2
+
+six molecules of water plus six molecules of carbon dioxide produce one
+molecule of sugar plus six molecules of oxygen
+
+so basically if we breath toward a big enough sunlit plant while we water it -
+that should sort our our own individual carbon offset !!!! and we get to have
+some sugar for our latte too
+
+Reply
+
+                    
+                                                15. ![](https://1.gravatar.com/avatar/7bc917028b3f3e2e9d5ec5c7f315d825?s=32&d=identicon&r=G)
+                    
+
+#### Rahul P said,
+
+October 19, 2007 at 10:15 am
+
+If I were to offset the CO2 by planting trees for my own quota of CO2 , how
+many and what type of trees are required to plant and keep em alive as long as
+I am breathing …
+
+Reply
+
+                    
+                                                  * ![](https://0.gravatar.com/avatar/fd515ec7a99edd27d46a3a7fbaa7d340?s=32&d=identicon&r=G)
+                    
+
+#### Andrew Bennet said,
+
+February 13, 2012 at 9:44 pm
+
+Alot! We survive off an atmosphere that is 21% oxygen. Plants survive off of
+the 0.003% of the atmosphere that is made up of carbon dioxide. They need
+0.063 the amount of atmospheric gas people do.
+
+Reply
+
+                    
+                                                16. ![](https://0.gravatar.com/avatar/695e48e4ca48d7cbff8058adb55a6271?s=32&d=identicon&r=G)
+                    
+
+#### Bob Bennett said,
+
+November 2, 2007 at 5:39 pm
+
+How much carbon dioxide is contained in one cubic metre of limestone.
+
+An average quantity would be most helpful to me as I need to kinow how much is
+given off when burning limestone at 900 degrees C ?
+
+Reply
+
+                    
+                                                17. ![](https://0.gravatar.com/avatar/944ca808b4c228b53e9ed671506ad9ad?s=32&d=identicon&r=G)
+                    
+
+#### Max said,
+
+November 16, 2007 at 12:26 am
+
+Human breathing process is not contributing to net gain of CO2 because:
+
+"human exhalation of carbon dioxide is part of a closed system. There can be
+no net addition of carbon dioxide to the atmosphere because the amount of
+carbon dioxide we exhale can’t be greater than the carbon we put into our
+bodies by eating plants, or eating animals that eat plants. The plants got the
+carbon from the atmosphere via photosynthesis."  
+http://www.gcrio.org/doctorgc/index.php/drweblog/C53/
+
+And, yes, the solution is planting trees. In my childhood days, the mantra was
+"5 trees per person and we're fine". Have no idea if this was scientifically
+proven/supported.
+
+Reply
+
+                    
+                                                  * ![](https://1.gravatar.com/avatar/daf5ff7afb6a6c94d535b83bd3da1bb0?s=32&d=identicon&r=G)
+                    
+
+#### Jeremy said,
+
+December 14, 2010 at 6:28 pm
+
+Wouldn't it make more sense to say that Human excrement is part of a closed
+system? Human breathing is the conversion of oxygen to carbon dioxide.
+
+Reply
+
+                    
+                                                18. ![](https://2.gravatar.com/avatar/8f8131841c75ef24df2256101f5011e6?s=32&d=identicon&r=G)
+                    
+
+#### mark teeter said,
+
+December 21, 2007 at 4:44 pm
+
+Hello econerds! Does it not occur to anyone that humans are not the only
+carbon dioxide emitting organisms on earth? Please try calculating CO2
+emissions for all life. Eat your pets first, but only make jerky out of them
+by sun drying.
+
+Reply
+
+                    
+                                                19. ![](https://0.gravatar.com/avatar/68fec6b19f439f4c3f66e94ea2b25352?s=32&d=identicon&r=G)
+                    
+
+#### Adam L said,
+
+April 2, 2008 at 10:38 pm
+
+I think that teacher means 51% of CO2 from manufacturing (metal refining is
+another big contributor in this category). Cement accounts for more like 5 to
+10% of TOTAL CO2 emissions. Even livestock contribute more CO2 emissions than
+the cement industry. Beef livestock account for 9% of CO2 (but 37% of methane
+and 65% of NOx, which have greater potential warming effect than CO2).  
+By the way, the total amount of atmospheric CO2 only rises by about half of
+the total global emissions each year. The other half gets absorbed by the
+oceans. Basically, shellfish need it to make the CaCO3 for their shells.
+
+Reply
+
+                    
+                                                  * ![](https://0.gravatar.com/avatar/ca052ac452737f1e6cf6732fcfa78ef6?s=32&d=identicon&r=G)
+                    
+
+#### BigWaveDave said,
+
+August 24, 2016 at 11:16 pm
+
+More likely, the 51% came from a stack analysis at a cement plant.
+
+The flue gas leaving the process would be a combination of the combustion
+products, which are mostly N2 and CO2 plus excess O2 if needed to minimize CO,
+plus the CO2 from the limestone calcination.
+
+Reply
+
+                    
+                                                20. ![](https://1.gravatar.com/avatar/78b5cc9876d5ffd28735a857aec6d596?s=32&d=identicon&r=G)
+                    
+
+#### Cahal said,
+
+May 1, 2008 at 10:13 am
+
+The carbon molecule you breathe out has come from a plant, or an animal that
+ate a plant. While the plant was growing, it took in this carbon molecule from
+the atmosphere, in the form of CO2. So the whole process is carbon neutral
+obviously. The same applies for all life on earth, and there is no net effect
+on global warming.
+
+Apart from when the carbon molecules are formed with hydrogen to make methane
+(think cows). Since methane is 12? times as effective a greenhouse gas than
+CO2, a CO2 molecule taken up by the plant ends up as a CH4 molecule in the
+atmosphere.
+
+Reply
+
+                    
+                                                21. ![](https://0.gravatar.com/avatar/063be1cc35f58d7c2aef0c9a5e11e6fb?s=32&d=identicon&r=G)
+                    
+
+#### Pigeonwolf said,
+
+May 7, 2008 at 9:01 am
+
+By the theory that the carbon we breathe came from a plant (or animal that ate
+a plant), we could use the same theory that fossil fuels come from fossilised
+plants or fossilised animals that ate plants and are thus carbon neutral. The
+theory (whilst being technically true) is obviously flawed, not least in that
+around the world, forests are being burned to make room for farmland to feed
+the ever expanding population. We are thereby losing a constant in the
+equation (trees).
+
+Reply
+
+                    
+                                                  * ![](https://2.gravatar.com/avatar/b26d6232f2246b88ecff42887ddd62c5?s=32&d=identicon&r=G)
+                    
+
+#### rmi9999 said,
+
+July 20, 2011 at 3:47 pm
+
+an acre of grassland absorbs more carbon than an acre of trees
+
+Reply
+
+                    
+                                                22. ![](https://1.gravatar.com/avatar/106379610b0366ab4296de772ec1f54e?s=32&d=identicon&r=G)
+                    
+
+#### Tyler said,
+
+May 8, 2008 at 11:42 pm
+
+What wikipedia page did you find that on?
+
+Reply
+
+                    
+                                                23. ![](https://0.gravatar.com/avatar/9f917c95b49275304681fb47f850bffc?s=32&d=identicon&r=G)
+                    
+
+#### SY said,
+
+May 17, 2008 at 1:35 pm
+
+It is true that the whole world is a closed system, with fixed amounts of
+carbon, oxygen and other elements. The problem is the balance between the
+forms of these elements. Currently we appear to be producing CO2 (gaseous
+form) faster that it is being re-absorbed as pants and trees (solid form).  
+Actually the Human Race is the problem, not only through breathing out CO2,
+but by consumption too. The world would be in balance with a smaller
+population. Population growth is the real problem to everything!
+
+Reply
+
+                    
+                                                24. ![](https://2.gravatar.com/avatar/5341ed9c9e41745da3ddc8e1e8d11213?s=32&d=identicon&r=G)
+                    
+
+#### Daniel said,
+
+June 15, 2008 at 12:30 pm
+
+Has anyone considered that plant life on earth may be limited by the fact that
+CO2 is less than 0.04% of the content of air. By contributing extra CO2 we
+could actually be encouraging plant life to develop as there would be higher
+concentrations of CO2 for the plant to breathe and thus allow to grow. Even if
+we clear forests etc, the plants will still find a way to thrive as life
+always has. Maybe we will see plants grow further inland thus creating more
+rains (as the oxygen meets hydrogen in the air and creates clouds/rain) on
+mainlands. To me this is common sense. Can anyone point out otherwise?
+
+Reply
+
+                    
+                                                25. ![](https://1.gravatar.com/avatar/40977bf6b9b7dfeabcd330492b55eca0?s=32&d=identicon&r=G)
+                    
+
+#### William Tell said,
+
+July 3, 2008 at 7:42 pm
+
+Wikipedia, the stated source for much info generating claimed factual science
+should be held in the highest level of skepticism. Individuals attempting to
+correct their personal bio's have reported their attempts repeatedly corrupted
+to reflect falsehoods. This is an example of the inside agenda of select
+Wikipedia editors molding topics and content. Although this is not pervasive
+throughout Wikipedia as yet, it is worth noting for the most polarizing topics
+of debate. Be sure to use multi-facet cross checking of data to support all of
+your facts.
+
+Reply
+
+                    
+                                                26. ![](https://0.gravatar.com/avatar/fc6ac4e08f9b3c7c0cf1e078ee2a668f?s=32&d=identicon&r=G)
+                    
+
+#### Tiburon said,
+
+July 4, 2008 at 11:11 pm
+
+Yes, the positive effects of CO2, especially in light of our growing
+population's need for food and shelter (expected to stabilize around 13
+Billion or so demographically, as I recall), has been well considered! See: -
+CO2Science.org.  
+This will be an especial boon while we go through what's beginning to look
+like a repeat of the Dalton Minimum (Little Ice Age/LIA).
+
+Reply
+
+                    
+                                                27. ![](https://0.gravatar.com/avatar/3d071fcb5c2ad6912df294a3a53f2912?s=32&d=identicon&r=G)
+                    
+
+#### shmoopie said,
+
+July 6, 2008 at 5:52 pm
+
+The problem is that you have all fallen for the construct that CO2 is bad and
+causes global warming.  
+ALL GASES are greenhouse gases.  
+Our atmosphere is 79% Nitrogen, 20% Oxygen, 1% everything else. The everything
+else makes only a small component of how radiant energy is trapped by the
+atmosphere. And CO2 is only 0.2% of the atmosphere. Now, on the other hand,
+Methane is MUCH more dense than O2, CO2, or N2. If you accept the great Global
+Warming Religion, we should all be burning as much natural gas as possible
+(currently seeping out of the ocean floor at an alarming rate) and converting
+it to CO2 and H2O.  
+BTW, the "Science" behind Global Warming is being proven fraudulent.  
+The 1990s and 2000s were NOT the hottest period in modern history, the 1930s
+were. The methodology of putting an ever increasing number of weather stations
+in urban an suburban settings (heat sinks- steel, concrete, and asphalt), in
+some cases next to air conditioning exhaust on rooftops, and comparing them
+against different measuring devices with less accuracy and, trying to
+statistically compare to within a fraction of a gradient (not possible on the
+older instruments) is the very definition of UnScientific.  
+The last 2 years have been frigid, just as the last 3 Atlantic Hurricane
+Seasons after Algore's movie have been unusually quiet.
+
+Oh, and the Earth is NOT a closed System. Heat from the Earth comes from The
+Sun. The Sun is not a constant. Global warming Religion makes no room for
+varying output from The Sun in it's models. Strange, huh.
+
+Reply
+
+                    
+                                                  * ![](https://0.gravatar.com/avatar/669ab4c92fe4df10d865cab8e8ab6a52?s=32&d=identicon&r=G)
+                    
+
+#### Duda said,
+
+April 1, 2015 at 12:30 pm
+
+What people don't understand is that the earth does not have a constant cycle
+as you say above. They see one year and assume that's normal. Then some
+politician starts using propaganda like CO2 emissions to trick people into
+supporting pollution control (EPA) which in turn sets a bunch of regulations
+to make us burn more fuel to benefit the oil companies with the claim that it
+reduces emissions.
+
+One claim i see all the time is that CO2 is at record highs since the
+industrial revolution with a graph of carbon dioxide concentrations from 1900
+until now. Yes, 1900 was a low period in concentration. Back up to 1800 and
+you'll find current concentrations now are lower than they were then. In the
+1700s we had severe cold. Concentrations of CO2 were not likely the cause but
+more likely a result of the fluctuation in Earth's cycle.
+
+Reply
+
+                    
+                                                28. ![](https://2.gravatar.com/avatar/e7b8005936ff064fd8f2c762cc805290?s=32&d=identicon&r=G)
+                    
+
+#### Semaj said,
+
+July 23, 2008 at 6:49 pm
+
+Does anyone know how much fossil fuel there is on the planet, and how much co2
+would be released if it was all burnt?
+
+Reply
+
+                    
+                                                29. ![](https://2.gravatar.com/avatar/55cff2474da7e4288607f2ec372644a3?s=32&d=identicon&r=G)
+                    
+
+#### Joey said,
+
+August 1, 2008 at 1:25 pm
+
+I came to this site late. Where did we get the idea that C02 is dangerous or
+that the world is in a period of man-made global warming caused by a C02
+canopy around the earth which is creating a "greenhouse' in which warm
+greenhouse gases from earth are trapped thereby raising earth's temperatures
+ala man-made global warming???
+
+Whew.
+
+Talk about run-on sentences. But you get the point. I think its all a lot of
+(for lack of a better word) crap. There is no man made global warming. Co2 is
+not dangerous at all. In fact it is an intergral part of our life system. Al
+Gore is nuts.
+
+So how come so many scientists follow the lead of this silly pied piper? I
+guess for the same reason so many experts once thought the Sun revolved around
+the Earth or that the Earth was flat. Swimming with the current is always
+easier than going against it.
+
+Look. Global warming is nonsense. Any one of the people who visit a site like
+this is capable of understanding this fact if they want to. So let's review:
+
+A canopy of C02 now surrounds the earth creating a sealed-in 'greenhouse'.
+Below the canopy, earth's warm greenhouse gases can not escape the earth so
+they reamain raising the Earth's temperature. Each day taht the canopy stays
+in place, the Earth must get warmer. Each day, warmer than the day before.
+Unless we fine an escape for the trapped heat or turn off the heater (the
+greenhouse gases), we are doomed to ever-increasing temperatures and
+eventually DEATH FROM WARMING.
+
+(This is terribly different from what these same guys said in 1975 when they
+used all the same words except one: then they used the word COOLING, now they
+use the word WARMING.
+
+Both conclusion came from analysis of the same data.
+
+BUT - and it's a big but -  
+Last week (July 2008), the NOAA released this statement:  
+"Five of the last twelve years were above the 180-year mean. This means they
+were the five warmest years on record." (That's a paraphrase but that's the
+gist of it.)
+
+So, this is what the last 12 year's temperatures looked like, beginning in
+1995: cooler/cooler/cooler/warmer/cooler/  
+cooler/cooler/cooler/cooler/warmer/cooler/warmer (2006).
+
+Now I ask you, what kind of greenhouse is that? Is there a leak? Did someone
+turn off the greenhouse gases. Are those hot gases escaping out the hole in
+the ozone layer???
+
+Can't you see greenhouses don't work like that? If you have a sealed in area
+with a constant source of heat and no way for the heat to escape, the
+temperature inside that greenhouse must be as warm or warmer than the day
+before. It can NEVER be cooler than the day before. And you can't have a
+cooler season following a warmer season. It's downright silly.
+
+If man-made global warming were real as Gore (the winner of the Nobel Prize -
+god help us all), but if Gore was right,  
+all four seasons would be merging into one. The summers would be hotter, the
+springs would be hotter, the falls would be hotter and the winters would be
+hotter. And since we have had the Industrial Age for over 180 years, by now
+our seasons would be gone.
+
+No, there is no man-made global warming. That's just nonsense. If some seasons
+are warmer and some are cooler as shown by the NOAA statement, that's called
+WEATHER. And the things that account for that are (1) Solar Activity and (2)
+water vapor (or droplets) in the air. And that doesn't come from us, that
+comes from nature.
+
+So what's this all about? Blaming C02 means blaming American Industry. This
+leads to taxes on industry which leads to less drilling in America which leads
+to our corporations going out of business and our economy failing. Which leads
+to the re-distribution of our wealth and the destruction of capitalism and the
+introduction of marxist/socialism to the United States.
+
+Far feteched? Why? The C02 scare (remember the ozone hole blamed on C02??
+Remember the global cooling scare blamed on C02? Now you have the same scare
+tactics with global warming.) The goal is to destroy America's wealth.
+
+Today, because of this C02 nonsense, we don't drill for oil. But we still use
+it. We HAVE to use it, there is no real alternative today. So we buy it and
+send $700,000,000,000 dollars out of America to foreign countries. They are
+doing very well, their econmomies are booming, and ours? Ours is collapsing.
+And this is all an accident? This is all because scientists can't figure out
+we do not live in a greenhouse? When its own government says each year,
+temperatures alternate between warmer and cooler? They can't stand up and say
+Mr. Gore, you are an idiot?
+
+Can't or won't? If it's won't, why not? Could it be fear of reprisals?
+
+There is no man made global warming and for now I am ont convinced there is no
+ongoing warming at all. In fact, here is a prediction: if solar activity
+doesn't pick up soon (in the next 3 years) we are in for a prolonged period of
+GLOBAL COOLING.
+
+Joey
+
+You may email thoughtful responses to me at :  
+Chonors686@Aol.com.  
+Identify the email. I delete a lot.
+
+Thank you.
+
+Reply
+
+                    
+                                                30. ![](https://0.gravatar.com/avatar/33744cb8e23e770c64ffe0075479354d?s=32&d=identicon&r=G)
+                    
+
+#### Jeff Glassman said,
+
+August 3, 2008 at 3:55 pm
+
+Your calculations on human CO2 respiration are OK, but I couldn't confirm your
+number of 24.136 X 10^9 tonnes per year at your linked Wikipedia site.
+Instead, at that site the first figure has two graphs, and the lower graph has
+a blue line for the total fossil fuel burning rate. At year 2000, the end of
+the graph, the rate is 6.6 X 10^12 kg Carbon/year. That is 6.6 X 10^9 tonnes
+Carbon/year, roughly one fourth your value.
+
+So instead of 8.99% under claim #1 as you state, the number is 33%.
+
+This number is significant, especially compared to the total flux from the red
+line on that same Wikipedia chart. It's about 3.9 X 10^12 kg Carbon/year at
+year 2000, or 3.9 X 10^9 tonnes C/yr. Now your calculation is 2.168/3.9 = 56%
+of the total (net actually) atmospheric CO2 rate.
+
+Reply
+
+                    
+                                                31. ![](https://2.gravatar.com/avatar/ef9a9e3d52a2c83c9d7f904127c7216b?s=32&d=identicon&r=G)
+                    
+
+#### michelle said,
+
+August 3, 2008 at 5:29 pm
+
+Jeff,  
+Please bear in mind that the weight of CO2 is not the same as Carbon itself.  
+C + O2 -> CO2 [12 + 2*16 -> 44g]. By using this equation, you will get
+6.6×10^12 kg C/year is equal to 24.136 x 10^12 kg CO2.
+
+Reply
+
+                    
+                                                32. ![](https://0.gravatar.com/avatar/33744cb8e23e770c64ffe0075479354d?s=32&d=identicon&r=G)
+                    
+
+#### Jeff Glassman said,
+
+August 3, 2008 at 7:35 pm
+
+Michelle,
+
+Your are correct, and 8.99% it is.
+
+Your reference to "24.136 tonnes per year (via Wikipedia)" might be better
+written as "24.136 tonnes CO2 per year" especially because that number does
+not appear in the reference, and because you made two unit conversions, the
+explicit change from kg to tonne, but a silent one from C to CO2, to apply the
+reference. The IPCC claims to have uniformly used the mass of C in CO2 to
+represent the mass of CO2. In your citation, Wikipedia refers to “9.1PgC y^-1
+of total anthropogenic emissions”, a carbon reference standing for CO2 mass
+rate.
+
+Still, my error.
+
+Reply
+
+                    
+                                                33. ![](https://0.gravatar.com/avatar/c405b17d9f765de021eb5a44967c715c?s=32&d=identicon&r=G)
+                    
+
+#### J Clarkson said,
+
+November 5, 2008 at 1:03 pm
+
+CO2 absorbs all of the IR after just a few metres. Only when it gets into the
+higher atmosphere from aircraft does it cause some mild warming, which will
+taken a few thousand years to raise the temp by 6 degrees. This won't happen
+because the Earth has a thermostat: its called precipitation. This is not
+factored into IPCC computer sims. Also by the time CO2 really takes effect the
+Earth will be in the Taurid streams cluster. By the year 3000 these will be
+smashing into the atmosphere, polluting us with hydrogen cyanide (the cause of
+the Black Death) and if large enough, some may even cool the global
+temperature down by putting dust into the higher atmosphere.
+
+Reply
+
+                    
+                                                34. #### Is "global warming" BS? - Page 3 - 8th Generation Honda Civic Forum said,
+                    
+
+December 16, 2008 at 8:25 am
+
+[…] Originally Posted by CanyonDriver 95% of CO2 emissions are from natural
+sources, so based on this claim if CO2 is the cause of the rising temperatures
+then we have no control over it. i guess we can stop breathing, since exhaling
+emits CO2 Math! How much CO2 is emitted by human on earth annually? small-m
+[…]
+
+Reply
+
+                    
+                                                35. ![](https://1.gravatar.com/avatar/4ce0d3a05c936f110fd90f556018ffd1?s=32&d=identicon&r=G)
+                    
+
+#### Chris W. said,
+
+December 20, 2008 at 6:30 pm
+
+Numbers released by the U.S. Department of Energy:  
+(Hopefully it shows up correct)
+
+Role of Atmospheric Greenhouse Gases  
+(man-made and natural) as a % of Relative  
+Contribution to the "Greenhouse Effect"
+
+**___** ** _% of All Greenhouse Gases_ _% Natural**% Man-made
+
+Water vapor - ** ___** __95.000% ** __94.999%_** 0.001%  
+Carbon Dioxide (CO2) -__3.618% ** _3.502%_** 0.17%  
+Methane (CH4) ** ___** __0.360% ** ___ 0.294%**_0.66%  
+Nitrous Oxide (N2O) ** ___ 0.950%**__0.903% ** _0.047%  
+Misc. gases ( CFC's, etc.)_ 0.072%**__0.025% ** _0.047%  
+Total_** ** ___** ** ___ _100.00%** ** ___ 99.72%**__0.28%
+
+Total human contribution in greenhouse gases - .28%! And .117% just in CO2! An
+insignificant number!
+
+http://www.geocraft.com/WVFossils/greenhouse_data.html
+
+Reply
+
+                    
+                                                36. ![](https://2.gravatar.com/avatar/2075893f1c1a4e02a8fbe74700f3acb8?s=32&d=identicon&r=G)
+                    
+
+#### Tom Teate said,
+
+April 22, 2009 at 6:15 pm
+
+Global warming-global cooling-there's enough math and science out  
+there to prove that "global warming" does not occur by the hand of man;  
+When a volcano explodes its natural gases into the upper atmosphere,  
+nature deals with it.. more gases than man can produce in 500 years of  
+manufacturing.. Yet we sit around and let Al Gore collect a "mammy" for  
+promoting the global warming hoax on the population of the world..  
+-C02-a natural and occuring gas in the creation of the earth and the production of life's forces- Maybe Obama will take up the idea of  
+taxing the American people on their C02 emissions..What's next-the  
+toilet tax? Aren't liberals great??
+
+Reply
+
+                    
+                                                37. #### The Arizona Carnivore » More on climate change (or lack thereof) said,
+                    
+
+April 24, 2009 at 10:02 pm
+
+[…] Check out this link as well. It's a good discussion on how much CO2 a
+human exhales in a day/week/month. Some of it's pretty dry. Scroll down to
+comment 29. It's a good one. https://micpohling.wordpress.com/2007/03/27/math-
+how-much-co2-is-emitted-by-human-on-earth-annually/ […]
+
+Reply
+
+                    
+                                                38. ![](https://0.gravatar.com/avatar/6b6285deba69ae9566d3fab2db1d1f89?s=32&d=identicon&r=G)
+                    
+
+#### Adam said,
+
+May 19, 2009 at 11:33 pm
+
+There are so many uncertainties in this topic, I don't understand how anyone
+can claim that burning fossil fuels will destroy the planet. The whole
+"greenhouse gas" idea is still just a theory, and it is in no way even close
+to being proven to be a reality. Lets say it is a reality, and CO2 does
+actually trap heat from the sun, how can we consider this to be a bad thing?
+The earth has experienced much higher temperatures in the past, and life has
+thrived during those times. It was even much warmer than this when human
+civilization began. What if the energy from the sun becomes reduced in the
+near future? We will be wishing we could trap all of the heat that we could.
+
+Everyone is crying about the ice caps melting, but everyone forgets that they
+have been melting since thousands of years before fossil fuels were ever used.
+Polar animals will either adapt or go extinct, which is a process called
+evolution, which has been going on for billions of years on Earth. Then again,
+this global warming is supposed to put us in a new ice-age right? So the polar
+bears and Eskimos outta be thinking us when that happens.
+
+I have a little theory of my own: I think these scientists and research
+organizations have bills to pay. And the only way they can make money is from
+government grants. To get a grant, you have to do some convincing and
+persuasive writing. The data that is PRODUCED by these organizations serves
+that purpose. Their claims depend on the urgent fear of cataclysm to convince
+the government that there research is important and warrant funding. Throwing
+in suggestions like gas and industry taxes is like icing on the cake for
+lawmakers.
+
+At least that is my theory. Just like the theory of global warming, I can't
+prove it to be real. But I can certainly prove it to be a problem for the
+world, and our economy if it were in fact real.
+
+And one more thing: Why is something that emits less CO2 considered "green"?
+Really, think about it. Since there is often a little leaf or tree depicted on
+a "green" product, I am guessing that the term green comes from plants. GUESS
+WHAT, PLANTS LOVE CO2. I would consider the top CO2-producing machines to be
+the "greenest".
+
+Reply
+
+                    
+                                                39. ![](https://0.gravatar.com/avatar/0b3c5663a27c21afdca91b4cbba0c4d9?s=32&d=identicon&r=G)
+                    
+
+#### gene nordell said,
+
+May 22, 2009 at 2:48 am
+
+Right on Adam, just google: (Al Gores financial investments). Looks like huge
+motivation for his willingness to tell all the lies and half truths both in
+his phoney movie as well as subsequent speeches! And, his buddy the president
+is pushing hard for the cap and trade taxes which will provide the subsidies
+that will boost the already held stocks in "Green" energy development.
+
+Reply
+
+                    
+                                                40. ![](https://0.gravatar.com/avatar/fca6c9a910574d46b95592b5c472cef3?s=32&d=identicon&r=G)
+                    
+
+#### Joseph T Freeman said,
+
+August 15, 2009 at 10:56 pm
+
+As a matter of fact, the last seven years have been cooler than the previous
+ones. This doesn't prove a thing except that there is a natural variation in
+the climate of the earth that has been ongoing since its formation. The ice
+age was over about ten thousand years ago and since then, the erarth has been
+growing warmer. That statement is true by the obvious facts. Question: What
+caused the warming of the earth at the end of the ice ages?
+
+Probably the amount of hot air exhaled by liberals.
+
+Joe Freeman
+
+Reply
+
+                    
+                                                41. ![](https://0.gravatar.com/avatar/6b6285deba69ae9566d3fab2db1d1f89?s=32&d=identicon&r=G)
+                    
+
+#### Adam said,
+
+August 16, 2009 at 1:43 am
+
+Maybe it was the Atlantians. They were sick of all the ice so they filled
+their island with idling SUVs, which weighed it down too much so it sank.
+
+Reply
+
+                    
+                                                42. ![](https://0.gravatar.com/avatar/c2015ec33f53755ed3a26ac14c7601cf?s=32&d=identicon&r=G)
+                    
+
+#### Raimund Loubser said,
+
+September 6, 2009 at 6:46 pm
+
+Your whole approach to calculating the human contribution to the emission of
+CO2 is entirely misleading. The 0,04% CO2 is in the air we INHALE, what we
+need to know is the ADDITIONAL amount of CO2 added to the exhaled air. It is
+NOT your value of about 900 grams per day. Please ask your food experts for
+the average daily food consumption and what percentage of carbon does it
+contain that is converted to CO2 - presumably this would lead to a much lower
+value.
+
+Reply
+
+                    
+                                                43. ![](https://2.gravatar.com/avatar/2e574f0e951d6f5549db27cf3024aad2?s=32&d=identicon&r=G)
+                    
+
+#### allan osborn said,
+
+September 21, 2009 at 6:05 pm
+
+Human respiration may rise from 8 litres/minute to as much as 100
+litres/minute depending upon the level of exercise.As we are only quiescent
+for about one third of the day, semi-active for one third and probably pretty
+active for one third it seems that the calculations are in need of some
+revision.
+
+The extent of C02 CH4 and H2S from the earths own activities such as volcanic
+action perma-frost changes etc., would appear to be far more significant than
+our own activities. This is not to say that we "should mess the place up" far
+from it.
+
+Our volcanoes alone spew forth 150,000 tons of Hg. each year so that we have
+evolved breathing another of the favourite "whipping Boys".
+
+Reply
+
+                    
+                                                  * ![](https://1.gravatar.com/avatar/a879851b0a6084fce241b8987bf7b19c?s=32&d=identicon&r=G)
+                    
+
+#### Jan Simpelaar said,
+
+November 13, 2009 at 1:29 am
+
+Cap and Trade is why we have "global warming." Does anybody realize the profit
+to be made in buying selling carbon credits? Is Al Gore in the business?
+
+Reply
+
+                    
+                                                44. #### Global Warming - Page 109 - Volconvo Debate Forums said,
+                    
+
+November 30, 2009 at 6:09 pm
+
+[…] Wow, 100 million tons… pretty impressive, huh! Except that humans are now
+managing to pump out 25 BILLION TONS of CO2 every year. Let's see… yep, that's
+250 times more than all the earths volcanoes put together. […]
+
+Reply
+
+                    
+                                                  * ![](https://0.gravatar.com/avatar/3d8708f6c8a31a2d635bed184efbd3b7?s=32&d=identicon&r=G)
+                    
+
+#### G said,
+
+November 20, 2010 at 9:48 am
+
+That's bullshit of course
+
+Reply
+
+                    
+                                                45. ![](https://1.gravatar.com/avatar/aeeadc5acf6f3e6a2f68cd15ff746d74?s=32&d=identicon&r=G)
+                    
+
+#### Nathan Rowland said,
+
+December 6, 2009 at 7:40 am
+
+fail X 1000 jk but i would like to thank you for finding the info to start the
+math with and it makes since that we put out more CO2 than fossil fules cuz we
+never stop breathing…unless we die greedy basterds
+
+Reply
+
+                    
+                                                  * ![](https://0.gravatar.com/avatar/fd515ec7a99edd27d46a3a7fbaa7d340?s=32&d=identicon&r=G)
+                    
+
+#### Jacob Ritochy said,
+
+February 13, 2012 at 9:46 pm
+
+And when we die the rotting process emits more CO2…
+
+Reply
+
+                    
+                                                46. ![](https://0.gravatar.com/avatar/3a6b067eab86242fbc74c1908eb72459?s=32&d=identicon&r=G)
+                    
+
+#### Tommy said,
+
+December 8, 2009 at 2:47 am
+
+So we know how much CO2 is exhaled by humans ~ but how much was inhaled in the
+first place? What is the NET amount produced by a human being? Tommy
+
+Reply
+
+                    
+                                                47. ![](https://1.gravatar.com/avatar/ac148398e1c19432167aa5c86bfbd9ef?s=32&d=identicon&r=G)
+                    
+
+#### Bill Clinton said,
+
+December 9, 2009 at 2:31 am
+
+I didn't inhale.
+
+Reply
+
+                    
+                                                48. ![](https://0.gravatar.com/avatar/6b6285deba69ae9566d3fab2db1d1f89?s=32&d=identicon&r=G)
+                    
+
+#### adam said,
+
+December 10, 2009 at 1:54 am
+
+How do we even know if CO2 isn't better for the environment anyway, or if it
+even really traps heat from the sun, or if a slightly warmer planet wouldn't
+strengthen and grow earth's ecosystems. Keep breathing…
+
+Reply
+
+                    
+                                                  * ![](https://0.gravatar.com/avatar/fd515ec7a99edd27d46a3a7fbaa7d340?s=32&d=identicon&r=G)
+                    
+
+#### Austin said,
+
+February 13, 2012 at 9:48 pm
+
+Also, plants in general can live better/stronger/longer in a higher
+concentration of CO2
+
+Reply
+
+                    
+                                                49. ![](https://0.gravatar.com/avatar/f5b8221e6ce6425f233c68d611ede80f?s=32&d=identicon&r=G)
+                    
+
+#### Richard said,
+
+December 10, 2009 at 8:44 pm
+
+Thank you, thank you, thank you, for this site. Common sense is finally
+starting to break out.
+
+I would like to step away form CO2 for a minute and make a few quick
+comments:-  
+1. The sun (Sol) is a 1% variable star with cycle of 100 years this means that the Earth's temperature has to vary by 3K or 3 degrees centigrade over past 100 years.  
+2. The Earth's axis precess around the galactic plane about 24500 Years.  
+3. So too does the major axis of the the Earth's orbit around Sol (4 hours per year).  
+4. Sol has an 11 year Sun spot cycle.  
+All of these effect Global climate.
+
+As for Global warming:-  
+1. The so called increase is between .3 and .7 degrees centigrade, but the instrument only has a resolution of 1 degree, which means the measurement can only be stated at + or - 1 degree centigrade, this places global warming in the noise band of the instrument. (Why is it that none of the published data show error bands on the data)  
+2. if you preform a Fast Fourier Transform on the data (I have) the result is an even distribution of frequencies and amplitudes which means the data is noise.
+
+According to Albert Miller and Jack C. Thompson, Elements of Meteorology p.7  
+there is 2300 billion tons of CO2 in the atmosphere which represents about
+0.32% and we produce about 6 billion tons per year which is 0.26% of that or
+0.0008% of the total atmosphere.
+
+Perhaps we can save the planet by buying each "greenie" a pocket calculator
+and teaching them how to use it!!
+
+Reply
+
+                    
+                                                  * ![](https://0.gravatar.com/avatar/fd515ec7a99edd27d46a3a7fbaa7d340?s=32&d=identicon&r=G)
+                    
+
+#### Biden said,
+
+February 13, 2012 at 9:50 pm
+
+Costs to much, but I'm sure Obama would be glad to fund it anyway…
+
+Reply
+
+                    
+                                                50. ![](https://0.gravatar.com/avatar/6b6285deba69ae9566d3fab2db1d1f89?s=32&d=identicon&r=G)
+                    
+
+#### Adam said,
+
+December 10, 2009 at 9:09 pm
+
+Heck yeah, Richard! You tell'em.
+
+I love how real factual data, such as that above, goes completely ignored.
+Yet, the general population is completely convinced by pictures of polar
+bears. The greenies only need a pocket calculator to add up all of our tax
+money they are getting to fund their bogus research.
+
+Oh, and I made a snowman last week, down here on the Texas Gulf Coast, south
+of Houston, one of the hottest cities in the country. And it's not even Winter
+yet. It must be because SUV sales are down this year… Or the Cash-for-Clunkers
+program abruptly reduced CO2 levels? I wish the Global Warming was real,
+because I'm f'in cold right now.
+
+Reply
+
+                    
+                                                  * ![](https://0.gravatar.com/avatar/fd515ec7a99edd27d46a3a7fbaa7d340?s=32&d=identicon&r=G)
+                    
+
+#### Einstien said,
+
+February 13, 2012 at 9:52 pm
+
+Factual data isn't factual data if there is factual data saying the exact
+opposite…
+
+Reply
+
+                    
+                                                51. ![](https://0.gravatar.com/avatar/f5b8221e6ce6425f233c68d611ede80f?s=32&d=identicon&r=G)
+                    
+
+#### Richard said,
+
+December 10, 2009 at 9:41 pm
+
+Question:-  
+How much CO2 is produced when the Iron ore, Bauxite and Copper oxide not to
+mention Silicone, Tungsten, Molybdenum and Chromium is smelted to produce an
+new car as opposed to the amount of CO2 produced by an old car 15 to 20 Miles
+per Gallon travelling on average 30-40,000 miles per year?
+
+Reply
+
+                    
+                                                52. ![](https://1.gravatar.com/avatar/42f2f0ef5b2d4e0ea2905cce141d0f73?s=32&d=identicon&r=G)
+                    
+
+#### Hal von Luebbert said,
+
+January 5, 2010 at 3:54 pm
+
+Just for the hell of it, go through this thread analyzing it for logical
+content and logical reasoning. Several sites on the Internet provide the rules
+of logic. Damn - no wonder we're so FUBAR!
+
+Has anyone hear read the book "Idiot America?
+
+Reply
+
+                    
+                                                  * ![](https://0.gravatar.com/avatar/fd515ec7a99edd27d46a3a7fbaa7d340?s=32&d=identicon&r=G)
+                    
+
+#### Roberto said,
+
+February 13, 2012 at 9:53 pm
+
+No, we're to dumb to read.
+
+Reply
+
+                    
+                                                53. #### Texas battles EPA over greenhouse gas | Equipment World | Construction Equipment, News and Information | Heavy Construction Equipment said,
+                    
+
+February 17, 2010 at 5:38 pm
+
+[…] little fun math on this subject. A human being exhales about two pounds
+(0.9 kg) of carbon dioxide a day. If you multiply that time 365 days a year
+that means just 2.74 people will exhale a ton of CO2 in […]
+
+Reply
+
+                    
+                                                54. #### Global Warming - too much hot air? | thisistyson.com said,
+                    
+
+October 21, 2010 at 3:19 pm
+
+[…] accounting for approximately 9% of the carbon-dioxide we create (fossil
+fuels and everything).
+
+Reply
+
+                    
+                                                55. ![](https://0.gravatar.com/avatar/3d8708f6c8a31a2d635bed184efbd3b7?s=32&d=identicon&r=G)
+                    
+
+#### G said,
+
+November 20, 2010 at 9:44 am
+
+Why don't all you Greenie, Socialist, Communist AGW types just kill
+yourselves, save your useless CO2 emissions and the rest of us can live in
+peace. F$&@#%wits.
+
+Reply
+
+                    
+                                                56. ![](https://2.gravatar.com/avatar/ba6812c121770f50768a25c434a3d973?s=32&d=identicon&r=G)
+                    
+
+#### tekno said,
+
+January 7, 2011 at 12:14 am
+
+Actually, the CO2 we breath out contributes 0% to global warming. It is
+"carbon neutral," meaning it does not take carbon that has been trapped
+underground for millions of years and put it into the atmosphere. Instead, we
+breath in oxygen, we eat carbon-based foods, we release CO2. Plants breath in
+our CO2 and use it to produce carbon-based foods. That is the natural cycle of
+an ecosystem. Fossil fuels involve digging up ancients forests and spewing
+billions of tons of pollutants into the air that are way beyond our
+ecosystem's ability to handle.
+
+Reply
+
+                    
+                                                57. ![](https://1.gravatar.com/avatar/73c48c922c702d329a498678f890f503?s=32&d=identicon&r=G)
+                    
+
+#### Whisper said,
+
+January 9, 2011 at 11:30 pm
+
+I’m wondering… the world naturally heals damage from CO2, it lived through a
+lot of things (like dinosaurs and WW2) is it really going to die now? Before
+any one manages to find a way to transform CO2 into something useful
+(efficiently), I heard that there is a hole in the ozone layer over the south
+(or north?) pole, also is it true that cows burp out methane? Because that is
+a bit hard to believe, if there was enough cows the world will be destroyed
+anyone have any idea on these “whispers”
+
+Reply
+
+                    
+                                                58. #### 97% Climate Scientists... - Page 10 - US Message Board - Political Discussion Forum said,
+                    
+
+January 13, 2011 at 4:24 pm
+
+[…] to double check this "math", all it takes is confront it with their own
+statements: Math! How much CO2 is emitted by human on earth annually? small-m
+Quote: I use the standard chemistry textbook theory (standard molar volume) to
+check this claim, […]
+
+Reply
+
+                    
+                                                59. ![](https://1.gravatar.com/avatar/431b00335bed5e637ca1b21bb3eaf2e0?s=32&d=identicon&r=G)
+                    
+
+#### ChrisY said,
+
+January 22, 2011 at 8:47 am
+
+I always believed the typical adult exhales about a kilo a day, but a lot
+depends on activity. If you take CO2 seriously, you might need to tax athletes
+more than lazy people! Seriously, though, the calculations are reasonably
+accurate.  
+The best cross-check is to look up the enthalpy of formation of CO2 (I think
+some 390KJ/mol) and relate the daily energy demands of a healthy adult to the
+CO2 output. If a human needs 10,000 kJ a day (in general) then daily output of
+CO2 must be some 25 mole, or a little over 1000 g for a day's exhalation. But
+all these figures are approximations and averages. The average American eats
+almost twice the calories of the average Bangla Deshi, so that is one source
+of possible error.
+
+Reply
+
+                    
+                                                60. ![](https://0.gravatar.com/avatar/cf16cff8699daa88aa4b9da7385a4c8c?s=32&d=identicon&r=G)
+                    
+
+#### Scott Manhart said,
+
+March 2, 2011 at 6:14 pm
+
+A good analysis except for the use of resting CO2 exchange. By definition
+resting CO2 is calculated in the absence of voluntary muscle movement; a state
+were are rarely if ever in. Consequently you would need to at east double
+perhaps triple the exchange figure of 200ml to represent daily human
+activities this would increase your final figures to 15 - 24% of annual CO2
+production which is not insignificant.
+
+Reply
+
+                    
+                                                61. ![](https://0.gravatar.com/avatar/fa0c9e8a5cb9e7ff6427b036f01a44fc?s=32&d=identicon&r=G)
+                    
+
+#### Brett said,
+
+March 4, 2011 at 3:02 am
+
+Cows and soil bacteria are included in the Kyoto breif, and are considered a
+source of GHG, but apparently only our cows and the fields we use?? what about
+the forests. Given that methane is a common byproduct of bacterial activity
+then you would have to assume many animals emit a volume of GHG besides C02,
+so a forest with its high level of biodiversity will have a higher density of
+living animals to a mono culture of a farming field. So which emits more GHG
+forest or field. Does the US get credit for wiping out and replacing billions
+of bision with a smaller number of cows??  
+There was a mini Ice Age during the European dark ages, a small warming event
+during the roman empire hense the human population densities (more during
+Roman times).  
+The Alps were created by the advance and retreat of the Glaciers, how can they
+advance and retract if the temp is constant. In fact the route that Hanable
+took to cross the alps is not passable today it is under Glaciers.  
+There is plenty of evedence of sea levels changing hense cities underwater in
+the med, this must also be global temps causing the ice caps the melt and
+freeze.  
+Tim Flanery (Australian Scientest into GW) claimed there was no climate
+science 10 years ago and they have the models pretty much perfect now, wally
+pity every other science cant get their act together 100's of year and they
+still dont have it all worked out as well. He is a C#$k head.  
+Wikipedia says C02 use to follow global temp, not the other way climate
+scientest claim that the opisite is true based on amoung other things as
+fosilised plankton values adjust for temp, all values adjust for some factor
+or another.  
+The real question is why anybody expect our system to be stable at all, a big
+ball of rock orbited by another ball of rock, orbiting with many other ball of
+rock and gas around an uncontrolled ball of fusion reactions, all of them
+affecting the other causing small shifts in orbit.
+
+Reply
+
+                    
+                                                62. ![](https://2.gravatar.com/avatar/e25f36b3f78af7b0e4e294b9e3e4ae6b?s=32&d=identicon&r=G)
+                    
+
+#### Paul Scofield said,
+
+March 6, 2011 at 8:54 am
+
+Why do some of you say that human breathing is part of a closed loop system vs
+cars that are not? Thats the best you've got is it? If there were no mammals,
+insects etc on earth the plants would die, compress and turn into fossil
+fuels. We prevent that by eating the food and releasing the co2 into the air.
+The "loop" is the whole system. The planet can manage itself thanks very much,
+it has before and will again. If there is a problem it is that there are TOO
+MANY PEOPLE. You need a few wars, some pestilance, a plague or twenty, and
+some population control - or you could just f. off to some other planets and
+annoy the martians…. mars has global warming too by the way… I guess the
+Martians drive SUVs too eh?
+
+Your problem is your trying to measure a planet which functions in a scale of
+events that works in millions of years with a brain that thinks ten years is a
+long time. What bloody use is "five of the last 12 years have been hot or
+cold"? Planets do work like that - you might as well wave at a snail. Once you
+have a million years data to work with, let me know. Until then, the best
+thing you can do is kill yourself - no cremation - get your body turned into a
+tarmac or diamonds - or throw yourself into space. You are not a god. If God
+exists, he will sort it out.
+
+Reply
+
+                    
+                                                63. ![](https://0.gravatar.com/avatar/cfcbcd618931f62269f7b9decd80ba86?s=32&d=identicon&r=G)
+                    
+
+#### Daniel Nashief said,
+
+March 25, 2011 at 5:33 pm
+
+Dear Sir,  
+Please, I would like to know how much of co2 gas does a burning tire wt. 12
+kg. produce. Or how much one ton of burning tire produce co2 gas?  
+Thank you,  
+Yours Daniel.
+
+Reply
+
+                    
+                                                64. ![](https://0.gravatar.com/avatar/cfcbcd618931f62269f7b9decd80ba86?s=32&d=identicon&r=G)
+                    
+
+#### Daniel Nashief said,
+
+March 27, 2011 at 3:41 pm
+
+How much of CO2 is imitted from 1 ton of burning tire??
+
+Reply
+
+                    
+                                                65. ![](https://1.gravatar.com/avatar/10ee339117e07bb7556a94e29bc42284?s=32&d=identicon&r=G)
+                    
+
+#### Ian Marshall said,
+
+April 22, 2011 at 10:12 am
+
+People power seems to be one of the defining trends in the 21st century.
+Imagine in 20 years time when I'm about to have my heart operation, I will
+read through internet blogs, decide on the technique I think is most suitable,
+and inform my surgeon of how I would like him to proceed with the op. After
+all, he's only a surgeon who cuts this and attaches that, how hard can it be?
+As scientists are blokes in white coats with a sinister agenda, dodgy methods
+and are out to scare us with distorted facts for their own gain, I am going to
+put my trust in a random selection of car mechanics, oil workers and McDonalds
+staff to get a balanced view of climate change. There, that'll teach those
+good-for-nothing scientists. The fact that the majority of the people who look
+at the numbers, the climate models, the polar ice cap melting, the species
+losses and the weather patterns agree just goes to show how much of a
+conspiracy it is. After all, we outnumber these so-called experts with years
+of training by millions to one so hell, lets rev up our cars and show 'em we
+mean business. After all, what did logic, scientific enquiry ever do for the
+human race?
+
+Reply
+
+                    
+                                                66. ![](https://2.gravatar.com/avatar/e25f36b3f78af7b0e4e294b9e3e4ae6b?s=32&d=identicon&r=G)
+                    
+
+#### Paul Scofield said,
+
+April 22, 2011 at 5:50 pm
+
+Ian,
+
+…"I am going to put my trust in a random selection of car mechanics, oil
+workers and McDonalds staff to get a balanced view of climate change"….
+
+Ah, another one who thinks that only scientists have the mental powers to make
+deductions. Great. No doubt you think poor people are a different class, rich
+people are the elite of society and that women are the weaker sex too. The
+thing is you forgot to add into your descriptive mix the seemingly thousands
+of scientific peers, great minds and knowledgeable people who also think it's
+a rubbish argument. The thing is though, from what I can see, most of the
+people who are 'disbelievers' are actually open to argument, rather than the
+blinkered group that are just blindly following the biggest shouters.
+
+…"There, that’ll teach those good-for-nothing scientists"…
+
+I don't think anybody said the scientists were good-for-nothing, the fact that
+your reduced to such polarising scaremonger tactics shows how weak your
+argument is.
+
+…"The fact that the majority of the people who look at the numbers, the
+climate models, the polar ice cap melting, the species losses and the weather
+patterns agree just goes to show how much of a conspiracy it is."…
+
+Assuming that your being sarcastic, you might want to consider your own
+statement… all these events just happen to have also occurred at least once
+before the human race even existed, I don't think we've found any fossilised
+4x4s but hey, it's possible I suppose.
+
+Quite why you compare a physical operation on human anatomy which is a well
+practised art (and STILL one we don't fully understand), with speculation
+about cosmic events and meteorological conditions which we plainly haven't a
+scoobies about (We can't even reliably predict the local weather ffs!) I have
+no idea.
+
+There doesn’t appear to be a single fact in your argument, and not a single
+fact repudiating the other facts outlined here by others: "Must try harder" is
+all I can add - but perhaps you could just take up politics instead, they
+mostly spout meaningless drivel too in order to score cheap points.
+
+Reply
+
+                    
+                                                67. ![](https://0.gravatar.com/avatar/646059e46f142fde49d9a2d89c987831?s=32&d=identicon&r=G)
+                    
+
+#### emil said,
+
+April 29, 2011 at 9:11 am
+
+Since burning fossil fuels also creates water vapor, and water vapor is a
+greenhouse gas, does anyone know how much water humans have created the last
+150 years? Are there any other natural reactions in nature that creates water?
+
+Reply
+
+                    
+                                                68. ![](https://0.gravatar.com/avatar/f5b0b472cb91c923676644fe013d4c75?s=32&d=identicon&r=G)
+                    
+
+#### Julien said,
+
+June 13, 2011 at 8:25 am
+
+So according to this artical, carbon dioxide is a lie. It is said that about
+24,136,000,000 kg is produced every year worldwide but the atmosphere is
+5,000,000,000,000,000,000 kg of gas with a composition of 0.039% carbon
+dioxide. It has been proven that the earth would still flourish at ten times
+that value (0.39%) but even if we burnt fuel for a thousand years, we would
+increase the level of CO2 by 4.8272 × 10-6% points (0.000004872%).
+
+Reply
+
+                    
+                                                69. ![](https://0.gravatar.com/avatar/9ed33842d3bd4e849aadf11c6417b590?s=32&d=identicon&r=G)
+                    
+
+#### vfisher said,
+
+July 16, 2011 at 12:30 pm
+
+you all talk the same, while trying to hide your complete vulnerability to the
+theory of evolution and its web of deceptions, being subject to the teachings
+of "modern science" most people just don't have the "stuff" to make a true
+valuation of their own "70 years" let alone the earths. what about this
+question,, is oil really "fossil fuel" or a stabilizer. its funny how oil
+works very well as a shock absorber and fantastic as a temperature stabilizer
+in an internal combustion engine.
+
+Reply
+
+                    
+                                                70. ![](https://secure.gravatar.com/blavatar/3fc0704ec340b0bfdfc72b4acbf13499?s=32)
+                    
+
+#### A Short Course in HTML | Frank Davis said,
+
+August 16, 2011 at 8:54 pm
+
+[…] to allow the creation of text effects like italic, bold, underline, and
+strike, and to provide hotlinks to other pages . I'll explain how to do […]
+
+Reply
+
+                    
+                                                71. ![](https://2.gravatar.com/avatar/ec509733dafeff7fff2663aab40258b7?s=32&d=identicon&r=G)
+                    
+
+#### Zareth said,
+
+August 16, 2011 at 9:11 pm
+
+Global warming is a misnomer.
+
+The term is climate change.
+
+And its not bullshit.
+
+What we do to our atmosphere is bad for our health.  
+FUCK WARMING, I'm talking about creating a gaseous planet with storms unlike
+anything we've seen in modern times.  
+It's gonna suck.  
+Say good bye to coastal cities, hurricanes are gonna rape the world, and
+tornado s will destroy the inland cities as they become more and more
+powerful.
+
+Reply
+
+                    
+                                                  * ![](https://2.gravatar.com/avatar/8f9dc04e6abdcc9fea53e81945c7294b?s=32&d=identicon&r=G)
+                    
+
+#### Me Li said,
+
+May 22, 2013 at 7:26 pm
+
+So the planet will wipe out all those nasty carbon producers all on its own…
+Do you live in a coastal city? Sucks for you…
+
+Reply
+
+                    
+                                                72. ![](https://2.gravatar.com/avatar/21f8e785bbd89c62ffa4f7e09d8fb0b3?s=32&d=identicon&r=G)
+                    
+
+#### Gilbert said,
+
+August 26, 2011 at 2:50 pm
+
+Some facts:  
+You make one kg Co2 a day is if you are sitting down all day. If you do
+anything, even just walk, it is significantly more.  
+One kg is indeed equivalent to driving 50 km. Most people do not drive, and
+even in the US most people do not drive that much every day.  
+Humans are not the largest population on Earth. There is about 800 kg of
+termites for every kg of human. They breathe too. There is more insects of all
+kind than termites, it is just the single biggest group as one species. They
+breathe too. And there is much more living stuff in the oceans than on dry
+land, probably a thousand times more. They breathe too.  
+And if there is a little more CO2 in the atmosphere, every tree will grow one
+more leaf.
+
+Reply
+
+                    
+                                                73. ![](https://1.gravatar.com/avatar/72cb1094e4cc62cbda266c37fdbb1757?s=32&d=identicon&r=G)
+                    
+
+#### carboncreations said,
+
+January 5, 2012 at 7:51 pm
+
+hello there and thanks for your information ? I've definitely picked up
+anything new from proper here. I did however experience a few technical issues
+the use of this website, as I skilled to reload the site a lot of times
+previous to I may just get it to load correctly. I have been thinking about in
+case your hosting is OK? No longer that I'm complaining, however sluggish
+loading cases occasions will sometimes impact your placement in google and
+could injury your high-quality score if advertising and marketing with
+Adwords. Well I'm including this RSS to my email and can look out for a lot
+extra of your respective intriguing content. Make sure you replace this again
+very soon..
+
+Reply
+
+                    
+                                                74. ![](https://0.gravatar.com/avatar/c6a44667b19e926fecced4050ab13ad0?s=32&d=identicon&r=G)
+                    
+
+#### stuart said,
+
+January 5, 2012 at 10:22 pm
+
+http://www.eia.gov/environment/emissions/ghg_report/pdf/tbl11.pdf
+
+From that, I get that each person in the US on average produces 17 kg of CO2
+from transportation alone every day, which is a lot more than the 0.9 kg
+figure cited for human respiration. And that's not counting powering homes and
+buildings, manufacturing, etc.
+
+And all the carbon in that 0.9 kg CO2 comes from food, which ultimately comes
+from plants grown within a year before consumption. All the carbon in plants,
+including the parts of them we eat, or that an animal ate to get all their
+carbon which we then eat, comes from atmospheric CO2. So all the CO2 I emit in
+a year will, on balance, be used by plants to ultimately make the food I'll
+eat in the next year. It cancels out, not to mention that the US operates at a
+significant grain surplus.
+
+So that's 2 reasons why breathing isn't considered something which will
+greatly increase atmospheric CO2: It's removed from the atmosphere roughly at
+the rate it's put back in, and it's insignificant compared with the amount
+that's put into the atmosphere by the burning of fossil fuels.
+
+I would also like to point out that in the last 400,000 years, over the course
+of 4 ice ages and thaws, CO2 levels have fluctuated between 180 and 280 ppmv.
+So in the normal cycle, it takes about 50,000 years for atmospheric CO2 to
+increase by 100 ppmv. But in the last 200 years, we've gone from 280 to over
+390 ppmv. We've gone up by 50 ppmv in the last 30 years alone. That's over 800
+times faster than nature, and the rate that we're putting CO2 in the
+atmosphere is only increasing. And we were already at peak CO2 when we
+started, so all of this is on top of the highest CO2 levels the Earth has
+experienced in the last 400,000 years.
+
+Just saying, you don't have to be brainwashed to find those numbers alarming…
+
+Reply
+
+                    
+                                                  * ![](https://2.gravatar.com/avatar/8802d7de53dd014cf8a5e6d0df8544c9?s=32&d=identicon&r=G)
+                    
+
+#### Fred said,
+
+May 5, 2012 at 12:23 pm
+
+Turn the car off no co2, try that with a human, then try and turn them both on
+for use. Humans produce co2 their whole life even sleeping, the car or any
+factory or machine only when it is in use.
+
+Reply
+
+                    
+                                                75. ![](https://2.gravatar.com/avatar/5985a05547e97910a30951fcee9e217f?s=32&d=identicon&r=G)
+                    
+
+#### best stocks to make money fast said,
+
+March 19, 2012 at 5:23 pm
+
+love your post , write something about best stocks to make money fast
+
+Reply
+
+                    
+                                                76. ![](https://0.gravatar.com/avatar/cb449e9ca5e15bb491ec35c8316350a9?s=32&d=identicon&r=G)
+                    
+
+#### Kevin D. said,
+
+March 29, 2012 at 3:59 pm
+
+To all the naysayers of global warming: You're idiots. If you don't think the
+waste and pollution being belched out by 7 billion people has no impact you're
+a fool. The additional CO2 we emit by unnatural means far outweighs that of
+our own exhalation. It is a significant percentage of natural emissions -
+including those of volcanoes. It doesn't matter anyway. A slight increase in
+overall temperature reduces the amount of gas stored in water in the oceans.
+That means more CO2 being emitted now by water into the atmosphere, thus
+raising the temperature even yet more and so on and so on. It has escalated
+beyond the point of no return. There's a saying, "Don't shit in your own
+backyard." Well, we shat and shat and the number of people made the entire
+Earth our backyard and it's swamped with shit. We'll breath it until we all
+die, which will be a hell of a lot sooner than we think. All pretty much due
+to our lack of respect for our natural surroundings and downright greed. So
+keep arguing the point, dumbshits, you should be writing your own epitaphs.
+
+Reply
+
+                    
+                                                  * ![](https://2.gravatar.com/avatar/8f9dc04e6abdcc9fea53e81945c7294b?s=32&d=identicon&r=G)
+                    
+
+#### Me Li said,
+
+May 22, 2013 at 7:19 pm
+
+If you are right and it has escalated to the point of no return then why are
+you even bothering to leave a comment here? Go eat, drink, and be merry for
+tomorrow you die. You might as well live it up until the bitter end you hate-
+spewing environmental fascist!
+
+Reply
+
+                    
+                                                77. ![](https://0.gravatar.com/avatar/39a616e1eda416ab3f77da28b58f54c0?s=32&d=identicon&r=G)
+                    
+
+#### David said,
+
+July 1, 2012 at 4:47 am
+
+Yeah, but if everyone stops breathing together, I don't think we'll need to
+worry about fossil fuel contribution. 🙂
+
+Reply
+
+                    
+                                                78. #### Quora said,
+                    
+
+July 17, 2012 at 9:51 pm
+
+**How much carbon (weight of CO2 is fine) does the human body emit in a
+day/month/year/lifetime? …**
+
+claim#1: an average person’s respiration generates approximately 450 liters
+(roughly 900 grams) of carbon dioxide per day (CO2#Human_physiology) =.9 _365_
+80 = 26280 Kg/average life claim#2: In an average resting adult, the lungs
+take up about 250ml of o…
+
+Reply
+
+                    
+                                                79. ![](https://1.gravatar.com/avatar/41fca01352f705ea88f74065f21ca255?s=32&d=identicon&r=G)
+                    
+
+#### Ybsub Loc said,
+
+October 19, 2012 at 1:41 am
+
+My calculations suggest 1.25 x 10^12 tonne p.a. based on my knowledge of
+physiology and allowing for the variation based on distribution of body weight
+and age. Almost all measurements are quoted at rest and do not allow for the
+increased CO2 production with exercise or work, which can peak at 7 times base
+line production.  
+The amount of CO2 is very significant particularly if one is cognisant of the
+time frame of the expected doubling of the world population with it's
+implications for not only expired CO2 but also CO2 generated as a by product
+of man's living on this planet.  
+The only action that will succeed in reducing green house gasses must include
+a concerted effort to end the relentless increase in world population.
+
+Reply
+
+                    
+                                                  * ![](https://2.gravatar.com/avatar/8f9dc04e6abdcc9fea53e81945c7294b?s=32&d=identicon&r=G)
+                    
+
+#### Me Li said,
+
+May 22, 2013 at 7:11 pm
+
+Save the planet! Stop breathing!
+
+Reply
+
+                    
+                                                80. ![](https://0.gravatar.com/avatar/f57d689aec38a02b853e142023647887?s=32&d=identicon&r=G)
+                    
+
+#### Bruno said,
+
+November 4, 2012 at 10:43 pm
+
+You are right when saying that we cannot stop breathing, but we can certainly
+stop increasing our number.
+
+Reply
+
+                    
+                                                81. ![](https://2.gravatar.com/avatar/e79b3e63f5bfaf087a3501c72497237e?s=32&d=identicon&r=G)
+                    
+
+#### Bennie said,
+
+November 18, 2012 at 3:15 pm
+
+Thanks a bunch for sharing this with all of us you really know what  
+you are talking about! Bookmarked. Kindly also discuss with my website =).  
+We will have a hyperlink exchange agreement between  
+us
+
+Reply
+
+                    
+                                                82. ![](https://0.gravatar.com/avatar/698e22b3c0e04be6b8e5d9e17c09cddc?s=32&d=identicon&r=G)
+                    
+
+#### LikeABoss said,
+
+November 30, 2012 at 6:27 pm
+
+This is really good info for us!
+
+Reply
+
+                    
+                                                83. ![](https://0.gravatar.com/avatar/c3673ab99e91db3c0b8a73ed446a1900?s=32&d=identicon&r=G)
+                    
+
+#### Joeseph Dingli said,
+
+December 5, 2012 at 10:26 pm
+
+Who, on this earth will be the first to die for the environment?
+
+Humans evolved over 200,000 years or so. In the future, we might evolve like
+fish where we need little oxygen, and may need to breathe in CO2 in future
+years to survive.
+
+What happens then, do we dust off our ancient coal fired stations?, do we put
+plastic bags around cow's behinds so we can savour the methane?
+
+Seriously, the doom and gloom predictors are full of crock. It's the tilting
+of the earth's axis that's causing the major climate change, every 10,000 to
+20,000 years. Yes at the moment, the earth is tilting slightly more towards
+the horizontal, exposing more of the polar ice caps to more sunlight, wouldn't
+you think this would cause the present ice melt in the Artic and Antartic. Yes
+the earth wobbles as it spins. This causes huge shifts of water, hence
+earthquakes, and stresse the earth's outer skin, causing volcanoes to erupt
+and pour untold quantities of gases into the atmosphere! By comparison, man
+made gases on the scale of global warming/coolind is like a little boy peeing
+in the ocean. Or as King Canute found out, you can't empty the oceans with a
+bucket.
+
+God help us from these scientific morons.
+
+Reply
+
+                    
+                                                84. #### CO2 Baseline | Low-Carbon Girl said,
+                    
+
+December 19, 2012 at 3:14 am
+
+[…] One source puts the number between 328.5 kg and 206.23 kg a year. Most CO2
+measurements are in tonnes, not the American ton. What's the difference you
+may be asking (and why are we the last ones to use the metric system)? A ton
+is measurement used exclusively in the US and it is equal to 2,000 lbs. A
+tonne is equal to 1,000 kg. Here's where my brain starts to hurt. […]
+
+Reply
+
+                    
+                                                85. ![](https://0.gravatar.com/avatar/fd3143cfe70593589f84fee1c853c4a5?s=32&d=identicon&r=G)
+                    
+
+#### briansynergychat said,
+
+March 31, 2013 at 3:37 pm
+
+Why don't we focus on how to remove co2 from the atmosphere. I feel the focus
+of global  
+Warming whether through population growth, greenhouse gas or solar activity
+isn't the a solution.  
+The green people want to eliminate fossil fuels which I feel currently is very
+unlikely for the next 30 years or more. Money needs to be focused on research
+not production of. completely inadequate solutions both from a financial and
+grid parity argument. We are wasting billions subsidizing cars, solar panels
+and other green energy. The billions spent in subsidize to oil is a fraction
+considering the last time I was on the road most drivers seem to be using oil.
+
+Reply
+
+                    
+                                                  * ![](https://2.gravatar.com/avatar/2756059bb9892da729572063d2d386a6?s=32&d=identicon&r=G)
+                    
+
+#### John said,
+
+October 24, 2013 at 8:08 pm
+
+To be honest, oil is basically carbon that was removed from the atmosphere, as
+is natural gas, coal, wood, charcoal and most other fuels. Plants, the ocean
+and other bodies of water, certain mineral formations suck it up. The warmer
+it is, the more is absorbed by through the air-water interface. If it cools,
+than CO2 counes out of solution. Try pouring a carbonated drink at room
+temperature and then over ice. The difference in the bubble rate demonstrates
+the relationship between the saturation point for the soluent in the solvent
+when solvent temperature varies.  
+If the world cools off, the OCEAN releases CO2. If it warms up, it absorbs it.
+That's what's called a buffering effect. And man has not a single thing to do
+with it.
+
+Reply
+
+                    
+                                                    * ![](https://2.gravatar.com/avatar/2756059bb9892da729572063d2d386a6?s=32&d=identicon&r=G)
+                    
+
+#### John said,
+
+October 24, 2013 at 8:10 pm
+
+Really need to do Spell-check. I wrote it and I think it's a furriner. Looks
+like English as a 3rd language. Sorry.
+
+                    
+                                                86. ![](https://2.gravatar.com/avatar/8f9dc04e6abdcc9fea53e81945c7294b?s=32&d=identicon&r=G)
+                    
+
+#### Me Li said,
+
+May 22, 2013 at 7:06 pm
+
+Your conclusion is wrong. Stopping breathing would also put an end to the
+associated carbon producing economic activites. Green people should lead by
+example.
+
+Reply
+
+                    
+                                                87. ![](https://0.gravatar.com/avatar/c3673ab99e91db3c0b8a73ed446a1900?s=32&d=identicon&r=G)
+                    
+
+#### JoJo said,
+
+May 22, 2013 at 11:39 pm
+
+No one has mentioned the effect of the periodic tilting of the Earth's major
+axis. This is the cyclical event that causes warming and cooling every 24,500
+years or so. At the same time, the emission of CO2 is only a very small
+generator of warmth, or rather, trapping of the earth's warmth, generated by
+the sun.
+
+To the polluters out there, you might be right in saying it will not cause
+doomsday to appear next year, but hell, I object to breathing in all those
+polluting nasties like CO, NO, SO2, CFC, ETC., which I wouldn't have a century
+ago.
+
+I also object to not seeing blue skies in places like Beijing. Don't go to
+China for a holiday, you won't breathe properly, your throat will be on fire,
+your eyes will weep and sting, and there's no escape. You will never see blue
+skies (or stars for that matter) in Beijing. Worst experience of my 70 year
+life.
+
+Reply
+
+                    
+                                                88. ![](https://1.gravatar.com/avatar/7b6a74e4babb038f04de7ea471ba0109?s=32&d=identicon&r=G)
+                    
+
+#### Jim Keebler said,
+
+June 4, 2013 at 6:49 pm
+
+Re: CO2 emissions due to cement production from EPA's Executive Summary on
+Greenhouse Emissions for 2011
+[http://www.epa.gov/climatechange/ghgemissions/usinventoryreport.html]  
+total US CO2 emissions (2011)=5612.9 million tons CO2 equivalent; due to
+cement production (US 2011)=31.6 million tons. Just over 1/2% (??) No figures
+for global.
+
+Reply
+
+                    
+                                                89. #### America's 20 Worst Corporate Air Polluters - Forbes said,
+                    
+
+June 10, 2013 at 10:14 pm
+
+[…] put this into terms we can more closely identify with — the average human,
+at least according to this calculation, emits roughly 200 kilograms of carbon
+dioxide per year from […]
+
+Reply
+
+                    
+                                                90. #### America's 20 Worst Corporate Air Polluters - Forbes | News For Web said,
+                    
+
+June 11, 2013 at 12:04 am
+
+[…] put this into terms we can more closely identify with — the average human,
+at least according to this calculation, emits roughly 200 kilograms of carbon
+dioxide per year from […]
+
+Reply
+
+                    
+                                                91. #### America's 20 Worst Corporate Air Polluters - Forbes | Everyday News Update said,
+                    
+
+June 11, 2013 at 12:55 am
+
+[…] put this into terms we can more closely identify with — the average human,
+at least according to this calculation, emits roughly 200 kilograms of carbon
+dioxide per year from […]
+
+Reply
+
+                    
+                                                92. #### America's 20 Worst Corporate Air Polluters - Forbes | Media News Network said,
+                    
+
+June 11, 2013 at 1:48 am
+
+[…] put this into terms we can more closely identify with — the average human,
+at least according to this calculation, emits roughly 200 kilograms of carbon
+dioxide per year from […]
+
+Reply
+
+                    
+                                                93. #### America's 20 Worst Corporate Air Polluters. | InterViewDvd MagaZine Blog said,
+                    
+
+June 11, 2013 at 3:02 pm
+
+[…] put this into terms we can more closely identify with — the average human,
+at least according to this calculation, emits roughly 200 kilograms of carbon
+dioxide per year from […]
+
+Reply
+
+                    
+                                                94. ![](https://2.gravatar.com/avatar/ea179a5de959367bb02293b63c49916d?s=32&d=identicon&r=G)
+                    
+
+#### Capt David said,
+
+June 29, 2013 at 6:47 pm
+
+hmmmmmm: Statistical significance? Data mining? Religion? Spell check?  
+THE answer: capture the CO2 - make dry ice out of it / let enough of it cool
+to counteract any global warming
+
+Reply
+
+                    
+                                                95. ![](https://1.gravatar.com/avatar/a872f5f27315713ee764c3a887330ad1?s=32&d=identicon&r=G)
+                    
+
+#### barney jones said,
+
+September 13, 2013 at 5:06 pm
+
+These IPCC goons have you guys calculating antropogenic CO2 emmissions like
+drones when that isn't even real problem. We produce 0.014% of the greenhouse
+gases through fossil fuel burning and human respiration COMBINED. Furthermore
+CO2 is only a mere 0.4% of the atmosphere. The majority greenhouse gas is
+water vapor (85%). Neither H2O nor CO2 are poisons nor are they harmful to
+life on earth. Increased CO2 levels actually causes plants to thrive more. If
+you want to reverse greenhouse warming then dump 50% of the earths water on
+rockets and launch em into space. Or create a huge parasol to block out the
+sun.
+
+Cheers.
+
+Reply
+
+                    
+                                                96. ![](https://0.gravatar.com/avatar/c77edf4581bf6f804a85c22ca8381d2c?s=32&d=identicon&r=G)
+                    
+
+#### Will said,
+
+October 6, 2013 at 5:26 pm
+
+We don"t have a Co2 problem ,we don't have an energy problem,we don't have a
+shortage of food,or pollution problem. What we do have is a "feed too many,
+too well" to make a too many people problem.
+
+I wonder what the calorie threshold is for completing the human conception
+process?
+
+Reply
+
+                    
+                                                97. ![](https://2.gravatar.com/avatar/2756059bb9892da729572063d2d386a6?s=32&d=identicon&r=G)
+                    
+
+#### John said,
+
+October 24, 2013 at 7:53 pm
+
+I've heard that the act of sex is the equivalent of a 5-mile run. Whoever said
+that obviously didn't know my ex-wife.  
+Seriously, though, the Al Gores of the world are profiting at the expense of
+the rest of us. The quasi-scientists of the IPPC have been proven to be not
+only wrong but dishonest. Data that did not match hypotheses were discarded.
+Scientific Method requires resolution of irregularities, not "casting out
+nines".  
+Anthropogenic climate change is a micro-effect. I have seen it. Houston, Texas
+in the early '70's built an area called Greenway Plaza. Rainfall patterns
+around Houston moved northwest because the approximate area of concrete and
+asphalt doubled toward the nothwest.  
+It is definitely not a macro-effect. Driving a car in Sydney Australia only
+affects the north pole's ice fields in chaos theory. The butterfly-hurricane
+relationship. And chaos theory does not allow attribution.  
+Bottom line is that the tendency of government is to expand into the available
+field of "governed" is a fixed natural law. Saul Alinsky taught that the best
+way to get action is to create an emergency need.  
+The U.N. would very much like to become the world government. Washington will
+continue to attenuate the effectiveness of State governments. Individual
+rights will continue to be bypassed by a corrupt Congress (a pox on both their
+houses), Executive and Judiciary.  
+I do not know whether the Tree of Liberty is a net carbon dioxide asset but I
+do believe that the time approaches for it to be watered with the blood of
+patriots and tyrants. (Thomas Jefferson, paraphrased.)  
+The Constitution's Article 1 gives the Senate the power of treaty
+ratification. Article 2 gives the Executive the power to make treaties.
+Article 6 states that the Constitution, laws passed consistent with it and
+treaties shall be the Law of the Land. Harry Reid has a majority, RINOs could
+make it a 2/3 majority and the UN can remove pieces of the Bill of Rights one
+at a time.  
+But Article 5 makes it possible for the States to come together and amend the
+constitution. The legislatures of 2/3 of the States can agree to an Article 5
+Convention, present amendments germaine to thair stated purpose and present
+them for ratification. 3/4 of the States can then ratify and the Congress,
+Executive and Judiciary are powerless to stop the process.  
+Talk to your State legislators and get the process started before the EPA
+makes a wetland out of your kid's wading pool. And don't think that's a joke.
+The Clean Air Act has already been expanded by the Supreme Court to allow EPA
+to declare CO2 a POLLUTANT. Want to breathe freely? Buy Carbon Credits.
+
+Reply
+
+                    
+                                                98. ![](https://2.gravatar.com/avatar/2756059bb9892da729572063d2d386a6?s=32&d=identicon&r=G)
+                    
+
+#### John said,
+
+October 24, 2013 at 7:59 pm
+
+Where's spell-check when you need it. I meant IPCC, not IPPC.
+
+Reply
+
+                    
+                                                  * ![](https://0.gravatar.com/avatar/c3673ab99e91db3c0b8a73ed446a1900?s=32&d=identicon&r=G)
+                    
+
+#### guiseppijoe said,
+
+October 24, 2013 at 9:24 pm
+
+Climate change is inevitable, carbon dioxide and monoxide pollution or not.
+Man is only hastening the process.
+
+Why? Because the real cause has very little to do with man. However, man can
+have an effect beyond his position in scale.  
+How?, It's because the earth wobbles.  
+When? Over the next 10,000-25,000 years  
+Where? The whole earth.  
+What? Please explain!
+
+• The sun causes heating and lack of sun causes cooling of the earth’ surface.  
+• The earth’s surface exposed to the sun gets hot, the area not exposed gets
+cold. Thus we have a hot equator and cold poles.  
+• The earth is spinning about the north and south pole axis, as it spins about
+the sun. (The actual path taken by the earth is mathematically complex, but
+predictable).  
+• Heating more sea area as against land area has a profound effect on air
+currents as well as sea currents. In addition, the air over the equator is
+moving much faster than air over the poles, so differential currents occur.
+This is the main cause of wind and things like typhoons and hurricanes.  
+• The “wobble” of the earth’s spin is very slight, but enough to tilt the
+earth’s axis by up to 27.5 °. This cycle is around 25,000 years, tilting the
+axis from minimum to maximum.  
+• As the earth tilts, the cold poles are exposed to more sunlight, ice melt
+occurs, conversely the equator gets a little cooler, so areas previously very
+cold become warmer. As the bulk of the exposed land mass (above sea level) is
+north and south of the equator, as these areas become more exposed to
+sunlight, they become warmer.  
+• Man’s contribution is slight, but significant, because the polluting gases
+act as “thermal” blankets and insulate the earth, thus heat on the cold areas
+cannot readily escape into space, and therefore the heat gained from the sun
+is trapped, further increasing temperatures.  
+• In the scale of things, it takes a minute unbalance to affect climate. For
+example, clouds rubbing together cause static build up, sufficient to cause
+lightning. This in turn causes fires to start, but also causes the formation
+of nitrous compounds, essential for plant growth. The fires emit huge
+quantities of Co2, much more than man is causing, yet the growing plants
+absorb much of this Co2. So the question is by how much are we unbalancing the
+delicate environment. Simply, a small change in the natural balance as a
+result of man’s activities can cause a huge change in overall climate, it’s
+that sensitive.  
+• As we head towards global warming, we will eventually head towards a future
+ice age, over the titling axis cycle.  
+All along we are assuming this fine balance will continue. Simple alterations
+like a meteor hitting the earth, if large enough, can spell the end of life as
+we know it. If it wasn’t for the outer planets attracting these outer space
+bodies, earth couldn’t exist. Even a meteor hitting the moon, can unbalance
+it’s relation to earth, it can affect the tides for one, or cause a slight
+change to the earth’s tilt. If you think this is preposterous, just look at
+the moon surface and see how many meteorites have crashed on the surface in
+the past.  
+The whole purpose of life is to maintain this balance, and not to do anything
+to upset it.
+
+Reply
+
+                    
+                                                    * ![](https://2.gravatar.com/avatar/2f06ac637a1fd5e14a14fdcd59c4816a?s=32&d=identicon&r=G)
+                    
+
+#### Bob said,
+
+November 15, 2013 at 8:44 pm
+
+Actually, ice cores taken from Greenland show that we were already heading
+towards another ice age. But the cycles that had repeated over many hundreds
+of thousands of years changed "recently". These changes have an amazing
+correlation with human activities, such as the spread of agriculture, the
+industrial revolution, and the modern era of petroleum usage.
+
+Man's activities have had a very large and very profound change on the
+climate.
+
+The increase of carbon dioxide have also had a profound change on the oceans,
+where carbonic acid is being produced as a result of increased carbon dioxide
+absorption. Man's activities have now had a profound impact on the ability of
+the oceans to support life.
+
+                    
+                                                99. ![](https://0.gravatar.com/avatar/ce00071830182d5083e11def6f82ad0c?s=32&d=identicon&r=G)
+                    
+
+#### 情趣用品 said,
+
+December 18, 2013 at 11:43 am
+
+Excellent excited synthetic eyesight to get detail and can  
+foresee issues prior to these people occur.
+
+Reply
+
+                    
+                                                  * ![](https://0.gravatar.com/avatar/c3673ab99e91db3c0b8a73ed446a1900?s=32&d=identicon&r=G)
+                    
+
+#### guiseppijoe said,
+
+December 20, 2013 at 7:04 am
+
+Dear Asian contributor.
+
+Not exactly sure what your comment above means. Did you want to say:
+"Excellent, intuitive insight, careful analysis of detail, and the foresight
+to foresee issues likely to affect all people in the future".
+
+Then my answer would be "Yes".
+
+Cheers, Joe
+
+Reply
+
+                    
+                                                100. ![](https://0.gravatar.com/avatar/c551e2221209eedfc1dfaa9ea4f06cbf?s=32&d=identicon&r=G)
+                    
+
+#### paolo said,
+
+January 29, 2014 at 4:38 am
+
+Check out the composition of our air. Carbon dioxide is 0.039% not 0.39%
+(397ppmv). Nature herself does a wonderful job using CO2. Aren't shells
+wonderful, where do you think carbonates (cement ingredients) came from? Dont
+wonder about the values - what are you doing yourself to limit your excesses
+now!
+
+Reply
+
+                    
+                                                101. ![](https://0.gravatar.com/avatar/04358c95a87eacc25577419398632720?s=32&d=identicon&r=G)
+                    
+
+#### spoed geld lenen zonder bkr said,
+
+February 28, 2014 at 4:18 am
+
+Hey! Do youu use Twitter? I'd likе tߋ follow yoս if  
+that woulԁ bee okay. I'm absolutely enjoyinng уour blog aոd look forward  
+tο new updates.
+
+Reply
+
+                    
+                                                102. ![](https://2.gravatar.com/avatar/b124706ad0512a8ad8807a2b104d9111?s=32&d=identicon&r=G)
+                    
+
+#### Nick Schroeder, BSME, PE said,
+
+March 5, 2014 at 8:49 am
+
+Did you realize that all 7 billion people on earth today would fit in fewer
+than five miles of the Grand Canyon, one mile if they snuggled up? Interesting
+image, don't you think? A globe devoid of people. Think it would notice or
+care?
+
+Reply
+
+                    
+                                                103. ![](https://1.gravatar.com/avatar/aec2b950fb361ecf4eae86a4f740fbc5?s=32&d=identicon&r=G)
+                    
+
+#### ashokmalhotra said,
+
+April 15, 2014 at 7:33 am
+
+Carbon dioxide is to green side of life what oxygen is to humans and oxygen
+breathing animals. It is not a pollutant. it is the life breath of plant. In
+the past it has been incorrectly blamed for adverse climate changes. New
+findings are changing all that for example here
+http://someitemshave.blogspot.in/2014/04/a-new-perspective-on-climate-
+change.html
+
+Reply
+
+                    
+                                                104. ![](https://2.gravatar.com/avatar/20622c8adfb11570c5bc0d5836b3f082?s=32&d=identicon&r=G)
+                    
+
+#### B3T4 said,
+
+May 24, 2014 at 12:35 am
+
+Now our population is 7+ Billion!!!! Go Humans!!!
+
+Reply
+
+                    
+                                                105. ![](https://1.gravatar.com/avatar/4a90207cf36148058c2d93c60a0d79b2?s=32&d=identicon&r=G)
+                    
+
+#### jwirges said,
+
+December 2, 2014 at 9:22 pm
+
+I think everyone should be put to death at a certain age like 30. we could
+say, put to Sleep, we could have chambers where they could give them selves
+up, and have ceremonies extolling their decision. We could employ other guys
+to help them find their way if they should fail to show up, or run, we'll call
+them sand men, to help the old give up their life so the planet could
+continue.
+
+Reply
+
+                    
+                                                106. ![](https://0.gravatar.com/avatar/9f7907655b84b5a0c70a1492c806e5a7?s=32&d=identicon&r=G)
+                    
+
+#### Hope Cliver said,
+
+January 24, 2015 at 9:16 am
+
+How about measuring how much people exhale out their hind ends. They say that
+methane is three times as toxic to the planet as CO2. They said it was the
+cows doing all the farting but I beg to differ…
+
+Reply
+
+                    
+                                                107. ![](https://i0.wp.com/lh5.googleusercontent.com/-JvY5JQ9AQWw/AAAAAAAAAAI/AAAAAAAADEE/r2tkBXQiqWQ/photo.jpg?resize=32%2C32&ssl=1)
+                    
+
+#### Dr. Ashok Malhotra said,
+
+January 24, 2015 at 1:04 pm
+
+If CO2 is removed from the planet all life would come to an end because plants
+will die and there will be no food.
+
+Reply
+
+                    
+                                                108. ![](https://i0.wp.com/lh5.googleusercontent.com/-JvY5JQ9AQWw/AAAAAAAAAAI/AAAAAAAADEE/r2tkBXQiqWQ/photo.jpg?resize=32%2C32&ssl=1)
+                    
+
+#### Dr. Ashok Malhotra said,
+
+January 24, 2015 at 1:06 pm
+
+To make the climate change debate more effective do read this
+http://steamcenter.blogspot.in/2014/12/how-to-make-climate-change-debate-
+more.html
+
+Reply
+
+                    
+                                                109. ![](https://1.gravatar.com/avatar/430840d3a6d67ae7d38efa1b2581c7aa?s=32&d=identicon&r=G)
+                    
+
+#### Larry Cogdell said,
+
+February 20, 2015 at 9:04 pm
+
+The Greenhouse effect has nothing to do with how a greenhouse works. A
+greenhouse prevents loss of heat by preventing convection. Our atmosphere does
+not prevent convection. The Greenhouse effect is best described as radiative
+forcing caused by the absorption of infrared radiation from the earth. A
+better analogy, IMHO, would be that the Greenhouse effect is like a radiator
+used to heat a house. It certainly does not stop convection but radiates the
+heat it absorbed.
+
+Next week, Mr. Wizard will explain the silly idea of trying to calculate an
+average global mean temperature with an accuracy of 3 decimal places. That is
+as easy as calculating the average world phone number and just as useful. 🙂
+
+Reply
+
+                    
+                                                  * ![](https://0.gravatar.com/avatar/c3673ab99e91db3c0b8a73ed446a1900?s=32&d=identicon&r=G)
+                    
+
+#### Joe Dingli said,
+
+February 20, 2015 at 10:21 pm
+
+Here are some basics of thermodynamics For a start, a green house (or
+polyhouse as we know it) works on the principle of the sun's radiation heating
+plants and trapping of the absorbed heat as the re-radiation outwards is
+blocked to a large extent by the inward reflection by the translucent poly
+film. Nothing to do with convection or conduction for that matter. Convection
+only matters if there was no poly house cover at all.
+
+The same happens on the world scale. The sun's radiation heats the earth's
+surface during the day, and as the earth gives up its heat at night, this
+radiated heat is partially blocked by the minute pollution particles in the
+air, that is, acting as the translucent 'poly' film of greenhouses. It's like
+a giant insulating blanket around the earth. As the air around the earth is
+bonded to the earth by the earth's gravity, heat can never be transferred by
+convection beyond the earth's air film, around 30 Km thick.
+
+The total net heat gain/loss to outer space is purely by radiation. In your
+analogy, to correct your confused mixing of radiated and convected heat, a
+house radiator is heated from within (by hot water or oil) and the heat is
+radiated out to the cooler outer air in the room. Also, at the radiator
+surface, air in contact becomes hot by conduction and as hot air rises,
+convection currents are set up, cooler air replacing the rising hot air, and
+the cycle repeats.
+
+To clarify, here are some basic facts of thermodynamics.
+
+            1. Heat moves from a hot area to a cold area via three transfer possibilities. Radiation - no transfer medium required, the denser the material the less radiation is transmitted. Convection - requires a medium (gas or liquid) that has absorbed heat moving from a hot area to a colder one. Conduction - requires a medium, usually a solid, and the more metallic, the better the conduction, viz., gold, silver copper.
+
+            2. Radiation is the only way heat can transfer through a vacuum, as in outer space. No medium is required.
+
+            3. Heat transferred by convection or conduction remains earth bound, and thus cannot be lost to outer space. If radiation is blocked by the earth's air blanket, that is reflected back to earth, then the earth will gradually warm so long as the sun shines.
+
+            4. This reflectance of heat back to earth means the more we place reflective particles in the air, the more heat we retain, and the rate of heat trapped increases at an increasing rate.
+
+            5. It will take many billions of years before the sun collapses on itself and stops shining, so this way out of human control. The only way we can control our own heating cycle, is to allow loss of heat to space. If we gain 100 units of heat, we need to lose almost 99.99999 units of heat to space, so that we warm slowly over many thousands of years, not a few hundred. If we keep adding to the reflective air layer, we will retain more heat, enough to melt all our ice caps, and flood the earth. Beyond this, we will eventually boil the oceans, and of course, all fluids will also boil, including human blood, so we will become extinct well before this happens.
+
+The message is clear. We must allow our trapped heat to escape to space. That
+means no green house cover.
+
+Joe Dingli
+
+Reply
+
+                    
+                                                    * ![](https://1.gravatar.com/avatar/430840d3a6d67ae7d38efa1b2581c7aa?s=32&d=identicon&r=G)
+                    
+
+#### Larry Cogdell said,
+
+February 20, 2015 at 11:24 pm
+
+In both the greenhouse effect and an actual greenhouse, there are
+similarities. Sunlight is allowed to pass through the greenhouse covering or
+atmosphere relatively unimpeded. And in both cases, the sunlight is converted
+into heat.
+
+But in the atmospheric greenhouse effect, the earth warms because the solar
+energy is re-radiated back towards the earth by the greenhouse gases.
+
+While in a greenhouse, the warming of the interior is simply a result of the
+heat energy from the sunlight heating the air. The covering of the greenhouse
+prevents the heated air from escaping the house "Convection". And since the
+air is trapped inside as additional solar radiation continues to stream into
+the greenhouse, the air gradually becomes warmer and warmer.
+
+So on one hand (the atmosphere), it’s the energy itself that is re-radiated
+and prevented from escaping, and on the other hand (an actual greenhouse) air
+that has been warmed by the energy is prevented from escaping.
+
+Splitting hairs? Perhaps. But apparently not as far as physicists are
+concerned! (And I am most certainly NOT a physicist!)
+
+                    
+                                                    * ![](https://0.gravatar.com/avatar/c3673ab99e91db3c0b8a73ed446a1900?s=32&d=identicon&r=G)
+                    
+
+#### guiseppijoeJoe dingli said,
+
+February 21, 2015 at 9:03 am
+
+Sorry, but we are not splitting hairs. What you state is blatantly wrong, and
+thermodynamic physics will bear me out. I will point out the errors.
+
+Quote: " And in both cases, the sunlight is converted into heat. "
+
+Answer: No. The sunlight infra-red spectrum is already a heat energy radiation
+and thus cannot be converted into heat. (It's already heat).
+
+Quote: " While in a greenhouse, the warming of the interior is simply a result
+of the heat energy from the sunlight heating the air.
+
+Answer: Mostly wrong! The radiated infra red spectrum heat waves from the sun
+that permeate through the poly film, heat any absorbing surface: (Graduated
+from black to white or silver), so the black pots, blackish soil heat first,
+then the stalks then the green leaves. The air in the green house is a distant
+last, (mainly because its transparent and colourless in context). This heat
+given off by the warm plants of course heats the air, and yes, convection
+currents are set up, but these in themselves do not increase or trap heat
+energy. If you opened the doors, the hot air will escape. Note however, the
+primary heat source is actually the heat absorbing plants, not the air around
+them.
+
+Quote " So on one hand (the atmosphere), it’s the energy itself that is re-
+radiated and prevented from escaping, and on the other hand (an actual
+greenhouse) air that has been warmed by the energy is prevented from escaping.
+"
+
+Wrong again. These may be subtle differences, but here is how it works.
+
+During the day, heat radiation from the sun (and I mean air or no air in
+between) permeates through the earth's atmosphere as infra red heat energy to
+hit the most heat absorbing surfaces, from black to white. Thus black rock,
+then seas, then deserts, heat up in proportion to the absorbed energy.
+Everything else in-between heats up in proportion to colour. This is the
+heating phase, and while the heat energy transmitted by radiation is
+maintained, objects will continue to absorb heat. They can only absorb heat
+energy while the radiation is transmitting from the sun and the temperature of
+the net energy transmitted exceeds that of the absorbing object.
+
+Once the sun goes into shadow (night time) as the earth rotates, the heated
+objects: like mountains, green areas, seas, deserts etc., are now hotter than
+the outside air temperature, so they give up their heat to warm the
+surrounding air. Convection does occur, and of course this produces the severe
+weather like cyclones etc., but this is not the problem, although to humans
+cyclones are no mean thing to contend with. The heat is primarily radiated out
+to space. When the air blanket around the earth prevents this heat from
+escaping by reflecting back some of the radiation, we then start to heat the
+whole earth. As trapped heat is thus maintained, extra heat by constant
+radiation can only get worse. Thus we have global warming.
+
+The buffoon sceptics and deniers like our Prime Minister Tony Abbott, who
+understand nothing about basic science, let alone thermodynamics, should be
+sent to La La land, where his imagination can run riot and no one pulls the
+idiot up. All he can see is promoting his rich fossil fuel friends. He is not
+even sure his own grandchildren will suffer any damage. Can someone gently tap
+him on the shoulder and see him out the door? Please.
+
+The sun is producing billions of watts of energy, and even if we are far away,
+the energy is relatively constant (during the day of course), so we should tap
+into this free source of energy.
+
+What's that, did someone say free!
+
+If this was the case, how can exploiters make money by selling our fossil
+fuels to unsuspecting consumers. There cannot be something free if exploiters
+can't make a profit. Mind you, exploiters don't own the fossil fuels, that
+belongs to the inhabitants, they just dig it up and sell it at a premium. So
+the smart bastards manipulating fossil fuels maintain their richness. Good
+one, dickhead governments!
+
+The problems of capturing heat energy, storing it and then making it available
+at a fraction of the cost of fossil fuels is not beyond us. Someone needs the
+guts to till people like Abbott to pull his head in and let the rest of us get
+on with life and changing technology.
+
+Food for thought,
+
+Joe Dingli
+
+                    
+                                                110. ![](https://i1.wp.com/graph.facebook.com/v2.2/100001409488194/picture?q=type%3Dlarge%26_md5%3D2092afb6e40b261262e7e78de910427f&resize=32%2C32)
+                    
+
+#### David Appell said,
+
+March 6, 2015 at 6:52 pm
+
+Your thinking here is completely wrong. Breathing is carbon neutral -- we
+breathe in CO2 that's in the air, then we exhale it, with some added carbon
+from the plants we eat, or the animals we eat who eat plants. The plants take
+up CO2.
+
+Breathing merely recycles carbon, it doesn't create it.
+
+This is why global CO2 levels were essentially constant for millennia before
+the Industrial Revolution, despite lots of people and animals breathing.
+
+Reply
+
+                    
+                                                111. ![](https://0.gravatar.com/avatar/669ab4c92fe4df10d865cab8e8ab6a52?s=32&d=identicon&r=G)
+                    
+
+#### Duda said,
+
+April 1, 2015 at 7:21 am
+
+And that's just humans. Think about how many animals are on the planet as
+well. The more animals the less plants therefore more CO2,less oxygen, more
+heat retained and then a more habitable environment for dinosaurs. Kill all
+humans or giant lizards will anyway
+
+Reply
+
+                    
+                                                112. ![](https://0.gravatar.com/avatar/c3673ab99e91db3c0b8a73ed446a1900?s=32&d=identicon&r=G)
+                    
+
+#### guiseppijoe said,
+
+April 2, 2015 at 7:34 am
+
+We are not talking about humans or animals or even plants upsetting the fine
+balance of the earth's gases. We are talking about positive generation of Co2
+by fossil fuel burning industries. I've yet to hear of an industry reabsorbing
+the Co2 it produces.
+
+In response to Duda's comment re series of connected events, Dinosaurs, are
+animals, and breathe all the earth's gases exactly as humans do, so they won't
+survive more than humans will. It wasn't the low Co2 that killed them, it was
+the catastrophic change in climate, air gas ratios, temperature and dying out
+of vegetation caused by a massive meteorite hitting the earth several million
+years ago. Upset the food chain, and whole species become extinct.
+
+Reply
+
+                    
+                                                113. ![](https://0.gravatar.com/avatar/c3673ab99e91db3c0b8a73ed446a1900?s=32&d=identicon&r=G)
+                    
+
+#### guiseppijoe said,
+
+April 2, 2015 at 7:45 am
+
+By the way, I should have mentioned, although the Co2 exhaled and ingested is
+finely balanced between the sea, humans and plants and is basically recycled.
+
+The digestive gases by humans and animals is unbalanced, because these gases
+are primarily methane, another gas more dangerous than Co2.
+
+Not much on earth absorbs methane, so we could fart our way to distinction.
+So, everyone: stop farting!
+
+That's how silly this discussion has become. Can we please bury this topic?
+
+Reply
+
+                    
+                                                114. ![](https://0.gravatar.com/avatar/c3673ab99e91db3c0b8a73ed446a1900?s=32&d=identicon&r=G)
+                    
+
+#### guiseppijoe said,
+
+April 2, 2015 at 7:47 am
+
+Grammatical correction: I meant extinction not distinction, although one could
+use either to mean some strange viewpoint. Keep laughing!
+
+Reply
+
+                    
+                                                115. ![](https://0.gravatar.com/avatar/c3673ab99e91db3c0b8a73ed446a1900?s=32&d=identicon&r=G)
+                    
+
+#### Joe Dingli said,
+
+April 5, 2015 at 10:01 am
+
+Here is a bone I'm throwing to the sceptics who say gases in our atmosphere
+don't cause global warming. Let's accept man did land on the moon in 1969.
+
+The moon has little or no atmosphere. Why? (Gravity is 1/6th that of earth's).
+Maybe the gravitational pull couldn't keep any gases bound to the moon's
+surface, like it does on Earth. On earth , air weighs approximately 6.7 Kgm
+per 6.25 sq. cm., let's say 1 Kgm per sq. cm. All this saying is that air
+around earth is going nowhere soon and certainly not to outer space.
+
+Because the moon has a dark side that doesn't see the sun during lunar phases,
+it gets very cold. The side lit by the sun gets very hot. The cold side cannot
+give off any radiated heat. The hot side can and does radiate heat out to
+space because there is no air. The overall temperature reaches a balance point
+over time. The point is if the moon had our atmosphere, the loss of heat to
+space would be reduced, and the moon would gain heat over a long period. But
+over millions of years it hasn't, because it has no atmosphere.
+
+The air "blanket" around earth has protected us so far from extremes of heat
+and cold, though this is cyclical and depends on the planar alignment of the
+earth's axis in relation to the planar rotational orbit around the sun. We are
+almost at the end of the heating cycle and in a few thousand years, the
+earth's axis will tilt back from 27.5 degrees off "vertical" back towards near
+"vertical", causing the two ice poles to move towards the "top" and "bottom"
+of our planet. The sun will heat a narrow band of the near horizontal plane of
+the equator to scorching heat, but the polar ice caps will be so cold, we will
+generally freeze over three quarters of the earth's surface. Strangely, we
+might wish we had a thicker or denser air blanket to protect us from freezing
+to death. So the sceptics will be correct in one sense, the earth will
+actually cool, but not so much because of increased pollution, but because the
+earth's axis "wobble".
+
+In the next thousand years or so, we will however, feel the increase in
+temperature before the cooling cycle kicks in.
+
+So what is the solution.? On the one hand, the sceptics are right in that the
+increase in temperature will take hundreds of years. But should they ignore
+the harm that will be done to our future generations? The human body evolved
+over a few hundred thousand years to breathe the air with gases in their
+present ratios. We don't have the luxury to change our body mechanisms to cope
+if these ratios change in a few hundred years. On top of that, we will be
+breathing in the sub-size particles that will coat our lungs, causing
+emphysema and other nasty breathing diseases.
+
+Think this is hogwash? Try flying Melbourne to Shanghai and spend a few weeks
+there, there is a background smell of noxious gases in the air. Then to really
+experience pollution, fly to Beijing, but take eye drops, mouth guards and
+respiratory capsules, and forget about seeing a blue sky or even one star in
+the sky at night.
+
+No wonder the Chinese people are emigrating to all parts of the world. They
+can't breath properly in most of the big Chinese cities. In any case, why
+should we accept this pollution, just because it's cheaper than free energy?
+If we put our minds to it, we can generate cheap and almost free electricity
+for the rest of time.
+
+Before the massive coal stations were built, governments had to invest heavily
+to build these monsters, but soon they produced cheap electricity as there was
+no alternative. You dig up all the coal that has trapped millions of years of
+carbon products and derivatives, burn it, and pump the oxidised gases (yes we
+use up oxygen to burn fossil fuels to produce the oxidised derivatives Co2 and
+Co, So2, Hso3, Hso4 and whatever else harmful to man) it into our finite and
+encasing atmosphere, then wait another billion years for it to be reabsorbed
+back as coal.
+
+Are we that stupid? Seems so, especially when there is a motive of profit
+driving cheap fossil fuels. Everyone says, while I make money, pollution is
+not my problem. "Dawwh" , I think cavemen had more sense. To argue the case
+that pollution has no effect on global warming for the sake of debate and
+argument and ignoring simple physics, is not just folly, it's criminal for our
+unborn generations to come.
+
+I rest my case.
+
+Reply
+
+                    
+                                                116. ![](https://0.gravatar.com/avatar/9990b975df649f390c48fffbf0b9d578?s=32&d=identicon&r=G)
+                    
+
+#### David L said,
+
+May 21, 2015 at 8:34 am
+
+CO2 emissions from exhaling (respiring) doesn't increase CO2 in the atmosphere
+over time only when the population is constant.  
+However, we can't add 6 million people to the planet in <100 years and then
+omit to factor in the CO2 emissions from respiration. The CO2 that we exhale
+can only come from carbon previously sequestered by photosynthetic plants in
+the biosphere, so we've effectively replaced photosynthetic biomass with
+respiring biomass. We then compound the problem by removing forests through
+fire and land clearing, all of which ends up in the atmosphere through
+combustion or decay.
+
+Even without fossil fuel combustion we would still be causing AGW, albeit at a
+slower rate.
+
+Reply
+
+                    
+                                                  * ![](https://1.gravatar.com/avatar/a8cb3918b4922a5c33e35d39834f5f40?s=32&d=identicon&r=G)
+                    
+
+#### Jim E said,
+
+October 23, 2015 at 2:39 pm
+
+Well said. You never hear Global Warming alarmists stating this because it is
+politically incorrect. The real problem is "us" humans. Our respiration and
+consumption or resources is adding to the overall amount of CO2 (and other
+greenhouse gasses). The bigger question is, "Will the earth "self-balance" or
+will the ecosystems destabilize?" We always see straight line projections
+(CO2, population, etc.) but in real life nothing moves in straight lines. If
+ecosystems destabilize food production will drop and population will
+eventually drop through competition for resources (better know as war).
+'Watched a not so great movie the other night (Kingsman) and Samuel L. Jackson
+played the crazy evil guy that said the same thing as a lot of people in this
+blog "humans are the problem" and he was going to rid the Earth of the
+majority of humans thus saving the Earth from human "virus".
+
+How is this going to play out in the next 50-100 years? I don't think we
+should just ignore the fact that human existence does have some impact on the
+climate of the earth; and we should strive to minimize that effect, but earth
+is such a complex system affected by the varying energy input from our sun and
+the billions of things in the ecosystem inputting or subtracting greenhouse
+gasses. It's just very hard to know what is causing what?
+
+Reply
+
+                    
+                                                    * ![](https://0.gravatar.com/avatar/c3673ab99e91db3c0b8a73ed446a1900?s=32&d=identicon&r=G)
+                    
+
+#### guiseppijoe said,
+
+October 24, 2015 at 7:18 am
+
+Stupid, Stupid philosophy.
+
+Exhaled C02 in the atmosphere does increase, even if the population
+stabilizes, or decreases. The oceans and trees can only absorb so much. You
+see, you "non alarmists" know nothing about basic physics.
+
+Why; because we live on a planet that has gravity (as all other non
+terrestrial bodies have). If you knew any basic science any third grader would
+tell you, C02 has mass and therefore bound to the earth by gravity. Therefore,
+any c02 not absorbed by natural means, stays bound to the earth.
+
+Co2 weighs more than air, that is it has more mass, so it stays low to the
+ground. Even when mixed by strong winds, it is still bound to the earth.
+
+Therefore any C02 not absorbed naturally, stays in the air and low to the
+ground. Now it's fundamentally easy to prove c02 is a poor conductor of heat
+Basic thermodynamics will tell you, if you trap heat, you form a thermodynamic
+blanket, and the temperature of the earth surrounded by this blanket will get
+hotter. The sun doesn't stop shining for at least another 3-4 billion years,
+and it's rays heat the earth continuously and consistently. This heat must
+dissipate out to space. Not if we have a blanket around the earth
+
+So we will experience increased temperatures every year from now on for the
+next thousand years. We are not taking into account the tilt of the earths
+axis or the earth's wobble. That's another story and has 25,000 year cycles.
+
+For the here and now, stop the stupid bullsh*t: we are not warming, and you
+must accept basic science, or you become the greatest morons known to man.
+Like our stupid ex prime minister who only considers big business selling
+fossil fuels. No wonder he was chucked out.
+
+                    
+                                                117. #### Population over 7 billion - don't exhale! | said,
+                    
+
+May 22, 2015 at 7:51 pm
+
+[…] One source puts the number between 328.5 kg and 206.23 kg a year. Most CO2
+measurements are in tonnes, not the American ton. What’s the difference you
+may be asking (and why are we the last ones to use the metric system)? A ton
+is measurement used exclusively in the US and it is equal to 2,000 lbs. A
+tonne is equal to 1,000 kg. Here’s where my brain starts to hurt. […]
+
+Reply
+
+                    
+                                                118. ![](https://0.gravatar.com/avatar/cf5410915f0afcea353df0714124a2d9?s=32&d=identicon&r=G)
+                    
+
+#### muthu said,
+
+June 5, 2015 at 10:09 am
+
+nice post! I came to know many things on CO2 emission. I will start working to
+save earth from carbon emission. Try to plant some trees at least
+
+Reply
+
+                    
+                                                119. ![](https://secure.gravatar.com/blavatar/b1a482b6b7fd1a5fdcd59ddd75966642?s=32)
+                    
+
+#### Turning air into plastic? | Deakin Communicating Science 2015 said,
+
+June 6, 2015 at 9:48 pm
+
+[…] 1. https://micpohling.wordpress.com/2007/03/27/math-how-much-co2-is-
+emitted-by-human-on-earth-annually/ 2. www.cbsnews.com/videos/plastic-made-
+from-air-may-help-solve-carbon-emissions-crisis/ Combustion […]
+
+Reply
+
+                    
+                                                120. ![](https://1.gravatar.com/avatar/1ba447ccb9fb26a421b28c98b7ed363b?s=32&d=identicon&r=G)
+                    
+
+#### Sachin Semwal said,
+
+June 22, 2015 at 11:08 am
+
+Is carbon dioxide deplets the ozone layer
+
+Reply
+
+                    
+                                                121. ![](https://1.gravatar.com/avatar/d25f9a83735c39bc851da8172c9ce741?s=32&d=identicon&r=G)
+                    
+
+#### Mak Alam said,
+
+September 6, 2015 at 6:45 am
+
+Exactly what I was looking for. In my research I also learnt that the level of
+carbon dioxide  
+humans breathe out is consumed by plants and trees who in return give out
+oxygen in the environment and the cycle is balanced in harmony. Hence chopping
+down trees not just reduces the chances of lowering oxygen levels for us to
+breathe in but also there will be lesser trees to consume the carbon dioxide
+we humans breathe out and then we can say that we are on the verge of being
+responsible for the increasing levels of co2 just by breathing.
+
+Reply
+
+                    
+                                                122. ![](https://0.gravatar.com/avatar/300ac1e061dee37e572ad4ac9a9af8ea?s=32&d=identicon&r=G)
+                    
+
+#### stuart said,
+
+October 12, 2015 at 1:29 pm
+
+http://www.sciencemag.org/content/218/4572/563.abstract?sid=ecbb2a97-081d-494f-a327-9aaacab08a5f
+
+Thats just termites. Granted, "just termintes" is a bit of a misnomer.
+
+Reply
+
+                    
+                                                123. ![](https://1.gravatar.com/avatar/74590af05ebe2161417fd9869b1c82fd?s=32&d=identicon&r=G)
+                    
+
+#### Spanky06 said,
+
+October 12, 2015 at 11:18 pm
+
+Ok. This is amazing to read, educational, entertaining and inspiring. If I was
+trying decently convert human CO2 exhale into a PPM rate, can I do this based
+on the projected tons?
+
+Reply
+
+                    
+                                                124. #### How each email you send contributes to global warming | JunkScience.com said,
+                    
+
+November 26, 2015 at 4:00 pm
+
+[…] Average person exhales about 0.9 kg (31.68 oz.) CO2/day. […]
+
+Reply
+
+                    
+                                                125. ![](https://2.gravatar.com/avatar/54b2cd16329e3853feb16bb41b58cfff?s=32&d=identicon&r=G)
+                    
+
+#### George O said,
+
+March 11, 2016 at 1:20 am
+
+Some "scientists" say that humans do not contribute to the CO2 problem by
+exhaling it since the CO2 is part of the "close cycle" ( we are consuming
+carbon that is in the food already and returning it back by exhaling) … Well
+there's a "renewable energy" power plant in east TX. It burns refuse wood from
+a paper mill.. It's "renewable" since it returns the same carbon that was
+already contained in tree bark and such, hence: 0 emissions… "Renewable power
+plant" On the same token, all natural gas and coal burners are "renewable" as
+well since they are recycling the carbon that it was ALWAYS there! Hmmm .. I
+guess you can always add some ideology to your environmental, global warming
+"theories" as long you like the final answer…
+
+Reply
+
+                    
+                                                126. ![](https://1.gravatar.com/avatar/aec2b950fb361ecf4eae86a4f740fbc5?s=32&d=identicon&r=G)
+                    
+
+#### ashokmalhotra said,
+
+March 11, 2016 at 12:26 pm
+
+oops the blog address in last comment has a typo it is
+http://steamcenter.blogspot.com
+
+Reply
+
+                    
+                                                127. ![](https://0.gravatar.com/avatar/c3673ab99e91db3c0b8a73ed446a1900?s=32&d=identicon&r=G)
+                    
+
+#### guiseppijoe said,
+
+March 12, 2016 at 7:37 am
+
+Hi George,
+
+Interesting proposition you propose. You miss one tiny tiny detail, blind
+Freddie could have seen, and he wasn't a scientist. All solid and liquid state
+carbon, ie., contained in liquid form, oil, petrol etc., and solid form,
+trees, carbon etc.,are relatively harmless, even when dug up.
+
+However, once they are turned into gaseous forms, by applying oxygen and heat
+and produce the carbon monoxides, carbon dioxide and carbon trioxides, then
+they become very very dangerous to breath in (monoxide gas will kill you in
+two minutes) and contribute to global warming as the Co2 is an insulator.
+
+It's not ideology but simple fact. Even I can make this statement drawing on
+my chemistry lessons of 60 years ago. So please, if you want reasoned debate,
+don't speak so much crap!
+
+You missed the point entirely. It's the carbon gases, not the liquid or solid
+forms.
+
+Reply
+
+                    
+                                                  * ![](https://2.gravatar.com/avatar/54b2cd16329e3853feb16bb41b58cfff?s=32&d=identicon&r=G)
+                    
+
+#### George O said,
+
+March 12, 2016 at 3:58 pm
+
+Thank you, you have actually proved my point. I guess you have missed the
+"renewable wood burning power plant" bit. My point is that they are calling it
+"renewable" power since the carbon is already here in tree bark and wood… Oh,
+and thank you for your so eloquent chemistry refresher mate…
+
+Reply
+
+                    
+                                                    * ![](https://0.gravatar.com/avatar/c65deaaad932f980b3b0e8e5b0ea3f26?s=32&d=identicon&r=G)
+                    
+
+#### Scott Wallberg said,
+
+May 22, 2016 at 7:31 pm
+
+Well I don’t know what to make of some of the discussions on this blog. People
+of “Green Nazi” persuasion generally use snippets of science to try to prove
+their point.  
+First I will say for the record I am not a Greenie. Point one because a fuel
+is renewable (trees grow back) it does not mean it does not emit pollutant gas
+and particulate when burned. So moron “green” minded individuals that think
+the renewable label makes something green and good and desirable are woefully
+ignorant. Burning wood emits just as much carbon, (CO, CO2) and is only better
+than coal because coal emits some metals and Sulfur oxides not contained in
+wood. Those pollutants cause acid rain and lung irritants. Things the western
+world learned in the 70’s.  
+The point of this blog it seems should be about equilibrium conditions of our
+atmosphere and weather it can effectively absorb the extremely small
+percentage of carbon that mankind burning anything made from carbon emits.
+What the un-informed fail to take into consideration is how efficiently one
+can burn one form of fuel compared to others. Efficiencies in extracting
+energy from the available fuels is the answer and the direction our science
+should be leading.  
+Solar cells have been in existence since 1954 they have improved in efficiency
+from 6% to 19% for economical non exotic ($$$$$) cell technology. To power the
+city of Los Angeles we would need to cover the entire state of Arizona, not a
+viable solution. Heat energy Solar plants cover vast areas of land to recover
+small quantities of power they are more efficient than photovoltaic because
+they use a higher % of the Photon energy. Wind is viable but expensive and
+ugly and unreliable.  
+Until there is real un-socialist-slanted science that is able to cooperate on
+development of all the improvement in all the energy technologies available,
+there will be no improvement on the world carbon footprint.  
+The obvious alternative is Nuclear power the only potential solution to the
+entire 100% of the footprint is completely ignored by the numb brained
+Greenies. No I do not propose nuclear automobiles. But Nuclear power can be
+used to create H2 and O2 the H2 can power automobiles. Don’t even say the word
+Hindenburg. It is a solution. ZERO CARBON. The socialists are against Nuclear
+power also. They want control of the politics of the atmosphere so they can
+command the masses and live in their Ivory towers.  
+Do I believe it is possible for us to contribute to the greenhouse gasses in a
+meaningful percentage? Not without actually trying.  
+Math is a part of the solution but nowhere on this blog is there a calculation
+of the volume of the earth’s atmosphere. Or a calculation of the volume of
+emissions from burning one gallon of gasoline X the average mileage of the
+average vehicle x the number of vehicles and dividing the total volume of
+those emissions by the volume of the atmosphere. .00000something I bet. Hey I
+have not done the calculation either. To my thinking the lions share of the
+data for “proof” warming exists is suspect and the socialists have shutdown
+further data gathering because “It is settled Science”. Be skeptical, very
+skeptical.
+
+                    
+                                                    * ![](https://2.gravatar.com/avatar/54b2cd16329e3853feb16bb41b58cfff?s=32&d=identicon&r=G)
+                    
+
+#### George O said,
+
+May 25, 2016 at 1:30 am
+
+Thank you for seeing my point.  
+Nuke is the thing, France and Germany and USA (South Texas Nuclear Project)
+are perfect examples. I am with energy industry for about 30 years. I watched
+the transition from fossil to renewable but I still have a problem with all
+the green guys… What if the wind doesn't blow? What if the sky is cloudy?
+Diversity is the key.. Very Earth friendly, combine cycle, natural gas
+turbines can do the trick
+
+                    
+                                                128. ![](https://1.gravatar.com/avatar/a53209db30c197b626d4f2d580797284?s=32&d=identicon&r=G)
+                    
+
+#### Alice frazier said,
+
+July 16, 2016 at 5:19 pm
+
+How much carbon does a person need in their diet to b healthy.
+
+Reply
+
+                    
+                                                129. ![](https://i1.wp.com/graph.facebook.com/v2.2/10206460556942290/picture?q=type%3Dlarge%26_md5%3D6c7b2950d0fdbc7eea1b54fb938dd4e6&resize=32%2C32)
+                    
+
+#### Gábor Boródi said,
+
+September 10, 2016 at 8:08 am
+
+But the CO2 emission by human breathing is from renewable source , so it does
+not increase atmospheric CO2 level at all.
+
+Plants build atmospheric carbon from CO2 into their bodies , so it decreases
+CO2 level in air, then we eat the plant or the animal that has eaten the plant
+,our bodies burn the carbon and we breathe it back into the atmosphere in the
+form of CO2.
+
+So our breathing is just circulation of carbon without changing the global
+atmospheric CO2 level.
+
+Global CO2 level only increases in the following cases:
+
+            1. we burn fossil energy sources (oil, gas or coal) that have been burried deep underground. 
+            2. we decrease the quantity of global biomass, so all the carbon trapped in the plants and animals will go to the atmosphere . It can happen either quickly, by burning ,or slowly , when fungi and other microorganisms decompose the body of the dead animal or plant, so all the carbon turns into CO2 and goes into the atmosphere.
+
+Reply
+
+                    
+                                                130. ![](https://0.gravatar.com/avatar/064748c8d08d3436ca7d30e620ef1e8a?s=32&d=identicon&r=G)
+                    
+
+#### kipingram said,
+
+October 30, 2016 at 8:03 pm
+
+Guys, ALL carbon manipulations are part of a closed system. There are X carbon
+atoms associated with the planetary system, and that's not changing in any
+way. All the various things are just shuffling those carbon atoms around.
+
+The only real argument you can is that with fossil fuels we're taken carbon
+that had been effectively "locked away" underground and re-introducing it to
+the atmosphere. We assume it got there in the first plae in some fashion, a
+long time ago, and there's no reason to think those processes no longer occur,
+so carbon would be going back to those locked away places at some rate too.
+But that's probably a much smaller rate than the rate at which we're unlocking
+them.
+
+So to talk intelligently about this you have to factor in the transfer rates
+of ALL of the processes. To whatever extent we're accelerating an "unlocking"
+process over what it would otherwise be, yes, we're going to shift the balance
+of carbon in the various repositories.
+
+I assume the general amount of carbon in my body is relatively stable; it
+seems reasonable to say that once a human stops growing they cease being a net
+carbon sink. So while it's true that all of us are breathing CO2 out al lthe
+time, it's also true that we are consuming carbon (when we eat) and that the
+net balance is zero. This would apply to all elements - a grown human being is
+a chemically static entity. We take stuff in, process it to liberate energy,
+and put the results back out.
+
+Some sea life uses carbon to build shells, and when they die those shells can
+fall to the ocean floor and stay there for a long time. That carbon might be
+locked away long enough to consider that a real sink over the time periods
+climate folk tend to discuss. That's the same sort of process that led to the
+underground trapping of what eventually became fossil fuels in the first
+place.
+
+Ultimately this is all about _energy_. Carbon compounds exist which are
+effective stores of energy, and we use that energy to survive (not just to
+warm ourselves and move ourselves around, but also to eat). The only net
+energy input in all of this is photosynthesis.
+
+Reply
+
+                    
+                                                131. #### Doesn't our breathing contribute to global warming? - Cleantech.Guide said,
+                    
+
+October 31, 2016 at 7:42 am
+
+[…] How much CO2 is emitted by human breathing? - many, many interesting
+discussions in the comments section. […]
+
+Reply
+
+                    
+                                                132. ![](https://0.gravatar.com/avatar/9990b975df649f390c48fffbf0b9d578?s=32&d=identicon&r=G)
+                    
+
+#### David L said,
+
+December 13, 2016 at 3:35 pm
+
+Lets consider what would happen if 7 billion people suddenly appeared on the
+planet. This isn't such a silly proposition given that the worlds population
+was 1 billion 200 years ago, and 200 years is a mere blip on geological time
+scales.
+
+Now, suddenly, with 7 billion people, those people need to consume food from
+the biosphere, which means eating lots of plants, and of course, plants
+produce O2 from CO2 during photosynthesis and store carbon.
+
+Unlike plants, humans store a very small amount of carbon (mostly water) and
+unlike plants we convert O2 into CO2.
+
+With 7 billion people emitting about 2.5Gt CO2 per year that wasn't previously
+being emitted we need to rely on the biosphere being able to sink 2.5Gt CO2
+per annum more than it was before, which of course is impossible, because the
+biosphere was / is already in a state of equilibrium.
+
+Fortunately the higher levels of CO2 in the atmosphere does increase the rate
+of photosynthesis slightly but nonetheless there's still a net accumulation of
+CO2 in the atmosphere because trees and vegetation can only store (sink) about
+50% of those human emissions (from best measurements), and inevitably with a
+population of 7 billion humans there's now less plants and trees to sink
+carbon. Worse still is the fact that trees have been burnt and felled to make
+way for human settlement and food crops.
+
+It's theoretically possible to almost double atmospheric CO2 levels simply by
+burning every plant in the biosphere, and assuming that was done it would take
+the biosphere about 1200 years to sink the same amount of carbon back into
+photosynthetic trees and plants.
+
+Of course this does overlook an important external carbon sink; namely the
+ocean. Without considering the ocean as a carbon sink our CO2 emissions from
+humans breathing would cause atmospheric CO2 levels to double within about 60
+years. But even with the presence of an ocean, CO2 levels in the atmosphere
+must continue to rise slowly.
+
+Using simplistic assumptions, even if the population used 100% renewable
+energy, the potential of the biosphere to sink CO2 from the atmosphere does
+limit human population to about 3 billion based purely on the added component
+of human respiration and assuming infinite sustainability.
+
+So yes, we do all contribute to the GHE by simply breathing, but it would
+probably take 1000 years before it led to significant climate change, instead
+of the 100 or so achieved by burning fossil fuels.
+
+Reply
+
+                    
+                                                  * ![](https://1.gravatar.com/avatar/a166a6ea33dd63cd64a4968f5a6c0cfb?s=32&d=identicon&r=G)
+                    
+
+#### en passant said,
+
+November 10, 2017 at 11:44 pm
+
+The proof that you are wrong is that satellite photography has shown that
+plant life is blooming and greening the Earth. Did you note that 2016 was an
+all-time record for world grain production? Life will be better for everyone
+when CO2 hits 2,000PPM.
+
+Reply
+
+                    
+                                                133. ![](https://2.gravatar.com/avatar/29b10ea76c3d598ca9b07fb66f9cd29e?s=32&d=identicon&r=G)
+                    
+
+#### Jonathan Stockwell said,
+
+January 3, 2017 at 12:56 pm
+
+Hello micpohling!
+
+About 10 yrs ago, I came up with the same question for human C02 output!
+
+Found your calcs on the internet which are far more mathematical than my rough
+stab.
+
+Your maths was only for normal breathing. My question is what about all the
+fitness fanatics. The daily joggers, marathon runners (millions world wide),
+cyclists, athletes (amateur and professional), etc., etc.?
+
+Your calcs show outputs of approx. 9 and 5.7% of man's C02 output. If the
+world got itself together and agreed that everyone on the planet (babies
+excluded!) Held their breath for one minute, say, 10 times a day - well, there
+has to be a saving there surely. Every little bit helps!
+
+The reason I have only ever discussed thus with a couple of close friends for
+fun, is that there is a sinister side. A country's government or regime could
+easily come up with a human C02 tax. Check the capacity of each individual,
+calculate their output over a year and hey presto - a measureable taxable
+money maker! Of course, if your lifestyle is more energetic, active or sporty,
+then the more tax you pay. Simple! I say sinister as polititians are not
+generally clever nowadays. So it would only take one scientific paper to point
+out to them and for them to realise the potential. Their eyes would turn into
+the proverbial $ or £ signs!
+
+Just a rambling thought train!
+
+Cheers, Jon Stockwell
+
+Reply
+
+                    
+                                                134. ![](https://2.gravatar.com/avatar/22a8fa132fecb1c800a7ffdfa38a0ea0?s=32&d=identicon&r=G)
+                    
+
+#### swilki09 said,
+
+January 21, 2017 at 7:52 pm
+
+You forgot about "natural gas" emissions. 🤑
+
+Reply
+
+                    
+                                                135. ![](https://0.gravatar.com/avatar/30c4e02af38c9520e98a034411b8ac6e?s=32&d=identicon&r=G)
+                    
+
+#### Peter said,
+
+February 18, 2017 at 9:26 pm
+
+Nonsense.
+
+Humans, like all animals, are carbon neutral. The CO2 we produce was just
+recently taken out of the atmosphere by the plants we ate or the plants that
+the animals we eat, ate.
+
+CO2 from fossil fuels was taken out of the atmosphere millions of years ago
+and over much longer periods than the time we take to put it back in the
+atmosphere.
+
+That's why CO2 concentrations are going up.
+
+Reply
+
+                    
+                                                136. ![](https://secure.gravatar.com/blavatar/1c010ca20db2576fc9cc17cdea760225?s=32)
+                    
+
+#### A tribute to the world's oceans: why we couldn't survive without them -
+
+Enjeux énergies et environnement said,
+
+June 6, 2017 at 2:59 pm
+
+[…] Oceans absorb about one quarter of all CO2 produced by human activities.
+This provides an invaluable service to life on land, especially in mitigating
+some of the effects of human driven climate change. In addition, microscopic
+plants, called phytoplankton produce between half to 70% of all oxygen. To put
+this into perspective, researchers have tried to calculate how much oxygen
+humans use just for breathing, a figure that comes to over 6 billion tonnes of
+oxygen per year. […]
+
+Reply
+
+                    
+                                                137. #### A tribute to the world's oceans: why we couldn't survive without them | Wikipedia Editors said,
+                    
+
+June 6, 2017 at 3:38 pm
+
+[…] Oceans absorb about one quarter of all CO2 produced by human activities.
+This provides an invaluable service to life on land, especially in mitigating
+some of the effects of human driven climate change. In addition, microscopic
+plants, called phytoplankton produce between half to 70% of all oxygen. To put
+this into perspective, researchers have tried to calculate how much oxygen
+humans use just for breathing, a figure that comes to over 6 billion tonnes of
+oxygen per year. […]
+
+Reply
+
+                    
+                                                138. ![](https://gosouth.co.za/wp-content/uploads/2017/04/cropped-GoSouthOnline.png?w=32)
+                    
+
+#### A tribute to the world’s oceans, and why we can’t survive without them -
+
+GoSouth said,
+
+June 6, 2017 at 3:54 pm
+
+[…] Oceans absorb about one quarter of all CO2 produced by human activities.
+This provides an invaluable service to life on land, especially in mitigating
+some of the effects of human driven climate change. In addition, microscopic
+plants, called phytoplankton produce between half to 70% of all oxygen. To put
+this into perspective, researchers have tried to calculate how much oxygen
+humans use just for breathing, a figure that comes to over 6 billion tonnes of
+oxygen per year. […]
+
+Reply
+
+                    
+                                                139. #### A Tribute To The World's Oceans: Why We Couldn't Survive Without Them | Q Costa Rica News said,
+                    
+
+June 7, 2017 at 1:34 pm
+
+[…] Oceans absorb about one quarter of all CO2 produced by human activities.
+This provides an invaluable service to life on land, especially in mitigating
+some of the effects of human driven climate change. In addition, microscopic
+plants, called phytoplankton produce between half to 70% of all oxygen. To put
+this into perspective, researchers have tried to calculate how much oxygen
+humans use just for breathing, a figure that comes to over 6 billion tonnes of
+oxygen per year. […]
+
+Reply
+
+                    
+                                                140. ![](https://specimennews.files.wordpress.com/2017/03/cropped-cropped-sierra-leone-remembrances1.jpg?w=32)
+                    
+
+#### A tribute to the world’s oceans: why we couldn’t survive without them -
+
+Specimen-news.com said,
+
+June 7, 2017 at 4:23 pm
+
+[…] Oceans absorb about one quarter of all CO2 produced by human activities.
+This provides an invaluable service to life on land, especially in mitigating
+some of the effects of human driven climate change. In addition, microscopic
+plants, called phytoplankton produce between half to 70% of all oxygen. To put
+this into perspective, researchers have tried to calculate how much oxygen
+humans use just for breathing, a figure that comes to over 6 billion tonnes of
+oxygen per year. […]
+
+Reply
+
+                    
+                                                141. ![](https://africareportonbusiness.com/wp-content/uploads/2017/11/cropped-AROB-Favicon-1.png?w=32)
+                    
+
+#### Africa: A Tribute to the World's Oceans - Why We Couldn't Survive Without
+
+Them said,
+
+June 9, 2017 at 12:40 pm
+
+[…] Oceans absorb about one quarter of all CO2 produced by human activities.
+This provides an invaluable service to life on land, especially in mitigating
+some of the effects of human driven climate change. In addition, microscopic
+plants, called phytoplankton produce between half to 70% of all oxygen. To put
+this into perspective, researchers have tried to calculate how much oxygen
+humans use just for breathing, a figure that comes to over 6 billion tonnes of
+oxygen per year. […]
+
+Reply
+
+                    
+                                                142. #### A Tribute to the World’s Oceans: Why We Couldn’t Survive Without Them | SciTech Connect said,
+                    
+
+July 6, 2017 at 2:54 pm
+
+[…] Oceans absorb about one quarter of all CO2 produced by human activities.
+This provides an invaluable service to life on land, especially in mitigating
+some of the effects of human driven climate change. In addition, microscopic
+plants, called phytoplankton produce between half to 70% of all oxygen. To put
+this into perspective, researchers have tried to calculate how much oxygen
+humans use just for breathing, a figure that comes to over 6 billion tonnes of
+oxygen per year. […]
+
+Reply
+
+                    
+                                                143. ![](https://2.gravatar.com/avatar/884cd49f9f4cd0ad3c2259249b5280f5?s=32&d=identicon&r=G)
+                    
+
+#### Lyndon Hadley Coates said,
+
+October 25, 2017 at 7:23 pm
+
+Add to this the mass of CO2 produced by the animal population and I suspect we
+are closer to 20%. LHC
+
+Reply
+
+                    
+                                                144. ![](https://2.gravatar.com/avatar/814377ddde200b2fee993f26d73b14a0?s=32&d=identicon&r=G)
+                    
+
+#### Terk said,
+
+February 17, 2018 at 3:21 pm
+
+You exhale ~ 250 ml of CO2 a breath! not a minute. Exhaled minute tidal volume
+is around 8-14 liters of CO2 per minute.
+
+Reply
+
+                    
+                                                145. ![](https://0.gravatar.com/avatar/35bdf9d195fba5d8178205bc2cf16b09?s=32&d=identicon&r=G)
+                    
+
+#### IanF said,
+
+February 28, 2018 at 1:00 pm
+
+CLIMATE DRIFT was its name, before the politicians dumbed it down. It started
+when the molten blob cooled enough to have a climate. It drifted enough to
+have, it is thought, to have 5 major Ice Ages, interspersed with 4 Warm Ages,
+plus the last one now. At times there would have been very little water vapour
+or CO2. At other times lots, to make trees. Hence all the coal. Don't bother
+with short timescales. Life's too short.
+
+Reply
+
+                    
+                                                  * ![](https://0.gravatar.com/avatar/c3673ab99e91db3c0b8a73ed446a1900?s=32&d=identicon&r=G)
+                    
+
+#### guiseppijoe said,
+
+March 1, 2018 at 12:12 am
+
+Like I keep repeating, the major cause of climate change is the way the
+earth’s axis tilts by about 25 Deg.as the earth wobbles its trajectory around
+the sun. It”s simple science. Point the equator towards the sun more directly
+(when the relative vertical axis is closer to 90 Deg to the equator) and it
+gets hotter than the poles. When the axis tilt (to maximum 25 Deg) away from
+vertical, the poles get more exposure to the sun, hence ice melts in the
+Arctic and more freezing occurs in the Antarctic. After several thousands of
+years, this process is reversed. Thus we have periodic ice ages and have had
+them since water formed on earth..  
+However, despite this unavoidable change in climate, pollution levels which
+increase Co2 in the atmosphere, also affect spot areas on earth, as the winds
+move this insulating “blanket” over land and sea. Thus we have severe cold
+spots (viz Europe at present) and ever increasing hot spots (viz Australia).
+In other words, pollution magnifies the natural process of cooling and heating
+of the earth.
+
+On top of all this, The global earth moves in oval trajectory around the sun ,
+and comes close to the sun and away from the sun in one elliptical cycle once
+every year. Thus we have alternating seasons. Hot, medium, cold, medium and
+back to hot (read summer, autumn, winter, spring and back to summer.
+
+Man’s interference by doing things like cutting down trees, over fishing,
+increasing Co2 levels, polluting rivers, creeks and sea, only makes matters
+worse and upsets the fine equilibrium our precious earth possess.
+
+Another little known impact on the earth’s “wobble” is the increasing number
+of major movements by man on the earth’s surface. For a ship of several
+hundred thousand tons starting and stopping on it’s journey can affect (ever
+so slightly) the earth’s rotation through action and reaction. Multiply this
+by thousands of ships, trains and planes, if not millions and there might be a
+case for a mathematician to examine this issue. If the earths single daily
+rotation is increased or decreased, our day gets longer or shorter. Also, what
+happens when we discharge a rocket of immense power. My mouth waters at this
+man made phenomena.
+
+Reply
+
+                    
+                                                146. ![](https://jjruescas.blog/wp-content/uploads/2018/05/cropped-san-francisco-mile-rock-beach04927.jpg?w=32)
+                    
+
+#### Mass Production Machines | Keep on learning… said,
+
+March 17, 2018 at 2:31 pm
+
+[…] Up to 0.9 kg/day of Carbon Dioxide. […]
+
+Reply
+
+### Leave a Reply Cancel reply
+
+Enter your comment here...
+
+Fill in your details below or click an icon to log in:
+
+                    
+                                                *             *             *             *             * ![Gravatar](https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&d=identicon&forcedefault=y&r=G)
+                    
+
+Email (required) (Address never made public)
+
+Name (required)
+
+Website
+
+![WordPress.com
+
+Logo](https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&d=identicon&forcedefault=y&r=G)
+
+****You are commenting using your WordPress.com account. ( Log Out / Change )
+
+![Google
+
+photo](https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&d=identicon&forcedefault=y&r=G)
+
+****You are commenting using your Google account. ( Log Out / Change )
+
+![Twitter
+
+picture](https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&d=identicon&forcedefault=y&r=G)
+
+****You are commenting using your Twitter account. ( Log Out / Change )
+
+![Facebook
+
+photo](https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&d=identicon&forcedefault=y&r=G)
+
+****You are commenting using your Facebook account. ( Log Out / Change )
+
+Cancel
+
+Connecting to %s
+
+Notify me of new comments via email.
+
+Notify me of new posts via email.
+
+                    
+                                                * ## Recent Posts
+                    
+                              * MeThink: 590 000 Hits!!!
+                              * MeThink: 580 000 Hits!!!
+                              * MeThink: 570 000 Hits!!!
+                              * MeThink: 560 000 Hits!!!
+                              * MeThink: 550 000 Hits!!!
+                              * Methink: 540 000 Hits!
+                              * MeThink: 530 000 Hits!!!
+                              * MeThink: 520 000 Hits!!!
+                              * MeThink: 510 000 Hits!!!
+                              * MeThink: 500 000 Hits!!!
+                            * ## Recent Comments
+                    
+
+![](https://0.gravatar.com/avatar/94c9a5abdd3424bbb0a7292a58db0525?s=48&d=identicon&r=G)|
+Brian Waite on Math! How much CO2 is released…  
+---|---  
+| The end of the begin… on Math! How much CO2 by weight i…  
+| Our Globally Warming… on Math! How much CO2 by weight i…  
+| Our Globally Warming… on Math! How much CO2 by weight i…  
+| Chevron's Fig L… on Math! How much CO2 is released…  
+* * ## Blog Stats
+                    
+                                                  * 630,222 hits
+                            * March 2007 M | T | W | T | F | S | S
+                    
+
+---|---|---|---|---|---|---  
+| | Apr »  
+| 1| 2| 3| 4  
+5| 6| 7| 8| 9| 10| 11  
+12| 13| 14| 15| 16| 17| 18  
+19| 20| 21| 22| 23| 24| 25  
+26| 27| 28| 29| 30| 31 |
+
+                    
+                                                * ## Archives
+                    
+                              * January 2011
+                              * December 2010
+                              * November 2010
+                              * October 2010
+                              * September 2010
+                              * August 2010
+                              * July 2010
+                              * June 2010
+                              * May 2010
+                              * April 2010
+                              * March 2010
+                              * February 2010
+                              * January 2010
+                              * December 2009
+                              * November 2009
+                              * October 2009
+                              * September 2009
+                              * August 2009
+                              * July 2009
+                              * June 2009
+                              * May 2009
+                              * April 2009
+                              * March 2009
+                              * February 2009
+                              * January 2009
+                              * December 2008
+                              * November 2008
+                              * October 2008
+                              * September 2008
+                              * August 2008
+                              * July 2008
+                              * June 2008
+                              * May 2008
+                              * April 2008
+                              * March 2008
+                              * February 2008
+                              * January 2008
+                              * December 2007
+                              * November 2007
+                              * October 2007
+                              * September 2007
+                              * August 2007
+                              * July 2007
+                              * June 2007
+                              * May 2007
+                              * April 2007
+                              * March 2007
+                            * ## Meta
+                    
+                              * Register
+                              * Log in
+                              * Entries RSS
+                              * Comments RSS
+                              * WordPress.com
+                            * ## ![RSS](https://s-ssl.wordpress.com/wp-includes/images/rss.png?m=1354137473h) Quote
+                    
+                              * Charlotte Bronte
+                              * Sophocles
+                              * Flip Wilson
+                              * Dale Carnegie
+                            * ## Categories
+                    
+                              * Asia
+                              * Belgium
+                              * Christian
+                              * Denmark
+                              * Economic
+                              * Education
+                              * Environment
+                              * Finland
+                              * Food/Agriculture
+                              * France
+                              * Gene
+                              * Germany
+                              * Health
+                              * Ireland
+                              * Japan
+                              * Japanese
+                              * Malaysia
+                              * Math!
+                              * MeThink
+                              * Music Video
+                              * Netherlands
+                              * News
+                              * Norway
+                              * OECD
+                              * Picture
+                              * Poll
+                              * Psychology
+                              * Quote
+                              * Science
+                              * Social
+                              * Statistic
+                              * Sweden
+                              * Travel
+                              * UK
+                              * Uncategorized
+                              * US
+                              * World
+                            * ## Bureau of Statistics
+                    
+                              * Australia
+                              * Austria
+                              * Belgium
+                              * Canada
+                              * Denmark
+                              * Finland
+                              * France
+                              * Germany
+                              * Iceland
+                              * Ireland
+                              * Italy
+                              * Japan
+                              * Luxembourg
+                              * Netherlands
+                              * New Zealand
+                              * Norway
+                              * Portugal
+                              * Spain
+                              * Sweden
+                              * Switzerland
+                              * United Kingdom
+                              * United States
+                            * ## Christian
+                    
+                              * A Bruised Reed
+                              * Between Two Worlds
+                              * CCEL: Bible Study Link
+                              * Christian History
+                              * Doctor is In
+                              * Exile from Groggs
+                              * First Things
+                              * Justin Taylor
+                              * Reformed Covenanter
+                            * ## I watch...
+                    
+                              * CSI
+                              * CSI New York
+                              * House M.D.
+                              * Lost
+                              * South Park
+                            * ## Malaysia
+                    
+                              * Arrested Development
+                              * As Zewt as It gets
+                              * Bakri Musa
+                              * Dave the Hedonese
+                              * Dr Hsu's Forum
+                              * Education Malaysia
+                              * Infernal Ramblings
+                              * Khoo Kay Peng
+                              * Malaysiakini
+                              * Nik Nazmi
+                              * Politikus
+                              * Scott Thong
+                              * Siber Party of Malaysia (M)
+                              * Silent Me Not
+                              * Star, Malaysia
+                              * Tony Pua
+                              * Wau Bebas (Libertarian Think Tank)
+                            * ## News
+                    
+                              * Economist
+                              * Financial Times
+                              * Independent, UK
+                              * Local, German
+                              * New York Times
+                              * News: Denmak - The Copenhagen Post
+                              * News: Finland - Helsingin Sanomat, English
+                              * News: Finland - YLE News
+                              * News: Germany - Spiegel International
+                              * News: Japan - Japan Times
+                              * News: Netherlands
+                              * News: Sweden - thelocal
+                              * Politiken Denmark
+                              * Science Daily
+                              * Slate
+                              * Telegraph
+                            * ## Others
+                    
+                              * Concise Encyclopedia of Economics
+                              * David Buss: Evolutionary Pscyhology
+                              * Dictionary: English - Chinese
+                              * Dictionary: English - Finnish
+                              * Dictionary: English - German
+                              * Dictionary: English - Swedish
+                              * Google Blog Search
+                              * Google Image Search
+                              * Google Scholar
+                              * Guttmarcher Institute
+                              * HighWire Press, Journal
+                              * icanhascheezburger
+                              * IZA - Institute for the Study of Labor
+                              * Micpohling's flickr
+                              * MIT Open Courseware
+                              * My Facebook
+                              * Strange Maps
+                              * Systematic Theology
+                              * That Was Funny
+                              * The Ultimate Resource II
+                              * Wikipedia
+                            * ## Semiconductor
+                    
+                              * Conference: IITC - International Interconnect Technology Conference
+                              * Conference: IRPS - International Reliability Physics Symposium
+                              * Journal of The Electrochemical Society
+                              * Journal of Vacuum Science and Technology A
+                              * Journal of Vacuum Science and Technology B
+                              * Journal: Device and Materials Reliability, IEEE Transactions on
+                              * Journal: Electron Device, IEEE Transactions on
+                              * Journal: Materials Science in Semiconductor Processing
+                              * Journal: Microelectronic Engineering
+                              * Journal: Microelectronic Journal
+                              * Journal: Microelectronic Reliability
+                              * Journal: Reliability, IEEE Transactions on
+                              * Journal: Semiconductor Manufacturing, IEEE Transactions on
+                              * Journal: Solid State Electronics
+                              * Material Research Society
+                              * Semiconductor International
+                            * ## Statistic Resources
+                    
+                              * Asian Barometer
+                              * Carbon Dioxide Information Analysis Center, CDIAC
+                              * Eurobarometer Survey, EU
+                              * Europe HIV
+                              * European Road Accident Database, CARE
+                              * European Social Survey
+                              * European Values Study
+                              * Eurostat
+                              * Food and Agriculture Organization, FAO
+                              * Harris Poll, US
+                              * Human Development Report, UNDP
+                              * International Energy Agency
+                              * International Monetary Fund, IMF
+                              * Nation Master
+                              * Organisation for Economic Co-operation and Development, OECD
+                              * Statistic Finland, World Figure
+                              * United Nations Economic Commission for Europe, UNECE
+                              * US "Citizenship, Involvement, Democracy" (ESS for Europe)
+                              * US CDC's Web-based Injury Statistics Query and Reporting System
+                              * US General Social Survey Codebook
+                              * US Sourcebook on Criminal and Justice
+                              * World Bank
+                              * World Databank of Happiness
+                              * World Health Organization, WHO
+                              * World Public Opinion
+                              * World Values Survey
+                            * ## UK
+                    
+                              * Devil's Kitchen
+                              * Future of Humanity Institute
+                              * Herry's Journal
+                              * Norman Geras
+                              * Sinclairs Musings
+                              * Spiked
+                              * Stumbling and Mumbling
+                              * Tim Harford
+                              * Tim Worstall
+                              * Westminster Wisdom
+                            * ## US
+                    
+                              * Agitator, Radley Balko
+                              * Althouse
+                              * Arts and Letters Daily
+                              * Assymetrical Information
+                              * Augean Stables
+                              * Austrian Economists
+                              * Cafe Hayek
+                              * Carnal Reason
+                              * Carpe Diem
+                              * Chicagoboyz
+                              * City Journal
+                              * Classical Values
+                              * Clayton Cramer
+                              * Coyote blog
+                              * David Friedman
+                              * David Thompson
+                              * Division of Labour
+                              * Dr Helen
+                              * Econlog
+                              * FIRE - Foundation of Individual Rights in Education
+                              * Gene Expression
+                              * Greg Mankiw
+                              * Half Sigma
+                              * Hodak Value
+                              * Inductivist
+                              * Instapundit
+                              * iSteve
+                              * Johan Norberg
+                              * Kaphtor
+                              * Ludwig von Mises Blog
+                              * Maggie's Farm
+                              * Marginal Revolution
+                              * Mind Hacks
+                              * Pro Libertate
+                              * Reason Online
+                              * Stephen Bainbridge
+                              * The Everday Economist
+                              * Thinking on the Margin
+                              * Tom G Palmer
+                              * Volokh Conspiracy
+                              * Will Wilkinson
+                              * William Briggs
+                            * ## Top Posts
+                    
+                              * Math! How much CO2 is released by Aeroplane? 
+                              * Math! How much CO2 by weight in the atmosphere? 
+                              * Math! How much CO2 is emitted by human on earth annually? 
+                              * World: Top 15 Country on Highest Number of Sheep 
+                              * Learning Japanese: Noun & Adjective 丁寧形 → 普通形 
+                              * Math! How much water is required to raise sea level by 20 feet (6m)? 
+                              * Picture: Smiling Apsara 
+                            * ## Top Clicks
+                    
+                              * eia.doe.gov/oiaf/1605/fac…
+                              * en.wikipedia.org/wiki/Par…
+                            * ## Flickr Photos
+                    
+
+![DSC_9424](https://live.staticflickr.com/2820/34176042422_b2ba720c2a_s.jpg)![DSC_9424](https://live.staticflickr.com/2825/34176052492_9072d02818_s.jpg)![DSC_9396](https://live.staticflickr.com/2819/34176029982_013a6376a1_s.jpg)![DSC_9412](https://live.staticflickr.com/2807/34203448481_eb78c1be00_s.jpg)![DSC_9393](https://live.staticflickr.com/2894/34203458391_e2668539a9_s.jpg)![DSC_9390](https://live.staticflickr.com/4191/34293295036_d7dd404455_s.jpg)![DSC_9389](https://live.staticflickr.com/2823/34293305436_d02f50692b_s.jpg)![DSC_9388](https://live.staticflickr.com/4174/34334124885_2d5bd1a736_s.jpg)![DSC_9375](https://live.staticflickr.com/2816/33523889283_fe37661dbd_s.jpg)![DSC_9382](https://live.staticflickr.com/2841/34293319946_73fc515567_s.jpg)
+
+More Photos
+
+                    
+                                                * ## ![RSS](https://s-ssl.wordpress.com/wp-includes/images/rss.png?m=1354137473h) Kanji
+                    
+                              * November 5, 2018 : 用 - utilize, business, service, use, employ
+                              * November 4, 2018 : 形 - shape, form, style
+                              * November 3, 2018 : 有 - possess, have, exist, happen, occur, approx
+                              * November 2, 2018 : 知 - know, wisdom
+                              * November 1, 2018 : 鼻 - nose, snout
+                            * ## ![RSS](https://s-ssl.wordpress.com/wp-includes/images/rss.png?m=1354137473h) Word of the Day
+                    
+                              * sitient, adj.
+                              * gilravage, n.
+                              * zeep, v.
+                              * nebby, adj.
+                              * downcycle, v.
+                              * rigwelted, adj.
+                              * scrilla, n.
+                            * ##
+                    
+
+Asia Denmark Economic Education Environment Finland Food/Agriculture Gene
+Health Japan Japanese Malaysia MeThink Music Video Netherlands News Norway
+OECD Picture Poll Psychology Quote Social Statistic Sweden Travel UK
+Uncategorized US World
+
+Create a free website or blog at WordPress.com.
+
+Privacy & Cookies: This site uses cookies. By continuing to use this website,
+you agree to their use.  
+To find out more, including how to control cookies, see here: Cookie Policy
+
+%d bloggers like this:
+
+![](https://pixel.wp.com/b.gif?v=noscript)
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication _[C.]: Century_ [m.]: married _[FT]:
+Financial Times_ [ _]: required_ [MB]: megabytes _[UV]: Ultraviolet_ [ UV]:
+Ultraviolet
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+  *[m.]: married
+  *[FT]: Financial Times
+  *[*]: required
+  *[MB]: megabytes
+  *[UV]: Ultraviolet
+  *[ UV]: Ultraviolet
+

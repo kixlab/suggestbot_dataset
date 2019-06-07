@@ -1,0 +1,234 @@
+
+
+  * ![](data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI4MDBweCIgaGVpZ2h0PSIxMTZweCIgdmlld0JveD0iMCAwIDgwMCAxMTYiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDgwMCAxMTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik00NzIuMzE2LDc0LjI4aDM5Ljg1NmMwLjkxNiwwLDEuMzcxLTAuNDYyLDEuMzcxLTEuMzgyYzAtNi40MTYtOS4zMTEtMjYuNTg4LTI3LjMzNi0yNi41ODhjLTE2LjYzNCwwLTI4LjU1MiwxOS4xMDUtMjguNTUyLDMzLjkyNGMwLDIwLjE3MywxMi41MjEsMzMuOTMzLDMwLjM5MSwzMy45MzNjMTQuMDQ1LDAsMjQuNDI3LTkuNDcyLDI2Ljg3Ny0yMy41MzdoLTIuNDVjLTIuMTI4LDEyLjUzMS0xMS42MDIsMjEuMDktMjQuNDI3LDIxLjA5Yy0xNC4zNTQsMC0xNS44ODQtMTIuMjI3LTE1LjczLTIzLjA3NVY3NC4yOEw0NzIuMzE2LDc0LjI4eiBNNDk4Ljg4NCw3MC43NjJjMCwwLjYwOS0wLjMwNSwxLjA3MS0xLjA3LDEuMDcxaC0yNS40OTh2LTQuMjgxYzAtOS43NzYsMy4yMDktMTguODAyLDEzLjg5NC0xOC44MDJjMTAuMDg3LDAsMTIuNjc2LDkuMDI1LDEyLjY3NiwxOC44MDJMNDk4Ljg4NCw3MC43NjJMNDk4Ljg4NCw3MC43NjJ6IE01NDcuNTk4LDExNmgxLjA2MWwxNi4xOS0zOC4wNTNMNTgxLjc5NSwxMTZoMS4wNzFsMjIuNDUyLTUxLjgxMmMzLjM1Mi03Ljc5Myw1LjE4Mi0xMi4wNzEsMTQuNjUtMTIuMDcxdi0yLjQ0MUg1OTMuNHYyLjQ0MWg0LjEyNGM1LjE5MiwwLDcuMTc5LDEuNjgzLDcuMTc5LDQuNTgxYzAsMi4yOTktMC42MTcsNC43NDItMi40MzksOC44NjdsLTE0LjUwOSwzMy40NzJsLTIwLjE1My00Ni45MmgxMi4yMTN2LTIuNDQxSDUxMS4yNXYyLjQ0MWg4LjI0Mkw1NDcuNTk4LDExNnogTTUzNC40NjIsNTIuMTE3aDE5LjA5MmwxMC4wNzMsMjIuOTI3bC05Ljc3MiwyMi45MjJMNTM0LjQ2Miw1Mi4xMTd6IE02MTkuMzU2LDExMy4yNDhoMi4yOThjMC4zMDItMy4yMTEtMC4xNi01LjY1NiwxLjgzNC01LjY1NmMzLjA1MywwLDYuNzEzLDYuNTc1LDE4Ljc3OSw2LjU3NWMxMS43NTQsMCwyMS4yMi05LjMyNiwyMS4yMi0yMy41MzdjMC0xMC41NDMtNS4wNDQtMTcuMjcxLTE3LjQxLTE4LjAzNWwtNS4xOS0wLjMwNGMtMTAuMDc0LTAuNjA5LTE2LjAyNi0zLjM2Ni0xNi4wMjYtMTEuMzEyYzAtNy45NDMsNi4yNjEtMTIuMjI4LDE0LjA0Ny0xMi4yMjhjMTIuMDU5LDAsMTYuNjQzLDcuOTQ3LDE3LjcwNywxNi42NjVoMS45OTFsLTAuNjA5LTE4LjE5aC0yLjE0NHYxLjIyM2MwLDIuMTQzLTAuMTQ2LDMuMjA4LTEuMDY5LDMuMjA4Yy0xLjUyMSwwLTcuMTczLTUuMzQ2LTE1LjQyMi01LjM0NmMtMTEuOTExLDAtMTkuMDg0LDguNzExLTE5LjA4NCwxOS43MWMwLDE1Ljg5Niw5LjYyNSwxNy4yNzMsMTkuNTQ0LDE4LjM0OWM4LjA4NywwLjkxMywxNy4yNTQsMS4wNjMsMTcuMjU0LDEzLjEzNmMwLDguNzE1LTYuNDEyLDE0LjIxNS0xNC44MDcsMTQuMjE1Yy0xNi4wNCwwLTIwLjAxMS0xMy43NTQtMjEuMjMyLTIxLjU0NWgtMS45ODRMNjE5LjM1NiwxMTMuMjQ4eiBNNjczLjg3Myw5OC41NzRjLTQuMjc3LDAtNy43OTgsMy41MTgtNy43OTgsNy43OTJjMCw0LjI4NiwzLjUyMSw3LjgwMSw3Ljc5OCw3LjgwMWM0LjEyLDAsNy43ODMtMy41MTUsNy43ODMtNy44MDFDNjgxLjY1NiwxMDIuMDkxLDY3Ny45OTMsOTguNTc0LDY3My44NzMsOTguNTc0IE02OTguNDUzLDEwOS44ODVoLTEyLjA2N3YyLjQ1aDM2LjV2LTIuNDVINzExLjI4VjY2Ljc4OGMyLjc1NC01LjE5OCw5LjMxNi0xOC4wMzcsMjIuMTQzLTE4LjAzN2M0Ljg4NiwwLDkuMDA0LDIuNzU2LDkuMDA0LDExLjE1N3Y0OS45NzhoLTEyLjA1NXYyLjQ1aDM2Ljk0N3YtMi40NWgtMTIuMDYxVjYzLjU3N2MwLTkuMDExLTQuNTg0LTE3LjI2Ny0yMC45MTQtMTcuMjY3Yy0xMS4xNDksMC0xOC43ODYsOC4yNTYtMjIuNzU3LDE1LjU5aC0wLjMwOVY0Ni4zMWMtMi43NTEsMy4zNjUtNS40OTIsMy4zNjUtMTIuODI1LDMuMzY1aC0xMi4wNjd2Mi40NDFoMTIuMDY3VjEwOS44ODVMNjk4LjQ1MywxMDkuODg1eiBNNzc0Ljk1OSwxMDkuODg1aC0xMi4yMjZ2Mi40NUg4MDB2LTIuNDVoLTEyLjIyM1YwYy0zLjA1MSwzLjUxNy03LjkzOCwzLjgyLTEyLjgxNywzLjgyaC0xMi4yMjZ2Mi40NDRoMTIuMjI2TDc3NC45NTksMTA5Ljg4NUw3NzQuOTU5LDEwOS44ODV6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTExNy40MjMsOTcuMjA0YzAsOC44NjIsNS40OTYsMTYuOTYzLDIwLjc2NywxNi45NjNjMTMuNTg4LDAsMjAuMDAzLTEyLjIyNiwyMS4zNzUtMTUuNzQyaDAuMzA5djEzLjkwNGgyNS4wNDJ2LTIuNDQzaC0xMi4yMTRWNDYuMzFjLTMuMDU2LDMuMDU4LTcuOTQxLDMuMzU5LTEyLjgyOSwzLjM1OWgtMTIuMDYxdjIuNDQ3aDEyLjA2MXYzNi4yMmMwLDExLjMwNy05LjQ2NywyMy4zOTEtMjAuMTU1LDIzLjM5MWMtNS44MDgsMC05LjQ2Ny00LjEzNi05LjQ2Ny0xMC43MDVWNDYuMzFjLTMuMDU1LDMuMDU4LTcuOTQxLDMuMzU5LTEyLjgyOSwzLjM1OWgtMTIuMjE0djIuNDQ3aDEyLjIxNHY0NS4wODhIMTE3LjQyM3ogTTE5My4xNjQsMTAwLjU2NmMwLDEwLjA4LDcuMDIxLDEzLjYwMSwxNy43MDcsMTMuNjAxYzExLjMwMiwwLDE1LjcyOS03Ljk1LDE2LjgwMy0xMS42MTVsLTIuMjk0LTAuNDZjLTAuOTEyLDIuNi00LjI3NCw5LjYzNS0xMS45MDgsOS42MzVjLTQuODg5LDAtNy40ODctMS45ODgtNy40ODctOC4yNThWNTIuMTE3aDIxLjA3NlY0OS42N2gtMjEuMDc2VjI4LjI3M2gtMS44MjhjLTIuNiwxNC45NzctOC4zOTgsMjEuNzAxLTI0LjI3OSwyMS4zOTZ2Mi40NDdoMTMuMjg4TDE5My4xNjQsMTAwLjU2NkwxOTMuMTY0LDEwMC41NjZ6IE0yODEuNDE3LDkwLjc3N2MtMS4wNjUsOS4zMjQtNy43ODcsMjAuOTQ5LTIzLjIwOSwyMC45NDljLTE3LjEwMiwwLTE3LjcxNC0xMi4yMjktMTcuNzE0LTI1LjUyNlY3Mi45MDZjMC0xNC41MjEsMy41MTYtMjQuMTU1LDE4LjMyLTI0LjE1NWM0LjQzNCwwLDExLjQ1NiwxLjM3OSwxMS40NTYsNC43NDRjMCwyLjI4OC0zLjgxMywxLjk4Ny0zLjgxMyw4LjEwM2MwLDMuMjA5LDIuNTk1LDYuNTY2LDcuMzI2LDYuNTY2YzMuODE1LDAsNy4zMjctMy4wNjEsNy4zMjctNy42NDZjMC05LjQ3MS0xMS4zMDEtMTQuMjA4LTIxLjk4Ni0xNC4yMDhjLTE4LjAxOCwwLTMzLjI4MywxNi41MDgtMzMuMjgzLDM2LjUyM2MwLDE3LjI2OSwxMi42NjgsMzEuMzMzLDMyLjM2NywzMS4zMzNjMTUuMTEzLDAsMjUuMTk0LTExLjc2NiwyNS42NDgtMjMuMzg5SDI4MS40MTdMMjgxLjQxNyw5MC43Nzd6IE0yOTIuNzEyLDEwOS44ODVIMjgwLjY1djIuNDQzaDM2LjV2LTIuNDQzaC0xMS42MDZWNjYuNzg4YzIuNzM5LTUuMTksOS4zMTItMTguMDM3LDIyLjE0Mi0xOC4wMzdjNC44OCwwLDkuMDA0LDIuNzU2LDkuMDA0LDExLjE2NXY0OS45N2gtMTIuMDYxdjIuNDQzaDM2Ljk1M3YtMi40NDNoLTEyLjA2N1Y2My41NzdjMC05LjAxNS00LjU3Ni0xNy4yNjctMjAuOTIyLTE3LjI2N2MtMTEuMTQsMC0xOC43NzcsOC4yNTItMjIuNzQ4LDE1LjU5aC0wLjMwMVYwYy0zLjA1OCwzLjUxNy03Ljk0NCwzLjgyNi0xMi44MzEsMy44MjZIMjgwLjY1VjYuMjdoMTIuMDYyVjEwOS44ODVMMjkyLjcxMiwxMDkuODg1eiIvPjxwYXRoIGZpbGw9IiNFRDFDMjQiIGQ9Ik0xNC41MSwxMDkuODg1SDB2Mi40NDNoNDcuOTUzYzMxLjMwMiwwLDUxLjkxLTIwLjQ3Myw1MS45MS01My43OTNjMC0yMC4zMjgtMTEuNDQ5LTUzLjc5OC01Mi4wNjMtNTMuNzk4SDB2Mi40NDloMTQuNTFWMTA5Ljg4NXogTTMwLjA4Miw3LjE4Nmg3LjQ4MWMzNy40MTEsMCw0NC44OTgsMjUuMjE0LDQ0Ljg5OCw1MS4zNWMwLDQ2LjE1NS0yNS41MDQsNTEuMzUtMzkuMjQ1LDUxLjM1SDMwLjA4MlY3LjE4NnoiLz48cGF0aCBmaWxsPSIjRUQxQzI0IiBkPSJNNDQ2LjQ4NSwxMTMuMjVoMS45NzlWMTUuNDM4YzAtNi4yNjksMS4yMjMtOC4yNTEsNy45NDQtOC4yNTFoNi43MTF2LTIuNDVoLTMyLjIxNXYyLjQ0OWg3LjE3MmM2LjcyNywwLDcuOTQ1LDEuOTgyLDcuOTQ1LDguMjUxdjY5LjA4MWgtMC4zMTFMMzg3Ljk5Miw0LjczN2gtMzIuMDYzdjIuNDQ5aDE0LjY1NXY5My45OTRjMCw3LjMzLTIuNDQxLDguNzA1LTkuNDU5LDguNzA1aC01LjE5NnYyLjQ1aDMyLjY3NHYtMi40NWgtNi4xMDJjLTcuMDI2LDAtOS40NjUtMS4zNzUtOS40NjUtOC43MDVWMTIuMDc5aDAuM0w0NDYuNDg1LDExMy4yNXoiLz48L3N2Zz4=)
+  * Menu
+
+  *     * News
+    * Home
+    * Politics
+    * Business
+    * Society
+    * Sport
+    * Education
+    * Health
+    * Tech & Media
+    * International
+    * Europe
+  *     * Features
+    * Home
+    * Books
+    * Columns
+    * Life & culture
+    * 10 Questions
+    * Travel
+  *     * Blogs
+    * Home
+    * Submit your blog…
+  *     * Jobs
+    * Home
+    * Find out more…
+  *     * Housing
+    * Home
+  *     * Best of the Web
+    * Home
+  *     * Donate
+  *     * Advertise
+
+![Dutch News brings daily news from The Netherlands in
+
+English](data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI4MDBweCIgaGVpZ2h0PSIxMTZweCIgdmlld0JveD0iMCAwIDgwMCAxMTYiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDgwMCAxMTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIGQ9Ik00NzIuMzE2LDc0LjI4aDM5Ljg1NmMwLjkxNiwwLDEuMzcxLTAuNDYyLDEuMzcxLTEuMzgyYzAtNi40MTUtOS4zMS0yNi41ODgtMjcuMzM1LTI2LjU4OGMtMTYuNjM0LDAtMjguNTUyLDE5LjEwNS0yOC41NTIsMzMuOTI1YzAsMjAuMTcyLDEyLjUyMSwzMy45MzIsMzAuMzksMzMuOTMyYzE0LjA0NSwwLDI0LjQyNy05LjQ3MiwyNi44NzctMjMuNTM3aC0yLjQ1Yy0yLjEyOCwxMi41MzEtMTEuNjAxLDIxLjA5LTI0LjQyNywyMS4wOWMtMTQuMzUzLDAtMTUuODgzLTEyLjIyNy0xNS43My0yMy4wNzZWNzQuMjh6IE00OTguODg0LDcwLjc2MmMwLDAuNjA5LTAuMzA0LDEuMDcxLTEuMDcsMS4wNzFoLTI1LjQ5OHYtNC4yODFjMC05Ljc3NiwzLjIwOS0xOC44MDIsMTMuODkzLTE4LjgwMmMxMC4wODcsMCwxMi42NzYsOS4wMjUsMTIuNjc2LDE4LjgwMlY3MC43NjJ6IE01NDcuNTk4LDExNmgxLjA2MWwxNi4xOS0zOC4wNTNMNTgxLjc5NSwxMTZoMS4wNzJsMjIuNDUyLTUxLjgxMmMzLjM1MS03Ljc5NCw1LjE4MS0xMi4wNzIsMTQuNjUtMTIuMDcydi0yLjQ0MWgtMjYuNTY5djIuNDQxaDQuMTI0YzUuMTkyLDAsNy4xNzksMS42ODMsNy4xNzksNC41ODFjMCwyLjI5OS0wLjYxOCw0Ljc0Mi0yLjQ0LDguODY3bC0xNC41MDksMzMuNDcybC0yMC4xNTMtNDYuOTJoMTIuMjEzdi0yLjQ0MUg1MTEuMjV2Mi40NDFoOC4yNDNMNTQ3LjU5OCwxMTZ6IE01MzQuNDYyLDUyLjExN2gxOS4wOTJsMTAuMDc0LDIyLjkyN2wtOS43NzMsMjIuOTIyTDUzNC40NjIsNTIuMTE3eiBNNjE5LjM1NiwxMTMuMjQ4aDIuMjk4YzAuMzAyLTMuMjExLTAuMTYtNS42NTYsMS44MzQtNS42NTZjMy4wNTMsMCw2LjcxMyw2LjU3NSwxOC43NzksNi41NzVjMTEuNzU0LDAsMjEuMjItOS4zMjYsMjEuMjItMjMuNTM3YzAtMTAuNTQzLTUuMDQ0LTE3LjI3LTE3LjQxLTE4LjAzNWwtNS4xOTEtMC4zMDRjLTEwLjA3NC0wLjYxLTE2LjAyNi0zLjM2Ni0xNi4wMjYtMTEuMzEyYzAtNy45NDQsNi4yNjEtMTIuMjI4LDE0LjA0Ny0xMi4yMjhjMTIuMDU4LDAsMTYuNjQyLDcuOTQ3LDE3LjcwNywxNi42NjVoMS45OTFsLTAuNjA5LTE4LjE5aC0yLjE0NHYxLjIyM2MwLDIuMTQzLTAuMTQ2LDMuMjA4LTEuMDY5LDMuMjA4Yy0xLjUyMSwwLTcuMTczLTUuMzQ2LTE1LjQyMi01LjM0NmMtMTEuOTExLDAtMTkuMDg0LDguNzExLTE5LjA4NCwxOS43MTFjMCwxNS44OTYsOS42MjUsMTcuMjczLDE5LjU0NCwxOC4zNDhjOC4wODcsMC45MTMsMTcuMjU0LDEuMDYzLDE3LjI1NCwxMy4xMzZjMCw4LjcxNS02LjQxMywxNC4yMTUtMTQuODA3LDE0LjIxNWMtMTYuMDQsMC0yMC4wMTEtMTMuNzU0LTIxLjIzMy0yMS41NDVoLTEuOTg0TDYxOS4zNTYsMTEzLjI0OHogTTY3My44NzQsOTguNTc0Yy00LjI3OCwwLTcuNzk4LDMuNTE4LTcuNzk4LDcuNzkyYzAsNC4yODYsMy41Miw3LjgwMSw3Ljc5OCw3LjgwMWM0LjEyLDAsNy43ODMtMy41MTUsNy43ODMtNy44MDFDNjgxLjY1NywxMDIuMDkxLDY3Ny45OTQsOTguNTc0LDY3My44NzQsOTguNTc0IE02OTguNDU0LDEwOS44ODVoLTEyLjA2OHYyLjQ1aDM2LjV2LTIuNDVoLTExLjYwNlY2Ni43ODhjMi43NTQtNS4xOTgsOS4zMTYtMTguMDM3LDIyLjE0Mi0xOC4wMzdjNC44ODYsMCw5LjAwNCwyLjc1Niw5LjAwNCwxMS4xNTd2NDkuOTc4aC0xMi4wNTR2Mi40NWgzNi45NDd2LTIuNDVoLTEyLjA2MVY2My41NzdjMC05LjAxMS00LjU4NC0xNy4yNjctMjAuOTE0LTE3LjI2N2MtMTEuMTQ5LDAtMTguNzg2LDguMjU2LTIyLjc1NywxNS41OWgtMC4zMDhWNDYuMzFjLTIuNzUxLDMuMzY1LTUuNDkyLDMuMzY1LTEyLjgyNSwzLjM2NWgtMTIuMDY4djIuNDQxaDEyLjA2OFYxMDkuODg1eiBNNzc0Ljk1OSwxMDkuODg1aC0xMi4yMjV2Mi40NUg4MDB2LTIuNDVoLTEyLjIyMlYwYy0zLjA1MSwzLjUxNy03LjkzOSwzLjgyLTEyLjgxOCwzLjgyaC0xMi4yMjV2Mi40NDRoMTIuMjI1VjEwOS44ODV6Ii8+PHBhdGggZD0iTTExNy40MjMsOTcuMjA0YzAsOC44NjMsNS40OTYsMTYuOTYzLDIwLjc2NywxNi45NjNjMTMuNTg4LDAsMjAuMDAzLTEyLjIyNSwyMS4zNzUtMTUuNzQyaDAuMzA4djEzLjkwNGgyNS4wNDJ2LTIuNDQzaC0xMi4yMTRWNDYuMzFjLTMuMDU1LDMuMDU4LTcuOTQxLDMuMzU5LTEyLjgyOSwzLjM1OWgtMTIuMDZ2Mi40NDdoMTIuMDZ2MzYuMjJjMCwxMS4zMDYtOS40NjYsMjMuMzktMjAuMTU1LDIzLjM5Yy01LjgwOCwwLTkuNDY3LTQuMTM1LTkuNDY3LTEwLjcwNFY0Ni4zMWMtMy4wNTQsMy4wNTgtNy45NDEsMy4zNTktMTIuODI5LDMuMzU5aC0xMi4yMTR2Mi40NDdoMTIuMjE0Vjk3LjIwNHogTTE5My4xNjQsMTAwLjU2NmMwLDEwLjA4LDcuMDIxLDEzLjYwMSwxNy43MDcsMTMuNjAxYzExLjMwMiwwLDE1LjcyOS03Ljk1LDE2LjgwMy0xMS42MTVsLTIuMjk0LTAuNDZjLTAuOTEyLDIuNi00LjI3NCw5LjYzNS0xMS45MDgsOS42MzVjLTQuODg5LDAtNy40ODctMS45ODktNy40ODctOC4yNThWNTIuMTE3aDIxLjA3NnYtMi40NDdoLTIxLjA3NlYyOC4yNzNoLTEuODI4Yy0yLjYsMTQuOTc3LTguMzk5LDIxLjcwMS0yNC4yOCwyMS4zOTZ2Mi40NDdoMTMuMjg4VjEwMC41NjZ6IE0yODEuNDE3LDkwLjc3OGMtMS4wNjUsOS4zMjQtNy43ODcsMjAuOTQ4LTIzLjIwOSwyMC45NDhjLTE3LjEwMSwwLTE3LjcxNC0xMi4yMjktMTcuNzE0LTI1LjUyNlY3Mi45MDZjMC0xNC41MjEsMy41MTYtMjQuMTU1LDE4LjMyMS0yNC4xNTVjNC40MzMsMCwxMS40NTYsMS4zNzksMTEuNDU2LDQuNzQ0YzAsMi4yODgtMy44MTQsMS45ODctMy44MTQsOC4xMDNjMCwzLjIwOCwyLjU5NSw2LjU2Niw3LjMyNiw2LjU2NmMzLjgxNiwwLDcuMzI4LTMuMDYsNy4zMjgtNy42NDZjMC05LjQ3MS0xMS4zMDEtMTQuMjA4LTIxLjk4Ny0xNC4yMDhjLTE4LjAxNywwLTMzLjI4MywxNi41MDgtMzMuMjgzLDM2LjUyM2MwLDE3LjI2OSwxMi42NjgsMzEuMzMzLDMyLjM2NywzMS4zMzNjMTUuMTE0LDAsMjUuMTk1LTExLjc2NSwyNS42NDktMjMuMzg5SDI4MS40MTd6IE0yOTIuNzEyLDEwOS44ODVoLTEyLjA2MnYyLjQ0M2gzNi41di0yLjQ0M2gtMTEuNjA3VjY2Ljc4OGMyLjc0LTUuMTksOS4zMTMtMTguMDM3LDIyLjE0Mi0xOC4wMzdjNC44OCwwLDkuMDA0LDIuNzU2LDkuMDA0LDExLjE2NXY0OS45N2gtMTIuMDYxdjIuNDQzaDM2Ljk1NHYtMi40NDNoLTEyLjA2OFY2My41NzdjMC05LjAxNS00LjU3Ni0xNy4yNjctMjAuOTIyLTE3LjI2N2MtMTEuMTM5LDAtMTguNzc3LDguMjUyLTIyLjc0OCwxNS41OWgtMC4zMDFWMGMtMy4wNTcsMy41MTctNy45NDQsMy44MjYtMTIuODMxLDMuODI2aC0xMi4wNjJWNi4yN2gxMi4wNjJWMTA5Ljg4NXoiLz48cGF0aCBmaWxsPSIjRDkxRjMwIiBkPSJNMTQuNTEsMTA5Ljg4NUgwdjIuNDQzaDQ3Ljk1M2MzMS4zMDIsMCw1MS45MTEtMjAuNDcyLDUxLjkxMS01My43OTNjMC0yMC4zMjgtMTEuNDUtNTMuNzk4LTUyLjA2NC01My43OThIMHYyLjQ0OWgxNC41MVYxMDkuODg1eiBNMzAuMDgyLDcuMTg2aDcuNDgyYzM3LjQxMSwwLDQ0Ljg5OCwyNS4yMTQsNDQuODk4LDUxLjM1YzAsNDYuMTU1LTI1LjUwNCw1MS4zNS0zOS4yNDUsNTEuMzVIMzAuMDgyVjcuMTg2eiIvPjxwYXRoIGZpbGw9IiNEOTFGMzAiIGQ9Ik00NDYuNDg1LDExMy4yNWgxLjk3OVYxNS40MzhjMC02LjI2OSwxLjIyMy04LjI1MSw3Ljk0NS04LjI1MWg2LjcxMVY0LjczN2gtMzIuMjE1djIuNDQ5aDcuMTcyYzYuNzI2LDAsNy45NDUsMS45ODIsNy45NDUsOC4yNTF2NjkuMDhoLTAuMzExbC01Ny43MTgtNzkuNzhoLTMyLjA2NHYyLjQ0OWgxNC42NTV2OTMuOTk0YzAsNy4zMy0yLjQ0MSw4LjcwNS05LjQ1OSw4LjcwNWgtNS4xOTZ2Mi40NWgzMi42NzR2LTIuNDVoLTYuMTAyYy03LjAyNiwwLTkuNDY0LTEuMzc1LTkuNDY0LTguNzA1VjEyLjA3OWgwLjI5OUw0NDYuNDg1LDExMy4yNXoiLz48L2c+PC9zdmc+)
+
+Friday 07 June 2019
+
+  * News
+    * Home
+    * Politics
+    * Business
+    * Society
+    * Sport
+    * Education
+    * Health
+    * Tech & Media
+    * International
+    * Europe
+  * Features
+    * Home
+    * Books
+    * Columns
+    * Life & culture
+    * 10 Questions
+    * Travel
+  * Blogs
+    * Home
+    * Submit your blog…
+  * Jobs
+    * Home
+    * Find out more…
+  * Housing
+    * Home
+  * Best of the Web
+    * Home
+  * Donate
+  * Advertise
+
+# Police catch 1,250 people driving under the influence of drugs
+
+Society
+
+September 28, 2018
+
+![](https://www.dutchnews.nl/wpcms/wp-content/uploads/2016/07/Breathalyser-
+
+test.jpg)
+
+Photo: Depositphotos.com
+
+Dutch police have caught 1,250 people driving under the influence of drugs
+since on-the-spot saliva tests were introduced a year ago, broadcaster NOS
+said on Friday.
+
+Most had taken cannabis but a number were also driving after taking
+amphetamines and cocaine, police said on Friday. Almost half those stopped had
+more than one drug in their system, including alcohol.
+
+The public prosecution department said the figures are a major concern. 'It is
+worrying that so many people are driving after taking drugs,' the organisation
+said. Police spokesman Achilles Damen said the figures show that police will
+continue to use the test on drivers in spot checks.
+
+New legislation introduced last July makes it easier for the authorities to
+prosecute people caught driving under the influence of drugs. So far, 350
+cases have gone to court. The most common sentence is a fine plus a driving
+ban
+
+The fine for cannabis use is €850 pus a driving ban of a couple of months.
+Those caught using other drugs face community service plus longer driving
+bans, NOS said.
+
+The saliva test indicates that the person has been taking drugs, but a lab
+test is needed to establish exactly what. There is no 'safe' limit in law,
+unlike with alcohol.
+
+**DutchNews.nl** has been free for 12 years, but now we are asking our readers
+to help. Your donation will enable us to keep providing you with fair and
+accurate news and features about all things Dutch.  
+**Donate via Ideal, credit card or Paypal.**
+
+### Features
+
+![](https://www.dutchnews.nl/wpcms/wp-content/uploads/2015/06/euthanasia.jpg)
+
+Why international newspapers reported the death of Noa Pothoven as
+'euthanasia'...when it wasn't
+
+![](https://www.dutchnews.nl/wpcms/wp-content/uploads/2019/06/renevanassel-
+
+werklozeasielzoekers-310519-FINAL-94x70.jpg)
+
+Wynia's Week: Refugees need to work before they get settled in
+
+![](https://www.dutchnews.nl/wpcms/wp-content/uploads/2020/03/Rune-100x67.jpg)
+
+'I am here because of the international feeling and flavour of Amsterdam'
+
+![](https://www.dutchnews.nl/wpcms/wp-
+
+content/uploads/2019/05/SeniorSchool4-100x63.jpg)
+
+Amity opens new senior school in Amstelveen
+
+* * *
+
+* * *
+
+###### ## Daily newsletter
+
+SIGN UP
+
+* * *
+
+###### ## Search
+
+* * *
+
+### Best of the web
+
+  * She's watched over this WWII soldier's grave for 74 years
+  * Dutch Eurosceptics dream of united front to roll back EU
+  * Major city or model village? Amsterdam miniaturised – in pictures
+
+* * *
+
+* * *
+
+* * *
+
+  * News
+    * Politics
+    * Business
+    * Society
+    * Sport
+    * Health
+    * Education
+    * Tech & media
+  * Features
+    * Columns
+    * Life & culture
+    * 10 Questions
+    * Best of the web
+    * Podcast
+  * Community
+    * Blogs
+    * Jobs
+    * Housing
+    * Comments
+    * Facebook
+      * Twitter
+      * LinkedIn
+  * About us
+    * The team
+    * Advertising
+    * RSS Feed
+    * Privacy
+    * Contact
+    * Terms of use
+  * Services Amsterdam
+    * Amsterdam bed and breakfast
+    * Klusjesman Amsterdam
+    * Loodgieter Amsterdam
+      * Timmerman Amsterdam
+  * Other services
+    * SEO by Webton
+    * Dutch health insurance
+    * Voice Over Cowboys
+    * Voice-over
+
+* * *
+
+(C) 2019 DutchNews | website by Vindustries
+
+![sponsored](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)
+
+## Help us to keep providing you with independent daily news and longer reads
+
+Dutchnews.nl is independent and receives no state or other funding. We work
+with professional journalists, translators and photo agencies who understand
+the Netherlands well. All this comes at a price.
+
+**Donate**
+
+**Remind me later**
+
+**No thanks**
+
+×
+
+_[ v]: View this template_ [t]: Discuss this template _[e]: Edit this
+template_ [v]: View this template *[RSS]: Really Simple Syndication
+
+  *[ v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[v]: View this template
+  *[RSS]: Really Simple Syndication
+

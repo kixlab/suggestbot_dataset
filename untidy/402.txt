@@ -1,0 +1,901 @@
+
+
+![Phys.org](https://cf3e497594.site.internapcdn.net/tmpl/v6/img/logo-
+
+header.png)
+
+Topics
+
+            
+                            * Week's top
+                * Latest news
+                * Unread news
+                * Subscribe
+            
+
+### Science X Account
+
+__
+
+__
+
+Remember me
+
+Sign In
+
+Click here to sign in with or
+
+Forget Password?
+
+Not a member? **Sign up**
+
+Learn more
+
+            
+                            * Nanotechnology
+                * Physics
+                * Earth
+                * Astronomy & Space
+                * Technology
+                * Chemistry
+                * Biology
+                * Other Sciences
+            
+                *         * share this!
+            
+                * Share
+            
+                * Twit
+            
+                * Share
+            
+                * Email
+            
+                1. Home
+                2. Technology
+                3. Energy & Green Tech
+            
+                *         *         * * * *
+            
+
+December 11, 2006 feature
+
+# Why a hydrogen economy doesn't make sense
+
+, Phys.org
+
+![Why a hydrogen economy doesn't make
+
+sense](https://3c1703fe8d.site.internapcdn.net/newman/csz/news/800/2006/HydrogenChart.jpg)
+This chart compares the useful transport energy requirements for a vehicle
+powered from a hydrogen process (left) vs. electricity (right). Image Credit:
+Ulf Bossel.
+
+In a recent study, fuel cell expert Ulf Bossel explains that a hydrogen
+economy is a wasteful economy. The large amount of energy required to isolate
+hydrogen from natural compounds (water, natural gas, biomass), package the
+light gas by compression or liquefaction, transfer the energy carrier to the
+user, plus the energy lost when it is converted to useful electricity with
+fuel cells, leaves around 25% for practical use — an unacceptable value to run
+an economy in a sustainable future. Only niche applications like submarines
+and spacecraft might use hydrogen.
+
+“More energy is needed to isolate hydrogen from natural compounds than can
+ever be recovered from its use,” Bossel explains to _PhysOrg.com_. “Therefore,
+making the new chemical energy carrier form natural gas would not make sense,
+as it would increase the gas consumption and the emission of CO 2. Instead,
+the dwindling fossil fuel reserves must be replaced by energy from renewable
+sources.”
+
+While scientists from around the world have been piecing together the
+technology, Bossel has taken a broader look at how realistic the use of
+hydrogen for carrying energy would be. His overall energy analysis of a
+hydrogen economy demonstrates that high energy losses inevitably resulting
+from the laws of physics mean that a hydrogen economy will never make sense.
+
+“The advantages of hydrogen praised by journalists (non-toxic, burns to water,
+abundance of hydrogen in the Universe, etc.) are misleading, because the
+production of hydrogen depends on the availability of energy and water, both
+of which are increasingly rare and may become political issues, as much as oil
+and natural gas are today,” says Bossel.
+
+“There is a lot of money in the field now,” he continues. “I think that it was
+a mistake to start with a ‘Presidential Initiative’ rather with a thorough
+analysis like this one. Huge sums of money were committed too soon, and now
+even good scientists prostitute themselves to obtain research money for their
+students or laboratories—otherwise, they risk being fired. But the laws of
+physics are eternal and cannot be changed with additional research, venture
+capital or majority votes.”
+
+Even though many scientists, including Bossel, predict that the technology to
+establish a hydrogen economy is within reach, its implementation will never
+make economic sense, Bossel argues.
+
+“In the market place, hydrogen would have to compete with its own source of
+energy, i.e. with ("green") electricity from the grid,” he says. “For this
+reason, creating a new energy carrier is a no-win solution. We have to solve
+an energy problem not an energy carrier problem."
+
+**A wasteful process**
+
+In his study, Bossel analyzes a variety of methods for synthesizing, storing
+and delivering hydrogen, since no single method has yet proven superior. To
+start, hydrogen is not naturally occurring, but must be synthesized.
+
+“Ultimately, hydrogen has to be made from renewable electricity by
+electrolysis of water in the beginning,” Bossel explains, “and then its energy
+content is converted back to electricity with fuel cells when it’s recombined
+with oxygen to water. Separating hydrogen from water by electrolysis requires
+massive amounts of electrical energy and substantial amounts of water.”
+
+Also, hydrogen is not a source of energy, but only a carrier of energy. As a
+carrier, it plays a role similar to that of water in a hydraulic heating
+system or electrons in a copper wire. When delivering hydrogen, whether by
+truck or pipeline, the energy costs are several times that for established
+energy carriers like natural gas or gasoline. Even the most efficient fuel
+cells cannot recover these losses, Bossel found. For comparison, the "wind-to-
+wheel" efficiency is at least three times greater for electric cars than for
+hydrogen fuel cell vehicles.
+
+Another headache is storage. When storing liquid hydrogen, some gas must be
+allowed to evaporate for safety reasons—meaning that after two weeks, a car
+would lose half of its fuel, even when not being driven. Also, Bossel found
+that the output-input efficiency cannot be much above 30%, while advanced
+batteries have a cycle efficiency of above 80%. In every situation, Bossel
+found, the energy input outweighs the energy delivered by a factor of three to
+four.
+
+“About four renewable power plants have to be erected to deliver the output of
+one plant to stationary or mobile consumers via hydrogen and fuel cells,” he
+writes. “Three of these plants generate energy to cover the parasitic losses
+of the hydrogen economy while only one of them is producing useful energy.”
+
+This fact, he shows, cannot be changed with improvements in technology.
+Rather, the one-quarter efficiency is based on necessary processes of a
+hydrogen economy and the properties of hydrogen itself, e.g. its low density
+and extremely low boiling point, which increase the energy cost of compression
+or liquefaction and the investment costs of storage.
+
+**The alternative: An electron economy**
+
+Economically, the wasteful hydrogen process translates to electricity from
+hydrogen and fuel cells costing at least four times as much as electricity
+from the grid. In fact, electricity would be much more efficiently used if it
+were sent directly to the appliances instead. If the original electricity
+could be directly supplied by wires, as much as 90% could be used in
+applications.
+
+“The two key issues of a secure and sustainable energy future are harvesting
+energy from renewable sources and finding the highest energy efficiency from
+source to service,” he says. “Among these possibilities, biomethane [which is
+already being used to fuel cars in some areas] is an important, but only
+limited part of the energy equation. Electricity from renewable sources will
+play the dominant role.”
+
+To Bossel, this means focusing on the establishment of an efficient “electron
+economy.” In an electron economy, most energy would be distributed with
+highest efficiency by electricity and the shortest route in an existing
+infrastructure could be taken. The efficiency of an electron economy is not
+affected by any wasteful conversions from physical to chemical and from
+chemical to physical energy. In contrast, a hydrogen economy is based on two
+such conversions (electrolysis and fuel cells or hydrogen engines).
+
+“An electron economy can offer the shortest, most efficient and most
+economical way of transporting the sustainable ‘green’ energy to the
+consumer,” he says. “With the exception of biomass and some solar or
+geothermal heat, wind, water, solar, geothermal, heat from waste incineration,
+etc. become available as electricity. Electricity could provide power for
+cars, comfortable temperature in buildings, heat, light, communication, etc.
+
+“In a sustainable energy future, electricity will become the prime energy
+carrier. We now have to focus our research on electricity storage, electric
+cars and the modernization of the existing electricity infrastructure.”
+
+Citation: Bossel, Ulf. “Does a Hydrogen Economy Make Sense?” _Proceedings of
+the IEEE_. Vol. 94, No. 10, October 2006.
+
+_By Lisa Zyga, Copyright 2006 Physorg.com_
+
+* * *
+
+Explore further
+
+Estimation of technology level required for low-cost renewable hydrogen
+production
+
+* * *
+
+**Citation** : Why a hydrogen economy doesn't make sense (2006, December 11)
+retrieved 6 June 2019 from https://phys.org/news/2006-12-hydrogen-economy-
+doesnt.html
+
+This document is subject to copyright. Apart from any fair dealing for the
+purpose of private study or research, no part may be reproduced without the
+written permission. The content is provided for information purposes only.
+
+15 shares
+
+            
+                            * Facebook
+            
+                * Twitter
+            
+                * Email
+            
+
+Feedback to editors
+
+            
+                            * Featured
+                * Last Comments
+                * Popular
+            
+
+#### Polarization-encryption based data storage in 3-D Janus plasmonic helical
+
+nanoapertures
+
+12 hours ago
+
+0
+
+#### Researchers find a way to produce free-standing films of perovskite
+
+oxides
+
+12 hours ago
+
+0
+
+#### Student gives possible explanation for female mating preferences that
+
+decrease male survival chances
+
+12 hours ago
+
+0
+
+#### Study shows penguins attract seabirds when they corral fish
+
+Jun 05, 2019
+
+0
+
+#### Researchers discover bacterial diversity in Justinianic Plague
+
+Jun 05, 2019
+
+0
+
+* * *
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+
+##### Could climate change make Siberia habitable for humans?
+
+2 hours ago
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+
+##### Planck finds no new evidence for cosmic anomalies
+
+5 hours ago
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+
+##### Under the surface: Understanding the (ultra-small) structure of silicon
+
+nanocrystals
+
+5 hours ago
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+
+##### Study confirms banded iron formations originated from oxidized iron
+
+5 hours ago
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+
+##### Google's challenge to game consoles to kick off in November
+
+7 hours ago
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+
+##### The deep learning dive: how cells regulate division
+
+7 hours ago
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+
+##### Argentine fossils take oak and beech family history far into Southern
+
+Hemisphere
+
+7 hours ago
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+
+##### Unusual Japanese plant inspires recalculation of equation used to model
+
+leaf arrangement patterns
+
+7 hours ago
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+
+##### Is sex primarily a strategy against transmissible cancer?
+
+7 hours ago
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+
+##### Decoding Beethoven's music style using data science
+
+7 hours ago
+
+* * *
+
+### Relevant PhysicsForums posts
+
+#### Heat transfer between double window panes
+
+Jun 05, 2019
+
+#### What machinery can these parts be used in?
+
+Jun 04, 2019
+
+#### Vertical wind turbine with two concentric rotors
+
+Jun 03, 2019
+
+#### Holding on to your hat, I mean roof
+
+Jun 01, 2019
+
+#### Remarkable New Marine Propulsion Systems
+
+May 30, 2019
+
+#### Use of a Water-Cooled Diesel Generator as an Off-Grid CHP System
+
+May 28, 2019
+
+More from General Engineering
+
+* * *
+
+##
+
+            
+                            * ## Related Stories
+            
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+
+##### Estimation of technology level required for low-cost renewable hydrogen
+
+production
+
+Feb 01, 2019
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+
+##### Hydrogen trains are coming – can they get rid of diesel for good?
+
+Jan 30, 2019
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+
+##### A powerful catalyst for electrolysis of water that could help harness
+
+renewable energy
+
+Jan 28, 2019
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+
+##### Proton transport 'highway' may pave way to better high-power batteries
+
+Jan 28, 2019
+
+##### Emissions targets for transport sector can't be met using natural gas
+
+alone
+
+Jan 28, 2019
+
+##### Maximizing the potential of MXenes
+
+Jan 31, 2019
+
+            
+                            * ## Recommended for you
+            
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+
+##### China's quest for clean, limitless energy heats up
+
+Apr 28, 2019
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+
+##### Dutchman ends 'world's longest electric car trip' in Australia
+
+Apr 07, 2019
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+
+##### Global energy demand to soar one third by 2040: BP
+
+Feb 14, 2019
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+
+##### Scientists find way to help fuel cells work better, stay clean in the
+
+cold
+
+Jan 30, 2019
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+
+##### Pushing lithium ion batteries to the next performance level
+
+Dec 13, 2018
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+
+##### Researchers achieve highest certified efficiency of organic solar cells
+
+to date
+
+Nov 27, 2018
+
+## User comments
+
+**EVangel**
+
+Oct 20, 2007
+
+Thanks from the electric vehicle community for this concise report debunking
+the hydrogen hype now being used to avoid the inevitable mass production of
+battery electric vehicles.
+
+0
+
+Report Block
+
+* * *
+
+**Biotele**
+
+Dec 24, 2007
+
+This article does not take into account hydrogen production from Aluminum.
+
+Aluminum is not only a cheap, easy and safe method to produce hydrogen but
+also acts as the storage medium.
+
+You can make Hydrogen ON DEMAND from aluminum at home, right now, easily and
+safely, by following these steps
+
+www.instructables...NERATOR/
+
+0
+
+Report Block
+
+* * *
+
+**Szechuane**
+
+Feb 14, 2008
+
+This isnt the whole truth. The reason we will, and should, convert water into
+hydrogen dispite the costs is that a battery powered car isnt capable of
+riding 300 miles on one charge. Moreover, when it runs out it takes a while to
+recharge those batteries.
+
+Hydrogen doesnt have these problems. Next to the fact that a fuel cell is
+better for the envoirement then any batterypack hydrogen is easier to refill
+and with preassurising one can store much more energy on board of a vehicle
+then batteries.  
+Reforming methanol into hydrogen first even increases its efficiency to your
+car from 22% for a standard engine to 37% for all processes needed to power
+your car with hydrogen as its fuel. (This includes your fuel cel and engine
+but leaves out transport.)
+
+Batteries have better efficiency but hydrogen can increase preformance. I
+personally think we will use hydrogen in the future but that we can still
+argue about ;)
+
+0
+
+Report Block
+
+* * *
+
+**dswlim**
+
+Jul 12, 2008
+
+It is nice to hear a different perspective, but I agree that the story is not
+the entire truth. Half truth at best.
+
+Admittedly there are still many technological challenges ahead of the for the
+"hydrogen" future, but the author fails to point out practically what is the
+"electron" economy. What is the best way to store "electrons?" Despite its
+great efficiency, battery has an array of its own problems. Its disposal issue
+has improved appreciably in past decades, but it is still an pain, not to
+mention other issues. Other "green" technologies attempting to store energy in
+one form or the other are still in development and non-commercializable stage.
+
+Everyone working in renewable energy pretty much knows that there is no mono-
+technology future, but a multi-technology supported energy infrastructure in
+the future. Hydrogen, regardless of where it comes from, provides a reasonable
+approach to be part of the solution. Whatever the "electron" approach refers
+to will also be part of this future, not the only solution.
+
+0
+
+Report Block
+
+* * *
+
+**Cyril**
+
+Jul 27, 2008
+
+You need to be extremely optimistic about future hydrogen breakhtroughs to
+make long distance quick refill hydrogen transportation possible.
+
+Hydrogen has such a low volumetric energy density that it simply cannot be a
+practical solution to long distance travel. Refilling is also slow; hydrogen
+needs to be compressed because liquefaction takes too much energy. But
+compression takes time. You can't speed it up easily because hydrogen is very
+dangerous, plus it embrittles conventional materials. So you need expensive
+exotic materials. It's unlikely that this will ever be cheaper than simple
+batteries.
+
+With a similar amount of optimism on the EV side, we can expect ultra caps and
+super high density nano batteries that go much further and recharge even
+quicker than the optimistic hydrogen case.
+
+Hydrogen is almost a total waste. Bossel is correct to think there are niche
+applications, and also correct that it's impact on revolutionizing our energy
+infrastructure is unlikely to be anything more than negligible.
+
+0
+
+Report Block
+
+* * *
+
+**Aeronomer**
+
+Dec 10, 2008
+
+Hey, up yours too. What an enlightened discussion. =-)
+
+0
+
+Report Block
+
+* * *
+
+**ElectronDonor**
+
+Dec 17, 2008
+
+50litres of H2O contains 50 _2/18 = 5.556Kg of H2.  
+HHV hydrogen is 141.9MJ/Kg  
+Therefore energy content of H2 from 50litres of H2O = 141.99MJ/Kg _ 5.556 Kg =
+788Mj or 219KWh.  
+A medium size/performance battery electric vehicle (BEV) needs about
+250Wh/mile and achieves about 80% tank to wheel efficiency.  
+A typical car travels about 10,000 miles per year.  
+Therefore if all the energy contained in the hydrogen from 50 litres of water,
+i.e. 219,000Wh could be utilised at the same efficiency as BEVs use it then,
+at best this would give about 219,000/250 or approximately 880 miles range.  
+A typical car travels about 10,000 miles per year and at best a H2 powered car
+would be less than 50% tank to wheel efficient using fuel cells and far less
+using internal combustion so range will be less than 500miles.
+
+All I can say regarding Wooly's posting is that if "50 litres of water would
+run a car for a year" he's either discovered some new laws of Physics, he
+doesn't do very much driving (
+
+0
+
+Report Block
+
+* * *
+
+**ElectronDonor**
+
+Dec 17, 2008
+
+Cont'd: last para of previous posting should be:
+
+All I can say regarding Wooly's posting is that if "50 litres of water would
+run a car for a year" he's either discovered some new laws of Physics, he
+doesn't do very much driving ( less than 5% of typical westerner) or he
+doesn't really know what he is talking about, I'll leave the decision up to
+the readers.
+
+0
+
+Report Block
+
+* * *
+
+**monosodiumg**
+
+Feb 28, 2009
+
+The above arguments for and against seem to focus on hydrogen as a fuel for
+cars, as does the articles detail. However the article´s titular claim is that
+a hydrogen economy does not make sense. There´s a big gap there between what
+is claimed and what is demonstrated. Certainly hydrogen as a fuel for cars is
+very doubtful for reasons others have explained however road transportation
+accounts for only about 50% of oil use and oil provides only 40% of global
+energy so there unsuitability of hydrogen as a road transport fuel deals only
+with 20% of global energy use. Maritime transportation accounts for 3-6% of
+global CO2 emmissions (depending on whose figures you use). The objections
+cited for the road transport fuel cases do not apply to the maritime fuel
+case. Volumetric and mass energy densities issues are insignificant issues
+given the low ration of fuel volume and mass to cargo volume and mass. For the
+same distance between refueling stops is also not an issue. Safety is easily
+covered as there is already a well developed culture for handling dangerous
+materials. A partial but significant chunk of infrastruture is effectively
+already in place: major shipping ports often also have nearby refineries which
+often have hydrogen production and handling capabilities. Hydrogen as a
+maritime fuel could be an easy seed from which a wider hydrogen infratructure
+suitable for energy generation could be developed. From my window I can see
+bulk carriers refuelling to my left, a refinery and a dirty cool-fired
+generator to my right and a continent with all the land and sunshine you could
+want for hydrogen production just a few miles away across the water.
+
+0
+
+Report Block
+
+* * *
+
+**apocryphal_doom**
+
+Mar 21, 2009
+
+This article makes some very questionable assumptions in its analysis.
+
+1) All of the energy used to electrolyze water must come from electricity
+generated on the grid, and electrolysis is the way all hydrogen will be
+produced.
+
+False. The majority probably will, but chemicals like titanium dioxide reduce
+that energy when exposed to sunlight, a technology which is being patented as
+I type. Furthermore, electrolysis is not required for all methods of hydrogen
+generation, though the remainder generate carbon dioxide. The article claims
+Mr. Bossel evaluated many ways of producing hydrogen, but I don't see any
+evidence of this in his other remarks. And last, hydrogen can be generated
+with solar cells on site.
+
+2) Hydrogen must be transported long distances in pipes to its destination
+refuel station.
+
+Hydrogen is being generated onsite by electrolysis in Iceland. The only things
+we need to generate hydrogen are electricity, water, and possibly organic
+compunds, all of which are easily shipped with today's infrastructure.
+
+3) Hydrogen must be stored as a compressed gas or liquid.
+
+This is the least likely method of easy hydrogen storage in the future,
+although it's what we use today. Hydrogen will likely be stored bonded to
+metals, carbon nanostructures, or ammonia borane, which is easy since it is
+such a small atom that it takes almost no room in bonded form. The only
+trouble is getting it to bond and unbond at will, but this is much closer
+today than in the past. See http://www.rsc.or..._up.asp.
+
+4) People will wait hours to recharge their pure electric car or external,
+replaceable battery packs will become commonplace.
+
+Yeah, and the world is flat. And if you believe that, I've got some magic
+beans to sell you.
+
+0
+
+Report Block
+
+* * *
+
+**apocryphal_doom**
+
+Mar 21, 2009
+
+On the web link, it won't function unless you remove the period at the end.
+
+0
+
+Report Block
+
+* * *
+
+**apocryphal_doom**
+
+Mar 21, 2009
+
+Oh, never mond, it doesn't like it. Instead, go to fuelcellworks.com's fuel
+cell news page, and find "Hydrogen storage steps up a gear." That will take
+you to the page.
+
+0
+
+Report Block
+
+* * *
+
+Please sign in to add a comment. Registration is free, and takes less than a
+minute. Read more
+
+Sign in
+
+Forgot Password  
+Registration
+
+##### What do you think about this particular story?
+
+Your feedback will go directly to Science X editors.
+
+Your message to the editors
+
+Your email (only if you want to be contacted back)
+
+Send Feedback
+
+Thank you for taking your time to send in your valued opinion to Science X
+editors.
+
+You can be assured our editors closely monitor every feedback sent and will
+take appropriate actions. Your opinions are important to us.
+
+We do not guarantee individual replies due to extremely high volume of
+correspondence.
+
+###### E-mail the story
+
+##### Why a hydrogen economy doesn't make sense
+
+Your friend's email
+
+Your email
+
+I would like to subscribe to Science X Newsletter. Learn more
+
+Your name
+
+###### Note
+
+Your email address is used **only** to let the recipient know who sent the
+email. Neither your address nor the recipient's address will be used for any
+other purpose. The information you enter will appear in your e-mail message
+and is not retained by Phys.org in any form.
+
+Your message
+
+Send
+
+#### Newsletter sign up
+
+Get weekly and/or daily updates delivered to your inbox. You can unsubscribe
+at any time and we'll never share your details to third parties.
+
+Subscribe
+
+More information Privacy policy
+
+![Medical
+
+Xpress](https://cf3e497594.site.internapcdn.net/tmpl/v6/img/MedicalXpress.svg)
+
+### Medical Xpress
+
+Medical Xpress covers all medical research advances and health news
+
+![Tech
+
+Xplore](https://cf3e497594.site.internapcdn.net/tmpl/v6/img/techexploer.svg)
+
+### Tech Xplore
+
+Tech Xplore covers the latest engineering, electronics and technology advances
+
+![ScienceX](https://cf3e497594.site.internapcdn.net/tmpl/v6/img/ScienceX.svg)
+
+### ScienceX
+
+Science X Network offers the most comprehensive sci-tech news coverage on the
+web
+
+## Newsletters
+
+Subscribe
+
+Science X Daily and the Weekly Email Newsletter are free features that allow
+you to receive your favorite sci-tech news updates in your email inbox
+
+## Follow us
+
+            
+                            *         *         *         *         * Top
+                * Home
+                * Search
+                * Mobile version
+                * Help
+                * FAQ
+                * About
+                * Contact
+                * Science X Account
+                * Sponsored Account
+                * Archive
+                * News wire
+                * Android app
+                * iOS app
+                * RSS feeds
+                * Push notification
+            
+
+(C) Phys.org 2003 - 2019 powered by Science X Network
+
+Privacy policy Terms of use
+
+#### Your Privacy
+
+This site uses cookies to assist with navigation, analyse your use of our
+services, and provide content from third parties. By using our site, you
+acknowledge that you have read and understand our Privacy Policy and Terms of
+Use.
+
+Ok More Information
+
+#### E-mail newsletter
+
+Subscribe
+
+#### Follow us
+
+            
+                            *         *         *         * It appears that you are currently using **Ad Blocking software**. What are the consequences?  ×
+            
+
+![Quantcast](//pixel.quantserve.com/pixel/p-5dNhPAnM9r0yY.gif)
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication _[C.]: Century_ [m.]: married _[FT]:
+Financial Times_ [*]: required
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+  *[m.]: married
+  *[FT]: Financial Times
+  *[*]: required
+

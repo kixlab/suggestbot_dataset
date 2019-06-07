@@ -1,0 +1,212 @@
+
+
+Asset 5arrow-downarrow-leftarrow-rightarrow-uparticleAsset 31Asset 2Asset
+7Asset 6Asset 7Asset 15Asset 16cartAsset 51cart-filledAsset 52checkAsset
+50Asset 3chevron-upchevron-leftchevron-rightchevron-upclosecomment-newcomment-
+filledAsset 11double-caret-downdouble-chevron-downAsset 55double-chevron-
+upAsset 56email-newemail-filledAsset 14Asset 2fullscreen-closefullscreen-
+opengallerygallery-filledAsset 15GlobegridAsset 17grid-filledAsset
+18headphones-newheadphones-filledAsset 19heart-filledheart-
+openinteractiveAsset 73linkAsset 48loadingAsset 45Artboard 1minusmutedAsset
+29muted-filledAsset 30ng-borderAsset 8pauseAsset 40pause-filledAsset 39Asset
+12Asset 13playAsset 33play-filledAsset
+32plusNG_AD_Iconography_111317_JY_v2Asset 3replayAsset 11Asset 10Asset
+4SearchIconshareAsset 34facebookgithubArtboard 1Artboard
+1linkedinlinkedin_inpinterestpinterest_psnapchatsnapchat_2twitterwhatsappspeakerAsset
+27speaker-filledAsset 28star-filledstar-opentextAsset 43text-filledAsset
+42tiltAsset 58Asset 8Asset 9Asset 4userAsset 53user-filledvideo-cameraAsset
+35video-camera-filledAsset 36volumeAsset 25volume-filledAsset 26
+
+![](/etc/designs/platform/v2/images/logos/ng-black-
+
+logo.ngsversion.5ce5f96b.png)
+https://news.nationalgeographic.com/2017/01/human-pig-hybrid-embryo-chimera-
+organs-health-science.html
+
+(C) 1996-2015 National Geographic Society, (C) 2015- 2019 National Geographic
+Partners, LLC. All rights reserved
+
+* * *
+
+Photograph courtesy Juan Carlos Izpisua Belmonte
+
+Read Caption
+
+This pig embryo was injected with human cells early in its development and
+grew to be four weeks old.
+
+Photograph courtesy Juan Carlos Izpisua Belmonte
+
+# Human-Pig Hybrid Created in the Lab—Here Are the Facts
+
+## Scientists hope the chimera embryos represent key steps toward life-saving
+
+lab-grown organs.
+
+4 Minute Read
+
+* * *
+
+By **Erin Blakemore**
+
+* * *
+
+PUBLISHED January 26, 2017
+
+In a remarkable—if likely controversial—feat, scientists announced today that
+they have created the first successful human-animal hybrids. The project
+proves that human cells can be introduced into a non-human organism, survive,
+and even grow inside a host animal, in this case, pigs.
+
+This biomedical advance has long been a dream and a quandary for scientists
+hoping to address a critical shortage of donor organs.
+
+Every ten minutes, a person is added to the national waiting list for organ
+transplants. And every day, 22 people on that list die without the organ they
+need. What if, rather than relying on a generous donor, you could grow a
+custom organ inside an animal instead?
+
+Watch: Pig Lungs Filter Human Blood in a Lab
+
+Human blood filters through pig lungs in the lab of Lars Burdorf at the
+University of Maryland School of Medicine. Thousands of people die every year
+for lack of transplantable human organs. Scientists are experimenting with a
+technique called CRISPR to rid pig organs of viruses that harm humans.
+
+That’s now one step closer to reality, an international team of researchers
+led by the Salk Institute reports in the journal _Cell_. The team created
+what’s known scientifically as a chimera: an organism that contains cells from
+two different species. (Read more about the DNA revolution in _National
+Geographic_ magazine.)
+
+In the past, human-animal chimeras have been beyond reach. Such experiments
+are currently ineligible for public funding in the United States (so far, the
+Salk team has relied on private donors for the chimera project). Public
+opinion, too, has hampered the creation of organisms that are part human, part
+animal.
+
+But for lead study author Jun Wu of the Salk Institute, we need only look to
+mythical chimeras—like the human-bird hybrids we know as angels—for a
+different perspective.
+
+“In ancient civilizations, chimeras were associated with God,” he says, and
+our ancestors thought “the chimeric form can guard humans.” In a sense, that’s
+what the team hopes human-animal hybrids will one day do.
+
+## **Building a Chimera**
+
+There are two ways to make a chimera. The first is to introduce the organs of
+one animal into another—a risky proposition, because the host’s immune system
+may cause the organ to be rejected.
+
+The other method is to begin at the embryonic level, introducing one animal’s
+cells into the embryo of another and letting them grow together into a hybrid.
+
+It sounds weird, but it’s an ingenious way to eventually solve a number of
+vexing biological problems with lab-grown organs.
+
+When scientists discovered stem cells, the master cells that can produce any
+kind of body tissue, they seemed to contain infinite scientific promise. But
+convincing those cells to grow into the right kinds of tissues and organs is
+difficult.
+
+Cells must survive in Petri dishes. Scientists have to use scaffolds to make
+sure the organs grow into the right shapes. And often, patients must undergo
+painful and invasive procedures to harvest the tissues needed to kick off the
+process.
+
+At first, Juan Carlos Izpisua Belmonte, a professor in the Salk Institute’s
+Gene Expression Laboratory, thought the concept of using a host embryo to grow
+organs seemed straightforward enough. However, it took Belmonte and more than
+40 collaborators four years to figure out how to make a human-animal chimera.
+
+To do so, the team piggybacked off prior chimera research conducted on mice
+and rats.
+
+View Images
+
+This one-year-old chimera sprang from a mouse injected with rat stem cells.
+
+Photograph courtesy Juan Carlos Izpisua Belmonte
+
+Other scientists had already figured out how to grow the pancreatic tissue of
+a rat inside a mouse. On Wednesday, that team announced that mouse pancreases
+grown inside rats successfully treated diabetes when parts of the healthy
+organs were transplanted into diseased mice.
+
+The Salk-led group took the concept one step further, using the genome editing
+tool called CRISPR to hack into mouse blastocysts—the precursors of embryos.
+There, they deleted genes that mice need to grow certain organs. When they
+introduced rat stem cells capable of producing those organs, those cells
+flourished.
+
+The mice that resulted managed to live into adulthood. Some even grew chimeric
+gall bladders made of mouse and rat cells, even though rats don’t have that
+particular organ.
+
+## **Rejection Risk**
+
+The team then took stem cells from rats and injected them into pig
+blastocysts. This version failed—not surprisingly, since rats and pigs have
+dramatically different gestation times and evolutionary ancestors.
+
+But pigs have a notable similarity to humans. Though they take less time to
+gestate, their organs look a lot like ours.
+
+Not that these similarities made the task any easier. The team discovered
+that, in order to introduce human cells into the pigs without killing them,
+they had to get the timing just right.
+
+“We tried three different types of human cells, essentially representing three
+different times” in the developmental process, explains Jun Wu, a Salk
+Institute scientist and the paper’s first author. Through trial and error,
+they learned that naive pluripotent cells—stem cells with unlimited
+potential—didn’t survive as well as ones that had developed a bit more.
+
+When those just-right human cells were injected into the pig embryos, the
+embryos survived. Then they were put into adult pigs, which carried the
+embryos for between three and four weeks before they were removed and
+analyzed.
+
+In all, the team created 186 later-stage chimeric embryos that survived, says
+Wu, and “we estimate [each had] about one in 100,000 human cells.”
+
+View Images
+
+An image of a pig blastocyst being injected with human cells.
+
+Photograph courtesy Juan Carlos Izpisua Belmonte
+
+That’s a low percentage—and it could present a problem for the method in the
+long run, says Ke Cheng, a stem cell expert at the University of North
+Carolina at Chapel Hill and North Carolina State University.
+
+The human tissue appears to slow the growth of the embryo, notes Cheng, and
+organs grown from such embryos as they develop now would likely be rejected by
+humans, since they would contain so much pig tissue.
+
+The next big step, says Cheng, is to figure out whether it's possible to
+increase the number of human cells the embryos can tolerate. The current
+method is a start, but it still isn't clear if that hurdle can be overcome.
+
+Belmonte agrees, noting that it could take years to use the process to create
+functioning human organs. The technique could be put to use much sooner as a
+way to study human embryo development and understand disease. And those real-
+time insights could be just as valuable as the ability to grow an organ.
+
+Even at this early stage, Cheng calls the work a breakthrough: “There are
+other steps to take,” he concedes. “But it’s intriguing. Very intriguing.”
+
+> _**Editor's Note:** This article has been updated to clarify the formation
+of gall bladders in chimera mice._
+
+Continue Reading
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+

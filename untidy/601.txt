@@ -1,0 +1,748 @@
+
+
+**Warning:** The NCBI web site requires JavaScript to function. more...
+
+        
+                  * NCBI![NCBI Logo](//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/28977)
+          * Skip to main content
+          * Skip to navigation
+          * Resources
+          * How To
+          * About NCBI Accesskeys
+        
+
+My NCBISign in to NCBISign Out
+
+# PMC
+
+US National Library of Medicine  
+National Institutes of Health
+
+Search databasePMCAll
+DatabasesAssemblyBiocollectionsBioProjectBioSampleBioSystemsBooksClinVarCloneConserved
+DomainsdbGaPdbVarESTGeneGenomeGEO DataSetsGEO
+ProfilesGSSGTRHomoloGeneIdentical Protein GroupsMedGenMeSHNCBI Web SiteNLM
+CatalogNucleotideOMIMPMCPopSetProbeProteinProtein ClustersPubChem
+BioAssayPubChem CompoundPubChem
+SubstancePubMedSNPSparcleSRAStructureTaxonomyToolKitToolKitAllToolKitBookghUniGene
+
+Search term
+
+Search
+
+        
+                  * Advanced
+          * Journal list
+          * Help
+        
+          * Journal List
+          * J Psychiatry Neurosci
+          * v.34(6); 2009 Nov
+          * PMC2783432
+        
+
+![Logo of jpn](/corehtml/pmc/pmcgifs/logo-jpn.gif)
+
+J Psychiatry Neurosci. 2009 Nov; 34(6): 412–417.
+
+PMCID: PMC2783432
+
+PMID: 19949717
+
+# Bias in the research literature and conflict of interest: an issue for
+
+publishers, editors, reviewers and authors, and it is not just about the money
+
+Simon N. Young, PhD
+
+Author information Copyright and License information Disclaimer
+
+Co-Editor-in-Chief, _Journal of Psychiatry and Neuroscience,_ and Department
+of Psychiatry, McGill University, Montr eal, Que
+
+Correspondence to: Dr. S.N. Young, Department of Psychiatry, McGill
+University, 1033 Pine Ave. W, Montreal QC H3A 1A1; fax 514 398-4370;
+ac.lligcm@gnuoY.nomiS
+
+Copyright (C) 2009 Canadian Medical Association
+
+This article has been cited by other articles in PMC.
+
+Conflicts of interest (COIs) of researchers have been a frequent topic
+recently in the popular press and scientific journals. Of particular interest
+to psychiatric researchers are the investigations in the US senate, led by
+Senator Charles Grassley. A recent article in _Science_ discusses the history
+and current state of these investigations.1 For those who like to keep score,
+_Science_ has a list of the 9 psychiatric researchers who have been
+investigated, the amounts of money they received from drug companies and the
+amounts they mention in COI disclosures.2 Much of what has been written about
+COI concerns drug company payments to researchers. However, COIs are an issue
+for publishers and editors of journals, reviewers of manuscripts and authors.
+Conflicts of interest exist in every aspect of the production of research
+journals, and the conflicts derive from more than just money paid to
+researchers by drug companies. The purpose of this editorial is first to
+discuss the nature of COIs and to describe some of the human behavioural
+research relevant to COIs. I will then discuss how COIs pervade every aspect
+of publishing and how the _Journal of Psychiatry and Neuroscience_ attempts to
+deal with these issues. Finally, I will argue that there is no entirely
+satisfactory way of dealing with COIs, but that all researchers should be
+aware of the issues discussed here to minimize the extent to which COIs can
+distort the scientific literature.
+
+## Creation of bias and the nature of COIs
+
+A COI occurs when individuals' personal interests are in conflict with their
+professional obligations. Often this means that someone will profit personally
+from decisions made in his or her professional role. The personal profit is
+not necessarily monetary; it could be progress toward the personal goals of
+the individual or organization, for example the success of a journal for a
+publisher or editor or the acceptance of ideas for a researcher. The concern
+is that a COI may bias behaviour, and it is the potential for bias that makes
+COIs so important. Before getting into the specifics of COIs, I will describe
+some of the research on the biases we all have, the evidence that we are not
+always aware of our own biases, how biases can be created by vested interests
+and how people behave in response to revelations of COIs. The idea that
+scientists are objective seekers of truth is a pleasing fiction, but
+counterproductive in so far as it can lessen vigilance against bias.
+
+A recent short review in _Science_ asks how well people know their own minds
+and concludes the answer is not very well.3 This is because "In real life,
+people do not realize that their self-knowledge is a construction, and fail to
+recognize that they possess a vast adaptive unconscious that operates out of
+their conscious awareness." Wilson and Brekke4 reviewed some of the unwanted
+influences on judgments and evaluations. They concluded that people find it
+difficult to avoid unwanted responses because of mental processing that is
+unconscious or uncontrollable. Moore and Loewenstein5 argue that "the
+automatic nature of self-interest gives it a primal power to influence
+judgment and makes it difficult for people to understand its influence on
+their judgment, let alone eradicate its influence." They also point out that
+in contrast to self-interest, understanding one's ethical and professional
+obligations involves a more thoughtful process. The involvement of different
+cognitive processes may make it difficult to reconcile self-interest and
+obligations. MacCoun,6 in an extensive review, examined the experimental
+evidence about bias in the interpretation and use of research results. He also
+discussed the evidence and theories concerning the cognitive and motivational
+mechanisms that produce bias. He concluded that people assume that their own
+views are objective and "that subjectivity (e.g., due to personal ideology) is
+the most likely explanation for their opponents' conflicting perceptions."
+This is consistent with the suggestion of Platt, almost 50 years ago, that
+researchers' attachment to their own ideas results in competition among
+researchers rather than ideas.7
+
+An early experimental study by Mahoney8 is a particularly striking example of
+how researchers' bias can influence their behaviour. Reviewers were asked to
+referee manuscripts, all of which had identical methodology but reported
+different results. Reviewers were strongly biased against manuscripts that
+reported results that contradicted their own theoretical perspectives. This
+can have a deleterious effect as ideas that have long since been contradicted
+can persist in the literature.9,10 Researchers' biases caused by preference
+for their own ideas can cause a serious COI when they present their own work
+and when they are involved in any aspect of peer review. Nonetheless, much
+more attention is paid to COIs owing to external influences such as money than
+to COIs related to researchers' inherent biases.
+
+Cain and Detsky11 reviewed some of the evidence on how biases can be created
+and how they can bias opinions in everyone. Experimental evidence supports the
+idea that "individuals use different strategies to evaluate propositions
+depending on whether the hypothesis is desirable or threatening/disagreeable
+to them." For example, a much higher proportion of people agree with the
+proposition that if someone sues you and you win the case the other person
+should pay your legal costs than with essentially the same proposition that if
+you sue someone and lose the case you should pay the costs. Cain and Detsky
+discuss some of the experimental work that demonstrates how people come to
+have biased opinions. For example, opinion can be biased by the first
+information encountered on a topic, a conclusion with obvious implications if
+the first information a physician or researcher learns about a drug is from
+the pharmaceutical company developing that drug. Experimental evidence also
+supports the idea that it is difficult to overcome the biases created by the
+effect of early information on beliefs. This explains why beliefs derived from
+experimental or epidemiological studies persist even after contradictory
+evidence from clinical trials provides more compelling contradictory evidence.
+Cain and Detsky suggest that "physicians have many relationships that may
+results in bias" -- not just those involving pharmaceutical companies and not
+just those involving money --and warn that "such bias may be difficult to
+undo." The same conclusions surely apply to researchers. In another review,
+Dana and Loewenstein12 describe the evidence indicating that gifts from
+industry can create bias. They conclude that self-serving bias prevents
+individuals from being objective even when they have a motivation to be
+objective; that instructions given to individuals about bias do not prevent
+them from becoming biased, suggesting a role for the unconscious in this
+process; and that self-interest alters the way individuals seek out and assess
+information.
+
+One of the main strategies used to mitigate the effects of bias related to COI
+is disclosure. Most peer-reviewed journals require authors to make a COI
+statement that is often published with the article. The idea behind disclosure
+is that the reader of the article will be more skeptical about any claims made
+in the article. In an experimental study, different groups read a manuscript
+in which a COI was mentioned or not mentioned. Those reading the study with
+the mention of a COI considered the study to be less interesting and
+important.13 However, given the evidence that people do not always know their
+own minds, these results have limitations. On the basis of a review of the
+evidence on the effectiveness of disclosing COIs and on an experimental study,
+Cain and colleagues14 concluded that disclosure may not always be useful for 2
+reasons. First, those declaring a COI may feel entitled to deviate from what
+they consider objectivity because they have declared a COI. They may also
+exaggerate to overcome any diminished weight that the reader may put on what
+they have written. Second, those who read articles in which the author
+declares a COI may not discount biased information as much as they should
+because of a tendency to be influenced by information they know they should
+ignore and possibly because the act of disclosure may make them more likely to
+place greater weight on the author's statements given the author's openness in
+admitting to the COI. Whatever the reason, in some circumstances disclosure
+may result in the recipient of the biased information placing greater weight
+on the biased information.
+
+A recent editorial in _Nature Medicine_ discusses the difference between a
+perceived and an actual COI.15 The editorial discusses the fact that the
+casual reader may consider there is a COI in sponsored content, but that
+because the "sponsors never have a say on the editorial content of anything
+[they] publish," and because the editorial content for supplements is already
+commissioned before potential sponsors are approached, any COI is apparent
+rather than real. However, as discussed, humans do not always know their own
+minds and are not always aware of their own biases. Articles may be
+commissioned to suit a particular sponsor's biases even without the person
+commissioning them being aware of that fact. In my opinion, it is not possible
+to state categorically that a COI is apparent rather than real.
+
+All those involved in the research literature, including publishers, editors
+of journals, reviewers of manuscripts and authors, can have COIs. In the rest
+of this article I will discuss some of the factors that lead to COIs for each
+of these groups, describe how the _Journal of Psychiatry and Neuroscience_
+tries to deal with each of these issues and suggest how the current situation
+can be improved.
+
+## The pervasiveness of COIs in publishing
+
+Publishers are acting with a COI whenever they interfere with the day-to-day
+management of a journal by the editorial staff. Two extreme versions of this
+have come to light recently. According to a recent report in the _BMJ_16
+concerning a court case about the Merck anti-arthritis drug rofecoxib (Vioxx),
+Elsevier has apologized for the improper publication of Merck-sponsored
+marketing material "that was made to look like journals." More details are
+given in a report in _Nature Medicine_.17 In a second case reported in
+_Nature_ ,18 a computer-generated hoax article was submitted to _The Open
+Information Science Journal_ published by Bentham Science Publishing. The
+paper was accepted and the authors were asked to pay US$800 for publication.
+At this point the authors withdrew their manuscript. The editor-in-chief of
+the journal, when contacted by Nature, reported that he had not seen the
+article and stated that he would resign.
+
+Several of the top medical journals are owned by medical associations. As
+these journals often carry news and opinion items in addition to research
+reports there may sometimes be a conflict between the opinions of the editor
+of a journal and those of the officers of the association that owns the
+journal. Such conflicts have resulted in the departure of the editors of the
+_New England Journal of Medicine_ ,19 the _Journal of the American Medical
+Association_20 and the _Canadian Medical Association Journal_ ( _CMAJ_ ).21
+The _CMAJ_ is published by the Canadian Medical Association, also the
+publisher of the _Journal of Psychiatry and Neuroscience_. The firing of the
+editor of the _CMAJ_ led to the Canadian Medical Association adopting 25
+recommendations of a review panel that enshrine editorial independence in the
+governance structure of all journals published by the association.22
+
+Given the cost of publishing, money is an important factor that can lead to
+COIs for publishers. This is true whether a publisher is for-profit or not-
+for-profit given that even not-for-profit publishers have to remain
+financially sound. The costs of publishing must be funded somehow, and the
+most common sources are journal subscriptions, advertising and publication
+charges. Advertising by drug companies is common in medical journals, and this
+is sometimes problematic. Othman and colleagues23 did a systematic review of
+articles on advertisements in medical journals that included 24 articles
+assessing advertisements from journals in 26 countries. Although most of the
+advertisements made claims that were supported by a systematic review, meta-
+analysis or randomized controlled trial, some advertisements made claims that
+were not well supported by evidence. In some countries, most claims were not
+well supported. Another issue is that advertisements sometimes focus on the
+newest, most expensive drugs that may not be superior to cheaper
+alternatives.24 One point of view is that medical journals should not accept
+advertising from industries relevant to medicine.24 The alternatives,
+subscriptions and publication charges, also have their problems. The money
+spent on journal subscriptions by university and hospital libraries is not
+available for other purposes, and publication charges, which are usually paid
+from research grants, take away money that could otherwise be devoted to
+research. Thus, there is always a conflict between the publisher's interest in
+remaining financially sound and its responsibility to the researchers who
+provide the manuscripts and read the papers. A recent article in _Nature_
+(published by the Nature Publishing Group, a for-profit publisher) on one of
+the most prominent open-access not-for-profit publishers, the Public Library
+of Science (PLoS), gives an interesting perspective on publication charges.25
+The title of the article is "PLoS stays afloat with bulk publishing." The
+article states that the financial situation of PLoS has improved "thanks to a
+cash cow in the form of _PLoS One,_ " which "uses a system of 'light' peer
+review" and has generated substantial amounts of money from author fees. _PLoS
+One_ reviews only for methodology, not for significance of the results, and
+minimizes costs by publishing only online. My own perspective is that this is
+an imaginative innovation that, in addition to being financially sound, may
+become an important model for publishing research. As the editorial board of
+_Nature_ knows well, the significance of research is sometimes hard to
+discern. _Nature_ itself turned down the opportunity to publish the paper by
+Hans Krebs describing what Krebs called the citric acid cycle and everyone
+else calls the Krebs cycle.26 ,27 The issue with publication charges, as with
+advertising, is how the COI is addressed. Policies related to advertising in
+medical journals are usually available, and a recent review summarizes some of
+those policies from 9 of the top medical journals.24
+
+Publishers are capable of finding surprising ways to act inappropriately in
+the face of COIs. According to a recent report in the _BMJ_ , Elsevier offered
+$25 gift cards to academics to encourage them to post favourable reviews of
+the academic textbook _Clinical Psychology_ , although subsequently Elsevier
+admitted this was a mistake.28
+
+The _Journal of Psychiatry and Neuroscience_ is an open-access journal that
+has no publication charge. Its main source of revenue is advertising in the
+print edition). The policies that govern advertising in the journal are
+available on the Canadian Medical Association website
+(www.cma.ca/index.cfm/ci_id/25274/la_id/1.htm). For me as an editor, the
+important issues are that I have no contact with those who obtain advertising
+for the journal and do not know what advertisements will appear in any issue.
+The administrative staff ensures that advertisements do not appear in
+inappropriate places (e.g., an advertisement for an antidepressant next to an
+article on depression or antidepressants).
+
+Conflicts of interest for editors are usually taken to mean conflicts related
+to funding from industry, and the _Journal of Psychiatry and Neuroscience_ is
+among those journals that publishes this information on the journal website
+(www.cma.ca/jpn). However, in my opinion non-financial issues are probably
+more important. Every editor wants his or her journal to be a success. The
+measure of success of a journal that has become widely used, but is much
+criticized, is the impact factor. Acting in a way that will increase the
+impact factor of a journal is not always entirely compatible with the
+professional responsibilities of an editor.
+
+The impact factor for a journal is based on the rate at which articles in the
+journal are cited. For example, the impact factor for 2008 is the sum of
+citations in 2008 to articles published in the journal in 2006 and 2007,
+divided by the number of articles published in 2006 and 2007. The number of
+citations a paper received can certainly be an indication of its importance.
+However, the relation between citations and importance is not a tight one.
+Obviously papers in a popular field will tend to receive more citations than
+those in a less popular field, irrespective of quality. This is an issue of
+some concern. In an important paper on "Why most published research findings
+are false," Ioannidis29 discusses some of the factors that lead to false
+findings. He points out that, from a theoretical perspective, "the hotter a
+scientific field (with more scientific teams involved), the less likely the
+research findings are to be true." Pfeiffer and Hoffmann30 have provided some
+empirical support for this prediction. In biological psychiatry research, one
+popular area is psychiatric genetics. Unfortunately, associations that are
+reported between particular gene polymorphisms and disorders or symptoms are
+often not replicated or confirmed by meta-analyses.31,32 The false discovery
+rate may be as high as 95%.33 Interestingly, genetic association studies
+published in journals with a high impact factor are more likely to provide an
+overestimate of the true effect size owing in part to small sample sizes.34
+The _International Journal of Neuropsychopharmacology_ demonstrated an
+interesting approach to the problem of non-replication in psychiatric genetic
+studies when it published a paper on the interaction between the 5-HTTLPR
+serotonin transporter polymorphism and environmental adversity and the risk
+for depression and anxiety.35 In the same issue there was a review on the lack
+of replication in such genetic studies that suggested the former paper might
+provide "further evidence that the literature to date is compatible with
+chance findings."36 All judgments about the quality of research papers are
+subjective. Nonetheless, an editor who selects for publication a psychiatric
+genetic study with a relatively small sample size and a level of significance
+not much better than 0.05 over an innovative and methodologically sound
+manuscript dealing with a topic that is not currently popular may be helping
+to enhance the impact factor of the journal at the expense of its scientific
+quality.
+
+One direct way in which editors can manipulate impact factors is by altering
+the timing of publication of papers. If, for example, a paper that is likely
+to be highly cited was published in the December 2010 issue of a journal,
+citations that would contribute to the 2011 impact factor would have to occur
+within between 1 and 13 months after publication, but citations are unlikely
+to occur within 6 months of publication. If the same paper were published in
+January 2011, citations that occur between 12 and 24 months after publication
+would contribute to the 2012 impact factor. Thus, publishing papers that are
+likely to have a high citation rate early in any year will help to inflate the
+impact factor of a journal. Obviously this is unfair to authors if the
+publication of their paper is delayed, and I am not aware if it ever occurs.
+Nonetheless there is evidence that some editors do take estimated citation
+rates into account when making decisions. Chew and colleagues37 analyzed
+impact factor trends for medical journals and interviewed the editors. They
+concluded that rising impact factors were due to deliberate editorial
+practices in spite of the editors' dissatisfaction with impact factors as the
+measure of the quality of a journal. One quotation from an editor is
+particularly salient: "our basis for rejection is often 'I don't think this
+paper is going to be cited.'" It is not clear from this quotation whether the
+editors would reject a manuscript because they thought the citation rate was
+more important than the quality of the science or because they equated the
+citation rate with the quality of the science.
+
+Not all COIs for editors are related to impact factors. The desire of editors
+to please authors by having a manuscript reviewed as quickly as possible,
+thereby encouraging authors to submit further manuscripts, can be in conflict
+with getting excellent reviews. The assertion by Ioannidis29 that much of what
+is in research journals is false can only be correct if standards of reviewing
+are not very good. Unfortunately this idea is supported by research. In a test
+of what errors peer reviewers detect, reviewers detected an average of 2.6 of
+9 major errors in test manuscripts, and this number was not improved after
+reviewer training.38 Serious statistical errors are common even in some high-
+profile journals.39 The best peer reviewers are usually busy people who will
+not necessarily be able to produce reviews promptly, and adding an expert
+statistical review to the content reviews may increase the time needed to
+review a manuscript. However, it is not possible to say to what extent, if at
+all, the poor standards of reviewing are due to the desire of some editors to
+speed up the process of review at the expense of the quality of the reviews.
+
+Conflicts of interest for editors may also arise from the publication of
+supplements, the publication of papers by an editor, and the non-adherence to
+important guidelines for reporting. Journal supplements, which are often
+subsidized by the pharmaceutical industry, can help improve the financial
+standing of a journal, which is often a concern for editors and publishers.
+However a study concluded that manuscripts "published in journal supplements
+are generally of inferior quality compared with articles published in the
+parent journal."40 Editors can legitimately publish a peer-reviewed article in
+the journal they edit as long as the manuscript undergoes peer review that is
+as thorough as all other manuscripts, and the member of the editorial board
+overseeing the peer review does his or her best to ensure that any bias in the
+assessment of the manuscript is minimized. This may not always be so. _Nature_
+recently reported on the editor of a theoretical physics journal who was
+facing growing criticism after publishing nearly 60 papers in 1 year in the
+journal he edited.41 In terms of guidelines for reporting, many journals
+adhere to the statement of the International Committee of Medical Journal
+Editors (www.icmje.org/publishing_10register.html). This requires that to be
+considered for publication clinical trials must be registered in a public
+trials registry at or before the onset of patient enrolment. However, some
+well-known journals in biological psychiatry publish the results of clinical
+trials without giving any information about trial registration, suggesting
+that the trials may not have been registered. One possible explanation for
+this is that the editors value the citations received by clinical trials,
+which are often highly cited, more than adherence to the trial registration
+policy.
+
+Among the policies that the _Journal of Psychiatry and Neuroscience_ has
+adopted to minimize any effect of editors ' COIs are reporting of financial
+COIs of editorial board members on the journal website, publishing peer-
+reviewed papers in the order in which they were accepted (with the exception
+of including short commentaries on topical subjects or moving a shorter paper
+forward when a longer paper will not fit the page allotment of the journal),
+giving all published papers that contain statistics a full review by a
+statistician, not publishing supplements, ensuring that all papers from
+members of the editorial board go through full peer review and adhering to
+guidelines such as the registration of clinical trials.
+
+Conflicts of interest for reviewers are, in part, similar to those for
+authors. If a manuscript discusses medications and a reviewer has some
+connection with a pharmaceutical company that is involved with any medication
+mentioned in the manuscript or a drug of the same class produced by a
+competitor, this COI should be mentioned to the editor; the _Journal of
+Psychiatry and Neuroscience_ asks reviewers to mention any COI to the editor.
+Other COIs for reviewers are less clear and are, in my experience, seldom
+mentioned. These include any possible personal relationship (positive or
+negative) with any of the authors of a manuscript and professional rivalry
+owing to the reviewer and authors researching similar topics. Reviewers have
+their own biases based on their own research approaches. In my experience, if
+a reviewer recommends that the authors cite an additional reference, more
+often than not it is to one of the reviewer 's own papers, and the
+recommendation is not always appropriate. An important COI for reviewers is
+the conflict between the professional obligation to produce a well thought-out
+review in a timely manner and the desire not to spend too much time on a task
+that is relatively thankless. Reviewers seldom read the instructions on what
+is required in a review. The editor of _Obstetrics and Gynecology_ inserted
+the following sentence in the middle of a paragraph of instructions for
+reviewers: "If you read this and call or fax our office, we will send you a
+gift worth 20 dollars."42 The response rate was 17%. A minority of reviewers
+who agree to review a manuscript never submit their reviews or clearly do not
+devote the time needed to their reviews. The latter is readily apparent when,
+for example, a reviewer's assessment includes factual errors about the design
+of the study. Behaviours like this inconvenience editors and can adversely
+impact authors by delaying decisions on manuscripts.
+
+Little research has been done on the factors that influence reviewers'
+decisions, and more is needed so that editors can take into account possible
+biases in reviewers' assessments. As mentioned, reviewers miss many important
+flaws in manuscripts, and training does not improve this situation.38 In
+ecology research, recommendations to reject are not influenced by age, but
+those who have more papers in high-impact journals recommend rejection of
+manuscripts at up to twice the rate of reviewers with few or no papers in
+high-impact journals.43 Although this is an indication of different biases
+among different authors, it does not necessarily reflect a COI.
+
+The COIs of authors include those conflicts that have potential to affect how
+the research was conducted and interpreted as well as those that influence how
+it is presented, which is why financial COIs for authors are an important
+issue. A review of studies on the extent, impact and management of financial
+COIs reported a significant association between industry sponsorship and pro-
+industry outcomes in published papers and concluded that financial ties
+between industry and academia influence biomedical research in important
+ways.44 This is consistent with the idea discussed earlier in this editorial
+that admitting to a financial COI does not necessarily deal with the bias that
+the financial COI creates. The issue of what exactly constitutes a financial
+COI can be complex. The website of the National Institutes of Health (NIH) in
+the United States on frequently asked questions about financial COIs is more
+than 5,000 words long (http ://grants.nih.gov/grants/policy/coifaq.htm#c1).
+However, the bottom line is that NIH requires anything over $10 000 per year
+to be declared. This may seem high to some, but GlaxoSmithKline recently
+announced that they would limit the advisory payments and honoraria it gives
+to US doctors to (only?) $150 000 per year.45 Some journals require any
+financial COI to be declared, no matter how small. Although payment of a $500
+honorarium may not create as big a bias as a $50 000 consultant payment, it is
+unrealistic to think that researchers might mention the exact amount of
+payments when declaring COIs.
+
+Because financial COIs have been the subject of many recent articles, this
+editorial focuses on other COIs that authors should be attempting to deal
+with. The first, and by no means trivial, COI that is an issue for the vast
+majority of authors is the pride and sense of ownership that authors take in
+the work they submit for publication. This presumably is responsible for the
+fact that when authors were interviewed about their published papers
+"important weaknesses were often admitted on direct questioning but were not
+included in the published article."46 Certainly editors are used to asking
+authors to mention the limitations of their studies and to be more cautious
+about the implications of the research. Another related factor is the desire
+for researchers to advance their careers and get recognition from their peers.
+Research suggests that social and monetary reward may work through both
+psychological47 and neuroanatomical processes48 that overlap to some extent.
+The big difference in relation to COIs is that social rewards, unlike monetary
+rewards, cannot be disclosed in any meaningful way.
+
+In some situations COIs can arise because all the authors need to take
+responsibility for the content of a manuscript. If an author is included who
+does not fulfill the requirements of the International Committee of Medical
+Journal Editors for authorship (www.icmje.org/ethical_1author.html), then both
+that person and the other authors are not fulfilling their professional
+obligations. Another related problem is that of ghost authorship (i.e., when
+someone who was not involved in the work, often a pharmaceutical company
+employee, writes a manuscript but does not appear as an author; see Ross and
+colleagues49). Ghostwriting may be part of a pharmaceutical company effort to
+promote products through "carefully orchestrated campaigns to pass off
+sympathetic, if not biased, research and review articles as the work of
+academic scientists rather than of their own contracted employees."50 Finally,
+there may be conflict among the different authors in how to present and
+interpret the results of a study. Attempts to resolve these issues are not
+always successful. Interviews of authors of papers published in _The Lancet_
+revealed that individual authors often disagreed with opinions expressed in
+the papers and that the papers revealed "evidence of (self)-censored
+criticism, obscured meaning, and confused assessment of implications."46
+Overall, the evidence suggests that non-monetary COIs can create similar
+problems to monetary ones.
+
+The _Journal of Psychiatry and Neuroscience_ asks all authors to sign a
+statement about any financial COIs they may have, state what role they played
+in the research and writing of the manuscript, state whether they approved the
+final version of the manuscript, and indicate whether there was anyone
+involved in writing the manuscript who was not an author.
+
+In spite of all the problems created by bias and COIs, research continues to
+advance. However, the speed of the advance might be enhanced if these problems
+could be reduced. Obviously there needs to be better training and mentoring of
+scientists concerning COIs and bias. Unfortunately, a recent study on the
+effects of mentoring and training in responsible conduct of research concluded
+that these interventions have the potential to influence behaviour in ways
+that can both increase and decrease the likelihood of problematic behaviour.51
+More research on effective training and mentoring techniques is needed
+urgently. Fortunately, some relevant information is available in the
+psychology literature. In experimental studies, for example, asking
+participants to consider the opposite of their own opinion was more effective
+in reducing their biases than asking them to be as fair and unbiased as
+possible without giving them a specific strategy to achieve this aim.52
+
+The investigations of Senator Charles Grassley have intensified the debate
+about sources of bias in the literature and how they may be reduced. However,
+the debate has focused rather narrowly on money and the objective of a
+literature relatively free of bias remains a pious but distant hope.
+
+## Footnotes
+
+**Competing interests:** None declared (if you consider competing interests to
+be limited to financial ones).
+
+## References
+
+      1. Kaiser J. Private money, public disclosure. Science. 2009;325:28–30. [PubMed] [Google Scholar]
+
+      2. Kaiser J. Senate probe of research psychiatrists. Science. 2009;325:30. [PubMed] [Google Scholar]
+
+      3. Wilson TD, Bar-Anan Y. The unseen mind. Science. 2008;321:1046–7. [PubMed] [Google Scholar]
+
+      4. Wilson TD, Brekke N. Mental contamination and mental correction: unwanted influences on judgments and evaluations. Psychol Bull. 1994;116:117–42. [PubMed] [Google Scholar]
+
+      5. Moore D, Loewenstein G. Self-interest, automaticity, and the psychology of conflict of interest. [(accessed 2009 Sept. 29)];Soc Justice Res. 2004 17:189–202. Available: http://sds.hss.cmu.edu/media/pdfs/loewenstein/SelfIntAutoPsychConflictInt.pdf. [Google Scholar]
+
+      6. MacCoun RJ. Biases in the interpretation and use of research results. Annu Rev Psychol. 1998;49:259–87. [PubMed] [Google Scholar]
+
+      7. Platt JR. Strong inference. Science. 1964;146:347–53. [PubMed] [Google Scholar]
+
+      8. Mahoney MJ. Publication prejudices: an experimental study of confirmatory bias in the peer review system. Cognit Ther Res. 1977;1:161–75. [Google Scholar]
+
+      9. Kelley LP, Blashfield RK. An example of psychological science's failure to self-correct. Rev Gen Psychol. 2009;13:122–9. [Google Scholar]
+
+      10. Tatsioni A, Bonitsis NG, Ioannidis JPA. Persistence of contradicted claims in the literature. JAMA. 2007;298:2517–26. [PubMed] [Google Scholar]
+
+      11. Cain DM, Detsky AS. Everyone's a little bit biased (even physicians) JAMA. 2008;299:2893–5. [PubMed] [Google Scholar]
+
+      12. Dana J, Loewenstein G. A social science perspective on gifts to physicians from industry. JAMA. 2003;290:252–5. [PubMed] [Google Scholar]
+
+      13. Chaudhry S, Schroter S, Smith R, et al. Does declaration of competing interests affect readers' perceptions? A randomised trial. BMJ. 2002;325:1391–2. [PMC free article] [PubMed] [Google Scholar]
+
+      14. Cain DM, Loewenstein G, Moore DA. The dirt on coming clean: perverse effects of disclosing conflicts of interest. [(accessed 2009 Sept. 29)];J Legal Stud. 2005 34:1–25. Available: www.cbdr.cmu.edu/mpapers/CainLoewensteinMoore2005.pdf. [Google Scholar]
+
+      15. The doors of perception. Nat Med. 2008;14:106. [PubMed] [Google Scholar]
+
+      16. Moynihan R. Merck defends Vioxx in court, as publisher apologises for fake journal. BMJ. 2009;338:b1914. [PubMed] [Google Scholar]
+
+      17. Hutson S. Publication of fake journals raises ethical questions. Nat Med. 2009;15:598. [Google Scholar]
+
+      18. Editor to quit over hoax open-access paper. Nature. 2009;459:901. [Google Scholar]
+
+      19. Mitka M. NEJM editor Jerome P. Kassirer, MD, loses post over "administrative issues" JAMA. 1999;282:622–3. [PubMed] [Google Scholar]
+
+      20. Hopkins Tanne J. JAMA's editor fired over sex article. BMJ. 1999;318:213. [PMC free article] [PubMed] [Google Scholar]
+
+      21. Kuehn BM. CMAJ governance overhauled: firings, resignations, compromised independence cited. JAMA. 2006;296:1337–8. [PubMed] [Google Scholar]
+
+      22. MacDonald N, Squires B, Hawkins D, et al. Editorial independence for CMAJ: signposts along the road. CMAJ. 2006;175:453. [PMC free article] [PubMed] [Google Scholar]
+
+      23. Othman N, Vitry A, Roughead EE. Quality of pharmaceutical advertisements in medical journals: a systematic review. PLoS One. 2009;4:e6350. [PMC free article] [PubMed] [Google Scholar]
+
+      24. Fugh-Berman A, Alladin K, Chow J. Advertising in medical journals: Should current practices change? PLoS Med. 2006;3:e130. [PMC free article] [PubMed] [Google Scholar]
+
+      25. Butler D. PLoS stays afloat with bulk publishing. Nature. 2008;454:11. [PubMed] [Google Scholar]
+
+      26. Coping with peer rejection. Nature. 2003;425:645. [PubMed] [Google Scholar]
+
+      27. Monument for a giant. Nature. 1981;294:296. [Google Scholar]
+
+      28. Mooney H. Elsevier says offering $25 gift cards for positive reviews was mistake. BMJ. 2009;339:b2841. [Google Scholar]
+
+      29. Ioannidis JPA. Why most published research findings are false. PLoS Med. 2005;2:e124. [PMC free article] [PubMed] [Google Scholar]
+
+      30. Pfeiffer T, Hoffmann R. Large-scale assessment of the effect of popularity on the reliability of research. PLoS One. 2009;4:e5996. [PMC free article] [PubMed] [Google Scholar]
+
+      31. Holden C. Back to the drawing board for psychiatric genetics. Science. 2009;324:1628. [PubMed] [Google Scholar]
+
+      32. van den Oord EJCG. Controlling false discoveries in genetic studies. Am J Med Genet B Neuropsychiatr Genet. 2008;147B:637–44. [PubMed] [Google Scholar]
+
+      33. Colhoun HM, McKeigue PM, Smith GD. Problems of reporting genetic associations with complex outcomes. Lancet. 2003;361:865–72. [PubMed] [Google Scholar]
+
+      34. Munafo MR, Stothart G, Flint J. Bias in genetic association studies and impact factor. Mol Psychiatry. 2009;14:119–20. [PubMed] [Google Scholar]
+
+      35. Laucht M, Treutlein J, Blomeyer D, et al. Interaction between the 5-HTTLPR serotonin transporter polymorphism and environmental adversity for mood and anxiety psychopathology: evidence from a high-risk community sample of young adults. Int J Neuropsychopharmacol. 2009;12:737–47. [PubMed] [Google Scholar]
+
+      36. Munafo MR, Flint J. Replication and heterogeneity in gene x environment interaction studies. Int J Neuropsychopharmacol. 2009;12:727–9. [PubMed] [Google Scholar]
+
+      37. Chew M, Villanueva EV, Van Der Weyden MB. Life and times of the impact factor: retrospective analysis of trends for seven medical journals (1994-2005) and their Editors' views. J R Soc Med. 2007;100:142–50. [PMC free article] [PubMed] [Google Scholar]
+
+      38. Schroter S, Black N, Evans S, et al. What errors do peer reviewers detect, and does training improve their ability to detect them? J R Soc Med. 2008;101:507–14. [PMC free article] [PubMed] [Google Scholar]
+
+      39. Altman DG. Poor-quality medical research: What can journals do? JAMA. 2002;287:2765. [PubMed] [Google Scholar]
+
+      40. Rochon PA, Gurwitz JH, Cheung CM, et al. Evaluating the quality of articles published in journal supplements compared with the quality of those published in the parent journal. JAMA. 1994;272:108–13. [PubMed] [Google Scholar]
+
+      41. Schiermeier Q. Self-publishing editor set to retire. Nature. 2008;456:432. [PubMed] [Google Scholar]
+
+      42. Pitkin RM. The rewards of reading instructions from journal editors. N Engl J Med. 1998;339:1006. [PubMed] [Google Scholar]
+
+      43. Aarssen LW, Lortie CJ, Budden AE, et al. Does publication in top-tier journals affect reviewer behavior? PLoS One. 2009;4:e6283. [PMC free article] [PubMed] [Google Scholar]
+
+      44. Bekelman JE, Li Y, Gross CP. Scope and impact of financial conflicts of interest in biomedical research: a systematic review. JAMA. 2003;289:454–65. [PubMed] [Google Scholar]
+
+      45. Kmietowicz Z. GlaxoSmithKline to limit payments it makes to US doctors to $150 000 a year. BMJ. 2008;337:a2315. [PubMed] [Google Scholar]
+
+      46. Horton R. The hidden research paper. JAMA. 2002;287:2775–8. [PubMed] [Google Scholar]
+
+      47. Zhou X, Vohs KD, Baumeister RF. The symbolic power of money: reminders of money alter social distress and physical pain. Psychol Sci. 2009;20:700–6. [PubMed] [Google Scholar]
+
+      48. Spreckelmeyer KN, Krach S, Kohls G, et al. Anticipation of monetary and social reward differently activates mesolimbic brain structures in men and women. Soc Cogn Affect Neurosci. 2009;4:158–65. [PMC free article] [PubMed] [Google Scholar]
+
+      49. Ross JS, Hill KP, Egilman DS, et al. Guest authorship and ghost-writing in publications related to rofecoxib: a case study of industry documents from rofecoxib litigation. JAMA. 2008;299:1800–12. [PubMed] [Google Scholar]
+
+      50. Kamerow D. Who wrote that article? BMJ. 2008;336:989. [PMC free article] [PubMed] [Google Scholar]
+
+      51. Anderson MS, Horn AS, Risbey KR, et al. What do mentoring and training in the responsible conduct of research have to do with scientists' misbehavior? Findings from a national survey of NIH-funded scientists. Acad Med. 2007;82:853–60. [PubMed] [Google Scholar]
+
+      52. Lord CG, Lepper MR, Preston E. Considering the opposite: a corrective strategy for social judgment. J Pers Soc Psychol. 1984;47:1231–43. [PubMed] [Google Scholar]
+
+* * *
+
+Articles from Journal of Psychiatry & Neuroscience : JPN are provided here
+courtesy of **Canadian Medical Association**
+
+## Formats:
+
+        
+                  * Article
+        
+
+|
+
+        
+                  * PubReader
+        
+
+|
+
+        
+                  * ePub (beta)
+        
+
+|
+
+        
+                  * PDF (236K)
+        
+
+|
+
+        
+                  * Citation
+        
+
+## Share
+
+        
+                  * ![Share on Facebook](//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/4047626) Facebook 
+          * ![Share on Twitter](//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/4047627) Twitter 
+          * ![Share on Google Plus](//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/4047628) Google+
+        
+
+Support Center Support Center
+
+External link. Please review our privacy policy.
+
+NLM
+
+NIH
+
+DHHS
+
+USA.gov
+
+National Center for Biotechnology Information, U.S. National Library of
+Medicine 8600 Rockville Pike, Bethesda MD, 20894 USA
+
+Policies and Guidelines | Contact
+
+![statistics](/stat?jsdisabled=true&ncbi_db=pmc&ncbi_pdid=article&ncbi_acc=&ncbi_domain=jpn&ncbi_report=record&ncbi_type=fulltext&ncbi_objectid=&ncbi_pcid=/articles/PMC2783432/&ncbi_app=pmc)
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication _[C.]: Century_ [m.]: married _[FT]:
+Financial Times_ [ _]: required_ [MB]: megabytes _[UV]: Ultraviolet_ [ UV]:
+Ultraviolet *[cf]: confer
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+  *[m.]: married
+  *[FT]: Financial Times
+  *[*]: required
+  *[MB]: megabytes
+  *[UV]: Ultraviolet
+  *[ UV]: Ultraviolet
+  *[cf]: confer
+

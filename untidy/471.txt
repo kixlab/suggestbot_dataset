@@ -1,0 +1,627 @@
+
+
+#### Stack Exchange Network
+
+Stack Exchange network consists of 175 Q&A communities including Stack
+Overflow, the largest, most trusted online community for developers to learn,
+share their knowledge, and build their careers.
+
+Visit Stack Exchange
+
+                    
+                                                1.             2.             3.             4.             5.             6. Log In Sign Up
+                            7. ### current community
+                    
+                              * Earth Science
+                    
+
+help chat
+
+                    
+                                                  * Earth Science Meta
+                    
+
+### your communities
+
+Sign up or log in to customize your list.
+
+### more stack exchange communities
+
+company blog
+
+                    
+                                                  * Tour  Start here for a quick overview of the site 
+                              * Help Center  Detailed answers to any questions you might have 
+                              * Meta  Discuss the workings and policies of this site 
+                              * About Us  Learn more about Stack Overflow the company 
+                              * Business  Learn more about hiring developers or posting ads with us
+                    
+
+By using our site, you acknowledge that you have read and understand our
+Cookie Policy, Privacy Policy, and our Terms of Service.
+
+Earth Science Stack Exchange is a question and answer site for those
+interested in the geology, meteorology, oceanography, and environmental
+sciences. Join them; it only takes a minute:
+
+Sign up
+
+Here's how it works:
+
+Anybody can ask a question
+
+Anybody can answer
+
+The best answers are voted up and rise to the top
+
+Earth Science Beta
+
+                    
+                                                1.             2. Home 
+                            3.               1. Questions 
+                              2. Tags 
+                              3. Users 
+                              4. Unanswered
+                    
+
+# What was the highest temperature ever recorded on the surface of Earth?
+
+Ask Question
+
+11
+
+5
+
+$\begingroup$
+
+The article entitled "54 Celsius degrees in Iran, the highest temperature ever
+recorded?" says 56,6 Celsius may be the highest temperature ever recorded, in
+Death Valley, California, and it also mentions that Iran's heat index peaked
+at 61,2 Celsius in the event the story was about.
+
+I ask this question because several cities in my province in Argentina are
+registering heat indexes of over 60 Celsius, with a maximum in the center of
+Santa Fe city of 65,7° Celsius.
+
+So what was the highest temperature ever recorded on the surface of the Earth?
+
+climate temperature measurements extreme-weather field-measurements
+
+share|improve this question
+
+edited Feb 3 at 20:09
+
+![](https://i.stack.imgur.com/lI2Hb.jpg?s=32&g=1)
+
+Camilo Rada
+
+14.2k648100
+
+asked Jan 2 at 21:30
+
+![](https://www.gravatar.com/avatar/4f0c66904886b9741a2fd1976c33f6e1?s=32&d=identicon&r=PG)
+
+PabloPablo
+
+3631212
+
+$\endgroup$
+
+                    
+                                                * 1
+                    
+
+$\begingroup$ Are you asking about naturally occurring heat or would the heat
+from say an A-Bomb count? $\endgroup$ - BruceWayne Jan 3 at 0:18
+
+                    
+                                                * 3
+                    
+
+$\begingroup$ Are you asking about _heat index_ or _temperature_? $\endgroup$
+- Ian MacDonald Jan 3 at 0:24
+
+                    
+                                                * 3
+                    
+
+$\begingroup$ To @djsmiley2k's point, the answer is apparently 1,100°C.
+$\endgroup$ - ceejayoz Jan 3 at 14:11
+
+                    
+                                                * 2
+                    
+
+$\begingroup$ and also until 1300 kelvin for natural fires I read, but if lava
+reaches 1100 celsius~=1400 kelvin $\endgroup$ - Universal_learner Jan 3 at
+14:47
+
+                    
+                                                * 3
+                    
+
+$\begingroup$ @djsmiley2k actually Guinness records used to list the hottest
+temperature as the area near a lightning bolt, where it can apparently reach
+close to 30000 degrees C. $\endgroup$ - Shalop Jan 3 at 17:03
+
+| show **6** more comments
+
+## 2 Answers 2
+
+active oldest votes
+
+19
+
+$\begingroup$
+
+The record the article is referring about seems to be the same as registered
+at Guiness World Records:
+
+> On 13 September 2012 the World Meteorological Organisation disqualified the
+record for the highest recorded temperature, exactly 90 years after it had
+been established at El Azizia, Libya, with a measurement of 58°C. The official
+highest recorded temperature is now **56.7°C** (134°F), which was measured on
+10 July 1913 at Greenland Ranch, Death Valley, California, USA.
+
+Those records are usually well researched, and in this case it matches what is
+reported by the WMO. Since 2007, the WMO Commission for Climatology (CCl) has
+maintained the Archive of World Weather and Climate Extremes. In that archive,
+the same record is reported as the current highest temperature ever recorded:
+
+![enter image description here](https://i.stack.imgur.com/jkOX3.png)
+
+More details about the record are described here. The official WMO press
+release about the invalidation of the 1922 El Azizia record can be found here.
+
+It is surprising however, that with most the hottest years on record happening
+in the last few decades, the maximum recorded temperature is still from 1913.
+
+Some people have questioned the reliability of those old measurements. More
+recent and much more reliable measurements seem to top-up at about 54.0°C as
+pointed out by a very interesting article brought up by @Plutor in the
+comments.
+
+Note that you are mixing temperature and heat index in your question. Make
+sure you understand the difference.
+
+PS: "Greenland" Ranch... a rather sarcastic name for such a place.
+
+![enter image description here](https://i.stack.imgur.com/3f9i5.png)
+
+Photograph of old Greenland Ranch Station, California, USA (source)
+
+share|improve this answer
+
+edited Jan 3 at 12:56
+
+![](https://i.stack.imgur.com/Haz6W.jpg?s=32&g=1)
+
+Glorfindel
+
+147118
+
+answered Jan 2 at 22:50
+
+![](https://i.stack.imgur.com/lI2Hb.jpg?s=32&g=1)
+
+Camilo RadaCamilo Rada
+
+14.2k648100
+
+$\endgroup$
+
+                    
+                                                * 1
+                    
+
+$\begingroup$ I remember seeing an article researching one of the old heat
+records, and showing that it was probably not correct. I can't remember of it
+was Death Valley or otherwise. Have you heard of that? I can't find the
+article now. $\endgroup$ - Gimelist Jan 3 at 0:48
+
+                    
+                                                * 3
+                    
+
+$\begingroup$ @Gimelist It might be the one at El Azizia that is mention in
+the quote above. I've added a link to the press release now. The WMO is
+constantly evaluating record claims, like this recent one in Antractica
+public.wmo.int/en/resources/meteoworld/… $\endgroup$ - Camilo Rada Jan 3 at
+1:22
+
+                    
+                                                * 4
+                    
+
+$\begingroup$ Here's the article about the likely inaccuracies of old high
+measurements: wunderground.com/blog/weatherhistorian/… $\endgroup$ - Plutor
+Jan 3 at 2:02
+
+                    
+                                                * 1
+                    
+
+$\begingroup$ @Plutor Very interesting article. Thanks for sharing it. I'll
+add a comment about that in my answer. $\endgroup$ - Camilo Rada Jan 3 at 2:11
+
+                    
+                                                * 1
+                    
+
+$\begingroup$ Regarding “heat index,” I believe the highest one ever recorded
+(according to the modern US formula) is about 80 degrees C in Dhahran, Saudi
+Arabia when a temperature of 42 C was coupled with a world record dew point
+temperature of 35 C. Places such as Bandar Abbas in Iran reach a heat index of
+60 C semi-frequently during summer, according to historical records available
+on Wunderground and elsewhere. $\endgroup$ - Shalop Jan 3 at 17:01
+
+add a comment |
+
+5
+
+$\begingroup$
+
+The Hadean era covers the time from the formation of the Earth until 4bn years
+ago. It was characterized by a surface of molten rock, due to repeated meteor
+strikes, volcanism and radioactive decay.
+
+> "Liquid water oceans existed despite the surface temperature of 230 °C (446
+°F) because of the atmospheric pressure of the heavy carbon dioxide
+atmosphere."
+
+>
+
+> Source: Wikipedia, "Origin of water" (*Study from Sleep et al,2001)
+
+Whether this counts as "recorded" is another matter. No-one measured it with a
+thermometer, but it can be modelled using palaeo-climatology principles.
+
+* * *
+
+**N. H. Sleep; K. Zahnle & P. S. Neuhoff.** " _Inaugural Article: Initiation
+of clement surface conditions on the earliest Earth"_ Proceedings of the
+National Academy of Sciences, **Mar 2001** , 98 (7) 3666-3672; DOI:
+10.1073/pnas.071045698 Published in PNAS
+
+share|improve this answer
+
+edited Jan 5 at 12:13
+
+![](https://i.stack.imgur.com/CIFyk.jpg?s=32&g=1)
+
+Universal_learner
+
+720327
+
+answered Jan 3 at 13:50
+
+![](https://www.gravatar.com/avatar/6d92a416de5d707c27d5b8f10f1241c9?s=32&d=identicon&r=PG&f=1)
+
+BoodysaspieBoodysaspie
+
+1592
+
+$\endgroup$
+
+                    
+                                                * 1
+                    
+
+$\begingroup$ This is not a useful interpretation of _highest temperature
+recorded_. There 's higher temperatures measured at the surface of the Earth
+during volcanic eruptions and forest fires. Those are not usually accepted as
+temperature extremes when discussing the weather. And certainly, the estimated
+temperatures during the Hadean era are coming from models and not
+measurements. $\endgroup$ - gerrit♦ Jan 4 at 12:20
+
+                    
+                                                * $\begingroup$ @gerrit I'm simply claiming that the climate in the Hadean was hotter than at present, because the OP mentions examples of climate, not individual events. But thank you for confirming that no-one was around to measure Hadean temperatures. $\endgroup$ - Boodysaspie Jan 4 at 21:51
+                    
+
+add a comment |
+
+## Your Answer
+
+Thanks for contributing an answer to Earth Science Stack Exchange!
+
+                    
+                                                * Please be sure to _answer the question_. Provide details and share your research!
+                    
+
+But _avoid_ …
+
+                    
+                                                * Asking for help, clarification, or responding to other answers.
+                            * Making statements based on opinion; back them up with references or personal experience.
+                    
+
+Use MathJax to format equations. MathJax reference.
+
+To learn more, see our tips on writing great answers.
+
+draft saved
+
+draft discarded
+
+### Sign up or log in
+
+Sign up using Google
+
+Sign up using Facebook
+
+Sign up using Email and Password
+
+### Post as a guest
+
+Name
+
+Email
+
+Required, but never shown
+
+### Post as a guest
+
+Name
+
+Email
+
+Required, but never shown
+
+Post Your Answer Discard
+
+By clicking “Post Your Answer”, you agree to our terms of service, privacy
+policy and cookie policy
+
+## Not the answer you're looking for? Browse other questions tagged climate
+
+temperature measurements extreme-weather field-measurements or ask your own
+question.
+
+asked
+
+|
+
+**5 months ago**
+
+---|--- 
+
+viewed
+
+|
+
+**31,164 times**
+
+active
+
+|
+
+**1 month ago**
+
+Featured on Meta
+
+                    
+                                                * Unicorn Meta Zoo #3: How do we grade questions?
+                    
+
+#### Related
+
+2
+
+Great Lakes Earth: The Americas
+
+2
+
+What's the largest known range of natural temperature variations of human
+inhabited Earth across history?
+
+#### Hot Network Questions
+
+                    
+                                                * Wooden cooking layout 
+                            * Can I utilise a baking stone to make crepes? 
+                            * Is it expected that a reader will skip parts of what you write? 
+                            * English word for "product of tinkering"
+                            * Check if three arrays contains the same element 
+                            * Why am I getting a strange double quote (“) in Open Office instead of the ordinary one (")? 
+                            * Is it a bad idea to to run 24 tap and shock lands in standard 
+                            * Meaning of 'lose their grip on the groins of their followers'
+                            * How can I get an unreasonable manager to approve time off? 
+                            * New pedal fell off maybe 50 miles after installation. Should I replace the entire crank, just the arm, or repair the thread? 
+                            * How to ensure color fidelity of the same file on two computers? 
+                            * GroupBy operation using an entire dataframe to group values 
+                            * I have a problematic assistant manager, but I can't fire him 
+                            * Who won a Game of Bar Dice? 
+                            * Russian word for a male zebra 
+                            * Thread Pool C++ Implementation 
+                            * If I leave the US through an airport, do I have to return through the same airport? 
+                            * Why is a common reference string needed in zero knowledge proofs? 
+                            * Artificer Creativity 
+                            * Are there any important biographies of nobodies? 
+                            * Is it possible for a vehicle to be manufactured without a catalytic converter? 
+                            * Why {1,2} printed by a command in $() is not interpolated? 
+                            * How to hide rifle during medieval town entrance inspection? 
+                            * How to trick the reader into thinking they're following a redshirt instead of the protagonist?
+                    
+
+more hot questions
+
+Question feed
+
+# Subscribe to RSS
+
+Question feed
+
+To subscribe to this RSS feed, copy and paste this URL into your RSS reader.
+
+![](/posts/15865/ivc/17c9)
+
+##### Earth Science
+
+                    
+                                                * Tour
+                            * Help
+                            * Chat
+                            * Contact
+                            * Feedback
+                            * Mobile
+                    
+
+##### Company
+
+                    
+                                                * Stack Overflow
+                            * Stack Overflow Business
+                            * Developer Jobs
+                            * About
+                            * Press
+                            * Legal
+                            * Privacy Policy
+                    
+
+##### Stack Exchange
+
+Network
+
+                    
+                                                * Technology
+                            * Life / Arts
+                            * Culture / Recreation
+                            * Science
+                            * Other
+                    
+                            * Stack Overflow
+                            * Server Fault
+                            * Super User
+                            * Web Applications
+                            * Ask Ubuntu
+                            * Webmasters
+                            * Game Development
+                    
+                            * TeX - LaTeX
+                            * Software Engineering
+                            * Unix & Linux
+                            * Ask Different (Apple)
+                            * WordPress Development
+                            * Geographic Information Systems
+                            * Electrical Engineering
+                    
+                            * Android Enthusiasts
+                            * Information Security
+                            * Database Administrators
+                            * Drupal Answers
+                            * SharePoint
+                            * User Experience
+                            * Mathematica
+                    
+                            * Salesforce
+                            * ExpressionEngine® Answers
+                            * Stack Overflow em Portugues
+                            * Blender
+                            * Network Engineering
+                            * Cryptography
+                            * Code Review
+                    
+                            * Magento
+                            * Software Recommendations
+                            * Signal Processing
+                            * Emacs
+                            * Raspberry Pi
+                            * Stack Overflow на русском
+                            * Programming Puzzles & Code Golf
+                    
+                            * Stack Overflow en español
+                            * Ethereum
+                            * Data Science
+                            * Arduino
+                            * Bitcoin
+                            * **more (31)**
+                    
+                            * Photography
+                            * Science Fiction & Fantasy
+                            * Graphic Design
+                            * Movies & TV
+                            * Music: Practice & Theory
+                            * Worldbuilding
+                            * Seasoned Advice (cooking)
+                    
+                            * Home Improvement
+                            * Personal Finance & Money
+                            * Academia
+                            * Law
+                            * **more (15)**
+                    
+                            * English Language & Usage
+                            * Skeptics
+                            * Mi Yodeya (Judaism)
+                            * Travel
+                            * Christianity
+                            * English Language Learners
+                            * Japanese Language
+                    
+                            * Arqade (gaming)
+                            * Bicycles
+                            * Role-playing Games
+                            * Anime & Manga
+                            * Puzzling
+                            * Motor Vehicle Maintenance & Repair
+                            * **more (33)**
+                    
+                            * MathOverflow
+                            * Mathematics
+                            * Cross Validated (stats)
+                            * Theoretical Computer Science
+                            * Physics
+                            * Chemistry
+                            * Biology
+                    
+                            * Computer Science
+                            * Philosophy
+                            * **more (10)**
+                    
+                            * Meta Stack Exchange
+                            * Stack Apps
+                            * API
+                            * Data
+                    
+                            * Blog
+                            * Facebook
+                            * Twitter
+                            * LinkedIn
+                    
+
+site design / logo (C) 2019 Stack Exchange Inc; user contributions licensed
+under cc by-sa 3.0 with attribution required. rev 2019.6.6.33900
+
+Earth Science Stack Exchange works best with JavaScript enabled
+![](https://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif)
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication _[C.]: Century_ [m.]: married _[FT]:
+Financial Times_ [ _]: required_ [MB]: megabytes _[UV]: Ultraviolet_ [ UV]:
+Ultraviolet
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+  *[m.]: married
+  *[FT]: Financial Times
+  *[*]: required
+  *[MB]: megabytes
+  *[UV]: Ultraviolet
+  *[ UV]: Ultraviolet
+

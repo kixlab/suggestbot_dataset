@@ -1,0 +1,1520 @@
+	<!doctype html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js">
+<head>
+    <meta charset="UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://ksassets.timeincuk.net" crossorigin>
+<link rel="preconnect" href="https://keyassets-p2.timeincuk.net" crossorigin>
+<link rel="preconnect" href="https://assets.ti-media.net/" crossorigin>
+<link rel="preconnect" href="https://adservice.google.co.uk" crossorigin>
+<link rel="preconnect" href="https://googleads.g.doubleclick.net" crossorigin>
+<link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+<link rel="preconnect" href="https://adservice.google.com" crossorigin>
+<link rel="preconnect" href="https://tpc.googlesyndication.com" crossorigin>
+<link rel="preconnect" href="https://www.googleadservices.com" crossorigin>
+<link rel="preconnect" href="https://googletagservices.com" crossorigin>
+<link rel="preconnect" href="https://securepubads.g.doubleclick.net" crossorigin>
+<link rel="preconnect" href="https://display.apester.com" crossorigin>
+<link rel="preconnect" href="https://player.apester.com" crossorigin>
+<link rel="preconnect" href="https://renderer.apester.com" crossorigin>
+<link rel="preconnect" href="https://static.apester.com" crossorigin>
+<link rel="preconnect" href="https://content.jwplatform.com" crossorigin>
+<link rel="preconnect" href="https://jwpltx.com" crossorigin>
+<link rel="preconnect" href="https://ssl.p.jwpcdn.com" crossorigin>
+<link rel="preconnect" href="https://cdn.taboola.com" crossorigin>
+<link rel="preconnect" href="https://trc.taboola.com" crossorigin>
+
+
+    <title>What is ovulation? Everything you need to know about ovulation</title>
+<link rel="preload" href="https://www.goodtoknow.co.uk/wp-content/plugins/keystone-jwplayer/assets/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://www.goodtoknow.co.uk/wp-content/plugins/keystone-jwplayer/assets/css/main.css"></noscript><script async>!function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);</script><style>
+@font-face {
+	font-family: "keystone";
+	font-weight: normal;
+	font-style: normal;
+	font-display: fallback;
+	src:	url("//www.goodtoknow.co.uk/wp-content/themes/simba-theme/assets/fonts/standard.woff2?v=1559734218") format("woff2"),
+	url("//www.goodtoknow.co.uk/wp-content/themes/simba-theme/assets/fonts/standard.woff?v=1559734218") format("woff");
+}
+.icon-spinner {
+	background-image: url("//www.goodtoknow.co.uk/wp-content/themes/simba-theme/assets/images/spinner.gif");
+}
+
+</style><style>@font-face{font-family:Muli;font-style:normal;font-weight:400;font-display:fallback;src:local("Muli Regular"),local("Muli-Regular"),url(/wp-content/themes/simba-theme/assets/fonts/google/muli/muli-v11-latin-regular.woff2) format("woff2"),url(/wp-content/themes/simba-theme/assets/fonts/google/muli/muli-v11-latin-regular.woff) format("woff")}a,aside,body,div,header,html,img,li,nav,span,ul{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}aside,header,nav{display:block}body{line-height:1}ul{list-style:none}*{box-sizing:border-box}:after,:before{box-sizing:border-box}html{height:auto;overflow-x:hidden;width:100vw}body{color:#141012;font-family:Muli,Arial;height:100%;line-height:1.6;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-text-size-adjust:100%}a{color:#ffab88;outline:0;text-decoration:none}.row:after{content:"";display:table;clear:both}#wrapper{margin:0 auto;font-size:18px;overflow:hidden}.s-container{margin:15px auto;padding:0 15px;max-width:1440px;box-sizing:content-box}@media (min-width:45.5em){.s-container{margin:45px auto;padding:0 45px}}#wrapper{overflow:unset}@media (max-width:45.49em){#wrapper{padding-top:71px!important}#wrapper .header{margin-top:-71px}}.header{z-index:999997;margin:0 auto;overflow:visible;position:relative}.header nav a{display:block}.header nav ul{position:absolute;overflow:hidden}.header .logo a{width:300px}@media (min-width:45.5em){.header .logo a{width:300px}}.header .logo a img{display:block;width:100%}.header .submenu-toggle{display:none}@media (max-width:45.49em){.header{position:fixed;padding:5px 0;line-height:50px;box-sizing:content-box;width:100%;height:52px}.header .header__inner{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;height:100%}.header nav{width:100%}.header .navigation{top:100%;width:100%;height:0}.header .navigation ul{position:initial}.header .navigation li{position:relative}.header .navigation li a{padding:0 15px}.header .navigation li .submenu-toggle{display:block;font-size:.8em;position:absolute;right:0;top:0;text-align:center;width:50px}.header .navigation li .submenu-toggle:before{display:inline-block}}@media (min-width:45.5em){.header{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center}.header .header__inner{-moz-flex-grow:0;-ms-flex-positive:0;flex-grow:0}.header nav{position:initial;-moz-flex-grow:1;-ms-flex-positive:1;flex-grow:1}.header nav ul{box-sizing:border-box;position:initial;overflow:visible}.header nav ul ul{display:none;position:absolute;padding:0 45px}.header nav .navigation{display:inline-block}.header nav .navigation>li>a{padding:0 5px}.header nav .navigation>li>ul{left:0;padding-bottom:30px;width:100%;line-height:initial;z-index:9999999}.header nav .navigation>li>ul a{line-height:1.3em;vertical-align:text-top}.header nav .navigation>li>ul>li{width:200px;vertical-align:text-top;padding:30px 45px 0 0}.header nav .navigation>li>ul>li>ul{padding:0;position:initial}.header nav .navigation>li>ul>li>ul li{display:block;margin-top:15px}.header nav li{display:inline-block}}.header{background:#fbfbfb;border-bottom:1px solid #ececec;font-family:Muli}@media (max-width:45.49em){.header .logo img{max-height:52px;max-width:300px}.header nav .navigation{border-top:1px solid #ececec;border-top-color:transparent;background-clip:padding-box!important}}.header nav .navigation{background:#fff}.header nav .navigation>li a{color:#141012;font-family:Muli;font-size:1em;font-weight:700;text-transform:uppercase}.header nav .navigation>li>ul{background:#fbfbfb}.header nav .navigation>li>ul>li a{color:#141012;font-size:.9em;text-transform:initial}.header nav .navigation>li>ul>li>ul{background:#f7f7f7}.header nav .navigation>li>ul>li>ul a{font-size:.8em}@media (min-width:45.5em){.header .logo img{max-width:300px}.header.has-single-tier .logo{margin-right:30px}.header.has-single-tier .logo a{display:block}.header.has-single-tier .logo img{padding:5px 0}.header nav .navigation{background:0 0}.header nav .navigation>li a{position:relative}.header nav .navigation>li>a:after{background:#ffab88;bottom:0;content:"";height:4px;left:0;position:absolute;right:100%}.header nav .navigation>li>ul{background-clip:padding-box!important;border-top:5px solid #ececec;border-bottom:5px solid #ececec}.header nav .navigation>li>ul>li a{display:inline-block;font-size:1.1em}.header nav .navigation>li>ul>li>ul{background:0 0}.header nav .navigation>li>ul>li>ul a{font-size:.9em;font-weight:400}}[class*=" icon-"]:after,[class*=" icon-"]:before{font-family:keystone!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;font-display:fallback;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-arrow-down:before{content:"D"}.hide{display:none!important}@media (max-width:45.49em){.has-adverts{margin-top:54px;padding-top:0}}@media (min-width:45.5em){.has-adverts .header-advert-wrapper{background:#f7f7f7;display:block;height:50px;position:relative;width:100%;height:110px}}@media (min-width:970px){.has-adverts .header-advert-wrapper{height:270px}}.has-adverts .header-advert{background:#f7f7f7;display:block;top:0;overflow:hidden;position:fixed;width:100%}@media (max-width:45.49em){.has-adverts .header-advert{z-index:999997;display:-ms-flexbox;display:flex;height:54px;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}}@media (min-width:45.5em){.has-adverts .header-advert{z-index:999999}}@media (min-width:45.5em) and (max-width:969px){.has-adverts .header-advert{height:110px}}@media (min-width:970px){.has-adverts .header-advert{height:270px}}@media (min-width:45.5em) and (max-width:969px){.has-adverts .header-advert.is-absolute{margin-top:0!important;position:absolute!important}}@media (min-width:970px){.has-adverts .header-advert.is-absolute{margin-top:0!important;position:absolute!important}}@media (min-width:45.5em) and (max-width:969px){.has-adverts .header-advert .section-content{box-sizing:content-box;height:90px;padding:10px 0}.has-adverts .header-advert .section-content>*{position:relative;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}}@media (min-width:970px){.has-adverts .header-advert .section-content{box-sizing:border-box;height:270px;padding:10px 0}.has-adverts .header-advert .section-content>*{position:relative;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}}.ipc-advert{text-align:center;margin:0}@media (min-width:45.5em){.ipc-advert{margin:0}}</style><link rel="preload" href="https://www.goodtoknow.co.uk/wp-content/themes/simba-theme/assets/css/sites/53.min.css?1559734218" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://www.goodtoknow.co.uk/wp-content/themes/simba-theme/assets/css/sites/53.min.css?1559734218"></noscript><script async>!function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);</script>		<script type="text/javascript">
+		window.ipcTags = {"site":"goodtoknow","section":"family","type":"article","cplatform":"keystone","dfp_config":{"required_tags":["type","section","site","tagging","pub","author","contentId","subtype","amp","single","page_slug"],"available_criteria":{"mobile":{"criteria":{"window_greater_than":{"width_minimum":0},"window_less_than_equal_to":{"width_maximum":727}},"display_mode":"mobile"},"desktop":{"criteria":{"window_greater_than":{"width_minimum":727}},"display_mode":"desktop"}},"slots":{"header-1":{"name":{"mobile":"mobilebanner01","desktop":"billboard01"},"criteria":["desktop","mobile"],"inview":false,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]],[[0,0],[[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"inline-1":{"name":"inline01","criteria":["desktop","mobile"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"inline-2":{"name":"inline02","criteria":["desktop","mobile"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"post-side-1":{"name":"mpu01","criteria":["desktop"],"inview":false,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]]]},"post-side-2":{"name":"mpu02","criteria":["desktop"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]]]},"post-side-3":{"name":"mpu03","criteria":["desktop"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]]]},"post-side-4":{"name":"mpu04","criteria":["desktop"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]]]},"post-side-5":{"name":"mpu05","criteria":["desktop"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]]]},"post-inline-1":{"name":"mpu01","criteria":["mobile"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"post-inline-2":{"name":"mpu02","criteria":["mobile"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"post-inline-3":{"name":"mpu03","criteria":["mobile"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"post-inline-4":{"name":"mpu04","criteria":["mobile"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"post-inline-5":{"name":"mpu05","criteria":["mobile"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"recipe-1":{"name":"mpu01","criteria":["mobile"],"inview":false,"sizes":[[320,50]],"sizeMapping":[[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"recipe-2":{"name":"mpu02","criteria":["mobile"],"inview":false,"sizes":[[320,50]],"sizeMapping":[[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"recipe-3":{"name":"mpu03","criteria":["mobile"],"inview":false,"sizes":[[320,50]],"sizeMapping":[[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"archive-1":{"name":"mpu01","criteria":["desktop"],"inview":false,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]]]},"archive-2":{"name":"mpu02","criteria":["desktop"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]]]},"archive-3":{"name":"mpu03","criteria":["desktop"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]]]},"archive-4":{"name":"mpu04","criteria":["desktop"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]]]},"archive-5":{"name":"mpu05","criteria":["desktop"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]]]},"archive-inline-1":{"name":"mpu01","criteria":["mobile"],"inview":false,"sizes":[[300,250]],"sizeMapping":[[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"archive-inline-2":{"name":"mpu02","criteria":["mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"archive-inline-3":{"name":"mpu03","criteria":["mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"archive-inline-4":{"name":"mpu04","criteria":["mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"archive-inline-5":{"name":"mpu05","criteria":["mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"gallery-1":{"name":{"desktop":"mpu01","mobile":"mpu02"},"criteria":["desktop","mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"gallery-2":{"name":{"desktop":"mpu02","mobile":"mpu03"},"criteria":["desktop","mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"gallery-3":{"name":{"desktop":"mpu03","mobile":"mpu04"},"criteria":["desktop","mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"gallery-4":{"name":{"desktop":"mpu04","mobile":"mpu05"},"criteria":["desktop","mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"gallery-5":{"name":{"desktop":"mpu05","mobile":"mpu06"},"criteria":["desktop","mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"gallery-6":{"name":{"desktop":"mpu06","mobile":"mpu07"},"criteria":["desktop","mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"gallery-7":{"name":{"desktop":"mpu07","mobile":"mpu08"},"criteria":["desktop","mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"gallery-8":{"name":{"desktop":"mpu08","mobile":"mpu09"},"criteria":["desktop","mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"gallery-9":{"name":{"desktop":"mpu09","mobile":"mpu10"},"criteria":["desktop","mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"gallery-10":{"name":{"desktop":"mpu010","mobile":"mpu11"},"criteria":["desktop","mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"gallery-inline-1":{"name":"gallery_banner01","criteria":["desktop"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]]]},"gallery-inline-2":{"name":"gallery_banner02","criteria":["desktop"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]]]},"gallery-inline-3":{"name":"gallery_banner03","criteria":["desktop"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]]]},"gallery-inline-4":{"name":"gallery_banner04","criteria":["desktop"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]]]},"gallery-inline-5":{"name":"gallery_banner05","criteria":["desktop"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]]]},"gallery-inline-6":{"name":"gallery_banner06","criteria":["desktop"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]]]},"gallery-inline-7":{"name":"gallery_banner07","criteria":["desktop"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]]]},"gallery-inline-8":{"name":"gallery_banner08","criteria":["desktop"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]]]},"gallery-inline-9":{"name":"gallery_banner09","criteria":["desktop"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]]]},"gallery-inline-10":{"name":"gallery_banner10","criteria":["desktop"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]]]},"showcase-1":{"name":{"desktop":"mpu01","mobile":"mpu02"},"criteria":["desktop","mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"showcase-2":{"name":{"desktop":"mpu02","mobile":"mpu03"},"criteria":["desktop","mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"showcase-3":{"name":{"desktop":"mpu03","mobile":"mpu04"},"criteria":["desktop","mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"showcase-4":{"name":{"desktop":"mpu04","mobile":"mpu05"},"criteria":["desktop","mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"showcase-5":{"name":{"desktop":"mpu05","mobile":"mpu06"},"criteria":["desktop","mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"showcase-6":{"name":{"desktop":"mpu06","mobile":"mpu07"},"criteria":["desktop","mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"showcase-7":{"name":{"desktop":"mpu07","mobile":"mpu08"},"criteria":["desktop","mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"showcase-8":{"name":{"desktop":"mpu08","mobile":"mpu09"},"criteria":["desktop","mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"showcase-9":{"name":{"desktop":"mpu09","mobile":"mpu10"},"criteria":["desktop","mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"showcase-10":{"name":{"desktop":"mpu010","mobile":"mpu11"},"criteria":["desktop","mobile"],"inview":true,"sizes":[[300,250]],"sizeMapping":[[[728,0],[[300,600],[300,250],[300,50],[300,100],[300,1],"fluid"]],[[0,0],[[300,250],[320,50],[300,50],[320,100],[300,100],[300,1],"fluid"]]]},"showcase-inline-1":{"name":"showcase_banner01","criteria":["desktop"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]]]},"showcase-inline-2":{"name":"showcase_banner02","criteria":["desktop"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]]]},"showcase-inline-3":{"name":"showcase_banner03","criteria":["desktop"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]]]},"showcase-inline-4":{"name":"showcase_banner04","criteria":["desktop"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]]]},"showcase-inline-5":{"name":"showcase_banner05","criteria":["desktop"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]]]},"showcase-inline-6":{"name":"showcase_banner06","criteria":["desktop"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]]]},"showcase-inline-7":{"name":"showcase_banner07","criteria":["desktop"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]]]},"showcase-inline-8":{"name":"showcase_banner08","criteria":["desktop"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]]]},"showcase-inline-9":{"name":"showcase_banner09","criteria":["desktop"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]]]},"showcase-inline-10":{"name":"showcase_banner10","criteria":["desktop"],"inview":true,"sizes":[[320,50]],"sizeMapping":[[[992,0],[[970,250],[970,90],[728,90],[728,1],"fluid"]],[[728,0],[[728,90],[728,1],"fluid"]]]},"native-archive-homepage":{"name":"native-archive-homepage","targeting":{"strnativekey":"p1Q7vnVpRQ9YGp7i1NnQVykY"},"criteria":["desktop","mobile"],"inview":false,"sizes":[[6,1],[6,1]]},"native-archive-landing":{"name":"native-archive-landing","targeting":{"strnativekey":"3FiCyELnAoo2jDfndy7zP6CD"},"criteria":["desktop","mobile"],"inview":false,"sizes":[[6,1],[6,1]]},"native-content-desktop":{"name":"native-content-desktop","targeting":{"strnativekey":"4RtyZCtPwk6CfHKorjzvC3d6"},"criteria":["desktop"],"inview":false,"sizes":[[6,1]]},"native-content-mobile":{"name":"native-content-mobile","targeting":{"strnativekey":"aoitFKuV1u7XZRn2Tsb2msFz"},"criteria":["mobile"],"inview":false,"sizes":[[6,1]]},"instream":{"name":"instream","inview":false,"criteria":["mobile"],"sizes":[11,2]},"sovrn":{"name":"sovrn","inview":false,"criteria":["desktop","tablet","mobile"],"sizes":[12,2]},"gumgum":{"name":"gumgum","inview":false,"criteria":["desktop","tablet","mobile"],"sizes":[8,2]},"dfpad-overlay":{"name":"dfpad-overlay","inview":false,"criteria":["desktop","tablet","mobile"],"sizes":[1,1]}},"optimisations":true,"indexExchange":"ht\/p\/184316-14680278353212.js"},"env":"prod","geo":"","skimlinks_enabled":true,"pxslot_base":"article","amp":false,"meta_title":"What is ovulation? Everything you need to know about ovulation","meta_description":"Do you know what is ovulation or when you ovulate or how ovulation works? Getting pregnant isn't always easy but here's some top advice to help you conceive","page_slug":"\/family\/all-you-need-to-know-about-ovulation-60554","contentId":60554,"subtype":"image","tagging":["category:family","category:pregnancy","post_tag:conception_and_fertility","publication_name:goodtoknow","author:goodtoknow"],"author":"goodtoknow","authorName":"GoodtoKnow","datePublished":"20181001","hourPublished":"09","minPublished":"30","dateUpdated":"20181122","hourUpdated":"16","minUpdated":"25","single":true,"pub":"goodtoknow","template":"single-post"};
+		</script>
+<meta name="description" content="Do you know what is ovulation or when you ovulate or how ovulation works? Getting pregnant isn&#039;t always easy but here&#039;s some top advice to help you conceive"/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.goodtoknow.co.uk/family/all-you-need-to-know-about-ovulation-60554" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="What is ovulation? Everything you need to know about ovulation" />
+<meta property="og:description" content="Do you know what is ovulation or when you ovulate or how ovulation works? Getting pregnant isn&#039;t always easy but here&#039;s some top advice to help you conceive" />
+<meta property="og:url" content="https://www.goodtoknow.co.uk/family/all-you-need-to-know-about-ovulation-60554" />
+<meta property="og:site_name" content="GoodtoKnow" />
+<meta property="article:publisher" content="https://www.facebook.com/goodtoknow.co.uk/" />
+<meta property="article:tag" content="Conception &amp; Fertility" />
+<meta property="article:section" content="Family" />
+<meta property="article:published_time" content="2018-10-01T09:30:00+01:00" />
+<meta property="article:modified_time" content="2018-11-22T16:25:01+01:00" />
+<meta property="og:updated_time" content="2018-11-22T16:25:01+01:00" />
+<meta property="og:image" content="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2016/04/ovulation.jpg" />
+<meta property="og:image:width" content="614" />
+<meta property="og:image:height" content="404" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Do you know what is ovulation or when you ovulate or how ovulation works? Getting pregnant isn&#039;t always easy but here&#039;s some top advice to help you conceive" />
+<meta name="twitter:title" content="What is ovulation? Everything you need to know about ovulation" />
+<meta name="twitter:site" content="@GoodtoKnow" />
+<meta name="twitter:image" content="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2016/04/ovulation.jpg" />
+<meta name="twitter:creator" content="@GoodtoKnow" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="GoodtoKnow &raquo; Feed" href="https://www.goodtoknow.co.uk/feed" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.goodtoknow.co.uk\/wp-includes\/js\/wp-emoji-release.min.js?ver=NC45Ljc"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<script type='text/javascript' src='https://www.goodtoknow.co.uk/wp-content/themes/simba-theme/assets/js/dist/jquery-3.3.1.min.js?ver=3.3.1'></script>
+<link rel='https://api.w.org/' href='https://www.goodtoknow.co.uk/wp-json/' />
+<link rel='shortlink' href='https://www.goodtoknow.co.uk/?p=60554' />
+<link rel="alternate" type="application/json+oembed" href="https://www.goodtoknow.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.goodtoknow.co.uk%2Ffamily%2Fall-you-need-to-know-about-ovulation-60554" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.goodtoknow.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.goodtoknow.co.uk%2Ffamily%2Fall-you-need-to-know-about-ovulation-60554&#038;format=xml" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"NewsArticle","headline":"What is ovulation? Everything you need to know about ovulation","url":"https:\/\/www.goodtoknow.co.uk\/family\/all-you-need-to-know-about-ovulation-60554","thumbnailUrl":"https:\/\/keyassets-p2.timeincuk.net\/wp\/prod\/wp-content\/uploads\/sites\/53\/2016\/04\/ovulation.jpg","image":"https:\/\/keyassets-p2.timeincuk.net\/wp\/prod\/wp-content\/uploads\/sites\/53\/2016\/04\/ovulation.jpg","dateCreated":"2018-10-01T09:30:00+00:00","datePublished":"2018-10-01T09:30:00+00:00","dateModified":"2018-11-22T16:25:01+00:00","articleSection":"Family","creator":{"@type":"Person","name":"GoodtoKnow"},"author":{"@type":"Person","name":"GoodtoKnow"},"publisher":{"@type":"Organization","name":"GoodtoKnow","logo":{"@type":"http:\/\/schema.org\/ImageObject","url":"https:\/\/keyassets-p2.timeincuk.net\/wp\/prod\/wp-content\/uploads\/sites\/53\/2018\/04\/gtk-logo-peach-small.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.goodtoknow.co.uk\/family\/all-you-need-to-know-about-ovulation-60554"},"keywords":["Family","Pregnancy","Conception &amp; Fertility"]}</script>
+		<script type="text/javascript" charset="utf-8">
+		(function(a,b,c,d){
+		    var protocol = "https://";
+		    a="assets.ti-media.net/js/e1512726446_2a23693/min/gtm/utils-min.js";
+		    b=document;c='script';d=b.createElement(c);d.src=protocol+a;d.async=true;d.type='text/java'+c;
+		    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+		 })();
+		</script>
+	      <!-- Google Tag Manager -->
+      <script>(function ( w, d, s, l, i ) {
+          w[ l ] = w[ l ] || [];
+          w[ l ].push({
+            'gtm.start' :
+              new Date().getTime(), event : 'gtm.js'
+          });
+          var f = d.getElementsByTagName(s)[ 0 ],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+          j.async = true;
+          j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+          f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer','GTM-M6MX7WK');</script>
+      <!-- End Google Tag Manager -->
+      <link rel="icon" href="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2018/03/cropped-gtk-icon-peach-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2018/03/cropped-gtk-icon-peach-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2018/03/cropped-gtk-icon-peach-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2018/03/cropped-gtk-icon-peach-1-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			/** ADVERT FIXES **/
+
+#teads {
+	height: 0;
+}
+
+.header-advert .ipc-advert>div {
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 727px) {
+	.has-adverts {
+    padding-top: 0;
+    margin-top: 54px;
+	}
+}
+
+/** Fix recipe cards when a skin is active **/
+
+@media only screen and (min-width: 78.250em) {
+	.keystone-premium-skin .recipe__card--small .recipe__card-image img,
+	.keystone-premium-sizemek .recipe__card--small .recipe__card-image img {	 
+		height:auto;
+		position:relative;
+}
+	
+	.keystone-premium-skin .recipe__card--small .recipe__card-image,
+	.keystone-premium-sizemek .recipe__card--small .recipe__card-image {
+		position:relative;
+		width:100%
+	}
+	
+	.keystone-premium-skin .recipe__card--small .recipe__card-info,
+	.keystone-premium-sizemek .recipe__card--small .recipe__card-info {
+		float:left;
+		width:100%
+	}
+	
+	.keystone-premium-skin .recipe__card--small .recipe__nutrition,
+	.keystone-premium-sizemek .recipe__card--small .recipe__nutrition {
+		width:75%;
+		float:left;
+		margin:15px;
+	}
+}
+
+/** Fix recipe body when skin is active at certain widths **/
+
+@media only screen and (max-width:90em) and (min-width:78.25em) { 
+	.keystone-premium-skin .post-main__inner--recipe {
+		width:100%;
+	}
+}
+			
+/** RECIPE STYLING **/
+
+h2 {
+	font-size:1.75em;
+}
+
+.recipe .recipe__ingredients {
+	margin-bottom:0.2em;
+	border-top:1px solid #ffab88;
+	padding-top:1.5em;
+	margin-top:1.5em;
+}
+
+.recipe .recipe__ingredients-list li {
+	margin-bottom:0.2em;
+}
+
+.recipe .recipe__method {
+	margin-top:0em;
+	margin-bottom:0em;
+}
+
+.recipe .recipe__method-list {
+	margin-bottom:0em;
+}
+
+.recipe .recipe__method-list li {
+	margin-bottom:1.5em;
+
+}
+
+.recipe .recipe__method-list li p {
+	margin-bottom:0.4em;
+}
+
+.recipe .recipe__method-list li:before {
+	font-size:1.75em;
+	left:-1.5em;
+	top:-0.1em;
+}
+
+.recipe .recipe__method-list {
+	padding-left:2.5em;
+}
+
+.recipe .recipe__top-tip {
+	margin-top:0.5em;
+	margin-bottom:0;
+}
+
+.recipe .recipe__top-tip p {
+	margin-bottom:0
+}
+
+.articleBody .recipe__rating {
+	margin-bottom:1.5em;
+	margin-top:1.5em;
+}
+
+.recipe .premium_inline_before_last_p {
+	border-top:1px solid #ffab88;
+	padding-top:1.5em;
+}
+
+.recipe .recipe__explore {
+	margin-top:0px;
+	margin-bottom:1.5em;;
+}
+
+.recipe .widget_text .textwidget {
+	padding-top:0;
+}
+
+.recipe .widget_text .textwidget h2 {
+	padding-bottom:0px;
+}
+
+.recipe .recipe__explore ul {
+	margin-bottom:0px;
+}
+
+.ad-container {
+	pointer-events: unset !important;
+}		</style>
+	    			</head>
+
+<body class="post-template-default single single-post postid-60554 single-format-standard has-adverts y2019 m06 d06 h04 all-you-need-to-know-about-ovulation standard slim-header">
+
+	<div class="header-advert-wrapper">
+		<aside class="row advert header-advert sticky-anchor is-absolute">
+			<div class="section-content">
+				<div id="header-1" class="ipc-advert"></div>			</div>
+		</aside>
+	</div>
+
+<div class="parallax-wrapper parallax-wrapper--header"></div>
+
+      <!-- Google Tag Manager (noscript) -->
+      <noscript>
+        <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-M6MX7WK"
+            height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+      </noscript>
+      <!-- End Google Tag Manager (noscript) -->
+      
+<div id="wrapper" class="hfeed">
+
+			<header id="header" role="banner" class="header s-container has-single-tier">
+
+	<div class="header__inner">
+
+					<div itemscope itemtype="http://schema.org/Organization" class="logo header-slot header-slot-">
+    <a itemprop="url" href="/" title="GoodtoKnow" name="GoodtoKnow">
+    	<span class="hide">Link to home</span>
+		<picture>
+			<source media="(min-width: 728px)" srcset="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2018/04/gtk-logo-peach.png" >
+			<source media="(max-width: 727px)" srcset="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2018/03/gtk-logo-peach-small.png" >
+	  		<img src="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2018/04/gtk-logo-peach.png" alt="hero profile" itemprop="logo" aria-hidden="true" data-pin-nopin="true">
+		</picture>
+    </a>
+</div>		
+	</div>
+
+		<nav>
+	<ul class="navigation hide-overflow-items" data-nav="closed">
+					<li class="has-subnav">
+				<a href="https://www.goodtoknow.co.uk/recipes"     name="Recipes">Recipes</a>
+									<span class="submenu-toggle icon-arrow-down"></span>
+					<ul class="navigation-secondary">
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/recipes"     name="Most Popular">Most Popular</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes"     name="Recipe Finder">Recipe Finder</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/slimming-world"     name="Slimming World recipes">Slimming World recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/mary-berry-s-chocolate-cake"     name="Chocolate cake recipe">Chocolate cake recipe</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/recipe-collections/low-calorie-meals-150-family-dinners-under-500-calories-52074"     name="Low calorie family meals">Low calorie family meals</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/recipe-collections/50-healthy-family-meals-58377"     name="Healthy family meals">Healthy family meals</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/recipe-collections/cheap-family-meals-recipes-under-1-per-head-33813"     name="Cheap family meals">Cheap family meals</a>
+											</li>
+																			</ul>
+															</li>
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/recipes"     name="Family favourites">Family favourites</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/slow-cooker"     name="Slow cooker recipes">Slow cooker recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/casserole"     name="Casserole recipes">Casserole recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/cottage-pie"     name="Cottage pie recipe">Cottage pie recipe</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/soup"     name="Soup recipes">Soup recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/stir_fry"     name="Stir-fry recipes">Stir-fry recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/curry"     name="Curry recipes">Curry recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/salad"     name="Salad recipes">Salad recipes</a>
+											</li>
+																			</ul>
+															</li>
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/recipes"     name="Main Ingredient">Main Ingredient</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/chicken"     name="Chicken recipes">Chicken recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/fish"     name="Fish recipes">Fish recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/pork"     name="Pork recipes">Pork recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/mince"     name="Mince recipes">Mince recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/pasta"     name="Pasta recipes">Pasta recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/egg"     name="Egg recipes">Egg recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/vegetable"     name="Vegetable recipes">Vegetable recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/chocolate"     name="Chocolate recipes">Chocolate recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/fruit"     name="Fruit recipes">Fruit recipes</a>
+											</li>
+																			</ul>
+															</li>
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/recipes"     name="Course">Course</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/breakfast"     name="Breakfast recipes">Breakfast recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/lunch"     name="Lunch recipes">Lunch recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/dinner"     name="Dinner recipes">Dinner recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/dessert"     name="Dessert recipes">Dessert recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/starter"     name="Starter recipes">Starter recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/snack"     name="Snack ideas">Snack ideas</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/drink"     name="Drink recipes">Drink recipes</a>
+											</li>
+																			</ul>
+															</li>
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/recipes"     name="Cuisine">Cuisine</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/indian"     name="Indian recipes">Indian recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/chinese"     name="Chinese recipes">Chinese recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/mexican"     name="Mexican recipes">Mexican recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/italian"     name="Italian recipes">Italian recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/american"     name="American recipes">American recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/spanish"     name="Spanish recipes">Spanish recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/greek"     name="Greek recipes">Greek recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/thai"     name="Thai recipes">Thai recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/japanese"     name="Japanese recipes">Japanese recipes</a>
+											</li>
+																			</ul>
+															</li>
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/recipes/tag/baking"     name="Cakes and Baking">Cakes and Baking</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/cake"     name="Cake recipes">Cake recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/birthday-cake"     name="Birthday cake recipes">Birthday cake recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/cheesecake"     name="Cheesecake recipes">Cheesecake recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/fairy-cake"     name="Fairy cake recipes">Fairy cake recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/biscuit"     name="Biscuit recipes">Biscuit recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/muffin"     name="Muffin recipes">Muffin recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/bread"     name="Bread recipes">Bread recipes</a>
+											</li>
+																			</ul>
+															</li>
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/recipes/tag/cheap-quick-easy"     name="Cheap, Quick and Easy">Cheap, Quick and Easy</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/recipe-collections/cheap-family-meals-recipes-under-1-per-head-33813"     name="Cheap family meals">Cheap family meals</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/recipe-collections/40-easy-tray-bake-recipes-56080"     name="Easy tray bake recipes">Easy tray bake recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/recipe-collections/recipes-to-make-in-bulk-and-freeze-42987"     name="Recipes to make in bulk and freeze">Recipes to make in bulk and freeze</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/recipe-collections/20-simple-one-pot-dinners-22838"     name="One pot dinner recipes">One pot dinner recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/recipe-collections/cheap-and-easy-family-brunch-ideas-35835"     name="Cheap and easy brunch ideas">Cheap and easy brunch ideas</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/recipe-collections/jacket-potato-fillings-28635"     name="Jacket potato fillings">Jacket potato fillings</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/recipe-collections/30-packed-lunch-ideas-29748"     name="Packed lunch ideas">Packed lunch ideas</a>
+											</li>
+																			</ul>
+															</li>
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/recipes"     name="Special Occasions">Special Occasions</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/roast-dinner"     name="Roast dinner recipes">Roast dinner recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/dinner-party%20"     name="Dinner party recipes">Dinner party recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/birthday-cake"     name="Birthday cakes">Birthday cakes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/30-afternoon-tea-ideas-49214"     name="Afternoon tea ideas">Afternoon tea ideas</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/recipe-collections/33-street-party-food-ideas-47229"     name="Party food ideas">Party food ideas</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/cocktails"     name="Cocktails">Cocktails</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/recipe-collections/50-quick-and-easy-canapes-12972"     name="Quick and easy canapes">Quick and easy canapes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/bbq"     name="BBQ ideas">BBQ ideas</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/picnic"     name="Picnic foods">Picnic foods</a>
+											</li>
+																			</ul>
+															</li>
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/recipes/tag/gluten_free"     name="Dietary">Dietary</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/vegetarian"     name="Vegetarian recipes">Vegetarian recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/vegan"     name="Vegan recipes">Vegan recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/food-latest/vegan-food-list-5513"     name="Vegan food list">Vegan food list</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/gluten_free"     name="Gluten-free recipes">Gluten-free recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/dairy_free"     name="Dairy-free recipes">Dairy-free recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/recipes/tag/lower-fat"     name="Low fat recipes">Low fat recipes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/recipe-collections/high-protein-foods-and-recipe-ideas-43779"     name="High protein foods">High protein foods</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/recipe-collections/low-carb-recipes-42545"     name="Low carb recipes">Low carb recipes</a>
+											</li>
+																			</ul>
+															</li>
+											</ul>
+							</li>
+					<li class="has-subnav">
+				<a href="https://www.goodtoknow.co.uk/category/food"     name="Food">Food</a>
+									<span class="submenu-toggle icon-arrow-down"></span>
+					<ul class="navigation-secondary">
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/category/food/food-latest"     name="News and features">News and features</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/food-latest"     name="Latest food news">Latest food news</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/best-recipes-boxes-493578"     name="Best recipe boxes">Best recipe boxes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/food-latest/palm-oil-products-to-avoid-460304"     name="How to avoid palm oil products">How to avoid palm oil products</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/food-latest/what-is-organic-food-organic-what-does-organic-mean-441516"     name="What is organic food?">What is organic food?</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/recipe-collections/100-ways-make-more-of-food-shop-44819"     name="Save money and reduce waste">Save money and reduce waste</a>
+											</li>
+																			</ul>
+															</li>
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/recipes"     name="Cooking Basics">Cooking Basics</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/cups-to-grams-converter-87833"     name="Cups to grams converter">Cups to grams converter</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/seasonal-food-calendar-71128"     name="Seasonal food calendar">Seasonal food calendar</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/recipe-collections/50-recipes-everyone-should-know-how-to-cook-31760"     name="50 recipes everyone should know">50 recipes everyone should know</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/whats-wrong-with-my-cake-10-common-baking-problems-fixed-106399"     name="What's wrong with my cake?">What's wrong with my cake?</a>
+											</li>
+																			</ul>
+															</li>
+													<li class="has-subnav">
+								<a href="/food/how-to"     name="How Tos">How Tos</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/how-to/how-to-roast-pork-294839"     name="How to roast pork">How to roast pork</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/how-to/how-to-make-scrambled-eggs-292841"     name="How to make scrambled eggs">How to make scrambled eggs</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/how-to/how-to-make-an-omelette-294964"     name="How to make an omelette">How to make an omelette</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/how-to/how-to-make-sausage-rolls-294923"     name="How to make sausage rolls">How to make sausage rolls</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/how-to/make-sourdough-pizza-398823"     name="How to make sourdough pizza">How to make sourdough pizza</a>
+											</li>
+																			</ul>
+															</li>
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/wellbeing/cereal-bars-the-best-and-worst-revealed-48890"     name="Best and Worst">Best and Worst</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/breads-best-and-worst-loaves-revealed-35931"     name="Best and worst breads">Best and worst breads</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/best-worst-chocolate-bars-diet-28076"     name="Best and worst chocolate bars">Best and worst chocolate bars</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/healthy-cereal-the-best-and-worst-cereals-revealed-48366"     name="Best and worst cereals">Best and worst cereals</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/yogurt-best-and-worst-for-diet-30927"     name="Best and worst yogurts">Best and worst yogurts</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/how-to-have-a-healthy-takeaway-the-best-and-worst-options-on-the-menu-40275"     name="Healthiest takeaways">Healthiest takeaways</a>
+											</li>
+																			</ul>
+															</li>
+											</ul>
+							</li>
+					<li class="has-subnav">
+				<a href="https://www.goodtoknow.co.uk/category/family"     name="Family">Family</a>
+									<span class="submenu-toggle icon-arrow-down"></span>
+					<ul class="navigation-secondary">
+													<li class="has-subnav">
+								<a href=""     name="Most Popular">Most Popular</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/family/holiday-ideas-40-ways-to-entertain-your-kids-66855"     name="41 ways to entertain your kids">41 ways to entertain your kids</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/family/ovulation-calculator-66613"     name="Ovulation calculator">Ovulation calculator</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/family/early-signs-of-pregnancy-64319"     name="Early signs of pregnancy">Early signs of pregnancy</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/family/pregnancy/boy-or-girl-quiz-63015"     name="Am I having a boy or girl?">Am I having a boy or girl?</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/family/baby-food-meal-planner-weaning-7-months-89391"     name="Baby food meal planner">Baby food meal planner</a>
+											</li>
+																			</ul>
+															</li>
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/category/family/pregnancy"     name="Pregnancy">Pregnancy</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/tag/conception-and-fertility"     name="Conception &amp; Fertility">Conception &amp; Fertility</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/family/pregnancy-week-by-week-guide-97257"     name="Pregnancy week by week">Pregnancy week by week</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/tag/baby-names"     name="Baby names">Baby names</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/tag/labour-and-birth"     name="Labour and birth">Labour and birth</a>
+											</li>
+																			</ul>
+															</li>
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/category/family/babies"     name="Babies">Babies</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/tag/breastfeeding"     name="Breastfeeding">Breastfeeding</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/family/baby-sleep-guide-how-to-get-a-baby-to-sleep-287783"     name="Baby sleep guide">Baby sleep guide</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/family/why-is-my-baby-crying-63044"     name="Why is my baby crying?">Why is my baby crying?</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/family/baby-developmental-questions-464615"     name="When do babies crawl?">When do babies crawl?</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/family/the-ultimate-guide-to-potty-training-105941"     name="Potty training guide">Potty training guide</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/family/weaning-89403"     name="Baby weaning guide">Baby weaning guide</a>
+											</li>
+																			</ul>
+															</li>
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/category/family/children"     name="Children">Children</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/family/child-development-stages-62099"     name="Child development stages: Ages 0-16 years">Child development stages: Ages 0-16 years</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/tag/childhood-illnesses"     name="Common childhood illnesses">Common childhood illnesses</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/family/kids-height-calculator-1-84000"     name="Child height calculator">Child height calculator</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/family/parenting-styles-486269"     name="Parenting styles">Parenting styles</a>
+											</li>
+																			</ul>
+															</li>
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/category/family/things-to-do"     name="Things to do">Things to do</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/tag/craft"     name="Craft">Craft</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/tag/days-out"     name="Days out">Days out</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/tag/kids-party-ideas"     name="Kids party ideas">Kids party ideas</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/tag/cheap-family-holidays"     name="Cheap family holidays">Cheap family holidays</a>
+											</li>
+																			</ul>
+															</li>
+											</ul>
+							</li>
+					<li class="has-subnav">
+				<a href="https://www.goodtoknow.co.uk/category/wellbeing"     name="Wellbeing">Wellbeing</a>
+									<span class="submenu-toggle icon-arrow-down"></span>
+					<ul class="navigation-secondary">
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/wellbeing"     name="Family Health">Family Health</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/best-worst-sun-creams-30167"     name="Best and worst sun creams">Best and worst sun creams</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/hay-fever-symptoms-101205"     name="Hay fever symptoms">Hay fever symptoms</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/tag/childhood-illnesses"     name="Childhood illnesses">Childhood illnesses</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/wellbeing-news/natural-cough-remedies-104739"     name="Natural cough remedies">Natural cough remedies</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/natural-headache-cures-288207"     name="Natural headache cures">Natural headache cures</a>
+											</li>
+																			</ul>
+															</li>
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/tag/diet-plans"     name="Diet plans">Diet plans</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/food/foods-you-only-know-on-the-slimming-world-plan-288797"     name="22 low syn Slimming World foods">22 low syn Slimming World foods</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/the-5-2-diet-everything-you-need-to-know-to-get-started-108281"     name="The 5:2 diet">The 5:2 diet</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/16-8-diet-plan-289305"     name="16:8 diet plan">16:8 diet plan</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/mediterranean-diet-65356"     name="Mediterranean diet">Mediterranean diet</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/diets-exercise/cambridge-diet-67583"     name="Cambridge diet">Cambridge diet</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/the-new-dukan-diet-80999"     name="Dukan diet">Dukan diet</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/tag/celebrity-diets"     name="Celebrity diets">Celebrity diets</a>
+											</li>
+																			</ul>
+															</li>
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/category/wellbeing/diets-exercise"     name="Weight loss and exercise">Weight loss and exercise</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/tag/easy-exercise"     name="Easy exercise ideas">Easy exercise ideas</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/kilos-to-stones-82605"     name="Kilos to stone converter">Kilos to stone converter</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/lose-weight-fast-with-quick-results-diets-63998"     name="How to lose weight fast">How to lose weight fast</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/best-time-to-eat-breakfast-lunch-dinner-115224"     name="When to eat to lose weight">When to eat to lose weight</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/diets-exercise/intermittent-fasting-464620"     name="Intermittent fasting">Intermittent fasting</a>
+											</li>
+																			</ul>
+															</li>
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/wellbeing/beauty"     name="Beauty">Beauty</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/how-to-get-rid-of-dark-circles-bags-under-eyes-283973"     name="How to get rid of dark circles">How to get rid of dark circles</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/skin-pigmentation-how-to-get-rid-of-liver-spots-98223"     name="How to get rid of liver spots">How to get rid of liver spots</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/21-cheap-perfumes-that-smell-just-like-designer-scents-108852"     name="Best cheap perfumes">Best cheap perfumes</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/sudocrem-uses-105737"     name="11 uses for Sudocrem">11 uses for Sudocrem</a>
+											</li>
+																			</ul>
+															</li>
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/category/wellbeing/relationships"     name="Relationships">Relationships</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/relationships/tantric-sex-69302"     name="What is tantric sex?">What is tantric sex?</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/family/long-distance-relationships-427331"     name="Long distance relationships">Long distance relationships</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/relationships/12-signs-he-could-be-cheating-70026"     name="Signs he could be cheating">Signs he could be cheating</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/family/shared-parenting-after-separation-417760"     name="Co-parenting">Co-parenting</a>
+											</li>
+																			</ul>
+															</li>
+													<li class="has-subnav">
+								<a href="https://www.goodtoknow.co.uk/"     name="Home">Home</a>
+																	<span class="submenu-toggle icon-arrow-down"></span>
+									<ul class="navigation-tertiary">
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/family/money-saver/cheap-candles-9903"     name="Cheap candles">Cheap candles</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/mrs-hinch-best-cleaning-tips-products-444587"     name="Mrs Hinch's cleaning tips">Mrs Hinch's cleaning tips</a>
+											</li>
+																					<li>
+												<a href="https://www.goodtoknow.co.uk/wellbeing/how-often-should-you-washing-your-bedding-291913"     name="How often you should wash bedding">How often you should wash bedding</a>
+											</li>
+																			</ul>
+															</li>
+											</ul>
+							</li>
+					<li >
+				<a href="https://competitions.goodtoknow.co.uk/"     name="Win">Win</a>
+							</li>
+		
+		
+					<li class="has-subnav header-slot-right nav-follow">
+				<span class="submenu-toggle icon-arrow-down"></span>
+				<a href="javascript:void(0);" name="Follow us on social media">Follow</a>
+				<ul class="nav-social">
+											<li><a href="https://www.facebook.com/goodtoknow.co.uk" target="_blank" rel="noopener" name="Follow us on Facebook">Facebook</a></li>
+											<li><a href="https://twitter.com/goodtoknow" target="_blank" rel="noopener" name="Follow us on Twitter">Twitter</a></li>
+											<li><a href="https://www.pinterest.co.uk/Good_to_Know" target="_blank" rel="noopener" name="Follow us on Pinterest">Pinterest</a></li>
+											<li><a href="https://www.instagram.com/goodtoknow_essentials/" target="_blank" rel="noopener" name="Follow us on Instagram">Instagram</a></li>
+									</ul>
+			</li>
+		
+		<li class="menu-more has-subnav">
+			<a href="javascript:void(0)" name="See more menu items">More <span class="icon-plus"></span></a>
+			<ul></ul>
+		</li>
+	</ul>
+
+	<a href="javascript:void(0)" class="search-site icon-search" name="Search the site"><span class="hide">Search</span></a>
+
+	<a href="#" class="menu-icon-link hidden-md hidden-lg" name="Toggle the site menu">
+		<span class="menu-toggle icon-menu"><span class="hide">Menu</span></span>
+	</a>
+
+	<form role="search" method="get" class="search-form form-inline s-container" action="/">
+		<div class="input-group">
+			<input type="search" value="" name="s" class="input-sm search-field form-control" placeholder="Search">
+							<button type="submit" class="btn btn--sm" name="search">Search</button>
+						<div class="message-wrapper">
+				<label for="s" class="message message--type">Type to search</label>
+				<label for="s" class="message message--search hide">Press enter or click on the search icon</label>
+			</div>
+		</div>
+	</form>
+</nav>
+
+</header>	
+	<div id="content" role="main" class="container-fluid" >
+							
+			
+				<article
+			class="post-60554 post type-post status-publish format-standard has-post-thumbnail hentry category-family category-pregnancy tag-conception-and-fertility publication_name-goodtoknow"
+			role="article"
+			itemprop=""
+			itemscope itemtype="http://schema.org/Article"
+	>
+					<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="https://www.goodtoknow.co.uk/family/all-you-need-to-know-about-ovulation-60554" content="" />
+			<div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+	<meta itemprop="name" content="GoodtoKnow" />
+	<div itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+		<meta itemprop="url" content="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2018/04/gtk-logo-peach.png" />
+	</div>
+</div>		
+							
+					<nav class="breadcrumb s-container"  role="navigation">
+	<div class="s-container__inner">
+		<ul xmlns:v="http://rdf.data-vocabulary.org/#">
+							<li typeof="v:Breadcrumb">
+					<a href="https://www.goodtoknow.co.uk" rel="v:url" property="v:title" name="Home">Home</a>
+				</li>
+							<li typeof="v:Breadcrumb">
+					<a href="https://www.goodtoknow.co.uk/category/family" rel="v:url" property="v:title" name="Family">Family</a>
+				</li>
+					</ul>
+	</div>
+</nav>		
+					
+		
+		<div class="post-main">
+
+							<header class="post-header post-header--article">
+					<h1 class="title-primary" itemprop="headline">
+													What is ovulation? Everything you need to know about ovulation
+											</h1>
+
+																
+											<div class="post-author">
+		<small class="post-author-info">
+					<span>
+							</span>
+			<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+				<a class="post-author__name url fn n" href="https://www.goodtoknow.co.uk/author/good-to-know" name="A post from GoodtoKnow">
+					<span class="author vcard" itemprop="name">GoodtoKnow</span>
+			    </a>
+			</span>
+		
+		
+					<span>
+								<time datetime="2018-10-01T09:30:00+01:00">October 1, 2018 9:30 am</time>
+			</span>
+						<meta itemprop="datePublished" content="2018-10-01T09:30:00+01:00"/>		<meta itemprop="dateModified" content="2018-11-22T16:25:01+00:00"/>	</small>
+</div>					
+											<div class="social-share">
+										<ul class="pw-widget hidden-xs">
+							<li>
+					<a
+							href="https://www.facebook.com/sharer/sharer.php?u=https://www.goodtoknow.co.uk/family/all-you-need-to-know-about-ovulation-60554"
+							target="_blank"
+							 rel="noopener" 							class="share-button pw-button-facebook icon-social-facebook "
+							data-url="https://www.goodtoknow.co.uk/family/all-you-need-to-know-about-ovulation-60554"
+							name="Share this page on facebook"
+					></a>
+				</li>
+							<li>
+					<a
+							href="https://twitter.com/intent/tweet?url=https://www.goodtoknow.co.uk/family/all-you-need-to-know-about-ovulation-60554&text=What is ovulation? Everything you need to know about ovulation"
+							target="_blank"
+							 rel="noopener" 							class="share-button pw-button-twitter icon-social-twitter "
+							data-url="https://www.goodtoknow.co.uk/family/all-you-need-to-know-about-ovulation-60554"
+							name="Share this page on twitter"
+					></a>
+				</li>
+							<li>
+					<a
+							href="http://pinterest.com/pin/create/button/?url=https://www.goodtoknow.co.uk/family/all-you-need-to-know-about-ovulation-60554&description=What is ovulation? Everything you need to know about ovulation"
+							target="_blank"
+							 rel="noopener" 							class="share-button pw-button-pinterest icon-social-pinterest "
+							data-url="https://www.goodtoknow.co.uk/family/all-you-need-to-know-about-ovulation-60554"
+							name="Share this page on pinterest"
+					></a>
+				</li>
+								</ul>
+										<ul class="pw-widget hidden-sm hidden-md hidden-lg">
+							<li>
+					<a
+							href="https://www.facebook.com/sharer/sharer.php?u=https://www.goodtoknow.co.uk/family/all-you-need-to-know-about-ovulation-60554"
+							target="_blank"
+							 rel="noopener" 							class="share-button pw-button-facebook icon-social-facebook "
+							data-url="https://www.goodtoknow.co.uk/family/all-you-need-to-know-about-ovulation-60554"
+							name="Share this page on facebook"
+					></a>
+				</li>
+							<li>
+					<a
+							href="https://twitter.com/intent/tweet?url=https://www.goodtoknow.co.uk/family/all-you-need-to-know-about-ovulation-60554&text=What is ovulation? Everything you need to know about ovulation"
+							target="_blank"
+							 rel="noopener" 							class="share-button pw-button-twitter icon-social-twitter "
+							data-url="https://www.goodtoknow.co.uk/family/all-you-need-to-know-about-ovulation-60554"
+							name="Share this page on twitter"
+					></a>
+				</li>
+							<li>
+					<a
+							href="http://pinterest.com/pin/create/button/?url=https://www.goodtoknow.co.uk/family/all-you-need-to-know-about-ovulation-60554&description=What is ovulation? Everything you need to know about ovulation"
+							target="_blank"
+							 rel="noopener" 							class="share-button pw-button-pinterest icon-social-pinterest "
+							data-url="https://www.goodtoknow.co.uk/family/all-you-need-to-know-about-ovulation-60554"
+							name="Share this page on pinterest"
+					></a>
+				</li>
+								</ul>
+	</div>
+					
+					
+											<div class="post__award">
+	
+	
+	</div>									</header>
+			
+			
+			<div class="post-main__inner">
+
+				
+				                    							<div class="featured-media ggnoads">
+		<div id="attachment_60584"
+     class="featured-image"
+     itemprop="image" itemscope itemtype="https://schema.org/ImageObject"
+>
+	<figure class="image">
+		<img src="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2018/04/gtk-placeholder.png"
+     data-src="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2016/04/ovulation.jpg"
+     data-id="60584"
+     data-sizes="auto"
+     class=" lazyload blur-up"
+     alt="What is ovulation?"
+     width=""
+	 height=""
+	 data-srcset="
+			https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2016/04/ovulation-320x211.jpg 320w,
+						"/>
+<meta itemprop="url" content="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2016/04/ovulation.jpg">
+<meta itemprop="width" content="">
+<meta itemprop="height" content="">			</figure>
+</div>
+	</div>
+									
+				
+				<div class="post-body">
+
+					<div class="articleBody" itemprop="articleBody">
+														<div class="post-tags icon-tags">
+		<ul>
+							<li><a href="https://www.goodtoknow.co.uk/tag/conception-and-fertility" class="post-tags-item" rel="tag" name="Conception &amp; Fertility">Conception &amp; Fertility</a></li>
+					</ul>
+	</div>
+						
+																					<p class="post-lead">Want to know more about ovulation? Our ovulation guide tells you exactly how to work out when you're ovulating, what triggers ovulation as well as when you should have sex to increase your chances of conception. </p>
+													
+																																		
+													<p>If you’re trying to get <a href="https://www.goodtoknow.co.uk/family/pregnancy" target="_blank" rel="noopener">pregnant</a>, understanding ovulation and the impact it has on your <a href="https://www.goodtoknow.co.uk/family/fertility" target="_blank" rel="noopener">fertility</a> is important – but can also be really confusing!</p>
+<p>Here, we separate the facts from the fiction on everything from the early signs of ovulation to questions about eggs and sperm, and share plenty of <a href="https://www.goodtoknow.co.uk/family/galleries/11976/fun-sex-positions-for-conception" target="_blank" rel="noopener">sex tips for conception</a> too.</p>
+<p><div class="ad-container ad-container--mobile"><div id="post-inline-1" class="ipc-advert"></div></div><div id="apester-4" class="apester-desktop hidden"></div><script>window._apesterSlots=window._apesterSlots||[];window._apesterSlots.push({"id":"apester-4","class":"apester-desktop","placement":"desktop","token":"56d5a43bd791afe50239575e","context":true,"tags":"","fallback":true});</script></p>
+<h2>What happens when you ovulate?</h2>
+<p><img class="lazyload blur-up alignnone size-full wp-image-107932" src="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2018/04/gtk-placeholder.png" data-src="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2016/04/Ovulation-calculator-1.jpg" alt="" width="614" height="404"></p>
+<p>Every month your body prepares itself for a pregnancy, so each month you release an egg from your ovum. This usually happens mid-cycle, about 14 days into your cycle, but cycles do vary from person to person. The release of eggs usually alternates, with one of your ovaries releasing an egg one month and the other the next, and the egg then travels down your fallopian tube to the womb. If the egg isn&#8217;t fertilised by a sperm it&#8217;s then shed with your womb lining during your period.</p>
+<h2>How long does your cycle last?</h2>
+<p>Every woman is different. The average cycle is 28 days, but many healthy, fertile women will have a cycle slightly shorter or longer than this, so won&#8217;t necessarily ovulate on day 14. If yours isn&#8217;t spot on 28 days, don&#8217;t worry &#8211; it doesn&#8217;t mean there&#8217;s a problem with your fertility. When you ovulate depends on the due date of your next period and not the previous one &#8211; for instance, if your cycle regularly lasts 31 days, you should ovulate on day 17. So if you have sex on your prime fertile days, between days 14 and 17, you have a good chance of falling pregnant. Confused? Our <a href="https://www.goodtoknow.co.uk/family/171819/Ovulation-calculator" target="_blank" rel="noopener">ovulation calculator</a> can help.</p>
+<h2>What triggers ovulation?</h2>
+<p>It&#8217;s all down to hormones. You produce Follicle Stimulating Hormone (FSH) during the first part of your cycle, which triggers your body to start the process of maturing eggs for ovulation. High levels of oestrogen produced at this time trigger a release of LH, Luteinizing Hormone, causing the mature egg to burst from the follicle. That is ovulation. Normally, only one egg will be large enough to burst through the follicle during ovulation but occasionally two will, which is how non-identical twins are conceived.</p>
+<h2>How can you tell if you’re ovulating?</h2>
+<p>If you learn to &#8216;read&#8217; your body and get to know your cycle you should be able to tell when you&#8217;re ovulating. The key is to look out for changes in your cervical secretions. After your period you can feel quite dry for a day or so and then get a sticky, whitish type of secretion. Then, when you start to ovulate the secretion from your vagina will change to a clear, sticky, mucus-like discharge. It&#8217;s wettish and stretchy, like raw egg white, and normally quite noticeable, so start looking out for it. This is a sure sign you&#8217;re ovulating.</p>
+<p><div class="ad-container ad-container--mobile"><div id="post-inline-2" class="ipc-advert"></div></div><section id="embed_code-2" class="hidden-lg s-container sticky-anchor hide-widget-title widget_embed_code premium_inline_2"><h2 class="widgettitle heading"><span>Sharethrough (Mobile)</span></h2><section class="s-container listing--single listing--single-sharethrough image-aspect-landscape default sharethrough-ad sharethrough-ad-hidden">
+  <div class="s-container__inner">
+    <ul>
+      <li id="native-content-mobile" class="listing-item">
+      </li>
+    </ul>
+  </div>
+</section></section></p>
+<h2>Do ovulation prediction kits and temperature charts make a difference?</h2>
+<p>They can be a useful guide to tell you when you&#8217;re ovulating, but can also be inaccurate on timing. Ovulation kits work by testing your urine for a hormone surge which occurs just before ovulation, but the time you get the result, the window of opportunity may have passed. Something called basal body temperature (BBT) measurements can also be used, but these rely on the fact that your body temperature increases a very small amount after ovulation &#8211; again, you may have already ovulated by the time you get this information, so it&#8217;s too late to conceive. Learning to read your body and pinpointing the fertile time in your cycle is cheaper and often more effective.</p>
+<p><img class="lazyload blur-up align size-medium wp-image-60652" src="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2018/04/gtk-placeholder.png" data-src="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2016/04/ovulation-2-1.jpg" alt="" width="300" height="197"></p>
+<h2>How long do the sperm and egg live?</h2>
+<p>An egg lives for about 12-24 hours after you ovulate, and sperm can live for five to seven days. Ideally, you need a lot of sperm on stand-by to &#8216;pounce&#8217; on that egg when it&#8217;s released, so have sex in the days leading up to when you ovulate and a day after. You only release the one egg, but a single ejaculation from your partner will supply millions of sperm, so keep the supply up by having lots of sex.</p>
+<h2>Can you only conceive if you have sex on the day you ovulate?</h2>
+<p>No, that&#8217;s a myth. Because sperm can live for up to a week after ejaculation, they may still be in your fallopian tube when you ovulate, and so able to fertilise an egg. Research shows that even if you have sex six days prior to ovulation you stand a good chance of conceiving. If you wait to have sex only on the day you ovulate, you may miss your chance of pregnancy altogether.</p>
+<h2>When should you have sex?</h2>
+<p><img class="lazyload blur-up alignnone size-full wp-image-289833" src="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2018/04/gtk-placeholder.png" data-src="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2015/07/Couples-feet-in-bed-1.jpg" alt="" width="614" height="404"></p>
+<div class="ad-container ad-container--mobile"><div id="post-inline-3" class="ipc-advert"></div></div>
+<p>Recommendations from the Royal College of Obstetricians &amp; Gynaecologists are that you should avoid timed intercourse and instead have sex several times a week around the time of ovulation.</p>
+<p>This is thought to be the best way to have a good chance of pregnancy, so don&#8217;t get hung up about having sex on the day you ovulate, and don&#8217;t assume you are ovulating on the 14th day of your cycle.</p>
+<p>Just have lots of sex in that week around ovulation, and make sure you keep it about having fun rather than obsessing over making a baby &#8211; our <a href="https://www.goodtoknow.co.uk/relationships/197539/50-sex-tips-to-boost-your-love-life" target="_blank" rel="noopener">sex tips</a> might help.</p>
+<h2>What should I do after sex to boost my chances?</h2>
+<p>As fertility expert Zita West, says, &#8216;There&#8217;s no need for extreme measures such as putting your legs up in the air or doing handstands!&#8217;</p>
+<div class="ad-container ad-container--mobile"><div id="post-inline-4" class="ipc-advert"></div></div>
+<p>Many women invest in a fertility pillow because they think it will help the sperm get to the right place but there is little evidence to suggest these work.</p>
+<p>To <a href="https://www.goodtoknow.co.uk/family/how-to-increase-fertility-36587" target="_blank" rel="noopener">increase your fertility</a> chances Zita recommends is lying still for 20-30 minutes after you&#8217;ve had sex to allow the sperm time to make their way up to the womb and fallopian tubes.</p>
+<p>If you do get up and feel some of the seminal fluid leave you, don&#8217;t panic. This doesn&#8217;t mean that you won&#8217;t have been successful &#8211; even if you lose up to half the sperm released, there should still be more than enough for you to conceive.</p>
+<h2>Can ovulation be painful?</h2>
+<p>Some women get a sharp pain in their lower abdomen, called mittelschmerz, as the ripe egg is released by the ovary. Rarely women may lose a small amount of blood when they ovulate too but a huge amount of pain shouldn&#8217;t be felt. If you are bleeding between periods or experiencing a lot of discomfort, you should consult your doctor straight away.</p>
+<div class="ad-container ad-container--mobile"><div id="post-inline-5" class="ipc-advert"></div></div>
+<h2>Why can it be so difficult to get pregnant?</h2>
+<p><img class="lazyload blur-up alignnone size-full wp-image-97911" src="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2018/04/gtk-placeholder.png" data-src="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2016/04/1-2-and-3-weeks-pregnant-period-1.jpg" alt="" width="614" height="404"></p>
+<p>Humans just aren&#8217;t very fertile as a species. You only have a one in three chance of conceiving every month &#8211; and that&#8217;s just when you&#8217;re a healthy twenty-something. As you get into your thirties those chances become less with fertility typically dropping in women from the age of 35.</p>
+<div class="injection"><div id="apester-5" class="apester-mobile hidden"></div><script>window._apesterSlots=window._apesterSlots||[];window._apesterSlots.push({"id":"apester-5","class":"apester-mobile","placement":"mobile","token":"56d5a43bd791afe50239575e","context":true,"tags":"","fallback":true});</script><section id="keystone-voep-widget-2" class="visible-md hidden-xs hidden-sm s-inline text-center keystone-voep-widget premium_inline_before_last_p post-promo"><h3>Video of the Week</h3>
+<div class="jwplayer-container jwplayer-margin-bottom">
+<div class="jwplayer-wrapper">
+<div class="jwplayer-minimize-close">
+				<svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-close" viewBox="0 0 240 240" focusable="false">
+					<path d="M134.8,120l48.6-48.6c2-1.9,2.1-5.2,0.2-7.2c0,0-0.1-0.1-0.2-0.2l-7.4-7.4c-1.9-2-5.2-2.1-7.2-0.2c0,0-0.1,0.1-0.2,0.2L120,105.2L71.4,56.6c-1.9-2-5.2-2.1-7.2-0.2c0,0-0.1,0.1-0.2,0.2L56.6,64c-2,1.9-2.1,5.2-0.2,7.2c0,0,0.1,0.1,0.2,0.2l48.6,48.7l-48.6,48.6c-2,1.9-2.1,5.2-0.2,7.2c0,0,0.1,0.1,0.2,0.2l7.4,7.4c1.9,2,5.2,2.1,7.2,0.2c0,0,0.1-0.1,0.2-0.2l48.7-48.6l48.6,48.6c1.9,2,5.2,2.1,7.2,0.2c0,0,0.1-0.1,0.2-0.2l7.4-7.4c2-1.9,2.1-5.2,0.2-7.2c0,0-0.1-0.1-0.2-0.2L134.8,120z"></path>
+				</svg>
+			</div>
+<div
+				data-player="ryuBCMSh"
+				data-key="4oINCLmo"
+				data-loaded="false"
+				class="jwplayer"
+				id="jwplayer_4oINCLmo_ryuBCMSh_8_div">
+			</div>
+</p></div>
+</p></div>
+</section></div>
+<p>However, remember that 1 in 7 couples doesn&#8217;t get pregnant within a year of trying &#8211; but half of these will get pregnant in the next year, without fertility treatment. The worst thing you can do is get stressed and dwell on the question &#8216;<a href="https://www.goodtoknow.co.uk/family/why-can-t-i-get-pregnant-67229" target="_blank" rel="noopener">why can&#8217;t I get pregnant</a>?&#8217;.</p>
+<p>If you try and worry less and enjoy the process more you might find it happens quicker and easier than you thought possible!</p>
+
+
+															
+																		</div>
+
+					
+																
+											<div id="taboola-below-article-thumbnails"></div>									</div>
+			</div>
+
+							<div id="single-sidebar" class="single-sidebar single-sidebar--article">
+
+	
+	
+		
+		
+		
+		
+	
+	<div class="ad-container ad-sticky">
+		
+		<div id="post-side-1" class="ipc-advert"></div>		
+	</div>
+
+	<section id="keystone-query-widget-id-22" class="palette-a listing--single listing--single-b s-container image-aspect-square visible-md hidden-xs hidden-sm default keystone-query-widget premium_sidebar_1"><h2 class="widgettitle heading"><span>Latest Stories</span></h2><div class="sections"><div class="s-container__inner">
+	<ul
+		class="listing-items"
+				data-post-count="3"
+	>
+					
+			<li class="listing-item">
+	 <a class="entry" href="https://www.goodtoknow.co.uk/family/family-news/princess-eugenie-official-title-494763" title="Princess Eugenie’s new official title has finally been revealed" name="Princess Eugenie’s new official title has finally been revealed"> 		<article class="listing-entry">
+																		<div class="entry-media">
+					<div class="entry-media-inner entry-image image-crop">
+						<div id="attachment_494767"
+     class="featured-image wp-caption"
+     itemprop="image" itemscope itemtype="https://schema.org/ImageObject"
+>
+	<figure class="image-crop">
+		<img src="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2018/04/gtk-placeholder.png"
+     data-src="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2019/06/rexfeatures_9927759ap-1-620x370.jpg"
+     data-id="494767"
+     data-sizes="auto"
+     class="image-sm lazyload blur-up"
+     alt=""
+     width="620"
+	 height="370"
+	 data-srcset="
+			https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2019/06/rexfeatures_9927759ap-1-320x191.jpg 320w,
+				https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2019/06/rexfeatures_9927759ap-1-620x370.jpg 620w,
+				https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2019/06/rexfeatures_9927759ap-1-920x549.jpg 920w,
+				https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2019/06/rexfeatures_9927759ap-1-1220x727.jpg 1220w,
+			"/>
+<meta itemprop="url" content="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2019/06/rexfeatures_9927759ap-1-620x370.jpg">
+<meta itemprop="width" content="620">
+<meta itemprop="height" content="370">					<figcaption class="wp-caption-text">
+				Credit: RexFeatures
+							</figcaption>
+			</figure>
+</div>
+					</div>
+				</div>
+			
+									
+			<div class="entry-content">
+									
+													<h3><span>Princess Eugenie’s new official title has finally been revealed</span></h3>
+																										
+					
+																</div>
+		</article>
+	 </a> </li>
+			
+			
+					
+			<li class="listing-item">
+	 <a class="entry" href="https://www.goodtoknow.co.uk/food/food-latest/oreo-cadbury-coated-cookies-494693" title="Cadbury launches four delicious new treats - including chocolate-covered Oreos!" name="Cadbury launches four delicious new treats - including chocolate-covered Oreos!"> 		<article class="listing-entry">
+																		<div class="entry-media">
+					<div class="entry-media-inner entry-image image-crop">
+						<div id="attachment_494692"
+     class="featured-image"
+     itemprop="image" itemscope itemtype="https://schema.org/ImageObject"
+>
+	<figure class="image-crop">
+		<img src="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2018/04/gtk-placeholder.png"
+     data-src="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2019/06/5677336-oreo-cadbury-coated-folding-box-_294959022_541182961-620x465.jpg"
+     data-id="494692"
+     data-sizes="auto"
+     class="image-sm lazyload blur-up"
+     alt=""
+     width="620"
+	 height="465"
+	 data-srcset="
+			https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2019/06/5677336-oreo-cadbury-coated-folding-box-_294959022_541182961-320x240.jpg 320w,
+				https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2019/06/5677336-oreo-cadbury-coated-folding-box-_294959022_541182961-620x465.jpg 620w,
+				https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2019/06/5677336-oreo-cadbury-coated-folding-box-_294959022_541182961-920x690.jpg 920w,
+				"/>
+<meta itemprop="url" content="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2019/06/5677336-oreo-cadbury-coated-folding-box-_294959022_541182961-620x465.jpg">
+<meta itemprop="width" content="620">
+<meta itemprop="height" content="465">			</figure>
+</div>
+					</div>
+				</div>
+			
+									
+			<div class="entry-content">
+									
+													<h3><span>Cadbury launches four delicious new treats - including chocolate-covered Oreos!</span></h3>
+																										
+					
+																</div>
+		</article>
+	 </a> </li>
+							<li id="native-content-desktop" class="listing-item sharethrough-ad sharethrough-ad-hidden ipc-advert"></li>			
+			
+					
+			<li class="listing-item">
+	 <a class="entry" href="https://www.goodtoknow.co.uk/travel/things-to-do-in-marrakech-493914" title="Six of the best things to do in Marrakech" name="Six of the best things to do in Marrakech"> 		<article class="listing-entry">
+																		<div class="entry-media">
+					<div class="entry-media-inner entry-image image-crop">
+						<div id="attachment_493913"
+     class="featured-image"
+     itemprop="image" itemscope itemtype="https://schema.org/ImageObject"
+>
+	<figure class="image-crop">
+		<img src="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2018/04/gtk-placeholder.png"
+     data-src="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2019/05/things-to-do-in-Marrakech_292735571_535110712-620x408.jpg"
+     data-id="493913"
+     data-sizes="auto"
+     class="image-sm lazyload blur-up"
+     alt="things to do in Marrakech"
+     width="620"
+	 height="408"
+	 data-srcset="
+			https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2019/05/things-to-do-in-Marrakech_292735571_535110712-320x211.jpg 320w,
+				https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2019/05/things-to-do-in-Marrakech_292735571_535110712-620x408.jpg 620w,
+				https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2019/05/things-to-do-in-Marrakech_292735571_535110712-920x605.jpg 920w,
+				https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2019/05/things-to-do-in-Marrakech_292735571_535110712-1220x803.jpg 1220w,
+			"/>
+<meta itemprop="url" content="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2019/05/things-to-do-in-Marrakech_292735571_535110712-620x408.jpg">
+<meta itemprop="width" content="620">
+<meta itemprop="height" content="408">					<figcaption class="wp-caption-text">
+				
+				Credit: Getty			</figcaption>
+			</figure>
+</div>
+					</div>
+				</div>
+			
+									
+			<div class="entry-content">
+									
+													<h3><span>Six of the best things to do in Marrakech</span></h3>
+																										
+					
+																</div>
+		</article>
+	 </a> </li>
+			
+			
+			</ul>
+</div></div></section>
+
+
+	
+		<div class="ad-container ad-sticky">
+		
+			<div id="post-side-2" class="ipc-advert"></div>			
+		</div>
+
+		
+	
+	
+		<div class="ad-container ad-sticky">
+			
+			<div id="post-side-3" class="ipc-advert"></div>			
+		</div>
+	
+
+	
+		<div class="ad-container ad-sticky">
+		
+			<div id="post-side-4" class="ipc-advert"></div>			
+		</div>
+	
+	
+		<div class="ad-container ad-sticky">
+
+			<div id="post-side-5" class="ipc-advert"></div>			
+		</div>
+	</div>			
+		</div>
+	</article>
+			
+	</div>
+
+			<div class="parallax-wrapper parallax-wrapper--footer sticky-anchor"></div>
+
+<footer id="footer" role="contentinfo" class="footer sticky-anchor">
+	<div class="footer__row">
+		<nav class="footer__col footer__col--content">
+			<ul id="menu-4795" class="footer-menu footer-menu--plain">
+			<li id="menu-item-300260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-300260">
+			<a href="https://www.goodtoknow.co.uk/contact-us"   target="_blank" rel="noopener" class="menu-icon-item icon-social-no-icon" name="Visit our no-icon page">
+				<span class="menu-icon-item icon-no-icon">
+					Contact Us
+				</span>
+			</a>
+		</li>
+			<li id="menu-item-294294" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-294294">
+			<a href="http://www.timeincuk.com/terms-and-conditions/"   target="_blank" rel="noopener" class="menu-icon-item icon-social-no-icon" name="Visit our no-icon page">
+				<span class="menu-icon-item icon-no-icon">
+					Terms & Conditions
+				</span>
+			</a>
+		</li>
+			<li id="menu-item-294303" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-294303">
+			<a href="http://www.timeincuk.com/privacy/"   target="_blank" rel="noopener" class="menu-icon-item icon-social-no-icon" name="Visit our no-icon page">
+				<span class="menu-icon-item icon-no-icon">
+					Privacy Policy
+				</span>
+			</a>
+		</li>
+			<li id="menu-item-294312" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-294312">
+			<a href="http://www.timeincuk.com/privacy/#cookies"   target="_blank" rel="noopener" class="menu-icon-item icon-social-no-icon" name="Visit our no-icon page">
+				<span class="menu-icon-item icon-no-icon">
+					Cookie Information
+				</span>
+			</a>
+		</li>
+			<li id="menu-item-300262" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-300262">
+			<a href="https://www.timeincuk.com/advertise/"   target="_blank" rel="noopener" class="menu-icon-item icon-social-no-icon" name="Visit our no-icon page">
+				<span class="menu-icon-item icon-no-icon">
+					Advertising Info
+				</span>
+			</a>
+		</li>
+			<li id="menu-item-429402" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-429402">
+			<a href=""   target="_blank" rel="noopener" class="menu-icon-item icon-social-no-icon" name="Visit our no-icon page">
+				<span class="menu-icon-item icon-no-icon">
+					Privacy Settings
+				</span>
+			</a>
+		</li>
+	</ul>		</nav>
+		<nav class="footer__col footer__col--sidebar">
+			<ul id="menu-" class="footer-menu footer-menu--icons">
+	</ul>		</nav>
+
+		<div class="footer-legal">
+		<sub>&copy; Copyright TI Media Limited. All rights reserved.</sub>
+	<a href="https://www.ipso.co.uk/" class="footer__ipso" target="_blank" rel="noopener" name="Visit the IPSO website">
+		<img 
+			src="https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2018/04/gtk-placeholder.png" 
+			data-src="https://www.goodtoknow.co.uk/wp-content/themes/simba-theme/assets/images/ipso-dark.png" 
+			class="lazyload blur-up" 
+			alt="IPSO Regulated" 
+			width="100%" />
+	</a>
+</div>
+	</div>
+</footer>
+				<script type="text/javascript">
+			(function() {
+				/* Include required screen size functions right here */
+				var getDisplayWidth=function(){var e=0;if(typeof window.innerWidth!="undefined"){e=window.innerWidth}else if(typeof document.documentElement!="undefined"&&typeof document.documentElement.clientWidth!="undefined"&&document.documentElement.clientWidth!=0){e=document.documentElement.clientWidth}else{e=document.getElementsByTagName("body")[0].clientWidth}return Number(e)};
+				var getWindowSize = getDisplayWidth();
+				window.ipcTags = window.ipcTags || {};
+				/* Pageskin targeting stuff */
+				if(getWindowSize >= 1350) {
+					window.ipcTags['pageskin'] = 'yes';
+				} else {
+					window.ipcTags['pageskin'] = 'no';
+				}
+
+				
+				if(getWindowSize >= 690) {
+					window.ipcTags.platform = 'desktop';
+				} else {
+					window.ipcTags.platform = 'mobile';
+				}
+
+				
+				window.ipcTags['dfp_config']['required_tags'].push('pageskin');
+			})();
+		</script>
+		<script type='text/javascript'>
+			(function(d,w){
+				var s = d.createElement('script');
+				w.lazySizesConfig = {'expFactor':'1'};
+				s.src = 'https://www.goodtoknow.co.uk/wp-content/plugins/keystone-images/assets/js/sizes.js?ver=0.0.1';
+				d.body.appendChild(s);
+			})(document,window);
+		</script><script type='text/javascript' src='https://www.goodtoknow.co.uk/wp-content/plugins/keystone-apester/assets/js/apester.js?ver=1.1.14'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var keystoneJWPlayerConfig = {"viewplay":"desktop","viewplay_sticky_tabswitch":"0","sticky":"1","sticky_position":"right","mute":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.goodtoknow.co.uk/wp-content/plugins/keystone-jwplayer/assets/js/main.js?ver=1.0.16'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var keystoneTaboolaConfig = {"lazyload":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.goodtoknow.co.uk/wp-content/plugins/keystone-taboola/assets/js/taboola.js?ver=0.0.1'></script>
+<script type='text/javascript' src='https://www.goodtoknow.co.uk/wp-content/plugins/ipc-wordpress-digital-editions/public/assets/js/public.js?ver=2.2.2'></script>
+<script type='text/javascript' src='https://www.goodtoknow.co.uk/wp-content/themes/simba-theme/assets/js/dist/post.min.js?ver=1559734218'></script>
+<script type='text/javascript' src='https://www.goodtoknow.co.uk/wp-content/plugins/keystone-newsletter/widget/js/widget.js?ver=1.1.4'></script>
+<script type='text/javascript' src='https://www.goodtoknow.co.uk/wp-includes/js/wp-embed.min.js?ver=NC45Ljc'></script>
+		<script>
+			(function(){
+				var n='scr'+'ipt',p=document.getElementsByTagName(n)[0],s=document.createElement(n);
+				s.async=true;
+				s.src='https://ksassets.timeincuk.net/tenant/1.0.59/tenant.min.js'
+				p.parentNode.insertBefore(s,p);
+			})();
+			var googletag = googletag || {};
+			googletag.cmd = googletag.cmd || [];
+			window.tenantGetterQueue = window.tenantGetterQueue || [];
+			window.tenantSetterQueue = window.tenantSetterQueue || [];
+		</script>
+		<div id="dfpad-overlay" class="ipc-advert"></div><div id="sovrn" class="ipc-advert"></div><div id="gumgum" class="ipc-advert"></div><div id="instream" class="ipc-advert"></div>
+	
+</div><!-- /wrapper -->
+
+
+	
+	<script>
+    	let _ks_modules = [
+    		'billboard',
+            'navigation',
+            'objectFit',
+            'sharethroughListener',
+            'select2',
+        ];
+	</script>
+
+
+	<script>
+
+		_ks_modules.push('featuredVideo');
+        
+	</script>
+
+
+
+	<script>
+        for (let i = 0; i < _ks_modules.length; i++) {
+            let module = window[_ks_modules[i]];
+            if (typeof module !== 'undefined' && typeof module.init === 'function') {
+                module.init();
+            }
+        }
+	</script>
+
+
+	
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"aaccaa7fff","applicationID":"19797324,9562757,14552357","transactionName":"YgNVYEcAXhJYBUQNXFtJdldBCF8PFhVZClRZAw==","queueTime":0,"applicationTime":1906,"atts":"TkRCFg8aTU0bBxJeSEgb","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+</html>

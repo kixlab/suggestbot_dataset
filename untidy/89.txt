@@ -1,0 +1,477 @@
+
+
+**Warning:** The NCBI web site requires JavaScript to function. more...
+
+        
+                  * NCBI![NCBI Logo](//static.pubmed.gov/portal/portal3rc.fcgi/4181515/img/28977)
+          * Skip to main content
+          * Skip to navigation
+          * Resources
+            * All Resources
+            * Chemicals & Bioassays
+              * BioSystems
+              * PubChem BioAssay
+              * PubChem Compound
+              * PubChem Structure Search
+              * PubChem Substance
+              * All Chemicals & Bioassays Resources...
+            * DNA & RNA
+              * BLAST (Basic Local Alignment Search Tool)
+              * BLAST (Stand-alone)
+              * E-Utilities
+              * GenBank
+              * GenBank: BankIt
+              * GenBank: Sequin
+              * GenBank: tbl2asn
+              * Genome Workbench
+              * Influenza Virus
+              * Nucleotide Database
+              * PopSet
+              * Primer-BLAST
+              * ProSplign
+              * Reference Sequence (RefSeq)
+              * RefSeqGene
+              * Sequence Read Archive (SRA)
+              * Splign
+              * Trace Archive
+              * UniGene
+              * All DNA & RNA Resources...
+            * Data & Software
+              * BLAST (Basic Local Alignment Search Tool)
+              * BLAST (Stand-alone)
+              * Cn3D
+              * Conserved Domain Search Service (CD Search)
+              * E-Utilities
+              * GenBank: BankIt
+              * GenBank: Sequin
+              * GenBank: tbl2asn
+              * Genome ProtMap
+              * Genome Workbench
+              * Primer-BLAST
+              * ProSplign
+              * PubChem Structure Search
+              * SNP Submission Tool
+              * Splign
+              * Vector Alignment Search Tool (VAST)
+              * All Data & Software Resources...
+            * Domains & Structures
+              * BioSystems
+              * Cn3D
+              * Conserved Domain Database (CDD)
+              * Conserved Domain Search Service (CD Search)
+              * Structure (Molecular Modeling Database)
+              * Vector Alignment Search Tool (VAST)
+              * All Domains & Structures Resources...
+            * Genes & Expression
+              * BioSystems
+              * Database of Genotypes and Phenotypes (dbGaP)
+              * E-Utilities
+              * Gene
+              * Gene Expression Omnibus (GEO) Database 
+              * Gene Expression Omnibus (GEO) Datasets
+              * Gene Expression Omnibus (GEO) Profiles
+              * Genome Workbench
+              * HomoloGene
+              * Online Mendelian Inheritance in Man (OMIM)
+              * RefSeqGene
+              * UniGene
+              * All Genes & Expression Resources...
+            * Genetics & Medicine
+              * Bookshelf
+              * Database of Genotypes and Phenotypes (dbGaP)
+              * Genetic Testing Registry
+              * Influenza Virus
+              * Online Mendelian Inheritance in Man (OMIM)
+              * PubMed
+              * PubMed Central (PMC)
+              * PubMed Clinical Queries
+              * RefSeqGene
+              * All Genetics & Medicine Resources...
+            * Genomes & Maps
+              * Database of Genomic Structural Variation (dbVar)
+              * GenBank: tbl2asn
+              * Genome
+              * Genome Project
+              * Genome Data Viewer (GDV)
+              * Genome ProtMap
+              * Genome Workbench
+              * Influenza Virus
+              * Nucleotide Database
+              * PopSet
+              * ProSplign
+              * Sequence Read Archive (SRA)
+              * Splign
+              * Trace Archive
+              * All Genomes & Maps Resources...
+            * Homology
+              * BLAST (Basic Local Alignment Search Tool)
+              * BLAST (Stand-alone)
+              * BLAST Link (BLink)
+              * Conserved Domain Database (CDD)
+              * Conserved Domain Search Service (CD Search)
+              * Genome ProtMap
+              * HomoloGene
+              * Protein Clusters
+              * All Homology Resources...
+            * Literature
+              * Bookshelf
+              * E-Utilities
+              * Journals in NCBI Databases
+              * MeSH Database
+              * NCBI Handbook
+              * NCBI Help Manual
+              * NCBI News & Blog
+              * PubMed
+              * PubMed Central (PMC)
+              * PubMed Clinical Queries
+              * All Literature Resources...
+            * Proteins
+              * BioSystems
+              * BLAST (Basic Local Alignment Search Tool)
+              * BLAST (Stand-alone)
+              * BLAST Link (BLink)
+              * Conserved Domain Database (CDD)
+              * Conserved Domain Search Service (CD Search)
+              * E-Utilities
+              * ProSplign
+              * Protein Clusters
+              * Protein Database
+              * Reference Sequence (RefSeq)
+              * All Proteins Resources...
+            * Sequence Analysis
+              * BLAST (Basic Local Alignment Search Tool)
+              * BLAST (Stand-alone)
+              * BLAST Link (BLink)
+              * Conserved Domain Search Service (CD Search)
+              * Genome ProtMap
+              * Genome Workbench
+              * Influenza Virus
+              * Primer-BLAST
+              * ProSplign
+              * Splign
+              * All Sequence Analysis Resources...
+            * Taxonomy
+              * Taxonomy
+              * Taxonomy Browser
+              * Taxonomy Common Tree
+              * All Taxonomy Resources...
+            * Training & Tutorials
+              * NCBI Education Page
+              * NCBI Handbook
+              * NCBI Help Manual
+              * NCBI News & Blog
+              * All Training & Tutorials Resources...
+            * Variation
+              * Database of Genomic Structural Variation (dbVar)
+              * Database of Genotypes and Phenotypes (dbGaP)
+              * Database of Single Nucleotide Polymorphisms (dbSNP)
+              * SNP Submission Tool
+              * All Variation Resources...
+          * How To
+            * All How To
+            * Chemicals & Bioassays
+            * DNA & RNA
+            * Data & Software
+            * Domains & Structures
+            * Genes & Expression
+            * Genetics & Medicine
+            * Genomes & Maps
+            * Homology
+            * Literature
+            * Proteins
+            * Sequence Analysis
+            * Taxonomy
+            * Training & Tutorials
+            * Variation
+          * About NCBI Accesskeys
+        
+
+My NCBISign in to NCBISign Out
+
+# PubMed
+
+US National Library of Medicine National Institutes of Health
+
+Search databaseAll
+DatabasesAssemblyBiocollectionsBioProjectBioSampleBioSystemsBooksClinVarCloneConserved
+DomainsdbGaPdbVarESTGeneGenomeGEO DataSetsGEO
+ProfilesGSSGTRHomoloGeneIdentical Protein GroupsMedGenMeSHNCBI Web SiteNLM
+CatalogNucleotideOMIMPMCPopSetProbeProteinProtein ClustersPubChem
+BioAssayPubChem CompoundPubChem
+SubstancePubMedSNPSparcleSRAStructureTaxonomyToolKitToolKitAllToolKitBookghUniGene
+
+Search term
+
+Search
+
+        
+                  * Advanced
+          * Help
+        
+
+## Result Filters
+
+        
+                  * Format: Abstract
+        
+
+Format
+
+        
+                  * Summary
+          * Summary (text)
+          * Abstract
+          * Abstract (text)
+          * MEDLINE
+          * XML
+          * PMID List
+        
+
+Apply
+
+#### Send to
+
+Choose Destination
+
+        
+                  * File
+          * Clipboard
+          * Collections
+          * E-mail
+          * Order
+          * My Bibliography
+          * Citation manager
+        
+          * FormatSummary (text)Abstract (text)MEDLINEXMLPMID ListCSV
+        
+
+Create File
+
+        
+                  * 1 selected item: 3709011
+          * FormatSummarySummary (text)AbstractAbstract (text)MEDLINEXMLPMID ListMeSH and Other Data
+          * E-mail
+          * Subject
+          * Additional text
+          * E-mail
+        
+
+Didn't get the message? Find out why...
+
+Add to Clipboard
+
+Add to Collections
+
+Order articles
+
+Add to My Bibliography
+
+Generate a file for use with external citation management software.
+
+Create File
+
+Clin Obstet Gynaecol. 1986 Mar;13(1):19-31.
+
+# Role of abortion in control of global population growth.
+
+Mumford SD, Kessel E.
+
+### Abstract
+
+No nation desirous of reducing its growth rate to 1% or less can expect to do
+so without the widespread use of abortion. This observational study, based on
+the experience of 116 of the world's largest countries, supports the
+contention that abortion is essential to any national population growth
+control effort. The principal findings are: Except for a few countries with
+ageing populations and very high contraceptive prevalence rates, developed
+countries will need to maintain abortion rates generally in the range of
+201-500 abortions per 1000 live births if they are to maintain growth rates at
+levels below 1%. The current rate in the USA is 426 abortions per 1000 live
+births. Developing countries, on the other hand, are faced with a different
+and more difficult set of circumstances that require even greater reliance on
+abortion. No developing nation wanting to reduce its growth to less than 1%
+can expect to do so without the widespread use of abortion, generally at a
+rate greater than 500 abortions per 1000 live births. Widespread availability
+of abortion is a necessary but not sufficient condition to achieve growth
+rates below 1%. A high contraceptive prevalence is essential as well in order
+to achieve growth rates below 1%. A high contraceptive prevalence is a
+necessary but not sufficient condition to achieve population growth rates
+below 1%. A high rate of abortion (generally 201-500 or more abortions per
+1000 live births in the developed and greater than 500 abortions per 1000 live
+births in the developing countries) is essential to achieve growth rates below
+1%. The different and more difficult set of circumstances faced by developing
+countries that will necessitate even higher abortion rates than developed
+countries includes a young population with resultant rapidly growing numbers
+of young fertile women, poor contraceptive use-effectiveness, low prevalence
+of contraception, and poor or non-existent systems for providing
+contraceptives. These data show that high death rates of infants and children
+can moderate population growth rates--a most undesirable solution. The data in
+this report suggest that actual alternatives are high death rates of infants
+and children or widespread use of contraception and abortion. African nations
+tend to have the very lowest abortion rates and the very highest infant and
+child death rates. To avoid a world with deteriorating social, economic and
+political stability, with the concomitant loss of personal and national
+security, we must ensure that safe abortion is made available to all who wish
+to use this service.
+
+#### PIP:
+
+Population control is an important but neglected social benefit of abortion.
+To examine this role, the outhors compared population growth rates and
+abortion (legal and illegal) incidence rates for the 116 largest countries in
+the world. These 116 countries were first ranked by their abortion rates into
+4 groups: very high (greater than 500/1000 live births), high (201-500/1000),
+moderate (50-200/1000) and low (less than 50/1000). Then each of these 4
+groups was ranked according to contraceptive prevalence: very high (60% or
+above), high (40-59%), moderate (15-39%), and low (less than 15%). Within each
+of the 16 groups, the countries were then ranked according to their population
+growth rate. The age distribution and mortality of children under 5 years of
+age were also considered for each country. The data indicate that where
+abortion and contraceptive prevalence rates are the highest and populations
+are the oldest, growth rates tend to be the lowest. As contraceptive
+prevalence decreases, the growth rate increases. The younger the population,
+the greater the growth rate. Where the abortion rate is very high with only
+modest use of contraception, a high growth rate can result. Thus, abortion is
+necessary but not sufficient to cause low growth rates. With the exception of
+a few countries with aging populations and very high contraceptive prevalence
+rates, developed countries need to maintain abortion rates in the range of
+201-500/1000 if they are to maintain growth rates at levels below 1%. An even
+greater reliance on abortion--over 500/1000 live births--is required in
+developing countries to reduce population growth.
+
+PMID:
+
+        
+                3709011
+        
+         [Indexed for MEDLINE]
+        
+
+Share
+
+### Publication types, MeSH terms
+
+#### Publication types
+
+        
+                  * Comparative Study
+          * Research Support, Non-U.S. Gov't
+        
+
+#### MeSH terms
+
+        
+                  * Abortion, Criminal*
+          * Abortion, Legal*
+          * Birth Rate
+          * Contraception Behavior
+          * Developing Countries
+          * Female
+          * Humans
+          * Population Control*
+          * Population Growth
+          * Pregnancy
+        
+          * ## Supplemental Content
+        
+
+![Loading ... ](//static.pubmed.gov/portal/portal3rc.fcgi/4185393/img/3631476)
+
+You are here: NCBI > Literature > PubMed
+
+Support Center
+![](/stat?jsdisabled=true&ncbi_app=entrez&ncbi_db=pubmed&ncbi_pdid=abstract&ncbi_phid=CE8A5621CF9B0FB10000000004AA02E4)
+
+## Simple NCBI Directory
+
+        
+                  * ### Getting Started
+        
+          * NCBI Education
+          * NCBI Help Manual
+          * NCBI Handbook
+          * Training & Tutorials
+          * Submit Data
+          * ### Resources
+        
+          * Chemicals & Bioassays
+          * Data & Software
+          * DNA & RNA
+          * Domains & Structures
+          * Genes & Expression
+          * Genetics & Medicine
+          * Genomes & Maps
+          * Homology
+          * Literature
+          * Proteins
+          * Sequence Analysis
+          * Taxonomy
+          * Variation
+          * ### Popular
+        
+          * PubMed
+          * Bookshelf
+          * PubMed Central
+          * BLAST
+          * Nucleotide
+          * Genome
+          * SNP
+          * Gene
+          * Protein
+          * PubChem
+          * ### Featured
+        
+          * Genetic Testing Registry
+          * GenBank
+          * Reference Sequences
+          * Gene Expression Omnibus
+          * Genome Data Viewer
+          * Human Genome
+          * Mouse Genome
+          * Influenza Virus
+          * Primer-BLAST
+          * Sequence Read Archive
+          * ### NCBI Information
+        
+          * About NCBI
+          * Research at NCBI
+          * NCBI News & Blog
+          * NCBI FTP Site
+          * NCBI on Facebook
+          * NCBI on Twitter
+          * NCBI on YouTube
+          * Privacy Policy
+        
+
+External link. Please review our privacy policy.
+
+NLM
+
+NIH
+
+DHHS
+
+USA.gov
+
+National Center for Biotechnology Information, U.S. National Library of
+Medicine 8600 Rockville Pike, Bethesda MD, 20894 USA
+
+Policies and Guidelines | Contact
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+*[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+

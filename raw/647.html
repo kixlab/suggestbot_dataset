@@ -1,0 +1,2477 @@
+
+
+
+
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if IE 10 ]>    <html lang="en" class="no-js ie10"> <![endif]-->
+<!--[if IE 11 ]>    <html lang="en" class="no-js ie11"> <![endif]-->
+<!--[if IE]><!--> <html style="height: 100%;" lang="en" prefix="og: http://ogp.me/ns#" class="no-js"
+  itemscope itemtype="https://schema.org/Article"
+> <!--<![endif]-->
+<head profile="http://a9.com/-/spec/opensearch/1.1/">
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"c996bd7258","agent":"","transactionName":"NgFXMBNTWUJXUEMLDQ9LcxEPUUNYWV0YEAcHAUcBD1FSH0BaUhURWwVHEAhRW1RpV1IWAwgI","applicationID":"156119156","errorBeacon":"bam.nr-data.net","applicationTime":609}</script>
+    
+    
+    <meta name="copyright" content="(c) National Geographic Society" />
+    <meta name="author" content="National Geographic Society" />
+    <link rel="canonical" href="http://www.nationalgeographic.org/media/ocean-currents-and-climate/" />
+    
+    
+    
+
+    <meta itemprop="keywords" name="keywords" content="alien deep, climate, ocean, ocean circulation, ocean conveyor belt, oceanography, robert ballard" />
+    
+        <meta itemprop="description" name="description" content="Scientists across the globe are trying to figure out why the ocean is becoming more violent and what, if anything, can be done about it. Ocean currents, including the ocean conveyor belt, play a key role in determining how the ocean distributes heat energy throughout the planet, thereby regulating and stabilizing climate patterns." />
+    
+    
+        <meta property="og:title" content="Ocean Currents and Climate" />
+    
+    
+        <meta property="og:description" content="Scientists across the globe are trying to figure out why the ocean is becoming more violent and what, if anything, can be done about it. Ocean currents, including the ocean conveyor belt, play a key role in determining how the ocean distributes heat energy throughout the planet, thereby regulating and stabilizing climate patterns." />
+    
+    <meta property="og:url" content="http://www.nationalgeographic.org/media/ocean-currents-and-climate/" />
+    <meta property="og:type" content="article" />
+    
+        
+            <meta property="og:image" content="https://media.nationalgeographic.org/assets/photos/000/326/32607.jpg">
+        
+    
+    <meta property="article:author" content="National Geographic Society" />
+    
+        <meta property="article:published_time" content="2013-03-21" />
+    
+    
+        <meta property="article:modified_time" content="2013-03-14T21:44:13.671312+00:00" />
+    
+    
+        <meta property="article:tag" content="alien deep" />
+    
+        <meta property="article:tag" content="climate" />
+    
+        <meta property="article:tag" content="ocean" />
+    
+        <meta property="article:tag" content="ocean circulation" />
+    
+        <meta property="article:tag" content="ocean conveyor belt" />
+    
+        <meta property="article:tag" content="oceanography" />
+    
+        <meta property="article:tag" content="robert ballard" />
+    
+    <meta property="og:site_name" content="National Geographic Society" />
+    
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@NatGeoEducation" />
+        <meta name="twitter:title" content="Ocean Currents and Climate" />
+        <meta name="twitter:description" content="Scientists across the globe are trying to figure out why the ocean is becoming more violent and what, if anything, can be done about it. Ocean currents, including the ocean conveyor belt, play a key role in determining how the ocean distributes heat energy throughout the planet, thereby regulating and stabilizing climate patterns." />
+        <meta name="twitter:url" content="http://www.nationalgeographic.org/media/ocean-currents-and-climate/" />
+    
+    <link rel="canonical" href="http://www.nationalgeographic.org/media/ocean-currents-and-climate/" />
+
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="/static/images/favicons/apple-icon-57x57.72dee8f378a9.png"><link rel="apple-touch-icon" sizes="60x60" href="/static/images/favicons/apple-icon-60x60.e27870d5f303.png"><link rel="apple-touch-icon" sizes="72x72" href="/static/images/favicons/apple-icon-72x72.d7ba7ad8147a.png"><link rel="apple-touch-icon" sizes="76x76" href="/static/images/favicons/apple-icon-76x76.c69536afd1ce.png"><link rel="apple-touch-icon" sizes="114x114" href="/static/images/favicons/apple-icon-114x114.2ce7a7a4559d.png"><link rel="apple-touch-icon" sizes="120x120" href="/static/images/favicons/apple-icon-120x120.f6d522e238ad.png"><link rel="apple-touch-icon" sizes="144x144" href="/static/images/favicons/apple-icon-144x144.cd4fce289bea.png"><link rel="apple-touch-icon" sizes="152x152" href="/static/images/favicons/apple-icon-152x152.440550e1d446.png"><link rel="apple-touch-icon" sizes="180x180" href="/static/images/favicons/apple-icon-180x180.bef082a316ad.png"><link rel="icon" type="image/png" sizes="192x192"  href="/static/images/favicons/android-icon-192x192.07210fe3c128.png"><link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicons/favicon-32x32.7e1497cd2e06.png"><link rel="icon" type="image/png" sizes="96x96" href="/static/images/favicons/favicon-96x96.88cbfa475fd7.png"><link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicons/favicon-16x16.05bd631c63a4.png"><link rel="manifest" href="/static/images/favicons/manifest.b58fcfa7628c.json"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-TileImage" content="/static/images/favicons/ms-icon-144x144.cd4fce289bea.png"><meta name="theme-color" content="#ffffff">
+
+    <meta property="fb:pages" content="357936683619">
+    <meta name="theme-color" content="#ffffff">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+    
+        
+    
+    
+    Ocean Currents and Climate
+ | National Geographic Society</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="http://www.nationalgeographic.org/opensearch.xml" title="National Geographic search" />
+
+    
+    
+    
+        <link rel="stylesheet" href="/static/CACHE/css/3ace77a7fe66.css" type="text/css" />
+        
+        
+
+    
+    <link rel="stylesheet" type="text/css" href="/static/ngkit/css/ngkit.min.75cac9965de6.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,600,600i">
+    
+
+
+  
+    <link rel="stylesheet" href="/static/ngs_commons/css/donate_updates_modals.c12314e77e25.css"/>
+  
+
+
+
+    <link rel="stylesheet" type="text/css" href="/static/rcplayer/css/rcplayer.min.db126e86f25e.css">
+
+
+    
+    <link href="https://plus.google.com/116983520436200180841" rel="publisher">
+    
+
+
+    
+        <script type="text/javascript" src="/static/CACHE/js/1420eeac9608.js"></script>
+    
+    
+    <link rel="stylesheet" type="text/css" href="/static/css/navigation/header_nav.5071557f586f.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/navigation/footer_nav.c33a3c35f67a.css" />
+
+
+  <style>
+    .ng-related-resources-container-desktop.collapsed .related-resource-card {
+      display: none;
+    }
+
+    .ng-related-resources-container-desktop.collapsed .related-resource-card:nth-child(-n+6) {
+      display: flex;
+    }
+
+    .related-resource-card .card-title {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      line-height: 2rem; /* fallback */
+      max-height: 4rem; /* fallback */
+      min-height: 4rem; /* fallback */
+      -webkit-line-clamp: 2; /* number of lines to show */
+      -webkit-box-orient: vertical;
+    }
+
+    .related-resource-card .card-description {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      line-height: 1.7rem; /* fallback */
+      max-height: 6.8rem; /* fallback */
+      min-height: 6.8rem; /* fallback */
+      -webkit-line-clamp: 4; /* number of lines to show */
+      -webkit-box-orient: vertical;
+    }
+
+    .ng-related-resources-container-desktop ul {
+      list-style: none;
+    }
+
+    .ng-related-resources-container-mobile {
+      overflow: hidden;
+    }
+
+    .ng-related-resources-container-mobile li.related-resource-card {
+      min-width: 80vw;
+    }
+
+    .ng-related-resources-container-mobile ul.ng-slider {
+      margin-left: -40px;
+    }
+  </style>
+
+
+<style>
+    .bib-image-frame {
+        background-position: center;
+        background-size: cover;
+        height: 0;
+        max-height: 250px;
+        overflow: hidden;
+        padding-top: 68.42%;
+        margin-bottom: -8px;
+    }
+
+    .related-resource-card .capitalize {
+      text-transform: capitalize;
+    }
+</style>
+
+
+  <link rel="stylesheet" href="/static/ngs/asset-library/css/search-module.4495fd8c1e5a.css">
+  <style>
+    #search-module-01 {
+      min-height: 10vh;
+      min-height: 30vh;
+      display: flex;
+      align-items: center;
+    }
+    .ng-select-hierarchical li.ng-c-list-back-btn label.ng-c-cursor-pointer {
+      padding-left: 0; /* temporary hotfix, until ngs-react >0.5.34 is deployed */
+    }
+  </style>
+
+
+</head>
+
+<body class="TE_theme">
+
+
+
+
+    <!-- Google Tag Manager -->
+    
+<script type="text/javascript" src="/static/ngs_commons/js/cookie_management.7eab02b3c859.js"></script>
+
+    <script>
+        var dataLayer = [{'pageCategory': 'NG|ORG'}];
+    </script>
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5GDQ9F" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || [];
+          w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+          var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+          j.async = true;
+          j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+          f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5GDQ9F');
+    </script>
+<!-- End Google Tag Manager -->
+
+
+
+<!--[if lt IE 10 ]>
+<style>
+.buorg {
+    z-index: 111111;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    border-bottom: 1px solid #A29330;
+    background: #FDF2AB no-repeat 13px center url(//browser-update.org/img/small/i.gif);
+    text-align: left;
+    cursor: pointer;
+    font-family: "GeographEditWeb", Helvetica, Arial, sans-serif;
+    color: #000;
+    font-size: 12px;
+}
+.buorg div {
+padding: 5px 36px 5px 40px;
+}
+</style>
+<div id="buorg" class="buorg">
+    <div>Your browser is <b>out of date</b>. It has known <b>security flaws</b> and may <b>not display all features</b> of this and other websites. <a href="http://browser-update.org/update-browser.html">Learn how to update your browser</a></div>
+</div>
+<![endif]-->
+
+
+
+    <div class="grey-nav">
+        
+
+
+<a href="#start-of-content" tabindex="1" id="skip-to-content">Skip to content</a>
+
+
+<div class="ng-header-nav-container condensed ">
+    
+
+
+<nav id="header-nav-container" aria-label="Main Navigation" class="top">
+
+    <div class="navbar-always">
+
+        <a href="/" role="home" id="header-logo-container">
+            <img alt="National Geographic logo" src="/static/images/logos/nglogo-stacked-black.min.87da50cdd596.svg" class="black-logo" />
+            <img alt="National Geographic logo" src="/static/images/logos/nglogo-stacked-white.min.6f3b65fe2af6.svg" class="white-logo" />
+        </a>
+
+        <ul id="header-nav-icons">
+            <li class="donate-button">
+                <a href="https://donate.nationalgeographic.org/Page.aspx?pid=184" class="ng-button ng-button-mini ng-button-primary">Donate</a>
+            </li>
+            <li class="user-icon-link">
+                <a href="https://account.nationalgeographic.org/" role="button">
+                    
+                    <i class="ng-icon">
+                        <img alt="account icon" src="/static/svg/user.8f38a17c7c81.svg" class="account-icon-black" />
+                        <img src="/static/svg/user-white.55437cd30633.svg" class="account-icon-white" />
+                    </i>
+                    <div class="icon-subtext">Account</div>
+                </a>
+            </li>
+            <li class="menu-icon-link">
+                <a href="javascript:void(0);" role="button">
+                    <i class="ng-icon ng-icon-menu"></i>
+                    <div class="icon-subtext">Menu</div>
+                </a>
+            </li>
+            <li class="close-icon-link">
+                <a href="javascript:void(0);" role="button">
+                    <i class="ng-icon ng-icon-close"></i>
+                    <div class="icon-subtext">Close</div>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="navbar-menu">
+
+        <ul class="navbar-account-mobile level1-list">
+            <li class="account-node">
+                <a href="https://account.nationalgeographic.org/">
+                    <img src="/static/svg/user-white.55437cd30633.svg"/>
+                    <span>Account</span>
+                </a>
+            </li>
+        </ul>
+
+        <ul class="level1-list" role="menu">
+
+            
+            <div id="overflow-cover">
+
+            
+
+            
+            <li class="level1-node has-children">
+                <a href="/projects/" role="menuitem" class="header-nav-link">Impact</a>
+
+                
+                <ul class="level2-list" role="menu">
+
+                    
+                        
+                        
+
+                    
+                        
+                        
+
+                    
+                        
+                        
+
+                    
+                        
+                        
+
+                    
+                        
+                        
+
+                    
+                        
+                        
+
+                    
+                        
+                        
+
+                    
+                        
+                        
+
+                    
+                        
+                        
+
+                    
+                        
+                        
+
+                    
+                        
+                        
+
+                    
+                        
+                        
+
+                    
+                </ul>
+                
+
+            </li>
+            
+
+            
+
+            
+            <li class="level1-node has-children">
+                <a href="/education/" role="menuitem" class="header-nav-link">Education</a>
+
+                
+                <ul class="level2-list" role="menu">
+
+                    
+                        
+                        
+                        <li class="level2-node dropdown">
+                            <a href="/education/classroom-resources/" class="header-nav-link">Classroom Resources</a>
+
+                            
+                                <button class="ng-icon ng-icon-directiondown" aria-haspopup="true" aria-expanded="false" aria-visible="false"></button>
+                            
+
+                            
+                            <ul class="level3-list" role="menu">
+
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/education/resource-library/" role="menuitem" class="header-nav-link">Resource Library</a>
+                                    </li>
+                                    
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/education/classroom-resources/mapping/" role="menuitem" class="header-nav-link">Mapping</a>
+                                    </li>
+                                    
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/education/classroom-resources/explorer-magazine/" role="menuitem" class="header-nav-link">Explorer Magazine</a>
+                                    </li>
+                                    
+                                
+                            </ul>
+                            
+
+                        </li>
+                        
+
+                    
+                        
+                        
+                        <li class="level2-node dropdown">
+                            <a href="/education/professional-development/" class="header-nav-link">Professional Development</a>
+
+                            
+                                <button class="ng-icon ng-icon-directiondown" aria-haspopup="true" aria-expanded="false" aria-visible="false"></button>
+                            
+
+                            
+                            <ul class="level3-list" role="menu">
+
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/education/professional-development/courses/" role="menuitem" class="header-nav-link">Online Courses</a>
+                                    </li>
+                                    
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/education/professional-development/network/" role="menuitem" class="header-nav-link">Educator Network</a>
+                                    </li>
+                                    
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/education/professional-development/grants/" role="menuitem" class="header-nav-link">Grants for Educators</a>
+                                    </li>
+                                    
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/education/professional-development/grosvenor-teacher-fellows/" role="menuitem" class="header-nav-link">Grosvenor Teacher Fellowships</a>
+                                    </li>
+                                    
+                                
+                            </ul>
+                            
+
+                        </li>
+                        
+
+                    
+                        
+                        
+                        <li class="level2-node dropdown">
+                            <a href="/education/student-experiences/" class="header-nav-link">Student Experiences</a>
+
+                            
+                                <button class="ng-icon ng-icon-directiondown" aria-haspopup="true" aria-expanded="false" aria-visible="false"></button>
+                            
+
+                            
+                            <ul class="level3-list" role="menu">
+
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/education/student-experiences/geochampionships/" role="menuitem" class="header-nav-link">2019 Geo Championships</a>
+                                    </li>
+                                    
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/education/student-experiences/geobee/" role="menuitem" class="header-nav-link">GeoBee</a>
+                                    </li>
+                                    
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/education/student-experiences/geochallenge/" role="menuitem" class="header-nav-link">GeoChallenge</a>
+                                    </li>
+                                    
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/education/student-experiences/explorer-classroom/" role="menuitem" class="header-nav-link">Explorer Classroom</a>
+                                    </li>
+                                    
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/education/student-experiences/student-matinees/" role="menuitem" class="header-nav-link">Student Matinees</a>
+                                    </li>
+                                    
+                                
+                            </ul>
+                            
+
+                        </li>
+                        
+
+                    
+                        
+                        
+                        <li class="level2-node">
+                            <a href="https://blog.education.nationalgeographic.org/" class="header-nav-link">Blog</a>
+
+                            
+
+                            
+
+                        </li>
+                        
+
+                    
+                        
+                        
+
+                    
+                </ul>
+                
+
+            </li>
+            
+
+            
+
+            
+            <li class="level1-node has-children">
+                <a href="/events/" role="menuitem" class="header-nav-link">Events</a>
+
+                
+                <ul class="level2-list" role="menu">
+
+                    
+                        
+                        
+                        <li class="level2-node dropdown">
+                            <a href="/events/visit/" class="header-nav-link">Visit the Museum</a>
+
+                            
+                                <button class="ng-icon ng-icon-directiondown" aria-haspopup="true" aria-expanded="false" aria-visible="false"></button>
+                            
+
+                            
+                            <ul class="level3-list" role="menu">
+
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/events/visit/eventsbenefits/" role="menuitem" class="header-nav-link">Contributing Membership</a>
+                                    </li>
+                                    
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/events/visit/group-sales/" role="menuitem" class="header-nav-link">Group Sales</a>
+                                    </li>
+                                    
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/events/visit/store/" role="menuitem" class="header-nav-link">Museum Store</a>
+                                    </li>
+                                    
+                                
+                            </ul>
+                            
+
+                        </li>
+                        
+
+                    
+                        
+                        
+                        <li class="level2-node">
+                            <a href="/events/browse/" class="header-nav-link">Browse All Events</a>
+
+                            
+
+                            
+
+                        </li>
+                        
+
+                    
+                        
+                        
+                        <li class="level2-node">
+                            <a href="/events/traveling-exhibitions/" class="header-nav-link">Host an Exhibition</a>
+
+                            
+
+                            
+
+                        </li>
+                        
+
+                    
+                        
+                        
+                        <li class="level2-node dropdown">
+                            <a href="/events/festival/" class="header-nav-link">Explorers Festival</a>
+
+                            
+                                <button class="ng-icon ng-icon-directiondown" aria-haspopup="true" aria-expanded="false" aria-visible="false"></button>
+                            
+
+                            
+                            <ul class="level3-list" role="menu">
+
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/events/festival/schedule/" role="menuitem" class="header-nav-link">Schedule</a>
+                                    </li>
+                                    
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/events/festival/awards/" role="menuitem" class="header-nav-link">Awards</a>
+                                    </li>
+                                    
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/events/festival/speakers/" role="menuitem" class="header-nav-link">Speakers and Entertainment</a>
+                                    </li>
+                                    
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/events/festival/watch-explorers-festival/" role="menuitem" class="header-nav-link">Watch</a>
+                                    </li>
+                                    
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/events/festival/past-explorers-festivals/" role="menuitem" class="header-nav-link">Past Festivals</a>
+                                    </li>
+                                    
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/events/festival/about/" role="menuitem" class="header-nav-link">About</a>
+                                    </li>
+                                    
+                                
+                            </ul>
+                            
+
+                        </li>
+                        
+
+                    
+                </ul>
+                
+
+            </li>
+            
+
+            
+
+            
+            <li class="level1-node has-children">
+                <a href="/funding-opportunities/" role="menuitem" class="header-nav-link">Funding Opportunities</a>
+
+                
+                <ul class="level2-list" role="menu">
+
+                    
+                        
+                        
+                        <li class="level2-node dropdown">
+                            <a href="/funding-opportunities/grants/" class="header-nav-link">Grants Program</a>
+
+                            
+                                <button class="ng-icon ng-icon-directiondown" aria-haspopup="true" aria-expanded="false" aria-visible="false"></button>
+                            
+
+                            
+                            <ul class="level3-list" role="menu">
+
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/funding-opportunities/grants/what-we-fund/" role="menuitem" class="header-nav-link">What We Fund</a>
+                                    </li>
+                                    
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/funding-opportunities/grants/where-we-work/" role="menuitem" class="header-nav-link">Where We Work</a>
+                                    </li>
+                                    
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/funding-opportunities/grants/how-to-apply/" role="menuitem" class="header-nav-link">How to Apply</a>
+                                    </li>
+                                    
+                                
+                            </ul>
+                            
+
+                        </li>
+                        
+
+                    
+                        
+                        
+                        <li class="level2-node dropdown">
+                            <a href="/funding-opportunities/innovation-challenges/" class="header-nav-link">Innovation Challenges</a>
+
+                            
+                                <button class="ng-icon ng-icon-directiondown" aria-haspopup="true" aria-expanded="false" aria-visible="false"></button>
+                            
+
+                            
+                            <ul class="level3-list" role="menu">
+
+                                
+                                    
+                                    <li class="level3-node">
+                                        <a href="/funding-opportunities/innovation-challenges/plastic/" role="menuitem" class="header-nav-link">Ocean Plastic Challenge</a>
+                                    </li>
+                                    
+                                
+                            </ul>
+                            
+
+                        </li>
+                        
+
+                    
+                        
+                        
+                        <li class="level2-node">
+                            <a href="/give" class="header-nav-link">Support Our Work</a>
+
+                            
+
+                            
+
+                        </li>
+                        
+
+                    
+                </ul>
+                
+
+            </li>
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            </div>
+
+        </ul>
+
+        
+
+
+
+
+<footer id="mobile-nav-footer">
+    
+    <div class="ng-c-footer-container ng-padding-medium-vertical">
+        <div class="ng-padding-large-horizontal ng-padding-large-vertical">
+            <div class="ng-grid ng-flex ng-flex-wrap">
+                <!-- Upper Left side of footer -->
+                <div class="ng-width-medium-1-4 ng-padding-small-right">
+                    <div class="ng-c-footer-logo ng-margin-medium-bottom">
+                        <a href="/" class="ngg-link-unstyled">
+                            <img src="/static/images/logos/nglogo-stacked-white.min.6f3b65fe2af6.svg" style="width: 180px;" />
+                        </a>
+                    </div>
+                    <div class="ng-c-footer-address ng-margin-medium-bottom">
+                        <p class="ng-edit-light ng-color-white">
+                          National Geographic Headquarters<br/>
+                          1145 17th Street NW<br/>
+                          Washington, D.C. 20036
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Upper Right Side of Footer -->
+                <div class="ng-width-medium-1-2">
+                    <div class="ng-grid">
+                        <div class="ng-width-medium-1-3 ng-margin-medium-bottom ng-c-footer-address">
+                            <h6 class="ng-color-mdgray ng-margin-bottom">ABOUT</h6>
+                            <ul class="ng-list ng-padding-remove">
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="/about-us/" class="ng-border-remove ng-color-white ng-edit-light">National Geographic Society</a></li>
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="https://www.nationalgeographicpartners.com/about/" class="ng-border-remove ng-color-white ng-edit-light">National Geographic Partners</a></li>
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="//blog.nationalgeographic.org/" class="ng-border-remove ng-color-white ng-edit-light">News and Impact</a></li>
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="//www.nationalgeographic.com/contact/" class="ng-border-remove ng-color-white ng-edit-light">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="ng-width-medium-1-3 ng-margin-medium-bottom ng-c-footer-address">
+                            <h6 class="ng-color-mdgray ng-margin-bottom">EXPLORE</h6>
+                            <ul class="ng-list ng-padding-remove">
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="/find-explorers/" class="ng-border-remove ng-color-white ng-edit-light">Our Explorers</a></li>
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="/projects/" class="ng-border-remove ng-color-white ng-edit-light">Our Projects</a></li>
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="/education/" class="ng-border-remove ng-color-white ng-edit-light">Resources for Educators</a></li>
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="/events/" class="ng-border-remove ng-color-white ng-edit-light">Museum and Events</a></li>
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="/labs/" class="ng-border-remove ng-color-white ng-edit-light">Technology and Innovation</a></li>
+                            </ul>
+                        </div>
+                        <div class="ng-width-medium-1-3 ng-margin-medium-bottom ng-c-footer-address">
+                            <h6 class="ng-color-mdgray ng-margin-bottom">JOIN US</h6>
+                            <ul class="ng-list ng-padding-remove">
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="/give/" class="ng-border-remove ng-color-white ng-edit-light">Ways to Give</a></li>
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="/funding-opportunities/grants/" class="ng-border-remove ng-color-white ng-edit-light">Apply for a Grant</a></li>
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="/careers/" class="ng-border-remove ng-color-white ng-edit-light">Careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ng-width-medium-1-4 ng-text-center">
+                    <div class="ng-align-medium-right ng-text-center ng-c-footer-buttons">
+                        <a role="button" class="ng-button ng-button-large ng-button-primary ng-margin-medium-bottom donate-btn">Donate</a>
+                        <a role="button" class="ng-button ng-button-large get-updates-btn newsletter-btn">Get Updates</a>
+                    </div>
+                </div>
+
+                <!-- Lower Left Side of Footer -->
+                <div class="ng-width-medium-1-4">
+                    <div class="ng-c-footer-social-module">
+                        <h6 class="ng-color-white ng-padding-medium-top ng-margin-medium-bottom">Connect</h6>
+                        <div>
+                            <a href="https://www.facebook.com/InsideNatGeo/" class="ng-icon-small ng-icon-hover ng-icon-facebook ng-margin-medium-right ng-color-white" target="_blank"></a>
+                            <a href="https://twitter.com/InsideNatGeo/" class="ng-icon-small ng-icon-hover ng-icon-twitter ng-margin-medium-right ng-color-white" target="_blank"></a>
+                            <a href="https://www.instagram.com/insidenatgeo/" class="ng-icon-small ng-icon-hover ng-icon-instagram ng-margin-medium-right ng-color-white" target="_blank"></a>
+                            <a href="https://www.youtube.com/insidenatgeo/" class="ng-icon-small ng-icon-hover ng-icon-youtube ng-margin-medium-right ng-color-white" target="_blank"></a>
+                        </div>
+                    </div>
+                    <div class="ng-c-footer-social-module-mobile ng-text-center ng-margin-medium-top">
+                        <h6 class="ng-color-white ng-margin-bottom">Connect</h6>
+                        <div>
+                            <a href="https://www.facebook.com/InsideNatGeo/" class="ng-icon-small ng-icon-hover ng-icon-facebook ng-margin-medium-right ng-color-white" target="_blank"></a>
+                            <a href="https://twitter.com/InsideNatGeo/" class="ng-icon-small ng-icon-hover ng-icon-twitter ng-margin-medium-right ng-color-white" target="_blank"></a>
+                            <a href="https://www.instagram.com/insidenatgeo/" class="ng-icon-small ng-icon-hover ng-icon-instagram ng-margin-medium-right ng-color-white" target="_blank"></a>
+                            <a href="https://www.youtube.com/insidenatgeo/" class="ng-icon-small ng-icon-hover ng-icon-youtube ng-margin-medium-right ng-color-white" target="_blank"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Lower Right Side of Footer -->
+                <div class="ng-width-medium-3-4">
+                    <div class="ng-margin-medium-top">
+                        <p class="ng-c-footer-info ng-color-mdgray ng-edit-light ">National Geographic Society is a 501 (c)(3) organization. © 1996 - 2019 National Geographic Society. All rights reserved.<br />
+                        <a href="/privacy-policy/" class="ng-border-remove ng-edit-light"><span class="ng-color-mdgray">Privacy Policy</span></a>&nbsp;|&nbsp;
+                        <a href="/sustainability-policy/" class="ng-border-remove ng-edit-light"><span class="ng-color-mdgray">Sustainability Policy</span></a>&nbsp;|&nbsp;
+                        <a href="/terms-of-service/" class="ng-border-remove ng-edit-light"><span class="ng-color-mdgray">Terms of Service</span></a>&nbsp;|&nbsp;
+                        <a href="/ethics/" class="ng-border-remove ng-edit-light"><span class="ng-color-mdgray">Code of Ethics</span></a></p>
+                    </div>
+                </div>
+            </div> <!-- outermost ng-grid -->
+        </div>
+    </div> <!-- ng-c-footer-container -->
+</footer>
+
+
+    </div>
+
+</nav>
+
+
+
+
+
+</div>
+
+
+
+<div id="header-nav-spacer"></div>
+
+
+
+<div id="start-of-content"></div>
+
+
+
+    
+
+
+    </div>
+<div class="ng-container-large ng-container ng-container-center ng-width-1-1" style="background: #fff">
+
+
+<div id="bodyalert">
+
+</div>
+
+
+
+  
+  
+    
+    
+    
+    <header class="ng-margin-large-bottom ng-article ng-margin-large-top"><h2 class="ng-c-kicker ng-margin-small-bottom"><a href="/education/resource-library/">Resource Library</a> |
+    <span class="ng-text-normal">Video</span></h2><h1 class="ng-h3 ng-article-title ng-margin-bottom" itemprop="headline">
+          Ocean Currents and Climate
+        </h1><p class="ng-margin-medium-bottom ng-width-1-1 ng-width-medium-1-2" itemprop="alternativeTitle" >Scientists across the globe are trying to figure out why the ocean is becoming more violent and what, if anything, can be done about it. Ocean currents, including the ocean conveyor belt, play a key role in determining how the ocean distributes heat energy throughout the planet, thereby regulating and stabilizing climate patterns.</p><div class="datas-container ng-grid"><div class="data-container ng-md-padding-large-right ng-xs-padding-medium-bottom ng-md-padding-bottom-remove ng-width-1-1 ng-width-medium-2-8"><p class="label ng-c-kicker ng-margin-small-bottom">Grades</p><p class="data ng-margin-remove">6 - 12, Higher Ed</p></div><div class="data-container ng-md-padding-large-horizontal ng-xs-padding-medium-bottom ng-md-padding-bottom-remove ng-width-1-1 ng-width-medium-3-8"><p class="label ng-c-kicker ng-margin-small-bottom">Subjects</p><p class="data ng-margin-remove search-item-category">Earth Science, Oceanography</p></div><div class="data-container ng-md-padding-large-left ng-xs-padding-medium-bottom ng-md-padding-bottom-remove ng-width-1-1 ng-width-medium-3-8 "><p class="label ng-c-kicker ng-margin-small-bottom">Contents</p><p class="data ng-margin-remove">1 Video</p></div></div></header>
+
+  
+
+
+  
+    
+
+    
+
+
+    <div id="article-content" class="ng-grid ng-grid-preserve ng-grid-divider ng-margin-remove">
+      <article class="ng-width-small-1-1  ng-width-large-2-3 ng-align-center ">
+        
+          <section id="main-banner" class="
+    
+        ng-panel
+    
+ ng-text-center">
+            
+    
+    
+        
+
+
+
+
+
+
+
+    
+    <div data-video-action="bc-video">
+        <div data-video-action="video-container"
+             data-account="5493668635001"
+             data-player-id="S1yhdF9uM"
+             data-video-id="5779772753001"
+             controls
+             playsinline />
+    </div>
+    <div id="inner5779772753001"></div>
+
+
+
+
+
+
+
+    
+
+          </section>
+        
+      </article>
+
+      
+        
+      
+
+      <article class="ng-width-small-1-1 ng-width-large-3-4 ng-align-center ng-border-remove ng-padding-remove" role="main">
+
+        
+    
+    
+
+    
+    <p>
+        
+            <span class="sr-only">This lists the logos of programs or partners of <abbr title="National Geographic">NG</abbr> Education which have provided or contributed the content on this page.</span>
+        
+    
+        <strong>Partner</strong><a href="" class="ng-unstyled">
+
+    <img src="https://media.nationalgeographic.org/assets/party-logo/NGT_Small.jpg" alt="National Geographic Television and Film ">
+
+</a>
+
+    
+    </p>
+    
+
+
+
+        <div class="ng-margin-large-top ng-margin-large-bottom">
+          
+    
+        
+        
+
+
+<ul class="ng-article-sharing ng-clearfix ng-padding-left-remove ng-width-1-1 center ng-margin-top">
+    <li>
+        <a class="addthis_button_twitter" href="https://twitter.com/share?url=&amp;text=&amp;" target="_blank"
+      rel="noopener noreferrer" title=" Click on this button to share via Twitter">
+      <i class="ng-icon ng-color-twitter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M28.7 8.5v.8c0 8.7-6.6 18.6-18.6 18.6C6.3 28 2.9 27 0 25.1c.5.1 1 .1 1.6.1 3.1 0 5.9-1 8.1-2.8-2.8-.1-5.3-1.9-6.1-4.6.3.1.8.1 1.2.1.6 0 1.2-.1 1.7-.2-3-.6-5.2-3.3-5.2-6.5v-.1c.9.6 1.9.9 2.9.9-1.7-1.2-2.9-3.2-2.9-5.5 0-1.2.3-2.3.9-3.3 3.3 4 8.1 6.6 13.5 6.8-.1-.4-.2-1-.2-1.5 0-3.6 2.9-6.5 6.6-6.5 1.9 0 3.5.8 4.7 2 1.5-.3 2.9-.8 4.2-1.5-.5 1.5-1.5 2.8-2.8 3.6 1.3-.2 2.6-.6 3.8-1-.9 1.4-2.1 2.5-3.3 3.4z"/></svg></i>
+      <span class="sr-only">Twitter</span>
+    </a>
+    </li>
+    <li>
+        <a class="addthis_button_facebook" href="https://www.facebook.com/sharer.php?u=" target="_blank" rel="noopener noreferrer"
+      title=" Click on this button to share via Facebook">
+      <i class="ng-icon ng-color-facebook"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266.9 266.9"><path d="M248.1 4.6H18.8C11 4.6 4.6 11 4.6 18.8v229.3c0 7.9 6.4 14.2 14.2 14.2h123.4v-99.8h-33.6v-38.9h33.6V94.9c0-33.3 20.3-51.4 50-51.4 14.2 0 26.5 1.1 30 1.5v34.8h-20.6c-16.1 0-19.3 7.7-19.3 18.9v24.8h38.5l-5 38.9h-33.5v99.8H248c7.9 0 14.2-6.4 14.2-14.2V18.8c.1-7.8-6.3-14.2-14.1-14.2z"/></svg></i>
+      <span class="sr-only">Facebook</span>
+    </a>
+    </li>
+    <li>
+        <a class="pinterest addthis_button_pinterest" href="https://pinterest.com/pin/create/bookmarklet/?url="
+      target="_blank" rel="noopener noreferrer" title=" Click on this button to pin this url">
+      <i class="ng-icon ng-color-pinterest"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M13.8 21.2c-.8 4.4-1.9 8.6-4.9 10.8-.9-6.7 1.4-11.7 2.5-17-1.8-3.1.2-9.3 4.1-7.8 4.8 1.9-4.1 11.5 1.8 12.7 6.2 1.3 8.8-10.8 4.9-14.7-5.6-5.7-16.2-.1-14.9 8 .3 2 2.4 2.6.8 5.3-3.6-.8-4.6-3.6-4.5-7.4C3.8 5 9.1.7 14.4.1c6.7-.8 13 2.5 13.9 8.8 1 7.1-3 14.9-10.2 14.3-2-.1-2.8-1.1-4.3-2z"/></svg></i>
+      <span class="sr-only">Pinterest</span>
+    </a>
+    </li>
+    
+    <li>
+        <a class="google-classroom addthis_button_google_classroom" href="#" target="_blank" rel="noopener noreferrer"
+      title=" Click on this button to share via Google Classroom">
+      <i class="ng-icon ng-color-googleclassroom"><svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><rect width="48" height="48" fill="#FFC112"/><rect x="4" y="4" width="40" height="40" fill="#21A465"/><g transform="translate(8 16)"><path d="m28 6c0-1.1044-0.89556-2-2-2s-2 0.89556-2 2 0.89556 2 2 2 2-0.89556 2-2zm-2 3c-2.892 0-6 1.4194-6 3.175v1.825h12v-1.825c0-1.7556-3.108-3.175-6-3.175zm-18-3c0-1.1044-0.89556-2-2-2s-2 0.89556-2 2 0.89556 2 2 2 2-0.89556 2-2zm-2 3c-2.892 0-6 1.4194-6 3.175v1.825h12v-1.825c0-1.7556-3.108-3.175-6-3.175z" fill="#57BB8A"/><path d="m16.002 6c1.655 0 2.9975-1.3425 2.9975-3 0-1.655-1.3425-3-2.9975-3-1.6575 0-3.0025 1.345-3.0025 3 0 1.6575 1.345 3 3.0025 3zm-7.8313 5.6667v2.3333h15.829v-2.3333c0-2.5783-4.0985-4.6667-7.9144-4.6667-3.8159 0-7.9144 2.0883-7.9144 4.6667z" fill="#F7F7F7"/></g><polygon points="28 41 40 41 40 44 28 44" fill="#F1F1F1"/></g></svg></i>
+      <span class="sr-only">Google Classroom</span>
+    </a>
+    </li>
+    
+    
+    <li>
+        <a class="addthis_button_email" href="#" title=" Click on this button to share via email">
+      <i class="ng-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M0 28.9V3.1h32V29H0zm2.4-2.4h27.1V7.3L16 20.9 2.4 7.3v19.2zM16 17.2L27.7 5.5H4.3L16 17.2z"/></svg></i>
+      <span class="sr-only">Email</span>
+    </a>
+    </li>
+    
+    
+    <li>
+        <a href="#print_link" class="addthis_button_print"
+           title=" Click on this button to get to the printer friendly version">
+      <i class="ng-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30 8.8h-4V6l-4-4H6v6.8H2V25h4v5h20v-5h4V8.8zM8 4h13.2L24 6.8v2H8V4zm16 21v3H8v-9h16v6zm4-2h-2v-6H6v6H4V12.8h24V23z"/><path d="M10 21h12v2H10zm0 3h12v2H10z"/></svg></i>
+      <span class="sr-only">Print</span>
+    </a>
+    </li>
+    
+    
+    
+</ul>
+
+
+    
+
+        </div>
+
+        
+          <section id="main-content" class="ng-panel">
+            
+            
+<div class="ng-tabs">
+  <div class="ng-tab-triggers-container">
+     <div class="ng-tab-triggers">
+        
+          <button aria-controls="tab1" class="ng-tab-trigger">Background Info</button>
+        
+        
+    
+    <button aria-controls="questions-tab" class="ng-tab-trigger">Questions</button>
+    <button aria-controls="fast-facts-tab" class="ng-tab-trigger">Fast Facts</button>
+    <button aria-controls="explore-more-tab" class="ng-tab-trigger">Explore More</button>
+
+        
+          <button aria-controls="tab3" class="ng-tab-trigger">Vocabulary</button>
+        
+     </div>
+  </div>
+  <div class="ng-tab-panes-container">
+      
+       <div class="ng-tab-pane" id="tab1">
+          <div class="ng-width-medium-3-4 ng-container-center">
+          
+<div class="ng-width-1-1">
+    
+        
+        
+
+
+
+
+        <span itemprop="articleBody">
+            <p>Mass flows of water, or currents, are essential to understanding how heat energy moves between the Earth&rsquo;s water bodies, landmasses, and atmosphere. The ocean covers 71 percent of the planet and holds 97 percent of its water, making the ocean a key factor in the storage and transfer of heat energy across the globe. The movement of this heat through local and global ocean currents affects the regulation of local weather conditions and temperature extremes, stabilization of global climate patterns, cycling of gases, and delivery of nutrients and larva to marine ecosystems.</p>
+<p>&nbsp;</p>
+<p>Ocean currents are located at the ocean surface and in deep water below 300 meters (984 feet). They can move water horizontally and vertically and occur on both local and global scales. The ocean has an interconnected current, or circulation, system powered by wind, tides, the Earth&rsquo;s rotation (Coriolis effect), the sun (solar energy), and water density differences. The topography and shape of ocean basins and nearby landmasses also influence ocean currents. These forces and physical characteristics affect the size, shape, speed, and direction of ocean currents.</p>
+<p>&nbsp;</p>
+<p>Surface ocean currents can occur on local and global scales and are typically wind-driven, resulting in both horizontal and vertical water movement. Horizontal surface currents that are local and typically short term include rip currents, longshore currents, and tidal currents. In upwelling currents, vertical water movement and mixing brings cold, nutrient-rich water toward the surface while pushing warmer, less dense water downward, where it condenses and sinks. This creates a cycle of upwelling and downwelling. Prevailing winds, ocean surface currents, and the associated mixing influence the physical, chemical, and biological characteristics of the ocean, as well as global climate.</p>
+<p>&nbsp;</p>
+<p>Deep ocean currents are density-driven and differ from surface currents in scale, speed, and energy. Water density is affected by the temperature, salinity (saltiness), and depth of the water. The colder and saltier the ocean water, the denser it is. The greater the density differences between different layers in the water column, the greater the mixing and circulation. Density differences in ocean water contribute to a global-scale circulation system, also called the global conveyor belt.</p>
+<p>&nbsp;</p>
+<p>The global conveyor belt includes both surface and deep ocean currents that circulate the globe in a 1,000-year cycle. The global conveyor belt&rsquo;s circulation is the result of two simultaneous processes: warm surface currents carrying less dense water away from the Equator toward the poles, and cold deep ocean currents carrying denser water away from the poles toward the Equator. The ocean&rsquo;s global circulation system plays a key role in distributing heat energy, regulating weather and climate, and cycling vital nutrients and gases.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+        </span>
+    
+</div> 
+
+        </div>
+       </div>
+       
+
+       
+    
+      <div class="ng-tab-pane" id="questions-tab">
+          <div class="ng-width-medium-3-4 ng-container-center">
+            <div class="ng-panel" id="quiz-section">
+                
+                    
+<style>
+  .ng-question-text p {
+    display: inline;
+  }
+  .show-answers-accordion {
+    background-color: #f5f5f5;
+  }
+  .show-answers-accordion:hover {
+    background-color: #f5f5f5;
+  }
+  .show-answers-accordion .ng-accordion-header .ng-toggle-close, .show-answers-accordion .ng-accordion-header .ng-toggle-open {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+</style>
+
+<ol style="padding-left: 0px !important; list-style-position: inside;">
+
+    <li>
+        <div class="ng-question-text ng-margin-medium-bottom ng-display-inline">
+            <p>Density differences in ocean water drive the global conveyor belt. This global circulation system is also called thermohaline circulation. When broken down into its root words, what does &ldquo;thermohaline&rdquo; mean?&nbsp;</p>
+<p>&nbsp;</p>
+        </div>
+        
+
+          <div class="ng-accordion show-answers-accordion ng-border-remove ng-margin-small-top ng-margin-medium-bottom ng-padding-medium" data-ng-accordion="{target: '#answer-1'}" aria-controls="answer-1">
+              <div class="ng-accordion-header ng-padding-large-right ng-position-relative">
+                <button class="ng-border-remove ng-default-background ng-padding-remove">
+                  <div class="ng-text-edit-s">Answer</div>
+                  <i class="ng-icon ng-toggle-close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M0 23.3l1.5 1.4L16 10.2l14.5 14.5 1.5-1.4-16-16z"/></svg></i>
+                  <i class="ng-icon ng-toggle-open"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M0 8.7l1.5-1.4L16 21.8 30.5 7.3 32 8.7l-16 16z"/></svg></i>
+                </button>
+              </div>
+              <div class="ng-panel ng-hidden" id="answer-1" role="alert">
+                <div class="ng-accordion-body ng-padding-medium-top">
+                    <p><strong>Thermo means temperature</strong> and<strong> haline means salinity</strong> (salt content).</p>
+                </div>
+              </div>
+          </div>
+
+        
+    </li>
+
+    <li>
+        <div class="ng-question-text ng-margin-medium-bottom ng-display-inline">
+            <p>The global conveyor belt carries water and heat energy across the globe. What is the difference in how the conveyor belt moves water in the tropics compared to the Arctic?</p>
+<p>&nbsp;</p>
+        </div>
+        
+
+          <div class="ng-accordion show-answers-accordion ng-border-remove ng-margin-small-top ng-margin-medium-bottom ng-padding-medium" data-ng-accordion="{target: '#answer-2'}" aria-controls="answer-2">
+              <div class="ng-accordion-header ng-padding-large-right ng-position-relative">
+                <button class="ng-border-remove ng-default-background ng-padding-remove">
+                  <div class="ng-text-edit-s">Answer</div>
+                  <i class="ng-icon ng-toggle-close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M0 23.3l1.5 1.4L16 10.2l14.5 14.5 1.5-1.4-16-16z"/></svg></i>
+                  <i class="ng-icon ng-toggle-open"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M0 8.7l1.5-1.4L16 21.8 30.5 7.3 32 8.7l-16 16z"/></svg></i>
+                </button>
+              </div>
+              <div class="ng-panel ng-hidden" id="answer-2" role="alert">
+                <div class="ng-accordion-body ng-padding-medium-top">
+                    <p><strong>In the Tropics</strong>,<strong> water warms and becomes less dense</strong>, so <strong>it rises toward the surface</strong>. <strong>In the Arctic</strong>,<strong> water cools and becomes more dense</strong>, so <strong>it sinks toward the depths</strong>.</p>
+                </div>
+              </div>
+          </div>
+
+        
+    </li>
+
+    <li>
+        <div class="ng-question-text ng-margin-medium-bottom ng-display-inline">
+            <p>What forces are responsible for tidal currents and are they predictable?&nbsp;</p>
+<p>&nbsp;</p>
+        </div>
+        
+
+          <div class="ng-accordion show-answers-accordion ng-border-remove ng-margin-small-top ng-margin-medium-bottom ng-padding-medium" data-ng-accordion="{target: '#answer-3'}" aria-controls="answer-3">
+              <div class="ng-accordion-header ng-padding-large-right ng-position-relative">
+                <button class="ng-border-remove ng-default-background ng-padding-remove">
+                  <div class="ng-text-edit-s">Answer</div>
+                  <i class="ng-icon ng-toggle-close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M0 23.3l1.5 1.4L16 10.2l14.5 14.5 1.5-1.4-16-16z"/></svg></i>
+                  <i class="ng-icon ng-toggle-open"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M0 8.7l1.5-1.4L16 21.8 30.5 7.3 32 8.7l-16 16z"/></svg></i>
+                </button>
+              </div>
+              <div class="ng-panel ng-hidden" id="answer-3" role="alert">
+                <div class="ng-accordion-body ng-padding-medium-top">
+                    <p>Tidal currents are primarily driven by the <strong>gravitational interaction of the sun</strong>,<strong> moon</strong>,<strong> and Earth</strong>. They are also <strong>influenced by coastal topography</strong>. Tidal currents are the only type of currents that change regularly and can be easily predicted.</p>
+                </div>
+              </div>
+          </div>
+
+        
+    </li>
+
+</ol>
+
+                
+            </div>
+          </div>
+      </div>
+    
+    
+      <div class="ng-tab-pane" id="fast-facts-tab">
+        <div class="ng-width-medium-3-4 ng-container-center">
+          <article class="block-content">
+              
+                  
+                  <ul>
+<li>The volume of water transported by the global conveyor belt is equal to 100 Amazon Rivers or 16 times the flow of all the world’s rivers combined.</li>
+</ul>
+              
+                  
+                  <ul>
+<li>It would take a single water molecule approximately 1,000 years to complete one full cycle of the global conveyor belt. In that time, the water molecule would travel through the waters of all the major ocean basins: Pacific, Atlantic, Indian, Southern, and Arctic.</li>
+</ul>
+              
+                  
+                  <ul>
+<li>Climate change leading to increases in ocean temperatures, evaporation of seawater, and glacial and sea ice melting could create an influx of warm freshwater onto the ocean surface. This would further block the formation of sea ice and disrupt the sinking of denser cold, salty water. These events could slow or even stop the ocean conveyor belt, which would result in global climate changes that could include drastic decreases in Europe’s temperatures due to a disruption of the Gulf Stream.</li>
+</ul>
+              
+          </article>
+        </div>
+      </div>
+    
+    
+    
+      <div class="ng-tab-pane" id="explore-more-tab">
+        <div class="ng-width-medium-3-4 ng-container-center">
+          
+
+
+
+
+    
+        
+        <p class="ng-text-edit-s ng-margin-bottom-remove">Books</p>
+        <ul class="ng-list-bullet ng-margin-top-remove">
+    
+            <li>
+                <a href="/media/one-ocean-teacher-guide/?ar_a=1 " target="_blank">
+                    National Geographic Environmental Literacy Teacher Guide Series: One Ocean, Chapter One—Ocean Currents
+                </a>
+            </li>
+    
+
+    
+        
+            </ul>
+        
+        <p class="ng-text-edit-s ng-margin-bottom-remove">Instructional Content</p>
+        <ul class="ng-list-bullet ng-margin-top-remove">
+    
+            <li>
+                <a href="/activity/geography-ocean-currents/" target="_blank">
+                    National Geographic Education: The Geography of Ocean Currents  
+                </a>
+            </li>
+    
+
+    
+        
+            </ul>
+        
+        <p class="ng-text-edit-s ng-margin-bottom-remove">Websites</p>
+        <ul class="ng-list-bullet ng-margin-top-remove">
+    
+            <li>
+                <a href="http://channel.nationalgeographic.com/channel/alien-deep/ " target="_blank">
+                    National Geographic: Alien Deep  
+                </a>
+            </li>
+    
+
+    
+            <li>
+                <a href="/encyclopedia/ocean-conveyor-belt/" target="_blank">
+                     National Geographic: Ocean Conveyor Belt—Thermohaline Circulation
+                </a>
+            </li>
+    
+
+    
+            <li>
+                <a href="http://www.education.noaa.gov/Ocean_and_Coasts/Ocean_Currents.html " target="_blank">
+                    National Oceanic and Atmospheric Administration: Education Resources—Ocean Currents  
+                </a>
+            </li>
+    
+
+    
+            <li>
+                <a href="http://oceanservice.noaa.gov/pd/oceans_weather_climate/welcome.html " target="_blank">
+                    National Oceanic and Atmospheric Administration: Ocean Service Education—The Ocean’s Role in Weather and Climate  
+                </a>
+            </li>
+    
+        </ul>
+    
+
+
+        </div>
+      </div>
+    
+
+
+       
+          <div class="ng-tab-pane" id="tab3">
+            <div class="ng-width-medium-3-4 ng-container-center">
+              
+
+
+<div class="ng-vocabulary-grid">
+  
+   <div class="ng-vocabulary-row">
+    <div class="ng-vocabulary-term">
+      
+      <a href="/encyclopedia/climate/" title="Encyclopedic Entry: climate">
+          <strong>climate</strong>
+      </a>
+      
+    </div>
+    <div class="ng-vocabulary-speech-part">
+      <span class="ng-text-italic">Noun</span>
+    </div>
+    <div class="ng-vocabulary-definition">
+      <span><p>all weather conditions for a given location over a period of time.</p></span>
+    </div>
+  </div>
+  
+   <div class="ng-vocabulary-row">
+    <div class="ng-vocabulary-term">
+      
+      <a href="/encyclopedia/coriolis-effect/" title="Encyclopedic Entry: Coriolis effect">
+          <strong>Coriolis effect</strong>
+      </a>
+      
+    </div>
+    <div class="ng-vocabulary-speech-part">
+      <span class="ng-text-italic">Noun</span>
+    </div>
+    <div class="ng-vocabulary-definition">
+      <span><p>the result of Earth's rotation on weather patterns and ocean currents. The Coriolis effect makes storms swirl clockwise in the Southern hemisphere and counterclockwise in the Northern Hemisphere.</p></span>
+    </div>
+  </div>
+  
+   <div class="ng-vocabulary-row">
+    <div class="ng-vocabulary-term">
+      
+      <a href="/encyclopedia/current/" title="Encyclopedic Entry: current">
+          <strong>current</strong>
+      </a>
+      
+    </div>
+    <div class="ng-vocabulary-speech-part">
+      <span class="ng-text-italic">Noun</span>
+    </div>
+    <div class="ng-vocabulary-definition">
+      <span><p>steady, predictable flow of fluid within a larger body of that fluid.</p></span>
+    </div>
+  </div>
+  
+   <div class="ng-vocabulary-row">
+    <div class="ng-vocabulary-term">
+      
+      <a href="/encyclopedia/density/" title="Encyclopedic Entry: density">
+          <strong>density</strong>
+      </a>
+      
+    </div>
+    <div class="ng-vocabulary-speech-part">
+      <span class="ng-text-italic">Noun</span>
+    </div>
+    <div class="ng-vocabulary-definition">
+      <span><p>number of things of one kind in a given area.</p></span>
+    </div>
+  </div>
+  
+   <div class="ng-vocabulary-row">
+    <div class="ng-vocabulary-term">
+      
+        <strong>ocean circulation</strong>
+      
+    </div>
+    <div class="ng-vocabulary-speech-part">
+      <span class="ng-text-italic">Noun</span>
+    </div>
+    <div class="ng-vocabulary-definition">
+      <span><p>worldwide   movement of water (currents) in the ocean.</p></span>
+    </div>
+  </div>
+  
+   <div class="ng-vocabulary-row">
+    <div class="ng-vocabulary-term">
+      
+      <a href="/encyclopedia/ocean-conveyor-belt/" title="Encyclopedic Entry: ocean conveyor belt">
+          <strong>ocean conveyor belt</strong>
+      </a>
+      
+    </div>
+    <div class="ng-vocabulary-speech-part">
+      <span class="ng-text-italic">Noun</span>
+    </div>
+    <div class="ng-vocabulary-definition">
+      <span><p>system in which water moves between the cold depths and warm surface in oceans throughout the world. Also called thermohaline circulation.</p></span>
+    </div>
+  </div>
+  
+   <div class="ng-vocabulary-row">
+    <div class="ng-vocabulary-term">
+      
+      <a href="/encyclopedia/rip-current/" title="Encyclopedic Entry: rip current">
+          <strong>rip current</strong>
+      </a>
+      
+    </div>
+    <div class="ng-vocabulary-speech-part">
+      <span class="ng-text-italic">Noun</span>
+    </div>
+    <div class="ng-vocabulary-definition">
+      <span><p>a strong flow of water running from the   shore to the open ocean, sea, or lake.</p></span>
+    </div>
+  </div>
+  
+   <div class="ng-vocabulary-row">
+    <div class="ng-vocabulary-term">
+      
+        <strong>salinity</strong>
+      
+    </div>
+    <div class="ng-vocabulary-speech-part">
+      <span class="ng-text-italic">Noun</span>
+    </div>
+    <div class="ng-vocabulary-definition">
+      <span><p>saltiness.</p></span>
+    </div>
+  </div>
+  
+   <div class="ng-vocabulary-row">
+    <div class="ng-vocabulary-term">
+      
+      <a href="/encyclopedia/solar-energy/" title="Encyclopedic Entry: solar energy">
+          <strong>solar energy</strong>
+      </a>
+      
+    </div>
+    <div class="ng-vocabulary-speech-part">
+      <span class="ng-text-italic">Noun</span>
+    </div>
+    <div class="ng-vocabulary-definition">
+      <span><p>radiation from the sun.</p></span>
+    </div>
+  </div>
+  
+   <div class="ng-vocabulary-row">
+    <div class="ng-vocabulary-term">
+      
+        <strong>thermohaline circulation</strong>
+      
+    </div>
+    <div class="ng-vocabulary-speech-part">
+      <span class="ng-text-italic">Noun</span>
+    </div>
+    <div class="ng-vocabulary-definition">
+      <span><p class="p1">ocean conveyor belt system in which water moves between the cold depths and warm surface in oceans throughout the world.</p></span>
+    </div>
+  </div>
+  
+   <div class="ng-vocabulary-row">
+    <div class="ng-vocabulary-term">
+      
+        <strong>topography</strong>
+      
+    </div>
+    <div class="ng-vocabulary-speech-part">
+      <span class="ng-text-italic">Noun</span>
+    </div>
+    <div class="ng-vocabulary-definition">
+      <span><p>the shape of the surface features of an area.</p></span>
+    </div>
+  </div>
+  
+   <div class="ng-vocabulary-row">
+    <div class="ng-vocabulary-term">
+      
+      <a href="/encyclopedia/upwelling/" title="Encyclopedic Entry: upwelling">
+          <strong>upwelling</strong>
+      </a>
+      
+    </div>
+    <div class="ng-vocabulary-speech-part">
+      <span class="ng-text-italic">Noun</span>
+    </div>
+    <div class="ng-vocabulary-definition">
+      <span><p>process in which cold, nutrient-rich water from the bottom of an ocean basin or lake is brought to the surface due to atmospheric effects such as the Coriolis force or wind.</p></span>
+    </div>
+  </div>
+  
+   <div class="ng-vocabulary-row">
+    <div class="ng-vocabulary-term">
+      
+      <a href="/encyclopedia/weather/" title="Encyclopedic Entry: weather">
+          <strong>weather</strong>
+      </a>
+      
+    </div>
+    <div class="ng-vocabulary-speech-part">
+      <span class="ng-text-italic">Noun</span>
+    </div>
+    <div class="ng-vocabulary-definition">
+      <span><p>state of the atmosphere, including temperature, atmospheric pressure, wind, humidity, precipitation, and cloudiness.</p></span>
+    </div>
+  </div>
+  
+</div>
+<script type="text/javascript">
+  $(document).ready(function(e) {
+      var vocabulary = [
+      
+          {
+              value: "climate",
+              phonetic: "(KLI-mut)",
+              partofspeech: "Noun",
+              definition: "\u003Cp\u003Eall weather conditions for a given location over a period of time.\u003C/p\u003E",
+              encyclopedia: "/encyclopedia/climate/"
+          },
+      
+          {
+              value: "Coriolis effect",
+              phonetic: "(kohr-ee-OH-lihs uh-FEHKT)",
+              partofspeech: "Noun",
+              definition: "\u003Cp\u003Ethe result of Earth\u0027s rotation on weather patterns and ocean currents. The Coriolis effect makes storms swirl clockwise in the Southern hemisphere and counterclockwise in the Northern Hemisphere.\u003C/p\u003E",
+              encyclopedia: "/encyclopedia/coriolis-effect/"
+          },
+      
+          {
+              value: "current",
+              phonetic: "(KUHR-ehnt)",
+              partofspeech: "Noun",
+              definition: "\u003Cp\u003Esteady, predictable flow of fluid within a larger body of that fluid.\u003C/p\u003E",
+              encyclopedia: "/encyclopedia/current/"
+          },
+      
+          {
+              value: "density",
+              phonetic: "(DEHN-sih-tee)",
+              partofspeech: "Noun",
+              definition: "\u003Cp\u003Enumber of things of one kind in a given area.\u003C/p\u003E",
+              encyclopedia: "/encyclopedia/density/"
+          },
+      
+          {
+              value: "ocean circulation",
+              phonetic: "(OH-shun sur-kyoo-LAY-shun)",
+              partofspeech: "Noun",
+              definition: "\u003Cp\u003Eworldwide   movement of water (currents) in the ocean.\u003C/p\u003E",
+              encyclopedia: null
+          },
+      
+          {
+              value: "ocean conveyor belt",
+              phonetic: "(OH-shun kun-VAY-yur BEHLT)",
+              partofspeech: "Noun",
+              definition: "\u003Cp\u003Esystem in which water moves between the cold depths and warm surface in oceans throughout the world. Also called thermohaline circulation.\u003C/p\u003E",
+              encyclopedia: "/encyclopedia/ocean-conveyor-belt/"
+          },
+      
+          {
+              value: "rip current",
+              phonetic: "(RIHP KUR-uhnt)",
+              partofspeech: "Noun",
+              definition: "\u003Cp\u003Ea strong flow of water running from the   shore to the open ocean, sea, or lake.\u003C/p\u003E",
+              encyclopedia: "/encyclopedia/rip-current/"
+          },
+      
+          {
+              value: "salinity",
+              phonetic: "(say-LIH-nih-tee)",
+              partofspeech: "Noun",
+              definition: "\u003Cp\u003Esaltiness.\u003C/p\u003E",
+              encyclopedia: null
+          },
+      
+          {
+              value: "solar energy",
+              phonetic: "(SOH-lur EHN-ur-jee)",
+              partofspeech: "Noun",
+              definition: "\u003Cp\u003Eradiation from the sun.\u003C/p\u003E",
+              encyclopedia: "/encyclopedia/solar-energy/"
+          },
+      
+          {
+              value: "thermohaline circulation",
+              phonetic: "(thur-moh-HAY-leen sur-kyoo-LAY-shun)",
+              partofspeech: "Noun",
+              definition: "\u003Cp class\u003D\u0022p1\u0022\u003Eocean conveyor belt system in which water moves between the cold depths and warm surface in oceans throughout the world.\u003C/p\u003E",
+              encyclopedia: null
+          },
+      
+          {
+              value: "topography",
+              phonetic: "(tah-PAH-gruh-fee)",
+              partofspeech: "Noun",
+              definition: "\u003Cp\u003Ethe shape of the surface features of an area.\u003C/p\u003E",
+              encyclopedia: null
+          },
+      
+          {
+              value: "upwelling",
+              phonetic: "(UP-weh-ling)",
+              partofspeech: "Noun",
+              definition: "\u003Cp\u003Eprocess in which cold, nutrient\u002Drich water from the bottom of an ocean basin or lake is brought to the surface due to atmospheric effects such as the Coriolis force or wind.\u003C/p\u003E",
+              encyclopedia: "/encyclopedia/upwelling/"
+          },
+      
+          {
+              value: "weather",
+              phonetic: "(WEH-thur)",
+              partofspeech: "Noun",
+              definition: "\u003Cp\u003Estate of the atmosphere, including temperature, atmospheric pressure, wind, humidity, precipitation, and cloudiness.\u003C/p\u003E",
+              encyclopedia: "/encyclopedia/weather/"
+          },
+      
+      ];
+
+      if (vocabulary.length)
+          $.NGkit.definition.initialize({source: vocabulary, selector:".tipHelp"});
+  });
+</script>
+
+            </div>
+          </div>
+       
+  </div>
+</div>
+
+          </section>
+          
+        
+
+        
+          <section id="content-footer" class="ng-panel ng-margin-bottom">
+
+            
+              <div class="ng-accordion ng-accordion-large ng-background-contrast" data-ng-accordion="{target: '#credits-panel'}">
+
+                <div class="ng-accordion-header">
+                  <button class="ng-border-remove ng-background-contrast">
+                    <div class="ng-text-edit-s">Credits</div>
+                    <i class="ng-icon ng-toggle-close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M0 23.3l1.5 1.4L16 10.2l14.5 14.5 1.5-1.4-16-16z"/></svg></i>
+                    <i class="ng-icon ng-toggle-open"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M0 8.7l1.5-1.4L16 21.8 30.5 7.3 32 8.7l-16 16z"/></svg></i>
+                  </button>
+                </div>
+
+                <div class="ng-panel ng-hidden" id="credits-panel">
+                  <div class="ng-accordion-body">
+                    
+    
+        
+                      <h4 class="ng-text-edit-s">Media Credits</h4>
+                      <p
+                        class="ng-margin-top-remove">The audio, illustrations, photos, and videos are credited beneath the media asset, except for promotional images, which generally link to another page that contains the media credit. The Rights Holder for media is the person or group credited.</p>
+                    
+    
+
+                    
+    
+        
+
+<article>
+    
+        <h4 class="ng-text-edit-s">Writer</h4>
+        <p>
+            
+                
+                    Angela M. Cowan, Education Specialist and Curriculum Designer
+                <br/>
+            
+        </p>
+    
+        <h4 class="ng-text-edit-s">Editors</h4>
+        <p>
+            
+                
+                    Jeannie Evers, Emdash Editing
+                <br/>
+            
+                
+                    Julie Brown, National Geographic Society
+                <br/>
+            
+        </p>
+    
+        <h4 class="ng-text-edit-s">Producers</h4>
+        <p>
+            
+                
+                    Katy Andres
+                <br/>
+            
+                
+                    Winn Brewer, National Geographic Education
+                <br/>
+            
+                
+                    Julie Brown, National Geographic Society
+                <br/>
+            
+                
+                    Alison Michel, National Geographic Society
+                <br/>
+            
+        </p>
+    
+    
+    
+    
+</article>
+
+    
+    <h4 class="ng-text-edit-s">Last Updated</h4>
+    <p>March 21, 2013</p>
+
+                  </div>
+                </div>
+              </div>
+            
+
+            
+              <div class="ng-accordion ng-accordion-large ng-background-contrast" data-ng-accordion="{target: '#rights-panel'}">
+
+                <div class="ng-accordion-header">
+                  <button class="ng-border-remove ng-background-contrast">
+                    <div class="ng-text-edit-s">User Permissions</div>
+                    <i class="ng-icon ng-toggle-close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M0 23.3l1.5 1.4L16 10.2l14.5 14.5 1.5-1.4-16-16z"/></svg></i>
+                    <i class="ng-icon ng-toggle-open"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M0 8.7l1.5-1.4L16 21.8 30.5 7.3 32 8.7l-16 16z"/></svg></i>
+                  </button>
+                </div>
+
+                <div class="ng-panel ng-hidden" id="rights-panel">
+                  <div class="ng-accordion-body">
+                    
+    <p>For information on user permissions, please read our <a href="/terms-of-service/" target="_blank" rel="noopener noreferrer" title="terms of service">Terms of Service</a>. If you have questions about licensing content on this page, please contact <a href="mailto:ngimagecollection@natgeo.com">ngimagecollection@natgeo.com</a> for more information and to obtain a license. If you have questions about how to cite anything on our website in your project or classroom presentation, please visit our <a href="/faq/">FAQ page</a>.
+    </p>
+    <h4 class="ng-text-edit-s">Media</h4>
+    
+    <p>Some media assets (videos, photos, audio recordings and PDFs) can be downloaded and used outside the National Geographic website according to the <a href="/terms-of-service/" target="_blank" rel="noopener noreferrer" title="Terms of Service">Terms of Service</a>. If a media asset is downloadable, a download button appears in the lower right hand corner (<img alt="download" src="/static/images/download.15b252b7df6f.png" title="download" class="flush"/>) of the media viewer. If no button appears, you cannot download or save the media.
+    </p>
+    <h4 class="ng-text-edit-s">Text</h4>
+    <p>Text on this page is printable and can be used according to our <a href="/terms-of-service/" target="_blank" rel="noopener noreferrer" title="Terms of Service">Terms of Service</a>.
+    </p>
+    <h4 class="ng-text-edit-s">Interactives</h4>
+    <p>Any interactives on this page can only be played while you are visiting our website. You cannot download interactives.
+    </p>
+
+                    
+                  </div>
+                </div>
+              </div>
+            
+
+          </section>
+        
+
+        
+    
+    
+
+    <section id="funder-sponsor" class="ng-panel ng-panel-themed ng-panel-divider">
+        
+        
+            <h3 class="ng-panel-title">Funder</h3>
+        
+            <p class="clearfix">
+            <style>
+  .ng-c-sponsor-logo {
+    height: 60px;
+  }
+</style>
+
+
+<div class="ng-media">
+    <a href="http://www.nsf.gov/" class="ng-media-img">
+        <img src="https://media.nationalgeographic.org/assets/acknowledge/logos/NSF-Logo-NEW-crop1.jpg" alt="National Science Foundation" class=" ng-c-sponsor-logo left">
+    </a>
+    <div>
+    <p>This material is based in part upon work supported by the National Science Foundation under Grant No. <span>DRL-1114251</span>. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author and do not necessarily reflect the views of the National Science Foundation.</p>
+    </div>
+</div>
+
+
+            </p>
+        
+    </section>
+
+
+
+
+        
+      </article>
+
+      
+        
+          <!-- DESKTOP LAYOUT -->
+          <div class="ng-related-resources-container-desktop ng-visible-medium-large ng-hidden-small-mini collapsed ng-width-1-1 ng-padding-remove">
+            
+
+
+
+<div class="ng-heading ng-width-small-5-6 ng-container-center ng-text-center ng-margin-large-top ng-margin-bottom related-resources-header-desktop" >
+  <h5>Related Resources</h5>
+</div>
+
+
+            <ul id="19152_desk" class="ng-width-1-1 ng-flex ng-padding-remove ng-flex-wrap ng-flex-item-auto">
+              
+
+
+
+
+  
+  
+
+  
+    
+
+<li class="related-resource-card ng-width-small-9-10 ng-width-medium-1-3 ng-width-large-1-3 ng-padding "
+    data-ng-cardtype="Collection" data-ng-ctype="Collection">
+  <div class="ng-box-shadow ng-margin-small-bottom  ng-background-dkgray ng-color-white ">
+    <a href="/topics/resource-library-ocean-currents/" title="Ocean Currents" class="ng-thumbnail ng-bordered ng-width-1-1">
+      <img src="https://media.nationalgeographic.org/assets/photos/315/1e1/3151e1d5-0177-4238-bcc9-8ffd67f15e42_c133-0-856-495_r380x260.jpg?2335ada326d2c78b3a4b256ee7a36984f3d24a54" class="ng-width-1-1">
+    </a>
+    <div class="card-content ng-padding-medium">
+      <a href="/topics/resource-library-ocean-currents/" title="Ocean Currents">
+        <h6 class="ng-promo-title-large capitalize ng-margin-medium-bottom card-title  ng-color-white ">
+          Ocean Currents
+        </h6>
+      </a>
+      <p class="card-description">Ocean currents are the continuous, predictable, directional movement of seawater driven by gravity, wind (Coriolis Effect), and water density. Ocean water moves in two directions: horizontally and vertically. Horizontal movements are referred to as currents, while vertical changes are called upwellings or downwellings. This abiotic system is responsible for the transfer of heat, variations in biodiversity, and Earth&rsquo;s climate system.
+
+Explore how ocean currents are interconnected with other systems with these resources.</p>
+      <div class="card-button ng-flex ng-flex-column ng-margin-large-top">
+          <a href="/topics/resource-library-ocean-currents/" title="Ocean Currents" class="ng-button ng-button-small">
+            View Collection
+          </a>
+      </div>
+    </div>
+  </div>
+</li>
+
+  
+
+  
+  
+
+  
+    
+
+<li class="related-resource-card ng-width-small-9-10 ng-width-medium-1-3 ng-width-large-1-3 ng-padding "
+    data-ng-cardtype="Collection" data-ng-ctype="Collection">
+  <div class="ng-box-shadow ng-margin-small-bottom  ng-background-dkgray ng-color-white ">
+    <a href="/topics/resource-library-regional-climate/" title="Regional Climate" class="ng-thumbnail ng-bordered ng-width-1-1">
+      <img src="https://media.nationalgeographic.org/assets/photos/211/619/9f3459ca-bacd-4c3c-b47a-640279e576b3_c15-0-1184-800_r380x260.jpg?85ccd21e8ab2e480f59e16e47542117acd3a6d40" class="ng-width-1-1">
+    </a>
+    <div class="card-content ng-padding-medium">
+      <a href="/topics/resource-library-regional-climate/" title="Regional Climate">
+        <h6 class="ng-promo-title-large capitalize ng-margin-medium-bottom card-title  ng-color-white ">
+          Regional Climate
+        </h6>
+      </a>
+      <p class="card-description">The weather you encounter day to day depends on where you live. Places around the Equator experience warm weather all year round, but experience alternate periods of rainy and dry seasons. Places near lakes may experience more snow in the winter, whereas places on continental plains may be more prone to hail, thunderstorms, and tornados in the summer. The different kinds of weather you might experience in these regions are caused by moving patterns in the Earth&rsquo;s atmospheric and oceanic circulation, unequal heating of the Earth, and the rotation of the Earth on its tilted axis.
+
+Learn more about regional climates with this curated resource collection.</p>
+      <div class="card-button ng-flex ng-flex-column ng-margin-large-top">
+          <a href="/topics/resource-library-regional-climate/" title="Regional Climate" class="ng-button ng-button-small">
+            View Collection
+          </a>
+      </div>
+    </div>
+  </div>
+</li>
+
+  
+
+  
+  
+
+  
+    
+
+<li class="related-resource-card ng-width-small-9-10 ng-width-medium-1-3 ng-width-large-1-3 ng-padding "
+    data-ng-cardtype="Collection" data-ng-ctype="Collection">
+  <div class="ng-box-shadow ng-margin-small-bottom  ng-background-dkgray ng-color-white ">
+    <a href="/topics/resource-library-climate/" title="Climate" class="ng-thumbnail ng-bordered ng-width-1-1">
+      <img src="https://media.nationalgeographic.org/assets/photos/000/269/26929_c0-33-990-710_r380x260.jpg?a4634f83764a0027786d006d630ddd9181e4bc5c" class="ng-width-1-1">
+    </a>
+    <div class="card-content ng-padding-medium">
+      <a href="/topics/resource-library-climate/" title="Climate">
+        <h6 class="ng-promo-title-large capitalize ng-margin-medium-bottom card-title  ng-color-white ">
+          Climate
+        </h6>
+      </a>
+      <p class="card-description">&nbsp;
+
+Climate describes the average weather conditions of a particular place over a 30 year period . All places on earth have their own climates. Some climates are small in scale, like the climate of a local region or the microclimates within an ecosystem, and some are much larger, such as the climates of entire continents, or the world&rsquo;s oceans. Different from weather events, which are short-term and temporary phenomenon, climates are usually steady and predictable, and shape how organisms and human civilizations evolve and adapt in any given region. However, climates are not always permanent, and can change drastically due to human activity.
+
+Explore the world&#39;s climates and how they affect local regions and the planet with this curated collection of resources.</p>
+      <div class="card-button ng-flex ng-flex-column ng-margin-large-top">
+          <a href="/topics/resource-library-climate/" title="Climate" class="ng-button ng-button-small">
+            View Collection
+          </a>
+      </div>
+    </div>
+  </div>
+</li>
+
+  
+
+
+
+
+            </ul>
+            
+          </div>
+
+          <!-- MOBILE LAYOUT -->
+          <div class="ng-related-resources-container-mobile ng-visible-small-mini ng-hidden-medium-large ng-width-1-1" data-ng-slider="{infinite:false, center: true}">
+            
+
+
+
+<div class="ng-heading ng-width-small-5-6 ng-container-center ng-text-center ng-margin-large-top ng-margin-bottom related-resources-header-mobile" >
+  <h5>Related Resources</h5>
+</div>
+
+
+            <ul id="19152_mob" class="ng-slider ng-flex ng-padding-remove ng-width-1-1">
+              
+
+
+
+
+  
+  
+
+  
+    
+
+<li class="related-resource-card ng-width-small-9-10 ng-width-medium-1-3 ng-width-large-1-3 ng-padding ng-padding-small-horizontal ng-width-9-10"
+    data-ng-cardtype="Collection" data-ng-ctype="Collection">
+  <div class="ng-box-shadow ng-margin-small-bottom  ng-background-dkgray ng-color-white ">
+    <a href="/topics/resource-library-ocean-currents/" title="Ocean Currents" class="ng-thumbnail ng-bordered ng-width-1-1">
+      <img src="https://media.nationalgeographic.org/assets/photos/315/1e1/3151e1d5-0177-4238-bcc9-8ffd67f15e42_c133-0-856-495_r380x260.jpg?2335ada326d2c78b3a4b256ee7a36984f3d24a54" class="ng-width-1-1">
+    </a>
+    <div class="card-content ng-padding-medium">
+      <a href="/topics/resource-library-ocean-currents/" title="Ocean Currents">
+        <h6 class="ng-promo-title-large capitalize ng-margin-medium-bottom card-title  ng-color-white ">
+          Ocean Currents
+        </h6>
+      </a>
+      <p class="card-description">Ocean currents are the continuous, predictable, directional movement of seawater driven by gravity, wind (Coriolis Effect), and water density. Ocean water moves in two directions: horizontally and vertically. Horizontal movements are referred to as currents, while vertical changes are called upwellings or downwellings. This abiotic system is responsible for the transfer of heat, variations in biodiversity, and Earth&rsquo;s climate system.
+
+Explore how ocean currents are interconnected with other systems with these resources.</p>
+      <div class="card-button ng-flex ng-flex-column ng-margin-large-top">
+          <a href="/topics/resource-library-ocean-currents/" title="Ocean Currents" class="ng-button ng-button-small">
+            View Collection
+          </a>
+      </div>
+    </div>
+  </div>
+</li>
+
+  
+
+  
+  
+
+  
+    
+
+<li class="related-resource-card ng-width-small-9-10 ng-width-medium-1-3 ng-width-large-1-3 ng-padding ng-padding-small-horizontal ng-width-9-10"
+    data-ng-cardtype="Collection" data-ng-ctype="Collection">
+  <div class="ng-box-shadow ng-margin-small-bottom  ng-background-dkgray ng-color-white ">
+    <a href="/topics/resource-library-regional-climate/" title="Regional Climate" class="ng-thumbnail ng-bordered ng-width-1-1">
+      <img src="https://media.nationalgeographic.org/assets/photos/211/619/9f3459ca-bacd-4c3c-b47a-640279e576b3_c15-0-1184-800_r380x260.jpg?85ccd21e8ab2e480f59e16e47542117acd3a6d40" class="ng-width-1-1">
+    </a>
+    <div class="card-content ng-padding-medium">
+      <a href="/topics/resource-library-regional-climate/" title="Regional Climate">
+        <h6 class="ng-promo-title-large capitalize ng-margin-medium-bottom card-title  ng-color-white ">
+          Regional Climate
+        </h6>
+      </a>
+      <p class="card-description">The weather you encounter day to day depends on where you live. Places around the Equator experience warm weather all year round, but experience alternate periods of rainy and dry seasons. Places near lakes may experience more snow in the winter, whereas places on continental plains may be more prone to hail, thunderstorms, and tornados in the summer. The different kinds of weather you might experience in these regions are caused by moving patterns in the Earth&rsquo;s atmospheric and oceanic circulation, unequal heating of the Earth, and the rotation of the Earth on its tilted axis.
+
+Learn more about regional climates with this curated resource collection.</p>
+      <div class="card-button ng-flex ng-flex-column ng-margin-large-top">
+          <a href="/topics/resource-library-regional-climate/" title="Regional Climate" class="ng-button ng-button-small">
+            View Collection
+          </a>
+      </div>
+    </div>
+  </div>
+</li>
+
+  
+
+  
+  
+
+  
+    
+
+<li class="related-resource-card ng-width-small-9-10 ng-width-medium-1-3 ng-width-large-1-3 ng-padding ng-padding-small-horizontal ng-width-9-10"
+    data-ng-cardtype="Collection" data-ng-ctype="Collection">
+  <div class="ng-box-shadow ng-margin-small-bottom  ng-background-dkgray ng-color-white ">
+    <a href="/topics/resource-library-climate/" title="Climate" class="ng-thumbnail ng-bordered ng-width-1-1">
+      <img src="https://media.nationalgeographic.org/assets/photos/000/269/26929_c0-33-990-710_r380x260.jpg?a4634f83764a0027786d006d630ddd9181e4bc5c" class="ng-width-1-1">
+    </a>
+    <div class="card-content ng-padding-medium">
+      <a href="/topics/resource-library-climate/" title="Climate">
+        <h6 class="ng-promo-title-large capitalize ng-margin-medium-bottom card-title  ng-color-white ">
+          Climate
+        </h6>
+      </a>
+      <p class="card-description">&nbsp;
+
+Climate describes the average weather conditions of a particular place over a 30 year period . All places on earth have their own climates. Some climates are small in scale, like the climate of a local region or the microclimates within an ecosystem, and some are much larger, such as the climates of entire continents, or the world&rsquo;s oceans. Different from weather events, which are short-term and temporary phenomenon, climates are usually steady and predictable, and shape how organisms and human civilizations evolve and adapt in any given region. However, climates are not always permanent, and can change drastically due to human activity.
+
+Explore the world&#39;s climates and how they affect local regions and the planet with this curated collection of resources.</p>
+      <div class="card-button ng-flex ng-flex-column ng-margin-large-top">
+          <a href="/topics/resource-library-climate/" title="Climate" class="ng-button ng-button-small">
+            View Collection
+          </a>
+      </div>
+    </div>
+  </div>
+</li>
+
+  
+
+
+
+
+            </ul>
+          </div>
+
+          <!-- INIT BIBBLIO MODULE -->
+          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+      
+
+      
+
+
+
+<div id="search-module-01" class="search-module ng-center q-search-resources  ng-width-1-1  ng-padding-remove"></div>
+
+
+
+
+
+
+
+
+    </div>
+   
+
+
+
+  
+    </div>
+
+  
+
+
+
+
+<footer id="main-footer">
+    
+    <div id="modal-container">
+        <div id="modal-iframe-container">
+            <iframe frameborder="0" id="modal-iframe"></iframe>
+            <button id="modal-close-btn">X</button>
+        </div>
+    </div>
+    
+    <div class="ng-c-footer-container ng-padding-medium-vertical">
+        <div class="ng-padding-large-horizontal ng-padding-large-vertical">
+            <div class="ng-grid ng-flex ng-flex-wrap">
+                <!-- Upper Left side of footer -->
+                <div class="ng-width-medium-1-4 ng-padding-small-right">
+                    <div class="ng-c-footer-logo ng-margin-medium-bottom">
+                        <a href="/" class="ngg-link-unstyled">
+                            <img src="/static/images/logos/nglogo-stacked-white.min.6f3b65fe2af6.svg" style="width: 180px;" />
+                        </a>
+                    </div>
+                    <div class="ng-c-footer-address ng-margin-medium-bottom">
+                        <p class="ng-edit-light ng-color-white">
+                          National Geographic Headquarters<br/>
+                          1145 17th Street NW<br/>
+                          Washington, D.C. 20036
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Upper Right Side of Footer -->
+                <div class="ng-width-medium-1-2">
+                    <div class="ng-grid">
+                        <div class="ng-width-medium-1-3 ng-margin-medium-bottom ng-c-footer-address">
+                            <h6 class="ng-color-mdgray ng-margin-bottom">ABOUT</h6>
+                            <ul class="ng-list ng-padding-remove">
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="/about-us/" class="ng-border-remove ng-color-white ng-edit-light">National Geographic Society</a></li>
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="https://www.nationalgeographicpartners.com/about/" class="ng-border-remove ng-color-white ng-edit-light">National Geographic Partners</a></li>
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="//blog.nationalgeographic.org/" class="ng-border-remove ng-color-white ng-edit-light">News and Impact</a></li>
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="//www.nationalgeographic.com/contact/" class="ng-border-remove ng-color-white ng-edit-light">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="ng-width-medium-1-3 ng-margin-medium-bottom ng-c-footer-address">
+                            <h6 class="ng-color-mdgray ng-margin-bottom">EXPLORE</h6>
+                            <ul class="ng-list ng-padding-remove">
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="/find-explorers/" class="ng-border-remove ng-color-white ng-edit-light">Our Explorers</a></li>
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="/projects/" class="ng-border-remove ng-color-white ng-edit-light">Our Projects</a></li>
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="/education/" class="ng-border-remove ng-color-white ng-edit-light">Resources for Educators</a></li>
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="/events/" class="ng-border-remove ng-color-white ng-edit-light">Museum and Events</a></li>
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="/labs/" class="ng-border-remove ng-color-white ng-edit-light">Technology and Innovation</a></li>
+                            </ul>
+                        </div>
+                        <div class="ng-width-medium-1-3 ng-margin-medium-bottom ng-c-footer-address">
+                            <h6 class="ng-color-mdgray ng-margin-bottom">JOIN US</h6>
+                            <ul class="ng-list ng-padding-remove">
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="/give/" class="ng-border-remove ng-color-white ng-edit-light">Ways to Give</a></li>
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="/funding-opportunities/grants/" class="ng-border-remove ng-color-white ng-edit-light">Apply for a Grant</a></li>
+                                <li class="ng-margin-small-bottom ng-padding-small-bottom"><a href="/careers/" class="ng-border-remove ng-color-white ng-edit-light">Careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ng-width-medium-1-4 ng-text-center">
+                    <div class="ng-align-medium-right ng-text-center ng-c-footer-buttons">
+                        <a role="button" class="ng-button ng-button-large ng-button-primary ng-margin-medium-bottom donate-btn">Donate</a>
+                        <a role="button" class="ng-button ng-button-large get-updates-btn newsletter-btn">Get Updates</a>
+                    </div>
+                </div>
+
+                <!-- Lower Left Side of Footer -->
+                <div class="ng-width-medium-1-4">
+                    <div class="ng-c-footer-social-module">
+                        <h6 class="ng-color-white ng-padding-medium-top ng-margin-medium-bottom">Connect</h6>
+                        <div>
+                            <a href="https://www.facebook.com/InsideNatGeo/" class="ng-icon-small ng-icon-hover ng-icon-facebook ng-margin-medium-right ng-color-white" target="_blank"></a>
+                            <a href="https://twitter.com/InsideNatGeo/" class="ng-icon-small ng-icon-hover ng-icon-twitter ng-margin-medium-right ng-color-white" target="_blank"></a>
+                            <a href="https://www.instagram.com/insidenatgeo/" class="ng-icon-small ng-icon-hover ng-icon-instagram ng-margin-medium-right ng-color-white" target="_blank"></a>
+                            <a href="https://www.youtube.com/insidenatgeo/" class="ng-icon-small ng-icon-hover ng-icon-youtube ng-margin-medium-right ng-color-white" target="_blank"></a>
+                        </div>
+                    </div>
+                    <div class="ng-c-footer-social-module-mobile ng-text-center ng-margin-medium-top">
+                        <h6 class="ng-color-white ng-margin-bottom">Connect</h6>
+                        <div>
+                            <a href="https://www.facebook.com/InsideNatGeo/" class="ng-icon-small ng-icon-hover ng-icon-facebook ng-margin-medium-right ng-color-white" target="_blank"></a>
+                            <a href="https://twitter.com/InsideNatGeo/" class="ng-icon-small ng-icon-hover ng-icon-twitter ng-margin-medium-right ng-color-white" target="_blank"></a>
+                            <a href="https://www.instagram.com/insidenatgeo/" class="ng-icon-small ng-icon-hover ng-icon-instagram ng-margin-medium-right ng-color-white" target="_blank"></a>
+                            <a href="https://www.youtube.com/insidenatgeo/" class="ng-icon-small ng-icon-hover ng-icon-youtube ng-margin-medium-right ng-color-white" target="_blank"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Lower Right Side of Footer -->
+                <div class="ng-width-medium-3-4">
+                    <div class="ng-margin-medium-top">
+                        <p class="ng-c-footer-info ng-color-mdgray ng-edit-light ">National Geographic Society is a 501 (c)(3) organization. © 1996 - 2019 National Geographic Society. All rights reserved.<br />
+                        <a href="/privacy-policy/" class="ng-border-remove ng-edit-light"><span class="ng-color-mdgray">Privacy Policy</span></a>&nbsp;|&nbsp;
+                        <a href="/sustainability-policy/" class="ng-border-remove ng-edit-light"><span class="ng-color-mdgray">Sustainability Policy</span></a>&nbsp;|&nbsp;
+                        <a href="/terms-of-service/" class="ng-border-remove ng-edit-light"><span class="ng-color-mdgray">Terms of Service</span></a>&nbsp;|&nbsp;
+                        <a href="/ethics/" class="ng-border-remove ng-edit-light"><span class="ng-color-mdgray">Code of Ethics</span></a></p>
+                    </div>
+                </div>
+            </div> <!-- outermost ng-grid -->
+        </div>
+    </div> <!-- ng-c-footer-container -->
+</footer>
+
+  
+
+
+  <script type="text/javascript" src="/static/ngs_commons/js/donate_updates_modals.0f81169a5862.js"></script>
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function(_event) {
+      bindToModal('.newsletter-btn', 'https://donate.nationalgeographic.org/17/enews-signup?align=left', 'newsletter-modal');
+      bindToModal('.donate-btn', 'https://donate.nationalgeographic.org/17/custom-donate', 'donate-modal');
+    });
+  </script>
+  <div id="cookie-banner-container">
+  <iframe id="cookie-banner-iframe" src="//www.nationalgeographic.org/ngs-commons/cookie-banner/"></iframe>
+</div>
+
+<link rel="stylesheet" href="/static/ngs_commons/css/cookie_banner_container.css"/>
+<script type="text/javascript" src="/static/ngs_commons/js/cookie_management.js"></script>
+<script type="text/javascript" src="/static/ngs_commons/js/cookie_banner_container.js"></script>
+
+
+
+
+
+
+    
+    
+    <script type="text/javascript" src="https://s7.addthis.com/jsbase/300/addthis_widget.js#async=1"></script>
+
+    <script type="text/javascript" src="/static/CACHE/js/dc0f5d95e580.js"></script>
+
+    <script type="text/javascript">;var staticURL='/static/';$(document).ready(function(){var cookieConsent=cookieMgmtNS.getCookie('cookie-consent')==='true';var modal_triggers=$('a[href^="#modal-"]');modal_triggers.attr('data-ng-modal',function(i,val){if(val)return val;var trigger=$(modal_triggers[i]).attr('href');return'{target:"'+trigger+'"}';});var addthis_config={pubid:"ra-59a7c526c7f290d3",data_ga_property:"UA-3104240-2",ui_header_color:"#000000",ui_header_background:"#ffffff",ui_508_compliant:true,ui_click:true,data_ga_social:cookieConsent,data_track_clickback:cookieConsent,data_use_cookies:cookieConsent,data_ga_social:true,services_exclude:"print, email",services_compact:"facebook,stumbleupon,digg,reddit,delicious,twitter,digo,linkedin,pinterest"};if(typeof(addthis)!=="undefined")
+addthis.init();$.getJSON("/messages/",function(data){toastr.options={"closeButton":true,"debug":true,"positionClass":"toast-center","onclick":null,"showDuration":0,"hideDuration":1000,"timeOut":0,"extendedTimeOut":1000,"showEasing":"swing","hideEasing":"linear","showMethod":"fadeIn","hideMethod":"fadeOut"};var template_front='<div class="ng-alert ng-alert-warning ng-border-remove  ng-margin-top" data-ng-alert=""><a href="" class="ng-alert-close ng-close"></a><p>',template_back='</p></div>';$.each(data,function(index,value){if(value.type==='top-banner'){$('#bodyalert').html(template_front+value.message+template_back);}else if(value.type==='javascript'){var div=$('<div id="broadcast-js-container"></div>');div.html(value.message)
+div.css("display","none");$(document.body).append(div);$(div).trigger("displayBroadcastMessage");}else{toastr.info(value.message);}});});});</script>
+
+
+    
+
+    <script type="text/html" id="relatedmaterialstemplate">
+        
+        {{~results}}
+        <div class="ng-media">
+            <a href="{{$item.fields.url}}" class="ng-media-img"><img class="left" src="{{$item.fields.thumbnailUrl}}" width="65" alt="{{$item.fields.name}}" title="{{$item.fields.name}}"></a>
+            <div class="ng-media-body">
+                <h5 class="ng-margin-bottom-remove"><a href="{{$item.fields.url}}">{{$item.fields.name}}</a></h5>
+            </div>
+        </div>
+        {{/results}}
+        
+    </script>
+
+    <script type="text/javascript">
+        var objectUrl = '';
+        
+            objectUrl = '/related/reference.genericarticle/19152/';
+        
+
+        var uuid = 'a5e6b4bf-3867-42ec-ac3e-3f12c1812734',
+            bibblioMap = {};
+
+        $(document).ready(function(e) {
+            if (uuid in bibblioMap)
+                $.ajax({
+                    url: 'https://api.bibblio.org/AKG354PB/catalogues/9d67077b-60ff-44a8-a965-7cb46781251d/creative_works/' + bibblioMap['a5e6b4bf-3867-42ec-ac3e-3f12c1812734'] + '/recommendations',
+                    success: function(data) {
+                        var results = data.results.slice(0, 5),
+                            header = '<h3 class="ng-article-subhead">Related Materials</h3>',
+                            footer = '<p class="ng-text-small"><a href="http://bibblio.org/" target="_blank" rel="noopener noreferrer">Powered by <img src="/static/images/Bibblio_positive.374406fb98bb.svg" alt="Bibblio" height="12px" width="43px" /></a></p>',
+                            body = $.NGkit.Utils.template($('#relatedmaterialstemplate').html())({'results': results});
+
+                        $('#related-materials').html(header + body + footer);
+                    }
+                });
+            else
+                $.ajax({
+                    url: objectUrl,
+                    dataType: 'html',
+                    success: function(data) {
+                        var header = '<h3 class="ng-article-subhead">Related Materials</h3>';
+                        if (data) $('#related-materials').html(header + data);
+                        $("[data-ng-accordion]").each(function() {
+                            var ele = $(this);
+                            if (!ele.data("accordion")) {
+                               var obj = $.NGkit.accordion(ele, $.NGkit.Utils.options(ele.attr("data-ng-accordion")));
+                            }
+                        });
+                        $("[data-ng-tab]").each(function() {
+                            var ele = $(this);
+                            if (!ele.data("tab")) {
+                               var obj = $.NGkit.tab(ele, $.NGkit.Utils.options(ele.attr("data-ng-tab")));
+                            }
+                        });
+                    }
+                });
+        });
+    </script>
+
+    <script>
+        $('#article-content').on('click', '.ng-accordion-fix', function (e) {
+            var open  = $(this).find('.ng-toggle-open');
+            var close  = $(this).find('.ng-toggle-close');
+            var data = $(this).data('ng-accordion-fix');
+            var selector = data.match(/(?:target: ')(.+)'}/)[1].trim();
+
+            $(selector).toggleClass('ng-hidden');
+            open.removeClass('ng-toggle-open').addClass('ng-toggle-close');
+            close.removeClass('ng-toggle-close').addClass('ng-toggle-open');
+        });
+    </script>
+
+    
+
+    
+        <script type="text/javascript" charset="utf-8">
+            $(document).ready(function(e) {
+                var ResourceCarousel = new RCAppView({el: $('#rc-content')});
+                var url = "/prototype/edu/get_article_rc_xml/19152.xml?ar_a=1";
+                ResourceCarousel.setup(url, "eT._trackEvent");
+                // Glossary
+                var vocabulary = vocabulary || []; // TODO: 'vocabulary' is always undefined... check if this script is needed.
+                if (vocabulary.length)
+                    $.NGkit.definition.initialize({source: vocabulary, selector:".tipHelp"});
+            });
+        </script>
+        <script defer src="/static/rcplayer/js/rcplayer.min.747f69c498cc.js"></script>
+    
+
+
+
+
+
+
+
+
+
+
+
+<script src="/static/js/navigation/header_nav.50f5458f2b64.js"></script>
+
+
+    <script type="text/javascript" src="/static/js/bib-related-content.85e7449a8b2d.js"></script>
+    <script type="text/javascript" src="/static/js/bibblio/bibblio-overrides.d23ca57dd043.js"></script>
+
+
+    <script type="text/javascript">
+        $(function () {
+            Bibblio.initRelatedContent(
+                {
+                    targetElementId:  '19152_desk' , // Required
+                    recommendationKey: 'e62ce164-a1ca-43b2-8651-3c78e70d1fb9', // Required
+                    customUniqueIdentifier: '5f674fc13825b6e463620db43925ef196de8210d', // Required if no contentItemId is provided
+                    subtitleField: 'description'  // Default: headline. passing a value of false will disable the subtitle completely
+                }
+            );
+        });
+    </script>
+
+
+    <script type="text/javascript">
+        $(function () {
+            Bibblio.initRelatedContent(
+                {
+                    targetElementId:  '19152_mob' , // Required
+                    recommendationKey: 'e62ce164-a1ca-43b2-8651-3c78e70d1fb9', // Required
+                    customUniqueIdentifier: '5f674fc13825b6e463620db43925ef196de8210d', // Required if no contentItemId is provided
+                    subtitleField: 'description'  // Default: headline. passing a value of false will disable the subtitle completely
+                }
+            );
+        });
+    </script>
+
+
+<script type="text/javascript" src="/static/react/react.production.min.cdf9611df0cc.js"></script>
+<script type="text/javascript" src="/static/react-dom/react-dom.production.min.2244a44ff9cf.js"></script>
+<script type="text/javascript" src="/static/ngs-react/index.min.73310c47689b.js"></script>
+
+
+  <script type="text/javascript" src="/static/ngs/asset-library/js/util/polyfills.bc5fd0abb0c2.js"></script>
+  <script type="text/javascript" src="/static/ngs/asset-library/js/index.6f8dbb66ed82.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function (_event) {
+      initSearchModule({
+        placeholder: 'Explore all',
+        heading: 'Search the resource library',
+        headingClass: 'ng-h5 ng-margin-large-bottom',
+        filters: [{"options": [{"text": "Activity", "key": "Activity", "value": "Activity", "children": null}, {"text": "Article", "key": "Article", "value": "Article", "children": null}, {"text": "Collection", "key": "Collection", "value": "Collection", "children": null}, {"text": "Historic Article", "key": "Historic Article", "value": "Historic Article", "children": null}, {"text": "Infographic", "key": "Infographic", "value": "Infographic", "children": null}, {"text": "Lesson", "key": "Lesson", "value": "Lesson", "children": null}, {"text": "Map", "key": "Map", "value": "Map", "children": null}, {"text": "Photograph", "key": "Photograph", "value": "Photograph", "children": null}, {"text": "Video", "key": "Video", "value": "Video", "children": null}], "placeholder": "resources", "name": "content_type_category", "label": "Content Types"}, {"options": [{"text": "Pre-K", "key": "Pre-K", "value": "Pre-K", "children": null}, {"text": "K", "key": "K", "value": "K", "children": null}, {"text": "1", "key": "1", "value": "1", "children": null}, {"text": "2", "key": "2", "value": "2", "children": null}, {"text": "3", "key": "3", "value": "3", "children": null}, {"text": "4", "key": "4", "value": "4", "children": null}, {"text": "5", "key": "5", "value": "5", "children": null}, {"text": "6", "key": "6", "value": "6", "children": null}, {"text": "7", "key": "7", "value": "7", "children": null}, {"text": "8", "key": "8", "value": "8", "children": null}, {"text": "9", "key": "9", "value": "9", "children": null}, {"text": "10", "key": "10", "value": "10", "children": null}, {"text": "11", "key": "11", "value": "11", "children": null}, {"text": "12", "key": "12", "value": "12", "children": null}, {"text": "Higher Ed", "key": "13", "value": "13", "children": null}], "placeholder": "for all grades", "name": "grades", "label": "Grades"}, {"options": [{"text": "Geography", "key": "Geography", "value": "Geography", "children": [{"text": "Physical Geography", "key": "Physical Geography", "value": "Physical Geography", "children": null}, {"text": "Human Geography", "key": "Human Geography", "value": "Human Geography", "children": null}, {"text": "Geographic Information Systems (GIS)", "key": "Geographic Information Systems (GIS)", "value": "Geographic Information Systems (GIS)", "children": null}]}, {"text": "Social Studies", "key": "Social Studies", "value": "Social Studies", "children": [{"text": "World history", "key": "World history", "value": "World history", "children": null}, {"text": "U.S. History", "key": "U.S. History", "value": "U.S. History", "children": null}, {"text": "Economics", "key": "Economics", "value": "Economics", "children": null}, {"text": "Civics", "key": "Civics", "value": "Civics", "children": null}, {"text": "Ancient Civilizations", "key": "Ancient Civilizations", "value": "Ancient Civilizations", "children": null}]}, {"text": "Biology", "key": "Biology", "value": "Biology", "children": [{"text": "Ecology", "key": "Ecology", "value": "Ecology", "children": null}, {"text": "Health", "key": "Health", "value": "Health", "children": null}, {"text": "Genetics", "key": "Genetics", "value": "Genetics", "children": null}]}, {"text": "Arts and Music", "key": "Arts and Music", "value": "Arts and Music", "children": []}, {"text": "Engineering", "key": "Engineering", "value": "Engineering", "children": []}, {"text": "Anthropology", "key": "Anthropology", "value": "Anthropology", "children": [{"text": "Archaeology", "key": "Archaeology", "value": "Archaeology", "children": null}, {"text": "Sociology", "key": "Sociology", "value": "Sociology", "children": null}]}, {"text": "Experiential Learning", "key": "Experiential Learning", "value": "Experiential Learning", "children": []}, {"text": "English Language Arts", "key": "English Language Arts", "value": "English Language Arts", "children": []}, {"text": "Earth Science", "key": "Earth Science", "value": "Earth Science", "children": [{"text": "Oceanography", "key": "Oceanography", "value": "Oceanography", "children": null}, {"text": "Geology", "key": "Geology", "value": "Geology", "children": null}, {"text": "Astronomy", "key": "Astronomy", "value": "Astronomy", "children": null}, {"text": "Meteorology", "key": "Meteorology", "value": "Meteorology", "children": null}, {"text": "Climatology", "key": "Climatology", "value": "Climatology", "children": null}]}, {"text": "Religion", "key": "Religion", "value": "Religion", "children": []}, {"text": "Physics", "key": "Physics", "value": "Physics", "children": []}, {"text": "Mathematics", "key": "Mathematics", "value": "Mathematics", "children": []}, {"text": "Storytelling", "key": "Storytelling", "value": "Storytelling", "children": [{"text": "Photography", "key": "Photography", "value": "Photography", "children": null}, {"text": "Filmmaking", "key": "Filmmaking", "value": "Filmmaking", "children": null}]}, {"text": "Chemistry", "key": "Chemistry", "value": "Chemistry", "children": []}, {"text": "Conservation", "key": "Conservation", "value": "Conservation", "children": []}, {"text": "Professional Learning", "key": "Professional Learning", "value": "Professional Learning", "children": []}, {"text": "English as a Second Language", "key": "English as a Second Language", "value": "English as a Second Language", "children": []}], "placeholder": "in any subject", "name": "subjects", "label": "Subjects"}],
+        autoFocus: false,
+        apiUrl: '/api/search/reslib/',
+        resourceLibraryUrl: '/education/resource-library/',
+        targetElement: document.getElementById('search-module-01')
+      })
+    });
+  </script>
+
+
+
+<link href='/static/aos/aos.847da8fca806.css' rel="stylesheet">
+
+<script src='/static/aos/aos.d3718e34eeb0.js'></script>
+ 
+</body>
+</html>

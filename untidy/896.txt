@@ -1,0 +1,666 @@
+
+
+**Warning:** The NCBI web site requires JavaScript to function. more...
+
+  * NCBI![NCBI Logo](//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/28977)
+  * Skip to main content
+  * Skip to navigation
+  * Resources
+  * How To
+  * About NCBI Accesskeys
+
+My NCBISign in to NCBISign Out
+
+# PMC
+
+US National Library of Medicine  
+National Institutes of Health
+
+Search databasePMCAll
+DatabasesAssemblyBiocollectionsBioProjectBioSampleBioSystemsBooksClinVarCloneConserved
+DomainsdbGaPdbVarESTGeneGenomeGEO DataSetsGEO
+ProfilesGSSGTRHomoloGeneIdentical Protein GroupsMedGenMeSHNCBI Web SiteNLM
+CatalogNucleotideOMIMPMCPopSetProbeProteinProtein ClustersPubChem
+BioAssayPubChem CompoundPubChem
+SubstancePubMedSNPSparcleSRAStructureTaxonomyToolKitToolKitAllToolKitBookghUniGene
+
+Search term
+
+Search
+
+  * Advanced
+  * Journal list
+  * Help
+
+  * Journal List
+
+  * Curr Oncol
+  * v.23(Suppl 2); 2016 Mar
+  * PMC4791148
+
+![Logo of curroncol](/corehtml/pmc/pmcgifs/logo-curroncol.gif)
+
+Curr Oncol. 2016 Mar; 23(Suppl 2): S8–S14.
+
+Published online 2016 Mar 16. doi: 10.3747/co.23.3099
+
+PMCID: PMC4791148
+
+PMID: 27022315
+
+# Integrating cannabis into clinical cancer care
+
+D.I. Abrams, MD*
+
+### D.I. Abrams
+
+*Hematology-Oncology, San Francisco General Hospital; Integrative Oncology, UCSF Osher Center for Integrative Medicine; and University of California-San Francisco, San Francisco, CA, U.S.A.
+
+Find articles by D.I. Abrams
+
+Author information Copyright and License information Disclaimer
+
+*Hematology-Oncology, San Francisco General Hospital; Integrative Oncology, UCSF Osher Center for Integrative Medicine; and University of California-San Francisco, San Francisco, CA, U.S.A.
+
+Correspondence to: Donald I. Abrams, Ward 84, 995 Potrero Avenue, San
+Francisco, California 94110 U.S.A. E-mail: ude.fscu@smarbA.dlanoD
+
+Copyright 2016 Multimed Inc.
+
+This article has been cited by other articles in PMC.
+
+## Abstract
+
+_Cannabis_ species have been used as medicine for thousands of years; only
+since the 1940s has the plant not been widely available for medical use.
+However, an increasing number of jurisdictions are making it possible for
+patients to obtain the botanical for medicinal use.
+
+For the cancer patient, cannabis has a number of potential benefits,
+especially in the management of symptoms. Cannabis is useful in combatting
+anorexia, chemotherapy-induced nausea and vomiting, pain, insomnia, and
+depression. Cannabis might be less potent than other available antiemetics,
+but for some patients, it is the only agent that works, and it is the only
+antiemetic that also increases appetite. Inhaled cannabis is more effective
+than placebo in ameliorating peripheral neuropathy in a number of conditions,
+and it could prove useful in chemotherapy-induced neuropathy. A
+pharmacokinetic interaction study of vaporized cannabis in patients with
+chronic pain on stable doses of sustained-release opioids demonstrated no
+clinically significant change in plasma opiates, while suggesting the
+possibility of synergistic analgesia.
+
+Aside from symptom management, an increasing body of _in vitro_ and animal-
+model studies supports a possible direct anticancer effect of cannabinoids by
+way of a number of different mechanisms involving apoptosis, angiogenesis, and
+inhibition of metastasis. Despite an absence of clinical trials, abundant
+anecdotal reports that describe patients having remarkable responses to
+cannabis as an anticancer agent, especially when taken as a high-potency
+orally ingested concentrate, are circulating. Human studies should be
+conducted to address critical questions related to the foregoing effects.
+
+**Keywords:** Cannabis, cannabinoids, symptom management, nausea, anorexia,
+pain
+
+## INTRODUCTION
+
+Much attention has been paid to the unearthing of the 2500-year-old mummy
+known as the "Siberian Ice Maiden." Discovered in 1993, her subterranean
+burial chamber included a pouch of cannabis among other archeologic findings1.
+Magnetic resonance imaging revealed that the princess had a primary tumour in
+the right breast, with axial adenopathy and metastatic disease. It is
+hypothesized that the cannabis was used to manage her pain and perhaps other
+symptoms, or even possibly as a treatment for her malignant disease.
+
+Widely used as medicine during the ensuing millennia, cannabis disappeared
+from the pharmaceutical armamentarium in the 1940s as its prohibition took
+hold. Today, we are in the midst of what appears to be something of a
+medicinal cannabis renaissance, with patients across the globe gaining
+increased access to this potent botanical medicine. In a 2014 WebMD poll, 82%
+of oncologists indicated their belief that patients should have access to
+cannabis, ranking highest among medical subspecialists in their support2.
+Regrettably, most oncologists trained during the era of cannabis prohibition
+and have no knowledge of how to use the plant as medicine. In these days of
+targeted therapies and nanotechnology, the modern oncologist might feel
+somewhat ill at ease recommending a herbal intervention, notwithstanding the
+number of potent cytotoxic chemotherapeutic agents derived from plants.
+
+An even more vexing concern to the oncologist is the lack of data on which to
+base treatment recommendations. Given the nature of the drugs that they
+prescribe, oncologists are used to seeing strong evidence of a favourable
+risk-benefit ratio before recommending a therapeutic intervention. Usually,
+oncology drugs have proceeded through preclinical studies, followed by the
+traditional phase i, ii, and iii analyses, before we feel comfortable adding
+them to our toolbox. Such data about the clinical effectiveness of medicinal
+cannabis are all but lacking.
+
+In the United States, cannabis is classified as a Schedule I agent with a high
+potential for abuse and no accepted medical use. The study of cannabis
+requires a special Schedule I license from the U.S. Drug Enforcement
+Administration. In addition, the only legal source of cannabis for clinical
+trials is the National Institute on Drug Abuse, which has a congressional
+mandate to study substances of abuse only as substances of abuse. Although
+investigators can obtain National Institute on Drug Abuse cannabis to conduct
+effectiveness clinical trials, funding must come from another source. Hence,
+carefully controlled clinical trials of cannabis as a therapeutic agent--the
+sorts of trials that would satisfy a data-driven oncologist--are quite rare.
+
+In 1986, Δ9-tetrahydrocannabinol (thc), the most psychoactive cannabinoid in
+the plant, was approved as a licensed drug, dronabinol (Marinol: AbbVie, North
+Chicago, IL, U.S.A.), for the treatment of chemotherapy-induced nausea and
+vomiting. Hence, oncologists probably have the longest record of using a
+cannabis-based medicine. In 1992, the dronabinol indication was expanded to
+include treatment of the anorexia associated with aids wasting syndrome. In
+2006, nabilone (Cesamet: Meda Pharmaceuticals, Somerset, NJ, U.S.A.) another
+synthetic thc that had long been available in Europe and elsewhere became
+available in the United States as well.
+
+The foregoing drugs are thc alone and do not include any of the other
+potentially therapeutic cannabinoids, terpenoids, or flavonoids that are
+present in the whole plant3. Cannabidiol (cbd), in particular, is another of
+the phytocannabinoids that has been generating significant interest for its
+potential therapeutic effects4. Nabiximols (Sativex: GW Pharmaceuticals,
+Salisbury, U.K.) is a whole-plant extract of cannabis that has been processed
+to have a thc:cbd ratio of 1:1. Originally approved in Europe for the
+treatment of central pain associated with multiple sclerosis, this sublingual
+preparation has also been studied in a number of cancer-related conditions5-8.
+Because most of the information derived from clinical trials on cannabinoids
+in cancer is derived from studies of those licensed pharmaceuticals, the
+present review discusses findings from studies of those agents as well as from
+studies of cannabis itself.
+
+## CANNABIS FOR PAIN
+
+To date, two types of cannabinoid receptors (seven-transmembrane domain G
+protein-coupled receptors) have been identified in humans and other animal
+species9. The cb1 receptor, initially identified in the brain, is found in
+high concentrations in areas involved in the processing of noxious stimuli.
+The cb2 receptor is predominantly located in cells of the immune system and
+likely has a role in the control of inflammation and cell proliferation.
+
+The cb receptors are not present to react with the phytocannabinoids from
+cannabis alone. They exist because, on demand, humans produce endogenous
+cannabinoids--"endocannabinoids"--that react with the receptors, effecting
+changes in intracellular signalling. It has been suggested that the entire
+function of the system of cannabinoid receptors and endocannabinoids might be
+to assist in modulation of the response to pain. With that in mind, it is not
+surprising that an increasing body of knowledge is being developed about the
+effects on pain of cannabinoid medicines.
+
+A recently published systematic review10 considered 28 studies involving a
+total of 2454 participants and preparations including inhaled cannabis,
+dronabinol, nabilone, and nabiximols, among others. Twelve of the studies
+investigated neuropathic pain, and three looked at patients with cancer pain.
+The studies generally showed improvement in pain measures, with an overall
+odds ratio of 1.41 (95% confidence interval: 0.99 to 2.00) for improvement in
+pain with the use of cannabinoids compared with placebo. An earlier systematic
+review of eighteen randomized controlled trials of cannabinoids in 766
+participants with chronic non-cancer pain found that fifteen of the studies
+reported a significant analgesic effect for the cannabinoids compared with
+placebo, and a number of the studies also noted improvements in sleep11.
+Another review that included six of those eighteen studies in patients with
+cancer-related pain also favoured cannabinoids12.
+
+Neuropathic pain is certainly problematic in cancer patients13. A systematic
+review of six randomized, double-blind, placebo-controlled trials of
+cannabinoids (five specifically addressing neuropathic pain) found evidence
+for the use of low-dose medical cannabis in refractory neuropathic pain in
+conjunction with traditional analgesics14. Another analysis reviewed five
+trials of inhaled cannabis in patients with hiv-related peripheral neuropathy
+and again found a positive effect for cannabis compared with placebo15. A
+recent small study16 showed a dose-response effect for vaporized cannabis in
+the relief of pain from diabetic peripheral neuropathy, a huge clinical
+problem estimated to affect 238 million people worldwide.
+
+With all of those impressive data suggesting that cannabinoids could be
+effective in peripheral neuropathy, where are the studies in patients with
+chemotherapy-induced peripheral neuropathy? Preclinical studies in rodent
+models have suggested that cannabinoids might actually be able to prevent
+peripheral neuropathy. Activation of the cb1 and cb2 receptors suppresses the
+development of vincristine-induced peripheral neuropathy in rats17. In mice
+receiving daily cisplatin, administration of anandamide (an endocannabinoid)
+together with an inhibitor of the fatty-acid amide hydrolase that metabolizes
+anandamide attenuated chemotherapy-induced peripheral neuropathy18.
+Cannabidiol pretreatment stops paclitaxel-induced neuropathy in mice19. To
+date, the only human study of a cannabis-based medicine in chemotherapy-
+induced peripheral neuropathy is a crossover placebo-controlled trial of
+nabiximols20. Overall, reported pain scores were not different with nabiximols
+and with placebo. However, on a 0-10 scale, 5 responders reported a greater
+than 2-point decline in neuropathic pain. That observation suggests that 5
+patients have to be treated with the sublingual preparation for 1 to
+experience clinical benefit (an acceptable number-needed-to-treat for a
+neuropathic condition), suggesting that further investigation of cannabis
+medicines in chemotherapy-induced peripheral neuropathy is warranted. Even
+more exciting would be a study demonstrating the potential for cannabis to
+actually lower the risk for neuropathy or to prevent it from developing in the
+first place, as the animal models suggest.
+
+In animal models, cannabinoids and opioids have been demonstrated to have
+synergistic analgesic effects21. Analgesic effects of cannabinoids are not
+blocked by opioid antagonists, suggesting that the two types of agents work
+through different receptors and pathways. An early study found that thc was
+ineffective as an analgesic on its own, but that it slightly increased the
+effect of morphine on 2 of 3 measures22. A randomized controlled trial of
+dronabinol in patients on opioids for chronic pain found that, compared with
+placebo, dronabinol reduced pain ( _p_ < 0.01) and increased patient
+satisfaction ( _p_ < 0.05)23. A randomized controlled trial of nabiximols in
+359 cancer patients with poorly controlled pain despite a stable opioid
+regimen found that the sublingual preparation (4, 10, or 16 sprays daily for 5
+weeks) reduced both pain and sleep disruption24. A pharmacokinetic interaction
+study of vaporized cannabis in 21 patients with chronic--mostly non-cancer--
+pain taking sustained-release morphine or sustained-release oxycodone showed
+no significant effect on plasma levels of the opiates, but a suggestion of
+enhanced analgesia25. However, that small study was not powered for a pain
+endpoint, suggesting that a larger follow-on trial is warranted26.
+
+Clinically, I have observed that many cancer patients benefit from adding
+cannabis to their pain regimen. Although the effect on chemotherapy-induced
+peripheral neuropathy has not been glaringly obvious, other sorts of cancer-
+related pain appear to respond. Patients who have been put on high doses of
+opiates at the end of life by their well-meaning oncologist or palliative care
+team frequently feel totally unable to communicate with their loved ones in
+their precious remaining time because of altered cognition. Many have
+successfully weaned themselves down or off their opiate dose by adding
+cannabis to their regimen. Although it would seem that thc-dominant strains of
+cannabis would be most likely to have analgesic effects, patients often report
+significant pain reduction from strains that are predominantly cbd-rich.
+Although cbd does not actually bind to the cb1 receptor, it does block the
+fatty-acid binding protein that transports the endocannabinoid intracellularly
+to be hydrolyzed by the fatty-acid amide hydrolase, hence allowing the
+endogenous cannabinoid complexed with the receptors to persist27.
+
+## CANNABIS FOR NAUSEA
+
+As an oncologist practicing medicine in San Francisco since the early 1980s, I
+have often said that I need a clinical trial to demonstrate that cannabis is
+an effective antiemetic about as much as I need a placebo-controlled trial to
+demonstrate that penicillin is an antibiotic! It would appear that, if the
+single most active constituent of the plant is licensed and approved for
+treatment of chemotherapy-induced nausea, that the parent botanical should
+also work. Being aware that the plural of anecdote is not evidence, I would
+like to share an e-mail message from a 42-year-old gentleman with metastatic
+colon cancer requesting a renewal of his medical cannabis authorization:
+
+> Although I did not use it until my last 5 sessions of chemo (me getting over
+the stigma of its use), it did what no other drug could do, completely solve
+the severe nausea I had.
+
+>
+
+> It allowed me to play with my children, attend their sports and school
+functions, and just function very normally in day to day activities.
+
+>
+
+> I cannot thank you enough for giving me that option!
+
+>
+
+> I am currently on a chemo vacation after a clean scan, and the only time I
+use medical marijuana now is when I have trouble sleeping. I would like to
+continue to use it for that purpose instead of relying on pharmaceutical
+options like zolpidem etc.
+
+That message is representative of what many patients have recounted to me over
+the past 30-plus years of oncology practice in a locale in which patients have
+never had difficulty accessing cannabis. However, data from controlled
+clinical trials of cannabis are less impressive.
+
+Only three trials have looked at cannabis in the treatment of chemotherapy-
+induced nausea and vomiting, and in two of them, cannabis was made available
+only after dronabinol had already failed. The first trial noted a significant
+benefit for cannabis compared with placebo in patients receiving high-dose
+methotrexate28. A later study by the same investigators made cannabis
+available to patients receiving cyclophosphamide or doxorubicin after
+dronabinol failure, and no beneficial effect was noted29. The third study
+investigating cannabis was a randomized crossover trial in 20 patients who
+received dronabinol and cannabis30. Overall, 5 of the patients reported a
+positive antiemetic response. Of the entire cohort, 4 patients preferred
+smoked cannabis, 7 preferred dronabinol, and 9 had no preference. A recent
+phase ii investigation in 16 patients of nabiximols, the sublingually
+delivered whole-plant extract, found that 4.8 sprays daily was more effective
+than placebo in conjunction with standard antiemetics31.
+
+Data from studies investigating the synthetically available versions of Δ9-thc
+have provided more convincing evidence. A quantitative systematic review32
+that included 30 randomized comparisons of oral nabilone, oral dronabinol, or
+the intramuscular levonantradol preparation (no longer available) with placebo
+in 1366 patients receiving chemotherapy found that, as antiemetics,
+cannabinoids were more effective than prochlorperazine, metoclopramide,
+chlorpromazine, thiethylperazine, haloperidol, domperidone, or alizapride
+(risk ratio: 1.38; 95% confidence interval: 1.18 to 1.51). For complete
+control of nausea, the number needed to treat was 6, and it was 8 for complete
+control of vomiting. In crossover trials, the patients preferred cannabinoids
+for future chemotherapy cycles. A later systematic review33 of thirty
+randomized controlled trials involving 1138 patients also found that
+cannabinoids were more effective than placebo or conventional antiemetics in
+reducing chemotherapy-induced nausea and vomiting, and that patients preferred
+the cannabinoids. Adverse effects were noted to be more intense and to occur
+more frequently in patients using cannabinoids. A more recent systematic
+review10 of twenty-eight randomized controlled trials (twenty-three using
+nabilone or dronabinol) involving 1772 participants reported an overall
+benefit for cannabis. A Cochrane review34 analyzed twenty-three randomized
+controlled trials of cannabinoids compared with placebo or with other
+antiemetic drugs. Patients were more likely to report a complete absence of
+nausea and vomiting with cannabis than with placebo, and there was little
+discernable difference between the effectiveness of cannabinoids and of
+prochlorperazine, metoclopramide, domperidone, and chlorpromazine. Notably,
+however, none of the trials involved the agents now most widely used--the
+serotonin 5-HT3 antagonists. The National Comprehensive Cancer Network
+guidelines cautiously mention cannabinoids as a breakthrough treatment for
+chemotherapy-induced nausea and vomiting not responsive to other
+antiemetics35.
+
+## CANNABIS FOR APPETITE STIMULATION
+
+Although cannabis is the only antiemetic that is also orexigenic, no clinical
+trials investigating the plant as a treatment for cancer-related anorexia-
+cachexia syndrome have been conducted to date. A randomized placebo-controlled
+clinical trial evaluating a cannabis extract and dronabinol in 243 patients
+with cancer-related anorexia-cachexia syndrome found that neither preparation
+was superior to placebo with respect to affecting appetite or quality of
+life36. A large study of 469 advanced cancer patients randomized participants
+to receive the progestational agent megestrol acetate or dronabinol, or
+both37. Compared with participants in the dronabinol group, those in the
+megestrol arm experienced a significantly greater increase in both weight and
+appetite, and combining dronabinol with megestrol offered no additional
+benefit compared with megestrol alone. One smaller study of dronabinol in
+cancer patients demonstrated enhanced chemosensory perception in the treatment
+group compared with the placebo group38. In the dronabinol recipients, food
+tasted better, and appetite and caloric intake increased. Similarly variable
+and largely unimpressive results for dronabinol with respect to appetite and
+weight in hiv-associated wasting have also been reported39.
+
+## CANNABIS FOR CANCER
+
+One of the lay accounts concerning the tomb of the Siberian Ice Maiden closes
+with these lines:
+
+> Modern-day scientists have increasingly been turning their attention to
+cannabis due to its potential to inhibit or destroy cancer cells, and at the
+very least, manage the pain and symptoms that come with the illness. But then,
+ancient people seem to have known that already.40
+
+That sort of a leap--assuming that because the Ice Maiden was buried with
+cannabis and had cancer, that she was using it to treat her cancer--is about
+as valid as the claims being made on the Internet today that highly
+concentrated cannabis oils can cure cancer. It might be possible, but there
+is, as yet, no solid evidence to support that belief. One of the more
+distressing situations that oncologists increasingly face is trying to counsel
+the patient who has a curable diagnosis, but who seeks to forego conventional
+cancer treatment in favour of depending on cannabis oil to eradicate their
+malignancy because of the large number of online testimonials from people
+claiming such results. Given my long practice in San Francisco, I can assume
+that a large proportion of my patients have used cannabis during their
+journey. If cannabis cured cancer, I would have a lot more survivors in my
+practice today. Granted, inhaled cannabis cannot deliver the concentration of
+active ingredients that a heavily concentrated thc or cbd oil can, but there
+is as yet no convincing demonstration that the _in vitro_ or animal model
+findings translate into the clinical arena.
+
+One of the earliest studies suggesting that cannabinoids might have anticancer
+activity came from the U.S. National Cancer Institute in a paper published in
+197541. Investigators reported that Δ9-thc, Δ8-thc, and cbd inhibited the
+growth of Lewis lung adenocarcinoma cells _in vitro_ and in mice. For unclear
+reasons, that line of research was not pursued further at the National
+Institutes of Health in the United States, but was subsequently picked up by
+investigators in Spain and Italy, who have made enormous contributions to the
+field.
+
+If cannabinoids are postulated to have a potential anticancer effect working
+through the cb1 receptor, it would follow that the brain--where the cb1
+receptor is the most densely populated seven-transmembrane domain G protein-
+coupled receptor--would be a good place to start the investigation. And, in
+fact, numerous studies _in vitro_ and in animal models have suggested that
+cannabinoids can inhibit gliomas42. Other tumour cell lines are also inhibited
+by cannabinoids _in vitro,_ and cannabinoid administration to nude mice curbs
+the growth of various tumour xenografts representing multiple solid and
+hematologic malignancies, including adenocarcinomas of the lung, breast,
+colon, and pancreas, and also myeloma, lymphoma, and melanoma43 ,44.
+
+A discussion of the mechanism of action of cannabinoids as anticancer agents
+is beyond the scope of the present article, but has been reviewed
+elsewhere45-48. Cannabinoids appear to induce apoptosis, probably through
+interaction with the cb1 receptor. Cannabinoid administration in mouse models
+has been observed to reduce the expression of vascular endothelial growth
+factor and its receptors, leading to inhibition of angiogenesis. Cannabinoids
+also decrease the activity of matrix metalloproteinase 2, leading to decreased
+tumour-cell invasiveness and decreased potential for metastasis. In addition,
+cannabinoids have anti-inflammatory and antioxidant properties that are also
+desirable in combatting cancer. _In vitro_ studies have demonstrated that,
+combined with gemcitabine, cannabinoids further reduce the viability of
+pancreatic cancer cells49. In mice, adding thc to temozolomide (used widely in
+treatment of aggressive brain tumours), reinstated glioma suppression in
+tumours that had become resistant to chemotherapy50. The addition of cbd
+enhanced the antitumour activity even when lower doses of thc were used.
+Similarly, a combination of thc and cbd was found to enhance the antitumour
+effects of radiation in a murine glioma model, suggesting that cannabinoids
+might be synergistic with radiation therapy as well as with chemotherapy51.
+
+But again, mice and rats are not people, and what is observed _in vitro_ does
+not necessarily translate into clinical medicine. The preclinical evidence
+that cannabinoids might have direct anticancer activity is provocative as
+well, but more research is warranted. Hence, the oncologist advising patients
+on the use of cannabinoids during conventional cancer treatment should be
+aware of the preclinical findings and should not reflexively advise patients
+to avoid cannabis altogether. Currently, we can be confident that cannabis
+could have utility in symptom management for patients living with and beyond
+cancer52 -54. Compared with most of the therapeutic agents that oncologists
+use in their practice, the side-effect profile of cannabis as medicine is
+acceptable, and the adverse effects are well described54,55. To be able to
+suggest a single agent that could hold benefit in the treatment of nausea,
+anorexia, pain, insomnia, and anxiety instead of writing prescriptions for 5
+or 6 medications that might interact with each other or with cancer-directed
+therapies seems advantageous. And although botanical-pharmaceutical
+interactions for other drugs metabolized by certain cytochrome P450 isoforms
+is a theoretical possibility, no significant perturbations in the plasma
+concentrations of prescription medications have been seen to date when
+cannabis is co-administered. The only published study investigating medicinal
+cannabis with chemotherapeutic agents found no effect on the plasma
+pharmacokinetics of irinotecan or docetaxel when cannabis was administered as
+a herbal tea, although that delivery system is neither particularly popular
+nor likely potent56. The pharmacokinetics of ingested compared with inhaled
+cannabis would support an inhaled route of administration if patients desire
+more control over the onset, depth, and duration of the effect.
+
+## CONCLUSIONS
+
+The august _New England Journal of Medicine_ published a perspective piece
+describing Marilyn, a 68-year-old woman with metastatic breast cancer seeking
+medical cannabis from her physician57. Interestingly, the pro and con sides of
+the argument were both presented by mental health practitioners and not by
+medical oncologists. In a follow-up blog poll, the authors reported finding it
+surprising that 76% of the 1446 physicians responding from around the world
+were in favour of medicinal cannabis, even though many came from jurisdictions
+in which it is totally illegal58. The authors of a later WebMD survey of 1566
+physicians in the United States reported that 82% of oncologists and
+hematologists were in favour of patients having access to medical cannabis
+--representing the strongest approval among all medical subspecialties2.
+
+To summarize, cannabis and cannabinoids are useful in managing symptoms
+related to cancer and its treatment. Exciting preclinical evidence suggests
+that cannabinoids are not only effective in the treatment but also in the
+prevention of chemotherapy-induced peripheral neuropathy. Cannabinoids could
+be synergistic with opioids in the relief of pain. The safety profile of
+cannabis is acceptable, with side effects that are generally tolerable and
+short-lived. Preclinical data suggest that cannabinoids could have direct
+antitumour activity, possibly most impressive in central nervous system
+malignancies. Clinical data about the effects of cannabis concentrates on
+cancer are as yet unavailable. Oncologists could find cannabis and
+cannabinoids to be effective tools in their care of patients living with and
+beyond cancer.
+
+## CONFLICT OF INTEREST DISCLOSURES
+
+I have read and understood _Current Oncology_ 's policy on disclosing
+conflicts of interest, and I declare the following interests: I have received
+fees as an advisory board member for ABcann Medicinals, MMJ PhytoTech, Tikun
+Olam, and Zynerba Pharmaceuticals.
+
+## REFERENCES
+
+  1. Mosbergen D. New York, NY: The Huffington Post; 2014. Now We Know What Killed the Ancient "Ice Princess", and Why She Had That Marijuana [Web article]. [Available at: http://www.huffingtonpost.com/2014/10/16/siberian-ice-princess-cancer-cannabis_n_5993052.html; cited 19 December 2015]. [Google Scholar]
+
+  2. Rappold RS. Atlanta, GA: WebMD; 2014. Legalize Medical Marijuana, Doctors Say in Survey [Web article] [Available at: http://www.webmd.com/news/breaking-news/marijuana-on-main-street/20140225/webmd-marijuana-survey-web; cited 19 December 2015] [Google Scholar]
+
+  3. Russo EB. Taming thc: potential cannabis synergy and phytocannabinoid-terpenoid entourage effects. Br J Pharmacol. 2011;163:1344–64. doi: 10.1111/j.1476-5381.2011.01238.x. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+
+  4. Massi P, Solinas M, Cinquina V, Parolaro D. Cannabidiol as potential anticancer drug. Br J Clin Pharmacol. 2013;75:303–12. doi: 10.1111/j.1365-2125.2012.04298.x. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+
+  5. Rog DJ, Nurmikko TJ, Fride T, Young CA. Randomized, controlled trial of cannabis-based medicine in central pain in multiple sclerosis. Neurology. 2005;65:812–19. doi: 10.1212/01.wnl.0000176753.45410.8b. [PubMed] [CrossRef] [Google Scholar]
+
+  6. Duran M, Perez E, Abanades S, et al. Preliminary efficacy and safety of an oromucosal standardized cannabis extract in chemotherapy-induced nausea and vomiting. Br J Clin Pharmacol. 2010;70:656–63. doi: 10.1111/j.1365-2125.2010.03743.x. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+
+  7. Johnson JR, Burnell-Nugent M, Lossignol D, Ganae-Motan ED, Potts R, Fallon MT. Multicenter, double-blind, randomized, placebo-controlled, parallel-group study of the efficacy, safety and tolerability of thc:cbd extract and thc extract in patients with intractable cancer-related pain. J Pain Symptom Manage. 2010;39:167–78. doi: 10.1016/j.jpainsymman.2009.06.008. [PubMed] [CrossRef] [Google Scholar]
+
+  8. Lynch ME, Cesar-Rittenberg P, Hohmann AG. A double-blind, placebo-controlled, crossover pilot trial with extension using an oral mucosal cannabinoid extract for treatment of chemotherapy-induced neuropathic pain. J Pain Symptom Manage. 2014;47:166–73. doi: 10.1016/j.jpainsymman.2013.02.018. [PubMed] [CrossRef] [Google Scholar]
+
+  9. Pertwee RG, Howlett AC, Abood ME, et al. International Union of Pharmacology. lxxix. Cannabinoid receptors and their ligands: beyond cb1 and cb2. Pharmacol Rev. 2010;62:588–631. doi: 10.1124/pr.110.003004. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+
+  10. Whiting PF, Wolff RF, Deshpande S, et al. Cannabinoids for medical use: a systematic review and meta-analysis. JAMA. 2015;313:2456–73. doi: 10.1001/jama.2015.6358. [PubMed] [CrossRef] [Google Scholar]
+
+  11. Lynch ME, Campbell F. Cannabinoids for treatment of chronic non-cancer pain: a systematic review of randomized trials. Br J Clin Pharmacol. 2011;72:735–44. doi: 10.1111/j.1365-2125.2011.03970.x. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+
+  12. Martin-Sanchez E, Furukawa TA, Taylor J, Martin JL. Systematic review and meta-analysis of cannabis treatment for chronic pain. Pain Med. 2009;10:1353–68. doi: 10.1111/j.1526-4637.2009.00703.x. [PubMed] [CrossRef] [Google Scholar]
+
+  13. Callaghan BC, Price RS, Feldman EL. Distal symmetric polyneuropathy: a review. JAMA. 2015;314:2172–81. doi: 10.1001/jama.2015.13611. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+
+  14. Deshpande A, Mailis-Gagnon A, Zoheiry N, Lakha SF. Efficacy and adverse effects of medical marijuana for chronic noncancer pain: systematic review or randomized controlled trials. Can Fam Physician. 2015;61:e372–81. [PMC free article] [PubMed] [Google Scholar]
+
+  15. Andreae MH, Carter GM, Shaparin N, et al. Inhaled cannabis for chronic neuropathic pain: a meta-analysis of individual patient data. J Pain. 2015;16:1221–32. doi: 10.1016/j.jpain.2015.07.009. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+
+  16. Wallace MS, Marcotte TD, Umlauf A, Gouaux B, Atkinson JH. Efficacy of inhaled cannabis on painful diabetic neuropathy. J Pain. 2015;16:616–27. doi: 10.1016/j.jpain.2015.03.008. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+
+  17. Rahn EJ, Makriyannis A, Hohmann AG. Activation of cannabinoid cb1 and cb2 receptors suppresses neuropathic nociception evoked by the chemotherapeutic agent vincristine in rats. Br J Pharmacol. 2007;152:765–77. doi: 10.1038/sj.bjp.0707333. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+
+  18. Khasabova IA, Khasabov S, Paz, Harding-Rose C, Simone DA, Seybold VS. Cannabinoid type-1 receptor reduces pain and neurotoxicity produced by chemotherapy. J Neurosci. 2012;32:7091–101. doi: 10.1523/JNEUROSCI.0403-12.2012. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+
+  19. Ward SJ, McAllister SD, Kawamura R, Murase R, Neelakantan H, Walker EA. Cannabidiol inhibits paclitaxel-induced neuropathic pain through 5-HT1A receptors without diminishing nervous system function or chemotherapy efficacy. Br J Pharmacol. 2014;171:636–45. doi: 10.1111/bph.12439. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+
+  20. Lynch ME, Cesar-Rittenberg P, Hohmann AG. A double-blind, placebo-controlled, crossover pilot trial with extension using an oral mucosal cannabinoid extract for treatment of chemotherapy-induced neuropathic pain. J Pain Symptom Manage. 2014;47:166–73. doi: 10.1016/j.jpainsymman.2013.02.018. [PubMed] [CrossRef] [Google Scholar]
+
+  21. Cichewicz DL. Synergistic interactions between cannabinoid and opioid analgesics. Life Sci. 2004;74:1317–24. doi: 10.1016/j.lfs.2003.09.038. [PubMed] [CrossRef] [Google Scholar]
+
+  22. Naef M, Curatolo M, Petersen-Felix S, Arendt-Nielsen L, Zbinden A, Brenneisen R. The analgesic effect of oral delta-9-tetrahydrocannabinol (thc), morphine, and a thc-morphine combination in healthy subjects under experimental pain conditions. Pain. 2003;105:79–88. doi: 10.1016/S0304-3959(03)00163-5. [PubMed] [CrossRef] [Google Scholar]
+
+  23. Narang S, Gibson D, Wasan AD, et al. Efficacy of dronabinol as an adjuvant treatment for chronic pain patients on opioid therapy. J Pain. 2008;9:254–64. doi: 10.1016/j.jpain.2007.10.018. [PubMed] [CrossRef] [Google Scholar]
+
+  24. Portenoy RK, Ganae-Motan ED, Allende S, et al. Nabiximols for opioid-treated cancer patients with poorly-controlled chronic pain: a randomized, placebo-controlled, graded-dose trial. J Pain. 2012;13:438–49. doi: 10.1016/j.jpain.2012.01.003. [PubMed] [CrossRef] [Google Scholar]
+
+  25. Abrams DI, Couey P, Shade SB, Kelly ME, Benowitz NL. Cannabinoid-opioid interaction in chronic pain. Clin Pharmacol Ther. 2011;90:844–51. doi: 10.1038/clpt.2011.188. [PubMed] [CrossRef] [Google Scholar]
+
+  26. Ware MA. Clearing the smoke around medical marijuana. Clin Pharmacol Ther. 2011;90:769–71. doi: 10.1038/clpt.2011.241. [PubMed] [CrossRef] [Google Scholar]
+
+  27. Elmes MW, Karzocha M, Berger WT, et al. Fatty acid-binding proteins (fabps) are intracellular carriers for Δ9-tetrahydrocannabinol (thc) and cannabidiol (cbd) J Biol Chem. 2015;14:8711–21. doi: 10.1074/jbc.M114.618447. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+
+  28. Chang AE, Shiling DJ, Stillman RC, et al. Delta-9-tetrahydrocannabinol as an antiemetic in cancer patients receiving high-dose methotrexate. A prospective, randomized evaluation. Ann Intern Med. 1979;91:819–24. doi: 10.7326/0003-4819-91-6-819. [PubMed] [CrossRef] [Google Scholar]
+
+  29. Chang AE, Shiling DJ, Stillman RC, et al. A prospective evaluation of delta-9-tetracannabinol as an antiemetic in patients receiving Adriamycin and Cytoxan chemotherapy. Cancer. 1981;47:1746–51. doi: 10.1002/1097-0142(19810401)47:7<1746::AID-CNCR2820470704>3.0.CO;2-4. [PubMed] [CrossRef] [Google Scholar]
+
+  30. Ben Amar M. Cannabinoids in medicine: a review of their therapeutic potential. J Ethnopharmacol. 2006;105:1–25. doi: 10.1016/j.jep.2006.02.001. [PubMed] [CrossRef] [Google Scholar]
+
+  31. Duran M, Perez E, Abanades S, et al. Preliminary efficacy and safety of an oromucosal standardized cannabis extract in chemotherapy-induced nausea and vomiting. Br J Clin Pharmacol. 2010;70:656–63. doi: 10.1111/j.1365-2125.2010.03743.x. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+
+  32. Tramer MR, Carroll D, Campbell FA, Reynolds DJ, Moore RA, McQuay HJ. Cannabinoids for control of chemotherapy induced nausea and vomiting: quantitative systematic review. BMJ. 2001;323:16–21. doi: 10.1136/bmj.323.7303.16. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+
+  33. Machado Rocha FC, Stefano SC, De Cassia Haiek R, Rosa Oliveira LM, Da Silveira DX. Therapeutic use of Cannabis sativa on chemotherapy-induced nausea and vomiting among cancer patients: systematic review and meta-analysis. Eur J Cancer Care (Engl) 2008;17:431–43. doi: 10.1111/j.1365-2354.2008.00917.x. [PubMed] [CrossRef] [Google Scholar]
+
+  34. Smith LA, Azariah F, Lavender VT, Stoner NS, Bettiol S. Cannabinoids for nausea and vomiting in adults with cancer receiving chemotherapy. Cochrane Database Syst Rev. 2015;11:CD009464. [PubMed] [Google Scholar]
+
+  35. National Comprehensive Cancer Network (nccn) NCCN Clinical Practice Guidelines in Oncology: Antiemesis. Fort Washington, PA: NCCN; 2015. Ver 2.2015. [Current version available online at: http://www.nccn.org/professionals/physician_gls/pdf/antiemesis.pdf (free registration required); cited 19 December 2015] [Google Scholar]
+
+  36. Strasser F, Luftner D, Possinger K, et al. on behalf of the Cannabis-In-Cachexia-Study-Group Comparison of orally administered cannabis extract and delta-9-tetrahydrocannabinol in treating patients with cancer-related anorexia-cachexia syndrome: a multicenter, phase iii, randomized, double-blind, placebo-controlled clinical trial from the Cannabis-In-Cachexia-Study-Group. J Clin Oncol. 2006;24:3394–400. doi: 10.1200/JCO.2005.05.1847. [PubMed] [CrossRef] [Google Scholar]
+
+  37. Jatoi A, Windschitl HE, Loprinzi CL, et al. Dronabinol versus megestrol acetate versus combination therapy for cancer-associated anorexia: a North Central Cancer Treatment Group study. J Clin Oncol. 2002;20:567–73. doi: 10.1200/JCO.20.2.567. [PubMed] [CrossRef] [Google Scholar]
+
+  38. Brisbois TD, de Kock IH, Watanabe SM, et al. Delta-9-tetrahydrocannabinol may palliate altered chemosensory perception in cancer patients: results of a randomized, double-blind, placebo-controlled pilot trial. Ann Oncol. 2011;22:2086–93. doi: 10.1093/annonc/mdq727. [PubMed] [CrossRef] [Google Scholar]
+
+  39. Lutge EE, Gray A, Siegfried N. The medical use of cannabis for reducing morbidity and mortality in patients with hiv/aids. Cochrane Database Syst Rev. 2013;4:CD005175. [PubMed] [Google Scholar]
+
+  40. Holloway A. London, UK: Ancient Origins; 2014. Did ancient Siberian princess use cannabis to cope with breast cancer? [Web article]. [Available at: http://www.ancient-origins.net/news-history-archaeology/did-ancient-siberian-princess-use-cannabis-cope-breast-cancer-002207; cited 19 December 2015] [Google Scholar]
+
+  41. Munson AE, Harris LS, Friedman MA, Dewey WL, Carchman RA. Antineoplastic activity of cannabinoids. J Natl Cancer Inst. 1975;55:597–602. [PubMed] [Google Scholar]
+
+  42. Velasco G, Galve-Roperh I, Sanchez C, Blazquez C, Guzman M. Hypothesis: cannabinoid therapy for the treatment of gliomas? Neuropharmacology. 2004;47:315–23. doi: 10.1016/j.neuropharm.2004.04.016. [PubMed] [CrossRef] [Google Scholar]
+
+  43. Velasco G, Sanchez C, Guzman M. Towards the use of cannabinoids as antitumour agents. Nat Rev Cancer. 2012;12:436–44. doi: 10.1038/nrc3247. [PubMed] [CrossRef] [Google Scholar]
+
+  44. McAllister SD, Soroceanu L, Desprez PY. The antitumour activity of plant-derived non-psychoactive cannabinoids. J Neuroimmune Pharmacol. 2015;10:255–67. doi: 10.1007/s11481-015-9608-y. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+
+  45. Massi P, Solinas M, Cinquina V, Parolaro D. Cannabidiol as potential anticancer drug. Br J Clin Pharmacol. 2013;75:303–12. doi: 10.1111/j.1365-2125.2012.04298.x. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+
+  46. Chakravarti B, Ravi J, Ganju RK. Cannabinoids as therapeutic agents in cancer: current status and future implications. Oncotarget. 2014;5:5852–72. doi: 10.18632/oncotarget.2233. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+
+  47. Abrams DI, Guzman M. Cannabis in cancer care. Clin Pharmacol Ther. 2015;97:575–86. doi: 10.1002/cpt.108. [PubMed] [CrossRef] [Google Scholar]
+
+  48. United States Department of Health and Human Services, National Institutes of Health, National Cancer Institute (nci) Bethesda, MD: NCI; 2015. Cannabis and Cannabinoids--for health professionals (PDQ) [Web page] [Available at: http://www.cancer.gov/about-cancer/treatment/cam/hp/cannabis-pdq; cited 11 December 2015] [Google Scholar]
+
+  49. Donadelli M, Dando I, Zaniboni T, et al. Gemcitabine/cannabinoid combination triggers autophagy in pancreatic cancer cells through a ros-mediated mechanism. Cell Death Dis. 2011;2:e152. doi: 10.1038/cddis.2011.36. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+
+  50. Torres S, Lorente M, Rodriguez-Fornes F, et al. A combined preclinical therapy of cannabinoids and temozolomide against glioma. Mol Cancer Ther. 2011;10:90–103. doi: 10.1158/1535-7163.MCT-10-0688. [PubMed] [CrossRef] [Google Scholar]
+
+  51. Scott KA, Daigleish AG, Liu WM. The combination of cannabidiol and Δ9-tetrahydrocannabinol enhances the anti-cancer effects of radiation in an orthotopic murine glioma model. Mol Cancer Ther. 2014;13:2955–67. doi: 10.1158/1535-7163.MCT-14-0402. [PubMed] [CrossRef] [Google Scholar]
+
+  52. Walsh D, Nelson KA, Mahmoud FA. Established and potential therapeutic applications of cannabinoids in oncology. Support Care Cancer. 2003;11:137–43. [PubMed] [Google Scholar]
+
+  53. Bowles DW, O'Bryant CL, Camidge R, Jimeno A. The intersection between cannabis and cancer in the United States. Crit Rev Oncol Hematol. 2012;83:1–10. doi: 10.1016/j.critrevonc.2011.09.008. [PubMed] [CrossRef] [Google Scholar]
+
+  54. Kramer JL. Medical marijuana for cancer. CA Cancer J Clin. 2015;65:109–22. doi: 10.3322/caac.21260. [PubMed] [CrossRef] [Google Scholar]
+
+  55. Borgelt LM, Franson KL, Nussbaum AM, Wang GS. The pharmacologic and clinical effects of medical cannabis. Pharamcotherapy. 2013;3:195–209. doi: 10.1002/phar.1187. [PubMed] [CrossRef] [Google Scholar]
+
+  56. Engels FK, de Jong FA, Sparreboom A, et al. Medicinal cannabis does not influence the clinical pharmacokinetics of irinotecan and docetaxel. Oncologist. 2007;12:291–300. doi: 10.1634/theoncologist.12-3-291. [PubMed] [CrossRef] [Google Scholar]
+
+  57. Bostwick JM, Reisfield G M, DuPont RL. Medicinal use of marijuana. N Engl J Med. 2013;368:866–8. doi: 10.1056/NEJMclde1300970. [PubMed] [CrossRef] [Google Scholar]
+
+  58. Adler JN, Colbert JA. Clinical decisions. Medicinal use of marijuana--polling results. N Engl J Med. 2013;368:e30. doi: 10.1056/NEJMclde1305159. [PubMed] [CrossRef] [Google Scholar]
+
+* * *
+
+Articles from Current Oncology are provided here courtesy of **Multimed Inc.**
+
+## Formats:
+
+  * Article |
+
+  * PubReader |
+
+  * ePub (beta) |
+
+  * PDF (205K) |
+
+  * Citation
+
+## Share
+
+  * ![Share on Facebook](//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/4047626) Facebook 
+  * ![Share on Twitter](//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/4047627) Twitter 
+  * ![Share on Google Plus](//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/4047628) Google+ 
+
+Support Center Support Center
+
+External link. Please review our privacy policy.
+
+NLM
+
+NIH
+
+DHHS
+
+USA.gov
+
+National Center for Biotechnology Information, U.S. National Library of
+Medicine 8600 Rockville Pike, Bethesda MD, 20894 USA
+
+Policies and Guidelines | Contact
+
+![statistics](/stat?jsdisabled=true&ncbi_db=pmc&ncbi_pdid=article&ncbi_acc=&ncbi_domain=curroncol&ncbi_report=record&ncbi_type=fulltext&ncbi_objectid=&ncbi_pcid=/articles/PMC4791148/&ncbi_app=pmc)
+
+_[ v]: View this template_ [t]: Discuss this template _[e]: Edit this
+template_ [v]: View this template *[RSS]: Really Simple Syndication
+
+  *[ v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[v]: View this template
+  *[RSS]: Really Simple Syndication
+

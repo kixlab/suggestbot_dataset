@@ -1,0 +1,453 @@
+
+
+Skip to content
+
+![Elsevier
+
+Tree](data:image/png;base64,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)
+![Elsevier
+
+Wordmark](data:image/png;base64,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)
+
+                    
+                                                * About Elsevier
+                    
+                              * About us 
+                              * Elsevier Connect 
+                              * Careers
+                    
+                            * Products & Solutions
+                    
+                              * R & D Solutions 
+                              * Clinical Solutions 
+                              * Research Platforms 
+                              * Research Intelligence 
+                              * Education 
+                              * All Solutions
+                    
+                            * Services
+                    
+                              * Authors 
+                              * Editors 
+                              * Reviewers 
+                              * Librarians
+                    
+                            * Shop & Discover
+                    
+                              * Books and Journals 
+                              * Author Webshop  (Opens new window)
+                    
+                            * Search Search
+                            * View Cart
+                    
+
+0
+
+                    
+                                                *             * View account Sign out
+                    
+
+Sign in to view your account details and order history
+
+Sign in
+
+View account Sign out
+
+                    
+                                                * About Elsevier
+                    
+                              * About us
+                              * Elsevier Connect
+                              * Careers
+                            * Products & Solutions
+                    
+                              * R & D Solutions
+                              * Clinical Solutions
+                              * Research Platforms
+                              * Research Intelligence
+                              * Education
+                              * All Solutions
+                            * Services
+                    
+                              * Authors
+                              * Editors
+                              * Reviewers
+                              * Librarians
+                            * Shop & Discover
+                    
+                              * Books and Journals
+                              * Author Webshop (Opens new window)
+                    
+
+Search for books, journals or webpages... Search
+
+                    
+                                                * All
+                            * Pages
+                            * Books
+                            * Journals
+                    
+                            1. Home
+                            2. Reviewers
+                            3. What is peer review?
+                    
+
+# What is peer review?
+
+Reviewers play a pivotal role in scholarly publishing. The peer review system
+exists to validate academic work, helps to improve the quality of published
+research, and increases networking possibilities within research communities.
+Despite criticisms, peer review is still the only widely accepted method for
+research validation and has continued successfully with relatively minor
+changes for some 350 years.
+
+                    
+                                                * Background
+                            * Peer review process
+                            * Types of peer review
+                            * Article transfer service
+                            * Interesting reads
+                    
+
+## Background
+
+Elsevier relies on the peer review process to uphold the quality and validity
+of individual articles and the journals that publish them.
+
+Peer review has been a formal part of scientific communication since the first
+scientific journals appeared more than 300 years ago. The Philosophical
+Transactions of the Royal Society is thought to be the first journal to
+formalize the peer review process under the editorship of Henry Oldenburg
+(1618- 1677).
+
+Despite many criticisms about the integrity of peer review, the majority of
+the research community still believes peer review is the best form of
+scientific evaluation. This opinion was endorsed by the outcome of a survey
+Elsevier and Sense About Science conducted in 2009 and has since been further
+confirmed by other publisher and scholarly organization surveys. Furthermore,
+a 2015 survey by the Publishing Research Consortium, saw 82 percent of
+researchers agreeing that "without peer review there is no control in
+scientific communication."
+
+To learn more about peer review, visit Elsevier's free e-learning platform
+Researcher Academy.
+
+* * *
+
+## The peer review process
+
+![](https://www.elsevier.com/__data/assets/image/0010/655867/3-s2.0-B9780128099698000073-f07-02-9780128099698.jpg)
+
+* * *
+
+## Types of peer review
+
+Peer review comes in different flavours: you must therefore check which
+variant is employed by the journal on which you are working so you're aware of
+the respective rules. Each system has its own advantages and disadvantages.
+Often one type of review will be preferred by a subject community but there is
+an increasing call towards more transparency around the peer review process.
+In case of questions regarding the peer review model employed by the journal
+for which you have been invited to review, consult the journal's homepage or
+contact the editorial office directly.
+
+### Single blind review
+
+In this type of review, the names of the reviewers are hidden from the author.
+This is the traditional method of reviewing and is the most common type by
+far. Points to consider regarding single blind review include:
+
+                    
+                                                * Reviewer anonymity allows for impartial decisions - the reviewers should not be influenced by the authors.
+                            * Authors may be concerned that reviewers in their field could delay publication, giving the reviewers a chance to publish first.
+                            * Reviewers may use their anonymity as justification for being unnecessarily critical or harsh when commenting on the authors' work.
+                    
+
+### Double-blind review
+
+Both the reviewer and the author are anonymous in this model. Some advantages
+of this model are listed below.
+
+                    
+                                                * Author anonymity limits reviewer bias, for example based on an author's gender, country of origin, academic status or previous publication history.
+                            * Articles written by prestigious or renowned authors are considered on the basis of the content of their papers, rather than their reputation.
+                    
+
+But bear in mind that despite the above, reviewers can often identify the
+author through their writing style, subject matter or self-citation - it is
+exceedingly difficult to guarantee total author anonymity. More information
+for authors can be found in our double-blind peer review guidelines.
+
+### Triple-blind review
+
+With triple-blind review, reviewers are anonymous and the author's identity is
+unknown to both the reviewers and the editor. Articles are anonymized at the
+submission stage and are handled in such a way to minimize any potential bias
+towards the author(s). However, it should be noted that:
+
+                    
+                                                * the complexities involved with anonymizing articles/authors to this level are considerable
+                            * as with double-blind review; there is still a possibility for the editor and/or reviewers to correctly divine the author's identity from their style, subject matter, citation patterns or a number of other methodologies
+                    
+
+### Open review
+
+Open peer review is an umbrella term for many different models aiming at
+greater transparency during and after the peer review process. The most common
+definition of open review is when both the reviewer and author are known to
+each other during the peer review process. Other types of open peer review
+consist of:
+
+                    
+                                                * publication of reviewers' names on the article page.
+                            * publication of peer review reports alongside the article, whether signed or anonymous.
+                            * publication of peer review reports (signed or anonymous) together with authors' and editors' responses alongside the article.
+                            * publication of the paper after a quick check and opening a discussion forum to the community who can comment (named or anonymous).
+                    
+
+Many believe this is the best way to prevent malicious comments, stop
+plagiarism, prevent reviewers from following their own agenda, and encourage
+open, honest reviewing. Others see open review as a less honest process, in
+which politeness or fear of retribution may cause a reviewer to withhold or
+tone down criticism.
+
+For three years, five Elsevier journals experimented with publication of peer
+review reports (signed or anonymous) as articles alongside the accepted paper
+on ScienceDirect (example).
+
+Read more about the experiment
+
+### More transparent peer review
+
+In general transparency is the key to trust in peer review. Many Elsevier
+journals therefore publish the name of the article's handling editor on the
+published paper on ScienceDirect. Some journals also provide details about the
+number of reviewers who reviewed the article before acceptance.
+
+Furthermore, in order to provide updates and feedback to reviewers, most
+Elsevier journals inform reviewers about the editor's decision and their
+peers' recommendations.
+
+* * *
+
+## Article transfer service: peer review cascade
+
+Elsevier authors can transfer their article submission from one journal to
+another for free if they are rejected, without the need to reformat, and often
+without needing further peer review. For this reason, reviewers are informed
+about the service and are asked for their consent for transferring their
+review report along with the manuscript to the receiver journal. Reviewers are
+given the option to reveal their identity to the editor of the receiver
+journal or stay anonymous. The benefits of manuscript review cascades are
+twofold:
+
+                    
+                                                * Reviewers are not asked to review the same manuscript several times for different journals.
+                            * Authors do not need to spend additional time reformatting their manuscript.
+                    
+
+* * *
+
+## Tools and resources
+
+### General resources
+
+                    
+                                                * Mendeley Public Library of Peer Review Studies group
+                    
+
+### Interesting reads
+
+                    
+                                                * Chapter 2 of Academic and Professional Publishing, 2012, by Irene Hames in 2012
+                            * "Is Peer Review in Crisis?" Perspectives in Publishing No 2, August 2004, by Adrian Mulligan
+                            * "The history of the peer-review process" Trends in Biotechnology, 2002, by Ray Spier
+                    
+
+### Reviewers' Update articles
+
+![](https://www.elsevier.com/__data/assets/image/0005/560930/iStock-488563253-istockphoto-
+
+Rawpixel-1200-x-600.jpg)
+
+Innovation in peer review: introducing "volunpeers"
+
+![](https://www.elsevier.com/__data/assets/image/0005/529061/iStock-578309084-credit-
+
+xijian-1200-x-600.jpg)
+
+Results masked review: peer review without publication bias
+
+![](https://www.elsevier.com/__data/assets/image/0020/206390/TransparencyImage_1200x600.jpg)
+
+Is open peer review the way forward?
+
+![](https://www.elsevier.com/__data/assets/image/0003/758802/reviewersupdate.jpg)
+
+5 reasons why peer review matters
+
+![](https://www.elsevier.com/__data/assets/image/0003/758802/reviewersupdate.jpg)
+
+Peer review innovations aiming to support science and reward reviewers
+
+![](https://www.elsevier.com/__data/assets/image/0010/43885/Peer-Review-
+
+Feature.jpg)
+
+Experimenting with collaborative peer review
+
+### Elsevier Researcher Academy modules
+
+![](https://www.elsevier.com/__data/assets/image/0010/672625/understanding-
+
+peer-review.JPG)
+
+Understanding the peer review process
+
+![](https://www.elsevier.com/__data/assets/image/0009/672624/transparency.JPG)
+
+Transparency in peer review
+
+                    
+                                                * Solutions
+                    
+
+Solutions
+
+                    
+                                                  * Scopus
+                              * ScienceDirect
+                              * Mendeley
+                              * Evolve
+                              * Knovel
+                              * Reaxys
+                              * ClinicalKey
+                    
+                            * Researchers
+                    
+
+Researchers
+
+                    
+                                                  * Submit your paper
+                              * Find books & journals
+                              * Visit Author Hub
+                              * Visit Editor Hub
+                              * Visit Librarian Hub
+                              * Visit Reviewer Hub
+                    
+                            * About Elsevier
+                    
+
+About Elsevier
+
+                    
+                                                  * About
+                              * Careers
+                              * Newsroom
+                              * Events
+                              * Publisher relations
+                              * Advertising, reprints and supplements
+                    
+                            * How can we help?
+                    
+
+How can we help?
+
+                    
+                                                  * Support and Contact
+                    
+
+Follow Elsevier
+
+![Icon social media
+
+facebook](https://cdn.elsevier.io/verona/includes/svg/icon-social-
+
+facebook.svg) ![Icon social media
+
+linkedin](https://cdn.elsevier.io/verona/includes/svg/icon-social-
+
+linkedin.svg) ![Icon social media
+
+twitter](https://cdn.elsevier.io/verona/includes/svg/icon-social-twitter.svg)
+![Icon social media youtube](https://cdn.elsevier.io/verona/includes/svg/icon-
+
+social-youtube.svg)
+
+Select location/language
+
+                    
+                                                * Global English
+                              * Global English
+                              * United Kingdom English
+                              * Poland Polski
+                              * Spain Español
+                              * Français France
+                              * India English
+                    
+
+![Elsevier logo](https://cdn.elsevier.io/matrix/includes/svg/logo-elsevier-
+
+wordmark.svg)
+
+Copyright (C) 2019 Elsevier, except certain content provided by third parties
+
+Cookies are used by this site. To decline or learn more, visit our Cookies
+page.
+
+Terms and Conditions Privacy Policy Sitemap
+
+![Elsevier logo](https://cdn.elsevier.io/matrix/includes/svg/logo-elsevier-
+
+wordmark.svg) ![RELX
+
+Wordmark](https://cdn.elsevier.io/matrix/includes/svg/logo-relxgroup.svg)
+
+![RELX Wordmark](https://cdn.elsevier.io/matrix/includes/svg/logo-
+
+relxgroup.svg)
+
+Elsevier.com visitor survey
+
+We are always looking for ways to improve customer experience on Elsevier.com.  
+We would like to ask you for a **moment of your time** to fill in a short
+questionnaire, **at the end of your visit**.
+
+If you decide to participate, a new browser tab will open so you can complete
+the survey after you have completed your visit to this website.
+
+Thanks in advance for your time.
+
+Accept Decline
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication _[C.]: Century_ [m.]: married _[FT]:
+Financial Times_ [ _]: required_ [MB]: megabytes _[UV]: Ultraviolet_ [ UV]:
+Ultraviolet
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+  *[m.]: married
+  *[FT]: Financial Times
+  *[*]: required
+  *[MB]: megabytes
+  *[UV]: Ultraviolet
+  *[ UV]: Ultraviolet
+

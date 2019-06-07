@@ -1,0 +1,2374 @@
+
+
+![National Academies Press: OpenBook](/read/img/openbook-header_nasem.png)
+![National Academies Press: OpenBook](/read/img/openbook-header_nap.png)
+![National Academies Press: OpenBook](/read/img/openbook-header-mobile.png)
+![National Academies Press: OpenBook](/read/img/openbook-header-print.png)
+Login Register Cart Help
+
+# Assessment of Fuel Economy Technologies for Light-Duty Vehicles (2011)
+
+## **Chapter:** 2 Fundamentals of Fuel Consumption
+
+Get This Book
+
+Visit NAP.edu/10766 to get more information about this book, to buy it in
+print, or to download it as a free PDF.
+
+# Looking for other ways to read this?
+
+![cover image](https://www.nap.edu/cover/12924/450)
+
+## IN ADDITION TO READING ONLINE, THIS TITLE IS AVAILABLE IN THESE FORMATS:
+
+PDF FREE Download Paperback $60.00 Add to Cart Ebook $47.99 Add to Cart
+
+MyNAP members **SAVE 10%** off online.  
+Not a MyNAP member yet? Register for a free account to start saving and
+receiving special member only perks.
+
+No thanks. I’ll keep reading
+
+            
+                            * Contents
+                *         * Chapter
+                *         * Page of 218
+                *         * Original Pages Text Pages
+                *         *         * Get This Book
+            
+
+« Previous: 1 Introduction
+
+Page 12 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+## **2**
+
+**Fundamentals of Fuel Consumption**
+
+### **INTRODUCTION**
+
+This chapter provides an overview of the various elements that determine fuel
+consumption in a light-duty vehicle (LDV). The primary concern here is with
+power trains that convert hydrocarbon fuel into mechanical energy using an
+internal combustion engine and which propel a vehicle though a drive train
+that may be a combination of a mechanical transmission and electrical machines
+(hybrid propulsion). A brief overview is given here of spark-ignition (SI) and
+compression-ignition (CI) engines as well as hybrids that combine electric
+drive with an internal combustion engine; these topics are discussed in detail
+in Chapters 4 through 6. The amount of fuel consumed depends on the engine,
+the type of fuel used, and the efficiency with which the output of the engine
+is transmitted to the wheels. This fuel energy is used to overcome (1) rolling
+resistance primarily due to flexing of the tires, (2) aerodynamic drag as the
+vehicle motion is resisted by air, and (3) inertia and hill-climbing forces
+that resist vehicle acceleration, as well as engine and drive line losses.
+Although modeling is discussed in detail in later chapters (Chapters 8 and 9),
+a simple model to describe tractive energy requirements and vehicle energy
+losses is given here as well to understand fuel consumption fundamentals. Also
+included is a brief discussion of customer expectations, since performance,
+utility, and comfort as well as fuel consumption are primary objectives in
+designing a vehicle.
+
+Fuel efficiency is a historical goal of automotive engineering. As early as
+1918, General Motors Company automotive pioneer Charles Kettering was
+predicting the demise of the internal combustion engine within 5 years because
+of its wasteful use of fuel energy: "[T]he good Lord has tolerated this
+foolishness of throwing away 90 percent of the energy in the fuel long enough"
+(Kettering, 1918). And indeed, in the 1920s through the 1950s peak
+efficiencies went from 10 percent to as much as 40 percent, with improvements
+in fuels, combustion system design, friction reduction, and more precise
+manufacturing processes. Engines became more powerful, and vehicles became
+heavier, bigger, and faster. However, by the late 1950s, fuel economy had
+become important, leading to the first large wave of foreign imports. In the
+wake of the 1973 oil crisis, the issue of energy security arose, and Congress
+passed the Energy Policy and Conservation Act of 1975 as a means of reducing
+the country's dependence on imported oil. The act established the Corporate
+Average Fuel Economy (CAFE) program, which required automobile manufacturers
+to increase the average fuel economy of passenger cars sold in the United
+States in 1990 to a standard of 27.5 miles per gallon (mpg) and allowed the
+U.S. Department of Transportation (DOT) to set appropriate standards for light
+trucks. The standards are administered in DOT by the National Highway Traffic
+Safety Administration (NHTSA) on the basis of U.S. Environmental Protection
+Agency (EPA) city-highway dynamometer test procedures.
+
+### **FUEL CONSUMPTION AND FUEL ECONOMY**
+
+Before proceeding, it is necessary to define the terms _fuel_ _economy_ and
+_fuel consumption_ ; these two terms are widely used, but very often
+interchangeably and incorrectly, which can generate confusion and incorrect
+interpretations:
+
+            
+                            * _Fuel economy_ is a measure of how far a vehicle will travel with a gallon of fuel; it is expressed in miles per gallon. This is a popular measure used for a long time by consumers in the United States; it is used also by vehicle manufacturers and regulators, mostly to communicate with the public. As a metric, fuel economy actually measures distance traveled per unit of fuel.
+            
+                * _Fuel consumption_ is the inverse of fuel economy. It is the amount of fuel consumed in driving a given distance. It is measured in the United States in gallons per 100 miles, and in liters per 100 kilometers in Europe and elsewhere throughout the world. Fuel consumption is a fundamental engineering measure that is directly related to fuel consumed per 100 miles and is useful because it can be employed as a direct measure of volumetric fuel savings. It is actually fuel consumption
+            
+
+Page 13 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+that is used in the CAFE standard to calculate the fleet average fuel economy
+(the sales weighted average) for the city and highway cycles. The details of
+this calculation are shown in Appendix E. Fuel consumption is also the
+appropriate metric for determining the yearly fuel savings if one goes from a
+vehicle with a given fuel consumption to one with a lower fuel consumption.
+
+Because fuel economy and fuel consumption are reciprocal, each of the two
+metrics can be computed in a straight-forward manner if the other is known. In
+mathematical terms, if fuel economy is X and fuel consumption is Y, their
+relationship is expressed by XY = 1. This relationship is not linear, as
+illustrated by Figure 2.1, in which fuel consumption is shown in units of
+gallons per 100 miles, and fuel economy is shown in units of miles per gallon.
+Also shown in the figure is the decreasing influence on fuel savings that
+accompanies increasing the fuel economy of high-mpg vehicles. Each bar
+represents an increase of fuel economy by 100 percent or the corresponding
+decrease in fuel consumption by 50 percent. The data on the graph show the
+resulting decrease in fuel consumption per 100 miles and the total fuel saved
+in driving 10,000 miles. The dramatic decrease in the impact of increasing
+miles per gallon by 100 percent for a high-mpg vehicle is most visible in the
+case of increasing the miles per gallon rating from 40 mpg to 80 mpg, where
+the total fuel saved in driving 10,000 miles is only 125 gallons, compared to
+500 gallons for a change from 10 mpg to 20 mpg. Likewise, it is instructive to
+compare the same absolute value of fuel economy changes--for example, 10-20
+mpg and 40-50 mpg. The 40-50 mpg fuel saved in driving 10,000 miles would be
+50 gallons, as compared to the 500 gallons in going from 10-20 mpg. Appendix E
+discusses further implications of the relationship between fuel consumption
+and fuel economy for various fuel economy values, and particularly for those
+greater than 40 mpg.
+
+Figure 2.2 illustrates the relationship between the percentage of fuel
+consumption decrease and that of fuel economy increase. Figures 2.1 and 2.2
+illustrate that the amount of fuel saved by converting to a more economical
+vehicle depends on where one is on the curve.
+
+Because of the nonlinear relationship in Figure 2.1, consumers can have
+difficulty using fuel economy as a measure of fuel efficiency in judging the
+benefits of replacing the most inefficient vehicles (Larrick and Soll, 2008).
+Larrick and Soll further conducted three experiments to test whether people
+reason in a linear but incorrect manner about fuel economy. These experimental
+studies demonstrated a systemic misunderstanding of fuel economy as a measure
+of fuel efficiency. Using linear reasoning about fuel economy leads people to
+undervalue small improvements (1-4 mpg) in lower-fuel-economy (15-30 mpg
+range) vehicles where there are large decreases in fuel consumption (Larrick
+and Soll, 2008) in this range, as shown in Figure 2.1. Fischer (2009) further
+discusses the potential benefits of utilizing a metric based on fuel
+consumption as a means to aid consumers in calculating fuel and cost savings
+resulting from improved vehicle fuel efficiency.
+
+Throughout this report, fuel consumption is used as the metric owing to its
+fundamental characteristic and its suitability for judging fuel savings by
+consumers. In cases where the committee has used fuel economy data from the
+
+![FIGURE 2.1 Relationship between fuel consumption \(FC\) and fuel economy
+
+\(FE\) illustrating the decreasing reward of improving fuel economy \(miles
+
+per gallon \[mpg\]\) for high-mile-per-gallon vehicles. The width of each
+
+rectangle represents a 50 percent decrease in FC or a 100 percent increase in
+
+FE. The number within the rectangle is the decrease in FC per 100 miles, and
+
+the number to the right of the rectangle is the total fuel saved over 10,000
+
+miles by the corresponding 50 percent decrease in
+
+FC.](/openbook/12924/xhtml/images/p2001de39g13001.jpg)
+
+FIGURE 2.1 Relationship between fuel consumption (FC) and fuel economy (FE)
+illustrating the decreasing reward of improving fuel economy (miles per gallon
+[mpg]) for high-mile-per-gallon vehicles. The width of each rectangle
+represents a 50 percent decrease in FC or a 100 percent increase in FE. The
+number within the rectangle is the decrease in FC per 100 miles, and the
+number to the right of the rectangle is the total fuel saved over 10,000 miles
+by the corresponding 50 percent decrease in FC.
+
+Page 14 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+![FIGURE 2.2 Percent decrease in fuel consumption \(FC\) as a function of
+
+percent increase in fuel economy \(FE\), illustrating the decreasing benefit
+
+of improving the fuel economy of vehicles with an already high fuel
+
+economy.](/openbook/12924/xhtml/images/p2001de39g14001.jpg)
+
+FIGURE 2.2 Percent decrease in fuel consumption (FC) as a function of percent
+increase in fuel economy (FE), illustrating the decreasing benefit of
+improving the fuel economy of vehicles with an already high fuel economy.
+
+literature, the data were converted to fuel consumption, using the curve of
+either Figure 2.1 or 2.2 for changes in fuel economy. Because of this, the
+committee recommends that the fuel economy information sticker on new cars and
+trucks should include fuel consumption data in addition to the fuel economy
+data so that consumers can be familiar with this fundamental metric since fuel
+consumption difference between two vehicles relates directly to fuel savings.
+The fuel consumption metric is also more directly related to overall emissions
+of carbon dioxide than is the fuel economy metric.
+
+### **ENGINES**
+
+Motor vehicles have been powered by gasoline, diesel, steam, gas turbine, and
+Stirling engines as well as by electric and hydraulic motors. This discussion
+of engines is limited to power plants involving the combustion of a fuel
+inside a chamber that results in the expansion of the air/fuel mixture to
+produce mechanical work. These internal combustion engines are of two types:
+gasoline spark-ignition and diesel compression-ignition. The discussion also
+addresses alternative power trains, including hybrid electrics.
+
+#### **Basic Engine Types**
+
+Gasoline engines, which operate on a relatively volatile fuel, also go by the
+name Otto cycle engines (after the person who is credited with building the
+first working four-stroke internal combustion engine). In these engines, a
+spark plug is used to ignite the air/fuel mixture. Over the years, variations
+of the conventional operating cycle of gasoline engines have been proposed. A
+recently popular variation is the Atkinson cycle, which relies on changes in
+valve timing to improve efficiency at the expense of lower peak power
+capability. Since in all cases the air/fuel mixture is ignited by a spark,
+this report refers to gasoline engines as spark-ignition engines.
+
+Diesel engines--which operate on "diesel" fuels, named after inventor Rudolf
+Diesel--rely on compression heating of the air/fuel mixture to achieve
+ignition. This report uses the generic term compression-ignition engines to
+refer to diesel engines.
+
+The distinction between these two types of engines is changing with the
+development of engines having some of the characteristics of both the Otto and
+the diesel cycles. Although technologies to implement homogeneous charge
+compression ignition (HCCI) will most likely not be available until beyond the
+time horizon of this report, the use of a homogeneous mixture in a diesel
+cycle confers the characteristic of the Otto cycle. Likewise the present
+widespread use of direct injection in gasoline engines confers some of the
+characteristics of the diesel cycle. Both types of engines are moving in a
+direction to utilize the best features of both cycles' high efficiency and low
+particulate emissions.
+
+In a conventional vehicle propelled by an internal combustion engine, either
+SI or CI, most of the energy in the fuel goes to the exhaust and to the
+coolant (radiator), with about a quarter of the energy doing mechanical work
+to propel the vehicle. This is partially due to the fact that both engine
+types have thermodynamic limitations, but it is also because in a given drive
+schedule the engine has to provide power over a range of speeds and loads; it
+rarely operates at its most efficient point.
+
+This is illustrated by Figure 2.3, which shows what is known as an engine
+efficiency map for an SI engine. It plots the engine efficiency as functions
+of torque and speed. The plot in Figure 2.3 represents the engine efficiency
+contours in units of brake-specific fuel consumption (grams per kilowatt-hour)
+and relates torque in units of brake mean effective pressure (kilopascals).
+For best efficiency, the engine should operate over the narrow range indicated
+by the roughly round contour in the middle; this is also referred to later in
+the chapter as the maximum engine brake thermal efficiency (ηb,max). In
+conventional vehicles, however, the engine needs to cover
+
+Page 15 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+![FIGURE 2.3 An example of an engine efficiency map for a spark-ignition
+
+engine. SOURCE: Reprinted with permission from Heywood \(1988\). Copyright
+
+1988 by the McGraw-Hill Companies,
+
+Inc.](/openbook/12924/xhtml/images/p2001de39g15001.jpg)
+
+FIGURE 2.3 An example of an engine efficiency map for a spark-ignition engine.
+SOURCE: Reprinted with permission from Heywood (1988). Copyright 1988 by the
+McGraw-Hill Companies, Inc.
+
+the entire range of torque and speeds, and so, on average, the efficiency is
+lower. One way to improve efficiency is to use a smaller engine and to use a
+turbocharger to increase its power output back to its original level. This
+reduces friction in both SI and CI engines as well as pumping losses.1
+Increasing the number of gear ratios in the transmission also enables the
+engine to operate closer to the maximum engine brake thermal efficiency. Other
+methods to expand the high-efficiency operating region of the engine,
+particularly in the lower torque region, are discussed in Chapters 4 and 5. As
+discussed in Chapter 6, part of the reason that hybrid electric vehicles show
+lower fuel consumption is that they permit the internal combustion engine to
+operate at more efficient speed-load points.
+
+Computer control, first introduced to meet the air/fuel mixture ratio
+requirements for reduced emissions in both CI and SI engines, now allows the
+dynamic optimization of engine operations, including precise air/fuel mixture
+control, spark timing, fuel injection, and valve timing. The monitoring of
+engine and emission control parameters by the onboard diagnostic system
+identifies emission control system malfunctions.
+
+A more recent development in propulsion systems is to add one or two
+electrical machines and a battery to create a hybrid vehicle. Such vehicles
+can permit the internal combustion engine to shut down when the vehicle is
+stopped and allow brake energy to be recovered and stored for later use.
+Hybrid systems also enable the engine to be downsized and to operate at more
+efficient operating points. Although there were hybrid vehicles in production
+in the 1920s, they could not compete with conventional internal combustion
+engines. What has changed is the greater need to reduce fuel consumption and
+the developments in controls, batteries, and electric drives. Hybrids are
+discussed in Chapter 6, but it is safe to say that the long-term future of
+motor vehicle propulsion may likely include advanced combustion engines,
+combustion engine-electric hybrids, electric plug-in hybrids, hydrogen fuel
+cell electric hybrids, battery electrics, and more. The challenge of the next
+generation of propulsion systems depends not only on the development of the
+propulsion technology but also on the associated fuel or energy
+infrastructure. The large capital investment in manufacturing capacity, the
+motor vehicle fleet, and the associated fuel infrastructure all constrain the
+rate of transition to new technologies.
+
+#### **Combustion-Related Traits of SI Versus CI Engines**
+
+The combustion process within internal combustion engines is critical for
+understanding the performance of SI versus CI engines. SI-engine combustion
+occurs mainly by turbulent flame propagation, and as turbulence intensity
+
+1
+
+|
+
+"Pumping loss" refers to the energy dissipated through fluid friction and
+pressure gradients developed from the air flow through the engine. A more
+detailed explanation is provided in Chapter 4 of this report.
+
+---|--- 
+
+Page 16 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+tends to scale with engine speed, the combustion interval in the crank-angle
+domain remains relatively constant throughout the speed range (at constant
+intake-manifold pressure and engines having a conventional throttle). Thus,
+combustion characteristics have little effect on the ability of this type of
+engine to operate successfully at high speeds. Therefore, this type of engine
+tends to have high power density (e.g., horsepower per cubic inch or kilowatts
+per liter) compared to its CI counterpart. CI engine combustion is governed
+largely by means of the processes of spray atomization, vaporization,
+turbulent diffusion, and molecular diffusion. Therefore, CI combustion, in
+comparison with SI combustion, is less impacted by engine speed. As engine
+speed increases, the combustion interval in the crank-angle domain also
+increases and thus delays the end of combustion. This late end of combustion
+delays burnout of the particulates that are the last to form, subjecting these
+particulates to thermal quenching. The consequence of this quenching process
+is that particulate emissions become problematic at engine speeds well below
+those associated with peak power in SI engines. This ultimately limits the
+power density (i.e., power per unit of displacement) of CI diesel engines.
+
+While power density gets much attention, torque density in many ways is more
+relevant. Thermal auto ignition in SI engines is the process that limits
+torque density and fuel efficiency potential. Typically at low to moderate
+engine speeds and high loads, this process yields combustion of any fuel/air
+mixture not yet consumed by the desired flame-propagation process. This type
+of combustion is typically referred to as engine knock, or simply knock. If
+this process occurs prior to spark ignition, it is referred to as pre-
+ignition. (This is typically observed at high power settings.) Knock and pre-
+ignition are to be avoided, as they both lead to very high rates of combustion
+pressure and ultimately to component failure. While approaches such as
+turbocharging and direct injection of SI engines alter this picture somewhat,
+the fundamentals remain. CI diesel engines, however, are not knock limited and
+have excellent torque characteristics at low engine speed. In the European
+market, the popularity of turbocharged CI diesel engines in light-duty vehicle
+segments is not only driven by the economics of fuel economy but also by the
+"fun-to-drive" element. That is, at equal engine displacement, the
+turbocharged diesel tends to deliver superior vehicle launch performance as
+compared with that of its naturally aspirated SI engine counterpart.
+
+### **FUELS**
+
+The fuels and the SI and CI engines that use them have co-evolved in the past
+100 years in response to improved technology and customer demands. Engine
+efficiencies have improved due to better fuels, and refineries are able to
+provide the fuels demanded by modern engines at a lower cost. Thus, the
+potential for fuel economy improvement may depend on fuel attributes as well
+as on engine technology. Implementing certain engine technologies may require
+changes in fuel properties, and vice versa. Although the committee charge is
+not to assess alternative liquid fuels (such as ethanol or coal-derived
+liquids) that might replace gasoline or diesel fuels, it is within the
+committee charge to consider fuels and the properties of fuels as they pertain
+to implementing the fuel economy technologies discussed within this report.
+
+Early engines burned coal and vegetable oils, but their use was very limited
+until the discovery and exploitation of inexpensive petroleum. The lighter,
+more volatile fraction of petroleum, called gasoline, was relatively easy to
+burn and met the early needs of the SI engine. A heavier, less volatile
+fraction, called distillate, which was slower to burn, met the early needs of
+the CI engine. The power and efficiency of early SI engines were limited by
+the low compression ratios required for resistance to pre-ignition or
+knocking. This limitation had been addressed by adding a lead additive
+commonly known as tetraethyl lead. With the need to remove lead because of its
+detrimental effect on catalytic aftertreatment (and the negative environmental
+and human impacts of lead), knock resistance was provided by further changing
+the organic composition of the fuel and initially by reducing the compression
+ratio and hence the octane requirement of the engine. Subsequently, a better
+understanding of engine combustion and better engine design and control
+allowed increasing the compression ratios back to and eventually higher than
+the pre-lead-removal levels. The recent reduction of fuel sulfur levels to
+less than 15 parts per million (ppm) levels enabled more effective and durable
+exhaust aftertreatment devices on both SI and CI engines.
+
+The main properties that affect fuel consumption in engines are shown in Table
+2.1. The table shows that, on a volume basis, diesel has a higher energy
+content, called heat of combustion, and higher carbon content than gasoline;
+thus, on a per gallon basis diesel produces almost 15 percent more CO2.
+However, on a weight basis the heat of combustion of diesel and gasoline is
+about the same, and so is the carbon content. One needs to keep in mind that
+this difference in energy content is one of the reasons why CI engines have
+lower fuel consumption when measured in terms of gallons rather than in terms
+of weight. Processing crude oil into fuels for vehicles is a complex process
+that uses hydrogen to break
+
+TABLE 2.1 Properties of Fuels
+
+|
+
+Lower Heat of Combustion (Btu/gal)
+
+|
+
+Lower Heat of Combustion (Btu/lb)
+
+|
+
+Density (lb/gal)
+
+|
+
+Carbon Content (g/gal)
+
+|
+
+Carbon Content (g/lb)
+
+---|---|---|---|---|--- 
+
+Gasoline
+
+|
+
+116,100
+
+|
+
+18,690
+
+|
+
+6.21
+
+|
+
+2,421
+
+|
+
+392
+
+Diesel
+
+|
+
+128,500
+
+|
+
+18,400
+
+|
+
+6.98
+
+|
+
+2,778
+
+|
+
+392
+
+Ethanol (E85)
+
+|
+
+76,300
+
+|
+
+11,580
+
+|
+
+6.59
+
+|
+
+1,560
+
+|
+
+237
+
+SOURCE: After GREET Program, Argonne National Laboratory,
+http://www.transportation.anl.gov/modeling_simulation/GREET/.
+
+Page 17 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+down heavy hydrocarbons into lighter fractions. This is commonly called
+cracking. Diesel fuel requires less "molecular manipulation" for the
+conversion of crude oil into useful fuel. So if one wants to minimize the
+barrels of crude oil used per 100 miles, diesel would be a better choice than
+gasoline.
+
+Ethanol as a fuel for SI engines is receiving much attention as a means of
+reducing dependence on imported petroleum and also of producing less
+greenhouse gas (GHG). Today ethanol is blended with gasoline at about 10
+percent. Proponents of ethanol would like to see the greater availability of a
+fuel called E85, which is a blend of 85 percent ethanol and 15 percent
+gasoline. The use of 100 percent ethanol is widespread in Brazil, but it is
+unlikely to be used in the United States because engines have difficulty
+starting in cold weather with this fuel.
+
+The effectiveness of ethanol in reducing GHG is a controversial subject that
+is not addressed here, since it generally does not affect the technologies
+discussed in this report. It is interesting to note that in a very early
+period of gasoline shortage, it was touted as a fuel of the future (Foljambe,
+1916).
+
+Ethanol has about 65 percent of the heat of combustion of gasoline, so the
+fuel consumption is roughly 50 percent higher as measured in gallons per 100
+miles. Ethanol has a higher octane rating than that of gasoline, and this is
+often cited as an advantage. Normally high octane enables increases in the
+compression ratio and hence efficiency. To take advantage of this form of
+efficiency increase, the engine would need to be redesigned to accommodate an
+increased combustion ratio. For technical reasons the improvement with ethanol
+is very small. Also, during any transition period, vehicles that run on 85 to
+100 percent ethanol must also run on gasoline, and since the compression ratio
+cannot be changed after the engine is built, the higher octane rating of
+ethanol fuel has not led to gains in efficiency. A way to enable this
+efficiency increase is to modify the SI engine so that selective ethanol
+injection is allowed. This technology is being developed and is further
+discussed in Chapter 4 of this report.
+
+### **FUEL ECONOMY TESTING AND REGULATIONS**
+
+The regulation of vehicle fuel economy requires a reproducible test standard.
+The test currently uses a driving cycle or test schedule originally developed
+for emissions regulation, which simulated urban-commute driving in Los Angeles
+in the late 1960s and the early 1970s. This cycle is variously referred to as
+the LA-4, the urban dynamometer driving schedule (UDDS), and the city cycle.
+The U.S. Environmental Protection Agency (EPA) later added a second cycle to
+better capture somewhat higher-speed driving: this cycle is known as the
+highway fuel economy test (HWFET) driving schedule, or the highway cycle. The
+combination of these two test cycles (weighted using a 55 percent city cycle
+and 45 percent highway cycle split) is known as the Federal Test Procedure
+(FTP). This report focuses on fuel consumption data that reflect legal
+compliance with the CAFE requirements and thus do not include EPA's
+adjustments for its labeling program, as described below. Also discussed below
+are some technologies--such as those that reduce air- conditioning power
+demands or requirements--that improve on-road fuel economy but are not
+directly captured in the FTP.
+
+Compliance with the NHTSA's CAFE regulation depends on the city and highway
+vehicle dynamometer tests developed and conducted by the EPA for its exhaust
+emission regulatory program. The results of the two tests are combined
+(harmonic mean) with a weighting of 55 percent city and 45 percent highway
+driving. Manufacturers self-certify their vehicles using preproduction
+prototypes representative of classes of vehicles and engines. The EPA then
+conducts tests in its laboratories of 10 to 15 percent of the vehicles to
+verify what the manufacturers report. For its labeling program, the EPA
+adjusts the compliance values of fuel economy in an attempt to better reflect
+what vehicle owners actually experience. The certification tests yield fuel
+consumption (gallons per 100 miles) that is about 25 percent better (less
+than) EPA- estimated real-world fuel economy. Analysis of the 2009 EPA fuel
+economy data set for more than 1,000 vehicle models yields a model-averaged
+difference of about 30 percent.
+
+The certification test fails to capture the full array of driving conditions
+encountered during vehicle operations. Box 2.1 provides some of the reasons
+why the certification test does not reflect actual driving. Beginning with
+model year 2008, the EPA began collecting data on three additional test cycles
+to capture the effect of higher speed and acceleration, air-conditioner use,
+and cold weather. These data are part of air pollution emission compliance
+testing but not fuel economy or proposed greenhouse gas compliance. However,
+the results from these three test cycles will be used with the two FTP cycles
+to report the fuel economy on the vehicle label. Table 2.2 summarizes the
+characteristics of the five test schedules. This additional information guides
+the selection of a correction factor, but an understanding of fuel consumption
+based on actual in-use measurement is lacking.
+
+The unfortunate consequence of the disparity between the official CAFE (and
+proposed greenhouse gas regulation) certification tests and how vehicles are
+driven in use is that manufacturers have a diminished incentive to design
+vehicles to deliver real-world improvements in fuel economy if such
+improvements are not captured by the official test. Some examples of vehicle
+design improvements that are not completely represented in the official CAFE
+test are more efficient air conditioning; cabin heat load reduction through
+heat-resistant glazing and heat-reflective paints; more efficient power
+steering; efficient engine and drive train operation at all speeds,
+accelerations, and road grades; and reduced drag to include the effect of
+wind. The certification tests give no incentive to provide information to the
+driver that would improve operational efficiency or to reward control
+strategies that compensate for driver characteristics that increase fuel
+consumption.
+
+Page 18 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+**BOX 2.1**
+
+**Shortcomings of Fuel Economy** **Certification Test**
+
+            
+                            * _Dynamometer test schedules._ The UDDS and HWFET test schedule (driving cycles) were adopted in 1975 to match driving conditions and dynamometer limitations of that period. Maximum speed (56.7 mph) and acceleration (3.3 mph/sec, or 0-60 mph in 18.2 sec) are well below typical driving. The 55 percent city and 45 percent highway split may not match actual driving. Recent estimates indicate that a weighting of 57 percent highway and 43 percent city is a better reflection of current driving patterns in a number of geographic areas.
+            
+                * _Test vehicles._ The preproduction prototypes do not match the full range of vehicles actually sold.
+            
+                * _Driver behavior._ The unsteady driving characteristic of many drivers increases fuel consumption.
+            
+                * _Fuel._ The test fuel does not match current pump fuel.
+            
+                * _Air conditioning._ Air conditioning is turned off during the certification test. In addition to overestimating mileage, there is no regulatory incentive for manufacturers to increase air-conditioning efficiency. However, there is substantial market incentive for original equipment manufacturers both to increase air-conditioning efficiency and to reduce the sunlight-driven heating load for customer comfort benefits.
+            
+                * _Hills._ There are no hills in the EPA certification testing.
+            
+                * _Vehicle maintenance._ Failure to maintain vehicles degrades fuel economy.
+            
+                * _Tires and tire pressure._ Test tires and pressures do not generally match in-use vehicle operation.
+            
+                * _Wind._ There is no wind in the EPA certification testing.
+            
+                * _Cold start._ There is no cold start in the EPA CAFE certification testing.
+            
+                * _Turns._ There is no turning in the EPA certification testing.
+            
+
+* * *
+
+The measurement of the fuel economy of hybrid, plug-in hybrid, and battery
+electric vehicles presents additional difficulties in that their performance
+on the city versus highway driving cycles differs from that of conventional
+vehicles. Regenerative braking provides a greater gain in city driving than in
+highway driving. Plug-in hybrids present an additional complexity in measuring
+fuel economy since this requires accounting of the energy derived from the
+grid. The Society of Automotive Engineers (SAE) is currently developing
+recommendations for measuring the emissions and fuel economy of hybrid-
+electric vehicles, including plug-in and battery electric vehicles. General
+Motors Company recently claimed that its Chevrolet Volt extended-range
+electric vehicle achieved city fuel economy of at least 230 miles per gallon,
+based on development testing using a draft EPA federal fuel economy
+methodology for the labeling of plug-in electric vehicles (General Motors
+Company press release, August 11, 2009).
+
+### **CUSTOMER EXPECTATIONS**
+
+The objective of this study is to evaluate technologies that reduce fuel
+consumption without significantly reducing customer satisfaction. Although
+each vehicle manufacturer has a proprietary way of defining very precisely how
+its vehicle must perform, it is assumed here that the following parameters
+will remain essentially constant as the technologies that reduce fuel
+consumption are considered:
+
+            
+                            * Interior passenger volume;
+            
+                * Trunk space, except for hybrids, where trunk space may be compromised;
+            
+                * Acceleration, which is measured in a variety of tests, such as time to accelerate from 0 to 60 mph, 0 to 30, 55 to 65 (passing), 30 to 45, entrance ramp to highway, etc.;
+            
+
+TABLE 2.2 Test Schedules Used in the United States for Mileage Certification
+
+Driving Schedule Attributes
+
+|
+
+Test Schedule
+
+---|--- 
+
+Urban (UDDS)
+
+|
+
+Highway (HWFET)
+
+|
+
+High Speed (US06)
+
+|
+
+Air Conditioning (SC03)
+
+|
+
+Cold Temperature UDDS
+
+Trip type
+
+|
+
+Low speeds in stop-and-go urban traffic
+
+|
+
+Free-flow traffic at highway speeds
+
+|
+
+Higher speeds; harder acceleration and braking
+
+|
+
+Air conditioning use under hot ambient conditions
+
+|
+
+City test with colder outside temperature
+
+Top speed
+
+|
+
+56.7 mph
+
+|
+
+59.9 mph
+
+|
+
+80.3 mph
+
+|
+
+54.8 mph
+
+|
+
+56.7 mph
+
+Average speed
+
+|
+
+19.6 mph
+
+|
+
+48.2 mph
+
+|
+
+48 mph
+
+|
+
+21.4 mph
+
+|
+
+19.6 mph
+
+Maximum acceleration
+
+|
+
+3.3 mph/sec
+
+|
+
+3.2 mph/sec
+
+|
+
+8.40 mph/sec
+
+|
+
+5.1 mph/sec
+
+|
+
+3.3 mph/sec
+
+Simulated distance
+
+|
+
+7.45 mi.
+
+|
+
+10.3 mi.
+
+|
+
+8 mi.
+
+|
+
+3.58
+
+|
+
+7.45 mi.
+
+Time
+
+|
+
+22.8 min
+
+|
+
+12.75 min
+
+|
+
+10 min
+
+|
+
+10 min
+
+|
+
+22.8 min
+
+Stops
+
+|
+
+17
+
+|
+
+None
+
+|
+
+5
+
+|
+
+5
+
+|
+
+17
+
+Idling time
+
+|
+
+18% of time
+
+|
+
+None
+
+|
+
+7% of time
+
+|
+
+19% of time
+
+|
+
+18% of time
+
+Lab temperature
+
+|
+
+68-86°F
+
+|
+
+|
+
+|
+
+95°F
+
+|
+
+20°F
+
+Vehicle air conditioning
+
+|
+
+Off
+
+|
+
+Off
+
+|
+
+Off
+
+|
+
+On
+
+|
+
+Off
+
+SOURCE: After http://www.fueleconomy.gov/feg/fe_test_schedules.shtml.
+
+Page 19 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+TABLE 2.3 Average Characteristics of Light-Duty Vehicles for Four Model Years
+
+|
+
+1975
+
+|
+
+1987
+
+|
+
+1998
+
+|
+
+2008
+
+---|---|---|---|--- 
+
+Adjusted fuel economy (mpg)
+
+|
+
+13.1
+
+|
+
+22
+
+|
+
+20.1
+
+|
+
+20.8
+
+Weight
+
+|
+
+4,060
+
+|
+
+3,220
+
+|
+
+3,744
+
+|
+
+4,117
+
+Horsepower
+
+|
+
+137
+
+|
+
+118
+
+|
+
+171
+
+|
+
+222
+
+0 to 60 acceleration time (sec)
+
+|
+
+14.1
+
+|
+
+13.1
+
+|
+
+10.9
+
+|
+
+9.6
+
+Power/weight (hp/ton)
+
+|
+
+67.5
+
+|
+
+73.3
+
+|
+
+91.3
+
+|
+
+107.9
+
+SOURCE: EPA (2008).
+
+            
+                            * Safety and crashworthiness; and
+            
+                * Noise and vibration.
+            
+
+These assumptions are very important. It is obvious that reducing vehicle size
+will reduce fuel consumption. Also, the reduction of vehicle acceleration
+capability allows the use of a smaller, lower-power engine that operates
+closer to its best efficiency. These are not options that will be considered.
+
+As shown in Table 2.3, in the past 20 or so years, the net result of
+improvements in engines and fuels has been increased vehicle mass and greater
+acceleration capability while fuel economy has remained constant (EPA, 2008).
+Presumably this tradeoff between mass, acceleration, and fuel consumption was
+driven by customer demand. Mass increases are directly related to increased
+size, the shift from passenger cars to trucks, the addition of safety
+equipment such as airbags, and the increased accessory content. Note that
+although the CAFE standards for light-duty passenger cars have been for 27.5
+mpg since 1990, the fleet average remains much lower through 2008 due to lower
+CAFE standards for light-duty pickup trucks, sport utility vehicles (SUVs),
+and passenger vans.
+
+### **TRACTIVE FORCE AND TRACTIVE ENERGY**
+
+The mechanical work produced by the power plant is used to propel the vehicle
+and to power the accessories. As discussed by Sovran and Blaser (2006), the
+concepts of tractive force and tractive energy are useful for understanding
+the role of vehicle mass, rolling resistance, and aerodynamic drag. These
+concepts also help evaluate the effectiveness of regenerative braking in
+reducing the power plant energy that is required. The analysis focuses on test
+schedules and neglects the effects of wind and hill climbing. The
+instantaneous tractive force ( _F_ _TR_ ) required to propel a vehicle is
+
+![](/openbook/12924/xhtml/images/p2001de39g19001.jpg)
+
+(2.1)
+
+where _R_ is the rolling resistance, _D_ is the aerodynamic drag with _C_ _D_
+representing the aerodynamic drag coefficient, _M_ is the vehicle mass, _V_ is
+the velocity, _dV/dt_ is the rate of change of velocity (i.e., acceleration or
+deceleration), _A_ is the frontal area, _r_ _o_ is the tire rolling resistance
+coefficient, _g_ is the gravitational constant, _I_ _w_ is the polar moment of
+inertia of the four tire/wheel/axle rotating assemblies, _r_ _w_ is its
+effective rolling radius, and _ρ_ is the density of air. This form of the
+tractive force is calculated at the wheels of the vehicle and therefore does
+not consider the components within the vehicle system such as the power train
+(i.e., rotational inertia of engine components and internal friction).
+
+The tractive energy required to travel an incremental distance _dS_ is _F_
+_TR_ _Vdt_ , and its integral over all portions of a driving schedule in which
+_F_ _TR_ > 0 (i.e., constant-speed driving and accelerations) is the total
+tractive-energy requirement, _E_ _TR_. For each of the EPA driving schedules,
+Sovran and Blaser (2006) calculated tractive energy for a large number of
+vehicles covering a broad range of parameter sets ( _r_ _0_ , _C_ _D_ , _A_ ,
+_M_ ) representing the spectrum of current vehicles. They then fitted the data
+with a linear equation of the following form:
+
+![](/openbook/12924/xhtml/images/p2001de39g19002.jpg)
+
+(2.2)
+
+where _S_ is the total distance traveled in a driving schedule, and _α_ , _β_
+, and _γ_ are specific but different constants for the UDDS and HWFET
+schedules. Sovran and Blaser (2006) also identified that a combination of five
+UDDS and three HWFET schedules very closely reproduces the EPA combined fuel
+consumption of 55 percent UDDS plus 45 percent HWFET, and provided its values
+of _α_ , _β_ , and _γ_.
+
+The same approach was used for those portions of a driving schedule in which
+_F_ _TR_ < 0 (i.e., decelerations), where the power plant is not required to
+provide energy for propulsion. In this case the rolling resistance and
+aerodynamic drag retard vehicle motion, but their effect is not sufficient to
+follow the driving cycle deceleration, and so some form of wheel braking is
+required. When a vehicle reaches the end of a schedule and becomes stationary,
+all the kinetic energy of its mass that was acquired when _F_ _TR_ > 0 has to
+have been removed. Consequently the decrease in kinetic energy produced by
+wheel braking is
+
+![](/openbook/12924/xhtml/images/p2001de39g19003.jpg)
+
+(2.3)
+
+The coefficients _α ′_ and _β ′_ are also specific to the test schedule and
+are given in the reference. Two observations are of interest: (1) _γ_ is the
+same for both motoring and braking as it relates to the kinetic energy of the
+vehicle; (2) since the energy used in rolling resistance is _r_ _0_ _M g S_ ,
+the sum of _α_ and _α ′_ is equal to _g_.
+
+Sovran and Blaser (2006) considered 2,500 vehicles from the EPA database for
+2004 and found that their equations fitted the tractive energy for both the
+UDDS and HWFET schedules with an _r_ = 0.999, and the braking energy with an
+
+Page 20 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+_r_ = 0.99, where _r_ represents the correlation coefficient based on least
+squares fit of the data.
+
+To illustrate the dependence of tractive and braking energy on vehicle
+parameters, Sovran and Blaser (2006) used the following three sets of
+parameters. Fundamentally the energy needed by the vehicle is a function of
+the rolling resistance, the mass, and the aerodynamic drag times frontal area.
+By combining the last three into the results shown in Table 2.4, Sovran and
+Blaser (2006) covered the entire fleet in 2004. The "high" vehicle has a high
+rolling resistance, and high aerodynamic drag relative to its mass. This would
+be typical of a truck or an SUV. The "low" vehicle requires low tractive
+energy and would be typical for a future vehicle. These three vehicles cover
+the entire spectrum in vehicle design.
+
+The data shown in Table 2.5 were calculated using these values. The low
+vehicle has a tractive energy requirement that is roughly two-thirds that of
+the high vehicle. It should also be noted that as the vehicle design becomes
+more efficient (i.e., the low vehicle), the fraction of energy required to
+overcome the inertia increases. As expected, for both driving schedules the
+_normalized_ tractive energy, _ETR_ / _MS_ , decreases with reduced rolling
+and aerodynamic resistances. What is more significant, however, is that at
+each level, the _actual tractive_ energy is strongly dependent on vehicle
+mass, through its influence on the rolling and inertia components. This gives
+mass reduction high priority in efforts to reduce vehicle fuel consumption.
+
+TABLE 2.4 Vehicle Characteristics
+
+Vehicle
+
+|
+
+ro
+
+|
+
+CdA/M
+
+---|---|--- 
+
+High
+
+|
+
+0.012
+
+|
+
+0.00065
+
+Mid
+
+|
+
+0.009
+
+|
+
+0.0005
+
+Low
+
+|
+
+0.006
+
+|
+
+0.0003
+
+SOURCE: Based on Sovran and Blaser (2006).
+
+TABLE 2.5 Estimated Energy Requirements for the Three Sovran and Blaser
+(2006)Vehicles in Table 2.4 for the UDDS and HWFET Schedules
+
+|
+
+ETR/MS (Normalized)
+
+|
+
+Rolling Resistance (%)
+
+|
+
+Aerodynamic Drag (%)
+
+|
+
+Inertia (%)
+
+|
+
+Braking/Tractive (%)
+
+---|---|---|---|---|--- 
+
+UDDS
+
+|
+
+|
+
+|
+
+|
+
+|
+
+Vehicle
+
+|
+
+|
+
+|
+
+|
+
+|
+
+High
+
+|
+
+0.32
+
+|
+
+28
+
+|
+
+22
+
+|
+
+50
+
+|
+
+36
+
+Mid
+
+|
+
+0.28
+
+|
+
+24
+
+|
+
+19
+
+|
+
+57
+
+|
+
+45
+
+Low
+
+|
+
+0.24
+
+|
+
+19
+
+|
+
+14
+
+|
+
+68
+
+|
+
+58
+
+HWFET
+
+|
+
+|
+
+|
+
+|
+
+|
+
+Vehicle
+
+|
+
+|
+
+|
+
+|
+
+|
+
+High
+
+|
+
+0.34
+
+|
+
+32
+
+|
+
+56
+
+|
+
+13
+
+|
+
+6
+
+Mid
+
+|
+
+0.27
+
+|
+
+30
+
+|
+
+54
+
+|
+
+16
+
+|
+
+10
+
+Low
+
+|
+
+0.19
+
+|
+
+29
+
+|
+
+47
+
+|
+
+24
+
+|
+
+18
+
+#### **Effect of Driving Schedule**
+
+It is evident from Table 2.5 that inertia is the dominant component on the
+UDDS schedule, while aerodynamic drag is dominant on the HWFET. The larger any
+component, the greater the impact of its reduction on tractive energy.
+
+On the UDDS schedule, the magnitude of required braking energy relative to
+tractive energy is large at all three vehicle levels, increasing as the
+magnitude of the rolling and aerodynamic resistances decreases. The high
+values are due to the many decelerations that the schedule contains. The
+braking energy magnitudes for HWFET are small because of its limited number of
+decelerations.
+
+In vehicles with conventional power trains, the wheel-braking force is
+frictional in nature, and so all the vehicle kinetic energy removed is
+dissipated as heat. However, in hybrid vehicles with regenerative-braking
+capability, some of the braking energy can be captured and then recycled for
+propulsion in segments of a schedule where _FTR_ > 0. This reduces the _power
+plant_ energy required to provide the _ETR_ necessary for propulsion, thereby
+reducing fuel consumption. The significant increase in normalized tractive
+energy ( _ETR_ / _MS_ ) with decreasing rolling and aerodynamic resistances
+makes reduction of these resistances even _more_ effective in reducing fuel
+consumption in hybrids with regenerative braking than in conventional
+vehicles. The relatively small values of braking-to-tractive energy on the
+HWFET indicate that the fuel consumption reduction capability of regenerative
+braking is minimal on that schedule. As a result, hybrid power trains only
+offer significant fuel consumption reductions on the UDDS cycle. However, as
+pointed out in Chapter 6, hybridization permits engine downsizing and engine
+operation in more efficient regions, and this applies to the HWFET schedule
+also.
+
+#### **Effect of Drive Train**
+
+Given the tractive energy requirements (plus idling and accessories), the next
+step is to represent the efficiency of the power train. The power delivered to
+the output shaft of the engine is termed the _brake output power,_ and should
+not be confused with the _braking energy_ mentioned in the previous section.
+The brake output power, _Pb_ , of an engine is the difference between its
+indicated power, _Pi_ , and power required for pumping, _Pp_ ; friction, _Pf_
+; and engine auxiliaries, _Pa_ (e.g., fuel, oil, and water pumps).
+
+![](/openbook/12924/xhtml/images/p2001de39g20001.jpg)
+
+(2.4)
+
+Brake thermal efficiency is the ratio of brake power output to the energy rate
+into the system (the mass flow rate of fuel times its energy density).
+
+![](/openbook/12924/xhtml/images/p2001de39g20002.jpg)
+
+(2.5)
+
+Page 21 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+The brake thermal efficiency is _η_ _b_ , while _η_ _i_ is the indicated
+thermal efficiency, and _H_ _f_ is the lower heating value of the fuel. This
+equation provides the means for relating pumping losses, engine friction, and
+auxiliary load to the overall engine efficiency. Equations for fuel use during
+braking and idling are not shown here but can be found in Sovran and Blaser
+(2003), as can the equations for average schedule and maximum engine
+efficiency.
+
+Ultimately the fuel consumption is given by Equation 2.6:
+
+![](/openbook/12924/xhtml/images/p2001de39g21001.jpg)
+
+(2.6)
+
+where in addition to the terms defined earlier, _g*_ is the fuel consumption
+over the driving schedule,
+![](/openbook/12924/xhtml/images/p2001de39g21002.jpg) and
+![](/openbook/12924/xhtml/images/p2001de39g21003.jpg) represent the fuel
+consumed during idling and braking, _H_ _f_ is the fuel density of fuel,
+![](/openbook/12924/xhtml/images/p2001de39g21004.jpg) is the average drive
+train efficiency for the schedule, _η_ _b,max_ is the maximum engine brake
+thermal efficiency, ![](/openbook/12924/xhtml/images/p2001de39g21005.jpg) is
+the average engine brake thermal efficiency, and _E_ _Accessories_ is the
+energy to power the accessories. The term _η_ _b,max_ is repeated in the
+denominator to show that to minimize fuel consumption the fraction in the
+denominator should be as large as possible. Thus things should be arranged so
+that the average engine efficiency be as close to the maximum.
+
+The principal term in Equation 2.6 is the bracketed term. Clearly fuel
+consumption can be reduced by reducing _E_ _TR_ and _E_ _Accessories_. It can
+also be reduced by increasing
+![](/openbook/12924/xhtml/images/p2001de39g21006.jpg). As stated earlier, this
+can be done by down sizing the engine or by increasing the number of gears in
+the transmission so that average engine brake thermal efficiency,
+![](/openbook/12924/xhtml/images/p2001de39g21007.jpg) , is increased. Equation
+2.6 explains why reducing rolling resistance or aerodynamic drag without
+changes in engine or transmission may not maximize the benefit, since it may
+move ![](/openbook/12924/xhtml/images/p2001de39g21008.jpg) farther from its
+optimum point. In other words, changing to lower-rolling-resistance tires
+without modifying the power train will not give the full benefit.
+
+The tractive energy _E_ _TR_ can be precisely determined given just three
+parameters, rolling resistance _r_ 0, the product of aero coefficient and
+frontal area _C_ _D_ _A_ , and vehicle mass _M_. However, many of the other
+terms in Equation 2.6 are difficult to evaluate analytically. This is
+especially true of the engine efficiencies, which require detailed engine
+maps. Thus converting the tractive energy into fuel consumption is best done
+using a detailed step-by-step simulation. This simulation is usually carried
+out by breaking down the test schedule into 1-second intervals, computing the
+_E_ _TR_ for each interval using detailed engine maps along with transmission
+characterizations, and adding up the interval values to get the totals for the
+drive cycle analyzed. Such a simulation is frequently called a full system
+simulation, FSS.
+
+The discussion above on tractive energy highlights the fact that the effects
+of the three principal aspects of vehicle design--vehicle mass, rolling
+resistance, and aerodynamic drag--can be used to calculate precisely the
+amount of energy needed to propel the vehicle for any kind of drive schedule.
+Further, the equations developed highlight both the effect of the various
+parameters involved and at the same time demonstrate the complexity of the
+problem. Although the equations provide understanding, in the end estimating
+the fuel consumption of a future vehicle must be determined by FSS modeling
+and ultimately by constructing a demonstration vehicle.
+
+### **DETAILED VEHICLE SIMULATION**
+
+The committee obtained results of a study by Ricardo, Inc. (2008) for a
+complete simulation for a 2007 Camry passenger car. This FSS is discussed
+further in Chapter 8; one set of results is used here for illustration. Table
+2.6 gives the specifications of the vehicle in terms of the parameters used in
+the simulation.
+
+First, the tractive energy and its components for this vehicle were calculated
+to illustrate how these vary with different test schedules. Although the US06
+cycle described in Table 2.2 is not yet used for fuel economy certification,
+it is interesting to note how it affects the energy distribution. Table 2.7
+shows the results. Energy to the wheels and rolling resistance increase from
+the UDDS to the US06, with the total tractive energy requirement being almost
+double that of the UDDS. The aero energy requirement increases from the UDDS
+to the HWFET, but it is not much increased in going to the US06, in spite of
+the higher peak speed. What is somewhat surprising is the amount of braking
+energy for the UDDS and the US06 compared to the HWFET. This is where hybrids
+excel.
+
+For the highway, rolling resistance and aero dominate, and very little energy
+is dissipated in the brakes. As expected, the aero is dominant for the US06,
+where it is more than
+
+TABLE 2.6 Specifications of Vehicle Simulated by Ricardo, Inc. (2008)
+
+Mass
+
+|
+
+1,644 kg
+
+---|--- 
+
+CD
+
+|
+
+0.30
+
+A
+
+|
+
+2.3 m2
+
+TABLE 2.7 Energy Distribution for Various Schedules (in kilowatt-hours)
+
+|
+
+Total Tractive Energy
+
+|
+
+Total Rolling Resistance
+
+|
+
+Total Aerodynamic Drag
+
+|
+
+Braking Energy
+
+|
+
+Braking/Tractive (%)
+
+---|---|---|---|---|--- 
+
+Urban
+
+|
+
+1.250
+
+|
+
+0.440
+
+|
+
+0.310
+
+|
+
+0.500
+
+|
+
+40.00
+
+Highway
+
+|
+
+1.760
+
+|
+
+0.610
+
+|
+
+1.000
+
+|
+
+0.150
+
+|
+
+8.52
+
+US06
+
+|
+
+2.390
+
+|
+
+0.660
+
+|
+
+1.170
+
+|
+
+0.560
+
+|
+
+23.43
+
+Page 22 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+half the total tractive energy. Note, though, that the US06 has a significant
+amount of energy dissipated in the brakes.
+
+As discussed earlier, some people will drive in a UDDS environment and some on
+the highway. A vehicle optimized for one type of driving will not perform as
+well for the other, and it is not possible to derive a schedule that fits all
+driving conditions. Table 2.7 shows the impractically of developing a test
+that duplicates the actual driving patterns.
+
+Note that the data in Table 2.7 show the actual energy in kilowatt-hours used
+to drive each schedule. The unit of total energy is used to allow for an
+easier comparison between the schedules on the basis of energy distribution.
+Since as shown in Table 2.2, the distances are 7.45 miles for the UDDS, 10.3
+miles for the HWFET, and 8 miles for the US06, the energies should be divided
+by distance to provide the energy required per mile.
+
+An FSS provides a detailed breakdown of where the energy goes, something that
+is not practical to do with real vehicles during a test schedule. Figure 2.4
+illustrates the total energy distribution in the midsize car, visually
+identifying where the energy goes.
+
+Table 2.8 shows the fuel consumed for this vehicle for the UDDS, HWFET, and
+US06 schedules. Efficiency is the ratio of tractive energy divided by "fuel
+energy input." Clearly this gives a more succinct picture of the efficiency of
+an internal combustion engine power train in converting fuel to propel a
+vehicle and to power the accessories. Depending on the drive schedule, it
+varies from 15 to 25 percent (including the energy to power accessories). This
+range is significantly less than the peak efficiency _η_ _b,max_ discussed
+earlier.
+
+In addition to the specific operating characteristics of the particular
+components, the computation of engine fuel consumption depends on the
+following inputs: (1) the transmission gear at each instant during the driving
+schedule and (2) the engine fuel consumption rate during braking and idling.
+None of these details is available, so the data in Table 2.8 should be
+considered as an illustrative example of the energy distribution in 2007
+model-year vehicles with conventional SI power trains.
+
+### **FINDINGS AND RECOMMENDATIONS**
+
+**Finding 2.1:** Fuel consumption has been shown to be the fundamental metric
+to judge fuel efficiency improvements from both an engineering and a
+regulatory viewpoint. Fuel economy data cause consumers to undervalue small
+increases (1-4 mpg) in fuel economy for vehicles in the 15- to 30-mpg range,
+where large decreases in fuel consumption can be realized with small increases
+in fuel economy. For example, consider the comparison of increasing the mpg
+rating from 40 mpg to 50 mpg, where the total fuel saved in driving 10,000
+miles is only 50 gallons, compared to 500 gallons for a change from 10 mpg to
+20 mpg.
+
+![FIGURE 2.4 Energy distribution obtained through full-system simulation for
+
+UDDS \(top\), HWFET \(middle\), and US06 \(bottom\). SOURCE: Ricardo, Inc.
+
+\(2008\).](/openbook/12924/xhtml/images/p2001de39g22001.jpg)
+
+FIGURE 2.4 Energy distribution obtained through full-system simulation for
+UDDS (top), HWFET (middle), and US06 (bottom). SOURCE: Ricardo, Inc. (2008).
+
+TABLE 2.8 Results of Full System Simulation (energy values in kilowatt-hours)
+
+|
+
+Total Tractive Energy
+
+|
+
+Fuel Input Energy
+
+|
+
+Power Train Efficiency (%)
+
+---|---|---|--- 
+
+Urban
+
+|
+
+1.250
+
+|
+
+8.59
+
+|
+
+14.6
+
+Highway
+
+|
+
+1.760
+
+|
+
+8.01
+
+|
+
+22.0
+
+US06
+
+|
+
+2.390
+
+|
+
+9.66
+
+|
+
+24.7
+
+Page 23 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+**Recommendation 2.1:** Because differences in the fuel consumption of
+vehicles relate directly to fuel savings, the labeling on new cars and light-
+duty trucks should include information on the gallons of fuel consumed per 100
+miles traveled in addition to the already-supplied data on fuel economy so
+that consumers can become familiar with fuel consumption as a fundamental
+metric for calculating fuel savings.
+
+**Finding 2.2:** Fuel consumption in this report is evaluated by means of the
+two EPA schedules: UDDS and HWFET. In the opinion of the committee, the
+schedules used to compute CAFE should be modified so that vehicle test data
+better reflect actual fuel consumption. Excluding some driving conditions and
+accessory loads in determining CAFE discourages the introduction of certain
+technologies into the vehicle fleet. The three additional schedules recently
+adopted by the EPA for vehicle labeling purposes --ones that capture the
+effects of higher speed and acceleration, air-conditioner use, and cold
+weather--represent a positive step forward, but further study is needed to
+assess to what degree the new test procedures can fully characterize changes
+in in-use vehicle fuel consumption.
+
+**Recommendation 2.2:** The NHTSA and the EPA should review and revise fuel
+economy test procedures so that they better reflect in-use vehicle operating
+conditions and also better provide the proper incentives to manufacturers to
+produce vehicles that reduce fuel consumption.
+
+### **REFERENCES**
+
+EPA (U.S. Environmental Protection Agency). 2008. Light-Duty Automotive
+Technology and Fuel Economy Trends: 1975 Through 2008. EPA420-R-08-015.
+September. Washington, D.C.
+
+Fischer, C. 2009. Let's turn CAFE regulation on its head. Issue Brief No.
+09-06. May. Resources for the Future, Washington, D.C.
+
+Foljambe, E.S. 1916. The automobile fuel situation. SAE Transactions, Vol. 11,
+Pt. I.
+
+General Motors Company. 2009. Chevy Volt gets 230 mpg city EPA rating. Press
+release. August 11.
+
+Heywood, J.B., 1988. Internal Combustion Engine Fundamentals. McGraw-Hill, New
+York.
+
+Kettering, C.F. 1918. Modern aeronautic engines. SAE Transactions, Vol. 13,
+Pt. II.
+
+Larrick, R., and J. Soll. 2008. The mpg illusion. Science 320(5883):1593-1594.
+
+Ricardo, Inc. 2008. A Study of Potential Effectiveness of Carbon Dioxide
+Reducing Vehicle Technologies. Prepared for the U.S. Environmental Protection
+Agency. EPA420-R-08-004. Contract No. EP-C-06-003. Work Assignment No. 1-14.
+Ann Arbor, Michigan.
+
+Sovran, G., and D. Blaser. 2003. A contribution to understanding automotive
+fuel economy and its limits. SAE Paper 2003-01-2070. SAE International,
+Warrendale, Pa.
+
+Sovran, G., and D. Blaser. 2006. Quantifying the potential impacts of
+regenerative braking on a vehicle's tractive-fuel consumption for the US,
+European and Japanese driving schedules. SAE Paper 2006-01-0664. SAE
+International, Warrendale, Pa.
+
+Page 12 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+![Page
+
+12](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC)
+
+Page 13 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+![Page
+
+13](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC)
+
+Page 14 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+![Page
+
+14](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC)
+
+Page 15 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+![Page
+
+15](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC)
+
+Page 16 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+![Page
+
+16](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC)
+
+Page 17 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+![Page
+
+17](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC)
+
+Page 18 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+![Page
+
+18](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC)
+
+Page 19 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+![Page
+
+19](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC)
+
+Page 20 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+![Page
+
+20](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC)
+
+Page 21 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+![Page
+
+21](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC)
+
+Page 22 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+![Page
+
+22](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC)
+
+Page 23 Share Cite
+
+**Suggested Citation:** "2 Fundamentals of Fuel Consumption." National
+Research Council. 2011. _Assessment of Fuel Economy Technologies for Light-
+Duty Vehicles_. Washington, DC: The National Academies Press. doi:
+10.17226/12924.
+
+×
+
+Save
+
+Cancel
+
+![Page
+
+23](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC)
+
+Next: 3 Cost Estimation »
+
+![The National Academies of Sciences, Engineering, and
+
+Medicine](/images/hdr/logo-nasem-wht-lg.png) The National Academies of
+Sciences, Engineering, and Medicine  
+500 Fifth St., NW | Washington, DC 20001
+
+(C) 2019 National Academy of Sciences. All rights reserved.
+
+Terms of Use and Privacy Statement
+
+Assessment of Fuel Economy Technologies for Light-Duty Vehicles Get This Book
+
+×
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC)
+
+Buy Paperback | $60.00 Buy Ebook | $47.99
+
+MyNAP members save 10% online.  
+Login or Register to save!
+
+Download Free PDF
+
+Various combinations of commercially available technologies could greatly
+reduce fuel consumption in passenger cars, sport-utility vehicles, minivans,
+and other light-duty vehicles without compromising vehicle performance or
+safety. _Assessment of Technologies for Improving Light Duty Vehicle Fuel
+Economy_ estimates the potential fuel savings and costs to consumers of
+available technology combinations for three types of engines: spark-ignition
+gasoline, compression-ignition diesel, and hybrid.
+
+According to its estimates, adopting the full combination of improved
+technologies in medium and large cars and pickup trucks with spark-ignition
+engines could reduce fuel consumption by 29 percent at an additional cost of
+$2,200 to the consumer. Replacing spark-ignition engines with diesel engines
+and components would yield fuel savings of about 37 percent at an added cost
+of approximately $5,900 per vehicle, and replacing spark-ignition engines with
+hybrid engines and components would reduce fuel consumption by 43 percent at
+an increase of $6,000 per vehicle.
+
+The book focuses on fuel consumption--the amount of fuel consumed in a given
+driving distance--because energy savings are directly related to the amount of
+fuel used. In contrast, fuel economy measures how far a vehicle will travel
+with a gallon of fuel. Because fuel consumption data indicate money saved on
+fuel purchases and reductions in carbon dioxide emissions, the book finds that
+vehicle stickers should provide consumers with fuel consumption data in
+addition to fuel economy information.
+
+## Contents
+
+            
+                            *         * Front Matter i–xiv
+                * Summary 1–8
+                * 1 Introduction 9–11
+                * 2 Fundamentals of Fuel Consumption 12–23
+                * 3 Cost Estimation 24–37
+                * 4 Spark-Ignition Gasoline Engines 38–60
+                * 5 Compression-Ignition Diesel Engines 61–83
+                * 6 Hybrid Power Trains 84–98
+                * 7 Non-Engine Technologies 99–117
+                * 8 Modeling Improvements in Vehicle Fuel Consumption 118–137
+                * 9 Application of Vehicle Technologies to Vehicle Classes 138–156
+                * Appendixes 157–158
+                * Appendix A: Committee Biographies 159–162
+                * Appendix B: Statement of Task 163–164
+                * Appendix C: List of Presentations at Public Committee Meetings 165–166
+                * Appendix D: Select Acronyms 167–168
+                * Appendix E: Comparison of Fuel Consumption and Fuel Economy 169–170
+                * Appendix F: Review of Estimate of Retail Price Equivalent Markup Factors 171–176
+                * Appendix G: Compression-Ignition Engine Replacement for Full-Size Pickup/SUV 177–180
+                * Appendix H:Other NRC Assessments of Benefits, Costs, and Readiness of Fuel Economy Technologies 181–188
+                * Appendix I: Results of Other Major Studies 189–207
+                * Appendix J: Probabilities in Estimation of Fuel Consumption Benefits and Costs 208–209
+                * Appendix K: Model Description and Results for the EEA-ICF Model 210–218
+            
+                1. ×
+            
+
+## Welcome to OpenBook!
+
+You're looking at OpenBook, NAP.edu's online reading room since 1999. Based on
+feedback from you, our users, we've made some improvements that make it easier
+than ever to read thousands of publications on our website.
+
+Do you want to take a quick tour of the OpenBook's features?
+
+No Thanks Take a Tour »
+
+            
+                            2. ×
+            
+
+Show this book's **table of contents** , where you can jump to any chapter by
+name.
+
+« Back Next »
+
+            
+                            3. ×
+            
+
+...or use these buttons to go back to the **previous** chapter or skip to the
+**next** one.
+
+« Back Next »
+
+            
+                            4. ×
+            
+
+Jump up to the **previous** page or down to the **next** one. Also, you can
+type in a page number and press `Enter` to go directly to that page in the
+book.
+
+« Back Next »
+
+            
+                            5. ×
+            
+
+Switch between the **Original Pages** , where you can read the report as it
+appeared in print, and **Text Pages** for the web version, where you can
+highlight and search the text.
+
+« Back Next »
+
+            
+                            6. ×
+            
+
+To **search** the entire text of this book, type in your search term here and
+press `Enter`.
+
+« Back Next »
+
+            
+                            7. ×
+            
+
+**Share** a link to this book page on your preferred social network or via
+email.
+
+« Back Next »
+
+            
+                            8. ×
+            
+
+View our **suggested citation** for this chapter.
+
+« Back Next »
+
+            
+                            9. ×
+            
+
+Ready to take your reading offline? Click here to **buy** this book in print
+or **download** it as a free PDF, if available.
+
+« Back Next »
+
+Stay Connected!
+
+### Get Email Updates
+
+×
+
+Do you enjoy reading reports from the Academies online **for free**? Sign up
+for email notifications and we'll let you know about new publications in your
+areas of interest when they're released.
+
+Send me updates!
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication _[C.]: Century_ [m.]: married _[FT]:
+Financial Times_ [*]: required
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+  *[m.]: married
+  *[FT]: Financial Times
+  *[*]: required
+

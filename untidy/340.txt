@@ -1,0 +1,270 @@
+
+
+Jump to main content
+
+An official website of the United States government.
+
+We've made some changes to EPA.gov. If the information you are looking for is
+not here, you may be able to find it on the EPA Web Archive or the January 19,
+2017 Web Snapshot.
+
+![](https://www.epa.gov/sites/all/themes/epa/logo.png)
+
+# US EPA
+
+United States Environmental Protection Agency
+
+Search Search
+
+## Main menu
+
+                
+                                      * Environmental Topics
+                        * Air
+                        * Bed Bugs
+                        * Chemicals and Toxics
+                        * Environmental Information by Location
+                        * Greener Living
+                        * Health
+                        * Land, Waste, and Cleanup
+                        * Lead
+                        * Mold
+                        * Pesticides
+                        * Radon
+                        * Science
+                        * Water
+                        * A-Z Index
+                      * Laws & Regulations
+                        * By Business Sector
+                        * By Topic
+                        * Compliance
+                        * Enforcement
+                        * Laws and Executive Orders
+                        * Policy and Guidance
+                        * Regulations
+                      * About EPA
+                        * EPA Administrator
+                        * Current Leadership
+                        * Organization Chart
+                        * Staff Directory
+                        * Planning, Budget and Results
+                        * Jobs and Internships
+                        * Headquarters Offices
+                        * Regional Offices
+                        * Labs and Research Centers
+                
+
+## Greenhouse Gas Emissions
+
+Contact Us
+
+Share
+
+                
+                                      *           *           *           * # Understanding Global Warming Potentials
+                
+
+Greenhouse gases (GHGs) warm the Earth by absorbing energy and slowing the
+rate at which the energy escapes to space; they act like a blanket insulating
+the Earth. Different GHGs can have different effects on the Earth's warming.
+Two key ways in which these gases differ from each other are their ability to
+absorb energy (their "radiative efficiency"), and how long they stay in the
+atmosphere (also known as their "lifetime").
+
+The Global Warming Potential (GWP) was developed to allow comparisons of the
+global warming impacts of different gases. Specifically, it is a measure of
+how much energy the emissions of 1 ton of a gas will absorb over a given
+period of time, relative to the emissions of 1 ton of carbon dioxide (CO2).
+The larger the GWP, the more that a given gas warms the Earth compared to CO2
+over that time period. The time period usually used for GWPs is 100 years.
+GWPs provide a common unit of measure, which allows analysts to add up
+emissions estimates of different gases (e.g., to compile a national GHG
+inventory), and allows policymakers to compare emissions reduction
+opportunities across sectors and gases.
+
+                
+                                      * CO2, by definition, has a GWP of 1 regardless of the time period used, because it is the gas being used as the reference. CO2 remains in the climate system for a very long time: CO2 emissions cause increases in atmospheric concentrations of CO2 that will last thousands of years.
+                      * Methane (CH4) is estimated to have a GWP of 28–36 over 100 years (Learn why EPA's U.S. Inventory of Greenhouse Gas Emissions and Sinks uses a different value.). CH4 emitted today lasts about a decade on average, which is much less time than CO2. But CH4 also absorbs much more energy than CO2. The net effect of the shorter lifetime and higher energy absorption is reflected in the GWP. The CH4 GWP also accounts for some indirect effects, such as the fact that CH4 is a precursor to ozone, and ozone is itself a GHG.
+                      * Nitrous Oxide (N2O) has a GWP 265–298 times that of CO2 for a 100-year timescale. N2O emitted today remains in the atmosphere for more than 100 years, on average.
+                      * Chlorofluorocarbons (CFCs), hydrofluorocarbons (HFCs), hydrochlorofluorocarbons (HCFCs), perfluorocarbons (PFCs), and sulfur hexafluoride (SF6) are sometimes called high-GWP gases because, for a given amount of mass, they trap substantially more heat than CO2. (The GWPs for these gases can be in the thousands or tens of thousands.)
+                
+
+Top of Page
+
+##
+
+Frequently Asked Questions
+
+### Why do GWPs change over time?
+
+> EPA and other organizations will update the GWP values they use
+occasionally. This change can be due to updated scientific estimates of the
+energy absorption or lifetime of the gases or to changing atmospheric
+concentrations of GHGs that result in a change in the energy absorption of 1
+additional ton of a gas relative to another.
+
+### Why are GWPs presented as ranges?
+
+> In the most recent report by the Intergovernmental Panel on Climate Change
+(IPCC), multiple methods of calculating GWPs were presented based on how to
+account for the influence of future warming on the carbon cycle. For this Web
+page, we are presenting the range of the lowest to the highest values listed
+by the IPCC.
+
+### What GWP estimates does EPA use for GHG emissions accounting, such as the
+
+_Inventory of U.S. Greenhouse Gas Emissions and Sinks_ (Inventory) and the
+Greenhouse Gas Reporting Program?
+
+> The EPA considers the GWP estimates presented in the most recent IPCC
+scientific assessment to reflect the state of the science. In science
+communications, the EPA will refer to the most recent GWPs. The GWPs listed
+above are from the IPCC's Fifth Assessment Report, published in 2014.
+
+>
+
+> The EPA's _Inventory of U.S. Greenhouse Gas Emissions and Sinks_ (Inventory)
+complies with international GHG reporting standards under the United Nations
+Framework Convention on Climate Change (UNFCCC). UNFCCC guidelines now require
+the use of the GWP values for the IPCC's Fourth Assessment Report (AR4),
+published in 2007. The Inventory also presents emissions by mass, so that CO2
+equivalents can be calculated using any GWPs, and emission totals using more
+recent IPCC values are presented in the annexes of the Inventory report for
+informational purposes.
+
+>
+
+> Data collected by EPA's Greenhouse Gas Reporting Program is used in the
+Inventory, so the Reporting Program generally uses GWP values from the AR4.
+The Reporting Program collects data about some industrial gases that do not
+have GWPs listed in the AR4; for these gases, the Reporting Program uses GWP
+values from other sources, such as the Fifth Assessment Report.
+
+>
+
+> EPA's CH4 reduction voluntary programs also use CH4 GWPs from the AR4 report
+for calculating CH4 emissions reductions through energy recovery projects, for
+consistency with the national emissions presented in the Inventory.
+
+### Are there alternatives to the 100-year GWP for comparing GHGs?
+
+> The United States primarily uses the 100-year GWP as a measure of the
+relative impact of different GHGs. However, the scientific community has
+developed a number of other metrics that could be used for comparing one GHG
+to another. These metrics may differ based on timeframe, the climate endpoint
+measured, or the method of calculation.
+
+>
+
+> For example, the 20-year GWP is sometimes used as an alternative to the
+100-year GWP. Just like the 100-year GWP is based on the energy absorbed by a
+gas over 100 years, the 20-year GWP is based on the energy absorbed over 20
+years. This 20-year GWP prioritizes gases with shorter lifetimes, because it
+does not consider impacts that happen more than 20 years after the emissions
+occur. Because all GWPs are calculated relative to CO2, GWPs based on a
+shorter timeframe will be larger for gases with lifetimes shorter than that of
+CO2, and smaller for gases with lifetimes longer than CO2. For example, for
+CH4, which has a short lifetime, the 100-year GWP of 28–36 is much less than
+the 20-year GWP of 84–87. For CF4, with a lifetime of 50,000 years, the
+100-year GWP of 6630–7350 is larger than the 20-year GWP of 4880–4950.
+
+>
+
+> Another alternate metric is the Global Temperature Potential (GTP). While
+the GWP is a measure of the heat absorbed over a given time period due to
+emissions of a gas, the GTP is a measure of the temperature change at the end
+of that time period (again, relative to CO2).The calculation of the GTP is
+more complicated than that for the GWP, as it requires modeling how much the
+climate system responds to increased concentrations of GHGs (the climate
+sensitivity) and how quickly the system responds (based in part on how the
+ocean absorbs heat).
+
+Top of Page
+
+Contact Us to ask a question, provide feedback, or report a problem.
+
+## Greenhouse Gas Emissions
+
+                
+                                      * Greenhouse Gas Emissions
+                        * Overview of Greenhouse Gases
+                        * Sources of Greenhouse Gas Emissions
+                        * Global Emissions
+                        * National Emissions
+                        * Facility-Level Emissions
+                        * Carbon Footprint Calculator
+                        * GHG Equivalencies Calculator
+                
+
+Discover.
+
+                
+                                      * Accessibility
+                      * EPA Administrator
+                      * Budget & Performance
+                      * Contracting
+                      * Grants
+                      * January 19, 2017 Web Snapshot
+                      * No FEAR Act Data
+                      * Privacy
+                      * Privacy and Security Notice
+                
+
+Connect.
+
+                
+                                      * Data.gov
+                      * Inspector General
+                      * Jobs
+                      * Newsroom
+                      * Open Government
+                      * Regulations.gov
+                      * Subscribe
+                      * USA.gov
+                      * White House
+                
+
+Ask.
+
+                
+                                      * Contact EPA
+                      * Hotlines
+                      * FOIA Requests
+                      * Frequent Questions
+                
+
+Follow.
+
+                
+                                      * EPA's Facebook
+                      * EPA's Twitter
+                      * EPA's YouTube
+                      * EPA's Flickr
+                      * EPA's Instagram
+                
+
+Last updated on February 14, 2017
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication _[C.]: Century_ [m.]: married
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+  *[m.]: married
+

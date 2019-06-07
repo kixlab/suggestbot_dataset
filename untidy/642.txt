@@ -1,0 +1,461 @@
+
+
+* * *
+
+Nov. 10, 1999: Metric Math Mistake Muffed Mars Meteorology Mission
+
+Sign In
+
+![](/images/cm/failsafe-images/cm-failsafe-subscribe-
+
+button-5-30-18.png)![](/images/cm/failsafe-images/cm-failsafe-subscribe-
+
+button-5-30-18.png)
+
+Subscribe
+
+__
+
+                
+                                      * business
+                      * culture
+                      * gear
+                      * ideas
+                      * science
+                      * security
+                      * transportation
+                      * photo
+                      * video
+                      * backchannel
+                
+
+Search
+
+                
+                                      *  __business
+                      *  __culture
+                      *  __gear
+                      *  __ideas
+                      *  __science
+                      *  __security
+                      *  __transportation
+                      *  __photo
+                      *  __video
+                      *  __backchannel
+                
+
+Sign In
+
+                
+                                      * Photo
+                      * Video
+                      * Backchannel
+                      * Magazine
+                      * Wired Insider
+                      * Coupons
+                
+
+#### Get Our Newsletter
+
+##### WIRED's biggest stories delivered to your inbox.
+
+__submit
+
+                
+                                      * Author: Lisa GrossmanLisa Grossman
+                
+                      * 11.10.10
+                      * 07:00 am
+                
+
+# Nov. 10, 1999: Metric Math Mistake Muffed Mars Meteorology Mission
+
+![](https://media.wired.com/photos/5933c541a88f414d9a8c963a/master/w_60,c_limit/rover_60x60.jpg)
+
+#### Share
+
+                
+                                      *  __
+                
+
+share
+
+                
+                                      *  __
+                
+
+tweet
+
+                
+                                      *  __
+                
+
+comment
+
+                
+                                      *  __
+                
+
+email
+
+                
+                                      * Author: Lisa GrossmanLisa Grossman
+                
+                      * 11.10.10
+                      * 07:00 am
+                
+
+# Nov. 10, 1999: Metric Math Mistake Muffed Mars Meteorology Mission
+
+![](https://media.wired.com/photos/5933c541a88f414d9a8c963a/master/w_60,c_limit/rover_60x60.jpg)
+
+![](https://www.wired.com/images_blogs/thisdayintech/2010/09/mco_mapping.jpg)
+
+**1999:** A disaster investigation board reports that NASA 's Mars Climate
+Orbiter burned up in the Martian atmosphere because engineers failed to
+convert units from English to metric.
+
+Mars Photo
+Galleries:![](https://www.wired.com/images_blogs/thisdayintech/2010/11/rover_60x60.jpg)Where
+Will Next Mars Rover
+Land?![](https://www.wired.com/images_blogs/thisdayintech/2010/11/moon_60x60.jpg)Exotic
+New Mars Images From Orbiting Telephoto
+Studio![](https://www.wired.com/images_blogs/thisdayintech/2010/11/mars_60x60.jpg)Strange
+Places on Mars: What Do You Want to See Next?The $125 million satellite was
+supposed to be the first weather observer on another world. But as it
+approached the red planet to slip into a stable orbit Sept. 23, the orbiter
+vanished. Scientists realized quickly it was gone for good.
+
+"It was pretty clear that morning, within half-an-hour, that the spacecraft
+had more or less hit the top of the atmosphere and burned up," recalled NASA
+engineer Richard Cook, who was project manager for Mars exploration projects
+at the time.
+
+A NASA review board found that the problem was in the software controlling the
+orbiter's thrusters. The software calculated the force the thrusters needed to
+exert in _pounds_ of force. A separate piece of software took in the data
+assuming it was in the metric unit: _newtons_.
+
+"The units thing has become the lore, the example in every kid's textbook from
+that point on," Cook said. "Everyone was amazed we didn't catch it."
+
+There had been warning signs, the mishap board found. En route to Mars, the
+spacecraft had to make 10 to 14 times more minor adjustments than engineers
+expected. And the last few signals from the orbiter indicated that it was
+dipping dangerously low into the Martian atmosphere, about 105 miles lower
+than it was supposed to go.
+
+Ultimately, the Mars Climate Orbiter came within 37 miles of the Martian
+surface. Simulations showed that, at any altitude lower than 53 miles,
+atmospheric friction would tear the fragile craft apart.
+
+The whole thing could be written off as a miscommunication. Propulsion
+engineers, like those at Lockheed Martin who built the craft, typically
+express force in pounds, but it was standard practice to convert to newtons
+for space missions. One pound of force is about 4.45 newtons. Engineers at
+NASA's Jet Propulsion Lab assumed the conversion had been made, and didn't
+check.
+
+But there was an underlying issue in the culture of NASA's space exploration
+at the time, Cook said.
+
+"'Better, faster, cheaper' was the mantra at the time," Cook said. "Certainly
+that project was trying to do a whole lot for a limited amount of money."
+
+_The New York Times_ ran a preview article Sept. 21 titled "Beginning a
+Bargain-Basement Invasion of Mars," foreshadowing the disasters to come.
+
+The Mars Polar Lander, which launched 23 days after Mars Climate Orbiter, also
+disappeared on the way to the planet's surface. Vibrations in that craft's
+legs may have convinced the craft's on-board computer it had already landed,
+when it was still 100 feet in the air.
+
+"The specific reasons [for that failure] were totally different," Cook said.
+"But the underlying part[s], this overly ambitious appetite, were the same."
+
+Cook said NASA made some "big-time" changes after that. Several planned
+missions, including a mission that was to bring Mars rocks back to Earth, were
+scrapped. The space agency went back to basics, rebuilding its Mars program
+based on conservative strategies and concepts that had already been tested.
+
+And it worked. The fantastically successful Mars Exploration Rovers, Spirit
+and Opportunity, rose from the ashes. Not only did the rovers both land safely
+and complete their original 90-day mission, but they're still running six
+years later.
+
+"In this business, you're either just shy of it working ... or the thing looks
+bulletproof," Cook said.
+
+_Source: Various_
+
+Image: Mars Climate Orbiter/NASA
+
+**See Also:**
+
+                
+                                      22. Feb. 5, 1999: Web Tempest in a D-Cup
+                      23. March 21, 1999: Around the World in 20 Days
+                      24. March 26, 1999: 'Melissa' Wreaks Havoc on Net
+                      25. March 31, 1999: _The Matrix_ Hooks Us
+                      26. May 28, 1999: Newly Restored Last Supper Returns to Public Eye
+                      27. July 3, 1999: Gobbling Up a 'Pac-Man' Record
+                      28. July 10, 1999: Reddi-wip Inventor Sputters Out
+                      29. July 15, 1999: Hey, Sorry About the Beryllium Poisoning
+                      30. Sept. 9, 1999: 9/9/99 No Big Deal for Computers
+                      31. Dec. 7, 1999: RIAA Sues Napster
+                      32. Dec. 31, 1999: Horror or Hype? Y2K Arrives and World Trembles
+                      33. Nov. 10, 1983: Computer 'Virus' Is Born
+                      34. Nov. 10, 1983: Gates Opens Windows a Bit Early
+                
+                      * #20th century
+                      * #disasters
+                      * #Mars
+                      * #NASA
+                      * #space
+                
+
+#### Most Popular
+
+                
+                                      * science
+                
+
+##### A Mythical Form of Space Propulsion Finally Gets a Real Test
+
+Author: Daniel OberhausDaniel Oberhaus
+
+                
+                                      * security
+                
+
+##### Apple's 'Find My' Feature Uses Some Very Clever Cryptography
+
+Author: Andy GreenbergAndy Greenberg
+
+                
+                                      * culture
+                
+
+##### 'Black Mirror' Isn't Surprising Anymore. We're Screwed
+
+Author: Peter RubinPeter Rubin
+
+__More Stories
+
+__View Comments
+
+#### Sponsored Stories
+
+Powered By Outbrain
+
+                
+                                      * ![](https://media.wired.com/photos/5cf849aec3e961d2e7ec9f35/1:1/w_150,h_150,c_limit/Abortion-Pill-72432780.jpg)
+                
+
+Lydia Horne
+
+##### Telemedicine as a Workaround to Abortion Regulations, and More News
+
+                
+                                      * ![](https://media.wired.com/photos/5cf84433d7427c67af883bb7/1:1/w_150,h_150,c_limit/Youtube-CARLOS-MAZA.jpg)
+                
+
+Emma Grey Ellis
+
+##### YouTube Continues to Fail Its Queer Creators
+
+                
+                                      * ![](https://media.wired.com/photos/5cf708ef8f6eb22767598ef9/1:1/w_150,h_150,c_limit/Science%20-%20Feature%20art%20-%20Genome%20patent%20law%20-%20165809667.jpg)
+                
+
+Megan Molteni
+
+##### Congress Is Debating—Again—Whether Genes Can Be Patented
+
+                
+                                      * ![](https://media.wired.com/photos/5cf80764f2022464080c3449/1:1/w_150,h_150,c_limit/Campaign-621867024.jpg)
+                
+
+Lily Hay Newman
+
+##### A Push to Protect Political Campaigns from Hackers Hits a Snag
+
+                
+                                      * ![](https://media.wired.com/photos/5cf807299c2a7cf91b5976c8/1:1/w_150,h_150,c_limit/GettyImages-1146336898.jpg)
+                
+
+Paris Martineau
+
+##### YouTube Is Banning Extremist Videos. Will It Work?
+
+#### More Stories
+
+                
+                                      *           * Photo Gallery
+                
+
+## Gritty Postcards From the Russian Hinterland
+
+Author: Michael HardyMichael Hardy
+
+                
+                                      *           * Robo-Van
+                
+
+## This Startup Wants to Remake the Last Mile of Parcel Delivery
+
+Author: Alex DaviesAlex Davies
+
+                
+                                      *           * Environment
+                
+
+## Monterey Bay Is a Natural Wonder--Poisoned With Microplastic
+
+Author: Matt SimonMatt Simon
+
+                
+                                      *           * Handiwork
+                
+
+## _Dark_ _Phoenix_ Is Trash, But the Hand Work Is Pretty OK?
+
+Author: Angela WatercutterAngela Watercutter
+
+                
+                                      *           * Buying Guide
+                
+
+## Sink Your Teeth Into These Toothbrush Subscription Services
+
+Author: Christopher NullChristopher Null
+
+                
+                                      *           * WIRED Opinion
+                
+
+## Russia and Iran Plan to Fundamentally Isolate the Internet
+
+Author: Justin ShermanJustin Sherman
+
+#### We Recommend
+
+Powered By Outbrain
+
+                
+                                      * ![](https://media.wired.com/photos/5cf83815f5153c680f15d0e8/1:1/w_150,h_150,c_limit/science_oil-rig_481758213.jpg)
+                
+
+Eric Niiler
+
+##### What to Do About CO2? Try Stuffing It Into the Gulf of Mexico
+
+                
+                                      * ![](https://media.wired.com/photos/5cf6cbd4f2022426ae0c3435/1:1/w_150,h_150,c_limit/Ideas_LBMSF.jpg)
+                
+
+Collier Meyerson
+
+##### _The Last Black Man_ Searches for ‘Authenticity’ but There Is None
+
+                
+                                      * ![](https://media.wired.com/photos/5cf860ece2e49186508ae0ff/1:1/w_150,h_150,c_limit/Backchannel-Orania-Torgovnik-DSCF5324.jpg)
+                
+
+Gregory Barber
+
+##### Inside an All-White Town’s Divisive Experiment With Cryptocurrency
+
+                
+                                      * ![](https://media.wired.com/photos/5cf73696c3e9614f96ec9f12/1:1/w_150,h_150,c_limit/Ideas_Voice-Assistant-908389436.jpg)
+                
+
+Noam Cohen
+
+##### Why Siri and Alexa Weren’t Built to Smack Down Harassment
+
+                
+                                      * ![](https://media.wired.com/photos/5cf82980253bc5aa327abfa2/1:1/w_150,h_150,c_limit/Security_Voting_TA-1058154548.jpg)
+                
+
+Lily Hay Newman
+
+##### Election Security Is Still Hurting at Every Level
+
+![](/images/cm/failsafe-images/cm-failsafe-box.png)
+
+#### Get Our Newsletter
+
+##### WIRED's biggest stories delivered to your inbox.
+
+__submit
+
+__
+
+                
+                                      *  __
+                      *  __
+                      *  __
+                      *  __
+                      *  __
+                      * Subscribe
+                      * Advertise
+                      * Site Map
+                      * Press Center
+                      * FAQ
+                      * Accessibility Help
+                      * Customer Care
+                      * Contact Us
+                      * Securedrop
+                      * Coupons
+                      * Newsletter
+                      * Wired Staff
+                      * Jobs
+                      * RSS
+                
+
+CNMN Collection
+
+(C) 2018 Condé Nast. All rights reserved.
+
+Use of and/or registration on any portion of this site constitutes acceptance
+of our User Agreement (updated 5/25/18) and Privacy Policy and Cookie
+Statement (updated 5/25/18). Your California Privacy Rights. The material on
+this site may not be reproduced, distributed, transmitted, cached or otherwise
+used, except with the prior written permission of Condé Nast. Ad Choices.
+
+![](https://sb.scorecardresearch.com/p?c4=https%3A%2F%2Fwww.wired.com%2F2010%2F11%2F1110mars-
+
+climate-observer-report%2F&c1=2&c2=6035094)
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication _[C.]: Century_ [m.]: married _[FT]:
+Financial Times_ [ _]: required_ [MB]: megabytes _[UV]: Ultraviolet_ [ UV]:
+Ultraviolet *[cf]: confer
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+  *[m.]: married
+  *[FT]: Financial Times
+  *[*]: required
+  *[MB]: megabytes
+  *[UV]: Ultraviolet
+  *[ UV]: Ultraviolet
+  *[cf]: confer
+

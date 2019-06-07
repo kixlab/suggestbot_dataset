@@ -1,0 +1,1368 @@
+    
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+    <head>
+        
+
+<script src="https://cdn-pci.optimizely.com/js/5768981649.js"></script>
+<script>
+    //js-cookie
+    !function(e){var n=!1;if("function"==typeof define&&define.amd&&(define(e),n=!0),"object"==typeof exports&&(module.exports=e(),n=!0),!n){var o=window.Cookies,t=window.Cookies=e();t.noConflict=function(){return window.Cookies=o,t}}}(function(){function g(){for(var e=0,n={};e<arguments.length;e++){var o=arguments[e];for(var t in o)n[t]=o[t]}return n}return function e(l){function C(e,n,o){var t;if("undefined"!=typeof document){if(1<arguments.length){if("number"==typeof(o=g({path:"/"},C.defaults,o)).expires){var r=new Date;r.setMilliseconds(r.getMilliseconds()+864e5*o.expires),o.expires=r}o.expires=o.expires?o.expires.toUTCString():"";try{t=JSON.stringify(n),/^[\{\[]/.test(t)&&(n=t)}catch(e){}n=l.write?l.write(n,e):encodeURIComponent(String(n)).replace(/%(23|24|26|2B|3A|3C|3E|3D|2F|3F|40|5B|5D|5E|60|7B|7D|7C)/g,decodeURIComponent),e=(e=(e=encodeURIComponent(String(e))).replace(/%(23|24|26|2B|5E|60|7C)/g,decodeURIComponent)).replace(/[\(\)]/g,escape);var i="";for(var c in o)o[c]&&(i+="; "+c,!0!==o[c]&&(i+="="+o[c]));return document.cookie=e+"="+n+i}e||(t={});for(var a=document.cookie?document.cookie.split("; "):[],s=/(%[0-9A-Z]{2})+/g,f=0;f<a.length;f++){var p=a[f].split("="),d=p.slice(1).join("=");this.json||'"'!==d.charAt(0)||(d=d.slice(1,-1));try{var u=p[0].replace(s,decodeURIComponent);if(d=l.read?l.read(d,u):l(d,u)||d.replace(s,decodeURIComponent),this.json)try{d=JSON.parse(d)}catch(e){}if(e===u){t=d;break}e||(t[u]=d)}catch(e){}}return t}}return(C.set=C).get=function(e){return C.call(C,e)},C.getJSON=function(){return C.apply({json:!0},[].slice.call(arguments))},C.defaults={},C.remove=function(e,n){C(e,"",g(n,{expires:-1}))},C.withConverter=e,C}(function(){})});
+    //custom datalayer
+    var dataLayerObj, amnh_GAObj;
+    if ( Cookies.get( 'amnh_GA' ) !== undefined ) 
+    {
+        var amnh_GAObj = JSON.parse( Cookies.get( 'amnh_GA' ) );
+        Cookies.remove( 'amnh_GA' );
+    }
+    window.dataLayer=[];
+    if (Cookies.get('is_logged_in'))
+    {
+        var userID=Cookies.get('ConstID');
+        dataLayerObj = {'event':'loginStatus','userId':userID,'userRecognized':'logged in'};
+        // if amnh_GAObj exists, copy amnh_GAObj properties to dataLayerObj
+        if ( amnh_GAObj )
+        {
+            for ( var key in amnh_GAObj )
+            {
+                dataLayerObj[key] = amnh_GAObj[key];
+            }
+        }
+        window.dataLayer.push( dataLayerObj );
+    }
+    else
+    {
+        dataLayerObj = {'event':'loginStatus','userId':'unknown','userRecognized':'anonymous'};
+        // if amnh_GAObj exists, copy amnh_GAObj properties to dataLayerObj
+        if ( amnh_GAObj )
+        {
+            for (var key in amnh_GAObj)
+            {
+                dataLayerObj[key] = amnh_GAObj[key];
+            }
+        }
+        window.dataLayer.push( dataLayerObj );
+    }
+
+    if (Cookies.get('is_new_login')){var userID=Cookies.get('ConstID');window.dataLayer.push({'event':'login','event':'interactionEvent','userId':userID,'userRecognized':'logged in','eventCategory':'personalization','eventAction':'login'});Cookies.remove('is_new_login',{path:'/'})}if (Cookies.get('is_new_registration')){var userID=Cookies.get('ConstID');window.dataLayer.push({'event':'login','event':'interactionEvent','userId':userID,'userRecognized':'logged in','eventCategory':'personalization','eventAction':'create profile'});Cookies.remove('is_new_registration',{path:'/'})}
+    //gtm
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer',"GTM-NXGG9T");
+</script>
+
+<meta charset="UTF-8">
+<title>Will the world ever be all under water? | AMNH</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
+<meta name="description" content="Geologist Ed Mathez answers this question." >
+
+<meta property="og:title" content="Will the world ever be all under water? | AMNH" />
+<meta property="og:image" content="https://www.amnh.org/var/ezflow_site/storage/images/media/amnh/images/explore/ology-images/earth/ask-a-scientist-about-the-environment/listing-image-for-ask-a-scientist-about-the-environment-hero21/3877096-1-eng-US/listing-image-for-ask-a-scientist-about-the-environment-hero_facebookshare_1200.jpg" />
+<meta property="og:site_name" content="American Museum of Natural History" />    <meta property="og:type" content="OLogy Feature" /><meta property="og:url" content="https://www.amnh.org/explore/ology/earth/ask-a-scientist-about-our-environment/will-the-world-ever-be-all-under-water" />
+<meta property="og:description" content="Geologist Ed Mathez answers this question." />
+<meta property="fb:admins" content="100000082488363" /><meta property="fb:app_id" content="1409773259334320" />
+
+
+
+
+
+<meta name="twitter:title" content="Will the world ever be all under water? | AMNH">
+<meta name="twitter:description" content="Geologist Ed Mathez answers this question.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.amnh.org/var/ezflow_site/storage/images/media/amnh/images/explore/ology-images/earth/ask-a-scientist-about-the-environment/listing-image-for-ask-a-scientist-about-the-environment-hero21/3877096-1-eng-US/listing-image-for-ask-a-scientist-about-the-environment-hero_twittershare_1024.jpg">
+
+
+<meta name="msvalidate.01" content="FDB389F4B0A5614160084A046837729F" />
+<link rel='shortcut icon' type='image/x-icon' href="/favicon.ico">
+<link rel="manifest" href="/manifest.webmanifest">
+    <link rel="canonical" href="https://www.amnh.org/explore/ology/earth/ask-a-scientist-about-our-environment/will-the-world-ever-be-all-under-water" />
+        
+        <link rel="stylesheet" type="text/css" href="/var/ezflow_site/cache/public/stylesheets/4946d6dce035803274e4eb7632680482_1559243775_all.css" />
+
+        <script type="text/javascript" src="/var/ezflow_site/cache/public/javascript/50028d09e60da9cc9d7f37e305410b01_1543520992.js" charset="utf-8"></script>
+
+        
+        <link rel="stylesheet" href="/extension/amnhpersonalization/design/amnh_redesign/javascript/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+
+        
+                    <link rel="stylesheet" type="text/css" href="/var/ezflow_site/cache/public/stylesheets/56368f6e4db372ee897c27bdb997dd1d_1551982628_all.css" />
+
+            <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+            <script type="text/javascript" src="/var/ezflow_site/cache/public/javascript/e4d38c650ea24ca0d1d6bd9a319ac05a_1556824610.js" charset="utf-8"></script>
+
+            
+            
+        
+    </head>
+    <body class="olg_body">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NXGG9T" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <div class="olg_wrapper">
+
+            <div class="olg_header_wrapper">
+                <div id="accessibilityNavigation">
+	<ul>
+        <li><a href="#ologyContent" title="Skip to page content">Skip to Page Content</a></li>
+		<li><a href="#ologyNav" title="Skip to main navigation menu">Skip to Site Navigation</a></li>
+		<li><a href="#search_box" title="Skip to search">Skip to Search</a></li>
+		<li><a href="#ologyFooter" title="Skip to footer">Skip to Footer</a></li>
+	</ul>
+</div>
+                
+<div class="amnh_band_wrapper">
+	<div class="amnh_width">
+		<div class="amnh_logo_wrapper">
+			<a class="amnh_150_link" href="/" aria-label="AMNH homepage">
+				150 Years
+            </a>
+			<a class="amnh_logo_link" href="/" title="AMNH homepage">
+				American Museum of Natural History
+			</a>
+		</div>
+		<div class="amnh_links">
+						    
+            
+    
+<div tabindex="0" class="amnh-inline-cta mr-0h amnh-tooltip-link" aria-haspopup="true" aria-expanded="false">
+    <span class="icon" aria-hidden="true" tabindex="-1">
+        <span class="amnh-icon amnh-icon--small icon-share">
+            <span class="image"></span>
+        </span>
+    </span>
+    <span class="title" tabindex="-1" aria-hidden="true">Share</span>
+    <span class="amnh-tooltip amnh-tooltip--down amnh-tooltip--icons d-block position-absolute" aria-label="Share options">
+        <span class="amnh-tooltip__wrapper d-inline-block align-items-center justify-content-between flex-row flex-wrap">
+            <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.amnh.org%2Fexplore%2Fology%2Fearth%2Fask-a-scientist-about-our-environment%2Fwill-the-world-ever-be-all-under-water" data-social-share-network="fb" title="Share this page on Facebook" target="_blank" rel="noreferrer"><span class="fab fa-facebook-f"></span></a>
+            <a href="https://twitter.com/intent/tweet?text=Will%20the%20world%20ever%20be%20all%20under%20water%3F&amp;url=https%3A%2F%2Fwww.amnh.org%2Fexplore%2Fology%2Fearth%2Fask-a-scientist-about-our-environment%2Fwill-the-world-ever-be-all-under-water" data-social-share-network="tw" title="Share this page on Twitter" target="_blank" rel="noreferrer"><span class="fab fa-twitter"></span></a>
+            <a href="mailto:?subject=Will%20the%20world%20ever%20be%20all%20under%20water%3F&amp;body=Will%20the%20world%20ever%20be%20all%20under%20water%3F%3A%20https%3A%2F%2Fwww.amnh.org%2Fexplore%2Fology%2Fearth%2Fask-a-scientist-about-our-environment%2Fwill-the-world-ever-be-all-under-water" data-social-share-network="em" title="Share this page through email" target="_blank" rel="noreferrer"><span class="fa fa-envelope"></span></a>
+            <a href="https://classroom.google.com/share?url=https%3A%2F%2Fwww.amnh.org%2Fexplore%2Fology%2Fearth%2Fask-a-scientist-about-our-environment%2Fwill-the-world-ever-be-all-under-water" data-social-share-network="gc" title="Share this page on Google Classroom" target="_blank" rel="noreferrer">
+                <span class="amnh-icon icon-googleclassroom">
+                    <span class="image"></span>
+                </span>
+            </a>
+        </span>
+    </span>
+</div>						
+
+<script type="text/javascript" src="/var/ezflow_site/cache/public/javascript/59a0c1827302f6df688a1cad634e192b_1527621280.js" charset="utf-8"></script>
+    <button class="amnh-inline-cta mr-0h amnh-collect-button"
+        data-is-logged-in="0"
+        data-node-id="214268"
+        disabled
+        data-uri=""
+        href="https://www.amnh.org/layout/set/iframe/apiuser/secure?redirectURL=/bookmarks/create_bookmark/(nid)/214268"
+        tabindex="0">
+    <span class="icon">
+        <span class="amnh-icon amnh-icon--small icon-bookmark">
+          <span class="image"></span>
+        </span>
+    </span>
+    <span class="title">Collect</span>
+</button>		</div>
+	</div>
+</div>
+                	
+<div class="olg_band_wrapper olg_subpage">
+	<div class="amnh_width">
+
+		<div class="olg_logo_wrapper">
+			<a class="ology_logo" tabindex="1" href="/explore/ology" title="Ology Homepage">OLogy Home</a>
+		</div>
+
+		<div class="olg_search_wrapper search-mobile">
+			<div class="search_btn_wrapper">
+				<a class="search_btn" tabindex="3" id="search_btn_mobile" href="#search_overlay">search</a>
+			</div>
+			<div id="search_overlay">
+				<div class="olg_search_wrapper">
+					<form class="olg_search_form" action="/content/action" method="post" role="search">
+						<input type="hidden" name="DestinationURL" value="explore/ology/search" />
+						<input tabindex="3" class="search_box" id="search_box_mobile" name="(keyword)" type="text" value="" placeholder="Search OLogy" />
+						<div class="search_btn_wrapper">
+							<input class="search_btn" type="submit" value="Search" />
+						</div>
+					</form>
+					<div class="clear search_helper">
+						Type keyword(s) to search OLogy
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="olg_menu_wrapper">
+			<div class="menu_btn">
+				<a id="ologyNav" tabindex="2" class="menu_btn_link" title="toggle main menu">
+					Menu
+					<span class="menu_open">&#9776;</span>
+					<span class="menu_close">&#10005;</span>
+				</a>
+			</div>
+			<div class="dropdown_wrapper">
+				<div class="dropdown">
+					<div class="inner">
+						
+
+
+
+	<div class="menu_activity_wrapper">
+							
+
+    <div class="activity_item">
+        <a class="activity_link" title="Games" href="/explore/ology/games">
+            <img class="activity_icon" src="/var/ezflow_site/storage/images/amnh2/explore/ology/games/2141865-4-eng-US/games.png" alt="" />
+            <div class="activity_txt">
+                Games
+            </div>
+        </a>
+    </div>
+					
+
+    <div class="activity_item">
+        <a class="activity_link" title="Stories" href="/explore/ology/stories">
+            <img class="activity_icon" src="/var/ezflow_site/storage/images/amnh2/explore/ology/stories/2141904-5-eng-US/stories.png" alt="" />
+            <div class="activity_txt">
+                Stories
+            </div>
+        </a>
+    </div>
+					
+
+    <div class="activity_item">
+        <a class="activity_link" title="Hands-on" href="/explore/ology/hands-on">
+            <img class="activity_icon" src="/var/ezflow_site/storage/images/amnh2/explore/ology/hands-on/2141997-2-eng-US/hands-on.png" alt="" />
+            <div class="activity_txt">
+                Hands-on
+            </div>
+        </a>
+    </div>
+					
+
+    <div class="activity_item">
+        <a class="activity_link" title="Videos" href="/explore/ology/videos">
+            <img class="activity_icon" src="/var/ezflow_site/storage/images/amnh2/explore/ology/videos/2141943-3-eng-US/videos.png" alt="" />
+            <div class="activity_txt">
+                Videos
+            </div>
+        </a>
+    </div>
+			</div>
+
+	<div class="menu_channel_wrapper">
+
+		<div class="channel_col left-col">
+			<div class="inner">
+				<div class="channel_group_title">
+					Biology
+				</div>
+				<div class="channel_group_list">
+																
+    <div class="channel_menu_item">
+        <a href="/explore/ology/biodiversity" title="Biodiversity">
+            <img class="channel_icon" src="/var/ezflow_site/storage/images/amnh2/explore/ology/biodiversity/2139157-29-eng-US/biodiversity.png" alt="" />
+            Biodiversity
+        </a>
+    </div>
+											
+    <div class="channel_menu_item">
+        <a href="/explore/ology/brain" title="Brain">
+            <img class="channel_icon" src="/var/ezflow_site/storage/images/amnh2/explore/ology/brain/2139167-24-eng-US/brain.png" alt="" />
+            Brain
+        </a>
+    </div>
+											
+    <div class="channel_menu_item">
+        <a href="/explore/ology/genetics" title="Genetics">
+            <img class="channel_icon" src="/var/ezflow_site/storage/images/amnh2/explore/ology/genetics/2139209-20-eng-US/genetics.png" alt="" />
+            Genetics
+        </a>
+    </div>
+											
+    <div class="channel_menu_item">
+        <a href="/explore/ology/marine-biology" title="Marine Biology">
+            <img class="channel_icon" src="/var/ezflow_site/storage/images/amnh2/explore/ology/marine-biology/2139219-21-eng-US/marine-biology.png" alt="" />
+            Marine Biology
+        </a>
+    </div>
+											
+    <div class="channel_menu_item">
+        <a href="/explore/ology/microbiology" title="Microbiology">
+            <img class="channel_icon" src="/var/ezflow_site/storage/images/amnh2/explore/ology/microbiology/2139272-47-eng-US/microbiology.png" alt="" />
+            Microbiology
+        </a>
+    </div>
+											
+    <div class="channel_menu_item">
+        <a href="/explore/ology/paleontology" title="PaleontOLogy">
+            <img class="channel_icon" src="/var/ezflow_site/storage/images/amnh2/explore/ology/paleontology/2139233-19-eng-US/paleontology.png" alt="" />
+            PaleontOLogy
+        </a>
+    </div>
+											
+    <div class="channel_menu_item">
+        <a href="/explore/ology/zoology" title="Zoology">
+            <img class="channel_icon" src="/var/ezflow_site/storage/images/amnh2/explore/ology/zoology/2139253-19-eng-US/zoology.png" alt="" />
+            Zoology
+        </a>
+    </div>
+									</div>
+			</div>
+		</div>
+
+		<div class="channel_col right-col">
+			<div class="inner">
+
+				<div class="channel_group_title">
+					Human Cultures
+				</div>
+				<div class="channel_group_list">
+																
+    <div class="channel_menu_item">
+        <a href="/explore/ology/anthropology" title="Anthropology">
+            <img class="channel_icon" src="/var/ezflow_site/storage/images/amnh2/explore/ology/anthropology/2139128-24-eng-US/anthropology.png" alt="" />
+            Anthropology
+        </a>
+    </div>
+											
+    <div class="channel_menu_item">
+        <a href="/explore/ology/archaeology" title="Archaeology">
+            <img class="channel_icon" src="/var/ezflow_site/storage/images/amnh2/explore/ology/archaeology/2139137-14-eng-US/archaeology.png" alt="" />
+            Archaeology
+        </a>
+    </div>
+									</div>
+				<div class="channel_group_title">
+					Earth & Space
+				</div>
+				<div class="channel_group_list">
+																
+    <div class="channel_menu_item">
+        <a href="/explore/ology/astronomy" title="Astronomy">
+            <img class="channel_icon" src="/var/ezflow_site/storage/images/amnh2/explore/ology/astronomy/2139147-18-eng-US/astronomy.png" alt="" />
+            Astronomy
+        </a>
+    </div>
+											
+    <div class="channel_menu_item">
+        <a href="/explore/ology/climate-change" title="Climate Change">
+            <img class="channel_icon" src="/var/ezflow_site/storage/images/amnh2/explore/ology/climate-change/2139177-18-eng-US/climate-change.png" alt="" />
+            Climate Change
+        </a>
+    </div>
+											
+    <div class="channel_menu_item">
+        <a href="/explore/ology/earth" title="Earth">
+            <img class="channel_icon" src="/var/ezflow_site/storage/images/amnh2/explore/ology/earth/2139187-22-eng-US/earth.png" alt="" />
+            Earth
+        </a>
+    </div>
+											
+    <div class="channel_menu_item">
+        <a href="/explore/ology/physics" title="Physics">
+            <img class="channel_icon" src="/var/ezflow_site/storage/images/amnh2/explore/ology/physics/2139194-23-eng-US/physics.png" alt="" />
+            Physics
+        </a>
+    </div>
+											
+    <div class="channel_menu_item">
+        <a href="/explore/ology/water" title="Water">
+            <img class="channel_icon" src="/var/ezflow_site/storage/images/amnh2/explore/ology/water/2139243-24-eng-US/water.png" alt="" />
+            Water
+        </a>
+    </div>
+									</div>
+
+			</div>
+		</div>
+
+	</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="olg_search_wrapper search-desktop">
+			<form class="olg_search_form" action="/content/action" method="post" role="search">
+				<input type="hidden" name="DestinationURL" value="explore/ology/search" />
+				<input class="search_box" id="search_box" name="(keyword)" type="text" value="" placeholder="Search OLogy" />
+				<div class="search_btn_wrapper">
+						<input class="search_btn" type="submit" value="Search" />
+				</div>
+			</form>
+		</div>
+
+	</div>
+</div>
+
+<a id="ologyContent" tabindex="-1" aria-label="page content"></a>
+            </div>
+
+            <div class="olg_content_wrapper">
+                
+
+
+    
+
+
+
+
+    
+
+    
+
+
+
+
+
+    
+                        
+                        
+                        
+                        
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+	
+		
+
+	
+	
+
+	
+		
+	
+
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:700&amp;subset=latin-ext" rel="stylesheet">
+<style type="text/css">
+
+	
+	
+						.profilesubheader {				font-family: 'Titillium Web', sans-serif;;
+				font-size: 24px;
+				line-height: 27px;
+				font-weight: 700;
+				
+				color:#ffffff;
+				
+				
+			}							.profilesubheader a,
+				.profilesubheader a:visited {					color: #ffffff;
+				}										.profilesubheader a:hover {					color: #ffffff;
+				}											.profiletext {				
+				font-size: 18px;
+				line-height: 21px;
+				
+				
+				color:#a8e5ff;
+				
+				
+			}							.profiletext a,
+				.profiletext a:visited {					color: #a8e5ff;
+				}										.profiletext a:hover {					color: #a8e5ff;
+				}											.titlequestion {				
+				font-size: 27px;
+				line-height: 32px;
+				
+				
+				color:#0099fb;
+				
+				
+			}							.titlequestion a,
+				.titlequestion a:visited {					color: #0099fb;
+				}										.titlequestion a:hover {					color: #0099fb;
+				}											.kidname {				
+				font-size: 20px;
+				line-height: 23px;
+				
+				
+				color:#111c55;
+				
+				
+			}							.kidname a,
+				.kidname a:visited {					color: #111c55;
+				}										.kidname a:hover {					color: #111c55;
+				}											.articletext {				
+				font-size: 20px;
+				line-height: 23px;
+				
+				
+				
+				
+				
+			}							.articletext a,
+				.articletext a:visited {					color: #111c55;
+				}										.articletext a:hover {					color: #111c55;
+				}											.polaroid {				
+				font-size: 17px;
+				line-height: 20px;
+				font-weight: bold;
+				
+				color:#1f7419;
+				
+				
+			}							.polaroid a,
+				.polaroid a:visited {					color: #1f7419;
+				}										.polaroid a:hover {					color: #1f7419;
+				}											.extrassubhead {				font-family: 'Titillium Web', sans-serif;;
+				font-size: 27px;
+				line-height: 30px;
+				font-weight: 700;
+				
+				color:#045700;
+				
+				
+			}							.extrassubhead a,
+				.extrassubhead a:visited {					color: #045700;
+				}										.extrassubhead a:hover {					color: #045700;
+				}											.answeredby {				
+				font-size: 22px;
+				line-height: 24px;
+				font-weight: bold;
+				
+				color:#045700;
+				
+				
+			}							.answeredby a,
+				.answeredby a:visited {					color: #045700;
+				}										.answeredby a:hover {					color: #045700;
+				}						
+	
+						
+			.titlequestion > .inner,
+			.ology_story .titlequestion > p,
+			.titlequestion > .fancybox-skin {				margin:0px 5px 0px 5px;
+				background:#ffffff;
+				
+				border-radius:20px;
+				padding:20px;
+				
+				
+				
+				
+			}			
+			.titlequestion {				
+				
+				
+			}			
+			.ology_story .titlequestion > p {				display: table;
+			}								
+			.aftermargin > .inner,
+			.ology_story .aftermargin > p,
+			.aftermargin > .fancybox-skin {				margin:0px 0px 15px 0px;
+				
+				
+				
+				
+				
+				
+				
+				
+			}			
+			.aftermargin {				
+				
+				
+			}			
+			.ology_story .aftermargin > p {				display: table;
+			}								
+			.articlebox > .inner,
+			.ology_story .articlebox > p,
+			.articlebox > .fancybox-skin {				margin:10px 10px 0px 10px;
+				background:#dbff4d;
+				
+				border-radius:20px;
+				padding:20px;
+				
+				
+				
+				
+			}			
+			.articlebox {				
+				
+				
+			}			
+			.ology_story .articlebox > p {				display: table;
+			}								
+			.profilebox > .inner,
+			.ology_story .profilebox > p,
+			.profilebox > .fancybox-skin {				margin:10px 10px 0px 10px;
+				background:#0056a7;
+				
+				border-radius:20px;
+				padding:20px;
+				
+				
+				
+				
+			}			
+			.profilebox {				
+				
+				
+			}			
+			.ology_story .profilebox > p {				display: table;
+			}								
+			.polaroid > .inner,
+			.ology_story .polaroid > p,
+			.polaroid > .fancybox-skin {				margin:0px 8px 20px 8px;
+				background:#ffffff;
+				border:solid 1px #a9cd27;
+				
+				padding:8px;
+				
+				
+				
+				
+			}			
+			.polaroid {				
+				
+				
+			}			
+			.ology_story .polaroid > p {				display: table;
+			}								
+			.squeezer > .inner,
+			.ology_story .squeezer > p,
+			.squeezer > .fancybox-skin {				
+				
+				
+				
+				padding:0px 7px 0px 7px;
+				
+				
+				
+				
+			}			
+			.squeezer {				
+				
+				
+			}			
+			.ology_story .squeezer > p {				display: table;
+			}								
+			.aftermarginlarge > .inner,
+			.ology_story .aftermarginlarge > p,
+			.aftermarginlarge > .fancybox-skin {				margin:0px 0px 25px 0px;
+				
+				
+				
+				
+				
+				
+				
+				
+			}			
+			.aftermarginlarge {				
+				
+				
+			}			
+			.ology_story .aftermarginlarge > p {				display: table;
+			}			
+			.olg_body .olg_content_wrapper {			background:#badf35;
+			color:#111c55;
+		}	
+			.olg_body .credits_btn {			color: #111c55;
+		}	
+	
+	
+</style>
+	
+
+        
+    
+                
+    
+                
+    
+                
+    
+                
+    
+                            
+    
+                            
+    
+                            
+    
+                        <div id="breadcrumbs">
+        <div class="amnh_width">
+            <div class="inner">
+                <h1>
+                                            <a href="/explore/ology/earth">
+            				                                
+Earth                                                    </a>
+                                            >                        <a href="/explore/ology/earth/ask-a-scientist-about-our-environment">
+            				                                
+Ask a Scientist About Our Environment                                                    </a>
+                                            >                        <a href="/explore/ology/earth/ask-a-scientist-about-our-environment/will-the-world-ever-be-all-under-water">
+            				                                
+Will the world ever be all under water?                                                    </a>
+                                                            </h1>
+            </div>
+        </div>
+    </div>
+	<div class="olg_feature_wrapper ">
+		<div class="inner"><!--
+			
+			
+							
+													
+										--><div class="amnh_width"><!--
+																					
+																								
+											--><!--
+--><div class="ology_zone amnh_width squeezer aftermargin  " id="node-214131">
+	<div class="inner"><!--
+					
+						
+						        --><!--
+--><div class="ology_block full_width titlequestion  " id="node-210614">
+	<div class="inner">
+		<div class="ology_story_block">
+			
+			
+							
+
+
+		<style>
+    	
+    	#story-208464 .left_custom_width {            width: 85px;
+        }    	    		
+    		#story-208464 .left_custom_margin {                margin-left: 85px;
+            }    		</style>	
+		
+
+
+<div class="ology_story" id="story-208464"><!--
+	
+	
+		
+		
+	        
+                --><div class="story_img_caption left_custom_width ology_block">
+        		<div class="story_img ">
+        			<div class="inner">
+        				        					
+
+
+    
+        
+            
+                                                    
+                
+                    
+                        
+
+                                                
+                        
+                        
+                                                                                                                                                                                    
+                                                                                                                    
+                                                        
+                                                        <img
+                                intent
+                                itemprop="image"
+                                width="146"
+                                height="169"
+                                                                                                                                alt="Blue question mark"
+                                title=""
+                                                                src="/var/ezflow_site/storage/images/media/amnh/images/explore/ology-images/earth/ask-a-scientist-about-the-environment/blue-question-mark/3107545-1-eng-US/blue-question-mark.png"
+                                in-standard-src="/var/ezflow_site/storage/images/media/amnh/images/explore/ology-images/earth/ask-a-scientist-about-the-environment/blue-question-mark/3107545-1-eng-US/blue-question-mark.png"
+                                in-mobile-src="/var/ezflow_site/storage/images/media/amnh/images/explore/ology-images/earth/ask-a-scientist-about-the-environment/blue-question-mark/3107545-1-eng-US/blue-question-mark.png"
+                            >
+                                                    
+                        
+                    
+                
+            
+        
+            					        				        			</div>
+        		</div>
+        		        	</div><!--
+        	
+	
+	
+	
+	
+	    --><div class="story_txt left_custom_margin ology_block ">
+			<div class="inner">
+				
+<p>
+<strong>Will the world ever be all underwater because of all the ice melting?</strong><br /><span class="kidname" style="">—&nbsp;<span class="frances" style="">Hannah H., Grade 6</span></span></p>			</div>
+		</div><!--
+	
+--><div class="clear"></div><!--
+
+--></div>
+
+
+					</div>
+	</div>
+</div><!--
+			--></div>
+</div><!--
+				
+											
+													
+									
+																																										
+											--><!--
+--><div class="ology_zone three_quarter articlebox tablet_vertical-two_third phone_horizontal-full_width" id="node-214897">
+	<div class="inner"><!--
+					
+						
+						        --><!--
+--><div class="ology_block full_width answeredby aftermarginlarge  " id="node-211721">
+	<div class="inner">
+		<div class="ology_story_block">
+			
+			
+							
+
+
+	
+		
+
+
+<div class="ology_story" id="story-209550"><!--
+	
+	
+		
+		
+	
+	
+	
+	
+	
+	    --><div class="story_txt  ">
+			<div class="inner">
+				
+<p>Geologist Ed Mathez answers this question:</p>			</div>
+		</div><!--
+	
+--><div class="clear"></div><!--
+
+--></div>
+
+
+					</div>
+	</div>
+</div><!--
+					
+						
+						        --><!--
+--><div class="ology_block full_width articletext aftermargin  " id="node-214899">
+	<div class="inner">
+		<div class="ology_story_block">
+			
+			
+							
+
+
+	
+		
+
+
+<div class="ology_story" id="story-212736"><!--
+	
+	
+		
+		
+	
+	
+	
+	
+	
+	    --><div class="story_txt  ">
+			<div class="inner">
+				
+<p>Dear Hannah,</p><p>Thank you for your question. The simple answer is no. The whole world will never be underwater. But our coastlines would be very different.</p><p>If all the ice covering 
+<a href="/explore/ology/ology-cards/319-antarctica/(view)/modal"  title="See Antarctica OLogy card" target="_blank" class="OLogyCard">Antarctica</a>
+, Greenland, and in mountain glaciers around the world were to melt, sea level would rise about 70 meters (230 feet). The ocean would cover all the coastal cities. And land area would shrink significantly. But many cities, such as Denver, would survive.</p><p>However, all the ice is not going to melt. The Antarctic ice cap, where most of the ice exists, has survived much warmer times.</p>			</div>
+		</div><!--
+	
+--><div class="clear"></div><!--
+
+--></div>
+
+
+					</div>
+	</div>
+</div><!--
+					
+													
+						        --><!--
+--><div class="ology_block one_quarter articletext aftermargin tablet_vertical-full_width " id="node-214900">
+	<div class="inner">
+		<div class="ology_story_block">
+			
+			
+							
+
+
+	
+		
+
+
+<div class="ology_story" id="story-212737"><!--
+	
+	
+		
+		
+	
+	
+	
+	
+	
+	    --><div class="story_txt  ">
+			<div class="inner">
+				
+<p>The concern is that portions of the Greenland and West Antarctic ice caps may disappear. We do not know how much or how quickly this could happen, because we do not know exactly how it will happen.</p>			</div>
+		</div><!--
+	
+--><div class="clear"></div><!--
+
+--></div>
+
+
+					</div>
+	</div>
+</div><!--
+					
+													
+						        --><!--
+--><div class="ology_block three_quarter polaroid tablet_vertical-full_width " id="node-214354">
+	<div class="inner">
+		<div class="ology_story_block">
+			
+			
+							
+
+
+		
+		
+
+
+<div class="ology_story" id="story-212187"><!--
+	
+	
+		
+		
+	        
+                --><div class="story_img_caption top_full">
+        		<div class="story_img ">
+        			<div class="inner">
+        				        					
+
+
+    
+        
+            
+                                                    
+                
+                    
+                        
+
+                                                
+                        
+                        
+                                                                                                                                                                                    
+                                                                                                                    
+                                                        
+                                                        <img
+                                intent
+                                itemprop="image"
+                                width="300"
+                                height="200"
+                                                                                                                                alt="ice cap"
+                                title=""
+                                                                src="/var/ezflow_site/storage/images/media/amnh/images/explore/ology-images/earth/ask-a-scientist-about-the-environment/18_ice/3119998-1-eng-US/18_ice.jpg"
+                                in-standard-src="/var/ezflow_site/storage/images/media/amnh/images/explore/ology-images/earth/ask-a-scientist-about-the-environment/18_ice/3119998-1-eng-US/18_ice.jpg"
+                                in-mobile-src="/var/ezflow_site/storage/images/media/amnh/images/explore/ology-images/earth/ask-a-scientist-about-the-environment/18_ice/3119998-1-eng-US/18_ice.jpg"
+                            >
+                                                    
+                        
+                    
+                
+            
+        
+            					        				        			</div>
+        		</div>
+        		        	</div><!--
+        	
+	
+	
+	
+	
+	    --><div class="story_txt  ">
+			<div class="inner">
+				
+<p>Scientists are studying exactly how ice caps disappear.</p>			</div>
+		</div><!--
+	
+--><div class="clear"></div><!--
+
+--></div>
+
+
+					</div>
+	</div>
+</div><!--
+					
+						
+						        --><!--
+--><div class="ology_block full_width articletext aftermarginlarge  " id="node-214901">
+	<div class="inner">
+		<div class="ology_story_block">
+			
+			
+							
+
+
+	
+		
+
+
+<div class="ology_story" id="story-212738"><!--
+	
+	
+		
+		
+	
+	
+	
+	
+	
+	    --><div class="story_txt  ">
+			<div class="inner">
+				
+<p>That's because the ice doesn't just melt. Ice actually flows down valleys like rivers of 
+<a href="/explore/ology/ology-cards/291-water/(view)/modal"  title="See water OLogy card" target="_blank" class="OLogyCard">water</a>
+. The problem is that we do not completely understand the factors that control how rapidly the ice flows and thus enters the ocean.</p><p>One way to approach the problem of not understanding the process is to study how sea level changed in the past. 
+<a href="/explore/ology/ology-cards/050-earth/(view)/modal"  title="See Earth OLogy card" target="_blank" class="OLogyCard">Earth</a>
+&nbsp;is nearly as warm now as it was during the last interglacial period, about 125,000 years ago. At that time, sea level was 4 to 6 meters (13-20 feet) higher. It seems that this higher sea level was due to the melting Greenland and West Antarctic ice caps.&nbsp;</p><p>Perhaps a similar sea level rise is our future. We don't know. We also don't know how rapidly sea level could rise. Will a 4-meter (13-foot) increase take 200, 500, or even 1,000 years? This is a question that a number of scientists are now trying to answer by studying how ice moves.</p>			</div>
+		</div><!--
+	
+--><div class="clear"></div><!--
+
+--></div>
+
+
+					</div>
+	</div>
+</div><!--
+					
+						
+						        --><!--
+--><div class="ology_block full_width articletext  " id="node-214902">
+	<div class="inner">
+		<div class="ology_story_block">
+			
+			
+							
+
+
+	
+		
+
+
+<div class="ology_story" id="story-212739"><!--
+	
+	
+		
+		
+	
+	
+	
+	
+	
+	    --><div class="story_txt  ">
+			<div class="inner">
+				
+<p><span class="extrassubhead" style="">Explore More:</span></p>
+<ul>
+
+<li>In this video, kids talk about how&nbsp;<strong><a href="/explore/ology/biodiversity/nature-s-superheroes/the-sea-ice-is-melting" target="_self">The&nbsp;Sea Ice is Melting!</a></strong>&nbsp;and what you can do about it.&nbsp;</li>
+
+<li>Explore how scientists are studying geologic records of past warming to predict future ice loss and sea level rise in the video,&nbsp;<strong><a href="https://www.amnh.org/explore/science-bulletins/(watch)/earth/documentaries/melting-ice-rising-seas" target="_self">Melting Ice, Rising Seas</a></strong>.</li>
+
+</ul>
+<p>&nbsp;</p>			</div>
+		</div><!--
+	
+--><div class="clear"></div><!--
+
+--></div>
+
+
+					</div>
+	</div>
+</div><!--
+			--></div>
+</div><!--
+				
+											
+													
+									
+																																										
+											--><!--
+--><div class="ology_zone one_quarter profilebox tablet_vertical-one_third phone_horizontal-full_width" id="node-214325">
+	<div class="inner"><!--
+					
+						
+						        --><!--
+--><div class="ology_block full_width profiletext  " id="node-211054">
+	<div class="inner">
+		<div class="ology_story_block">
+			
+			
+							
+
+
+		
+		
+				
+
+<div class="ology_story" id="story-208893"><!--
+	
+	
+		
+		
+	        
+                --><div class="story_img_caption top_full phone_horizontal-right_half">
+        		<div class="story_img ">
+        			<div class="inner">
+        				        					
+
+
+    
+        
+            
+                                                    
+                
+                    
+                        
+
+                                                
+                        
+                        
+                                                                                                                                                                                    
+                                                                                                                    
+                                                        
+                                                        <img
+                                intent
+                                itemprop="image"
+                                width="183"
+                                height="140"
+                                                                                                                                alt="Ed Mathez"
+                                title=""
+                                                                src="/var/ezflow_site/storage/images/media/amnh/images/explore/ology-images/earth/ask-a-scientist-about-the-environment/profile_mathez/3110047-1-eng-US/profile_mathez.gif"
+                                in-standard-src="/var/ezflow_site/storage/images/media/amnh/images/explore/ology-images/earth/ask-a-scientist-about-the-environment/profile_mathez/3110047-1-eng-US/profile_mathez.gif"
+                                in-mobile-src="/var/ezflow_site/storage/images/media/amnh/images/explore/ology-images/earth/ask-a-scientist-about-the-environment/profile_mathez/3110047-1-eng-US/profile_mathez.gif"
+                            >
+                                                    
+                        
+                    
+                
+            
+        
+            					        				        			</div>
+        		</div>
+        		        	</div><!--
+        	
+	
+	
+	
+	
+	    --><div class="story_txt  ">
+			<div class="inner">
+				
+<p>
+<span class="profilesubheader" style="">Name:</span> <br />
+<a href="/explore/ology/ology-cards/256-ed-mathez/(view)/modal"  title="See Edmond Mathez OLogy card" target="_blank" class="OLogyCard">Edmond Mathez</a>
+</p><p>
+<span class="profilesubheader" style="">Job Title:</span> <br />Curator, Department of Earth &amp; Planetary Sciences</p><p>
+<span class="profilesubheader" style="">Known For:</span> <br />Ed is a geologist. He researches the origin and composition of&nbsp;
+<a href="/explore/ology/ology-cards/244-igneous-rocks/(view)/modal"  title="See igneous OLogy card" target="_blank" class="OLogyCard">igneous</a>
+ rocks.</p><p>
+<span class="profilesubheader" style="">Cool Fact:</span>&nbsp;<br />Ed has collected rock samples from all over the world, including Greenland and South Africa. He's gone as deep as 2 kilometers (1.2 miles) down into a mine.</p>			</div>
+		</div><!--
+	
+--><div class="clear"></div><!--
+
+--></div>
+
+
+					</div>
+	</div>
+</div><!--
+			--></div>
+</div><!--
+				
+							--></div><!--
+									--></div>
+	</div>
+
+	
+				
+					
+					
+								
+					
+										
+	<div class="related_features_wrapper">
+					<a class="credits_btn" href="#feature_credits">Image credits</a>
+					</div>
+
+    
+	    
+		<div class="feature_credits_wrapper">
+		<div id="feature_credits" class="feature_credits">
+			<h5>Image Credits:</h5>
+							ice caps, courtesy of the United States Antarctic Program; Edmond Mathez, © AMNH.
+					</div>
+	</div>
+            </div>
+
+            <div class="olg_footer_wrapper">
+                    <div class="footer_menu">
+        <a id="ologyFooter" class="visuallyhidden" tabindex="0" title="page footer" aria-label="page footer">Page footer</a>
+              
+        
+        <ul class="menu_list">
+                                
+                        
+            
+                                            
+                                
+                                
+                                        
+                        
+            
+            
+            
+    
+<li class="menu_item " id="menu-241690">
+            <a href="/about/contact/contact-us-form" title="Contact Us" class="menu_link">
+            Contact Us
+        </a>
+    </li>
+                                            
+                        
+            
+                                            
+                                
+                                
+                                        
+                        
+            
+            
+            
+    
+<li class="menu_item " id="menu-241691">
+            <a href="/explore/ology/ology-cards" title="What are OLogy Cards?" class="menu_link">
+            What are OLogy Cards?
+        </a>
+    </li>
+                                            
+                        
+            
+                                            
+                                
+                                
+                                        
+                        
+            
+            
+            
+    
+<li class="menu_item " id="menu-241692">
+            <a href="/explore/ology/for-educators" title="For Educators" class="menu_link">
+            For Educators
+        </a>
+    </li>
+                                            
+                        
+            
+                                            
+                                
+                                
+                                        
+                        
+            
+            
+            
+    
+<li class="menu_item " id="menu-241694">
+            <a href="/explore/ology/credits" title="Credits" class="menu_link">
+            Credits
+        </a>
+    </li>
+                                            
+                        
+            
+                                            
+                                
+                                
+                                        
+                        
+            
+            
+            
+    
+<li class="menu_item " id="menu-241695">
+            <a href="/privacy-policy" title="Privacy Policy" class="menu_link">
+            Privacy Policy
+        </a>
+    </li>
+                                            
+                        
+            
+                                            
+                                
+                                
+                                        
+                        
+            
+            
+            
+    
+<li class="menu_item " id="menu-241696">
+            <a href="/about/copyright" title="Copyright" class="menu_link">
+            Copyright
+        </a>
+    </li>
+                                            
+                        
+            
+                                            
+                                
+                                
+                                        
+                        
+            
+            
+            
+    
+<li class="menu_item last " id="menu-241697">
+            <a href="/explore/ology/sitemap" title="OLogy Sitemap" class="menu_link">
+            OLogy Sitemap
+        </a>
+    </li>
+                                </ul>
+    
+            </div>            </div>
+        </div>
+
+        <script type="text/javascript" src="/var/ezflow_site/cache/public/javascript/d852079998fbb4101ef75e53ba81c3f0_1559243775.js" charset="utf-8"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,419 @@
+
+                
+                                      * Home
+                      * Surprising Science
+                      * Personal Growth
+                      * Mind & Brain
+                      * Sex & Relationships
+                      * Technology & Innovation
+                      * Culture & Religion
+                      * Politics & Current Affairs
+                      * Videos
+                      * Think Again Podcasts
+                      * Big Think Edge
+                      * Sponsored by Pfizer
+                      * Sponsored by Charles Koch Foundation
+                      * Sponsored by the Institute for Humane Studies
+                      * Sponsored by Lumina Foundation
+                      * Sponsored by Northwell Health
+                
+
+![](https://assets.rbl.ms/18799551/2000x.png)
+![](https://assets.rbl.ms/18794643/2000x.png)![](https://assets.rbl.ms/18794643/2000x.png)
+
+Discover
+
+Big Think Edge  
+For You
+
+Big Think Edge  
+For Business
+
+Preview an Edge video
+
+PopularSurprising SciencePersonal GrowthMind & BrainSex &
+RelationshipsTechnology & InnovationCulture & ReligionPolitics & Current
+Affairs
+
+Follow Us
+
+Video
+
+Trending
+
+Sponsored by Charles Koch Foundation
+
+## Criminal reform: Why wake-up calls are windows of opportunity
+
+Sponsored by the Institute for Humane Studies
+
+## Self-command: Learn this powerful thinking tool
+
+Politics & Current Affairs
+
+## Sexual Mores in America
+
+See All Videos >
+
+Podcast
+
+Newsletters
+
+JOIN PREMIUM
+
+SIGN IN
+
+## Subscribe to our Surprising Science newsletter
+
+Surprising Science>
+
+![A DNA helix](https://assets.rbl.ms/19567490/2000x.jpg)
+
+# Can Computers Be Conscious?
+
+##
+
+By studying the neural networks in the brain, scientists have constructed
+computer-based models that mirror the brain's complex biological networks.
+
+Max Miller
+
+28 September, 2010
+
+Computers have seem "mind-like" to people since they were invented in 1950s.
+In the early days they were widely called "electronic brains" for their
+ability to process information. But the similarity between computers and
+brains isn't just superficial: at their most fundamental levels, computers and
+brains process data in a similar binary fashion. Whereas computers use zeros
+and ones to store and manipulate data, the neurons in our brains transmit
+information in binary, on/off spikes known as action potentials. This basic
+similarity is what underlies the burgeoning field of computational
+neuroscience, which hopes to understand how neuronal networks give rise to
+processes like memory and facial recognition so that they might be replicated
+in intelligent machines.
+
+* * *
+
+But artificial intelligence has progressed slower than many had initially
+hoped. Yes, AI may have solved the game of checkers, but this is a far cry
+from being able to simulate consciousness. The central problem remains: we
+have no real understanding of how the brain gives rise to the mind, of how
+neurons and action potentials create consciousness.
+
+Instead of trying to build thinking machines from the ground up, several major
+projects have recently turned to a new approach: replicating virtual brains
+through reverse-engineering. By studying the neural networks in the brain,
+scientists have constructed computer-based models that mirror the brain's
+complex biological networks. In turn, they can then run experiments on these
+these brain-like computers in order to learn about how the brain thinks.
+
+Henry Markram is the South African neuroscientist who heads the Blue Brain
+Project at the Ecole Polytechnique Federale de Lausanne in Switzerland. For 15
+years, Markram and his team collected data from the neocortexes of rats'
+brains with the hopes of integrating it into a 3D model. If they could
+accurately recreate the behaviors and structures of a biological brain, their
+computer simulation should shed light both normal cognition and disorders like
+depression and schizophrenia. In its trial stages the project successfully
+recreated a single neocortical column of a two-week old rat, which contains
+about 10,000 neurons. Of course, this sample is infinitesimally small compared
+to the 100 billion neurons in a human brain. But this project is all a matter
+of scaling. "Technologically, in terms of computers and techniques to acquire
+data, it will be possible to build a model of the human brain within 10
+years," Markram told Discover magazine last year.
+
+But will this full-scale model teach us how to re-create consciousness, or
+perhaps even become conscious itself? "It’s really difficult to say how much
+detail is needed for consciousness to emerge," said Markram. "I do believe
+that consciousness is an emergent phenomenon. It’s like a shift from a liquid
+to a gas ... It’s like a machine that has to run fast enough and suddenly it’s
+flying." In other words, they can't know for sure until the model is finished.
+
+Even if the model can learn and reason, that doesn't guarantee that it will be
+a truly intelligent being. Many people studying AI have equated problem-
+solving with thinking, but thinking is different from reasoning, says Yale
+computer scientist David Gelernter. To demonstrate this, he points to
+daydreaming and free association. "Free association is a kind of thinking
+also. My mind doesn’t shut off, but I’m certainly not solving problems; I’m
+wandering around."
+
+There is general agreement that to be creative is to have the ability to
+invent new analogies. To connect two things that are not obviously related,
+but once you have made the connection, you can see, yeah, there is a
+relationship and other people can see the relationship too and creativity
+flows from that.
+
+Now, we know that the invention of analogy has to do with not highly focused
+analytic problem-solving thought. Creating analogy means connecting thoughts,
+letting your mind drift essentially from one thought to another.
+
+"The field of Artificial Intelligence had studied only the very top end of the
+spectrum and still tends to study only the very top end," says Gelernter. "It
+tends to say, what is thinking? It’s this highly focused, wide awake, alert,
+problem-solving state of mind. But not only is that not the whole story, but
+the problem—the biggest unsolved problem that has tended to haunt philosophy
+of mind, cognitive psychology, and AI—is creativity."
+
+The general consensus is that creativity is the ability to invent new
+analogies, to connect two things that are not obviously related. And this
+invention of analogy relies not on analytic problem-solving thought but on
+letting your mind drift from one thought to another in a sort of free-
+associative state, says Gelernter. "Creativity doesn't operate when your focus
+is high," Gelernter writes in an essay for Edge. "Only when your thoughts have
+started to drift is creativity possible. We find creative solutions to a
+problem when it lingers at the back of our minds, not when it monopolizes
+attention by standing at the front."
+
+So how can computers create new analogies? The answer probably has something
+to do with emotion, says Gelernter. "Emotion is what allows us to take two
+thoughts or ideas that seem very different and connect them together, because
+emotion is a tremendously subtle kind of code or tag that can be attached to a
+very complicated scene." We tend to think of emotions in discrete terms, like
+happy, sad, and angry, but they're really much more subtle than that. "If I
+say, 'What is your emotion on the first really warm day in April or March when
+you go out and you don’t need a coat and you can smell the flowers blooming
+and there may be remnants of snow but you know it’s not going to snow anymore
+and there’s a certain springiness in the air, what do you feel?''" Gelernter
+asks. "It’s not that you feel happy exactly. There are a million kinds of
+happiness. It’s a particular shade of emotion." Though there may not be an
+exact word to describe this nuanced emotion, the mind can recognize it and can
+connect two very different scenes that may have inspired the same emotion.
+
+The other difficulty with emotion—and the reason why computers won't ever be
+able to experience emotions the way humans do—is that they are produced by an
+interaction between the brain and the body working together. "When you feel
+happy, your body feels a certain way, your mind notices, and the resonance
+between body and mind produces an emotion," Gelernter explains. Until
+computers can simulate this experience, they will never be truly intelligent.
+
+**Takeaway**
+
+The field of artificial intelligence has made only modest gains in recent
+decades, but new reverse-engineering projects hope to recreate virtual models
+of the brain. These computer simulations might help cure mental disorders as
+well as shed light on cognition and consciousness. Henry Markram's Blue Brain
+Project has so far only recreated one neocortical column of a rat's brain, but
+Markram believes a full human brain could be simulated within 10 years.
+
+**More Resources**
+
+—Henry Markram's TED talk on the Blue Brain Project
+
+—Information on the FACETS project, another project to simulate the brain's
+neuron networks
+
+* * *
+
+![](https://assets.rbl.ms/19208560/210x.jpg)
+
+Northwell Health
+
+Northwell Health
+
+## 3D printing might save your life one day. It's transforming medicine and
+
+health care.
+
+##
+
+What can 3D printing do for medicine? The "sky is the limit," says Northwell
+Health researcher Dr. Todd Goldstein.
+
+Big Think
+
+29 April, 2019
+
+Northwell Health
+
+Sponsored by Northwell Health
+
+                
+                                      * Medical professionals are currently using 3D printers to create prosthetics and patient-specific organ models that doctors can use to prepare for surgery. 
+                      * Eventually, scientists hope to print patient-specific organs that can be transplanted safely into the human body. 
+                      * Northwell Health, New York State's largest health care provider, is pioneering 3D printing in medicine in three key ways.
+                
+
+Keep reading Show less
+
+health care health science technology future human body medical research
+medicine
+
+* * *
+
+## Dogs mirror stress levels of their owners
+
+##
+
+The owner's personality was the most important factor in examining the stress-
+hormone relationship between pet and owner.
+
+Stephen Johnson
+
+06 June, 2019
+
+Photo credit: Xan Griffin on Unsplash
+
+Surprising Science
+
+                
+                                      * A new study found that dogs and their owners show similar levels of the stress hormone cortisol over time.
+                      * The dog-owner cortisol relationship seems to be related to the owner's personality, as measured by the Big 5 model.
+                      * Ultimately, dog owners needn't worry that they're stressing out their pet; not all cortisol indicates "bad" stress."
+                
+
+Keep reading Show less
+
+psychology animals
+
+* * *
+
+## D-Day 75 years on: Harrowing letters & stories from soldiers
+
+##
+
+Sobering accounts from one of the most pivotal battles in world history.
+
+Stephen Johnson
+
+05 June, 2019
+
+_Getty Images_
+
+Politics & Current Affairs
+
+                
+                                      * On June 6, 1944, Allied forces began the invasion of France.
+                      * World leaders of Allied countries met in England on Wednesday for a memorial service.
+                      * A handful of surviving D-Day veterans were honored at the event; their average age is 96.
+                
+
+Keep reading Show less
+
+military government europe war united states
+
+* * *
+
+## New insights into ​hikikomori​ — people who withdraw from society for
+
+months or years on end
+
+##
+
+What causes people to retreat into their homes indefinitely?
+
+Emma Young
+
+06 June, 2019
+
+Mind & Brain
+
+Hikikomori is a dark term that describes people who stay holed up in their
+homes, or even just their bedrooms, isolated from everyone except their
+family, for many months or years.
+
+Keep reading Show less
+
+mental health introvert depression fear asia psychology
+
+* * *
+
+![smarter faster](https://assets.rbl.ms/18794611/2000x.png)
+
+Big think's weekly newsletter.
+
+Get **smarter faster** from the comfort of your inbox.
+
+See our newsletter privacy policy here
+
+![](https://assets.rbl.ms/18326201/2000x.png)
+
+Most Popular
+
+popular
+
+## Iceland is officially worshiping Norse Gods again
+
+## Why a V-shaped plane may make a whole lot of sense
+
+Technology & Innovation
+
+## The value of owning more books than you can read
+
+Personal Growth
+
+## Walmart sued over how it markets homeopathic products
+
+Politics & Current Affairs
+
+## New research shows that sleep helps determine your personality
+
+Surprising Science
+
+## How to become a millionaire
+
+Technology & Innovation
+
+Most Recent
+
+Surprising Science
+
+## Dogs mirror stress levels of their owners
+
+## German circus uses 3D holograms instead of real animals
+
+Technology & Innovation
+
+## Are we confusing money with well-being? New Zealand's leaders believe so.
+
+Politics & Current Affairs
+
+## 5 new female-led companies achieve billion-dollar status
+
+Technology & Innovation
+
+## Criminal reform: Why wake-up calls are windows of opportunity
+
+Sponsored by Charles Koch Foundation
+
+## YouTube sides with conservative Steven Crowder amid policy updates
+
+Politics & Current Affairs
+
+Big think's weekly newsletter.
+
+Get **smarter faster** from the comfort of your inbox.
+
+See our newsletter privacy policy here
+
+![](https://assets.rbl.ms/18326201/2000x.png)
+
+(C) Copyright 2007-2019 & BIG THINK, BIG THINK EDGE,  
+SMARTER FASTER trademarks owned by The Big Think, Inc. All rights reserved.
+
+![](https://sb.scorecardresearch.com/p?c1=2&c2=30385878&cv=2.0&cj=1)
+
+![Quantcast](//pixel.quantserve.com/pixel/p-s6bb-mNmSf8L8.gif)
+
+![](https://dc.ads.linkedin.com/collect/?pid=966777&fmt=gif)
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication *[C.]: Century
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+

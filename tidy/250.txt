@@ -1,0 +1,14 @@
+Is RAM for Temporary Storage?
+Computers store long-term data in two places: their storage drives, and the read-only memory chips on the motherboards that store firmware. The RAM sticks are for the processor to store the data programs need while they are running, but are unnecessary after you exit the programs. Even though they are only for temporary data, having a sufficient amount of RAM for your computers' workload is essential for them to run properly.
+
+Random Access Memory Random access memory, as its name suggests, is for your computer to store the random data which programs generate and use during the course of their execution. You can think of the RAM as scratch paper for your programs. Just as you throw away scratch paper you use for calculations once you have your final figure, your computer disregards the data it stores in its RAM once the processes are complete.
+
+Limitations RAM is both used for temporary storage, and from a technical perspective it is only capable of temporary storage. The hard drive is capable of storing information after the computer turns off, but RAM is not. Once your computer turns off, any data that was in your RAM sticks is lost.
+
+Overflow Some operating systems, such as UNIX-based systems and Windows, use a special partition set aside on the hard drive called swap space as extra temporary memory. When your computer runs out of space to store temporary data on the RAM sticks, the extra data flows over into the swap space. It takes the processor longer to read data from the hard drive than it does from RAM, but still leads to better performance than the system running out of temporary storage space entirely.
+
+Performance The availability of memory for temporary storage has a huge impact on how your computer operates. The more programs you have running, the more temporary data your computer has to store. When your computer runs out of temporary storage, then certain processes will have to stop until space opens up. You will see this on your computer as sluggish performance and your machine occasionally freezing up. The more RAM your computer has for temporary storage, the smoother the computer will run.
+
+About the Author Micah McDunnigan has been writing on politics and technology since 2007. He has written technology pieces and political op-eds for a variety of student organizations and blogs. McDunnigan earned a Bachelor of Arts in international relations from the University of California, Davis.
+
+Photo Credits Photodisc/Photodisc/Getty Images

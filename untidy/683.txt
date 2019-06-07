@@ -1,0 +1,5842 @@
+
+>
+
+>> # Alternative fuel vehicle
+
+>>
+
+>> From Wikipedia, the free encyclopedia
+
+>>
+
+>> Jump to navigation Jump to search
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/6/61/2019_Toyota_Prius_%28ZVW50R%29_1.8_Hybrid_liftback_%282018-12-19%29_01.jpg/220px-2019_Toyota_Prius_%28ZVW50R%29_1.8_Hybrid_liftback_%282018-12-19%29_01.jpg)
+
+>>
+
+>> The Toyota Prius is the world's top selling hybrid electric vehicle, with
+global sales of almost 4 million units through January 2017.[1]
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Piracicaba_10_2008_151_Gast_station_selling_four_fuels.jpg/220px-
+
+Piracicaba_10_2008_151_Gast_station_selling_four_fuels.jpg)
+
+>>
+
+>> A Brazilian filling station with four alternative fuels for sale: biodiesel
+(B3), gasohol (E25), neat ethanol (E100), and compressed natural gas (CNG).
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/b/be/Volt_charging_station.jpg/220px-
+
+Volt_charging_station.jpg)
+
+>>
+
+>> The Chevrolet Volt family is the world's top selling plug-in hybrid, with
+global sales of about 134,500 units as of December 2016[update].[2]
+
+>>
+
+>> An **alternative fuel vehicle** is a vehicle that runs on a fuel other than
+traditional petroleum fuels (petrol or Diesel fuel); and also refers to any
+technology of powering an engine that does not involve solely petroleum (e.g.
+electric car, hybrid electric vehicles, solar powered). Because of a
+combination of factors, such as environmental concerns, high oil prices and
+the potential for peak oil, development of cleaner alternative fuels and
+advanced power systems for vehicles has become a high priority for many
+governments and vehicle manufacturers around the world.
+
+>>
+
+>> Hybrid electric vehicles such as the Toyota Prius are not actually
+alternative fuel vehicles, but through advanced technologies in the electric
+battery and motor/generator, they make a more efficient use of petroleum
+fuel.[3] Other research and development efforts in alternative forms of power
+focus on developing all-electric and fuel cell vehicles, and even the stored
+energy of compressed air.
+
+>>
+
+>> An environmental analysis extends beyond just the operating efficiency and
+emissions. A life-cycle assessment of a vehicle involves production and post-
+use considerations. A cradle-to-cradle design is more important than a focus
+on a single factor such as the type of fuel.[4][5]
+
+>>
+
+>> ## Contents
+
+>>  
+>>                 >>                       * 1 Global outlook
+
+>>  
+>>                       * 2 Single fuel source
+
+>>  
+>>                         * 2.1 Engine Air Compressor
+
+>>  
+>>                         * 2.2 Battery-electric
+
+>>  
+>>                           * 2.2.1 Solar
+
+>>  
+>>                         * 2.3 Dimethyl ether fuel
+
+>>  
+>>                         * 2.4 Ammonia fuelled vehicles
+
+>>  
+>>                         * 2.5 Biofuels
+
+>>  
+>>                           * 2.5.1 Bioalcohol and ethanol
+
+>>  
+>>                           * 2.5.2 Biodiesel
+
+>>  
+>>                           * 2.5.3 Biogas
+
+>>  
+>>                         * 2.6 Charcoal
+
+>>  
+>>                         * 2.7 Compressed natural gas (CNG)
+
+>>  
+>>                         * 2.8 Formic acid
+
+>>  
+>>                         * 2.9 Hydrogen
+
+>>  
+>>                         * 2.10 Liquid nitrogen car
+
+>>  
+>>                         * 2.11 Liquefied Natural Gas (LNG)
+
+>>  
+>>                         * 2.12 Autogas (LPG)
+
+>>  
+>>                         * 2.13 Steam
+
+>>  
+>>                         * 2.14 Wood gas
+
+>>  
+>>                       * 3 Multiple fuel source
+
+>>  
+>>                         * 3.1 Dual Fuel
+
+>>  
+>>                         * 3.2 Flexible fuel
+
+>>  
+>>                         * 3.3 Hybrids
+
+>>  
+>>                           * 3.3.1 Hybrid electric vehicle
+
+>>  
+>>                           * 3.3.2 Plug-in hybrid electric vehicle
+
+>>  
+>>                           * 3.3.3 Pedal-assisted electric hybrid vehicle
+
+>>  
+>>                       * 4 Comparative assessment of fossil and alternative
+fuels
+
+>>  
+>>                       * 5 See also
+
+>>  
+>>                       * 6 References
+
+>>  
+>>                       * 7 External links
+
+>>  
+>>
+
+>> ## Global outlook[edit]
+
+>>
+
+>> As of 2017[update], there were more than 1.4 billion motor vehicles on the
+world's roads,[6] compared with just more than 116 million alternative fuel
+and advanced technology vehicles that had been sold or converted worldwide at
+the end of 2016 and consisting of:
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/BSB_03_2013_Hyundai_HB20_Flex_6208_w_flex_badge.jpg/220px-
+
+BSB_03_2013_Hyundai_HB20_Flex_6208_w_flex_badge.jpg)
+
+>>
+
+>> Brazil is the world's leader in flexible-fuel car sales, with cumulative
+sales totalling 25.5 million units as of June 2015[update] .[7]
+
+>>  
+>>                 >>                       * About 55 million flex fuel
+automobiles, motorcycles and light
+
+>>  
+>>
+
+>> duty trucks manufactured and sold worldwide by mid 2015, led by Brazil with
+29.5 million by mid 2015,[7][8] followed by the United States with 17.4
+million by the end of 2014,[9] Canada with about 1.6 million by 2014,[10] and
+Sweden with 243,100 through December 2014.[11][12][13] The Brazilian flex fuel
+fleet includes over 4 million flexible-fuel motorcycles produced since 2009
+through March 2015.[8]
+
+>>  
+>>                 >>                       * 22.7 million natural gas
+vehicles as of August 2015[update], led
+
+>>  
+>>
+
+>> by China (4.4 million) Iran with 4.00 million, followed by Pakistan (3.70
+million), Argentina (2.48 million), India (1.80 million) and Brazil (1.78
+million).[14]
+
+>>  
+>>                 >>                       * 24.9 million LPG powered
+vehicles by December 2013, led by
+
+>>  
+>>
+
+>> Turkey with 3.93 million, South Korea (2.4 million), and Poland (2.75
+million).[15]
+
+>>  
+>>                 >>                       * More than 12 million hybrid
+electric vehicles have been sold
+
+>>  
+>>
+
+>> worldwide.[1][16] As of April 2016[update], Japan ranked as the market
+leader with more than 5 million hybrids sold, followed by the United States
+with cumulative sales of over 4 million units since 1999, and Europe with
+about 1.5 million hybrids delivered since 2000.[16] As of January
+2017[update], global sales are by Toyota Motor Company with more than 10
+million Lexus and Toyota hybrids sold,[1] followed by Honda Motor Co., Ltd.
+with cumulative global sales of more than 1.35 million hybrids as of June
+2014[update].[17][18][19] As of January 2017[update], global hybrid sales are
+led by the Prius family, with cumulative sales of 6.1 million units.[1] The
+Toyota Prius liftback is the world's top selling hybrid electric car with
+cumulative sales of 3.985 million units through January 2017.[1]
+
+>>  
+>>                 >>                       * 5.7 million neat-ethanol only
+light-vehicles built in Brazil
+
+>>  
+>>
+
+>> since 1979,[20] with 2.4 to 3.0 million vehicles still in use by
+2003.[21][22] and 1.22 million units as of December 2011.[23]
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/9/94/2014_Tesla_Model_S_in_Germany.jpg/220px-2014_Tesla_Model_S_in_Germany.jpg)
+
+>>
+
+>> The Tesla Model S all-electric car is the world's second best-selling plug-
+in electric car with more than 150,000 units sold as of December
+2016[update].[2]
+
+>>  
+>>                 >>                       * More than 4 million highway-
+legal plug-in electric passenger
+
+>>  
+>>
+
+>> cars and light utility vehicles had been sold worldwide at the end of
+September 2018.[24] Cumulative global sales of all-electric cars and vans
+passed the 1 million unit milestone in September 2016.[25] As of September
+2018[update], the Nissan Leaf is the world's all-time top selling highway-
+capable plug-in electric car, with global sales of over 350,000 units since
+its inception.[26] As of December 2016[update], ranking second was the all-
+electric Tesla Model S with about over 158,000 units, followed by the
+Chevrolet Volt plug-in hybrid, which together with its sibling the
+Opel/Vauxhall Ampera has combined global sales of about 134,500 units, and the
+Mitsubishi Outlander P-HEV, with global sales of about 119,500 units.[2]
+
+>>  
+>>                 >>                 As of September 2018[update], China has
+the world's largest stock of
+
+>>  
+>>
+
+>> highway legal plug-in electric passenger cars with cumulative sales of
+almost 2 million units.[27] Among country markets, the United States ranks
+second with 1 million plug-in electric cars sold through September
+2018.[28]Cumulative sales of highway legal plug-in electric cars and vans in
+Europe achieved the one million unit milestone in June 2018.[29] As of
+September 2018[update], sales in the European light-duty plug-in electric
+segment are led by Norway with almost 275,000 units registered.[30] China is
+the world's leader in the plug-in heavy-duty segment, including electric all-
+electric buses, and plug-in commercial and sanitation trucks. The stock of new
+energy vehicles sold in China totaled 2.21 million units up until September
+2018.[27] As of December 2015[update], China was the world's largest plug-in
+electric bus market with a stock of almost 173,000 vehicles.[31]
+
+>>
+
+>> ## Single fuel source[edit]
+
+>>
+
+>> ### Engine Air Compressor[edit]
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Peugeot_2008_HYbrid_air_SAO_2014_0299.JPG/220px-
+
+Peugeot_2008_HYbrid_air_SAO_2014_0299.JPG)
+
+>>
+
+>> The Peugeot 2008 HYbrid air prototype replaced conventional hybrid
+batteries with a compressed air propulsion system
+
+>>
+
+>> ![](//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-
+
+new.svg/50px-Question_book-new.svg.png)
+
+>>
+
+>> |
+
+>>
+
+>> This article **needs additional citations forverification**. Please help
+improve this article by adding citations to reliable sources. Unsourced
+material may be challenged and removed.  
+>  _Find sources:_ "Alternative fuel vehicle" – news **·** newspapers **·**
+books **·** scholar **·** JSTOR _( September 2008)_ _(Learn how and when to
+remove this template message)_
+
+>>
+
+>> ---|---
+
+>>
+
+>> Main articles: Compressed-air engine, Compressed-air vehicle, and
+Compressed-air car
+
+>>
+
+>> The air engine is an emission-free piston engine that uses compressed air
+as a source of energy. The first compressed air car was invented by a French
+engineer named Guy Nègre. The expansion of compressed air may be used to drive
+the pistons in a modified piston engine. Efficiency of operation is gained
+through the use of environmental heat at normal temperature to warm the
+otherwise cold expanded air from the storage tank. This non-adiabatic
+expansion has the potential to greatly increase the efficiency of the machine.
+The only exhaust is cold air (−15 °C), which could also be used to air
+condition the car. The source for air is a pressurized carbon-fiber tank. Air
+is delivered to the engine via a rather conventional injection system. Unique
+crank design within the engine increases the time during which the air charge
+is warmed from ambient sources and a two-stage process allows improved heat
+transfer rates.
+
+>>
+
+>> ### Battery-electric[edit]
+
+>>
+
+>> ![](//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-
+
+new.svg/50px-Question_book-new.svg.png)
+
+>>
+
+>> |
+
+>>
+
+>> This article **needs additional citations forverification**. Please help
+improve this article by adding citations to reliable sources. Unsourced
+material may be challenged and removed.  
+>  _Find sources:_ "Alternative fuel vehicle" – news **·** newspapers **·**
+books **·** scholar **·** JSTOR _( September 2008)_ _(Learn how and when to
+remove this template message)_
+
+>>
+
+>> ---|---
+
+>>
+
+>> Main articles: Battery electric vehicle and Electric car
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/4/48/EV1_%286%29.jpg/220px-
+
+EV1_%286%29.jpg)
+
+>>
+
+>> General Motors EV1 electric car.
+
+>>
+
+>> Battery electric vehicles (BEVs), also known as all-electric vehicles
+(AEVs), are electric vehicles whose main energy storage is in the chemical
+energy of batteries. BEVs are the most common form of what is defined by the
+California Air Resources Board (CARB) as zero emission vehicle (ZEV) because
+they produce no tailpipe emissions at the point of operation. The electrical
+energy carried on board a BEV to power the motors is obtained from a variety
+of battery chemistries arranged into battery packs. For additional range
+genset trailers or pusher trailers are sometimes used, forming a type of
+hybrid vehicle. Batteries used in electric vehicles include "flooded" lead-
+acid, absorbed glass mat, NiCd, nickel metal hydride, Li-ion, Li-poly and
+zinc-air batteries.
+
+>>
+
+>> Attempts at building viable, modern battery-powered electric vehicles began
+in the 1950s with the introduction of the first modern (transistor controlled)
+electric car – the Henney Kilowatt, even though the concept was out in the
+market since 1890. Despite the poor sales of the early battery-powered
+vehicles, development of various battery-powered vehicles continued through
+the mid-1990s, with such models as the General Motors EV1 and the Toyota RAV4
+EV.
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/2018_Nissan_Leaf_Tekna_Front.jpg/220px-2018_Nissan_Leaf_Tekna_Front.jpg)
+
+>>
+
+>> The Nissan Leaf is the world's top selling highway-capable all-electric
+car. The Leaf achieved the milestone of 250,000 units sold globally in
+December 2016.[32]
+
+>>
+
+>> Battery powered cars had primarily used lead-acid batteries and NiMH
+batteries. Lead-acid batteries' recharge capacity is considerably reduced if
+they're discharged beyond 75% on a regular basis, making them a less-than-
+ideal solution. NiMH batteries are a better choice[ _citation needed_ ], but
+are considerably more expensive than lead-acid. Lithium-ion battery powered
+vehicles such as the Venturi Fetish and the Tesla Roadster have recently
+demonstrated excellent performance and range, and nevertheless is used in most
+mass production models launched since December 2010.
+
+>>
+
+>> As of December 2015[update], several neighborhood electric vehicles, city
+electric cars and series production highway-capable electric cars and utility
+vans have been made available for retails sales, including Tesla Roadster, GEM
+cars, Buddy, Mitsubishi i MiEV and its rebadged versions Peugeot iOn and
+Citroën C-Zero, Chery QQ3 EV, JAC J3 EV, Nissan Leaf, Smart ED, Mia electric,
+BYD e6, Renault Kangoo Z.E., Bolloré Bluecar, Renault Fluence Z.E., Ford Focus
+Electric, BMW ActiveE, Renault Twizy, Tesla Model S, Honda Fit EV, RAV4 EV
+second generation, Renault Zoe, Mitsubishi Minicab MiEV, Roewe E50, Chevrolet
+Spark EV, Fiat 500e, BMW i3, Volkswagen e-Up!, Nissan e-NV200, Volkswagen
+e-Golf, Mercedes-Benz B-Class Electric Drive, Kia Soul EV, BYD e5, and Tesla
+Model X.[33] The world's all-time top selling highway legal electric car is
+the Nissan Leaf, released in December 2010, with global sales of more than
+250,000 units through December 2016.[32] The Tesla Model S, released in June
+2012, ranks second with global sales of over 158,000 cars delivered as of
+December 2016[update].[32] The Renault Kangoo Z.E. utility van is the leader
+of the light-duty all-electric segment with global sales of 25,205 units
+through December 2016.[34]
+
+>>
+
+>> #### Solar[edit]
+
+>>
+
+>> ![](//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-
+
+new.svg/50px-Question_book-new.svg.png)
+
+>>
+
+>> |
+
+>>
+
+>> This article **needs additional citations forverification**. Please help
+improve this article by adding citations to reliable sources. Unsourced
+material may be challenged and removed.  
+>  _Find sources:_ "Alternative fuel vehicle" – news **·** newspapers **·**
+books **·** scholar **·** JSTOR _( September 2008)_ _(Learn how and when to
+remove this template message)_
+
+>>
+
+>> ---|---
+
+>>
+
+>> See also: Solar vehicle, Solar car racing, and List of solar car teams
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Nuna3Team.JPG/200px-
+
+Nuna3Team.JPG)
+
+>>
+
+>> Nuna team at a racecourse.
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/2/26/Nuna3atZandvoort1.JPG/200px-
+
+Nuna3atZandvoort1.JPG)
+
+>>
+
+>> Nuna solar powered car, which has travelled up to 140km/h (84mph).
+
+>>
+
+>> A solar car is an electric vehicle powered by solar energy obtained from
+solar panels on the car. Solar panels cannot currently be used to directly
+supply a car with a suitable amount of power at this time, but they can be
+used to extend the range of electric vehicles. They are raced in competitions
+such as the World Solar Challenge and the North American Solar Challenge.
+These events are often sponsored by Government agencies such as the United
+States Department of Energy keen to promote the development of alternative
+energy technology such as solar cells and electric vehicles. Such challenges
+are often entered by universities to develop their students engineering and
+technological skills as well as motor vehicle manufacturers such as GM and
+Honda.
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Trev_solar_car.png/200px-
+
+Trev_solar_car.png)
+
+>>
+
+>> Trev's battery lasts over 250,000 kilometres.
+
+>>
+
+>> The North American Solar Challenge is a solar car race across North
+America. Originally called Sunrayce, organized and sponsored by General Motors
+in 1990, it was renamed American Solar Challenge in 2001, sponsored by the
+United States Department of Energy and the National Renewable Energy
+Laboratory. Teams from universities in the United States and Canada compete in
+a long distance test of endurance as well as efficiency, driving thousands of
+miles on regular highways.
+
+>>
+
+>> Nuna is the name of a series of manned solar powered vehicles that won the
+World solar challenge in Australia three times in a row, in 2001 (Nuna 1 or
+just Nuna), 2003 (Nuna 2) and 2005 (Nuna 3). The Nunas are built by students
+of the Delft University of Technology.
+
+>>
+
+>> The World solar challenge is a solar powered car race over 3,021 kilometres
+(1,877 mi) through central Australia from Darwin to Adelaide. The race
+attracts teams from around the world, most of which are fielded by
+universities or corporations although some are fielded by high schools.
+
+>>
+
+>> Trev (two-seater renewable energy vehicle) was designed by the staff and
+students at the University of South Australia. Trev was first displayed at the
+2005 World Solar Challenge as the concept of a low-mass, efficient commuter
+car. With 3 wheels and a mass of about 300 kg, the prototype car had maximum
+speed of 120 km/h and acceleration of 0–100 km/h in about 10 seconds. The
+running cost of Trev is projected to be less than 1/10 of the running cost of
+a small petrol car.
+
+>>
+
+>> ### Dimethyl ether fuel[edit]
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Chemrec_5_-_small.JPG/220px-
+
+Chemrec_5_-_small.JPG)
+
+>>
+
+>> Installation of BioDME synthesis towers at Chemrec's pilot facility
+
+>>
+
+>> Dimethyl ether (DME) is a promising fuel in diesel engines,[35] petrol
+engines (30% DME / 70% LPG), and gas turbines owing to its high cetane number,
+which is 55, compared to diesel's, which is 40–53.[36][37] Only moderate
+modification are needed to convert a diesel engine to burn DME. The simplicity
+of this short carbon chain compound leads during combustion to very low
+emissions of particulate matter, NOx, CO. For these reasons as well as being
+sulfur-free, DME meets even the most stringent emission regulations in Europe
+(EURO5), U.S. (U.S. 2010), and Japan (2009 Japan).[38] Mobil is using DME in
+their methanol to gasoline process.
+
+>>
+
+>> DME is being developed as a synthetic second generation biofuel (BioDME),
+which can be manufactured from lignocellulosic biomass.[39] Currently the EU
+is considering BioDME in its potential biofuel mix in 2030;[40] the Volvo
+Group is the coordinator for the European Community Seventh Framework
+Programme project BioDME[41][42] where Chemrec's BioDME pilot plant based on
+black liquor gasification is nearing completion in Piteå, Sweden.[43]
+
+>>
+
+>> ### Ammonia fuelled vehicles[edit]
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/6/65/AmmoniacalGasEngineStreetcarARWaud.jpeg/220px-
+
+AmmoniacalGasEngineStreetcarARWaud.jpeg)
+
+>>
+
+>> Ammoniacal Gas Engine Streetcar in New Orleans drawn by Alfred Waud in
+1871.
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/8/82/X-15.jpg/220px-X-15.jpg)
+
+>>
+
+>> The X-15 aircraft used ammonia as one component fuel of its rocket engine
+
+>>
+
+>> Ammonia is produced by combining gaseous hydrogen with nitrogen from the
+air. Large-scale ammonia production uses natural gas for the source of
+hydrogen. Ammonia was used during World War II to power buses in Belgium, and
+in engine and solar energy applications prior to 1900. Liquid ammonia also
+fuelled the Reaction Motors XLR99 rocket engine, that powered the X-15
+hypersonic research aircraft. Although not as powerful as other fuels, it left
+no soot in the reusable rocket engine and its density approximately matches
+the density of the oxidizer, liquid oxygen, which simplified the aircraft's
+design.
+
+>>
+
+>> Ammonia has been proposed as a practical alternative to fossil fuel for
+internal combustion engines.[44] The calorific value of ammonia is 22.5 MJ/kg
+(9690 BTU/lb), which is about half that of diesel. In a normal engine, in
+which the water vapour is not condensed, the calorific value of ammonia will
+be about 21% less than this figure. It can be used in existing engines with
+only minor modifications to carburettors/injectors.
+
+>>
+
+>> If produced from coal, the CO2 can be readily sequestered[44][45] (the
+combustion products are nitrogen and water).
+
+>>
+
+>> Ammonia engines or ammonia motors, using ammonia as a working fluid, have
+been proposed and occasionally used.[46] The principle is similar to that used
+in a fireless locomotive, but with ammonia as the working fluid, instead of
+steam or compressed air. Ammonia engines were used experimentally in the 19th
+century by Goldsworthy Gurney in the UK and in streetcars in New Orleans. In
+1981 a Canadian company converted a 1981 Chevrolet Impala to operate using
+ammonia as fuel.[47][48]
+
+>>
+
+>> Ammonia and GreenNH3 is being used with success by developers in
+Canada,[49] since it can run in spark ignited or diesel engines with minor
+modifications, also the only green fuel to power jet engines, and despite its
+toxicity is reckoned to be no more dangerous than petrol or LPG.[50] It can be
+made from renewable electricity, and having half the density of petrol or
+diesel can be readily carried in sufficient quantities in vehicles. On
+complete combustion it has no emissions other than nitrogen and water vapour.
+The combustion chemical formula is 4 NH3 + 3 O2 → 2 N2 + 6 H2O, 75% water is
+the result.
+
+>>
+
+>> ### Biofuels[edit]
+
+>>
+
+>> Main article: Biofuel
+
+>>
+
+>> #### Bioalcohol and ethanol[edit]
+
+>>
+
+>> See also: Alcohol fuel, Ethanol fuel, Methanol economy, Methanol fuel,
+Common ethanol fuel mixtures, Flexible-fuel vehicle, E85, and Biobutanol
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/1/15/Late_model_Ford_Model_T.jpg/220px-
+
+Late_model_Ford_Model_T.jpg)
+
+>>
+
+>> The Ford Model T was the first commercial flex-fuel vehicle. The engine was
+capable of running on gasoline or ethanol, or a mix of both.
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Wiki_cars1_005.jpg/220px-
+
+Wiki_cars1_005.jpg)
+
+>>
+
+>> The 1996 Ford Taurus was the first flexible-fuel vehicle produced with
+versions capable of running with either ethanol (E85) or methanol (M85)
+blended with gasoline.
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/3/36/BSB_Flex_cars_190_09_2008_Gol_TotalFlex_1_6_2003.jpg/220px-
+
+BSB_Flex_cars_190_09_2008_Gol_TotalFlex_1_6_2003.jpg)
+
+>>
+
+>> The 2003 VW Gol 1.6 Total Flex was the first commercial flexible-fuel
+vehicle in the Brazilian market, capable of running on any mixture of gasoline
+(E20 to E25 blend) and ethanol (E100).
+
+>>
+
+>> The first commercial vehicle that used ethanol as a fuel was the Ford Model
+T, produced from 1908 through 1927. It was fitted with a carburetor with
+adjustable jetting, allowing use of gasoline or ethanol, or a combination of
+both.[51][52][53] Other car manufactures also provided engines for ethanol
+fuel use.[54] In the United States, alcohol fuel was produced in corn-alcohol
+stills until Prohibition criminalized the production of alcohol in 1919. The
+use of alcohol as a fuel for internal combustion engines, either alone or in
+combination with other fuels, lapsed until the oil price shocks of the 1970s.
+Furthermore, additional attention was gained because of its possible
+environmental and long-term economical advantages over fossil fuel.
+
+>>
+
+>> Both ethanol and methanol have been used as an automotive fuel.[55] While
+both can be obtained from petroleum or natural gas, ethanol has attracted more
+attention because it is considered a renewable resource, easily obtained from
+sugar or starch in crops and other agricultural produce such as grain,
+sugarcane, sugar beets or even lactose. Since ethanol occurs in nature
+whenever yeast happens to find a sugar solution such as overripe fruit, most
+organisms have evolved some tolerance to ethanol, whereas methanol is toxic.
+Other experiments involve butanol, which can also be produced by fermentation
+of plants. Support for ethanol comes from the fact that it is a biomass fuel,
+which addresses climate change and greenhouse gas emissions, though these
+benefits are now highly debated,[54][56] [57] [58] including the heated 2008
+food vs fuel debate.
+
+>>
+
+>> Most modern cars are designed to run on gasoline are capable of running
+with a blend from 10% up to 15% ethanol mixed into gasoline (E10-E15). With a
+small amount of redesign, gasoline-powered vehicles can run on ethanol
+concentrations as high as 85% (E85), the maximum set in the United States and
+Europe due to cold weather during the winter,[59] or up to 100% (E100) in
+Brazil, with a warmer climate. Ethanol has close to 34% less energy per volume
+than gasoline,[60][61] consequently fuel economy ratings with ethanol blends
+are significantly lower than with pure gasoline, but this lower energy content
+does not translate directly into a 34% reduction in mileage, because there are
+many other variables that affect the performance of a particular fuel in a
+particular engine, and also because ethanol has a higher octane rating which
+is beneficial to high compression ratio engines.
+
+>>
+
+>> For this reason, for pure or high ethanol blends to be attractive for
+users, its price must be lower than gasoline to offset the lower fuel economy.
+As a rule of thumb, Brazilian consumers are frequently advised by the local
+media to use more alcohol than gasoline in their mix only when ethanol prices
+are 30% lower or more than gasoline, as ethanol price fluctuates heavily
+depending on the results and seasonal harvests of sugar cane and by
+region.[62][63] In the US, and based on EPA tests for all 2006 E85 models, the
+average fuel economy for E85 vehicles was found 25.56% lower than unleaded
+gasoline.[54] The EPA-rated mileage of current American flex-fuel vehicles[64]
+could be considered when making price comparisons, though E85 has octane
+rating of about 104 and could be used as a substitute for premium gasoline.
+Regional retail E85 prices vary widely across the US, with more favorable
+prices in the Midwest region, where most corn is grown and ethanol produced.
+In August 2008 the US average spread between the price of E85 and gasoline was
+16.9%, while in Indiana was 35%, 30% in Minnesota and Wisconsin, 19% in
+Maryland, 12 to 15% in California, and just 3% in Utah.[65] Depending of the
+vehicle capabilities, the break even price of E85 usually has to be between 25
+and 30% lower than gasoline.[54]
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/E85_fuel_pump_7562_DCA_09_2009.jpg/220px-E85_fuel_pump_7562_DCA_09_2009.jpg)
+
+>>
+
+>> E85 fuel sold at a regular gasoline station in Washington, D.C..
+
+>>
+
+>> Reacting to the high price of oil and its growing dependence on imports, in
+1975 Brazil launched the Pro-alcool program, a huge government-subsidized
+effort to manufacture ethanol fuel (from its sugar cane crop) and ethanol-
+powered automobiles. These ethanol-only vehicles were very popular in the
+1980s, but became economically impractical when oil prices fell – and sugar
+prices rose – late in that decade. In May 2003 Volkswagen built for the first
+time a commercial ethanol flexible fuel car, the Gol 1.6 Total Flex. These
+vehicles were a commercial success and by early 2009 other nine Brazilian
+manufacturers are producing flexible fuel vehicles: Chevrolet, Fiat, Ford,
+Peugeot, Renault, Honda, Mitsubishi, Toyota, Citroën, and Nissan.[20][66] The
+adoption of the flex technology was so rapid, that flexible fuel cars reached
+87.6% of new car sales in July 2008.[67] As of August 2008, the fleet of
+"flex" automobiles and light commercial vehicles had reached 6 million new
+vehicles sold,[68] representing almost 19% of all registered light
+vehicles.[69] The rapid success of "flex" vehicles, as they are popularly
+known, was made possible by the existence of 33,000 filling stations with at
+least one ethanol pump available by 2006, a heritage of the _Pro-alcool_
+program.[70][71]
+
+>>
+
+>> In the United States, initial support to develop alternative fuels by the
+government was also a response to the 1973 oil crisis, and later on, as a goal
+to improve air quality. Also, liquid fuels were preferred over gaseous fuels
+not only because they have a better volumetric energy density but also because
+they were the most compatible fuels with existing distribution systems and
+engines, thus avoiding a big departure from the existing technologies and
+taking advantage of the vehicle and the refueling infrastructure.[55]
+California led the search of sustainable alternatives with interest in
+methanol.[55] In 1996, a new FFV Ford Taurus was developed, with models fully
+capable of running either methanol or ethanol blended with gasoline.[55][72]
+This ethanol version of the Taurus was the first commercial production of an
+E85 FFV.[73] The momentum of the FFV production programs at the American car
+companies continued, although by the end of the 90's, the emphasis was on the
+FFV E85 version, as it is today.[55] Ethanol was preferred over methanol
+because there is a large support in the farming community and thanks to
+government's incentive programs and corn-based ethanol subsidies.[74] Sweden
+also tested both the M85 and the E85 flexifuel vehicles, but due to
+agriculture policy, in the end emphasis was given to the ethanol flexifuel
+vehicles.[75]
+
+>>
+
+>> #### Biodiesel[edit]
+
+>>
+
+>> ![](//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-
+
+new.svg/50px-Question_book-new.svg.png)
+
+>>
+
+>> |
+
+>>
+
+>> This article **needs additional citations forverification**. Please help
+improve this article by adding citations to reliable sources. Unsourced
+material may be challenged and removed.  
+>  _Find sources:_ "Alternative fuel vehicle" – news **·** newspapers **·**
+books **·** scholar **·** JSTOR _( September 2008)_ _(Learn how and when to
+remove this template message)_
+
+>>
+
+>> ---|---
+
+>>
+
+>> Main article: Biodiesel
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Soybeanbus.jpg/200px-
+
+Soybeanbus.jpg)
+
+>>
+
+>> Bus running on soybean biodiesel
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Biodiesel_B20_pump_DCA_07_2010_9832.jpg/200px-
+
+Biodiesel_B20_pump_DCA_07_2010_9832.jpg)
+
+>>
+
+>> Biodiesel (B20) pump in the U.S.
+
+>>
+
+>> The main benefit of Diesel combustion engines is that they have a 44% fuel
+burn efficiency; compared with just 25–30% in the best gasoline engines.[76]
+In addition diesel fuel has slightly higher Energy Density by volume than
+gasoline. This makes Diesel engines capable of achieving much better fuel
+economy than gasoline vehicles.
+
+>>
+
+>> Biodiesel (Fatty acid methyl ester), is commercially available in most
+oilseed-producing states in the United States. As of 2005, it is somewhat more
+expensive than fossil diesel, though it is still commonly produced in
+relatively small quantities (in comparison to petroleum products and ethanol).
+Many farmers who raise oilseeds use a biodiesel blend in tractors and
+equipment as a matter of policy, to foster production of biodiesel and raise
+public awareness. It is sometimes easier to find biodiesel in rural areas than
+in cities. Biodiesel has lower Energy Density than fossil diesel fuel, so
+biodiesel vehicles are not quite able to keep up with the fuel economy of a
+fossil fuelled diesel vehicle, if the diesel injection system is not reset for
+the new fuel. If the injection timing is changed to take account of the higher
+Cetane value of biodiesel, the difference in economy is negligible. Because
+biodiesel contains more oxygen than diesel or vegetable oil fuel, it produces
+the lowest emissions from diesel engines, and is lower in most emissions than
+gasoline engines. Biodiesel has a higher lubricity than mineral diesel and is
+an additive in European pump diesel for lubricity and emissions reduction.
+
+>>
+
+>> Some Diesel-powered cars can run with minor modifications on 100% pure
+vegetable oils. Vegetable oils tend to thicken (or solidify if it is waste
+cooking oil), in cold weather conditions so vehicle modifications (a two tank
+system with diesel start/stop tank), are essential in order to heat the fuel
+prior to use under most circumstances. Heating to the temperature of engine
+coolant reduces fuel viscosity, to the range cited by injection system
+manufacturers, for systems prior to 'common rail' or 'unit injection ( VW PD)'
+systems. Waste vegetable oil, especially if it has been used for a long time,
+may become hydrogenated and have increased acidity. This can cause the
+thickening of fuel, gumming in the engine and acid damage of the fuel system.
+Biodiesel does not have this problem, because it is chemically processed to be
+PH neutral and lower viscosity. Modern low emission diesels (most often Euro
+-3 and -4 compliant), typical of the current production in the European
+industry, would require extensive modification of injector system, pumps and
+seals etc. due to the higher operating pressures, that are designed thinner
+(heated) mineral diesel than ever before, for atomisation, if they were to use
+pure vegetable oil as fuel. Vegetable oil fuel is not suitable for these
+vehicles as they are currently produced. This reduces the market as increasing
+numbers of new vehicles are not able to use it. However, the German Elsbett
+company has successfully produced single tank vegetable oil fuel systems for
+several decades, and has worked with Volkswagen on their TDI engines. This
+shows that it is technologically possible to use vegetable oil as a fuel in
+high efficiency / low emission diesel engines.
+
+>>
+
+>> Greasestock is an event held yearly in Yorktown Heights, New York, and is
+one of the largest showcases of vehicles using waste oil as a biofuel in the
+United States.[77][78][79][80]
+
+>>
+
+>> #### Biogas[edit]
+
+>>
+
+>> Main article: Biogas
+
+>>
+
+>> Compressed Biogas may be used for Internal Combustion Engines after
+purification of the raw gas. The removal of H2O, H2S and particles can be seen
+as standard producing a gas which has the same quality as Compressed Natural
+Gas. The use of biogas is particularly interesting for climates where the
+waste heat of a biogas powered power plant cannot be used during the
+summer.[50][81]
+
+>>
+
+>> ### Charcoal[edit]
+
+>>
+
+>> In the 1930s Tang Zhongming made an invention using abundant charcoal
+resources for Chinese auto market. The Charcoal-fuelled car was later used
+intensively in China, serving the army and conveyancer after the breakout of
+World War II.
+
+>>
+
+>> ### Compressed natural gas (CNG)[edit]
+
+>>
+
+>> Main article: Natural gas vehicle
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/7/7e/SAO_09_2008_Fiat_Siena_TetraFuel_2_views_v1.jpg/200px-
+
+SAO_09_2008_Fiat_Siena_TetraFuel_2_views_v1.jpg)
+
+>>
+
+>> The Brazilian Fiat Siena Tetrafuel 1.4, the first multifuel car that runs
+as a flexible-fuel on pure gasoline, or E25, or E100; or runs as a bi-fuel
+with natural gas (CNG).
+
+>>
+
+>> High-pressure compressed natural gas, mainly composed of methane, that is
+used to fuel normal combustion engines instead of gasoline. Combustion of
+methane produces the least amount of CO2 of all fossil fuels. Gasoline cars
+can be retrofitted to CNG and become bifuel Natural gas vehicles (NGVs) as the
+gasoline tank is kept. The driver can switch between CNG and gasoline during
+operation. Natural gas vehicles (NGVs) are popular in regions or countries
+where natural gas is abundant. Widespread use began in the Po River Valley of
+Italy, and later became very popular in New Zealand by the eighties, though
+its use has declined.[82]
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Metrobus_powered_with_CNG_5198_DCA_03_2009.jpg/200px-
+
+Metrobus_powered_with_CNG_5198_DCA_03_2009.jpg)
+
+>>
+
+>> Buses powered with CNG are common in the United States.
+
+>>
+
+>> As of December 2012[update], there were 17.8 million natural gas vehicles
+worldwide, led by Iran with 3.30 million, followed by Pakistan (2.79 million),
+Argentina (2.29 million), Brazil (1.75 million), China (1.58 million) and
+India (1.5 million).[14] As of 2010, the Asia-Pacific region led the global
+market with a share of 54%.[83] In Europe they are popular in Italy (730,000),
+Ukraine (200,000), Armenia (101,352), Russia (100,000) and Germany
+(91,500),[83] and they are becoming more so as various manufacturers produce
+factory made cars, buses, vans and heavy vehicles.[81] In the United States
+CNG powered buses are the favorite choice of several public transit agencies,
+with an estimated CNG bus fleet of some 130,000.[84] Other countries where
+CNG-powered buses are popular include India, Australia, Argentina, and
+Germany.[82]
+
+>>
+
+>> CNG vehicles are common in South America, where these vehicles are mainly
+used as taxicabs in main cities of Argentina and Brazil. Normally, standard
+gasoline vehicles are retrofitted in specialized shops, which involve
+installing the gas cylinder in the trunk and the CNG injection system and
+electronics. The Brazilian GNV fleet is concentrated in the cities of Rio de
+Janeiro and São Paulo.[85] Pike Research reports that almost 90% of NGVs in
+Latin America have bi-fuel engines, allowing these vehicles to run on either
+gasoline or CNG.[86]
+
+>>
+
+>> In 2006 the Brazilian subsidiary of FIAT introduced the Fiat Siena Tetra
+fuel, a four-fuel car developed under Magneti Marelli of Fiat Brazil.[87][88]
+This automobile can run on 100% ethanol (E100), E25 (Brazil's normal ethanol
+gasoline blend), pure gasoline (not available in Brazil), and natural gas, and
+switches from the gasoline-ethanol blend to CNG automatically, depending on
+the power required by road conditions.[89] Other existing option is to
+retrofit an ethanol flexible-fuel vehicle to add a natural gas tank and the
+corresponding injection system. Some taxicabs in São Paulo and Rio de Janeiro,
+Brazil, run on this option, allowing the user to choose among three fuels
+(E25, E100 and CNG) according to current market prices at the pump. Vehicles
+with this adaptation are known in Brazil as "tri-fuel" cars.[90]
+
+>>
+
+>> HCNG or Hydrogen enriched Compressed Natural Gas for automobile use is
+premixed at the hydrogen station.
+
+>>
+
+>> ### Formic acid[edit]
+
+>>
+
+>> Main article: Formic acid
+
+>>
+
+>> Formic acid is used by converting it first to hydrogen, and using that in a
+fuel cell. Formic acid is much easier to store than hydrogen.[91][92]
+
+>>
+
+>> ### Hydrogen[edit]
+
+>>
+
+>> ![](//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-
+
+new.svg/50px-Question_book-new.svg.png)
+
+>>
+
+>> |
+
+>>
+
+>> This article **needs additional citations forverification**. Please help
+improve this article by adding citations to reliable sources. Unsourced
+material may be challenged and removed.  
+>  _Find sources:_ "Alternative fuel vehicle" – news **·** newspapers **·**
+books **·** scholar **·** JSTOR _( September 2008)_ _(Learn how and when to
+remove this template message)_
+
+>>
+
+>> ---|---
+
+>>
+
+>> Main articles: Hydrogen vehicle and Hydrogen economy
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/FCX_Clarity.jpg/220px-
+
+FCX_Clarity.jpg)
+
+>>
+
+>> The 2009 Honda FCX Clarity is a hydrogen fuel cell automobile launched to
+the market in 2008.
+
+>>
+
+>> ![](//upload.wikimedia.org/wikipedia/commons/6/68/Hydrogen_vehicle.jpg)
+
+>>
+
+>> Hydrogen fueling station in California.
+
+>>
+
+>> ![](//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/DSCN1474.JPG/220px-
+
+DSCN1474.JPG)
+
+>>
+
+>> Sequel, a hydrogen fuel cell-powered vehicle from General Motors.
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Hyundai_ix35_-_Mondial_de_l%27Automobile_de_Paris_2014_-_003.jpg/220px-
+
+Hyundai_ix35_-_Mondial_de_l%27Automobile_de_Paris_2014_-_003.jpg)
+
+>>
+
+>> The Hyundai ix35 FCEV was released for leasing in the U.S. in 2014.
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Mirai_trimmed.jpg/220px-
+
+Mirai_trimmed.jpg)
+
+>>
+
+>> The Toyota Mirai is one of the first hydrogen fuel-cell vehicles to be sold
+commercially to retail customers, initially, only in Japan and
+California.[93][94]
+
+>>
+
+>> A hydrogen car is an automobile which uses hydrogen as its primary source
+of power for locomotion. These cars generally use the hydrogen in one of two
+methods: combustion or fuel-cell conversion. In combustion, the hydrogen is
+"burned" in engines in fundamentally the same method as traditional gasoline
+cars. In fuel-cell conversion, the hydrogen is turned into electricity through
+fuel cells which then powers electric motors. With either method, the only
+byproduct from the spent hydrogen is water, however during combustion with air
+NOx can be produced.
+
+>>
+
+>> Honda introduced its fuel cell vehicle in 1999 called the FCX and have
+since then introduced the second generation FCX Clarity. Limited marketing of
+the FCX Clarity, based on the 2007 concept model, began in June 2008 in the
+United States, and it was introduced in Japan in November 2008.[95] The FCX
+Clarity was available in the U.S. only in Los Angeles Area, where 16 hydrogen
+filling stations are available, and until July 2009, only 10 drivers have
+leased the Clarity for US$600 a month. At the 2012 World Hydrogen Energy
+Conference, Daimler AG, Honda, Hyundai and Toyota all confirmed plans to
+produce hydrogen fuel cell vehicles for sale by 2015, with some types planned
+to enter the showroom in 2013.[96] From 2008 to 2014, Honda leased a total of
+45 FCX units in the US.[97]
+
+>>
+
+>> A small number of prototype hydrogen cars currently exist, and a
+significant amount of research is underway to make the technology more viable.
+The common internal combustion engine, usually fueled with gasoline (petrol)
+or diesel liquids, can be converted to run on gaseous hydrogen. However, the
+most efficient use of hydrogen involves the use of fuel cells and electric
+motors instead of a traditional engine. Hydrogen reacts with oxygen inside the
+fuel cells, which produces electricity to power the motors. One primary area
+of research is hydrogen storage, to try to increase the range of hydrogen
+vehicles while reducing the weight, energy consumption, and complexity of the
+storage systems. Two primary methods of storage are metal hydrides and
+compression. Some believe that hydrogen cars will never be economically viable
+and that the emphasis on this technology is a diversion from the development
+and popularization of more efficient hybrid cars and other alternative
+technologies.[ _citation needed_ ]
+
+>>
+
+>> A study by The Carbon Trust for the UK Department of Energy and Climate
+Change suggests that hydrogen technologies have the potential to deliver UK
+transport with near-zero emissions whilst reducing dependence on imported oil
+and curtailment of renewable generation. However, the technologies face very
+difficult challenges, in terms of cost, performance and policy.[98]
+
+>>
+
+>> Buses, trains, PHB bicycles, canal boats, cargo bikes, golf carts,
+motorcycles, wheelchairs, ships, airplanes, submarines, and rockets can
+already run on hydrogen, in various forms. NASA used hydrogen to launch Space
+Shuttles into space. A working toy model car runs on solar power, using a
+regenerative fuel cell to store energy in the form of hydrogen and oxygen gas.
+It can then convert the fuel back into water to release the solar energy.[99]
+
+>>
+
+>> BMW's Clean Energy internal combustion hydrogen car has more power and is
+faster than hydrogen fuel cell electric cars. A limited series production of
+the 7 Series Saloon was announced as commencing at the end of 2006. A BMW
+hydrogen prototype (H2R) using the driveline of this model broke the speed
+record for hydrogen cars at 300 km/h (186 mi/h), making automotive history.
+Mazda has developed Wankel engines to burn hydrogen. The Wankel uses a rotary
+principle of operation, so the hydrogen burns in a different part of the
+engine from the intake. This reduces pre-detonation, a problem with hydrogen
+fueled piston engines.[ _citation needed_ ]
+
+>>
+
+>> The other major car companies like Daimler, Chrysler, Honda, Toyota, Ford
+and General Motors, are investing in hydrogen fuel cells instead. VW, Nissan,
+and Hyundai/Kia also have fuel cell vehicle prototypes on the road. In
+addition, transit agencies across the globe are running prototype fuel cell
+buses. Fuel cell vehicles, such as the new Honda Clarity, can get up to 70
+miles (110 km) on a kilogram of hydrogen.[ _citation needed_ ]
+
+>>
+
+>> The Hyundai ix35 FCEV fuel cell vehicle is available for lease in the
+U.S.[100] In 2014, a total of 54 units were leased.[101] Sales of the Toyota
+Mirai to government and corporate customers began in Japan on December 15,
+2014.[102] Toyota delivered the first market placed Mirai to the Prime
+Minister's Official Residence and announced it got 1,500 orders in Japan in
+one month after sales began against a sales target of 400 for 12
+months.[94][103]
+
+>>
+
+>> Deliveries to retail customers began in California in October 2015. A total
+of 57 units were delivered between October and November 2015.[104] Toyota
+scheduled to release the Mirai in the Northeastern States in the first half of
+2016. The market launch in Europe is slated for September 2015.[105]
+
+>>
+
+>> ### Liquid nitrogen car[edit]
+
+>>
+
+>> ![](//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-
+
+new.svg/50px-Question_book-new.svg.png)
+
+>>
+
+>> |
+
+>>
+
+>> This article **needs additional citations forverification**. Please help
+improve this article by adding citations to reliable sources. Unsourced
+material may be challenged and removed.  
+>  _Find sources:_ "Alternative fuel vehicle" – news **·** newspapers **·**
+books **·** scholar **·** JSTOR _( September 2008)_ _(Learn how and when to
+remove this template message)_
+
+>>
+
+>> ---|---
+
+>>
+
+>> Main article: Liquid nitrogen vehicle
+
+>>
+
+>> Further information: Liquid nitrogen economy
+
+>>
+
+>> Liquid nitrogen (LN2) is a method of storing energy. Energy is used to
+liquefy air, and then LN2 is produced by evaporation, and distributed. LN2 is
+exposed to ambient heat in the car and the resulting nitrogen gas can be used
+to power a piston or turbine engine. The maximum amount of energy that can be
+extracted from LN2 is 213 Watt-hours per kg (W·h/kg) or 173 W·h per liter, in
+which a maximum of 70 W·h/kg can be utilized with an isothermal expansion
+process. Such a vehicle with a 350-liter (93 gallon) tank can achieve ranges
+similar to a gasoline powered vehicle with a 50-liter (13 gallon) tank.
+Theoretical future engines, using cascading topping cycles, can improve this
+to around 110 W·h/kg with a quasi-isothermal expansion process. The advantages
+are zero harmful emissions and superior energy densities compared to a
+Compressed-air vehicle as well as being able to refill the tank in a matter of
+minutes.
+
+>>
+
+>> ### Liquefied Natural Gas (LNG)[edit]
+
+>>
+
+>> Main article: Natural gas vehicle
+
+>>
+
+>> Liquefied natural gas is natural gas that has been cooled to a point at
+which it becomes a cryogenic liquid. In this liquid state, natural gas is more
+than 2 times as dense as highly compressed CNG. LNG fuel systems function on
+any vehicle capable of burning natural gas. Unlike CNG, which is stored at
+high pressure (typically 3000 or 3600 psi) and then regulated to a lower
+pressure that the engine can accept, LNG is stored at low pressure (50 to 150
+psi) and simply vaporized by a heat exchanger before entering the fuel
+metering devices to the engine. Because of its high energy density compared to
+CNG, it is very suitable for those interested in long ranges while running on
+natural gas.
+
+>>
+
+>> In the United States, the LNG supply chain is the main thing that has held
+back this fuel source from growing rapidly. The LNG supply chain is very
+analogous to that of diesel or gasoline. First, pipeline natural gas is
+liquefied in large quantities, which is analogous to refining gasoline or
+diesel. Then, the LNG is transported via semi trailer to fuel stations where
+it is stored in bulk tanks until it is dispensed into a vehicle. CNG, on the
+other hand, requires expensive compression at each station to fill the high-
+pressure cylinder cascades.
+
+>>
+
+>> ### Autogas (LPG)[edit]
+
+>>
+
+>> Main article: Autogas
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Propane_powered_blue_bird_vision.jpg/220px-
+
+Propane_powered_blue_bird_vision.jpg)
+
+>>
+
+>> A propane-fueled school bus in the United States.
+
+>>
+
+>> LPG or liquefied petroleum gas is a low pressure liquefied gas mixture
+composed mainly of propane and butane which burns in conventional gasoline
+combustion engines with less CO2 than gasoline. Gasoline cars can be
+retrofitted to LPG aka Autogas and become bifuel vehicles as the gasoline tank
+stays. You can switch between LPG and gasoline during operation. Estimated 10
+million vehicles running worldwide.
+
+>>
+
+>> There are 17.473 million LPG powered vehicles worldwide as of December
+2010, and the leading countries are Turkey (2.394 million vehicles), Poland
+(2.325 million), and South Korea (2.3 million).[15] In the U.S., 190,000 on-
+road vehicles use propane,[106] and 450,000 forklifts use it for power.
+Whereas it is banned in Pakistan(DEC 2013) as it is considered a risk to
+public safety by OGRA.
+
+>>
+
+>> Hyundai Motor Company began sales of the Elantra LPI Hybrid in the South
+Korean domestic market in July 2009. The Elantra LPI (Liquefied Petroleum
+Injected) is the world's first hybrid electric vehicle to be powered by an
+internal combustion engine built to run on liquefied petroleum gas (LPG) as a
+fuel.[107][108]
+
+>>
+
+>> ### Steam[edit]
+
+>>
+
+>> ![](//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Cars-
+
+stanleysteamcar-amoswolfe.jpg/200px-Cars-stanleysteamcar-amoswolfe.jpg)
+
+>>
+
+>> The Stanley Steam Car
+
+>>
+
+>> Main article: Steam car
+
+>>
+
+>> A steam car is a car that has a steam engine. Wood, coal, ethanol, or
+others can be used as fuel. The fuel is burned in a boiler and the heat
+converts water into steam. When the water turns to steam, it expands. The
+expansion creates pressure. The pressure pushes the pistons back and forth.
+This turns the driveshaft to spin the wheels forward. It works like a coal-
+fueled steam train, or steam boat. The steam car was the next logical step in
+independent transport.
+
+>>
+
+>> Steam cars take a long time to start, but some can reach speeds over 100
+mph (161 km/h) eventually. The late model Doble Steam Cars could be brought to
+operational condition in less than 30 seconds, had high top speeds and fast
+acceleration, but were expensive to buy.
+
+>>
+
+>> A steam engine uses external combustion, as opposed to internal combustion.
+Gasoline-powered cars are more efficient at about 25–28% efficiency. In
+theory, a combined cycle steam engine in which the burning material is first
+used to drive a gas turbine can produce 50% to 60% efficiency. However,
+practical examples of steam engined cars work at only around 5–8% efficiency.
+
+>>
+
+>> The best known and best selling steam-powered car was the Stanley Steamer.
+It used a compact fire-tube boiler under the hood to power a simple two-piston
+engine which was connected directly to the rear axle. Before Henry Ford
+introduced monthly payment financing with great success, cars were typically
+purchased outright. This is why the Stanley was kept simple; to keep the
+purchase price affordable.
+
+>>
+
+>> Steam produced in refrigeration also can be use by a turbine in other
+vehicle types to produce electricity, that can be employed in electric motors
+or stored in a battery.
+
+>>
+
+>> Steam power can be combined with a standard oil-based engine to create a
+hybrid. Water is injected into the cylinder after the fuel is burned, when the
+piston is still superheated, often at temperatures of 1500 degrees or more.
+The water will instantly be vaporized into steam, taking advantage of the heat
+that would otherwise be wasted.
+
+>>
+
+>> ### Wood gas[edit]
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Gasogenog.jpg/200px-
+
+Gasogenog.jpg)
+
+>>
+
+>> Vehicle with a gasifier
+
+>>
+
+>> Main article: Wood gas generator
+
+>>
+
+>> Wood gas can be used to power cars with ordinary internal combustion
+engines if a wood gasifier is attached. This was quite popular during World
+War II in several European and Asian countries because the war prevented easy
+and cost- effective access to oil.
+
+>>
+
+>> Herb Hartman of Woodward, Iowa currently drives a wood powered Cadillac. He
+claims to have attached the gasifier to the Cadillac for just $700. Hartman
+claims, “A full hopper will go about fifty miles depending on how you drive
+it,” and he added that splitting the wood was “labor-intensive. That’s the big
+drawback.”[109]
+
+>>
+
+>> ## Multiple fuel source[edit]
+
+>>
+
+>> ### Dual Fuel[edit]
+
+>>
+
+>> Dual fuel vehicle is referred as the vehicle using two types of fuel in the
+same time (can be gas + liquid, gas + gas, liquid + liquid) with different
+fuel tank.
+
+>>
+
+>> Diesel-CNG Dual Fuel is a system using two type of fuel which are diesel
+and Compressed Natural Gas (CNG) at the same time. It is because of CNG need a
+source of ignition for combustion in diesel engine.[110]
+
+>>
+
+>> ### Flexible fuel[edit]
+
+>>
+
+>> ![](//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Six_full_flex-
+
+fuel_Brazilian_automobiles_09_2008.jpg/200px-Six_full_flex-
+
+fuel_Brazilian_automobiles_09_2008.jpg)
+
+>>
+
+>> Six typical Brazilian full flex-fuel models from several carmakers,
+popularly known as "flex" cars, that run on any blend of ethanol and
+gasoline(actually between E20-E25 to E100).
+
+>>
+
+>> Main article: Flexible-fuel vehicle
+
+>>
+
+>> See also: Neat ethanol vehicle
+
+>>
+
+>> A flexible-fuel vehicle (FFV) or dual-fuel vehicle (DFF) is an alternative
+fuel automobile or light duty truck with a multifuel engine that can use more
+than one fuel, usually mixed in the same tank, and the blend is burned in the
+combustion chamber together. These vehicles are colloquially called **flex-
+fuel** , or **flexifuel** in Europe, or just flex in Brazil. FFVs are
+distinguished from bi-fuel vehicles, where two fuels are stored in separate
+tanks. The most common commercially available FFV in the world market is the
+ethanol flexible-fuel vehicle, with the major markets concentrated in the
+United States, Brazil, Sweden, and some other European countries. In addition
+to flex-fuel vehicles running with ethanol, in the US and Europe there were
+successful test programs with methanol flex-fuel vehicles, known as M85 FFVs,
+and more recently there have been also successful tests using p-series fuels
+with E85 flex fuel vehicles, but as of June 2008, this fuel is not yet
+available to the general public.
+
+>>
+
+>> Ethanol flexible-fuel vehicles have standard gasoline engines that are
+capable of running with ethanol and gasoline mixed in the same tank. These
+mixtures have "E" numbers which describe the percentage of ethanol in the
+mixture, for example, E85 is 85% ethanol and 15% gasoline. (See common ethanol
+fuel mixtures for more information.) Though technology exists to allow ethanol
+FFVs to run on any mixture up to E100,[54][111] in the U.S. and Europe, flex-
+fuel vehicles are optimized to run on E85. This limit is set to avoid cold
+starting problems during very cold weather. The alcohol content might be
+reduced during the winter, to E70 in the U.S. or to E75 in Sweden. Brazil,
+with a warmer climate, developed vehicles that can run on any mix up to E100,
+though E20-E25 is the mandatory minimum blend, and no pure gasoline is sold in
+the country.
+
+>>
+
+>> About 48 million automobiles, motorcycles and light duty trucks
+manufactured and sold worldwide by mid 2015, and concentrated in four
+markets,[112] Brazil (29.5 million by mid 2015),[7][8] the United States (17.4
+million by the end of 2014),[9] Canada (1.6 million by 2014),[10] and Sweden
+(243,100 through December 2014).[11][12][13] The Brazilian flex fuel fleet
+includes over 4 million flexible-fuel motorcycles produced since 2009 through
+March 2015.[8] In Brazil, 65% of flex-fuel car owners were using ethanol fuel
+regularly in 2009,[113] while, the actual number of American FFVs being run on
+E85 is much lower; surveys conducted in the U.S. have found that 68% of
+American flex-fuel car owners were not aware they owned an E85 flex.[54] This
+is thought to be due to a number of factors, including:
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Three_US_E85_flex_fuel_badges_Ford_GM_Chrysler_copy.jpg/250px-
+
+Three_US_E85_flex_fuel_badges_Ford_GM_Chrysler_copy.jpg)
+
+>>
+
+>> Typical labeling used in the US to identify E85 vehicles. Top left: a small
+sticker in the back of the fuel filler door. Bottom left: the bright yellow
+gas cap used in newer models. E85 Flexfuel badging used in newer models from
+Chrysler (top right), Ford (middle right) and GM (bottom right).
+
+>>  
+>>                 >>                       * The appearance of flex-fuel and
+non-flex-fuel vehicles is
+
+>>  
+>>
+
+>> identical;
+
+>>  
+>>                 >>                       * There is no price difference
+between a pure-gasoline vehicle and
+
+>>  
+>>
+
+>> its flex-fuel variant;
+
+>>  
+>>                 >>                       * The lack of consumer awareness
+of flex-fuel vehicles;
+
+>>  
+>>                       * The lack of promotion of flex-fuel vehicles by
+American
+
+>>  
+>>
+
+>> automakers, who often do not label the cars or market them in the same way
+they do to hybrid cars
+
+>>
+
+>> By contrast, automakers selling FFVs in Brazil commonly affix badges
+advertising the car as a flex-fuel vehicle. As of 2007, new FFV models sold in
+the U.S. were required to feature a yellow gas cap emblazoned with the label
+"E85/gasoline", in order to remind drivers of the cars' flex-fuel
+capabilities.[114][115] Use of E85 in the U.S. is also affected by the
+relatively low number of E85 filling stations in operation across the country,
+with just over 1,750 in August 2008,[116] most of which are concentrated in
+the Corn Belt states, led by Minnesota with 353 stations, followed by Illinois
+with 181, and Wisconsin with 114.[117] By comparison, there are some 120,000
+stations providing regular non-ethanol gasoline in the United States
+alone.[118]
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Chevrolet_Impala_FlexFuel_34_MIA_12_2008_with_logo.jpg/200px-
+
+Chevrolet_Impala_FlexFuel_34_MIA_12_2008_with_logo.jpg)
+
+>>
+
+>> US E85FlexFuel Chevrolet Impala LT 2009.
+
+>>
+
+>> There have been claims that American automakers are motivated to produce
+flex-fuel vehicles due to a loophole in the Corporate Average Fuel Economy
+(CAFE) requirements, which gives the automaker a "fuel economy credit" for
+every flex-fuel vehicle sold, whether or not the vehicle is actually fueled
+with E85 in regular use.[71] This loophole allegedly allows the U.S. auto
+industry to meet CAFE fuel economy targets not by developing more fuel-
+efficient models, but by spending between US$100 and US$200 extra per vehicle
+to produce a certain number of flex-fuel models, enabling them to continue
+selling less fuel-efficient vehicles such as SUVs, which netted higher profit
+margins than smaller, more fuel-efficient cars.[119][120]
+
+>>
+
+>> In the United States, E85 FFVs are equipped with sensor that automatically
+detect the fuel mixture, signaling the ECU to tune spark timing and fuel
+injection so that fuel will burn cleanly in the vehicle's internal combustion
+engine. Originally, the sensors were mounted in the fuel line and exhaust
+system; more recent models do away with the fuel line sensor. Another feature
+of older flex-fuel cars is a small separate gasoline storage tank that was
+used for starting the car on cold days, when the ethanol mixture made ignition
+more difficult.
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/3/31/3_Views_Honda_Flex_Titan_CG_150_Mix_Fuel_Injection_06_2009_Itu.jpg/200px-3_Views_Honda_Flex_Titan_CG_150_Mix_Fuel_Injection_06_2009_Itu.jpg)
+
+>>
+
+>> The Honda CG 150 Titan Mix was the first flex-fuel motorcycle launched to
+the market in the world.
+
+>>
+
+>> Modern Brazilian flex-fuel technology enables FFVs to run an any blend
+between E20-E25 gasohol and E100 ethanol fuel, using a lambda probe to measure
+the quality of combustion, which informs the engine control unit as to the
+exact composition of the gasoline-alcohol mixture. This technology, developed
+by the Brazilian subsidiary of Bosch in 1994, and further improved and
+commercially implemented in 2003 by the Italian subsidiary of Magneti Marelli,
+is known as "Software Fuel Sensor". The Brazilian subsidiary of Delphi
+Automotive Systems developed a similar technology, known as "Multifuel", based
+on research conducted at its facility in Piracicaba, São Paulo.[121] This
+technology allows the controller to regulate the amount of fuel injected and
+spark time, as fuel flow needs to be decreased to avoid detonation due to the
+high compression ratio (around 12:1) used by flex-fuel engines.
+
+>>
+
+>> The first flex motorcycle was launched by Honda in March 2009. Produced by
+its Brazilian subsidiary Moto Honda da Amazônia, the CG 150 Titan Mix is sold
+for around US$2,700.[122][123][124][125] Because the motorcycle does not have
+a secondary gas tank for a cold start like the Brazilian flex cars do, the
+tank must have at least 20% of gasoline to avoid start up problems at
+temperatures below 15 °C (59 °F). The motorcycle’s panel includes a gauge to
+warn the driver about the actual ethanol-gasoline mix in the storage
+tank.[125][126]
+
+>>
+
+>> ### Hybrids[edit]
+
+>>
+
+>> #### Hybrid electric vehicle[edit]
+
+>>
+
+>> Main articles: Hybrid vehicle and Hybrid electric vehicle
+
+>>
+
+>> A hybrid vehicle uses multiple propulsion systems to provide motive power.
+The most common type of hybrid vehicle is the gasoline-electric hybrid
+vehicles, which use gasoline (petrol) and electric batteries for the energy
+used to power internal-combustion engines (ICEs) and electric motors. These
+motors are usually relatively small and would be considered "underpowered" by
+themselves, but they can provide a normal driving experience when used in
+combination during acceleration and other maneuvers that require greater
+power.
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/3/30/2016_Toyota_Prius_%28ZVW50R%29_Hybrid_liftback_%282016-04-02%29_01.jpg/220px-2016_Toyota_Prius_%28ZVW50R%29_Hybrid_liftback_%282016-04-02%29_01.jpg)
+
+>>
+
+>> The Toyota Prius is the world's best-selling hybrid electric vehicle, with
+global sales of almost 4 million units through January 2017.[1]
+
+>>
+
+>> The Toyota Prius first went on sale in Japan in 1997 and it is sold
+worldwide since 2000. By 2017 the Prius is sold in more than 90 countries and
+regions, with Japan and the United States as its largest markets.[1][127] In
+May 2008, global cumulative Prius sales reached the 1 million units, and by
+September 2010, the Prius reached worldwide cumulative sales of 2 million
+units,[127] and 3 million units by June 2013.[128] As of January 2017[update],
+global hybrid sales are led by the Prius family, with cumulative sales of
+6.0361 million units, excluding its plug-in hybrid variant.[1] The Toyota
+Prius liftback is the leading model of the Toyota brand with cumulative sales
+of 3.985 million units, followed by the Toyota Aqua/Prius c, with global sales
+of 1.380 million units, the Prius v/α/+ with 671,200, the Camry Hybrid with
+614,700 units, the Toyota Auris with 378,000 units, and the Toyota Yaris
+Hybrid with 302,700.[1] The best-selling Lexus model is the Lexus RX 400h/RX
+450h with global sales of 363,000 units.
+
+>>
+
+>> The Honda Insight is a two-seater hatchback hybrid automobile manufactured
+by Honda. It was the first mass-produced hybrid automobile sold in the United
+States, introduced in 1999, and produced until 2006.[129][130] Honda
+introduced the second-generation Insight in Japan in February 2009, and the
+new Insight went on sale in the United States on April 22, 2009.[131][132]
+Honda also offers the Honda Civic Hybrid since 2002.
+
+>>
+
+>> As of January 2017[update], there are over 50 models of hybrid electric
+cars available in several world markets, with more than 12 million hybrid
+electric vehicles sold worldwide since their inception in 1997.[1][16] As of
+April 2016[update], Japan ranked as the market leader with more than 5 million
+hybrids sold, followed by the United States with cumulative sales of over 4
+million units since 1999, and Europe with about 1.5 million hybrids delivered
+since 2000.[16] Japan has the world's highest hybrid market penetration. By
+2013 the hybrid market share accounted for more than 30% of new standard
+passenger car sold, and about 20% new passenger vehicle sales including kei
+cars.[133] The Netherlands ranks second with a hybrid market share of 4.5% of
+new car sales in 2012.[134]
+
+>>
+
+>> As of January 2017[update], global sales are by Toyota Motor Company with
+more than 10 million Lexus and Toyota hybrids sold,[1] followed by Honda Motor
+Co., Ltd. with cumulative global sales of more than 1.35 million hybrids as of
+June 2014[update];[17][18][19] Ford Motor Corporation with over 424 thousand
+hybrids sold in the United States through June 2015, of which, around 10% are
+plug-in hybrids;[135][136][137][138][139] Hyundai Group with cumulative global
+sales of 200 thousand hybrids as of March 2014[update], including both Hyundai
+Motors and Kia Motors hybrid models;[140] and PSA Peugeot Citroën with over
+50,000 diesel-powered hybrids sold in Europe through December 2013.[141]
+
+>>
+
+>> The Elantra LPI Hybrid, launched in the South Korean domestic market in
+July 2009, is a hybrid vehicle powered by an internal combustion engine built
+to run on liquefied petroleum gas (LPG) as a fuel. The Elantra PLI is a mild
+hybrid and the first hybrid to adopt advanced lithium polymer (Li–Poly)
+batteries.[107][108]
+
+>>
+
+>> #### Plug-in hybrid electric vehicle[edit]
+
+>>
+
+>> Main article: Plug-in hybrid
+
+>>
+
+>> Until 2010 most plug-in hybrids on the road in the U.S. were conversions of
+conventional hybrid electric vehicles,[142] and the most prominent PHEVs were
+conversions of 2004 or later Toyota Prius, which have had plug-in charging and
+more batteries added and their electric-only range extended.[143] Chinese
+battery manufacturer and automaker BYD Auto released the F3DM to the Chinese
+fleet market in December 2008[144][145][146] and began sales to the general
+public in Shenzhen in March 2010.[147][148] General Motors began deliveries of
+the Chevrolet Volt in the U.S. in December 2010.[149] Deliveries to retail
+customers of the Fisker Karma began in the U.S. in November 2011.
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Chevrolet_Volt_WAS_2017_1739.jpg/220px-
+
+Chevrolet_Volt_WAS_2017_1739.jpg)
+
+>>
+
+>> The Chevrolet Volt/Opel Ampera family is the world's top selling plug-in
+hybrid. Global sales passed the 100,000 unit milestone in October 2015.[150]
+
+>>
+
+>> During 2012, the Toyota Prius Plug-in Hybrid, Ford C-Max Energi, and Volvo
+V60 Plug-in Hybrid were released. The following models were launched during
+2013 and 2015: Honda Accord Plug-in Hybrid, Mitsubishi Outlander P-HEV, Ford
+Fusion Energi, McLaren P1 (limited edition), Porsche Panamera S E-Hybrid, BYD
+Qin, Cadillac ELR, BMW i3 REx, BMW i8, Porsche 918 Spyder (limited
+production), Volkswagen XL1 (limited production), Audi A3 Sportback e-tron,
+Volkswagen Golf GTE, Mercedes-Benz S 500 e, Porsche Cayenne S E-Hybrid,
+Mercedes-Benz C 350 e, BYD Tang, Volkswagen Passat GTE, Volvo XC90 T8, BMW X5
+xDrive40e, Hyundai Sonata PHEV, and Volvo S60L PHEV.
+
+>>
+
+>> As of December 2015[update], about 500,000 highway-capable plug-in hybrid
+electric cars had been sold worldwide since December 2008, out of total
+cumulative global sales of 1.2 million light-duty plug-in electric
+vehicles.[151] As of December 2016[update], the Volt/Ampera family of plug-in
+hybrids, with combined sales of about 134,500 units is the top selling plug-in
+hybrid in the world. Ranking next are the Mitsubishi Outlander P-HEV with
+about 119,500, and the Toyota Prius Plug-in Hybrid with almost 78,000.[2]
+
+>>
+
+>> #### Pedal-assisted electric hybrid vehicle[edit]
+
+>>
+
+>> In very small vehicles, the power demand decreases, so human power can be
+employed to make a significant improvement in battery life. Two such
+commercially made vehicles are the Sinclair C5 and TWIKE.
+
+>>
+
+>> ## Comparative assessment of fossil and alternative fuels[edit]
+
+>>
+
+>>
+![](//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Well_to_Wheels_%28kWh%29.svg/450px-
+
+Well_to_Wheels_%28kWh%29.svg.png)
+
+>>
+
+>> Different fuel pathways require different amounts of energy to drive 100
+km. From left to right: Coal to electricity to electrical car. Renewable
+energy (e.g. wind or photovoltaics) to electrical car. Renewable energy to
+hydrogen to hydrogen-powered car. Petroleum to diesel to internal combustion
+engine.
+
+>>
+
+>> According to a recent comparative energy and environmental analysis of the
+vehicle fuel end use (petroleum and natural gas derivatives & hydrogen;
+biofuels like ethanol or biodiesel, and their mixtures; as well as electricity
+intended to be used in plug-in electric vehicles), the renewable and non-
+renewable unit energy costs and CO2 emission cost are suitable indicators for
+assessing the renewable energy consumption intensity and the environmental
+impact, and for quantifying the thermodynamic performance of the
+transportation sector. This analysis allows ranking the energy conversion
+processes along the vehicle fuels production routes and their end-use, so that
+the best options for the transportation sector can be determined and better
+energy policies may be issued. Thus, if a drastic CO2 emissions abatement of
+the transportation sector is pursued, a more intensive utilization of ethanol
+in the Brazilian transportation sector mix is advisable. However, as the
+overall exergy conversion efficiency of the sugar cane industry is still very
+low, which increases the unit energy cost of ethanol, better production and
+end-use technologies are required. Nonetheless, with the current scenario of a
+predominantly renewable Brazilian electricity mix, based on more than 80% of
+renewable sources, this source consolidates as the most promising energy
+source to reduce the large amount of greenhouse gas emissions which
+transportation sector is responsible for.[152]
+
+>>
+
+>> ## See also[edit]
+
+>>  
+>>                 >>                       *
+
+>>  
+>>
+
+>>
+![icon](//upload.wikimedia.org/wikipedia/commons/thumb/1/14/Crystal_energy.svg/29px-
+
+Crystal_energy.svg.png)Energy portal
+
+>>  
+>>                 >>                       * Alternative Fuels Training
+Consortium
+
+>>  
+>>                       * Alternatives to the automobile
+
+>>  
+>>                       * Butanol fuel
+
+>>  
+>>                       * Clean Cities
+
+>>  
+>>                       * Engine control unit altering to optimize running on
+different
+
+>>  
+>>
+
+>> fuels
+
+>>  
+>>                 >>                       * Green vehicle
+
+>>  
+>>                       * Hydrogen vehicle
+
+>>  
+>>                       * List of hybrid vehicles
+
+>>  
+>>                       * Solar-charged vehicle
+
+>>  
+>>                       * The Hype about Hydrogen
+
+>>  
+>>                       * Water-fuelled car
+
+>>  
+>>                       * Jack Talbert (Vaporization)
+
+>>  
+>>
+
+>> ## References[edit]
+
+>>  
+>>                 >>                       1. ^ _**a**_ _**b**_ _**c**_
+_**d**_ _**e**_ _**f**_ _**g**_
+
+>>  
+>>
+
+>> _**h**_ _**i**_ _**j**_ _**k**_ "Worldwide Sales of Toyota Hybrids Surpass
+10 Million Units" (Press release). Toyota City, Japan: Toyota. 2017-01-14.
+Retrieved 2017-01-15. "This latest milestone of 10 million units was achieved
+just nine months after total sales reached 9 million units at the end of April
+2016."
+
+>>  
+>>                 >>                       2. ^ _**a**_ _**b**_ _**c**_
+_**d**_ Cobb, Jeff (2017-01-31).
+
+>>  
+>>
+
+>> "Tesla Model S Is World's Best-Selling Plug-in Car For Second Year In A
+Row". _HybridCars.com_. Retrieved 2017-01-31. _See also detailed 2016 sales
+and cumulative global sales in the two graphs._
+
+>>  
+>>                 >>                       3. **^** "Revealed - how the
+hybrid car "works" | Claverton
+
+>>  
+>>
+
+>> Group". Claverton-energy.com. 2009-02-24. Retrieved 2010-12-12.
+
+>>  
+>>                 >>                       4. **^** _Strategies for Managing
+Impacts from Automobiles_, US
+
+>>  
+>>
+
+>> EPA Region 10 , retrieved May 22, 2012
+
+>>  
+>>                 >>                       5. **^** "European Union's End-of-
+life Vehicle (ELV) Directive",
+
+>>  
+>>
+
+>> _End of Life Vehicles_ , EU, retrieved May 22, 2012
+
+>>  
+>>                 >>                       6. **^** Cobb, Jeff (2017-01-16).
+"The World Just Bought Its Two-
+
+>>  
+>>
+
+>> Millionth Plug-in Car". _HybridCars.com_. Retrieved 2017-01-17.
+
+>>  
+>>                 >>                       7. ^ _**a**_ _**b**_ _**c**_
+Giovanna Riato (2015-07-07). "Motores
+
+>>  
+>>
+
+>> flex precisam de mais eficiência" [Flex engines require more efficiency]
+(in Portuguese). Automotive Business. Retrieved 2015-08-26.
+
+>>  
+>>                 >>                       8. ^ _**a**_ _**b**_ _**c**_
+_**d**_ Staff (2015-03-09). "Honda
+
+>>  
+>>
+
+>> chega a 4 milhões de Motos Flex Produzidas no Brasil" [Honda reaches 4
+million flexible-fuel motorcycles produced in Brazil] (in Portuguese). Revista
+Auto Esporte. Retrieved 2015-08-26.
+
+>>  
+>>                 >>                       9. ^ _**a**_ _**b**_ Brian Milne
+(2014-12-07). "Chicago Ethanol
+
+>>  
+>>
+
+>> Stubbornly Holding Premium to Gasoline". Schneider Electric. Retrieved
+2015-08-26.
+
+>>  
+>>                 >>                       10. ^ _**a**_ _**b**_ Flavelle,
+Dana (2015-06-19). "Why hybrid car
+
+>>  
+>>
+
+>> sales are stalling". _Toronto Star_. Retrieved 2016-06-14.
+
+>>  
+>>                 >>                       11. ^ _**a**_ _**b**_ BAFF.
+"Bought ethanol cars". BioAlcohol Fuel
+
+>>  
+>>
+
+>> Foundation. Archived from the original on 21 July 2011. Retrieved
+2013-11-17. _As of September 2013, see Graph "Bought flexifuel vehicles"_
+
+>>  
+>>                 >>                       12. ^ _**a**_ _**b**_ Bil Sweden.
+"Definitiva nyregistreringar
+
+>>  
+>>
+
+>> 2012" [Final registrations in 2012] (in Swedish). Bil Sweden. Retrieved
+2015-08-26. _Download file "Definitiva nyregistreringar 2012" see table:
+"Nyregistrerade miljöbilar per typ december 2012" with summary of E85
+passenger car registrations for 2012 and 2011_
+
+>>  
+>>                 >>                       13. ^ _**a**_ _**b**_ Bil Sweden
+(2015-01-02). "Nyregistreringar
+
+>>  
+>>
+
+>> december 2014 (prel)" [New registrations in December 2014 (preliminar)] (in
+Swedish). Bil Sweden. Retrieved 2015-08-26. _Download file "Nyregistreringar
+december 2014 (prel)" see table: "Nyregistrerade miljöbilar per typ december
+2014" with summary of E85 passenger car registrations for 2014 and 2013_
+
+>>  
+>>                 >>                       14. ^ _**a**_ _**b**_ "Worldwide
+NGV Statistics". NGV Journal.
+
+>>  
+>>
+
+>> Retrieved 2013-11-17.
+
+>>  
+>>                 >>                       15. ^ _**a**_ _**b**_ "WLPGA: The
+Autogas Market". World LP Gas
+
+>>  
+>>
+
+>> Association. Archived from the original on 2013-04-19. Retrieved
+2012-02-23. See table: Largest autogas markets, 2010
+
+>>  
+>>                 >>                       16. ^ _**a**_ _**b**_ _**c**_
+_**d**_ Cobb, Jeff (2016-06-06).
+
+>>  
+>>
+
+>> "Americans Buy Their Four-Millionth Hybrid Car". _HybridCars.com_.
+Retrieved 2016-06-12.
+
+>>  
+>>                 >>                       17. ^ _**a**_ _**b**_ Honda Press
+Release (2012-10-15).
+
+>>  
+>>
+
+>> "Cumulative worldwide sales of Honda hybrids passes 1 million units". Green
+Car Congress. Retrieved 2012-10-16.
+
+>>  
+>>                 >>                       18. ^ _**a**_ _**b**_ Roger
+Schreffler (2014-07-14). "Toyota
+
+>>  
+>>
+
+>> Strengthens Grip on Japan EV, Hybrid Market". _Ward's AutoWorld_. Archived
+from the original on 2014-05-02. Retrieved 2014-04-30. _Honda sold 187,851
+hybrids in 2013_.
+
+>>  
+>>                 >>                       19. ^ _**a**_ _**b**_ Roger
+Schreffler (2014-08-20). "Toyota
+
+>>  
+>>
+
+>> Remains Unchallenged Global Hybrid Leader". _Ward's AutoWorld_. Archived
+from the original on 2014-10-09. Retrieved 2014-10-04. _Honda sold 158,696
+hybrids during the first six months of 2014_.
+
+>>  
+>>                 >>                       20. ^ _**a**_ _**b**_ "Anúario da
+Industria Automobilistica
+
+>>  
+>>
+
+>> Brasileira 2011: Tabela 2.3 Produção por combustível - 1957/2010" (in
+Portuguese). ANFAVEA - Associação Nacional dos Fabricantes de Veículos
+Automotores (Brasil). Retrieved 2012-01-22. pp. 62–63.
+
+>>  
+>>                 >>                       21. **^** Alfred Szwarc.
+"Abstract: Use of Bio-fuels in Brazil"
+
+>>  
+>>
+
+>> (PDF). United Nations Framework Convention on Climate Change. Archived
+(PDF) from the original on 11 November 2009. Retrieved 2009-10-24.
+
+>>  
+>>                 >>                       22. **^** Luiz A. Horta Nogueira
+(2004-03-22). "Perspectivas de un
+
+>>  
+>>
+
+>> Programa de Biocombustibles en América Central: Proyecto Uso Sustentable de
+Hidrocarburos" (PDF) (in Spanish). Comisión Económica para América Latina y el
+Caribe (CEPAL). Archived from the original (PDF) on 28 May 2008. Retrieved
+2008-05-09.
+
+>>  
+>>                 >>                       23. **^** UNICA, Brazil (October
+2012). "Frota brasileira de
+
+>>  
+>>
+
+>> autoveículos leves (ciclo Otto)" [Brazilian fleet of light vehicles (Otto
+cycle)] (in Portuguese). UNICA Data. Retrieved 2012-10-31.
+
+>>  
+>>                 >>                       24. **^** Posawatz, Tony
+(2018-10-01). "Victory In The Electric
+
+>>  
+>>
+
+>> Car Market Will Go To Whoever Creates A Smartphone-Like Ecosystem".
+_Forbes_. Retrieved 2018-10-24.
+
+>>  
+>>                 >>                       25. **^** Shahan, Zachary
+(2016-11-22). "1 Million Pure EVs
+
+>>  
+>>
+
+>> Worldwide: EV Revolution Begins!". Clean Technica. Retrieved 2016-11-23.
+
+>>  
+>>                 >>                       26. **^** "Nissan strengthens
+Formula E partnership with stake in
+
+>>  
+>>
+
+>> e.dams" (Press release). Yokohama: Nissan. 2018-09-12. Retrieved
+2018-10-24.
+
+>>  
+>>                 >>                       27. ^ _**a**_ _**b**_ Automotive
+News China (2018-10-19). "China's
+
+>>  
+>>
+
+>> electrified vehicle fleet tops 2.21 million". Automotive News China.
+Retrieved 2018-10-24. "China’s fleet of electric vehicles and plug-in hybrids
+topped 2.21 million by the end of September as sales of electrified vehicles
+continued to surge in the country. Of the total, EVs accounted for 1.78
+million, or nearly 81 percent. The rest were plug-in hybrids, China’s Ministry
+of Public Security said this week. Electrified cargo vehicles -- which include
+trucks, pickups and delivery vans -- approached 254,000, representing 11
+percent of the electrified vehicle fleet as of last month."
+
+>>  
+>>                 >>                       28. **^** Kane, Mark (2018-10-06).
+"Plug-In Electric Cars Sales In
+
+>>  
+>>
+
+>> U.S. Surpass 1 Million". InsideEVs.com. Retrieved 2018-10-23.
+
+>>  
+>>                 >>                       29. **^** "Electric cars exceed 1m
+in Europe as sales soar by more
+
+>>  
+>>
+
+>> than 40%". _The Guardian_. 2018-08-26. Retrieved 2018-10-23.
+
+>>  
+>>                 >>                       30. **^** Norsk Elbilforening
+(Norwegian Electric Vehicle
+
+>>  
+>>
+
+>> Association) (October 2018). "Norwegian EV market". Norsk Elbilforening.
+Retrieved 2018-10-24. _Place the pointing device over the graph to show the
+cumulative number of electric vehicles and plug-in hybrids in Norway at the
+end of each year. As of 30 September 2018[update], the registered light-duty
+plug-in electric stock totaled 273,559 units, consisting of 183,637 battery
+electric vehicles and 89,922 plug-in hybrids._
+
+>>  
+>>                 >>                       31. **^** International Energy
+Agency (IEA), Clean Energy
+
+>>  
+>>
+
+>> Ministerial, and Electric Vehicles Initiative (EVI) (May 2016). "Global EV
+Outlook 2016: Beyond one million electric cars" (PDF). IEA Publications.
+Retrieved 2016-08-31.CS1 maint: Multiple names: authors list (link) _See pp.
+4–5, and 24–25 and Statistical annex, pp. 34–37_.
+
+>>  
+>>                 >>                       32. ^ _**a**_ _**b**_ _**c**_
+Cobb, Jeff (2017-01-09). "Nissan's
+
+>>  
+>>
+
+>> Quarter-Millionth Leaf Means It's The Best-Selling Plug-in Car In History".
+_HybridCars.com_. Retrieved 2017-01-10. _As of December 2016[update], the
+Nissan Leaf is the world's best-selling plug-in car in history with more than
+250,000 units delivered, followed by the Tesla Model S with over 158,000 sales
+(which may soon replace the Nissan Leaf in most EV sales), the Volt/Ampera
+family of vehicles with 134,500 vehicles sold, and the Mitsubishi Outlander
+PHEV with about 116,500 units sold through November 2016. These are the only
+plug-in electric cars so far with over 100,000 global sales._
+
+>>  
+>>                 >>                       33. **^** "Plug-in Vehicle
+Tracker: What's Coming, When". Plug In
+
+>>  
+>>
+
+>> America. Retrieved 2012-01-15.
+
+>>  
+>>                 >>                       34. **^** Groupe Renault (January
+2017). "Ventes Mensuelles"
+
+>>  
+>>
+
+>> [Monthly Sales] (in French). Renault.com. Retrieved 2017-01-18. _Includes
+passenger and light utility variants. Click on "(décembre 2016)" to download
+the file "XLSX - 239 Ko" for CYTD sales in 2016, and open the tab "Sales by
+Model". Click on "+ Voir plus" (See more) to download the files "Ventes
+mensuelles du groupe (décembre 2011) (xls, 183 Ko)" "Ventes mensuelles
+(décembre 2012) (xls, 289 Ko)" - Ventes mensuelles (décembre 2013) (xlsx, 227
+Ko)" - "XLSX - 220 Ko Ventes mensuelles (décembre 2014)" - "Ventes mensuelles
+(décembre 2015)" to download the file "XLSX - 227 Ko" for 2011, 2012, 2013,
+2014 and 2015 sales. Sales figures for 2013 were revised in the 2014 report_
+
+>>  
+>>                 >>                       35. **^** "nycomb.se, Nycomb
+Chemicals company". Archived from the
+
+>>  
+>>
+
+>> original on 3 June 2008. Retrieved 26 July 2017.
+
+>>  
+>>                 >>                       36. **^** "Archived copy".
+Archived from the original on
+
+>>  
+>>
+
+>> 2007-10-08. Retrieved 2011-11-04.CS1 maint: Archived copy as title (link)
+topsoe.com
+
+>>  
+>>                 >>                       37. **^** Semelsberger, Troy A;
+Borup, Rodney L; Greene, Howard L
+
+>>  
+>>
+
+>> (2006). "Dimethyl ether (DME) as an alternative fuel". _Journal of Power
+Sources_. **156** (2): 497–511. Bibcode:2006JPS...156..497S.
+doi:10.1016/j.jpowsour.2005.05.082. ISSN 0378-7753.
+
+>>  
+>>                 >>                       38. **^** "Archived copy" (PDF).
+Archived from the original (PDF)
+
+>>  
+>>
+
+>> on 2009-01-07. Retrieved 2011-11-04.CS1 maint: Archived copy as title
+(link), _Conference on the Development and Promotion of Environmentally
+Friendly Heavy Duty Vehicles such as DME Trucks_ , Washington DC, March 17,
+**2006**
+
+>>  
+>>                 >>                       39. **^** "BioDME". Retrieved  30
+May 2015.
+
+>>  
+>>                       40. **^** "Biofuels in the European Union, 2006"
+(PDF). Retrieved
+
+>>  
+>>
+
+>> 26 July 2017.
+
+>>  
+>>                 >>                       41. **^** "Home | Volvo Group".
+Archived from the original on
+
+>>  
+>>
+
+>> 2009-05-25. Retrieved 2011-11-04.
+
+>>  
+>>                 >>                       42. **^** "Volvo Group - Driving
+prosperity through transport
+
+>>  
+>>
+
+>> solutions". Retrieved 26 July 2017.
+
+>>  
+>>                 >>                       43. **^** "Chemrec press release
+September 9, 2010" (PDF).
+
+>>  
+>>
+
+>> Archived from the original (PDF) on 12 June 2017. Retrieved 26 July 2017.
+
+>>  
+>>                 >>                       44. ^ _**a**_ _**b**_ "Ammonia as
+a Transportation Fuel IV" (PDF).
+
+>>  
+>>
+
+>> Norm Olson – Iowa Energy Center. 15–16 October 2007. Archived from the
+original (PDF) on 2012-02-07.
+
+>>  
+>>                 >>                       45. **^** "Iowa Energy Center,
+Renewable Energy and Energy
+
+>>  
+>>
+
+>> Efficiency; Research, Education and Demonstration – Related Renewable
+Energy – Ammonia 2007". Archived from the original on 2012-03-18.
+
+>>  
+>>                 >>                       46. **^** "Ammonia Motors". 1
+October 2007. Retrieved  28 November
+
+>>  
+>>
+
+>> 2010.
+
+>>  
+>>                 >>                       47. **^** "YouTube – Ammonia
+Powered Car". CBC National News Nov.
+
+>>  
+>>
+
+>> 6, 2006
+
+>>  
+>>                 >>                       48. **^** "Watch 'Ammonia Fuel '".
+Greg Vezina. Retrieved 7 July
+
+>>  
+>>
+
+>> 2009.
+
+>>  
+>>                 >>                       49. **^** "Watch 'Hydrofuel Inc.
+Update' and 'Hydrofuel NH3 Car
+
+>>  
+>>
+
+>> Featured on HardDrive '". Hydrofuel Inc.
+
+>>  
+>>                 >>                       50. ^ _**a**_ _**b**_ Green NH3.
+"Greennh3.com". Greennh3.com.
+
+>>  
+>>
+
+>> Archived from the original on 28 October 2010. Retrieved 2010-12-12.
+
+>>  
+>>                 >>                       51. **^** Hunt, V, D, The Gasohol
+Handbook, Industrial Press Inc.,
+
+>>  
+>>
+
+>> 1981, pp 9, 420,421, 442
+
+>>  
+>>                 >>                       52. **^** English, Andrew
+(2008-07-25). "Ford Model T reaches
+
+>>  
+>>
+
+>> 100". London: The Telegraph. Retrieved 2008-08-11.
+
+>>  
+>>                 >>                       53. **^** "Ethanol: Introduction".
+Journey to Forever. Archived
+
+>>  
+>>
+
+>> from the original on 10 August 2008. Retrieved 2008-08-11.
+
+>>  
+>>                 >>                       54. ^ _**a**_ _**b**_ _**c**_
+_**d**_ _**e**_ _**f**_
+
+>>  
+>>
+
+>> Goettemoeller, Jeffrey; Adrian Goettemoeller (2007). _Sustainable Ethanol:
+Biofuels, Biorefineries, Cellulosic Biomass, Flex-Fuel Vehicles, and
+Sustainable Farming for Energy Independence_. Prairie Oak Publishing,
+Maryville, Missouri. pp. 56–61. ISBN 978-0-9786293-0-4.
+
+>>  
+>>                 >>                       55. ^ _**a**_ _**b**_ _**c**_
+_**d**_ _**e**_ Roberta J Nichols
+
+>>  
+>>
+
+>> (2003). "The Methanol Story: A Sustainable Fuel for the Future" (PDF).
+Methanol Institute. Archived from the original (PDF) on 2008-12-11. Retrieved
+2008-08-30.
+
+>>  
+>>                 >>                       56. **^** "Another Inconvenient
+Truth" (PDF). Oxfam. 2008-06-28.
+
+>>  
+>>
+
+>> Archived from the original (PDF) on 19 August 2008. Retrieved 2008-08-06.
+Oxfam Briefing Paper 114.
+
+>>  
+>>                 >>                       57. **^** Searchinger, T.; et al.
+(2008-02-29). "Use of U.S.
+
+>>  
+>>
+
+>> Croplands for Biofuels Increases Greenhouse Gases Through Emissions from
+Land- Use Change". _Science_. **319** (5867): 1238–1240.
+Bibcode:2008Sci...319.1238S. doi:10.1126/science.1151861. ISSN 0036-8075. PMID
+18258860. Originally published online in Science Express on 7 February 2008.
+See Letters to _Science_ by Wang and Haq. There are critics to these findings
+for assuming a worst-case scenario.
+
+>>  
+>>                 >>                       58. **^** Fargione, J.; Hill, J;
+Tilman, D; Polasky, S; Hawthorne,
+
+>>  
+>>
+
+>> P; et al. (2008-02-29). "Land Clearing and the Biofuel Carbon Debt".
+_Science_. **319** (5867): 1235–1238. Bibcode:2008Sci...319.1235F.
+doi:10.1126/science.1152747. ISSN 0036-8075. PMID 18258862. Originally
+published online in Science Express on 7 February 2008. There are rebuttals to
+these findings for assuming a worst-case scenario
+
+>>  
+>>                 >>                       59. **^** Ethanol Promotion and
+Information Council (2007-02-27).
+
+>>  
+>>
+
+>> "When is E85 not 85 percent ethanol? When it's E70 with an E85 sticker on
+it". AutoblogGreen. Retrieved 2008-08-19.
+
+>>  
+>>                 >>                       60. **^**
+http://www.eere.energy.gov Energy.gov site Archived
+
+>>  
+>>
+
+>> 2016-01-28 at the Wayback Machine
+
+>>  
+>>                 >>                       61. **^** http://www.eia.doe.gov
+Alternative Fuel Efficiencies in
+
+>>  
+>>
+
+>> Miles per Gallon Archived December 3, 2007, at the Wayback Machine
+
+>>  
+>>                 >>                       62. **^** JB Online (2007-11-20).
+"Álcool ou Gasolina? Saiba qual
+
+>>  
+>>
+
+>> escolher quando for abastecer" (in Portuguese). Opinaoweb. Retrieved
+2008-08-24.
+
+>>  
+>>                 >>                       63. **^** InfoMoney (2007-05-30).
+"Saiba o que fazer para
+
+>>  
+>>
+
+>> economizar gasolina" (in Portuguese). IGF. Archived from the original on
+2009-02-09. Retrieved 2008-08-24.
+
+>>  
+>>                 >>                       64. **^** "EPA Mileage".
+Fueleconomy.gov. Archived from the
+
+>>  
+>>
+
+>> original on 3 December 2010. Retrieved 2010-12-12.
+
+>>  
+>>                 >>                       65. **^** "Reported E85 Prices-
+Last 30 days". E85prices.com.
+
+>>  
+>>
+
+>> Archived from the original on 12 September 2008. Retrieved 2008-09-18.
+
+>>  
+>>                 >>                       66. **^** "Livina, primeiro carro
+flex da Nissan chega com preços
+
+>>  
+>>
+
+>> entre R$ 46.690 e R$ 56.690" (in Portuguese). Car Magazine Online.
+2009-03-18. Retrieved 2009-03-26.[ _permanent dead link_ ]
+
+>>  
+>>                 >>                       67. **^** Reuters (2008-08-06).
+"Vendas de veículos flex no Brasil
+
+>>  
+>>
+
+>> sobem 31,1% em julho 2008" (in Portuguese). Hoje Notícias. Archived from
+the original on 2009-02-01. Retrieved 2008-08-13.
+
+>>  
+>>                 >>                       68. **^** "Veículos flex somam 6
+milhões e alcançam 23% da frota"
+
+>>  
+>>
+
+>> (in Portuguese). Folha Online. 2008-08-04. Retrieved 2008-08-12.
+
+>>  
+>>                 >>                       69. **^** "DENATRAN Frota por
+tipo/UF 2008 (file 2008-03)" (in
+
+>>  
+>>
+
+>> Portuguese). Departamento Nacional de Trânsito. Retrieved 2008-05-03.[
+_permanent dead link_ ] As of March 31, 2008, DENATRAN reports a total fleet
+of 50 million, including motorcycles, trucks and special equipment, and 32
+million automobiles and light commercial vehicles.
+
+>>  
+>>                 >>                       70. **^** Daniel Budny and Paulo
+Sotero, editor (April 2007).
+
+>>  
+>>
+
+>> "Brazil Institute Special Report: The Global Dynamics of Biofuels" (PDF).
+Brazil Institute of the Woodrow Wilson Center. Archived from the original
+(PDF) on 28 May 2008. Retrieved 2008-05-03.CS1 maint: Extra text: authors list
+(link)
+
+>>  
+>>                 >>                       71. ^ _**a**_ _**b**_ Inslee, Jay;
+Bracken Hendricks (2007).
+
+>>  
+>>
+
+>> _Apollo's Fire_. Island Press, Washington, D.C. pp. 153–155, 160–161. ISBN
+978-1-59726-175-3. _See Chapter 6. Homegrown Energy._
+
+>>  
+>>                 >>                       72. **^** Green Car Journal
+Editors (1994). "Cars On Alcohol, Part
+
+>>  
+>>
+
+>> 9: Corn Based Ethanol in the US". Green Car. Archived from the original on
+11 October 2008. Retrieved 2008-08-31.CS1 maint: Extra text: authors list
+(link)
+
+>>  
+>>                 >>                       73. **^** Paul Dever (January
+1996). "Alternative Fuel Ford
+
+>>  
+>>
+
+>> Taurus". The Auto Channel. Retrieved 2008-08-14. Original source: 1996
+North American International Auto Show Press Release
+
+>>  
+>>                 >>                       74. **^** Green Car Journal
+Editors (1995). "Cars On Alcohol, Part
+
+>>  
+>>
+
+>> 13: GM Supports FlexFuel". Green Car. Archived from the original on 13
+October 2008. Retrieved 2008-08-31.CS1 maint: Extra text: authors list (link)
+
+>>  
+>>                 >>                       75. **^** Maria Grahn (2004). "Why
+is ethanol given emphasis over
+
+>>  
+>>
+
+>> methanol in Sweden?" (PDF). Chalmers University of Technology. Archived
+from the original (PDF) on 2011-07-17. Retrieved 2008-08-31.
+
+>>  
+>>                 >>                       76. **^** Engine efficiency
+
+>>  
+>>                       77. **^** Norman, Jim. "Where There’s Never an Oil
+Shortage". _The
+
+>>  
+>>
+
+>> New York Times_. May 13, 2007.
+
+>>  
+>>                 >>                       78. **^** Tillman, Adriane.
+"Greasestock Festival returns, bigger
+
+>>  
+>>
+
+>> and better Archived 2008-05-18 at the Wayback Machine". May 14, 2008.
+
+>>  
+>>                 >>                       79. **^** "Greasestock 2008
+Archived 2008-05-29 at the Wayback
+
+>>  
+>>
+
+>> Machine". _Greasestock Archived 2008-05-29 at the Wayback Machine_.
+Retrieved May 20, 2008.
+
+>>  
+>>                 >>                       80. **^** Max, Josh. "Gas-guzzlers
+become veggie delights at
+
+>>  
+>>
+
+>> Greasestock in Yorktown Heights". _Daily News_. May 13, 2008.
+
+>>  
+>>                 >>                       81. ^ _**a**_ _**b**_ "Bio-methane
+fuelled vehicles - John Baldwin
+
+>>  
+>>
+
+>> CNG Services | Claverton Group". Claverton-energy.com. Retrieved
+2010-12-12.
+
+>>  
+>>                 >>                       82. ^ _**a**_ _**b**_ Sperling,
+Daniel; Deborah Gordon (2009).
+
+>>  
+>>
+
+>> _Two billion cars: driving toward sustainability_. Oxford University Press,
+New York. pp. 93–94. ISBN 978-0-19-537664-7.
+
+>>  
+>>                 >>                       83. ^ _**a**_ _**b**_ "Current
+Natural Gas Vehicle Statistics".
+
+>>  
+>>
+
+>> International Association for Natural Gas Vehicles. Retrieved 2013-11-17.
+_Click on Ranked by number._
+
+>>  
+>>                 >>                       84. **^** "Pakistan Hits One-
+Million Natural Gas Vehicle Mark".
+
+>>  
+>>
+
+>> Green Car Congres. 2006-05-13. Retrieved 2008-10-17.
+
+>>  
+>>                 >>                       85. **^** GNVNews (November 2006).
+"Montadores Investem nos Carros
+
+>>  
+>>
+
+>> á GNV" (in Portuguese). Institutio Brasileiro de Petroleo e Gas. Archived
+from the original on 2008-12-11. Retrieved 2008-09-20.
+
+>>  
+>>                 >>                       86. **^** Pike Research
+(2011-09-14). "Pike Research predicts 68%
+
+>>  
+>>
+
+>> jump in global CNG vehicle sales by 2016". AutoblogGreen. Retrieved
+2011-09-26. See details in Press Release
+
+>>  
+>>                 >>                       87. **^** Christine Lepisto
+(2006-08-27). "Fiat Siena Tetra Power:
+
+>>  
+>>
+
+>> Your Choice of Four Fuels". Treehugger. Archived from the original on 19
+September 2008. Retrieved 2008-08-24.
+
+>>  
+>>                 >>                       88. **^** "Nouvelle Fiat Siena
+2008: sans complexe" (in French).
+
+>>  
+>>
+
+>> Caradisiac. 2007-11-01. Archived from the original on 2008-07-01. Retrieved
+2008-08-31.
+
+>>  
+>>                 >>                       89. **^** Agência AutoInforme
+(2006-06-19). "Siena Tetrafuel vai
+
+>>  
+>>
+
+>> custar R$ 41,9 mil" (in Portuguese). WebMotor. Archived from the original
+on 2008-12-10. Retrieved 2008-08-14. The article argues that even though Fiat
+called it tetra fuel, it actually runs on three fuels: natural gas, ethanol,
+and gasoline.
+
+>>  
+>>                 >>                       90. **^** TaxiNews. "Gás Natural
+Veicular" (in Portuguese).
+
+>>  
+>>
+
+>> TDenavagari.com.br. Retrieved 2008-08-24.[ _permanent dead link_ ]
+
+>>  
+>>                 >>                       91. **^** "Team FAST - Building
+the world's first bus on formic
+
+>>  
+>>
+
+>> acid". _Team FAST_. Retrieved 26 July 2017.
+
+>>  
+>>                 >>                       92. **^** "Team FAST presents
+scale model of car powered by formic
+
+>>  
+>>
+
+>> acid". _tue.nl_. Retrieved 26 July 2017.
+
+>>  
+>>                 >>                       93. **^** Jeff Cobb (2014-11-17).
+"Toyota Mirai To Be Priced From
+
+>>  
+>>
+
+>> $57,500". HybridCars.com. Retrieved 2014-11-19.
+
+>>  
+>>                 >>                       94. ^ _**a**_ _**b**_
+"首相「水素時代の幕開け」…規制緩和を加速へ" [Opening of hydrogen
+
+>>  
+>>
+
+>> age, accelerate deregulations]. _Yomiuri Shimbun_ (in Japanese).
+2015-01-16. Retrieved 2015-01-16. "Yomiuri Shimbun Ver.13S page 1"
+
+>>  
+>>                 >>                       95. **^** Honda Motor Company (16
+June 2008). "Honda Announces
+
+>>  
+>>
+
+>> First FCX Clarity Customers and World's First Fuel Cell Vehicle Dealership
+Network as Clarity Production Begins". Archived from the original on 14 August
+2009. Retrieved 2009-06-01.
+
+>>  
+>>                 >>                       96. **^** "Hydrogen fuel cells to
+hit showrooms by 2013".
+
+>>  
+>>
+
+>> _Collision Repair Magazine_. Archived from the original on 7 November 2014.
+Retrieved 30 May 2015.
+
+>>  
+>>                 >>                       97. **^** John Voelcker
+(2014-07-29). "Honda Ends Three Green
+
+>>  
+>>
+
+>> Models For 2015: Insight, Fit EV, FCX Clarity". Green Car Reports.
+Retrieved 2014-08-20.
+
+>>  
+>>                 >>                       98. **^** "Hydrogen for
+transport", _The Carbon Trust_ , 28
+
+>>  
+>>
+
+>> November 2014. Retrieved on 20 January 2015.
+
+>>  
+>>                 >>                       99. **^** Thames & Kosmos kit
+Archived July 12, 2012, at the
+
+>>  
+>>
+
+>> Wayback Machine, Other educational materials, and many more demonstration
+car kits Archived December 26, 2007, at the Wayback Machine.
+
+>>  
+>>                 >>                       100. **^** Voelcker, John. "The
+New Hyundai ix35", Hyundai,
+
+>>  
+>>
+
+>> accessed December 7, 2014
+
+>>  
+>>                 >>                       101. **^** "Plug-In Electric Car
+Sales Continue Rise In 2014:
+
+>>  
+>>
+
+>> 100,000-Plus Last Year", _Green Car Reports_ , January 5, 2015
+
+>>  
+>>                 >>                       102. **^** Yoko Kubota
+(2014-12-15). "Toyota's Fuel-Cell Car Mirai
+
+>>  
+>>
+
+>> Goes on Sale". _Japan Real Time (Wall Street Journall)_. Retrieved
+2014-12-29.
+
+>>  
+>>                 >>                       103. **^** Mihalascu, Dan
+(2015-01-15). "Toyota Gets 1,500 Orders
+
+>>  
+>>
+
+>> for the Mirai in Japan in One Month". _Car Scoops_.
+
+>>  
+>>                 >>                       104. **^** John Voelcker
+(2015-12-14). "Portable Hydrogen Fuelers
+
+>>  
+>>
+
+>> Go To Six Toyota Mirai Dealers As Stations Lag". _Green Car Reports_.
+Retrieved 2015-12-18.
+
+>>  
+>>                 >>                       105. **^** John Voelcker
+(2014-11-18). "2016 Toyota Mirai Priced
+
+>>  
+>>
+
+>> At $57,500, With $499 Monthly Lease". Green Car Reports. Retrieved
+2014-11-19.
+
+>>  
+>>                 >>                       106. **^** "Propane FAQ".
+Retrieved  2011-04-25.
+
+>>  
+>>                       107. ^ _**a**_ _**b**_ "Hyundai Elantra LPi hybrid
+official press
+
+>>  
+>>
+
+>> release". Hyundai. 2009-07-10. Archived from the original on 2009-07-17.
+Retrieved 2010-03-23.
+
+>>  
+>>                 >>                       108. ^ _**a**_ _**b**_ "Hyundai
+Unveils Elantra LPI HEV at Seoul
+
+>>  
+>>
+
+>> Motor Show". Hyundai Global News. 2009-04-02. Retrieved 2010-03-23.[
+_permanent dead link_ ]
+
+>>  
+>>                 >>                       109. **^**
+http://thenewswheel.com/wood-powered-cadillac-cruises-
+
+>>  
+>>
+
+>> past-gas-stations/ Timothy Walling-Moore "Wood-Powered Cadillac Cruises
+Past Gas Stations " The News Wheel June 12, 2014
+
+>>  
+>>                 >>                       110. **^** Mukhsin, Ismail,
+Muammar; Hakim, Zulkifli, Abd Fathul;
+
+>>  
+>>
+
+>> Fawzi, Mohd Ali, Mas; Azmir, Osman, Shahrul (April 2016). "Conversion
+method of a diesel engine to a CNG-diesel dual fuel engine and its financial
+savings". _Arpn Journal of Engineering and Applied Sciences_. **11**.
+Retrieved 2018-08-20.
+
+>>  
+>>                 >>                       111. **^** Clean Cities (June
+2008). "Flexible Fuel Vehicles:
+
+>>  
+>>
+
+>> Providing a Renewable Fuel Choice (Fact Sheet)" (PDF). U.S. Department of
+Energy. Retrieved 2008-08-24.
+
+>>  
+>>                 >>                       112. **^** Ryan, Lisa; Turton, Hal
+(2007). _Sustainable Automobile
+
+>>  
+>>
+
+>> Transport_. Edward Elgar Publishing Ltd, England. pp. 40–41. ISBN
+978-1-84720-451-6.
+
+>>  
+>>                 >>                       113. **^** Wagner Oliveira
+(2009-09-30). "Etanol é usado em 65% da
+
+>>  
+>>
+
+>> frota flexível" (in Portuguese). Diario do Grande ABC. Retrieved
+2009-10-18.[ _permanent dead link_ ]
+
+>>  
+>>                 >>                       114. **^** Ken Thomas
+(2007-05-07). "'Flex-fuel' vehicles touted".
+
+>>  
+>>
+
+>> USA Today. Retrieved 2008-09-15.
+
+>>  
+>>                 >>                       115. **^** Christine Gable; Scott
+Gable. "Yellow E85 gas cap".
+
+>>  
+>>
+
+>> About.com: Hybrid Cars & Alt Fuels. Archived from the original on
+2008-10-05. Retrieved 2008-09-18.
+
+>>  
+>>                 >>                       116. **^** National Ethanol
+Vehicle Coalition (2008-09-08). "New
+
+>>  
+>>
+
+>> E85 Stations". NEVC FYI Newsletter (Vol 14 issue 15). Archived from the
+original on 15 September 2008. Retrieved 2008-09-15.
+
+>>  
+>>                 >>                       117. **^** National Ethanol
+Vehicle Coalition (2008-08-08). "New
+
+>>  
+>>
+
+>> E85 Stations". NEVC FYI Newsletter (Vol 14 no. 13). Archived from the
+original on 2008-10-10. Retrieved 2008-08-19. _For a complete and updated
+listing, go to www.e85refueling.com_
+
+>>  
+>>                 >>                       118. **^** "2002 Economic Census:
+Retail Trade - United States".
+
+>>  
+>>
+
+>> Census.gov. Archived from the original on 2010-10-18. Retrieved 2010-12-12.
+
+>>  
+>>                 >>                       119. **^** "As buyers shun SUVs,
+expect to pay more for that small
+
+>>  
+>>
+
+>> car - Cleveland Business News". Blog.cleveland.com. Retrieved 2010-12-12.
+
+>>  
+>>                 >>                       120. **^** "Bumpy ride for
+biofuels". The Economist. 2008-01-18.
+
+>>  
+>>
+
+>> Archived from the original on 27 October 2008. Retrieved 2008-09-14.
+
+>>  
+>>                 >>                       121. **^** João Gabriel de Lima
+(2006-02-01). "A riqueza é o
+
+>>  
+>>
+
+>> saber" (in Portuguese). Revista Veja. Archived from the original on 5
+September 2008. Retrieved 2008-08-19. Print edition No. 1941
+
+>>  
+>>                 >>                       122. **^** Honda News Release
+(2003-03-11). "Honda Begins Sales of
+
+>>  
+>>
+
+>> Flex Fuel Motorcycle CG150 TITAN MIX in Brazil". Honda. Archived from the
+original on 2009-03-13. Retrieved 2003-03-11.
+
+>>  
+>>                 >>                       123. **^** Agencia EFE
+(2003-03-11). "Honda lançará moto flex
+
+>>  
+>>
+
+>> ainda neste mês no Brasil" (in Portuguese). Folha Online. Retrieved
+2003-03-11.
+
+>>  
+>>                 >>                       124. **^** "Honda lança no Brasil
+primeira moto flex do mundo" (in
+
+>>  
+>>
+
+>> Portuguese). UNICA. 2003-03-11. Archived from the original on 2012-06-29.
+Retrieved 2003-03-11.
+
+>>  
+>>                 >>                       125. ^ _**a**_ _**b**_ Reese
+Ewing; Lisa Shumaker (2009-04-29).
+
+>>  
+>>
+
+>> "Motorcycle joins Brazil's biofueled fleet". Reuters. Retrieved 2009-04-30.
+
+>>  
+>>                 >>                       126. **^** "Honda lança primeira
+moto bicombustível do mundo" (in
+
+>>  
+>>
+
+>> Portuguese). G1 Portal de Notícias da Globo. 2008-03-11. Archived from the
+original on 2012-02-24. Retrieved 2003-03-11.
+
+>>  
+>>                 >>                       127. ^ _**a**_ _**b**_ "Worldwide
+Prius Cumulative Sales Top 2M
+
+>>  
+>>
+
+>> Mark; Toyota Reportedly Plans Two New Prius Variants for the US By End of
+2012". Green Car Congress. 2010-10-07. Archived from the original on 11
+October 2010. Retrieved 2010-10-07.
+
+>>  
+>>                 >>                       128. **^** Toyota Europe News
+(2013-07-03). "Worldwide Prius sales
+
+>>  
+>>
+
+>> top 3-million mark; Prius family sales at 3.4 million". Green Car Congress.
+Retrieved 2013-07-03.
+
+>>  
+>>                 >>                       129. **^** "Honda Insight Concept
+Hybrid Vehicle to Debut at Paris
+
+>>  
+>>
+
+>> International Auto Show" (PDF). _Honda Corporate Press Release_.
+2008-09-14. Retrieved 2009-05-29.[ _dead link_ ]
+
+>>  
+>>                 >>                       130. **^** James B. Treece;
+Lindsay Chappell (2006-05-17). "Honda
+
+>>  
+>>
+
+>> Kills the Insight". _AutoWeek_. Retrieved 2008-01-10.
+
+>>  
+>>                 >>                       131. **^** "2017 Honda Accord
+Hybrid - Honda". _Honda
+
+>>  
+>>
+
+>> Automobiles_. Retrieved 26 July 2017.
+
+>>  
+>>                 >>                       132. **^** "Honda Insight:
+America's most affordable hybrid at
+
+>>  
+>>
+
+>> $19,800". _Honda_. Motor Authority. 10 March 2009. Archived from the
+original on 14 March 2009. Retrieved 21 March 2009.
+
+>>  
+>>                 >>                       133. **^** Dan Rutherford
+(2014-04-04). "Hybrids break through in
+
+>>  
+>>
+
+>> the Japan auto market". International Council on Clean Transportation
+(ICCT). Retrieved 2015-01-25.
+
+>>  
+>>                 >>                       134. **^** International Council
+on Clean Transportation (ICCT)
+
+>>  
+>>
+
+>> (2013). "European Vehicle Market Statistics - Pocketbook 2013" (PDF). ICCT.
+Retrieved 2015-01-24. _See Figure 1.3, pp 6. See also tables in pp. 88–110 for
+HEV market by country from 2001 to 2012._
+
+>>  
+>>                 >>                       135. **^** Will Nichols
+(2012-06-25). "Ford tips hybrids to
+
+>>  
+>>
+
+>> overshadow electric cars". Business Green. Retrieved 2012-10-16. _By June
+2012 Ford had sold 200,000 full hybrids in the US since 2004._
+
+>>  
+>>                 >>                       136. **^** Jeff Cobb (2013-04-22).
+"December 2012 Dashboard".
+
+>>  
+>>
+
+>> HybridCars.com and Baum & Associates. Retrieved 2013-09-08. _See the
+section: December 2012 Hybrid Cars Numbers. A total of 434,498 hybrid electric
+vehicles were sold during 2012. Ford sold 32,543 hybrids in the U.S. during
+2012, including 14,100 Ford Fusion Hybrids, 10,935 C-Max Hybrids, 6,067
+Lincoln MKZ Hybrids, and 1,441 Ford Escape Hybrids._
+
+>>  
+>>                 >>                       137. **^** Jeff Cobb (2014-01-06).
+"December 2013 Dashboard".
+
+>>  
+>>
+
+>> HybridCars.com and Baum & Associates. Retrieved 2014-01-11.
+
+>>  
+>>                 >>                       138. **^** Jeff Cobb (2015-01-06).
+"December 2014 Dashboard".
+
+>>  
+>>
+
+>> _HybridCars.com and Baum & Associates_. Retrieved 2015-01-21.
+
+>>  
+>>                 >>                       139. **^** Jeff Cobb (2015-07-02).
+"June 2015 Dashboard".
+
+>>  
+>>
+
+>> _HybridCars.com and Baum & Associates_. Retrieved 2015-08-22.
+
+>>  
+>>                 >>                       140. **^** IHS Inc. (2014-05-16).
+"News - Hyundai-Kia reports
+
+>>  
+>>
+
+>> cumulative global hybrid sales of 200,000 units". IHS Technology. Retrieved
+2014-10-04.
+
+>>  
+>>                 >>                       141. **^** "50,000 Diesel Hybrid
+Vehicles Sold in Europe by PSA
+
+>>  
+>>
+
+>> Peugeot Citroën". _Reuters_. 2014-01-10. Retrieved 2014-10-04.
+
+>>  
+>>                 >>                       142. **^** Sherry Boschert (2006).
+_Plug-in Hybrids: The Cars that
+
+>>  
+>>
+
+>> will Recharge America_. New Society Publishers, Gabriola Island, Canada.
+ISBN 978-0-86571-571-4.
+
+>>  
+>>                 >>                       143. **^** Bichlien Hoang. "Plug-
+In Hybrid Electric Vehicles
+
+>>  
+>>
+
+>> (PHEVs): Overview". Institute of Electrical and Electronics Engineers.
+Retrieved 2010-03-05.
+
+>>  
+>>                 >>                       144. **^** Crippen, A. (December
+15, 2008) "Warren Buffett's
+
+>>  
+>>
+
+>> Electric Car Hits the Chinese Market, But Rollout Delayed For U.S. &
+Europe" _CNBC_. Retrieved December 2008.
+
+>>  
+>>                 >>                       145. **^** Balfour, F. (December
+15, 2008)"China's First Plug-In
+
+>>  
+>>
+
+>> Hybrid Car Rolls Out" _Business Week_. Retrieved December 2008.
+
+>>  
+>>                 >>                       146. **^** "BYD F3DM Plug-in
+Hybrid Goes On Sale in China". Green
+
+>>  
+>>
+
+>> Car Congress. 2008-12-15. Retrieved 2009-02-28.
+
+>>  
+>>                 >>                       147. **^** "BYD Auto To Begin
+Sales of F3DM Plug-in to
+
+>>  
+>>
+
+>> Individuals". Green Car Congress. 2010-03-23. Retrieved 2010-03-27.
+
+>>  
+>>                 >>                       148. **^** "BYD Auto to Offer F3DM
+Plug-in Hybrid to Chinese
+
+>>  
+>>
+
+>> Individuals Starting Next Week". Edmunds.com. 2010-03-23. Archived from the
+original on 2010-03-30. Retrieved 2010-03-27.
+
+>>  
+>>                 >>                       149. **^** "First Chevy Volts
+Reach Customers, Will Out-Deliver
+
+>>  
+>>
+
+>> Nissan in December". plugincars.com. 2010-12-16. Retrieved 2010-12-17.
+
+>>  
+>>                 >>                       150. **^** Jeff Cobb (2015-11-04).
+"GM Sells Its 100,000th Volt in
+
+>>  
+>>
+
+>> October". _HybridCars.com_. Archived from the original on 2015-11-08.
+Retrieved 2015-11-04. _About 102,000 units of the Volt/Ampera family have been
+sold worldwide by the end of October 2015_.
+
+>>  
+>>                 >>                       151. **^** Cobb, Jeff
+(2016-01-18). "Top Six Plug-in Vehicle
+
+>>  
+>>
+
+>> Adopting Countries – 2015". _HybridCars.com_. Retrieved 2016-02-12. _About
+520,000 highway legal light-duty plug-in electric vehicles were sold worldwide
+in 2015, with cumulative global sales reaching 1,235,000.Plug-in hybrids
+represent about 40% of global plug-in electric vehicle sales._
+
+>>  
+>>                 >>                       152. **^** Flórez-Orrego, Daniel;
+Silva, Julio A.M.; Oliveira Jr.,
+
+>>  
+>>
+
+>> Silvio de (2015). "Exergy and environmental comparison of the end use of
+vehicle fuels: The Brazilian case". _Energy Conversion and Management_.
+**100** : 220–231. doi:10.1016/j.enconman.2015.04.074. ISSN 0196-8904.
+
+>>
+
+>> ## External links[edit]
+
+>>  
+>>                 >>                       * Cradle-to-Grave Lifecycle
+Analysis of U.S. Light-Duty Vehicle-
+
+>>  
+>>
+
+>> Fuel Pathways: A Greenhouse Gas Emissions and Economic Assessment of
+Current (2015) and Future (2025–2030) Technologies (includes estimated cost of
+avoided GHG emissions from different AFV technologies), Argonne National
+Laboratory, June 2016.
+
+>>  
+>>                 >>                       * Clean Cities - 2014 Vehicle
+Buyer's Guide, National Renewable
+
+>>  
+>>
+
+>> Energy Laboratory (NREL), U.S. Department of Energy, Clean Cities program.
+December 2013.
+
+>>  
+>>                 >>                       * EERE:
+
+>>  
+>>                       * Alternative Fuels for Automobiles - Infographic
+
+>>  
+>>                         * Alternative Fuel Price Report.
+
+>>  
+>>                         * U.S. Alternative Fueling Stations.
+
+>>  
+>>                       * Green Car Guide
+
+>>  
+>>                       * Popular Mechanics describes the pros and cons of
+various
+
+>>  
+>>
+
+>> alternative fuels and what the future looks like for each.
+
+>>  
+>>                 >>                       * Powering Ahead - The future of
+low-carbon cars and fuels, the
+
+>>  
+>>
+
+>> RAC Foundation and UK Petroleum Industry Association, April 2013.
+
+>>  
+>>                 >>                       * Questions and Answers about
+Trev., UniSA, Division of
+
+>>  
+>>
+
+>> Information Technology, Engineering and the Environment.
+
+>>  
+>>                 >>                       * Sustainable Green Fleets EU-
+sponsored Dissemination project for
+
+>>  
+>>
+
+>> alternative propelled cars and alternative fuels
+
+>>  
+>>                 >>                       * Transitions to Alternative
+Vehicles and Fuels, National Academy
+
+>>  
+>>
+
+>> of Sciences (2013), ISBN 978-0-309-26852-3
+
+>>  
+>>                 >>                       * v
+
+>>  
+>>                       * t
+
+>>  
+>>                       * e
+
+>>  
+>>
+
+>> Alternative fuel vehicles
+
+>>
+
+>> * * *
+
+>>
+
+>> Compressed-air engine|
+
+>>  
+>>                 >>                       * Compressed air car
+
+>>  
+>>                       * Compressed-air vehicle
+
+>>  
+>>                       * Tesla turbine
+
+>>  
+>>
+
+>> |
+
+>>
+
+>> ![Elektroauto
+
+1.jpg](//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Elektroauto_1.jpg/250px-
+
+Elektroauto_1.jpg)
+
+>>
+
+>> Electric motor|
+
+>>  
+>>                 >>                       * Battery-electric locomotive
+
+>>  
+>>                       * Battery electric vehicle
+
+>>  
+>>                       * Cater MetroTrolley
+
+>>  
+>>                       * Electric aircraft
+
+>>  
+>>                       * Electric bicycle
+
+>>  
+>>                       * Pedelec
+
+>>  
+>>                       * Electric boat
+
+>>  
+>>                       * Electric bus
+
+>>  
+>>                         * Battery electric bus
+
+>>  
+>>                       * Electric car
+
+>>  
+>>                         * List
+
+>>  
+>>                       * Electric truck
+
+>>  
+>>                       * Electric platform truck
+
+>>  
+>>                       * Electric vehicle
+
+>>  
+>>                       * Electric motorcycles and scooters
+
+>>  
+>>                       * Electric kick scooter
+
+>>  
+>>                       * Gyro flywheel locomotive
+
+>>  
+>>                       * Hybrid electric vehicle
+
+>>  
+>>                       * Hybrid train
+
+>>  
+>>                       * Motorized bicycle
+
+>>  
+>>                       * Neighborhood Electric Vehicle
+
+>>  
+>>                       * Plug-in electric vehicle
+
+>>  
+>>                         * List
+
+>>  
+>>                       * Plug-in hybrid electric vehicle
+
+>>  
+>>                       * Solar vehicle
+
+>>  
+>>                         * Solar car
+
+>>  
+>>                         * Solar bus
+
+>>  
+>>
+
+>> Biofuel ICE|
+
+>>  
+>>                 >>                       * Alcohol fuel
+
+>>  
+>>                       * Biodiesel
+
+>>  
+>>                       * Biogas
+
+>>  
+>>                       * Butanol fuel
+
+>>  
+>>                       * Common ethanol fuel mixtures
+
+>>  
+>>                       * E85
+
+>>  
+>>                       * Ethanol fuel
+
+>>  
+>>                       * Flexible-fuel vehicle
+
+>>  
+>>                       * Methanol economy
+
+>>  
+>>                       * Methanol fuel
+
+>>  
+>>                       * Wood gas
+
+>>  
+>>
+
+>> Hydrogen|
+
+>>  
+>>                 >>                       * Fuel cell vehicle
+
+>>  
+>>                       * Hydrogen economy
+
+>>  
+>>                       * Hydrogen vehicle
+
+>>  
+>>                       * Hydrogen internal combustion engine vehicle
+
+>>  
+>>
+
+>> Others|
+
+>>  
+>>                 >>                       * Autogas
+
+>>  
+>>                       * Hybrid electric vehicle
+
+>>  
+>>                       * Liquid nitrogen vehicle
+
+>>  
+>>                       * Natural gas vehicle
+
+>>  
+>>                       * Propane
+
+>>  
+>>                       * Steam car
+
+>>  
+>>
+
+>> Multiple-fuel|
+
+>>  
+>>                 >>                       * Bi-fuel vehicle
+
+>>  
+>>                       * Flexible-fuel vehicle
+
+>>  
+>>                       * Hybrid vehicle
+
+>>  
+>>                       * Multifuel
+
+>>  
+>>                       * Plug-in hybrid
+
+>>  
+>>
+
+>> Documentaries|
+
+>>  
+>>                 >>                       * _Who Killed the Electric Car?_
+
+>>  
+>>                       * _What Is the Electric Car?_
+
+>>  
+>>                       * _Revenge of the Electric Car_
+
+>>  
+>>
+
+>> See also|
+
+>>  
+>>                 >>                       * Wind-powered vehicle
+
+>>  
+>>                       * Zero-emissions vehicle
+
+>>  
+>>                       * v
+
+>>  
+>>                       * t
+
+>>  
+>>                       * e
+
+>>  
+>>
+
+>> Car design
+
+>>
+
+>> * * *
+
+>>
+
+>> Classification|
+
+>>
+
+>> | By size|
+
+>>  
+>>                 >>                       * Micro
+
+>>  
+>>                       * City
+
+>>  
+>>                       * Kei
+
+>>  
+>>                       * Subcompact
+
+>>  
+>>                       * Supermini
+
+>>  
+>>                       * Family
+
+>>  
+>>                       * Compact
+
+>>  
+>>                       * Mid-size
+
+>>  
+>>                       * Full-size
+
+>>  
+>>
+
+>> ---|---  
+>  Custom|
+
+>>  
+>>                 >>                       * Hot rod
+
+>>  
+>>                       * Lead sled
+
+>>  
+>>                       * Lowrider
+
+>>  
+>>                       * Street rod
+
+>>  
+>>                       * T-bucket
+
+>>  
+>>
+
+>> Luxury|
+
+>>  
+>>                 >>                       * Compact executive
+
+>>  
+>>                       * Executive
+
+>>  
+>>                       * Personal
+
+>>  
+>>
+
+>> (MPV)|
+
+>>  
+>>                 >>                       * Compact
+
+>>  
+>>                       * Mini
+
+>>  
+>>
+
+>> (SUV)|
+
+>>  
+>>                 >>                       * Compact
+
+>>  
+>>                       * Crossover (CUV)
+
+>>  
+>>                       * Mini
+
+>>  
+>>
+
+>> Sports|
+
+>>  
+>>                 >>                       * Grand tourer
+
+>>  
+>>                       * Hot hatch
+
+>>  
+>>                       * Muscle
+
+>>  
+>>                       * Pony
+
+>>  
+>>                       * Sport compact
+
+>>  
+>>                       * Super
+
+>>  
+>>                       * Antique
+
+>>  
+>>                       * Classic
+
+>>  
+>>                       * Economy
+
+>>  
+>>                       * Leisure
+
+>>  
+>>                       * Ute
+
+>>  
+>>                       * Van
+
+>>  
+>>                       * Voiturette
+
+>>  
+>>
+
+>> Body styles|
+
+>>  
+>>                 >>                       * 2+2
+
+>>  
+>>                       * Baquet
+
+>>  
+>>                       * Barchetta
+
+>>  
+>>                       * Berlinetta
+
+>>  
+>>                       * Brougham
+
+>>  
+>>                       * Cabrio coach
+
+>>  
+>>                       * Cab over
+
+>>  
+>>                       * Cabriolet / Convertible
+
+>>  
+>>                       * Coupé
+
+>>  
+>>                       * Coupé de Ville
+
+>>  
+>>                       * Coupé utility
+
+>>  
+>>                       * Drophead coupe (Convertible)
+
+>>  
+>>                       * Fastback
+
+>>  
+>>                       * Hardtop
+
+>>  
+>>                       * Hatchback
+
+>>  
+>>                       * Landaulet
+
+>>  
+>>                       * Liftback
+
+>>  
+>>                       * Limousine
+
+>>  
+>>                       * Multi-stop truck
+
+>>  
+>>                       * Notchback
+
+>>  
+>>                       * Panel van
+
+>>  
+>>                       * Phaeton
+
+>>  
+>>                       * Pickup truck
+
+>>  
+>>                       * Quad coupé
+
+>>  
+>>                       * Retractable hardtop
+
+>>  
+>>                       * Roadster
+
+>>  
+>>                       * Runabout
+
+>>  
+>>                       * Saloon / Sedan
+
+>>  
+>>                       * Sedan delivery/Panel van
+
+>>  
+>>                       * Sedanca de Ville (Coupé de Ville)
+
+>>  
+>>                       * Shooting-brake
+
+>>  
+>>                       * Spider / Spyder (Roadster)
+
+>>  
+>>                       * Station wagon
+
+>>  
+>>                       * Targa top
+
+>>  
+>>                       * Torpedo
+
+>>  
+>>                       * Touring
+
+>>  
+>>                       * Town (Coupé de Ville)
+
+>>  
+>>                       * T-top
+
+>>  
+>>                       * Vis-à-vis
+
+>>  
+>>
+
+>> Specialized vehicles|
+
+>>  
+>>                 >>                       * Amphibious
+
+>>  
+>>                       * Connected
+
+>>  
+>>                       * Driverless (autonomous)
+
+>>  
+>>                       * Hearse
+
+>>  
+>>                       * Gyrocar
+
+>>  
+>>                       * Roadable aircraft
+
+>>  
+>>                       * Taxicab
+
+>>  
+>>                       * Tow truck
+
+>>  
+>>
+
+>> Propulsion|
+
+>>  
+>>                 >>                       * Alternative fuel
+
+>>  
+>>                       * Autogas
+
+>>  
+>>                       * Biodiesel
+
+>>  
+>>                       * Diesel
+
+>>  
+>>                       * Electric (battery
+
+>>  
+>>                       * NEV)
+
+>>  
+>>                       * Ethanol (E85)
+
+>>  
+>>                       * Fuel cell
+
+>>  
+>>                       * Gasoline / petrol (direct injection)
+
+>>  
+>>                       * Homogeneous charge compression ignition
+
+>>  
+>>                       * Hybrid (plug-in)
+
+>>  
+>>                       * Hydrogen
+
+>>  
+>>                       * Internal combustion
+
+>>  
+>>                       * Liquid nitrogen
+
+>>  
+>>                       * Steam
+
+>>  
+>>
+
+>> Drive wheels|
+
+>>  
+>>                 >>                       * Front-wheel
+
+>>  
+>>                       * Rear-wheel
+
+>>  
+>>                       * Two-wheel
+
+>>  
+>>                       * Four-wheel
+
+>>  
+>>                       * Six-wheel
+
+>>  
+>>                       * Eight-wheel
+
+>>  
+>>                       * Ten-wheel
+
+>>  
+>>                       * Twelve-wheel
+
+>>  
+>>
+
+>> Engine position|
+
+>>  
+>>                 >>                       * Front
+
+>>  
+>>                       * Mid
+
+>>  
+>>                       * Rear
+
+>>  
+>>
+
+>> Layout (engine / drive)|
+
+>>  
+>>                 >>                       * Front / front
+
+>>  
+>>                       * Front mid / front
+
+>>  
+>>                       * Rear / front
+
+>>  
+>>                       * Front / rear
+
+>>  
+>>                       * Rear mid / rear
+
+>>  
+>>                       * Rear / rear
+
+>>  
+>>                       * Front / four-wheel
+
+>>  
+>>                       * Mid / four-wheel
+
+>>  
+>>                       * Rear / four-wheel
+
+>>  
+>>
+
+>> Engine configuration  
+>  (internal combustion)|
+
+>>  
+>>                 >>                       * Boxer
+
+>>  
+>>                       * Flat
+
+>>  
+>>                       * Four-stroke
+
+>>  
+>>                       * H-block
+
+>>  
+>>                       * Reciprocating
+
+>>  
+>>                       * Single-cylinder
+
+>>  
+>>                       * Straight
+
+>>  
+>>                       * Two-stroke
+
+>>  
+>>                       * V (Vee)
+
+>>  
+>>                       * W engine
+
+>>  
+>>                       * Wankel
+
+>>  
+>>                       * Portal
+
+>>  
+>>                       * Category
+
+>>  
+>>                       * Template:EC car classification
+
+>>  
+>>                       * v
+
+>>  
+>>                       * t
+
+>>  
+>>                       * e
+
+>>  
+>>
+
+>> Emerging technologies
+
+>>
+
+>> * * *
+
+>>
+
+>> Fields|
+
+>>
+
+>> | Agriculture|
+
+>>  
+>>                 >>                       * Agricultural robot
+
+>>  
+>>                       * Cellular agriculture
+
+>>  
+>>                       * Closed ecological systems
+
+>>  
+>>                       * Cultured meat
+
+>>  
+>>                       * Genetically modified food
+
+>>  
+>>                       * Precision agriculture
+
+>>  
+>>                       * Vertical farming
+
+>>  
+>>
+
+>> ---|---  
+>  Architecture|
+
+>>  
+>>                 >>                       * Arcology
+
+>>  
+>>                       * Building printing
+
+>>  
+>>                         * Contour crafting
+
+>>  
+>>                       * Domed city
+
+>>  
+>>
+
+>> Biomedical|
+
+>>  
+>>                 >>                       * Artificial uterus
+
+>>  
+>>                       * Ampakine
+
+>>  
+>>                       * Brain transplant
+
+>>  
+>>                       * Cryonics
+
+>>  
+>>                         * Cryoprotectant
+
+>>  
+>>                         * Cryopreservation
+
+>>  
+>>                         * Vitrification
+
+>>  
+>>                         * Suspended animation
+
+>>  
+>>                       * De-extinction
+
+>>  
+>>                       * Genetic engineering
+
+>>  
+>>                         * Gene therapy
+
+>>  
+>>                       * Head transplant
+
+>>  
+>>                       * Isolated brain
+
+>>  
+>>                       * Life extension
+
+>>  
+>>                         * Strategies for Engineered Negligible Senescence
+
+>>  
+>>                       * Nanomedicine
+
+>>  
+>>                       * Nanosensors
+
+>>  
+>>                       * Organ printing
+
+>>  
+>>                       * Personalized medicine
+
+>>  
+>>                       * Regenerative medicine
+
+>>  
+>>                         * Stem-cell therapy
+
+>>  
+>>                         * Tissue engineering
+
+>>  
+>>                       * Robot-assisted surgery
+
+>>  
+>>                       * Synthetic biology
+
+>>  
+>>                         * Synthetic genomics
+
+>>  
+>>                       * Virotherapy
+
+>>  
+>>                         * Oncolytic virus
+
+>>  
+>>                       * Tricorder
+
+>>  
+>>                       * Whole genome sequencing
+
+>>  
+>>
+
+>> Displays|
+
+>>
+
+>> | Next generation|
+
+>>  
+>>                 >>                       * FED
+
+>>  
+>>                       * FLCD
+
+>>  
+>>                       * iMoD
+
+>>  
+>>                       * Laser
+
+>>  
+>>                       * LPD
+
+>>  
+>>                       * OLED
+
+>>  
+>>                       * OLET
+
+>>  
+>>                       * QD-LED
+
+>>  
+>>                       * SED
+
+>>  
+>>                       * TPD
+
+>>  
+>>                       * TDEL
+
+>>  
+>>                       * TMOS
+
+>>  
+>>                       * MicroLED
+
+>>  
+>>
+
+>> ---|---  
+>  Screenless|
+
+>>  
+>>                 >>                       * Bionic contact lens
+
+>>  
+>>                       * Head-mounted display
+
+>>  
+>>                       * Head-up display
+
+>>  
+>>                       * Optical head-mounted display
+
+>>  
+>>                       * Virtual retinal display
+
+>>  
+>>
+
+>> Other|
+
+>>  
+>>                 >>                       * Autostereoscopy
+
+>>  
+>>                       * Flexible display
+
+>>  
+>>                       * Holographic display
+
+>>  
+>>                         * Computer-generated holography
+
+>>  
+>>                       * Multi-primary color display
+
+>>  
+>>                       * Ultra HD
+
+>>  
+>>                       * Volumetric display
+
+>>  
+>>
+
+>> Electronics|
+
+>>  
+>>                 >>                       * Electronic nose
+
+>>  
+>>                       * E-textiles
+
+>>  
+>>                       * Flexible electronics
+
+>>  
+>>                       * Molecular electronics
+
+>>  
+>>                       * Nanoelectromechanical systems
+
+>>  
+>>                       * Memristor
+
+>>  
+>>                       * Spintronics
+
+>>  
+>>                       * Thermal copper pillar bump
+
+>>  
+>>                       * Twistronics
+
+>>  
+>>
+
+>> Energy|
+
+>>
+
+>> | Production|
+
+>>  
+>>                 >>                       * Airborne wind turbine
+
+>>  
+>>                       * Artificial photosynthesis
+
+>>  
+>>                       * Biofuels
+
+>>  
+>>                       * Carbon-neutral fuel
+
+>>  
+>>                       * Concentrated solar power
+
+>>  
+>>                       * Fusion power
+
+>>  
+>>                       * Home fuel cell
+
+>>  
+>>                       * Hydrogen economy
+
+>>  
+>>                       * Methanol economy
+
+>>  
+>>                       * Molten salt reactor
+
+>>  
+>>                       * Nantenna
+
+>>  
+>>                       * Photovoltaic pavement
+
+>>  
+>>                       * Space-based solar power
+
+>>  
+>>                       * Vortex engine
+
+>>  
+>>
+
+>> ---|---  
+>  Storage|
+
+>>  
+>>                 >>                       * Beltway battery
+
+>>  
+>>                       * Compressed air energy storage
+
+>>  
+>>                       * Flywheel energy storage
+
+>>  
+>>                       * Grid energy storage
+
+>>  
+>>                       * Lithium–air battery
+
+>>  
+>>                       * Molten-salt battery
+
+>>  
+>>                       * Nanowire battery
+
+>>  
+>>                       * Research in lithium-ion batteries
+
+>>  
+>>                       * Silicon–air battery
+
+>>  
+>>                       * Thermal energy storage
+
+>>  
+>>                       * Ultracapacitor
+
+>>  
+>>
+
+>> Other|
+
+>>  
+>>                 >>                       * Smart grid
+
+>>  
+>>                       * Wireless power
+
+>>  
+>>
+
+>> Information and  
+>  communications
+
+>>
+
+>> |
+
+>>  
+>>                 >>                       * Ambient intelligence
+
+>>  
+>>                         * Internet of things
+
+>>  
+>>                       * Artificial intelligence
+
+>>  
+>>                         * Applications of artificial intelligence
+
+>>  
+>>                         * Progress in artificial intelligence
+
+>>  
+>>                         * Machine translation
+
+>>  
+>>                         * Mobile translation
+
+>>  
+>>                         * Machine vision
+
+>>  
+>>                         * Semantic Web
+
+>>  
+>>                         * Speech recognition
+
+>>  
+>>                       * Atomtronics
+
+>>  
+>>                       * Carbon nanotube field-effect transistor
+
+>>  
+>>                       * Cybermethodology
+
+>>  
+>>                       * Fourth-generation optical discs
+
+>>  
+>>                         * 3D optical data storage
+
+>>  
+>>                         * Holographic data storage
+
+>>  
+>>                       * GPGPU
+
+>>  
+>>                       * Memory
+
+>>  
+>>                         * CBRAM
+
+>>  
+>>                         * FRAM
+
+>>  
+>>                         * Millipede
+
+>>  
+>>                         * MRAM
+
+>>  
+>>                         * NRAM
+
+>>  
+>>                         * PRAM
+
+>>  
+>>                         * Racetrack memory
+
+>>  
+>>                         * RRAM
+
+>>  
+>>                         * SONOS
+
+>>  
+>>                       * Optical computing
+
+>>  
+>>                       * RFID
+
+>>  
+>>                         * Chipless RFID
+
+>>  
+>>                       * Software-defined radio
+
+>>  
+>>                       * Three-dimensional integrated circuit
+
+>>  
+>>
+
+>> Manufacturing|
+
+>>  
+>>                 >>                       * 3D printing
+
+>>  
+>>                       * Claytronics
+
+>>  
+>>                       * Molecular assembler
+
+>>  
+>>                       * Utility fog
+
+>>  
+>>
+
+>> Materials science|
+
+>>  
+>>                 >>                       * Aerogel
+
+>>  
+>>                       * Amorphous metal
+
+>>  
+>>                       * Artificial muscle
+
+>>  
+>>                       * Conductive polymer
+
+>>  
+>>                       * Femtotechnology
+
+>>  
+>>                       * Fullerene
+
+>>  
+>>                       * Graphene
+
+>>  
+>>                       * High-temperature superconductivity
+
+>>  
+>>                       * High-temperature superfluidity
+
+>>  
+>>                       * Linear acetylenic carbon
+
+>>  
+>>                       * Metamaterials
+
+>>  
+>>                         * Metamaterial cloaking
+
+>>  
+>>                       * Metal foam
+
+>>  
+>>                       * Multi-function structures
+
+>>  
+>>                       * Nanotechnology
+
+>>  
+>>                         * Carbon nanotubes
+
+>>  
+>>                         * Molecular nanotechnology
+
+>>  
+>>                         * Nanomaterials
+
+>>  
+>>                       * Picotechnology
+
+>>  
+>>                       * Programmable matter
+
+>>  
+>>                       * Quantum dots
+
+>>  
+>>                       * Silicene
+
+>>  
+>>                       * Superalloy
+
+>>  
+>>                       * Synthetic diamond
+
+>>  
+>>
+
+>> Military|
+
+>>  
+>>                 >>                       * Antimatter weapon
+
+>>  
+>>                       * Caseless ammunition
+
+>>  
+>>                       * Directed-energy weapon
+
+>>  
+>>                         * Laser
+
+>>  
+>>                         * Maser
+
+>>  
+>>                         * Particle-beam weapon
+
+>>  
+>>                         * Sonic weapon
+
+>>  
+>>                         * Coilgun
+
+>>  
+>>                         * Railgun
+
+>>  
+>>                       * Plasma weapon
+
+>>  
+>>                       * Pure fusion weapon
+
+>>  
+>>                       * Stealth technology
+
+>>  
+>>                       * Vortex ring gun
+
+>>  
+>>
+
+>> Neuroscience|
+
+>>  
+>>                 >>                       * Artificial brain
+
+>>  
+>>                       * Brain–computer interface
+
+>>  
+>>                       * Electroencephalography
+
+>>  
+>>                       * Mind uploading
+
+>>  
+>>                         * Brain-reading
+
+>>  
+>>                         * Neuroinformatics
+
+>>  
+>>                       * Neuroprosthetics
+
+>>  
+>>                         * Bionic eye
+
+>>  
+>>                         * Brain implant
+
+>>  
+>>                         * Exocortex
+
+>>  
+>>                         * Retinal implant
+
+>>  
+>>
+
+>> Quantum|
+
+>>  
+>>                 >>                       * Quantum algorithms
+
+>>  
+>>                       * Quantum amplifier
+
+>>  
+>>                       * Quantum bus
+
+>>  
+>>                       * Quantum channel
+
+>>  
+>>                       * Quantum circuit
+
+>>  
+>>                       * Quantum complexity theory
+
+>>  
+>>                       * Quantum computing
+
+>>  
+>>                       * Quantum cryptography
+
+>>  
+>>                       * Quantum dynamics
+
+>>  
+>>                       * Quantum electronics
+
+>>  
+>>                       * Quantum error correction
+
+>>  
+>>                       * Quantum imaging
+
+>>  
+>>                       * Quantum information
+
+>>  
+>>                       * Quantum key distribution
+
+>>  
+>>                       * Quantum logic
+
+>>  
+>>                       * Quantum logic gates
+
+>>  
+>>                       * Quantum machine
+
+>>  
+>>                       * Quantum machine learning
+
+>>  
+>>                       * Quantum metamaterial
+
+>>  
+>>                       * Quantum metrology
+
+>>  
+>>                       * Quantum network
+
+>>  
+>>                       * Quantum neural network
+
+>>  
+>>                       * Quantum optics
+
+>>  
+>>                       * Quantum programming
+
+>>  
+>>                       * Quantum sensing
+
+>>  
+>>                       * Quantum simulator
+
+>>  
+>>                       * Quantum teleportation
+
+>>  
+>>
+
+>> Robotics|
+
+>>  
+>>                 >>                       * Domotics
+
+>>  
+>>                       * Nanorobotics
+
+>>  
+>>                       * Powered exoskeleton
+
+>>  
+>>                       * Self-reconfiguring modular robot
+
+>>  
+>>                       * Swarm robotics
+
+>>  
+>>                       * Uncrewed vehicle
+
+>>  
+>>
+
+>> Space science|
+
+>>
+
+>> | Launch|
+
+>>  
+>>                 >>                       * Fusion rocket
+
+>>  
+>>                       * Non-rocket spacelaunch
+
+>>  
+>>                         * Mass driver
+
+>>  
+>>                         * Orbital ring
+
+>>  
+>>                         * Skyhook
+
+>>  
+>>                         * Space elevator
+
+>>  
+>>                         * Space fountain
+
+>>  
+>>                         * Space tether
+
+>>  
+>>                       * Reusable launch system
+
+>>  
+>>
+
+>> ---|---  
+>  Propulsion|
+
+>>  
+>>                 >>                       * Beam-powered propulsion
+
+>>  
+>>                       * Ion thruster
+
+>>  
+>>                       * Laser propulsion
+
+>>  
+>>                       * Plasma propulsion engine
+
+>>  
+>>                         * Helicon thruster
+
+>>  
+>>                         * VASIMR
+
+>>  
+>>                       * Nuclear pulse propulsion
+
+>>  
+>>                       * Solar sail
+
+>>  
+>>
+
+>> Other|
+
+>>  
+>>                 >>                       * Interstellar travel
+
+>>  
+>>                       * Propellant depot
+
+>>  
+>>                       * Laser communication in space
+
+>>  
+>>
+
+>> Transport|
+
+>>
+
+>> | Aerial|
+
+>>  
+>>                 >>                       * Adaptive compliant wing
+
+>>  
+>>                       * Backpack helicopter
+
+>>  
+>>                       * Delivery drone
+
+>>  
+>>                       * Flying car
+
+>>  
+>>                       * High-altitude platform
+
+>>  
+>>                       * Jet pack
+
+>>  
+>>                       * Pulse detonation engine
+
+>>  
+>>                       * Scramjet
+
+>>  
+>>                       * Spaceplane
+
+>>  
+>>                       * Supersonic transport
+
+>>  
+>>
+
+>> ---|---  
+>  Land|
+
+>>  
+>>                 >>                       * Airless tire
+
+>>  
+>>                       * Alternative fuel vehicle
+
+>>  
+>>                         * Hydrogen vehicle
+
+>>  
+>>                       * Driverless car
+
+>>  
+>>                       * Ground effect train
+
+>>  
+>>                       * Hyperloop
+
+>>  
+>>                       * Maglev train
+
+>>  
+>>                       * Personal rapid transit
+
+>>  
+>>                       * Transit Elevated Bus
+
+>>  
+>>                       * Vactrain
+
+>>  
+>>                       * Vehicular communication systems
+
+>>  
+>>
+
+>> Pipeline|
+
+>>  
+>>                 >>                       * Pneumatic transport
+
+>>  
+>>                         * Automated vacuum collection
+
+>>  
+>>
+
+>> Other|
+
+>>  
+>>                 >>                       * Anti-gravity
+
+>>  
+>>                       * Cloak of invisibility
+
+>>  
+>>                       * Digital scent technology
+
+>>  
+>>                       * Force field
+
+>>  
+>>                         * Plasma window
+
+>>  
+>>                       * Immersive virtual reality
+
+>>  
+>>                       * Magnetic refrigeration
+
+>>  
+>>                       * Phased-array optics
+
+>>  
+>>
+
+>> Topics|
+
+>>  
+>>                 >>                       * Collingridge dilemma
+
+>>  
+>>                       * Differential technological development
+
+>>  
+>>                       * Disruptive Innovation
+
+>>  
+>>                       * Ephemeralization
+
+>>  
+>>                       * Exploratory engineering
+
+>>  
+>>                       * Fictional technology
+
+>>  
+>>                       * Proactionary principle
+
+>>  
+>>                       * Technological change
+
+>>  
+>>                         * Technological unemployment
+
+>>  
+>>                       * Technological convergence
+
+>>  
+>>                       * Technological evolution
+
+>>  
+>>                       * Technological paradigm
+
+>>  
+>>                       * Technology forecasting
+
+>>  
+>>                         * Accelerating change
+
+>>  
+>>                         * Moore's law
+
+>>  
+>>                         * Technological singularity
+
+>>  
+>>                         * Technology scouting
+
+>>  
+>>                       * Technology readiness level
+
+>>  
+>>                       * Technology roadmap
+
+>>  
+>>                       * Transhumanism
+
+>>  
+>>                       *
+
+>>  
+>>
+
+>>
+![Category](//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-
+
+Folder_Hexagonal_Icon.svg.png) **Category**
+
+>>  
+>>                 >>                       * ![List-Class
+
+>>  
+>>
+
+>>
+article](//upload.wikimedia.org/wikipedia/en/thumb/d/db/Symbol_list_class.svg/16px-
+Symbol_list_class.svg.png) **List**
+
+>>
+
+>> ![](//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1)
+
+>>
+
+>> Retrieved from
+"https://en.wikipedia.org/w/index.php?title=Alternative_fuel_vehicle&oldid=896148571"
+
+>>
+
+>> Categories:
+
+>>  
+>>                 >>                       * Vehicle technology
+
+>>  
+>>                       * Green vehicles
+
+>>  
+>>                       * Emerging technologies
+
+>>  
+>>                       * Alternative fuels
+
+>>  
+>>
+
+>> Hidden categories:
+
+>>  
+>>                 >>                       * CS1 Portuguese-language sources
+(pt)
+
+>>  
+>>                       * CS1 Swedish-language sources (sv)
+
+>>  
+>>                       * CS1 Spanish-language sources (es)
+
+>>  
+>>                       * Articles containing potentially dated statements
+from September
+
+>>  
+>>
+
+>> 2018
+
+>>  
+>>                 >>                       * All articles containing
+potentially dated statements
+
+>>  
+>>                       * CS1 maint: Multiple names: authors list
+
+>>  
+>>                       * Articles containing potentially dated statements
+from December
+
+>>  
+>>
+
+>> 2016
+
+>>  
+>>                 >>                       * CS1 French-language sources (fr)
+
+>>  
+>>                       * CS1 maint: Archived copy as title
+
+>>  
+>>                       * Webarchive template wayback links
+
+>>  
+>>                       * All articles with dead external links
+
+>>  
+>>                       * Articles with dead external links from January 2017
+
+>>  
+>>                       * Articles with permanently dead external links
+
+>>  
+>>                       * Articles with dead external links from September
+2017
+
+>>  
+>>                       * CS1 maint: Extra text: authors list
+
+>>  
+>>                       * CS1 Japanese-language sources (ja)
+
+>>  
+>>                       * Articles with dead external links from July 2017
+
+>>  
+>>                       * Articles with dead external links from October 2010
+
+>>  
+>>                       * Articles containing potentially dated statements
+from 2017
+
+>>  
+>>                       * Articles containing potentially dated statements
+from June 2015
+
+>>  
+>>                       * Articles containing potentially dated statements
+from August
+
+>>  
+>>
+
+>> 2015
+
+>>  
+>>                 >>                       * Articles containing potentially
+dated statements from April 2016
+
+>>  
+>>                       * Articles containing potentially dated statements
+from January
+
+>>  
+>>
+
+>> 2017
+
+>>  
+>>                 >>                       * Articles containing potentially
+dated statements from June 2014
+
+>>  
+>>                       * Articles containing potentially dated statements
+from December
+
+>>  
+>>
+
+>> 2015
+
+>>  
+>>                 >>                       * Articles needing additional
+references from September 2008
+
+>>  
+>>                       * All articles needing additional references
+
+>>  
+>>                       * All articles with unsourced statements
+
+>>  
+>>                       * Articles with unsourced statements from October
+2017
+
+>>  
+>>                       * Articles containing potentially dated statements
+from December
+
+>>  
+>>
+
+>> 2012
+
+>>  
+>>                 >>                       * Articles with unsourced
+statements from January 2010
+
+>>  
+>>                       * Articles containing potentially dated statements
+from March 2014
+
+>>  
+>>
+
+>> ## Navigation menu
+
+>>
+
+>> ### Personal tools
+
+>>  
+>>                 >>                       * Not logged in
+
+>>  
+>>                       * Talk
+
+>>  
+>>                       * Contributions
+
+>>  
+>>                       * Create account
+
+>>  
+>>                       * Log in
+
+>>  
+>>
+
+>> ### Namespaces
+
+>>  
+>>                 >>                       * Article
+
+>>  
+>>                       * Talk
+
+>>  
+>>
+
+>> ### Variants
+
+>>
+
+>> ### Views
+
+>>  
+>>                 >>                       * Read
+
+>>  
+>>                       * Edit
+
+>>  
+>>                       * View history
+
+>>  
+>>
+
+>> ### More
+
+>>
+
+>> ### Search
+
+>>
+
+>> ### Navigation
+
+>>  
+>>                 >>                       * Main page
+
+>>  
+>>                       * Contents
+
+>>  
+>>                       * Featured content
+
+>>  
+>>                       * Current events
+
+>>  
+>>                       * Random article
+
+>>  
+>>                       * Donate to Wikipedia
+
+>>  
+>>                       * Wikipedia store
+
+>>  
+>>
+
+>> ### Interaction
+
+>>  
+>>                 >>                       * Help
+
+>>  
+>>                       * About Wikipedia
+
+>>  
+>>                       * Community portal
+
+>>  
+>>                       * Recent changes
+
+>>  
+>>                       * Contact page
+
+>>  
+>>
+
+>> ### Tools
+
+>>  
+>>                 >>                       * What links here
+
+>>  
+>>                       * Related changes
+
+>>  
+>>                       * Upload file
+
+>>  
+>>                       * Special pages
+
+>>  
+>>                       * Permanent link
+
+>>  
+>>                       * Page information
+
+>>  
+>>                       * Wikidata item
+
+>>  
+>>                       * Cite this page
+
+>>  
+>>
+
+>> ### Print/export
+
+>>  
+>>                 >>                       * Create a book
+
+>>  
+>>                       * Download as PDF
+
+>>  
+>>                       * Printable version
+
+>>  
+>>
+
+>> ### Languages
+
+>>  
+>>                 >>                       * فارسی
+
+>>  
+>>                       * Bahasa Indonesia
+
+>>  
+>>                       * Română
+
+>>  
+>>                       * Simple English
+
+>>  
+>>                       * Suomi
+
+>>  
+>>                       * 中文
+
+>>  
+>>
+
+>> Edit links
+
+>>  
+>>                 >>                       * This page was last edited on 8
+May 2019, at 16:04 (UTC).
+
+>>  
+>>                       * Text is available under the Creative Commons
+Attribution-
+
+>>  
+>>
+
+>> ShareAlike License; additional terms may apply. By using this site, you
+agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered
+trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+>>  
+>>                 >>                       * Privacy policy
+
+>>  
+>>                       * About Wikipedia
+
+>>  
+>>                       * Disclaimers
+
+>>  
+>>                       * Contact Wikipedia
+
+>>  
+>>                       * Developers
+
+>>  
+>>                       * Cookie statement
+
+>>  
+>>                       * Mobile view
+
+>>  
+>>                       * ![Wikimedia Foundation](/static/images/wikimedia-
+button.png)
+
+>>  
+>>                       * ![Powered by
+
+>>  
+>>
+
+>> MediaWiki](/static/images/poweredby_mediawiki_88x31.png)
+
+>
+
+> _[v]: View this template_ [t]: Discuss this template _[e]: Edit this
+template_ [ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication _[C.]: Century_ [m.]: married _[FT]:
+Financial Times_ [ _]: required_ [MB]: megabytes _[UV]: Ultraviolet_ [ UV]:
+Ultraviolet _[cf]: confer_ [NG]: National Geographic *[DOI]: digital object
+identifier
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+  *[m.]: married
+  *[FT]: Financial Times
+  *[*]: required
+  *[MB]: megabytes
+  *[UV]: Ultraviolet
+  *[ UV]: Ultraviolet
+  *[cf]: confer
+  *[NG]: National Geographic
+  *[DOI]: digital object identifier
+

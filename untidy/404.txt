@@ -1,0 +1,503 @@
+
+
+Skip to main content
+
+![Home](https://public.wmo.int/sites/all/themes/wmo/logo.png)
+
+World Meteorological Organization
+
+Weather · Climate · Water
+
+Toggle navigation
+
+EnglishFrançaisРусскийEspañol
+
+Go
+
+__
+
+            
+                            * Our mandate
+            
+                  * What we do 
+                  * Weather
+            
+                  * How we do it 
+                  * Climate
+            
+                  * Focus areas 
+                  * Water
+            
+                * Programmes 
+                * Projects 
+                * Resources
+            
+                  * Bulletin 
+                  * MétéoMonde 
+                  * Library 
+                  * Gender Equality
+            
+                  * Education and training 
+                  * Policy documents / Standards 
+                  * The WMO Building / Conference Centre
+            
+                  * Language resources 
+                  * Gallery 
+                  * World Meteorological Day
+            
+                * Media 
+                * Events 
+                * About us
+            
+                  * Who we are 
+                  * Vision, Mission, Strategic Priorities
+            
+                    * WMO Information System (WIS)
+            
+                  * Members 
+                  * Governance
+            
+                  * The Secretariat 
+                  * Employment 
+                  * Awards 
+                  * Procurement
+            
+                  * Finance and Accountability 
+                  * Related links 
+                  * FAQs 
+                  * Contact us
+            
+                * Reform
+            
+
+## Search form
+
+Search
+
+Home Resources Bulletin Observing Water Vapour
+
+# Observing Water Vapour
+
+## WaterVapour6.png
+
+![Observing Water Vapour](https://ane4bf-datap1.s3-eu-
+
+west-1.amazonaws.com/wmocms/s3fs-
+
+public/styles/featured_media_detail/public/article_bulletin/featured_media/WaterVapour6.png?BQHAGOIARFeZSELhyO3ApPkKKlBFkEGh&itok=QUVxu3cR)
+
+## Observing Water Vapour
+
+Author:
+
+Ed Dlugokencky, Sander Houweling, Ruud Dirksen, Marc Schröder, Dale Hurst,
+Piers Forster, and WMO Secretariat*
+
+Tags:
+
+Observations
+
+Water
+
+Contact:
+
+Theme:
+
+Water
+
+Bulletin nº :
+
+Vol 65 (2) - 2016
+
+Those who question the importance of climate change sometimes claim that
+reducing carbon dioxide (CO2) emissions into the atmosphere will have a very
+limited effect, because water vapour is the most dominant greenhouse gas. If
+that is the case, they wonder why bother so much about CO2 and other
+greenhouse gases? Observations by the WMO Global Atmosphere Watch programme
+have helped to investigate this in some detail.
+
+Some atmospheric gases, such as water vapour and CO2, absorb and re-emit
+infrared energy from the atmosphere down to the Earth’s surface. This process,
+the greenhouse effect, leads to a mean surface temperature that is 33 °C
+greater than it would be in its absence. If it were not for the greenhouse gas
+effect, Earth’s average temperature would be a chilly -18 °C. However, it is
+the non-condensable or long-lived greenhouse gases – mainly CO2, but also
+methane (CH4), nitrous oxide (N2O) and halocarbons (CFCs, HCFCs, HFCs) – that
+act as the drivers of the greenhouse effect. Water vapour and clouds act as
+fast feedbacks – that is to say that water vapour responds rapidly to changes
+in temperature, through evaporation, condensation and precipitation.
+
+This strong water vapour feedback means that for a scenario considering a
+doubling of the CO2 concentration from pre-industrial conditions, water vapour
+and clouds globally lead to an increase in thermal energy that is about three
+times that of the long-lived greenhouse gases. Therefore, measured in the
+ability to trap the heat emanating from the Earth’s surface, water vapour and
+clouds are the largest contributors to warming. The amount of water vapour in
+the atmosphere is a direct response to the amount of CO2 and the other long-
+lived greenhouse gases, increasing as they do.
+
+It is impossible for us to control directly the amount of water vapour in the
+atmosphere since water is found everywhere on our planet – it covers 71% of
+Earth’s surface. To limit the amount of water vapour in the atmosphere and
+control Earth’s temperature, we must limit the greenhouse gases that we can,
+in practice, do something about: CO2 and the other long-lived greenhouse
+gases.
+
+GAW observes water vapour as it is an important atmospheric constituent
+through the role it plays in the climate system as a potent greenhouse gas and
+as a source for clouds. Water vapour is also important as a chemical compound,
+both in the troposphere as a source of the hydroxyl radical, the most
+important oxidant in the troposphere, and in the stratosphere where it has an
+influence on ozone depletion, especially in the Polar Regions.
+
+![Observing Water Vapour/Allen Jordan](https://ane4bf-datap1.s3-eu-
+
+west-1.amazonaws.com/wmocms/s3fs-
+
+public/WaterVapour2.png?_CN6gvPSy9683hmYjq8EBFOupUFRHzZJ) | _Balloon-borne
+sounding payload consisting of a NOAA frost point hygrometer (FPH, front), an
+electrochemical concentration cell (ECC) ozonesonde (rear) and an InterMet
+radiosonde (left). The thin stainless steel air inlet tube extends out the top
+of the FPH. A similar tube is fixed to the bottom of the FPH before launch._  
+---|--- 
+
+#### **Measurement of water vapour**
+
+Atmospheric water vapour can be measured using a wide range of techniques and
+observational platforms. These observations are primarily used for numerical
+weather prediction, monitoring and research into climate and atmospheric
+chemistry. Water vapour is measured in situ by balloon- and aircraft-based
+instruments, and remotely by satellite- and ground-based sensors.
+
+The different techniques for measuring water vapour include the use of:
+
+            
+                            * Passive microwave sensors installed on polar orbiting platforms;
+                * Infrared sensors, which constitute the longest satellite record of water vapour profiling and sounding instruments;
+                * Ultraviolet/visible/near-infrared imagers (daytime retrieval methods that use two channels and provide high spatial resolution (~ 1 km));
+                * Limb sounding, the technique of sounding various layers of the atmosphere by observation along a tangent ray that does not intersect the Earth’s surface;
+                * Radiosondes, a commonly used instrument for in situ sounding that provides high-quality profiles of relative humidity (among other variables) at a still unmatched vertical resolution of approximately 5 metres – on a global scale about 1 000 radiosondes are launched each day. The humidity sensors on radiosondes give good-quality humidity data throughout most of the troposphere, however, important corrections must be applied to their humidity measurements in the upper troposphere and stratosphere;
+                * Balloon-borne frost point hygrometers that use a cooled mirror, whose temperature is carefully controlled at the frost point temperature;
+                * Ground-based instruments, which allow for semi-continuous probing of the air mass over a fixed location; and
+                * Various long-range commercial aircraft equipped with vapour sensors.
+            
+
+Trends in observed atmospheric water vapour are hampered by inhomogeneities in
+data records, which occur when measurement programmes are discontinued because
+of, for example, the limited lifespans of satellite missions or insufficiently
+documented or understood changes in instrumentation. Combining records from
+different instruments that do not agree with one another is also a problem.
+One example is the offset between records from the HALOE and MLS satellite
+instruments. Nevertheless, observations show a steady increase of the total
+water vapour column as well as a 30-year net increase in stratospheric water
+vapour.
+
+![Launching a balloon carrying a NOAA FPH/Allen Jordan](https://ane4bf-
+
+datap1.s3-eu-west-1.amazonaws.com/wmocms/s3fs-
+
+public/WaterVapour3.png?f1suy_Va8CaWZAd872UHB22pkiryZn4Q)_Emrys Hall (CIRES,
+University of Colorado) prepares to launch a balloon carrying a NOAA FPH, an
+ECC ozonesonde and a radiosonde from the Marshall Field Site in Boulder,
+Colorado._
+
+* * *
+
+#### **Water vapour in climate models**
+
+During the latter half of the twentieth century the amount of water vapour in
+the stratosphere showed a net increasing trend, but since 2000 there have been
+periods of both increasing and decreasing abundance (Nedoluha et al., 2013). A
+comprehensive understanding of all the mechanisms driving changes in
+stratospheric water vapour is currently lacking. Most of the transport of
+gases from the troposphere to the stratosphere happens through the tropical
+tropopause. Due to the low temperatures in this region of the atmosphere, the
+air gets freeze-dried and very little water enters the stratosphere. In fact,
+an important source of stratospheric water vapour is the oxidation of methane
+transported up from the troposphere. Future warming due to climate change and
+increasing concentrations of methane are both expected to lead to more water
+vapour in the stratosphere.
+
+Increases in water vapour in the upper troposphere and lower stratosphere
+(UTLS) lead to radiative cooling at these levels and induce warming at the
+surface. Recent analyses suggest that warming at the Earth’s surface may be
+sensitive to sub- parts per million (ppm) by volume changes in water vapour in
+the lower stratosphere. Research has found that a 10% decrease in
+stratospheric water vapour between 2000 and 2009 acted to slow the rate of
+increase in global surface temperature over this time period by about 25%
+compared to that which would have occurred due only to CO2 and other
+greenhouse gases.1 More limited data suggest that stratospheric water vapour
+probably increased between 1980 and 2000, which would have enhanced the
+decadal rate of surface warming during the 1990s by about 30% as compared to
+estimates neglecting this change. These findings show that stratospheric water
+vapour is an important driver of decadal global surface climate change.
+
+In the absence of global three-dimensional observations of water vapour,
+global reanalysis products are often used to validate numerical model
+simulations. Two extensively used reanalysis data sets are the NASA Modern-Era
+Retrospective Analysis for Research and Applications (MERRA), its newest
+release MERRA2, and European Centre for Medium-Range Weather Forecasts (ECMWF)
+Interim Reanalyses.
+
+A recent study showed that reanalysis data on high-altitude atmospheric water
+vapour, critical for the greenhouse effect, are not as accurate as previously
+thought. Water vapour data for the UTLS region from these reanalysis data sets
+have been compared to water vapour data from the Microwave Limb Sounder (MLS)
+on the AURA satellite. These satellite data have not been used in the
+production of these reanalysis, so they represent an independent data set well
+suited for validation. The study found that the reanalyses differed quite a
+lot from the MLS observations, overestimating the annual global mean water
+vapour in the upper troposphere by about 150%. Vertically, water vapour
+transport across the tropical tropopause (16–20 km) in the reanalyses is
+faster by up to ~86% compared to MLS observations. In the tropical lower
+stratosphere (21–25 km), the mean vertical transport from ECMWF is 168% faster
+than the MLS estimate, while MERRA and MERRA2 have vertical transport
+velocities within 10% of MLS values. Horizontally at 100 hectopascal (hPa),
+both MLS observations and reanalyses show faster poleward transport in the
+Northern Hemisphere than in the Southern Hemisphere. Compared to MLS
+observations, the water vapour horizontal transport for both MERRA and MERRA2
+is 106% faster in the Northern Hemisphere but about 42–45% slower in the
+Southern Hemisphere. ECMWF horizontal transport is 16% faster than MLS
+observations in both hemispheres.
+
+To add complexity to these discrepancies it should also be mentioned that
+water vapour data from MLS show dry biases of 10-20% in the tropical upper
+troposphere compared to frost point hygrometers launched on weather balloons
+from Hilo, Hawaii, and San José, Costa Rica (Dale Hurst, 2016). The MLS dry
+biases may slightly reduce the wet biases in the MERRA and ERA Interim
+reanalyses with respect to MLS.
+
+![Stratospheric water vapour](https://ane4bf-datap1.s3-eu-
+
+west-1.amazonaws.com/wmocms/s3fs-
+
+public/WaterVapour5.png?0tacgES.PoM5OgFDOm3EF_VJIgHD5rZ4)_Stratospheric water
+vapour trends over Boulder, Colorado, show a 30-year net increase in
+stratospheric water vapour. From Hurst et al., 2011_
+
+* * *
+
+These large discrepancies between different types of observational data, and
+between observations and reanalysis results, demonstrate significant
+uncertainties in the measurements as well as our lack of understanding of the
+transport and dehydration processes in the UTLS region. They also show that
+there is a great need for more and better observations of water vapour in this
+region. As mentioned in the section on measurements, the current observational
+systems are hampered by various shortcomings, such as the limited lifetimes of
+satellite missions and a sparse spatiotemporal distribution of balloon- and
+ground-based measurements; for example, there is only one site in the world
+(Boulder, Colorado) where there is a 30+ year time series of balloon
+measurements of water vapour in the UTLS region.
+
+The models that are used to predict future climate use reanalysis data to
+verify that the current climate is modelled correctly. The lack of accurate
+water vapour data in the important UTLS region will therefore limit the
+ability of these models to predict future climate.
+
+**Water vapour as a chemical compound**
+
+In addition to acting as a greenhouse gas and as a source of clouds, water
+molecules also take part in chemical reactions in the atmosphere. Water
+vapour, together with ozone, is an important source for the formation of the
+highly reactive hydroxyl radical (OH). The OH radical is the most important
+oxidant in the lower atmosphere, providing the dominant sink for many
+greenhouse gases (e.g., CH4, hydrochlorofluorocarbons (HCFCs),
+hydrofluorocarbons (HFCs)) and pollutants (e.g., CO and non-methane
+hydrocarbons). In clean air, the OH radical is formed through this pair of
+chemical reactions:
+
+**O 3 + n (I <340nm) –> O2 + O(1D)  
+O(1D) + H2O –> 2OH**
+
+The abundance of OH in the atmosphere depends on the amounts of ozone and
+water vapour. OH production also depends on the amount of overhead ozone as
+this determines the amount of short-wave radiation needed to crack the ozone
+molecule.
+
+Whereas the troposphere is quite moist, the stratosphere is very dry,
+typically with water vapour mixing ratios ≤ 5 ppm. This means that usually
+there are no clouds in the stratosphere. However, if temperatures drop below
+-78°C a special type of water and nitric acid (HNO3 • 3H2O) ice clouds can
+form. On the surfaces of the ice particles, chemical reactions occur that
+convert innocuous chlorine reservoir compounds (hydrochloric acid, HCl and
+chlorine nitrate, ClONO2) to reactive forms (chlorine monoxide, ClO) that
+destroy ozone.
+
+Increasing concentrations of water vapour together with decreasing
+temperatures in the stratosphere – also a consequence of climate change – will
+give rise to more of these clouds and that will lead to more severe ozone
+depletion as long as the concentration of ozone depleting gases remains high.
+
+![Mother-of-pearl clouds/Geir Braathen](https://ane4bf-datap1.s3-eu-
+
+west-1.amazonaws.com/wmocms/s3fs-public/Mother-of-
+
+pearl_cloudsGeir_Braathen.png?lfP0hghQ0yHPXACAfQi6RjtF9r2Cs5Lq)_Mother-of-
+pearl clouds in the stratosphere, about 20-25 km above the ground, form in
+lee-waves when strong westerly winds blow over the Norwegian mountains. The
+colours are caused by diffraction around the ice particles that make up these
+clouds. Despite their beauty they forebode ozone destruction through the
+conversion of passive halogen compounds into active species that destroy
+ozone._
+
+* * *
+
+#### **Challenges in observing water vapour**
+
+The distribution of water vapour in the upper troposphere and the stratosphere
+is not very well known due to a paucity of observations in this region of the
+atmosphere. The global distribution of water vapour in the upper troposphere
+and the stratosphere is not very well known due to a paucity of high vertical
+resolution observations in this region of the atmosphere. In some cases there
+are also significant discrepancies between satellite data, frost point
+hygrometer data and meteorological reanalyses.​ More accurate data with better
+geographical coverage is needed. The observed temporal trends in stratospheric
+water vapour are poorly understood and this demonstrates our lack of
+understanding of how water vapour enters the stratosphere. These are areas
+that GAW will address in the future.
+
+#### **References**
+
+Forster, P. M. de F., and K. P. Shine (2002), Assessing the climate impact of
+trends in stratospheric water vapor, _Geophys. Res. Lett._ , _29_ , 1086,
+doi:10.1029/2001GL013909.
+
+Hurst, D.F., S.J. Oltmans, H. Vömel, K.H. Rosenlof, S.M. Davis, E.A. Ray, E.G.
+Hall and A.F. Jordan, 2011: Stratospheric water vapor trends over Boulder,
+Colorado: Analysis of the 30 year Boulder record. _Journal of Geophysical
+Research: Atmospheres_ , 116(D2):D02306, doi **:** 10.1029/2010JD015065.
+
+Hurst, D.F., 2016, personal communication.
+
+Jiang, Jonathan H., Hui Su, Chengxing Zhai, Longtao Wu, Kenneth Minschwaner,
+Andrea M. Molod, Adrian M. Tompkins, 2015: An assessment of upper troposphere
+and lower stratosphere water vapor in MERRA, MERRA2, and ECMWF reanalyses
+using Aura MLS observations, J. Geophys. Res. Atmos., 120, 11,468–11,485,
+doi:10.1002/2015JD023752.
+
+Lacis, A.A., J.E. Hansen, G.L. Russell, V. Oinas and J. Jonas, 2013: The role
+of long-lived greenhouse gases as principal LW control knob that governs the
+global surface temperature for past and future climate change. Tellus B,
+65:19734, doi10.3402/tellusb. v65i0.19734.
+
+Nedoluha, G. E., Michael Gomez, R., Allen, D. R., Lambert, A., Boone, C., and
+Stiller, G.: Variations in middle atmospheric water vapor from 2004 to 2013,
+J. Geophys. Res. Atmos., 118, 11285–11293, doi:10.1002/jgrd.50834, 2013.
+
+Solomon, S., K. H. Rosenlof, R. Portmann, J. Daniel, S. Davis, T. Sanford, and
+G. -K. Plattner (2010), Contributions of stratospheric water vapor to decadal
+changes in the rate of global warming, _Science_ , _327_ , 1219-1223,
+doi:10.1126/science.1182488.
+
+#### **Further reading**
+
+**Observations of water vapour:** N. Kämpfer (ed.), Monitoring Atmospheric
+Water Vapour, ISSI Scientific Report Series 10, DOI 10.1007/978-1-4614-3909-7,
+©Springer Science+Business Media, LLC 2013
+
+**Water vapour as a greenhouse gas and as a feedback:**
+https://www.skepticalscience.com/water-vapor-greenhouse-gas.htm
+
+#### **Authors**
+
+**Ed Dlugokencky** , U.S. National Oceanic and Atmospheric Administration
+(NOAA) Earth System Research Laboratory
+
+**Sander Houweling** , Netherlands Institute for Space Research (SRON)
+
+**Ruud Dirksen** , Global Climate Observing System (GCOS) Reference Upper-Air
+Network (GRUAN) Lead Centre, Deutscher Wetterdienst (DWD)
+
+**Marc Schröder** , Deutscher Wetterdienst (DWD)
+
+**Dale Hurst** , U.S. National Oceanic and Atmospheric Administration (NOAA)
+Earth System Research Laboratory and Cooperative Institute for Research in
+Environmental Sciences (CIRES), University of Colorado
+
+**Piers Forster** , School of Earth and Environment, University of Leeds
+
+**WMO Secretariat** , Oksana Tarasova, Chief, and Geir Braathen, Senior
+Scientific Officer, Global Atmosphere Watch
+
+#### **Footnotes**
+
+1 Solomon, S., K. H. Rosenlof, R. Portmann, J. Daniel, S. Davis, T. Sanford,
+and G.-K. Plattner (2010), Contributions of stratospheric water vapour to
+decadal changes in the rate of global warming, Science, 327, 1219–1223,
+doi:10.1126/science.1182488.
+
+### Share this page
+
+## Follow WMO
+
+            
+                            * ![Facebook icon](https://public.wmo.int/sites/all/modules/contrib/social_media_links/libraries/elegantthemes/PNG/facebook.png)
+                * ![Twitter icon](https://public.wmo.int/sites/all/modules/contrib/social_media_links/libraries/elegantthemes/PNG/twitter.png)
+                * ![Flickr icon](https://public.wmo.int/sites/all/modules/contrib/social_media_links/libraries/elegantthemes/PNG/flickr.png)
+                * ![Instagram icon](https://public.wmo.int/sites/all/modules/contrib/social_media_links/libraries/elegantthemes/PNG/instagram.png)
+                * ![YouTube icon](https://public.wmo.int/sites/all/modules/contrib/social_media_links/libraries/elegantthemes/PNG/youtube.png)
+                * ![Vimeo icon](https://public.wmo.int/sites/all/modules/contrib/social_media_links/libraries/elegantthemes/PNG/vimeo.png)
+            
+
+## Discover
+
+            
+                            * Events
+                * News
+                * Bookstore
+                * Projects
+                * Bulletin
+                * MeteoWorld
+            
+
+## Learn
+
+            
+                            * Visit the Library
+                * Youth Corner
+            
+
+## WMO
+
+            
+                            * Governance
+                * Partnerships
+                * Contact us
+                * Procurement
+                * Privacy policy
+                * Report fraud, corruption or abuse
+            
+                * About us
+                * Disclaimer
+                * Copyright
+                * Sitemap
+            
+
+© 2019 World Meteorological Organization (WMO)
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication _[C.]: Century_ [m.]: married _[FT]:
+Financial Times_ [*]: required
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+  *[m.]: married
+  *[FT]: Financial Times
+  *[*]: required
+

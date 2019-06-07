@@ -1,0 +1,439 @@
+
+
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+<head>
+  
+<meta charset="UTF-8"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQYDUF9XARAHVVdWAgkF"};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(18),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(19),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var x=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof x&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof x&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(21)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(21)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(21)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(21)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(b?b.then(a):w?w(a):(E=-E,R.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(21)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var x=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!w&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(){var t=window.NREUM,n=t.info.accountID||null,e=t.info.agentID||null,r=t.info.trustKey||null,i="btoa"in window&&"function"==typeof window.btoa;if(!n||!e||!i)return null;var a={v:[0,1],d:{ty:"Browser",ac:n,ap:e,id:o.generateCatId(),tr:o.generateCatId(),ti:Date.now()}};return r&&n!==r&&(a.d.tk=r),btoa(JSON.stringify(a))}var o=t(16);n.exports={generateTraceHeader:r}},{}],11:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<p;r++)t.removeEventListener(l[r],this.listener,!1);n.aborted||(e.duration=s.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==n.status&&(n.status=0):a(this,t),e.cbTime=this.cbTime,d.emit("xhr-done",[t],t),c("xhr",[n,e,this.startTime]))}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return w(r)}function i(t,n){var e=f(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}function a(t,n){t.params.status=n.status;var e=o(n,t.lastSize);if(e&&(t.metrics.rxSize=e),t.sameOrigin){var r=n.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var s=t("loader");if(s.xhrWrappable){var c=t("handle"),f=t(12),u=t(10).generateTraceHeader,d=t("ee"),l=["load","error","abort","timeout"],p=l.length,h=t("id"),m=t(15),w=t(14),v=window.XMLHttpRequest;s.features.xhr=!0,t(9),d.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,n.loadCaptureCalled=!1,t.addEventListener("load",function(e){a(n,t)},!1),m&&(m>34||m<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),d.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),d.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var e=!1;if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(e=!!NREUM.init.distributed_tracing.enabled),e&&this.sameOrigin){var r=u();r&&n.setRequestHeader("newrelic",r)}}),d.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=w(r);i&&(e.txSize=i)}this.startTime=s.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{d.emit("internal-error",[e])}catch(r){}}};for(var a=0;a<p;a++)n.addEventListener(l[a],this.listener,!1)}),d.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),d.on("xhr-load-added",function(t,n){var e=""+h(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),d.on("xhr-load-removed",function(t,n){var e=""+h(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),d.on("addEventListener-end",function(t,n){n instanceof v&&"load"===t[0]&&d.emit("xhr-load-added",[t[1],t[2]],n)}),d.on("removeEventListener-end",function(t,n){n instanceof v&&"load"===t[0]&&d.emit("xhr-load-removed",[t[1],t[2]],n)}),d.on("fn-start",function(t,n,e){n instanceof v&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=s.now()))}),d.on("fn-end",function(t,n){this.xhrCbStart&&d.emit("xhr-cb-time",[s.now()-this.xhrCbStart,this.onload,n],n)})}},{}],12:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],13:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(18),s=t(19),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,n])}},{}],14:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],15:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],16:[function(t,n,e){function r(){function t(){return n?15&n[e++]:16*Math.random()|0}var n=null,e=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(n=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){function t(){return n?15&n[e++]:16*Math.random()|0}var n=null,e=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(n=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<16;i++)o.push(t().toString(16));return o.join("")}n.exports={generateUuid:r,generateCatId:o}},{}],17:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],18:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],19:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],20:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],21:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(19),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([x,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function w(t){return d[t]=d[t]||o(e)}function v(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},x={on:p,addEventListener:p,removeEventListener:h,emit:e,get:w,listeners:m,context:n,buffer:v,abort:a,aborted:!1};return x}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(18),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=b.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return R.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(18),u=t("ee"),d=t(17),l=window,p=l.document,h="addEventListener",m="attachEvent",w=l.XMLHttpRequest,v=w&&w.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:w,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},x=w&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:x,userAgent:d};t(13),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,R=t(20)},{}]},{},["loader",2,11,4,3]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How do CO2 levels relate to ice ages and sea-level? | The Keeling Curve</title>
+<link rel="pingback" href="https://scripps.ucsd.edu/programs/keelingcurve/xmlrpc.php"><link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="The Keeling Curve &raquo; Feed" href="https://scripps.ucsd.edu/programs/keelingcurve/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/scripps.ucsd.edu\/programs\/keelingcurve\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.10"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='x-stack-css'  href='https://scripps.ucsd.edu/programs/keelingcurve/wp-content/themes/x/framework/dist/css/site/stacks/ethos.css?ver=6.4.6' type='text/css' media='all' />
+<link rel='stylesheet' id='x-cranium-migration-css'  href='https://scripps.ucsd.edu/programs/keelingcurve/wp-content/themes/x/framework/legacy/cranium/dist/css/site/ethos.css?ver=6.4.6' type='text/css' media='all' />
+<link rel='stylesheet' id='x-child-css'  href='https://scripps.ucsd.edu/programs/keelingcurve/wp-content/themes/x-child/style.css?ver=6.4.6' type='text/css' media='all' />
+<script type='text/javascript' src='https://scripps.ucsd.edu/programs/keelingcurve/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://scripps.ucsd.edu/programs/keelingcurve/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://scripps.ucsd.edu/programs/keelingcurve/wp-content/plugins/cornerstone/assets/js/dist/site/cs-head.min.js?ver=1.2.4'></script>
+<script type='text/javascript' src='https://scripps.ucsd.edu/programs/keelingcurve/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.4'></script>
+<link rel='https://api.w.org/' href='https://scripps.ucsd.edu/programs/keelingcurve/wp-json/' />
+<link rel="canonical" href="https://scripps.ucsd.edu/programs/keelingcurve/2014/06/20/how-do-co2-levels-relate-to-ice-ages-and-sea-level/" />
+<link rel='shortlink' href='https://scripps.ucsd.edu/programs/keelingcurve/?p=1199' />
+<link rel="alternate" type="application/json+oembed" href="https://scripps.ucsd.edu/programs/keelingcurve/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fscripps.ucsd.edu%2Fprograms%2Fkeelingcurve%2F2014%2F06%2F20%2Fhow-do-co2-levels-relate-to-ice-ages-and-sea-level%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://scripps.ucsd.edu/programs/keelingcurve/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fscripps.ucsd.edu%2Fprograms%2Fkeelingcurve%2F2014%2F06%2F20%2Fhow-do-co2-levels-relate-to-ice-ages-and-sea-level%2F&#038;format=xml" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NL6RGLC');</script>
+<!-- End Google Tag Manager --><!-- Google Analytics Tracking by Google Analyticator 6.5.4: http://www.videousermanuals.com/google-analyticator/ -->
+<script type="text/javascript">
+    var analyticsFileTypes = [''];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-57761686-2', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			/* Removes the too-tall separators between nav items */
+.x-navbar .desktop .x-nav>li:first-child>a {	border-left: none;
+}
+
+
+.x-navbar .desktop .x-nav>li>a { border-right: none;
+	}
+/* Removes the grey line between header and body */
+
+.x-navbar {
+    border-bottom: none;
+}
+		</style>
+	<style id="x-generated-css">a,h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,.x-breadcrumb-wrap a:hover,.x-comment-author a:hover,.x-comment-time:hover,.p-meta > span > a:hover,.format-link .link a:hover,.x-main .widget ul li a:hover,.x-main .widget ol li a:hover,.x-main .widget_tag_cloud .tagcloud a:hover,.x-sidebar .widget ul li a:hover,.x-sidebar .widget ol li a:hover,.x-sidebar .widget_tag_cloud .tagcloud a:hover,.x-portfolio .entry-extra .x-ul-tags li a:hover{color:#24890d;}a:hover{color:hsl(109,70%,63%);}a.x-img-thumbnail:hover{border-color:#24890d;}.x-main{width:72%;}.x-sidebar{width:28%;}.x-post-slider-archive-active .x-container.main:before{top:0;}.x-content-sidebar-active .x-container.main:before{right:28%;}.x-sidebar-content-active .x-container.main:before{left:28%;}.x-full-width-active .x-container.main:before{left:-5000em;}.h-landmark,.x-main .h-widget,.x-main .h-widget a.rsswidget,.x-main .h-widget a.rsswidget:hover,.x-main .widget.widget_pages .current_page_item a,.x-main .widget.widget_nav_menu .current-menu-item a,.x-main .widget.widget_pages .current_page_item a:hover,.x-main .widget.widget_nav_menu .current-menu-item a:hover,.x-sidebar .h-widget,.x-sidebar .h-widget a.rsswidget,.x-sidebar .h-widget a.rsswidget:hover,.x-sidebar .widget.widget_pages .current_page_item a,.x-sidebar .widget.widget_nav_menu .current-menu-item a,.x-sidebar .widget.widget_pages .current_page_item a:hover,.x-sidebar .widget.widget_nav_menu .current-menu-item a:hover{color:hsl(0,0%,92%);}.x-main .widget,.x-main .widget a,.x-main .widget ul li a,.x-main .widget ol li a,.x-main .widget_tag_cloud .tagcloud a,.x-main .widget_product_tag_cloud .tagcloud a,.x-main .widget a:hover,.x-main .widget ul li a:hover,.x-main .widget ol li a:hover,.x-main .widget_tag_cloud .tagcloud a:hover,.x-main .widget_product_tag_cloud .tagcloud a:hover,.x-main .widget_shopping_cart .buttons .button,.x-main .widget_price_filter .price_slider_amount .button,.x-sidebar .widget,.x-sidebar .widget a,.x-sidebar .widget ul li a,.x-sidebar .widget ol li a,.x-sidebar .widget_tag_cloud .tagcloud a,.x-sidebar .widget_product_tag_cloud .tagcloud a,.x-sidebar .widget a:hover,.x-sidebar .widget ul li a:hover,.x-sidebar .widget ol li a:hover,.x-sidebar .widget_tag_cloud .tagcloud a:hover,.x-sidebar .widget_product_tag_cloud .tagcloud a:hover,.x-sidebar .widget_shopping_cart .buttons .button,.x-sidebar .widget_price_filter .price_slider_amount .button{color:hsl(0,0%,100%);}.x-main .h-widget,.x-main .widget.widget_pages .current_page_item,.x-main .widget.widget_nav_menu .current-menu-item,.x-sidebar .h-widget,.x-sidebar .widget.widget_pages .current_page_item,.x-sidebar .widget.widget_nav_menu .current-menu-item{border-color:hsl(0,0%,92%);}.x-post-slider{height:425px;}.archive .x-post-slider{height:425px;}.x-post-slider .x-post-slider-entry{padding-bottom:425px;}.archive .x-post-slider .x-post-slider-entry{padding-bottom:425px;}.format-link .link a,.x-portfolio .entry-extra .x-ul-tags li a{color:hsl(0,0%,21%);}.p-meta > span > a,.x-nav-articles a,.entry-top-navigation .entry-parent,.option-set .x-index-filters,.option-set .x-portfolio-filters,.option-set .x-index-filters-menu >li >a:hover,.option-set .x-index-filters-menu >li >a.selected,.option-set .x-portfolio-filters-menu > li > a:hover,.option-set .x-portfolio-filters-menu > li > a.selected{color:#272727;}.x-nav-articles a,.entry-top-navigation .entry-parent,.option-set .x-index-filters,.option-set .x-portfolio-filters,.option-set .x-index-filters i,.option-set .x-portfolio-filters i{border-color:#272727;}.x-nav-articles a:hover,.entry-top-navigation .entry-parent:hover,.option-set .x-index-filters:hover i,.option-set .x-portfolio-filters:hover i{background-color:#272727;}@media (max-width:979px){.x-content-sidebar-active .x-container.main:before,.x-sidebar-content-active .x-container.main:before{left:-5000em;}body .x-main .widget,body .x-main .widget a,body .x-main .widget a:hover,body .x-main .widget ul li a,body .x-main .widget ol li a,body .x-main .widget ul li a:hover,body .x-main .widget ol li a:hover,body .x-sidebar .widget,body .x-sidebar .widget a,body .x-sidebar .widget a:hover,body .x-sidebar .widget ul li a,body .x-sidebar .widget ol li a,body .x-sidebar .widget ul li a:hover,body .x-sidebar .widget ol li a:hover{color:hsl(0,0%,21%);}body .x-main .h-widget,body .x-main .widget.widget_pages .current_page_item a,body .x-main .widget.widget_nav_menu .current-menu-item a,body .x-main .widget.widget_pages .current_page_item a:hover,body .x-main .widget.widget_nav_menu .current-menu-item a:hover,body .x-sidebar .h-widget,body .x-sidebar .widget.widget_pages .current_page_item a,body .x-sidebar .widget.widget_nav_menu .current-menu-item a,body .x-sidebar .widget.widget_pages .current_page_item a:hover,body .x-sidebar .widget.widget_nav_menu .current-menu-item a:hover{color:#272727;}body .x-main .h-widget,body .x-main .widget.widget_pages .current_page_item,body .x-main .widget.widget_nav_menu .current-menu-item,body .x-sidebar .h-widget,body .x-sidebar .widget.widget_pages .current_page_item,body .x-sidebar .widget.widget_nav_menu .current-menu-item{border-color:#272727;}}@media (max-width:767px){.x-post-slider,.archive .x-post-slider{height:auto !important;}.x-post-slider .x-post-slider-entry,.archive .x-post-slider .x-post-slider-entry{padding-bottom:65% !important;}}html{font-size:14px;}@media (min-width:480px){html{font-size:14px;}}@media (min-width:767px){html{font-size:14px;}}@media (min-width:979px){html{font-size:14px;}}@media (min-width:1200px){html{font-size:14px;}}body{font-style:normal;font-weight:400;color:hsl(0,0%,21%);background-color:#1f1f1f;}.w-b{font-weight:400 !important;}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"Lato",sans-serif;font-style:normal;font-weight:700;}h1,.h1{letter-spacing:-0.035em;}h2,.h2{letter-spacing:-0.035em;}h3,.h3{letter-spacing:-0.035em;}h4,.h4{letter-spacing:-0.035em;}h5,.h5{letter-spacing:-0.035em;}h6,.h6{letter-spacing:-0.035em;}.w-h{font-weight:700 !important;}.x-container.width{width:88%;}.x-container.max{max-width:1200px;}.x-main.full{float:none;display:block;width:auto;}@media (max-width:979px){.x-main.full,.x-main.left,.x-main.right,.x-sidebar.left,.x-sidebar.right{float:none;display:block;width:auto !important;}}.entry-header,.entry-content{font-size:1rem;}body,input,button,select,textarea{font-family:"Lato",sans-serif;}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,.h1 a,.h2 a,.h3 a,.h4 a,.h5 a,.h6 a,blockquote{color:#272727;}.cfc-h-tx{color:#272727 !important;}.cfc-h-bd{border-color:#272727 !important;}.cfc-h-bg{background-color:#272727 !important;}.cfc-b-tx{color:hsl(0,0%,21%) !important;}.cfc-b-bd{border-color:hsl(0,0%,21%) !important;}.cfc-b-bg{background-color:hsl(0,0%,21%) !important;}.x-btn,.button,[type="submit"]{color:#ffffff;border-color:#ac1100;background-color:hsl(267,100%,54%);margin-bottom:0.25em;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.5);box-shadow:0 0.25em 0 0 #a71000,0 4px 9px rgba(0,0,0,0.75);}.x-btn:hover,.button:hover,[type="submit"]:hover{color:#ffffff;border-color:#600900;background-color:#ef2201;margin-bottom:0.25em;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.5);box-shadow:0 0.25em 0 0 #a71000,0 4px 9px rgba(0,0,0,0.75);}.x-btn.x-btn-real,.x-btn.x-btn-real:hover{margin-bottom:0.25em;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.65);}.x-btn.x-btn-real{box-shadow:0 0.25em 0 0 #a71000,0 4px 9px rgba(0,0,0,0.75);}.x-btn.x-btn-real:hover{box-shadow:0 0.25em 0 0 #a71000,0 4px 9px rgba(0,0,0,0.75);}.x-btn.x-btn-flat,.x-btn.x-btn-flat:hover{margin-bottom:0;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.65);box-shadow:none;}.x-btn.x-btn-transparent,.x-btn.x-btn-transparent:hover{margin-bottom:0;border-width:3px;text-shadow:none;text-transform:uppercase;background-color:transparent;box-shadow:none;}.x-topbar,.x-colophon.bottom{background-color:#222222;}.x-logobar,.x-navbar,.x-navbar .sub-menu,.x-colophon.top{background-color:#1f1f1f;}.x-navbar .desktop .x-nav > li > a,.x-navbar .desktop .sub-menu a,.x-navbar .mobile .x-nav li > a,.x-breadcrumb-wrap a,.x-breadcrumbs .delimiter{color:hsl(0,0%,100%);}.x-topbar .p-info a:hover,.x-social-global a:hover,.x-navbar .desktop .x-nav > li > a:hover,.x-navbar .desktop .x-nav > .x-active > a,.x-navbar .desktop .x-nav > .current-menu-item > a,.x-navbar .desktop .sub-menu a:hover,.x-navbar .desktop .sub-menu .x-active > a,.x-navbar .desktop .sub-menu .current-menu-item > a,.x-navbar .desktop .x-nav .x-megamenu > .sub-menu > li > a,.x-navbar .mobile .x-nav li > a:hover,.x-navbar .mobile .x-nav .x-active > a,.x-navbar .mobile .x-nav .current-menu-item > a,.x-widgetbar .widget a:hover,.x-colophon .widget a:hover,.x-colophon.bottom .x-colophon-content a:hover,.x-colophon.bottom .x-nav a:hover{color:#24890d;}.x-navbar .desktop .x-nav > li.tax-item-4 > a:hover,.x-navbar .desktop .x-nav > li.tax-item-4.x-active > a{box-shadow:0 2px 0 0 #24890d;}.x-navbar .desktop .x-nav > li.tax-item-5 > a:hover,.x-navbar .desktop .x-nav > li.tax-item-5.x-active > a{box-shadow:0 2px 0 0 #24890d;}.x-navbar .desktop .x-nav > li.tax-item-6 > a:hover,.x-navbar .desktop .x-nav > li.tax-item-6.x-active > a{box-shadow:0 2px 0 0 #24890d;}.x-navbar .desktop .x-nav > li.tax-item-7 > a:hover,.x-navbar .desktop .x-nav > li.tax-item-7.x-active > a{box-shadow:0 2px 0 0 #24890d;}.x-navbar .desktop .x-nav > li > a:hover,.x-navbar .desktop .x-nav > .x-active > a,.x-navbar .desktop .x-nav > .current-menu-item > a{box-shadow:0 2px 0 0 #24890d;}.x-navbar .desktop .x-nav > li > a{height:50px;padding-top:25px;}.x-navbar .desktop .x-nav > li ul{top:52px;}@media (max-width:979px){}.x-navbar-inner{min-height:50px;}.x-brand{margin-top:12px;font-family:"Lato",sans-serif;font-size:26px;font-style:normal;font-weight:400;letter-spacing:-0.035em;color:hsl(0,0%,100%);}.x-brand:hover,.x-brand:focus{color:hsl(0,0%,100%);}.x-navbar .x-nav-wrap .x-nav > li > a{font-family:"Lato",sans-serif;font-style:normal;font-weight:700;letter-spacing:0.085em;text-transform:uppercase;}.x-navbar .desktop .x-nav > li > a{font-size:11px;}.x-navbar .desktop .x-nav > li > a:not(.x-btn-navbar-woocommerce){padding-left:13px;padding-right:13px;}.x-navbar .desktop .x-nav > li > a > span{margin-right:-0.085em;}.x-btn-navbar{margin-top:20px;}.x-btn-navbar,.x-btn-navbar.collapsed{font-size:24px;}@media (max-width:979px){.x-widgetbar{left:0;right:0;}}.x-topbar,.x-colophon.bottom{background-color:#222222;}.x-logobar,.x-navbar,.x-navbar .sub-menu,.x-colophon.top{background-color:#1f1f1f;}.x-navbar .desktop .x-nav > li > a,.x-navbar .desktop .sub-menu a,.x-navbar .mobile .x-nav li > a,.x-breadcrumb-wrap a,.x-breadcrumbs .delimiter{color:hsl(0,0%,100%);}.x-topbar .p-info a:hover,.x-social-global a:hover,.x-navbar .desktop .x-nav > li > a:hover,.x-navbar .desktop .x-nav > .x-active > a,.x-navbar .desktop .x-nav > .current-menu-item > a,.x-navbar .desktop .sub-menu a:hover,.x-navbar .desktop .sub-menu .x-active > a,.x-navbar .desktop .sub-menu .current-menu-item > a,.x-navbar .desktop .x-nav .x-megamenu > .sub-menu > li > a,.x-navbar .mobile .x-nav li > a:hover,.x-navbar .mobile .x-nav .x-active > a,.x-navbar .mobile .x-nav .current-menu-item > a,.x-widgetbar .widget a:hover,.x-colophon .widget a:hover,.x-colophon.bottom .x-colophon-content a:hover,.x-colophon.bottom .x-nav a:hover{color:#24890d;}</style>
+<!-- START - Open Graph for Facebook, Google+ and Twitter Card Tags 2.2.6.1 -->
+ <!-- Facebook Open Graph -->
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="The Keeling Curve"/>
+  <meta property="og:title" content="How do CO2 levels relate to ice ages and sea-level?"/>
+  <meta property="og:url" content="https://scripps.ucsd.edu/programs/keelingcurve/2014/06/20/how-do-co2-levels-relate-to-ice-ages-and-sea-level/"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:description" content="In a recent comment, a reader posted a graphic in which CO2 and sea-level rise appear to be correlated throughout the last 700,000 years. While these two factors do appear to rise and fall together, what drives these two factors over the period of 700,000 years is very different from those over the"/>
+  <meta property="og:image" content="http://scripps.ucsd.edu/programs/keelingcurve/wp-content/uploads/sites/154/2015/06/keelingcurver2.jpeg"/>
+  <meta property="og:image:url" content="http://scripps.ucsd.edu/programs/keelingcurve/wp-content/uploads/sites/154/2015/06/keelingcurver2.jpeg"/>
+  <meta property="og:image:width" content="640"/>
+  <meta property="og:image:height" content="258"/>
+  <meta property="article:published_time" content="2014-06-20T22:17:52+00:00"/>
+  <meta property="article:modified_time" content="2014-06-20T22:22:23+00:00" />
+  <meta property="og:updated_time" content="2014-06-20T22:22:23+00:00" />
+  <meta property="article:section" content="Paleoclimate"/>
+  <meta property="article:publisher" content="https://www.facebook.com/scrippsocean/"/>
+ <!-- Google+ / Schema.org -->
+  <meta itemprop="name" content="How do CO2 levels relate to ice ages and sea-level?"/>
+  <meta itemprop="headline" content="How do CO2 levels relate to ice ages and sea-level?"/>
+  <meta itemprop="description" content="In a recent comment, a reader posted a graphic in which CO2 and sea-level rise appear to be correlated throughout the last 700,000 years. While these two factors do appear to rise and fall together, what drives these two factors over the period of 700,000 years is very different from those over the"/>
+  <meta itemprop="image" content="http://scripps.ucsd.edu/programs/keelingcurve/wp-content/uploads/sites/154/2015/06/keelingcurver2.jpeg"/>
+  <meta itemprop="datePublished" content="2014-06-20"/>
+  <meta itemprop="dateModified" content="2014-06-20T22:22:23+00:00" />
+  <meta itemprop="author" content="Rob Monroe"/>
+  <!--<meta itemprop="publisher" content="The Keeling Curve"/>--> <!-- To solve: The attribute publisher.itemtype has an invalid value -->
+ <!-- Twitter Cards -->
+  <meta name="twitter:title" content="How do CO2 levels relate to ice ages and sea-level?"/>
+  <meta name="twitter:url" content="https://scripps.ucsd.edu/programs/keelingcurve/2014/06/20/how-do-co2-levels-relate-to-ice-ages-and-sea-level/"/>
+  <meta name="twitter:description" content="In a recent comment, a reader posted a graphic in which CO2 and sea-level rise appear to be correlated throughout the last 700,000 years. While these two factors do appear to rise and fall together, what drives these two factors over the period of 700,000 years is very different from those over the"/>
+  <meta name="twitter:image" content="http://scripps.ucsd.edu/programs/keelingcurve/wp-content/uploads/sites/154/2015/06/keelingcurver2.jpeg"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@Scripps_Ocean"/>
+ <!-- SEO -->
+ <!-- Misc. tags -->
+ <!-- is_singular -->
+<!-- END - Open Graph for Facebook, Google+ and Twitter Card Tags 2.2.6.1 -->
+	
+</head>
+
+<body class="post-template-default single single-post postid-1199 single-format-standard x-ethos x-full-width-layout-active x-sidebar-content-active x-child-theme-active x-navbar-static-active x-v6_4_6 cornerstone-v1_2_4">
+
+  <div id="x-root" class="x-root">
+
+    
+    <div id="top" class="site">
+
+    
+  
+  <header class="masthead masthead-inline" role="banner">
+    
+    
+
+  <div class="x-topbar">
+    <div class="x-topbar-inner x-container max width">
+            <div class="x-social-global"></div>    </div>
+  </div>
+
+    
+
+  <div class="x-navbar-wrap">
+    <div class="x-navbar">
+      <div class="x-navbar-inner">
+        <div class="x-container max width">
+          
+<a href="https://scripps.ucsd.edu/programs/keelingcurve/" class="x-brand text">
+  The Keeling Curve</a>
+          
+<a href="#" class="x-btn-navbar collapsed" data-toggle="collapse" data-target=".x-nav-wrap.mobile">
+  <i class="x-icon-bars" data-x-icon="&#xf0c9;"></i>
+  <span class="visually-hidden">Navigation</span>
+</a>
+
+<nav class="x-nav-wrap desktop" role="navigation">
+  <ul id="menu-main" class="x-nav"><li id="menu-item-1119" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1119 tax-item tax-item-4"><a href="https://scripps.ucsd.edu/programs/keelingcurve/category/keeling-curve-history/"><span>History</span></a></li>
+<li id="menu-item-1118" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1118 tax-item tax-item-5"><a href="https://scripps.ucsd.edu/programs/keelingcurve/category/measurement-notes/"><span>Measurement Notes</span></a></li>
+<li id="menu-item-1120" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1120 tax-item tax-item-6"><a href="https://scripps.ucsd.edu/programs/keelingcurve/category/paleoclimate/"><span>Paleoclimate</span></a></li>
+<li id="menu-item-1121" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1121 tax-item tax-item-7"><a href="https://scripps.ucsd.edu/programs/keelingcurve/category/photos-and-videos/"><span>Videos</span></a></li>
+<li id="menu-item-1132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1132"><a href="https://scripps.ucsd.edu/programs/keelingcurve/the-state-of-climate/"><span>State of Climate: Other Indicators</span></a></li>
+<li id="menu-item-1145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1145"><a href="https://scripps.ucsd.edu/programs/keelingcurve/support-the-keeling-curve/"><span>Support CO2 and O2 Measurements at Scripps!</span></a></li>
+<li id="menu-item-1374" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1374"><a href="https://scripps.ucsd.edu/programs/keelingcurve/pdf-downloads/"><span>PDF Downloads</span></a></li>
+</ul></nav>
+
+<div class="x-nav-wrap mobile collapse">
+  <ul id="menu-main-1" class="x-nav"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1119 tax-item tax-item-4"><a href="https://scripps.ucsd.edu/programs/keelingcurve/category/keeling-curve-history/"><span>History</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1118 tax-item tax-item-5"><a href="https://scripps.ucsd.edu/programs/keelingcurve/category/measurement-notes/"><span>Measurement Notes</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1120 tax-item tax-item-6"><a href="https://scripps.ucsd.edu/programs/keelingcurve/category/paleoclimate/"><span>Paleoclimate</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1121 tax-item tax-item-7"><a href="https://scripps.ucsd.edu/programs/keelingcurve/category/photos-and-videos/"><span>Videos</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1132"><a href="https://scripps.ucsd.edu/programs/keelingcurve/the-state-of-climate/"><span>State of Climate: Other Indicators</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1145"><a href="https://scripps.ucsd.edu/programs/keelingcurve/support-the-keeling-curve/"><span>Support CO2 and O2 Measurements at Scripps!</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1374"><a href="https://scripps.ucsd.edu/programs/keelingcurve/pdf-downloads/"><span>PDF Downloads</span></a></li>
+</ul></div>          <img class="custom-image" src="https://scripps.ucsd.edu/programs/shorestations/wp-content/uploads/sites/96/2015/12/logo_calboating_300h_400w.png"  >
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+    </header>
+
+    
+  
+    
+  
+  <div class="x-container max width main">
+    <div class="offset cf">
+      <div class="x-main right" role="main">
+
+                  
+<article id="post-1199" class="post-1199 post type-post status-publish format-standard has-post-thumbnail hentry category-paleoclimate tag-carbon-dioxide tag-co2 tag-emily-kelly tag-fossil-record tag-ice-ages tag-keeling-curve tag-scripps-institution-of-oceanography tag-uc-san-diego">
+            <div class="entry-featured">
+                  <div class="entry-thumb"><img width="250" height="250" src="https://scripps.ucsd.edu/programs/keelingcurve/wp-content/uploads/sites/154/2014/06/SQUARE_WAIS2009-342.jpg" class="attachment-entry size-entry wp-post-image" alt="" /></div>              </div>
+        <div class="entry-wrap">
+      
+<header class="entry-header">
+      
+  <div class="x-nav-articles">
+
+          <a href="https://scripps.ucsd.edu/programs/keelingcurve/2014/06/25/an-update-on-keeling-curve-funding-support/" title="" class="prev">
+        <i class="x-icon-chevron-left" data-x-icon-s="&#xf053;"></i>      </a>
+    
+          <a href="https://scripps.ucsd.edu/programs/keelingcurve/2014/06/17/note-on-readings-maintenance-at-mauna-loa-may-14-and-15/" title="" class="next">
+        <i class="x-icon-chevron-right" data-x-icon-s="&#xf054;"></i>      </a>
+    
+  </div>
+
+      <h1 class="entry-title">How do CO2 levels relate to ice ages and sea-level?</h1>
+    <p class="p-meta"><span>In <a href="https://scripps.ucsd.edu/programs/keelingcurve/category/paleoclimate/" title="View all posts in: &ldquo;Paleoclimate&rdquo;"> Paleoclimate</a> by Rob Monroe</span><span><time class="entry-date" datetime="2014-06-20T22:17:52+00:00">June 20, 2014</time></span></p></header>      
+
+
+<div class="entry-content content">
+
+
+  <div id="attachment_1202" style="width: 310px" class="wp-caption alignnone"><a href="http://scripps.ucsd.edu/programs/keelingcurve/wp-content/uploads/sites/28/2014/06/LARGE_KC40_WAIS2009-342.jpg"><img class="wp-image-1202 size-medium" src="http://scripps.ucsd.edu/programs/keelingcurve/wp-content/uploads/sites/28/2014/06/LARGE_KC40_WAIS2009-342-300x161.jpg" alt="Core of ancient Antarctic ice" width="300" height="161" /></a><p class="wp-caption-text">An ice core collected by the DISC (Deep Ice Sheet Coring) drill from the West Antarctic Ice Sheet</p></div>
+<p>In a recent comment, a reader posted a graphic in which CO<sub>2</sub> and sea-level rise appear to be correlated throughout the last 700,000 years. <span id="more-1199"></span>While these two factors do appear to rise and fall together, what drives these two factors over the period of 700,000 years is very different from those over the last 50 – 100 years. As a result, this correlation is not a reliable guide to the cause and effect relationship between CO<sub>2</sub> and sea-level rise in recent years.</p>
+<p>Until the Industrial Revolution, melting of snow and ice at the end of cyclical glacial periods was driven by changes in the Earth’s orbit. As snow and ice melted on the planet, the albedo, or reflectivity, of the earth declined, with land and ocean absorbing more heat from the sun (think the reflectivity of cars in a parking lot versus the hot blacktop of the parking lot itself). As the planet slowly warmed, a warmer and better-mixed ocean released CO<sub>2</sub> into the atmosphere, which amplified the warming that was already in progress. In all, temperature typically increased by 6°C (11° F) over thousands of years during these interglacial periods, and one third of this increase was a result of the CO<sub>2</sub> that outgassed from the ocean once warming began. Therefore, CO<sub>2</sub> was not the initial cause of melting ice on the planet. It merely amplified a signal that was already in progress.</p>
+<p>By contrast, as humans burn fossil fuels, we are creating a new driver of snow and ice melt and accompanying sea-level rise. This time, additional CO<sub>2</sub> entering the atmosphere is coming from sources of carbon that had previously been sequestered in fuels such as oil and gas. We know from basic physics that CO<sub>2</sub> traps heat. The phenomenon is perhaps best demonstrated by Earth’s neighbor Venus. If we lived on Venus, the computer you’re reading this post on now would be melting. That’s because Venus has 100,000 times the amount of CO<sub>2</sub> in its atmosphere as Earth does and its average temperature of 462° C (863° F) is high enough to melt lead.</p>
+<p>Thus, while in the past sea-level rise as a result of melting glaciers and thermal expansion was driven by changes in Earth’s orbit and amplified by oceanic CO<sub>2</sub> released after initial warming, today anthropogenic CO<sub>2</sub> is directly driving this melting and sea-level rise.</p>
+<p><em><i>– Emily Kelly is a 6th year student in the laboratory of Scripps marine biologist Jennifer Smith</i></em></p>
+  
+
+</div>
+
+    </div>
+  </article>          
+        
+      </div>
+
+              
+
+  <aside class="x-sidebar left" role="complementary">
+          <div id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><p>
+	
+A daily record of atmospheric carbon dioxide from Scripps Institution of Oceanography at UC San Diego</p>
+
+<a href="https://scripps.ucsd.edu/programs/keelingcurve/permissions-and-data-sources/">Permissions and Data Sources</a></div></div><div id="search-3" class="widget widget_search">
+<form method="get" id="searchform" class="form-search" action="https://scripps.ucsd.edu/programs/keelingcurve/">
+  <label for="s" class="visually-hidden">Search</label>
+  <input type="text" id="s" class="search-query" name="s" placeholder="Search" />
+</form></div><div id="custom_html-5" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><a class="twitter-timeline" data-width="350" data-height="900" href="https://twitter.com/Keeling_curve">Keeling Curve updates</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div></div>		<div id="recent-posts-3" class="widget widget_recent_entries">		<h4 class="h-widget">Latest Posts</h4>		<ul>
+											<li>
+					<a href="https://scripps.ucsd.edu/programs/keelingcurve/2019/06/04/animation-of-keeling-curve-history-updated-to-include-2019-milestone/">Animation of Keeling Curve History Updated to Include 2019 Milestone</a>
+									</li>
+											<li>
+					<a href="https://scripps.ucsd.edu/programs/keelingcurve/2019/06/04/carbon-dioxide-levels-hit-record-peak-in-may/">Carbon Dioxide Levels Hit Record Peak in May</a>
+									</li>
+											<li>
+					<a href="https://scripps.ucsd.edu/programs/keelingcurve/2018/09/19/is-the-current-rise-in-co2-definitely-caused-by-human-activities/">Is the Current Rise in CO2 Definitely Caused by Human Activities?</a>
+									</li>
+											<li>
+					<a href="https://scripps.ucsd.edu/programs/keelingcurve/2018/06/07/another-climate-milestone-falls-at-mauna-loa-observatory/">Another Climate Milestone Falls at Mauna Loa Observatory</a>
+									</li>
+											<li>
+					<a href="https://scripps.ucsd.edu/programs/keelingcurve/2018/05/02/carbon-dioxide-in-the-atmosphere-hits-record-high-monthly-average/">Carbon Dioxide in the Atmosphere Hits Record High Monthly Average</a>
+									</li>
+					</ul>
+		</div><div id="categories-3" class="widget widget_categories"><h4 class="h-widget">Categories</h4><form action="https://scripps.ucsd.edu/programs/keelingcurve" method="get"><label class="screen-reader-text" for="cat">Categories</label><select  name='cat' id='cat' class='postform' >
+	<option value='-1'>Select Category</option>
+	<option class="level-0" value="2">Climate in the News</option>
+	<option class="level-0" value="3">Daily Measurements</option>
+	<option class="level-0" value="8">Home</option>
+	<option class="level-0" value="4">Keeling Curve History</option>
+	<option class="level-0" value="5">Measurement Notes</option>
+	<option class="level-0" value="9">Outreach</option>
+	<option class="level-0" value="6">Paleoclimate</option>
+	<option class="level-0" value="1">Uncategorized</option>
+	<option class="level-0" value="7">Videos</option>
+</select>
+</form>
+<script type='text/javascript'>
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "cat" );
+	function onCatChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value > 0 ) {
+			dropdown.parentNode.submit();
+		}
+	}
+	dropdown.onchange = onCatChange;
+})();
+/* ]]> */
+</script>
+
+</div><div id="archives-3" class="widget widget_archive"><h4 class="h-widget">Archives</h4>		<label class="screen-reader-text" for="archives-dropdown-3">Archives</label>
+		<select id="archives-dropdown-3" name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'>
+			
+			<option value="">Select Month</option>
+				<option value='https://scripps.ucsd.edu/programs/keelingcurve/2019/06/'> June 2019 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2018/09/'> September 2018 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2018/06/'> June 2018 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2018/05/'> May 2018 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2018/04/'> April 2018 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2018/02/'> February 2018 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2017/10/'> October 2017 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2017/09/'> September 2017 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2016/09/'> September 2016 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2016/08/'> August 2016 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2016/06/'> June 2016 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2016/05/'> May 2016 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2016/04/'> April 2016 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2016/03/'> March 2016 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2015/11/'> November 2015 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2015/10/'> October 2015 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2015/09/'> September 2015 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2015/06/'> June 2015 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2015/05/'> May 2015 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2015/04/'> April 2015 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2015/02/'> February 2015 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2014/10/'> October 2014 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2014/09/'> September 2014 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2014/08/'> August 2014 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2014/07/'> July 2014 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2014/06/'> June 2014 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2014/04/'> April 2014 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2014/03/'> March 2014 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2014/02/'> February 2014 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2014/01/'> January 2014 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2013/12/'> December 2013 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2013/10/'> October 2013 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2013/08/'> August 2013 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2013/07/'> July 2013 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2013/06/'> June 2013 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2013/05/'> May 2013 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2013/04/'> April 2013 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2013/03/'> March 2013 </option>
+	<option value='https://scripps.ucsd.edu/programs/keelingcurve/2013/02/'> February 2013 </option>
+
+		</select>
+		</div>      </aside>
+
+      
+    </div>
+  </div>
+
+
+
+  
+
+  
+    <footer class="x-colophon bottom" role="contentinfo">
+      <div class="x-container max width">
+
+                  <div class="x-colophon-content">
+                      </div>
+        
+        
+        
+      </div>
+    </footer>
+
+  
+
+    
+    </div> <!-- END .x-site -->
+
+    
+  </div> <!-- END .x-root -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NL6RGLC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<style>
+
+/* Core */
+header#header { padding-top: 60px; }
+.sio-branding { position: absolute; top: 0; display: block; width: 100%; z-index: 2000; }
+.sio-branding { background-color: rgba(0,0,0,.45) }
+body.admin-bar .sio-branding { top: 28px; }
+body.admin-bar.stacks .sio-branding { top: 0; }
+.sio-branding .header-right { float: right; }
+.sio-branding .header-right img { padding-top: 6px; }
+@media (max-width: 768px) {
+  .sio-branding { /* display: none; */ }
+}
+
+/* X for Shore Stations program site */
+/* .sio-branding { background-color: transparent; } */
+/* .sio-branding .container { background-color: rgba(0,0,0,.7) } */
+.sio-branding .container { max-width: 1260px; margin-left: auto; margin-right: auto; }
+.sio-branding .container .header-left { padding-left: 6px; }
+.sio-branding .container .header-right { padding-right: 6px; }
+.header-main { padding-top: 32px; }
+.search-box-wrapper { top: 77px; }
+</style>
+<!-- sio-branding::build_header -->
+<div class="sio-branding">
+  <div class="container">
+    <a href="https://scripps.ucsd.edu/" class="header-left">
+      <img src="https://s3.amazonaws.com/sio-cdn/images/header/logo/headerSIO.png" alt="scripps oceanography">
+    </a>
+    <a href="https://www.ucsd.edu/" class="header-right">
+      <img src="https://s3.amazonaws.com/sio-cdn/images/header/logo/ucsd-new-WHITE.png" alt="uc san diego">
+    </a>
+  </div>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-39584976-1', 'ucsd.edu', 'sioGlobal');
+  ga('sioGlobal.send', 'pageview');
+  ga('sioGlobal.anonymizeIp', true);
+</script><style>
+.sio-branding-footer {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  display: block;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+}
+.sio-branding-footer span {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: white;
+  margin: 0;
+  position: relative;
+  color: #20BDC5;
+}
+.sio-branding-footer span a {
+  color: #20BDC5;
+}
+</style>
+<div class="sio-branding-footer"><span>
+<a href="https://scripps.ucsd.edu/">Scripps Institution of Oceanography</a>,
+<a href="https://ucsd.edu/">UC San Diego</a> |
+<a href="https://ucsd.edu/about/terms-of-use.html">Terms of Use</a> |
+<a href="https://scripps.ucsd.edu/programs/keelingcurve/wp-admin/">Login</a>
+</span></div><script type='text/javascript' src='https://scripps.ucsd.edu/programs/keelingcurve/wp-content/plugins/cornerstone/assets/js/dist/site/cs-body.min.js?ver=1.2.4'></script>
+<script type='text/javascript' src='https://scripps.ucsd.edu/programs/keelingcurve/wp-content/themes/x/framework/dist/js/site/x.js?ver=6.4.6'></script>
+<script type='text/javascript' src='https://scripps.ucsd.edu/programs/keelingcurve/wp-includes/js/wp-embed.min.js?ver=4.9.10'></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"64431d5147","applicationID":"7164582","transactionName":"ZAcAZBdWVkICUExaWV1NI1MRXldfTEBRXVFfBw==","queueTime":0,"applicationTime":975,"atts":"SEADEl9MRUw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

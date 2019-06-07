@@ -1,0 +1,1664 @@
+<!doctype html>
+<html lang="en-GB" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1">
+	<meta name="pocket-site-verification" content="" />
+	
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://www.renewable-technology.com/xmlrpc.php">
+		<link rel="icon" href="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/11/renewable-technology-icon.png">
+				
+	
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+
+    (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+    '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+    })();
+</script>
+
+
+
+<script>
+    googletag.cmd.push(function() {
+
+        var lbMapping = googletag.sizeMapping()
+            .addSize([0, 0], [[320, 50]])
+            .addSize([728, 0], [728, 90])
+            .addSize([970, 0], [[728, 90], [970, 250]])
+            .build();
+        var dmpuMapping = googletag.sizeMapping()
+            .addSize([0, 0], [300, 250])
+            .addSize([0, 700], [300, 600])
+            .build();
+
+    
+    
+    
+    slot2 = googletag.defineSlot('/14453196/Renewable_Technology_Bottom_MPU', [300, 250], 'div-gpt-ad-1321444687289-176')
+
+        .addService(googletag.pubads());
+
+    slot4 = googletag.defineSlot('/14453196/Renewable_Technology_Top_Leader', [[970, 250], [728, 90]], 'div-gpt-ad-1321444687289-178')
+
+        .addService(googletag.pubads())
+        .defineSizeMapping(lbMapping);
+
+
+    slot7 = googletag.defineSlot('/14453196/renewable_technology_mobile_mpu', [[3, 3], [320, 50], [300, 250]], 'div-gpt-ad-1519057684144-31').addService(googletag.pubads()); 
+
+    slot5 = googletag.defineSlot('/14453196/Renewable_Technology_Top_MPU', [300, 250], 'div-gpt-ad-1321444687289-179').addService(googletag.pubads());
+
+    slot8 = googletag.defineSlot('/14453196/Renewable_Technology_Top_MPU', [300, 250], 'in_article').addService(googletag.pubads());
+
+   slot3 = googletag.defineSlot('/14453196/Renewable_Technology_Magazine_Box', [300, 600], 'div-gpt-ad-1321444687289-177')
+
+        .addService(googletag.pubads())
+        .defineSizeMapping(dmpuMapping);
+
+   
+
+       slot6 = googletag.defineSlot('/14453196/Verdict_Network/Verdict_Network_3x3', [3, 3], 'div-gpt-ad-1515156373818-0').addService(googletag.pubads()); 
+              
+    
+    googletag.pubads().setTargeting("Section", "Projects");        googletag.pubads().setTargeting("Page", "1799");    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+    });
+     </script>
+<!--  -->
+
+	<meta http-equiv="x-dns-prefetch-control" content="on">
+	<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+	<link rel="dns-prefetch" href="//fonts.gstatic.com" />
+	<link rel="dns-prefetch" href="//0.gravatar.com/" />
+	<link rel="dns-prefetch" href="//2.gravatar.com/" />
+	<link rel="dns-prefetch" href="//1.gravatar.com/" />
+	<title>Antelope Valley Solar Ranch One, California - Renewable Technology</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v9.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://www.renewable-technology.com/projects/antelope-valley-solar-ranch-one-california/" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Antelope Valley Solar Ranch One, California - Renewable Technology" />
+<meta property="og:description" content="The Antelope Valley Solar Ranch One (AV Solar Ranch One) is a ground-mount solar photovoltaic (PV) power project with an...Read More..." />
+<meta property="og:url" content="https://www.renewable-technology.com/projects/antelope-valley-solar-ranch-one-california/" />
+<meta property="og:site_name" content="Renewable Technology" />
+<meta property="og:image" content="https://www.renewable-technology.com/wp-content/uploads/static-progressive/2-image.jpg" />
+<meta property="og:image:secure_url" content="https://www.renewable-technology.com/wp-content/uploads/static-progressive/2-image.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="The Antelope Valley Solar Ranch One (AV Solar Ranch One) is a ground-mount solar photovoltaic (PV) power project with an...Read More..." />
+<meta name="twitter:title" content="Antelope Valley Solar Ranch One, California - Renewable Technology" />
+<meta name="twitter:image" content="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/12/main-180.jpg" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//www.renewable-technology.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Renewable Technology &raquo; Feed" href="https://www.renewable-technology.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Renewable Technology &raquo; Comments Feed" href="https://www.renewable-technology.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Renewable Technology &raquo; Antelope Valley Solar Ranch One, California Comments Feed" href="https://www.renewable-technology.com/projects/antelope-valley-solar-ranch-one-california/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.renewable-technology.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='cf7-custom-style-css'  href='https://www.renewable-technology.com/wp-content/plugins/pmg-contactform/assets/css/cf7-custom-style.css?ver=1.1' media='all' />
+<link rel='stylesheet' id='additional-css'  href='https://www.renewable-technology.com/wp-content/themes/goodlife-wp-child/assets/css/additional.css?ver=3.9' media='all' />
+<link rel='stylesheet' id='foundation-css'  href='https://www.renewable-technology.com/wp-content/themes/goodlife-wp-child/assets/css/foundation.css?ver=4.9.8' media='all' />
+<link rel='stylesheet' id='thb-fa-css'  href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css' media='all' />
+<link rel='stylesheet' id='style-css'  href='https://www.renewable-technology.com/wp-content/themes/goodlife-wp-child/style.css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://www.renewable-technology.com/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.1' media='all' />
+<script src='https://www.renewable-technology.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script src='https://www.renewable-technology.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script src='https://www.renewable-technology.com/wp-content/themes/goodlife-wp-child/assets/js/foundation.min.js?ver=4.9.8'></script>
+<link rel='https://api.w.org/' href='https://www.renewable-technology.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.renewable-technology.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.renewable-technology.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.8" />
+<link rel='shortlink' href='https://www.renewable-technology.com/?p=1799' />
+<link rel="alternate" type="application/json+oembed" href="https://www.renewable-technology.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.renewable-technology.com%2Fprojects%2Fantelope-valley-solar-ranch-one-california%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.renewable-technology.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.renewable-technology.com%2Fprojects%2Fantelope-valley-solar-ranch-one-california%2F&#038;format=xml" />
+<script src='https://live-kgi-verdict-network.pantheonsite.io/?dm=0fd087c081c432abbf2f76e6776492f5&amp;action=load&amp;blogid=29&amp;siteid=1&amp;t=1069161031&amp;back=https%3A%2F%2Fwww.renewable-technology.com%2Fprojects%2Fantelope-valley-solar-ranch-one-california%2F'></script><!-- premitive -->
+			<script>
+				!function(e,n,t,r,o,i){if(!n){n=n||{},window.permutive=n,n.q=[],n.config=i||{},n.config.projectId=r,n.config.apiKey=o,n.config.environment=n.config.environment||"production";for(var c=["addon","identify","track","trigger","query","segment","segments","ready","on","once","user"],a=0;a<c.length;a++){var s=c[a];n[s]=function(e){return function(){var t=Array.prototype.slice.call(arguments,0);n.q.push({functionName:e,arguments:t})}}(s)}var p=window.Worker?"async":"blocking",g=e.createElement("script");g.type="text/javascript",g.async=!0;var m=("https:"==e.location.protocol?"https://":"http://")+"cdn.permutive.com";g.src=m+"/"+r+"-"+p+".js";var u=e.getElementsByTagName(t)[0];u.parentNode.insertBefore(g,u)}}(document,window.permutive,"script","e82dc6a7-79a5-49b7-b1ed-a89a37f2fe8b","62905692-4299-42af-951f-aa610546b2b1",{});
+				permutive.addon("web", { page: {
+				  article: { id:"1799",title:"Antelope Valley Solar Ranch One, California" }}});
+			</script>
+				 <!-- end premitive -->
+	 	<!-- Google Analytics (GA) code start -->
+	  <script>
+	    var _gaq = _gaq || [];
+	    _gaq.push(['_setAccount', 'UA-3619893-40']);
+	    _gaq.push(['_setDomainName', 'renewable-technology.com']);
+	    _gaq.push(['_setAllowHash', false]);
+	    _gaq.push(['_trackPageview']);
+	    _gaq.push(['_trackPageLoadTime']);
+
+	    (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
+	  </script>
+	<!-- Google Analytics (GA) code end -->
+		<!-- Google Analytics (GA) - PHASE - 1 - code start -->
+	 <script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-3619893-40', {'allowAnchor': true});
+		ga('send', 'pageview', { 'page': location.pathname + location.search + location.hash});
+	</script>
+<!-- Google Analytics (GA) code - PHASE - 1 - end -->
+<script>
+piAId = '376012';
+piCId = '71901';
+piHostname = 'pi.pardot.com';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+
+</head>
+<body class="projects-template-default single single-projects postid-1799 lazy-load-on thb_ads_header_mobile_off thb-lightbox-on thb-capitalize-off" >
+
+
+	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+<link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+<script src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+<!-- Preloader -->
+
+	
+			<!-- <div class="l-preloader">
+			    <div class="l-preloader-spinner">
+			        <div class="l-preloader-logo logo-reveal">
+			            								<img src="" alt="<?php//echo $preload_image['alt']; ?>" />
+									        </div>
+			        <div class="g-preloader  type_1">
+			            <div class="g-preloader-h"></div>
+			        </div>
+			    </div>
+			</div> -->
+
+	
+		
+			<!-- <div class="l-preloader">
+			    <div class="l-preloader-spinner">
+			        <div class="l-preloader-logo logo-reveal">
+			            								<img src="" alt="" />
+									        </div>
+			        <div class="g-preloader  type_1">
+			            <div class="g-preloader-h"></div>
+			        </div>
+			    </div>
+			</div> -->
+
+		
+	<!-- End of Preloader -->
+
+
+
+
+<!-- Cookie PopUp -->
+<div id="cookiepopup">
+	<h4>Renewable Technology is using cookies</h4>
+	<p>We use them to give you the best experience. If you continue using our website, we'll assume that you are happy to receive all cookies on this website.</p>
+	<span id="cookiepopup-continue" class="cookiepopup-continue">Continue</span><a class="cookiepopup-learnmore" href="http://www.verdict.co.uk/privacy-policy/">Learn More</a>
+	<a id="cookiepopup-closebutton" class="cookiepopup-closebutton">X</a>
+</div>
+<!-- End of Cookie PopUp -->
+
+
+
+<!-- Top Leaderboard -->
+
+	
+
+
+
+	
+				<div class="leaderboard top-leaderboard">
+				<div id="div-gpt-ad-1321444687289-178" class="top-leaderboard-container">
+				<script>
+					googletag.cmd.push(function() { googletag.display('div-gpt-ad-1321444687289-178'); });
+				</script>
+				 </div>
+				 				 <div id='div-gpt-ad-1519057684144-31' class="top-leaderboard-container-new">
+					<script>
+					googletag.cmd.push(function()
+
+					{ googletag.display('div-gpt-ad-1519057684144-31'); }
+					);
+					</script>
+			     </div>
+			     				 <div class="top-leaderboard-close">X</div>
+			</div>
+			
+
+
+<div id="wrapper" class="open box-skin_layout">
+
+	<!-- Start Content Container -->
+	<section id="content-container">
+		<!-- Start Content Click Capture -->
+		<div class="click-capture"></div>
+		<!-- End Content Click Capture -->
+
+				<!-- ad code start here -->
+		<div class="onmb advt_btn btn"><a href="https://www.renewable-technology.com/advertise-with-us/">Advertise with us</a></div>
+		<!-- end ad code here-->
+		<!-- Start Header -->
+		<header class="header style1 site-header light">
+			<div class="thesearch"><!-- Start SearchForm -->
+<form method="get" class="search-form" role="search" action="https://www.renewable-technology.com/">
+    <fieldset>
+    	<input name="s" type="search" placeholder="Search" class="s search-field">
+    	<button type="submit" class="search-submit"><span class="screen-reader-text">Search</span></button>
+    </fieldset>
+</form>
+<!-- End SearchForm --></div>
+			<div class="row box-skin_logo-box">
+				<!--<div class="small-2 columns text-left mobile-icon-holder">
+					<a href="#" data-target="open-menu" class="mobile-toggle"><i class="fa fa-bars"></i></a>
+				</div>-->
+				<div class="large-3 medium-3 small-6 columns logo">
+					<div class="site-logo">
+																		<a href="https://www.renewable-technology.com/" class="logolink">
+															<img src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/11/renewable-logo.png" class="logoimg desktop-logo" alt="renewable-logo" />
+																						<img src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/11/renewable-logo-mobile.png" class="logoimg mobile-logo" alt="renewable-logo-mobile" />
+													</a>
+					</div>
+				</div>
+				<div class="large-5 medium-6 columns text-right block-ser">
+					<!-- Start SearchForm -->
+<form method="get" class="search-form" role="search" action="https://www.renewable-technology.com/">
+    <fieldset>
+    	<input name="s" type="search" placeholder="Search" class="s search-field">
+    	<button type="submit" class="search-submit"><span class="screen-reader-text">Search</span></button>
+    </fieldset>
+</form>
+<!-- End SearchForm -->				</div>
+				<div class="large-4 medium-3 small-6 columns nav-right-mobile">
+					<ul class="login-links">
+						<li class="login-hover"><span class="login-link">Log In</span><div class="dropdown-content" style="right:auto"><span><a href="https://www.renewable-technology.com/login/">Log In</a></span><span class="register-mobilemenu"><a href="https://www.renewable-technology.com/register">Register</a></span><span><a target="_blank" href="">Market &amp; Customer Insight</a></span></div></li>							<li><a class="registermob" href="https://www.renewable-technology.com/register/">Register</a></li>
+												<li class="advt_btn btn"><a href="https://www.renewable-technology.com/advertise-with-us/" style="padding: 5px!important;font-size: 0.6em!important;text-decoration: none;">Advertise with us</a></li>
+					</ul>
+						<div class="themobile-menu">
+							<a class="mobile-toggle">
+							</a>
+									<nav id="mobile-menu">
+			<div class="custom_scroll" id="menu-scroll">
+				<div>
+																				  <ul id="menu-mobile-menu" class="mobile-menu"><li id="menu-item-43645" class=" menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children menu-item-43645"><a href="https://www.renewable-technology.com/./biofuels/"><span><i class="fa fa-plus"></i></span>Biofuels</a>
+<ul class="sub-menu">
+	<li id="menu-item-43646" class=" menu-item menu-item-type-post_type_archive menu-item-object-projects menu-item-43646"><a href="https://www.renewable-technology.com/projects/">Projects</a></li>
+	<li id="menu-item-43647" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43647 menu-item-category-61"><a href="https://www.renewable-technology.com/./features/">Analysis</a></li>
+	<li id="menu-item-43648" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43648 menu-item-category-59"><a href="https://www.renewable-technology.com/./news/">News</a></li>
+	<li id="menu-item-43650" class=" menu-item menu-item-type-post_type_archive menu-item-object-whitepapers menu-item-43650"><a href="https://www.renewable-technology.com/whitepapers/">White Papers</a></li>
+	<li id="menu-item-43651" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-43651"><a href="https://www.renewable-technology.com/suppliers/">Suppliers</a></li>
+	<li id="menu-item-43649" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43649 menu-item-category-60"><a href="https://www.renewable-technology.com/./comment/">Comment</a></li>
+</ul>
+</li>
+<li id="menu-item-43652" class=" menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children menu-item-43652"><a href="https://www.renewable-technology.com/./geothermal/"><span><i class="fa fa-plus"></i></span>Geothermal</a>
+<ul class="sub-menu">
+	<li id="menu-item-43653" class=" menu-item menu-item-type-post_type_archive menu-item-object-projects menu-item-43653"><a href="https://www.renewable-technology.com/projects/">Projects</a></li>
+	<li id="menu-item-43654" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43654 menu-item-category-61"><a href="https://www.renewable-technology.com/./features/">Analysis</a></li>
+	<li id="menu-item-43655" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43655 menu-item-category-59"><a href="https://www.renewable-technology.com/./news/">News</a></li>
+	<li id="menu-item-43657" class=" menu-item menu-item-type-post_type_archive menu-item-object-whitepapers menu-item-43657"><a href="https://www.renewable-technology.com/whitepapers/">White Papers</a></li>
+	<li id="menu-item-43658" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-43658"><a href="https://www.renewable-technology.com/suppliers/">Suppliers</a></li>
+	<li id="menu-item-43656" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43656 menu-item-category-60"><a href="https://www.renewable-technology.com/./comment/">Comment</a></li>
+</ul>
+</li>
+<li id="menu-item-43659" class=" menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children menu-item-43659"><a href="https://www.renewable-technology.com/./hydro/"><span><i class="fa fa-plus"></i></span>Hydro</a>
+<ul class="sub-menu">
+	<li id="menu-item-43660" class=" menu-item menu-item-type-post_type_archive menu-item-object-projects menu-item-43660"><a href="https://www.renewable-technology.com/projects/">Projects</a></li>
+	<li id="menu-item-43661" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43661 menu-item-category-61"><a href="https://www.renewable-technology.com/./features/">Analysis</a></li>
+	<li id="menu-item-43662" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43662 menu-item-category-59"><a href="https://www.renewable-technology.com/./news/">News</a></li>
+	<li id="menu-item-43664" class=" menu-item menu-item-type-post_type_archive menu-item-object-whitepapers menu-item-43664"><a href="https://www.renewable-technology.com/whitepapers/">White Papers</a></li>
+	<li id="menu-item-43665" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-43665"><a href="https://www.renewable-technology.com/suppliers/">Suppliers</a></li>
+	<li id="menu-item-43663" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43663 menu-item-category-60"><a href="https://www.renewable-technology.com/./comment/">Comment</a></li>
+</ul>
+</li>
+<li id="menu-item-43666" class=" menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children menu-item-43666"><a href="https://www.renewable-technology.com/./infrastructure/"><span><i class="fa fa-plus"></i></span>Infrastructure</a>
+<ul class="sub-menu">
+	<li id="menu-item-43667" class=" menu-item menu-item-type-post_type_archive menu-item-object-projects menu-item-43667"><a href="https://www.renewable-technology.com/projects/">Projects</a></li>
+	<li id="menu-item-43668" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43668 menu-item-category-61"><a href="https://www.renewable-technology.com/./features/">Analysis</a></li>
+	<li id="menu-item-43669" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43669 menu-item-category-59"><a href="https://www.renewable-technology.com/./news/">News</a></li>
+	<li id="menu-item-43671" class=" menu-item menu-item-type-post_type_archive menu-item-object-whitepapers menu-item-43671"><a href="https://www.renewable-technology.com/whitepapers/">White Papers</a></li>
+	<li id="menu-item-43672" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-43672"><a href="https://www.renewable-technology.com/suppliers/">Suppliers</a></li>
+	<li id="menu-item-43670" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43670 menu-item-category-60"><a href="https://www.renewable-technology.com/./comment/">Comment</a></li>
+</ul>
+</li>
+<li id="menu-item-43673" class=" menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children menu-item-43673"><a href="https://www.renewable-technology.com/./market-data/"><span><i class="fa fa-plus"></i></span>Market Data</a>
+<ul class="sub-menu">
+	<li id="menu-item-43674" class=" menu-item menu-item-type-post_type_archive menu-item-object-projects menu-item-43674"><a href="https://www.renewable-technology.com/projects/">Projects</a></li>
+	<li id="menu-item-43675" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43675 menu-item-category-61"><a href="https://www.renewable-technology.com/./features/">Analysis</a></li>
+	<li id="menu-item-43676" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43676 menu-item-category-59"><a href="https://www.renewable-technology.com/./news/">News</a></li>
+	<li id="menu-item-43678" class=" menu-item menu-item-type-post_type_archive menu-item-object-whitepapers menu-item-43678"><a href="https://www.renewable-technology.com/whitepapers/">White Papers</a></li>
+	<li id="menu-item-43679" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-43679"><a href="https://www.renewable-technology.com/suppliers/">Suppliers</a></li>
+	<li id="menu-item-43677" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43677 menu-item-category-60"><a href="https://www.renewable-technology.com/./comment/">Comment</a></li>
+</ul>
+</li>
+<li id="menu-item-43680" class=" menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children menu-item-43680"><a href="https://www.renewable-technology.com/./nuclear/"><span><i class="fa fa-plus"></i></span>Nuclear</a>
+<ul class="sub-menu">
+	<li id="menu-item-43681" class=" menu-item menu-item-type-post_type_archive menu-item-object-projects menu-item-43681"><a href="https://www.renewable-technology.com/projects/">Projects</a></li>
+	<li id="menu-item-43682" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43682 menu-item-category-61"><a href="https://www.renewable-technology.com/./features/">Analysis</a></li>
+	<li id="menu-item-43683" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43683 menu-item-category-59"><a href="https://www.renewable-technology.com/./news/">News</a></li>
+	<li id="menu-item-43685" class=" menu-item menu-item-type-post_type_archive menu-item-object-whitepapers menu-item-43685"><a href="https://www.renewable-technology.com/whitepapers/">White Papers</a></li>
+	<li id="menu-item-43686" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-43686"><a href="https://www.renewable-technology.com/suppliers/">Suppliers</a></li>
+	<li id="menu-item-43684" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43684 menu-item-category-60"><a href="https://www.renewable-technology.com/./comment/">Comment</a></li>
+</ul>
+</li>
+<li id="menu-item-43687" class=" menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children menu-item-43687"><a href="https://www.renewable-technology.com/./renewable/solar/"><span><i class="fa fa-plus"></i></span>Solar</a>
+<ul class="sub-menu">
+	<li id="menu-item-43688" class=" menu-item menu-item-type-post_type_archive menu-item-object-projects menu-item-43688"><a href="https://www.renewable-technology.com/projects/">Projects</a></li>
+	<li id="menu-item-43689" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43689 menu-item-category-61"><a href="https://www.renewable-technology.com/./features/">Analysis</a></li>
+	<li id="menu-item-43690" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43690 menu-item-category-59"><a href="https://www.renewable-technology.com/./news/">News</a></li>
+	<li id="menu-item-43692" class=" menu-item menu-item-type-post_type_archive menu-item-object-whitepapers menu-item-43692"><a href="https://www.renewable-technology.com/whitepapers/">White Papers</a></li>
+	<li id="menu-item-43693" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-43693"><a href="https://www.renewable-technology.com/suppliers/">Suppliers</a></li>
+	<li id="menu-item-43691" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43691 menu-item-category-60"><a href="https://www.renewable-technology.com/./comment/">Comment</a></li>
+</ul>
+</li>
+<li id="menu-item-43694" class=" menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children menu-item-43694"><a href="https://www.renewable-technology.com/./technology/"><span><i class="fa fa-plus"></i></span>Technology</a>
+<ul class="sub-menu">
+	<li id="menu-item-43695" class=" menu-item menu-item-type-post_type_archive menu-item-object-projects menu-item-43695"><a href="https://www.renewable-technology.com/projects/">Projects</a></li>
+	<li id="menu-item-43696" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43696 menu-item-category-61"><a href="https://www.renewable-technology.com/./features/">Analysis</a></li>
+	<li id="menu-item-43697" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43697 menu-item-category-59"><a href="https://www.renewable-technology.com/./news/">News</a></li>
+	<li id="menu-item-43699" class=" menu-item menu-item-type-post_type_archive menu-item-object-whitepapers menu-item-43699"><a href="https://www.renewable-technology.com/whitepapers/">White Papers</a></li>
+	<li id="menu-item-43700" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-43700"><a href="https://www.renewable-technology.com/suppliers/">Suppliers</a></li>
+	<li id="menu-item-43698" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43698 menu-item-category-60"><a href="https://www.renewable-technology.com/./comment/">Comment</a></li>
+</ul>
+</li>
+<li id="menu-item-43701" class=" menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children menu-item-43701"><a href="https://www.renewable-technology.com/./wind/"><span><i class="fa fa-plus"></i></span>Wind</a>
+<ul class="sub-menu">
+	<li id="menu-item-43702" class=" menu-item menu-item-type-post_type_archive menu-item-object-projects menu-item-43702"><a href="https://www.renewable-technology.com/projects/">Projects</a></li>
+	<li id="menu-item-43703" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43703 menu-item-category-61"><a href="https://www.renewable-technology.com/./features/">Analysis</a></li>
+	<li id="menu-item-43704" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43704 menu-item-category-59"><a href="https://www.renewable-technology.com/./news/">News</a></li>
+	<li id="menu-item-43706" class=" menu-item menu-item-type-post_type_archive menu-item-object-whitepapers menu-item-43706"><a href="https://www.renewable-technology.com/whitepapers/">White Papers</a></li>
+	<li id="menu-item-43707" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-43707"><a href="https://www.renewable-technology.com/suppliers/">Suppliers</a></li>
+	<li id="menu-item-43705" class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43705 menu-item-category-60"><a href="https://www.renewable-technology.com/./comment/">Comment</a></li>
+</ul>
+</li>
+</ul>																<ul id="menu-all-sections" class="mobile-menu secondary"><li id="menu-item-4162" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4162"><a href="https://www.renewable-technology.com/">Home</a></li>
+<li id="menu-item-4165" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4165 menu-item-category-59"><a href="https://www.renewable-technology.com/./news/">News</a></li>
+<li id="menu-item-4166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4166"><a href="https://www.renewable-technology.com/advertise-with-us/">Advertise With Us</a></li>
+<li id="menu-item-4167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4167"><a href="https://www.renewable-technology.com/company-a-z/">Company A-Z</a></li>
+<li id="menu-item-4163" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4163 menu-item-category-61"><a href="https://www.renewable-technology.com/./features/">Analysis</a></li>
+<li id="menu-item-4168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4168"><a href="https://www.renewable-technology.com/mediapacks/">About Us</a></li>
+<li id="menu-item-4169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4169"><a href="https://www.renewable-technology.com/contractors/">PRODUCTS &#038; SERVICES</a></li>
+<li id="menu-item-4164" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4164 menu-item-category-60"><a href="https://www.renewable-technology.com/./comment/">Comment</a></li>
+<li id="menu-item-4171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4171"><a href="https://www.renewable-technology.com/company-releases/">Company Releases</a></li>
+<li id="menu-item-4172" class="menu-item menu-item-type-post_type_archive menu-item-object-projects menu-item-4172"><a href="https://www.renewable-technology.com/projects/">Projects</a></li>
+<li id="menu-item-4173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4173"><a href="https://www.renewable-technology.com/contact-us/">Contact Us</a></li>
+<li id="menu-item-4174" class="menu-item menu-item-type-post_type_archive menu-item-object-events menu-item-4174"><a href="https://www.renewable-technology.com/events/">Events</a></li>
+<li id="menu-item-4175" class="menu-item menu-item-type-post_type_archive menu-item-object-whitepapers menu-item-4175"><a href="https://www.renewable-technology.com/whitepapers/">White Papers</a></li>
+</ul>										<div class="social-links">
+											</div>
+					<div class="menu-footer">
+											</div>
+				</div>
+			</div>
+		</nav>
+	
+						</div>
+						<div class="search-mobile"></div>
+				</div>
+			</div>
+						<nav class="site-nav">
+				<div class="row">
+					<!-- Start SearchForm -->
+<form method="get" class="search-form" role="search" action="https://www.renewable-technology.com/">
+    <fieldset>
+    	<input name="s" type="search" placeholder="Search" class="s search-field">
+    	<button type="submit" class="search-submit"><span class="screen-reader-text">Search</span></button>
+    </fieldset>
+</form>
+<!-- End SearchForm --><ul id="menu-main-navigation" class="cf"><li id="nav-menu-item-4142" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-sector current-projects-ancestor current-menu-parent current-projects-parent menu-item-has-children"><a href="https://www.renewable-technology.com/./biofuels/" class="menu-link main-menu-link">Biofuels</a>
+          <div class="mega-menu">
+            <div class="row">
+                <div class="large-3 medium-3 columns">
+                  <section class="section-nav">
+                    <h2>Biofuels</h2>
+                    <ul class="cf"><li class="menu"><a href="https://www.renewable-technology.com/projects/biofuels">Projects</a></li><li class="menu"><a href="https://www.renewable-technology.com/./features/biofuels">Analysis</a></li><li class="menu"><a href="https://www.renewable-technology.com/./news/biofuels">News</a></li><li class="menu"><a href="https://www.renewable-technology.com/whitepapers/biofuels">White Papers</a></li><li class="menu"><a href="https://www.renewable-technology.com/suppliers/biofuels">Suppliers</a></li><li class="menu"><a href="https://www.renewable-technology.com/./comment/biofuels">Comment</a></li></ul>
+                  </section>
+                </div>
+                <div class="large-9 medium-9 columns">
+                  <div class="row"><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/comment/colombia-fires-starting-gun-on-renewable-energy-projects/"><img width="300" height="300" data-original="https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/02/Colombia-Cartagena-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="colombia renewable energy auction" data-original-set="https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/02/Colombia-Cartagena-300x300.jpg 300w, https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/02/Colombia-Cartagena-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">Comment</a></div>
+                          <h3><a href="https://www.renewable-technology.com/comment/colombia-fires-starting-gun-on-renewable-energy-projects/">Colombia fires starting gun on renewable energy projects</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/news/severn-trents-thp-plant-begins-generating-green-energy-sewage-sludge/"><img src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/11/renewable.jpg" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">News</a></div>
+                          <h3><a href="https://www.renewable-technology.com/news/severn-trents-thp-plant-begins-generating-green-energy-sewage-sludge/">Severn Trent’s THP plant begins generating green energy from sewage sludge</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/news/heineken-announces-drop-c-programme/"><img src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/11/renewable.jpg" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">News</a></div>
+                          <h3><a href="https://www.renewable-technology.com/news/heineken-announces-drop-c-programme/">Heineken announces Drop the C programme</a></h3>
+                        </article>
+                      </div></div>
+                </div>
+              </div>
+          </div>
+          </li>
+<li id="nav-menu-item-4143" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-sector current-projects-ancestor current-menu-parent current-projects-parent menu-item-has-children"><a href="https://www.renewable-technology.com/./geothermal/" class="menu-link main-menu-link">Geothermal</a>
+          <div class="mega-menu">
+            <div class="row">
+                <div class="large-3 medium-3 columns">
+                  <section class="section-nav">
+                    <h2>Geothermal</h2>
+                    <ul class="cf"><li class="menu"><a href="https://www.renewable-technology.com/projects/geothermal">Projects</a></li><li class="menu"><a href="https://www.renewable-technology.com/./features/geothermal">Analysis</a></li><li class="menu"><a href="https://www.renewable-technology.com/./news/geothermal">News</a></li><li class="menu"><a href="https://www.renewable-technology.com/whitepapers/geothermal">White Papers</a></li><li class="menu"><a href="https://www.renewable-technology.com/suppliers/geothermal">Suppliers</a></li><li class="menu"><a href="https://www.renewable-technology.com/./comment/geothermal">Comment</a></li></ul>
+                  </section>
+                </div>
+                <div class="large-9 medium-9 columns">
+                  <div class="row"><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/comment/colombia-fires-starting-gun-on-renewable-energy-projects/"><img width="300" height="300" data-original="https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/02/Colombia-Cartagena-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="colombia renewable energy auction" data-original-set="https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/02/Colombia-Cartagena-300x300.jpg 300w, https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/02/Colombia-Cartagena-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">Comment</a></div>
+                          <h3><a href="https://www.renewable-technology.com/comment/colombia-fires-starting-gun-on-renewable-energy-projects/">Colombia fires starting gun on renewable energy projects</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/news/newsseasons-greetings-renewable-5703818/"><img width="300" height="300" data-original="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/12/main-250-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" data-original-set="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/12/main-250-300x300.jpg 300w, https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/12/main-250-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">News</a></div>
+                          <h3><a href="https://www.renewable-technology.com/news/newsseasons-greetings-renewable-5703818/">Seasons Greetings</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/news/newsvestas-to-deliver-seven-v112-345-mw-turbines-in-south-korea-5701880/"><img src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/11/renewable.jpg" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">News</a></div>
+                          <h3><a href="https://www.renewable-technology.com/news/newsvestas-to-deliver-seven-v112-345-mw-turbines-in-south-korea-5701880/">Vestas to deliver seven V112-3.45 MW turbines in South Korea</a></h3>
+                        </article>
+                      </div></div>
+                </div>
+              </div>
+          </div>
+          </li>
+<li id="nav-menu-item-4144" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-sector current-projects-ancestor current-menu-parent current-projects-parent menu-item-has-children"><a href="https://www.renewable-technology.com/./hydro/" class="menu-link main-menu-link">Hydro</a>
+          <div class="mega-menu">
+            <div class="row">
+                <div class="large-3 medium-3 columns">
+                  <section class="section-nav">
+                    <h2>Hydro</h2>
+                    <ul class="cf"><li class="menu"><a href="https://www.renewable-technology.com/projects/hydro">Projects</a></li><li class="menu"><a href="https://www.renewable-technology.com/./features/hydro">Analysis</a></li><li class="menu"><a href="https://www.renewable-technology.com/./news/hydro">News</a></li><li class="menu"><a href="https://www.renewable-technology.com/whitepapers/hydro">White Papers</a></li><li class="menu"><a href="https://www.renewable-technology.com/suppliers/hydro">Suppliers</a></li><li class="menu"><a href="https://www.renewable-technology.com/./comment/hydro">Comment</a></li></ul>
+                  </section>
+                </div>
+                <div class="large-9 medium-9 columns">
+                  <div class="row"><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/news/seattle-city-light-selects-ge-renewable-energy-rebuild-generators-boundary-plant/"><img width="300" height="300" data-original="https://www.renewable-technology.com/wp-content/uploads/sites/29/2018/06/Boundary_Dam-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" data-original-set="https://www.renewable-technology.com/wp-content/uploads/sites/29/2018/06/Boundary_Dam-300x300.jpg 300w, https://www.renewable-technology.com/wp-content/uploads/sites/29/2018/06/Boundary_Dam-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">News</a></div>
+                          <h3><a href="https://www.renewable-technology.com/news/seattle-city-light-selects-ge-renewable-energy-rebuild-generators-boundary-plant/">Seattle City Light selects GE Renewable Energy to rebuild generators for Boundary plant</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/news/seabased-secures-contract-develop-100mw-wave-energy-project-ghana/"><img src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/11/renewable.jpg" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">News</a></div>
+                          <h3><a href="https://www.renewable-technology.com/news/seabased-secures-contract-develop-100mw-wave-energy-project-ghana/">Seabased secures contract to develop 100MW wave energy project in Ghana</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/news/voltalia-develop-two-hydropower-plants-morocco/"><img src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/11/renewable.jpg" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">News</a></div>
+                          <h3><a href="https://www.renewable-technology.com/news/voltalia-develop-two-hydropower-plants-morocco/">Voltalia to develop two hydropower plants in Morocco</a></h3>
+                        </article>
+                      </div></div>
+                </div>
+              </div>
+          </div>
+          </li>
+<li id="nav-menu-item-4145" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-sector menu-item-has-children"><a href="https://www.renewable-technology.com/./infrastructure/" class="menu-link main-menu-link">Infrastructure</a>
+          <div class="mega-menu">
+            <div class="row">
+                <div class="large-3 medium-3 columns">
+                  <section class="section-nav">
+                    <h2>Infrastructure</h2>
+                    <ul class="cf"><li class="menu"><a href="https://www.renewable-technology.com/projects/infrastructure">Projects</a></li><li class="menu"><a href="https://www.renewable-technology.com/./features/infrastructure">Analysis</a></li><li class="menu"><a href="https://www.renewable-technology.com/./news/infrastructure">News</a></li><li class="menu"><a href="https://www.renewable-technology.com/whitepapers/infrastructure">White Papers</a></li><li class="menu"><a href="https://www.renewable-technology.com/suppliers/infrastructure">Suppliers</a></li><li class="menu"><a href="https://www.renewable-technology.com/./comment/infrastructure">Comment</a></li></ul>
+                  </section>
+                </div>
+                <div class="large-9 medium-9 columns">
+                  <div class="row"><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/news/bermuda-general-agency-buy-two-20mw-wave-energy-parks/"><img width="300" height="300" data-original="https://www.renewable-technology.com/wp-content/uploads/sites/29/2018/05/Wave-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" data-original-set="https://www.renewable-technology.com/wp-content/uploads/sites/29/2018/05/Wave-300x300.jpg 300w, https://www.renewable-technology.com/wp-content/uploads/sites/29/2018/05/Wave-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">News</a></div>
+                          <h3><a href="https://www.renewable-technology.com/news/bermuda-general-agency-buy-two-20mw-wave-energy-parks/">Bermuda General Agency to buy two 20MW wave energy parks</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/news/tiu-canada-launches-10-7mw-solar-energy-plant-ukraine/"><img width="300" height="300" data-original="https://www.renewable-technology.com/wp-content/uploads/sites/29/2018/02/TIU_Canad-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" data-original-set="https://www.renewable-technology.com/wp-content/uploads/sites/29/2018/02/TIU_Canad-300x300.jpg 300w, https://www.renewable-technology.com/wp-content/uploads/sites/29/2018/02/TIU_Canad-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">News</a></div>
+                          <h3><a href="https://www.renewable-technology.com/news/tiu-canada-launches-10-7mw-solar-energy-plant-ukraine/">TIU Canada launches 10.7MW solar energy plant in Ukraine</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/news/aes-india-mitsubishi-develop-10mw-utility-scale-energy-storage-system/"><img src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/11/renewable.jpg" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">News</a></div>
+                          <h3><a href="https://www.renewable-technology.com/news/aes-india-mitsubishi-develop-10mw-utility-scale-energy-storage-system/">AES India and Mitsubishi develop 10MW utility-scale energy storage system</a></h3>
+                        </article>
+                      </div></div>
+                </div>
+              </div>
+          </div>
+          </li>
+<li id="nav-menu-item-4146" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-sector current-projects-ancestor current-menu-parent current-projects-parent menu-item-has-children"><a href="https://www.renewable-technology.com/./market-data/" class="menu-link main-menu-link">Market Data</a>
+          <div class="mega-menu">
+            <div class="row">
+                <div class="large-3 medium-3 columns">
+                  <section class="section-nav">
+                    <h2>Market Data</h2>
+                    <ul class="cf"><li class="menu"><a href="https://www.renewable-technology.com/projects/market-data">Projects</a></li><li class="menu"><a href="https://www.renewable-technology.com/./features/market-data">Analysis</a></li><li class="menu"><a href="https://www.renewable-technology.com/./news/market-data">News</a></li><li class="menu"><a href="https://www.renewable-technology.com/whitepapers/market-data">White Papers</a></li><li class="menu"><a href="https://www.renewable-technology.com/suppliers/market-data">Suppliers</a></li><li class="menu"><a href="https://www.renewable-technology.com/./comment/market-data">Comment</a></li></ul>
+                  </section>
+                </div>
+                <div class="large-9 medium-9 columns">
+                  <div class="row"><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/news/conergy-build-solar-farm-vietnam/"><img src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/11/renewable.jpg" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">News</a></div>
+                          <h3><a href="https://www.renewable-technology.com/news/conergy-build-solar-farm-vietnam/">Conergy to build solar farm in Vietnam</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/news/akzonobel-gasunie-convert-water-green-hydrogen/"><img src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/11/renewable.jpg" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">News</a></div>
+                          <h3><a href="https://www.renewable-technology.com/news/akzonobel-gasunie-convert-water-green-hydrogen/">AkzoNobel and Gasunie to convert water into green hydrogen</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/news/newsseasons-greetings-renewable-5703818/"><img width="300" height="300" data-original="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/12/main-250-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" data-original-set="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/12/main-250-300x300.jpg 300w, https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/12/main-250-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">News</a></div>
+                          <h3><a href="https://www.renewable-technology.com/news/newsseasons-greetings-renewable-5703818/">Seasons Greetings</a></h3>
+                        </article>
+                      </div></div>
+                </div>
+              </div>
+          </div>
+          </li>
+<li id="nav-menu-item-4147" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-sector current-projects-ancestor current-menu-parent current-projects-parent menu-item-has-children"><a href="https://www.renewable-technology.com/./nuclear/" class="menu-link main-menu-link">Nuclear</a>
+          <div class="mega-menu">
+            <div class="row">
+                <div class="large-3 medium-3 columns">
+                  <section class="section-nav">
+                    <h2>Nuclear</h2>
+                    <ul class="cf"><li class="menu"><a href="https://www.renewable-technology.com/projects/nuclear">Projects</a></li><li class="menu"><a href="https://www.renewable-technology.com/./features/nuclear">Analysis</a></li><li class="menu"><a href="https://www.renewable-technology.com/./news/nuclear">News</a></li><li class="menu"><a href="https://www.renewable-technology.com/whitepapers/nuclear">White Papers</a></li><li class="menu"><a href="https://www.renewable-technology.com/suppliers/nuclear">Suppliers</a></li><li class="menu"><a href="https://www.renewable-technology.com/./comment/nuclear">Comment</a></li></ul>
+                  </section>
+                </div>
+                <div class="large-9 medium-9 columns">
+                  <div class="row"><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/news/newsseasons-greetings-renewable-5703818/"><img width="300" height="300" data-original="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/12/main-250-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" data-original-set="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/12/main-250-300x300.jpg 300w, https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/12/main-250-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">News</a></div>
+                          <h3><a href="https://www.renewable-technology.com/news/newsseasons-greetings-renewable-5703818/">Seasons Greetings</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/news/newsvestas-to-deliver-seven-v112-345-mw-turbines-in-south-korea-5701880/"><img src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/11/renewable.jpg" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">News</a></div>
+                          <h3><a href="https://www.renewable-technology.com/news/newsvestas-to-deliver-seven-v112-345-mw-turbines-in-south-korea-5701880/">Vestas to deliver seven V112-3.45 MW turbines in South Korea</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/news/newsblue-sphere-receives-152m-grant-to-develop-biogas-project-in-netherlands-5696982/"><img src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/11/renewable.jpg" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">News</a></div>
+                          <h3><a href="https://www.renewable-technology.com/news/newsblue-sphere-receives-152m-grant-to-develop-biogas-project-in-netherlands-5696982/">Blue Sphere receives &euro;152m grant to develop biogas project in Netherlands</a></h3>
+                        </article>
+                      </div></div>
+                </div>
+              </div>
+          </div>
+          </li>
+<li id="nav-menu-item-4148" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-sector current-projects-ancestor current-menu-parent current-projects-parent menu-item-has-children"><a href="https://www.renewable-technology.com/./renewable/solar/" class="menu-link main-menu-link">Solar</a>
+          <div class="mega-menu">
+            <div class="row">
+                <div class="large-3 medium-3 columns">
+                  <section class="section-nav">
+                    <h2>Solar</h2>
+                    <ul class="cf"><li class="menu"><a href="https://www.renewable-technology.com/projects/solar">Projects</a></li><li class="menu"><a href="https://www.renewable-technology.com/./features/solar">Analysis</a></li><li class="menu"><a href="https://www.renewable-technology.com/./news/solar">News</a></li><li class="menu"><a href="https://www.renewable-technology.com/whitepapers/solar">White Papers</a></li><li class="menu"><a href="https://www.renewable-technology.com/suppliers/solar">Suppliers</a></li><li class="menu"><a href="https://www.renewable-technology.com/./comment/solar">Comment</a></li></ul>
+                  </section>
+                </div>
+                <div class="large-9 medium-9 columns">
+                  <div class="row"><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/comment/iraq-solar-energy/"><img width="300" height="300" data-original="https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/05/Iraq-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="Iraq solar energy" data-original-set="https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/05/Iraq-300x300.jpg 300w, https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/05/Iraq-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">Comment</a></div>
+                          <h3><a href="https://www.renewable-technology.com/comment/iraq-solar-energy/">Iraq hopes third time lucky for competitive IPPs</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/comment/concentrated-solar-power-2030/"><img width="300" height="300" data-original="https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/05/CSP-tower-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="Concentrated solar power, 2024" data-original-set="https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/05/CSP-tower-300x300.jpg 300w, https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/05/CSP-tower-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">Comment</a></div>
+                          <h3><a href="https://www.renewable-technology.com/comment/concentrated-solar-power-2030/">China to overtake Spain by 2024 as the country with the world&#8217;s largest CSP capacity</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/comment/india-solar-panel/"><img width="300" height="300" data-original="https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/05/Solar-panels-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="Solpod technology" data-original-set="https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/05/Solar-panels-300x300.jpg 300w, https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/05/Solar-panels-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">Comment</a></div>
+                          <h3><a href="https://www.renewable-technology.com/comment/india-solar-panel/">India levies anti-dumping duty on solar cell component from four nations</a></h3>
+                        </article>
+                      </div></div>
+                </div>
+              </div>
+          </div>
+          </li>
+<li id="nav-menu-item-4149" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-sector current-projects-ancestor current-menu-parent current-projects-parent menu-item-has-children"><a href="https://www.renewable-technology.com/./technology/" class="menu-link main-menu-link">Technology</a>
+          <div class="mega-menu">
+            <div class="row">
+                <div class="large-3 medium-3 columns">
+                  <section class="section-nav">
+                    <h2>Technology</h2>
+                    <ul class="cf"><li class="menu"><a href="https://www.renewable-technology.com/projects/technology">Projects</a></li><li class="menu"><a href="https://www.renewable-technology.com/./features/technology">Analysis</a></li><li class="menu"><a href="https://www.renewable-technology.com/./news/technology">News</a></li><li class="menu"><a href="https://www.renewable-technology.com/whitepapers/technology">White Papers</a></li><li class="menu"><a href="https://www.renewable-technology.com/suppliers/technology">Suppliers</a></li><li class="menu"><a href="https://www.renewable-technology.com/./comment/technology">Comment</a></li></ul>
+                  </section>
+                </div>
+                <div class="large-9 medium-9 columns">
+                  <div class="row"><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/comment/wind-turbine-technology/"><img width="300" height="300" data-original="https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/02/wind-turbine-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="wind turbine" data-original-set="https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/02/wind-turbine-300x300.jpg 300w, https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/02/wind-turbine-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">Comment</a></div>
+                          <h3><a href="https://www.renewable-technology.com/comment/wind-turbine-technology/">Asia Pacific wind turbines will need to weather the storm</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/news/anaergia-starts-construction-biogas-plant-japan/"><img src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/11/renewable.jpg" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">News</a></div>
+                          <h3><a href="https://www.renewable-technology.com/news/anaergia-starts-construction-biogas-plant-japan/">Anaergia starts construction of biogas plant in Japan</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/news/newsnasa-seeks-proposals-for-reliable-solar-power-systems-to-operate-on-mars-5894280/"><img src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/11/renewable.jpg" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">News</a></div>
+                          <h3><a href="https://www.renewable-technology.com/news/newsnasa-seeks-proposals-for-reliable-solar-power-systems-to-operate-on-mars-5894280/">NASA seeks proposals for reliable solar power systems to operate on Mars</a></h3>
+                        </article>
+                      </div></div>
+                </div>
+              </div>
+          </div>
+          </li>
+<li id="nav-menu-item-4150" class="main-menu-item  menu-item-even menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-sector current-projects-ancestor current-menu-parent current-projects-parent menu-item-has-children"><a href="https://www.renewable-technology.com/./wind/" class="menu-link main-menu-link">Wind</a>
+          <div class="mega-menu">
+            <div class="row">
+                <div class="large-3 medium-3 columns">
+                  <section class="section-nav">
+                    <h2>Wind</h2>
+                    <ul class="cf"><li class="menu"><a href="https://www.renewable-technology.com/projects/wind">Projects</a></li><li class="menu"><a href="https://www.renewable-technology.com/./features/wind">Analysis</a></li><li class="menu"><a href="https://www.renewable-technology.com/./news/wind">News</a></li><li class="menu"><a href="https://www.renewable-technology.com/whitepapers/wind">White Papers</a></li><li class="menu"><a href="https://www.renewable-technology.com/suppliers/wind">Suppliers</a></li><li class="menu"><a href="https://www.renewable-technology.com/./comment/wind">Comment</a></li></ul>
+                  </section>
+                </div>
+                <div class="large-9 medium-9 columns">
+                  <div class="row"><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/comment/wind-turbine-technology/"><img width="300" height="300" data-original="https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/02/wind-turbine-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="wind turbine" data-original-set="https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/02/wind-turbine-300x300.jpg 300w, https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/02/wind-turbine-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">Comment</a></div>
+                          <h3><a href="https://www.renewable-technology.com/comment/wind-turbine-technology/">Asia Pacific wind turbines will need to weather the storm</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/comment/colombia-fires-starting-gun-on-renewable-energy-projects/"><img width="300" height="300" data-original="https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/02/Colombia-Cartagena-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="colombia renewable energy auction" data-original-set="https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/02/Colombia-Cartagena-300x300.jpg 300w, https://www.renewable-technology.com/wp-content/uploads/sites/29/2019/02/Colombia-Cartagena-150x150.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">Comment</a></div>
+                          <h3><a href="https://www.renewable-technology.com/comment/colombia-fires-starting-gun-on-renewable-energy-projects/">Colombia fires starting gun on renewable energy projects</a></h3>
+                        </article>
+                      </div><div class="large-4 medium-4 columns">
+                        <article>
+                          <a href="https://www.renewable-technology.com/news/siemens-gamesa-support-two-onshore-wind-farms-south-africa/"><img src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/11/renewable.jpg" /></a>
+                          <div class="article-category"><a href="https://www.renewable-technology.com/contractors/energy-infrastructure/katsa-oy/">News</a></div>
+                          <h3><a href="https://www.renewable-technology.com/news/siemens-gamesa-support-two-onshore-wind-farms-south-africa/">Siemens Gamesa to support two onshore wind farms in South Africa</a></h3>
+                        </article>
+                      </div></div>
+                </div>
+              </div>
+          </div>
+          </li>
+
+                <li class="nav-all"><span class="mega-toggle">All</span>
+                <div class="mega-menu mega-menu-all">
+
+                    <!-- .top-level-nav -->
+                    <div class="all-sections">
+                      <h2>All sections</h2><ul class="row"><li class="large-4 columns"><a href="https://www.renewable-technology.com/">Home</a></li><li class="large-4 columns"><a href="https://www.renewable-technology.com/./news/">News</a></li><li class="large-4 columns"><a href="https://www.renewable-technology.com/advertise-with-us/">Advertise With Us</a></li><li class="large-4 columns"><a href="https://www.renewable-technology.com/company-a-z/">Company A-Z</a></li><li class="large-4 columns"><a href="https://www.renewable-technology.com/./features/">Analysis</a></li><li class="large-4 columns"><a href="https://www.renewable-technology.com/mediapacks/">About Us</a></li><li class="large-4 columns"><a href="https://www.renewable-technology.com/contractors/">PRODUCTS & SERVICES</a></li><li class="large-4 columns"><a href="https://www.renewable-technology.com/./comment/">Comment</a></li><li class="large-4 columns"><a href="https://www.renewable-technology.com/company-releases/">Company Releases</a></li><li class="large-4 columns"><a href="https://www.renewable-technology.com/projects/">Projects</a></li><li class="large-4 columns"><a href="https://www.renewable-technology.com/contact-us/">Contact Us</a></li><li class="large-4 columns"><a href="https://www.renewable-technology.com/events/">Events</a></li><li class="large-4 columns"><a href="https://www.renewable-technology.com/whitepapers/">White Papers</a></li></ul></div>
+                    <!-- .all-sections -->
+                  </div>
+                </div>
+                <!-- .mega-menu -->
+              </li>
+              <li class="nav-search">
+                <span class="search-toggle"></span>
+                  
+                <span class="search-close"></span>
+              </li>
+      </ul>				</div>
+			</nav>
+					</header>
+		<!-- End Header -->
+
+
+	
+		<div role="main" class="box-skin_layout box-skin_content">
+		<div class="trending">
+			<div class="row">
+			 			 <p>Trending:</p>
+			 <ul id="menu-trending" class="menu"><li id="menu-item-4151" class="menu-item menu-item-type-taxonomy menu-item-object-sector current-projects-ancestor current-menu-parent current-projects-parent menu-item-4151"><a href="https://www.renewable-technology.com/./biofuels/">Biofuels</a></li>
+<li id="menu-item-4152" class="menu-item menu-item-type-taxonomy menu-item-object-sector current-projects-ancestor current-menu-parent current-projects-parent menu-item-4152"><a href="https://www.renewable-technology.com/./geothermal/">Geothermal</a></li>
+</ul>			</div>
+		</div>
+<script>
+jQuery( document ).ready(function() {
+	jQuery(".box_layout_ad").on('click', function(){
+			 window.location = "";
+	});
+});
+
+jQuery(document).ready(function() {
+  jQuery(document).on('click', '.top-leaderboard-close', function(event){
+      jQuery(".fixed-top-ads ").hide();
+  });
+});
+</script>
+	<style>
+@media (max-width: 940px) {
+  .top-leaderboard {
+    display: none;
+    overflow: hidden;
+     }
+}
+@media (max-width: 990px) {
+  .top-leaderboard {
+    display: block !important; 
+  }
+  .top-leaderboard-container {
+    display: none !important;
+  }
+  .top-leaderboard-container-new {
+    display: block !important;
+}
+}
+</style>
+
+
+<script>
+/* Article / Project timeline. Playing between dropdown menu, top ad and timeline. Adding Z index on Hover.*/
+	jQuery(document).ready(function(){
+    jQuery(".site-nav ul li").hover(function(){
+        jQuery(".project-sidebar").toggleClass("zindex2");
+
+    });
+    jQuery(".site-nav ul li .mega-menu").hover(function(){
+        jQuery(".article-sidebar").toggleClass("zindex");
+        jQuery(".project-sidebar").toggleClass("zindex");
+        jQuery(".sidebar-toggle").toggleClass("zindex");
+    });
+	});
+	jQuery(document).ready(function(){
+	if (jQuery(window).width() < 600) {
+		 jQuery("body").addClass("sidebar-closed");
+	}
+	});
+
+
+
+jQuery( document ).ready(function() {
+  var
+      mainEl = document.getElementsByTagName("main");
+      headingsEls = mainEl[0].getElementsByTagName("h2");
+      asideEl = document.getElementById("sal");
+      ulEl = document.createElement("ul");
+
+  if (headingsEls.length==0) {
+  	headingsEls = mainEl[0].getElementsByTagName("b");
+  }
+
+  for(var i = 0; i < headingsEls.length; i++){
+	var liEl = document.createElement("li");
+	liEl.textContent = headingsEls[i].textContent;
+	headingsEls[i].id += i;
+	liEl.className += i;
+	org_html = liEl.innerHTML;
+	new_html = "<a href=\"#"+headingsEls[i].id+"\">" + org_html + "</a>";
+	liEl.innerHTML = new_html;
+	ulEl.appendChild(liEl);
+  }
+
+  asideEl.appendChild(ulEl);
+
+
+});
+
+</script>
+
+<style>
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+	font-size: 17px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 11%;
+    right: 24%;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+</style>
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+
+
+<div id="infinite-article" data-infinite="on" class="project on">
+
+			<main class="row post-detail-row top-padding">
+
+
+				<header class="post-title entry-header">
+					<ul class="post-categories"><li></li></ul>
+					<h1 class="entry-title" itemprop="name headline">Antelope Valley Solar Ranch One, California</h1>										  <aside class="share-article hide-on-print ">
+    <div class="row">
+        <div class="share-title">Share</div>
+          <aside class="share-article share-main simple hide-on-print small-only-text-center text-right">
+    <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.renewable-technology.com%2Fprojects%2Fantelope-valley-solar-ranch-one-california%2F" class="facebook social"><i class="fa fa-facebook"></i></a>
+    <a href="https://twitter.com/intent/tweet?text=Antelope+Valley+Solar+Ranch+One%2C+California&url=https%3A%2F%2Fwww.renewable-technology.com%2Fprojects%2Fantelope-valley-solar-ranch-one-california%2F&via=Renewable+Technology" class="twitter social "><i class="fa fa-twitter"></i></a>
+    <a href="https://pinterest.com/pin/create/link/?url=https://www.renewable-technology.com/projects/antelope-valley-solar-ranch-one-california/&media=https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/12/main-180.jpg&description=Antelope+Valley+Solar+Ranch+One%2C+California" class="pinterest social" nopin="nopin" data-pin-no-hover="true"><i class="fa fa-pinterest"></i></a>
+    <a href="https://www.linkedin.com/cws/share?url=https://www.renewable-technology.com/projects/antelope-valley-solar-ranch-one-california/" class="linkedin social"><i class="fa fa-linkedin"></i></a>
+    <a href="mailto:?subject=Verdict: Antelope Valley Solar Ranch One, California&body=https%3A%2F%2Fwww.renewable-technology.com%2Fprojects%2Fantelope-valley-solar-ranch-one-california%2F%0D%0AYou can register to the site here:https://www.renewable-technology.com/register" class="boxed-icon email"><i class="fa fa-envelope"></i></a>
+    <a href="http://www.reddit.com/submit?url=https://www.renewable-technology.com/projects/antelope-valley-solar-ranch-one-california/&title=Antelope+Valley+Solar+Ranch+One%2C+California" class="reddit social"><i class="fa fa-reddit"></i></a>
+  </aside>
+  </aside>
+				</header>
+				<div class="small-12 medium-12 large-12 columns microformatting">
+
+				<div class="small-12 medium-4 large-3 columns "><h3>Type	</h3><span>Solar photovoltaic power project</span></div><div class="small-12 medium-4 large-3 columns "><h3>Installed Capacity	</h3><span>230MW</span></div><div class="small-12 medium-4 large-3 columns "><h3>Location	</h3><span>North Los Angeles County, California, USA</span></div><div class="small-12 medium-4 large-3 columns "><h3>Developer / Owner	</h3><span>First Solar / Exelon</span></div><div class="small-12 medium-4 large-3 columns "><h3>Construction Began</h3><span>August 2011</span></div><div class="small-12 medium-4 large-3 columns "><h3>Developer</h3><span>First Solar</span></div><div class="project-expand">Expand</div>
+				</div>
+				<div class="small-12 medium-8 large-8 columns primary-content">
+				  <div class="entry-content">
+				  <article itemscope itemtype="http://schema.org/Article" class="post blog-post post-1799 projects type-projects status-publish has-post-thumbnail hentry sector-biofuels sector-geothermal sector-hydro sector-market-data sector-nuclear sector-solar sector-technology sector-wind region-north-america" id="post-1799" role="article" data-id="1799" data-url="https://www.renewable-technology.com/projects/antelope-valley-solar-ranch-one-california/">
+				  	<div class="share-container">
+						  <div class="post-content-container">
+								<div class="post-content cf">
+
+																<style>body.single-projects .post-content :not(p) img, body.single-post .post-content :not(p) img { display: none; }</style>
+								<div class="carousel">
+																				<a  title="The Antelope Valley Solar Ranch One project will have an installed capacity of 230MW. Photo: Business Wire.">
+											<img id="myImg" class="myImg" src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/12/1-image-21.jpg" alt="The Antelope Valley Solar Ranch One project will have an installed capacity of 230MW. Photo: Business Wire." />
+										<p class="caption" >The Antelope Valley Solar Ranch One project will have an installed capacity of 230MW. Photo: Business Wire.</p>
+										</a>
+																			<a  title="A peak generating capacity of 100MW was connected to the grid in February 2013. Image courtesy of First Solar.">
+											<img id="myImg" class="myImg" src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/12/2-image-21.jpg" alt="A peak generating capacity of 100MW was connected to the grid in February 2013. Image courtesy of First Solar." />
+										<p class="caption" >A peak generating capacity of 100MW was connected to the grid in February 2013. Image courtesy of First Solar.</p>
+										</a>
+																			<a  title="Initial construction of the renewable project began in August 2011. Photo: Business Wire.">
+											<img id="myImg" class="myImg" src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/12/3-image-21.jpg" alt="Initial construction of the renewable project began in August 2011. Photo: Business Wire." />
+										<p class="caption" >Initial construction of the renewable project began in August 2011. Photo: Business Wire.</p>
+										</a>
+																	</div>
+								
+
+								<script>
+								jQuery( document ).ready(function() {
+									/* Companies carousel */
+									jQuery('.carousel').slick({
+									  dots: true,
+									  infinite: true,
+									  speed: 300,
+									  lazyLoad: 'ondemand',
+									  slidesToShow: 1,
+									  slidesToScroll: 1,
+									  adaptiveHeight: true
+									});
+									
+										jQuery('.myImg').click(function(){
+										
+										// Get the modal
+											var modal = document.getElementById('myModal');
+
+											// Get the image and insert it inside the modal - use its "alt" text as a caption
+											//alert(jQuery(this).attr('src'));
+											//var img = document.getElementById('myImg').getAttribute("src");
+											 var img = jQuery(this).attr('src');
+											var modalImg = document.getElementById("img01");
+											var captionText = document.getElementById("caption");
+											captionText.innerHTML = jQuery(this).attr('alt');;
+											modal.style.display = "block";
+											modalImg.src = img;
+											var arrow = document.getElementsByClassName('slick-arrow'), i;
+
+											for (var i = 0; i < arrow.length; i ++) {
+												arrow[i].style.display = 'none';
+											}
+											// Get the <span> element that closes the modal
+											var span = document.getElementsByClassName("close")[0];
+
+											// When the user clicks on <span> (x), close the modal
+											span.onclick = function() { 
+												modal.style.display = "none";
+												var arrow = document.getElementsByClassName('slick-arrow'), i;
+												for (var i = 0; i < arrow.length; i ++) {
+													arrow[i].style.display = 'block';
+												}
+											}
+									});
+									
+								});
+								</script>
+
+								<!--<div class="post-gallery-cta">
+																														<a href="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/12/1-image-21.jpg" title="The Antelope Valley Solar Ranch One project will have an installed capacity of 230MW. Photo: Business Wire."><h1><i class="fa fa-camera" aria-hidden="true"></i> Gallery</h1><img src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/12/1-image-21.jpg" alt="" /></a>
+																					<a href="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/12/2-image-21.jpg" title="A peak generating capacity of 100MW was connected to the grid in February 2013. Image courtesy of First Solar."><h1><i class="fa fa-camera" aria-hidden="true"></i> Gallery</h1><img src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/12/2-image-21.jpg" alt="" /></a>
+																					<a href="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/12/3-image-21.jpg" title="Initial construction of the renewable project began in August 2011. Photo: Business Wire."><h1><i class="fa fa-camera" aria-hidden="true"></i> Gallery</h1><img src="https://www.renewable-technology.com/wp-content/uploads/sites/29/2017/12/3-image-21.jpg" alt="" /></a>
+																											</div>-->
+
+								<p><img alt="antelope-valley" height="250" src="https://www.renewable-technology.com/wp-content/uploads/static-progressive/2-image.jpg" width="430" /></p>
+<p>The Antelope Valley Solar Ranch One (AV Solar Ranch One) is a ground-mount solar photovoltaic (PV) power project with an installed capacity of 230MW. The project is located in the Antelope Valley in North Los Angeles County of California, USA.</p>
+<p>The AV Solar Ranch One project is owned by Exelon Power, a subsidiary of Exelon Corporation. First Solar is responsible for the construction, operation and maintenance of the project, which is estimated to cost about $1.36bn.</p>
+<p>Initial construction works for the renewable project began in August 2011. A peak generating capacity of 100MW was connected to the grid in February 2013. The solar farm is expected to produce enough power to meet the needs of 75,000 homes annually.</p>
+<div class="leftpullquote">&quot;The solar PV project will result in an annual reduction of about 140,000t of CO<sub>2</sub> emissions, which is equivalent to removing 3,000 cars from the roads.&quot;</div>
+<p>The solar PV project will result in an annual reduction of about 140,000t of CO<sub>2</sub> emissions, which is equivalent to removing 3,000 cars from the roads. It will have low environmental impact with no air emissions, waste production, minimal noise and low visual impact. It will also support California&#8217;s goal of securing at least 33% of its electricity from renewable energy sources by 2020.</p>
+<h2><strong>History of AV Solar Ranch One project</strong></h2>
+<p>Development of AV Solar Ranch One was originally initiated by NextLight Renewable Power. Planning for the project began in 2009, application for the Zoning/ZUP was submitted in March 2009 and the California Environmental Quality Act (CEQA) Notice of Preparation was filed in April 2009.</p>
+<p>First Solar became the developer of the project through acquisition of NextLight Renewable Power in July 2010.</p>
+<p>Provisional permission for the solar power plant was issued by the statutory authorities in 2010. The final environmental approval for the construction was given in January 2011. The project was acquired by Exelon Corporation in September 2011. First Solar will, however, remain as the developer of the facility.</p>
+<h2><strong>Financing for the AV Solar Ranch One project</strong></h2>
+<p>The AV Solar Ranch One project is supported by a loan guarantee of $646m, which was approved by the US Department of Energy (DOE) in September 2011. DOE provided the first advance of the guaranteed loan in April 2012.</p>
+<h2><strong>Details and construction</strong></h2>
+<p>The AV Solar Ranch One plant covers 2,100 acres (850ha) of fallow farmland near Lancaster in the Antelope Valley area of the Western Mojave Desert. The project comprises 3.8million of alternating-current (AC) PV modules. Installation of modules began in June 2012 and approximately one million solar panels were installed by September 2012.</p>
+<div class="rightpullquote">&quot;The plant would employ 400 local workers during construction and 15 during operations and maintenance.&quot;</div>
+<p>The plant would employ 400 local workers during construction and 15 during operations and maintenance.</p>
+<h2><strong>Generation and sale of power from AV Solar Ranch One</strong></h2>
+<p>The clean, renewable power generated from AV Solar Ranch One will be sent to Southern California&#8217;s Whirlwind substation that is located about three miles (4.8km) away from the plant site.</p>
+<p>The electricity generated from the plant will be purchased by Pacific Gas and Electric Company (PG&amp;E) under a 25-year power purchase agreement, which has been approved by the California Public Utilities Commission.</p>
+<h2><strong>Technology used</strong></h2>
+<p>The power project will use First Solar&#8217;s FS Series 3 PV Module platform. The FS Series 3 PV Module features thin film cadmium telluride (CdTe) solar panels, which can be recycled at the end of their lifespan. Each PV module measures 1,200mm in length, 600mm in width, and 6.8mm in thickness.</p>
+<p>The solar module uses a thin-layered semiconductor <a href="https://www.renewable-technology.com/contractors/materials/" onclick="window.open(this.href);return false;" onkeypress="window.open(this.href);return false;">material</a> formed from cadmium and tellurium (Cd-Te). The material is placed in between two glass sheets.</p>
+<p>A tracking system deployed on a portion of the plant will tilt the solar panels according to the Sun&#8217;s movement to optimise the electricity production. A new type of inverters with voltage regulation and monitoring technologies will be installed at the plant to enhance the plant efficiency and reliability.</p>
+<p><a href="http://www.linkedin.com/groups?gid=4803319&amp;trk=hb_side_g" onclick="window.open(this.href);return false;" onkeypress="window.open(this.href);return false;"><img alt="NRI Energy Technology" height="127" src="https://www.renewable-technology.com/wp-content/uploads/static-progressive/nri/LinkedIn%20images/LI%20energy%20project.gif" width="449" /></a></p>
+						    										</div>
+							</div>
+						</div>
+																						  </article>
+				  				<!-- .download-report -->
+
+								</div>
+
+				</div>
+				
+<!-- Companies Involved start -->
+<!-- Companies Involved end -->
+<aside class="sidebar large-4 small-12 column secondary-content sidebar sidebar11" role="complementary">
+	<div class="sidebar_inner ">
+		<div id="thb_widget_mostread-2" class="widget cf widget_mostread">
+<div class="si most-read">
+  <h3>Most Read</h3>
+    <ol class="sal">
+      <li><a href="https://www.renewable-technology.com/news/capital-dynamics-signs-deal-equity-participation-two-csolar-solar-plants-us/" class="wpp-post-title" target="_self">Capital Dynamics signs deal for equity participation in two CSolar solar plants in US</a></li><li><a href="https://www.renewable-technology.com/news/company-news/quinbrook-build-690mw-solar-power-project-nevada/" class="wpp-post-title" target="_self">Quinbrook to build 690MW solar power project in Nevada</a></li><li><a href="https://www.renewable-technology.com/news/conergy-build-solar-farm-vietnam/" class="wpp-post-title" target="_self">Conergy to build solar farm in Vietnam</a></li>    </ol>
+</div>
+</div>
+
+
+
+	
+    
+     <!-- New: Cloud computing survey. Added 21/05/19. -->
+
+    <div class="apester-media" data-media-id="5ce3fad2b015b46320df9968" height="432"></div><script async src="https://static.apester.com/js/sdk/latest/apester-sdk.js"></script>
+
+    
+
+
+	</div>
+<!-- 	<div class="related-companies si dianomi-ad">
+        <div class="dianomi-ad">
+        <iframe WIDTH="300" HEIGHT="600" SCROLLING="NO" src="//www.dianomi.com/smartads.epl?id=4244"  style="width: 300px; height: 600px; border: none; overflow: hidden;"></iframe>
+        </div>
+    </div> -->
+</aside>
+			</main>
+
+
+			<div class="dianomi-posts" style="margin-top: 3em; padding: 0 2em 0 4em">
+				<div class="row">
+					<iframe width="100%" height="290" scrolling="NO" src="//www.dianomi.com/smartads.epl?id=3409" style="width: 100%; border: none; overflow: hidden;"></iframe>
+				</div>
+			</div>
+			<!-- .dianomi-posts -->
+
+
+			
+
+			
+
+							<div class="row in-between-articles">
+					<div class="small-12 columns">
+					<!-- Start Related Posts -->
+															<aside class="related-posts cf hide-on-print">
+						<h4 class="related-title"></h4>
+						<div class="row">
+					  					    <div class="small-6 medium-6 large-3 columns">
+					    						    </div>
+					  					    <div class="small-6 medium-6 large-3 columns">
+					    						    </div>
+					  					    <div class="small-6 medium-6 large-3 columns">
+					    						    </div>
+					  					    <div class="small-6 medium-6 large-3 columns">
+					    						    </div>
+					  					    <div class="small-6 medium-6 large-3 columns">
+					    						    </div>
+					  					    <div class="small-6 medium-6 large-3 columns">
+					    						    </div>
+					  					    <div class="small-6 medium-6 large-3 columns">
+					    						    </div>
+					  					    <div class="small-6 medium-6 large-3 columns">
+					    						    </div>
+					  					  </div>
+					</aside>
+															<!-- End Related Posts -->
+					</div>
+				</div>
+
+			
+			<!--<div class="project-sidebar timeline-sidebar">
+			      <div class="sidebar-toggle"></div>
+		</div> -->
+		<!-- .article-sidebar -->
+
+	<section class="in-between-articles bottom-leaderboard-wrapper">
+		<div class="leaderboard bottom-leaderboard">
+		      <div id="div-gpt-ad-1321444687289-151">
+		      	<script>
+			    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1321444687289-151'); });
+			  	</script>
+		      </div>
+		</div>
+	</section>
+
+</div>
+<!-- TEST 1 -->
+
+
+
+
+
+
+
+
+
+<script>
+	function setCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function getCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+
+	permutive.once('Clearbit', function(clearbit){
+		if(["United States", "Japan", "China"].indexOf(clearbit.properties.company.geo.country) >= 0 &&
+			["Communications Equipment", "Media"].indexOf(clearbit.properties.company.category.industry) >= 0 &&
+		  getCookie('UK_Trade_Create') !== "shown") {
+			jQuery("#uk-trade-create-pop-up").addClass("load-client-pop-up");
+			setCookie('UK_Trade_Create', 'shown', 1)
+			permutive.track('ipTarget', {
+				company: clearbit.properties.company.id,
+				target_reason: "UK_Trade_Create",
+				content:  "Transforming the world’s skyline: Why Britain is great for architecture and design",
+				content_type: "popup"
+			})
+		} else if(["United States", "Japan", "China"].indexOf(clearbit.properties.company.geo.country) >= 0 &&
+			["Technology Hardware, Storage & Peripherals", "Internet Software & Services", "Diversified Telecommunication Services"].indexOf(clearbit.properties.company.category.industry) >= 0 &&
+		  getCookie('UK_Trade_Tech') !== "shown") {
+			jQuery("#uk-trade-tech-pop-up").addClass("load-client-pop-up");
+			setCookie('UK_Trade_Tech', 'shown', 1)
+			permutive.track('ipTarget', {
+				company: clearbit.properties.company.id,
+				target_reason: "UK_Trade_Tech",
+				content: "Science at the cutting edge: Why Britain is great for digital health and medical technology businesses",
+				content_type: "popup"
+			})
+		} else if(["United States", "Japan", "China"].indexOf(clearbit.properties.company.geo.country) >= 0 &&
+			["Pharmaceuticals","Health Care Providers & Services", "Biotechnology"].indexOf(clearbit.properties.company.category.industry) >= 0 &&
+		  getCookie('UK_Trade_Life_Sciences') !== "shown") {
+			jQuery("#uk-trade-life-sciences-pop-up").addClass("load-client-pop-up");
+			setCookie('UK_Trade_Life_Sciences', 'shown', 1)
+			permutive.track('ipTarget', {
+				company: clearbit.properties.company.id,
+				target_reason: "UK_Trade_Life_Sciences",
+				content: "Doing business in the UK: Why Britain is great for the healthcare industries",
+				content_type: "popup"
+			})
+		}
+	})
+
+
+</script>
+
+
+
+
+
+
+ <!-- DJA Corner Ad --> 
+
+ <!-- Elval Corner Ad --> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 1 --><!-- 
+
+We now have instance of 2 ads needing to show at the same time on 1 site. In this case, use this splitter:
+
+First ad goes here: 
+
+-->
+
+
+	<!-- ProAmpac corner modal -->
+	
+		
+<!-- 
+
+Second ad goes here:
+
+-->
+
+
+	
+
+
+
+
+
+<!-- Start Footer -->
+			<footer class="site-footer">
+				
+				<!-- /14453196/Verdict_Network/Verdict_Network_3x3 -->
+				 				<!-- OffT_1x1 start-->
+								<!-- OffT_1x1 end-->
+				<!-- PowT_1x1 start-->
+				                <!-- PowT_1x1 start-->
+				<nav>
+					<ul id="menu-footer" class="menu"><li id="menu-item-4137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4137"><a href="https://www.renewable-technology.com/mediapacks/">About Us</a></li>
+<li id="menu-item-42877" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42877"><a href="https://www.renewable-technology.com/editorial-standards/">Editorial Standards</a></li>
+<li id="menu-item-4139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4139"><a href="https://www.renewable-technology.com/contact-us/">Contact Us</a></li>
+<li id="menu-item-4138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4138"><a href="https://www.renewable-technology.com/company-a-z/">Company A-Z</a></li>
+<li id="menu-item-4674" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4674"><a href="https://www.verdict.co.uk/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-4141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4141"><a href="https://www.renewable-technology.com/terms-and-conditions/">Terms and Conditions</a></li>
+</ul>				</nav>
+				<p>&copy; Copyright 2019 Verdict Media Limited.</p>			
+			</footer>
+			<!-- End Footer -->
+
+<p class="go-top-tooltip">
+	Go Top
+</p>
+<a href="#" class="go-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+
+
+
+
+
+<script>
+/* <![CDATA[ */
+var wpcf7_redirect_forms = {"42837":{"page_id":"0","external_url":"","use_external_url":"","open_in_new_tab":"","http_build_query":"","http_build_query_selectively":"","http_build_query_selectively_fields":"","after_sent_script":"","thankyou_page_url":""},"4133":{"page_id":"0","external_url":"","use_external_url":"","open_in_new_tab":"","http_build_query":"","http_build_query_selectively":"","http_build_query_selectively_fields":"","after_sent_script":"","thankyou_page_url":""},"17":{"page_id":"","external_url":"","use_external_url":"","open_in_new_tab":"","http_build_query":"","http_build_query_selectively":"","http_build_query_selectively_fields":"","after_sent_script":"","thankyou_page_url":""},"15":{"page_id":"0","external_url":"","use_external_url":"","open_in_new_tab":"","http_build_query":"","http_build_query_selectively":"","http_build_query_selectively_fields":"","after_sent_script":"","thankyou_page_url":""},"4132":{"page_id":"0","external_url":"","use_external_url":"","open_in_new_tab":"","http_build_query":"","http_build_query_selectively":"","http_build_query_selectively_fields":"","after_sent_script":"","thankyou_page_url":""},"13":{"page_id":"0","external_url":"","use_external_url":"","open_in_new_tab":"","http_build_query":"","http_build_query_selectively":"","http_build_query_selectively_fields":"","after_sent_script":"","thankyou_page_url":""},"4131":{"page_id":"","external_url":"","use_external_url":"","open_in_new_tab":"","http_build_query":"","http_build_query_selectively":"","http_build_query_selectively_fields":"","after_sent_script":"","thankyou_page_url":""},"11":{"page_id":"0","external_url":"","use_external_url":"","open_in_new_tab":"","http_build_query":"","http_build_query_selectively":"","http_build_query_selectively_fields":"","after_sent_script":"","thankyou_page_url":""},"4130":{"page_id":"0","external_url":"","use_external_url":"","open_in_new_tab":"","http_build_query":"","http_build_query_selectively":"","http_build_query_selectively_fields":"","after_sent_script":"","thankyou_page_url":""}};
+/* ]]> */
+</script>
+<script src='https://www.renewable-technology.com/wp-content/plugins/wpcf7-redirect/js/wpcf7-redirect-script.js'></script>
+<script src='https://www.renewable-technology.com/wp-includes/js/comment-reply.min.js?ver=4.9.8'></script>
+<script src='https://www.renewable-technology.com/wp-content/themes/goodlife-wp/assets/js/vendor.min.js?ver=3.1.0'></script>
+<script src='https://www.renewable-technology.com/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script>
+/* <![CDATA[ */
+var themeajax = {"url":"https:\/\/www.renewable-technology.com\/wp-admin\/admin-ajax.php","l10n":{"loading":"Loading ...","nomore":"No More Posts"}};
+/* ]]> */
+</script>
+<script src='https://www.renewable-technology.com/wp-content/themes/goodlife-wp/assets/js/app.min.js?ver=3.1.0'></script>
+<script src='https://www.renewable-technology.com/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+<script src='https://www.renewable-technology.com/wp-content/themes/goodlife-wp-child/assets/js/ux.js?ver=4.9.8'></script>
+<script src='https://www.renewable-technology.com/wp-content/themes/goodlife-wp-child/assets/js/detect-private-browsing.js?ver=4.9.8'></script>
+	<aside id="thb-login" class="mfp-hide thb-login-form light">
+		<ul>
+			<li class="lost"><a href="#" class="always">Lost Password</a> <span class="back">Back &#x27F6;</span></li>
+			<li><a href="#" class="active">Login</a></li>
+			<li><a href="#">Register</a></li>
+		</ul>
+		<div class="thb-overflow-container">
+		<div class="thb-form-container">
+			<div class="thb-lost">
+				<form id="thb_lost_form" action="https://www.renewable-technology.com/" method="post">
+					<div class="thb-errors lost-errors"></div>
+					<div class="form-field">
+						<input class="form-control required " name="thb_user_or_email" id="thb_user_or_email" type="text" placeholder="Username or E-mail" />
+					</div>
+					<div class="form-field">
+						<input type="hidden" name="action" value="thb_reset_password"/>
+						<button class="btn " type="submit">Get new password</button>
+					</div>
+					<input type="hidden" id="password-security" name="password-security" value="bfcb1963f7" /><input type="hidden" name="_wp_http_referer" value="/projects/antelope-valley-solar-ranch-one-california/" />				</form>
+			</div>
+			<div class="thb-login">
+				<form id="thb_login_form" action="https://www.renewable-technology.com/" method="post">
+					<div class="thb-errors login-errors"></div>
+					<div class="form-field">
+						<input class="form-control required " name="thb_user_login" type="text" placeholder="Username" autocomplete="off" />
+					</div>
+					<div class="form-field">
+						<input class="form-control required " name="thb_user_pass" id="thb_user_pass" type="password" placeholder="Password">
+					</div>
+					<div class="form-field">
+						 <a href="#" class="lost_password">Lost Password?</a>
+					</div>
+					<div class="form-field last">
+						<input type="hidden" name="action" value="thb_login_member"/>
+						<button class="btn " type="submit">Login</button>
+					</div>
+					<input type="hidden" id="login-security" name="login-security" value="bfcb1963f7" /><input type="hidden" name="_wp_http_referer" value="/projects/antelope-valley-solar-ranch-one-california/" />				</form>
+				
+			</div>
+			<div class="thb-register">					 
+				<div class="alert alert-warning">Registration is disabled.</div>			</div>
+		</div>
+		</div>
+	</aside>
+<!-- WEB TRENDS -->
+<script src="/wp-content/themes/goodlife-wp/assets/js/webtrends/Renewable.sdc.js"></script>  <script>
+	  //<![CDATA[
+	var _tag=new WebTrends();
+	_tag.dcsGetId();
+	//]]>
+	</script>
+	<script>
+    //<![CDATA[
+	_tag.dcsCustom=function(){
+	// Add custom parameters here.
+	//_tag.DCSext.param_name=param_value;
+	}
+	_tag.dcsCollect();
+	//]]>
+	</script>
+	<noscript>
+<div>
+		<img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="https://wtvertnet.com/dcsp4afj09e7kfaqyrpdqeuho_1t1t/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=www.www.renewable-technology.com"/>
+	  </div>
+	</noscript>
+<!-- END WEB TRENDS -->
+<script>
+jQuery(document).ready(function(){
+	jQuery(".go-top").hover(function(){
+			jQuery(".go-top-tooltip").toggleClass("top-tooltip")
+	});
+	});
+</script>
+<script>
+
+	/* Reached project key stats */
+	jQuery(function(){
+    jQuery(document).scroll(function(){
+		if(jQuery('.microformatting').length > 0){
+        if(jQuery(this).scrollTop() >= jQuery('.microformatting').offset().top - 250) {
+            jQuery('body').addClass("reached-microformatting");
+            }
+            else{
+                jQuery('body').removeClass("reached-microformatting");
+            }
+		}
+    });
+}); 
+
+
+/* Reached sidebar related companies */
+	 jQuery(function(){
+    jQuery(document).scroll(function(){
+		if(jQuery('.related-companies').length > 0){
+        if(jQuery(this).scrollTop() >= jQuery('.related-companies').offset().top - 250) {
+            jQuery('body').addClass("reached-related-companies");
+            }
+            else{
+                jQuery('body').removeClass("reached-related-companies");
+            }
+		}
+    });
+ }); 
+
+jQuery(".close-toggle").click(function(){
+jQuery("body").toggleClass("end-joyride");
+});
+
+
+
+jQuery(".close-client-pop-up").click(function(){
+jQuery("#uk-trade-create-pop-up").toggleClass("client-pop-up-closed");
+jQuery("#uk-trade-tech-pop-up").toggleClass("client-pop-up-closed");
+jQuery("#uk-trade-life-sciences-pop-up").toggleClass("client-pop-up-closed");
+});
+
+</script>
+<script>
+	jQuery('.company-hover-tracking').hover(function(){
+	var match = jQuery(this).attr('data-url');
+	// ga('send', 'pageview', location.pathname + match);
+	ga('send', 'pageview', match);
+});
+
+</script>
+<script>
+
+jQuery('.alm-load-more-btn').click(function(){
+	setTimeout(function(){ 
+     jQuery(document).find(".setsrc").each(function(){
+					var srcset = jQuery(this).attr('data-original');
+					jQuery(this).attr("src",srcset);
+	});
+	}, 1500);	
+});
+jQuery(document).ready(function(){
+	setTimeout(function(){ 
+     jQuery(document).find(".setsrc").each(function(){
+					var srcset = jQuery(this).attr('data-original');
+					jQuery(this).attr("src",srcset);
+	});
+	}, 1500);
+});
+
+jQuery(".close-survey").click(function(){
+    jQuery("body").toggleClass("survey-closed");
+});
+
+jQuery(".top-leaderboard-close").click(function(){
+    jQuery("body").toggleClass("top-leaderboard-closed");
+}); 
+
+
+
+
+jQuery(document).ready(function(){
+			
+		var elsubmitpoll = document.getElementById('submitpoll');
+		if(elsubmitpoll){
+			elsubmitpoll.addEventListener("click", function(e){
+			//document.addEventListener( 'wpcf7submit', function( event ) {
+				//e.preventDefault();
+				createCookieforPoll('pullformsubmitted', true, 30);
+				return false;
+			});
+		}		
+		var elleadcapture = document.getElementById('close-full-screen-survey');
+		if(elleadcapture){
+			elleadcapture.addEventListener("click", function(e){
+				createCookieforPoll('leadcaptureclose', true, 1);
+				return false;
+			});
+		}
+		var elldjapharmaclose = document.getElementById('dja_close_pharma');
+		if(elldjapharmaclose){
+			elldjapharmaclose.addEventListener("click", function(e){
+				createCookieforPoll('dja_close_pharma', true, 1);
+				return false;
+			});
+		}	
+		var elldjafoodprocessclose = document.getElementById('dja_close_foodprocessing');
+		if(elldjafoodprocessclose){
+			elldjafoodprocessclose.addEventListener("click", function(e){
+				createCookieforPoll('dja_close_foodprocessing', true, 1);
+				return false;
+			});
+		}
+		var elldjafoodprocessclose = document.getElementById('dja_close_cosmetics');
+		if(elldjafoodprocessclose){
+			elldjafoodprocessclose.addEventListener("click", function(e){
+				createCookieforPoll('dja_close_cosmetics', true, 1);
+				return false;
+			});
+		}
+		var elldjafoodprocessclose = document.getElementById('dja_close_packaging');
+		if(elldjafoodprocessclose){
+			elldjafoodprocessclose.addEventListener("click", function(e){
+				createCookieforPoll('dja_close_packaging', true, 1);
+				return false;
+			});
+		}
+		var elldjafoodprocessclose = document.getElementById('dja_close_chemical');
+		if(elldjafoodprocessclose){
+			elldjafoodprocessclose.addEventListener("click", function(e){
+				createCookieforPoll('dja_close_chemical', true, 1);
+				return false;
+			});
+		}		
+		function createCookieforPoll(name,value,days) {
+			if (days) {
+			var date = new Date();
+			date.setTime(date.getTime()+(days*24*60*60*1000));
+			//date.setTime(date.getTime()+(days*1*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			}
+			else var expires = "";
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+		 if (!readCookieforPoll('pullformsubmitted')) {
+			jQuery('#full-screen-survey').css('display','block');
+		  }
+		  if (!readCookieforPoll('dja_close_pharma')) {
+			jQuery('#full-screen-survey-lead-capture-10').css('display','block');
+		  }
+		  if (!readCookieforPoll('dja_close_foodprocessing')) {
+			jQuery('#full-screen-survey-lead-capture-19').css('display','block');
+		  }
+		  if (!readCookieforPoll('dja_close_cosmetics')) {
+			jQuery('#full-screen-survey-lead-capture-22').css('display','block');
+		  }
+		  if (!readCookieforPoll('dja_close_packaging')) {
+			jQuery('#full-screen-survey-lead-capture-2').css('display','block');
+		  }
+		  if (!readCookieforPoll('dja_close_chemical')) {
+			jQuery('#full-screen-survey-lead-capture-25').css('display','block');
+		  }
+		 /* if (!readCookieforPoll('leadcaptureclose')) {
+			jQuery('#full-screen-survey-lead-capture').css('display','block');
+		  } */
+		 function readCookieforPoll(name) {
+			var nameEQ = name + "=";
+			var ca = document.cookie.split(';');
+			for(var i=0;i < ca.length;i++) {
+			var c = ca[i];
+			while (c.charAt(0)==' ') c = c.substring(1,c.length);
+			if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+			}
+			return null;
+		}
+		
+	
+ jQuery(".close-survey-thank-you").click(function(){
+			    jQuery("body").toggleClass("survey-closed");
+			var url = window.location.href;
+			var res = url.split("#");
+			window.location = res[0];
+ });
+ jQuery('#submitpoll').attr('disabled', 'disabled');
+	jQuery("#pollformEmail").blur(function() 
+	{
+	 var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;  
+	 var emailaddress = jQuery("#pollformEmail").val();
+		 if(!emailReg.test(emailaddress)) 
+			jQuery("#emailspan").html('<font color="#cc0000">Please enter valid Email address</font>');    
+		 else {
+		 jQuery("#submitpoll").removeAttr("disabled");
+       jQuery("#emailspan").remove();
+		 }
+ });		
+	 jQuery('#pardotoffers input:checkbox[name=offers]').change(function() {
+		 var value = jQuery('input:checkbox[name=offers]').is(':checked');
+		 jQuery('input:checkbox[name=offers]').val(value);
+	});	
+});
+
+
+
+/* Add class when user scrolls to 800px to show the native article modal ad Cornal Modal */
+jQuery(window).scroll(function() {    
+    var scroll = jQuery(window).scrollTop();
+
+     //>=, not <=
+    if (scroll >= 800) {
+        //clearHeader, not clearheader - caps H
+        jQuery("body").addClass("show-corner-modal");
+    }
+});
+jQuery(".close-corner-modal").click(function() {
+jQuery("body").addClass("corner-modal-closed");  
+});
+
+jQuery(window).scroll(function() {    
+    var scroll = jQuery(window).scrollTop();
+
+    if (scroll >= 1) {
+        jQuery("body").addClass("fixed-top-ads-mobile");
+    }
+});
+
+</script>
+<script>
+		jQuery("#nextBtn").click(function(){
+		jQuery("#agreeToReceiveEnail").html("I agree to receive email form Antelope Valley Solar Ranch One, California. You can unsubscribe at any time.");
+	});
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e0d7642f0a","applicationID":"75405963","transactionName":"ZwADZ0EEWxBQABVRDl5KIFBHDFoNHhMTVwtVBhUeQAxbBF0G","queueTime":0,"applicationTime":708,"atts":"S0cAEQkeSB4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

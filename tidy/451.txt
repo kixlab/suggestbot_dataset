@@ -1,0 +1,354 @@
+Ozone depletion
+Stratospheric phenomena of Earth
+
+Image of the largest Antarctic ozone hole ever recorded over the South Pole in September 2006
+
+NASA projections of stratospheric ozone concentrations if chlorofluorocarbons had not been banned
+
+Layers of the atmosphere (not to scale). The Earth's ozone layer is mainly found in the lower portion of the stratosphere from approximately 20 to 30 km (12 to 19 mi).
+
+Ozone depletion consists of two related events observed since the late 1970s: a steady lowering of about four percent in the total amount of ozone in Earth's atmosphere (the ozone layer), and a much larger springtime decrease in stratospheric ozone around Earth's polar regions.[1] The latter phenomenon is referred to as the ozone hole. There are also springtime polar tropospheric ozone depletion events in addition to these stratospheric events.
+
+The main cause of ozone depletion and the ozone hole is manufactured chemicals, especially manufactured halocarbon refrigerants, solvents, propellants and foam-blowing agents (chlorofluorocarbons (CFCs), HCFCs, halons), referred to as ozone-depleting substances (ODS). These compounds are transported into the stratosphere by turbulent mixing after being emitted from the surface, mixing much faster than the molecules can settle.[2] Once in the stratosphere, they release halogen atoms through photodissociation, which catalyze the breakdown of ozone (O 3 ) into oxygen (O 2 ).[3] Both types of ozone depletion were observed to increase as emissions of halocarbons increased.
+
+Ozone depletion and the ozone hole have generated worldwide concern over increased cancer risks and other negative effects. The ozone layer prevents most harmful UVB wavelengths of ultraviolet light (UV light) from passing through the Earth's atmosphere. These wavelengths cause skin cancer, sunburn and cataracts, which were projected to increase dramatically as a result of thinning ozone, as well as harming plants and animals. These concerns led to the adoption of the Montreal Protocol in 1987, which bans the production of CFCs, halons and other ozone-depleting chemicals.
+
+The ban came into effect in 1989. Ozone levels stabilized by the mid-1990s and began to recover in the 2000s. Recovery is projected to continue over the next century, and the ozone hole is expected to reach pre-1980 levels by around 2075.[4] The Montreal Protocol is considered the most successful international environmental agreement to date.[5][6]
+
+Ozone cycle overview [ edit ]
+
+Three forms (or allotropes) of oxygen are involved in the ozone-oxygen cycle: oxygen atoms (O or atomic oxygen), oxygen gas (O
+
+2 or diatomic oxygen), and ozone gas (O
+
+3 or triatomic oxygen). Ozone is formed in the stratosphere when oxygen molecules photodissociate after absorbing ultraviolet photons. This converts a single O
+
+2 into two atomic oxygen radicals. The atomic oxygen radicals then combine with separate O
+
+2 molecules to create two O
+
+3 molecules. These ozone molecules absorb ultraviolet (UV) light, following which ozone splits into a molecule of O
+
+2 and an oxygen atom. The oxygen atom then joins up with an oxygen molecule to regenerate ozone. This is a continuing process that terminates when an oxygen atom recombines with an ozone molecule to make two O
+
+2 molecules.
+
+O + O
+
+3 → 2 O
+
+2
+
+The total amount of ozone in the stratosphere is determined by a balance between photochemical production and recombination.
+
+Ozone can be destroyed by a number of free radical catalysts; the most important are the hydroxyl radical (OH·), nitric oxide radical (NO·), chlorine radical (Cl·) and bromine radical (Br·). The dot is a notation to indicate that each species has an unpaired electron and is thus extremely reactive. All of these have both natural and man-made sources; at the present time, most of the OH· and NO· in the stratosphere is naturally occurring, but human activity has drastically increased the levels of chlorine and bromine. These elements are found in stable organic compounds, especially chlorofluorocarbons, which can travel to the stratosphere without being destroyed in the troposphere due to their low reactivity. Once in the stratosphere, the Cl and Br atoms are released from the parent compounds by the action of ultraviolet light, e.g.
+
+CFCl
+
+3 + electromagnetic radiation → Cl· + ·CFCl
+
+2
+
+Ozone is a highly reactive molecule that easily reduces to the more stable oxygen form with the assistance of a catalyst. Cl and Br atoms destroy ozone molecules through a variety of catalytic cycles. In the simplest example of such a cycle,[7] a chlorine atom reacts with an ozone molecule (O
+
+3 ), taking an oxygen atom to form chlorine monoxide (ClO) and leaving an oxygen molecule (O
+
+2 ). The ClO can react with a second molecule of ozone, releasing the chlorine atom and yielding two molecules of oxygen. The chemical shorthand for these gas-phase reactions is:
+
+Cl· + O
+
+3 → ClO + O
+
+2
+
+A chlorine atom removes an oxygen atom from an ozone molecule to make a ClO molecule
+
+→ ClO + A chlorine atom removes an oxygen atom from an ozone molecule to make a ClO molecule ClO + O
+
+3 → Cl· + 2 O
+
+2
+
+This ClO can also remove an oxygen atom from another ozone molecule; the chlorine is free to repeat this two-step cycle
+
+The overall effect is a decrease in the amount of ozone, though the rate of these processes can be decreased by the effects of null cycles. More complicated mechanisms have also been discovered that lead to ozone destruction in the lower stratosphere.
+
+The ozone cycle
+
+Global monthly average total ozone amount
+
+Lowest value of ozone measured by TOMS each year in the ozone hole
+
+A single chlorine atom would continuously destroy ozone (thus a catalyst) for up to two years (the time scale for transport back down to the troposphere) were it not for reactions that remove them from this cycle by forming reservoir species such as hydrogen chloride (HCl) and chlorine nitrate (ClONO
+
+2 ). Bromine is even more efficient than chlorine at destroying ozone on a per atom basis, but there is much less bromine in the atmosphere at present. Both chlorine and bromine contribute significantly to overall ozone depletion. Laboratory studies have also shown that fluorine and iodine atoms participate in analogous catalytic cycles. However, fluorine atoms react rapidly with water and methane to form strongly bound HF in the Earth's stratosphere, while organic molecules containing iodine react so rapidly in the lower atmosphere that they do not reach the stratosphere in significant quantities.
+
+A single chlorine atom is able to react with an average of 100,000 ozone molecules before it is removed from the catalytic cycle. This fact plus the amount of chlorine released into the atmosphere yearly by chlorofluorocarbons (CFCs) and hydrochlorofluorocarbons (HCFCs) demonstrates the danger of CFCs and HCFCs to the environment.[8][9]
+
+Observations on ozone layer depletion [ edit ]
+
+The ozone hole is usually measured by reduction in the total column ozone above a point on the Earth's surface. This is normally expressed in Dobson units; abbreviated as "DU". The most prominent decrease in ozone has been in the lower stratosphere. Marked decreases in column ozone in the Antarctic spring and early summer compared to the early 1970s and before have been observed using instruments such as the Total Ozone Mapping Spectrometer (TOMS).[10]
+
+Reductions of up to 70 percent in the ozone column observed in the austral (southern hemispheric) spring over Antarctica and first reported in 1985 (Farman et al.) are continuing. Antarctic total column ozone in September and October have continued to be 40–50 percent lower than pre-ozone-hole values since the 1990s.[1] A gradual trend toward "healing" was reported in 2016.[11] In 2017, NASA announced that the ozone hole was the weakest since 1988 because of warm stratospheric conditions. It is expected to recover around 2070.[12]
+
+The amount lost is more variable year-to-year in the Arctic than in the Antarctic. The greatest Arctic declines are in the winter and spring, reaching up to 30 percent when the stratosphere is coldest.
+
+Reactions that take place on polar stratospheric clouds (PSCs) play an important role in enhancing ozone depletion.[13] PSCs form more readily in the extreme cold of the Arctic and Antarctic stratosphere. This is why ozone holes first formed, and are deeper, over Antarctica. Early models failed to take PSCs into account and predicted a gradual global depletion, which is why the sudden Antarctic ozone hole was such a surprise to many scientists.[14][15][16]
+
+It is more accurate to speak of ozone depletion in middle latitudes rather than holes. Total column ozone declined below pre-1980 values between 1980 and 1996 for mid-latitudes. In the northern mid-latitudes, it then increased from the minimum value by about two percent from 1996 to 2009 as regulations took effect and the amount of chlorine in the stratosphere decreased. In the Southern Hemisphere's mid-latitudes, total ozone remained constant over that time period. There are no significant trends in the tropics, largely because halogen-containing compounds have not had time to break down and release chlorine and bromine atoms at tropical latitudes.[1][17]
+
+Large volcanic eruptions have been shown to have substantial albeit uneven ozone-depleting effects, as observed with the 1991 eruption of Mt. Pinotubo in the Philippines.[18]
+
+Ozone depletion also explains much of the observed reduction in stratospheric and upper tropospheric temperatures.[19][20] The source of the warmth of the stratosphere is the absorption of UV radiation by ozone, hence reduced ozone leads to cooling. Some stratospheric cooling is also predicted from increases in greenhouse gases such as CO
+
+2 and CFCs themselves; however, the ozone-induced cooling appears to be dominant.[21]
+
+Predictions of ozone levels remain difficult, but the precision of models' predictions of observed values and the agreement among different modeling techniques have increased steadily.[1] The World Meteorological Organization Global Ozone Research and Monitoring Project—Report No. 44 comes out strongly in favor of the Montreal Protocol, but notes that a UNEP 1994 Assessment overestimated ozone loss for the 1994–1997 period.[22]
+
+Compounds in the atmosphere [ edit ]
+
+CFCs and related compounds in the atmosphere [ edit ]
+
+Chlorofluorocarbons (CFCs) and other halogenated ozone depleting substances (ODS) are mainly responsible for man-made chemical ozone depletion. The total amount of effective halogens (chlorine and bromine) in the stratosphere can be calculated and are known as the equivalent effective stratospheric chlorine (EESC).[23]
+
+CFCs were invented by Thomas Midgley, Jr. in the 1930s. They were used in air conditioning and cooling units, as aerosol spray propellants prior to the 1970s, and in the cleaning processes of delicate electronic equipment. They also occur as by-products of some chemical processes. No significant natural sources have ever been identified for these compounds—their presence in the atmosphere is due almost entirely to human manufacture. As mentioned above, when such ozone-depleting chemicals reach the stratosphere, they are dissociated by ultraviolet light to release chlorine atoms. The chlorine atoms act as a catalyst, and each can break down tens of thousands of ozone molecules before being removed from the stratosphere. Given the longevity of CFC molecules, recovery times are measured in decades. It is calculated that a CFC molecule takes an average of about five to seven years to go from the ground level up to the upper atmosphere, and it can stay there for about a century, destroying up to one hundred thousand ozone molecules during that time.[24][verification needed]
+
+1,1,1-Trichloro-2,2,2-trifluoroethane, also known as CFC-113a, is one of four man-made chemicals newly discovered in the atmosphere by a team at the University of East Anglia. CFC-113a is the only known CFC whose abundance in the atmosphere is still growing. Its source remains a mystery, but illegal manufacturing is suspected by some. CFC-113a seems to have been accumulating unabated since 1960. Between 2010 and 2012, emissions of the gas jumped by 45 percent.[25][26]
+
+Computer modeling [ edit ]
+
+Scientists have attributed ozone depletion to the increase of man-made (anthropogenic) halogen compounds from CFCs by combining observational data with computer models. These complex chemistry transport models (e.g. SLIMCAT, CLaMS—Chemical Lagrangian Model of the Stratosphere) work by combining measurements of chemicals and meteorological fields with chemical reaction rate constants. They identify key chemical reactions and transport processes that bring CFC photolysis products into contact with ozone.
+
+Ozone hole and its causes [ edit ]
+
+[27] Ozone hole in North America during 1984 (abnormally warm reducing ozone depletion) and 1997 (abnormally cold resulting in increased seasonal depletion). Source: NASA
+
+The Antarctic ozone hole is an area of the Antarctic stratosphere in which the recent ozone levels have dropped to as low as 33 percent of their pre-1975 values. The ozone hole occurs during the Antarctic spring, from September to early December, as strong westerly winds start to circulate around the continent and create an atmospheric container. Within this polar vortex, over 50 percent of the lower stratospheric ozone is destroyed during the Antarctic spring.[28]
+
+As explained above, the primary cause of ozone depletion is the presence of chlorine-containing source gases (primarily CFCs and related halocarbons). In the presence of UV light, these gases dissociate, releasing chlorine atoms, which then go on to catalyze ozone destruction. The Cl-catalyzed ozone depletion can take place in the gas phase, but it is dramatically enhanced in the presence of polar stratospheric clouds (PSCs).[29]
+
+These polar stratospheric clouds form during winter, in the extreme cold. Polar winters are dark, consisting of three months without solar radiation (sunlight). The lack of sunlight contributes to a decrease in temperature and the polar vortex traps and chills air. Temperatures hover around or below −80 °C. These low temperatures form cloud particles. There are three types of PSC clouds—nitric acid trihydrate clouds, slowly cooling water-ice clouds, and rapid cooling water-ice (nacerous) clouds—provide surfaces for chemical reactions whose products will, in the spring lead to ozone destruction.[30]
+
+The photochemical processes involved are complex but well understood. The key observation is that, ordinarily, most of the chlorine in the stratosphere resides in "reservoir" compounds, primarily chlorine nitrate (ClONO
+
+2 ) as well as stable end products such as HCl. The formation of end products essentially remove Cl from the ozone depletion process. The former sequester Cl, which can be later made available via absorption of light at shorter wavelengths than 400 nm.[31] During the Antarctic winter and spring, however, reactions on the surface of the polar stratospheric cloud particles convert these "reservoir" compounds into reactive free radicals (Cl and ClO). The process by which the clouds remove NO
+
+2 from the stratosphere by converting it to nitric acid in the PSC particles, which then are lost by sedimentation is called denitrification. This prevents newly formed ClO from being converted back into ClONO
+
+2 .
+
+The role of sunlight in ozone depletion is the reason why the Antarctic ozone depletion is greatest during spring. During winter, even though PSCs are at their most abundant, there is no light over the pole to drive chemical reactions. During the spring, however, the sun comes out, providing energy to drive photochemical reactions and melt the polar stratospheric clouds, releasing considerable ClO, which drives the hole mechanism. Further warming temperatures near the end of spring break up the vortex around mid-December. As warm, ozone and NO
+
+2 -rich air flows in from lower latitudes, the PSCs are destroyed, the enhanced ozone depletion process shuts down, and the ozone hole closes.[32]
+
+Most of the ozone that is destroyed is in the lower stratosphere, in contrast to the much smaller ozone depletion through homogeneous gas phase reactions, which occurs primarily in the upper stratosphere.[33]
+
+Interest in ozone layer depletion [ edit ]
+
+Public misconceptions and misunderstandings of complex issues like the ozone depletion are common. The limited scientific knowledge of the public led to a confusion with global warming[34] or the perception of global warming as a subset of the "ozone hole".[35] In the beginning, classical green NGOs refrained from using CFC depletion for campaigning, as they assumed the topic was too complicated.[36] They became active much later, e.g. in Greenpeace's support for a CFC-free fridge produced by the former East German company VEB dkk Scharfenstein.[36][37]
+
+The metaphors used in the CFC discussion (ozone shield, ozone hole) are not "exact" in the scientific sense. The "ozone hole" is more of a depression, less "a hole in the windshield". The ozone does not disappear through the layer, nor is there a uniform "thinning" of the ozone layer. However they resonated better with non-scientists and their concerns.[38] The ozone hole was seen as a "hot issue" and imminent risk[39] as lay people feared severe personal consequences such as skin cancer, cataracts, damage to plants, and reduction of plankton populations in the ocean's photic zone. Not only on the policy level, ozone regulation compared to climate change fared much better in public opinion. Americans voluntarily switched away from aerosol sprays before legislation was enforced, while climate change failed to achieve comparable concern and public action.[38] The sudden recognition in 1985 that there was a substantial "hole" was widely reported in the press. The especially rapid ozone depletion in Antarctica had previously been dismissed as a measurement error.[40] Scientific consensus was established after regulation.[36]
+
+While the Antarctic ozone hole has a relatively small effect on global ozone, the hole has generated a great deal of public interest because:
+
+Many have worried that ozone holes might start appearing over other areas of the globe, though to date the only other large-scale depletion is a smaller ozone "dimple" observed during the Arctic spring around the North Pole. Ozone at middle latitudes has declined, but by a much smaller extent (a decrease of about 4–5 percent).
+
+If stratospheric conditions become more severe (cooler temperatures, more clouds, more active chlorine), global ozone may decrease at a greater pace. Standard global warming theory predicts that the stratosphere will cool. [41]
+
+When the Antarctic ozone hole breaks up each year, the ozone-depleted air drifts out into nearby regions. Decreases in the ozone level of up to 10 percent have been reported in New Zealand in the month following the breakup of the Antarctic ozone hole,[42] with ultraviolet-B radiation intensities increasing by more than 15 percent since the 1970s.[43][44]
+
+Consequences of ozone layer depletion [ edit ]
+
+Since the ozone layer absorbs UVB ultraviolet light from the sun, ozone layer depletion increases surface UVB levels (all else equal), which could lead to damage, including increase in skin cancer. This was the reason for the Montreal Protocol. Although decreases in stratospheric ozone are well-tied to CFCs and to increases in surface UVB, there is no direct observational evidence linking ozone depletion to higher incidence of skin cancer and eye damage in human beings. This is partly because UVA, which has also been implicated in some forms of skin cancer, is not absorbed by ozone, and because it is nearly impossible to control statistics for lifestyle changes over time.
+
+Increased UV [ edit ]
+
+Ozone, while a minority constituent in Earth's atmosphere, is responsible for most of the absorption of UVB radiation. The amount of UVB radiation that penetrates through the ozone layer decreases exponentially with the slant-path thickness and density of the layer. When stratospheric ozone levels decrease, higher levels of UVB reach the Earth’s surface.[1][45] UV-driven phenolic formation in tree rings has dated the start of ozone depletion in northern latitudes to the late 1700s.[46]
+
+In October 2008, the Ecuadorian Space Agency published a report called HIPERION. The study used ground instruments in Ecuador and the last 28 years' data from 12 satellites of several countries, and found that the UV radiation reaching equatorial latitudes was far greater than expected, with the UV Index climbing as high as 24 in Quito; the WHO considers 11 as an extreme index and a great risk to health. The report concluded that depleted ozone levels around the mid-latitudes of the planet are already endangering large populations in these areas.[47] Later, the CONIDA, the Peruvian Space Agency, published its own study, which yielded almost the same findings as the Ecuadorian study.
+
+Biological effects [ edit ]
+
+The main public concern regarding the ozone hole has been the effects of increased surface UV radiation on human health. So far, ozone depletion in most locations has been typically a few percent and, as noted above, no direct evidence of health damage is available in most latitudes. If the high levels of depletion seen in the ozone hole were to be common across the globe, the effects could be substantially more dramatic. As the ozone hole over Antarctica has in some instances grown so large as to affect parts of Australia, New Zealand, Chile, Argentina, and South Africa, environmentalists have been concerned that the increase in surface UV could be significant.[48]
+
+Ozone depletion would magnify all of the effects of UV on human health, both positive (including production of vitamin D) and negative (including sunburn, skin cancer, and cataracts). In addition, increased surface UV leads to increased tropospheric ozone, which is a health risk to humans.
+
+Basal and squamous cell carcinomas [ edit ]
+
+The most common forms of skin cancer in humans, basal and squamous cell carcinomas, have been strongly linked to UVB exposure. The mechanism by which UVB induces these cancers is well understood—absorption of UVB radiation causes the pyrimidine bases in the DNA molecule to form dimers, resulting in transcription errors when the DNA replicates. These cancers are relatively mild and rarely fatal, although the treatment of squamous cell carcinoma sometimes requires extensive reconstructive surgery. By combining epidemiological data with results of animal studies, scientists have estimated that every one percent decrease in long-term stratospheric ozone would increase the incidence of these cancers by two percent.[49]
+
+Malignant melanoma [ edit ]
+
+Another form of skin cancer, malignant melanoma, is much less common but far more dangerous, being lethal in about 15–20 percent of the cases diagnosed. The relationship between malignant melanoma and ultraviolet exposure is not yet fully understood, but it appears that both UVB and UVA are involved. Because of this uncertainty, it is difficult to estimate the effect of ozone depletion on melanoma incidence. One study showed that a 10 percent increase in UVB radiation was associated with a 19 percent increase in melanomas for men and 16 percent for women.[50] A study of people in Punta Arenas, at the southern tip of Chile, showed a 56 percent increase in melanoma and a 46 percent increase in nonmelanoma skin cancer over a period of seven years, along with decreased ozone and increased UVB levels.[51]
+
+Cortical cataracts [ edit ]
+
+Epidemiological studies suggest an association between ocular cortical cataracts and UVB exposure, using crude approximations of exposure and various cataract assessment techniques. A detailed assessment of ocular exposure to UVB was carried out in a study on Chesapeake Bay Watermen, where increases in average annual ocular exposure were associated with increasing risk of cortical opacity.[52] In this highly exposed group of predominantly white males, the evidence linking cortical opacities to sunlight exposure was the strongest to date. Based on these results, ozone depletion is predicted to cause hundreds of thousands of additional cataracts by 2050.[53]
+
+Increased tropospheric ozone [ edit ]
+
+Increased surface UV leads to increased tropospheric ozone. Ground-level ozone is generally recognized to be a health risk, as ozone is toxic due to its strong oxidant properties. The risks are particularly high for young children, the elderly, and those with asthma or other respiratory difficulties. At this time, ozone at ground level is produced mainly by the action of UV radiation on combustion gases from vehicle exhausts.[54]
+
+Increased production of vitamin D [ edit ]
+
+Vitamin D is produced in the skin by ultraviolet light. Thus, higher UVB exposure raises human vitamin D in those deficient in it. Recent research (primarily since the Montreal Protocol) shows that many humans have less than optimal vitamin D levels. In particular, in the U.S. population, the lowest quarter of vitamin D (<17.8 ng/ml) were found using information from the National Health and Nutrition Examination Survey to be associated with an increase in all-cause mortality in the general population.[55] While blood level of vitamin D in excess of 100 ng/ml appear to raise blood calcium excessively and to be associated with higher mortality, the body has mechanisms that prevent sunlight from producing vitamin D in excess of the body's requirements.[56]
+
+Effects on animals [ edit ]
+
+A November 2010 report by scientists at the Institute of Zoology in London found that whales off the coast of California have shown a sharp rise in sun damage, and these scientists "fear that the thinning ozone layer is to blame".[57] The study photographed and took skin biopsies from over 150 whales in the Gulf of California and found "widespread evidence of epidermal damage commonly associated with acute and severe sunburn", having cells that form when the DNA is damaged by UV radiation. The findings suggest "rising UV levels as a result of ozone depletion are to blame for the observed skin damage, in the same way that human skin cancer rates have been on the increase in recent decades."[58]
+
+Effects on crops [ edit ]
+
+An increase of UV radiation would be expected to affect crops. A number of economically important species of plants, such as rice, depend on cyanobacteria residing on their roots for the retention of nitrogen. Cyanobacteria are sensitive to UV radiation and would be affected by its increase.[59] "Despite mechanisms to reduce or repair the effects of increased ultraviolet radiation, plants have a limited ability to adapt to increased levels of UVB, therefore plant growth can be directly affected by UVB radiation."[60]
+
+Public policy [ edit ]
+
+NASA projections of stratospheric ozone concentrations if chlorofluorocarbons had not been banned
+
+The full extent of the damage that CFCs have caused to the ozone layer is not known and will not be known for decades; however, marked decreases in column ozone have already been observed. The Montreal and Vienna conventions were installed long before a scientific consensus was established or important uncertainties in the science field were being resolved.[36] The ozone case was understood comparably well by lay persons as e.g. Ozone shield or ozone hole were useful "easy-to-understand bridging metaphors".[38] Americans voluntarily switched away from aerosol sprays, resulting in a 50 percent sales loss even before legislation was enforced.[38]
+
+After a 1976 report by the United States National Academy of Sciences concluded that credible scientific evidence supported the ozone depletion hypothesis[61] a few countries, including the United States, Canada, Sweden, Denmark, and Norway, moved to eliminate the use of CFCs in aerosol spray cans.[62] At the time this was widely regarded as a first step towards a more comprehensive regulation policy, but progress in this direction slowed in subsequent years, due to a combination of political factors (continued resistance from the halocarbon industry and a general change in attitude towards environmental regulation during the first two years of the Reagan administration) and scientific developments (subsequent National Academy assessments that indicated that the first estimates of the magnitude of ozone depletion had been overly large). A critical DuPont manufacturing patent for Freon was set to expire in 1979. The United States banned the use of CFCs in aerosol cans in 1978.[62] The European Community rejected proposals to ban CFCs in aerosol sprays, and in the U.S., CFCs continued to be used as refrigerants and for cleaning circuit boards. Worldwide CFC production fell sharply after the U.S. aerosol ban, but by 1986 had returned nearly to its 1976 level.[62] In 1993, DuPont Canada closed its CFC facility.[63]
+
+The U.S. government's attitude began to change again in 1983, when William Ruckelshaus replaced Anne M. Burford as Administrator of the United States Environmental Protection Agency. Under Ruckelshaus and his successor, Lee Thomas, the EPA pushed for an international approach to halocarbon regulations. In 1985 twenty nations, including most of the major CFC producers, signed the Vienna Convention for the Protection of the Ozone Layer, which established a framework for negotiating international regulations on ozone-depleting substances. That same year, the discovery of the Antarctic ozone hole was announced, causing a revival in public attention to the issue. In 1987, representatives from 43 nations signed the Montreal Protocol. Meanwhile, the halocarbon industry shifted its position and started supporting a protocol to limit CFC production. However, this shift was uneven with DuPont acting more quickly than its European counterparts. DuPont may have feared court action related to increased skin cancer, especially as the EPA had published a study in 1986 claiming that an additional 40 million cases and 800,000 cancer deaths were to be expected in the U.S. in the next 88 years.[64] The EU shifted its position as well after Germany gave up its defence of the CFC industry and started supporting moves towards regulation. Government and industry in France and the UK tried to defend their CFC producing industries even after the Montreal Protocol had been signed.[65]
+
+At Montreal, the participants agreed to freeze production of CFCs at 1986 levels and to reduce production by 50 percent by 1999.[62] After a series of scientific expeditions to the Antarctic produced convincing evidence that the ozone hole was indeed caused by chlorine and bromine from manmade organohalogens, the Montreal Protocol was strengthened at a 1990 meeting in London. The participants agreed to phase out CFCs and halons entirely (aside from a very small amount marked for certain "essential" uses, such as asthma inhalers) by 2000 in non-Article 5 countries and by 2010 in Article 5 (less developed) signatories.[66] At a 1992 meeting in Copenhagen, the phase-out date was moved up to 1996.[66] At the same meeting, methyl bromide (MeBr), a fumigant used primarily in agricultural production, was added to the list of controlled substances. For all substances controlled under the protocol, phaseout schedules were delayed for less developed ('Article 5(1)') countries, and phaseout in these countries was supported by transfers of expertise, technology, and money from non-Article 5(1) Parties to the Protocol. Additionally, exemptions from the agreed schedules could be applied for under the Essential Use Exemption (EUE) process for substances other than methyl bromide and under the Critical Use Exemption (CUE) process for methyl bromide.[67][68]
+
+Civil society including especially NGOs, played critical roles at all stages of policy development leading up to the Vienna Conference, the Montreal Protocol, and in assessing compliance afterwards.[69][70][71][72] The major companies claimed that no alternatives to HFC existed.[73] An ozone-safe hydrocarbon refrigerant was developed at a Hamburg technological institute in Germany, and in 1992 came to the attention of the non-governmental organization (NGO) Greenpeace. Greenpeace was given the patent, called it "Greenfreeze," and left the patent as open source.[74][75] The NGO then worked successfully first with a small and struggling company to market an appliance beginning in Europe, then Asia and later Latin America, receiving a 1997 UNEP award.[76][77] By 1995, Germany had already made CFC refrigerators illegal.[77] Since 2004, corporations like Coca-Cola, Carlsberg, and IKEA have been forming a coalition to promote the ozone-safe Greenfreeze units. Production spread to companies like Electrolux, Bosch, and LG, with sales reaching some 300 million refrigerators by 2008.[76][78] In Latin America, a domestic Argentinian company began Greenfreeze production in 2003, while the giant Bosch in Brazil began a year later.[79][80] By 2013 it was being used by some 700 million refrigerators, making up about 40 percent of the market.[73] In the U.S., however, change has been much slower. To some extent, CFCs were being replaced by the less damaging hydrochlorofluorocarbons (HCFCs), although concerns remain regarding HCFCs also. In some applications, hydrofluorocarbons (HFCs) were being used to replace CFCs. HFCs, which contain no chlorine or bromine, do not contribute at all to ozone depletion although they are potent greenhouse gases. The best known of these compounds is probably HFC-134a (R-134a), which in the United States has largely replaced CFC-12 (R-12) in automobile air conditioners. In laboratory analytics (a former "essential" use) the ozone depleting substances can be replaced with various other solvents.[81] Chemical companies like Du Pont, whose representatives even disparaged Greenfreeze as "that German technology," maneuvered the EPA to block the technology in the U.S. until 2011.[82][83][84][85] Ben & Jerry's of Unilever and General Electric, spurred by Greenpeace, had expressed formal interest in 2008 which figured in the EPA's final approval.[76][86]
+
+More recently, policy experts have advocated for efforts to link ozone protection efforts to climate protection efforts.[87][88] Many ODS are also greenhouse gases, some thousands of times more powerful agents of radiative forcing than carbon dioxide over the short and medium term. Thus policies protecting the ozone layer have had benefits in mitigating climate change. In fact, the reduction of the radiative forcing due to ODS probably masked the true level of climate change effects of other greenhouse gases, and was responsible for the "slow down" of global warming from the mid-90s.[89] Policy decisions in one arena affect the costs and effectiveness of environmental improvements in the other.
+
+ODS requirements in the marine industry [ edit ]
+
+The IMO has amended MARPOL Annex VI Regulation 12 regarding ozone depleting substances. As from July 1, 2010, all vessels where MARPOL Annex VI is applicable should have a list of equipment using ozone depleting substances. The list should include name of ODS, type and location of equipment, quantity in kg and date. All changes since that date should be recorded in an ODS Record book on board recording all intended or unintended releases to the atmosphere. Furthermore, new ODS supply or landing to shore facilities should be recorded as well.
+
+Prospects of ozone depletion [ edit ]
+
+[4] Ozone levels stabilized in the 1990s following the Montreal Protocol, and have started to recover. They are projected to reach pre-1980 levels before 2075.
+
+Ozone-depleting gas trends
+
+Since the adoption and strengthening of the Montreal Protocol has led to reductions in the emissions of CFCs, atmospheric concentrations of the most-significant compounds have been declining. These substances are being gradually removed from the atmosphere; since peaking in 1994, the Effective Equivalent Chlorine (EECl) level in the atmosphere had dropped about 10 percent by 2008. The decrease in ozone-depleting chemicals has also been significantly affected by a decrease in bromine-containing chemicals. The data suggest that substantial natural sources exist for atmospheric methyl bromide (CH
+
+3 Br).[1] The phase-out of CFCs means that nitrous oxide (N
+
+2 O), which is not covered by the Montreal Protocol, has become the most highly emitted ozone-depleting substance and is expected to remain so throughout the 21st century.[90]
+
+A 2005 IPCC review of ozone observations and model calculations concluded that the global amount of ozone has now approximately stabilized. Although considerable variability is expected from year to year, including in polar regions where depletion is largest, the ozone layer is expected to begin to recover in coming decades due to declining ozone-depleting substance concentrations, assuming full compliance with the Montreal Protocol.[91]
+
+The Antarctic ozone hole is expected to continue for decades. Ozone concentrations in the lower stratosphere over Antarctica will increase by 5–10 percent by 2020 and return to pre-1980 levels by about 2060–2075. This is 10–25 years later than predicted in earlier assessments, because of revised estimates of atmospheric concentrations of ozone-depleting substances, including a larger predicted future usage in developing countries. Another factor that may prolong ozone depletion is the drawdown of nitrogen oxides from above the stratosphere due to changing wind patterns.[92] A gradual trend toward "healing" was reported in 2016.[11]
+
+Research history [ edit ]
+
+The basic physical and chemical processes that lead to the formation of an ozone layer in the Earth's stratosphere were discovered by Sydney Chapman in 1930. Short-wavelength UV radiation splits an oxygen (O
+
+2 ) molecule into two oxygen (O) atoms, which then combine with other oxygen molecules to form ozone. Ozone is removed when an oxygen atom and an ozone molecule "recombine" to form two oxygen molecules, i.e. O + O
+
+3 → 2O
+
+2 . In the 1950s, David Bates and Marcel Nicolet presented evidence that various free radicals, in particular hydroxyl (OH) and nitric oxide (NO), could catalyze this recombination reaction, reducing the overall amount of ozone. These free radicals were known to be present in the stratosphere, and so were regarded as part of the natural balance—it was estimated that in their absence, the ozone layer would be about twice as thick as it currently is.
+
+In 1970 Paul Crutzen pointed out that emissions of nitrous oxide (N
+
+2 O), a stable, long-lived gas produced by soil bacteria, from the Earth's surface could affect the amount of nitric oxide (NO) in the stratosphere. Crutzen showed that nitrous oxide lives long enough to reach the stratosphere, where it is converted into NO. Crutzen then noted that increasing use of fertilizers might have led to an increase in nitrous oxide emissions over the natural background, which would in turn result in an increase in the amount of NO in the stratosphere. Thus human activity could affect the stratospheric ozone layer. In the following year, Crutzen and (independently) Harold Johnston suggested that NO emissions from supersonic passenger aircraft, which would fly in the lower stratosphere, could also deplete the ozone layer. However, more recent analysis in 1995 by David W. Fahey, an atmospheric scientist at the National Oceanic and Atmospheric Administration, found that the drop in ozone would be from 1–2 percent if a fleet of 500 supersonic passenger aircraft were operated.[93] This, Fahey expressed, would not be a showstopper for advanced supersonic passenger aircraft development.[94]
+
+Rowland–Molina hypothesis [ edit ]
+
+In 1974 Frank Sherwood Rowland, Chemistry Professor at the University of California at Irvine, and his postdoctoral associate Mario J. Molina suggested that long-lived organic halogen compounds, such as CFCs, might behave in a similar fashion as Crutzen had proposed for nitrous oxide. James Lovelock had recently discovered, during a cruise in the South Atlantic in 1971, that almost all of the CFC compounds manufactured since their invention in 1930 were still present in the atmosphere. Molina and Rowland concluded that, like N
+
+2 O, the CFCs would reach the stratosphere where they would be dissociated by UV light, releasing chlorine atoms. A year earlier, Richard Stolarski and Ralph Cicerone at the University of Michigan had shown that Cl is even more efficient than NO at catalyzing the destruction of ozone. Similar conclusions were reached by Michael McElroy and Steven Wofsy at Harvard University. Neither group, however, had realized that CFCs were a potentially large source of stratospheric chlorine—instead, they had been investigating the possible effects of HCl emissions from the Space Shuttle, which are very much smaller.
+
+The Rowland–Molina hypothesis was strongly disputed by representatives of the aerosol and halocarbon industries. The Chair of the Board of DuPont was quoted as saying that ozone depletion theory is "a science fiction tale … a load of rubbish … utter nonsense".[95] Robert Abplanalp, the President of Precision Valve Corporation (and inventor of the first practical aerosol spray can valve), wrote to the Chancellor of UC Irvine to complain about Rowland's public statements.[96] Nevertheless, within three years most of the basic assumptions made by Rowland and Molina were confirmed by laboratory measurements and by direct observation in the stratosphere. The concentrations of the source gases (CFCs and related compounds) and the chlorine reservoir species (HCl and ClONO
+
+2 ) were measured throughout the stratosphere, and demonstrated that CFCs were indeed the major source of stratospheric chlorine, and that nearly all of the CFCs emitted would eventually reach the stratosphere. Even more convincing was the measurement, by James G. Anderson and collaborators, of chlorine monoxide (ClO) in the stratosphere. ClO is produced by the reaction of Cl with ozone—its observation thus demonstrated that Cl radicals not only were present in the stratosphere but also were actually involved in destroying ozone. McElroy and Wofsy extended the work of Rowland and Molina by showing that bromine atoms were even more effective catalysts for ozone loss than chlorine atoms and argued that the brominated organic compounds known as halons, widely used in fire extinguishers, were a potentially large source of stratospheric bromine. In 1976 the United States National Academy of Sciences released a report concluding that the ozone depletion hypothesis was strongly supported by the scientific evidence. In response the United States, Canada and Norway banned the use of CFCs in aerosol spray cans in 1978. Early estimates were that, if CFC production continued at 1977 levels, the total atmospheric ozone would after a century or so reach a steady state, 15 to 18 percent below normal levels. By 1984, when better evidence on the speed of critical reactions was available, this estimate was changed to 5 to 9 percent steady-state depletion.[97]
+
+Crutzen, Molina, and Rowland were awarded the 1995 Nobel Prize in Chemistry for their work on stratospheric ozone.
+
+Antarctic ozone hole [ edit ]
+
+The discovery of the Antarctic "ozone hole" by British Antarctic Survey scientists Farman, Gardiner and Shanklin (first reported in a paper in Nature in May 1985[98]) came as a shock to the scientific community, because the observed decline in polar ozone was far larger than anyone had anticipated.[40] Satellite measurements showing massive depletion of ozone around the south pole were becoming available at the same time. However, these were initially rejected as unreasonable by data quality control algorithms (they were filtered out as errors since the values were unexpectedly low); the ozone hole was detected only in satellite data when the raw data was reprocessed following evidence of ozone depletion in in situ observations.[65] When the software was rerun without the flags, the ozone hole was seen as far back as 1976.[99]
+
+Susan Solomon, an atmospheric chemist at the National Oceanic and Atmospheric Administration (NOAA), proposed that chemical reactions on polar stratospheric clouds (PSCs) in the cold Antarctic stratosphere caused a massive, though localized and seasonal, increase in the amount of chlorine present in active, ozone-destroying forms. The polar stratospheric clouds in Antarctica are only formed when there are very low temperatures, as low as −80 °C, and early spring conditions. In such conditions the ice crystals of the cloud provide a suitable surface for conversion of unreactive chlorine compounds into reactive chlorine compounds, which can deplete ozone easily.
+
+Moreover, the polar vortex formed over Antarctica is very tight and the reaction occurring on the surface of the cloud crystals is far different from when it occurs in atmosphere. These conditions have led to ozone hole formation in Antarctica. This hypothesis was decisively confirmed, first by laboratory measurements and subsequently by direct measurements, from the ground and from high-altitude airplanes, of very high concentrations of chlorine monoxide (ClO) in the Antarctic stratosphere.[100]
+
+Alternative hypotheses, which had attributed the ozone hole to variations in solar UV radiation or to changes in atmospheric circulation patterns, were also tested and shown to be untenable.[101]
+
+Meanwhile, analysis of ozone measurements from the worldwide network of ground-based Dobson spectrophotometers led an international panel to conclude that the ozone layer was in fact being depleted, at all latitudes outside of the tropics.[17] These trends were confirmed by satellite measurements. As a consequence, the major halocarbon-producing nations agreed to phase out production of CFCs, halons, and related compounds, a process that was completed in 1996.
+
+Since 1981 the United Nations Environment Programme, under the auspices of the World Meteorological Organization, has sponsored a series of technical reports on the Scientific Assessment of Ozone Depletion, based on satellite measurements. The 2007 report showed that the hole in the ozone layer was recovering and the smallest it had been for about a decade.[102] The 2010 report found, "Over the past decade, global ozone and ozone in the Arctic and Antarctic regions is no longer decreasing but is not yet increasing. The ozone layer outside the Polar regions is projected to recover to its pre-1980 levels some time before the middle of this century. In contrast, the springtime ozone hole over the Antarctic is expected to recover much later."[103] In 2012, NOAA and NASA reported "Warmer air temperatures high above the Antarctic led to the second smallest season ozone hole in 20 years averaging 17.9 million square kilometres. The hole reached its maximum size for the season on Sept 22, stretching to 21.2 million square kilometres."[104] A gradual trend toward "healing" was reported in 2016.[11]
+
+The hole in the Earth's ozone layer over the South Pole has affected atmospheric circulation in the Southern Hemisphere all the way to the equator.[105] The ozone hole has influenced atmospheric circulation all the way to the tropics and increased rainfall at low, subtropical latitudes in the Southern Hemisphere.
+
+Arctic ozone hole [ edit ]
+
+On March 3, 2005, the journal Nature[106] published an article linking 2004's unusually large Arctic ozone hole to solar wind activity.
+
+On March 15, 2011, a record ozone layer loss was observed, with about half of the ozone present over the Arctic having been destroyed.[107][108][109] The change was attributed to increasingly cold winters in the Arctic stratosphere at an altitude of approximately 20 km (12 mi), a change associated with global warming in a relationship that is still under investigation.[108] By March 25, the ozone loss had become the largest compared to that observed in all previous winters with the possibility that it would become an ozone hole.[110] This would require that the quantities of ozone to fall below 200 Dobson units, from the 250 recorded over central Siberia.[110] It is predicted that the thinning layer would affect parts of Scandinavia and Eastern Europe on March 30–31.[110]
+
+On October 2, 2011, a study was published in the journal Nature, which said that between December 2010 and March 2011 up to 80 percent of the ozone in the atmosphere at about 20 kilometres (12 mi) above the surface was destroyed.[111] The level of ozone depletion was severe enough that scientists said it could be compared to the ozone hole that forms over Antarctica every winter.[111] According to the study, "for the first time, sufficient loss occurred to reasonably be described as an Arctic ozone hole."[111] The study analyzed data from the Aura and CALIPSO satellites, and determined that the larger-than-normal ozone loss was due to an unusually long period of cold weather in the Arctic, some 30 days more than typical, which allowed for more ozone-destroying chlorine compounds to be created.[112] According to Lamont Poole, a co-author of the study, cloud and aerosol particles on which the chlorine compounds are found "were abundant in the Arctic until mid March 2011—much later than usual—with average amounts at some altitudes similar to those observed in the Antarctic, and dramatically larger than the near-zero values seen in March in most Arctic winters".[112]
+
+Tibet ozone hole [ edit ]
+
+As winters that are colder are more affected, at times there is an ozone hole over Tibet. In 2006, a 2.5 million square kilometer ozone hole was detected over Tibet.[113] Also again in 2011 an ozone hole appeared over mountainous regions of Tibet, Xinjiang, Qinghai and the Hindu Kush, along with an unprecedented hole over the Arctic, though the Tibet one is far less intense than the ones over the Arctic or Antarctic.[114]
+
+Potential depletion by storm clouds [ edit ]
+
+Research in 2012 showed that the same process that produces the ozone hole over Antarctica occurs over summer storm clouds in the United States, and thus may be destroying ozone there as well.[115][116]
+
+Ozone depletion and global warming [ edit ]
+
+Among others, Robert Watson had a role in the science assessment and in the regulation efforts of ozone depletion and global warming.[36] Prior to the 1980s, the EU, NASA, NAS, UNEP, WMO and the British government had dissenting scientific reports and Watson played a role in the process of unified assessments. Based on the experience with the ozone case, the IPCC started to work on a unified reporting and science assessment[36] to reach a consensus to provide the IPCC Summary for Policymakers.
+
+There are various areas of linkage between ozone depletion and global warming science:
+
+The same CO
+
+2 radiative forcing that produces global warming is expected to cool the stratosphere. [117] This cooling, in turn, is expected to produce a relative increase in ozone ( O
+
+3 ) depletion in polar area and the frequency of ozone holes. [118]
+
+radiative forcing that produces global warming is expected to cool the stratosphere. This cooling, in turn, is expected to produce a relative in ozone ( ) depletion in polar area and the frequency of ozone holes. Conversely, ozone depletion represents a radiative forcing of the climate system. There are two opposing effects: Reduced ozone causes the stratosphere to absorb less solar radiation, thus cooling the stratosphere while warming the troposphere; the resulting colder stratosphere emits less long-wave radiation downward, thus cooling the troposphere. Overall, the cooling dominates; the IPCC concludes " observed stratospheric O
+
+3 losses over the past two decades have caused a negative forcing of the surface-troposphere system " [19] of about −0.15 ± 0.10 watts per square meter (W/m 2 ). [91]
+
+" of about −0.15 ± 0.10 watts per square meter (W/m ). One of the strongest predictions of the greenhouse effect is that the stratosphere will cool. [117] Although this cooling has been observed, it is not trivial to separate the effects of changes in the concentration of greenhouse gases and ozone depletion since both will lead to cooling. However, this can be done by numerical stratospheric modeling. Results from the National Oceanic and Atmospheric Administration's Geophysical Fluid Dynamics Laboratory show that above 20 km (12 mi), the greenhouse gases dominate the cooling. [119]
+
+Although this cooling has been observed, it is not trivial to separate the effects of changes in the concentration of greenhouse gases and ozone depletion since both will lead to cooling. However, this can be done by numerical stratospheric modeling. Results from the National Oceanic and Atmospheric Administration's Geophysical Fluid Dynamics Laboratory show that above 20 km (12 mi), the greenhouse gases dominate the cooling. As noted under 'Public Policy', ozone depleting chemicals are also often greenhouse gases. The increases in concentrations of these chemicals have produced 0.34 ± 0.03 W/m 2 of radiative forcing, corresponding to about 14 percent of the total radiative forcing from increases in the concentrations of well-mixed greenhouse gases. [91]
+
+of radiative forcing, corresponding to about 14 percent of the total radiative forcing from increases in the concentrations of well-mixed greenhouse gases. The long term modeling of the process, its measurement, study, design of theories and testing take decades to document, gain wide acceptance, and ultimately become the dominant paradigm. Several theories about the destruction of ozone were hypothesized in the 1980s, published in the late 1990s, and are currently being investigated. Dr Drew Schindell, and Dr Paul Newman, NASA Goddard, proposed a theory in the late 1990s, using computational modeling methods to model ozone destruction, that accounted for 78 percent of the ozone destroyed. Further refinement of that model accounted for 89 percent of the ozone destroyed, but pushed back the estimated recovery of the ozone hole from 75 years to 150 years. (An important part of that model is the lack of stratospheric flight due to depletion of fossil fuels.)
+
+Misconceptions [ edit ]
+
+CFC weight [ edit ]
+
+Since CFC molecules are heavier than air (nitrogen or oxygen), it is commonly believed that the CFC molecules cannot reach the stratosphere in significant amount.[120] However, atmospheric gases are not sorted by weight; the forces of wind can fully mix the gases in the atmosphere. Lighter CFCs are evenly distributed throughout the turbosphere and reach the upper atmosphere,[121] although some of the heavier CFCs are not evenly distributed.[122]
+
+Percentage of man-made chlorine [ edit ]
+
+Sources of stratospheric chlorine
+
+Another misconception is that "it is generally accepted that natural sources of tropospheric chlorine are four to five times larger than man-made ones." While this statement is strictly true, tropospheric chlorine is irrelevant; it is stratospheric chlorine that affects ozone depletion. Chlorine from ocean spray is soluble and thus is washed by rainfall before it reaches the stratosphere. CFCs, in contrast, are insoluble and long-lived, allowing them to reach the stratosphere. In the lower atmosphere, there is much more chlorine from CFCs and related haloalkanes than there is in HCl from salt spray, and in the stratosphere halocarbons are dominant.[123] Only methyl chloride, which is one of these halocarbons, has a mainly natural source,[124] and it is responsible for about 20 percent of the chlorine in the stratosphere; the remaining 80 percent comes from manmade sources.
+
+Very violent volcanic eruptions can inject HCl into the stratosphere, but researchers[125] have shown that the contribution is not significant compared to that from CFCs. A similar erroneous assertion is that soluble halogen compounds from the volcanic plume of Mount Erebus on Ross Island, Antarctica are a major contributor to the Antarctic ozone hole.[125]
+
+Nevertheless, a 2015 study[126] showed that the role of Mount Erebus volcano in the Antarctic ozone depletion was probably underestimated. Based on the NCEP/NCAR reanalysis data over the last 35 years and by using the NOAA HYSPLIT trajectory model, researchers showed that Erebus volcano gas emissions (including hydrogen chloride (HCl)) can reach the Antarctic stratosphere via high-latitude cyclones and then the polar vortex. Depending on Erebus volcano activity, the additional annual HCl mass entering the stratosphere from Erebus varies from 1.0 to 14.3 kt.
+
+First observation [ edit ]
+
+G.M.B. Dobson mentioned that when springtime ozone levels in the Antarctic over Halley Bay were first measured in 1956, he was surprised to find that they were ~320 DU, or about 150 DU below spring Arctic levels of ~450 DU. These were at that time the only known Antarctic ozone values available. What Dobson describes is essentially the baseline from which the ozone hole is measured: actual ozone hole values are in the 150–100 DU range.[127]
+
+The discrepancy between the Arctic and Antarctic noted by Dobson was primarily a matter of timing: during the Arctic spring ozone levels rose smoothly, peaking in April, whereas in the Antarctic they stayed approximately constant during early spring, rising abruptly in November when the polar vortex broke down.
+
+The behavior seen in the Antarctic ozone hole is completely different. Instead of staying constant, early springtime ozone levels suddenly drop from their already low winter values, by as much as 50 percent, and normal values are not reached again until December.[128]
+
+Location of hole [ edit ]
+
+Some people thought that the ozone hole should be above the sources of CFCs. However, CFCs are well mixed globally in the troposphere and stratosphere. The reason for occurrence of the ozone hole above Antarctica is not because there are more CFCs concentrated but because the low temperatures help form polar stratospheric clouds.[129] In fact, there are findings of significant and localized "ozone holes" above other parts of the earth.[130][better source needed]
+
+World Ozone Day [ edit ]
+
+In 1994, the United Nations General Assembly voted to designate September 16 as the International Day for the Preservation of the Ozone Layer, or "World Ozone Day", to commemorate the signing of the Montreal Protocol on that date in 1987.[131]
+
+See also [ edit ]
+
+References [ edit ]

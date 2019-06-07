@@ -1,0 +1,1877 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <link rel="icon" type="image/png" href="//cfrd8-files.cfr.org//themes/custom/cfr_theme/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="//cfrd8-files.cfr.org//themes/custom/cfr_theme/favicon-16x16.png" sizes="16x16" />
+    <link rel="apple-touch-icon" href="//cfrd8-files.cfr.org//themes/custom/cfr_theme/apple-touch-icon.png" />
+    <meta property="fb:pages" content="10234472029" />
+
+    <!-- ChartBeat Analytics -->
+    <script type='text/javascript'>var _sf_startpt=(new Date()).getTime()</script>
+    <!-- End ChartBeat Analytics -->
+    <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<style id="chartbeat-flicker-control-style" type="text/css">body { visibility: hidden !important; }</style>
+<script>var dataLayer = [{"author":["James  McBride","Mohammed Aly  Sergie"],"topic":["Trade","Regional Organizations","Treaties and Agreements"],"region":["Americas"],"content type":"Backgrounder","pub type":"article","user category":"anonymous","nodeid_dl":"6882"}];</script>
+<script>function euCookieComplianceLoadScripts() {}</script>
+<style>div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {background: #0779bf} div#sliding-popup.eu-cookie-withdraw-wrapper { background: transparent; } #sliding-popup h1, #sliding-popup h2, #sliding-popup h3, #sliding-popup p, .eu-cookie-compliance-more-button, .eu-cookie-compliance-secondary-button, .eu-cookie-withdraw-tab { color: #ffffff;} .eu-cookie-withdraw-tab { border-color: #ffffff;}</style>
+<meta name="title" content="NAFTA’s Economic Impact | Council on Foreign Relations" />
+<meta property="og:site_name" content="Council on Foreign Relations" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="canonical" href="https://www.cfr.org/backgrounder/naftas-economic-impact" />
+<meta property="og:type" content="article" />
+<meta name="description" content="President Trump has reached a deal with Canada and Mexico to restructure the North American Free Trade Agreement, hoping a new trilateral accord will reinvigorate the U.S. manufacturing sector.  " />
+<meta name="twitter:site" content="@CFR_org" />
+<meta name="news_keywords" content="Trade, NAFTA, Americas, Regional Organizations, Treaties and Agreements" />
+<meta property="og:title" content="NAFTA’s Economic Impact" />
+<link rel="image_src" href="NAFTA Header image" />
+<meta name="keywords" content="Trade, NAFTA, Americas, Regional Organizations, Treaties and Agreements" />
+<meta property="og:image" content="https://cfrd8-files.cfr.org/sites/default/files/styles/full_width_xl/public/image/2017/04/NAFTA-Header-1280x720.jpg" />
+<meta property="og:image" content="https://www.cfr.org//themes/custom/cfr_theme/src/assets/images/cfr-logo-og.png" />
+<meta property="og:street_address" content="58 East 68th Street" />
+<meta property="og:locality" content="New York" />
+<meta property="og:region" content="NY" />
+<meta property="og:postal_code" content="10065" />
+<meta property="og:country_name" content="USA" />
+<meta property="og:phone_number" content="1.212.434.9400" />
+<meta property="og:fax_number" content="1.212.434.9800" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta property="og:url" content="https://www.cfr.org/backgrounder/naftas-economic-impact" />
+<meta property="og:description" content="President Trump has reached a deal with Canada and Mexico to restructure the North American Free Trade Agreement, hoping a new trilateral accord will reinvigorate the U.S. manufacturing sector.  " />
+<meta name="twitter:title" content="NAFTA’s Economic Impact" />
+<meta name="twitter:description" content="President Trump has reached a deal with Canada and Mexico to restructure the North American Free Trade Agreement, hoping a new trilateral accord will reinvigorate the U.S. manufacturing sector.  " />
+<meta name="twitter:image" content="https://cfrd8-files.cfr.org/sites/default/files/styles/full_width_xl/public/image/2017/04/NAFTA-Header-1280x720.jpg" />
+<link rel="shortcut icon" href="//cfrd8-files.cfr.org/themes/custom/cfr_theme/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <meta name="google-site-verification" content="ed21dLJA4q-k2GnrORmTFP8mc97sOOWjd-ZkJbmPCgw" />
+    <meta name="msvalidate.01" content="846D62D6CE4E94B1C328BE585F36F0DE" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-KFS3NQ');</script>
+    <!-- End Google Tag Manager -->
+
+    <title>NAFTA’s Economic Impact | Council on Foreign Relations</title>
+    <link rel="stylesheet" href="//cfrd8-files.cfr.org/sites/default/files/css/css_0nVWwxDaNuZZuuzpdajz1Gn-n42WbhYYMoVREx0Koaw.css?psc0nn" media="all" />
+<link rel="stylesheet" href="//cfrd8-files.cfr.org/sites/default/files/css/css_5GMgIompqK5hIFfAbjn9Um0Ew78bU_Pcp0A1AY4dYJM.css?psc0nn" media="all" />
+
+    
+<!--[if lte IE 8]>
+<script src="//cfrd8-files.cfr.org/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+<script src="//cfrd8-files.cfr.org/sites/default/files/js/js_JvjVZf22lVrqBDpom2woUqDL0kH_iOH-F9GakV8hJvE.js"></script>
+<script src="//static.chartbeat.com/js/chartbeat_mab.js"></script>
+<script src="https://use.typekit.net/ygq0fud.js" async></script>
+<script src="https://www.google.com/recaptcha/api.js?render=explicit" async defer></script>
+
+
+  </head>
+  <body class="toolbar-themes toolbar-no-tabs toolbar-no-icons toolbar-themes-admin-theme--cfr-admin node-article published">
+  <div class="body-clip-overflow">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFS3NQ"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+        <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+<div class="layout-container">
+
+  <header role="banner">
+      <div>
+    <div id="block-newsalert">
+  
+    
+      
+
+
+  </div>
+<div id="block-topicnavigationblock">
+  
+    
+      
+
+
+
+
+<div class="main-nav-overlay">&nbsp;</div>
+<div class="search-overlay">
+  <div class="search-overlay__main-wrapper">
+    <div class="search-overlay__close-hotspot">
+            <svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg" class="icon icon-close">
+    <title>Close</title>
+    <path d="M10.417 12.5L0 22.917 2.083 25 12.5 14.583 22.917 25 25 22.917 14.583 12.5 25 2.083 22.917 0 12.5 10.417 2.083 0 0 2.083 10.417 12.5z" class="icon-fill" fill="none"/>
+</svg>
+  
+    </div>
+    <span class="search-overlay__title">Search</span>
+    <form class="search-overlay__form" action="/search">
+      <input class="search-overlay__search-bar" type="search" name="keyword" placeholder="What are you searching for?">
+        
+                
+  
+  
+  <div class="button-container button-container--with-breakpoints button-container--color-transparent button-container--size-regular button-container--type-single ">
+        <button class="button-container__btn" >Search</button>
+
+      </div>
+
+    </form>
+        <span class="search-overlay__sub-title">Popular Searches</span>
+    <ul class="search-overlay__popular-searches">
+              <li class="search-overlay__popular-search-item">
+          <a class="search-overlay__popular-search-item-link" href="/search?keyword=Iran">Iran</a>
+        </li>
+              <li class="search-overlay__popular-search-item">
+          <a class="search-overlay__popular-search-item-link" href="/search?keyword=North%20Korea">North Korea</a>
+        </li>
+              <li class="search-overlay__popular-search-item">
+          <a class="search-overlay__popular-search-item-link" href="/search?keyword=Turkey">Turkey</a>
+        </li>
+              <li class="search-overlay__popular-search-item">
+          <a class="search-overlay__popular-search-item-link" href="/search?keyword=Syria">Syria</a>
+        </li>
+              <li class="search-overlay__popular-search-item">
+          <a class="search-overlay__popular-search-item-link" href="/search?keyword=China">China</a>
+        </li>
+              <li class="search-overlay__popular-search-item">
+          <a class="search-overlay__popular-search-item-link" href="/search?keyword=Mexico">Mexico</a>
+        </li>
+              <li class="search-overlay__popular-search-item">
+          <a class="search-overlay__popular-search-item-link" href="/search?keyword=Russia">Russia</a>
+        </li>
+              <li class="search-overlay__popular-search-item">
+          <a class="search-overlay__popular-search-item-link" href="/search?keyword=Venezuela">Venezuela</a>
+        </li>
+              <li class="search-overlay__popular-search-item">
+          <a class="search-overlay__popular-search-item-link" href="/search?keyword=Iraq">Iraq</a>
+        </li>
+          </ul>
+      </div>
+</div>
+
+<nav class="main-nav main-nav--with-trending ">
+  <a href="/" class="main-nav__logo-btn">
+          <svg viewBox="0 0 125 60" class="main-nav__logo-signature icon-logo-signature" xmlns="http://www.w3.org/2000/svg">
+    <title>Logo</title>
+    <path d="M106.909 13.178c-.502.92-1.081 1.458-1.854 1.458-.713 0-1.01-.522-.975-1.458.062-1.772 1.163-4.833 2.824-4.833.6 0 .999.416.97 1.371-.026.912-.386 2.406-.965 3.462m-.055-5.377c-2.64 0-4.56 2.264-4.63 4.755-.04 1.428.743 2.647 2.703 2.647 3.06 0 4.676-2.7 4.73-4.714.053-1.57-.944-2.688-2.803-2.688m17.484 3.789c0-.612-.316-1.01-.782-1.01-.404 0-.679.3-.679.677 0 .483.45.613.45 1.239-.001.259-.103.519-.32.765-.31.297-.748.513-2.042.513h-3.142c-.364 0-.465-.154-.313-.587.468-1.341 1.109-2.92 1.241-3.587.176-.876-.203-1.687-1.315-1.687-1.749 0-2.89 1.524-4.426 4.42h-.089s1.115-2.606 1.115-3.464c0-.61-.367-.946-1.026-.946-1.009 0-2.041 1.05-2.486 1.63l.31.302c.203-.255.51-.557.737-.733.402-.312.808-.263.687.407-.155.866-1.328 3.959-1.961 5.535h1.827c1.875-3.756 3.251-6.174 4.345-6.174.317 0 .483.196.483.53 0 .675-.985 2.959-1.389 4.312-.238.8-.183 1.332.52 1.332h3.498c1.451 0 2.618-.677 3.122-1.04 1.003-.68 1.635-1.614 1.635-2.433M10.751 24.923v-2.138H2.058v14.48h2.448V30.94h5.657v-2.143H4.506v-3.874zm71.256-.185c-1.474-1.462-3.291-2.302-5.748-2.302-4.258 0-7.677 3.079-7.676 7.66-.001 4.576 3.074 7.48 7.453 7.48h.014c4.075 0 7.1-2.548 7.115-6.755v-.448h-7.093v2.06h4.397c-.473 2.002-2.291 2.938-4.271 2.938-3.055 0-5.025-2.035-5.028-5.347.008-3.065 2.025-5.4 4.976-5.405 2.104 0 3.426.977 4.223 1.776l1.638-1.657zM4.49 51.483v-4.486h2.005c2.614 0 2.919 1.203 2.919 2.105 0 .888-.377 2.381-2.901 2.381H4.49zm3.519 1.851s-.018-.018.112-.034c2.109-.247 3.73-1.928 3.73-4.252 0-2.538-1.893-4.18-4.818-4.18H2.058v14.535H4.49v-6.019h.592l4.895 6.02h3.09l-5.06-6.07zm9.314-8.445v14.533h9.205v-2.114h-6.68v-4.337h5.546v-2.108h-5.546v-3.866h6.21v-2.108zm13.937-.022v14.535h8.865v-2.094h-6.343v-12.44zm24.952 0v2.13h4.494v12.407h2.438V46.995h4.49v-2.13zM71.44 59.402h2.529V44.866H71.44zm35.288-5.305l-9.756-9.776v15.082h2.43v-9.167c.423.418 9.757 9.764 9.757 9.764V44.867h-2.431v9.23zm11.854-3.111c-1.794-.892-2.6-1.555-2.6-2.6 0-1.58 1.623-1.775 2.107-1.775 1.029 0 1.988.344 2.834 1.133l1.234-1.761c-1.366-1.073-2.622-1.393-4.068-1.393-2.648 0-4.5 1.61-4.5 3.924 0 2.215 1.455 3.317 3.917 4.575 1.699.867 2.557 1.632 2.557 2.654 0 1.142-.993 1.819-2.301 1.819-1.38 0-2.47-.465-3.567-1.488l-1.375 1.721c1.582 1.46 3.24 1.87 4.763 1.87 3.286 0 4.942-1.864 4.942-4.14 0-2.331-1.765-3.454-3.943-4.54M12.08 11.201c-1.172 1.342-2.672 2.016-4.33 2.016-2.959 0-5.17-2.004-5.17-5.403 0-3.105 2.076-5.258 4.862-5.258 1.55 0 2.882.51 4.066 1.695l1.618-1.64C11.686 1.083 9.828.363 7.47.363 3.244.363 0 3.586 0 7.884c0 4.511 3.088 7.523 7.433 7.523 2.561 0 4.584-.862 6.046-2.523l-1.399-1.683zm66.172.03c-1.172 1.341-2.547 1.975-4.422 1.975-3.084 0-5.17-2.004-5.17-5.402 0-3.104 2.084-5.267 4.87-5.267 1.55 0 2.883.51 4.066 1.695l1.6-1.619c-1.39-1.536-3.287-2.25-5.645-2.25-4.343 0-7.472 3.223-7.472 7.521 0 4.511 3 7.523 7.435 7.523 2.677 0 4.676-.822 6.137-2.483l-1.4-1.693zm-38.644 4.05c3.432 0 5.411-1.862 5.973-4.36.11-.496.165-1.217.165-1.834V.548H43.31v8.468c0 2.721-1.342 4.075-3.68 4.075-2.41 0-3.854-1.398-3.854-4.075V.548H33.34v8.54c0 .642.057 1.338.17 1.833.573 2.498 2.598 4.36 6.1 4.36m13.05-9.512c.425.419 9.83 9.91 9.83 9.91V.548h-2.372v9.365L50.294 0v15.082h2.366V5.769zm30.062 9.313h2.525V.548h-2.525zM90.25.548V15.08h8.942v-2.095h-6.41V.548zM22.66 2.403c-2.794 0-5.06 2.216-5.06 5.466s2.154 5.467 5.06 5.467c2.904 0 5.056-2.217 5.056-5.467 0-3.25-2.264-5.466-5.057-5.466m-7.613 5.464C15.042 3.503 18.316.25 22.66.25c4.344 0 7.614 3.254 7.613 7.618.001 4.362-3.136 7.617-7.613 7.617-4.478 0-7.617-3.255-7.613-7.617m5.94 16.692c-2.793 0-5.057 2.216-5.057 5.467 0 3.25 2.152 5.467 5.057 5.467 2.906 0 5.057-2.217 5.057-5.467 0-3.251-2.263-5.467-5.057-5.467m-7.613 5.465c-.005-4.365 3.269-7.62 7.613-7.62 4.345 0 7.616 3.255 7.614 7.62.002 4.363-3.137 7.617-7.614 7.617s-7.618-3.254-7.613-7.617m36.748.788h5.546v-2.108h-5.546v-3.866h6.208v-2.108h-8.734v14.534h9.205v-2.114h-6.679zm11.533 6.452h2.525V22.73h-2.525zm-26.489-7.92v-4.487h2.004c2.613 0 2.919 1.203 2.919 2.107 0 .887-.378 2.38-2.901 2.38h-2.022zm3.519 1.85s-.019-.017.111-.033c2.108-.247 3.73-1.928 3.73-4.252 0-2.538-1.894-4.182-4.818-4.182h-4.975v14.537h2.433v-6.018h.592l4.895 6.018h3.09l-5.058-6.07zm3.449 28.204h2.541l1.416-3.376h5.558l1.393 3.376h2.682l-6.774-15.49-6.816 15.49zm6.732-10.073l1.89 4.542h-3.789l1.9-4.542zm36.612-2.6c-2.792 0-5.056 2.216-5.056 5.466 0 3.251 2.153 5.468 5.056 5.468 2.907 0 5.06-2.217 5.06-5.468 0-3.25-2.264-5.466-5.06-5.466m-7.613 5.464c-.004-4.365 3.27-7.617 7.614-7.617 4.344 0 7.617 3.252 7.614 7.617.002 4.362-3.138 7.618-7.615 7.618s-7.617-3.256-7.613-7.618m11.558-24.238c.424.419 9.829 9.909 9.829 9.909V22.73h-2.37v9.366l-9.823-9.913v15.082h2.364v-9.313z" class="icon-fill" fill="none"/>
+</svg>
+  
+          <svg viewBox="0 0 24 31" class="main-nav__logo-monogram icon-logo-monogram" xmlns="http://www.w3.org/2000/svg">
+    <title>Logo</title>
+    <path d="M19.7 1.268C19.7.544 19.188 0 18.34 0c-1.908 0-3.523 2.049-4.418 3.55-1.471 2.463-2.456 6.02-3.235 9.78-.116.56-.545 2.667-.545 2.667H8.254l-.123.652h1.896c-.398 2.261-1.202 6.353-1.711 8.603-.47 2.075-1.063 4.396-2.657 4.988.185-.215.262-.586.262-.83-.001-.602-.497-1.107-1.202-1.107-.867 0-1.367.622-1.373 1.31-.005.739.534 1.298 1.537 1.298 1.97 0 4.832-2.082 6.337-9.018.328-1.516 1.039-5.244 1.039-5.244h1.96l.121-.652h-1.958s.717-3.92 1.43-7.123c.91-4.092 1.932-7.164 3.51-8.11a1.294 1.294 0 0 0-.225.709c0 .711.492 1.203 1.23 1.2.734-.003 1.374-.544 1.374-1.405zm4.178 11.912c0-.519-.368-1.189-1.314-1.189-1.72 0-2.84 2.174-3.33 3.214.165-.741.269-1.368.269-1.853 0-.82-.444-1.281-1.136-1.281-1.588 0-2.766 2.214-2.926 2.541l.4.208c.46-.848.965-1.414 1.356-1.414.248 0 .403.209.333.808-.105.918-.846 3.958-1.383 6.14h1.922s.325-1.197.678-2.385c.737-2.473 1.754-4.278 2.581-4.879a1.22 1.22 0 0 0-.04.338c.004.57.398 1.15 1.193 1.15.9 0 1.397-.678 1.397-1.398zm-18.995.668c0 .63.459 1.096 1.193 1.096.76 0 1.407-.587 1.407-1.422 0-.898-.763-1.572-2.28-1.572C2.277 11.95 0 14.44 0 17.308c0 1.983 1.247 3.261 3.256 3.261 2.21 0 3.359-1.482 3.864-2.243l-.401-.237c-.26.39-1.253 1.641-2.65 1.641-1.244 0-1.887-.905-1.887-2.48 0-2.637 1.463-4.78 3.078-4.78.282 0 .523.053.647.122-.626.147-1.024.653-1.024 1.256z" class="icon-fill" fill="none"/>
+</svg>
+  
+  </a>
+  <div class="main-nav__menu-hotspot">
+    <div class="main-nav__menu-btn">
+      <span class="main-nav__menu-btn-bar"></span>
+    </div>
+  </div>
+  <div class="main-nav__search-hotspot">
+          <svg viewBox="0 0 24 24" class="icon icon-search" xmlns="http://www.w3.org/2000/svg">
+    <title>Search</title>
+    <g class="icon-fill" fill="none" fill-rule="evenodd">
+        <path d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0-2a6 6 0 1 1 0-12 6 6 0 0 1 0 12z"/>
+        <path d="M14.293 15.707l7 7 1.414-1.414-7-7z"/>
+    </g>
+</svg>
+  
+          <svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg" class="icon icon-close">
+    <title>Close</title>
+    <path d="M10.417 12.5L0 22.917 2.083 25 12.5 14.583 22.917 25 25 22.917 14.583 12.5 25 2.083 22.917 0 12.5 10.417 2.083 0 0 2.083 10.417 12.5z" class="icon-fill" fill="none"/>
+</svg>
+  
+  </div>
+    <div class="main-nav__trending-container main-nav__trending-container--start">
+    <div class="main-nav__trending-strip">
+      <h5 class="main-nav__trending-title">Trending</h5>
+      <ul class="main-nav__trending-list">
+                  <li class="main-nav__trend-item">
+            <a href="https://www.cfr.org/backgrounder/truth-about-tariffs" class="main-nav__trend-item-link">Tariffs</a>
+          </li>
+                  <li class="main-nav__trend-item">
+            <a href="https://www.cfr.org/article/containing-russia-again-adversary-attacked-united-states-its-time-respond" class="main-nav__trend-item-link">Russian Hacking</a>
+          </li>
+                  <li class="main-nav__trend-item">
+            <a href="https://www.cfr.org/european-union" class="main-nav__trend-item-link">European Union</a>
+          </li>
+                  <li class="main-nav__trend-item">
+            <a href="https://www.cfr.org/middle-east-and-north-africa/iran" class="main-nav__trend-item-link">Iran</a>
+          </li>
+                  <li class="main-nav__trend-item">
+            <a href="https://www.cfr.org/asia/china" class="main-nav__trend-item-link">China</a>
+          </li>
+              </ul>
+    </div>
+  </div>
+        <div class="main-nav__members main-nav__members--wider-than-tablet">
+      <ul class="main-nav__members-list">
+        <li class="main-nav__members-list-item"><a href="/member/login" class="main-nav__members-link">Member Login</a></li>
+      </ul>
+    </div>
+    <div class="main-nav__menu-container">
+    <ul class="main-nav__categories">
+        <li class="main-nav__category">
+      <h4 class="main-nav__title">
+        <a href="/topics" class="main-nav__category-title-link">Topics</a>
+      </h4>
+      <div class="main-nav__sub-categories">
+        <ul class="main-nav__sub-categories-list">
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/topics" class="main-nav__sub-category-link macro-utils__link-to">All Topics</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/defense-and-security" class="main-nav__sub-category-link macro-utils__link-to">Defense &amp; Security</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/diplomacy-and-international-institutions" class="main-nav__sub-category-link macro-utils__link-to">Diplomacy &amp; International Institutions</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/economics" class="main-nav__sub-category-link macro-utils__link-to">Economics</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/energy-and-environment" class="main-nav__sub-category-link macro-utils__link-to">Energy &amp; Environment</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/health" class="main-nav__sub-category-link macro-utils__link-to">Health</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/human-rights" class="main-nav__sub-category-link macro-utils__link-to">Human Rights</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/politics-and-government" class="main-nav__sub-category-link macro-utils__link-to">Politics &amp; Government</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/social-issues" class="main-nav__sub-category-link macro-utils__link-to">Social Issues</a>
+
+          </li>
+                        </ul>
+      </div>
+    </li>
+        <li class="main-nav__category">
+      <h4 class="main-nav__title">
+        <a href="/regions" class="main-nav__category-title-link">Regions</a>
+      </h4>
+      <div class="main-nav__sub-categories">
+        <ul class="main-nav__sub-categories-list">
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/regions" class="main-nav__sub-category-link macro-utils__link-to">All Regions</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/americas" class="main-nav__sub-category-link macro-utils__link-to">Americas</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/asia" class="main-nav__sub-category-link macro-utils__link-to">Asia</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/europe-and-eurasia" class="main-nav__sub-category-link macro-utils__link-to">Europe &amp; Eurasia</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/global-commons" class="main-nav__sub-category-link macro-utils__link-to">Global Commons</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/middle-east-and-north-africa" class="main-nav__sub-category-link macro-utils__link-to">Middle East &amp; North Africa</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/oceania" class="main-nav__sub-category-link macro-utils__link-to">Oceania</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/sub-saharan-africa" class="main-nav__sub-category-link macro-utils__link-to">Sub-Saharan Africa</a>
+
+          </li>
+                        </ul>
+      </div>
+    </li>
+        <li class="main-nav__category">
+      <h4 class="main-nav__title">
+        <a href="/think-tank" class="main-nav__category-title-link">Think Tank</a>
+      </h4>
+      <div class="main-nav__sub-categories">
+        <ul class="main-nav__sub-categories-list">
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/think-tank" class="main-nav__sub-category-link macro-utils__link-to">More Think Tank</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/experts" class="main-nav__sub-category-link macro-utils__link-to">CFR Experts</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/programs" class="main-nav__sub-category-link macro-utils__link-to">Centers &amp; Programs</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/blog" class="main-nav__sub-category-link macro-utils__link-to">Blogs</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/in-the-news" class="main-nav__sub-category-link macro-utils__link-to">In the News</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/publications" class="main-nav__sub-category-link macro-utils__link-to">Publications</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/fellowships" class="main-nav__sub-category-link macro-utils__link-to">Fellowships</a>
+
+          </li>
+                        </ul>
+      </div>
+    </li>
+        <li class="main-nav__category">
+      <h4 class="main-nav__title">
+        <a href="/cfr-presents" class="main-nav__category-title-link">CFR Presents</a>
+      </h4>
+      <div class="main-nav__sub-categories">
+        <ul class="main-nav__sub-categories-list">
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/cfr-presents" class="main-nav__sub-category-link macro-utils__link-to">CFR Presents</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/event" class="main-nav__sub-category-link macro-utils__link-to">Events</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/event-series" class="main-nav__sub-category-link macro-utils__link-to">Series</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/explainers" class="main-nav__sub-category-link macro-utils__link-to">Explainers</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/quiz" class="main-nav__sub-category-link macro-utils__link-to">Quizzes</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/podcast-series" class="main-nav__sub-category-link macro-utils__link-to">Podcasts</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/conference-call-series" class="main-nav__sub-category-link macro-utils__link-to">Conference Calls</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/independent-task-force-program" class="main-nav__sub-category-link macro-utils__link-to">Independent Task Force Program</a>
+
+          </li>
+                        </ul>
+      </div>
+    </li>
+        <li class="main-nav__category">
+      <h4 class="main-nav__title">
+        <a href="/campus/cfr-campus" class="main-nav__category-title-link">CFR Campus</a>
+      </h4>
+      <div class="main-nav__sub-categories">
+        <ul class="main-nav__sub-categories-list">
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/campus/cfr-campus" class="main-nav__sub-category-link macro-utils__link-to">All CFR Campus</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/campus/about-cfr-campus" class="main-nav__sub-category-link macro-utils__link-to">About CFR Campus</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/campus/programs" class="main-nav__sub-category-link macro-utils__link-to">Programs</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/campus/teaching-notes" class="main-nav__sub-category-link macro-utils__link-to">Teaching Notes</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/campus/model-diplomacy" class="main-nav__sub-category-link macro-utils__link-to">Model Diplomacy</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/campus/world101" class="main-nav__sub-category-link macro-utils__link-to">World101</a>
+
+          </li>
+                        </ul>
+      </div>
+    </li>
+        <li class="main-nav__category">
+      <h4 class="main-nav__title">
+        <a href="/about" class="main-nav__category-title-link">About CFR</a>
+      </h4>
+      <div class="main-nav__sub-categories">
+        <ul class="main-nav__sub-categories-list">
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/about" class="main-nav__sub-category-link macro-utils__link-to">All About CFR</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/membership" class="main-nav__sub-category-link macro-utils__link-to">Membership</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/member-programs" class="main-nav__sub-category-link macro-utils__link-to">Member Programs</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/outreach" class="main-nav__sub-category-link macro-utils__link-to">Outreach</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/media" class="main-nav__sub-category-link macro-utils__link-to">For Media</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/career-opportunities" class="main-nav__sub-category-link macro-utils__link-to">Careers</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/support-cfr" class="main-nav__sub-category-link macro-utils__link-to">Support CFR</a>
+
+          </li>
+                  <li class="main-nav__sub-category">
+                
+                                                
+  
+  
+  <a href="/contact-us" class="main-nav__sub-category-link macro-utils__link-to">Contact</a>
+
+          </li>
+                                    
+  <div class="share-kit  share-kit--icon-color-grey share-kit--bg-color-white  share-kit--theme-none"
+    data-share-anchor=""
+    data-share-query=""
+    data-share-name=""
+    data-share-description=""
+    data-share-caption=""
+    data-share-picture=""
+    data-share-type=""
+  >
+    <div class="share-kit__icons">
+                                    <a class="share-kit__hotspot share-kit__facebook" href="https://www.facebook.com/councilonforeignrelations" target="_blank">
+                    <svg viewBox="0 0 9 19" class="icon icon-facebook" xmlns="http://www.w3.org/2000/svg">
+    <title>Facebook</title>
+    <path d="M0 5.993h1.861V4.171c0-.801.021-2.04.6-2.807C3.071.552 3.91 0 5.35 0c2.347 0 3.336.336 3.336.336l-.465 2.777s-.776-.226-1.5-.226c-.723 0-1.371.26-1.371.99v2.116h2.967l-.206 2.71H5.35v9.42H1.86v-9.42H0v-2.71l4.203 4.532" class="icon-fill" fill="none"/>
+</svg>
+  
+            </a>
+                                                      <a class="share-kit__hotspot share-kit__twitter" href="https://twitter.com/CFR_org" target="_blank">
+                    <svg viewBox="0 0 19 15" class="icon icon-twitter" xmlns="http://www.w3.org/2000/svg">
+    <title>Twitter</title>
+    <path d="M18.686 1.744a7.36 7.36 0 0 1-2.121.585A3.723 3.723 0 0 0 18.189.272a7.404 7.404 0 0 1-2.345.903A3.678 3.678 0 0 0 13.148 0c-2.04 0-3.692 1.664-3.692 3.719 0 .291.031.574.095.846A10.46 10.46 0 0 1 1.939.68c-.319.55-.5 1.187-.5 1.868a3.72 3.72 0 0 0 1.643 3.095 3.634 3.634 0 0 1-1.672-.465c-.002.016-.002.032-.002.048a3.713 3.713 0 0 0 2.964 3.645 3.638 3.638 0 0 1-1.669.064 3.7 3.7 0 0 0 3.45 2.582 7.375 7.375 0 0 1-4.586 1.591c-.298 0-.593-.016-.88-.051a10.406 10.406 0 0 0 5.66 1.67c6.793 0 10.507-5.665 10.507-10.58 0-.16-.003-.32-.011-.48a7.514 7.514 0 0 0 1.843-1.924" class="icon-fill" fill="none"/>
+</svg>
+  
+            </a>
+                                                      <a class="share-kit__hotspot share-kit__youtube" href="https://www.youtube.com/user/cfr/featured" target="_blank">
+                    <svg viewBox="0 0 19 13" class="icon icon-youtube" xmlns="http://www.w3.org/2000/svg">
+    <title>YouTube</title>
+    <path d="M7.817 8.968V3.82L12.6 6.333 7.817 8.968zm10.595-6.631C18.069.955 17.426.423 16.242.23 15.559.13 12.282 0 9.68 0h.011c-2.6 0-5.878.13-6.56.23C1.946.424 1.303.956.96 2.338.846 2.8.686 5.346.686 6.317v.213c0 .97.16 3.516.275 3.98.343 1.382.986 1.914 2.17 2.106.683.101 3.96.23 6.561.23h-.011c2.6 0 5.878-.129 6.56-.23 1.185-.192 1.828-.724 2.17-2.106.116-.464.275-3.009.275-3.98v-.213c0-.971-.159-3.516-.274-3.98z" class="icon-fill" fill="none"/>
+</svg>
+  
+            </a>
+                                                      <a class="share-kit__hotspot share-kit__instagram" href="https://www.instagram.com/cfr_org/" target="_blank">
+                    <svg viewBox="0 0 19 19" class="icon icon-instagram" xmlns="http://www.w3.org/2000/svg">
+    <title>Instagram</title>
+    <path d="M9.703 5.495c-1.996 0-3.615 1.58-3.615 3.527 0 1.948 1.619 3.527 3.615 3.527 1.997 0 3.616-1.58 3.616-3.527 0-1.948-1.619-3.527-3.616-3.527zm6.949 2.169h-1.584c.15.493.23 1.014.23 1.555 0 3.014-2.505 5.458-5.595 5.458S4.11 12.233 4.11 9.219c0-.54.08-1.062.23-1.555H2.686v7.655c0 .396.322.72.716.72h12.534a.72.72 0 0 0 .716-.72V7.664zm-2.853-5.65a.815.815 0 0 0-.81.815v1.953c0 .449.364.816.81.816h2.034c.446 0 .81-.367.81-.816V2.83a.815.815 0 0 0-.81-.816H13.8zM2.997 0h13.379c1.27 0 2.31 1.047 2.31 2.326v13.47c0 1.28-1.04 2.326-2.31 2.326H2.996a2.325 2.325 0 0 1-2.31-2.326V2.326C.686 1.046 1.726 0 2.996 0z" class="icon-fill" fill="none"/>
+</svg>
+  
+            </a>
+                                                      <a class="share-kit__hotspot share-kit__linkedin" href="https://www.linkedin.com/company/council-on-foreign-relations" target="_blank">
+                    <svg viewBox="0 0 19 18" class="icon icon-linkedin" xmlns="http://www.w3.org/2000/svg">
+    <title>LinkedIn</title>
+    <path d="M18.447 17.014h-3.799c0-.163.008-4.169-.007-6.075a4.948 4.948 0 0 0-.151-1.214c-.366-1.386-1.929-1.876-3.037-.962-.536.442-.823 1.013-.822 1.727.007 2.038.003 4.485.003 6.524 0 .144 0-.175 0 0h-3.77V5.599h3.752v1.552c.122-.135.19-.199.244-.274.98-1.347 2.348-1.718 3.906-1.52 1.548.197 2.66 1.037 3.213 2.52.227.61.316 1.272.468 1.91v7.227zM.941 17.013h3.75V5.603H.941v11.41zM2.802 3.99c-.97-.001-1.764-.533-2.018-1.353C.523 1.795.794.887 1.5.422 2.286-.1 3.135-.133 3.969.298c.728.376 1.016 1.04.986 1.842-.04 1.09-.935 1.852-2.153 1.85z" class="icon-fill" fill="none"/>
+</svg>
+  
+            </a>
+                            </div>
+
+      </div>
+
+                </ul>
+      </div>
+    </li>
+        </ul>
+
+          <div class="main-nav__members main-nav__members--mobile">
+        <ul class="main-nav__members-list">
+          <li class="main-nav__members-list-item"><a href="/member/login" class="main-nav__members-link">Member Login</a></li>
+        </ul>
+      </div>
+    
+    
+          <div class="main-nav__corporate-links main-nav__corporate-links--mobile">
+                  
+  <div class="share-kit  share-kit--icon-color-grey share-kit--bg-color-white  share-kit--theme-none"
+    data-share-anchor=""
+    data-share-query=""
+    data-share-name=""
+    data-share-description=""
+    data-share-caption=""
+    data-share-picture=""
+    data-share-type=""
+  >
+    <div class="share-kit__icons">
+                                    <a class="share-kit__hotspot share-kit__facebook" href="https://www.facebook.com/councilonforeignrelations" target="_blank">
+                    <svg viewBox="0 0 9 19" class="icon icon-facebook" xmlns="http://www.w3.org/2000/svg">
+    <title>Facebook</title>
+    <path d="M0 5.993h1.861V4.171c0-.801.021-2.04.6-2.807C3.071.552 3.91 0 5.35 0c2.347 0 3.336.336 3.336.336l-.465 2.777s-.776-.226-1.5-.226c-.723 0-1.371.26-1.371.99v2.116h2.967l-.206 2.71H5.35v9.42H1.86v-9.42H0v-2.71l4.203 4.532" class="icon-fill" fill="none"/>
+</svg>
+  
+            </a>
+                                                      <a class="share-kit__hotspot share-kit__twitter" href="https://twitter.com/CFR_org" target="_blank">
+                    <svg viewBox="0 0 19 15" class="icon icon-twitter" xmlns="http://www.w3.org/2000/svg">
+    <title>Twitter</title>
+    <path d="M18.686 1.744a7.36 7.36 0 0 1-2.121.585A3.723 3.723 0 0 0 18.189.272a7.404 7.404 0 0 1-2.345.903A3.678 3.678 0 0 0 13.148 0c-2.04 0-3.692 1.664-3.692 3.719 0 .291.031.574.095.846A10.46 10.46 0 0 1 1.939.68c-.319.55-.5 1.187-.5 1.868a3.72 3.72 0 0 0 1.643 3.095 3.634 3.634 0 0 1-1.672-.465c-.002.016-.002.032-.002.048a3.713 3.713 0 0 0 2.964 3.645 3.638 3.638 0 0 1-1.669.064 3.7 3.7 0 0 0 3.45 2.582 7.375 7.375 0 0 1-4.586 1.591c-.298 0-.593-.016-.88-.051a10.406 10.406 0 0 0 5.66 1.67c6.793 0 10.507-5.665 10.507-10.58 0-.16-.003-.32-.011-.48a7.514 7.514 0 0 0 1.843-1.924" class="icon-fill" fill="none"/>
+</svg>
+  
+            </a>
+                                                      <a class="share-kit__hotspot share-kit__youtube" href="https://www.youtube.com/user/cfr/featured" target="_blank">
+                    <svg viewBox="0 0 19 13" class="icon icon-youtube" xmlns="http://www.w3.org/2000/svg">
+    <title>YouTube</title>
+    <path d="M7.817 8.968V3.82L12.6 6.333 7.817 8.968zm10.595-6.631C18.069.955 17.426.423 16.242.23 15.559.13 12.282 0 9.68 0h.011c-2.6 0-5.878.13-6.56.23C1.946.424 1.303.956.96 2.338.846 2.8.686 5.346.686 6.317v.213c0 .97.16 3.516.275 3.98.343 1.382.986 1.914 2.17 2.106.683.101 3.96.23 6.561.23h-.011c2.6 0 5.878-.129 6.56-.23 1.185-.192 1.828-.724 2.17-2.106.116-.464.275-3.009.275-3.98v-.213c0-.971-.159-3.516-.274-3.98z" class="icon-fill" fill="none"/>
+</svg>
+  
+            </a>
+                                                      <a class="share-kit__hotspot share-kit__instagram" href="https://www.instagram.com/cfr_org/" target="_blank">
+                    <svg viewBox="0 0 19 19" class="icon icon-instagram" xmlns="http://www.w3.org/2000/svg">
+    <title>Instagram</title>
+    <path d="M9.703 5.495c-1.996 0-3.615 1.58-3.615 3.527 0 1.948 1.619 3.527 3.615 3.527 1.997 0 3.616-1.58 3.616-3.527 0-1.948-1.619-3.527-3.616-3.527zm6.949 2.169h-1.584c.15.493.23 1.014.23 1.555 0 3.014-2.505 5.458-5.595 5.458S4.11 12.233 4.11 9.219c0-.54.08-1.062.23-1.555H2.686v7.655c0 .396.322.72.716.72h12.534a.72.72 0 0 0 .716-.72V7.664zm-2.853-5.65a.815.815 0 0 0-.81.815v1.953c0 .449.364.816.81.816h2.034c.446 0 .81-.367.81-.816V2.83a.815.815 0 0 0-.81-.816H13.8zM2.997 0h13.379c1.27 0 2.31 1.047 2.31 2.326v13.47c0 1.28-1.04 2.326-2.31 2.326H2.996a2.325 2.325 0 0 1-2.31-2.326V2.326C.686 1.046 1.726 0 2.996 0z" class="icon-fill" fill="none"/>
+</svg>
+  
+            </a>
+                                                      <a class="share-kit__hotspot share-kit__linkedin" href="https://www.linkedin.com/company/council-on-foreign-relations" target="_blank">
+                    <svg viewBox="0 0 19 18" class="icon icon-linkedin" xmlns="http://www.w3.org/2000/svg">
+    <title>LinkedIn</title>
+    <path d="M18.447 17.014h-3.799c0-.163.008-4.169-.007-6.075a4.948 4.948 0 0 0-.151-1.214c-.366-1.386-1.929-1.876-3.037-.962-.536.442-.823 1.013-.822 1.727.007 2.038.003 4.485.003 6.524 0 .144 0-.175 0 0h-3.77V5.599h3.752v1.552c.122-.135.19-.199.244-.274.98-1.347 2.348-1.718 3.906-1.52 1.548.197 2.66 1.037 3.213 2.52.227.61.316 1.272.468 1.91v7.227zM.941 17.013h3.75V5.603H.941v11.41zM2.802 3.99c-.97-.001-1.764-.533-2.018-1.353C.523 1.795.794.887 1.5.422 2.286-.1 3.135-.133 3.969.298c.728.376 1.016 1.04.986 1.842-.04 1.09-.935 1.852-2.153 1.85z" class="icon-fill" fill="none"/>
+</svg>
+  
+            </a>
+                            </div>
+
+      </div>
+
+        <a class="main-nav__foreign-link" href="https://www.foreignaffairs.com/" target="_blank">ForeignAffairs.com</a>
+      </div>
+      </div>
+
+      <div class="main-nav__corporate-links main-nav__corporate-links--wider-than-tablet">
+      <a class="main-nav__foreign-link" href="https://www.foreignaffairs.com/" target="_blank">ForeignAffairs.com</a>
+    </div>
+  
+  
+  <!-- Article Navigation Elements -->
+  <div class="main-nav__article-title">
+    <span class="main-nav__article-title-text"></span>
+              
+  <div class="share-kit share-kit--collapsed share-kit--icon-color-brown share-kit--bg-color-beige  share-kit--theme-none"
+    data-share-anchor=""
+    data-share-query=""
+    data-share-name=""
+    data-share-description=""
+    data-share-caption=""
+    data-share-picture=""
+    data-share-type=""
+  >
+    <div class="share-kit__icons">
+                        <button class="share-kit__hotspot share-kit__facebook" onclick="CFR.Share.facebook(this)">
+                  <svg viewBox="0 0 9 19" class="icon icon-facebook" xmlns="http://www.w3.org/2000/svg">
+    <title>Facebook</title>
+    <path d="M0 5.993h1.861V4.171c0-.801.021-2.04.6-2.807C3.071.552 3.91 0 5.35 0c2.347 0 3.336.336 3.336.336l-.465 2.777s-.776-.226-1.5-.226c-.723 0-1.371.26-1.371.99v2.116h2.967l-.206 2.71H5.35v9.42H1.86v-9.42H0v-2.71l4.203 4.532" class="icon-fill" fill="none"/>
+</svg>
+  
+          </button>
+                                <button class="share-kit__hotspot share-kit__twitter" onclick="CFR.Share.twitter(this)">
+                  <svg viewBox="0 0 19 15" class="icon icon-twitter" xmlns="http://www.w3.org/2000/svg">
+    <title>Twitter</title>
+    <path d="M18.686 1.744a7.36 7.36 0 0 1-2.121.585A3.723 3.723 0 0 0 18.189.272a7.404 7.404 0 0 1-2.345.903A3.678 3.678 0 0 0 13.148 0c-2.04 0-3.692 1.664-3.692 3.719 0 .291.031.574.095.846A10.46 10.46 0 0 1 1.939.68c-.319.55-.5 1.187-.5 1.868a3.72 3.72 0 0 0 1.643 3.095 3.634 3.634 0 0 1-1.672-.465c-.002.016-.002.032-.002.048a3.713 3.713 0 0 0 2.964 3.645 3.638 3.638 0 0 1-1.669.064 3.7 3.7 0 0 0 3.45 2.582 7.375 7.375 0 0 1-4.586 1.591c-.298 0-.593-.016-.88-.051a10.406 10.406 0 0 0 5.66 1.67c6.793 0 10.507-5.665 10.507-10.58 0-.16-.003-.32-.011-.48a7.514 7.514 0 0 0 1.843-1.924" class="icon-fill" fill="none"/>
+</svg>
+  
+          </button>
+                                <button class="share-kit__hotspot share-kit__linkedin" onclick="CFR.Share.linkedin(this)">
+                  <svg viewBox="0 0 19 18" class="icon icon-linkedin" xmlns="http://www.w3.org/2000/svg">
+    <title>LinkedIn</title>
+    <path d="M18.447 17.014h-3.799c0-.163.008-4.169-.007-6.075a4.948 4.948 0 0 0-.151-1.214c-.366-1.386-1.929-1.876-3.037-.962-.536.442-.823 1.013-.822 1.727.007 2.038.003 4.485.003 6.524 0 .144 0-.175 0 0h-3.77V5.599h3.752v1.552c.122-.135.19-.199.244-.274.98-1.347 2.348-1.718 3.906-1.52 1.548.197 2.66 1.037 3.213 2.52.227.61.316 1.272.468 1.91v7.227zM.941 17.013h3.75V5.603H.941v11.41zM2.802 3.99c-.97-.001-1.764-.533-2.018-1.353C.523 1.795.794.887 1.5.422 2.286-.1 3.135-.133 3.969.298c.728.376 1.016 1.04.986 1.842-.04 1.09-.935 1.852-2.153 1.85z" class="icon-fill" fill="none"/>
+</svg>
+  
+          </button>
+                                <button class="share-kit__hotspot share-kit__e-mail-filled" onclick="CFR.Share.email(this)">
+                  <svg viewBox="0 0 23 14" class="icon icon-e-mail-filled" xmlns="http://www.w3.org/2000/svg">
+    <title>Email</title>
+    <path d="M.915 0l10.258 7.808L21.673 0H.915zm10.258 8.804L0 .297V14h22.615V.297L11.173 8.804z" class="icon-fill" fill="none"/>
+</svg>
+  
+          </button>
+                                <button class="share-kit__hotspot share-kit__print-filled" onclick="CFR.Share.print(this)">
+                  <svg viewBox="0 0 17 17" class="icon icon-print-filled" xmlns="http://www.w3.org/2000/svg">
+    <title>Print</title>
+    <g class="icon-fill" fill="none" fill-rule="evenodd">
+        <path d="M13.985 4.973V2.92h-2.911V.212a.21.21 0 0 0-.21-.21H3.142a.21.21 0 0 0-.21.21v4.971h10.843a.21.21 0 0 0 .21-.21m2.923 1.062a.202.202 0 0 0-.202-.202H.202A.201.201 0 0 0 0 6.035l.021 7.695c0 .111.09.202.202.202h2.085v-4.97c0-.47.382-.853.852-.853h10.63c.47 0 .851.382.851.852v4.971h2.086a.203.203 0 0 0 .202-.202l-.02-7.695z"/>
+        <path d="M10.774 11.66H6.176a.326.326 0 0 1 0-.65h4.598a.324.324 0 1 1 0 .65m0 2.921H6.176a.326.326 0 0 1 0-.65h4.598a.324.324 0 1 1 0 .65M13.79 8.76H3.16a.201.201 0 0 0-.201.202v7.67c0 .11.09.201.202.201H13.79a.203.203 0 0 0 .202-.202v-7.67a.202.202 0 0 0-.202-.202m.195-6.469h-2.08a.21.21 0 0 1-.21-.21V0l2.29 2.29z"/>
+    </g>
+</svg>
+  
+          </button>
+                                <button class="share-kit__hotspot share-kit__pdf" onclick="CFR.Share.pdf(this)">
+                  <svg viewBox="0 0 14 17" class="icon icon-pdf" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13.503 0H.343A.343.343 0 0 0 0 .343v16.065c0 .189.153.342.343.342h13.16c.19 0 .343-.153.343-.342V.343A.343.343 0 0 0 13.503 0zm-2.157 5.798H5.54a.342.342 0 1 1 0-.683h5.806a.341.341 0 1 1 0 .683zm0 2.919H5.54a.342.342 0 1 1 0-.683h5.806a.341.341 0 1 1 0 .683zm0 2.919H5.54a.342.342 0 1 1 0-.683h5.806a.34.34 0 1 1 0 .683zm-8.394 1.981a.342.342 0 1 1-.683 0V3.222a.342.342 0 1 1 .683 0v10.395z" class="icon-fill" fill="none"/>
+</svg>
+  
+          </button>
+                  </div>
+
+          <button type="button" class="share-kit__hotspot share-kit__collapse-btn">
+                      <svg viewBox="0 0 22 24" class="icon icon-share" xmlns="http://www.w3.org/2000/svg">
+    <title>Share</title>
+    <g class="icon-fill" fill="none" fill-rule="evenodd">
+        <path d="M8.292 2.255L2.444 8.037V6.47l5.848 5.782A1.103 1.103 0 1 1 6.74 13.82L.893 8.037a1.103 1.103 0 0 1 0-1.568L6.741.686a1.103 1.103 0 1 1 1.55 1.569z"/>
+        <path d="M19.485 22.766c0-8.01-6.783-14.59-14.988-14.59H1.899a1.103 1.103 0 0 1 0-2.206h2.598c9.409 0 17.194 7.553 17.194 16.796a1.103 1.103 0 1 1-2.206 0z"/>
+    </g>
+</svg>
+  
+      </button>
+      </div>
+
+  </div>
+
+</nav>
+
+<!-- Helper is used to hold the navigation in place when it de-attaches from the body -->
+<!-- Adding margin-top to body tag causes jumping issues and mis-positions high-light-to-share component -->
+<!-- Helper also ensures navigation component remains autonomous from other components -->
+<div class="main-nav-helper"></div>
+
+  </div>
+
+  </div>
+
+  </header>
+
+  <main role="main">
+    <a id="main-content" tabindex="-1"></a>
+    <div class="layout-content">
+        <div id="block-cfr-theme-messages">
+  
+    
+      
+  </div>
+<div class="block-region-top"><div>
+  
+    
+      
+<article role="article" about="/backgrounder/naftas-economic-impact" class="cfr-transported-content main-wrapper right-rail-below" data-nid="6882">
+  <div>
+          
+
+
+  
+
+  <header class="article-header article-header--landscape-image article-header--without-btn article-header--without-isbn  ">
+  
+  <div class="article-header__main-wrapper">
+
+    
+    <div class="article-header__main-section">
+      <section class="article-header__section-top">
+        <h1 class="article-header__title">NAFTA’s Economic Impact</h1>
+                          <figure class="article-header__image for-tablet-down">
+  <div class="article-header__image-picture">
+    
+      
+          <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="//cfrd8-files.cfr.org/sites/default/files/styles/article_header_l_16x9_600px/public/image/2017/04/NAFTA-Header-1280x720.jpg 1x" media="all and (min-width: 1280px)" type="image/jpeg"/>
+              <source srcset="//cfrd8-files.cfr.org/sites/default/files/styles/article_header_m_480px/public/image/2017/04/NAFTA-Header-1280x720.jpg 1x" media="all and (max-width: 1279px) and (min-width: 1024px)" type="image/jpeg"/>
+              <source srcset="//cfrd8-files.cfr.org/sites/default/files/styles/article_header_l_16x9_600px/public/image/2017/04/NAFTA-Header-1280x720.jpg 1x" media="all and (max-width: 1023px) and (min-width: 750px)" type="image/jpeg"/>
+              <source srcset="//cfrd8-files.cfr.org/sites/default/files/styles/article_header_s_260px/public/image/2017/04/NAFTA-Header-1280x720.jpg 1x" media="all and (max-width: 749px)" type="image/jpeg"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="//cfrd8-files.cfr.org/sites/default/files/styles/article_header_l_16x9_600px/public/image/2017/04/NAFTA-Header-1280x720.jpg" alt="" typeof="foaf:Image" />
+
+  </picture>
+
+
+      
+      </div>
+        <figcaption class="article-header__image-caption">
+      Mexican commercial trucks cross the border into the United States at Laredo, Texas.
+              <span class="author">(Josue Gonzalez/Reuters)</span>
+          </figcaption>
+  </figure>                          <p class="article-header__description">President Trump has reached a deal with Canada and Mexico to restructure the North American Free Trade Agreement, hoping a new trilateral accord will reinvigorate the U.S. manufacturing sector. &nbsp;
+</p>
+        
+                          
+                                        <p class="article-header__byline">
+              <span class="article-header__metadata-type article-header__metadata-type--with-definition"  >Backgrounder</span> by
+                                                                  <a href="/bio/james-mcbride" class="article-header__link">James McBride</a>                                                    and
+                                    <a href="/bio/mohammed-aly-sergie" class="article-header__link">Mohammed Aly Sergie</a>                                          </p>
+                  
+        
+                  <p class="article-header__date-ttr">
+            Last updated October 1, 2018
+          </p>
+                      </section>
+
+      <section class="article-header__section-bottom">
+                  
+  
+          
+  <div class="share-kit  share-kit--icon-color-coral share-kit--bg-color-white "
+    data-share-anchor=""
+    data-share-query=""
+    data-share-name="NAFTA’s Economic Impact"
+    data-share-description="President Trump has reached a deal with Canada and Mexico to restructure the North American Free Trade Agreement, hoping a new trilateral accord will reinvigorate the U.S. manufacturing sector.  
+"
+    data-share-caption=""
+    data-share-picture="https://cfrd8-files.cfr.org/sites/default/files/image/2017/04/NAFTA-Header-1280x720.jpg"
+    data-share-type="article"
+    data-share-authors="[{&quot;first_name&quot;:&quot;James&quot;,&quot;middle_name&quot;:&quot;&quot;,&quot;last_name&quot;:&quot;McBride&quot;},{&quot;first_name&quot;:&quot;Mohammed Aly&quot;,&quot;middle_name&quot;:&quot;&quot;,&quot;last_name&quot;:&quot;Sergie&quot;}]"
+  >
+    <div class="share-kit__icons">
+      <button class="share-kit__hotspot share-kit__facebook" onclick="CFR.Share.facebook(this)">
+              <svg viewBox="0 0 9 19" class="icon icon-facebook" xmlns="http://www.w3.org/2000/svg">
+    <title>Facebook</title>
+    <path d="M0 5.993h1.861V4.171c0-.801.021-2.04.6-2.807C3.071.552 3.91 0 5.35 0c2.347 0 3.336.336 3.336.336l-.465 2.777s-.776-.226-1.5-.226c-.723 0-1.371.26-1.371.99v2.116h2.967l-.206 2.71H5.35v9.42H1.86v-9.42H0v-2.71l4.203 4.532" class="icon-fill" fill="none"/>
+</svg>
+  
+      </button>
+      <button class="share-kit__hotspot share-kit__twitter" onclick="CFR.Share.twitter(this)" data-summary="CFR 140 character message">
+              <svg viewBox="0 0 19 15" class="icon icon-twitter" xmlns="http://www.w3.org/2000/svg">
+    <title>Twitter</title>
+    <path d="M18.686 1.744a7.36 7.36 0 0 1-2.121.585A3.723 3.723 0 0 0 18.189.272a7.404 7.404 0 0 1-2.345.903A3.678 3.678 0 0 0 13.148 0c-2.04 0-3.692 1.664-3.692 3.719 0 .291.031.574.095.846A10.46 10.46 0 0 1 1.939.68c-.319.55-.5 1.187-.5 1.868a3.72 3.72 0 0 0 1.643 3.095 3.634 3.634 0 0 1-1.672-.465c-.002.016-.002.032-.002.048a3.713 3.713 0 0 0 2.964 3.645 3.638 3.638 0 0 1-1.669.064 3.7 3.7 0 0 0 3.45 2.582 7.375 7.375 0 0 1-4.586 1.591c-.298 0-.593-.016-.88-.051a10.406 10.406 0 0 0 5.66 1.67c6.793 0 10.507-5.665 10.507-10.58 0-.16-.003-.32-.011-.48a7.514 7.514 0 0 0 1.843-1.924" class="icon-fill" fill="none"/>
+</svg>
+  
+      </button>
+      <button class="share-kit__hotspot share-kit__linkedin" onclick="CFR.Share.linkedin(this)">
+              <svg viewBox="0 0 19 18" class="icon icon-linkedin" xmlns="http://www.w3.org/2000/svg">
+    <title>LinkedIn</title>
+    <path d="M18.447 17.014h-3.799c0-.163.008-4.169-.007-6.075a4.948 4.948 0 0 0-.151-1.214c-.366-1.386-1.929-1.876-3.037-.962-.536.442-.823 1.013-.822 1.727.007 2.038.003 4.485.003 6.524 0 .144 0-.175 0 0h-3.77V5.599h3.752v1.552c.122-.135.19-.199.244-.274.98-1.347 2.348-1.718 3.906-1.52 1.548.197 2.66 1.037 3.213 2.52.227.61.316 1.272.468 1.91v7.227zM.941 17.013h3.75V5.603H.941v11.41zM2.802 3.99c-.97-.001-1.764-.533-2.018-1.353C.523 1.795.794.887 1.5.422 2.286-.1 3.135-.133 3.969.298c.728.376 1.016 1.04.986 1.842-.04 1.09-.935 1.852-2.153 1.85z" class="icon-fill" fill="none"/>
+</svg>
+  
+      </button>
+      <button class="share-kit__hotspot share-kit__email" onclick="CFR.Share.email(this)">
+              <svg viewBox="0 0 23 14" class="icon icon-e-mail-filled" xmlns="http://www.w3.org/2000/svg">
+    <title>Email</title>
+    <path d="M.915 0l10.258 7.808L21.673 0H.915zm10.258 8.804L0 .297V14h22.615V.297L11.173 8.804z" class="icon-fill" fill="none"/>
+</svg>
+  
+      </button>
+            <button class="share-kit__hotspot share-kit__print" onclick="CFR.Share.print(this)">
+              <svg viewBox="0 0 17 17" class="icon icon-print-filled" xmlns="http://www.w3.org/2000/svg">
+    <title>Print</title>
+    <g class="icon-fill" fill="none" fill-rule="evenodd">
+        <path d="M13.985 4.973V2.92h-2.911V.212a.21.21 0 0 0-.21-.21H3.142a.21.21 0 0 0-.21.21v4.971h10.843a.21.21 0 0 0 .21-.21m2.923 1.062a.202.202 0 0 0-.202-.202H.202A.201.201 0 0 0 0 6.035l.021 7.695c0 .111.09.202.202.202h2.085v-4.97c0-.47.382-.853.852-.853h10.63c.47 0 .851.382.851.852v4.971h2.086a.203.203 0 0 0 .202-.202l-.02-7.695z"/>
+        <path d="M10.774 11.66H6.176a.326.326 0 0 1 0-.65h4.598a.324.324 0 1 1 0 .65m0 2.921H6.176a.326.326 0 0 1 0-.65h4.598a.324.324 0 1 1 0 .65M13.79 8.76H3.16a.201.201 0 0 0-.201.202v7.67c0 .11.09.201.202.201H13.79a.203.203 0 0 0 .202-.202v-7.67a.202.202 0 0 0-.202-.202m.195-6.469h-2.08a.21.21 0 0 1-.21-.21V0l2.29 2.29z"/>
+    </g>
+</svg>
+  
+      </button>
+          </div>
+      </div>
+
+        
+              </section>
+
+      
+    </div>
+
+                  
+      <figure class="article-header__image ">
+  <div class="article-header__image-picture">
+    
+      
+          <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="//cfrd8-files.cfr.org/sites/default/files/styles/article_header_l_16x9_600px/public/image/2017/04/NAFTA-Header-1280x720.jpg 1x" media="all and (min-width: 1280px)" type="image/jpeg"/>
+              <source srcset="//cfrd8-files.cfr.org/sites/default/files/styles/article_header_m_480px/public/image/2017/04/NAFTA-Header-1280x720.jpg 1x" media="all and (max-width: 1279px) and (min-width: 1024px)" type="image/jpeg"/>
+              <source srcset="//cfrd8-files.cfr.org/sites/default/files/styles/article_header_l_16x9_600px/public/image/2017/04/NAFTA-Header-1280x720.jpg 1x" media="all and (max-width: 1023px) and (min-width: 750px)" type="image/jpeg"/>
+              <source srcset="//cfrd8-files.cfr.org/sites/default/files/styles/article_header_s_260px/public/image/2017/04/NAFTA-Header-1280x720.jpg 1x" media="all and (max-width: 749px)" type="image/jpeg"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="//cfrd8-files.cfr.org/sites/default/files/styles/article_header_l_16x9_600px/public/image/2017/04/NAFTA-Header-1280x720.jpg" alt="" typeof="foaf:Image" />
+
+  </picture>
+
+
+      
+      </div>
+        <figcaption class="article-header__image-caption">
+      Mexican commercial trucks cross the border into the United States at Laredo, Texas.
+              <span class="author">(Josue Gonzalez/Reuters)</span>
+          </figcaption>
+  </figure>
+    
+  
+      </div>
+
+</header>
+
+  <dl class="article-header-glossary-def">
+    <dt class="article-header-glossary-def__term">Backgrounder</dt>
+    <dd class="article-header-glossary-def__definition">Current political and economic issues succinctly explained.</dd>
+  </dl>
+
+
+        <div class="main-wrapper__article-body">
+            <aside class="right-rail">
+        
+        
+      </aside>
+                  
+
+      <div class="highlight-to-share">
+            
+            <div class="body-content">
+<section class="more-on desktop-only "><p class="more-on__title">More on:</p>
+      <p class="more-on__content">
+      <a href="/economics/trade" class="more-on__link">Trade</a>
+    </p>
+      <p class="more-on__content">
+      <a href="/nafta" class="more-on__link">NAFTA</a>
+    </p>
+      <p class="more-on__content">
+      <a href="/americas" class="more-on__link">Americas</a>
+    </p>
+      <p class="more-on__content">
+      <a href="/diplomacy-and-international-institutions/regional-organizations" class="more-on__link">Regional Organizations</a>
+    </p>
+      <p class="more-on__content">
+      <a href="/diplomacy-and-international-institutions/treaties-and-agreements" class="more-on__link">Treaties and Agreements</a>
+    </p>
+  </section><h2>Introduction</h2>
+
+<p>The North American Free Trade Agreement, or NAFTA, is a three-country accord negotiated by the governments of Canada, Mexico, and the United States that entered into force in January 1994. NAFTA’s terms, which were implemented gradually through January 2008, eliminated most tariffs on products traded between the three countries. Liberalization of trade in agriculture, textiles, and automobile manufacturing was a major focus. The deal also sought to protect intellectual property, establish dispute resolution mechanisms, and, through side agreements, implement labor and environmental safeguards.</p>
+
+<p>NAFTA fundamentally reshaped North American economic relations, driving unprecedented integration between Canada’s and the United States’ developed economies and Mexico’s developing one. In the United States, NAFTA enjoyed bipartisan backing; it was negotiated by Republican President George H.W. Bush, passed a Democratic-controlled Congress, and was implemented under Democratic President Bill Clinton. It encouraged regional trade to more than triple, and cross-border investment between the three countries also grew significantly.</p>
+
+<p>Yet NAFTA has remained a perennial target in the broader debate over free trade. President Donald J. Trump says it has undermined U.S. jobs and manufacturing, and in October 2018 his administration struck a deal with Canada and Mexico on an updated version of the pact, to be known as the U.S.-Mexico-Canada Agreement, or USMCA.  </p>
+
+<h2>How does NAFTA fit into the broader debate over trade policy?</h2>
+
+<p>When negotiations for NAFTA began in 1991, the goal for all three countries was the integration of Mexico with the highly developed, high-wage economies of the United States and Canada. The hope was that freer trade would bring stronger and steadier economic growth to Mexico, providing new jobs and opportunities for its growing workforce and discouraging illegal migration from Mexico. For the United States and Canada, Mexico was seen both as a promising new market for exports and as a lower cost investment location that could enhance the competitiveness of U.S. and Canadian companies.</p>
+
+<p>While the United States had completed a <a href="http://www.international.gc.ca/trade-agreements-accords-commerciaux/agr-acc/us-eu.aspx?lang=eng" title="free trade agreement with Canada" target="_blank">free trade agreement with Canada</a> in 1988, the addition of Mexico was unprecedented. Opponents of NAFTA seized on the wage differentials with Mexico, which had a per capita income <a href="http://fs2.american.edu/blecker/www/research/Blecker_NAFTA_2014.pdf" title="just 30 percent" target="_blank">just 30 percent</a> [PDF] that of the United States. U.S. presidential candidate Ross Perot argued in 1992 that trade liberalization <a href="http://www.nytimes.com/1992/10/16/us/the-1992-campaign-transcript-of-2d-tv-debate-between-bush-clinton-and-perot.html?pagewanted=all" title="would lead to" target="_blank">would lead to</a> a “giant sucking sound” of U.S. jobs fleeing across the border. Supporters like Presidents Bush and Clinton countered that the agreement <a href="http://millercenter.org/president/speeches/speech-3927" title="would create" target="_blank">would create</a> hundreds of thousands of new jobs a year, while Mexican President Carlos Salinas de Gortiari saw it as an opportunity to modernize the Mexican economy <a href="http://www.nytimes.com/2009/03/24/business/worldbusiness/24peso.html" title="so that it would" target="_blank">so that it would</a> “export goods, not people.”</p>
+
+  
+
+
+
+<div id="pullquote-24571" class="pullquote  embedded_small">
+  <figure class="pullquote__container"><blockquote class="pullquote__quote">
+      <span class="pullquote__quote-content">NAFTA's goal was the integration of Mexico with the highly developed economies of the United States and Canada.</span>
+    </blockquote>
+        <div class="pullquote__share-tools">
+        
+  
+          
+  <div class="share-kit  share-kit--icon-color-coral share-kit--bg-color-white " data-share-anchor="pullquote-24571" data-share-query="" data-share-name="" data-share-description="&quot;NAFTA's goal was the integration of Mexico with the highly developed economies of the United States and Canada.&quot;" data-share-caption=" " data-share-picture="" data-share-type="pullquote" data-share-authors="">
+    <div class="share-kit__icons">
+      <button class="share-kit__hotspot share-kit__facebook" onclick="CFR.Share.facebook(this)">
+              <svg viewbox="0 0 9 19" class="icon icon-facebook" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M0 5.993h1.861V4.171c0-.801.021-2.04.6-2.807C3.071.552 3.91 0 5.35 0c2.347 0 3.336.336 3.336.336l-.465 2.777s-.776-.226-1.5-.226c-.723 0-1.371.26-1.371.99v2.116h2.967l-.206 2.71H5.35v9.42H1.86v-9.42H0v-2.71l4.203 4.532" class="icon-fill" fill="none"></path></svg></button>
+      <button class="share-kit__hotspot share-kit__twitter" onclick="CFR.Share.twitter(this)" data-summary="CFR 140 character message">
+              <svg viewbox="0 0 19 15" class="icon icon-twitter" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path d="M18.686 1.744a7.36 7.36 0 0 1-2.121.585A3.723 3.723 0 0 0 18.189.272a7.404 7.404 0 0 1-2.345.903A3.678 3.678 0 0 0 13.148 0c-2.04 0-3.692 1.664-3.692 3.719 0 .291.031.574.095.846A10.46 10.46 0 0 1 1.939.68c-.319.55-.5 1.187-.5 1.868a3.72 3.72 0 0 0 1.643 3.095 3.634 3.634 0 0 1-1.672-.465c-.002.016-.002.032-.002.048a3.713 3.713 0 0 0 2.964 3.645 3.638 3.638 0 0 1-1.669.064 3.7 3.7 0 0 0 3.45 2.582 7.375 7.375 0 0 1-4.586 1.591c-.298 0-.593-.016-.88-.051a10.406 10.406 0 0 0 5.66 1.67c6.793 0 10.507-5.665 10.507-10.58 0-.16-.003-.32-.011-.48a7.514 7.514 0 0 0 1.843-1.924" class="icon-fill" fill="none"></path></svg></button>
+      <button class="share-kit__hotspot share-kit__linkedin" onclick="CFR.Share.linkedin(this)">
+              <svg viewbox="0 0 19 18" class="icon icon-linkedin" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M18.447 17.014h-3.799c0-.163.008-4.169-.007-6.075a4.948 4.948 0 0 0-.151-1.214c-.366-1.386-1.929-1.876-3.037-.962-.536.442-.823 1.013-.822 1.727.007 2.038.003 4.485.003 6.524 0 .144 0-.175 0 0h-3.77V5.599h3.752v1.552c.122-.135.19-.199.244-.274.98-1.347 2.348-1.718 3.906-1.52 1.548.197 2.66 1.037 3.213 2.52.227.61.316 1.272.468 1.91v7.227zM.941 17.013h3.75V5.603H.941v11.41zM2.802 3.99c-.97-.001-1.764-.533-2.018-1.353C.523 1.795.794.887 1.5.422 2.286-.1 3.135-.133 3.969.298c.728.376 1.016 1.04.986 1.842-.04 1.09-.935 1.852-2.153 1.85z" class="icon-fill" fill="none"></path></svg></button>
+      <button class="share-kit__hotspot share-kit__email" onclick="CFR.Share.email(this)">
+              <svg viewbox="0 0 23 14" class="icon icon-e-mail-filled" xmlns="http://www.w3.org/2000/svg"><title>Email</title><path d="M.915 0l10.258 7.808L21.673 0H.915zm10.258 8.804L0 .297V14h22.615V.297L11.173 8.804z" class="icon-fill" fill="none"></path></svg></button>
+          </div>
+      </div>
+
+    </div>
+  </figure></div>
+
+<p>NAFTA also ushered in a new era of regional and bilateral free trade agreements (FTAs), which have proliferated as the World Trade Organization’s (WTO) global trade talks <a href="http://www.nytimes.com/2016/01/01/opinion/global-trade-after-the-failure-of-the-doha-round.html" title="have stagnated" target="_blank">have stagnated</a>. NAFTA also pioneered the incorporation of labor and environmental provisions in U.S. trade agreements, provisions which have become <a href="https://www.fas.org/sgp/crs/misc/RS22823.pdf" title="progressively more comprehensive" target="_blank">progressively more comprehensive</a> [PDF] in subsequent FTAs.</p>
+
+<p>Economists largely agree that NAFTA has <a href="http://faculty.som.yale.edu/lorenzocaliendo/ETWENAFTA.pdf" title="provided benefits" target="_blank">provided benefits</a> to the North American economies. Regional trade <a href="https://www.fas.org/sgp/crs/row/R42965.pdf" title="increased sharply" target="_blank">increased sharply</a> [PDF] over the treaty’s first two decades, from roughly $290 billion in 1993 to more than $1.1 trillion in 2016. Cross-border investment has also surged, with U.S. foreign direct investment (FDI) stock in Mexico increasing in that period from $15 billion to more than $100 billion. But experts also say that it has proven difficult to tease out the deal’s direct effects from other factors, including rapid technological change, expanded trade with other countries such as China, and unrelated domestic developments in each of the countries. Debate persists regarding NAFTA’s legacy on employment and wages, with some workers and industries <a href="http://www.economist.com/news/leaders/21695879-case-free-trade-overwhelming-losers-need-more-help-open-argument" title="facing painful disruptions" target="_blank">facing painful disruptions</a> as they lose market share due to increased competition, and others gaining from the new market opportunities that were created. </p>
+
+  
+
+<section id="video-11113" class="video-embed"><div class="video-embed__player-with-metadata">
+    <div class="video-embed__video-player-container">
+      
+
+
+<div class="video-player  video-player--without-share video-player--with-paused-state video-player--is-youtube video-player--with-poster-image" data-parent="video-embed">
+  <video class="video-js vjs-default-skin video-player__video" controls="" poster="//cfrd8-files.cfr.org/sites/default/files/styles/full_width_xl/public/image/2017/05/Trade-Policy-Campaign-2016.jpg" data-setup="{ &quot;techOrder&quot;: [&quot;youtube&quot;],&#10;      &quot;sources&quot;: [&#10;        { &quot;type&quot;: &quot;video/youtube&quot;, &quot;src&quot;: &quot;https://www.youtube.com/watch?v=3td8mmEmBxk&quot;}&#10;      ]&#10;    }"><p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a web browser that
+        <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video><div class="video-player__overlay video-player--without-share">
+            <span class="video-player__title">Trade and the U.S. Presidential Election</span>
+      
+          </div>
+  
+
+    <button type="button" name="button" class="video-btn" data-parent="video-embed">
+        <svg viewbox="0 0 25 18" class="icon icon-play icon-video" xmlns="http://www.w3.org/2000/svg"><title>Video</title><g fill="none" fill-rule="evenodd"><path class="icon-stroke icon-bg" d="M0 18h25V0H0z"></path><path class="icon-fill" d="M9 12.923V6l6.923 3.462z"></path></g></svg><svg viewbox="0 0 25 18" class="icon icon-pause icon-pause" xmlns="http://www.w3.org/2000/svg"><title>Pause</title><g fill="none" fill-rule="evenodd"><path class="icon-stroke icon-bg" d="M0 18h25V0H0z"></path><path d="M16 6v7h-2V6h2m-4 0v7h-2V6h2" class="icon-fill"></path></g></svg></button>
+</div>
+      <button type="button" name="button" class="video-btn" data-parent="video-embed">
+        <svg viewbox="0 0 25 18" class="icon icon-play icon-video" xmlns="http://www.w3.org/2000/svg"><title>Video</title><g fill="none" fill-rule="evenodd"><path class="icon-stroke icon-bg" d="M0 18h25V0H0z"></path><path class="icon-fill" d="M9 12.923V6l6.923 3.462z"></path></g></svg><svg viewbox="0 0 25 18" class="icon icon-pause icon-pause" xmlns="http://www.w3.org/2000/svg"><title>Pause</title><g fill="none" fill-rule="evenodd"><path class="icon-stroke icon-bg" d="M0 18h25V0H0z"></path><path d="M16 6v7h-2V6h2m-4 0v7h-2V6h2" class="icon-fill"></path></g></svg></button>
+    </div>
+    <div class="video-embed__metadata">
+      <h4 class="video-embed__title">Trade and the U.S. Presidential Election</h4>
+      <span class="video-embed__info">
+                                3 min      </span>
+    </div>
+  </div>
+
+  <div class="video-embed__share-kit-wrapper">
+    <div class="video-embed__embed-iframe-btn-container">
+      <div class="video-embed__embed-iframe-btn">
+              <svg width="28" viewbox="220 177 28 18" class="icon icon-embed-iframe" xmlns="http://www.w3.org/2000/svg"><title>Embed</title><path class="icon-stroke" d="M229 179l-7 7 7 7m10-14l7 7-7 7m-8 1l5-16" fill="none"></path></svg><input type="text" class="video-embed__url" readonly="readonly" value="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/watch?v=3td8mmEmBxk&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;" /></div>
+    </div>
+      
+  
+          
+  <div class="share-kit share-kit--collapsed share-kit--icon-color-coral share-kit--bg-color-white " data-share-anchor="video-11113" data-share-query="" data-share-name="Trade and the U.S. Presidential Election" data-share-description="" data-share-caption="" data-share-picture="//cfrd8-files.cfr.org/sites/default/files/styles/full_width_xl/public/image/2017/05/Trade-Policy-Campaign-2016.jpg" data-share-type="" data-share-authors="">
+    <div class="share-kit__icons">
+      <button class="share-kit__hotspot share-kit__facebook" onclick="CFR.Share.facebook(this)">
+              <svg viewbox="0 0 9 19" class="icon icon-facebook" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M0 5.993h1.861V4.171c0-.801.021-2.04.6-2.807C3.071.552 3.91 0 5.35 0c2.347 0 3.336.336 3.336.336l-.465 2.777s-.776-.226-1.5-.226c-.723 0-1.371.26-1.371.99v2.116h2.967l-.206 2.71H5.35v9.42H1.86v-9.42H0v-2.71l4.203 4.532" class="icon-fill" fill="none"></path></svg></button>
+      <button class="share-kit__hotspot share-kit__twitter" onclick="CFR.Share.twitter(this)" data-summary="CFR 140 character message">
+              <svg viewbox="0 0 19 15" class="icon icon-twitter" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path d="M18.686 1.744a7.36 7.36 0 0 1-2.121.585A3.723 3.723 0 0 0 18.189.272a7.404 7.404 0 0 1-2.345.903A3.678 3.678 0 0 0 13.148 0c-2.04 0-3.692 1.664-3.692 3.719 0 .291.031.574.095.846A10.46 10.46 0 0 1 1.939.68c-.319.55-.5 1.187-.5 1.868a3.72 3.72 0 0 0 1.643 3.095 3.634 3.634 0 0 1-1.672-.465c-.002.016-.002.032-.002.048a3.713 3.713 0 0 0 2.964 3.645 3.638 3.638 0 0 1-1.669.064 3.7 3.7 0 0 0 3.45 2.582 7.375 7.375 0 0 1-4.586 1.591c-.298 0-.593-.016-.88-.051a10.406 10.406 0 0 0 5.66 1.67c6.793 0 10.507-5.665 10.507-10.58 0-.16-.003-.32-.011-.48a7.514 7.514 0 0 0 1.843-1.924" class="icon-fill" fill="none"></path></svg></button>
+      <button class="share-kit__hotspot share-kit__linkedin" onclick="CFR.Share.linkedin(this)">
+              <svg viewbox="0 0 19 18" class="icon icon-linkedin" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M18.447 17.014h-3.799c0-.163.008-4.169-.007-6.075a4.948 4.948 0 0 0-.151-1.214c-.366-1.386-1.929-1.876-3.037-.962-.536.442-.823 1.013-.822 1.727.007 2.038.003 4.485.003 6.524 0 .144 0-.175 0 0h-3.77V5.599h3.752v1.552c.122-.135.19-.199.244-.274.98-1.347 2.348-1.718 3.906-1.52 1.548.197 2.66 1.037 3.213 2.52.227.61.316 1.272.468 1.91v7.227zM.941 17.013h3.75V5.603H.941v11.41zM2.802 3.99c-.97-.001-1.764-.533-2.018-1.353C.523 1.795.794.887 1.5.422 2.286-.1 3.135-.133 3.969.298c.728.376 1.016 1.04.986 1.842-.04 1.09-.935 1.852-2.153 1.85z" class="icon-fill" fill="none"></path></svg></button>
+      <button class="share-kit__hotspot share-kit__email" onclick="CFR.Share.email(this)">
+              <svg viewbox="0 0 23 14" class="icon icon-e-mail-filled" xmlns="http://www.w3.org/2000/svg"><title>Email</title><path d="M.915 0l10.258 7.808L21.673 0H.915zm10.258 8.804L0 .297V14h22.615V.297L11.173 8.804z" class="icon-fill" fill="none"></path></svg></button>
+          </div>
+          <button type="button" class="share-kit__hotspot share-kit__collapse-btn">
+        <span class="share-kit__collapse-btn-text">Share</span>              <svg viewbox="0 0 22 24" class="icon icon-share" xmlns="http://www.w3.org/2000/svg"><title>Share</title><g class="icon-fill" fill="none" fill-rule="evenodd"><path d="M8.292 2.255L2.444 8.037V6.47l5.848 5.782A1.103 1.103 0 1 1 6.74 13.82L.893 8.037a1.103 1.103 0 0 1 0-1.568L6.741.686a1.103 1.103 0 1 1 1.55 1.569z"></path><path d="M19.485 22.766c0-8.01-6.783-14.59-14.988-14.59H1.899a1.103 1.103 0 0 1 0-2.206h2.598c9.409 0 17.194 7.553 17.194 16.796a1.103 1.103 0 1 1-2.206 0z"></path></g></svg></button>
+      </div>
+
+  </div>
+</section><h2>How has NAFTA affected the U.S. economy?</h2>
+
+<p>In the years since NAFTA, U.S. trade with its North American neighbors has more than tripled, growing more rapidly than U.S. trade with the rest of the world. Canada and Mexico are the two largest destinations for U.S. exports, accounting for more than a third of the total. Most estimates <a href="https://www.fas.org/sgp/crs/row/R42965.pdf" title="conclude" target="_blank">conclude</a> that the deal had a modest but positive impact on U.S. GDP of less than 0.5 percent, or a total addition of up to $80 billion dollars to the U.S. economy upon full implementation, or several billion dollars of added growth per year.</p>
+
+<p>Such upsides of trade often escape notice, because while the costs are <a href="http://www.nytimes.com/2016/03/16/business/economy/on-trade-angry-voters-have-a-point.html?version=meter+at+0&amp;module=meter-Links&amp;pgtype=article&amp;contentId=&amp;mediaId=&amp;referrer=&amp;priority=true&amp;action=click&amp;contentCollection=meter-links-click" title="highly concentrated" target="_blank">highly concentrated</a> in specific industries like auto manufacturing, the benefits of a deal like NAFTA are distributed widely across society. Supporters of NAFTA <a href="https://www.foreignaffairs.com/articles/canada/2013-12-06/naftas-economic-upsides" title="estimate that" target="_blank">estimate that</a> some fourteen million jobs rely on trade with Canada and Mexico, while the <a href="https://piie.com/blogs/realtime-economic-issues-watch/nafta-rejoinder-us-effects-are-clearly-positive-most-workers" title="nearly two hundred thousand" target="_blank">nearly two hundred thousand</a> export-related jobs created annually by the pact pay 15 to 20 percent more on average than the jobs that were lost.</p>
+
+<p>Critics of the deal, however, argue that it is to blame for job losses and wage stagnation in the United States, driven by low-wage competition, companies <a href="http://www.nytimes.com/2016/03/20/business/economy/carrier-workers-see-costs-not-benefits-of-global-trade.html?_r=1" title="moving production" target="_blank">moving production</a> to Mexico to lower costs, and a widening trade deficit. The U.S.-Mexico trade balance swung from a $1.7 billion U.S. surplus in 1993 to a $54 billion deficit by 2014. Economists like the Center for Economic and Policy Research’s (CEPR) <a href="http://www.nytimes.com/roomfordebate/2013/11/24/what-weve-learned-from-nafta/nafta-lowered-wages-as-it-was-supposed-to-do" title="Dean Baker" target="_blank">Dean Baker</a> and the <a href="http://www.epi.org/publication/heading_south_u-s-mexico_trade_and_job_displacement_after_nafta1/" title="Economic Policy Institute" target="_blank">Economic Policy Institute</a> argue that this surge of imports caused the loss of up to 600,000 U.S. jobs over two decades, though they admit that some of this import growth would likely have happened even without NAFTA.</p>
+
+<p>Many workers and labor leaders point to these numbers to <a href="http://www.nytimes.com/2016/03/20/business/economy/carrier-workers-see-costs-not-benefits-of-global-trade.html?_r=2" title="blame trade" target="_blank">blame trade</a>, including NAFTA, for the decline in U.S. manufacturing jobs. The U.S. auto sector <a href="https://piie.com/publications/policy-briefs/nafta-20-misleading-charges-and-positive-achievements" title="lost some 350,000 jobs" target="_blank">lost some 350,000 jobs</a> since 1994—a third of the industry—while Mexican auto sector employment spiked from 120,000 to 550,000 workers. CEPR’s Baker argues that <a href="http://cepr.net/blogs/beat-the-press/enough-magical-thinking-on-trade" title="econometric research shows" target="_blank">econometric research shows</a> that increased trade also puts downward pressure on wages for non-college educated workers, who are more likely to face direct competition from low-wage workers in Mexico.</p>
+
+<p>But other economists like Gary Clyde Hufbauer and Cathleen Cimino-Isaacs of the Peterson Institute for International Economics (PIIE) emphasize that increased trade <a href="https://piie.com/blogs/realtime-economic-issues-watch/nafta-rejoinder-us-effects-are-clearly-positive-most-workers" title="produces" target="_blank">produces</a> gains for the overall U.S. economy. Some jobs are lost due to imports, but others are created, and consumers benefit significantly from the falling prices and often improved quality of goods created by import competition. A <a href="https://piie.com/publications/policy-briefs/nafta-20-misleading-charges-and-positive-achievements" title="2014 PIIE study of NAFTA’s effects" target="_blank">2014 PIIE study of NAFTA’s effects</a> found that about 15,000 jobs on net are lost each year due to the pact—but that for each of those jobs lost, the economy <a href="https://piie.com/blogs/realtime-economic-issues-watch/nafta-rejoinder-us-effects-are-clearly-positive-most-workers" title="gains roughly" target="_blank">gains roughly</a> $450,000 in the form of higher productivity and lower consumer prices. </p>
+
+<div><a class="colorbox" href="/content/publications/NAFTA-BGR-Timeline-1300x920.jpg"><img alt="NAFTA Timeline " data-entity-type="" data-entity-uuid="" height="446" src="/content/publications/NAFTA-BGR-Timeline-1300x920.jpg" width="630" /></a></div>
+
+<p>Many economists also assert that the recent troubles of U.S. manufacturing have little to do with NAFTA, arguing that manufacturing in the United States was under stress decades before the treaty. Research by David Autor, David Dorn, and Gordon Hanson <a href="http://www.nber.org/papers/w21906.pdf" title="published in January 2016 found" target="_blank">published in January 2016 found</a> [PDF] that competition with China had a much bigger negative impact on U.S. jobs since 2001, when China joined the WTO. Hanson, an economist and trade expert at the University of California, San Diego, says that the steepest decline in manufacturing jobs, which fell from seventeen million to eleven million between 2000 and 2010, is mostly attributable to trade with China and underlying technological changes. “China is at the top of the list in terms of the employment impacts that we found since 2000, with technology second, and NAFTA far less important,” he says.</p>
+
+<p>In fact, says Hanson, NAFTA helped the U.S. auto sector compete with China. By contributing to the development of cross-border supply chains, NAFTA lowered costs, increased productivity, and improved U.S. competitiveness. This meant shedding some jobs in the United States as positions moved to Mexico, he argues, but without the pact, even more would have <a href="http://www.nytimes.com/2016/03/30/business/economy/nafta-may-have-saved-many-autoworkers-jobs.html?_r=0" title="otherwise been lost" target="_blank">otherwise been lost</a>. “Because Mexico is so close, you can have a regional industry cluster where goods can go back and forth. The manufacturing industries in the three countries can be very integrated,” he says. These sort of linkages, which have given U.S. automakers an advantage in relation to China, would be much more difficult without NAFTA’s tariff reductions and protections for intellectual property.</p>
+
+<p><a href="http://www.cfr.org/bios/2472/edward_alden.html">Edward Alden</a>, a senior fellow at the Council on Foreign Relations, says anxiety over trade deals has grown because wages <a href="http://blogs.cfr.org/renewing-america/2016/04/05/what-the-trade-and-minimum-wage-debates-have-in-common/" title="haven’t kept pace" target="_blank">haven’t kept pace</a> with labor productivity while income inequality has risen. To some extent, he says, trade deals have hastened the pace of these changes in that they have “reinforced the globalization of the American economy.”</p>
+
+<h2>How has it affected the Mexican economy?</h2>
+
+<p>NAFTA gave a major boost to Mexican farm exports to the United States, which have <a href="http://www.economist.com/world/la/displaystory.cfm?story_id=10566845" target="_blank" title="tripled since NAFTA’s implementation">tripled since NAFTA’s implementation</a>. Hundreds of thousands of auto manufacturing jobs have also been created in the country, and <a href="https://www.fas.org/sgp/crs/row/R42965.pdf" title="most studies have found" target="_blank">most studies have found</a> [PDF] that the pact had a positive impact on Mexican productivity and consumer prices.</p>
+
+<p>The pact was the continuation of a decade of economic liberalization that saw the country transition from one of the world’s most protectionist economies to one of the most open to trade. Mexico had reduced many of its trade barriers upon joining the <a href="https://www.wto.org/english/thewto_e/whatis_e/inbrief_e/inbr01_e.htm" title="General Agreement on Tariffs and Trade (GATT)" target="_blank">General Agreement on Tariffs and Trade (GATT)</a>, the precursor to the WTO, in 1986, but still had a <a href="https://www.usitc.gov/publications/332/pub2353.pdf" title="pre-NAFTA average tariff level" target="_blank">pre-NAFTA average tariff level</a> [PDF] of 10 percent.</p>
+
+<p>Mexican policymakers saw NAFTA as an opportunity to both accelerate and “lock in” these <a href="http://www.cfr.org/mexico/mexico-makes/p30098">hard won reforms</a> to the Mexican economy. In addition to liberalizing trade, Mexico’s leaders reduced public debt, introduced a balanced budget rule, stabilized inflation, and built up the country’s foreign reserves. Thus while Mexico was <a href="https://www.fas.org/sgp/crs/row/R41402.pdf" title="hard hit" target="_blank">hard hit</a> [PDF] by the 2008 U.S. recession due to its dependence on exports to the U.S. market—in 2009 Mexican exports to the United States fell 17 percent while its economy contracted by over 6 percent—its economy was able to bounce back relatively quickly. Mexico returned to growth in 2010, its GDP expanding over 5 percent, and subsequently falling to around 2 percent in 2014 and 2015.</p>
+
+<p>But Mexico’s NAFTA experience has suffered from a disconnect between the promises of some of its supporters—that the pact would deliver rapid growth, raise wages, and reduce emigration—and the deal’s more mixed outcomes. Between 1993 and 2013, Mexico’s economy grew at an average rate of just 1.3 percent a year during a period when Latin America was <a href="http://www.americasquarterly.org/content/latin-american-growth-slowdown" title="undergoing a major expansion" target="_blank">undergoing a major expansion</a>. Poverty <a href="http://www.economist.com/news/briefing/21592631-two-decades-ago-north-american-free-trade-agreement-got-flying-start-then-it" title="remains" target="_blank">remains</a> at the same levels as in 1994. And the expected “wage convergence” between U.S. and Mexican wages <a href="http://www.cgdev.org/blog/us-mexico-wage-gap-has-grown-not-shrunk-under-nafta-awkward" title="didn’t happen" target="_blank">didn’t happen</a>, with Mexico’s per capita income rising at an <a href="https://www.foreignaffairs.com/articles/canada/2013-12-06/naftas-mixed-record" title="annual average" target="_blank">annual average</a> of just 1.2 percent in that period—far slower than Latin American countries such as Brazil, Chile, and Peru.</p>
+
+<p>Mexican unemployment <a href="http://www.nytimes.com/roomfordebate/2013/11/24/what-weve-learned-from-nafta/under-nafta-mexico-suffered-and-the-united-states-felt-its-pain" title="also rose" target="_blank">also rose</a>, which some economists have blamed on NAFTA for exposing Mexican farmers, especially corn producers, to competition from heavily subsidized U.S. agriculture. A study led by CEPR economist Mark Weisbrot estimates that NAFTA put almost <a href="http://cepr.net/documents/nafta-20-years-2014-02.pdf" title="two million small-scale Mexican farmers" target="_blank">two million small-scale Mexican farmers</a> [PDF] out of work, in turn driving illegal migration to the United States. (Migration to the United States, both legal and illegal, <a href="http://www.pewhispanic.org/2015/11/19/more-mexicans-leaving-than-coming-to-the-u-s/" title="more than doubled" target="_blank">more than doubled</a> after 1994, peaking in 2007. However, the flow reversed after 2008 as more Mexican-born immigrants began <a href="http://www.pewhispanic.org/2015/11/19/more-mexicans-leaving-than-coming-to-the-u-s/" title="leaving the country than arriving" target="_blank">leaving the country than arriving</a>. Experts attribute this to stricter border enforcement, changing demographics in Mexico, and the combination of fewer available jobs in the United States along with more in Mexico.)</p>
+
+<p>Many analysts explain these divergent outcomes by pointing to the “<a href="http://www.mckinsey.com/global-themes/americas/a-tale-of-two-mexicos" title="two-speed" target="_blank">two-speed</a>” nature of Mexico’s economy, in which NAFTA drove the growth of foreign investment, high-tech manufacturing, and rising wages in the industrial north, while the largely agrarian south remains detached from this new economy. As University of Pennsylvania <a href="http://knowledge.wharton.upenn.edu/article/nafta-20-years-later-benefits-outweigh-costs/" title="economist Mauro Guillen argues" target="_blank">economist Mauro Guillen argues</a>, Mexico’s rising inequality stems from NAFTA-oriented workers in the north gaining much higher wages from trade-related activity.</p>
+
+<p>Ultimately, many experts caution, Mexico’s recent economic performance has been affected by many non-NAFTA factors. The 1994 devaluation of the peso drove Mexican exports, while competition with China’s <a href="http://repositorio.cepal.org/bitstream/handle/11362/37000/RVI110DusselGallagher_en.pdf" title="low-cost manufacturing sector" target="_blank">low-cost manufacturing sector</a> [PDF] likely depressed growth. Unrelated public policies, such as land reform, made it easier for farmers to sell their land and emigrate. As UCSD’s Hanson <a href="https://gps.ucsd.edu/_files/faculty/hanson/hanson_publication_it_mexico.pdf" title="has argued" target="_blank">has argued</a> [PDF], Mexico’s struggles have largely domestic causes: poorly developed credit markets, a large and low-productivity informal sector, and dysfunctional regulation.</p>
+
+<h2>What impact has it had on Canada?</h2>
+
+<p>Canada has seen strong gains in cross-border investment in the NAFTA era: Since 1993, U.S. and Mexican investments in Canada have tripled. U.S. investment, which accounts for more than half of Canada’s FDI stock, <a href="https://www.fas.org/sgp/crs/row/R42965.pdf" title="grew from" target="_blank">grew from</a> [PDF] $70 billion in 1993 to over $368 billion in 2013.</p>
+
+<p>However, the most consequential aspect for Canada—opening its economy to the U.S. market, by far Canada’s largest trading partner—predated NAFTA, with the 1989 entry into force of the <a href="http://www.international.gc.ca/trade-agreements-accords-commerciaux/agr-acc/fta-ale.aspx?lang=eng" title="Canada-U.S. Free Trade Agreement (CUSFTA)" target="_blank">Canada-U.S. Free Trade Agreement (CUSFTA)</a>. Overall Canada-U.S. trade increased rapidly in the wake of Canada’s trade liberalization. Post-NAFTA, Canadian exports to the United States <a href="https://www.fas.org/sgp/crs/row/R42965.pdf" title="grew" target="_blank">grew</a> [PDF] from $110 billion to $346 billion, while imports from the United States grew by almost the same amount.</p>
+
+<p>Agriculture, in particular, saw a boost. Canada is the leading importer of U.S. agricultural products, and one of NAFTA’s biggest economic effects for Canada has been to increase bilateral U.S.-Canada agricultural flows. Canadian agricultural trade with the United States more than tripled since 1994, as did Canada’s total agriculture exports to NAFTA partners.</p>
+
+<p>Neither the worst fears of Canada’s trade opponents—that opening to trade would gut the country’s manufacturing sector—nor its highest hopes—that it would spark a rapid increase in productivity—came to pass. Canadian manufacturing employment held steady, but the “productivity gap” between the Canadian and U.S. economies wasn’t closed: Canada’s labor productivity remains at <a href="https://www.fas.org/sgp/crs/row/R42965.pdf" title="72 percent" target="_blank">72 percent</a> [PDF] of U.S. levels.</p>
+
+<h2>What’s next for NAFTA?</h2>
+
+<p>The deal has long been a political target. In 2008, then–presidential candidate Barack Obama responded to widespread trade skepticism among the Democratic base by promising to renegotiate NAFTA to include tougher labor and environmental standards, a pledge he subsequently abandoned. The issue resurfaced in the 2016 presidential campaign, with both Senator Bernie Sanders (I–VT) and Donald Trump criticizing the pact for bringing U.S. job losses.</p>
+
+<p>Among policy experts, much of the debate has centered on how to mitigate the negative effects of deals like NAFTA, whether by compensating workers who lose their jobs or providing retraining programs to help them transition to new industries. Experts say programs like wage insurance, which would guarantee laid-off workers a portion of their previous salaries for a set period, or federal <a href="http://www.doleta.gov/tradeact/factsheet.cfm" target="_blank" title="Trade Adjustment Assistance (TAA)">Trade Adjustment Assistance (TAA)</a>, which helps workers pay for education or training to find new jobs, could help quell anger directed at trade liberalization.</p>
+
+<p>Introduced in the 1960s, TAA was cut sharply in the 1980s, and many economists argue that its current funding levels are <a href="http://www.bloomberg.com/politics/articles/2016-05-11/few-u-s-workers-receive-federal-assistance-for-trade-deal-cosequences" target="_blank" title="far from sufficient">far from sufficient</a> to address the increase in trade-related job losses. “There are pockets that have felt lots of pain,” says UCSD’s Hanson. “The existence of those pockets highlights our policy failures in helping regions and individuals adjust to the impact of globalization.”</p>
+
+  
+
+
+
+<div id="pullquote-24574" class="pullquote  embedded_small">
+  <figure class="pullquote__container"><blockquote class="pullquote__quote">
+      <span class="pullquote__quote-content">There are pockets that have felt lots of pain. The existence of those pockets highlights our policy failures.</span>
+    </blockquote>
+          <figcaption class="pullquote__author"><span class="pullquote__author-name">Professor Gordon Hanson</span>, <span class="pullquote__author-meta">UC San Diego</span>      </figcaption><div class="pullquote__share-tools">
+        
+  
+          
+  <div class="share-kit  share-kit--icon-color-coral share-kit--bg-color-white " data-share-anchor="pullquote-24574" data-share-query="" data-share-name="" data-share-description="&quot;There are pockets that have felt lots of pain. The existence of those pockets highlights our policy failures.&quot;" data-share-caption="Professor Gordon Hanson UC San Diego" data-share-picture="" data-share-type="pullquote" data-share-authors="">
+    <div class="share-kit__icons">
+      <button class="share-kit__hotspot share-kit__facebook" onclick="CFR.Share.facebook(this)">
+              <svg viewbox="0 0 9 19" class="icon icon-facebook" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M0 5.993h1.861V4.171c0-.801.021-2.04.6-2.807C3.071.552 3.91 0 5.35 0c2.347 0 3.336.336 3.336.336l-.465 2.777s-.776-.226-1.5-.226c-.723 0-1.371.26-1.371.99v2.116h2.967l-.206 2.71H5.35v9.42H1.86v-9.42H0v-2.71l4.203 4.532" class="icon-fill" fill="none"></path></svg></button>
+      <button class="share-kit__hotspot share-kit__twitter" onclick="CFR.Share.twitter(this)" data-summary="CFR 140 character message">
+              <svg viewbox="0 0 19 15" class="icon icon-twitter" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path d="M18.686 1.744a7.36 7.36 0 0 1-2.121.585A3.723 3.723 0 0 0 18.189.272a7.404 7.404 0 0 1-2.345.903A3.678 3.678 0 0 0 13.148 0c-2.04 0-3.692 1.664-3.692 3.719 0 .291.031.574.095.846A10.46 10.46 0 0 1 1.939.68c-.319.55-.5 1.187-.5 1.868a3.72 3.72 0 0 0 1.643 3.095 3.634 3.634 0 0 1-1.672-.465c-.002.016-.002.032-.002.048a3.713 3.713 0 0 0 2.964 3.645 3.638 3.638 0 0 1-1.669.064 3.7 3.7 0 0 0 3.45 2.582 7.375 7.375 0 0 1-4.586 1.591c-.298 0-.593-.016-.88-.051a10.406 10.406 0 0 0 5.66 1.67c6.793 0 10.507-5.665 10.507-10.58 0-.16-.003-.32-.011-.48a7.514 7.514 0 0 0 1.843-1.924" class="icon-fill" fill="none"></path></svg></button>
+      <button class="share-kit__hotspot share-kit__linkedin" onclick="CFR.Share.linkedin(this)">
+              <svg viewbox="0 0 19 18" class="icon icon-linkedin" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M18.447 17.014h-3.799c0-.163.008-4.169-.007-6.075a4.948 4.948 0 0 0-.151-1.214c-.366-1.386-1.929-1.876-3.037-.962-.536.442-.823 1.013-.822 1.727.007 2.038.003 4.485.003 6.524 0 .144 0-.175 0 0h-3.77V5.599h3.752v1.552c.122-.135.19-.199.244-.274.98-1.347 2.348-1.718 3.906-1.52 1.548.197 2.66 1.037 3.213 2.52.227.61.316 1.272.468 1.91v7.227zM.941 17.013h3.75V5.603H.941v11.41zM2.802 3.99c-.97-.001-1.764-.533-2.018-1.353C.523 1.795.794.887 1.5.422 2.286-.1 3.135-.133 3.969.298c.728.376 1.016 1.04.986 1.842-.04 1.09-.935 1.852-2.153 1.85z" class="icon-fill" fill="none"></path></svg></button>
+      <button class="share-kit__hotspot share-kit__email" onclick="CFR.Share.email(this)">
+              <svg viewbox="0 0 23 14" class="icon icon-e-mail-filled" xmlns="http://www.w3.org/2000/svg"><title>Email</title><path d="M.915 0l10.258 7.808L21.673 0H.915zm10.258 8.804L0 .297V14h22.615V.297L11.173 8.804z" class="icon-fill" fill="none"></path></svg></button>
+          </div>
+      </div>
+
+    </div>
+  </figure></div>
+
+<p>Eschewing these policy proposals, however, President Trump instead made good on his campaign promise to renegotiate NAFTA, and the three countries kicked off formal negotiations in August 2017. Trump used tariffs as bargaining leverage throughout the process, applying <a href="https://www.cfr.org/backgrounder/risks-us-steel-and-aluminum-tariffs">import tariffs on steel and aluminum</a> in early 2018 and threatening to do the same with autos. Trump’s demands included higher standards for the auto industry, more access to Canada’s highly protected dairy market, better labor protections, dispute resolution reform, and new rules for intellectual property and digital commerce.</p>
+
+<p>In August 2018, the administration struck a deal with Mexico, and the following month Canada agreed to new terms as well. In the updated pact, which Trump has labeled the U.S.-Mexico-Canada Agreement (USMCA), the parties <a href="https://www.bloomberg.com/news/articles/2018-10-01/cars-cows-and-a-crisis-averted-highlights-of-a-new-nafta-deal" title="settled on a number of changes" target="_blank">settled on a number of changes</a>. Rules of origin for the auto industry were tightened, requiring 75 percent of each vehicle to originate in the member countries, up from 62.5 percent. New labor stipulations were added, requiring 40 percent of each vehicle to come from factories paying at least $16 an hour. Trump backed down on his threats to apply tariffs on Canadian and Mexican auto imports; the existing steel and aluminum tariffs, however, were not lifted. Meanwhile, protections for U.S. pharmaceuticals and other intellectual property were strengthened.</p>
+
+<p>As part of the deal, Canada agreed to allow more access to its dairy market, a central Trump demand. In return it won several concessions. The USMCA will keep the <a href="https://www.cfr.org/backgrounder/how-are-trade-disputes-resolved">Chapter 19 dispute panel</a> that Canada relies on to shield it from U.S. trade remedies. It will also avoid Trump’s proposed five-year sunset clause, and instead have a sixteen-year timeframe, with a review after six years. To take effect, the deal will have to be approved by all three countries’ legislatures; the <a href="https://www.politico.com/interactives/2018/naftatimeline/?updated" title="earliest that the U.S. Congress could vote" target="_blank">earliest that the U.S. Congress could vote</a> would be early 2019.</p>
+<section class="more-on mobile-only "><p class="more-on__title">More on:</p>
+      <p class="more-on__content">
+      <a href="/economics/trade" class="more-on__link">Trade</a>
+    </p>
+      <p class="more-on__content">
+      <a href="/nafta" class="more-on__link">NAFTA</a>
+    </p>
+      <p class="more-on__content">
+      <a href="/americas" class="more-on__link">Americas</a>
+    </p>
+      <p class="more-on__content">
+      <a href="/diplomacy-and-international-institutions/regional-organizations" class="more-on__link">Regional Organizations</a>
+    </p>
+      <p class="more-on__content">
+      <a href="/diplomacy-and-international-institutions/treaties-and-agreements" class="more-on__link">Treaties and Agreements</a>
+    </p>
+  </section></div>
+      
+      </div>
+
+      
+
+<div class="chapters">
+  <div class="chapters__btn-toggle">
+          <svg viewBox="0 0 20 11" xmlns="http://www.w3.org/2000/svg" class="icon icon-up-arrow">
+  <path d="M1 10l9.09-8.333L19.183 10" class="icon-stroke" fill="none"/>
+</svg>
+  
+  </div>
+  <div class="chapters__nav">
+  </div>
+</div>
+
+    </div>
+      
+      <div class="bottom-drawer glossary">
+  <div class="bottom-drawer__close-icon">
+          <svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg" class="icon icon-close">
+    <title>Close</title>
+    <path d="M10.417 12.5L0 22.917 2.083 25 12.5 14.583 22.917 25 25 22.917 14.583 12.5 25 2.083 22.917 0 12.5 10.417 2.083 0 0 2.083 10.417 12.5z" class="icon-fill" fill="none"/>
+</svg>
+  
+  </div>
+  <div class="bottom-drawer__content">
+    <dl class="glossary-def">
+  <dt class="glossary-def__term"></dt>
+  <dd class="glossary-def__definition"></dd>
+</dl>
+  </div>
+</div>
+
+  </div>
+</article>
+
+
+            
+
+
+<div class="supplemental-content supplemental-content--resources">
+  <div class="supplemental-content__hitarea">
+    <h3 class="supplemental-content__title">
+      <span class="supplemental-content_title-text">Resources</span>
+            <svg viewBox="0 0 20 11" xmlns="http://www.w3.org/2000/svg" class="icon icon-up-arrow">
+  <path d="M1 10l9.09-8.333L19.183 10" class="icon-stroke" fill="none"/>
+</svg>
+  
+    </h3>
+  </div>
+  <div class="supplemental-content__container supplemental-content__body-content">
+          <p>This 2017&nbsp;<a href="https://www.fas.org/sgp/crs/row/R42965.pdf" target="_blank">Congressional Research Service report</a>&nbsp;explains the history of NAFTA and its effects over twenty years.</p>
+
+<p>Economists&nbsp;David Autor, David Dorn, and Gordon Hanson weigh the impact of trade with China and Mexico on the U.S. labor market in this <a href="http://www.nber.org/papers/w21906.pdf">2016 National Bureau of Economic Research paper</a>.</p>
+
+<p>Former U.S. Trade Representative Carla Hills explains the&nbsp;<a href="http://www.foreignaffairs.com/articles/140348/carla-a-hills/naftas-economic-upsides">economic upsides of NAFTA from the U.S. perspective</a>&nbsp;in <em style="line-height:15.6px">Foreign Affairs</em>. The issue also includes essays on the views from&nbsp;<a href="http://www.foreignaffairs.com/articles/140351/jorge-g-castaneda/naftas-mixed-record">Mexico</a>&nbsp;and <a href="http://www.foreignaffairs.com/articles/140350/michael-wilson/naftas-unfinished-business">Canada</a>.</p>
+
+<p>The&nbsp;<em style="line-height:15.6px">Economist</em>&nbsp;examines the progress of NAFTA&nbsp;after twenty years in <a href="http://www.economist.com/news/briefing/21592631-two-decades-ago-north-american-free-trade-agreement-got-flying-start-then-it">this 2014 report</a>.</p>
+
+<p>This <a href="http://knowledge.wharton.upenn.edu/article/nafta-20-years-later-benefits-outweigh-costs/">2014 analysis</a> from the University of Pennsylvania’s Wharton School evaluates the costs and benefits of NAFTA for the U.S. and Mexican economies.</p>
+
+<p>Claims on both side of the NAFTA debate have been overblown, argues this <a href="https://piie.com/sites/default/files/publications/pb/pb14-13.pdf">2014 research overview</a> by the Peterson Institute for International Economics.</p>
+
+      </div>
+</div>
+      
+
+
+
+<div class="explore-more-promotional main-wrapper ">
+  <div class="explore-more-promotional__wrapper">
+           
+
+
+<div class="card-group card-group--related card-group--bg-color-default">
+  <div class="card-group__background"></div>
+  <div class="card-group__content-wrapper">
+    <h3 class="card-group__title">
+      <a href="/economics/trade">
+      Explore More on Trade
+      </a>
+    </h3>
+
+    <div class="card-group__container">
+    
+                            
+
+  
+
+<section class="card-article article card-article--with-thumbnail">
+    <div class="card-article__container">
+      
+              <p class="card-article__topic-tag">
+                    <a href="/americas/mexico" class="card-article__topic-tag-link">
+            Mexico
+          </a>
+                  </p>
+      
+      
+      <div class="card-article__link-outer-wrapper">
+                
+        
+                          <a href="/blog/mexico-cant-meet-trumps-tariff-demands " class="card-article__link">
+        
+        
+          <div class="card-article__info">
+            <p class="card-article__title clamp-js" data-clamp-lines="4">Mexico Can’t Meet Trump’s Tariff Demands</p>
+                          <div class="card-article__image">
+
+                
+                                                    <div class="card-article__image-cover" style="background-image: url(//cfrd8-files.cfr.org/sites/default/files/styles/card_landscape_xl/public/image/2019/06/RTX6XSEQ.jpg)"></div>
+                              </div>
+                          </div>
+          </a>
+      </div>
+
+                    <div class="card-article__dek clamp-js" data-clamp-lines="4">Mexico can’t end the migrant flow by itself. But it can—and likely will—raise tariffs that target swing states.
+</div>
+      
+      <p class="card-article__metadata">
+        
+                  <span class="card-article__publication-type">Blog Post</span>
+                  
+                      <span class="card-article__authors">by <a href="/expert/shannon-k-oneil" class="card-article__authors-link">Shannon K. O'Neil</a></span>
+                    
+            
+                          <span class="card-article__date"> June 5, 2019</span>
+            
+                                                                                                                                <a href="/blog/latin-americas-moment" class="card-article__series">
+                    Latin America&#039;s Moment
+                </a>
+                    </p>
+    </div>
+</section>
+
+                                
+
+  
+
+<section class="card-article article card-article--with-thumbnail">
+    <div class="card-article__container">
+      
+              <p class="card-article__topic-tag">
+                    <a href="/asia/south-korea" class="card-article__topic-tag-link">
+            South Korea
+          </a>
+                  </p>
+      
+      
+      <div class="card-article__link-outer-wrapper">
+                
+        
+                          <a href="/blog/korea-germany-northeast-asia " class="card-article__link">
+        
+        
+          <div class="card-article__info">
+            <p class="card-article__title clamp-js" data-clamp-lines="4">Korea, the “Germany” of Northeast Asia…</p>
+                          <div class="card-article__image">
+
+                
+                                                    <div class="card-article__image-cover" style="background-image: url(//cfrd8-files.cfr.org/sites/default/files/image/2019/06/Fiscal%20Surplus%20in%20German%20and%20South%20korea%20%28Share%20of%20GDP%29.png)"></div>
+                              </div>
+                          </div>
+          </a>
+      </div>
+
+                    <div class="card-article__dek clamp-js" data-clamp-lines="4">Korea has no shortage of fiscal space.&nbsp; It should use it.
+</div>
+      
+      <p class="card-article__metadata">
+        
+                  <span class="card-article__publication-type">Blog Post</span>
+                  
+                      <span class="card-article__authors">by <a href="/expert/brad-w-setser" class="card-article__authors-link">Brad W. Setser</a></span>
+                    
+            
+                          <span class="card-article__date"> June 4, 2019</span>
+            
+                                                                                                                                <a href="/blog/Setser" class="card-article__series">
+                    Follow the Money
+                </a>
+                    </p>
+    </div>
+</section>
+
+                                
+  
+
+<section class="card-article card-article--project-card card-article--with-thumbnail">
+    <div class="card-article__container">
+      
+              <p class="card-article__topic-tag">
+                    <a href="/economics/trade" class="card-article__topic-tag-link">
+            Trade
+          </a>
+                  </p>
+      
+                        <span class="card-article__topic-tag-text"> </span>
+      
+      <div class="card-article__link-outer-wrapper">
+                
+        
+                          <a href="/conference-calls/trump-tariffs-and-immigration " class="card-article__link">
+        
+        
+          <div class="card-article__info">
+            <p class="card-article__title clamp-js" data-clamp-lines="4">Trump, Tariffs, and Immigration</p>
+                          <div class="card-article__image">
+
+                                                                        <span class="card-article__icon">      <svg viewBox="0 0 15 25" class="icon icon-podcast" xmlns="http://www.w3.org/2000/svg">
+    <title>Podcast</title>
+    <path d="M8.005 20.469v3.489h3.283a.523.523 0 0 1 0 1.042H3.712a.523.523 0 0 1 0-1.042h3.282v-3.49C2.954 20.183 0 16.929 0 12.76c0-.78 1.06-.78 1.06 0 0 3.646 2.88 6.64 6.44 6.64 3.56 0 6.439-2.994 6.439-6.64a.533.533 0 0 1 1.061 0c0 4.167-2.954 7.422-6.995 7.709m4.292-15.495v7.76c0 2.76-2.12 4.975-4.798 4.975-2.676 0-4.797-2.24-4.797-4.975v-7.76C2.702 2.239 4.823 0 7.499 0c2.678 0 4.798 2.239 4.798 4.974m-1.01 7.76v-1.276H9.016c-.505 0-.505-.781 0-.781h2.273V9.375H9.015c-.505 0-.505-.781 0-.781h2.273V7.29H9.015c-.505 0-.505-.78 0-.78h2.273V4.974c0-2.136-1.718-3.88-3.789-3.88-2.07 0-3.787 1.744-3.787 3.88V6.51h2.273c.505 0 .505.78 0 .78H3.712v1.303h2.273c.505 0 .505.781 0 .781H3.712v1.302h2.273c.505 0 .505.781 0 .781H3.712v1.276c0 2.135 1.717 3.88 3.787 3.88 2.071 0 3.789-1.745 3.789-3.88" class="icon-fill" fill="none"/>
+</svg>
+  </span>
+                                  
+                                                    <div class="card-article__image-cover" style="background-image: url(//cfrd8-files.cfr.org/sites/default/files/styles/card_landscape_xl/public/image/2019/06/truck%20convoy.jpg)"></div>
+                              </div>
+                          </div>
+          </a>
+      </div>
+
+            
+      <p class="card-article__metadata">
+        
+                  <span class="card-article__publication-type">Conference Call</span>
+                  
+                      <span class="card-article__authors">with <a href="https://www.cfr.org/expert/edward-alden" class="card-article__authors-link">Edward Alden</a> and <a href="https://www.cfr.org/expert/shannon-k-oneil" class="card-article__authors-link">Shannon K. O'Neil</a></span>
+                    
+            
+                          <span class="card-article__date"> June 4, 2019</span>
+            
+                                                                                                                                <a href="/conference-call-series/corporate-conference-calls" class="card-article__series">
+                    Corporate Conference Calls
+                </a>
+                    </p>
+    </div>
+</section>
+
+                      </div>
+      </div>
+</div>
+    
+      </div>
+  <div class="divider"></div>
+  <div class="explore-more-promotional__wrapper">
+        
+           
+
+
+<div class="card-group card-group--promotional card-group--bg-color-default">
+  <div class="card-group__background"></div>
+  <div class="card-group__content-wrapper">
+    <h3 class="card-group__title">
+      <a href="/">
+      Top Stories on CFR
+      </a>
+    </h3>
+
+    <div class="card-group__container">
+    
+                            
+
+  
+
+<section class="card-article article card-article--with-thumbnail">
+    <div class="card-article__container">
+      
+              <p class="card-article__topic-tag">
+                    <a href="/americas/mexico" class="card-article__topic-tag-link">
+            Mexico
+          </a>
+                  </p>
+      
+      
+      <div class="card-article__link-outer-wrapper">
+                
+        
+                          <a href="/article/mexicos-response-tariffs-wont-make-trump-happy " class="card-article__link">
+        
+        
+          <div class="card-article__info">
+            <p class="card-article__title clamp-js" data-clamp-lines="4">Mexico’s Response to Tariffs Won’t Make Trump Happy</p>
+                          <div class="card-article__image">
+
+                
+                                                    <div class="card-article__image-cover" style="background-image: url(//cfrd8-files.cfr.org/sites/default/files/styles/full_width_xl/public/image/2019/06/MexicoTariffs.jpg)"></div>
+                              </div>
+                          </div>
+          </a>
+      </div>
+
+                    <div class="card-article__dek clamp-js" data-clamp-lines="4">Mexico can’t end the migrant flow by itself. But it can—and likely will—raise tariffs that target swing states.
+</div>
+      
+      <p class="card-article__metadata">
+        
+                  
+                      <span class="card-article__authors">by <a href="/expert/shannon-k-oneil" class="card-article__authors-link">Shannon K. O'Neil</a></span>
+                    
+            
+                          <span class="card-article__date"> June 3, 2019</span>
+            
+                                                                                                                                <a href="/programs/latin-america-studies-program" class="card-article__series">
+                    Latin America Studies Program
+                </a>
+                    </p>
+    </div>
+</section>
+
+                                
+
+  
+
+<section class="card-article article card-article--with-thumbnail">
+    <div class="card-article__container">
+      
+              <p class="card-article__topic-tag">
+                    <a href="/americas/united-states" class="card-article__topic-tag-link">
+            United States
+          </a>
+                  </p>
+      
+      
+      <div class="card-article__link-outer-wrapper">
+                
+        
+                          <a href="/article/seventy-fifth-anniversary-d-day " class="card-article__link">
+        
+        
+          <div class="card-article__info">
+            <p class="card-article__title clamp-js" data-clamp-lines="4">Seventy-Fifth Anniversary of D-Day</p>
+                          <div class="card-article__image">
+
+                
+                                                    <div class="card-article__image-cover" style="background-image: url(//cfrd8-files.cfr.org/sites/default/files/styles/full_width_xl/public/image/2019/06/DDay_0.jpg)"></div>
+                              </div>
+                          </div>
+          </a>
+      </div>
+
+            
+      <p class="card-article__metadata">
+        
+                  
+                      <span class="card-article__authors">by <a href="/expert/james-m-lindsay" class="card-article__authors-link">James M. Lindsay</a>, <a href="/bio/corey-cooper" class="card-article__authors-link">Corey Cooper</a> and <a href="/bio/elizabeth-lordi" class="card-article__authors-link">Elizabeth Lordi</a></span>
+                    
+            
+                          <span class="card-article__date"> June 3, 2019</span>
+            
+                                                                                                                        </p>
+    </div>
+</section>
+
+                                
+
+  
+
+<section class="card-article article card-article--with-thumbnail">
+    <div class="card-article__container">
+      
+              <p class="card-article__topic-tag">
+                    <a href="/middle-east-and-north-africa/israel" class="card-article__topic-tag-link">
+            Israel
+          </a>
+                  </p>
+      
+      
+      <div class="card-article__link-outer-wrapper">
+                
+        
+                          <a href="/article/how-read-israels-election-turmoil " class="card-article__link">
+        
+        
+          <div class="card-article__info">
+            <p class="card-article__title clamp-js" data-clamp-lines="4">How to Read Israel’s Election Turmoil</p>
+                          <div class="card-article__image">
+
+                
+                                                    <div class="card-article__image-cover" style="background-image: url(//cfrd8-files.cfr.org/sites/default/files/styles/full_width_xl/public/image/2019/05/Israel_Netanyahu.jpg)"></div>
+                              </div>
+                          </div>
+          </a>
+      </div>
+
+                    <div class="card-article__dek clamp-js" data-clamp-lines="4">Israel’s politics have been upended for much of this year by elections and are now set to be disrupted for much of the rest, while Prime Minister Benjamin Netanyahu faces likely indictment on corruption charges.
+</div>
+      
+      <p class="card-article__metadata">
+        
+                  
+                      <span class="card-article__authors">by <a href="/expert/martin-s-indyk" class="card-article__authors-link">Martin S. Indyk</a></span>
+                    
+            
+                          <span class="card-article__date"> May 31, 2019</span>
+            
+                                                                                                                        </p>
+    </div>
+</section>
+
+                      </div>
+      </div>
+</div>
+      </div>
+</div>
+
+
+  </div>
+</div>
+
+    </div>
+  </main>
+
+    
+<div id="main-footer-anchor"></div>
+<footer class="main-footer">
+  <nav role="navigation" aria-labelledby="block-footer-menu" id="block-footer">
+            
+  <h2 class="visually-hidden" id="block-footer-menu">Footer</h2>
+  
+
+        
+                        
+<a href="/" class="main-footer__logo-btn">
+        <svg viewBox="0 0 125 60" class="main-footer__logo-signature icon-logo-signature" xmlns="http://www.w3.org/2000/svg">
+    <title>Logo</title>
+    <path d="M106.909 13.178c-.502.92-1.081 1.458-1.854 1.458-.713 0-1.01-.522-.975-1.458.062-1.772 1.163-4.833 2.824-4.833.6 0 .999.416.97 1.371-.026.912-.386 2.406-.965 3.462m-.055-5.377c-2.64 0-4.56 2.264-4.63 4.755-.04 1.428.743 2.647 2.703 2.647 3.06 0 4.676-2.7 4.73-4.714.053-1.57-.944-2.688-2.803-2.688m17.484 3.789c0-.612-.316-1.01-.782-1.01-.404 0-.679.3-.679.677 0 .483.45.613.45 1.239-.001.259-.103.519-.32.765-.31.297-.748.513-2.042.513h-3.142c-.364 0-.465-.154-.313-.587.468-1.341 1.109-2.92 1.241-3.587.176-.876-.203-1.687-1.315-1.687-1.749 0-2.89 1.524-4.426 4.42h-.089s1.115-2.606 1.115-3.464c0-.61-.367-.946-1.026-.946-1.009 0-2.041 1.05-2.486 1.63l.31.302c.203-.255.51-.557.737-.733.402-.312.808-.263.687.407-.155.866-1.328 3.959-1.961 5.535h1.827c1.875-3.756 3.251-6.174 4.345-6.174.317 0 .483.196.483.53 0 .675-.985 2.959-1.389 4.312-.238.8-.183 1.332.52 1.332h3.498c1.451 0 2.618-.677 3.122-1.04 1.003-.68 1.635-1.614 1.635-2.433M10.751 24.923v-2.138H2.058v14.48h2.448V30.94h5.657v-2.143H4.506v-3.874zm71.256-.185c-1.474-1.462-3.291-2.302-5.748-2.302-4.258 0-7.677 3.079-7.676 7.66-.001 4.576 3.074 7.48 7.453 7.48h.014c4.075 0 7.1-2.548 7.115-6.755v-.448h-7.093v2.06h4.397c-.473 2.002-2.291 2.938-4.271 2.938-3.055 0-5.025-2.035-5.028-5.347.008-3.065 2.025-5.4 4.976-5.405 2.104 0 3.426.977 4.223 1.776l1.638-1.657zM4.49 51.483v-4.486h2.005c2.614 0 2.919 1.203 2.919 2.105 0 .888-.377 2.381-2.901 2.381H4.49zm3.519 1.851s-.018-.018.112-.034c2.109-.247 3.73-1.928 3.73-4.252 0-2.538-1.893-4.18-4.818-4.18H2.058v14.535H4.49v-6.019h.592l4.895 6.02h3.09l-5.06-6.07zm9.314-8.445v14.533h9.205v-2.114h-6.68v-4.337h5.546v-2.108h-5.546v-3.866h6.21v-2.108zm13.937-.022v14.535h8.865v-2.094h-6.343v-12.44zm24.952 0v2.13h4.494v12.407h2.438V46.995h4.49v-2.13zM71.44 59.402h2.529V44.866H71.44zm35.288-5.305l-9.756-9.776v15.082h2.43v-9.167c.423.418 9.757 9.764 9.757 9.764V44.867h-2.431v9.23zm11.854-3.111c-1.794-.892-2.6-1.555-2.6-2.6 0-1.58 1.623-1.775 2.107-1.775 1.029 0 1.988.344 2.834 1.133l1.234-1.761c-1.366-1.073-2.622-1.393-4.068-1.393-2.648 0-4.5 1.61-4.5 3.924 0 2.215 1.455 3.317 3.917 4.575 1.699.867 2.557 1.632 2.557 2.654 0 1.142-.993 1.819-2.301 1.819-1.38 0-2.47-.465-3.567-1.488l-1.375 1.721c1.582 1.46 3.24 1.87 4.763 1.87 3.286 0 4.942-1.864 4.942-4.14 0-2.331-1.765-3.454-3.943-4.54M12.08 11.201c-1.172 1.342-2.672 2.016-4.33 2.016-2.959 0-5.17-2.004-5.17-5.403 0-3.105 2.076-5.258 4.862-5.258 1.55 0 2.882.51 4.066 1.695l1.618-1.64C11.686 1.083 9.828.363 7.47.363 3.244.363 0 3.586 0 7.884c0 4.511 3.088 7.523 7.433 7.523 2.561 0 4.584-.862 6.046-2.523l-1.399-1.683zm66.172.03c-1.172 1.341-2.547 1.975-4.422 1.975-3.084 0-5.17-2.004-5.17-5.402 0-3.104 2.084-5.267 4.87-5.267 1.55 0 2.883.51 4.066 1.695l1.6-1.619c-1.39-1.536-3.287-2.25-5.645-2.25-4.343 0-7.472 3.223-7.472 7.521 0 4.511 3 7.523 7.435 7.523 2.677 0 4.676-.822 6.137-2.483l-1.4-1.693zm-38.644 4.05c3.432 0 5.411-1.862 5.973-4.36.11-.496.165-1.217.165-1.834V.548H43.31v8.468c0 2.721-1.342 4.075-3.68 4.075-2.41 0-3.854-1.398-3.854-4.075V.548H33.34v8.54c0 .642.057 1.338.17 1.833.573 2.498 2.598 4.36 6.1 4.36m13.05-9.512c.425.419 9.83 9.91 9.83 9.91V.548h-2.372v9.365L50.294 0v15.082h2.366V5.769zm30.062 9.313h2.525V.548h-2.525zM90.25.548V15.08h8.942v-2.095h-6.41V.548zM22.66 2.403c-2.794 0-5.06 2.216-5.06 5.466s2.154 5.467 5.06 5.467c2.904 0 5.056-2.217 5.056-5.467 0-3.25-2.264-5.466-5.057-5.466m-7.613 5.464C15.042 3.503 18.316.25 22.66.25c4.344 0 7.614 3.254 7.613 7.618.001 4.362-3.136 7.617-7.613 7.617-4.478 0-7.617-3.255-7.613-7.617m5.94 16.692c-2.793 0-5.057 2.216-5.057 5.467 0 3.25 2.152 5.467 5.057 5.467 2.906 0 5.057-2.217 5.057-5.467 0-3.251-2.263-5.467-5.057-5.467m-7.613 5.465c-.005-4.365 3.269-7.62 7.613-7.62 4.345 0 7.616 3.255 7.614 7.62.002 4.363-3.137 7.617-7.614 7.617s-7.618-3.254-7.613-7.617m36.748.788h5.546v-2.108h-5.546v-3.866h6.208v-2.108h-8.734v14.534h9.205v-2.114h-6.679zm11.533 6.452h2.525V22.73h-2.525zm-26.489-7.92v-4.487h2.004c2.613 0 2.919 1.203 2.919 2.107 0 .887-.378 2.38-2.901 2.38h-2.022zm3.519 1.85s-.019-.017.111-.033c2.108-.247 3.73-1.928 3.73-4.252 0-2.538-1.894-4.182-4.818-4.182h-4.975v14.537h2.433v-6.018h.592l4.895 6.018h3.09l-5.058-6.07zm3.449 28.204h2.541l1.416-3.376h5.558l1.393 3.376h2.682l-6.774-15.49-6.816 15.49zm6.732-10.073l1.89 4.542h-3.789l1.9-4.542zm36.612-2.6c-2.792 0-5.056 2.216-5.056 5.466 0 3.251 2.153 5.468 5.056 5.468 2.907 0 5.06-2.217 5.06-5.468 0-3.25-2.264-5.466-5.06-5.466m-7.613 5.464c-.004-4.365 3.27-7.617 7.614-7.617 4.344 0 7.617 3.252 7.614 7.617.002 4.362-3.138 7.618-7.615 7.618s-7.617-3.256-7.613-7.618m11.558-24.238c.424.419 9.829 9.909 9.829 9.909V22.73h-2.37v9.366l-9.823-9.913v15.082h2.364v-9.313z" class="icon-fill" fill="none"/>
+</svg>
+  
+</a>
+
+<ul class="main-footer__menu">
+      <li class="main-footer__menu-item">
+      <a href="/about">About CFR</a>
+    </li>
+      <li class="main-footer__menu-item">
+      <a href="/think-tank">Think Tank</a>
+    </li>
+      <li class="main-footer__menu-item">
+      <a href="/support-cfr">Support CFR</a>
+    </li>
+      <li class="main-footer__menu-item">
+      <a href="/media">For Media</a>
+    </li>
+      <li class="main-footer__menu-item">
+      <a href="/career-opportunities">Careers</a>
+    </li>
+      <li class="main-footer__menu-item">
+      <a href="/contact-us">Contact Us</a>
+    </li>
+  </ul>
+
+  </nav>
+
+
+<div class="main-footer__newsletter">
+  <div class="main-footer__newsletter-header">
+    <div class="main-footer__newsletter-icon">      <svg viewBox="0 0 48 17" class="icon icon-newsletter" xmlns="http://www.w3.org/2000/svg">
+    <title>Newsletter</title>
+    <path d="M46.694 1H24v14.625h22.694V1zm-1.639.756L35.221 9.07l-9.607-7.313h19.441zm.883 13.113H24.756V2.034l10.465 7.968 10.717-7.968v12.835zM17 1.833H1M17 8.5H5m12 6.667h-6" class="icon-stroke" fill="none"/>
+</svg>
+  </div>
+    <div class="main-footer__newsletter-text">
+      <span class="main-footer__newsletter-text-primary">Daily News Brief</span>
+      <span class="main-footer__newsletter-text-secondary">Sign up for a morning roundup of news and analysis from around the world.</span>
+    </div>
+  </div>
+  <form class="daily-news-brief-main-footer-form" data-newsletter-id="daily_news_brief_main-footer_form" data-drupal-selector="daily-news-brief-main-footer-form" action="/backgrounder/naftas-economic-impact" method="post" id="daily-news-brief-main-footer-form" accept-charset="UTF-8">
+  <div class="main-footer__newsletter-email js-form-wrapper form-wrapper" data-drupal-selector="edit-subscribe" id="edit-subscribe"><input data-drupal-selector="edit-newsletter-name" type="hidden" name="newsletter_name" value="daily_news_brief" />
+<div id="daily_news_brief_main-footer_form" class="g-recaptcha newsletter-form__recaptcha"></div><input id="daily_news_brief_main-footer_form--recaptcha-id" data-drupal-selector="edit-recaptcha-id" type="hidden" name="recaptcha_id" value="" />
+<input data-drupal-selector="edit-newsletter-id" type="hidden" name="newsletter_id" value="daily_news_brief_main-footer_form" />
+<div class="hidden"><div class="js-form-item form-item js-form-type-textfield form-item-url js-form-item-url">
+      <label for="edit-url">Url</label>
+        <input data-drupal-selector="edit-url" type="text" id="edit-url" name="url" value="" size="60" maxlength="128" class="form-text" />
+
+        </div>
+</div><div class="js-form-item form-item js-form-type-email form-item-email-address js-form-item-email-address">
+      <label for="edit-email-address">Email Address</label>
+        <input class="main-footer__newsletter-email-input form-email" data-drupal-selector="edit-email-address" type="email" id="edit-email-address" name="email_address" value="" size="60" maxlength="254" />
+
+        </div>
+<input class="main-footer__newsletter-submitbtn button js-form-submit form-submit" data-drupal-selector="cfr-newsletter-signup-form-daily-news-brief-main-footer-form-submit" type="submit" id="cfr-newsletter-signup-form--daily-news-brief-main-footer-form--submit" name="op" value="Submit" />
+</div>
+<input autocomplete="off" data-drupal-selector="form-5jyhcw9muskw7e-erjmfqrzkdelx6z2adot1jsbfxyo" type="hidden" name="form_build_id" value="form-5jYHcw9MUskw7e-ERjMfQRZKdelX6Z2aDOT1jSbfxyo" />
+<input data-drupal-selector="edit-daily-news-brief-main-footer-form" type="hidden" name="form_id" value="daily_news_brief_main-footer_form" />
+
+</form>
+
+  <div class="main-footer__newsletter-successmsg">
+    Thanks for signing up!       <svg viewBox="0 0 24 18" class="icon icon-check" xmlns="http://www.w3.org/2000/svg">
+    <title>Check</title>
+    <path d="M7.644 14.171L2 8.597l-2 1.88L7.644 18 24 1.88 22 0z" class="icon-fill" fill="none"/>
+</svg>
+  <br />
+    Check your Email Address.
+  </div>
+  <div class="main-footer__newsletter-signup-all">
+    <a href="/newsletters">Browse more CFR newsletters</a>
+  </div>
+</div>
+
+<div class="main-footer__share-kit-wrapper">
+            
+  <div class="share-kit  share-kit--icon-color-transparent-white share-kit--bg-color-white share-kit--small share-kit--theme-none"
+    data-share-anchor=""
+    data-share-query=""
+    data-share-name=""
+    data-share-description=""
+    data-share-caption=""
+    data-share-picture=""
+    data-share-type=""
+  >
+    <div class="share-kit__icons">
+                                    <a class="share-kit__hotspot share-kit__facebook" href="https://www.facebook.com/councilonforeignrelations" target="_blank">
+                    <svg viewBox="0 0 9 19" class="icon icon-facebook" xmlns="http://www.w3.org/2000/svg">
+    <title>Facebook</title>
+    <path d="M0 5.993h1.861V4.171c0-.801.021-2.04.6-2.807C3.071.552 3.91 0 5.35 0c2.347 0 3.336.336 3.336.336l-.465 2.777s-.776-.226-1.5-.226c-.723 0-1.371.26-1.371.99v2.116h2.967l-.206 2.71H5.35v9.42H1.86v-9.42H0v-2.71l4.203 4.532" class="icon-fill" fill="none"/>
+</svg>
+  
+            </a>
+                                                      <a class="share-kit__hotspot share-kit__twitter" href="https://twitter.com/CFR_org" target="_blank">
+                    <svg viewBox="0 0 19 15" class="icon icon-twitter" xmlns="http://www.w3.org/2000/svg">
+    <title>Twitter</title>
+    <path d="M18.686 1.744a7.36 7.36 0 0 1-2.121.585A3.723 3.723 0 0 0 18.189.272a7.404 7.404 0 0 1-2.345.903A3.678 3.678 0 0 0 13.148 0c-2.04 0-3.692 1.664-3.692 3.719 0 .291.031.574.095.846A10.46 10.46 0 0 1 1.939.68c-.319.55-.5 1.187-.5 1.868a3.72 3.72 0 0 0 1.643 3.095 3.634 3.634 0 0 1-1.672-.465c-.002.016-.002.032-.002.048a3.713 3.713 0 0 0 2.964 3.645 3.638 3.638 0 0 1-1.669.064 3.7 3.7 0 0 0 3.45 2.582 7.375 7.375 0 0 1-4.586 1.591c-.298 0-.593-.016-.88-.051a10.406 10.406 0 0 0 5.66 1.67c6.793 0 10.507-5.665 10.507-10.58 0-.16-.003-.32-.011-.48a7.514 7.514 0 0 0 1.843-1.924" class="icon-fill" fill="none"/>
+</svg>
+  
+            </a>
+                                                      <a class="share-kit__hotspot share-kit__youtube" href="https://www.youtube.com/user/cfr/featured" target="_blank">
+                    <svg viewBox="0 0 19 13" class="icon icon-youtube" xmlns="http://www.w3.org/2000/svg">
+    <title>YouTube</title>
+    <path d="M7.817 8.968V3.82L12.6 6.333 7.817 8.968zm10.595-6.631C18.069.955 17.426.423 16.242.23 15.559.13 12.282 0 9.68 0h.011c-2.6 0-5.878.13-6.56.23C1.946.424 1.303.956.96 2.338.846 2.8.686 5.346.686 6.317v.213c0 .97.16 3.516.275 3.98.343 1.382.986 1.914 2.17 2.106.683.101 3.96.23 6.561.23h-.011c2.6 0 5.878-.129 6.56-.23 1.185-.192 1.828-.724 2.17-2.106.116-.464.275-3.009.275-3.98v-.213c0-.971-.159-3.516-.274-3.98z" class="icon-fill" fill="none"/>
+</svg>
+  
+            </a>
+                                                      <a class="share-kit__hotspot share-kit__instagram" href="https://www.instagram.com/cfr_org/" target="_blank">
+                    <svg viewBox="0 0 19 19" class="icon icon-instagram" xmlns="http://www.w3.org/2000/svg">
+    <title>Instagram</title>
+    <path d="M9.703 5.495c-1.996 0-3.615 1.58-3.615 3.527 0 1.948 1.619 3.527 3.615 3.527 1.997 0 3.616-1.58 3.616-3.527 0-1.948-1.619-3.527-3.616-3.527zm6.949 2.169h-1.584c.15.493.23 1.014.23 1.555 0 3.014-2.505 5.458-5.595 5.458S4.11 12.233 4.11 9.219c0-.54.08-1.062.23-1.555H2.686v7.655c0 .396.322.72.716.72h12.534a.72.72 0 0 0 .716-.72V7.664zm-2.853-5.65a.815.815 0 0 0-.81.815v1.953c0 .449.364.816.81.816h2.034c.446 0 .81-.367.81-.816V2.83a.815.815 0 0 0-.81-.816H13.8zM2.997 0h13.379c1.27 0 2.31 1.047 2.31 2.326v13.47c0 1.28-1.04 2.326-2.31 2.326H2.996a2.325 2.325 0 0 1-2.31-2.326V2.326C.686 1.046 1.726 0 2.996 0z" class="icon-fill" fill="none"/>
+</svg>
+  
+            </a>
+                                                      <a class="share-kit__hotspot share-kit__linkedin" href="https://www.linkedin.com/company/council-on-foreign-relations" target="_blank">
+                    <svg viewBox="0 0 19 18" class="icon icon-linkedin" xmlns="http://www.w3.org/2000/svg">
+    <title>LinkedIn</title>
+    <path d="M18.447 17.014h-3.799c0-.163.008-4.169-.007-6.075a4.948 4.948 0 0 0-.151-1.214c-.366-1.386-1.929-1.876-3.037-.962-.536.442-.823 1.013-.822 1.727.007 2.038.003 4.485.003 6.524 0 .144 0-.175 0 0h-3.77V5.599h3.752v1.552c.122-.135.19-.199.244-.274.98-1.347 2.348-1.718 3.906-1.52 1.548.197 2.66 1.037 3.213 2.52.227.61.316 1.272.468 1.91v7.227zM.941 17.013h3.75V5.603H.941v11.41zM2.802 3.99c-.97-.001-1.764-.533-2.018-1.353C.523 1.795.794.887 1.5.422 2.286-.1 3.135-.133 3.969.298c.728.376 1.016 1.04.986 1.842-.04 1.09-.935 1.852-2.153 1.85z" class="icon-fill" fill="none"/>
+</svg>
+  
+            </a>
+                            </div>
+
+      </div>
+
+</div>
+<div class="main-footer__fineprint">
+    <span class="main-footer__fineprint-line">©2019 Council on Foreign Relations.</span>
+    <span class="main-footer__fineprint-line">All rights reserved.</span>
+    <span class="main-footer__fineprint-line">
+      <a href="/privacy-policy" class="main-footer__fineprint-link">Privacy Policy</a> and
+      <a href="/terms-use" class="main-footer__fineprint-link">Terms of Use</a>.
+    </span>
+</div>
+
+</footer>
+
+  
+</div>
+  </div>
+
+    
+
+        <script id="share-kit--template" type="text/template">
+                                  
+  <div class="share-kit  share-kit--icon-color-white share-kit--bg-color-white  share-kit--theme-none"
+    data-share-anchor=""
+    data-share-query=""
+    data-share-name=""
+    data-share-description=""
+    data-share-caption=""
+    data-share-picture=""
+    data-share-type=""
+  >
+    <div class="share-kit__icons">
+                        <button class="share-kit__hotspot share-kit__facebook" onclick="CFR.Share.facebook(this)">
+                  <svg viewBox="0 0 9 19" class="icon icon-facebook" xmlns="http://www.w3.org/2000/svg">
+    <title>Facebook</title>
+    <path d="M0 5.993h1.861V4.171c0-.801.021-2.04.6-2.807C3.071.552 3.91 0 5.35 0c2.347 0 3.336.336 3.336.336l-.465 2.777s-.776-.226-1.5-.226c-.723 0-1.371.26-1.371.99v2.116h2.967l-.206 2.71H5.35v9.42H1.86v-9.42H0v-2.71l4.203 4.532" class="icon-fill" fill="none"/>
+</svg>
+  
+          </button>
+                                <button class="share-kit__hotspot share-kit__twitter" onclick="CFR.Share.twitter(this)">
+                  <svg viewBox="0 0 19 15" class="icon icon-twitter" xmlns="http://www.w3.org/2000/svg">
+    <title>Twitter</title>
+    <path d="M18.686 1.744a7.36 7.36 0 0 1-2.121.585A3.723 3.723 0 0 0 18.189.272a7.404 7.404 0 0 1-2.345.903A3.678 3.678 0 0 0 13.148 0c-2.04 0-3.692 1.664-3.692 3.719 0 .291.031.574.095.846A10.46 10.46 0 0 1 1.939.68c-.319.55-.5 1.187-.5 1.868a3.72 3.72 0 0 0 1.643 3.095 3.634 3.634 0 0 1-1.672-.465c-.002.016-.002.032-.002.048a3.713 3.713 0 0 0 2.964 3.645 3.638 3.638 0 0 1-1.669.064 3.7 3.7 0 0 0 3.45 2.582 7.375 7.375 0 0 1-4.586 1.591c-.298 0-.593-.016-.88-.051a10.406 10.406 0 0 0 5.66 1.67c6.793 0 10.507-5.665 10.507-10.58 0-.16-.003-.32-.011-.48a7.514 7.514 0 0 0 1.843-1.924" class="icon-fill" fill="none"/>
+</svg>
+  
+          </button>
+                                <button class="share-kit__hotspot share-kit__linkedin" onclick="CFR.Share.linkedin(this)">
+                  <svg viewBox="0 0 19 18" class="icon icon-linkedin" xmlns="http://www.w3.org/2000/svg">
+    <title>LinkedIn</title>
+    <path d="M18.447 17.014h-3.799c0-.163.008-4.169-.007-6.075a4.948 4.948 0 0 0-.151-1.214c-.366-1.386-1.929-1.876-3.037-.962-.536.442-.823 1.013-.822 1.727.007 2.038.003 4.485.003 6.524 0 .144 0-.175 0 0h-3.77V5.599h3.752v1.552c.122-.135.19-.199.244-.274.98-1.347 2.348-1.718 3.906-1.52 1.548.197 2.66 1.037 3.213 2.52.227.61.316 1.272.468 1.91v7.227zM.941 17.013h3.75V5.603H.941v11.41zM2.802 3.99c-.97-.001-1.764-.533-2.018-1.353C.523 1.795.794.887 1.5.422 2.286-.1 3.135-.133 3.969.298c.728.376 1.016 1.04.986 1.842-.04 1.09-.935 1.852-2.153 1.85z" class="icon-fill" fill="none"/>
+</svg>
+  
+          </button>
+                                <button class="share-kit__hotspot share-kit__e-mail-filled" onclick="CFR.Share.email(this)">
+                  <svg viewBox="0 0 23 14" class="icon icon-e-mail-filled" xmlns="http://www.w3.org/2000/svg">
+    <title>Email</title>
+    <path d="M.915 0l10.258 7.808L21.673 0H.915zm10.258 8.804L0 .297V14h22.615V.297L11.173 8.804z" class="icon-fill" fill="none"/>
+</svg>
+  
+          </button>
+                  </div>
+
+      </div>
+
+    </script>
+  </div>
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/6882","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","ajaxPageState":{"libraries":"cfr_adobe_analytics\/app-measurement,cfr_chartbeat\/cfr-chartbeat-body,cfr_chartbeat\/cfr-chartbeat-header,cfr_theme\/alert,cfr_theme\/article,cfr_theme\/buttons,cfr_theme\/card-group,cfr_theme\/footer,cfr_theme\/global,cfr_theme\/glossary,cfr_theme\/member-login-old,cfr_theme\/navigation,cfr_theme\/newsletter-form-common,cfr_theme\/pullquote,cfr_theme\/share-kit,core\/drupal.autocomplete,core\/html5shiv,core\/jquery.form,datalayer\/behaviors,eu_cookie_compliance\/eu_cookie_compliance,search_autocomplete\/theme.minimal.css,statistics\/drupal.statistics,system\/base","theme":"cfr_theme","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/backgrounder\/naftas-economic-impact?ajax_form=1":true},"cfr_adobe_analytics":{"settings":{"rsid":"cfrprod2017","tracking_server":"cfr.112.2o7.net","tracking_server_secure":""},"vars":{"visitorNamespace":"cfr","pageName":"NAFTA\u2019s Economic Impact","prop1":"NAFTA\u2019s Economic Impact","prop2":"https:\/\/www.cfr.org\/backgrounder\/naftas-economic-impact","prop3":"NAFTA\u2019s Economic Impact","prop4":"Backgrounder","prop5":"Article","prop7":"admin","prop8":"Americas","prop9":"Trade|Regional Organizations|Treaties and Agreements","prop10":"NAFTA","prop23":"backgrounder","eVar1":"NAFTA\u2019s Economic Impact","eVar2":"https:\/\/www.cfr.org\/backgrounder\/naftas-economic-impact","eVar3":"NAFTA\u2019s Economic Impact","eVar4":"Backgrounder","eVar5":"Article","eVar7":"admin","eVar8":"Americas","eVar9":"Trade|Regional Organizations|Treaties and Agreements","eVar10":"NAFTA","eVar19":"6882","eVar21":"anonymous","eVar22":"not yet assigned","eVar32":"21","eVar33":"Thursday"}},"dataLayer":{"defaultLang":"en","languages":{"en":{"id":"en","name":"English","direction":"ltr","weight":0}}},"eu_cookie_compliance":{"popup_enabled":true,"popup_agreed_enabled":false,"popup_hide_agreed":false,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n      \u003Cp\u003EThis site uses cookies to improve your user experience. \u003Ca href=\u0022\/privacy-policy#cookies\u0022\u003EClick here\u003C\/a\u003E to learn more.\u003C\/p\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EMore info\u003C\/button\u003E\n          \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-secondary-button\u0022\u003EClose\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-default-button\u0022 \u003ENo, thanks\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n      \n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EMore info\u003C\/button\u003E\n          \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-secondary-button\u0022\u003EClose\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-default-button\u0022 \u003ENo, thanks\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","mobile_breakpoint":768,"popup_html_agreed":false,"popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/report\/protecting-data-privacy-user-friendly-software","popup_link_new_window":true,"popup_position":false,"popup_language":"en","store_consent":false,"better_support_for_screen_readers":false,"cookie_name":"","reload_page":false,"domain":"","popup_eu_only_js":false,"cookie_lifetime":100,"cookie_session":0,"disagree_do_not_show_popup":false,"method":"opt_in","whitelisted_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\u003Cp\u003EYou have given your consent for us to set cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button\u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","withdraw_enabled":false},"search_autocomplete":{"header_search":{"source":"https:\/\/www.cfr.org\/callback\/search_autocomplete","selector":"input.search-overlay__search-bar","minChars":3,"maxSuggestions":10,"autoSubmit":true,"autoRedirect":true,"theme":"minimal","filters":["keyword"],"noResult":{"group":{"group_id":"no_results"},"label":"Search CFR.org for \u003Cstrong\u003E[search-phrase]\u003C\/strong\u003E.","value":"[search-phrase]"},"moreResults":{"group":{"group_id":"more_results"},"label":"View all results for \u003Cstrong\u003E[search-phrase]\u003C\/strong\u003E.","value":"[search-phrase]"}},"keyword_search":{"source":"https:\/\/www.cfr.org\/callback\/search_autocomplete","selector":"#views-exposed-form-site-search-page-1 input.form-text","minChars":3,"maxSuggestions":10,"autoSubmit":true,"autoRedirect":true,"theme":"minimal","filters":["keyword"],"noResult":{"group":{"group_id":"no_results"},"label":"Search CFR.org for \u003Cstrong\u003E[search-phrase]\u003C\/strong\u003E.","value":"[search-phrase]"},"moreResults":{"group":{"group_id":"more_results"},"label":"View all results for \u003Cstrong\u003E[search-phrase]\u003C\/strong\u003E.","value":"[search-phrase]"}}},"cfrNewsletter":{"recaptcha":{"siteKey":"6LdQgwsUAAAAAKyZyK14h2TGLjKBuLp569DalDJJ"}},"ajax":{"cfr-newsletter-signup-form--daily-news-brief-main-footer-form--submit":{"wrapper":"daily-news-brief-main-footer-form","callback":[{},"ajaxSubmit"],"event":"click","prevent":"mousedown","url":"\/backgrounder\/naftas-economic-impact?ajax_form=1","dialogType":"ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Submit"}}},"statistics":{"data":{"nid":"6882"},"url":"\/core\/modules\/statistics\/statistics.php"},"user":{"uid":0,"permissionsHash":"27279014789d48d8fa9b0573743a7ae1b6d1ac324754f4828528d62a95898e33"}}</script>
+<script src="//cfrd8-files.cfr.org/sites/default/files/js/js_WeQt0Gn9RMrbdTTEvnaCy27xlg7VUXbgtcs8fKQEpz4.js"></script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"864c0a0685","applicationID":"20728578","transactionName":"MlEAN0FYDUoEUUYKXAsbIwBHUAxXSnZAFkMEWD4gXEsGZSNdQA5vI1sQDnFMClUBV0BODRdRDAdWSzNVBFFXC1wJUAcRdVYRVCRRRgpcCw==","queueTime":0,"applicationTime":1534,"atts":"HhYDQQlCHkQ=","errorBeacon":"bam.nr-data.net","agent":""}</script><script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1680190100';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+</html>

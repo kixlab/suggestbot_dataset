@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]> <html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="en" style="margin-top: 0px !important;"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie10 lt-ie9" lang="en" style="margin-top: 0px !important;"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js lt-ie10" lang="en" style="margin-top: 0px !important;"> <![endif]-->
+<!--[if gt IE 10]><!--> <html class="no-js" lang="en" style="margin-top: 0px !important;"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link href="https://www.greenstate.com/wp-content/themes/greenstate/img/favicon.ico" title="shortcut-icon" rel="shortcut icon">
+<link href="https://www.greenstate.com/wp-content/themes/greenstate/img/favicon.ico" title="icon" rel="icon">
+  <title> Cancer: Can Cannabis Really Cure It? | Marijuana &amp; Cancer | GreenState | GreenState</title>
+
+  		<script type="text/javascript">
+
+		wp_source = {"authorName":"Emily Earlenbaugh","authorTitle":"","authorEmail":"emily.earlenbaugh@gmail.com","publishingSite":"www.greenstate","sourceSite":"","originalSourceSite":""};
+		wp_content = {"blogName":"GreenState","blogPath":"\/greenstate\/","blogType":"staff","blogId":"4","title":"Cancer: Can Cannabis Really Cure It? | Marijuana &amp; Cancer | GreenState","subtitle":"","objectId":685,"objectType":"post","displayTemplate":"Greenstate","sectionPath":["news","cannabis"],"wordCount":0,"keywords":[],"pubDate":"2017-11-26 18:27:45","lastModifiedDate":"2018-02-23 12:59:48","syndicationRights":""};
+		wp_href = {"pageUrl":"https:\/\/www.greenstate.com","canonicalUrl":"https:\/\/www.greenstate.com\/health\/explainer-does-marijuana-cure-cancer\/"};
+		wp_presentation = {"hasSlideshow":false,"hasSlideshowListView":false,"hasVideo":false,"hasInteractive":false};
+		var HDN = HDN || {};
+                if (!HDN.hasOwnProperty('dataLayer')){ HDN.dataLayer={}; }
+		HDN.dataLayer.source  = wp_source;
+		HDN.dataLayer.content = wp_content;
+		HDN.dataLayer.href = wp_href;
+		HDN.dataLayer.href.pageUrlPath = window.location.pathname;
+	        HDN.dataLayer.href.pageUrlPathFolders = window.location.pathname.replace(/[A-Za-z0-9-_.]+$/, '');
+	        HDN.dataLayer.href.pageUrlQueryParams = window.location.search.replace(/^\?/, '');
+	        HDN.dataLayer.href.pageUrlHash = window.location.hash;
+		</script>
+				<script type="text/javascript">
+		var ajaxurl = 'https://www.greenstate.com/wp-admin/admin-ajax.php';
+		</script>
+		
+<!-- This site is optimized with the Yoast SEO plugin v11.0 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Scientists are mixed about cannabis&#039; effects on cancer cells. Marijuana has been shown to attack cancer cells but more testing is needed."/>
+<link rel="canonical" href="https://www.greenstate.com/health/explainer-does-marijuana-cure-cancer/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Cancer: Can Cannabis Really Cure It? | Marijuana &amp; Cancer | GreenState" />
+<meta property="og:description" content="Scientists are mixed about cannabis&#039; effects on cancer cells. Marijuana has been shown to attack cancer cells but more testing is needed." />
+<meta property="og:site_name" content="GreenState" />
+<meta property="article:publisher" content="https://www.facebook.com/YourGreenState/" />
+<meta property="article:section" content="Health" />
+<meta property="article:published_time" content="2017-11-26T18:27:45+00:00" />
+<meta property="article:modified_time" content="2018-02-23T20:59:48+00:00" />
+<meta property="og:updated_time" content="2018-02-23T20:59:48+00:00" />
+<meta property="og:image" content="https://s3-us-west-1.amazonaws.com/sfc-wordpress/wp-content/uploads/sites/4/2017/11/buds.jpg" />
+<meta property="og:image:secure_url" content="https://s3-us-west-1.amazonaws.com/sfc-wordpress/wp-content/uploads/sites/4/2017/11/buds.jpg" />
+<meta property="og:image:width" content="625" />
+<meta property="og:image:height" content="352" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Scientists are mixed about cannabis&#039; effects on cancer cells. Marijuana has been shown to attack cancer cells but more testing is needed." />
+<meta name="twitter:title" content="Cancer: Can Cannabis Really Cure It? | Marijuana &amp; Cancer | GreenState" />
+<meta name="twitter:site" content="@greenstate" />
+<meta name="twitter:image" content="https://s3-us-west-1.amazonaws.com/sfc-wordpress/wp-content/uploads/sites/4/2017/11/buds.jpg" />
+<meta name="twitter:creator" content="@greenstate" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.greenstate.com/#organization","name":"GreenState","url":"https://www.greenstate.com/","sameAs":["https://www.facebook.com/YourGreenState/","https://www.instagram.com/yourgreenstate/","https://twitter.com/greenstate"],"logo":{"@type":"ImageObject","@id":"https://www.greenstate.com/#logo","url":"http://s3-us-west-1.amazonaws.com/sfc-wordpress/wp-content/uploads/sites/4/2017/12/green-state-logo.png","caption":"GreenState"},"image":{"@id":"https://www.greenstate.com/#logo"}},{"@type":"WebSite","@id":"https://www.greenstate.com/#website","url":"https://www.greenstate.com/","name":"GreenState","publisher":{"@id":"https://www.greenstate.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://www.greenstate.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"https://www.greenstate.com/health/explainer-does-marijuana-cure-cancer/#webpage","url":"https://www.greenstate.com/health/explainer-does-marijuana-cure-cancer/","inLanguage":"en-US","name":"Cancer: Can Cannabis Really Cure It? | Marijuana &amp; Cancer | GreenState","isPartOf":{"@id":"https://www.greenstate.com/#website"},"image":{"@type":"ImageObject","@id":"https://www.greenstate.com/health/explainer-does-marijuana-cure-cancer/#primaryimage","url":"https://s3-us-west-1.amazonaws.com/sfc-wordpress/wp-content/uploads/sites/4/2017/11/buds.jpg","caption":"Cancer researchers in Israel. JACK GUEZ/AFP/Getty Images SOURCE: JACK GUEZ | AFP | Getty"},"primaryImageOfPage":{"@id":"https://www.greenstate.com/health/explainer-does-marijuana-cure-cancer/#primaryimage"},"datePublished":"2017-11-26T18:27:45+00:00","dateModified":"2018-02-23T20:59:48+00:00","description":"Scientists are mixed about cannabis' effects on cancer cells. Marijuana has been shown to attack cancer cells but more testing is needed."},{"@type":"Article","@id":"https://www.greenstate.com/health/explainer-does-marijuana-cure-cancer/#article","isPartOf":{"@id":"https://www.greenstate.com/health/explainer-does-marijuana-cure-cancer/#webpage"},"author":{"@id":"https://www.greenstate.com/author/emilyearlenbaugh/#author","name":"Emily Earlenbaugh"},"publisher":{"@id":"https://www.greenstate.com/#organization"},"headline":"Cancer: Can cannabis really cure it?","datePublished":"2017-11-26T18:27:45+00:00","dateModified":"2018-02-23T20:59:48+00:00","commentCount":0,"mainEntityOfPage":"https://www.greenstate.com/health/explainer-does-marijuana-cure-cancer/#webpage","image":{"@id":"https://www.greenstate.com/health/explainer-does-marijuana-cure-cancer/#primaryimage"},"articleSection":"Health,Medical Research"},{"@type":"Person","@id":"https://www.greenstate.com/author/emilyearlenbaugh/#author","name":"Emily Earlenbaugh","image":{"@type":"ImageObject","@id":"https://www.greenstate.com/#personlogo","url":"https://secure.gravatar.com/avatar/e19856573f9270945adb4825e72429b1?s=96&d=mm&r=g","caption":"Emily Earlenbaugh"},"sameAs":[]}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//ak.sail-horizon.com' />
+<link rel='dns-prefetch' href='//cdn.blueconic.net' />
+<link rel='dns-prefetch' href='//aps.hearstnp.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.greenstate.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='screen-css'  href='https://www.greenstate.com/wp-content/themes/greenstate/css/screen.css?ver=1559665851' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css-css'  href='//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-styles-css'  href='https://www.greenstate.com/wp-content/themes/greenstate/style.css?ver=5.2' type='text/css' media='all' />
+<link crossorigin="anonymous" rel='stylesheet' id='webfonts-css'  href='//fonts.googleapis.com/css?family=Hind+Vadodara%3A400%2C600%2C700%7CLora%7COswald%3A400%2C600%2C700&#038;ver=5.2' type='text/css' media='all' />
+<link crossorigin="anonymous" rel='stylesheet' id='font-awesome-css'  href='//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.greenstate.com/wp-includes/css/dist/block-library/style.min.css?ver=5.2' type='text/css' media='all' />
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+<script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js'></script>
+<script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
+<script type='text/javascript' src='//ak.sail-horizon.com/spm/spm.v1.min.js'></script>
+<script type='text/javascript' src='https://cdn.blueconic.net/hearst.js'></script>
+<script type='text/javascript' src='https://www.greenstate.com/wp-content/themes/greenstate/js/ensighten.js'></script>
+<script type='text/javascript' src='//aps.hearstnp.com/Scripts/loadAds.js'></script>
+<link rel='https://api.w.org/' href='https://www.greenstate.com/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.greenstate.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.greenstate.com%2Fhealth%2Fexplainer-does-marijuana-cure-cancer%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.greenstate.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.greenstate.com%2Fhealth%2Fexplainer-does-marijuana-cure-cancer%2F&#038;format=xml" />
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://www.greenstate.com"><link rel="https://theeventscalendar.com/" href="https://www.greenstate.com/wp-json/tribe/events/v1/" /><link rel="amphtml" href="https://www.greenstate.com/health/explainer-does-marijuana-cure-cancer/amp/"><style>
+.large-image-box.split-box .text H1 A {
+    font-size: 36px;
+}
+.page-template-page-header-php .nav-opener, .page-template-page-header-php  .search-opener {display:none;}
+ .bg-image img {width: 100%;}
+ .hero {overflow:hidden;}
+.page-template-page-about-us .callout {display:none}
+body main.about .post-content .masthead .row.row-flex:first-of-type{display:none;!important}
+html.iframe-parent{overflow-y:scroll;}
+body.archive .large-image-box .author-name.text-uppercase {display:none;}
+
+.article-box .bg-image {
+    position: static;
+    height: 205px;
+    overflow: hidden;
+}
+@media (max-width: 767px){
+.content-holder {
+    padding: 20px 0 1px;
+}
+}
+</style>
+<meta name="google-site-verification" content="cP74EuNYZOIwVB0NkhCS7tgcPdtJ0CTNxlx_Ht161B4" />  
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="https://www.greenstate.com/wp-content/themes/greenstate/css/ie.css" />
+    <script src="https://www.greenstate.com/wp-content/themes/greenstate/js/selectivizr-min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+	
+
+<meta name="description" content=" Cancer is a disease that looms large. It is one of the leading causes of death and one in&hellip;" />
+	<meta property="og:url" content="https://www.greenstate.com/health/explainer-does-marijuana-cure-cancer/">
+
+	
+<meta name="twitter:url" content="https://www.greenstate.com/health/explainer-does-marijuana-cure-cancer/">
+
+
+
+<meta property="sailthru.title" content="Cancer: Can cannabis really cure it?" />
+		<meta name="sailthru.author" content="Emily Earlenbaugh" />
+		<meta name="sailthru.date" content="2017-11-26 06:11:45" /> 
+		<meta name="sailthru.tags" content="" />
+	
+
+<meta name="google-site-verification" content="nc1yBIe30VuaiQQNZ0oucDpRgUf_izXo-CZ0ce7AJV0" />
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '133792787294516'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+ <img height="1" width="1" 
+src="https://www.facebook.com/tr?id=133792787294516&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+</head>
+<body class="post-template-default single single-post postid-685 single-format-standard tribe-no-js">
+	
+	<div class="alert alert-success flyover flyover-centered" role="alert">
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+		<p>Link has been copied to clipboard!</p>
+	</div>
+	
+	
+  <div class="wrapper">
+		<header class="header">
+			<div class="hero">
+				<a href="javascript:;" class="nav-opener"><span class="icon-menu"></span></a>
+				<div class="logo">
+					<a href="https://www.greenstate.com">
+						<img src="https://www.greenstate.com/wp-content/themes/greenstate/img/logo.svg" width="358" height="80" alt="GreenState">
+					</a>
+				</div>
+				<a href="javascript:;" class="search-opener"><span class="icon-search"></span></a>
+			</div>
+			<div class="sidenav-wrap text-uppercase">
+				<div class="green-logo">
+					<a href="https://www.greenstate.com">
+						<img src="https://www.greenstate.com/wp-content/themes/greenstate/img/logo-g.svg" width="166" height="23" alt="GreenState">
+					</a>
+				</div>
+				<a href="#" class="nav-opener"><span class="icon-close"></span></a>
+				<div class="menu-top-level-navigation-container"><ul id="menu-top-level-navigation" class="sidenav" role="menu" ><li id="menu-item-11" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children has-sub"><a href="https://www.greenstate.com/news/"><span>News</span></a>
+<ul>
+	<li id="menu-item-1078" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.greenstate.com/money/"><span>Money</span></a></li>
+</ul>
+</li>
+<li id="menu-item-9" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children has-sub"><a href="https://www.greenstate.com/explained/"><span>Cannabis FAQ</span></a>
+<ul>
+	<li id="menu-item-1077" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.greenstate.com/explained/law/"><span>Law</span></a></li>
+	<li id="menu-item-1067" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.greenstate.com/explained/gardening/"><span>Gardening</span></a></li>
+	<li id="menu-item-1068" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.greenstate.com/explained/etiquette/"><span>Etiquette</span></a></li>
+	<li id="menu-item-1072" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.greenstate.com/explained/glossary/"><span>Glossary</span></a></li>
+</ul>
+</li>
+<li id="menu-item-10" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children has-sub"><a href="https://www.greenstate.com/food-travel/"><span>Food+Travel</span></a>
+<ul>
+	<li id="menu-item-1066" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.greenstate.com/food-travel/recipes/"><span>Recipes</span></a></li>
+	<li id="menu-item-1080" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.greenstate.com/food-travel/destinations/"><span>Travel</span></a></li>
+</ul>
+</li>
+<li id="menu-item-12" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.greenstate.com/pov/"><span>POV</span></a></li>
+<li id="menu-item-350" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children has-sub"><a href="https://www.greenstate.com/health/"><span>Health</span></a>
+<ul>
+	<li id="menu-item-1074" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.greenstate.com/health/sex/"><span>Sex</span></a></li>
+	<li id="menu-item-1071" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.greenstate.com/health/beauty/"><span>Beauty</span></a></li>
+	<li id="menu-item-1076" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.greenstate.com/health/indications/"><span>Indications</span></a></li>
+</ul>
+</li>
+<li id="menu-item-351" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children has-sub"><a href="https://www.greenstate.com/reviews/"><span>Reviews</span></a>
+<ul>
+	<li id="menu-item-1063" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.greenstate.com/reviews/products/"><span>Products</span></a></li>
+	<li id="menu-item-1065" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.greenstate.com/reviews/hardware/"><span>Hardware</span></a></li>
+	<li id="menu-item-1069" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.greenstate.com/reviews/dispensaries/"><span>Dispensaries</span></a></li>
+</ul>
+</li>
+</ul></div>			</div>
+			<nav class="nav">
+				<div class="container">
+					
+					<div class="menu-main-navigation-container"><ul id="menu-main-navigation" class="menu"><li id="menu-item-435" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-435"><a href="https://www.greenstate.com/explained/">Cannabis Explained</a></li>
+<li id="menu-item-4815" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4815"><a href="https://www.greenstate.com/news/">News</a></li>
+<li id="menu-item-5051" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5051"><a href="https://www.greenstate.com/lifestyle/">Lifestyle</a></li>
+<li id="menu-item-5055" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5055"><a href="https://www.greenstate.com/lifestyle/food/">Food</a></li>
+<li id="menu-item-5054" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5054"><a href="https://www.greenstate.com/lifestyle/travel/">Travel</a></li>
+<li id="menu-item-5056" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5056"><a href="https://www.greenstate.com/explained/law/">Law</a></li>
+<li id="menu-item-439" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-439"><a href="https://www.greenstate.com/health/">Health</a></li>
+<li id="menu-item-5053" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5053"><a href="https://www.greenstate.com/money/">Money</a></li>
+</ul></div>					
+				</div>
+			</nav>
+			
+			<!-- Search Form -->
+			<div class="main-search-form">				
+	<a href="#" class="search-opener"><span class="icon-close"></span></a>
+	<form role="search" class="search-form" action="https://www.greenstate.com/" method="get">
+		<input id="search-input" class="search-overlay--input" value="" name="s" placeholder="Search" type="search">
+		<label class="search-label" for="search-input">Type keyword(s) to search</label>
+	</form>
+</div>			
+		</header><!-- displaying post cached-post-685 from db-->  	
+  	
+    <main class="main single single-post">
+			<div class="content-holder">
+				<div class="container">
+					
+					<!-- 728x90 Ad Space -->
+					<!-- gsa-leaderboard -->
+<div class="ad-banner ad-container">
+<!-- Begin Hearst Ad -->
+	<div id="GSA_LEAD">
+		<script type="text/javascript">/*<![CDATA[*/hearstPlaceAd("GSA_LEAD");/*]]>*/</script>
+	</div>
+<!-- End Hearst Ad -->
+</div>					
+				</div>
+				
+				<div class="container">
+					
+										
+					<div class="row">
+						<div class="post-header">
+							
+							<div class="col-lg-8">
+								<a class="category label" href="https://www.greenstate.com/health">Health</a>
+								<h1>Cancer: Can cannabis really cure it?</h1>
+								<div class="byline">
+									<span class="date">November 26, 2017</span> <span class="authors"><a href="https://www.greenstate.com/author/emilyearlenbaugh/" title="Posts by Emily Earlenbaugh" rel="author">Emily Earlenbaugh</a></span>
+								</div>
+							</div>
+							
+							<div class="col-lg-4">
+							<ul class="social-share"><li>SHARE</li><li><a class="gs-link gs-twitter" href="https://twitter.com/intent/tweet?text=Cancer:%20Can%20cannabis%20really%20cure%20it?&amp;url=https%3A%2F%2Fwww.greenstate.com%2Fhealth%2Fexplainer-does-marijuana-cure-cancer%2F&amp;via=greenstate" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li><li><a class="gs-link gs-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.greenstate.com%2Fhealth%2Fexplainer-does-marijuana-cure-cancer%2F" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li><li><a class="gs-link gs-email" href="mailto:?subject=GreenState: Cancer:%20Can%20cannabis%20really%20cure%20it?&body=From GreenState:%0A%0ACancer:%20Can%20cannabis%20really%20cure%20it?%0A%0Ahttps%3A%2F%2Fwww.greenstate.com%2Fhealth%2Fexplainer-does-marijuana-cure-cancer%2F%0A%0AHey, I found this awesome post on the website GreenState.com and I wanted to share it with you." target="_self"><i class="fa fa-envelope" aria-hidden="true"></i></a></li><li><a class="gs-link gs-reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.greenstate.com%2Fhealth%2Fexplainer-does-marijuana-cure-cancer%2F&title=Cancer:%20Can%20cannabis%20really%20cure%20it?"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></li><li><a class="gs-link gs-url" href="javascript: CopyLink();"><i class="fa fa-link" aria-hidden="true"></i></a></li></ul>							</div>
+						</div>
+					</div>
+					
+					<div class="row">
+						
+						<div class="col-md-8 post-content">
+							
+														<div class="article-poster-media-wrapper">
+<div class="article-poster-media">
+<div class="article-poster-media--content js-dropdown-menu">
+<div style="width: 635px" class="wp-caption alignnone"><img title="Cancer researchers in Israel. JACK GUEZ/AFP/Getty Images" src="https://hips.hearstapps.com/hnp-prod-media.s3.amazonaws.com/hnp-prod/550392177.jpg?crop=1.00xw:0.846xh;0,0.0636xh&amp;resize=625:*" alt="Cancer researchers in Israel. JACK GUEZ/AFP/Getty Images" width="625" height="352" /><p class="wp-caption-text">Cancer researchers in Israel. JACK GUEZ/AFP/Getty Images</p></div>
+</div>
+</div>
+</div>
+<div class="article-content--body">
+<div class="article-content--body-wrapper">
+<div class="article-content--body-teaser"></div>
+<div class="article-content--body-text">
+<p>Cancer is a disease that looms large. It is one of the leading causes of death and one in three of us will be diagnosed with it during our lifetimes. Unfortunately, the cancer rates are only rising. The <a href="https://www.cancer.gov/about-cancer/understanding/statistics">National Institute of Cancer</a> estimates that by 2030, its death toll will have increased by 60%. Some are looking to cannabis to cure this deadly disease. But is cannabis a cure &#8211; or is this just wishful thinking?</p>
+<h2 class="body-h4">Cancer Patient Success Stories With Medical Pot</h2>
+<p>Anecdotal accounts abound of patients curing their own cancer using high-potency edible cannabis extracts. Take <a href="http://www.cureyourowncancer.org/dennis-hills-story-beating-prostate-cancer-with-cannabis-oil.html">Dennis Hill</a>, a prostate cancer patient who decided to forgo chemotherapy and try cannabis instead. His story of complete recovery after six months of cannabis use is available online &#8211; along with his medical record and journal of his progress. Or <a href="http://www.cureyourowncancer.org/the-kelly-hauf-story-how-she-beat-brain-cancer-naturally-with-cannabis-oil.html">Kelly Hauf</a> &#8211; who decided to try cannabis oil in the months leading up to a scheduled surgery to remove a brain tumor. After eight months of treatment, there was nothing left of her tumor to remove. These stories are hard to ignore &#8211; but many doctors advise patients not to assume that cannabis was the cause of these incredible recoveries.</p><div class="text-center visible-xs"><!-- gsa-rec_m -->
+<div class="ad-wrap ad-container">
+	<!-- Begin Hearst Ad -->
+	<div id="GSA_REC_M">
+		<script type="text/javascript">/*<![CDATA[*/hearstPlaceAd("GSA_REC_M");/*]]&gt;*/</script>
+	</div>
+<!-- End Hearst Ad -->
+</div></div>
+<h2 class="body-h4">Doctors Cautious About Weed for Cancer</h2>
+<p><a href="https://www.leafly.com/news/health/can-cannabis-cure-cancer">Dr. Abrams</a>, a leading oncologist at the UCSF Osher Center for Integrative Medicine says he has seen cannabis help many with the side effects of cancer but cautions against assuming cannabis is a cure. He says given his high proportion of cannabis using patients, ‘if cannabis definitively cured cancer, I would have expected that I would have a lot more survivors.’</p>
+<p>Cannabis is well-established as a <a href="https://www.cancer.gov/about-cancer/treatment/cam/patient/cannabis-pdq">treatment for the side effects</a> of cancer and chemotherapy, like nausea, vomiting, pain, anxiety, insomnia, and lack of appetite. But in a comprehensive review of the cannabis literature, researchers from the <a href="https://www.nap.edu/catalog/24625/the-health-effects-of-cannabis-and-cannabinoids-the-current-state">National Academies of Sciences, Engineering and Medicine</a> found there to be insufficient evidence to say that cannabis can treat cancer directly. Without large-scale, placebo controlled clinical trials, doctors and researchers don’t have the solid evidence they’d need to recommend cannabis for cancer treatment.</p>
+<h2 class="body-h4">Science Shows Cannabis Has Anti-Cancer Properties</h2>
+<p>Still other scientists are more hopeful about cannabis’ potential efficacy, and point to <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3005548/">laboratory</a> and <a href="https://www.cancer.gov/about-cancer/treatment/cam/hp/cannabis-pdq#section/_7">animal</a> studies that show cannabinoids like <a href="https://www.ncbi.nlm.nih.gov/pubmed/22594963">CBD</a> and <a href="https://www.ncbi.nlm.nih.gov/pubmed/12091357?dopt=Abstract">THC</a> <a href="https://www.spandidos-publications.com/10.3892/or.2015.3746">kill cancer cells</a> in laboratory conditions — without harming the healthy cells nearby. While clinical trials on human subjects is still a ways off — given cannabis’ status as a controlled substance &#8211; the preclinical data gives reason to hope that patients stories of success aren’t just flukes.</p>
+<p>“There is a large body of scientific data which indicates that cannabinoids specifically inhibit cancer cell growth and promote cancer cell death” explains <a href="http://medicalcannabisreport.com/israeli-study-finds-cannabis-delays-cancer-development/">Dr. David Meiri</a>, the lead researcher on an Israeli project studying 50 varieties of cannabis and its effects on 200 different cancer cells. Meiri and his team have successfully killed brain and breast cancer cells through exposure to cannabis and they are hopeful they can find more varieties of cancer cells that respond to this treatment.</p>
+<p>Still, experts caution against forgoing traditional treatment options. Dr. Meiri’s research suggests that not all cancer cells respond to cannabinoids in the same way. Even if cannabis can help with some cancers, it might not work the same for all. Additional research, specifically placebo-controlled clinical trials, are needed to fully understand how to handle each type of cancer individually.</p>
+<p>With a condition as deadly as cancer, it is crucial to know whether a high cannabinoid regimen would work for any particular case, before foregoing alternatives that might help. Still while clinical research on cannabis continues to stall, patients must decide whether to wait indefinitely or follow in the footsteps of patients before them &#8211; experimenting with cannabis on their own.</p>
+</div>
+</div>
+</div>
+</p>							
+														
+							<ul class="social-share"><li>SHARE</li><li><a class="gs-link gs-twitter" href="https://twitter.com/intent/tweet?text=Cancer:%20Can%20cannabis%20really%20cure%20it?&amp;url=https%3A%2F%2Fwww.greenstate.com%2Fhealth%2Fexplainer-does-marijuana-cure-cancer%2F&amp;via=greenstate" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li><li><a class="gs-link gs-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.greenstate.com%2Fhealth%2Fexplainer-does-marijuana-cure-cancer%2F" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li><li><a class="gs-link gs-email" href="mailto:?subject=GreenState: Cancer:%20Can%20cannabis%20really%20cure%20it?&body=From GreenState:%0A%0ACancer:%20Can%20cannabis%20really%20cure%20it?%0A%0Ahttps%3A%2F%2Fwww.greenstate.com%2Fhealth%2Fexplainer-does-marijuana-cure-cancer%2F%0A%0AHey, I found this awesome post on the website GreenState.com and I wanted to share it with you." target="_self"><i class="fa fa-envelope" aria-hidden="true"></i></a></li><li><a class="gs-link gs-reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.greenstate.com%2Fhealth%2Fexplainer-does-marijuana-cure-cancer%2F&title=Cancer:%20Can%20cannabis%20really%20cure%20it?"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></li><li><a class="gs-link gs-url" href="javascript: CopyLink();"><i class="fa fa-link" aria-hidden="true"></i></a></li></ul>						</div>
+					
+										
+						<aside class="col-md-4 sidebar">
+							
+							<!-- 300x Ad Space -->
+							
+							
+							<!-- Trending Module (>tablet) -->
+							<div class="hidden-sm hidden-xs">
+							<!-- gsa-drec -->
+<div class="ad-wrap ad-container">
+	<!-- Begin Hearst Ad -->
+	<div id="GSA_DREC">
+		<script type="text/javascript">/*<![CDATA[*/hearstPlaceAd("GSA_DREC");/*]]>*/</script>
+	</div>
+<!-- End Hearst Ad -->
+</div>							<article id="trending-module" class="module article-box">
+	
+	<a href="https://www.greenstate.com/explained/cannabis-safe-dogs-cbd-thc-marijuana-pets/" class="thumbnail-wrapper"><div class="bg-image"><img src="https://s3.amazonaws.com/sfc-datebook-wordpress/wp-content/uploads/sites/4/2019/05/GettyImages-139801182-600x400.jpg" alt="" /></div></a>	
+	<div class="txt">
+		<strong class="section-label text-uppercase">trending</strong>
+		<ol>
+			
+						  
+			<li data-count="7">
+				<h3><a href="https://www.greenstate.com/explained/cannabis-safe-dogs-cbd-thc-marijuana-pets/">Is cannabis safe for dogs? Pet marijuana poisoning is rising exponentially as more edibles are available</a></h3>
+				<div class="meta"><time datetime="2019-06-04">June 4, 2019</time> <span class="name"><a href="https://www.greenstate.com/author/amandabartlett/">Amanda Bartlett</a></span></div>
+			</li>
+			
+						  
+			<li data-count="5">
+				<h3><a href="https://www.greenstate.com/news/connecticut-could-be-at-forefront-of-recreational-pot-social-justice-mix/">Connecticut could be at forefront of recreational pot, social justice mix</a></h3>
+				<div class="meta"><time datetime="2019-05-21">May 21, 2019</time> <span class="name"><a href="https://www.greenstate.com/author/gscontributor/">GreenState Contributor</a></span></div>
+			</li>
+			
+						  
+			<li data-count="5">
+				<h3><a href="https://www.greenstate.com/lifestyle/smoke-screen-marijuana-themed-film-festival-lights-up-theaters-across-the-country/">Smoke screen: First ever marijuana-themed film festival lights up theaters across the country</a></h3>
+				<div class="meta"><time datetime="2019-05-22">May 22, 2019</time> <span class="name"><a href="https://www.greenstate.com/author/amandabartlett/">Amanda Bartlett</a></span></div>
+			</li>
+			
+						  
+			<li data-count="4">
+				<h3><a href="https://www.greenstate.com/health/medical-research/nfl-announces-plans-to-study-marijuana-for-pain-treatment/">NFL announces plans to study marijuana for pain treatment</a></h3>
+				<div class="meta"><time datetime="2019-05-20">May 20, 2019</time> <span class="name"><a href="https://www.greenstate.com/author/oppascual/">Oscar Pascual</a></span></div>
+			</li>
+			
+			
+		</ol>
+	</div>
+</article>							</div>
+							
+						</aside>
+					
+					</div>
+					
+					<section class="related row">
+						<h4 class="col-sm-12">Related Articles</h4><div class="slider">		 
+		            <div class="col-sm-3">
+			            <div class="content">
+				            <div class="image">
+					            <a href="https://www.greenstate.com/explained/do-different-cannabis-strains-affect-you-in-different-ways-a-dna-expert-reveals-the-science/" class="thumbnail-wrapper"><div class="bg-image"><img src="https://s3.amazonaws.com/sfc-datebook-wordpress/wp-content/uploads/sites/4/2019/05/Screen-Shot-2019-05-14-at-2.19.54-PM-e1557877286730-300x189.jpg" alt="" /></div></a>				            </div>
+				            <a href="https://www.greenstate.com/explained/do-different-cannabis-strains-affect-you-in-different-ways-a-dna-expert-reveals-the-science/">Do different cannabis strains affect you in different ways? A DNA expert reveals the science.</a>
+			            </div>
+		            </div>
+		 
+		            		 
+		            <div class="col-sm-3">
+			            <div class="content">
+				            <div class="image">
+					            <a href="https://www.greenstate.com/explained/marijuana-vape-cart-cartridge/" class="thumbnail-wrapper"><div class="bg-image"><img width="1024" height="576" src="https://s3-us-west-1.amazonaws.com/sfc-wordpress/wp-content/uploads/sites/4/2018/01/absolutextracts-vape-cart.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="AbsoluteXtracts makes a popular line of marijuana vape carts in California." srcset="https://s3-us-west-1.amazonaws.com/sfc-wordpress/wp-content/uploads/sites/4/2018/01/absolutextracts-vape-cart.jpg 1024w, https://s3-us-west-1.amazonaws.com/sfc-wordpress/wp-content/uploads/sites/4/2018/01/absolutextracts-vape-cart-300x169.jpg 300w, https://s3-us-west-1.amazonaws.com/sfc-wordpress/wp-content/uploads/sites/4/2018/01/absolutextracts-vape-cart-768x432.jpg 768w, https://s3-us-west-1.amazonaws.com/sfc-wordpress/wp-content/uploads/sites/4/2018/01/absolutextracts-vape-cart-600x338.jpg 600w" sizes="(max-width: 1024px) 100vw, 1024px" /></div></a>				            </div>
+				            <a href="https://www.greenstate.com/explained/marijuana-vape-cart-cartridge/">What is a marijuana vape cart, or cartridge?</a>
+			            </div>
+		            </div>
+		 
+		            		 
+		            <div class="col-sm-3">
+			            <div class="content">
+				            <div class="image">
+					            <a href="https://www.greenstate.com/health/medical-research/cbd-could-be-effective-in-treating-heroin-addiction-study-finds/" class="thumbnail-wrapper"><div class="bg-image"><img src="https://s3.amazonaws.com/sfc-datebook-wordpress/wp-content/uploads/sites/4/2019/05/GettyImages-954251256-600x397.jpg" alt="" /></div></a>				            </div>
+				            <a href="https://www.greenstate.com/health/medical-research/cbd-could-be-effective-in-treating-heroin-addiction-study-finds/">CBD could be effective in treating heroin addiction, study finds</a>
+			            </div>
+		            </div>
+		 
+		            		 
+		            <div class="col-sm-3">
+			            <div class="content">
+				            <div class="image">
+					            <a href="https://www.greenstate.com/health/cbd-toothpaste-sounds-like-a-good-idea-but-lacks-conclusive-studies-proving-it-is/" class="thumbnail-wrapper"><div class="bg-image"><img src="https://s3.amazonaws.com/sfc-datebook-wordpress/wp-content/uploads/sites/4/2019/06/GettyImages-611780758-600x400.jpg" alt="" /></div></a>				            </div>
+				            <a href="https://www.greenstate.com/health/cbd-toothpaste-sounds-like-a-good-idea-but-lacks-conclusive-studies-proving-it-is/">CBD toothpaste sounds like a good idea but lacks conclusive studies proving it is</a>
+			            </div>
+		            </div>
+		 
+		            		 
+		            <div class="col-sm-3">
+			            <div class="content">
+				            <div class="image">
+					            <a href="https://www.greenstate.com/health/does-marijuana-treat-insomnia-using-cannabis-for-sleep-science-research-facts/" class="thumbnail-wrapper"><div class="bg-image"><img width="1024" height="785" src="https://s3-us-west-1.amazonaws.com/sfc-wordpress/wp-content/uploads/sites/4/2018/03/sleep3.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Psychatrist and pain specialist Dr. Michael H Moskowitz, MD (right), uses sound therapy on his patient , Bobby Ocean (left), on Thursday, February 22, 2018, in San Rafael, Calif." srcset="https://s3-us-west-1.amazonaws.com/sfc-wordpress/wp-content/uploads/sites/4/2018/03/sleep3.jpg 1024w, https://s3-us-west-1.amazonaws.com/sfc-wordpress/wp-content/uploads/sites/4/2018/03/sleep3-300x230.jpg 300w, https://s3-us-west-1.amazonaws.com/sfc-wordpress/wp-content/uploads/sites/4/2018/03/sleep3-768x589.jpg 768w, https://s3-us-west-1.amazonaws.com/sfc-wordpress/wp-content/uploads/sites/4/2018/03/sleep3-600x460.jpg 600w" sizes="(max-width: 1024px) 100vw, 1024px" /></div></a>				            </div>
+				            <a href="https://www.greenstate.com/health/does-marijuana-treat-insomnia-using-cannabis-for-sleep-science-research-facts/">The new chill pill — why cannabis is coming for sleeping pill poppers</a>
+			            </div>
+		            </div>
+		 
+		            		 
+		            <div class="col-sm-3">
+			            <div class="content">
+				            <div class="image">
+					            <a href="https://www.greenstate.com/health/challenging-assumptions-around-marijuana-addiction/" class="thumbnail-wrapper"><div class="bg-image"><img width="625" height="352" src="https://s3-us-west-1.amazonaws.com/sfc-wordpress/wp-content/uploads/sites/4/2017/11/696675002.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Vaping creates no smoke, but is not risk-free. SOURCE: Spencer Platt | Getty" srcset="https://s3-us-west-1.amazonaws.com/sfc-wordpress/wp-content/uploads/sites/4/2017/11/696675002.jpg 625w, https://s3-us-west-1.amazonaws.com/sfc-wordpress/wp-content/uploads/sites/4/2017/11/696675002-300x169.jpg 300w, https://s3-us-west-1.amazonaws.com/sfc-wordpress/wp-content/uploads/sites/4/2017/11/696675002-600x338.jpg 600w" sizes="(max-width: 625px) 100vw, 625px" /></div></a>				            </div>
+				            <a href="https://www.greenstate.com/health/challenging-assumptions-around-marijuana-addiction/">Challenging assumptions around marijuana addiction</a>
+			            </div>
+		            </div>
+		 
+		            		 
+		            <div class="col-sm-3">
+			            <div class="content">
+				            <div class="image">
+					            <a href="https://www.greenstate.com/health/medical-research/cbd-the-next-weapon-in-the-war-against-opioid-addiction/" class="thumbnail-wrapper"><div class="bg-image"><img src="https://s3.amazonaws.com/sfc-datebook-wordpress/wp-content/uploads/sites/4/2019/05/GettyImages-1028834406-600x399.jpg" alt="" /></div></a>				            </div>
+				            <a href="https://www.greenstate.com/health/medical-research/cbd-the-next-weapon-in-the-war-against-opioid-addiction/">CBD: The next weapon in the war against opioid addiction?</a>
+			            </div>
+		            </div>
+		 
+		            		 
+		            <div class="col-sm-3">
+			            <div class="content">
+				            <div class="image">
+					            <a href="https://www.greenstate.com/health/marijuana-users-less-likely-gain-weight-non-users-study-finds/" class="thumbnail-wrapper"><div class="bg-image"><img src="https://s3.amazonaws.com/sfc-datebook-wordpress/wp-content/uploads/sites/4/2019/04/GettyImages-162330047-600x398.jpg" alt="" /></div></a>				            </div>
+				            <a href="https://www.greenstate.com/health/marijuana-users-less-likely-gain-weight-non-users-study-finds/">Marijuana users less likely to gain weight than non-users, study finds</a>
+			            </div>
+		            </div>
+		 
+		            </div>					</section>
+					
+					<!-- Trending Module (>tablet) -->
+					<section class="row visible-sm visible-xs">
+						<div class="col-sm-12">
+						<!-- gsb-rec -->
+<div class="ad-wrap ad-container">
+	<!-- Begin Hearst Ad -->
+	<div id="GSB_REC">
+		<script type="text/javascript">/*<![CDATA[*/hearstPlaceAd("GSB_REC");/*]]>*/</script>
+	</div>
+<!-- End Hearst Ad -->
+</div>
+
+						<article id="trending-module" class="module article-box">
+	
+	<a href="https://www.greenstate.com/explained/cannabis-safe-dogs-cbd-thc-marijuana-pets/" class="thumbnail-wrapper"><div class="bg-image"><img src="https://s3.amazonaws.com/sfc-datebook-wordpress/wp-content/uploads/sites/4/2019/05/GettyImages-139801182-600x400.jpg" alt="" /></div></a>	
+	<div class="txt">
+		<strong class="section-label text-uppercase">trending</strong>
+		<ol>
+			
+						  
+			<li data-count="7">
+				<h3><a href="https://www.greenstate.com/explained/cannabis-safe-dogs-cbd-thc-marijuana-pets/">Is cannabis safe for dogs? Pet marijuana poisoning is rising exponentially as more edibles are available</a></h3>
+				<div class="meta"><time datetime="2019-06-04">June 4, 2019</time> <span class="name"><a href="https://www.greenstate.com/author/amandabartlett/">Amanda Bartlett</a></span></div>
+			</li>
+			
+						  
+			<li data-count="5">
+				<h3><a href="https://www.greenstate.com/news/connecticut-could-be-at-forefront-of-recreational-pot-social-justice-mix/">Connecticut could be at forefront of recreational pot, social justice mix</a></h3>
+				<div class="meta"><time datetime="2019-05-21">May 21, 2019</time> <span class="name"><a href="https://www.greenstate.com/author/gscontributor/">GreenState Contributor</a></span></div>
+			</li>
+			
+						  
+			<li data-count="5">
+				<h3><a href="https://www.greenstate.com/lifestyle/smoke-screen-marijuana-themed-film-festival-lights-up-theaters-across-the-country/">Smoke screen: First ever marijuana-themed film festival lights up theaters across the country</a></h3>
+				<div class="meta"><time datetime="2019-05-22">May 22, 2019</time> <span class="name"><a href="https://www.greenstate.com/author/amandabartlett/">Amanda Bartlett</a></span></div>
+			</li>
+			
+						  
+			<li data-count="4">
+				<h3><a href="https://www.greenstate.com/health/medical-research/nfl-announces-plans-to-study-marijuana-for-pain-treatment/">NFL announces plans to study marijuana for pain treatment</a></h3>
+				<div class="meta"><time datetime="2019-05-20">May 20, 2019</time> <span class="name"><a href="https://www.greenstate.com/author/oppascual/">Oscar Pascual</a></span></div>
+			</li>
+			
+			
+		</ol>
+	</div>
+</article>						</div>
+					</section>
+					
+				</div>
+				
+			</div>
+		</main>
+    
+<!-- stored post cached-post-685 to redis -->	  <footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<strong class="title text-uppercase">Follow Us</strong>
+						<ul class="social-networks">
+							<li><a href="https://www.facebook.com/YourGreenState/" target="_blank"><span class="icon-facebook"></span></a></li><li><a href="https://twitter.com/greenstate" target="_blank"><span class="icon-twitter"></span></a></li><li><a href="https://www.instagram.com/yourgreenstate/" target="_blank"><span class="icon-instagram"></span></a></li>						</ul>
+						<div class="logo-wrap">
+							<div class="img">
+								<a href="https://www.greenstate.com"><img src="https://www.greenstate.com/wp-content/themes/greenstate/img/logo-gs.svg" alt="GreenState"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-8">
+						<div class="frame">
+							<div class="newsletter-form-wrap">
+	<div class="signup-message" ></div>
+<form class="newsletter-form" onsubmit="handleSailThruSubmit(this);return false;">
+	
+	<input type="email" class="form-control" id="email" placeholder="Sign up for the Field Guide">
+	<input class="btn btn-primary" type="submit" value="submit">
+	
+</form>
+</div>							<div class="menu-footer-navigation-container"><ul id="menu-footer-navigation" class="footer-nav text-uppercase" role="menu" ><li id="menu-item-461" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-461"><a href="https://www.greenstate.com/about-greenstate-mainstream-marijuana-news-and-culture/">About GreenState</a></li>
+<li id="menu-item-432" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-432"><a href="http://marketing.sfgate.com">Advertise With Us</a></li>
+<li id="menu-item-459" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-459"><a href="https://www.greenstate.com/terms-of-use/">Terms of Use</a></li>
+<li id="menu-item-460" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-460"><a href="https://www.greenstate.com/privacy-policy/">Privacy Notice</a></li>
+</ul></div>							<div class="row">
+								<div class="col-sm-8">
+
+								</div>
+								<div class="col-sm-4 text-right">
+									<div class="copyright">
+										<p>&copy; 2019 <a href="http://www.hearst.com/" target="_blank">Hearst Corporation</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+		
+  		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};var tribe_system_info = {"sysinfo_optin_nonce":"c25c48124b","clipboard_btn_text":"Copy to clipboard","clipboard_copied_text":"System info copied","clipboard_fail_text":"Press \"Cmd + C\" to copy"};/* ]]> */ </script><script type='text/javascript'>
+/* <![CDATA[ */
+var formOptions = {"ajaxurl":"https:\/\/www.greenstate.com\/wp-admin\/admin-ajax.php","nonce":"56d033e110"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.greenstate.com/wp-content/themes/greenstate/js/main.js?ver=1552407354'></script>
+<script type='text/javascript' src='https://www.greenstate.com/wp-includes/js/wp-embed.min.js?ver=5.2'></script>
+<style>
+.newsletter-box {display:none;}
+
+</style>
+<script>
+$(".newsletter-box p").html(" ");
+$(".newsletter-box h2").html("Get weekly updates on the cannabis life, news, reviews, and insight in your inbox.");
+$(".newsletter-box").show();
+</script>
+
+<style>
+section.type\:slideshow{
+    height:40vh;
+    display:block;
+    overflow:hidden;
+    border:1px solid #4eb05c;
+    position:relative;
+    padding-bottom:1px;
+}
+
+@media (max-width: 767px){
+	section.type\:slideshow{
+		height:33vh;
+	}
+}
+
+section.type\:slideshow figure{
+	height:100%;	
+	text-align:center;
+	background-color:#000;
+	display:none;
+}
+
+section.type\:slideshow figure:first-of-type{
+	display:block;
+}
+
+section.type\:slideshow figure img{
+	height:85%;
+}
+
+section.type\:slideshow figure figcaption{
+	font-size:10px;
+	height:15%;
+	background-color:#FFF;
+	text-align:left;
+	padding:5px 20px;
+}
+
+body.single .post-content section.type\:slideshow figure figcaption p{
+ 	font-size:10px;
+ }
+.left-arrow {
+	z-index:100;
+	width:25px;
+	height:44px;
+	position:absolute;
+	left:10px;
+	top:40%;
+  background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='UTF-8'?%3E%3Csvg width='26px' height='45px' viewBox='0 0 26 45' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com --%3E%3Ctitle%3EPath 2%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Large-HP-Copy-2' transform='translate(-130.000000, -2872.000000)' stroke='%23FFFFFF' stroke-width='3'%3E%3Cg id='Group-9' transform='translate(86.000000, 2446.000000)'%3E%3Cg id='slideshow'%3E%3Cpolyline id='Path-2' transform='translate(58.000000, 449.000000) rotate(-90.000000) translate(-58.000000, -449.000000) ' points='37 458.705882 58 438 79 460'%3E%3C/polyline%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+
+.right-arrow {
+	z-index:100;
+	width:25px;
+	height:44px;
+	position:absolute;
+	right:10px;
+	top:40%;
+  background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='UTF-8'?%3E%3Csvg width='25px' height='44px' viewBox='0 0 25 44' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com --%3E%3Ctitle%3EPath 2%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Large-HP-Copy-2' transform='translate(-1280.000000, -2873.000000)' stroke='%23FFFFFF' stroke-width='2.71863073'%3E%3Cg id='Group-9' transform='translate(86.000000, 2446.000000)'%3E%3Cg id='slideshow'%3E%3Cpolyline id='Path-2' transform='translate(1206.000000, 449.000000) rotate(-270.000000) translate(-1206.000000, -449.000000) ' points='1185 458.705882 1206 438 1227 460'%3E%3C/polyline%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+</style>
+
+<script>
+	
+var slideshow = document.querySelectorAll('section.type\\\:slideshow')[0];
+if(slideshow){
+	console.log(slideshow);
+	var slideshowLeftArrow = document.createElement('div');
+	var slideshowRightArrow = document.createElement('div');
+	slideshowLeftArrow.classList.add("left-arrow");
+	slideshowRightArrow.classList.add("right-arrow");
+
+	slideshow.appendChild(slideshowLeftArrow);
+	slideshow.appendChild(slideshowRightArrow);
+
+	//advance slideshow onclick
+	slideshow.onclick = function() {
+	    advanceSlideshow();
+	    return false;
+	}
+	//advance slideshow onclick
+	slideshowLeftArrow.onclick = function(event) {
+		event.stopPropagation();
+		
+	    advanceSlideshow({"back":true});
+	    return false;
+	}
+}
+
+function advanceSlideshow(args){
+
+	var currentSlide = slideshow.getAttribute('data-current-slide');
+	var slides = document.querySelectorAll('section.type\\\:slideshow figure');
+	if(args && args.back){
+		currentSlide --;
+	} else{
+		currentSlide ++;
+	}
+
+	//handle wrap-around
+    if(currentSlide >= slides.length){
+    	currentSlide = (slides.length -1)
+
+    }
+    if(currentSlide < 0 ){
+    	currentSlide = 0;
+
+    }
+    console.log("current slide number:" + currentSlide);
+    slideshow.setAttribute('data-current-slide',currentSlide);
+	
+    if(currentSlide == 0 ){
+    	slideshowLeftArrow.style.display="none";
+    } else{
+    	slideshowLeftArrow.style.display="block";
+    }
+    if(currentSlide == (slides.length -1) ){
+    	slideshowRightArrow.style.display="none";
+    }else{
+    	slideshowRightArrow.style.display="block";
+    }
+
+   for(var i = 0; i < slides.length;i++){	
+   		slides[i].style.display = "none";
+   }
+   slides[currentSlide].style.display = "block";
+
+
+    
+    
+}
+
+</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"1f719b4b96","applicationID":"87586888","transactionName":"blUBZBEDChdRVEFeX1cfIlMXCwsKH0RcWVdVVQ==","queueTime":0,"applicationTime":788,"atts":"QhICElkZGRk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,2229 @@
+
+
+![This is a featured article. Click here for more
+
+information.](//upload.wikimedia.org/wikipedia/en/thumb/e/e7/Cscr-
+
+featured.svg/20px-Cscr-featured.svg.png)
+
+![Page semi-protected](//upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-
+
+protection-shackle.svg/20px-Semi-protection-shackle.svg.png)
+
+![Listen to this
+
+article](//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-
+
+icon.svg/20px-Sound-icon.svg.png)
+
+# DNA
+
+From Wikipedia, the free encyclopedia
+
+Jump to navigation Jump to search
+
+Molecule that encodes the genetic instructions used in the development and
+functioning of all known organisms and many viruses
+
+For a non-technical introduction to the topic, see Introduction to genetics.
+For other uses, see DNA (disambiguation).
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/DNA_Structure%2BKey%2BLabelled.pn_NoBB.png/340px-
+
+DNA_Structure%2BKey%2BLabelled.pn_NoBB.png)
+
+The structure of the DNA double helix. The atoms in the structure are colour-
+coded by element and the detailed structures of two base pairs are shown in
+the bottom right.
+
+![](//upload.wikimedia.org/wikipedia/commons/8/81/ADN_animation.gif)
+
+The structure of part of a DNA double helix
+
+**Deoxyribonucleic acid** (/ diˈɒksɪraɪboʊnjuːkliːɪk, -kleɪ-/ (![About this
+
+sound](//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-
+
+Loudspeaker.svg.png) listen);[1] **DNA** ) is a molecule composed of two
+chains that coil around each other to form a double helix carrying genetic
+instructions for the development, functioning, growth and reproduction of all
+known organisms and many viruses. DNA and ribonucleic acid (RNA) are nucleic
+acids; alongside proteins, lipids and complex carbohydrates (polysaccharides),
+nucleic acids are one of the four major types of macromolecules that are
+essential for all known forms of life.
+
+The two DNA strands are also known as polynucleotides as they are composed of
+simpler monomeric units called nucleotides.[2][3] Each nucleotide is composed
+of one of four nitrogen-containing nucleobases (cytosine [C], guanine [G],
+adenine [A] or thymine [T]), a sugar called deoxyribose, and a phosphate
+group. The nucleotides are joined to one another in a chain by covalent bonds
+between the sugar of one nucleotide and the phosphate of the next, resulting
+in an alternating sugar-phosphate backbone. The nitrogenous bases of the two
+separate polynucleotide strands are bound together, according to base pairing
+rules (A with T and C with G), with hydrogen bonds to make double-stranded
+DNA. The complementary nitrogenous bases are divided into two groups,
+pyrimidines and purines. In DNA, the pyrimidines are thymine and cytosine; the
+purines are adenine and guanine.
+
+Both strands of double-stranded DNA store the same biological information.
+This information is replicated as and when the two strands separate. A large
+part of DNA (more than 98% for humans) is non-coding, meaning that these
+sections do not serve as patterns for protein sequences. The two strands of
+DNA run in opposite directions to each other and are thus antiparallel.
+Attached to each sugar is one of four types of nucleobases (informally,
+_bases_ ). It is the sequence of these four nucleobases along the backbone
+that encodes genetic information. RNA strands are created using DNA strands as
+a template in a process called transcription. Under the genetic code, these
+RNA strands specify the sequence of amino acids within proteins in a process
+called translation.
+
+Within eukaryotic cells, DNA is organized into long structures called
+chromosomes. Before typical cell division, these chromosomes are duplicated in
+the process of DNA replication, providing a complete set of chromosomes for
+each daughter cell. Eukaryotic organisms (animals, plants, fungi and protists)
+store most of their DNA inside the cell nucleus as nuclear DNA, and some in
+the mitochondria as mitochondrial DNA or in chloroplasts as chloroplast
+DNA.[4] In contrast, prokaryotes (bacteria and archaea) store their DNA only
+in the cytoplasm, in circular chromosomes. Within eukaryotic chromosomes,
+chromatin proteins, such as histones, compact and organize DNA. These
+compacting structures guide the interactions between DNA and other proteins,
+helping control which parts of the DNA are transcribed.
+
+DNA was first isolated by Friedrich Miescher in 1869. Its molecular structure
+was first identified by Francis Crick and James Watson at the Cavendish
+Laboratory within the University of Cambridge in 1953, whose model-building
+efforts were guided by X-ray diffraction data acquired by Raymond Gosling, who
+was a post-graduate student of Rosalind Franklin. DNA is used by researchers
+as a molecular tool to explore physical laws and theories, such as the ergodic
+theorem and the theory of elasticity. The unique material properties of DNA
+have made it an attractive molecule for material scientists and engineers
+interested in micro- and nano-fabrication. Among notable advances in this
+field are DNA origami and DNA-based hybrid materials.[5]
+
+## Contents
+
+                
+                                      * 1 Properties
+                        * 1.1 Nucleobase classification
+                        * 1.2 Non-canonical bases
+                        * 1.3 Listing of non canonical bases found in DNA
+                        * 1.4 Grooves
+                        * 1.5 Base pairing
+                        * 1.6 Sense and antisense
+                        * 1.7 Supercoiling
+                        * 1.8 Alternative DNA structures
+                        * 1.9 Alternative DNA chemistry
+                        * 1.10 Quadruplex structures
+                        * 1.11 Branched DNA
+                        * 1.12 Artificial bases
+                      * 2 Chemical modifications and altered DNA packaging
+                        * 2.1 Base modifications and DNA packaging
+                        * 2.2 Damage
+                      * 3 Biological functions
+                        * 3.1 Genes and genomes
+                        * 3.2 Transcription and translation
+                        * 3.3 Replication
+                        * 3.4 Extracellular nucleic acids
+                      * 4 Interactions with proteins
+                        * 4.1 DNA-binding proteins
+                        * 4.2 DNA-modifying enzymes
+                          * 4.2.1 Nucleases and ligases
+                          * 4.2.2 Topoisomerases and helicases
+                          * 4.2.3 Polymerases
+                      * 5 Genetic recombination
+                      * 6 Evolution
+                      * 7 Uses in technology
+                        * 7.1 Genetic engineering
+                        * 7.2 DNA profiling
+                        * 7.3 DNA enzymes or catalytic DNA
+                        * 7.4 Bioinformatics
+                        * 7.5 DNA nanotechnology
+                        * 7.6 History and anthropology
+                        * 7.7 Information storage
+                      * 8 History
+                      * 9 See also
+                      * 10 References
+                      * 11 Further reading
+                      * 12 External links
+                
+
+## Properties
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/DNA_chemical_structure.svg/300px-
+
+DNA_chemical_structure.svg.png)
+
+Chemical structure of DNA; hydrogen bonds shown as dotted lines
+
+DNA is a long polymer made from repeating units called nucleotides.[6][7] The
+structure of DNA is dynamic along its length, being capable of coiling into
+tight loops and other shapes.[8] In all species it is composed of two helical
+chains, bound to each other by hydrogen bonds. Both chains are coiled around
+the same axis, and have the same pitch of 34 angstroms (Å) (3.4 nanometres).
+The pair of chains has a radius of 10 angstroms (1.0 nanometre).[9] According
+to another study, when measured in a different solution, the DNA chain
+measured 22 to 26 angstroms wide (2.2 to 2.6 nanometres), and one nucleotide
+unit measured 3.3 Å (0.33 nm) long.[10] Although each individual nucleotide is
+very small, a DNA polymer can be very large and contain hundreds of millions,
+such as in chromosome 1. Chromosome 1 is the largest human chromosome with
+approximately 220 million base pairs,[11] and would be 85 mm long if
+straightened.
+
+DNA does not usually exist as a single strand, but instead as a pair of
+strands that are held tightly together.[9][12] These two long strands coil
+around each other, in the shape of a double helix. The nucleotide contains
+both a segment of the backbone of the molecule (which holds the chain
+together) and a nucleobase (which interacts with the other DNA strand in the
+helix). A nucleobase linked to a sugar is called a nucleoside, and a base
+linked to a sugar and to one or more phosphate groups is called a nucleotide.
+A biopolymer comprising multiple linked nucleotides (as in DNA) is called a
+polynucleotide.[13]
+
+The backbone of the DNA strand is made from alternating phosphate and sugar
+residues.[14] The sugar in DNA is 2-deoxyribose, which is a pentose (five-
+carbon) sugar. The sugars are joined together by phosphate groups that form
+phosphodiester bonds between the third and fifth carbon atoms of adjacent
+sugar rings. These are known as the 3′-end (three prime end), and 5′-end (five
+prime end) carbons, the prime symbol being used to distinguish these carbon
+atoms from those of the base to which the deoxyribose forms a glycosidic bond.
+When imagining DNA, each phosphoryl is normally considered to "belong" to the
+nucleotide whose 5′ carbon forms a bond therewith. Any DNA strand therefore
+normally has one end at which there is a phosphoryl attached to the 5′ carbon
+of a ribose (the 5′ phosphoryl) and another end at which there is a free
+hydroxyl attached to the 3′ carbon of a ribose (the 3′ hydroxyl). The
+orientation of the 3′ and 5′ carbons along the sugar-phosphate backbone
+confers directionality (sometimes called polarity) to each DNA strand. In a
+nucleic acid double helix, the direction of the nucleotides in one strand is
+opposite to their direction in the other strand: the strands are antiparallel.
+The asymmetric ends of DNA strands are said to have a directionality of five
+prime end (5′ ), and three prime end (3′), with the 5′ end having a terminal
+phosphate group and the 3′ end a terminal hydroxyl group. One major difference
+between DNA and RNA is the sugar, with the 2-deoxyribose in DNA being replaced
+by the alternative pentose sugar ribose in RNA.[12]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/d/db/DNA_orbit_animated_static_thumb.png/170px-
+
+DNA_orbit_animated_static_thumb.png)
+
+A section of DNA. The bases lie horizontally between the two spiraling
+strands[15] (animated version).
+
+The DNA double helix is stabilized primarily by two forces: hydrogen bonds
+between nucleotides and base-stacking interactions among aromatic
+nucleobases.[16] In the cytosol of the cell, the conjugated pi bonds of
+nucleotide bases align perpendicular to the axis of the DNA molecule,
+minimizing their interaction with the solvation shell. The four bases found in
+DNA are adenine (A), cytosine (C), guanine (G) and thymine (T). These four
+bases are attached to the sugar-phosphate to form the complete nucleotide, as
+shown for adenosine monophosphate. Adenine pairs with thymine and guanine
+pairs with cytosine, forming A-T and G-C base pairs.[17][18]
+
+### Nucleobase classification
+
+The nucleobases are classified into two types: the purines, A and G, which are
+fused five- and six-membered heterocyclic compounds, and the pyrimidines, the
+six-membered rings C and T.[12] A fifth pyrimidine nucleobase, uracil (U),
+usually takes the place of thymine in RNA and differs from thymine by lacking
+a methyl group on its ring. In addition to RNA and DNA, many artificial
+nucleic acid analogues have been created to study the properties of nucleic
+acids, or for use in biotechnology.[19]
+
+### Non-canonical bases
+
+Uracil is not usually found in DNA, occurring only as a breakdown product of
+cytosine. However, in several bacteriophages, such as _Bacillus subtilis_
+phages PBS1 and PBS2 and _Yersinia_ phage piR1-37, thymine has been replaced
+by uracil.[20] Another phage—Staphylococcal phage S6—has been identified with
+a genome where thymine has been replaced by uracil.[21]
+
+Uracil is also found in the DNA of _Plasmodium falciparum_ [22] It is present
+is relatively small amounts (7–10 uracil residues per million bases).
+
+5-hydroxymethyldeoxyuridine,(hm5dU) is also known to replace thymidine in
+several genomes including the _Bacillus phages_ SPO1, ϕe, SP8, H1, 2C and
+SP82. Another modified uracil—5-dihydroxypentauracil—has also been
+described.[23]
+
+Base J (beta-d-glucopyranosyloxymethyluracil), a modified form of uracil, is
+also found in several organisms: the flagellates _Diplonema_ and _Euglena_ ,
+and all the kinetoplastid genera.[24] Biosynthesis of J occurs in two steps:
+in the first step, a specific thymidine in DNA is converted into
+hydroxymethyldeoxyuridine; in the second, HOMedU is glycosylated to form
+J.[25] Proteins that bind specifically to this base have been
+identified.[26][27][28] These proteins appear to be distant relatives of the
+Tet1 oncogene that is involved in the pathogenesis of acute myeloid
+leukemia.[29] J appears to act as a termination signal for RNA polymerase
+II.[30][31]
+
+In 1976, the S-2La bacteriophage, which infects species of the genus
+_Synechocystis_ , was found to have all the adenosine bases within its genome
+replaced by 2,6-diaminopurine.[32] In 2016 deoxyarchaeosine was found to be
+present in the genomes of several bacteria and the _Escherichia_ phage 9g.[33]
+
+Modified bases also occur in DNA. The first of these recognised was
+5-methylcytosine, which was found in the genome of _Mycobacterium
+tuberculosis_ in 1925.[34] The complete replacement of cytosine by
+5-glycosylhydroxymethylcytosine in T even phages (T2, T4 and T6) was observed
+in 1953.[35] In the genomes of Xanthomonas oryzae bacteriophage Xp12 and
+halovirus FH the full complement of cystosine has been replaced by
+5-methylcytosine.[36][37] 6N-methyladenine was discovered to be present in DNA
+in 1955.[38] N6-carbamoyl-methyladenine was described in 1975.[39]
+7-Methylguanine was described in 1976.[40] N4-methylcytosine in DNA was
+described in 1983.[41] In 1985 5-hydroxycytosine was found in the genomes of
+the Rhizobium phages RL38JI and N17.[42] α-putrescinylthymine occurs in both
+the genomes of the _Delftia_ phage ΦW-14 and the _Bacillus_ phage SP10.[43]
+α-glutamylthymidine is found in the Bacillus phage SP01 and
+5-dihydroxypentyluracil is found in the Bacillus phage SP15.
+
+The reason for the presence of these non canonical bases in DNA is not known.
+It seems likely that at least part of the reason for their presence in
+bacterial viruses (phages) is to avoid the restriction enzymes present in
+bacteria. This enzyme system acts at least in part as a molecular immune
+system protecting bacteria from infection by viruses.
+
+This does not appear to be the entire story. Four modifications to the
+cytosine residues in human DNA have been reported.[44] These modifications are
+the addition of methyl (CH3)-, hydroxymethyl (CH2OH)-, formyl (CHO)- and
+carboxyl (COOH)- groups. These modifications are thought to have regulatory
+functions.
+
+Uracil is found in the centromeric regions of at least two human chromosomes
+(chromosome 6 and chromosome 11).[45]
+
+### Listing of non canonical bases found in DNA
+
+Seventeen non canonical bases are known to occur in DNA. Most of these are
+modifications of the canonical bases plus uracil.
+
+                
+                                      * Modified **Adenosine**
+                        * N6-carbamoyl-methyladenine
+                        * N6-methyadenine
+                      * Modified **Guanine**
+                        * 7-Methylguanine
+                      * Modified **Cytosine**
+                        * N4-Methylcytosine
+                        * 5-Carboxylcytosine
+                        * 5-Formylcytosine
+                        * 5-Glycosylhydroxymethylcytosine
+                        * 5-Hydroxycytosine
+                        * 5-Methylcytosine
+                      * Modified **Thymidine**
+                        * α-Glutamythymidine
+                        * α-Putrescinylthymine
+                      * **Uracil** and modifications 
+                        * Base J
+                        * Uracil
+                        * 5-Dihydroxypentauracil
+                        * 5-Hydroxymethyldeoxyuracil
+                      * Others 
+                        * Deoxyarchaeosine
+                        * 2,6-Diaminopurine
+                
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/8/8b/DNA-ligand-by-
+
+Abalone.png/220px-DNA-ligand-by-Abalone.png)
+
+DNA major and minor grooves. The latter is a binding site for the Hoechst
+stain dye 33258.
+
+### Grooves
+
+Twin helical strands form the DNA backbone. Another double helix may be found
+tracing the spaces, or grooves, between the strands. These voids are adjacent
+to the base pairs and may provide a binding site. As the strands are not
+symmetrically located with respect to each other, the grooves are unequally
+sized. One groove, the major groove, is 22 angstroms (Å) wide and the other,
+the minor groove, is 12 Å wide.[46] The width of the major groove means that
+the edges of the bases are more accessible in the major groove than in the
+minor groove. As a result, proteins such as transcription factors that can
+bind to specific sequences in double-stranded DNA usually make contact with
+the sides of the bases exposed in the major groove.[47] This situation varies
+in unusual conformations of DNA within the cell _(see below)_ , but the major
+and minor grooves are always named to reflect the differences in size that
+would be seen if the DNA is twisted back into the ordinary B form.
+
+### Base pairing
+
+Further information: Base pair
+
+In a DNA double helix, each type of nucleobase on one strand bonds with just
+one type of nucleobase on the other strand. This is called complementary base
+pairing. Here, purines form hydrogen bonds to pyrimidines, with adenine
+bonding only to thymine in two hydrogen bonds, and cytosine bonding only to
+guanine in three hydrogen bonds. This arrangement of two nucleotides binding
+together across the double helix is called a Watson-Crick base pair. Another
+type of base pairing is Hoogsteen base pairing where two hydrogen bonds form
+between guanine and cytosine.[48] As hydrogen bonds are not covalent, they can
+be broken and rejoined relatively easily. The two strands of DNA in a double
+helix can thus be pulled apart like a zipper, either by a mechanical force or
+high temperature.[49] As a result of this base pair complementarity, all the
+information in the double-stranded sequence of a DNA helix is duplicated on
+each strand, which is vital in DNA replication. This reversible and specific
+interaction between complementary base pairs is critical for all the functions
+of DNA in organisms.[7]
+
+![Base pair
+
+GC.svg](//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Base_pair_GC.svg/282px-
+
+Base_pair_GC.svg.png)
+
+* * *
+
+![Base pair
+
+AT.svg](//upload.wikimedia.org/wikipedia/commons/thumb/d/db/Base_pair_AT.svg/282px-
+
+Base_pair_AT.svg.png)
+
+* * *
+
+Top, a **GC** base pair with three hydrogen bonds. Bottom, an **AT** base pair
+with two hydrogen bonds. Non-covalent hydrogen bonds between the pairs are
+shown as dashed lines.
+
+The two types of base pairs form different numbers of hydrogen bonds, AT
+forming two hydrogen bonds, and GC forming three hydrogen bonds (see figures,
+right). DNA with high GC-content is more stable than DNA with low GC-content.
+
+As noted above, most DNA molecules are actually two polymer strands, bound
+together in a helical fashion by noncovalent bonds; this double-stranded (
+**dsDNA** ) structure is maintained largely by the intrastrand base stacking
+interactions, which are strongest for G,C stacks. The two strands can come
+apart—a process known as melting—to form two single-stranded DNA ( **ssDNA** )
+molecules. Melting occurs at high temperature, low salt and high pH (low pH
+also melts DNA, but since DNA is unstable due to acid depurination, low pH is
+rarely used).
+
+The stability of the dsDNA form depends not only on the GC-content (% G,C
+basepairs) but also on sequence (since stacking is sequence specific) and also
+length (longer molecules are more stable). The stability can be measured in
+various ways; a common way is the "melting temperature", which is the
+temperature at which 50% of the ds molecules are converted to ss molecules;
+melting temperature is dependent on ionic strength and the concentration of
+DNA. As a result, it is both the percentage of GC base pairs and the overall
+length of a DNA double helix that determines the strength of the association
+between the two strands of DNA. Long DNA helices with a high GC-content have
+stronger-interacting strands, while short helices with high AT content have
+weaker-interacting strands.[50] In biology, parts of the DNA double helix that
+need to separate easily, such as the TATAAT Pribnow box in some promoters,
+tend to have a high AT content, making the strands easier to pull apart.[51]
+
+In the laboratory, the strength of this interaction can be measured by finding
+the temperature necessary to break the hydrogen bonds, their melting
+temperature (also called _T m_ value). When all the base pairs in a DNA double
+helix melt, the strands separate and exist in solution as two entirely
+independent molecules. These single-stranded DNA molecules have no single
+common shape, but some conformations are more stable than others.[52]
+
+### Sense and antisense
+
+Further information: Sense (molecular biology)
+
+A DNA sequence is called a "sense" sequence if it is the same as that of a
+messenger RNA copy that is translated into protein.[53] The sequence on the
+opposite strand is called the "antisense" sequence. Both sense and antisense
+sequences can exist on different parts of the same strand of DNA (i.e. both
+strands can contain both sense and antisense sequences). In both prokaryotes
+and eukaryotes, antisense RNA sequences are produced, but the functions of
+these RNAs are not entirely clear.[54] One proposal is that antisense RNAs are
+involved in regulating gene expression through RNA-RNA base pairing.[55]
+
+A few DNA sequences in prokaryotes and eukaryotes, and more in plasmids and
+viruses, blur the distinction between sense and antisense strands by having
+overlapping genes.[56] In these cases, some DNA sequences do double duty,
+encoding one protein when read along one strand, and a second protein when
+read in the opposite direction along the other strand. In bacteria, this
+overlap may be involved in the regulation of gene transcription,[57] while in
+viruses, overlapping genes increase the amount of information that can be
+encoded within the small viral genome.[58]
+
+### Supercoiling
+
+Further information: DNA supercoil
+
+DNA can be twisted like a rope in a process called DNA supercoiling. With DNA
+in its "relaxed" state, a strand usually circles the axis of the double helix
+once every 10.4 base pairs, but if the DNA is twisted the strands become more
+tightly or more loosely wound.[59] If the DNA is twisted in the direction of
+the helix, this is positive supercoiling, and the bases are held more tightly
+together. If they are twisted in the opposite direction, this is negative
+supercoiling, and the bases come apart more easily. In nature, most DNA has
+slight negative supercoiling that is introduced by enzymes called
+topoisomerases.[60] These enzymes are also needed to relieve the twisting
+stresses introduced into DNA strands during processes such as transcription
+and DNA replication.[61]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/A-DNA%2C_B-DNA_and_Z-
+
+DNA.png/220px-A-DNA%2C_B-DNA_and_Z-DNA.png)
+
+From left to right, the structures of A, B and Z DNA
+
+### Alternative DNA structures
+
+Further information: Molecular Structure of Nucleic Acids: A Structure for
+Deoxyribose Nucleic Acid, Molecular models of DNA, and DNA structure
+
+DNA exists in many possible conformations that include A-DNA, B-DNA, and Z-DNA
+forms, although, only B-DNA and Z-DNA have been directly observed in
+functional organisms.[14] The conformation that DNA adopts depends on the
+hydration level, DNA sequence, the amount and direction of supercoiling,
+chemical modifications of the bases, the type and concentration of metal ions,
+and the presence of polyamines in solution.[62]
+
+The first published reports of A-DNA X-ray diffraction patterns—and also
+B-DNA—used analyses based on Patterson transforms that provided only a limited
+amount of structural information for oriented fibers of DNA.[63][64] An
+alternative analysis was then proposed by Wilkins _et al._ , in 1953, for the
+_in vivo_ B-DNA X-ray diffraction-scattering patterns of highly hydrated DNA
+fibers in terms of squares of Bessel functions.[65] In the same journal, James
+Watson and Francis Crick presented their molecular modeling analysis of the
+DNA X-ray diffraction patterns to suggest that the structure was a double-
+helix.[9]
+
+Although the _B-DNA form_ is most common under the conditions found in
+cells,[66] it is not a well-defined conformation but a family of related DNA
+conformations[67] that occur at the high hydration levels present in cells.
+Their corresponding X-ray diffraction and scattering patterns are
+characteristic of molecular paracrystals with a significant degree of
+disorder.[68][69]
+
+Compared to B-DNA, the A-DNA form is a wider right-handed spiral, with a
+shallow, wide minor groove and a narrower, deeper major groove. The A form
+occurs under non-physiological conditions in partly dehydrated samples of DNA,
+while in the cell it may be produced in hybrid pairings of DNA and RNA
+strands, and in enzyme-DNA complexes.[70][71] Segments of DNA where the bases
+have been chemically modified by methylation may undergo a larger change in
+conformation and adopt the Z form. Here, the strands turn about the helical
+axis in a left-handed spiral, the opposite of the more common B form.[72]
+These unusual structures can be recognized by specific Z-DNA binding proteins
+and may be involved in the regulation of transcription.[73]
+
+### Alternative DNA chemistry
+
+For many years, exobiologists have proposed the existence of a shadow
+biosphere, a postulated microbial biosphere of Earth that uses radically
+different biochemical and molecular processes than currently known life. One
+of the proposals was the existence of lifeforms that use arsenic instead of
+phosphorus in DNA. A report in 2010 of the possibility in the bacterium
+GFAJ-1, was announced,[74][74][75] though the research was disputed,[75][76]
+and evidence suggests the bacterium actively prevents the incorporation of
+arsenic into the DNA backbone and other biomolecules.[77]
+
+### Quadruplex structures
+
+Further information: G-quadruplex
+
+At the ends of the linear chromosomes are specialized regions of DNA called
+telomeres. The main function of these regions is to allow the cell to
+replicate chromosome ends using the enzyme telomerase, as the enzymes that
+normally replicate DNA cannot copy the extreme 3′ ends of chromosomes.[78]
+These specialized chromosome caps also help protect the DNA ends, and stop the
+DNA repair systems in the cell from treating them as damage to be
+corrected.[79] In human cells, telomeres are usually lengths of single-
+stranded DNA containing several thousand repeats of a simple TTAGGG
+sequence.[80]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Parallel_telomere_quadruple.png/220px-
+
+Parallel_telomere_quadruple.png)
+
+DNA quadruplex formed by telomere repeats. The looped conformation of the DNA
+backbone is very different from the typical DNA helix. The green spheres in
+the center represent potassium ions.[81]
+
+These guanine-rich sequences may stabilize chromosome ends by forming
+structures of stacked sets of four-base units, rather than the usual base
+pairs found in other DNA molecules. Here, four guanine bases form a flat plate
+and these flat four-base units then stack on top of each other, to form a
+stable G-quadruplex structure.[82] These structures are stabilized by hydrogen
+bonding between the edges of the bases and chelation of a metal ion in the
+centre of each four-base unit.[83] Other structures can also be formed, with
+the central set of four bases coming from either a single strand folded around
+the bases, or several different parallel strands, each contributing one base
+to the central structure.
+
+In addition to these stacked structures, telomeres also form large loop
+structures called telomere loops, or T-loops. Here, the single-stranded DNA
+curls around in a long circle stabilized by telomere-binding proteins.[84] At
+the very end of the T-loop, the single-stranded telomere DNA is held onto a
+region of double-stranded DNA by the telomere strand disrupting the double-
+helical DNA and base pairing to one of the two strands. This triple-stranded
+structure is called a displacement loop or D-loop.[82]
+
+![Branch-dna-
+
+single.svg](//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Branch-dna-
+
+single.svg/95px-Branch-dna-single.svg.png) | ![Branch-DNA-
+
+multiple.svg](//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Branch-DNA-
+
+multiple.svg/95px-Branch-DNA-multiple.svg.png)  
+---|---  
+Single branch | Multiple branches
+
+Branched DNA can form networks containing multiple branches.
+
+### Branched DNA
+
+Further information: Branched DNA and DNA nanotechnology
+
+In DNA, fraying occurs when non-complementary regions exist at the end of an
+otherwise complementary double-strand of DNA. However, branched DNA can occur
+if a third strand of DNA is introduced and contains adjoining regions able to
+hybridize with the frayed regions of the pre-existing double-strand. Although
+the simplest example of branched DNA involves only three strands of DNA,
+complexes involving additional strands and multiple branches are also
+possible.[85] Branched DNA can be used in nanotechnology to construct
+geometric shapes, see the section on uses in technology below.
+
+### Artificial bases
+
+Main article: Nucleic acid analogue
+
+Several artificial nucleobases have been synthesized, and successfully
+incorporated in the eight-base DNA analogue named Hachimoji DNA. Dubbed S, B,
+P, and Z, these artificial bases are capable of bonding with each other in a
+predictable way (S–B and P–Z), maintain the double helix structure of DNA, and
+be transcribed to RNA. Their existence implies that there is nothing special
+about the four natural nucleobases that evolved on Earth.[86][87]
+
+## Chemical modifications and altered DNA packaging
+
+![Cytosin.svg](//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Cytosin.svg/75px-
+
+Cytosin.svg.png) |
+![5-Methylcytosine.svg](//upload.wikimedia.org/wikipedia/commons/thumb/3/3a/5-Methylcytosine.svg/95px-5-Methylcytosine.svg.png)
+|
+![Thymin.svg](//upload.wikimedia.org/wikipedia/commons/thumb/1/15/Thymin.svg/97px-
+
+Thymin.svg.png)  
+---|---|---  
+cytosine | 5-methylcytosine | thymine
+
+Structure of cytosine with and without the 5-methyl group. Deamination
+converts 5-methylcytosine into thymine.
+
+### Base modifications and DNA packaging
+
+Further information: DNA methylation and Chromatin remodeling
+
+The expression of genes is influenced by how the DNA is packaged in
+chromosomes, in a structure called chromatin. Base modifications can be
+involved in packaging, with regions that have low or no gene expression
+usually containing high levels of methylation of cytosine bases. DNA packaging
+and its influence on gene expression can also occur by covalent modifications
+of the histone protein core around which DNA is wrapped in the chromatin
+structure or else by remodeling carried out by chromatin remodeling complexes
+(see Chromatin remodeling). There is, further, crosstalk between DNA
+methylation and histone modification, so they can coordinately affect
+chromatin and gene expression.[88]
+
+For one example, cytosine methylation produces 5-methylcytosine, which is
+important for X-inactivation of chromosomes.[89] The average level of
+methylation varies between organisms—the worm _Caenorhabditis elegans_ lacks
+cytosine methylation, while vertebrates have higher levels, with up to 1% of
+their DNA containing 5-methylcytosine.[90] Despite the importance of
+5-methylcytosine, it can deaminate to leave a thymine base, so methylated
+cytosines are particularly prone to mutations.[91] Other base modifications
+include adenine methylation in bacteria, the presence of
+5-hydroxymethylcytosine in the brain,[92] and the glycosylation of uracil to
+produce the "J-base" in kinetoplastids.[93][94]
+
+### Damage
+
+Further information: DNA damage (naturally occurring), Mutation, and DNA
+damage theory of aging
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Benzopyrene_DNA_adduct_1JDG.png/220px-
+
+Benzopyrene_DNA_adduct_1JDG.png)
+
+A covalent adduct between a metabolically activated form of benzo[ _a_
+]pyrene, the major mutagen in tobacco smoke, and DNA[95]
+
+DNA can be damaged by many sorts of mutagens, which change the DNA sequence.
+Mutagens include oxidizing agents, alkylating agents and also high-energy
+electromagnetic radiation such as ultraviolet light and X-rays. The type of
+DNA damage produced depends on the type of mutagen. For example, UV light can
+damage DNA by producing thymine dimers, which are cross-links between
+pyrimidine bases.[96] On the other hand, oxidants such as free radicals or
+hydrogen peroxide produce multiple forms of damage, including base
+modifications, particularly of guanosine, and double-strand breaks.[97] A
+typical human cell contains about 150,000 bases that have suffered oxidative
+damage.[98] Of these oxidative lesions, the most dangerous are double-strand
+breaks, as these are difficult to repair and can produce point mutations,
+insertions, deletions from the DNA sequence, and chromosomal
+translocations.[99] These mutations can cause cancer. Because of inherent
+limits in the DNA repair mechanisms, if humans lived long enough, they would
+all eventually develop cancer.[100][101] DNA damages that are naturally
+occurring, due to normal cellular processes that produce reactive oxygen
+species, the hydrolytic activities of cellular water, etc., also occur
+frequently. Although most of these damages are repaired, in any cell some DNA
+damage may remain despite the action of repair processes. These remaining DNA
+damages accumulate with age in mammalian postmitotic tissues. This
+accumulation appears to be an important underlying cause of
+aging.[102][103][104]
+
+Many mutagens fit into the space between two adjacent base pairs, this is
+called _intercalation_. Most intercalators are aromatic and planar molecules;
+examples include ethidium bromide, acridines, daunomycin, and doxorubicin. For
+an intercalator to fit between base pairs, the bases must separate, distorting
+the DNA strands by unwinding of the double helix. This inhibits both
+transcription and DNA replication, causing toxicity and mutations.[105] As a
+result, DNA intercalators may be carcinogens, and in the case of thalidomide,
+a teratogen.[106] Others such as benzo[ _a_ ]pyrene diol epoxide and aflatoxin
+form DNA adducts that induce errors in replication.[107] Nevertheless, due to
+their ability to inhibit DNA transcription and replication, other similar
+toxins are also used in chemotherapy to inhibit rapidly growing cancer
+cells.[108]
+
+## Biological functions
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Eukaryote_DNA-
+
+en.svg/320px-Eukaryote_DNA-en.svg.png)
+
+Location of eukaryote nuclear DNA within the chromosomes
+
+DNA usually occurs as linear chromosomes in eukaryotes, and circular
+chromosomes in prokaryotes. The set of chromosomes in a cell makes up its
+genome; the human genome has approximately 3 billion base pairs of DNA
+arranged into 46 chromosomes.[109] The information carried by DNA is held in
+the sequence of pieces of DNA called genes. Transmission of genetic
+information in genes is achieved via complementary base pairing. For example,
+in transcription, when a cell uses the information in a gene, the DNA sequence
+is copied into a complementary RNA sequence through the attraction between the
+DNA and the correct RNA nucleotides. Usually, this RNA copy is then used to
+make a matching protein sequence in a process called translation, which
+depends on the same interaction between RNA nucleotides. In alternative
+fashion, a cell may simply copy its genetic information in a process called
+DNA replication. The details of these functions are covered in other articles;
+here the focus is on the interactions between DNA and other molecules that
+mediate the function of the genome.
+
+### Genes and genomes
+
+Further information: Cell nucleus, Chromatin, Chromosome, Gene, and Noncoding
+DNA
+
+Genomic DNA is tightly and orderly packed in the process called DNA
+condensation, to fit the small available volumes of the cell. In eukaryotes,
+DNA is located in the cell nucleus, with small amounts in mitochondria and
+chloroplasts. In prokaryotes, the DNA is held within an irregularly shaped
+body in the cytoplasm called the nucleoid.[110] The genetic information in a
+genome is held within genes, and the complete set of this information in an
+organism is called its genotype. A gene is a unit of heredity and is a region
+of DNA that influences a particular characteristic in an organism. Genes
+contain an open reading frame that can be transcribed, and regulatory
+sequences such as promoters and enhancers, which control transcription of the
+open reading frame.
+
+In many species, only a small fraction of the total sequence of the genome
+encodes protein. For example, only about 1.5% of the human genome consists of
+protein-coding exons, with over 50% of human DNA consisting of non-coding
+repetitive sequences.[111] The reasons for the presence of so much noncoding
+DNA in eukaryotic genomes and the extraordinary differences in genome size, or
+_C-value_ , among species, represent a long-standing puzzle known as the
+"C-value enigma".[112] However, some DNA sequences that do not code protein
+may still encode functional non-coding RNA molecules, which are involved in
+the regulation of gene expression.[113]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/T7_RNA_polymerase.jpg/220px-T7_RNA_polymerase.jpg)
+
+T7 RNA polymerase (blue) producing an mRNA (green) from a DNA template
+(orange)[114]
+
+Some noncoding DNA sequences play structural roles in chromosomes. Telomeres
+and centromeres typically contain few genes but are important for the function
+and stability of chromosomes.[79][115] An abundant form of noncoding DNA in
+humans are pseudogenes, which are copies of genes that have been disabled by
+mutation.[116] These sequences are usually just molecular fossils, although
+they can occasionally serve as raw genetic material for the creation of new
+genes through the process of gene duplication and divergence.[117]
+
+### Transcription and translation
+
+Further information: Genetic code, Transcription (genetics), and Protein
+biosynthesis
+
+A gene is a sequence of DNA that contains genetic information and can
+influence the phenotype of an organism. Within a gene, the sequence of bases
+along a DNA strand defines a messenger RNA sequence, which then defines one or
+more protein sequences. The relationship between the nucleotide sequences of
+genes and the amino-acid sequences of proteins is determined by the rules of
+translation, known collectively as the genetic code. The genetic code consists
+of three-letter 'words' called _codons_ formed from a sequence of three
+nucleotides (e.g. ACT, CAG, TTT).
+
+In transcription, the codons of a gene are copied into messenger RNA by RNA
+polymerase. This RNA copy is then decoded by a ribosome that reads the RNA
+sequence by base-pairing the messenger RNA to transfer RNA, which carries
+amino acids. Since there are 4 bases in 3-letter combinations, there are 64
+possible codons (43 combinations). These encode the twenty standard amino
+acids, giving most amino acids more than one possible codon. There are also
+three 'stop' or 'nonsense' codons signifying the end of the coding region;
+these are the TAA, TGA, and TAG codons.
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/DNA_replication_en.svg/450px-
+
+DNA_replication_en.svg.png)
+
+DNA replication. The double helix is unwound by a helicase and topoisomerase.
+Next, one DNA polymerase produces the leading strand copy. Another DNA
+polymerase binds to the lagging strand. This enzyme makes discontinuous
+segments (called Okazaki fragments) before DNA ligase joins them together.
+
+### Replication
+
+Further information: DNA replication
+
+Cell division is essential for an organism to grow, but, when a cell divides,
+it must replicate the DNA in its genome so that the two daughter cells have
+the same genetic information as their parent. The double-stranded structure of
+DNA provides a simple mechanism for DNA replication. Here, the two strands are
+separated and then each strand's complementary DNA sequence is recreated by an
+enzyme called DNA polymerase. This enzyme makes the complementary strand by
+finding the correct base through complementary base pairing and bonding it
+onto the original strand. As DNA polymerases can only extend a DNA strand in a
+5′ to 3′ direction, different mechanisms are used to copy the antiparallel
+strands of the double helix.[118] In this way, the base on the old strand
+dictates which base appears on the new strand, and the cell ends up with a
+perfect copy of its DNA.
+
+### Extracellular nucleic acids
+
+Naked extracellular DNA (eDNA), most of it released by cell death, is nearly
+ubiquitous in the environment. Its concentration in soil may be as high as 2
+μg/L, and its concentration in natural aquatic environments may be as high at
+88 μg/L.[119] Various possible functions have been proposed for eDNA: it may
+be involved in horizontal gene transfer;[120] it may provide nutrients;[121]
+and it may act as a buffer to recruit or titrate ions or antibiotics.[122]
+Extracellular DNA acts as a functional extracellular matrix component in the
+biofilms of several bacterial species. It may act as a recognition factor to
+regulate the attachment and dispersal of specific cell types in the
+biofilm;[123] it may contribute to biofilm formation;[124] and it may
+contribute to the biofilm's physical strength and resistance to biological
+stress.[125]
+
+Cell-free fetal DNA is found in the blood of the mother, and can be sequenced
+to determine a great deal of information about the developing fetus.[126]
+
+## Interactions with proteins
+
+All the functions of DNA depend on interactions with proteins. These protein
+interactions can be non-specific, or the protein can bind specifically to a
+single DNA sequence. Enzymes can also bind to DNA and of these, the
+polymerases that copy the DNA base sequence in transcription and DNA
+replication are particularly important.
+
+### DNA-binding proteins
+
+Further information: DNA-binding protein
+
+![Nucleosome1.png](//upload.wikimedia.org/wikipedia/commons/thumb/b/be/Nucleosome1.png/260px-
+
+Nucleosome1.png)
+
+* * *
+
+Interaction of DNA (in orange) with histones (in blue). These proteins' basic
+amino acids bind to the acidic phosphate groups on DNA.
+
+Structural proteins that bind DNA are well-understood examples of non-specific
+DNA-protein interactions. Within chromosomes, DNA is held in complexes with
+structural proteins. These proteins organize the DNA into a compact structure
+called chromatin. In eukaryotes, this structure involves DNA binding to a
+complex of small basic proteins called histones, while in prokaryotes multiple
+types of proteins are involved.[127][128] The histones form a disk-shaped
+complex called a nucleosome, which contains two complete turns of double-
+stranded DNA wrapped around its surface. These non-specific interactions are
+formed through basic residues in the histones, making ionic bonds to the
+acidic sugar-phosphate backbone of the DNA, and are thus largely independent
+of the base sequence.[129] Chemical modifications of these basic amino acid
+residues include methylation, phosphorylation, and acetylation.[130] These
+chemical changes alter the strength of the interaction between the DNA and the
+histones, making the DNA more or less accessible to transcription factors and
+changing the rate of transcription.[131] Other non-specific DNA-binding
+proteins in chromatin include the high-mobility group proteins, which bind to
+bent or distorted DNA.[132] These proteins are important in bending arrays of
+nucleosomes and arranging them into the larger structures that make up
+chromosomes.[133]
+
+A distinct group of DNA-binding proteins is the DNA-binding proteins that
+specifically bind single-stranded DNA. In humans, replication protein A is the
+best-understood member of this family and is used in processes where the
+double helix is separated, including DNA replication, recombination, and DNA
+repair.[134] These binding proteins seem to stabilize single-stranded DNA and
+protect it from forming stem-loops or being degraded by nucleases.
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Lambda_repressor_1LMB.png/170px-
+
+Lambda_repressor_1LMB.png)
+
+The lambda repressor helix-turn-helix transcription factor bound to its DNA
+target[135]
+
+In contrast, other proteins have evolved to bind to particular DNA sequences.
+The most intensively studied of these are the various transcription factors,
+which are proteins that regulate transcription. Each transcription factor
+binds to one particular set of DNA sequences and activates or inhibits the
+transcription of genes that have these sequences close to their promoters. The
+transcription factors do this in two ways. Firstly, they can bind the RNA
+polymerase responsible for transcription, either directly or through other
+mediator proteins; this locates the polymerase at the promoter and allows it
+to begin transcription.[136] Alternatively, transcription factors can bind
+enzymes that modify the histones at the promoter. This changes the
+accessibility of the DNA template to the polymerase.[137]
+
+As these DNA targets can occur throughout an organism's genome, changes in the
+activity of one type of transcription factor can affect thousands of
+genes.[138] Consequently, these proteins are often the targets of the signal
+transduction processes that control responses to environmental changes or
+cellular differentiation and development. The specificity of these
+transcription factors' interactions with DNA come from the proteins making
+multiple contacts to the edges of the DNA bases, allowing them to "read" the
+DNA sequence. Most of these base-interactions are made in the major groove,
+where the bases are most accessible.[47]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/EcoRV_1RVA.png/220px-
+
+EcoRV_1RVA.png)
+
+The restriction enzyme EcoRV (green) in a complex with its substrate DNA[139]
+
+### DNA-modifying enzymes
+
+#### Nucleases and ligases
+
+Nucleases are enzymes that cut DNA strands by catalyzing the hydrolysis of the
+phosphodiester bonds. Nucleases that hydrolyse nucleotides from the ends of
+DNA strands are called exonucleases, while endonucleases cut within strands.
+The most frequently used nucleases in molecular biology are the restriction
+endonucleases, which cut DNA at specific sequences. For instance, the EcoRV
+enzyme shown to the left recognizes the 6-base sequence 5′-GATATC-3′ and makes
+a cut at the horizontal line. In nature, these enzymes protect bacteria
+against phage infection by digesting the phage DNA when it enters the
+bacterial cell, acting as part of the restriction modification system.[140] In
+technology, these sequence-specific nucleases are used in molecular cloning
+and DNA fingerprinting.
+
+Enzymes called DNA ligases can rejoin cut or broken DNA strands.[141] Ligases
+are particularly important in lagging strand DNA replication, as they join
+together the short segments of DNA produced at the replication fork into a
+complete copy of the DNA template. They are also used in DNA repair and
+genetic recombination.[141]
+
+#### Topoisomerases and helicases
+
+Topoisomerases are enzymes with both nuclease and ligase activity. These
+proteins change the amount of supercoiling in DNA. Some of these enzymes work
+by cutting the DNA helix and allowing one section to rotate, thereby reducing
+its level of supercoiling; the enzyme then seals the DNA break.[60] Other
+types of these enzymes are capable of cutting one DNA helix and then passing a
+second strand of DNA through this break, before rejoining the helix.[142]
+Topoisomerases are required for many processes involving DNA, such as DNA
+replication and transcription.[61]
+
+Helicases are proteins that are a type of molecular motor. They use the
+chemical energy in nucleoside triphosphates, predominantly adenosine
+triphosphate (ATP), to break hydrogen bonds between bases and unwind the DNA
+double helix into single strands.[143] These enzymes are essential for most
+processes where enzymes need to access the DNA bases.
+
+#### Polymerases
+
+Polymerases are enzymes that synthesize polynucleotide chains from nucleoside
+triphosphates. The sequence of their products is created based on existing
+polynucleotide chains—which are called _templates_. These enzymes function by
+repeatedly adding a nucleotide to the 3′ hydroxyl group at the end of the
+growing polynucleotide chain. As a consequence, all polymerases work in a 5′
+to 3′ direction.[144] In the active site of these enzymes, the incoming
+nucleoside triphosphate base-pairs to the template: this allows polymerases to
+accurately synthesize the complementary strand of their template. Polymerases
+are classified according to the type of template that they use.
+
+In DNA replication, DNA-dependent DNA polymerases make copies of DNA
+polynucleotide chains. To preserve biological information, it is essential
+that the sequence of bases in each copy are precisely complementary to the
+sequence of bases in the template strand. Many DNA polymerases have a
+proofreading activity. Here, the polymerase recognizes the occasional mistakes
+in the synthesis reaction by the lack of base pairing between the mismatched
+nucleotides. If a mismatch is detected, a 3′ to 5′ exonuclease activity is
+activated and the incorrect base removed.[145] In most organisms, DNA
+polymerases function in a large complex called the replisome that contains
+multiple accessory subunits, such as the DNA clamp or helicases.[146]
+
+RNA-dependent DNA polymerases are a specialized class of polymerases that copy
+the sequence of an RNA strand into DNA. They include reverse transcriptase,
+which is a viral enzyme involved in the infection of cells by retroviruses,
+and telomerase, which is required for the replication of telomeres.[78][147]
+For example, HIV reverse transcriptase is an enzyme for AIDS virus
+replication.[147] Telomerase is an unusual polymerase because it contains its
+own RNA template as part of its structure. It synthesizes telomeres at the
+ends of chromosomes. Telomeres prevent fusion of the ends of neighboring
+chromosomes and protect chromosome ends from damage.[79]
+
+Transcription is carried out by a DNA-dependent RNA polymerase that copies the
+sequence of a DNA strand into RNA. To begin transcribing a gene, the RNA
+polymerase binds to a sequence of DNA called a promoter and separates the DNA
+strands. It then copies the gene sequence into a messenger RNA transcript
+until it reaches a region of DNA called the terminator, where it halts and
+detaches from the DNA. As with human DNA-dependent DNA polymerases, RNA
+polymerase II, the enzyme that transcribes most of the genes in the human
+genome, operates as part of a large protein complex with multiple regulatory
+and accessory subunits.[148]
+
+## Genetic recombination
+
+![Holliday
+
+Junction.svg](//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Holliday_Junction.svg/250px-
+
+Holliday_Junction.svg.png)
+
+* * *
+
+![Holliday junction
+
+coloured.png](//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Holliday_junction_coloured.png/250px-
+
+Holliday_junction_coloured.png)
+
+Structure of the Holliday junction intermediate in genetic recombination. The
+four separate DNA strands are coloured red, blue, green and yellow.[149]
+
+Further information: Genetic recombination
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chromosomal_Recombination.svg/250px-
+
+Chromosomal_Recombination.svg.png)
+
+Recombination involves the breaking and rejoining of two chromosomes (M and F)
+to produce two rearranged chromosomes (C1 and C2).
+
+A DNA helix usually does not interact with other segments of DNA, and in human
+cells, the different chromosomes even occupy separate areas in the nucleus
+called "chromosome territories".[150] This physical separation of different
+chromosomes is important for the ability of DNA to function as a stable
+repository for information, as one of the few times chromosomes interact is in
+chromosomal crossover which occurs during sexual reproduction, when genetic
+recombination occurs. Chromosomal crossover is when two DNA helices break,
+swap a section and then rejoin.
+
+Recombination allows chromosomes to exchange genetic information and produces
+new combinations of genes, which increases the efficiency of natural selection
+and can be important in the rapid evolution of new proteins.[151] Genetic
+recombination can also be involved in DNA repair, particularly in the cell's
+response to double-strand breaks.[152]
+
+The most common form of chromosomal crossover is homologous recombination,
+where the two chromosomes involved share very similar sequences. Non-
+homologous recombination can be damaging to cells, as it can produce
+chromosomal translocations and genetic abnormalities. The recombination
+reaction is catalyzed by enzymes known as recombinases, such as RAD51.[153]
+The first step in recombination is a double-stranded break caused by either an
+endonuclease or damage to the DNA.[154] A series of steps catalyzed in part by
+the recombinase then leads to joining of the two helices by at least one
+Holliday junction, in which a segment of a single strand in each helix is
+annealed to the complementary strand in the other helix. The Holliday junction
+is a tetrahedral junction structure that can be moved along the pair of
+chromosomes, swapping one strand for another. The recombination reaction is
+then halted by cleavage of the junction and re-ligation of the released
+DNA.[155] Only strands of like polarity exchange DNA during recombination.
+There are two types of cleavage: east-west cleavage and north-south cleavage.
+The north-south cleavage nicks both strands of DNA, while the east-west
+cleavage has one strand of DNA intact. The formation of a Holliday junction
+during recombination makes it possible for genetic diversity, genes to
+exchange on chromosomes, and expression of wild-type viral genomes.
+
+## Evolution
+
+Further information: RNA world hypothesis
+
+DNA contains the genetic information that allows all forms of life to
+function, grow and reproduce. However, it is unclear how long in the
+4-billion-year history of life DNA has performed this function, as it has been
+proposed that the earliest forms of life may have used RNA as their genetic
+material.[156][157] RNA may have acted as the central part of early cell
+metabolism as it can both transmit genetic information and carry out catalysis
+as part of ribozymes.[158] This ancient RNA world where nucleic acid would
+have been used for both catalysis and genetics may have influenced the
+evolution of the current genetic code based on four nucleotide bases. This
+would occur, since the number of different bases in such an organism is a
+trade-off between a small number of bases increasing replication accuracy and
+a large number of bases increasing the catalytic efficiency of ribozymes.[159]
+However, there is no direct evidence of ancient genetic systems, as recovery
+of DNA from most fossils is impossible because DNA survives in the environment
+for less than one million years, and slowly degrades into short fragments in
+solution.[160] Claims for older DNA have been made, most notably a report of
+the isolation of a viable bacterium from a salt crystal 250 million years
+old,[161] but these claims are controversial.[162][163]
+
+Building blocks of DNA (adenine, guanine, and related organic molecules) may
+have been formed extraterrestrially in outer space.[164][165][166] Complex DNA
+and RNA organic compounds of life, including uracil, cytosine, and thymine,
+have also been formed in the laboratory under conditions mimicking those found
+in outer space, using starting chemicals, such as pyrimidine, found in
+meteorites. Pyrimidine, like polycyclic aromatic hydrocarbons (PAHs), the most
+carbon-rich chemical found in the universe, may have been formed in red giants
+or in interstellar cosmic dust and gas clouds.[167]
+
+## Uses in technology
+
+### Genetic engineering
+
+Further information: Molecular biology, Nucleic acid methods, and Genetic
+engineering
+
+Methods have been developed to purify DNA from organisms, such as phenol-
+chloroform extraction, and to manipulate it in the laboratory, such as
+restriction digests and the polymerase chain reaction. Modern biology and
+biochemistry make intensive use of these techniques in recombinant DNA
+technology. Recombinant DNA is a man-made DNA sequence that has been assembled
+from other DNA sequences. They can be transformed into organisms in the form
+of plasmids or in the appropriate format, by using a viral vector.[168] The
+genetically modified organisms produced can be used to produce products such
+as recombinant proteins, used in medical research,[169] or be grown in
+agriculture.[170][171]
+
+### DNA profiling
+
+Further information: DNA profiling
+
+Forensic scientists can use DNA in blood, semen, skin, saliva or hair found at
+a crime scene to identify a matching DNA of an individual, such as a
+perpetrator.[172] This process is formally termed DNA profiling, also called
+_DNA fingerprinting_. In DNA profiling, the lengths of variable sections of
+repetitive DNA, such as short tandem repeats and minisatellites, are compared
+between people. This method is usually an extremely reliable technique for
+identifying a matching DNA.[173] However, identification can be complicated if
+the scene is contaminated with DNA from several people.[174] DNA profiling was
+developed in 1984 by British geneticist Sir Alec Jeffreys,[175] and first used
+in forensic science to convict Colin Pitchfork in the 1988 Enderby murders
+case.[176]
+
+The development of forensic science and the ability to now obtain genetic
+matching on minute samples of blood, skin, saliva, or hair has led to re-
+examining many cases. Evidence can now be uncovered that was scientifically
+impossible at the time of the original examination. Combined with the removal
+of the double jeopardy law in some places, this can allow cases to be reopened
+where prior trials have failed to produce sufficient evidence to convince a
+jury. People charged with serious crimes may be required to provide a sample
+of DNA for matching purposes. The most obvious defense to DNA matches obtained
+forensically is to claim that cross-contamination of evidence has occurred.
+This has resulted in meticulous strict handling procedures with new cases of
+serious crime.
+
+DNA profiling is also used successfully to positively identify victims of mass
+casualty incidents,[177] bodies or body parts in serious accidents, and
+individual victims in mass war graves, via matching to family members.
+
+DNA profiling is also used in DNA paternity testing to determine if someone is
+the biological parent or grandparent of a child with the probability of
+parentage is typically 99.99% when the alleged parent is biologically related
+to the child. Normal DNA sequencing methods happen after birth, but there are
+new methods to test paternity while a mother is still pregnant.[178]
+
+### DNA enzymes or catalytic DNA
+
+Further information: Deoxyribozyme
+
+Deoxyribozymes, also called DNAzymes or catalytic DNA, were first discovered
+in 1994.[179] They are mostly single stranded DNA sequences isolated from a
+large pool of random DNA sequences through a combinatorial approach called in
+vitro selection or systematic evolution of ligands by exponential enrichment
+(SELEX). DNAzymes catalyze variety of chemical reactions including RNA-DNA
+cleavage, RNA-DNA ligation, amino acids phosphorylation-dephosphorylation,
+carbon-carbon bond formation, and etc. DNAzymes can enhance catalytic rate of
+chemical reactions up to 100,000,000,000-fold over the uncatalyzed
+reaction.[180] The most extensively studied class of DNAzymes is RNA-cleaving
+types which have been used to detect different metal ions and designing
+therapeutic agents. Several metal-specific DNAzymes have been reported
+including the GR-5 DNAzyme (lead-specific),[179] the CA1-3 DNAzymes (copper-
+specific),[181] the 39E DNAzyme (uranyl-specific) and the NaA43 DNAzyme
+(sodium-specific).[182] The NaA43 DNAzyme, which is reported to be more than
+10,000-fold selective for sodium over other metal ions, was used to make a
+real-time sodium sensor in cells.
+
+### Bioinformatics
+
+Further information: Bioinformatics
+
+Bioinformatics involves the development of techniques to store, data mine,
+search and manipulate biological data, including DNA nucleic acid sequence
+data. These have led to widely applied advances in computer science,
+especially string searching algorithms, machine learning, and database
+theory.[183] String searching or matching algorithms, which find an occurrence
+of a sequence of letters inside a larger sequence of letters, were developed
+to search for specific sequences of nucleotides.[184] The DNA sequence may be
+aligned with other DNA sequences to identify homologous sequences and locate
+the specific mutations that make them distinct. These techniques, especially
+multiple sequence alignment, are used in studying phylogenetic relationships
+and protein function.[185] Data sets representing entire genomes' worth of DNA
+sequences, such as those produced by the Human Genome Project, are difficult
+to use without the annotations that identify the locations of genes and
+regulatory elements on each chromosome. Regions of DNA sequence that have the
+characteristic patterns associated with protein- or RNA-coding genes can be
+identified by gene finding algorithms, which allow researchers to predict the
+presence of particular gene products and their possible functions in an
+organism even before they have been isolated experimentally.[186] Entire
+genomes may also be compared, which can shed light on the evolutionary history
+of particular organism and permit the examination of complex evolutionary
+events.
+
+### DNA nanotechnology
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/5/55/DNA_nanostructures.png/400px-
+
+DNA_nanostructures.png)
+
+The DNA structure at left (schematic shown) will self-assemble into the
+structure visualized by atomic force microscopy at right. DNA nanotechnology
+is the field that seeks to design nanoscale structures using the molecular
+recognition properties of DNA molecules. Image from Strong, 2004.
+
+Further information: DNA nanotechnology
+
+DNA nanotechnology uses the unique molecular recognition properties of DNA and
+other nucleic acids to create self-assembling branched DNA complexes with
+useful properties.[187] DNA is thus used as a structural material rather than
+as a carrier of biological information. This has led to the creation of two-
+dimensional periodic lattices (both tile-based and using the _DNA origami_
+method) and three-dimensional structures in the shapes of polyhedra.[188]
+Nanomechanical devices and algorithmic self-assembly have also been
+demonstrated,[189] and these DNA structures have been used to template the
+arrangement of other molecules such as gold nanoparticles and streptavidin
+proteins.[190]
+
+### History and anthropology
+
+Further information: Phylogenetics and Genetic genealogy
+
+Because DNA collects mutations over time, which are then inherited, it
+contains historical information, and, by comparing DNA sequences, geneticists
+can infer the evolutionary history of organisms, their phylogeny.[191] This
+field of phylogenetics is a powerful tool in evolutionary biology. If DNA
+sequences within a species are compared, population geneticists can learn the
+history of particular populations. This can be used in studies ranging from
+ecological genetics to anthropology.
+
+### Information storage
+
+Main article: DNA digital data storage
+
+DNA as a storage device for information has enormous potential since it has
+much higher storage density compared to electronic devices. However high
+costs, extremely slow read and write times (memory latency), and insufficient
+reliability has prevented its practical use.[192][193]
+
+## History
+
+Further information: History of molecular biology
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Maclyn_McCarty_with_Francis_Crick_and_James_D_Watson_-_10.1371_journal.pbio.0030341.g001-O.jpg/220px-
+
+Maclyn_McCarty_with_Francis_Crick_and_James_D_Watson_-_10.1371_journal.pbio.0030341.g001-O.jpg)
+
+James Watson and Francis Crick (right), co-originators of the double-helix
+model, with Maclyn McCarty (left)
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Pencil_sketch_of_the_DNA_double_helix_by_Francis_Crick_Wellcome_L0051225.jpg/220px-
+
+Pencil_sketch_of_the_DNA_double_helix_by_Francis_Crick_Wellcome_L0051225.jpg)
+
+Pencil sketch of the DNA double helix by Francis Crick in 1953
+
+DNA was first isolated by the Swiss physician Friedrich Miescher who, in 1869,
+discovered a microscopic substance in the pus of discarded surgical bandages.
+As it resided in the nuclei of cells, he called it "nuclein".[194][195] In
+1878, Albrecht Kossel isolated the non-protein component of "nuclein", nucleic
+acid, and later isolated its five primary nucleobases.[196][197]
+
+In 1909, Phoebus Levene identified the base, sugar, and phosphate nucleotide
+unit of the RNA (then named "yeast nucleic acid").[198][199][200] In 1929,
+Levene identified deoxyribose sugar in "thymus nucleic acid" (DNA).[201]
+Levene suggested that DNA consisted of a string of four nucleotide units
+linked together through the phosphate groups ("tetranucleotide hypothesis").
+Levene thought the chain was short and the bases repeated in a fixed order. In
+1927, Nikolai Koltsov proposed that inherited traits would be inherited via a
+"giant hereditary molecule" made up of "two mirror strands that would
+replicate in a semi-conservative fashion using each strand as a
+template".[202][203] In 1928, Frederick Griffith in his experiment discovered
+that traits of the "smooth" form of _Pneumococcus_ could be transferred to the
+"rough" form of the same bacteria by mixing killed "smooth" bacteria with the
+live "rough" form.[204][205] This system provided the first clear suggestion
+that DNA carries genetic information.
+
+In 1933, while studying virgin sea urchin eggs, Jean Brachet suggested that
+DNA is found in the cell nucleus and that RNA is present exclusively in the
+cytoplasm. At the time, "yeast nucleic acid" (RNA) was thought to occur only
+in plants, while "thymus nucleic acid" (DNA) only in animals. The latter was
+thought to be a tetramer, with the function of buffering cellular
+pH.[206][207]
+
+In 1937, William Astbury produced the first X-ray diffraction patterns that
+showed that DNA had a regular structure.[208]
+
+In 1943, Oswald Avery, along with co-workers Colin MacLeod and Maclyn McCarty,
+identified DNA as the transforming principle, supporting Griffith's suggestion
+(Avery–MacLeod–McCarty experiment).[209] DNA's role in heredity was confirmed
+in 1952 when Alfred Hershey and Martha Chase in the Hershey–Chase experiment
+showed that DNA is the genetic material of the enterobacteria phage T2.[210]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/TheEaglePub-Cambridge-
+
+BluePlaque.jpg/220px-TheEaglePub-Cambridge-BluePlaque.jpg)
+
+A blue plaque outside The Eagle pub commemorating Crick and Watson
+
+Late in 1951, Francis Crick started working with James Watson at the Cavendish
+Laboratory within the University of Cambridge. In 1953, Watson and Crick
+suggested what is now accepted as the first correct double-helix model of DNA
+structure in the journal _Nature_.[9] Their double-helix, molecular model of
+DNA was then based on one X-ray diffraction image (labeled as "Photo 51")[211]
+taken by Rosalind Franklin and Raymond Gosling in May 1952, and the
+information that the DNA bases are paired. On 28 February 1953 Crick
+interrupted patrons' lunchtime at The Eagle pub in Cambridge to announce that
+he and Watson had "discovered the secret of life".[212]
+
+Months earlier, in February 1953, Linus Pauling and Robert Corey proposed a
+model for nucleic acids containing three intertwined chains, with the
+phosphates near the axis, and the bases on the outside.[213] Experimental
+evidence supporting the Watson and Crick model was published in a series of
+five articles in the same issue of _Nature_.[214] Of these, Franklin and
+Gosling's paper was the first publication of their own X-ray diffraction data
+and original analysis method that partly supported the Watson and Crick
+model;[64][215] this issue also contained an article on DNA structure by
+Maurice Wilkins and two of his colleagues, whose analysis and _in vivo_ B-DNA
+X-ray patterns also supported the presence _in vivo_ of the double-helical DNA
+configurations as proposed by Crick and Watson for their double-helix
+molecular model of DNA in the prior two pages of _Nature_.[65] In 1962, after
+Franklin's death, Watson, Crick, and Wilkins jointly received the Nobel Prize
+in Physiology or Medicine.[216] Nobel Prizes are awarded only to living
+recipients. A debate continues about who should receive credit for the
+discovery.[217]
+
+In an influential presentation in 1957, Crick laid out the central dogma of
+molecular biology, which foretold the relationship between DNA, RNA, and
+proteins, and articulated the "adaptor hypothesis".[218] Final confirmation of
+the replication mechanism that was implied by the double-helical structure
+followed in 1958 through the Meselson–Stahl experiment.[219] Further work by
+Crick and co-workers showed that the genetic code was based on non-overlapping
+triplets of bases, called codons, allowing Har Gobind Khorana, Robert W.
+Holley, and Marshall Warren Nirenberg to decipher the genetic code.[220] These
+findings represent the birth of molecular biology.[221]
+
+## See also
+
+                
+                                      * Autosome
+                      * Comparison of nucleic acid simulation software
+                      * Crystallography - The scientific study of crystal structure
+                      * DNA-encoded chemical library
+                      * DNA microarray
+                      * Genetic disorder - Disease that has material basis in genetic variations in the human genome
+                      * Genetic genealogy - The use of DNA testing in combination with traditional genealogical methods to infer relationships between individuals and find ancestors
+                      * Haplotype
+                      * Meiosis
+                      * Nucleic acid notation
+                      * Nucleic acid sequence - A succession of nucleotides in a nucleic acid
+                      * Pangenesis
+                      * Phosphoramidite
+                      * Ribosomal DNA
+                      * Southern blot
+                      * X-ray scattering techniques
+                      * Xeno nucleic acid
+                
+
+## References
+
+                
+                                      1. **^** "Deoxyribonucleic acid". _Merriam-Webster Dictionary_.
+                      2. **^** Alberts B, Johnson A, Lewis J, Raff M, Roberts K, Walter P (2014). _Molecular Biology of the Cell_ (6th ed.). Garland. p. Chapter 4: DNA, Chromosomes and Genomes. ISBN 978-0-8153-4432-2. Archived from the original on 14 July 2014.
+                      3. **^** Purcell A. "DNA". _Basic Biology_. Archived from the original on 5 January 2017.
+                      4. **^** Russell P (2001). _iGenetics_. New York: Benjamin Cummings. ISBN 0-8053-4553-1.
+                      5. **^** Mashaghi A, Katan A (2013). "A physicist's view of DNA". _De Physicus_. **24e** (3): 59–61. arXiv:1311.2545v1. Bibcode:2013arXiv1311.2545M.
+                      6. **^** Saenger W (1984). _Principles of Nucleic Acid Structure_. New York: Springer-Verlag. ISBN 0-387-90762-9.
+                      7. ^ _**a**_ _**b**_ Alberts B, Johnson A, Lewis J, Raff M, Roberts K, Peter W (2002). _Molecular Biology of the Cell_ (Fourth ed.). New York and London: Garland Science. ISBN 0-8153-3218-1. OCLC 145080076. Archived from the original on 1 November 2016.
+                      8. **^** Irobalieva RN, Fogg JM, Catanese DJ, Catanese DJ, Sutthibutpong T, Chen M, Barker AK, Ludtke SJ, Harris SA, Schmid MF, Chiu W, Zechiedrich L (October 2015). "Structural diversity of supercoiled DNA". _Nature Communications_. **6** : 8440. Bibcode:2015NatCo...6E8440I. doi:10.1038/ncomms9440. PMC 4608029. PMID 26455586.
+                      9. ^ _**a**_ _**b**_ _**c**_ _**d**_ Watson JD, Crick FH (April 1953). "Molecular structure of nucleic acids; a structure for deoxyribose nucleic acid" (PDF). _Nature_. **171** (4356): 737–38. Bibcode:1953Natur.171..737W. doi:10.1038/171737a0. PMID 13054692. Archived (PDF) from the original on 4 February 2007.
+                      10. **^** Mandelkern M, Elias JG, Eden D, Crothers DM (October 1981). "The dimensions of DNA in solution". _Journal of Molecular Biology_. **152** (1): 153–61. doi:10.1016/0022-2836(81)90099-1. PMID 7338906.
+                      11. **^** Gregory SG, Barlow KF, McLay KE, Kaul R, Swarbreck D, Dunham A, et al. (May 2006). "The DNA sequence and biological annotation of human chromosome 1". _Nature_. **441** (7091): 315–21. Bibcode:2006Natur.441..315G. doi:10.1038/nature04727. PMID 16710414.
+                      12. ^ _**a**_ _**b**_ _**c**_ Berg J, Tymoczko J, Stryer L (2002). _Biochemistry_. W.H. Freeman and Company. ISBN 0-7167-4955-6.
+                      13. **^** IUPAC-IUB Commission on Biochemical Nomenclature (CBN) (December 1970). "Abbreviations and Symbols for Nucleic Acids, Polynucleotides and their Constituents. Recommendations 1970". _The Biochemical Journal_. **120** (3): 449–54. doi:10.1042/bj1200449. PMC 1179624. PMID 5499957. Archived from the original on 5 February 2007.
+                      14. ^ _**a**_ _**b**_ Ghosh A, Bansal M (April 2003). "A glossary of DNA structures from A to Z". _Acta Crystallographica Section D_. **59** (Pt 4): 620–26. doi:10.1107/S0907444903003251. PMID 12657780.
+                      15. **^** Created from PDB 1D65
+                      16. **^** Yakovchuk P, Protozanova E, Frank-Kamenetskii MD (2006). "Base-stacking and base-pairing contributions into thermal stability of the DNA double helix". _Nucleic Acids Research_. **34** (2): 564–74. doi:10.1093/nar/gkj454. PMC 1360284. PMID 16449200.
+                      17. **^** Tropp BE (2012). _Molecular Biology_ (4th ed.). Sudbury, Mass.: Jones and Barlett Learning. ISBN 978-0-7637-8663-2.
+                      18. **^** Carr S (1953). "Watson-Crick Structure of DNA". Memorial University of Newfoundland. Archived from the original on 19 July 2016. Retrieved 13 July 2016.
+                      19. **^** Verma S, Eckstein F (1998). "Modified oligonucleotides: synthesis and strategy for users". _Annual Review of Biochemistry_. **67** : 99–134. doi:10.1146/annurev.biochem.67.1.99. PMID 9759484.
+                      20. **^** Kiljunen S, Hakala K, Pinta E, Huttunen S, Pluta P, Gador A, Lönnberg H, Skurnik M (December 2005). "Yersiniophage phiR1-37 is a tailed bacteriophage having a 270 kb DNA genome with thymidine replaced by deoxyuridine". _Microbiology_. **151** (Pt 12): 4093–102. doi:10.1099/mic.0.28265-0. PMID 16339954.
+                      21. **^** Uchiyama J, Takemura-Uchiyama I, Sakaguchi Y, Gamoh K, Kato S, Daibata M, Ujihara T, Misawa N, Matsuzaki S (September 2014). "Intragenus generalized transduction in Staphylococcus spp. by a novel giant phage". _The ISME Journal_. **8** (9): 1949–52. doi:10.1038/ismej.2014.29. PMC 4139722. PMID 24599069.
+                      22. **^** Molnár P, Marton L, Izrael R, Pálinkás HL, Vértessy BG (2018) Uracil moieties in _Plasmodium falciparum_ genomic DNA. FEBS Open Bio 8(11):1763–1772
+                      23. **^** Casella E, Markewych O, Dosmar M, Heman W (1978) Production and expression of dTMP-enriched DNA of bacteriophage SP15. J Virology 28 (3) 753–66
+                      24. **^** Simpson L (March 1998). "A base called J". _Proceedings of the National Academy of Sciences of the United States of America_. **95** (5): 2037–38. Bibcode:1998PNAS...95.2037S. doi:10.1073/pnas.95.5.2037. PMC 33841. PMID 9482833.
+                      25. **^** Borst P, Sabatini R (2008). "Base J: discovery, biosynthesis, and possible functions". _Annual Review of Microbiology_. **62** : 235–51. doi:10.1146/annurev.micro.62.081307.162750. PMID 18729733.
+                      26. **^** Cross M, Kieft R, Sabatini R, Wilm M, de Kort M, van der Marel GA, van Boom JH, van Leeuwen F, Borst P (November 1999). "The modified base J is the target for a novel DNA-binding protein in kinetoplastid protozoans". _The EMBO Journal_. **18** (22): 6573–81. doi:10.1093/emboj/18.22.6573. PMC 1171720. PMID 10562569.
+                      27. **^** DiPaolo C, Kieft R, Cross M, Sabatini R (February 2005). "Regulation of trypanosome DNA glycosylation by a SWI2/SNF2-like protein". _Molecular Cell_. **17** (3): 441–51. doi:10.1016/j.molcel.2004.12.022. PMID 15694344.
+                      28. **^** Vainio S, Genest PA, ter Riet B, van Luenen H, Borst P (April 2009). "Evidence that J-binding protein 2 is a thymidine hydroxylase catalyzing the first step in the biosynthesis of DNA base J". _Molecular and Biochemical Parasitology_. **164** (2): 157–61. doi:10.1016/j.molbiopara.2008.12.001. PMID 19114062.
+                      29. **^** Iyer LM, Tahiliani M, Rao A, Aravind L (June 2009). "Prediction of novel families of enzymes involved in oxidative and other complex modifications of bases in nucleic acids". _Cell Cycle_. **8** (11): 1698–710. doi:10.4161/cc.8.11.8580. PMC 2995806. PMID 19411852.
+                      30. **^** van Luenen HG, Farris C, Jan S, Genest PA, Tripathi P, Velds A, Kerkhoven RM, Nieuwland M, Haydock A, Ramasamy G, Vainio S, Heidebrecht T, Perrakis A, Pagie L, van Steensel B, Myler PJ, Borst P (August 2012). "Glucosylated hydroxymethyluracil, DNA base J, prevents transcriptional readthrough in Leishmania". _Cell_. **150** (5): 909–21. doi:10.1016/j.cell.2012.07.030. PMC 3684241. PMID 22939620.
+                      31. **^** Hazelbaker DZ, Buratowski S (November 2012). "Transcription: base J blocks the way". _Current Biology_. **22** (22): R960–2. doi:10.1016/j.cub.2012.10.010. PMC 3648658. PMID 23174300.
+                      32. **^** Khudyakov IY, Kirnos MD, Alexandrushkina NI, Vanyushin BF (1978). "Cyanophage S-2L contains DNA with 2,6-diaminopurine substituted for adenine". _Virology_. **88** (1): 8–18. PMID 676082.
+                      33. **^** Thiaville JJ, Kellner SM, Yuan Y, Hutinet G, Thiaville PC, Jumpathong W, Mohapatra S, Brochier-Armanet C, Letarov AV, Hillebrand R, Malik CK, Rizzo CJ, Dedon PC, de Crécy-Lagard V (2016). "Novel genomic island modifies DNA with 7-deazaguanine derivatives". _Proceedings of the National Academy of Sciences of the United States of America_. **113** (11): E1452–59. Bibcode:2016PNAS..113E1452T. doi:10.1073/pnas.1518570113. PMC 4801273. PMID 26929322.
+                      34. **^** Johnson TB, Coghill RD (1925). "Pyrimidines. CIII. The discovery of 5-methylcytosine in tuberculinic acid, the nucleic acid of the tubercle bacillus". _Journal of the American Chemical Society_. **47** : 2838–44.
+                      35. **^** Wyatt GR, Cohen SS (1953). "The bases of the nucleic acids of some bacterial and animal viruses: the occurrence of 5-hydroxymethylcytosine". _The Biochemical Journal_. **55** (5): 774–82. PMC 1269533. PMID 13115372.
+                      36. **^** Kuo TT, Huang TC, Teng MH (1968). "5-Methylcytosine replacing cytosine in the deoxyribonucleic acid of a bacteriophage for Xanthomonas oryzae". _Journal of Molecular Biology_. **34** (2): 373–75. PMID 5760463.
+                      37. **^** Vogelsang-Wenke H, Oesterhelt D (March 1988). "Isolation of a halobacterial phage with a fully cytosine-methylated genome". _MGG Molecular & General Genetics_. **211** (3): 407–14. doi:10.1007/BF00425693.
+                      38. **^** Dunn DB, Smith JD (1955). "Occurrence of a new base in the deoxyribonucleic acid of a strain of Bacterium coli". _Nature_. **175** (4451): 336–37. PMID 13235889.
+                      39. **^** Allet B, Bukhari AI (1975). "Analysis of bacteriophage mu and lambda-mu hybrid DNAs by specific endonucleases". _Journal of Molecular Biology_. **92** (4): 529–40. PMID 1097703.
+                      40. **^** Nikolskaya II, Lopatina NG, Debov SS (1976). "Methylated guanine derivative as a minor base in the DNA of phage DDVI Shigella disenteriae". _Biochimica et Biophysica Acta_. **435** (2): 206–10. PMID 779843.
+                      41. **^** Janulaitis A, Klimasauskas S, Petrusyte M, Butkus V (1983). "Cytosine modification in DNA by BcnI methylase yields N4-methylcytosine". _FEBS Letters_. **161** (1): 131–34. PMID 6884523.
+                      42. **^** Swinton D, Hattman S, Benzinger R, Buchanan-Wollaston V, Beringer J (1985). "Replacement of the deoxycytidine residues in Rhizobium bacteriophage RL38JI DNA". _FEBS Letters_. **184** (2): 294–98. PMID 2987032.
+                      43. **^** Maltman KL, Neuhard J, Warren RA (1981). "5-[(Hydroxymethyl)-O-pyrophosphoryl]uracil, an intermediate in the biosynthesis of alpha-putrescinylthymine in deoxyribonucleic acid of bacteriophage phi W-14". _Biochemistry_. **20** (12): 3586–91. PMID 7260058.
+                      44. **^** Carell T, Kurz MQ, Müller M, Rossa M, Spada F (2017). "Non-canonical bases in the genome: The regulatory information layer in DNA". _Angewandte Chemie (International Ed. in English)_. doi:10.1002/anie.201708228. PMID 28941008.
+                      45. **^** Shu X, Liu M, Lu Z, Zhu C, Meng H, Huang S, Zhang X, Yi C (2018) Genome-wide mapping reveals that deoxyuridine is enriched in the human centromeric DNA. Nat Chem Biol doi:10.1038/s41589-018-0065-9
+                      46. **^** Wing R, Drew H, Takano T, Broka C, Tanaka S, Itakura K, Dickerson RE (October 1980). "Crystal structure analysis of a complete turn of B-DNA". _Nature_. **287** (5784): 755–58. Bibcode:1980Natur.287..755W. doi:10.1038/287755a0. PMID 7432492.
+                      47. ^ _**a**_ _**b**_ Pabo CO, Sauer RT (1984). "Protein-DNA recognition". _Annual Review of Biochemistry_. **53** : 293–321. doi:10.1146/annurev.bi.53.070184.001453. PMID 6236744.
+                      48. **^** Nikolova EN, Zhou H, Gottardo FL, Alvey HS, Kimsey IJ, Al-Hashimi HM (2013). "A historical account of Hoogsteen base-pairs in duplex DNA". _Biopolymers_. **99** (12): 955–68. doi:10.1002/bip.22334. PMC 3844552. PMID 23818176.
+                      49. **^** Clausen-Schaumann H, Rief M, Tolksdorf C, Gaub HE (April 2000). "Mechanical stability of single DNA molecules". _Biophysical Journal_. **78** (4): 1997–2007. Bibcode:2000BpJ....78.1997C. doi:10.1016/S0006-3495(00)76747-6. PMC 1300792. PMID 10733978.
+                      50. **^** Chalikian TV, Völker J, Plum GE, Breslauer KJ (July 1999). "A more unified picture for the thermodynamics of nucleic acid duplex melting: a characterization by calorimetric and volumetric techniques". _Proceedings of the National Academy of Sciences of the United States of America_. **96** (14): 7853–58. Bibcode:1999PNAS...96.7853C. doi:10.1073/pnas.96.14.7853. PMC 22151. PMID 10393911.
+                      51. **^** deHaseth PL, Helmann JD (June 1995). "Open complex formation by Escherichia coli RNA polymerase: the mechanism of polymerase-induced strand separation of double helical DNA". _Molecular Microbiology_. **16** (5): 817–24. doi:10.1111/j.1365-2958.1995.tb02309.x. PMID 7476180.
+                      52. **^** Isaksson J, Acharya S, Barman J, Cheruku P, Chattopadhyaya J (December 2004). "Single-stranded adenine-rich DNA and RNA retain structural characteristics of their respective double-stranded conformations and show directional differences in stacking pattern" (PDF). _Biochemistry_. **43** (51): 15996–6010. doi:10.1021/bi048221v. PMID 15609994. Archived (PDF) from the original on 10 June 2007.
+                      53. **^** Designation of the two strands of DNA Archived 24 April 2008 at the Wayback Machine JCBN/NC-IUB Newsletter 1989. Retrieved 7 May 2008
+                      54. **^** Hüttenhofer A, Schattner P, Polacek N (May 2005). "Non-coding RNAs: hope or hype?". _Trends in Genetics_. **21** (5): 289–97. doi:10.1016/j.tig.2005.03.007. PMID 15851066.
+                      55. **^** Munroe SH (November 2004). "Diversity of antisense regulation in eukaryotes: multiple mechanisms, emerging patterns". _Journal of Cellular Biochemistry_. **93** (4): 664–71. doi:10.1002/jcb.20252. PMID 15389973.
+                      56. **^** Makalowska I, Lin CF, Makalowski W (February 2005). "Overlapping genes in vertebrate genomes". _Computational Biology and Chemistry_. **29** (1): 1–12. doi:10.1016/j.compbiolchem.2004.12.006. PMID 15680581.
+                      57. **^** Johnson ZI, Chisholm SW (November 2004). "Properties of overlapping genes are conserved across microbial genomes". _Genome Research_. **14** (11): 2268–72. doi:10.1101/gr.2433104. PMC 525685. PMID 15520290.
+                      58. **^** Lamb RA, Horvath CM (August 1991). "Diversity of coding strategies in influenza viruses". _Trends in Genetics_. **7** (8): 261–66. doi:10.1016/0168-9525(91)90326-L. PMID 1771674.
+                      59. **^** Benham CJ, Mielke SP (2005). "DNA mechanics". _Annual Review of Biomedical Engineering_. **7** : 21–53. doi:10.1146/annurev.bioeng.6.062403.132016. PMID 16004565.
+                      60. ^ _**a**_ _**b**_ Champoux JJ (2001). "DNA topoisomerases: structure, function, and mechanism". _Annual Review of Biochemistry_. **70** : 369–413. doi:10.1146/annurev.biochem.70.1.369. PMID 11395412.
+                      61. ^ _**a**_ _**b**_ Wang JC (June 2002). "Cellular roles of DNA topoisomerases: a molecular perspective". _Nature Reviews. Molecular Cell Biology_. **3** (6): 430–40. doi:10.1038/nrm831. PMID 12042765.
+                      62. **^** Basu HS, Feuerstein BG, Zarling DA, Shafer RH, Marton LJ (October 1988). "Recognition of Z-RNA and Z-DNA determinants by polyamines in solution: experimental and theoretical studies". _Journal of Biomolecular Structure & Dynamics_. **6** (2): 299–309. doi:10.1080/07391102.1988.10507714. PMID 2482766.
+                      63. **^** Franklin RE, Gosling RG (6 March 1953). "The Structure of Sodium Thymonucleate Fibres I. The Influence of Water Content" (PDF). _Acta Crystallogr_. **6** (8–9): 673–77. doi:10.1107/S0365110X53001939. Archived (PDF) from the original on 9 January 2016.
+                
+
+Franklin RE, Gosling RG (1953). "The structure of sodium thymonucleate fibres.
+II. The cylindrically symmetrical Patterson function". _Acta Crystallogr_.
+**6** (8–9): 678–85. doi:10.1107/S0365110X53001940.
+
+                
+                                      64. ^ _**a**_ _**b**_ Franklin RE, Gosling RG (April 1953). "Molecular configuration in sodium thymonucleate" (PDF). _Nature_. **171** (4356): 740–41. Bibcode:1953Natur.171..740F. doi:10.1038/171740a0. PMID 13054694. Archived (PDF) from the original on 3 January 2011.
+                      65. ^ _**a**_ _**b**_ Wilkins MH, Stokes AR, Wilson HR (April 1953). "Molecular structure of deoxypentose nucleic acids" (PDF). _Nature_. **171** (4356): 738–40. Bibcode:1953Natur.171..738W. doi:10.1038/171738a0. PMID 13054693. Archived (PDF) from the original on 13 May 2011.
+                      66. **^** Leslie AG, Arnott S, Chandrasekaran R, Ratliff RL (October 1980). "Polymorphism of DNA double helices". _Journal of Molecular Biology_. **143** (1): 49–72. doi:10.1016/0022-2836(80)90124-2. PMID 7441761.
+                      67. **^** Baianu IC (1980). "Structural Order and Partial Disorder in Biological systems". _Bull. Math. Biol_. **42** (4): 137–41. doi:10.1007/BF02462372.
+                      68. **^** Hosemann R, Bagchi RN (1962). _Direct analysis of diffraction by matter_. Amsterdam – New York: North-Holland Publishers.
+                      69. **^** Baianu IC (1978). "X-ray scattering by partially disordered membrane systems". _Acta Crystallogr A_. **34** (5): 751–53. Bibcode:1978AcCrA..34..751B. doi:10.1107/S0567739478001540.
+                      70. **^** Wahl MC, Sundaralingam M (1997). "Crystal structures of A-DNA duplexes". _Biopolymers_. **44** (1): 45–63. doi:10.1002/(SICI)1097-0282(1997)44:1<45::AID-BIP4>3.0.CO;2-#. PMID 9097733.
+                      71. **^** Lu XJ, Shakked Z, Olson WK (July 2000). "A-form conformational motifs in ligand-bound DNA structures". _Journal of Molecular Biology_. **300** (4): 819–40. doi:10.1006/jmbi.2000.3690. PMID 10891271.
+                      72. **^** Rothenburg S, Koch-Nolte F, Haag F (December 2001). "DNA methylation and Z-DNA formation as mediators of quantitative differences in the expression of alleles". _Immunological Reviews_. **184** : 286–98. doi:10.1034/j.1600-065x.2001.1840125.x. PMID 12086319.
+                      73. **^** Oh DB, Kim YG, Rich A (December 2002). "Z-DNA-binding proteins can act as potent effectors of gene expression in vivo". _Proceedings of the National Academy of Sciences of the United States of America_. **99** (26): 16666–71. Bibcode:2002PNAS...9916666O. doi:10.1073/pnas.262672699. PMC 139201. PMID 12486233.
+                      74. ^ _**a**_ _**b**_ Palmer J (2 December 2010). "Arsenic-loving bacteria may help in hunt for alien life". _BBC News_. Archived from the original on 3 December 2010. Retrieved  2 December 2010.
+                      75. ^ _**a**_ _**b**_ Bortman, Henry (2 December 2010). "Arsenic-Eating Bacteria Opens New Possibilities for Alien Life". _Space.com_. Archived from the original on 4 December 2010. Retrieved  2 December 2010.
+                      76. **^** Katsnelson A (2 December 2010). "Arsenic-eating microbe may redefine chemistry of life". _Nature News_. doi:10.1038/news.2010.645. Archived from the original on 24 February 2012.
+                      77. **^** Cressey D (3 October 2012). "'Arsenic-life' Bacterium Prefers Phosphorus after all". _Nature News_. doi:10.1038/nature.2012.11520.
+                      78. ^ _**a**_ _**b**_ Greider CW, Blackburn EH (December 1985). "Identification of a specific telomere terminal transferase activity in Tetrahymena extracts". _Cell_. **43** (2 Pt 1): 405–13. doi:10.1016/0092-8674(85)90170-9. PMID 3907856.
+                      79. ^ _**a**_ _**b**_ _**c**_ Nugent CI, Lundblad V (April 1998). "The telomerase reverse transcriptase: components and regulation". _Genes & Development_. **12** (8): 1073–85. doi:10.1101/gad.12.8.1073. PMID 9553037.
+                      80. **^** Wright WE, Tesmer VM, Huffman KE, Levene SD, Shay JW (November 1997). "Normal human chromosomes have long G-rich telomeric overhangs at one end". _Genes & Development_. **11** (21): 2801–09. doi:10.1101/gad.11.21.2801. PMC 316649. PMID 9353250.
+                      81. **^** Created from Archived 17 October 2016 at the Wayback Machine
+                      82. ^ _**a**_ _**b**_ Burge S, Parkinson GN, Hazel P, Todd AK, Neidle S (2006). "Quadruplex DNA: sequence, topology and structure". _Nucleic Acids Research_. **34** (19): 5402–15. doi:10.1093/nar/gkl655. PMC 1636468. PMID 17012276.
+                      83. **^** Parkinson GN, Lee MP, Neidle S (June 2002). "Crystal structure of parallel quadruplexes from human telomeric DNA". _Nature_. **417** (6891): 876–80. Bibcode:2002Natur.417..876P. doi:10.1038/nature755. PMID 12050675.
+                      84. **^** Griffith JD, Comeau L, Rosenfield S, Stansel RM, Bianchi A, Moss H, de Lange T (May 1999). "Mammalian telomeres end in a large duplex loop". _Cell_. **97** (4): 503–14. doi:10.1016/S0092-8674(00)80760-6. PMID 10338214.
+                      85. **^** Seeman NC (November 2005). "DNA enables nanoscale control of the structure of matter". _Quarterly Reviews of Biophysics_. **38** (4): 363–71. doi:10.1017/S0033583505004087. PMC 3478329. PMID 16515737.
+                      86. **^** Warren M (21 February 2019). "Four new DNA letters double life's alphabet". _Nature_. doi:10.1038/d41586-019-00650-8.
+                      87. **^** Hoshika S, Leal NA, Kim MJ, Kim MS, Karalkar NB, Kim HJ, et al. (22 February 2019). "Hachimoji DNA and RNA: A genetic system with eight building blocks (paywall)". _Science_. **363** (6429): 884–887. doi:10.1126/science.aat0971. Retrieved  24 February 2019.
+                      88. **^** Hu Q, Rosenfeld MG (2012). "Epigenetic regulation of human embryonic stem cells". _Frontiers in Genetics_. **3** : 238. doi:10.3389/fgene.2012.00238. PMC 3488762. PMID 23133442.
+                      89. **^** Klose RJ, Bird AP (February 2006). "Genomic DNA methylation: the mark and its mediators". _Trends in Biochemical Sciences_. **31** (2): 89–97. doi:10.1016/j.tibs.2005.12.008. PMID 16403636.
+                      90. **^** Bird A (January 2002). "DNA methylation patterns and epigenetic memory". _Genes & Development_. **16** (1): 6–21. doi:10.1101/gad.947102. PMID 11782440.
+                      91. **^** Walsh CP, Xu GL (2006). "Cytosine methylation and DNA repair". _Current Topics in Microbiology and Immunology_. Current Topics in Microbiology and Immunology. **301** : 283–315. doi:10.1007/3-540-31390-7_11. ISBN 3-540-29114-8. PMID 16570853.
+                      92. **^** Kriaucionis S, Heintz N (May 2009). "The nuclear DNA base 5-hydroxymethylcytosine is present in Purkinje neurons and the brain". _Science_. **324** (5929): 929–30. Bibcode:2009Sci...324..929K. doi:10.1126/science.1169786. PMC 3263819. PMID 19372393.
+                      93. **^** Ratel D, Ravanat JL, Berger F, Wion D (March 2006). "N6-methyladenine: the other methylated base of DNA". _BioEssays_. **28** (3): 309–15. doi:10.1002/bies.20342. PMC 2754416. PMID 16479578.
+                      94. **^** Gommers-Ampt JH, Van Leeuwen F, de Beer AL, Vliegenthart JF, Dizdaroglu M, Kowalak JA, Crain PF, Borst P (December 1993). "beta-D-glucosyl-hydroxymethyluracil: a novel modified base present in the DNA of the parasitic protozoan T. brucei". _Cell_. **75** (6): 1129–36. doi:10.1016/0092-8674(93)90322-H. PMID 8261512.
+                      95. **^** Created from PDB 1JDG
+                      96. **^** Douki T, Reynaud-Angelin A, Cadet J, Sage E (August 2003). "Bipyrimidine photoproducts rather than oxidative lesions are the main type of DNA damage involved in the genotoxic effect of solar UVA radiation". _Biochemistry_. **42** (30): 9221–26. doi:10.1021/bi034593c. PMID 12885257.
+                      97. **^** Cadet J, Delatour T, Douki T, Gasparutto D, Pouget JP, Ravanat JL, Sauvaigo S (March 1999). "Hydroxyl radicals and DNA base damage". _Mutation Research_. **424** (1–2): 9–21. doi:10.1016/S0027-5107(99)00004-4. PMID 10064846.
+                      98. **^** Beckman KB, Ames BN (August 1997). "Oxidative decay of DNA". _The Journal of Biological Chemistry_. **272** (32): 19633–36. doi:10.1074/jbc.272.32.19633. PMID 9289489.
+                      99. **^** Valerie K, Povirk LF (September 2003). "Regulation and mechanisms of mammalian double-strand break repair". _Oncogene_. **22** (37): 5792–812. doi:10.1038/sj.onc.1206679. PMID 12947387.
+                      100. **^** Johnson G (28 December 2010). "Unearthing Prehistoric Tumors, and Debate". _The New York Times_. Archived from the original on 24 June 2017. " If we lived long enough, sooner or later we all would get cancer."
+                      101. **^** Alberts B, Johnson A, Lewis J, et al. (2002). "The Preventable Causes of Cancer". _Molecular biology of the cell_ (4th ed.). New York: Garland Science. ISBN 0-8153-4072-9. Archived from the original on 2 January 2016. "A certain irreducible background incidence of cancer is to be expected regardless of circumstances: mutations can never be absolutely avoided, because they are an inescapable consequence of fundamental limitations on the accuracy of DNA replication, as discussed in Chapter 5. If a human could live long enough, it is inevitable that at least one of his or her cells would eventually accumulate a set of mutations sufficient for cancer to develop."
+                      102. **^** Bernstein H, Payne CM, Bernstein C, Garewal H, Dvorak K (2008). "Cancer and aging as consequences of un-repaired DNA damage". In Kimura H, Suzuki A (eds.). _New Research on DNA Damage_. New York: Nova Science Publishers. pp. 1–47. ISBN 978-1-60456-581-2. Archived from the original on 25 October 2014.
+                      103. **^** Hoeijmakers JH (October 2009). "DNA damage, aging, and cancer". _The New England Journal of Medicine_. **361** (15): 1475–85. doi:10.1056/NEJMra0804615. PMID 19812404.
+                      104. **^** Freitas AA, de Magalhães JP (2011). "A review and appraisal of the DNA damage theory of ageing". _Mutation Research_. **728** (1–2): 12–22. doi:10.1016/j.mrrev.2011.05.001. PMID 21600302.
+                      105. **^** Ferguson LR, Denny WA (September 1991). "The genetic toxicology of acridines". _Mutation Research_. **258** (2): 123–60. doi:10.1016/0165-1110(91)90006-H. PMID 1881402.
+                      106. **^** Stephens TD, Bunde CJ, Fillmore BJ (June 2000). "Mechanism of action in thalidomide teratogenesis". _Biochemical Pharmacology_. **59** (12): 1489–99. doi:10.1016/S0006-2952(99)00388-3. PMID 10799645.
+                      107. **^** Jeffrey AM (1985). "DNA modification by chemical carcinogens". _Pharmacology & Therapeutics_. **28** (2): 237–72. doi:10.1016/0163-7258(85)90013-0. PMID 3936066.
+                      108. **^** Braña MF, Cacho M, Gradillas A, de Pascual-Teresa B, Ramos A (November 2001). "Intercalators as anticancer drugs". _Current Pharmaceutical Design_. **7** (17): 1745–80. doi:10.2174/1381612013397113. PMID 11562309.
+                      109. **^** Venter JC, Adams MD, Myers EW, Li PW, Mural RJ, Sutton GG, et al. (February 2001). "The sequence of the human genome". _Science_. **291** (5507): 1304–51. Bibcode:2001Sci...291.1304V. doi:10.1126/science.1058040. PMID 11181995.
+                      110. **^** Thanbichler M, Wang SC, Shapiro L (October 2005). "The bacterial nucleoid: a highly organized and dynamic structure". _Journal of Cellular Biochemistry_. **96** (3): 506–21. doi:10.1002/jcb.20519. PMID 15988757.
+                      111. **^** Wolfsberg TG, McEntyre J, Schuler GD (February 2001). "Guide to the draft human genome". _Nature_. **409** (6822): 824–26. Bibcode:2001Natur.409..824W. doi:10.1038/35057000. PMID 11236998.
+                      112. **^** Gregory TR (January 2005). "The C-value enigma in plants and animals: a review of parallels and an appeal for partnership". _Annals of Botany_. **95** (1): 133–46. doi:10.1093/aob/mci009. PMC 4246714. PMID 15596463.
+                      113. **^** Birney E, Stamatoyannopoulos JA, Dutta A, Guigó R, Gingeras TR, Margulies EH, et al. (June 2007). "Identification and analysis of functional elements in 1% of the human genome by the ENCODE pilot project". _Nature_. **447** (7146): 799–816. Bibcode:2007Natur.447..799B. doi:10.1038/nature05874. PMC 2212820. PMID 17571346.
+                      114. **^** Created from PDB 1MSW Archived 6 January 2008 at the Wayback Machine
+                      115. **^** Pidoux AL, Allshire RC (March 2005). "The role of heterochromatin in centromere function". _Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences_. **360** (1455): 569–79. doi:10.1098/rstb.2004.1611. PMC 1569473. PMID 15905142.
+                      116. **^** Harrison PM, Hegyi H, Balasubramanian S, Luscombe NM, Bertone P, Echols N, Johnson T, Gerstein M (February 2002). "Molecular fossils in the human genome: identification and analysis of the pseudogenes in chromosomes 21 and 22". _Genome Research_. **12** (2): 272–80. doi:10.1101/gr.207102. PMC 155275. PMID 11827946.
+                      117. **^** Harrison PM, Gerstein M (May 2002). "Studying genomes through the aeons: protein families, pseudogenes and proteome evolution". _Journal of Molecular Biology_. **318** (5): 1155–74. doi:10.1016/S0022-2836(02)00109-2. PMID 12083509.
+                      118. **^** Albà M (2001). "Replicative DNA polymerases". _Genome Biology_. **2** (1): REVIEWS3002. doi:10.1186/gb-2001-2-1-reviews3002. PMC 150442. PMID 11178285.
+                      119. **^** Tani K, Nasu M (2010). "Roles of Extracellular DNA in Bacterial Ecosystems". In Kikuchi Y, Rykova EY (eds.). _Extracellular Nucleic Acids_. Springer. pp. 25–38. ISBN 978-3-642-12616-1.
+                      120. **^** Vlassov VV, Laktionov PP, Rykova EY (July 2007). "Extracellular nucleic acids". _BioEssays_. **29** (7): 654–67. doi:10.1002/bies.20604. PMID 17563084.
+                      121. **^** Finkel SE, Kolter R (November 2001). "DNA as a nutrient: novel role for bacterial competence gene homologs". _Journal of Bacteriology_. **183** (21): 6288–93. doi:10.1128/JB.183.21.6288-6293.2001. PMC 100116. PMID 11591672.
+                      122. **^** Mulcahy H, Charron-Mazenod L, Lewenza S (November 2008). "Extracellular DNA chelates cations and induces antibiotic resistance in Pseudomonas aeruginosa biofilms". _PLoS Pathogens_. **4** (11): e1000213. doi:10.1371/journal.ppat.1000213. PMC 2581603. PMID 19023416.
+                      123. **^** Berne C, Kysela DT, Brun YV (August 2010). "A bacterial extracellular DNA inhibits settling of motile progeny cells within a biofilm". _Molecular Microbiology_. **77** (4): 815–29. doi:10.1111/j.1365-2958.2010.07267.x. PMC 2962764. PMID 20598083.
+                      124. **^** Whitchurch CB, Tolker-Nielsen T, Ragas PC, Mattick JS (February 2002). "Extracellular DNA required for bacterial biofilm formation". _Science_. **295** (5559): 1487. doi:10.1126/science.295.5559.1487. PMID 11859186.
+                      125. **^** Hu W, Li L, Sharma S, Wang J, McHardy I, Lux R, Yang Z, He X, Gimzewski JK, Li Y, Shi W (2012). "DNA builds and strengthens the extracellular matrix in Myxococcus xanthus biofilms by interacting with exopolysaccharides". _PLoS One_. **7** (12): e51905. Bibcode:2012PLoSO...751905H. doi:10.1371/journal.pone.0051905. PMC 3530553. PMID 23300576.
+                      126. **^** Hui L, Bianchi DW (February 2013). "Recent advances in the prenatal interrogation of the human fetal genome". _Trends in Genetics_. **29** (2): 84–91. doi:10.1016/j.tig.2012.10.013. PMC 4378900. PMID 23158400.
+                      127. **^** Sandman K, Pereira SL, Reeve JN (December 1998). "Diversity of prokaryotic chromosomal proteins and the origin of the nucleosome". _Cellular and Molecular Life Sciences_. **54** (12): 1350–64. doi:10.1007/s000180050259. PMID 9893710.
+                      128. **^** Dame RT (May 2005). "The role of nucleoid-associated proteins in the organization and compaction of bacterial chromatin". _Molecular Microbiology_. **56** (4): 858–70. doi:10.1111/j.1365-2958.2005.04598.x. PMID 15853876.
+                      129. **^** Luger K, Mäder AW, Richmond RK, Sargent DF, Richmond TJ (September 1997). "Crystal structure of the nucleosome core particle at 2.8 A resolution". _Nature_. **389** (6648): 251–60. Bibcode:1997Natur.389..251L. doi:10.1038/38444. PMID 9305837.
+                      130. **^** Jenuwein T, Allis CD (August 2001). "Translating the histone code" (PDF). _Science_. **293** (5532): 1074–80. doi:10.1126/science.1063127. PMID 11498575. Archived (PDF) from the original on 8 August 2017.
+                      131. **^** Ito T (2003). "Nucleosome assembly and remodeling". _Current Topics in Microbiology and Immunology_. Current Topics in Microbiology and Immunology. **274** : 1–22. doi:10.1007/978-3-642-55747-7_1. ISBN 978-3-540-44208-0. PMID 12596902.
+                      132. **^** Thomas JO (August 2001). "HMG1 and 2: architectural DNA-binding proteins". _Biochemical Society Transactions_. **29** (Pt 4): 395–401. doi:10.1042/BST0290395. PMID 11497996.
+                      133. **^** Grosschedl R, Giese K, Pagel J (March 1994). "HMG domain proteins: architectural elements in the assembly of nucleoprotein structures". _Trends in Genetics_. **10** (3): 94–100. doi:10.1016/0168-9525(94)90232-1. PMID 8178371.
+                      134. **^** Iftode C, Daniely Y, Borowiec JA (1999). "Replication protein A (RPA): the eukaryotic SSB". _Critical Reviews in Biochemistry and Molecular Biology_. **34** (3): 141–80. doi:10.1080/10409239991209255. PMID 10473346.
+                      135. **^** Created from PDB 1LMB Archived 6 January 2008 at the Wayback Machine
+                      136. **^** Myers LC, Kornberg RD (2000). "Mediator of transcriptional regulation". _Annual Review of Biochemistry_. **69** : 729–49. doi:10.1146/annurev.biochem.69.1.729. PMID 10966474.
+                      137. **^** Spiegelman BM, Heinrich R (October 2004). "Biological control through regulated transcriptional coactivators". _Cell_. **119** (2): 157–67. doi:10.1016/j.cell.2004.09.037. PMID 15479634.
+                      138. **^** Li Z, Van Calcar S, Qu C, Cavenee WK, Zhang MQ, Ren B (July 2003). "A global transcriptional regulatory role for c-Myc in Burkitt's lymphoma cells". _Proceedings of the National Academy of Sciences of the United States of America_. **100** (14): 8164–69. Bibcode:2003PNAS..100.8164L. doi:10.1073/pnas.1332764100. PMC 166200. PMID 12808131.
+                      139. **^** Created from PDB 1RVA Archived 6 January 2008 at the Wayback Machine
+                      140. **^** Bickle TA, Krüger DH (June 1993). "Biology of DNA restriction". _Microbiological Reviews_. **57** (2): 434–50. PMC 372918. PMID 8336674.
+                      141. ^ _**a**_ _**b**_ Doherty AJ, Suh SW (November 2000). "Structural and mechanistic conservation in DNA ligases". _Nucleic Acids Research_. **28** (21): 4051–58. doi:10.1093/nar/28.21.4051. PMC 113121. PMID 11058099.
+                      142. **^** Schoeffler AJ, Berger JM (December 2005). "Recent advances in understanding structure-function relationships in the type II topoisomerase mechanism". _Biochemical Society Transactions_. **33** (Pt 6): 1465–70. doi:10.1042/BST20051465. PMID 16246147.
+                      143. **^** Tuteja N, Tuteja R (May 2004). "Unraveling DNA helicases. Motif, structure, mechanism and function". _European Journal of Biochemistry_. **271** (10): 1849–63. doi:10.1111/j.1432-1033.2004.04094.x. PMID 15128295.
+                      144. **^** Joyce CM, Steitz TA (November 1995). "Polymerase structures and function: variations on a theme?". _Journal of Bacteriology_. **177** (22): 6321–29. doi:10.1128/jb.177.22.6321-6329.1995. PMC 177480. PMID 7592405.
+                      145. **^** Hubscher U, Maga G, Spadari S (2002). "Eukaryotic DNA polymerases". _Annual Review of Biochemistry_. **71** : 133–63. doi:10.1146/annurev.biochem.71.090501.150041. PMID 12045093.
+                      146. **^** Johnson A, O'Donnell M (2005). "Cellular DNA replicases: components and dynamics at the replication fork". _Annual Review of Biochemistry_. **74** : 283–315. doi:10.1146/annurev.biochem.73.011303.073859. PMID 15952889.
+                      147. ^ _**a**_ _**b**_ Tarrago-Litvak L, Andréola ML, Nevinsky GA, Sarih-Cottin L, Litvak S (May 1994). "The reverse transcriptase of HIV-1: from enzymology to therapeutic intervention". _FASEB Journal_. **8** (8): 497–503. PMID 7514143.
+                      148. **^** Martinez E (December 2002). "Multi-protein complexes in eukaryotic gene transcription". _Plant Molecular Biology_. **50** (6): 925–47. doi:10.1023/A:1021258713850. PMID 12516863.
+                      149. **^** Created from PDB 1M6G Archived 10 January 2010 at the Wayback Machine
+                      150. **^** Cremer T, Cremer C (April 2001). "Chromosome territories, nuclear architecture and gene regulation in mammalian cells". _Nature Reviews. Genetics_. **2** (4): 292–301. doi:10.1038/35066075. PMID 11283701.
+                      151. **^** Pál C, Papp B, Lercher MJ (May 2006). "An integrated view of protein evolution". _Nature Reviews. Genetics_. **7** (5): 337–48. doi:10.1038/nrg1838. PMID 16619049.
+                      152. **^** O'Driscoll M, Jeggo PA (January 2006). "The role of double-strand break repair – insights from human genetics". _Nature Reviews. Genetics_. **7** (1): 45–54. doi:10.1038/nrg1746. PMID 16369571.
+                      153. **^** Vispé S, Defais M (October 1997). "Mammalian Rad51 protein: a RecA homologue with pleiotropic functions". _Biochimie_. **79** (9–10): 587–92. doi:10.1016/S0300-9084(97)82007-X. PMID 9466696.
+                      154. **^** Neale MJ, Keeney S (July 2006). "Clarifying the mechanics of DNA strand exchange in meiotic recombination". _Nature_. **442** (7099): 153–58. Bibcode:2006Natur.442..153N. doi:10.1038/nature04885. PMC 5607947. PMID 16838012.
+                      155. **^** Dickman MJ, Ingleston SM, Sedelnikova SE, Rafferty JB, Lloyd RG, Grasby JA, Hornby DP (November 2002). "The RuvABC resolvasome". _European Journal of Biochemistry_. **269** (22): 5492–501. doi:10.1046/j.1432-1033.2002.03250.x. PMID 12423347.
+                      156. **^** Joyce GF (July 2002). "The antiquity of RNA-based evolution". _Nature_. **418** (6894): 214–21. Bibcode:2002Natur.418..214J. doi:10.1038/418214a. PMID 12110897.
+                      157. **^** Orgel LE (2004). "Prebiotic chemistry and the origin of the RNA world". _Critical Reviews in Biochemistry and Molecular Biology_. **39** (2): 99–123. doi:10.1080/10409230490460765. PMID 15217990.
+                      158. **^** Davenport RJ (May 2001). "Ribozymes. Making copies in the RNA world". _Science_. **292** (5520): 1278. doi:10.1126/science.292.5520.1278a. PMID 11360970.
+                      159. **^** Szathmáry E (April 1992). "What is the optimum size for the genetic alphabet?". _Proceedings of the National Academy of Sciences of the United States of America_. **89** (7): 2614–18. Bibcode:1992PNAS...89.2614S. doi:10.1073/pnas.89.7.2614. PMC 48712. PMID 1372984.
+                      160. **^** Lindahl T (April 1993). "Instability and decay of the primary structure of DNA". _Nature_. **362** (6422): 709–15. Bibcode:1993Natur.362..709L. doi:10.1038/362709a0. PMID 8469282.
+                      161. **^** Vreeland RH, Rosenzweig WD, Powers DW (October 2000). "Isolation of a 250 million-year-old halotolerant bacterium from a primary salt crystal". _Nature_. **407** (6806): 897–900. Bibcode:2000Natur.407..897V. doi:10.1038/35038060. PMID 11057666.
+                      162. **^** Hebsgaard MB, Phillips MJ, Willerslev E (May 2005). "Geologically ancient DNA: fact or artefact?". _Trends in Microbiology_. **13** (5): 212–20. doi:10.1016/j.tim.2005.03.010. PMID 15866038.
+                      163. **^** Nickle DC, Learn GH, Rain MW, Mullins JI, Mittler JE (January 2002). "Curiously modern DNA for a "250 million-year-old" bacterium". _Journal of Molecular Evolution_. **54** (1): 134–37. Bibcode:2002JMolE..54..134N. doi:10.1007/s00239-001-0025-x. PMID 11734907.
+                      164. **^** Callahan MP, Smith KE, Cleaves HJ, Ruzicka J, Stern JC, Glavin DP, House CH, Dworkin JP (August 2011). "Carbonaceous meteorites contain a wide range of extraterrestrial nucleobases". _Proceedings of the National Academy of Sciences of the United States of America_. **108** (34): 13995–98. Bibcode:2011PNAS..10813995C. doi:10.1073/pnas.1106493108. PMC 3161613. PMID 21836052.
+                      165. **^** Steigerwald J (8 August 2011). "NASA Researchers: DNA Building Blocks Can Be Made in Space". NASA. Archived from the original on 23 June 2015. Retrieved 10 August 2011.
+                      166. **^** ScienceDaily Staff (9 August 2011). "DNA Building Blocks Can Be Made in Space, NASA Evidence Suggests". ScienceDaily. Archived from the original on 5 September 2011. Retrieved 9 August 2011.
+                      167. **^** Marlaire R (3 March 2015). "NASA Ames Reproduces the Building Blocks of Life in Laboratory". _NASA_. Archived from the original on 5 March 2015. Retrieved  5 March 2015.
+                      168. **^** Goff SP, Berg P (December 1976). "Construction of hybrid viruses containing SV40 and lambda phage DNA segments and their propagation in cultured monkey cells". _Cell_. **9** (4 PT 2): 695–705. doi:10.1016/0092-8674(76)90133-1. PMID 189942.
+                      169. **^** Houdebine LM (2007). "Transgenic animal models in biomedical research". _Methods in Molecular Biology_. **360** : 163–202. doi:10.1385/1-59745-165-7:163. ISBN 1-59745-165-7. PMID 17172731.
+                      170. **^** Daniell H, Dhingra A (April 2002). "Multigene engineering: dawn of an exciting new era in biotechnology". _Current Opinion in Biotechnology_. **13** (2): 136–41. doi:10.1016/S0958-1669(02)00297-5. PMC 3481857. PMID 11950565.
+                      171. **^** Job D (November 2002). "Plant biotechnology in agriculture". _Biochimie_. **84** (11): 1105–10. doi:10.1016/S0300-9084(02)00013-5. PMID 12595138.
+                      172. **^** Curtis C, Hereward J (29 August 2017). "From the crime scene to the courtroom: the journey of a DNA sample". _The Conversation_. Archived from the original on 22 October 2017. Retrieved  22 October 2017.
+                      173. **^** Collins A, Morton NE (June 1994). "Likelihood ratios for DNA identification". _Proceedings of the National Academy of Sciences of the United States of America_. **91** (13): 6007–11. Bibcode:1994PNAS...91.6007C. doi:10.1073/pnas.91.13.6007. PMC 44126. PMID 8016106.
+                      174. **^** Weir BS, Triggs CM, Starling L, Stowell LI, Walsh KA, Buckleton J (March 1997). "Interpreting DNA mixtures". _Journal of Forensic Sciences_. **42** (2): 213–22. PMID 9068179.
+                      175. **^** Jeffreys AJ, Wilson V, Thein SL (1985). "Individual-specific 'fingerprints' of human DNA". _Nature_. **316** (6023): 76–79. Bibcode:1985Natur.316...76J. doi:10.1038/316076a0. PMID 2989708.
+                      176. **^** Colin Pitchfork – first murder conviction on DNA evidence also clears the prime suspect Forensic Science Service Accessed 23 December 2006
+                      177. **^** "DNA Identification in Mass Fatality Incidents". National Institute of Justice. September 2006. Archived from the original on 12 November 2006.
+                      178. **^** "Paternity Blood Tests That Work Early in a Pregnancy" New York Times June 20, 2012 Archived 24 June 2017 at the Wayback Machine
+                      179. ^ _**a**_ _**b**_ Breaker RR, Joyce GF (December 1994). "A DNA enzyme that cleaves RNA". _Chemistry & Biology_. **1** (4): 223–29. doi:10.1016/1074-5521(94)90014-0. PMID 9383394.
+                      180. **^** Chandra M, Sachdeva A, Silverman SK (October 2009). "DNA-catalyzed sequence-specific hydrolysis of DNA". _Nature Chemical Biology_. **5** (10): 718–20. doi:10.1038/nchembio.201. PMC 2746877. PMID 19684594.
+                      181. **^** Carmi N, Shultz LA, Breaker RR (December 1996). "In vitro selection of self-cleaving DNAs". _Chemistry & Biology_. **3** (12): 1039–46. doi:10.1016/S1074-5521(96)90170-2. PMID 9000012.
+                      182. **^** Torabi SF, Wu P, McGhee CE, Chen L, Hwang K, Zheng N, Cheng J, Lu Y (May 2015). "In vitro selection of a sodium-specific DNAzyme and its application in intracellular sensing". _Proceedings of the National Academy of Sciences of the United States of America_. **112** (19): 5903–08. Bibcode:2015PNAS..112.5903T. doi:10.1073/pnas.1420361112. PMC 4434688. PMID 25918425.
+                      183. **^** Baldi P, Brunak S (2001). _Bioinformatics: The Machine Learning Approach_. MIT Press. ISBN 978-0-262-02506-5. OCLC 45951728.
+                      184. **^** Gusfield, Dan (15 January 1997). _Algorithms on Strings, Trees, and Sequences: Computer Science and Computational Biology_. Cambridge University Press. ISBN 978-0-521-58519-4.
+                      185. **^** Sjölander K (January 2004). "Phylogenomic inference of protein molecular function: advances and challenges". _Bioinformatics_. **20** (2): 170–79. doi:10.1093/bioinformatics/bth021. PMID 14734307.
+                      186. **^** Mount DM (2004). _Bioinformatics: Sequence and Genome Analysis_ (2nd ed.). Cold Spring Harbor, NY: Cold Spring Harbor Laboratory Press. ISBN 0-87969-712-1. OCLC 55106399.
+                      187. **^** Rothemund PW (March 2006). "Folding DNA to create nanoscale shapes and patterns". _Nature_. **440** (7082): 297–302. Bibcode:2006Natur.440..297R. doi:10.1038/nature04586. PMID 16541064.
+                      188. **^** Andersen ES, Dong M, Nielsen MM, Jahn K, Subramani R, Mamdouh W, Golas MM, Sander B, Stark H, Oliveira CL, Pedersen JS, Birkedal V, Besenbacher F, Gothelf KV, Kjems J (May 2009). "Self-assembly of a nanoscale DNA box with a controllable lid". _Nature_. **459** (7243): 73–76. Bibcode:2009Natur.459...73A. doi:10.1038/nature07971. PMID 19424153.
+                      189. **^** Ishitsuka Y, Ha T (May 2009). "DNA nanotechnology: a nanomachine goes live". _Nature Nanotechnology_. **4** (5): 281–82. Bibcode:2009NatNa...4..281I. doi:10.1038/nnano.2009.101. PMID 19421208.
+                      190. **^** Aldaye FA, Palmer AL, Sleiman HF (September 2008). "Assembling materials with DNA as the guide". _Science_. **321** (5897): 1795–99. Bibcode:2008Sci...321.1795A. doi:10.1126/science.1154533. PMID 18818351.
+                      191. **^** Wray GA (2002). "Dating branches on the tree of life using DNA". _Genome Biology_. **3** (1): REVIEWS0001. doi:10.1046/j.1525-142X.1999.99010.x. PMC 150454. PMID 11806830.
+                      192. **^** Panda D, Molla KA, Baig MJ, Swain A, Behera D, Dash M (May 2018). "DNA as a digital information storage device: hope or hype?". _3 Biotech_. **8** (5): 239. doi:10.1007/s13205-018-1246-7. PMID 29744271.
+                      193. **^** Akram F, Haq IU, Ali H, Laghari AT (October 2018). "Trends to store digital data in DNA: an overview". _Molecular Biology Reports_. **45** (5): 1479–1490. doi:10.1007/s11033-018-4280-y. PMID 30073589.
+                      194. **^** Miescher F (1871). "Ueber die chemische Zusammensetzung der Eiterzellen" [On the chemical composition of pus cells]. _Medicinisch-chemische Untersuchungen_ (in German). **4** : 441–60. "Ich habe mich daher später mit meinen Versuchen an die ganzen Kerne gehalten, die Trennung der Körper, die ich einstweilen ohne weiteres Präjudiz als lösliches und unlösliches Nuclein bezeichnen will, einem günstigeren Material überlassend. (Therefore, in my experiments I subsequently limited myself to the whole nucleus, leaving to a more favorable material the separation of the substances, that for the present, without further prejudice, I will designate as soluble and insoluble nuclear material ("Nuclein")"
+                      195. **^** Dahm R (January 2008). "Discovering DNA: Friedrich Miescher and the early years of nucleic acid research". _Human Genetics_. **122** (6): 565–81. doi:10.1007/s00439-007-0433-0. PMID 17901982.
+                      196. **^** See: 
+                        * Kossel A (1879). "Ueber Nucleïn der Hefe" [On nuclein in yeast]. _Zeitschrift für physiologische Chemie_ (in German). **3** : 284–91.
+                        * Kossel A (1880). "Ueber Nucleïn der Hefe II" [On nuclein in yeast, Part 2]. _Zeitschrift für physiologische Chemie_ (in German). **4** : 290–95.
+                        * Kossel A (1881). "Ueber die Verbreitung des Hypoxanthins im Thier- und Pflanzenreich" [On the distribution of hypoxanthins in the animal and plant kingdoms]. _Zeitschrift für physiologische Chemie_ (in German). **5** : 267–71.
+                        * Kossel A (1881). Trübne KJ (ed.). _Untersuchungen über die Nucleine und ihre Spaltungsprodukte_ [ _Investigations into nuclein and its cleavage products_ ] (in German). Strassburg, Germany. p. 19.
+                        * Kossel A (1882). "Ueber Xanthin und Hypoxanthin" [On xanthin and hypoxanthin]. _Zeitschrift für physiologische Chemie_. **6** : 422–31.
+                        * Albrect Kossel (1883) "Zur Chemie des Zellkerns" Archived 17 November 2017 at the Wayback Machine (On the chemistry of the cell nucleus), _Zeitschrift für physiologische Chemie_ , **7** : 7–22.
+                        * Kossel A (1886). "Weitere Beiträge zur Chemie des Zellkerns" [Further contributions to the chemistry of the cell nucleus]. _Zeitschrift für Physiologische Chemie_ (in German). **10** : 248–64. "On p. 264, Kossel remarked presciently: Der Erforschung der quantitativen Verhältnisse der vier stickstoffreichen Basen, der Abhängigkeit ihrer Menge von den physiologischen Zuständen der Zelle, verspricht wichtige Aufschlüsse über die elementaren physiologisch-chemischen Vorgänge. (The study of the quantitative relations of the four nitrogenous bases—[and] of the dependence of their quantity on the physiological states of the cell—promises important insights into the fundamental physiological-chemical processes.)"
+                      197. **^** Jones ME (September 1953). "Albrecht Kossel, a biographical sketch". _The Yale Journal of Biology and Medicine_. National Center for Biotechnology Information. **26** (1): 80–97. PMC 2599350. PMID 13103145.
+                      198. **^** Levene PA, Jacobs WA (1909). "Über Inosinsäure". _Berichte der deutschen chemischen Gesellschaft_ (in German). **42** : 1198–203.
+                      199. **^** Levene PA, Jacobs WA (1909). "Über die Hefe-Nucleinsäure". _Berichte der deutschen chemischen Gesellschaft_ (in German). **42** (2): 2474–78.
+                      200. **^** Levene P (1919). "The structure of yeast nucleic acid". _J Biol Chem_. **40** (2): 415–24.
+                      201. **^** Cohen JS, Portugal FH (1974). "The search for the chemical structure of DNA" (PDF). _Connecticut Medicine_. **38** (10): 551–52, 554–57.
+                      202. **^** Koltsov proposed that a cell's genetic information was encoded in a long chain of amino acids. See: 
+                        * Кольцов, Н. К. (12 December 1927). _Физико-химические основы морфологии_ [ _The physical-chemical basis of morphology_ ] (Speech). 3rd All-Union Meeting of Zoologist, Anatomists, and Histologists (in Russian). Leningrad, U.S.S.R.
+                        * Reprinted in: Кольцов, Н. К. (1928). "Физико-химические основы морфологии" [The physical-chemical basis of morphology]. _Успехи экспериментальной биологии (Advances in Experimental Biology) series B_ (in Russian). **7** (1): ?–?.
+                        * Reprinted in German as: Koltzoff NK (1928). "Physikalisch-chemische Grundlagen der Morphologie" [The physical-chemical basis of morphology]. _Biologisches Zentralblatt_ (in German). **48** (6): 345–69.
+                        * In 1934, Koltsov contended that the proteins that contain a cell's genetic information replicate. See: Koltzoff N (October 1934). "The structure of the chromosomes in the salivary glands of Drosophila". _Science_. **80** (2075): 312–13. Bibcode:1934Sci....80..312K. doi:10.1126/science.80.2075.312. PMID 17769043. " From page 313: "I think that the size of the chromosomes in the salivary glands [of Drosophila] is determined through the multiplication of _genonemes_. By this term I designate the axial thread of the chromosome, in which the geneticists locate the linear combination of genes; … In the normal chromosome there is usually only one genoneme; before cell-division this genoneme has become divided into two strands.""
+                      203. **^** Soyfer VN (September 2001). "The consequences of political dictatorship for Russian science". _Nature Reviews. Genetics_. **2** (9): 723–29. doi:10.1038/35088598. PMID 11533721.
+                      204. **^** Griffith F (January 1928). "The Significance of Pneumococcal Types". _The Journal of Hygiene_. **27** (2): 113–59. doi:10.1017/S0022172400031879. PMC 2167760. PMID 20474956.
+                      205. **^** Lorenz MG, Wackernagel W (September 1994). "Bacterial gene transfer by natural genetic transformation in the environment". _Microbiological Reviews_. **58** (3): 563–602. PMC 372978. PMID 7968924.
+                      206. **^** Brachet J (1933). "Recherches sur la synthese de l'acide thymonucleique pendant le developpement de l'oeuf d'Oursin". _Archives de Biologie_ (in Italian). **44** : 519–76.
+                      207. **^** Burian R (1994). "Jean Brachet's Cytochemical Embryology: Connections with the Renovation of Biology in France?". In Debru C, Gayon J, Picard JF (eds.). _Les sciences biologiques et médicales en France 1920–1950_ (PDF). Cahiers pour I'histoire de la recherche. **2**. Paris: CNRS Editions. pp. 207–20.
+                      208. **^** See: 
+                        * Astbury WT, Bell FO (1938). "Some recent developments in the X-ray study of proteins and related structures" (PDF). _Cold Spring Harbor Symposia on Quantitative Biology_. **6** : 109–21. Archived from the original (PDF) on 14 July 2014.
+                        * Astbury WT (1947). "X-ray studies of nucleic acids". _Symposia of the Society for Experimental Biology_ (1): 66–76. PMID 20257017. Archived from the original on 5 July 2014.
+                      209. **^** Avery OT, Macleod CM, McCarty M (February 1944). "Studies on the Chemical Nature of the Substance Inducing Transformation of Pneumococcal Types: Induction of Transformation by a Desoxyribonucleic Acid Fraction Isolated from Pneumococcus Type III". _The Journal of Experimental Medicine_. **79** (2): 137–58. doi:10.1084/jem.79.2.137. PMC 2135445. PMID 19871359.
+                      210. **^** Hershey AD, Chase M (May 1952). "Independent functions of viral protein and nucleic acid in growth of bacteriophage". _The Journal of General Physiology_. **36** (1): 39–56. doi:10.1085/jgp.36.1.39. PMC 2147348. PMID 12981234.
+                      211. **^** The B-DNA X-ray pattern on the right of this linked image Archived 25 May 2012 at Archive.today was obtained by Rosalind Franklin and Raymond Gosling in May 1952 at high hydration levels of DNA and it has been labeled as "Photo 51"
+                      212. **^** Regis E (2009). _What Is Life?: investigating the nature of life in the age of synthetic biology_. Oxford: Oxford University Press. p. 52. ISBN 0-19-538341-9.
+                      213. **^** Pauling L, Corey RB (February 1953). "A Proposed Structure For The Nucleic Acids". _Proceedings of the National Academy of Sciences of the United States of America_. **39** (2): 84–97. PMC 1063734. PMID 16578429.
+                      214. **^** "Double Helix of DNA: 50 Years". _Nature Archives_. Archived from the original on 5 April 2015.
+                      215. **^** "Original X-ray diffraction image". Oregon State Library. Archived from the original on 30 January 2009. Retrieved  6 February 2011.
+                      216. **^** "The Nobel Prize in Physiology or Medicine 1962". _Nobelprize.org_.
+                      217. **^** Maddox B (January 2003). "The double helix and the 'wronged heroine'" (PDF). _Nature_. **421** (6921): 407–08. Bibcode:2003Natur.421..407M. doi:10.1038/nature01399. PMID 12540909. Archived (PDF) from the original on 17 October 2016.
+                      218. **^** Crick F (1955). _A Note for the RNA Tie Club_ (PDF) (Speech). Cambridge, England. Archived from the original (PDF) on 1 October 2008.
+                      219. **^** Meselson M, Stahl FW (July 1958). "The Replication of DNA in Escherichia Coli". _Proceedings of the National Academy of Sciences of the United States of America_. **44** (7): 671–82. Bibcode:1958PNAS...44..671M. doi:10.1073/pnas.44.7.671. PMC 528642. PMID 16590258.
+                      220. **^** "The Nobel Prize in Physiology or Medicine 1968". _Nobelprize.org_.
+                      221. **^** Pray L (2008). "Discovery of DNA structure and function: Watson and Crick". _Nature Education_. **1** (1): 100.
+                
+
+## Further reading
+
+                
+                                      * Berry A, Watson J (2003). _DNA: the secret of life_. New York: Alfred A. Knopf. ISBN 0-375-41546-7.
+                      * Calladine CR, Drew HR, Luisi BF, Travers AA (2003). _Understanding DNA: the molecule & how it works_. Amsterdam: Elsevier Academic Press. ISBN 0-12-155089-3.
+                      * Carina D, Clayton J (2003). _50 years of DNA_. Basingstoke: Palgrave Macmillan. ISBN 1-4039-1479-6.
+                      * Judson HF (1979). _The Eighth Day of Creation: Makers of the Revolution in Biology_ (2nd ed.). Cold Spring Harbor Laboratory Press. ISBN 0-671-22540-5.
+                      * Olby RC (1994). _The path to the double helix: the discovery of DNA_. New York: Dover Publications. ISBN 0-486-68117-3., first published in October 1974 by MacMillan, with foreword by Francis Crick; the definitive DNA textbook, revised in 1994 with a 9-page postscript
+                      * Micklas D (2003). _DNA Science: A First Course_. Cold Spring Harbor Press. ISBN 978-0-87969-636-8.
+                      * Ridley M (2006). _Francis Crick: discoverer of the genetic code_. Ashland, OH: Eminent Lives, Atlas Books. ISBN 0-06-082333-X.
+                      * Olby RC (2009). _Francis Crick: A Biography_. Plainview, N.Y: Cold Spring Harbor Laboratory Press. ISBN 0-87969-798-9.
+                      * Rosenfeld I (2010). _DNA: A Graphic Guide to the Molecule that Shook the World_. Columbia University Press. ISBN 978-0-231-14271-7.
+                      * Schultz M, Cannon Z (2009). _The Stuff of Life: A Graphic Guide to Genetics and DNA_. Hill and Wang. ISBN 0-8090-8947-5.
+                      * Stent GS, Watson J (1980). _The Double Helix: A Personal Account of the Discovery of the Structure of DNA_. New York: Norton. ISBN 0-393-95075-1.
+                      * Watson J (2004). _DNA: The Secret of Life_. Random House. ISBN 978-0-09-945184-6.
+                      * Wilkins M (2003). _The third man of the double helix the autobiography of Maurice Wilkins_. Cambridge, England: University Press. ISBN 0-19-860665-6.
+                
+
+## External links
+
+Library resources about  
+**DNA**
+
+* * *
+
+* * *
+                
+                                      * Online books
+                      * Resources in your library
+                      * Resources in other libraries
+                
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-
+
+logo.svg/34px-Wikiquote-logo.svg.png) | Wikiquote has quotations related to:
+_**DNA**_  
+---|---  
+![](//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wikiversity-
+
+logo.svg/40px-Wikiversity-logo.svg.png) | Wikiversity has learning resources
+about _**DNA**_  
+---|---  
+![](//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-
+
+Commons-logo.svg.png) | Wikimedia Commons has media related to _**DNA**_.  
+---|--- 
+
+**Listen to this article** (info/dl)
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/45px-
+
+Sound-icon.svg.png)
+
+This audio file was created from a revision of the article "DNA" dated
+2007-02-12, and does not reflect subsequent edits to the article. (Audio help)
+
+**More spoken articles**
+
+                
+                                      * DNA at Curlie
+                      * DNA binding site prediction on protein
+                      * DNA the Double Helix Game From the official Nobel Prize web site
+                      * DNA under electron microscope
+                      * Dolan DNA Learning Center
+                      * Double Helix: 50 years of DNA, _Nature_
+                      * _Proteopedia DNA_
+                      * _Proteopedia Forms_of_DNA_
+                      * ENCODE threads explorer ENCODE home page. Nature
+                      * Double Helix 1953–2003 National Centre for Biotechnology Education
+                      * Genetic Education Modules for Teachers – _DNA from the Beginning_ Study Guide
+                      * PDB Molecule of the Month _DNA_
+                      * Clue to chemistry of heredity found The New York Times June 1953. First American newspaper coverage of the discovery of the DNA structure
+                      * Olby R (January 2003). "Quiet debut for the double helix". _Nature_. **421** (6921): 402–05. Bibcode:2003Natur.421..402O. doi:10.1038/nature01397. PMID 12540907.
+                      * DNA from the Beginning Another DNA Learning Center site on DNA, genes, and heredity from Mendel to the human genome project.
+                      * The Register of Francis Crick Personal Papers 1938 – 2007 at Mandeville Special Collections Library, University of California, San Diego
+                      * Seven-page, handwritten letter that Crick sent to his 12-year-old son Michael in 1953 describing the structure of DNA. See Crick's medal goes under the hammer, Nature, 5 April 2013.
+                
+                      * v
+                      * t
+                      * e
+                
+
+Genetics
+
+* * *
+                
+                                      * Introduction
+                      * Outline
+                      * History
+                      * Index
+                
+
+Key components|
+
+                
+                                      * Chromosome
+                      * DNA
+                      * RNA
+                      * Nucleotide
+                      * Genome
+                
+
+Fields|
+
+                
+                                      * Classical
+                      * Conservation
+                      * Ecological
+                      * Immunogenetics
+                      * Molecular
+                      * Population
+                      * Quantitative
+                
+
+Archaeogenetics of|
+
+                
+                                      * the Americas
+                      * the British Isles
+                      * Europe
+                      * Italy
+                      * the Near East
+                      * South Asia
+                
+
+Related topics|
+
+                
+                                      * Behavioural genetics
+                      * Epigenetics
+                      * Geneticist
+                      * Genome editing
+                      * Genomics
+                      * Genetic code
+                      * Medical genetics
+                      * Molecular evolution
+                      * Reverse genetics
+                      * Genetic engineering
+                      * Genetic diversity
+                      * Heredity
+                      * Genetic monitoring
+                      * Genetic genealogy
+                      * Lulu and Nana controversy
+                
+                      * ![List-Class article](//upload.wikimedia.org/wikipedia/en/thumb/d/db/Symbol_list_class.svg/16px-Symbol_list_class.svg.png) List of genetics research organizations
+                      * ![Category](//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png) Category
+                
+                      * v
+                      * t
+                      * e
+                
+
+Gene expression
+
+* * *
+
+Introduction  
+to genetics|
+
+                
+                                      * Genetic code
+                      * Central dogma
+                        * DNA → RNA → Protein
+                      * Special transfers
+                        * RNA→RNA
+                        * RNA→DNA
+                        * Protein→Protein
+                
+
+Transcription|
+
+| Types|
+
+                
+                                      * Bacterial
+                      * Eukaryotic
+                
+
+---|---  
+Key elements|
+
+                
+                                      * Transcription factor
+                      * RNA polymerase
+                      * Promoter
+                
+
+Post-transcription|
+
+                
+                                      * Precursor mRNA (pre-mRNA / hnRNA)
+                      * 5' capping
+                      * Splicing
+                      * Polyadenylation
+                      * Histone acetylation and deacetylation
+                
+
+Translation|
+
+| Types|
+
+                
+                                      * Prokaryotic
+                      * Eukaryotic
+                
+
+---|---  
+Key elements|
+
+                
+                                      * Ribosome
+                      * Transfer RNA (tRNA)
+                      * Ribosome-nascent chain complex (RNC)
+                      * Post-translational modification
+                
+
+Regulation|
+
+                
+                                      * Epigenetic
+                        * imprinting
+                      * Transcriptional
+                        * Gene regulatory network
+                        * cis-regulatory element
+                      * lac operon
+                      * Post-transcriptional
+                        * sequestration (P-bodies)
+                        * alternative splicing
+                        * microRNA
+                      * Translational
+                      * Post-translational
+                        * reversible
+                        * irreversible
+                
+
+Influential people|
+
+                
+                                      * François Jacob
+                      * Jacques Monod
+                
+                      * ![Portal](//upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/16px-Portal-puzzle.svg.png) **Portal**
+                
+                      * v
+                      * t
+                      * e
+                
+
+Types of nucleic acids
+
+* * *
+
+Constituents|
+
+                
+                                      * Nucleobases
+                      * Nucleosides
+                      * Nucleotides
+                      * Deoxynucleotides
+                
+
+Ribonucleic acids  
+(coding, non-coding)|
+
+| Translational|
+
+                
+                                      * Messenger 
+                        * precursor, heterogenous nuclear 
+                      * Transfer 
+                      * Ribosomal 
+                      * Transfer-messenger
+                
+
+---|---  
+Regulatory|
+
+                
+                                      * Interferential 
+                        * Micro 
+                        * Small interfering 
+                        * Piwi-interacting 
+                      * Antisense 
+                      * Processual
+                        * Small nuclear 
+                        * Small nucleolar 
+                        * Small Cajal Body RNAs
+                        * Y RNA
+                      * Enhancer RNAs
+                
+
+Others|
+
+                
+                                      * Guide 
+                      * Ribozyme
+                      * Small hairpin 
+                      * Small temporal 
+                      * Trans-acting small interfering
+                      * Subgenomic messenger
+                
+
+Deoxyribonucleic acids |
+
+                
+                                      * Chloroplast 
+                      * Complementary 
+                      * Deoxyribozyme
+                      * Genomic 
+                      * Hachimoji
+                      * Mitochondrial 
+                      * Multicopy single-stranded
+                
+
+Analogues|
+
+                
+                                      * Xeno 
+                        * Glycol 
+                        * Threose 
+                        * Hexose 
+                      * Locked 
+                      * Peptide 
+                      * Morpholino
+                
+
+Cloning vectors|
+
+                
+                                      * Phagemid
+                      * Plasmid
+                      * Lambda phage
+                      * Cosmid
+                      * Fosmid
+                      * Artificial chromosomes
+                        * P1-derived 
+                        * Bacterial 
+                        * Yeast 
+                        * Human
+                
+                      * ![TPI1 structure.png](//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/TPI1_structure.png/24px-TPI1_structure.png)Molecular and cellular biology portal
+                
+
+![](//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1)
+
+Retrieved from
+"https://en.wikipedia.org/w/index.php?title=DNA&oldid=899833609"
+
+Categories:
+
+                
+                                      * Spoken articles
+                      * DNA
+                      * Helices
+                      * Biotechnology
+                      * Nucleic acids
+                
+
+Hidden categories:
+
+                
+                                      * Webarchive template wayback links
+                      * CS1 German-language sources (de)
+                      * CS1 Russian-language sources (ru)
+                      * CS1 Italian-language sources (it)
+                      * Webarchive template archiveis links
+                      * Articles with short description
+                      * Wikipedia pages semi-protected against vandalism
+                      * Wikipedia indefinitely move-protected pages
+                      * Use dmy dates from August 2018
+                      * Articles with hAudio microformats
+                      * Pages including recorded pronunciations (English)
+                      * Commons category link is on Wikidata
+                      * Articles with Curlie links
+                      * Featured articles
+                
+
+## Navigation menu
+
+### Personal tools
+
+                
+                                      * Not logged in
+                      * Talk
+                      * Contributions
+                      * Create account
+                      * Log in
+                
+
+### Namespaces
+
+                
+                                      * Article
+                      * Talk
+                
+
+### Variants
+
+### Views
+
+                
+                                      * Read
+                      * View source
+                      * View history
+                
+
+### More
+
+### Search
+
+### Navigation
+
+                
+                                      * Main page
+                      * Contents
+                      * Featured content
+                      * Current events
+                      * Random article
+                      * Donate to Wikipedia
+                      * Wikipedia store
+                
+
+### Interaction
+
+                
+                                      * Help
+                      * About Wikipedia
+                      * Community portal
+                      * Recent changes
+                      * Contact page
+                
+
+### Tools
+
+                
+                                      * What links here
+                      * Related changes
+                      * Upload file
+                      * Special pages
+                      * Permanent link
+                      * Page information
+                      * Wikidata item
+                      * Cite this page
+                
+
+### In other projects
+
+                
+                                      * Wikimedia Commons
+                      * Wikiquote
+                
+
+### Print/export
+
+                
+                                      * Create a book
+                      * Download as PDF
+                      * Printable version
+                
+
+### Languages
+
+                
+                                      * Afrikaans
+                      * Alemannisch
+                      * አማርኛ
+                      * العربية
+                      * Aragonés
+                      * অসমীয়া
+                      * Asturianu
+                      * Azərbaycanca
+                      * বাংলা
+                      * Bahasa Banjar
+                      * Bân-lâm-gú
+                      * Башҡортса
+                      * Беларуская
+                      * Беларуская (тарашкевіца)‎
+                      * Български
+                      * Bosanski
+                      * Brezhoneg
+                      * Буряад
+                      * Català
+                      * Čeština
+                      * Cymraeg
+                      * Dansk
+                      * Deitsch
+                      * Deutsch
+                      * Eesti
+                      * Ελληνικά
+                      * Español
+                      * Esperanto
+                      * Estremeñu
+                      * Euskara
+                      * فارسی
+                      * Fiji Hindi
+                      * Føroyskt
+                      * Français
+                      * Furlan
+                      * Gaeilge
+                      * Galego
+                      * 客家語/Hak-kâ-ngî
+                      * 한국어
+                      * Հայերեն
+                      * हिन्दी
+                      * Hrvatski
+                      * Ilokano
+                      * Bahasa Indonesia
+                      * Interlingua
+                      * Íslenska
+                      * Italiano
+                      * עברית
+                      * Jawa
+                      * ಕನ್ನಡ
+                      * Kapampangan
+                      * ქართული
+                      * Қазақша
+                      * Kiswahili
+                      * Kreyòl ayisyen
+                      * Kurdî
+                      * Кыргызча
+                      * ລາວ
+                      * Latina
+                      * Latviešu
+                      * Лезги
+                      * Lietuvių
+                      * Limburgs
+                      * Lingua Franca Nova
+                      * Lumbaart
+                      * Magyar
+                      * Македонски
+                      * Malagasy
+                      * മലയാളം
+                      * मराठी
+                      * مصرى
+                      * Bahasa Melayu
+                      * Mìng-dĕ̤ng-ngṳ̄
+                      * Монгол
+                      * မြန်မာဘာသာ
+                      * Nederlands
+                      * नेपाली
+                      * नेपाल भाषा
+                      * 日本語
+                      * Nordfriisk
+                      * Norsk
+                      * Norsk nynorsk
+                      * Novial
+                      * Occitan
+                      * Oromoo
+                      * Oʻzbekcha/ўзбекча
+                      * ਪੰਜਾਬੀ
+                      * پنجابی
+                      * Papiamentu
+                      * پښتو
+                      * Patois
+                      * ភាសាខ្មែរ
+                      * Piemontèis
+                      * Polski
+                      * Português
+                      * Română
+                      * Русиньскый
+                      * Русский
+                      * Саха тыла
+                      * Scots
+                      * Seeltersk
+                      * Shqip
+                      * Sicilianu
+                      * සිංහල
+                      * Simple English
+                      * سنڌي
+                      * Slovenčina
+                      * Slovenščina
+                      * Soomaaliga
+                      * کوردی
+                      * Српски / srpski
+                      * Srpskohrvatski / српскохрватски
+                      * Basa Sunda
+                      * Suomi
+                      * Svenska
+                      * Tagalog
+                      * தமிழ்
+                      * Татарча/tatarça
+                      * తెలుగు
+                      * ไทย
+                      * Тоҷикӣ
+                      * Türkçe
+                      * Українська
+                      * اردو
+                      * ئۇيغۇرچە / Uyghurche
+                      * Vèneto
+                      * Tiếng Việt
+                      * Walon
+                      * 文言
+                      * West-Vlams
+                      * Winaray
+                      * 吴语
+                      * ייִדיש
+                      * Yorùbá
+                      * 粵語
+                      * Žemaitėška
+                      * 中文
+                
+
+Edit links
+
+                
+                                      * This page was last edited on 1 June 2019, at 18:12 (UTC).
+                      * Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+                      * Privacy policy
+                      * About Wikipedia
+                      * Disclaimers
+                      * Contact Wikipedia
+                      * Developers
+                      * Cookie statement
+                      * Mobile view
+                      * ![Wikimedia Foundation](/static/images/wikimedia-button.png)
+                      * ![Powered by MediaWiki](/static/images/poweredby_mediawiki_88x31.png)
+                
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication _[C.]: Century_ [m.]: married
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+  *[m.]: married
+

@@ -1,0 +1,286 @@
+
+
+![TIME](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAAAyCAYAAADSinAfAAAAAXNSR0IArs4c6QAADLNJREFUeAHtnW3MXUURx58HUctLrdIKImqlFAVrpaWVqkHAEGIETYwK0ogGiAQUiyJiAmjiS0w0MREKFKs29QMoHxoTadEPSqyoH9BiKdSXSqAgBSu2IC3UFlrr7384c7t379m995yz5z73Xp9Jprs7OzM7Oztnd8+efW7HxiZh0gMD5IHxAbKlqyn79++XvS8FXxgfH9/fVcBhQPYgigdXkZWavG1lMyjbvsnVTV07qtqAjpdgh3yxFx376toUks9tld81bkrdfBsNO56WnoMRel4Z4IUcZaDhf/O8Bl95ofIuUszAAsRSN9iVL0Iz0lI5ylAOEyoAr8Pgb5GehL3rSRUgsns3uAdU3lDtSO7l4BRL4RdtDD2LSH6vfEm4DB3LJIOOtSTvUb6fQPvq2yOkb1C7pCdjS+aPknZcg+zXcx17SZ8D5Uuh4sCC1ALXxkGpUHTZInCDrJWXreCLHF3+pQ8aO41Xpnwfgho4DfxAAgbrQRBsJP8m0hk5Hkm6BPtPIu0AeH8B8efgVvJbSZ8CN4FVYJYjdDptvh6djzm0fmRPo90sGPPG3kxaJSCXYvtPkJ0OHgXOBK9Ct9KJgFbkKtptsCfCkF7bzGzEiXqaH8wxk8WJZ5EpDEjoP0Pm+oyx/j/HmgraRO34xyh/02h9Si/w2lFAlgZs34HQn11B+vQRyke7tD7mbbbNZsi/YeC1NK5BdzFkj4R9/CodekeRALpvg/5DUE+BIdkoSL+WBeGpYMtg8j60ni6/InHZnSGlWsHRt4DEv1rSzlXDDmi1SAVBPzKGy2lkLajl3Pj8sTQ6LK3xsnGzeLElXavxIeBU8DXg58EMNEM+TYNa1ioDzro8IrwZ/b+M1Eer0L0XhvkRJtcREbbaVce5GrBrDjifvlVZMl1VveY/QHvTPObjvXKdou0bi3T8hn7eXlRRl0afDkXH1aZHETvoS7aWF3vSzG43bdx+nDYdfIXbaJ7/eAGtKZJmZB9m+4Qa5cb9WGQbgb4L+i78m42xAjLFDJNCR5G9ou0EZWcImmzb2gwN/GIcqW1Fo0AbR9DA2X4j0F8l9OkNlJv28ZPYrNU6G+gJeTJKOE1HErGA7If9hUsjwaD9z1kl+lKV9aO0pX1XEYQeliLeQaVtw7DswdZAx/YOg9ABBWRsyW766ZUP5kYc8YlIXaqqCyOKTozUDUvVgYBkDe9YCgasF89gzx0Rm/oRkG+LtP9BZq+i/WVEpPcqdJ8InhKReEukbliqvoyhOpSPLoUD0RkeGH3eeiBiTD8CMnTOqa8lOr7wj2Mi5pauurCLxJwu9QNfzfjeC2YrdWxvVqYj/QiKkD2Ntk3AvRrsdmB8Sci4OnTa1Ua/25t8bDtRp/kJkU0VkBNifN5oowFJG8HZ0TpN4CwC327lhOnZ3R4G6meC/vlkQhP6q2oUAjLmsRTB2jUgcwOuiBlSse6TPcqlmCVT+KpHc8NsoxCQTTtyXth9bTXnMVPpokISQNdrUdTrC2evNla1rWkft+wahYBsdaahTNsMyea7cHAIoJfR/mUJbbgYnb0euqcIyNjRWsJuxVWlCsjCQYo3Pfi1BIQuNLTO+QjGLZTvjFiuO5MKzFqADo1La7mm3R3gmojStocmwherGogxTBWQsY4Oc50uUOhN12AdmeB1Nnj15eY8Y66RvhddMx35FeRjF1TeCn+vs6mjdmKy2KrLuzou64BRCMgmn2x/KVzHTHUXuLHDkwcInz2QrZy71CRpS59GbwT/YDQ/ZXCnQDvBp5cs93PJ1u2tlUX2jUJAFvUrFc0PSAuKG0INEBwLwXeF6rvRkT0Gnvc7fHcQlJspryfVVbwQaJDrQJMPtm/XbAiFdxAmA9J3VXvZD8h78+rbCI7t7axtpTqz5KUEpbv8ZlsE2vsPLbTd8m5rcWzsZK88yEV97txTZGCqgOzn01XUj+Q0gkJLWOtlQbOUBWEeHN+LNPoh5F8XqS+sQkY3elpffWjnPvDXDrP2sCGoO0OG9Cal535dgNLnixS7G/ai+mGgNbX3ORbnuZcmbLk2n9xMsFwNT4cPRaPuchivMeYe0w8jqxcjA39roIC82Cq9tG5Axvz4bez6Ut6eJh9DkSxvk5KVVSff6NRBpxXCw8Cp6DoI/9xMvgM6nNnBMdwEc1KVXvjLddvshEMfx7GrUHx+QPkl1H8NPi21vYKCOAPkniTz47xoSZsNRlRKW9PAWcg97NJL5IO+Qq8O6YUpYXIPWdKb/ozjz5BSl+3vivQyiNOhX1BUV0SDfx54qlN3C8Hl77Puh6Y/tArBMO0j3X1yqz+jPkO2Oloh05ohCQLNHvZC01IF/R6CSLioRWzP6Pv299tJwVLrWzh6tb+6xeeEvoe2dOTkPyzGqr2ZZu0qEFyyaVdbh7tA3VnUQ6KHQjOcrowJ9+apzXqmS6lQ7ypKtXzriOomcDIgcUIZcAd9E4OyMyCswfpRUR3BowPrM5HVYAYBnhlULnYYbkfmn07ZzerBcG1z6+rMkMElmwbuwZ7VbkN18vRXW4/CgByFt2x7Guv4qE0Wh+kOpM4DDYqWa6tbxWA9boWCtJcjIB31aOYwCG4FYOiYqU2IVDPkMMAmjCz8xJoqIIfBCWVs9GegYEASjFq+lkWUn0OwHReqp05HPe7LzN3oXB/ihx4MSHTpz3VnRmQHpWozhqjfHTAZkB0uyQg9B2Quvpwg0v6qAwgQ+XhJR8UBgv6i8OgDxfCLUs6jFxvt2UIwDLOkHvDCLcAoBGTyJRtntQKSwdemfUNo9EWHZzvJrRGeiwi6qYH6K42OHs0cP7VyUQqPXir+VFSX0wY+IOnDo6B/pJWZPwoBGRmbylWtgETDX3BeL2eJN4RaIxh1wH6RXw/9DNB9EbmRtuxN1Wd3y390C15+oVdOUWzioS+0K1VAxt7QChtOSEzqrHwmO96x7z4nH8wSSPqpwNjbtH420Pf3VaYQ2Z3kV1i5SxrcRyI38DNkrG++g2K8/y91OqB2g3xDiY7HZsnZ6DnHdNGGrou1yuRXEpQ7rL5LGpwh0asXmzd2kR/Y6lEPyCozt7uEauDKBOSdBNVDkdF2j4C+YIGPjJbppRE5v2pDLuPTrTy0s+QoBKQ7m9mA1En9wXygV2XdAosAPBPUYbkuULifFdd0CeQ2E+DdBUFneSFoYh8ZaispfTIgO93ZCkgGfhu4tZMlSum29OoT4ecISt1+MfiOZUqksbPKJv5GvIRp1VlTBWSVpbG61Q1JEiSHo1p7O4P7LdNrSgDvhHdlhF8z46esHn4tv2utXCKNvWwtoC+pV44SplVnTRWQ1S2oL5nS8fMZSNcnPS/XXjeCxzfoPwTUMZBBldlRssGHBf2vpF4vUUMB2HsCeK2MdZ0/FMYXGJkyIOd5+isFJDOeXmzWeLo6ivBpO1B4QNzB3En4ayepjZJy2U7p4zYj88JRpNOUH4WAzPuUJPHfsDfW0Hp9D7K6da6rZlXg78jq5SYEp4QqBpB+JDZln0NHISBTPr2tgGSwtS+OfaKLjivyvwKDMyx1+vb93aiSSGVu34MRlmEKSH3LnwxIdzDZw0yh7P745yMM+rMuT4V88KAcXbeif1sFna5I7OhH++HCGzWugh7zKR/6oia1ZCcNyNhbdtOzcCpnzWUA3Rv0lWdHx+P6c9lQ0MWC1VERzQYP4fMHbG5Uur0yNk7uEVW7VJqSzmWzgHQHII3qTi1NdyYWkLEHxbd0gUeos3/MVBGMuwmM5RSuc3VD13JeWz86H3b1FuQXQgt+ZvT4tUKEQD/top8+UdCE0JX1x8Qv67a44kKoGNT2IntJG4WApC9B8B0RZKTCD8gUM6TaW0bwfZEBdZfPpTFDStQ91oXX71OMvfAGtwSw/VwSYWOAj3TR+cX/G6RMKxin6XUJqENknafpzOudYAjeh8wPqPw3+Ay4E9TPg3R7umFrB/RMh/IZ8AhQeWFs834FMqfDo2VzB6i29SVlC/QryR8DzgD1J56LQBc+Dc8ZEP4FSvZ3yN1NWgqQeQI9qxBaLEHKj5KsVr4soOd8ZOaA6r/sngXGQJd/dVtdfRA+BX4DXAC+G9T4SZf6795woth3qLxk627gOlAXAvaBiuybcLQUKi+6lkrtSTQDG+oJ1FQt3A1WgUMR0jKkdveAT4B6OXiW9DlQRyiqU1tagg4HdTFWqKMFzVIKDoGWINnxEKjZcDV6JC/bZaOWE9NzGPnYkkZ1FL6C7n/kHPqxKtlYBWSz7FO/N4O/RdcKUvldqBVBtqufst1QZRsH8SiQTwMlo/HcDupBlT/Mh7JRY2hjZnpdXaKJx9Avm7ylbr3scHEL5bH/AZIljIwybv85AAAAAElFTkSuQmCC)
+
+## Time.com
+
+MY ACCOUNT SIGN IN SIGN OUT SUBSCRIBE SUBSCRIBE
+
+Home U.S. Politics World Business Tech Health TIME Health Entertainment
+Science Newsfeed Living Sports History The TIME Vault Magazine Ideas TIME Labs
+
+Photography Videos The Goods Shop TIME Press Room TIME Guide to Happiness
+
+The 100 Most Influential People American Voices The Breakdown Finding Home The
+Influencers Looking Forward Next Generation Leaders Person of the Year Top of
+the World
+
+Subscribe Newsletters Feedback Privacy Policy Your California Privacy Rights
+Terms of Use Ad Choices ![Ad
+
+Choices](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAANCAMAAACq939wAAAAM1BMVEUAAAD///////////////////////////////////////////////////////////////+3leKCAAAAEHRSTlMAECAwQFBgcICPn6+/z9/vIxqCigAAAFZJREFUCB0FwQECwiAMBLCw4axS4f7/WhMn3wtAknwGIL/ZOTVAmmdnP5D2ZNbJnqTda7hW8pX2zs21E2mVOSrZU1plnewHaZWcGpDT1TWAJC8Aa90A/nKrBC08aQTRAAAAAElFTkSuQmCC)
+
+RSS TIME Apps TIME for Kids Advertising Reprints and Permissions Site Map Help
+Customer Service (C) 2019 TIME USA, LLC. All rights reserved.
+
+Subscribe
+
+Sign InSubscribe
+
+![Family Matters](http://timewellness.files.wordpress.com/2012/10/banner-
+
+familymatters.png?w=714)
+
+### Pediatric Genetics
+
+# Scientists Decode an Unborn Baby's DNA. Is It Cause for Celebration — or
+
+Alarm?
+
+Researchers at the University of Washington have sequenced the entire genome
+of a fetus. The scientific advance could help detect certain diseases in the
+womb, but some experts worry that the trove of genetic information may prove
+more scary and overwhelming than useful.
+
+By Bonnie Rochman @brochmanJune 06, 2012
+
+                
+                                      * Share
+                        *             *             *             *             *             * ![](//assets.pinterest.com/images/pidgets/pin_it_button.png)
+                      * Read Later
+                        * ![](https://d1xnn692s7u6t6.cloudfront.net/white-15.png)Send to Kindle
+                
+                        *             * ![57012113](https://timewellness.files.wordpress.com/2012/06/57012113.jpg?w=480&h=320&crop=1)
+                
+
+JGI / Getty Images
+
+### Related
+
+                
+                                      * New Testing Could Help Spot Genetic Disorders in a Fetus  _HealthNewsDaily_
+                      * Using Parents' Blood to Decode the Genome of a Fetus _MIT Technology Review_
+                      * Baby Genome Mapped in Womb _ABC News_
+                      * Blood Test May Spot Genetic Disease in Fetuses _WebMD_
+                
+                      * Email
+                      * Print
+                      * Share
+                        * Facebook
+                        * Twitter
+                        * Tumblr
+                        * LinkedIn
+                        * StumbleUpon
+                        * Reddit
+                        * Digg
+                        * Mixx
+                        * Delicious
+                        * Google+
+                
+
+Follow @TIMEHealth
+
+Suspended in the blood of a pregnant woman — along with some added information
+from a dad-to-be’s saliva — lurks enough fetal DNA to map out an unborn baby’s
+entire genetic blueprint.
+
+It may sound like something conjured by Jules Verne, but it happened at the
+University of Washington: a professor and his graduate student used DNA
+samples from the parents of a baby boy who was still in utero and
+reconstructed his entire genetic makeup from A to Z.
+
+The account, published Wednesday in _Science Translational Medicine_ , takes
+prenatal testing to new heights, promising a motherlode of genetic information
+about a child who had not even been born — along with a corresponding trove of
+data that even experts don’t yet know how to interpret.
+
+Jacob Kitzman, lead author and a graduate student in the department of genome
+sciences at the University of Washington (UW), was excited but cautious about
+his team’s achievement. “There have been a lot of steps toward this, but this
+is the first time capturing the whole genome,” says Kitzman. “The fact that
+this technology is now on the path to becoming clinically feasible is a good
+opportunity for a broader discussion of the implications.”
+
+Figuring out how to communicate the vast cache of information uncovered by
+genome sequencing remains controversial, since much of it still isn’t
+clinically useful. But although researchers don’t understand the significance
+of the entirety of the information revealed through whole-genome sequencing,
+they do know that certain genes are responsible for Mendelian, or more simple,
+single-gene disorders — that includes more than 3,000 conditions such as
+cystic fibrosis, Tay-Sachs disease and some muscular dystrophies that affect
+1% of pregnancies. Prenatal sequencing would allow parents to learn before
+delivery if their child has one of these diseases, many of which are
+debilitating or fatal. While genetic screening of parents before pregnancy can
+also identify carriers, and an increasing number of prenatal DNA-based tests
+can determine early in pregnancy whether developing babies have specific
+conditions such as Down syndrome, whole-genome sequencing is the most
+sophisticated way to examine a person’s entire genetic code.
+
+( **MORE:** Down Syndrome: With Breakthroughs in Testing, a Choice Becomes
+Tougher)
+
+Prenatal genome sequencing could potentially replace more invasive procedures
+such as amniocentesis or chorionic villus sampling to detect recessive
+Mendelian disorders — on average, we all carry 20 to 30 recessive genes — but
+it is not yet precise enough to take the place of these tests when looking for
+other chromosomal conditions. Nor is it a foolproof gauge of risk for many
+other “complex” diseases — a category that includes most cancers and common
+conditions such as diabetes and heart disease — because they’re influenced by
+multiple genes and environmental factors. “Great,” says Thomas Murray,
+president of the Hastings Center bioethics institute, “we can sequence the
+genome of a fetus. What the hell does it tell us? Much less than most people
+probably believe.”
+
+Kitzman concurs. “It’s a really big challenge for the field, figuring out how
+to communicate to clinicians not only the results but the uncertainty that
+goes along with those results,” he says. “There’s no easy answer.”
+
+In this particular situation, Kitzman and Jay Shendure, an associate professor
+of genome sciences at UW, sidestepped the thorny issue of assessing disease
+risk and sharing that information with parents because the expectant couple
+was anonymous. Kitzman doesn’t know their identity, only that they consented
+to have their biological samples used for genome sequencing. Their son was
+born healthy and full-term.
+
+From a blood sample the mother gave at 18 weeks of pregnancy, researchers
+homed in on fetal DNA floating in her plasma; the father contributed a saliva
+sample. Researchers sequenced the parents’ genomes, learning which genetic
+variants each had; all parents have a 50/50 chance of passing along a variant
+to their child. There can be millions of variants from genome to genome,
+although most have no clinical significance. But a tiny proportion of these
+variants, or markers, result in devastating diseases when they fall within a
+gene that scientists know is connected to a genetic disorder.
+
+( **MORE:** Genetic Testing for Kids: Is It a Good Idea?)
+
+Using the parents’ DNA sequences and their unique variants, researchers pieced
+together a reconstruction of what they believed the fetus’ genome looked like,
+including 39 “de novo” mutations, which were unique to the baby and not
+inherited from either parent. Children inherit most, but not all, of their
+genetic variants from their parents; some arise spontaneously. That, plus the
+fact that the mother’s blood sample contained a lot of her DNA and just a bit
+of her baby’s made it tricky to sort out with absolute certainty which DNA
+belonged to her and which to her child.
+
+After the baby was born, they used his umbilical cord blood — which contained
+only his DNA — to sequence his genome more precisely. They found that the
+prenatal reconstruction was more than 98% accurate when compared to the actual
+postnatal sequence, although it missed five de novo mutations.
+
+The genome of a second baby was sequenced with maternal blood drawn much
+earlier in pregnancy, at eight weeks, when less fetal DNA was circulating.
+That sequence was 92% accurate.
+
+Now that infant genomes have been charted, it’s fairly certain that the next
+phase will involve companies seeking to commercialize the technology and
+market a single comprehensive prenatal screen for thousands of disorders.
+What’s less certain is how parents will respond. Although the price of genome
+sequencing has plummeted from billions of dollars when the first sequence was
+completed a decade ago to $4,000 today, that’s still a lot of money for a
+procedure that insurance doesn’t cover. And the sheer data dump may prove
+overwhelming. “It really comes down to providing more information for
+parents,” says Kitzman.
+
+**MORE:** Do All Women Need Genetic Testing Before Pregnancy?
+
+### Bonnie Rochman @brochman
+
+Bonnie Rochman writes about pregnancy, fertility, parenting — the ups and
+downs of being a kid and having one — for TIME.
+
+### SubscribePopular Among Subscribers
+
+![](http://img.timeinc.net/time/daily/2008/0806/a_postcard_tokyo_0617.jpg)
+
+#### Japan's Booming Sex Niche: Elder Porn
+
+![](http://img.timeinc.net/time/daily/2014/1402/wkids_0303.jpg)
+
+#### Young Kids, Old Bodies
+
+![](http://img.timeinc.net/time/daily/2013/1310/int_cover_1028.jpg)
+
+#### Benedict Cumberbatch Talks Secrets, Leaks, and Sherlock
+
+![](http://img.timeinc.net/time/daily/2014/1402/cover_0310.jpg)
+
+#### Obama's Trauma Team
+
+Get all access to digital and printSubscribe
+
+                
+                                      * Most Popular
+                      * From Health & Family
+                
+                      1. 5 Things You Should Know About Chicken Pox and Shingles
+                      2. Penis Size: It May Be Written in the Length of His Fingers
+                      3. A 6-Year-Old Boy Becomes a Girl: Do Schools Need New Rules for Transgender Students?
+                      4. 13 Reasons Tea Is Good for You
+                      5. It's True. You Can Get Throat Cancer From Oral Sex
+                
+
+From Time.com
+
+### Connect With TIME
+
+                
+                                      *           *           *           *           *           * Home
+                      * U.S.
+                      * Politics
+                      * World
+                      * Business
+                      * Tech
+                      * Health
+                      * Science
+                      * Entertainment
+                      * Newsfeed
+                      * Living
+                      * Ideas
+                      * Parents
+                      * Sports
+                      * History
+                      * The TIME Vault
+                      * Magazine
+                      * Subscribe
+                      * Give a Gift
+                      * The Goods
+                      * Shop TIME
+                      * Press Room
+                      * Newsletters
+                      * Customer Service
+                      * Site Map
+                      * Privacy Policy
+                      * Your California Privacy Rights
+                      * Terms of Use
+                      * Advertising
+                      * Ad Choices ![Ad Choices](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAANCAMAAACq939wAAAAM1BMVEUAAAD///////////////////////////////////////////////////////////////+3leKCAAAAEHRSTlMAECAwQFBgcICPn6+/z9/vIxqCigAAAFZJREFUCB0FwQECwiAMBLCw4axS4f7/WhMn3wtAknwGIL/ZOTVAmmdnP5D2ZNbJnqTda7hW8pX2zs21E2mVOSrZU1plnewHaZWcGpDT1TWAJC8Aa90A/nKrBC08aQTRAAAAAElFTkSuQmCC)
+                      * Careers
+                
+
+(C) 2019 TIME USA, LLC. All rights reserved.
+
+![](http://pixel.wp.com/b.gif?v=noscript)
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication _[C.]: Century_ [m.]: married
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+  *[m.]: married
+

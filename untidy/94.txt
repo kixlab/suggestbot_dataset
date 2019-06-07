@@ -1,0 +1,460 @@
+
+
+**Warning:** The NCBI web site requires JavaScript to function. more...
+
+        
+                  * NCBI![NCBI Logo](//static.pubmed.gov/portal/portal3rc.fcgi/4181515/img/28977)
+          * Skip to main content
+          * Skip to navigation
+          * Resources
+            * All Resources
+            * Chemicals & Bioassays
+              * BioSystems
+              * PubChem BioAssay
+              * PubChem Compound
+              * PubChem Structure Search
+              * PubChem Substance
+              * All Chemicals & Bioassays Resources...
+            * DNA & RNA
+              * BLAST (Basic Local Alignment Search Tool)
+              * BLAST (Stand-alone)
+              * E-Utilities
+              * GenBank
+              * GenBank: BankIt
+              * GenBank: Sequin
+              * GenBank: tbl2asn
+              * Genome Workbench
+              * Influenza Virus
+              * Nucleotide Database
+              * PopSet
+              * Primer-BLAST
+              * ProSplign
+              * Reference Sequence (RefSeq)
+              * RefSeqGene
+              * Sequence Read Archive (SRA)
+              * Splign
+              * Trace Archive
+              * UniGene
+              * All DNA & RNA Resources...
+            * Data & Software
+              * BLAST (Basic Local Alignment Search Tool)
+              * BLAST (Stand-alone)
+              * Cn3D
+              * Conserved Domain Search Service (CD Search)
+              * E-Utilities
+              * GenBank: BankIt
+              * GenBank: Sequin
+              * GenBank: tbl2asn
+              * Genome ProtMap
+              * Genome Workbench
+              * Primer-BLAST
+              * ProSplign
+              * PubChem Structure Search
+              * SNP Submission Tool
+              * Splign
+              * Vector Alignment Search Tool (VAST)
+              * All Data & Software Resources...
+            * Domains & Structures
+              * BioSystems
+              * Cn3D
+              * Conserved Domain Database (CDD)
+              * Conserved Domain Search Service (CD Search)
+              * Structure (Molecular Modeling Database)
+              * Vector Alignment Search Tool (VAST)
+              * All Domains & Structures Resources...
+            * Genes & Expression
+              * BioSystems
+              * Database of Genotypes and Phenotypes (dbGaP)
+              * E-Utilities
+              * Gene
+              * Gene Expression Omnibus (GEO) Database 
+              * Gene Expression Omnibus (GEO) Datasets
+              * Gene Expression Omnibus (GEO) Profiles
+              * Genome Workbench
+              * HomoloGene
+              * Online Mendelian Inheritance in Man (OMIM)
+              * RefSeqGene
+              * UniGene
+              * All Genes & Expression Resources...
+            * Genetics & Medicine
+              * Bookshelf
+              * Database of Genotypes and Phenotypes (dbGaP)
+              * Genetic Testing Registry
+              * Influenza Virus
+              * Online Mendelian Inheritance in Man (OMIM)
+              * PubMed
+              * PubMed Central (PMC)
+              * PubMed Clinical Queries
+              * RefSeqGene
+              * All Genetics & Medicine Resources...
+            * Genomes & Maps
+              * Database of Genomic Structural Variation (dbVar)
+              * GenBank: tbl2asn
+              * Genome
+              * Genome Project
+              * Genome Data Viewer (GDV)
+              * Genome ProtMap
+              * Genome Workbench
+              * Influenza Virus
+              * Nucleotide Database
+              * PopSet
+              * ProSplign
+              * Sequence Read Archive (SRA)
+              * Splign
+              * Trace Archive
+              * All Genomes & Maps Resources...
+            * Homology
+              * BLAST (Basic Local Alignment Search Tool)
+              * BLAST (Stand-alone)
+              * BLAST Link (BLink)
+              * Conserved Domain Database (CDD)
+              * Conserved Domain Search Service (CD Search)
+              * Genome ProtMap
+              * HomoloGene
+              * Protein Clusters
+              * All Homology Resources...
+            * Literature
+              * Bookshelf
+              * E-Utilities
+              * Journals in NCBI Databases
+              * MeSH Database
+              * NCBI Handbook
+              * NCBI Help Manual
+              * NCBI News & Blog
+              * PubMed
+              * PubMed Central (PMC)
+              * PubMed Clinical Queries
+              * All Literature Resources...
+            * Proteins
+              * BioSystems
+              * BLAST (Basic Local Alignment Search Tool)
+              * BLAST (Stand-alone)
+              * BLAST Link (BLink)
+              * Conserved Domain Database (CDD)
+              * Conserved Domain Search Service (CD Search)
+              * E-Utilities
+              * ProSplign
+              * Protein Clusters
+              * Protein Database
+              * Reference Sequence (RefSeq)
+              * All Proteins Resources...
+            * Sequence Analysis
+              * BLAST (Basic Local Alignment Search Tool)
+              * BLAST (Stand-alone)
+              * BLAST Link (BLink)
+              * Conserved Domain Search Service (CD Search)
+              * Genome ProtMap
+              * Genome Workbench
+              * Influenza Virus
+              * Primer-BLAST
+              * ProSplign
+              * Splign
+              * All Sequence Analysis Resources...
+            * Taxonomy
+              * Taxonomy
+              * Taxonomy Browser
+              * Taxonomy Common Tree
+              * All Taxonomy Resources...
+            * Training & Tutorials
+              * NCBI Education Page
+              * NCBI Handbook
+              * NCBI Help Manual
+              * NCBI News & Blog
+              * All Training & Tutorials Resources...
+            * Variation
+              * Database of Genomic Structural Variation (dbVar)
+              * Database of Genotypes and Phenotypes (dbGaP)
+              * Database of Single Nucleotide Polymorphisms (dbSNP)
+              * SNP Submission Tool
+              * All Variation Resources...
+          * How To
+            * All How To
+            * Chemicals & Bioassays
+            * DNA & RNA
+            * Data & Software
+            * Domains & Structures
+            * Genes & Expression
+            * Genetics & Medicine
+            * Genomes & Maps
+            * Homology
+            * Literature
+            * Proteins
+            * Sequence Analysis
+            * Taxonomy
+            * Training & Tutorials
+            * Variation
+          * About NCBI Accesskeys
+        
+
+My NCBISign in to NCBISign Out
+
+# PubMed
+
+US National Library of Medicine National Institutes of Health
+
+Search databaseAll
+DatabasesAssemblyBiocollectionsBioProjectBioSampleBioSystemsBooksClinVarCloneConserved
+DomainsdbGaPdbVarESTGeneGenomeGEO DataSetsGEO
+ProfilesGSSGTRHomoloGeneIdentical Protein GroupsMedGenMeSHNCBI Web SiteNLM
+CatalogNucleotideOMIMPMCPopSetProbeProteinProtein ClustersPubChem
+BioAssayPubChem CompoundPubChem
+SubstancePubMedSNPSparcleSRAStructureTaxonomyToolKitToolKitAllToolKitBookghUniGene
+
+Search term
+
+Search
+
+        
+                  * Advanced
+          * Help
+        
+
+## Result Filters
+
+        
+                  * Format: Abstract
+        
+
+Format
+
+        
+                  * Summary
+          * Summary (text)
+          * Abstract
+          * Abstract (text)
+          * MEDLINE
+          * XML
+          * PMID List
+        
+
+Apply
+
+#### Send to
+
+Choose Destination
+
+        
+                  * File
+          * Clipboard
+          * Collections
+          * E-mail
+          * Order
+          * My Bibliography
+          * Citation manager
+        
+          * FormatSummary (text)Abstract (text)MEDLINEXMLPMID ListCSV
+        
+
+Create File
+
+        
+                  * 1 selected item: 12270562
+          * FormatSummarySummary (text)AbstractAbstract (text)MEDLINEXMLPMID ListMeSH and Other Data
+          * E-mail
+          * Subject
+          * Additional text
+          * E-mail
+        
+
+Didn't get the message? Find out why...
+
+Add to Clipboard
+
+Add to Collections
+
+Order articles
+
+Add to My Bibliography
+
+Generate a file for use with external citation management software.
+
+Create File
+
+Eur J Obstet Gynecol Reprod Biol. 2002 Oct 10;105(1):36-8.
+
+# Intra-uterine fetal brain death: report of two cases and review of the
+
+literature.
+
+Yogev Y1, Ben-Haroush A, Chen R, Kaplan B.
+
+### Author information
+
+1
+
+        
+                Department of Obstetrics and Gynecology, Rabin Medical Center, Petah Tikva and Sackler Faculty of Medicine, Tel Aviv University, Beilinson Campus, 49100, Petah Tikva, Israel.
+        
+
+### Abstract
+
+The fetal heart rate (FHR) variability is used as a parameter in evaluating
+fetal well-being. Persistent decreased or absent variability is considered a
+bad prognostic sign and usually prompts an emergency cesarean section. We
+present two cases of severely decreased FHR variability and emergency cesarean
+section in which the neonates were pronounced brain dead shortly after
+delivery. We believe that if intra-uterine brain death could be diagnosed on
+the basis of suspiciously persistent low or absent FHR variability, surgical
+procedures that endanger the health of the mother could be prevented. The
+possibility of intra-uterine brain death should be considered in all the cases
+of persistently low or absent FHR variability.
+
+PMID:
+
+        
+                12270562
+        
+         [Indexed for MEDLINE]
+        
+
+Share
+
+### Publication types, MeSH terms
+
+#### Publication types
+
+        
+                  * Case Reports
+          * Review
+        
+
+#### MeSH terms
+
+        
+                  * Adult
+          * Brain Death/diagnosis*
+          * Cesarean Section
+          * Electroencephalography
+          * Female
+          * Fetal Diseases/diagnosis*
+          * Gestational Age
+          * Heart Rate, Fetal
+          * Humans
+          * Pregnancy
+          * Prenatal Diagnosis
+        
+
+### LinkOut - more resources
+
+#### Full Text Sources
+
+        
+                  * Elsevier Science
+        
+
+#### Medical
+
+        
+                  * Fetal Health and Development - MedlinePlus Health Information
+        
+          * ## Supplemental Content
+        
+
+### Full text links
+
+![Icon for Elsevier
+
+Science](//www.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--linkinghub.elsevier.com-
+
+ihub-images-PubMedLink.gif)
+
+![Loading ... ](//static.pubmed.gov/portal/portal3rc.fcgi/4185393/img/3631476)
+
+You are here: NCBI > Literature > PubMed
+
+Support Center
+![](/stat?jsdisabled=true&ncbi_app=entrez&ncbi_db=pubmed&ncbi_pdid=abstract&ncbi_phid=CE88470FCF9B19D100000000049F02BD)
+
+## Simple NCBI Directory
+
+        
+                  * ### Getting Started
+        
+          * NCBI Education
+          * NCBI Help Manual
+          * NCBI Handbook
+          * Training & Tutorials
+          * Submit Data
+          * ### Resources
+        
+          * Chemicals & Bioassays
+          * Data & Software
+          * DNA & RNA
+          * Domains & Structures
+          * Genes & Expression
+          * Genetics & Medicine
+          * Genomes & Maps
+          * Homology
+          * Literature
+          * Proteins
+          * Sequence Analysis
+          * Taxonomy
+          * Variation
+          * ### Popular
+        
+          * PubMed
+          * Bookshelf
+          * PubMed Central
+          * BLAST
+          * Nucleotide
+          * Genome
+          * SNP
+          * Gene
+          * Protein
+          * PubChem
+          * ### Featured
+        
+          * Genetic Testing Registry
+          * GenBank
+          * Reference Sequences
+          * Gene Expression Omnibus
+          * Genome Data Viewer
+          * Human Genome
+          * Mouse Genome
+          * Influenza Virus
+          * Primer-BLAST
+          * Sequence Read Archive
+          * ### NCBI Information
+        
+          * About NCBI
+          * Research at NCBI
+          * NCBI News & Blog
+          * NCBI FTP Site
+          * NCBI on Facebook
+          * NCBI on Twitter
+          * NCBI on YouTube
+          * Privacy Policy
+        
+
+External link. Please review our privacy policy.
+
+NLM
+
+NIH
+
+DHHS
+
+USA.gov
+
+National Center for Biotechnology Information, U.S. National Library of
+Medicine 8600 Rockville Pike, Bethesda MD, 20894 USA
+
+Policies and Guidelines | Contact
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+*[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+

@@ -1,0 +1,36 @@
+Scientists Decode an Unborn Baby’s DNA. Is It Cause for Celebration — or Alarm?
+Researchers at the University of Washington have sequenced the entire genome of a fetus. The scientific advance could help detect certain diseases in the womb, but some experts worry that the trove of genetic information may prove more scary and overwhelming than useful.
+
+JGI / Getty Images
+
+Suspended in the blood of a pregnant woman — along with some added information from a dad-to-be’s saliva — lurks enough fetal DNA to map out an unborn baby’s entire genetic blueprint.
+
+It may sound like something conjured by Jules Verne, but it happened at the University of Washington: a professor and his graduate student used DNA samples from the parents of a baby boy who was still in utero and reconstructed his entire genetic makeup from A to Z.
+
+The account, published Wednesday in Science Translational Medicine, takes prenatal testing to new heights, promising a motherlode of genetic information about a child who had not even been born — along with a corresponding trove of data that even experts don’t yet know how to interpret.
+
+Jacob Kitzman, lead author and a graduate student in the department of genome sciences at the University of Washington (UW), was excited but cautious about his team’s achievement. “There have been a lot of steps toward this, but this is the first time capturing the whole genome,” says Kitzman. “The fact that this technology is now on the path to becoming clinically feasible is a good opportunity for a broader discussion of the implications.”
+
+Figuring out how to communicate the vast cache of information uncovered by genome sequencing remains controversial, since much of it still isn’t clinically useful. But although researchers don’t understand the significance of the entirety of the information revealed through whole-genome sequencing, they do know that certain genes are responsible for Mendelian, or more simple, single-gene disorders — that includes more than 3,000 conditions such as cystic fibrosis, Tay-Sachs disease and some muscular dystrophies that affect 1% of pregnancies. Prenatal sequencing would allow parents to learn before delivery if their child has one of these diseases, many of which are debilitating or fatal. While genetic screening of parents before pregnancy can also identify carriers, and an increasing number of prenatal DNA-based tests can determine early in pregnancy whether developing babies have specific conditions such as Down syndrome, whole-genome sequencing is the most sophisticated way to examine a person’s entire genetic code.
+
+(MORE: Down Syndrome: With Breakthroughs in Testing, a Choice Becomes Tougher)
+
+Prenatal genome sequencing could potentially replace more invasive procedures such as amniocentesis or chorionic villus sampling to detect recessive Mendelian disorders — on average, we all carry 20 to 30 recessive genes — but it is not yet precise enough to take the place of these tests when looking for other chromosomal conditions. Nor is it a foolproof gauge of risk for many other “complex” diseases — a category that includes most cancers and common conditions such as diabetes and heart disease — because they’re influenced by multiple genes and environmental factors. “Great,” says Thomas Murray, president of the Hastings Center bioethics institute, “we can sequence the genome of a fetus. What the hell does it tell us? Much less than most people probably believe.”
+
+Kitzman concurs. “It’s a really big challenge for the field, figuring out how to communicate to clinicians not only the results but the uncertainty that goes along with those results,” he says. “There’s no easy answer.”
+
+In this particular situation, Kitzman and Jay Shendure, an associate professor of genome sciences at UW, sidestepped the thorny issue of assessing disease risk and sharing that information with parents because the expectant couple was anonymous. Kitzman doesn’t know their identity, only that they consented to have their biological samples used for genome sequencing. Their son was born healthy and full-term.
+
+From a blood sample the mother gave at 18 weeks of pregnancy, researchers homed in on fetal DNA floating in her plasma; the father contributed a saliva sample. Researchers sequenced the parents’ genomes, learning which genetic variants each had; all parents have a 50/50 chance of passing along a variant to their child. There can be millions of variants from genome to genome, although most have no clinical significance. But a tiny proportion of these variants, or markers, result in devastating diseases when they fall within a gene that scientists know is connected to a genetic disorder.
+
+(MORE: Genetic Testing for Kids: Is It a Good Idea?)
+
+Using the parents’ DNA sequences and their unique variants, researchers pieced together a reconstruction of what they believed the fetus’ genome looked like, including 39 “de novo” mutations, which were unique to the baby and not inherited from either parent. Children inherit most, but not all, of their genetic variants from their parents; some arise spontaneously. That, plus the fact that the mother’s blood sample contained a lot of her DNA and just a bit of her baby’s made it tricky to sort out with absolute certainty which DNA belonged to her and which to her child.
+
+After the baby was born, they used his umbilical cord blood — which contained only his DNA — to sequence his genome more precisely. They found that the prenatal reconstruction was more than 98% accurate when compared to the actual postnatal sequence, although it missed five de novo mutations.
+
+The genome of a second baby was sequenced with maternal blood drawn much earlier in pregnancy, at eight weeks, when less fetal DNA was circulating. That sequence was 92% accurate.
+
+Now that infant genomes have been charted, it’s fairly certain that the next phase will involve companies seeking to commercialize the technology and market a single comprehensive prenatal screen for thousands of disorders. What’s less certain is how parents will respond. Although the price of genome sequencing has plummeted from billions of dollars when the first sequence was completed a decade ago to $4,000 today, that’s still a lot of money for a procedure that insurance doesn’t cover. And the sheer data dump may prove overwhelming. “It really comes down to providing more information for parents,” says Kitzman.
+
+MORE: Do All Women Need Genetic Testing Before Pregnancy?

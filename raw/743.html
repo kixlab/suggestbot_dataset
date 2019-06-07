@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en" dir="ltr">
+<!--<![endif]--><head>
+		<meta charset="utf-8" />
+		<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
+		<meta name="dcterms.creator" content="Environment Canada" />
+		<meta name="dcterms.language" title="ISO639-2" content="eng" />
+	<title>British Columbia - Weather Conditions and Forecast by Locations - Environment Canada</title>
+	<meta name="dcterms.title" content="British Columbia - Weather Conditions and Forecast by Locations" />
+	<meta name="description" content="Choose a location to view accurate and detailed weather information" />
+	<meta name="dcterms.subject" title="scheme" content="meteorology;weather;weather warnings;weather forecasts;" />
+	<meta name="dcterms.issued" title="W3CDTF" content="2013-04-16" />
+	<meta name="dcterms.modified" title="W3CDTF" content="2019-05-16" />
+			<!--[if gte IE 9 | !IE ]><!-->
+<link href="/template/gcweb/v5.0.1/assets/favicon.ico" rel="icon" type="image/x-icon" />
+<link rel="stylesheet" href="/template/gcweb/v5.0.1/css/theme.min.css" />
+<!--<![endif]-->
+
+<!--[if lt IE 9]>
+<link href="/template/gcweb/v5.0.1/assets/favicon.ico" rel="shortcut icon" />
+
+<link rel="stylesheet" href="/template/gcweb/v5.0.1/css/ie8-wet-boew.min.css" />
+<link rel="stylesheet" href="/v171w/css/wxotemplate/wxo-ie8.css"/>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="/template/gcweb/v5.0.1/js/ie8-wet-boew.min.js"></script>
+<![endif]-->
+<!--[if lte IE 9]>
+
+<![endif]-->
+
+<noscript><link rel="stylesheet" href="/template/gcweb/v5.0.1/css/noscript.min.css" /></noscript>
+<link rel="stylesheet" href="/v171w/css/city/jquery-ui-1.10.3.custom.min.css" />
+<link rel="stylesheet" href="/v171w/css/wxotemplate/wxo.css" />
+<link rel="stylesheet" href="/v171w/css/wxotemplate/print-sm.css" />
+	</head>
+<body vocab="http://schema.org/" typeof="WebPage">
+<ul id="wb-tphp">
+<li class="wb-slc"><a class="wb-sl" href="#wb-cont">Skip to main content</a></li>
+<li class="wb-slc"><a class="wb-sl" href="#wb-info">Skip to "About government"</a></li>
+</ul>
+<header>
+<div id="wb-bnr" class="container">
+	<section id="wb-lng" class="text-right">
+	<h2 class="wb-inv">Language selection</h2>
+	<ul class="list-inline margin-bottom-none">
+	<li><a lang="fr" href="/include/lang.php">Français</a></li>
+	</ul>
+	</section>
+	<div class="row">
+	<div class="brand col-xs-5 col-md-4">
+	<a href="https://www.canada.ca/en.html"><img src="/template/gcweb/v5.0.1/assets/sig-blk-en.svg" alt=""><span class="wb-inv"> Government of Canada / <span lang="fr">Gouvernement du Canada</span></span></a>
+	</div>
+	<section id="wb-srch" class="col-lg-8 text-right">
+	<h2>Search</h2>
+	<form action="https://recherche-search.gc.ca/rGs/s_r?#wb-land" method="get" name="cse-search-box" role="search" class="form-inline">
+	<div class="form-group">
+		<label for="wb-srch-q" class="wb-inv">Search website</label>
+		<input name="cdn" value="canada" type="hidden"/>
+		<input name="st" value="s" type="hidden"/>
+		<input name="num" value="10" type="hidden"/>
+		<input name="langs" value="eng" type="hidden"/>
+		<input name="st1rt" value="0" type="hidden">
+		<input name="s5bm3ts21rch" value="x" type="hidden"/>
+		<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="27" maxlength="150" placeholder="Search Canada.ca" />
+		<datalist id="wb-srch-q-ac">
+		</datalist>
+	</div>
+	<div class="form-group submit">
+	<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
+	</div>
+	</form>
+	</section>
+	</div>
+</div>
+<nav class="gcweb-menu" typeof="SiteNavigationElement">
+<div class="container">
+<h2 class="wb-inv">Menu</h2>
+<button type="button" aria-haspopup="true" aria-expanded="false"><span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span></button>
+<ul role="menu" aria-orientation="vertical" data-ajax-replace="/data/pco-fetch/sitemenu-v5-en.html"> 
+<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Jobs and the workplace</a></li>
+<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+<li role="presentation"><a role="menuitem" href="https://travel.gc.ca/">Travel and tourism</a></li>
+<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/business.html">Business and industry</a></li>
+<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/health.html">Health</a></li>
+<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+<li role="presentation"><a role="menuitem" href="http://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
+<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/finance.html">Science and innovation</a></li>
+</ul>
+</div>
+</nav>
+<nav id="wb-bc" property="breadcrumb">
+<h2>You are here:</h2>
+<div class="container">
+<ol class="breadcrumb">
+<li><a href="http://www.canada.ca/en.html">Home</a></li><li><a href="http://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+<li><a href="/index_e.html">Weather information</a></li>
+<li><a href="/mainmenu/weather_menu_e.html">Weather</a></li>
+<li><a href="/canada_e.html">Local forecasts</a></li>
+</ol>
+</div>
+</nav>
+</header>
+
+
+<!-- 4127 -->
+<div class="container hidden-print">
+<div class="mrgn-tp-sm">
+<span class='pull-right profile-link mrgn-rght-sm mrgn-bttm-sm'><a class="btn btn-default btn-sm" href="/myprofile/index_e.html" role="button">My Weather Profile</a></span> <span class="pull-right mrgn-rght-sm mrgn-bttm-sm"><a href="#favourites-panel" aria-controls="favourites-panel" class="btn btn-default btn-sm overlay-lnk hidden" id="weather-shortcuts-link">Weather shortcuts</a>
+<a href="#weather-topics" id="weather-topics-link">Weather Topics</a></span>
+<span id="wxo-divider" class="pull-right not-profile-link">&#160;|&#160;</span>
+	<form class="mrgn-rght-sm pull-right mrgn-bttm-lg" role="search" id="cityjump" method="GET" action="/city/jump_e.html">
+      <label id="search-label" for="city" accesskey="g">Access city</label>
+      <input id="city" type="text" name="city" pattern=".{2,50}" title="Please enter at least two characters (Up to 50)" required data-h5-errorid="invalid-city" placeholder="Find a city"/>
+      <input type="hidden" name="lang" value="e"/>
+      <input type="hidden" name="unit" value=""/>
+      <input type="submit" id="jump" class="wb-invisible" value="Go"/>
+      <noscript><input type="submit" id="jumpnojs" value="Go" formnovalidate/></noscript>
+   <div id="invalid-city"></div>
+</form>  
+
+</div>
+</div>
+<div class="clearfix"></div>
+
+<div id='collapsible-alerts' class='container'></div>
+<div class="clearfix"></div>
+<main property="mainContentOfPage" class="container">
+<h1 id="wb-cont" property="name">British Columbia - Weather Conditions and Forecast by Locations</h1>
+
+	<section><details class='alert alert-info' id='alert-info' open='open'><summary><h2 class="h5">This hour's hot and cold spots ...</h2></summary>
+	<div>
+<p class="mrgn-bttm-0">Hot spot in <strong>British Columbia</strong>: <span class="visible-metric">18.7 &#176;<abbr title="degrees Celsius">C</abbr></span><span class="visible-imperial wb-inv">65.7 &#176;<abbr title="degrees Fahrenheit">F</abbr></span> Salmon Arm</p>
+<p class="mrgn-bttm-0">Cold spot in <strong>British Columbia</strong>: <span class="visible-metric">4.3 &#176;<abbr title="degrees Celsius">C</abbr></span><span class="visible-imperial wb-inv">39.7 &#176;<abbr title="degrees Fahrenheit">F</abbr></span> Yoho National Park</p>
+</div>
+<hr class="mrgn-tp-sm mrgn-bttm-sm"/><div>
+<p class="mrgn-bttm-0">Hot spot in <strong>Canada</strong>: <span class="visible-metric">24.6 &#176;<abbr title="degrees Celsius">C</abbr></span><span class="visible-imperial wb-inv">76.3 &#176;<abbr title="degrees Fahrenheit">F</abbr></span> Coronach, SK</p>
+<p class="mrgn-bttm-0">Cold spot in <strong>Canada</strong>: <span class="visible-metric">-3.6 &#176;<abbr title="degrees Celsius">C</abbr></span><span class="visible-imperial wb-inv">25.5 &#176;<abbr title="degrees Fahrenheit">F</abbr></span> Gateshead Island, NU</p>
+</div>
+	</details></section>
+
+<div class="row">
+     <div class="col-md-8">
+
+
+    <img width="413" height="400" src="images/bc_e.jpg" alt="British Columbia" usemap="#BC" class="thumbnail center-block img-responsive wxo-pddng-sm"/>
+<map id="BC" name="BC" title="BC">
+  <area href="/city/pages/bc-19_metric_e.html" coords="74,316,176,335" shape="rect" alt="Campbell River" title="Campbell River" />
+  <area href="/city/pages/bc-77_metric_e.html" coords="323,336,401,355" shape="rect" alt="Cranbrook" title="Cranbrook" />
+  <area href="/city/pages/bc-26_metric_e.html" coords="309,356,374,371" shape="rect" alt="Creston" title="Creston" />
+  <area href="/city/pages/bc-14_metric_e.html" coords="105,74,173,100" shape="rect" alt="Dease Lake" title="Dease Lake" />
+  <area href="/city/pages/bc-83_metric_e.html" coords="210,80,281,113" shape="rect" alt="Fort Nelson" title="Fort Nelson" />
+  <area href="/city/pages/bc-78_metric_e.html" coords="211,143,290,179" shape="rect" alt="Fort St. John" title="Fort St. John" />
+  <area href="/city/pages/bc-39_metric_e.html" coords="246,357,311,376" shape="rect" alt="Grand Forks" title="Grand Forks" />
+  <area href="/city/pages/bc-45_metric_e.html" coords="219,296,278,320" shape="rect" alt="Kamloops" title="Kamloops" />
+  <area href="/city/pages/bc-48_metric_e.html" coords="257,323,324,342" shape="rect" alt="Kelowna" title="Kelowna" />
+  <area href="/city/pages/bc-20_metric_e.html" coords="157,348,196,367" shape="rect" alt="Nanaimo" title="Nanaimo" />
+  <area href="/city/pages/bc-84_metric_e.html" coords="256,341,320,356" shape="rect" alt="Penticton" title="Penticton" />
+  <area href="/city/pages/bc-89_metric_e.html" coords="126,289,195,310" shape="rect" alt="Port Hardy" title="Port Hardy" />
+  <area href="/city/pages/bc-79_metric_e.html" coords="208,215,307,242" shape="rect" alt="Prince George" title="Prince George" />
+  <area href="/city/pages/bc-57_metric_e.html" coords="21,187,109,216" shape="rect" alt="Prince Rupert" title="Prince Rupert" />
+  <area href="/city/pages/bc-64_metric_e.html" coords="206,244,278,264" shape="rect" alt="Quesnel" title="Quesnel" />
+  <area href="/city/pages/bc-65_metric_e.html" coords="281,298,351,322" shape="rect" alt="Revelstoke" title="Revelstoke" />
+  <area href="/city/pages/bc-88_metric_e.html" coords="69,218,138,249" shape="rect" alt="Sandspit" title="Sandspit" />
+  <area href="/city/pages/bc-82_metric_e.html" coords="148,179,213,212" shape="rect" alt="Smithers" title="Smithers" />
+  <area href="/city/pages/bc-80_metric_e.html" coords="108,185,148,210" shape="rect" alt="Terrace" title="Terrace" />
+  <area href="/city/pages/bc-17_metric_e.html" coords="105,335,156,354" shape="rect" alt="Tofino" title="Tofino" />
+  <area href="/city/pages/bc-74_metric_e.html" coords="194,338,255,355" shape="rect" alt="Vancouver" title="Vancouver" />
+  <area href="/city/pages/bc-85_metric_e.html" coords="186,368,245,389" shape="rect" alt="Victoria" title="Victoria" />
+  <area href="/city/pages/bc-86_metric_e.html" coords="183,318,234,335" shape="rect" alt="Whistler" title="Whistler" />
+  <area href="/city/pages/bc-76_metric_e.html" coords="218,269,317,291" shape="rect" alt="Williams Lake" title="Williams Lake" />
+</map>
+
+   
+	</div>
+	<aside class="col-md-4 hidden-xs hidden-sm">
+		      <div class="well">
+<h2 class="mrgn-tp-0">Weather Links</h2>
+	<ul class="lst-spcd">
+		<li><a href="/canada_e.html">Canadian Weather</a></li>
+		<li><a href="/warnings/index_e.html">Public Alerts - Canada</a></li>
+		<li><a href="/radar/index_e.html">Weather Radar - Canada</a></li>
+		<li><a href="/satellite/index_e.html">Satellite - Canada</a></li>
+		<li><a href="/saisons/index_e.html">Seasonal forecasts</a></li>
+		<li><a href="/mainmenu/airquality_menu_e.html">Air Quality </a></li>
+		<li><a href="/marine/index_e.html">Marine - Canada</a></li>
+		<li><a href="https://www.canada.ca/en/environment-climate-change/services/water-overview/quantity/monitoring/survey.html">Water Level and Flow</a></li>
+		<li><a href="https://www.canada.ca/en/environment-climate-change/services/climate-change/canadian-centre-climate-services.html">Canadian Centre for Climate Services</a></li>
+	</ul>
+</div>
+	</aside>
+  </div>
+   			<div>
+          <details id="gps-jq">
+          <summary>Use Current Location</summary>
+            <div id="GPSResults"></div>
+          </details>
+         </div>
+
+     <span class="hidden-xs">or choose a province or territory:</span>
+		 <ul class="nav nav-pills hidden-xs">
+<li><a title="Alberta" href="/forecast/canada/index_e.html?id=AB"><span class="wb-inv">Alberta</span>AB</a></li>
+<li class='disabled'><a title="British Columbia" href="/forecast/canada/index_e.html?id=BC"><span class="wb-inv">British Columbia</span>BC</a></li>
+<li><a title="Manitoba" href="/forecast/canada/index_e.html?id=MB"><span class="wb-inv">Manitoba</span>MB</a></li>
+<li><a title="New Brunswick" href="/forecast/canada/index_e.html?id=NB"><span class="wb-inv">New Brunswick</span>NB</a></li>
+<li><a title="Newfoundland and Labrador" href="/forecast/canada/index_e.html?id=NL"><span class="wb-inv">Newfoundland and Labrador</span>NL</a></li>
+<li><a title="Nova Scotia" href="/forecast/canada/index_e.html?id=NS"><span class="wb-inv">Nova Scotia</span>NS</a></li>
+<li><a title="Northwest Territories" href="/forecast/canada/index_e.html?id=NT"><span class="wb-inv">Northwest Territories</span>NT</a></li>
+<li><a title="Nunavut" href="/forecast/canada/index_e.html?id=NU"><span class="wb-inv">Nunavut</span>NU</a></li>
+<li><a title="Ontario" href="/forecast/canada/index_e.html?id=ON"><span class="wb-inv">Ontario</span>ON</a></li>
+<li><a title="Prince Edward Island" href="/forecast/canada/index_e.html?id=PE"><span class="wb-inv">Prince Edward Island</span>PE</a></li>
+<li><a title="Quebec" href="/forecast/canada/index_e.html?id=QC"><span class="wb-inv">Quebec</span>QC</a></li>
+<li><a title="Saskatchewan" href="/forecast/canada/index_e.html?id=SK"><span class="wb-inv">Saskatchewan</span>SK</a></li>
+<li><a title="Yukon" href="/forecast/canada/index_e.html?id=YT"><span class="wb-inv">Yukon</span>YT</a></li>
+</ul>
+<div class="visible-xs">
+<details>
+<summary>Forecast Regions</summary>
+<ul class="list-unstyled wxo-btn">
+<li><a class="btn btn-default btn-sm btn-block" role="button" href="/forecast/canada/index_e.html?id=AB">Alberta</a></li>
+<li><a class="btn btn-default btn-sm btn-block" role="button" href="/forecast/canada/index_e.html?id=BC">British Columbia</a></li>
+<li><a class="btn btn-default btn-sm btn-block" role="button" href="/forecast/canada/index_e.html?id=MB">Manitoba</a></li>
+<li><a class="btn btn-default btn-sm btn-block" role="button" href="/forecast/canada/index_e.html?id=NB">New Brunswick</a></li>
+<li><a class="btn btn-default btn-sm btn-block" role="button" href="/forecast/canada/index_e.html?id=NL">Newfoundland and Labrador</a></li>
+<li><a class="btn btn-default btn-sm btn-block" role="button" href="/forecast/canada/index_e.html?id=NT">Northwest Territories</a></li>
+<li><a class="btn btn-default btn-sm btn-block" role="button" href="/forecast/canada/index_e.html?id=NS">Nova Scotia</a></li>
+<li><a class="btn btn-default btn-sm btn-block" role="button" href="/forecast/canada/index_e.html?id=NU">Nunavut</a></li>
+<li><a class="btn btn-default btn-sm btn-block" role="button" href="/forecast/canada/index_e.html?id=ON">Ontario</a></li>
+<li><a class="btn btn-default btn-sm btn-block" role="button" href="/forecast/canada/index_e.html?id=PE">Prince Edward Island</a></li>
+<li><a class="btn btn-default btn-sm btn-block" role="button" href="/forecast/canada/index_e.html?id=QC">Quebec</a></li>
+<li><a class="btn btn-default btn-sm btn-block" role="button" href="/forecast/canada/index_e.html?id=SK">Saskatchewan</a></li>
+<li><a class="btn btn-default btn-sm btn-block" role="button" href="/forecast/canada/index_e.html?id=YT">Yukon</a></li>
+</ul></details></div>
+
+  		<div class="visible-xs">
+          <details>
+          <summary>British Columbia Locations</summary>
+          <nav role="navigation">
+            <h2 class="wb-inv">City list</h2>
+            <ul class="list-inline">
+						<li><a href="#0" role="button" class="btn btn-default btn-xs">0 - 9</a></li>
+<li><a href="#A" role="button" class="btn btn-default btn-xs">A - D</a></li>
+<li><a href="#E" role="button" class="btn btn-default btn-xs">E - H</a></li>
+<li><a href="#I" role="button" class="btn btn-default btn-xs">I - M</a></li>
+<li><a href="#N" role="button" class="btn btn-default btn-xs">N - Q</a></li>
+<li><a href="#R" role="button" class="btn btn-default btn-xs">R - S</a></li>
+<li><a href="#T" role="button" class="btn btn-default btn-xs">T - Y</a></li>
+            </ul>
+          </nav>
+          <div>
+             <div class="well"><div class="row">
+<section><h2 class="mrgn-tp-0"><a id="0">0-9</a></h2>
+<ul class="list-unstyled">
+<li><a href="/city/pages/bc-7_metric_e.html">100 Mile House</a></li>
+</ul></section>
+</div></div>
+<div class="well"><div class="row">
+<section><h2 class="mrgn-tp-0"><a id="A">A-D</a></h2>
+<ul class="list-unstyled">
+<li><a href="/city/pages/bc-81_metric_e.html">Abbotsford</a></li>
+<li><a href="/city/pages/bc-70_metric_e.html">Agassiz</a></li>
+<li><a href="/city/pages/bc-67_metric_e.html">Atlin</a></li>
+<li><a href="/city/pages/bc-94_metric_e.html">Bella Bella</a></li>
+<li><a href="/city/pages/bc-18_metric_e.html">Bella Coola</a></li>
+<li><a href="/city/pages/bc-22_metric_e.html">Blue River</a></li>
+<li><a href="/city/pages/bc-43_metric_e.html">Burns Lake</a></li>
+<li><a href="/city/pages/bc-55_metric_e.html">Cache Creek</a></li>
+<li><a href="/city/pages/bc-19_metric_e.html">Campbell River</a></li>
+<li><a href="/city/pages/bc-6_metric_e.html">Cassiar</a></li>
+<li><a href="/city/pages/bc-21_metric_e.html">Castlegar</a></li>
+<li><a href="/city/pages/bc-23_metric_e.html">Chetwynd</a></li>
+<li><a href="/city/pages/bc-24_metric_e.html">Chilliwack</a></li>
+<li><a href="/city/pages/bc-12_metric_e.html">Clearwater</a></li>
+<li><a href="/city/pages/bc-91_metric_e.html">Clinton</a></li>
+<li><a href="/city/pages/bc-61_metric_e.html">Comox</a></li>
+<li><a href="/city/pages/bc-92_metric_e.html">Courtenay</a></li>
+<li><a href="/city/pages/bc-77_metric_e.html">Cranbrook</a></li>
+<li><a href="/city/pages/bc-26_metric_e.html">Creston</a></li>
+<li><a href="/city/pages/bc-95_metric_e.html">Cummins Lakes (Provincial Park)</a></li>
+<li><a href="/city/pages/bc-25_metric_e.html">Dawson Creek</a></li>
+<li><a href="/city/pages/bc-14_metric_e.html">Dease Lake</a></li>
+<li><a href="/city/pages/bc-8_metric_e.html">Dome Creek</a></li>
+<li><a href="/city/pages/bc-97_metric_e.html">Duncan</a></li>
+</ul></section>
+</div></div>
+<div class="well"><div class="row">
+<section><h2 class="mrgn-tp-0"><a id="E">E-H</a></h2>
+<ul class="list-unstyled">
+<li><a href="/city/pages/bc-40_metric_e.html">Esquimalt</a></li>
+<li><a href="/city/pages/bc-15_metric_e.html">Estevan Point</a></li>
+<li><a href="/city/pages/bc-83_metric_e.html">Fort Nelson</a></li>
+<li><a href="/city/pages/bc-78_metric_e.html">Fort St. John</a></li>
+<li><a href="/city/pages/bc-1_metric_e.html">Gibsons</a></li>
+<li><a href="/city/pages/bc-34_metric_e.html">Golden</a></li>
+<li><a href="/city/pages/bc-32_metric_e.html">Gonzales Point</a></li>
+<li><a href="/city/pages/bc-9_metric_e.html">Good Hope Lake</a></li>
+<li><a href="/city/pages/bc-39_metric_e.html">Grand Forks</a></li>
+<li><a href="/city/pages/bc-93_metric_e.html">Gulf Islands (Southern)</a></li>
+<li><a href="/city/pages/bc-36_metric_e.html">Hope</a></li>
+<li><a href="/city/pages/bc-31_metric_e.html">Hope Slide</a></li>
+</ul></section>
+</div></div>
+<div class="well"><div class="row">
+<section><h2 class="mrgn-tp-0"><a id="I">I-M</a></h2>
+<ul class="list-unstyled">
+<li><a href="/city/pages/bc-72_metric_e.html">Invermere</a></li>
+<li><a href="/city/pages/bc-45_metric_e.html">Kamloops</a></li>
+<li><a href="/city/pages/bc-48_metric_e.html">Kelowna</a></li>
+<li><a href="/city/pages/bc-30_metric_e.html">Kitimat</a></li>
+<li><a href="/city/pages/bc-11_metric_e.html">Kootenay (National Park)</a></li>
+<li><a href="/city/pages/bc-100_metric_e.html">Langley</a></li>
+<li><a href="/city/pages/bc-87_metric_e.html">Liard River</a></li>
+<li><a href="/city/pages/bc-28_metric_e.html">Lillooet</a></li>
+<li><a href="/city/pages/bc-33_metric_e.html">Lytton</a></li>
+<li><a href="/city/pages/bc-90_metric_e.html">Mackenzie</a></li>
+<li><a href="/city/pages/bc-29_metric_e.html">Malahat</a></li>
+<li><a href="/city/pages/bc-56_metric_e.html">Masset</a></li>
+<li><a href="/city/pages/bc-47_metric_e.html">McBride</a></li>
+<li><a href="/city/pages/bc-49_metric_e.html">Merritt</a></li>
+<li><a href="/city/pages/bc-63_metric_e.html">Muncho Lake</a></li>
+</ul></section>
+</div></div>
+<div class="well"><div class="row">
+<section><h2 class="mrgn-tp-0"><a id="N">N-Q</a></h2>
+<ul class="list-unstyled">
+<li><a href="/city/pages/bc-38_metric_e.html">Nakusp</a></li>
+<li><a href="/city/pages/bc-20_metric_e.html">Nanaimo</a></li>
+<li><a href="/city/pages/bc-37_metric_e.html">Nelson</a></li>
+<li><a href="/city/pages/bc-69_metric_e.html">Osoyoos</a></li>
+<li><a href="/city/pages/bc-16_metric_e.html">Pemberton</a></li>
+<li><a href="/city/pages/bc-84_metric_e.html">Penticton</a></li>
+<li><a href="/city/pages/bc-35_metric_e.html">Pitt Meadows</a></li>
+<li><a href="/city/pages/bc-46_metric_e.html">Port Alberni</a></li>
+<li><a href="/city/pages/bc-89_metric_e.html">Port Hardy</a></li>
+<li><a href="/city/pages/bc-58_metric_e.html">Powell River</a></li>
+<li><a href="/city/pages/bc-79_metric_e.html">Prince George</a></li>
+<li><a href="/city/pages/bc-57_metric_e.html">Prince Rupert</a></li>
+<li><a href="/city/pages/bc-41_metric_e.html">Princeton</a></li>
+<li><a href="/city/pages/bc-42_metric_e.html">Puntzi Mountain</a></li>
+<li><a href="/city/pages/bc-98_metric_e.html">Qualicum Beach</a></li>
+<li><a href="/city/pages/bc-64_metric_e.html">Quesnel</a></li>
+</ul></section>
+</div></div>
+<div class="well"><div class="row">
+<section><h2 class="mrgn-tp-0"><a id="R">R-S</a></h2>
+<ul class="list-unstyled">
+<li><a href="/city/pages/bc-65_metric_e.html">Revelstoke</a></li>
+<li><a href="/city/pages/bc-96_metric_e.html">Richmond</a></li>
+<li><a href="/city/pages/bc-10_metric_e.html">Rock Creek</a></li>
+<li><a href="/city/pages/bc-51_metric_e.html">Salmon Arm</a></li>
+<li><a href="/city/pages/bc-88_metric_e.html">Sandspit</a></li>
+<li><a href="/city/pages/bc-3_metric_e.html">Sechelt</a></li>
+<li><a href="/city/pages/bc-82_metric_e.html">Smithers</a></li>
+<li><a href="/city/pages/bc-52_metric_e.html">Sparwood</a></li>
+<li><a href="/city/pages/bc-50_metric_e.html">Squamish</a></li>
+<li><a href="/city/pages/bc-73_metric_e.html">Stewart</a></li>
+<li><a href="/city/pages/bc-54_metric_e.html">Summerland</a></li>
+</ul></section>
+</div></div>
+<div class="well"><div class="row">
+<section><h2 class="mrgn-tp-0"><a id="T">T-Y</a></h2>
+<ul class="list-unstyled">
+<li><a href="/city/pages/bc-60_metric_e.html">Tatlayoko Lake</a></li>
+<li><a href="/city/pages/bc-80_metric_e.html">Terrace</a></li>
+<li><a href="/city/pages/bc-53_metric_e.html">Tetsa River (Provincial Park)</a></li>
+<li><a href="/city/pages/bc-17_metric_e.html">Tofino</a></li>
+<li><a href="/city/pages/bc-71_metric_e.html">Trail</a></li>
+<li><a href="/city/pages/bc-5_metric_e.html">Ucluelet</a></li>
+<li><a href="/city/pages/bc-13_metric_e.html">Valemount</a></li>
+<li><a href="/city/pages/bc-74_metric_e.html">Vancouver</a></li>
+<li><a href="/city/pages/bc-44_metric_e.html">Vanderhoof</a></li>
+<li><a href="/city/pages/bc-27_metric_e.html">Vernon</a></li>
+<li><a href="/city/pages/bc-85_metric_e.html">Victoria</a></li>
+<li><a href="/city/pages/bc-59_metric_e.html">Victoria (Hartland)</a></li>
+<li><a href="/city/pages/bc-66_metric_e.html">Victoria (University of)</a></li>
+<li><a href="/city/pages/bc-75_metric_e.html">Victoria Harbour</a></li>
+<li><a href="/city/pages/bc-99_metric_e.html">West Vancouver</a></li>
+<li><a href="/city/pages/bc-86_metric_e.html">Whistler</a></li>
+<li><a href="/city/pages/bc-62_metric_e.html">White Rock</a></li>
+<li><a href="/city/pages/bc-76_metric_e.html">Williams Lake</a></li>
+<li><a href="/city/pages/bc-68_metric_e.html">Yoho (National Park)</a></li>
+</ul></section>
+</div></div>
+          </div>
+          </details>
+                    <ul class="list-unstyled mrgn-tp-sm"><li><a class="btn btn-default btn-sm btn-block" role="button" href="/provincialsummary_table/index_e.html?prov=bc"><p class="text-left mrgn-lft-md mrgn-bttm-0">Provincial Summary</p></a></li>
+         </ul>
+      </div>
+    
+<div class="hidden-xs">
+<p><a href="/provincialsummary_table/index_e.html?prov=bc">[Provincial Summary]</a>&nbsp;</p>
+<div class="well"><div class="row">
+<ul class="list-unstyled col-sm-4">
+<li><a href="/city/pages/bc-7_metric_e.html">100 Mile House</a></li>
+<li><a href="/city/pages/bc-81_metric_e.html">Abbotsford</a></li>
+<li><a href="/city/pages/bc-70_metric_e.html">Agassiz</a></li>
+<li><a href="/city/pages/bc-67_metric_e.html">Atlin</a></li>
+<li><a href="/city/pages/bc-94_metric_e.html">Bella Bella</a></li>
+<li><a href="/city/pages/bc-18_metric_e.html">Bella Coola</a></li>
+<li><a href="/city/pages/bc-22_metric_e.html">Blue River</a></li>
+<li><a href="/city/pages/bc-43_metric_e.html">Burns Lake</a></li>
+<li><a href="/city/pages/bc-55_metric_e.html">Cache Creek</a></li>
+<li><a href="/city/pages/bc-19_metric_e.html">Campbell River</a></li>
+<li><a href="/city/pages/bc-6_metric_e.html">Cassiar</a></li>
+<li><a href="/city/pages/bc-21_metric_e.html">Castlegar</a></li>
+<li><a href="/city/pages/bc-23_metric_e.html">Chetwynd</a></li>
+<li><a href="/city/pages/bc-24_metric_e.html">Chilliwack</a></li>
+<li><a href="/city/pages/bc-12_metric_e.html">Clearwater</a></li>
+<li><a href="/city/pages/bc-91_metric_e.html">Clinton</a></li>
+<li><a href="/city/pages/bc-61_metric_e.html">Comox</a></li>
+<li><a href="/city/pages/bc-92_metric_e.html">Courtenay</a></li>
+<li><a href="/city/pages/bc-77_metric_e.html">Cranbrook</a></li>
+<li><a href="/city/pages/bc-26_metric_e.html">Creston</a></li>
+<li><a href="/city/pages/bc-95_metric_e.html">Cummins Lakes (Provincial Park)</a></li>
+<li><a href="/city/pages/bc-25_metric_e.html">Dawson Creek</a></li>
+<li><a href="/city/pages/bc-14_metric_e.html">Dease Lake</a></li>
+<li><a href="/city/pages/bc-8_metric_e.html">Dome Creek</a></li>
+<li><a href="/city/pages/bc-97_metric_e.html">Duncan</a></li>
+<li><a href="/city/pages/bc-40_metric_e.html">Esquimalt</a></li>
+<li><a href="/city/pages/bc-15_metric_e.html">Estevan Point</a></li>
+<li><a href="/city/pages/bc-83_metric_e.html">Fort Nelson</a></li>
+<li><a href="/city/pages/bc-78_metric_e.html">Fort St. John</a></li>
+<li><a href="/city/pages/bc-1_metric_e.html">Gibsons</a></li>
+<li><a href="/city/pages/bc-34_metric_e.html">Golden</a></li>
+<li><a href="/city/pages/bc-32_metric_e.html">Gonzales Point</a></li>
+<li><a href="/city/pages/bc-9_metric_e.html">Good Hope Lake</a></li>
+</ul>
+<ul class="list-unstyled col-sm-4">
+<li><a href="/city/pages/bc-39_metric_e.html">Grand Forks</a></li>
+<li><a href="/city/pages/bc-93_metric_e.html">Gulf Islands (Southern)</a></li>
+<li><a href="/city/pages/bc-36_metric_e.html">Hope</a></li>
+<li><a href="/city/pages/bc-31_metric_e.html">Hope Slide</a></li>
+<li><a href="/city/pages/bc-72_metric_e.html">Invermere</a></li>
+<li><a href="/city/pages/bc-45_metric_e.html">Kamloops</a></li>
+<li><a href="/city/pages/bc-48_metric_e.html">Kelowna</a></li>
+<li><a href="/city/pages/bc-30_metric_e.html">Kitimat</a></li>
+<li><a href="/city/pages/bc-11_metric_e.html">Kootenay (National Park)</a></li>
+<li><a href="/city/pages/bc-100_metric_e.html">Langley</a></li>
+<li><a href="/city/pages/bc-87_metric_e.html">Liard River</a></li>
+<li><a href="/city/pages/bc-28_metric_e.html">Lillooet</a></li>
+<li><a href="/city/pages/bc-33_metric_e.html">Lytton</a></li>
+<li><a href="/city/pages/bc-90_metric_e.html">Mackenzie</a></li>
+<li><a href="/city/pages/bc-29_metric_e.html">Malahat</a></li>
+<li><a href="/city/pages/bc-56_metric_e.html">Masset</a></li>
+<li><a href="/city/pages/bc-47_metric_e.html">McBride</a></li>
+<li><a href="/city/pages/bc-49_metric_e.html">Merritt</a></li>
+<li><a href="/city/pages/bc-63_metric_e.html">Muncho Lake</a></li>
+<li><a href="/city/pages/bc-38_metric_e.html">Nakusp</a></li>
+<li><a href="/city/pages/bc-20_metric_e.html">Nanaimo</a></li>
+<li><a href="/city/pages/bc-37_metric_e.html">Nelson</a></li>
+<li><a href="/city/pages/bc-69_metric_e.html">Osoyoos</a></li>
+<li><a href="/city/pages/bc-16_metric_e.html">Pemberton</a></li>
+<li><a href="/city/pages/bc-84_metric_e.html">Penticton</a></li>
+<li><a href="/city/pages/bc-35_metric_e.html">Pitt Meadows</a></li>
+<li><a href="/city/pages/bc-46_metric_e.html">Port Alberni</a></li>
+<li><a href="/city/pages/bc-89_metric_e.html">Port Hardy</a></li>
+<li><a href="/city/pages/bc-58_metric_e.html">Powell River</a></li>
+<li><a href="/city/pages/bc-79_metric_e.html">Prince George</a></li>
+<li><a href="/city/pages/bc-57_metric_e.html">Prince Rupert</a></li>
+<li><a href="/city/pages/bc-41_metric_e.html">Princeton</a></li>
+<li><a href="/city/pages/bc-42_metric_e.html">Puntzi Mountain</a></li>
+</ul>
+<ul class="list-unstyled col-sm-4">
+<li><a href="/city/pages/bc-98_metric_e.html">Qualicum Beach</a></li>
+<li><a href="/city/pages/bc-64_metric_e.html">Quesnel</a></li>
+<li><a href="/city/pages/bc-65_metric_e.html">Revelstoke</a></li>
+<li><a href="/city/pages/bc-96_metric_e.html">Richmond</a></li>
+<li><a href="/city/pages/bc-10_metric_e.html">Rock Creek</a></li>
+<li><a href="/city/pages/bc-51_metric_e.html">Salmon Arm</a></li>
+<li><a href="/city/pages/bc-88_metric_e.html">Sandspit</a></li>
+<li><a href="/city/pages/bc-3_metric_e.html">Sechelt</a></li>
+<li><a href="/city/pages/bc-82_metric_e.html">Smithers</a></li>
+<li><a href="/city/pages/bc-52_metric_e.html">Sparwood</a></li>
+<li><a href="/city/pages/bc-50_metric_e.html">Squamish</a></li>
+<li><a href="/city/pages/bc-73_metric_e.html">Stewart</a></li>
+<li><a href="/city/pages/bc-54_metric_e.html">Summerland</a></li>
+<li><a href="/city/pages/bc-60_metric_e.html">Tatlayoko Lake</a></li>
+<li><a href="/city/pages/bc-80_metric_e.html">Terrace</a></li>
+<li><a href="/city/pages/bc-53_metric_e.html">Tetsa River (Provincial Park)</a></li>
+<li><a href="/city/pages/bc-17_metric_e.html">Tofino</a></li>
+<li><a href="/city/pages/bc-71_metric_e.html">Trail</a></li>
+<li><a href="/city/pages/bc-5_metric_e.html">Ucluelet</a></li>
+<li><a href="/city/pages/bc-13_metric_e.html">Valemount</a></li>
+<li><a href="/city/pages/bc-74_metric_e.html">Vancouver</a></li>
+<li><a href="/city/pages/bc-44_metric_e.html">Vanderhoof</a></li>
+<li><a href="/city/pages/bc-27_metric_e.html">Vernon</a></li>
+<li><a href="/city/pages/bc-85_metric_e.html">Victoria</a></li>
+<li><a href="/city/pages/bc-59_metric_e.html">Victoria (Hartland)</a></li>
+<li><a href="/city/pages/bc-66_metric_e.html">Victoria (University of)</a></li>
+<li><a href="/city/pages/bc-75_metric_e.html">Victoria Harbour</a></li>
+<li><a href="/city/pages/bc-99_metric_e.html">West Vancouver</a></li>
+<li><a href="/city/pages/bc-86_metric_e.html">Whistler</a></li>
+<li><a href="/city/pages/bc-62_metric_e.html">White Rock</a></li>
+<li><a href="/city/pages/bc-76_metric_e.html">Williams Lake</a></li>
+<li><a href="/city/pages/bc-68_metric_e.html">Yoho (National Park)</a></li>
+</ul>
+</div></div>
+</div>
+
+
+<section id="favourites-panel" class="wb-overlay modal-content overlay-def wb-panel-r">
+   <header class="modal-header">
+      <h2 class="modal-title">Weather shortcuts</h2>
+   </header>
+   <div class="modal-body">
+      <div id="favourites-div-addorg">
+         <button type="button" id="favourites-btn-add" class="btn btn-sm btn-default pull-left" tabindex="9">Add to<br class="visible-xs"> shortcuts</button>
+         <button type="button" id="favourites-btn-organize" class="btn btn-sm btn-default pull-right" tabindex="9">Organize<br class="visible-xs"> shortcuts</button>
+         <div class="clearfix"></div>
+         <br />
+      </div>
+      <section id="favourites-div-panel">
+         <header id="favourites-div-heading" class="panel-heading hidden">
+            <h5 class="panel-title">Organize Shortcuts</h5>
+         </header>
+         <div id="favourites-div-body">
+            <div class="clearfix"></div>
+            <p id="favourites-txt-description" class="small text-center hidden">Select to drag and drop, rename or delete.</p>
+            <div class="clearfix"></div>
+            <h4 id="favourites-txt-none" class="hidden text-center">No shortcuts</h4>
+            <div class="clearfix"></div>
+            <ul id="favourites-list">
+               <li data-href="https://www.canada.ca/en/environment-climate-change/services/report-severe-weather/overview.html"><a href="https://www.canada.ca/en/environment-climate-change/services/report-severe-weather/overview.html">Report Severe Weather</a></li>
+               <li data-href="/canada_e.html"><a href="/canada_e.html" tabindex="9">Canadian Weather</a></li>
+               <li data-href="/radar/index_e.html"><a href="/radar/index_e.html" tabindex="9">Weather Radar - Canada</a></li>
+               <li data-href="/satellite/index_e.html"><a href="/satellite/index_e.html" tabindex="9">Satellite - Canada</a></li>
+               <li data-href="/marine/index_e.html"><a href="/marine/index_e.html" tabindex="9">Marine - Canada</a></li>
+               <li data-href="/mainmenu/airquality_menu_e.html"><a href="/mainmenu/airquality_menu_e.html" tabindex="9">Air Quality</a></li>
+               <li data-href="https://www.canada.ca/en/environment-climate-change/services/ice-forecasts-observations/latest-conditions.html"><a href="https://www.canada.ca/en/environment-climate-change/services/ice-forecasts-observations/latest-conditions.html" tabindex="9">Canadian Ice Service</a></li>
+               <li data-href="/saisons/index_e.html"><a href="/saisons/index_e.html" tabindex="9">Seasonal forecasts</a></li>
+               <li data-href="/forecast/public_bulletins_e.html"><a href="/forecast/public_bulletins_e.html" tabindex="9">Extended forecast</a></li>
+               <li data-href="/warnings/index_e.html"><a href="/warnings/index_e.html" tabindex="9">Public Alerts - Canada</a></li>
+               <li data-href="/lightning/index_e.html"><a href="/lightning/index_e.html" tabindex="9">Lightning</a></li>
+               <li data-href="/hurricane/index_e.html"><a href="/hurricane/index_e.html" tabindex="9">Hurricane</a></li>
+               <li data-href="/warnings/weathersummaries_e.html"><a href="/warnings/weathersummaries_e.html" tabindex="9">Weather Summaries</a></li>
+               <li data-href="https://www.canada.ca/en/environment-climate-change/services/seasonal-weather-hazards.html"><a href="https://www.canada.ca/en/environment-climate-change/services/seasonal-weather-hazards.html" tabindex="9">Hazardous Weather</a></li>
+               <li data-href="/model_forecast/model_e.html"><a href="/model_forecast/model_e.html" tabindex="9">Global and Regional forecast models</a></li>
+               <li data-href="/astro/index_e.html"><a href="/astro/index_e.html" tabindex="9">Astronomy</a></li>
+               <li data-href="https://www.canada.ca/en/environment-climate-change/services/water-overview/quantity/monitoring/survey.html"><a href="https://www.canada.ca/en/environment-climate-change/services/water-overview/quantity/monitoring/survey.html" tabindex="9">Water Level and Flow</a></li>
+               <li data-href="http://climate.weather.gc.ca/index_e.html"><a href="http://climate.weather.gc.ca/index_e.html" tabindex="9">Historical Climate Data</a></li>
+               <li data-href="https://flightplanning.navcanada.ca/cgi-bin/CreePage.pl?Langue=anglais&amp;NoSession=NS_Inconnu&amp;Page=forecast-observation&amp;TypeDoc=html"><a href="https://flightplanning.navcanada.ca/cgi-bin/CreePage.pl?Langue=anglais&amp;NoSession=NS_Inconnu&amp;Page=forecast-observation&amp;TypeDoc=html" tabindex="9">Aviation</a></li>
+               <li data-href="https://www.canada.ca/en/environment-climate-change/services/types-weather-forecasts-use/public/guide.html"><a href="https://www.canada.ca/en/environment-climate-change/services/types-weather-forecasts-use/public/guide.html" tabindex="9">Guide to Public forecasts</a></li>
+               <li data-href="https://www.canada.ca/en/environment-climate-change/services/general-marine-weather-information/publications/guide-forecasts.html"><a href="https://www.canada.ca/en/environment-climate-change/services/general-marine-weather-information/publications/guide-forecasts.html" tabindex="9">Guide to Marine forecasts</a></li>
+               <li data-href="https://www.canada.ca/en/environment-climate-change/services/weather-health/publications/guide-air-quality-index-forecasts.html"><a href="https://www.canada.ca/en/environment-climate-change/services/weather-health/publications/guide-air-quality-index-forecasts.html" tabindex="9">Guide to Air Quality forecasts</a></li>
+		<li data-href="https://climate-change.canada.ca/climate-library"><a href="https://climate-change.canada.ca/climate-library" tabindex="9">Canadian Centre for Climate Services Library</a></li>	 
+		<li data-href="/windchill/wind_chill_e.html"><a href="/windchill/wind_chill_e.html" tabindex="9">Wind Chill and Humidex Calculators</a></li>
+           </ul>
+ <div id="favourites-add" class="hidden">
+               <div class="panel panel-default">
+                  <div class="panel-body favourites-body">
+                     <div>
+                        <span class="glyphicon glyphicon-star float-left" aria-hidden="true"></span>
+                        <h6>&#160;Add this page</h6>
+                     </div>
+                     <div class="clearfix"></div>
+                     <div class="favourites-add-body">
+                        <label class="float-left">Name</label>
+                        <input type="text" id="favourites-text-name" class="favourites-add-text" maxlength="50" tabindex="9" />
+                     </div>
+                     <div class="clearfix"></div>
+                     <button type="button" id="favourites-btn-save" class="btn btn-sm btn-default pull-left" tabindex="9">Save</button>
+                     <button type="button" id="favourites-btn-cancel" class="btn btn-sm btn-default pull-right" tabindex="9">Cancel</button>
+                  </div>
+               </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+               <button type="button" id="favourites-btn-rename" class="btn btn-sm btn-default hidden" disabled="disabled" tabindex="9">Rename</button>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+               <button type="button" id="favourites-btn-delete" class="btn btn-sm btn-danger hidden" disabled="disabled" tabindex="9">Delete</button>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+               <button type="button" id="favourites-btn-close" class="btn btn-sm btn-default hidden" tabindex="9">Close</button>
+            </div>
+            <div id="favourites-dlg-samename" class="popup-modal">
+               <div class="popup-modal-div">
+                  <div class="popup-modal-header">
+                     <span class="popup-modal-close pull-right" tabindex="8">&#xd7;</span>
+                     <h5 class="popup-modal-header-text" tabindex="8">Add to shortcuts</h5>
+                     <div class="clearfix"></div>
+                  </div>
+                  <div class="popup-modal-content">
+                     <p tabindex="8">The name you have entered for the shortcut already exists on your Weather shortcuts menu. Would you like to overwrite it?</p>
+                     <button type="button" class="button-yes btn btn-sm btn-default" tabindex="8">Yes</button>
+                     <button type="button" class="button-no btn btn-sm btn-default pull-right" tabindex="8">No</button>
+                  </div>
+               </div>
+            </div>
+            <div id="favourites-dlg-renamematch" class="popup-modal">
+               <div class="popup-modal-div">
+                  <div class="popup-modal-header">
+                     <span class="popup-modal-close pull-right" tabindex="8">&#xd7;</span>
+                     <h5 class="popup-modal-header-text" tabindex="8">Rename shortcut</h5>
+                     <div class="clearfix"></div>
+                  </div>
+                  <div class="popup-modal-content">
+                     <p tabindex="8">There is already a shortcut with the same name in this list. Do you want to rename &#34;<span id="replace-text1">link</span>&#34; to &#34;<span id="replace-text2">link(2)</span>&#34;?</p>
+                     <button type="button" class="button-yes btn btn-sm btn-default" tabindex="8">Yes</button>
+                     <button type="button" class="button-no btn btn-sm btn-default pull-right" tabindex="8">No</button>
+                  </div>
+               </div>
+            </div>
+            <div id="favourites-dlg-maxreached" class="popup-modal">
+               <div class="popup-modal-div">
+                  <div class="popup-modal-header">
+                     <span class="popup-modal-close pull-right" tabindex="8">&#xd7;</span>
+                     <h5 class="popup-modal-header-text" tabindex="8">Add to shortcuts</h5>
+                     <div class="clearfix"></div>
+                  </div>
+                  <div class="popup-modal-content">
+                     <p tabindex="8">Your shortcut list has reached the maximum size of 30</p>
+                     <button type="button" class="button-close btn btn-sm btn-default" tabindex="8">Close</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+  <section class="panel panel-primary ">
+         <header class="panel-heading">
+            <h5 class="panel-title" tabindex="9">How to use</h5>
+         </header>
+         <div class="panel-body">
+            <div class="mwsbodytext parbase section text">
+               <ul class="list-unstyled">
+                  <li>
+                     <details>
+                        <summary tabindex="9">Add to shortcuts</summary>
+                        <ul class="mrgn-lft-0">
+                           <li class="mrgn-bttm-md">Go to the desired page on the site, open the Weather shortcuts menu and click on the "Add to shortcuts" button</li>
+                           <li class="mrgn-bttm-md">Page name will display in the "Add this page" window, the name can be changed by highlighting the text and entering the desired name. </li>
+                           <li class="mrgn-bttm-md">Click on the "Save" button to add the link to the list</li>
+                           <li class="mrgn-bttm-md">Click on the "X" button to close the panel</li>
+                        </ul>
+                     </details>
+                  </li>
+                  <li>
+                     <details>
+                        <summary tabindex="9">Delete a link</summary>
+                        <ul class="mrgn-lft-0">
+                           <li class="mrgn-bttm-md">Click on the "Organize shortcuts" button</li>
+                           <li class="mrgn-bttm-md">Select the link to delete</li>
+                           <li class="mrgn-bttm-md">Click on the "Delete" button to remove the link from the list</li>
+                           <li class="mrgn-bttm-md">Click on the "Close" button to save the change</li>
+                        </ul>
+                     </details>
+                  </li>
+                  <li>
+                     <details>
+                        <summary tabindex="9">Move a link up/down the list</summary>
+                        <ul class="mrgn-lft-0">
+                           <li class="mrgn-bttm-md">Click on the "Organize shortcuts" button</li>
+                           <li class="mrgn-bttm-md">Click and hold the link and move to new location in the list</li>
+                           <li class="mrgn-bttm-md">Click on the "Close" button to save the change</li>
+                        </ul>
+                      </details>
+                  </li>
+                  <li>
+                     <details>
+                        <summary tabindex="9">Rename a link</summary>
+                        <ul class="mrgn-lft-0">
+                           <li class="mrgn-bttm-md">Click on the "Organize shortcuts" button</li>
+                           <li class="mrgn-bttm-md">Select the link to rename</li>
+                           <li class="mrgn-bttm-md">Click on the "Rename" button and change the link name</li>
+                           <li class="mrgn-bttm-md">Click the enter or tab key</li>
+                           <li class="mrgn-bttm-md">Click on the "Close" button to save the change</li>
+                        </ul>
+                     </details>
+                  </li>
+                  <li>
+                     <details>
+                        <summary tabindex="9">Keyboard navigation</summary>
+                        <ul class="mrgn-lft-0">
+                           <li class="mrgn-bttm-md">Use the <kbd>Tab</kbd> key to move to a button or link</li>
+                           <li class="mrgn-bttm-md">Use the <kbd>Enter</kbd> key to click on buttons or links</li>
+                           <li class="mrgn-bttm-md">Organize shortcuts navigation
+                              <ul class="mrgn-lft-0">
+                                 <li class="mrgn-bttm-md">Use the <kbd><abbr title="Up Arrow">&#x2191;</abbr></kbd> Up key to select the link above. If none are selected, it will select the first link</li>
+                                 <li class="mrgn-bttm-md">Use the <kbd><abbr title="Down Arrow">&#x2193;</abbr></kbd> Down key to select the link below. If none are selected, it will select the last link</li>
+                                 <li class="mrgn-bttm-md">Use the <kbd>Page Up</kbd> key to move a selection up in the list</li>
+                                 <li class="mrgn-bttm-md">Use the <kbd>Page Down</kbd> key to move a selection down in the list</li>
+                              </ul>
+                           </li>
+                        </ul>
+                    </details>
+                  </li>
+                  <li>
+                     <details>
+                        <summary tabindex="9">Restore default list</summary>
+                        <div class="alert alert-warning">
+                          <p><strong>Warning:</strong> Clicking on the button below will remove all your customized links.</p>
+                        </div>
+                        <button type="button" id="favourites-btn-reset" class="btn btn-sm btn-default center-block" tabindex="9">Restore default links</button>
+                    </details>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </section>
+   </div>
+</section>
+<section class="hidden-print"  id="weather-topics">
+   <h2 class="wb-inv">What we are doing</h2>
+    <div class="row wb-eqht">
+      <section class="col-lg-4 col-md-6">
+         <h3 class="wxo-footer-nav">Weather Forecasts</h3>
+         <ul class="mrgn-bttm-lg lst-spcd">
+            <li><a href="/canada_e.html">Canadian Weather</a></li>
+            <li><a href="/radar/index_e.html">Weather Radar - Canada</a></li>
+            <li><a href="/satellite/index_e.html">Satellite - Canada</a></li>
+            <li><a href="/marine/index_e.html">Marine - Canada</a></li>
+            <li><a href="/mainmenu/airquality_menu_e.html">Air Quality</a></li>
+            <li><a href="https://www.canada.ca/en/environment-climate-change/services/ice-forecasts-observations/latest-conditions.html">Canadian Ice Service</a></li>
+            <li><a href="/saisons/index_e.html">Seasonal forecasts</a></li>
+            <li><a href="/forecast/public_bulletins_e.html">Extended forecast</a></li>
+         </ul>
+      </section>
+      <section class="col-lg-4 col-md-6">
+      <h3 class="wxo-footer-nav">Weather Alerts</h3>
+      <ul class="mrgn-bttm-lg lst-spcd">
+            <li><a href="/warnings/index_e.html">Public Alerts - Canada</a></li>
+            <li><a href="/lightning/index_e.html">Lightning</a></li>
+            <li><a href="/hurricane/index_e.html">Hurricane</a></li>
+            <li><a href="/warnings/weathersummaries_e.html">Weather Summaries</a></li>
+            <li><a href="https://www.canada.ca/en/environment-climate-change/services/seasonal-weather-hazards.html">Hazardous Weather</a></li>
+      </ul>
+      </section>
+     <section class="col-lg-4 col-md-6">
+     <h3 class="wxo-footer-nav">Weather Resources</h3>
+      <ul class="mrgn-bttm-lg lst-spcd">
+            <li><a href="/model_forecast/model_e.html">Global and Regional forecast models</a></li>
+            <li><a href="/astro/index_e.html">Astronomy</a></li>
+            <li><a href="https://www.canada.ca/en/environment-climate-change/services/water-overview/quantity/monitoring/survey.html">Water Level and Flow</a></li>
+            <li><a href="http://climate.weather.gc.ca/index_e.html">Historical Climate Data</a></li>
+            <li><a href="https://flightplanning.navcanada.ca/cgi-bin/CreePage.pl?Langue=anglais&amp;NoSession=NS_Inconnu&amp;Page=forecast-observation&amp;TypeDoc=html">Aviation</a></li>
+            <li><a href="https://www.canada.ca/en/environment-climate-change/services/types-weather-forecasts-use/public/guide.html">Guide to Public forecasts</a></li>
+            <li><a href="https://www.canada.ca/en/environment-climate-change/services/general-marine-weather-information/publications/guide-forecasts.html">Guide to Marine forecasts</a></li>
+            <li><a href="https://www.canada.ca/en/environment-climate-change/services/weather-health/publications/guide-air-quality-index-forecasts.html">Guide to Air Quality forecasts</a></li>
+            <li><a href="https://climate-change.canada.ca/climate-library">Canadian Centre for Climate Services Library</a></li>
+            <li><a href="/windchill/wind_chill_e.html">Wind Chill and Humidex Calculators</a></li>
+      </ul>
+      </section>
+   </div>
+</section>
+<section class="gc-prtts"><h2>Features</h2><div class="row"><section class="col-md-12">
+<a rel="external" href="/redirect.php?url=http://www.facebook.com/EnvironmentCanadaWeather/?ref=bookmarks">
+<h3 class="h5">Follow us on Facebook!</h3>
+<img class="img-responsive thumbnail mrgn-bttm-sm" src="/cacheable/images/banners/Logo_FB_360x203-02.png?ver=1557497122" alt="" />
+</a>
+<p>A page for weather lovers! Learn about interesting weather phenomena and get informed about Canada's changing climate.</p></section></div></section><div class="pagedetails">
+   <div class="row">
+      <div class="col-sm-6 col-md-5 col-lg-4">
+         <a href="/mainmenu/contact_us_e.html" class="btn btn-default btn-block"><span class="glyphicon glyphicon-comment mrgn-rght-sm"></span>Feedback<span class="wb-inv"> about this web site</span></a></div>
+      <div class="wb-share col-sm-4 col-md-3 col-sm-offset-2 col-md-offset-4 col-lg-offset-5" data-wb-share='{"lnkClass": "btn btn-default btn-block"}'></div>
+   </div>
+<dl id="wb-dtmd">
+<dt>Date modified:&#32;</dt>
+<dd><time property="dateModified">2019-05-16</time></dd>
+</dl>
+</div>
+</main>
+<footer id="wb-info">
+<div class="landscape">
+<nav class="container wb-navcurr">
+<h2 class="wb-inv">About government</h2>
+<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+<li><a href="/mainmenu/contact_us_e.html">Contact us</a></li>
+<li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
+<li><a href="https://www.canada.ca/en/government/publicservice.html">Public service and military</a></li>
+<li><a href="https://www.canada.ca/en/news.html">News</a></li>
+<li><a href="https://www.canada.ca/en/government/system/laws.html">Treaties, laws and regulations</a></li>
+<li><a href="https://www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
+<li><a href="https://pm.gc.ca/eng">Prime Minister</a></li>
+<li><a href="https://www.canada.ca/en/government/system.html">How government works</a></li>
+<li><a href="https://open.canada.ca/en/">Open government</a></li>
+</ul>
+</nav>
+</div>
+<div class="brand">
+<div class="container">
+<div class="row">
+<nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
+<h2 class="wb-inv">About this site</h2>
+<ul>
+<li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
+<li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
+<li><a href="https://www.canada.ca/en/government/about.html">About Canada.ca</a></li>
+<li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
+<li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+</ul>
+</nav>
+<div class="col-xs-6 visible-sm visible-xs tofpg">
+<a href="#wb-cont">Top of Page <span class="glyphicon glyphicon-chevron-up"></span></a>
+</div>
+<div class="col-xs-6 col-md-3 col-lg-2 text-right">
+<img src="/template/gcweb/v5.0.1/assets/wmms-blk.svg" alt="Symbol of the Government of Canada">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<!--[if gte IE 9 | !IE ]><!-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+<script src="/template/gcweb/v5.0.1/js/wet-boew.min.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script src="/template/gcweb/v5.0.1/js/ie8-wet-boew2.min.js"></script>
+
+<![endif]-->
+<script src="/template/gcweb/v5.0.1/js/theme.min.js"></script>
+
+
+<script src="/v171w/js/city/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="/v171w/js/city/availableTags_e.min.js"></script>
+<script src="/v171w/js/city/cityjump.js"></script>
+<script>
+    document.getElementById("jump").className = "";
+    var max_chars = 50;
+
+    $('#city').keydown( function(e){
+        if ($(this).val().length > max_chars) {
+            $(this).val($(this).val().substr(0, max_chars));
+        }
+    });
+
+    $('#city').keyup( function(e){
+        if ($(this).val().length > max_chars) {
+            $(this).val($(this).val().substr(0, max_chars));
+        }
+    });
+</script>
+<script src="/template/gcweb/v5.0.1/js/deps/jquery.dataTables.min.js"></script>
+<script src="/v171w/js/city/jquery.h5validate.js"></script>
+<script src="/v171w/js/myprofile/mwpa-1.0.min.js"></script>
+<script src="/v171w/js/myprofile/alerts-1.0.min.js"></script>
+<script src="/v171w/js/myprofile/refresher-1.0.min.js"></script>
+<script src="/v171w/js/shared-js/sortable-1.7.min.js"></script>
+<script src="/v171w/js/myprofile/jquery.query-object.js"></script>
+<script src="/v171w/js/shared-js/modals-1.0.min.js"></script>
+<script src="/v171w/js/favourites/favourites-1.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('form').h5Validate({
+            errorClass:'white'
+        });
+    });
+</script>
+<script src="/cacheable/js/responsive/jquery.rwdImageMaps.js"></script>
+<script>
+      $(document).ready(function(e) {
+      $('img[usemap]').rwdImageMaps();
+ 	   });
+</script>
+<script>LANG = "en-CA";</script><script src="/gps/js/translate.js"></script>
+<script src="/gps/js/gps.js"></script>
+<script src="/gps/js/langStrings.js"></script>
+<script src="/gps/js/cityLatLon.js"></script>
+
+<script>
+$(document).ready(function(){
+		    $('#gps-jq').click(function(){
+	       if (!$("#gps-jq" ).hasClass("open"))
+		       getGPSLocation();
+	     });
+ 	});
+</script>
+
+</body>
+</html>

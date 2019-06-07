@@ -1,0 +1,32 @@
+How many turbines would be needed to replace a power station? A large coal-fired power station produces 2000 mw of electrical energy. A wind turbine with 33m blades can produce 300 kw.
+Hello, this is the dispatcher, I’d like to order 1.5 GW of power next month with a 0.5 GW spinning reserve. Can you do it?
+
+Coal: Sure, not a problem, give me a few hours notice to ramp the plant to capacity.
+
+Wind: Seriously! I haven’t a clue. Why are you even asking, I can’t control the weather…
+
+Sorry, you can’t compare wind to coal. They are different monsters. Coal is Dispatchable generation - Wikipedia and can be called upon when needed. Don’t underestimate the importance of a dispatchable source. Without this ability the ship of state is in serious trouble. We can not fail.
+
+Wind is great when it is available. However, for every GW of wind we install, there will be a GW of dispatchable generation to back it up.
+
+The simple answer to your question is 6670 wind turbines with 2 GW of natural gas backup. There is no such thing as a wind and solar farm, we only have solar and wind and gas farms.
+
+If we added storage, the number of wind turbines would be increased as an inverse function of the capacity factor. Assuming a 40% capacity factor, we now need:
+
+[math]6670 * \dfrac{1}{0.4} = 16,675 \ turbines[/math]
+
+That assumes the capacity factor is representative of a typical day. It isn’t. Instead, it’s an average over a long period of time. In reality, there will be consecutive days with no wind. When the wind finally returns we will need to provide power to the load and recharge the storage. The number of turbines is now a function of the number of days required to recharge the storage. The answer is region specific and depends on the aggregate mix of available generation.
+
+Needless to say, it’s a big number. A really big expensive number. Today, we can purchase storage for about $250/kWh.[1] A battery to store 2 days of energy at 2 GW continuous would set you back 24 Billion dollars. Storage doesn’t stand a chance against natural gas.
+
+For a glimpse of the future see: Are all non-conventional sources of energy clean?
+
+Regards,
+
+APDahlen
+
+P.S. 300 kW is a bit small for a modern turbine. See: Vestas | Turbines
+
+Footnotes
+
+[1] Levelized Cost of Storage 2017

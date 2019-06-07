@@ -1,0 +1,30 @@
+Math! How much CO2 is emitted by human on earth annually?
+Another math time! 🙂
+
+And again, it is closely related to GW area.
+
+Currently (as of year 2007), human population on earth is 6.6 billion (via wikipedia). I went around to look for how much CO2 is exhaled out per person, and 2 claims were found (both via wikipedia):
+
+claim#1: an average person’s respiration generates approximately 450 liters (roughly 900 grams) of carbon dioxide per day (CO2#Human_physiology)
+
+I use the standard chemistry textbook theory (standard molar volume) to check this claim, 450L for 900 grams of CO2, and it is tallied. Thus, the amount of CO2 released by human per day is 0.9 kg/day
+
+claim#2: In an average resting adult, the lungs take up about 250ml of oxygen every minute while excreting about 200ml of carbon dioxide. (Respiratory_system)
+
+So, 200 ml per minute and thus 200 ml x 60 X 24 = 288L Or equivalent to 565.36g/per day = 0.565 kg/day (after divide with standard molar volume constant and times with CO2 molar weight). Apparently claim#2 has lower CO2 emission compared to claim#1, but I will use both anyway to show the comparison.
+
+So, if there is 6.6 billion people out there and excreting CO2 at the rate of 0.9 or 0.565 kg/day, the total CO2 emission by human alone annually is:
+
+claim#1: CO2 emission = 0.90 X 365 x 6 600 000 000
+
+= 2.168 x 10^9 tonnes/year
+
+claim#2: CO2 emission = 0.565 x 365 x 6 600 000 000
+
+= 1.362 x 10^9 tonnes/year
+
+But human activities, through the fossil fuel burning activities, releases 24.136 x 10^9 tonnes per year (via wikipedia).
+
+So, human breathing process contribute to about 8.99% (claim#1) or 5.65% (claim#2) compared to the fuel burning related CO2.
+
+Conclusion? May be stop breathing does not really help in reducing CO2 emission! 😛

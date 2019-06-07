@@ -1,0 +1,243 @@
+
+
+Quora
+
+* * *
+
+Sign In
+
+Wind Turbines
+
+Wind Energy
+
+Turbines
+
+Sustainable Technology
+
+Alternative Energy
+
+Energy (physics)
+
+# How many turbines would be needed to replace a power station? A large coal-
+
+fired power station produces 2000 mw of electrical energy. A wind turbine with
+33m blades can produce 300 kw.
+
+UpdateCancel
+
+ankqrdvhBC ObOyOJ QZzFHVoRrQJmngLOfeb zczSDozZyfCe WEbLVPmViBpHiYrJAearsZ
+
+The must-play city building game of the year.
+
+Develop and advance an empire through historical ages and into the future.
+
+PGlAFSIaaLryjMwve cMNEFenoCwQ heJlaMkHtIG
+OYBfIQaomOCsjrARegpeToNhfJeVmNCFPpvoieJdrFEAecztZKsiTjM.IcINMmJovaMjvmopN
+
+You dismissed this ad.
+
+The feedback you provide will help us show you more relevant content in the
+future.
+
+Undo
+
+### Answer Wiki
+
+4 Answers
+
+![Aaron Dahlen](https://qph.fs.quoracdn.net/main-
+
+thumb-307921979-100-xzonfprnmtoxvqhvyoluitywzckvenzv.jpeg)
+
+Aaron Dahlen, Retired - Military (2018-present)
+
+Updated 10w ago
+
+Updated 10w ago * Author has 1k answers and 1m answer views
+
+Hello, this is the dispatcher, I’d like to order 1.5 GW of power next month
+with a 0.5 GW spinning reserve. Can you do it?
+
+**Coal:** Sure, not a problem, give me a few hours notice to ramp the plant to
+capacity.
+
+**Wind:** Seriously! I haven’t a clue. Why are you even asking, I can’t
+control the weather…
+
+* * *
+
+Sorry, you can’t compare wind to coal. They are different monsters. Coal is
+Dispatchable generation - Wikipedia and can be called upon when needed. Don’t
+underestimate the importance of a dispatchable source. Without this ability
+the ship of state is in serious trouble. We can not fail.
+
+Wind is great when it is available. However, for every GW of wind we install,
+there will be a GW of dispatchable generation to back it up.
+
+* * *
+
+The simple answer to your question is 6670 wind turbines with 2 GW of natural
+gas backup. There is no such thing as a wind and solar farm, we only have
+solar and wind **and** gas farms.
+
+If we added storage, the number of wind turbines would be increased as an
+inverse function of the capacity factor. Assuming a 40% capacity factor, we
+now need:
+
+[math]6670 * \dfrac{1}{0.4} = 16,675 \ turbines[/math]
+
+That assumes the capacity factor is representative of a typical day. It isn’t.
+Instead, it’s an average over a long period of time. In reality, there will be
+consecutive days with no wind. When the wind finally returns we will need to
+provide power to the load and recharge the storage. The number of turbines is
+now a function of the number of days required to recharge the storage. The
+answer is region specific and depends on the aggregate mix of available
+generation.
+
+Needless to say, it’s a big number. A really big expensive number. Today, we
+can purchase storage for about $250/kWh.[1] A battery to store 2 days of
+energy at 2 GW continuous would set you back 24 Billion dollars. Storage
+doesn’t stand a chance against natural gas.
+
+For a glimpse of the future see: Are all non-conventional sources of energy
+clean?
+
+Regards,
+
+APDahlen
+
+P.S. 300 kW is a bit small for a modern turbine. See: Vestas | Turbines
+
+Footnotes
+
+[1] Levelized Cost of Storage 2017
+
+820 views * View 7 Upvoters
+
+pzZrgPRkAoammcCOgoHDntwpMebJdFrmCI PEboyUCXXi
+vOXOkDOouiFjnWcNAlCkbvCDUIylufhBHcneovkWvGNvmoDppL
+
+Why should I use DuckDuckGo instead of Google?
+
+![Gabriel Weinberg](https://qph.fs.quoracdn.net/main-
+
+thumb-1325-100-yulrktvuoxawtlesqjzeqxuxffigkpbc.jpeg)
+
+Gabriel Weinberg, CEO & Founder at DuckDuckGo.com (2008-present)
+
+Updated 34w ago
+
+**#1 — Google tracks you. We don’t.**
+
+You share your most intimate secrets with your search engine without even
+thinking: medical, financial and personal issues, along with all the day to
+day things that make you, well, you. All of that personal information should
+be private, but on Google i...
+
+(Continue Reading)
+
+You dismissed this ad.
+
+The feedback you provide will help us show you more relevant content in the
+future.
+
+Undo
+
+### Related QuestionsMore Answers Below
+
+                
+                                      * How many times must a 1 MW wind turbine rotate to produce 1 MW in just an hour?
+                
+                      * What is the number of wind turbines and/or solar panels required to generate the same amount of power as the average sized coal fired power st...
+                
+                      * How many wind turbines would it take to replace a nuclear power plant?
+                
+                      * How much power does a 1.5kW rated wind turbine produce in a month?
+                
+                      * How much MW does a wind turbine produce?
+                
+
+View more
+
+### Related Questions
+
+                
+                                      * Why is wind turbine a reaction turbine?
+                
+                      * What is generated from a 2 MW Wind turbine?
+                
+                      * How many wind turbines would be needed to power 800 homes? (see details)
+                
+                      * What is the energy that a 1.5 MW turbine will produce in an hour?
+                
+                      * How efficient is a vertical axis wind turbine in comparison to the three blade wind turbine?
+                
+                      * How much power can a wind turbine produce?
+                
+                      * Why is 3 the optimal number of blades on a wind turbine instead of say 5 or more?
+                
+                      * How many wind turbines or solar panels are required to produce the equivalent power of an average coal fired power station? Is this form of re...
+                
+                      * Does a large wind turbine produce more energy than a smaller one rotating at same speed?
+                
+                      * Does a 1.5KW wind turbine produce that much power annually or monthly or is it the power produced per second?
+                
+
+### Related Questions
+
+                
+                                      * How many times must a 1 MW wind turbine rotate to produce 1 MW in just an hour?
+                
+                      * What is the number of wind turbines and/or solar panels required to generate the same amount of power as the average sized coal fired power st...
+                
+                      * How many wind turbines would it take to replace a nuclear power plant?
+                
+                      * How much power does a 1.5kW rated wind turbine produce in a month?
+                
+                      * How much MW does a wind turbine produce?
+                
+                      * Why is wind turbine a reaction turbine?
+                
+                      * What is generated from a 2 MW Wind turbine?
+                
+                      * How many wind turbines would be needed to power 800 homes? (see details)
+                
+                      * What is the energy that a 1.5 MW turbine will produce in an hour?
+                
+                      * How efficient is a vertical axis wind turbine in comparison to the three blade wind turbine?
+                
+
+About * Careers * Privacy * Terms * Contact
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[ v]: View this template _[2019-06-07T01:44:44+0200]:
+2019-06-07T01:44:44+0200_ [2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+_[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200_
+[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+_[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200_ [c.]: circa _[ c.]:
+circa_ [RSS]: Really Simple Syndication _[C.]: Century_ [m.]: married _[FT]:
+Financial Times_ [ _]: required_ [MB]: megabytes _[UV]: Ultraviolet_ [ UV]:
+Ultraviolet _[cf]: confer_ [NG]: National Geographic
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[ v]: View this template
+  *[2019-06-07T01:44:44+0200]: 2019-06-07T01:44:44+0200
+  *[2019-06-07T01:38:28+0200]: 2019-06-07T01:38:28+0200
+  *[2019-06-06T21:52:10+0200]: 2019-06-06T21:52:10+0200
+  *[2019-06-06T21:48:31+0200]: 2019-06-06T21:48:31+0200
+  *[2019-06-06T21:39:49+0200]: 2019-06-06T21:39:49+0200
+  *[c.]: circa
+  *[ c.]: circa
+  *[RSS]: Really Simple Syndication
+  *[C.]: Century
+  *[m.]: married
+  *[FT]: Financial Times
+  *[*]: required
+  *[MB]: megabytes
+  *[UV]: Ultraviolet
+  *[ UV]: Ultraviolet
+  *[cf]: confer
+  *[NG]: National Geographic
+

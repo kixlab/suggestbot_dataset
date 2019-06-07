@@ -1,0 +1,333 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link href="/styles/eia_sitewideF.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="styles/energyfacts.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="styles/energyfactsframe.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="styles/jquery.treeviewM.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="styles/rate_page.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="styles/print.css" type="text/css" media="print"/>
+<link rel="stylesheet" type="text/css" href="/kids/shadowbox/shadowbox.css"/>
+<script type="text/javascript" src="/styles/eia_header.js"></script>
+<script language="JavaScript" src="/styles/eia_footer.js" type="text/javascript"></script>
+<script type="text/javascript" src="/kids/shadowbox/shadowbox.js"></script>
+<script src="js/jquery.treeview.js" type="text/javascript"></script>
+<script src="js/demom.js" type="text/javascript"></script>
+<script src="js/rating_style.js" type="text/javascript"></script>
+
+<title>Where Greenhouse Gases Come From - Energy Explained, Your Guide To Understanding Energy - Energy Information Administration</title>
+
+  <script language="javascript">
+    var selectedTab = "basics-k";
+
+    function showPanel(tab, name)
+    {
+      if (selectedTab)
+      {
+        document.getElementById('tab' + selectedTab).className = 'tabinactive';
+        document.getElementById(selectedTab).className = 'panelinactive';
+      }
+      selectedTab = name;
+      document.getElementById('tab' + selectedTab).className = 'tabactive';
+      document.getElementById(selectedTab).className = 'panelactive';
+      getPrintPage();
+      return false;
+    }
+
+    function getPrintPage()
+    {
+      var x = location.href.search(/index/);
+      if(x == "-1")
+      {
+        document.getElementById('printTab').href = location.href.replace(/\?page/,"print.cfm?page");
+      }
+      else
+      {
+        document.getElementById('printTab').href = location.href.replace(/index/,"print");
+      }
+    }
+
+    var the_tab=0;
+
+    function checkURL()
+    {
+      var all_tabs=document.getElementById("tabs").getElementsByTagName("li");
+      the_tab=location.hash.substring(4);
+      if (the_tab > 0)
+      {
+        the_tab=the_tab - 1;
+      }
+      else
+      {
+        the_tab=0;
+      }
+
+      if (the_tab != "")
+      {
+        showPanel(all_tabs[the_tab].firstChild.href, all_tabs[the_tab].id.substring(3));
+      }
+    }
+
+    function emailPage()
+    {
+      var browser=navigator.appName;
+      var SubjectLine='Take a look at this web page from the Energy Information Administration! ';
+      var BodyText='You can find the web page at: '+top.location.href;
+      var Message='mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText);
+      var MessageIE='mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText);
+      if(browser=="Microsoft Internet Explorer")
+      {
+        document.getElementById("email-this").href=MessageIE;
+      }
+      else
+      {
+        document.getElementById("email-this").href=Message;
+      }
+    }
+
+    function showplace() {
+      var whichpage = location.search;
+      var endurl = whichpage.indexOf("?", 1);
+      if (endurl != -1)
+      {
+        whichpage = "im" + whichpage.substring(6, endurl);
+      }
+      else
+      {
+        whichpage = "im" + whichpage.substring(6);
+      }
+
+//		alert(document.getElementById(whichpage).id);
+
+      if (document.getElementById(whichpage) != null && document.getElementById(whichpage).id == whichpage)
+      {
+        document.getElementById(whichpage).style.display = "inline";
+      }
+
+    }
+
+    Shadowbox.init({
+      language: 'en',
+      players:  ['img', 'iframe'],
+      handleOversize: "resize"
+    });
+
+    window.onload = function(){
+      emailPage();
+      showplace();
+      checkURL();
+      $('.selected').focus();
+    };
+  </script>
+
+
+                    <script>var w=window;if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document;AKSB=w.AKSB||{},AKSB.q=AKSB.q||[],AKSB.mark=AKSB.mark||function(e,_){AKSB.q.push(["mark",e,_||(new Date).getTime()])},AKSB.measure=AKSB.measure||function(e,_,t){AKSB.q.push(["measure",e,_,t||(new Date).getTime()])},AKSB.done=AKSB.done||function(e){AKSB.q.push(["done",e])},AKSB.mark("firstbyte",(new Date).getTime()),AKSB.prof={custid:"421524",ustr:"",originlat:"0",clientrtt:"32",ghostip:"220.90.198.221",ipv6:false,pct:"10",clientip:"192.249.31.87",requestid:"10f9d3f7",region:"4257",protocol:"",blver:14,akM:"dscb",akN:"ae",akTT:"O",akTX:"1",akTI:"10f9d3f7",ai:"269977",ra:"false",pmgn:"",pmgi:"",pmp:"",qc:""},function(e){var _=d.createElement("script");_.async="async",_.src=e;var t=d.getElementsByTagName("script"),t=t[t.length-1];t.parentNode.insertBefore(_,t)}(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")}</script>
+                    </head>
+<body class="home">
+<div id="print-hed"><img src="images/style-images/e-explained_150x75.jpg" alt="Energy Explained"></div>
+   <table width="100%" border="0" align="center" cellpadding="3" id="content">
+      <tr>
+         <td colspan="2" style="padding-bottom: 0px;">
+			    <script language="JavaScript">InsertEIAHeaderCode();</script>
+         <div id="breadcrumbs">
+            <p><a href='http://www.eia.gov/'>Home</a> > <a href='index.cfm'>Energy Explained</a> > <a href='index.cfm?page=environment_home'>Energy and the Environment</a> > Where Greenhouse Gases Come From</p>
+         </div>
+         </td>
+      </tr>
+      <tr>
+         <td id="donotprint">
+         <div class='home-link'><a href='index.cfm'><img src='images/style-images/e-explained-home.jpg' width='220' height='37' alt='Energy Explained - Home'></a></div><div class='menu' id='main'><ul id='navigation'><li> <img src='images/style-images/acpage.png' id='imabout_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=about_home'>What Is Energy?</a><ul><li> <img src='images/style-images/acpage.png' id='imabout_forms_of_energy' class='activepage' style='display:none;' /> <a href='index.cfm?page=about_forms_of_energy'>Forms of Energy</a><li> <img src='images/style-images/acpage.png' id='imabout_sources_of_energy' class='activepage' style='display:none;' /> <a href='index.cfm?page=about_sources_of_energy'>Sources of Energy</a><li> <img src='images/style-images/acpage.png' id='imabout_laws_of_energy' class='activepage' style='display:none;' /> <a href='index.cfm?page=about_laws_of_energy'>Laws of Energy</a></li></ul><li> <img src='images/style-images/acpage.png' id='imabout_energy_units' class='activepage' style='display:none;' /> <a href='index.cfm?page=about_energy_units'>Units and Calculators</a><ul><li> <img src='images/style-images/acpage.png' id='imabout_energy_conversion_calculator' class='activepage' style='display:none;' /> <a href='index.cfm?page=about_energy_conversion_calculator'>Energy Conversion Calculators</a><li> <img src='images/style-images/acpage.png' id='imabout_btu' class='activepage' style='display:none;' /> <a href='index.cfm?page=about_btu'>British Thermal Units (Btu)</a><li> <img src='images/style-images/acpage.png' id='imabout_degree_days' class='activepage' style='display:none;' /> <a href='index.cfm?page=about_degree_days'>Degree-Days</a></li></ul><li> <img src='images/style-images/acpage.png' id='imus_energy_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=us_energy_home'>U.S. Energy Facts</a><ul><li> <img src='images/style-images/acpage.png' id='imus_energy_state' class='activepage' style='display:none;' /> <a href='index.cfm?page=us_energy_state'>State and U.S. Territory Data</a></li></ul><li> <img src='images/style-images/acpage.png' id='imus_energy_use' class='activepage' style='display:none;' /> <a href='index.cfm?page=us_energy_use'>Use of Energy</a><ul><li> <img src='images/style-images/acpage.png' id='imus_energy_industry' class='activepage' style='display:none;' /> <a href='index.cfm?page=us_energy_industry'>In Industry</a><li> <img src='images/style-images/acpage.png' id='imus_energy_transportation' class='activepage' style='display:none;' /> <a href='index.cfm?page=us_energy_transportation'>For Transportation</a><li> <img src='images/style-images/acpage.png' id='imus_energy_homes' class='activepage' style='display:none;' /> <a href='index.cfm?page=us_energy_homes'>In Homes</a><li> <img src='images/style-images/acpage.png' id='imus_energy_commercial' class='activepage' style='display:none;' /> <a href='index.cfm?page=us_energy_commercial'>In Commercial Buildings</a><li> <img src='images/style-images/acpage.png' id='imabout_energy_efficiency' class='activepage' style='display:none;' /> <a href='index.cfm?page=about_energy_efficiency'>Efficiency and Conservation</a></li></ul><li> <img src='images/style-images/acpage.png' id='imenvironment_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=environment_home'>Energy and the Environment</a><ul><li> <img src='images/style-images/acpage.png' id='imenvironment_about_ghg' class='activepage' style='display:none;' /> <a href='index.cfm?page=environment_about_ghg'>Greenhouse Gases</a><li> <img src='images/style-images/acpage.png' id='imenvironment_how_ghg_affect_climate' class='activepage' style='display:none;' /> <a href='index.cfm?page=environment_how_ghg_affect_climate'>Effect on the Climate</a><li> <img src='images/style-images/acpage.png' id='imenvironment_where_ghg_come_from' class='activepage' style='display:none;' /> <a href='index.cfm?page=environment_where_ghg_come_from'>Where Greenhouse Gases Come From</a><li> <img src='images/style-images/acpage.png' id='imenvironment_outlook_for_emissions' class='activepage' style='display:none;' /> <a href='index.cfm?page=environment_outlook_for_emissions'>Outlook for Future Emissions</a><li> <img src='images/style-images/acpage.png' id='imenvironment_recycling' class='activepage' style='display:none;' /> <a href='index.cfm?page=environment_recycling'>Recycling and Energy</a></li></ul><li class='rightnav-split open'> <img src='images/style-images/acpage.png' id='imnonrenewable_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=nonrenewable_home'><b>Nonrenewable Sources</b></a><ul><li> <img src='images/style-images/acpage.png' id='imoil_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=oil_home'>Oil and Petroleum Products</a><ul><li> <img src='images/style-images/acpage.png' id='imoil_refining' class='activepage' style='display:none;' /> <a href='index.cfm?page=oil_refining'>Refining Crude Oil</a><li> <img src='images/style-images/acpage.png' id='imoil_where' class='activepage' style='display:none;' /> <a href='index.cfm?page=oil_where'>Where Our Oil Comes From</a><li> <img src='images/style-images/acpage.png' id='imoil_imports' class='activepage' style='display:none;' /> <a href='index.cfm?page=oil_imports'> &nbsp;&nbsp;&nbsp;&nbsp;Imports and Exports</a><li> <img src='images/style-images/acpage.png' id='imoil_offshore' class='activepage' style='display:none;' /> <a href='index.cfm?page=oil_offshore'> &nbsp;&nbsp;&nbsp;&nbsp;Offshore Oil and Gas</a><li> <img src='images/style-images/acpage.png' id='imoil_use' class='activepage' style='display:none;' /> <a href='index.cfm?page=oil_use'>Use of Oil</a><li> <img src='images/style-images/acpage.png' id='imoil_prices' class='activepage' style='display:none;' /> <a href='index.cfm?page=oil_prices'>Prices and Outlook</a><li> <img src='images/style-images/acpage.png' id='imoil_environment' class='activepage' style='display:none;' /> <a href='index.cfm?page=oil_environment'>Oil and the Environment</a></li></ul><ul><li style='display:block; position: relative; left:16px; max-width:150px;width:150px; margin-top:-6px;'> <img src='images/style-images/acpage.png' id='imgasoline_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=gasoline_home'>Gasoline</a><ul><li> <img src='images/style-images/acpage.png' id='imgasoline_where' class='activepage' style='display:none;' /> <a href='index.cfm?page=gasoline_where'>Where Our Gasoline Comes From</a><li> <img src='images/style-images/acpage.png' id='imgasoline_use' class='activepage' style='display:none;' /> <a href='index.cfm?page=gasoline_use'>Use of Gasoline</a><li> <img src='images/style-images/acpage.png' id='imgasoline_prices' class='activepage' style='display:none;' /> <a href='index.cfm?page=gasoline_prices'>Prices and Outlook</a><ul><li> <img src='images/style-images/acpage.png' id='imgasoline_factors_affecting_prices' class='activepage' style='display:none;' /> <a href='index.cfm?page=gasoline_factors_affecting_prices'>Factors Affecting Gasoline Prices</a><li> <img src='images/style-images/acpage.png' id='imgasoline_regional' class='activepage' style='display:none;' /> <a href='index.cfm?page=gasoline_regional'>Regional Price Differences</a><li> <img src='images/style-images/acpage.png' id='imgasoline_fluctuations' class='activepage' style='display:none;' /> <a href='index.cfm?page=gasoline_fluctuations'>Price Fluctuations</a></li></ul><li> <img src='images/style-images/acpage.png' id='imgasoline_history' class='activepage' style='display:none;' /> <a href='index.cfm?page=gasoline_history'>History of Gasoline</a><li> <img src='images/style-images/acpage.png' id='imgasoline_environment' class='activepage' style='display:none;' /> <a href='index.cfm?page=gasoline_environment'>Gasoline &amp; the Environment</a></li></ul><li style='display:block; position: relative; left:16px; max-width:150px;width:150px;'> <img src='images/style-images/acpage.png' id='imdiesel_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=diesel_home'>Diesel Fuel</a><ul><li> <img src='images/style-images/acpage.png' id='imdiesel_where' class='activepage' style='display:none;' /> <a href='index.cfm?page=diesel_where'>Where Our Diesel Comes From</a><li> <img src='images/style-images/acpage.png' id='imdiesel_use' class='activepage' style='display:none;' /> <a href='index.cfm?page=diesel_use'>Use of Diesel</a><li> <img src='images/style-images/acpage.png' id='imdiesel_prices' class='activepage' style='display:none;' /> <a href='index.cfm?page=diesel_prices'>Prices and Outlook</a><ul><li> <img src='images/style-images/acpage.png' id='imdiesel_factors_affecting_prices' class='activepage' style='display:none;' /> <a href='index.cfm?page=diesel_factors_affecting_prices'>Factors Affecting Diesel Prices</a><li> <img src='images/style-images/acpage.png' id='imdiesel_surcharges' class='activepage' style='display:none;' /> <a href='index.cfm?page=diesel_surcharges'>Diesel Fuel Surcharges</a></li></ul><li> <img src='images/style-images/acpage.png' id='imdiesel_environment' class='activepage' style='display:none;' /> <a href='index.cfm?page=diesel_environment'>Diesel &amp; the Environment</a></li></ul><li style='display:block; position: relative; left:16px; max-width:150px;width:150px;'> <img src='images/style-images/acpage.png' id='imheating_oil_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=heating_oil_home'>Heating Oil</a><ul><li> <img src='images/style-images/acpage.png' id='imheating_oil_where' class='activepage' style='display:none;' /> <a href='index.cfm?page=heating_oil_where'>Where Our Heating Oil Comes From</a><li> <img src='images/style-images/acpage.png' id='imheating_oil_use' class='activepage' style='display:none;' /> <a href='index.cfm?page=heating_oil_use'>Use of Heating Oil</a><li> <img src='images/style-images/acpage.png' id='imheating_oil_prices' class='activepage' style='display:none;' /> <a href='index.cfm?page=heating_oil_prices'>Prices and Outlook</a><ul><li> <img src='images/style-images/acpage.png' id='imheating_oil_factors_affecting_prices' class='activepage' style='display:none;' /> <a href='index.cfm?page=heating_oil_factors_affecting_prices'>Factors Affecting Heating Oil Prices</a></li></ul></li></ul></li></ul></li></ul><ul><li> <img src='images/style-images/acpage.png' id='imhgls_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=hgls_home'>Hydrocarbon Gas Liquids</a><ul><li> <img src='images/style-images/acpage.png' id='imhgls_where' class='activepage' style='display:none;' /> <a href='index.cfm?page=hgls_where'>Where do Hydrocarbon Gas Liquids Come From?</a><li> <img src='images/style-images/acpage.png' id='imhgls_transporting_storing' class='activepage' style='display:none;' /> <a href='index.cfm?page=hgls_transporting_storing'>Transporting and Storing</a><li> <img src='images/style-images/acpage.png' id='imhgls_uses' class='activepage' style='display:none;' /> <a href='index.cfm?page=hgls_uses'>Uses of Hydrocarbon Gas Liquids</a><li> <img src='images/style-images/acpage.png' id='imhgls_imports_exports' class='activepage' style='display:none;' /> <a href='index.cfm?page=hgls_imports_exports'>Imports and Exports</a><li> <img src='images/style-images/acpage.png' id='imhgls_prices' class='activepage' style='display:none;' /> <a href='index.cfm?page=hgls_prices'>Prices</a></li></ul></li></ul><ul><li> <img src='images/style-images/acpage.png' id='imnatural_gas_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=natural_gas_home'>Natural Gas</a><ul><li> <img src='images/style-images/acpage.png' id='imnatural_gas_delivery' class='activepage' style='display:none;' /> <a href='index.cfm?page=natural_gas_delivery'>Delivery and Storage</a><li> <img src='images/style-images/acpage.png' id='imnatural_gas_pipelines' class='activepage' style='display:none;' /> <a href='index.cfm?page=natural_gas_pipelines'> &nbsp;&nbsp;&nbsp;&nbsp;Natural Gas Pipelines</a><li> <img src='images/style-images/acpage.png' id='imnatural_gas_lng' class='activepage' style='display:none;' /> <a href='index.cfm?page=natural_gas_lng'> &nbsp;&nbsp;&nbsp;&nbsp;Liquefied Natural Gas</a><li> <img src='images/style-images/acpage.png' id='imnatural_gas_where' class='activepage' style='display:none;' /> <a href='index.cfm?page=natural_gas_where'>Where Our Natural Gas Comes From</a><li> <img src='images/style-images/acpage.png' id='imnatural_gas_imports' class='activepage' style='display:none;' /> <a href='index.cfm?page=natural_gas_imports'>&nbsp;&nbsp;&nbsp;&nbsp;Imports and Exports</a><br>&nbsp;&nbsp;&nbsp;&nbsp;<em style='line-height:16px;'>Offshore: See Oil</em><li> <img src='images/style-images/acpage.png' id='imnatural_gas_reserves' class='activepage' style='display:none;' /> <a href='index.cfm?page=natural_gas_reserves'>How Much Gas Is Left</a><li> <img src='images/style-images/acpage.png' id='imnatural_gas_use' class='activepage' style='display:none;' /> <a href='index.cfm?page=natural_gas_use'>Use of Natural Gas</a><li> <img src='images/style-images/acpage.png' id='imnatural_gas_prices' class='activepage' style='display:none;' /> <a href='index.cfm?page=natural_gas_prices'>Prices</a><ul><li> <img src='images/style-images/acpage.png' id='imnatural_gas_factors_affecting_prices' class='activepage' style='display:none;' /> <a href='index.cfm?page=natural_gas_factors_affecting_prices'>Factors Affecting Natural Gas Prices</a></li></ul><li> <img src='images/style-images/acpage.png' id='imnatural_gas_environment' class='activepage' style='display:none;' /> <a href='index.cfm?page=natural_gas_environment'>Natural Gas &amp; the Environment</a><li> <img src='images/style-images/acpage.png' id='imnatural_gas_customer_choice' class='activepage' style='display:none;' /> <a href='index.cfm?page=natural_gas_customer_choice'>Customer Choice Programs</a></li></ul><li> <img src='images/style-images/acpage.png' id='imcoal_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=coal_home'>Coal</a><ul><li> <img src='images/style-images/acpage.png' id='imcoal_mining' class='activepage' style='display:none;' /> <a href='index.cfm?page=coal_mining'>Mining and Transportation</a><li> <img src='images/style-images/acpage.png' id='imcoal_where' class='activepage' style='display:none;' /> <a href='index.cfm?page=coal_where'>Where Our Coal Comes From</a><li> <img src='images/style-images/acpage.png' id='imcoal_imports' class='activepage' style='display:none;' /> <a href='index.cfm?page=coal_imports'> &nbsp;&nbsp;&nbsp;&nbsp;Imports and Exports</a><li> <img src='images/style-images/acpage.png' id='imcoal_reserves' class='activepage' style='display:none;' /> <a href='index.cfm?page=coal_reserves'>How Much Coal Is Left</a><li> <img src='images/style-images/acpage.png' id='imcoal_use' class='activepage' style='display:none;' /> <a href='index.cfm?page=coal_use'>Use of Coal</a><li> <img src='images/style-images/acpage.png' id='imcoal_prices' class='activepage' style='display:none;' /> <a href='index.cfm?page=coal_prices'>Prices and Outlook</a><li> <img src='images/style-images/acpage.png' id='imcoal_environment' class='activepage' style='display:none;' /> <a href='index.cfm?page=coal_environment'>Coal &amp;Environment</a></li></ul><li> <img src='images/style-images/acpage.png' id='imnuclear_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=nuclear_home'>Nuclear</a><ul><li> <img src='images/style-images/acpage.png' id='imnuclear_power_plants' class='activepage' style='display:none;' /> <a href='index.cfm?page=nuclear_power_plants'>Nuclear Power Plants</a><li> <img src='images/style-images/acpage.png' id='imnuclear_fuel_cycle' class='activepage' style='display:none;' /> <a href='index.cfm?page=nuclear_fuel_cycle'>The Nuclear Fuel Cycle</a><li> <img src='images/style-images/acpage.png' id='imnuclear_where' class='activepage' style='display:none;' /> <a href='index.cfm?page=nuclear_where'>Where Our Uranium Comes From</a><li> <img src='images/style-images/acpage.png' id='imnuclear_use' class='activepage' style='display:none;' /> <a href='index.cfm?page=nuclear_use'>U.S. Nuclear Industry</a><li> <img src='images/style-images/acpage.png' id='imnuclear_environment' class='activepage' style='display:none;' /> <a href='index.cfm?page=nuclear_environment'>Nuclear Power &amp; the Environment</a></li></ul></li></ul><li class='open'> <img src='images/style-images/acpage.png' id='imrenewable_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=renewable_home'><b>Renewable Sources</b></a><ul><li> <img src='images/style-images/acpage.png' id='imhydropower_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=hydropower_home'>Hydropower</a><ul><li> <img src='images/style-images/acpage.png' id='imhydropower_where' class='activepage' style='display:none;' /> <a href='index.cfm?page=hydropower_where'>Where Hydropower Is Generated</a><li> <img src='images/style-images/acpage.png' id='imhydropower_environment' class='activepage' style='display:none;' /> <a href='index.cfm?page=hydropower_environment'>Hydropower &amp; the Environment</a><li> <img src='images/style-images/acpage.png' id='imhydropower_tidal' class='activepage' style='display:none;' /> <a href='index.cfm?page=hydropower_tidal'>Tidal Power</a><li> <img src='images/style-images/acpage.png' id='imhydropower_wave' class='activepage' style='display:none;' /> <a href='index.cfm?page=hydropower_wave'>Wave Power</a><li> <img src='images/style-images/acpage.png' id='imhydropower_ocean_thermal_energy_conversion' class='activepage' style='display:none;' /> <a href='index.cfm?page=hydropower_ocean_thermal_energy_conversion'>Ocean Thermal Energy Conversion</a></li></ul><li> <img src='images/style-images/acpage.png' id='imbiomass_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=biomass_home'>Biomass</a><ul><li> <img src='images/style-images/acpage.png' id='imbiomass_wood' class='activepage' style='display:none;' /> <a href='index.cfm?page=biomass_wood'>Wood and Wood Waste</a><li> <img src='images/style-images/acpage.png' id='imbiomass_waste_to_energy' class='activepage' style='display:none;' /> <a href='index.cfm?page=biomass_waste_to_energy'>Waste-to-Energy (MSW)</a><li> <img src='images/style-images/acpage.png' id='im' class='activepage' style='display:none;' /> <a href='index.cfm?page='></a><li> <img src='images/style-images/acpage.png' id='imbiomass_biogas' class='activepage' style='display:none;' /> <a href='index.cfm?page=biomass_biogas'>Landfill Gas and Biogas</a><li> <img src='images/style-images/acpage.png' id='imbiomass_environment' class='activepage' style='display:none;' /> <a href='index.cfm?page=biomass_environment'>Biomass &amp; the Environment</a><br><em style='line-height:16px;'>See also: Biofuels</em></li></ul><li> <img src='images/style-images/acpage.png' id='imbiofuel_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=biofuel_home'>Biofuels: Ethanol &amp; Biodiesel</a><ul><li> <img src='images/style-images/acpage.png' id='imbiofuel_ethanol_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=biofuel_ethanol_home'>Ethanol</a><li> <img src='images/style-images/acpage.png' id='imbiofuel_ethanol_use' class='activepage' style='display:none;' /> <a href='index.cfm?page=biofuel_ethanol_use'> &nbsp;&nbsp;&nbsp;&nbsp;Use of Ethanol</a><li> <img src='images/style-images/acpage.png' id='imbiofuel_ethanol_environment' class='activepage' style='display:none;' /> <a href='index.cfm?page=biofuel_ethanol_environment'> &nbsp;&nbsp;&nbsp;&nbsp;Ethanol &amp; the Environment</a><li> <img src='images/style-images/acpage.png' id='imbiofuel_biodiesel_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=biofuel_biodiesel_home'>Biodiesel</a><li> <img src='images/style-images/acpage.png' id='imbiofuel_biodiesel_use' class='activepage' style='display:none;' /> <a href='index.cfm?page=biofuel_biodiesel_use'> &nbsp;&nbsp;&nbsp;&nbsp;Use of Biodiesel</a><li> <img src='images/style-images/acpage.png' id='imbiofuel_biodiesel_environment' class='activepage' style='display:none;' /> <a href='index.cfm?page=biofuel_biodiesel_environment'> &nbsp;&nbsp;&nbsp;&nbsp;Biodiesel &amp; the Environment</a></li></ul><li> <img src='images/style-images/acpage.png' id='imwind_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=wind_home'>Wind</a><ul><li> <img src='images/style-images/acpage.png' id='imwind_electricity_generation' class='activepage' style='display:none;' /> <a href='index.cfm?page=wind_electricity_generation'>Electricity Generation from Wind</a><li> <img src='images/style-images/acpage.png' id='imwind_where' class='activepage' style='display:none;' /> <a href='index.cfm?page=wind_where'>Where Wind Power Is Harnessed</a><li> <img src='images/style-images/acpage.png' id='imwind_types_of_turbines' class='activepage' style='display:none;' /> <a href='index.cfm?page=wind_types_of_turbines'>Types of Wind Turbines</a><li> <img src='images/style-images/acpage.png' id='imwind_history' class='activepage' style='display:none;' /> <a href='index.cfm?page=wind_history'>History of Wind Power</a><li> <img src='images/style-images/acpage.png' id='imwind_environment' class='activepage' style='display:none;' /> <a href='index.cfm?page=wind_environment'>Wind Energy &amp; the Environment</a></li></ul><li> <img src='images/style-images/acpage.png' id='imgeothermal_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=geothermal_home'>Geothermal</a><ul><li> <img src='images/style-images/acpage.png' id='imgeothermal_where' class='activepage' style='display:none;' /> <a href='index.cfm?page=geothermal_where'>Where Geothermal Energy Is Found</a><li> <img src='images/style-images/acpage.png' id='imgeothermal_use' class='activepage' style='display:none;' /> <a href='index.cfm?page=geothermal_use'>Use of Geothermal Energy</a><li> <img src='images/style-images/acpage.png' id='imgeothermal_power_plants' class='activepage' style='display:none;' /> <a href='index.cfm?page=geothermal_power_plants'>Geothermal Power Plants</a><li> <img src='images/style-images/acpage.png' id='imgeothermal_heat_pumps' class='activepage' style='display:none;' /> <a href='index.cfm?page=geothermal_heat_pumps'>Geothermal Heat Pumps</a><li> <img src='images/style-images/acpage.png' id='imgeothermal_environment' class='activepage' style='display:none;' /> <a href='index.cfm?page=geothermal_environment'>Geothermal Energy &amp; the Environment</a></li></ul><li> <img src='images/style-images/acpage.png' id='imsolar_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=solar_home'>Solar</a><ul><li> <img src='images/style-images/acpage.png' id='imsolar_photovoltaics' class='activepage' style='display:none;' /> <a href='index.cfm?page=solar_photovoltaics'>Photovoltaics and Electricity</a><li> <img src='images/style-images/acpage.png' id='imsolar_where' class='activepage' style='display:none;' /> <a href='index.cfm?page=solar_where'>Where Solar Is Found</a><li> <img src='images/style-images/acpage.png' id='imsolar_thermal_power_plants' class='activepage' style='display:none;' /> <a href='index.cfm?page=solar_thermal_power_plants'>Solar Thermal Power Plants</a><li> <img src='images/style-images/acpage.png' id='imsolar_thermal_collectors' class='activepage' style='display:none;' /> <a href='index.cfm?page=solar_thermal_collectors'>Solar Thermal Collectors</a><li> <img src='images/style-images/acpage.png' id='imsolar_environment' class='activepage' style='display:none;' /> <a href='index.cfm?page=solar_environment'>Solar Energy and the Environment</a></li></ul></li></ul><li class='open'> <img src='images/style-images/acpage.png' id='imsecondary_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=secondary_home'><b>Secondary Sources</b></a><ul><li> <img src='images/style-images/acpage.png' id='imelectricity_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=electricity_home'>Electricity</a><ul><li> <img src='images/style-images/acpage.png' id='imelectricity_science' class='activepage' style='display:none;' /> <a href='index.cfm?page=electricity_science'>The Science of Electricity</a><ul><li> <img src='images/style-images/acpage.png' id='imelectricity_magnets' class='activepage' style='display:none;' /> <a href='index.cfm?page=electricity_magnets'>Magnets and Electricity</a><li> <img src='images/style-images/acpage.png' id='imelectricity_batteries' class='activepage' style='display:none;' /> <a href='index.cfm?page=electricity_batteries'>Batteries, Circuits, &amp; Transformers</a><li> <img src='images/style-images/acpage.png' id='imelectricity_measuring' class='activepage' style='display:none;' /> <a href='index.cfm?page=electricity_measuring'>Measuring Electricity</a><li> <img src='images/style-images/acpage.png' id='imelectricity_generating' class='activepage' style='display:none;' /> <a href='index.cfm?page=electricity_generating'>How Electricity Is Generated</a></li></ul><li> <img src='images/style-images/acpage.png' id='imelectricity_in_the_united_states' class='activepage' style='display:none;' /> <a href='index.cfm?page=electricity_in_the_united_states'>Electricity in the U.S.</a><li> <img src='images/style-images/acpage.png' id='imelectricity_delivery' class='activepage' style='display:none;' /> <a href='index.cfm?page=electricity_delivery'>Delivery To Consumers</a><li> <img src='images/style-images/acpage.png' id='imelectricity_use' class='activepage' style='display:none;' /> <a href='index.cfm?page=electricity_use'>Use of Electricity</a><li> <img src='images/style-images/acpage.png' id='imelectricity_factors_affecting_prices' class='activepage' style='display:none;' /> <a href='index.cfm?page=electricity_factors_affecting_prices'>Prices and Factors Affecting Prices</a><li> <img src='images/style-images/acpage.png' id='imelectricity_environment' class='activepage' style='display:none;' /> <a href='index.cfm?page=electricity_environment'>Electricity &amp; the Environment</a></li></ul><li> <img src='images/style-images/acpage.png' id='imhydrogen_home' class='activepage' style='display:none;' /> <a href='index.cfm?page=hydrogen_home'>Hydrogen</a><ul><li> <img src='images/style-images/acpage.png' id='imhydrogen_production' class='activepage' style='display:none;' /> <a href='index.cfm?page=hydrogen_production'>Production of Hydrogen</a><li> <img src='images/style-images/acpage.png' id='imhydrogen_use' class='activepage' style='display:none;' /> <a href='index.cfm?page=hydrogen_use'>Use of Hydrogen</a></ul></div>
+             <div id="outreach-image">
+             <a href="/todayinenergy"><img src="/todayinenergy/badges/smt1.png" alt="badge" /></a><br><br>
+             <a href="outreach.cfm" ><img src="images/style-images/outreach.jpg" border="0" alt="Help promote Energy Explained with the outreach toolkit" ></a>
+             </div>
+
+             
+         </td>
+         <td width="735" >
+
+           <div id="page-frame" >
+		         		            <h1 id="pagetitle" style="background-image:url(images/section-headings/environment.jpg);" >
+		            <div class="pgtitle">Where Greenhouse Gases Come From</div>
+		            </h1>
+		                      <div class="main">
+							                   <ul id="tabs">
+                  
+<li class='tabactive' id='tabbasics-k'><a href='#tab1' onMouseDown="return event.returnValue = showPanel(this, 'basics-k');" ><span><b>Basics</b></span></a></li>
+                  </ul>
+
+               <div class="print-email-share" align="right">
+                                  <a href="##" id="printTab" title="Print this page" target="_blank" onMouseOver="getPrintPage();">
+                   <img src="images/style-images/print-this.png" id="print-icon" alt="Print this page icon" width="73" height="28" border="0" align="absmiddle" onMouseOver="document.getElementById('print-icon').src='images/style-images/print-this-over.png';" onMouseOut="document.getElementById('print-icon').src='images/style-images/print-this.png';" title="Print this page" style="cursor: pointer;"/></a>
+                 |&nbsp;
+                 <a href="##" title="Email someone about this page" id="email-this">
+                   <img src="images/style-images/email-this.png" id="email-icon" alt="Email this page" width="73" height="28" border="0" align="absmiddle" onMouseOver="document.getElementById('email-icon').src='images/style-images/email-this-over.png';" onMouseOut="document.getElementById('email-icon').src='images/style-images/email-this.png';"/></a>
+                 <noscript>
+                   <a href="mailto:?SUBJECT=Take%20a%20look%20at%20this%20article%20from%20the%20Energy%20Information%20Administration%21" title="Email someone about this page"><img src="images/style-images/email-this.png" alt="Email this page" width="73" height="28" border="0" align="absmiddle"/></a>
+                 </noscript>
+                 &nbsp;|&nbsp;
+                 					<!-- AddThis Bookmark Button BEGIN -->
+					<script type="text/javascript">
+                    addthis_url = location.href;
+                    addthis_title = document.title;
+                    addthis_logo_background = 'EFEFFF';
+                    addthis_logo_color      = '666699';
+                    addthis_options         = 'favorites, facebook, delicious, digg, myspace, google, live, furl, stumbleupon';
+
+                    </script>
+
+					<script type="text/javascript">var addthis_pub = 'Energy Information Administration';</script><script type="text/javascript" src="/energyexplained/js/bookmarks.js"></script>  
+					<!-- AddThis Bookmark Button END -->
+                 <a href="https://www.addthis.com/bookmark.php" onClick="return addthis_sendto()" title="Share this page">
+                   <img src="images/style-images/share-this2.png" id="share-icon" alt="Share this page" width="140" height="28" border="0" align="absmiddle" onMouseOver="document.getElementById('share-icon').src='images/style-images/share-this-over2.png';" onMouseOut="document.getElementById('share-icon').src='images/style-images/share-this2.png';"/></a>
+               </div>
+
+<div class='panelactive' id="basics-k">
+<div class="article-text">
+
+
+
+
+
+<div class="image right" >
+    <a href="/energyexplained/images/charts/greenhouse_gas_emissions_by_gas-large.jpg" class="lightbox">
+  <img alt="A pie chart showing the anthropogenic (gaseous emissions that are the result of human activities) greenhouse gas emissions by gas in 2016. " src="/energyexplained/images/charts/greenhouse_gas_emissions_by_gas-small.jpg" ><div class="image-enlarge">Click to enlarge &raquo;</div></a>
+    <div class="image-caption">
+</div>
+</div>
+
+
+<div class="did-you-know">
+<h4>Did you know?</h4>
+<div class="callout-content">
+<p>In 2016, fossil fuels were the source of about 76% of total U.S. human-caused greenhouse gas emissions.</p>
+</div>
+</div>
+<p>In the United States, most of the emissions of human-caused (anthropogenic) greenhouse gases (GHG) come primarily from burning fossil fuels&mdash;coal, hydrocarbon gas liquids, natural gas, and petroleum&mdash;for energy use. Economic growth (with short-term fluctuations in growth rate) and weather patterns that affect heating and cooling needs are the main factors that drive the amount of energy consumed. Energy prices and government policies can also affect the sources or types of energy consumed.
+</p>
+<h2>Carbon dioxide</h2>
+<p>In 2016, emissions of carbon dioxide (CO2) produced from burning fossil fuels for energy were equal to 76% of total U.S. anthropogenic GHG emissions (based on global warming potential) and about 94% of total U.S. anthropogenic CO2 emissions. Carbon dioxide emissions from other anthropogenic sources and activities were about 5% of total GHG emissions and about 6% of total CO2 emissions.<sup class="footnote-or-source">1</sup></p>
+
+
+<h2>Other greenhouse gases</h2>
+<p>The U.S. and international GHG emissions estimates include several other GHG that are emitted as a result of human activity:</p>
+<ul>
+  <li>Methane (CH4), which  comes from landfills, coal mines, agriculture, and oil and natural gas  operations</li>
+  <li>Nitrous oxide (N2O), which  comes from using nitrogen fertilizers and certain industrial and waste management processes and burning fossil fuels
+  <li>High global warming potential (GWP)  gases, which are human-made industrial gases
+    <ul><li>Hydrofluorocarbons (HFCs) </li>
+  <li>Perfluorocarbons (PFCs) </li>
+  <li>Sulfur hexafluoride (SF6)</li>
+  <li>Nitrogen trifluoride (NF3)</li>
+    </ul>
+  </li>
+</ul>
+<p>The combined emissions of these other greenhouse gases accounted for about 18% of total U.S. anthropogenic GHG emissions in 2016.
+</p>
+
+<h2>The energy connection</h2>
+
+<p>Fossil fuels consist mainly of carbon and hydrogen. When fossil fuels are burned, oxygen combines with carbon to form CO2 and with hydrogen to form water (H2O). These reactions release heat that we use for energy. The amount of CO2 produced depends on the carbon content of the fuel, and the amount of heat produced depends on the carbon and hydrogen content. Because natural gas, which is mostly methane (CH4), has a high hydrogen content, combustion of natural gas produces less CO2 for the same amount of heat produced from burning other fossil fuels. For example, for the same amount of energy produced, burning natural gas produces about half of the amount of CO2 produced by burning coal.</p>
+
+<h2>Nearly half of U.S. energy-related CO2 emissions are from petroleum use</h2>
+
+<p>In 2017, about 45% of U.S. energy-related carbon dioxide emissions came from burning petroleum fuels, 29% came from burning natural gas, and 26% came from burning coal.<sup class="footnote-or-source">2</sup> 
+Although the industrial sector is the largest consumer of energy (including direct fuel use and electricity purchased from the <a href=" /tools/glossary/index.php?id=Electric%20power%20sector">electric power sector</a>), the transportation sector emits more CO2 because of its near complete dependence on petroleum fuels.</p>
+
+<div class="image large" >
+ <img alt="2 pie charts. The first pie chart shows U.S. energy consumption by major fuel/energy sources in 2016: Coal 15%; Non-fossil fuels 19%, natural gas 29%, and petroleum 37%. The second pie chart shows the resulting carbon dioxide emissions by type of fossil fuel: Coal 26%, natural gas 29%, and petroleum 45%."  src="/energyexplained/images/charts/energy_consumption_major_fuel_type-small.jpg"/></div>
+
+
+<p>The residential sector and the commercial sector have lower CO2 emission levels than the transportation sector and the industrial sector. Most of the CO2 emissions associated with energy use by the residential and commercial sectors are from fossil fuel combustion by the electric power sector to produce the electricity that it sells to the residential and commercial sectors.</p>
+
+<div class="image large" >
+<img alt= "2 stacked bar charts: The first showing U.S. energy consumption by end-use sectors in 2016 and the second shwoing resulting carbon dioxide emissions for each sector." src="/energyexplained/images/charts/energy_consumption_use_sector-small.jpg "/></div>
+
+<h2>Coal is the dominant CO2 emissions source related to electricity generation</h2>
+
+<p>In 2017, the electric power sector accounted for about 38% of U.S. primary energy consumption and produced 34% of total U.S. energy-related CO2 emissions. Coal accounted for 69% and natural gas for 29% of electric power sector CO2 emissions. Emissions from burning petroleum fuels and non-biomass waste (mainly plastics) in waste-to-energy power plants and emissions from some types of geothermal power plants accounted for about 2% of power sector CO2 emissions.</p>
+
+<div class="image center" >
+<img alt="2 pie charts. The first pie chart shows the shares of the types of energy consumption by U.S. electric power sector for electricity generation in 2016: Coal 34%; Non-fossil fuels 37%, natural gas 27%, and petroleum 1%. The second pie chart shows the resulting shares of carbon dioxide emissions from consumption of fossil fuels for electricity generation: Coal 68% natural gas 30%, and 1etroleum 3%." src="/energyexplained/images/charts/major_fuel_energy_sources_elec_generation-small.jpg"/></div>
+
+
+
+</div>
+<br/>
+
+
+<p></p>
+<p class="footnote-or-source">
+<sup>1</sup> U.S. Environmental Protection Agency, <a href="https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks-1990-2015"><em>Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990-2015, Executive Summary</em></a>, April 2017.<br>
+<sup>2</sup> U.S. Energy Information Administration, <em>Monthly Energy Review</em>, Environment, April 2017, preliminary data.</p>
+
+
+
+
+
+  
+</div>
+<div class="related-links">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" class="related">
+		<tr>
+<td width="50%" id="donotprint">
+
+<div class="related_topics brdrght">
+<h2>Also on <em>Energy Explained</em></h2>
+<!-- Related Topics -->
+<ul><li><a href='index.cfm?page=environment_how_ghg_affect_climate'>Greenhouse Gases&rsquo; Effect on the Climate</a></li> <li><a href='index.cfm?page=environment_home'>Energy and the Environment</a></li> <li><a href='index.cfm?page=electricity_environment'>Electricity and the Environment</a></li> <li><a href='index.cfm?page=oil_environment'>Oil and the Environment</a></li> <li><a href='index.cfm?page=coal_environment'>Coal and the Environment</a></li></ul>
+<!--/ Related Topics -->
+<h2>FAQs</h2>
+
+<!-- Faqs -->
+
+<ul><li><a href='/tools/faqs/faq.php?id=75&t=11'>What are energy-related carbon dioxide emissions by source and sector for the United States?</a><span class='printonly'> &mdash; /tools/faqs/faq.php?id=75&t=11</span></li><li><a href='/tools/faqs/faq.php?id=77&t=11'>How much of U.S. greenhouse gas emissions are associated with electricity generation?</a><span class='printonly'> &mdash; /tools/faqs/faq.php?id=77&t=11</span></li><li><a href='/tools/faqs/faq.php?id=79&t=11'>What are the energy-related carbon dioxide emissions from fossil fuels for the United States and the world?</a><span class='printonly'> &mdash; /tools/faqs/faq.php?id=79&t=11</span></li><li><a href='/tools/faqs/index.php#environment'>More environment FAQs</a><span class='printonly'> &mdash; /tools/faqs/index.php#environment</span></li></ul>
+
+<!--/ Faqs -->
+
+
+</div>
+
+</td>
+
+<td width="50%">
+<div class="related_other">
+<h2>Learn more</h2>
+<!-- Related Links -->
+<ul><li><a href='/totalenergy/data/monthly/index.php#environment'>Carbon dioxide emissions from U.S. energy consumption</a><span class='printonly'> &mdash; /totalenergy/data/monthly/index.php#environment</span></li><li><a href='https://www.epa.gov/ghgemissions'>Greenhouse Gas (GHG) Emissions</a><span class='printonly'> &mdash; https://www.epa.gov/ghgemissions</span></li><li><a href='https://www.epa.gov/ghgemissions/overview-greenhouse-gases'>Overview of Greenhouse Gases</a><span class='printonly'> &mdash; https://www.epa.gov/ghgemissions/overview-greenhouse-gases</span></li><li><a href='/todayinenergy/index.php?tg=greenhouse%20gases'>Articles on greenhouse gases</a><span class='printonly'> &mdash; /todayinenergy/index.php?tg=greenhouse%20gases</span></li></ul>
+<!--/ Related Links -->
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p style="clear:both;//margin-top:16px;*/"></p>
+
+<div class="updatedDate"><p>Last updated: July 20, 2018</p></div>
+</div>
+
+  </div>
+</div>
+
+
+           <div id="forwardBackwardLinks">
+             <table width="100%">
+               <tr>
+                 <td class="upward-links"><a class="backward-link" href="index.cfm?page=environment_how_ghg_affect_climate">&laquo; Greenhouse Gases&rsquo; Effect on the Climate</a></td>
+                 <td class="downward-links"><a class="forward-link" href="index.cfm?page=environment_outlook_for_emissions">Outlook for Future Emissions &raquo;</a></td>
+               </tr>
+             </table>
+           </div>
+
+         </td>
+      </tr>
+     <tr><td colspan="2" valign="top">
+         <script language="JavaScript" type="text/javascript">InsertEIAFooterCode();</script>
+       </td>
+     </tr>
+   </table>
+<br><br><br><br><br>
+</body>
+</html>
