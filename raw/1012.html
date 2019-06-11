@@ -1,0 +1,795 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="methamphetamine, cocaine, heroin, Arizona, education, precursor, regulation, treatment, services" />
+
+<title>
+	Methamphetamine Overview 
+		: Origin and History 
+   | Methoide
+</title>
+<link rel="Shortcut Icon" href="/favicon.ico" />
+<link rel="stylesheet" href="/styles/blueprint/screen.css" type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="/styles/blueprint/print.css" type="text/css" media="print" />    
+<!--[if IE]><link rel="stylesheet" href="../styles/blueprint/ie.css" type="text/css" media="screen, projection" /><![endif]-->
+<link rel="stylesheet" href="../yui/assets/container.css" type="text/css" />
+<script type="text/javascript" src="../yui/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="../yui/build/dragdrop/dragdrop-min.js"></script>
+<script type="text/javascript" src="../yui/build/container/container-min.js"></script>
+<script type="text/javascript" src="../yui/lightbox/lightbox.js"></script>
+<script type="text/javascript" src="../scripts/utilities.js"></script>
+<script type="text/javascript" src="../scripts/prototype.js"></script>
+<script type="text/javascript">
+	function reportError() {
+		alert("failed");
+	}
+	function getSubTopicSummary(stid) {
+		var url = 'getSubTopicSummary.cfm';
+		var params = 'stid=' + stid;
+		var ajax = new Ajax.Updater({success: ("ST_summary_placeholder")},url,{method: 'get', parameters: params, onFailure: reportError});
+	}
+	function isdefined(variable) {
+    	return (typeof(variable) == "undefined")?  false: true;
+	}
+function togglePlusMinus(id, status) {
+	// alert("hello");
+	var image_plus = document.getElementById("leftNavPlus" + id);
+	var image_minus = document.getElementById("leftNavMinus" + id);
+	if (status == 1) {
+	image_plus.style.display = "none";
+	image_minus.style.display = "block";
+	} else {
+	image_minus.style.display = "none";
+	image_plus.style.display = "block";
+	}
+}
+function subtopicMouseover(stid) {
+	// document.getElementById("subtopicList_" + stid).className="selectedSubTopic";
+}
+function subtopicMouseOut(stid) {
+	// document.getElementById("subtopicList_" + stid).className="none";
+}
+function subtopicClick(stid) {
+	var url = 'getSubTopicContent.cfm';
+	var params = 'stid=' + stid;
+	var ajax = new Ajax.Updater({success: ("ST_content_placeholder")},url,{method: 'get', parameters: params, onFailure: reportError});
+	document.getElementById("subtopicList_" + stid).className="selectedSubTopic";
+}
+
+function readCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	}
+	return null;
+	}
+	var currMTID = readCookie("currMTID");
+	if (currMTID != null) {
+			window.onload = function(){getSubTopics(currMTID);}
+}
+	
+function resize(){  
+	var frame = document.getElementById("page_3Col");  
+	var htmlheight = document.body.parentNode.scrollHeight;  
+	var windowheight = window.innerHeight;  
+	if ( htmlheight < windowheight ) { document.body.style.height = windowheight + "px"; frame.style.height = windowheight + "px"; }  
+	else { document.body.style.height = htmlheight + "px"; frame.style.height = htmlheight + "px"; }  
+} 
+
+init = function(){
+	/**
+	 * Format:
+	 * Image_ID : {url : 'point_to_original_image', title: 'optional title'}
+	 */
+	 var dataSource = {
+		
+            	image403:{url:"../images/big/mthM1T1S1_BenzInhaler.jpg", title: 'BenzInhaler'} 
+	 };
+	 /**
+	  * imageBase: tell lightbox where to find images need to render the ui
+	  *            this usual located in the same folder as the Lightbox.js
+	  * dataSource: a JavaScript object contains a list of images that
+	                we are going to attach the lightbox to
+	  */
+	 var lightbox = new YAHOO.com.thecodecentral.Lightbox({
+	 	imageBase:'/yui/lightbox',
+	 	dataSource: dataSource
+	 });
+}
+YAHOO.util.Event.on(window, 'load', init);
+</script></head>
+
+<body onload="resize(); ">
+<div class="container">
+	<div id="ua_banner">
+    <a href="http://www.arizona.edu"><img src="/images/page_design/UA_A-line-css_BLU.gif" alt="The University of Arizona" width="370" height="42" /></a>
+</div>
+
+<div id="header">
+    <div id="logos">
+        <a href="http://methoide.fcm.arizona.edu/"><img src="/images/page_design/content_bg_motif_methoide_logo_TEST.jpg" alt="MethOIDE - methamphetamine and other illicit drug education" width="307" height="83" id="methoide_logo" /></a><a href="http://www.fcm.arizona.edu/"><img src="/images/page_design/content_bg_motif_fcm_logo.jpg" alt="FCM - Family and Community Medicine" width="84" height="52" id="fcm_logo" /></a>
+    </div>
+    <div id="navigation" class="span-10 push-9 last">
+        <ul>
+            <li><a href="/index.cfm" class="home">Home</a></li>
+            <li><a href="/infocenter/index.cfm" class="infoCenter">Info Center</a></li>
+          	<li><a href="/registration.cfm" class="courses">CE/CME Courses</a></li>
+          	<li><a href="/policyResearch.cfm" class="policyResearch" title="Under construction">Policy Research</a></li>
+          <li><a href="/reports/index.cfm" class="dataReports">Data Reports</a></li>
+      </ul>
+    </div>
+</div>
+
+    <div id="page_3Col">
+    	<div id="space" style="background:#fff; height:6px;">&nbsp;</div>
+        
+        <div id="leftColumn" class="span-4">
+            <ul id="nav-Categories">
+				
+
+            <li class="greenBGImage" style="cursor:pointer;"><span onclick="Element.toggle('nav-MainTopics10');"><strong>History, Pharmacology, and Prevalence</strong></span>
+                
+                	<ul id="nav-MainTopics10" >
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus36" onClick="togglePlusMinus(36, 1);
+Element.toggle('nav-SubTopics36');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Methamphetamine Overview
+                        </span>
+                        
+                        <span id="leftNavMinus36" onClick="togglePlusMinus(36, 0);
+Element.toggle('nav-SubTopics36');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Methamphetamine Overview
+                        </span>
+                        
+                    		<ul id="nav-SubTopics36" >
+                                    
+                                <li class="selectedSubTopic"><a href="index.cfm?stid=164">Origin and History</a></li>
+                                <li ><a href="index.cfm?stid=165">Chemistry</a></li>
+                                <li ><a href="index.cfm?stid=166">Pharmacology</a></li>
+                                <li ><a href="index.cfm?stid=167">Prevalence</a></li>
+                            </ul>
+                        </li>
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus37" onClick="togglePlusMinus(37, 1);
+Element.toggle('nav-SubTopics37');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Cocaine Overview
+                        </span>
+                        
+                        <span id="leftNavMinus37" onClick="togglePlusMinus(37, 0);
+Element.toggle('nav-SubTopics37');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Cocaine Overview
+                        </span>
+                        
+                    		<ul id="nav-SubTopics37" style="display:none;">
+                                    
+                                <li ><a href="index.cfm?stid=168">Origin and History</a></li>
+                                <li ><a href="index.cfm?stid=169">Chemistry</a></li>
+                                <li ><a href="index.cfm?stid=170">Pharmacology</a></li>
+                                <li ><a href="index.cfm?stid=171">Prevalence</a></li>
+                            </ul>
+                        </li>
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus38" onClick="togglePlusMinus(38, 1);
+Element.toggle('nav-SubTopics38');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Differences between Stimulants
+                        </span>
+                        
+                        <span id="leftNavMinus38" onClick="togglePlusMinus(38, 0);
+Element.toggle('nav-SubTopics38');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Differences between Stimulants
+                        </span>
+                        
+                    		<ul id="nav-SubTopics38" style="display:none;">
+                                    
+                                <li ><a href="index.cfm?stid=172">Methamphetamine and Amphetamines </a></li>
+                                <li ><a href="index.cfm?stid=173">Methamphetamine and Cocaine</a></li>
+                            </ul>
+                        </li>
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus39" onClick="togglePlusMinus(39, 1);
+Element.toggle('nav-SubTopics39');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Heroin Overview
+                        </span>
+                        
+                        <span id="leftNavMinus39" onClick="togglePlusMinus(39, 0);
+Element.toggle('nav-SubTopics39');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Heroin Overview
+                        </span>
+                        
+                    		<ul id="nav-SubTopics39" style="display:none;">
+                                    
+                                <li ><a href="index.cfm?stid=174">Origin and History</a></li>
+                                <li ><a href="index.cfm?stid=175">Chemistry</a></li>
+                                <li ><a href="index.cfm?stid=176">Pharmacology</a></li>
+                                <li ><a href="index.cfm?stid=177">Prevalence</a></li>
+                            </ul>
+                        </li>
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus40" onClick="togglePlusMinus(40, 1);
+Element.toggle('nav-SubTopics40');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Overview of Various Other Illicit Drugs
+                        </span>
+                        
+                        <span id="leftNavMinus40" onClick="togglePlusMinus(40, 0);
+Element.toggle('nav-SubTopics40');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Overview of Various Other Illicit Drugs
+                        </span>
+                        
+                    		<ul id="nav-SubTopics40" style="display:none;">
+                                    
+                                <li ><a href="index.cfm?stid=178">Lysergic Acid Diethylamide (LSD)</a></li>
+                                <li ><a href="index.cfm?stid=179">Marijuana</a></li>
+                                <li ><a href="index.cfm?stid=180">MDMA (Ecstasy)</a></li>
+                                <li ><a href="index.cfm?stid=181">Phencyclidine (PCP)</a></li>
+                                <li ><a href="index.cfm?stid=182">Ketamine</a></li>
+                                <li ><a href="index.cfm?stid=183">Gamma Hydroxybutyric Acid (GHB) </a></li>
+                                <li ><a href="index.cfm?stid=184">Rohypnol</a></li>
+                            </ul>
+                        </li>
+                    
+                    </ul>
+                     
+                </li>    
+				
+
+            <li class="greenBGImage" style="cursor:pointer;"><span onclick="Element.toggle('nav-MainTopics11');"><strong>Clandestine Labs and Forms of Methamphetamine</strong></span>
+                
+                	<ul id="nav-MainTopics11" style="display:none;">
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus41" onClick="togglePlusMinus(41, 1);
+Element.toggle('nav-SubTopics41');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Clandestine Drug Labs
+                        </span>
+                        
+                        <span id="leftNavMinus41" onClick="togglePlusMinus(41, 0);
+Element.toggle('nav-SubTopics41');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Clandestine Drug Labs
+                        </span>
+                        
+                    		<ul id="nav-SubTopics41" style="display:none;">
+                                    
+                                <li ><a href="index.cfm?stid=185">What are Clandestine Labs</a></li>
+                                <li ><a href="index.cfm?stid=186">Prevalence and Location of Clandestine Labs</a></li>
+                                <li ><a href="index.cfm?stid=187">Damage Caused by Clandestine Labs</a></li>
+                                <li ><a href="index.cfm?stid=188">Types of Clandestine Labs</a></li>
+                                <li ><a href="index.cfm?stid=189">Chemicals Used in Clandestine Labs</a></li>
+                                <li ><a href="index.cfm?stid=190">Methods of Production in Clandestine Labs</a></li>
+                                <li ><a href="index.cfm?stid=191">Economic Benefits of Clandestine Labs</a></li>
+                                <li ><a href="index.cfm?stid=192">Signs of Clandestine Labs</a></li>
+                            </ul>
+                        </li>
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus42" onClick="togglePlusMinus(42, 1);
+Element.toggle('nav-SubTopics42');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Forms of Methamphetamine	
+                        </span>
+                        
+                        <span id="leftNavMinus42" onClick="togglePlusMinus(42, 0);
+Element.toggle('nav-SubTopics42');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Forms of Methamphetamine	
+                        </span>
+                        
+                    		<ul id="nav-SubTopics42" style="display:none;">
+                                    
+                                <li ><a href="index.cfm?stid=193">Introduction</a></li>
+                                <li ><a href="index.cfm?stid=194">Ice</a></li>
+                                <li ><a href="index.cfm?stid=195">Powder</a></li>
+                                <li ><a href="index.cfm?stid=196">Liquid</a></li>
+                                <li ><a href="index.cfm?stid=197">Base</a></li>
+                                <li ><a href="index.cfm?stid=198">Tablets</a></li>
+                            </ul>
+                        </li>
+                    
+                    </ul>
+                     
+                </li>    
+				
+
+            <li class="greenBGImage" style="cursor:pointer;"><span onclick="Element.toggle('nav-MainTopics12');"><strong>Levels of Illicit Drug Use and Factors Contributing to Use</strong></span>
+                
+                	<ul id="nav-MainTopics12" style="display:none;">
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus43" onClick="togglePlusMinus(43, 1);
+Element.toggle('nav-SubTopics43');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Levels of Use
+                        </span>
+                        
+                        <span id="leftNavMinus43" onClick="togglePlusMinus(43, 0);
+Element.toggle('nav-SubTopics43');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Levels of Use
+                        </span>
+                        
+                    		<ul id="nav-SubTopics43" style="display:none;">
+                                    
+                                <li ><a href="index.cfm?stid=199">Introduction</a></li>
+                                <li ><a href="index.cfm?stid=200">Illicit Drug Use</a></li>
+                                <li ><a href="index.cfm?stid=201">Drug Use vs. Drug Abuse</a></li>
+                            </ul>
+                        </li>
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus44" onClick="togglePlusMinus(44, 1);
+Element.toggle('nav-SubTopics44');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Levels of Dependency
+                        </span>
+                        
+                        <span id="leftNavMinus44" onClick="togglePlusMinus(44, 0);
+Element.toggle('nav-SubTopics44');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Levels of Dependency
+                        </span>
+                        
+                    		<ul id="nav-SubTopics44" style="display:none;">
+                                    
+                                <li ><a href="index.cfm?stid=202">Introduction</a></li>
+                                <li ><a href="index.cfm?stid=203">Categories of Dependence</a></li>
+                                <li ><a href="index.cfm?stid=204">Distinction between Dependence and Addiction</a></li>
+                            </ul>
+                        </li>
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus45" onClick="togglePlusMinus(45, 1);
+Element.toggle('nav-SubTopics45');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Factors Underlying Use and Abuse	
+                        </span>
+                        
+                        <span id="leftNavMinus45" onClick="togglePlusMinus(45, 0);
+Element.toggle('nav-SubTopics45');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Factors Underlying Use and Abuse	
+                        </span>
+                        
+                    		<ul id="nav-SubTopics45" style="display:none;">
+                                    
+                                <li ><a href="index.cfm?stid=205">Introduction</a></li>
+                                <li ><a href="index.cfm?stid=206">Risk Factors for Initiation/Low Use</a></li>
+                                <li ><a href="index.cfm?stid=207">Risk Factors for Abuse/Addiction</a></li>
+                                <li ><a href="index.cfm?stid=208">Routes of Administration and Drug Dependence</a></li>
+                            </ul>
+                        </li>
+                    
+                    </ul>
+                     
+                </li>    
+				
+
+            <li class="greenBGImage" style="cursor:pointer;"><span onclick="Element.toggle('nav-MainTopics13');"><strong>Health Consequences of Illicit Drug Use</strong></span>
+                
+                	<ul id="nav-MainTopics13" style="display:none;">
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus46" onClick="togglePlusMinus(46, 1);
+Element.toggle('nav-SubTopics46');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Health Effects of Methamphetamine	
+                        </span>
+                        
+                        <span id="leftNavMinus46" onClick="togglePlusMinus(46, 0);
+Element.toggle('nav-SubTopics46');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Health Effects of Methamphetamine	
+                        </span>
+                        
+                    		<ul id="nav-SubTopics46" style="display:none;">
+                                    
+                                <li ><a href="index.cfm?stid=209">General Health Effects</a></li>
+                                <li ><a href="index.cfm?stid=210">Medical Complications</a></li>
+                            </ul>
+                        </li>
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus47" onClick="togglePlusMinus(47, 1);
+Element.toggle('nav-SubTopics47');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Health Effects of Cocaine	
+                        </span>
+                        
+                        <span id="leftNavMinus47" onClick="togglePlusMinus(47, 0);
+Element.toggle('nav-SubTopics47');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Health Effects of Cocaine	
+                        </span>
+                        
+                    		<ul id="nav-SubTopics47" style="display:none;">
+                                    
+                                <li ><a href="index.cfm?stid=211">General Health Effects	</a></li>
+                                <li ><a href="index.cfm?stid=212">Medical Complications</a></li>
+                            </ul>
+                        </li>
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus48" onClick="togglePlusMinus(48, 1);
+Element.toggle('nav-SubTopics48');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Health Effects of Heroin	
+                        </span>
+                        
+                        <span id="leftNavMinus48" onClick="togglePlusMinus(48, 0);
+Element.toggle('nav-SubTopics48');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Health Effects of Heroin	
+                        </span>
+                        
+                    		<ul id="nav-SubTopics48" style="display:none;">
+                                    
+                                <li ><a href="index.cfm?stid=213">General Health Effects</a></li>
+                                <li ><a href="index.cfm?stid=214">Medical Complications</a></li>
+                            </ul>
+                        </li>
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus49" onClick="togglePlusMinus(49, 1);
+Element.toggle('nav-SubTopics49');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Overdose
+                        </span>
+                        
+                        <span id="leftNavMinus49" onClick="togglePlusMinus(49, 0);
+Element.toggle('nav-SubTopics49');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Overdose
+                        </span>
+                        
+                    		<ul id="nav-SubTopics49" style="display:none;">
+                                    
+                                <li ><a href="index.cfm?stid=215">Introduction</a></li>
+                                <li ><a href="index.cfm?stid=216">Methamphetamine Overdose</a></li>
+                                <li ><a href="index.cfm?stid=217">Cocaine Overdose</a></li>
+                                <li ><a href="index.cfm?stid=218">Heroin Overdose</a></li>
+                            </ul>
+                        </li>
+                    
+                    </ul>
+                     
+                </li>    
+				
+
+            <li class="greenBGImage" style="cursor:pointer;"><span onclick="Element.toggle('nav-MainTopics14');"><strong>Treatment Modalities and Treatment Settings for Illicit Drug Abuse</strong></span>
+                
+                	<ul id="nav-MainTopics14" style="display:none;">
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus50" onClick="togglePlusMinus(50, 1);
+Element.toggle('nav-SubTopics50');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Psychosocial Treatment
+                        </span>
+                        
+                        <span id="leftNavMinus50" onClick="togglePlusMinus(50, 0);
+Element.toggle('nav-SubTopics50');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Psychosocial Treatment
+                        </span>
+                        
+                    		<ul id="nav-SubTopics50" style="display:none;">
+                                    
+                                <li ><a href="index.cfm?stid=219">Introduction</a></li>
+                                <li ><a href="index.cfm?stid=220">Motivational Enhancement Therapy (MET)</a></li>
+                                <li ><a href="index.cfm?stid=221">Behavioral Therapy</a></li>
+                                <li ><a href="index.cfm?stid=222">Cognitive Behavioral Therapies (CBTs)</a></li>
+                                <li ><a href="index.cfm?stid=223">Psychodynamic and Interpersonal Therapies</a></li>
+                                <li ><a href="index.cfm?stid=224">Group Therapy</a></li>
+                                <li ><a href="index.cfm?stid=225">Family Therapy</a></li>
+                                <li ><a href="index.cfm?stid=226">Self-Help Groups and 12-Step Oriented Approaches</a></li>
+                                <li ><a href="index.cfm?stid=227">Matrix Model: An Example of Combined Psychosocial Treatments</a></li>
+                            </ul>
+                        </li>
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus51" onClick="togglePlusMinus(51, 1);
+Element.toggle('nav-SubTopics51');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Pharmacological Treatments	
+                        </span>
+                        
+                        <span id="leftNavMinus51" onClick="togglePlusMinus(51, 0);
+Element.toggle('nav-SubTopics51');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Pharmacological Treatments	
+                        </span>
+                        
+                    		<ul id="nav-SubTopics51" style="display:none;">
+                                    
+                                <li ><a href="index.cfm?stid=228">Introduction</a></li>
+                                <li ><a href="index.cfm?stid=229">Opioid Agonist Maintenance Therapies </a></li>
+                                <li ><a href="index.cfm?stid=230">Opioid Antagonists</a></li>
+                                <li ><a href="index.cfm?stid=231">Opioid Treatment Centers and Other Therapies</a></li>
+                            </ul>
+                        </li>
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus52" onClick="togglePlusMinus(52, 1);
+Element.toggle('nav-SubTopics52');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Treatment Settings
+                        </span>
+                        
+                        <span id="leftNavMinus52" onClick="togglePlusMinus(52, 0);
+Element.toggle('nav-SubTopics52');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Treatment Settings
+                        </span>
+                        
+                    		<ul id="nav-SubTopics52" style="display:none;">
+                                    
+                                <li ><a href="index.cfm?stid=232">Introduction</a></li>
+                                <li ><a href="index.cfm?stid=233">Factors that Affect Choice of Treatment Settings</a></li>
+                                <li ><a href="index.cfm?stid=234">Treatment Settings</a></li>
+                            </ul>
+                        </li>
+                    
+                    </ul>
+                     
+                </li>    
+				
+
+            <li class="greenBGImage" style="cursor:pointer;"><span onclick="Element.toggle('nav-MainTopics15');"><strong>Illicit Drug Screening, Brief Intervention, and Treatment Placement</strong></span>
+                
+                	<ul id="nav-MainTopics15" style="display:none;">
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus53" onClick="togglePlusMinus(53, 1);
+Element.toggle('nav-SubTopics53');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Screening in Primary Care Settings
+                        </span>
+                        
+                        <span id="leftNavMinus53" onClick="togglePlusMinus(53, 0);
+Element.toggle('nav-SubTopics53');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Screening in Primary Care Settings
+                        </span>
+                        
+                    		<ul id="nav-SubTopics53" style="display:none;">
+                                    
+                                <li ><a href="index.cfm?stid=235">The Debate</a></li>
+                            </ul>
+                        </li>
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus54" onClick="togglePlusMinus(54, 1);
+Element.toggle('nav-SubTopics54');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Screening Methods
+                        </span>
+                        
+                        <span id="leftNavMinus54" onClick="togglePlusMinus(54, 0);
+Element.toggle('nav-SubTopics54');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Screening Methods
+                        </span>
+                        
+                    		<ul id="nav-SubTopics54" style="display:none;">
+                                    
+                                <li ><a href="index.cfm?stid=236">Introduction</a></li>
+                                <li ><a href="index.cfm?stid=237">Observation/General Indicators</a></li>
+                                <li ><a href="index.cfm?stid=238">Informal Discussion</a></li>
+                                <li ><a href="index.cfm?stid=239">Drug Use Questionnaire Assessment</a></li>
+                                <li ><a href="index.cfm?stid=240">Biological Tests</a></li>
+                            </ul>
+                        </li>
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus55" onClick="togglePlusMinus(55, 1);
+Element.toggle('nav-SubTopics55');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Brief Interventions
+                        </span>
+                        
+                        <span id="leftNavMinus55" onClick="togglePlusMinus(55, 0);
+Element.toggle('nav-SubTopics55');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Brief Interventions
+                        </span>
+                        
+                    		<ul id="nav-SubTopics55" style="display:none;">
+                                    
+                                <li ><a href="index.cfm?stid=241">Introduction</a></li>
+                                <li ><a href="index.cfm?stid=242">FRAMES Model</a></li>
+                                <li ><a href="index.cfm?stid=243">Use of Motivational Interviewing</a></li>
+                                <li ><a href="index.cfm?stid=244">Motivational Interviewing and Stages of Change</a></li>
+                            </ul>
+                        </li>
+                    
+                    	<li>
+                         
+                        <span id="leftNavPlus56" onClick="togglePlusMinus(56, 1);
+Element.toggle('nav-SubTopics56');">
+                        <img src="../images/page_design/left_column_plus_sign.jpg" alt="expand" />
+						Referring Users to Treatment
+                        </span>
+                        
+                        <span id="leftNavMinus56" onClick="togglePlusMinus(56, 0);
+Element.toggle('nav-SubTopics56');" style="display:none;">
+                        <img src="../images/page_design/left_column_minus_sign.jpg" alt="collapse" />
+						Referring Users to Treatment
+                        </span>
+                        
+                    		<ul id="nav-SubTopics56" style="display:none;">
+                                    
+                                <li ><a href="index.cfm?stid=245">Linking Clients to Services in Arizona</a></li>
+                            </ul>
+                        </li>
+                    
+                    </ul>
+                     
+                </li>    
+				
+            </ul>
+        </div>
+        
+		<div id="centerColumn" class="span-10">
+        	
+              
+
+                           
+                <h2><span class="printOnly">History, Pharmacology, and Prevalence<br /> Methamphetamine Overview: </span> Origin and History</h2>
+                
+                <div id="contentSection" class="section"><p>Amphetamine was first synthesized by a Romanian chemist  named Lazar Edeleanu (a.k.a. Edeleano) at the University of Berlin in 1887, but  was not used clinically until Gordon A. Alles re-synthesized the drug in the  1920s for use in medical settings to treat asthma, hayfever, and colds.[1-5]<strong>&nbsp; </strong>In  1932, Smith, Kline, and French Laboratories marketed the first amphetamine  product, an amphetamine-based inhaler (trade name, Benzedrine) to treat nasal  congestion.[6]&nbsp; During the remaining  1930s, amphetamines were promoted by U.S. pharmaceutical companies as  treatments for ailments such as rhinitis and asthma.[1-7]<strong></strong></p><p>Methamphetamine (MA), a variant of amphetamine, was first  synthesized in Japan in 1893 by Nagayoshi Nagai from the precursor chemical  ephedrine.[8-10]&nbsp; MA was not widely used  until World War II (1940s), at which time German, English, American, and  Japanese governments began giving their military personnel the drug to enhance  endurance and alertness and ward off fatigue.[2,6,9,10]&nbsp; (Note: Even today, amphetamines are sometimes  used by the U.S. military.&nbsp; In 2002, U.S. pilots in Afghanistan killed and wounded  Canadian soldiers in &ldquo;friendly fire.&rdquo;&nbsp;  The defending lawyers argued that the pilots&rsquo; use of amphetamines, which  is sanctioned by the Air Force, may have affected the pilots&rsquo; judgment.[6]</p><p>In addition to military usage, Japanese factory workers were  known to use MA to work longer hours.&nbsp;  Post World War II, former Japanese military warehouses had an abundant  amount of the drug in storage and as a result, large quantities of  over-the-counter methamphetamine pills were produced for domestic consumption  by Japanese pharmaceutical companies.&nbsp; It  was in Japan that the first MA epidemic occurred.[1]</p><p>In the U.S.  a prescription was needed to access amphetamines, thus slowing the onset of an  epidemic.&nbsp; Nevertheless, by the 1950s,  the prevalence of amphetamine use was on the rise among civilians, including  groups such as college students, truck drivers, athletes, housewives, and  individuals performing monotonous jobs.[1,11]&nbsp;  By 1959, the FDA banned amphetamine-based inhalers due to increases in  their abuse.[12]&nbsp; However, at the same  time, amphetamine and its various forms were promoted as therapeutic agents for  health problems such as hyperactivity, obesity, narcolepsy, and  depression.&nbsp; In the 1960s, administering  amphetamines, including MA, by intravenous injection gained popularity,  especially among individuals already using illicit drugs.&nbsp; It was this group that may have first used  amphetamines solely for their euphoric effects.[1]</p><p>Most of the amphetamines available at that time were diverted  from pharmaceutical companies.&nbsp; The  Controlled Substance Act of 1970 largely ended that diversion, and thus helped  reduce problems associated with the drug.[13]&nbsp;  All forms of amphetamines were classified as DEA Schedule II drugs in  1971.[6] &nbsp;(Schedule II drugs have an  accepted medical use, high potential for abuse, may lead to psychological or  physical dependence, and are available only by prescription.)&nbsp; Public health efforts that included education  and treatment were also implemented to help address the problems related to  amphetamines.[1]</p><p>Despite these efforts, the use of MA began rising again in  the 1980s, due in large part to production of the drug in clandestine labs.[14]&nbsp; To help counter this resurgence, the federal  government regulated the precursor chemicals&mdash;ephedrine and  pseudoephedrine&mdash;commonly used in the illicit production of MA.[15]&nbsp; These efforts led to substantial temporary  reductions in MA-related problems.[15-17]&nbsp;  However, they also inadvertently helped open the U.S. MA market to  foreign producers, as domestic producers had difficulty obtaining the precursor  chemicals needed to produce the drug.[17-18]&nbsp;  Foreign producers now supply much of the U.S. MA market, and attempts to  bring that production under control have been problematic.[19] </p><p>Street names for MA include crystal, crank, ice, glass, go,  meth, speed, and zoom.</p></div>
+                
+				
+				
+                    <p>&nbsp;</p>
+                    <h3 style="margin-top:20px;">References</h3>
+                    <ul class="noBullets">
+						 
+                         
+                         
+                         <li>(1)<a name="ref_1"></a> Wolkoff DA. Methamphetamine abuse: an overview for health care professionals. Hawaii Medical Journal 1997 Feb;56(2):34-6.</li>
+                         
+                         
+                         
+                         <li>(2)<a name="ref_2"></a> MacKenzie RG, Heischober B. Methamphetamine. Pediatrics in Review 1997 Sep 1;18(9):305-9.</li>
+                         
+                         
+                         
+                         <li>(3)<a name="ref_3"></a> Sulzer D, Mark SS, Poulsen NW, Galli A. Mechanisms of neurotransmitter release by amphetamines: A review. Progress in Neurobiology 2005;75:403-33.</li>
+                         
+                         
+                         
+                         <li>(4)<a name="ref_4"></a> Alles GA. The comparative physiological actions of the DL-B-phenylisopropylamines. I. Pressor effect and toxicity. The Journal of Pharmacology And Experimental Therapeutics 1993;47:339-54.</li>
+                         
+                         
+                         
+                         <li>(5)<a name="ref_5"></a> Edeleano L. Über einige derivative der Phenylmethacrylsaure und der Phenylisobuttersaure. Berl Dtsch Chem Ges 1887;20:616-22.</li>
+                         
+                         
+                         
+                         <li>(6)<a name="ref_6"></a> McGuinness T. Methamphetamine abuse. American Journal of Nursing 2006 Dec;106(12):54-9.</li>
+                         
+                         
+                         
+                         <li>(7)<a name="ref_7"></a> Derlet RW, Heischober B. Methamphetamine. Stimulant of the 1990s? Western Journal of Medicine 1990 Dec;153(6):625-8.</li>
+                         
+                         
+                         
+                         <li>(8)<a name="ref_8"></a> Nagai T, Kamiyama S. Forensic toxicologic analysis of methamphetamine and amphetamine optical isomers by high performance liquid chromatography. International Journal of Legal Medicine 1988 Sep;101(3):151-9.</li>
+                         
+                         
+                         
+                         <li>(9)<a name="ref_9"></a> Lineberry TW. Methamphetamine Abuse: A Perfect Storm of Complications. Mayo Clinic Proceedings 2006 Jan 1;81(1):77-84.</li>
+                         
+                         
+                         
+                         <li>(10)<a name="ref_10"></a> Meredith CW, Jaffe C, Ang-Lee K, Saxon AJ. Implications of Chronic Methamphetamine Use: A Literature Review. Harvard Review of Psychiatry 2005 May;13(3):141-54.</li>
+                         
+                         
+                         
+                         <li>(11)<a name="ref_11"></a> Donaldson M, Goodchild JH. Oral health of the methamphetamine abuser. American Journal of Health-System Pharmacy 2006 Nov 1;63(21):2078-82.</li>
+                         
+                         
+                         
+                         <li>(12)<a name="ref_12"></a> Roll JM, Petry NM, Stitzer ML, Brecht ML, Peirce JM, McCann MJ, et al. Contingency management for the treatment of methamphetamine use disorders. American Journal of Psychiatry 2006 Nov;163(11):1993-9.</li>
+                         
+                         
+                         
+                         <li>(13)<a name="ref_13"></a> Beebe DK, Walley E.  Smokable methamphetamine ('ice'): an old drug in a different form. American Family Physician 1995 Feb 1;51(2):449-53.</li>
+                         
+                         
+                         
+                         <li>(14)<a name="ref_14"></a> Cunningham JK, Thielemeir MA. Amphetamine-Related Emergency Admissions: Trends and Regional Variations in California (1985-1994).  Public Statistics Institute; 1996. </li>
+                         
+                         
+                         
+                         <li>(15)<a name="ref_15"></a> Cunningham JK, Liu LM. Impacts of federal ephedrine and pseudoephedrine regulations on methamphetamine-related hospital admissions.[see comment]. Addiction 2003 Sep;98(9):1229-37.</li>
+                         
+                         
+                         
+                         <li>(16)<a name="ref_16"></a> Cunningham JK, Liu LM. Impacts of federal precursor chemical regulations on methamphetamine arrests. Addiction 2005 Apr;100(4):479-88.</li>
+                         
+                         
+                         
+                         <li>(17)<a name="ref_17"></a> Cunningham JK, Liu LM, Muramoto M. Methamphetamine suppression and route of administration: precursor regulation impacts on snorting, smoking, swallowing and injecting. Addiciton 2008 Apr 16.</li>
+                         
+                         
+                         
+                         <li>(18)<a name="ref_18"></a> Cunningham JK, Liu LM. Impact of methamphetamine precursor legislation, a suppression policy, on the demand for drug treatment. Social Science & Medicine 2008;66:1463-73.</li>
+                         
+                         
+                         
+                         <li>(19)<a name="ref_19"></a> National Drug Intelligence Center. National Drug Threat Assessment 2007. Johnstown, PA; 2006 Oct. </li>
+                         	
+                    </ul>
+                
+        </div>
+        
+        <div id="rightColumn" class="span-3-5 last">
+            
+		
+                    <h3><span class="printOnly bold">Illustrations</span><img src="../images/page_design/illustrations.JPG" alt="Illustrations" /></h3>
+                    <ul>
+                        
+                            <li class="imgThumbnail"><img src="../images/mthM1T1S1_BenzInhaler.jpg" id="image403" title="BenzInhaler" alt=="BenzInhaler"/><div>BenzInhaler</div></li>
+                        
+                    </ul>
+				
+        </div>
+        
+    </div>
+<div id="footer">
+
+</div>
+
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-6060153-2");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

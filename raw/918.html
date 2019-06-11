@@ -1,0 +1,1999 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6 ie oldie" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7 ie oldie" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8 ie oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" version="XHTML+RDFa 1.1"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"> <!--<![endif]-->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <link rel="preconnect" href="https://use.typekit.net" crossorigin="anonymous">
+  <link rel="dns-prefetch" href="//use.typekit.net">
+  <link rel="preconnect" href="https://p.typekit.net">
+  <link rel="dns-prefetch" href="//p.typekit.net">
+  <noscript>
+    <link rel="stylesheet" href="https://use.typekit.net/rvt3xyd.css" crossorigin="anonymous"/>
+  </noscript><link rel='preload' href="https://use.typekit.net/hje6qdq.css" as='style' crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="https://www.cato.org/sites/cato.org/files/favicon_1.ico" type="image/vnd.microsoft.icon" />
+<meta name="publication_date" content="2018/12/19"/><meta name="node_creation_date" content="2018/12/18"/><meta name="site" content="Cato Institute"/><meta name="robots" content="noodp" />
+<link rel="image_src" href="https://object.cato.org/sites/cato.org/files/logos/cato-logo.jpg" />
+<link rel="canonical" href="https://www.cato.org/publications/policy-analysis/how-legalizing-marijuana-securing-border-border-wall-drug-smuggling" />
+<link rel="shortlink" href="https://www.cato.org/node/79918" />
+<meta property="fb:admins" content="5311211" />
+<meta property="fb:app_id" content="158687980817033" />
+<meta property="fb:pages" content="26668999076" />
+<meta property="og:site_name" content="Cato Institute" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="How Legalizing Marijuana Is Securing the Border: The Border Wall, Drug Smuggling, and Lessons for Immigration Policy" />
+<meta property="og:url" content="https://www.cato.org/publications/policy-analysis/how-legalizing-marijuana-securing-border-border-wall-drug-smuggling" />
+<meta property="og:description" content="President Trump has repeatedly cited drug smuggling to justify a border wall. Because it is difficult to conceal, marijuana is the main drug transported between ports of entry where a border wall would matter. However, Border Patrol seizure figures demonstrate that marijuana flows have fallen continuously since 2014, when states began to legalize marijuana. After decades of no progress in reducing marijuana smuggling..." />
+<meta property="og:updated_time" content="2018-12-18T17:28:57-05:00" />
+<meta property="og:image" content="https://object.cato.org/sites/cato.org/files/social-image/pa-860-cover.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@CatoInstitute" />
+<meta name="twitter:url" content="https://www.cato.org/publications/policy-analysis/how-legalizing-marijuana-securing-border-border-wall-drug-smuggling" />
+<meta name="twitter:title" content="How Legalizing Marijuana Is Securing the Border: The Border Wall," />
+<meta name="twitter:description" content="President Trump has repeatedly cited drug smuggling to justify a border wall. Because it is difficult to conceal, marijuana is the main drug transported between ports of entry where a border wall" />
+<meta property="article:published_time" content="2018-12-19T03:00:00-05:00" />
+  <title>How Legalizing Marijuana Is Securing the Border: The Border Wall, Drug Smuggling, and Lessons for Immigration Policy | Cato Institute</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link rel="preconnect" href="https://s3.amazonaws.com">
+  <link rel="preconnect" href="https://use.fontawesome.com">
+  <link rel="preconnect" href="https://customer.cludo.com">
+  <link rel="preconnect" href="https://api.cludo.com">
+  <link rel="dns-prefetch" href="//fonts.gstatic.com">
+  <link rel="dns-prefetch" href="//s3.amazonaws.com">
+  <link rel="dns-prefetch" href="//use.fontawesome.com">
+  <link rel="dns-prefetch" href="//customer.cludo.com">
+  <link rel="dns-prefetch" href="//api.cludo.com">
+  <link rel="preconnect" href="https://api.hubapi.com">
+  <link rel="dns-prefetch" href="//api.hubapi.com">
+  <link rel="preconnect" href="https://track.hubspot.com">
+  <link rel="dns-prefetch" href="//track.hubspot.com">
+  <link rel="preconnect" href="https://connect.facebook.net">
+  <link rel="dns-prefetch" href="//connect.facebook.net">
+  <link rel="preconnect" href="//stats.g.doubleclick.net" />
+  <link rel="dns-prefetch" href="//stats.g.doubleclick.net" />
+  <link rel="preconnect" href="https://hubspot-microservice.cato.org">
+  <link rel="dns-prefetch" href="//hubspot-microservice.cato.org">
+  <link rel="preconnect" href="//www.google-analytics.com" />
+  <link rel="dns-prefetch" href="//www.google-analytics.com" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0">
+  <link rel="preload" href="https://fonts.gstatic.com/s/notoserif/v6/ga6Iaw1J5X9T9RW6j9bNfFcWaDq8fMU.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://fonts.gstatic.com/s/notoserif/v6/ga6Kaw1J5X9T9RW6j9bNfFImajC7XsdBMg.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <style>@font-face{font-family:'Noto Serif';font-display:fallback;font-style:normal;font-weight:400;src:local('Noto Serif'),local('NotoSerif'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Iaw1J5X9T9RW6j9bNfFcWaDq8fMU.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:italic;font-weight:400;src:local('Noto Serif Italic'),local('NotoSerif-Italic'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Kaw1J5X9T9RW6j9bNfFImajC7XsdBMg.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:italic;font-weight:700;src:local('Noto Serif Bold Italic'),local('NotoSerif-BoldItalic'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Vaw1J5X9T9RW6j9bNfFIu0RWuc-VMGIUYDw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:normal;font-weight:700;src:local('Noto Serif Bold'),local('NotoSerif-Bold'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Law1J5X9T9RW6j9bNdOwzfReece9LOoc.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:italic;font-weight:400;src:local('Noto Serif Italic'),local('NotoSerif-Italic'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Kaw1J5X9T9RW6j9bNfFImZDC7XsdBMr8R.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:italic;font-weight:700;src:local('Noto Serif Bold Italic'),local('NotoSerif-BoldItalic'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Vaw1J5X9T9RW6j9bNfFIu0RWufeVMGIUYD6_8.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:normal;font-weight:400;src:local('Noto Serif'),local('NotoSerif'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Iaw1J5X9T9RW6j9bNfFkWaDq8fMVxMw.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:normal;font-weight:700;src:local('Noto Serif Bold'),local('NotoSerif-Bold'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Law1J5X9T9RW6j9bNdOwzfRmece9LOocoDg.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Shadows Into Light Two';font-display:fallback;font-style:normal;font-weight:400;src:local('Shadows Into Light Two'),local('ShadowsIntoLightTwo-Regular'),url(https://fonts.gstatic.com/s/shadowsintolighttwo/v5/4iC86LVlZsRSjQhpWGedwyOoW-0A6_kpsyNmpALHGZFkMFzObw.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Shadows Into Light Two';font-display:fallback;font-style:normal;font-weight:400;src:local('Shadows Into Light Two'),local('ShadowsIntoLightTwo-Regular'),url(https://fonts.gstatic.com/s/shadowsintolighttwo/v5/4iC86LVlZsRSjQhpWGedwyOoW-0A6_kpsyNmpAzHGZFkMFw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}</style>
+  <link href="https://customer.cludo.com/css/templates/v1.1/essentials/cludo-search.min.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/css/css_rEI_5cK_B9hB4So2yZUtr5weuEV3heuAllCDE6XsIkI.css" media="all" />
+<link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/css/css_KjM-vI880FQBOJlLzZAZR9EtGD82yidsxSOC6Lm2IK4.css" media="all" />
+<link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/css/css_Y8UJm3yOW6MfI7_nS6rJiIsG4ELCKJ5jJZYbtMpLmhg.css" media="all" />
+<link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/css/css_FLlu6XpjzE-zvGvoA5H_vHQ3g03UT9BrnfdWxcJMImc.css" media="all" />
+<link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/css/css_zbDR5tReWaOFBxwT24aN7i116Dd56CKV2hhimmcKmWA.css" media="all" />
+  <script defer src="https://use.fontawesome.com/8f74555eb5.js"></script>
+  <!-- Do you want IE to work? -->
+  <!--[if lt IE 9 ]>
+  <script defer src="https://files.cato.org/sites/all/themes/cato/_js/libs/ieshiv.js"></script>
+  <script defer src="https://files.cato.org/sites/all/themes/cato/_js/browser-update.js"></script>
+  <![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-79918 node-type-publications pub-page" >
+<div id="skip-link">
+  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<header id="header" class="header">
+  <div class="wrapper">
+
+    <a href="/" title="Home" rel="home" id="logo" class="hdr-logo">
+      <img src="/sites/cato.org/files/cato-logo_0.png" alt="Home">
+    </a>
+
+    <div id="block-system-main-menu-trigger"><i class="fa fa-bars"></i></div>
+    <div id="main-search-trigger"><i class="fa fa-search"></i></div>
+
+    <!--googleoff: index-->
+    <div class="region region-menu">
+      <div id="block-catomegamenu-catomegamenu"
+           class="block block-catomegamenu main-nav">
+        <div class="content">
+          <div class="item-list">
+            <ul class="menu">
+              <li
+                class="expanded level-1 mega-top-link catomegamenu-research first">
+                <a href="/research">Research</a></li>
+              <li class="expanded level-1 mega-top-link catomegamenu-events"><a
+                  href="/events">Events</a></li>
+              <li
+                class="expanded level-1 mega-top-link catomegamenu-publications">
+                <a
+                  href="/publications">Publications</a></li>
+              <li
+                class="expanded reverse-flyout level-1 mega-top-link catomegamenu-commentary">
+                <a href="/commentary">Commentary</a></li>
+              <li
+                class="expanded reverse-flyout level-1 mega-top-link catomegamenu-store">
+                <a href="http://www.cato.org/store/">Store</a></li>
+              <li
+                class="expanded reverse-flyout level-1 mega-top-link catomegamenu-support last">
+                <a href="/support">Support</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <nav id="block-menu-menu-submenu" class="block block-menu nav-sub">
+        <div class="content">
+          <ul class="menu">
+            <li class="first leaf level-1"><a href="/about">About Cato</a></li>
+            <li class="leaf level-1"><a href="/blog">Blog</a></li>
+            <li class="leaf level-1"><a href="/people/policy-scholars">Our
+                Experts</a>
+            </li>
+            <li class="leaf level-1"><a href="/projects">Our Centers</a></li>
+            <li class="leaf level-1"><a
+                href="https://www.facebook.com/CatoInstitute"
+                rel="me" target="_blank"><i
+                  class="fa fa-facebook-square"></i>Facebook</a></li>
+            <li class="last leaf level-1"><a
+                href="https://twitter.com/catoinstitute"
+                rel="me" target="_blank"><i
+                  class="fa fa-twitter"></i>Twitter</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="block-block-57" class="block block-block hdr-search">
+        <div class="content">
+          <form class="search-form" action="/search"
+                method="get"
+                id="cludo-search-form" accept-charset="UTF-8" target="_self">
+            <div>
+              <div class="container-inline">
+                <h2 class="element-invisible">Search form</h2>
+                <div
+                  class="form-item form-type-searchfield form-item-search-block-form">
+                  <label class="element-invisible"
+                         for="edit-search-block-form--2">Search
+                    this site </label>
+                  <input title="Enter the terms you wish to search for."
+                         class="custom-search-box form-text form-search"
+                         placeholder="Search" type="search"
+                         id="edit-search-block-form--2" name="q" value=""
+                         size="15"
+                         maxlength="128"></div>
+                <div class="form-actions form-wrapper" id="edit-actions"><input
+                    type="submit" id="edit-submit" name="op" value="Search"
+                    class="form-submit"></div></div>
+            </div>
+          </form>
+        </div>
+      </div>
+          </div>
+        <!--googleon: index-->
+
+  </div>
+</header> <!-- /#header -->
+
+<div class="wrapper">
+  <div id="content" role="main">
+
+    
+    <section id="page-area">
+      <a id="main-content"></a>
+                                <div class="tabs">
+          </div>
+                                <div class="region region-content" data-swiftype-index='true'>
+    <div id="block-system-main" class="block block-system">
+
+      
+  <div class="content">
+    <div class="pub-section-head">
+  Policy Analysis  No. 860</div>
+
+<h1 class="page-h1" data-swiftype-name="title" data-swiftype-type="string">How Legalizing Marijuana Is  Securing the Border: The Border Wall, Drug Smuggling, and Lessons for Immigration Policy</h1>
+
+<article about="/publications/policy-analysis/how-legalizing-marijuana-securing-border-border-wall-drug-smuggling" typeof="sioc:Item foaf:Document" class="node-type--publications view-mode--full">
+
+  <footer class="byline">
+          <div id="pub-authors">By 
+  <a href="/people/david-bier" typeof="foaf:Person" property="foaf:name" rel="foaf:publications" html="1">David Bier</a></div>
+        
+  <div class="field-date">
+    <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-12-19T03:00:00-05:00">December 19, 2018</span>  </div>
+  </footer>
+
+  
+  
+  <div class="article-body body-text dropcap-detail-text" data-swiftype-name="body" data-swiftype-type="text">
+    
+  <div class="field-body">
+    <p>President Trump has repeatedly cited drug smuggling to justify a border wall. Because it is difficult to conceal, marijuana is the main drug transported between ports of entry where a border wall would matter. However, Border Patrol seizure figures demonstrate that marijuana flows have fallen continuously since 2014, when states began to legalize marijuana. After decades of no progress in reducing marijuana smuggling, the average Border Patrol agent between ports of entry confiscated 78 percent less marijuana in fiscal year (FY) 2018 than in FY 2013. </p>
+
+<p>As a result, the value of all drugs seized by the average agent has fallen by 70 percent since FY 2013. Without marijuana coming in between ports of entry, drug smuggling activity now primarily occurs at ports of entry, where a border wall would have no effect. In FY 2018, the average inspector at ports of entry made drug seizures that were three times more valuable overall than those made by Border Patrol agents between ports of entry &mdash; a radical change from 2013 when Border Patrol agents averaged more valuable seizures. This is because smugglers bring mainly hard drugs through ports. By weight, the average port inspector seized 8 times more cocaine, 17 times more fentanyl, 23 times more methamphetamine, and 36 times more heroin than the average Border Patrol agent seized at the physical border in early 2018.</p>
+
+<p>Given these trends, a border wall or more Border Patrol agents to stop drugs between ports of entry makes little sense. State marijuana legalization starting in 2014 did more to reduce marijuana smuggling than the doubling of Border Patrol agents or the construction of hundreds of miles of border fencing did from 2003 to 2009. As more states &mdash; particularly on the East Coast &mdash; legalize marijuana in 2019, these trends will only accelerate. The administration should avoid endangering this success and not prosecute state-legal sellers of marijuana. This success also provides a model for addressing illegal immigration. Just as legalization has reduced the incentives to smuggle marijuana illegally, greater legal migration opportunities undercut the incentive to enter illegally. Congress should recognize marijuana legalization’s success and replicate it 
+for immigration.</p>  </div>
+
+    <p><a href="/publications/policy-analysis/how-legalizing-marijuana-securing-border-border-wall-drug-smuggling#full">Continue to full version <i class="fa fa-long-arrow-right"></i></a></p>  </div>
+
+      <div class="pdf-section clearfix">
+      <a href="https://object.cato.org/sites/cato.org/files/pubs/pdf/pa-860-revised.pdf" target="_blank" title=" PDF (841.6 KB)">
+  <div class="field-cover-image">
+    <img typeof="foaf:Image" src="https://object.cato.org/sites/cato.org/files/styles/pdf/s3/pubs/covers/pa-860-cover.png?itok=rOiHTalU" width="410" height="530" alt="" />  </div>
+</a>      <div class="cover-text">
+        <h4 class="page-h2">Downloads</h4><ul class="byline"><li class="pdf first last"><a href="https://object.cato.org/sites/cato.org/files/pubs/pdf/pa-860-revised.pdf"><i class="fa fa-download"></i> PDF (841.6 KB)</a></li>
+</ul>      </div>
+    </div>
+  
+  
+  
+  <a name="full"></a>
+  
+  <div class="field-study-html body-text">
+    <h2>Introduction</h2>
+<p>Cross-border drug smuggling is a primary justification for
+President Trump&#8217;s calls to hire 5,000 additional Border Patrol
+agents and build a massive border wall. However, the evidence
+indicates that legalization of marijuana has more effectively
+controlled the illegal trafficking of marijuana than interdiction
+and enforcement alone. From 2003 to 2009, Border Patrol doubled its
+agents, constructed more than 600 miles of fencing, and introduced
+new surveillance technologies. Despite this, the annual rate of
+marijuana seizures between ports of entry by Border Patrol remained
+unchanged at about its average of 115 pounds per agent through FY
+2013.</p>
+<p>Following the full legalization of marijuana sales in six states
+beginning with Colorado and Washington in FY 2014, the rate of
+seizures by Border Patrol declined 78 percent, from 114 pounds per
+agent in FY 2013 to 25 pounds per agent in FY 2018. Total marijuana
+seizures by all Department of Homeland Security (DHS) agencies
+declined by nearly 2 million pounds from FY 2013 to FY 2017. Other
+drugs have not entirely substituted for this decline in marijuana.
+The street value of all drugs seized by the average agent between
+ports of entry also fell by 70 percent from FY 2013 to FY 2018.</p>
+<p>Today, a border wall would have little effect on the most
+valuable drug smuggling. In FY 2018, the average inspector at ports
+of entry made drug seizures valued at about $71,000, while the
+average Border Patrol agent made seizures valued at just $23,000.
+Moreover, if the goal is to target “hard” drugs, spending resources
+between ports of entry would also be less effective than at ports
+of entry. Excluding interior checkpoints, Border Patrol agents
+between ports of entry accounted for just 8 percent of hard drug
+seizures by value in 2018.</p>
+<p>Marijuana legalization provides a model for dealing with illegal
+border crossers. Legalizing immigration of lesser-skilled workers
+has similarly helped control human smuggling and illegal migration
+more effectively than immigration enforcement alone. During the
+last 60 years, a 10 percent increase in the number of guest worker
+admissions was associated with an almost 9 percent decrease in
+apprehensions per agent. From 1986 to 2017, the number of guest
+worker admissions increased twentyfold, while the number of
+apprehensions per agent declined 97 percent.</p>
+<p>These findings call into question the efficacy and necessity of
+constructing physical barriers and surging additional border agents
+to control the flow of drugs and people <em>between</em> ports of
+entry. Instead, they indicate that a better approach to managing
+human and drug smuggling would be to hire more officers at ports of
+entry, increase legal channels for migration, and legalize
+marijuana nationwide. These alternative strategies have proved more
+effective than enforcement alone.</p>
+<h2>Marijuana Legalization</h2>
+<p>The federal government currently prohibits the production, sale,
+and possession of marijuana (cannabis) by classifying it as a
+Schedule I drug, defined as “drugs with no currently accepted
+medical use and a high potential for abuse.”<sup><a id=
+"endnote-001-backlink" href="#endnote-001">1</a></sup> Despite
+federal prohibition of marijuana, the United States has one of the
+highest use rates in the world, with nearly half of Americans
+reporting that they have consumed it at some point in their
+lives.<sup><a id="endnote-002-backlink" href=
+"#endnote-002">2</a></sup> Almost 36 million Americans used
+marijuana in 2016, and the total marijuana market is valued at
+roughly $56.1 billion.<sup><a id="endnote-003-backlink" href=
+"#endnote-003">3</a></sup></p>
+<p>For decades, state laws complemented federal marijuana
+prohibition with separate state penalties. Starting in 2014,
+however, six states have allowed fully legalized recreational
+marijuana sales for adults for the first time since prohibition
+began in the 1930s (Figure 1).<sup><a id="endnote-004-backlink"
+href="#endnote-004">4</a></sup> Washington and Colorado first
+opened legal dispensaries in 2014. Oregon followed in July 2015,
+Alaska in October 2016, Nevada in July 2017, and California in
+January 2018. Maine and Massachusetts have also voted to legalize
+commercial marijuana sales, though delays in implementing
+regulations and issuing licenses will prevent any sales in those
+states until 2019. In 2018, Michigan voted to legalize recreational
+marijuana, with the first legal sales expected in 2020.<sup><a id=
+"endnote-005-backlink" href="#endnote-005">5</a></sup></p>
+<p><strong>Figure 1: States with legal marijuana
+sales</strong><br></p>
+<div class="infogram-embed" data-id=
+"e1b2f152-96ec-4fd8-836d-f94d09344c17" data-type="interactive"
+data-title="Figure 1: States with legal marijuana sales"></div>
+<script>
+!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script")[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(i)&&(i=d+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var r=e.createElement("script");r.async=1,r.id=s,r.src=i,o.parentNode.insertBefore(r,o)}}(document,0,"infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");
+</script>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+<strong>Source:</strong> National Council of State Legislatures,
+“Marijuana Overview,” November 13, 2018.</p>
+<p>As of September 2018, one in six Americans lived in states with
+legal marijuana, and one in four lived either in or next to states
+with legal marijuana sales.<sup><a id="endnote-006-backlink" href=
+"#endnote-006">6</a></sup> After legal sales open in Michigan,
+Massachusetts, and Maine, nearly one in four will live in states
+with legal sales, and almost two in three will either live in or
+next to those states.</p>
+<p>While state-level legalizations do not prevent federal
+enforcement, the Obama administration adopted a practice &mdash;
+though not an official policy &mdash; of noninterference with
+state-legal marijuana sales.<sup><a id="endnote-007-backlink" href=
+"#endnote-007">7</a></sup> The Trump administration has largely
+followed the prior practice, but former attorney general Jeff
+Sessions did rescind an Obama-era memorandum requiring federal
+district attorneys to consider state legality when determining
+which cases to pursue.<sup><a id="endnote-008-backlink" href=
+"#endnote-008">8</a></sup> District attorneys in Colorado and
+California quickly issued statements stating that the rescission
+would not affect their prosecutorial practices.<sup><a id=
+"endnote-009-backlink" href="#endnote-009">9</a></sup> While
+President Trump has publicly stated his opposition to cracking down
+on legal marijuana, former White House press secretary Sean Spicer
+told reporters to expect “greater enforcement” of marijuana laws,
+and the White House Marijuana Policy Coordination Committee has
+launched a public relations campaign to undermine state
+legalization efforts.<sup><a id="endnote-010-backlink" href=
+"#endnote-010">10</a></sup></p>
+<p>Before the wave of state-level marijuana legalizations, the
+United Nations Office of Drugs and Crime estimated that drug
+smugglers imported two-thirds of all marijuana consumed in the
+United States.<sup><a id="endnote-011-backlink" href=
+"#endnote-011">11</a></sup> A 2010 study estimated that Mexican
+marijuana alone accounted for 40 to 67 percent of all U.S.
+consumption.<sup><a id="endnote-012-backlink" href=
+"#endnote-012">12</a></sup> In 2013, the Drug Enforcement
+Administration (DEA) found that marijuana smuggling “has occurred
+at consistently high levels over the past 10 years, primarily
+across the US-Mexico border.”<sup><a id="endnote-013-backlink"
+href="#endnote-013">13</a></sup></p>
+<p>Legalized markets directly affect the illegal markets for
+marijuana. Not only is it easier to obtain domestically produced
+cannabis today, legal marijuana is also more uniform and of much
+higher quality than the illegal Mexican product.<sup><a id=
+"endnote-014-backlink" href="#endnote-014">14</a></sup> One study
+for the Colorado Department of Revenue found that a “comparison of
+inventory tracking data and consumption estimates signals that
+Colorado&#8217;s preexisting illicit marijuana market for residents and
+visitors has been fully absorbed into the regulated
+market.”<sup><a id="endnote-015-backlink" href=
+"#endnote-015">15</a></sup> Marijuana legally grown in states where
+it is legalized often supplies consumers in states where marijuana
+is still outlawed. In 2014, 44 percent of marijuana sales in Denver
+were to residents of other states.<sup><a id="endnote-016-backlink"
+href="#endnote-016">16</a></sup> The Colorado study found that
+“legal in-state purchases that are consumed out of state” are
+likely occurring.<sup><a id="endnote-017-backlink" href=
+"#endnote-017">17</a></sup> This places further downward pressure
+on prices and has prompted lawsuits by prohibitionist states
+against Colorado.<sup><a id="endnote-018-backlink" href=
+"#endnote-018">18</a></sup></p>
+<p>A prelegalization study estimated that after legalization, it
+would likely be more expensive to smuggle marijuana from Mexico to
+every state in the continental United States except Texas than to
+have it sent from Colorado and Washington.<sup><a id=
+"endnote-019-backlink" href="#endnote-019">19</a></sup> This
+competition appears to be affecting Mexican marijuana prices.
+Mexican growers have reported that marijuana prices in Mexico have
+recently fallen between 50 and 70 percent after U.S.
+legalizations.<sup><a id="endnote-020-backlink" href=
+"#endnote-020">20</a></sup> According to the DEA, <em>overall</em>
+domestic American production has grown because of the new
+state-approved marijuana markets.<sup><a id="endnote-021-backlink"
+href="#endnote-021">21</a></sup> Customs and Border Protection
+(CBP) itself has hypothesized that one explanation for the decline
+could be that “legalization in the United States [h]as reduced
+demand” for Mexican marijuana.<sup><a id="endnote-022-backlink"
+href="#endnote-022">22</a></sup> The fact that some cartels have
+taken to using drug tunnels to smuggle migrants &mdash; who are
+less profitable and more readily identifiable &mdash; is further
+evidence of the effects of legalization.<sup><a id=
+"endnote-023-backlink" href="#endnote-023">23</a></sup></p>
+<h2>Efforts to Combat Drug Smuggling</h2>
+<p>Drug interdiction has a long history in the United States,
+dating back to alcohol prohibition. During the 1920s, the
+interdiction of bootleggers served as a principal justification for
+the creation of the Border Patrol. Labeling them “unscrupulous” and
+their traffic “nefarious,” government reports repeatedly called on
+Congress for more agents, money, and aircraft to interdict
+alcohol.<sup><a id="endnote-024-backlink" href=
+"#endnote-024">24</a></sup> From 1926 to 1934, agents intercepted
+nearly 2 million quarts of liquor.<sup><a id="endnote-025-backlink"
+href="#endnote-025">25</a></sup> Nonetheless, only the end of
+Prohibition brought about the collapse of the bootleg trade, which
+dropped 90 percent from 1930 to 1934 and finally disappeared
+entirely in 1935.</p>
+<p>After alcohol prohibition, smuggling of other prohibited drugs
+has taken over as justification for increasing Border Patrol
+spending. Since 1951, the Border Patrol&#8217;s annual reports have
+highlighted its contributions to the “drive against narcotics,”
+particularly its seizures of Mexican marijuana.<sup><a id=
+"endnote-026-backlink" href="#endnote-026">26</a></sup> While
+Mexico has also prohibited the cultivation of the plant since the
+1920s, the relative lack of enforcement, the good growing climate,
+and the differences in economic development between that country
+and the United States have led Mexico to become the main supplier
+for its northern neighbor.<sup><a id="endnote-027-backlink" href=
+"#endnote-027">27</a></sup> But in 1937, Congress effectively
+banned the sale of marijuana.<sup><a id="endnote-028-backlink"
+href="#endnote-028">28</a></sup></p>
+<p>Today, the Department of Homeland Security (DHS) has the primary
+responsibility for interdicting drug traffickers entering the
+United States. DHS divides its efforts between four agencies: the
+Coast Guard, which patrols the coasts of the United States; the
+Office of Field Operations (OFO), which inspects travelers entering
+legally through ports of entry; Border Patrol, which surveils the
+northern and southern borders; and Air and Marine Operations (AMO),
+which supports Border Patrol&#8217;s efforts between ports of entry with
+aircraft and marine vessels. OFO, Border Patrol, and AMO are all
+divisions of Customs and Border Protection (CBP). Together, these
+four agencies dedicate $4.2 billion annually specifically to drug
+interdiction.<sup><a id="endnote-029-backlink" href=
+"#endnote-029">29</a></sup></p>
+<p>Since 1965, Congress has invested $64 billion to secure the
+border from illegal immigration as well as drug
+smuggling.<sup><a id="endnote-030-backlink" href=
+"#endnote-030">30</a></sup> Some 82 percent of the spending has
+occurred in the last two decades alone. Border Patrol has a force
+of nearly 20,000 agents, a fivefold increase over the level in
+1992.<sup><a id="endnote-031-backlink" href=
+"#endnote-031">31</a></sup> AMO has an expansive fleet of 286
+vessels, 246 aircraft, and 9 unmanned aerial drones designed to
+spot and interdict traffickers.<sup><a id="endnote-032-backlink"
+href="#endnote-032">32</a></sup> Since 2000, Border Patrol has
+constructed nearly 600 miles of border fencing and
+barriers.<sup><a id="endnote-033-backlink" href=
+"#endnote-033">33</a></sup></p>
+<p>In addition, CBP has nearly 1,500 canine teams used to detect
+drugs.<sup><a id="endnote-034-backlink" href=
+"#endnote-034">34</a></sup> The agency has deployed an extensive
+system of surveillance equipment between ports of entry, including
+drones and towers, and adopted new scanners and other technology at
+ports of entry.<sup><a id="endnote-035-backlink" href=
+"#endnote-035">35</a></sup> Despite these purchases, the DHS
+inspector general concluded in 2016 that the department “could not
+ensure its drug interdiction efforts met required national drug
+control outcomes nor accurately assess the impact of the
+approximately $4.2 billion it spends annually on drug control
+activities.”<sup><a id="endnote-036-backlink" href=
+"#endnote-036">36</a></sup> Similarly, none of its spending had any
+noticeable effect on the amount of drug smuggling prior to the
+legalization of marijuana in several states in 2014.</p>
+<p>The White House has proposed several additional measures to
+deter drug smuggling along the border. These measures include a
+southwestern border wall with Mexico, which carries an estimated
+price tag of at least $22 billion to construct.<sup><a id=
+"endnote-037-backlink" href="#endnote-037">37</a></sup> In
+addition, the administration has requested that Congress fund the
+hiring of an additional 5,000 Border Patrol agents to patrol the
+southwest border.<sup><a id="endnote-038-backlink" href=
+"#endnote-038">38</a></sup> President Trump and the White House
+have repeatedly connected these efforts to build a border wall with
+drug smuggling, in particular, the smuggling of opioids like
+fentanyl and heroin.<sup><a id="endnote-039-backlink" href=
+"#endnote-039">39</a></sup></p>
+<h2>Measuring Drug Flows</h2>
+<p>Because illicit marijuana moves in the black market, no
+consistent and reliable data exist on the quantities that smugglers
+bring into the United States each year. The best available proxy
+for estimating <em>changes</em> in the flow is the amount that the
+government seizes at the border. This measure does not provide a
+reliable predictor of the absolute amount being smuggled, but it
+can capture trends in the flow. Although the total amount that
+makes it into the country is likely many times greater than the
+amount that the government seizes, a relationship will exist
+between seizures and inflows that allows an approximation of the
+trends up or down in total flows. In the absence of any other
+changes that significantly improve or hamper the effectiveness of
+smuggling or enforcement, more drug smuggling will generally result
+in greater seizures.</p>
+<p>The main possibility that could make seizures a poor proxy for
+relative flows between years is if the effectiveness of enforcement
+or smuggling is wildly inconsistent, resulting in a wide variance
+in the amounts of drugs that agents discover. For example, if most
+drugs seized at the border came from only a few seizures, or most
+drugs smuggled came from only a few attempts, the amounts could
+fluctuate so widely that they would be worthless in assessing
+changes in the level of smuggling over time.</p>
+<p>But because the marijuana seized crossing the border is spread
+out over many seizures &mdash; more than 12,000 annually &mdash;
+chance is less of a factor in these overall trends.<sup><a id=
+"endnote-040-backlink" href="#endnote-040">40</a></sup> Moreover,
+as seen in Figure 2 in the following section, the amount each agent
+seized was quite consistent before 2014 at an average of 115 pounds
+per year. Prior to legalization, the average year-over-year change
+from 2003 to 2013 was almost zero, compared to 25 percent declines
+from 2014 to 2018 &mdash; greater than one standard deviation
+downward from the prelegalization trend each year.<sup><a id=
+"endnote-041-backlink" href="#endnote-041">41</a></sup> Other data
+stretching back to the early 1990s support the conclusion that each
+agent has consistently seized a similar amount.<sup><a id=
+"endnote-042-backlink" href="#endnote-042">42</a></sup> Variation
+in the effectiveness of enforcement or smuggling cannot explain the
+sudden and persistent decline in seizures over the last five
+years.</p>
+<p>Another issue is that increased enforcement would likely lead to
+more seizures. It is possible, however, to control for the level of
+enforcement by focusing on the quantity seized <em>per agent</em>,
+rather than the aggregate amount for the entire agency (Figure 2).
+One difficulty with the per-agent measurement is that the
+effectiveness of agents could decrease with each new hire, so the
+result could measure just the declining utility of the marginal
+hire rather than a real decline in smuggling. When the agency
+doubled its labor force from 2003 to 2011, however, the rate of
+seizures per agent remained flat, while the agency slightly reduced
+the number of agents during the period of declining seizures from
+2014 to 2018. These facts suggest that the decline in seizures per
+agent is not an effect of diminishing returns from increasing the
+size of the force.<sup><a id="endnote-043-backlink" href=
+"#endnote-043">43</a></sup></p>
+<p>In the immigration context, researchers often use the number of
+apprehensions of border crossers per agent to estimate year-to-year
+trends in total inflows of illegal crossers of the southwest
+border.<sup><a id="endnote-044-backlink" href=
+"#endnote-044">44</a></sup> The validity of this measure has
+recently received support from a 2017 DHS report that used survey
+data to estimate the number of total <em>successful</em> crossings
+for the 17-year period from 2000 to 2016.<sup><a id=
+"endnote-045-backlink" href="#endnote-045">45</a></sup> Comparing
+these estimates to the per-agent apprehension figures during this
+time indicates that 86 percent of the variance in successful
+entries can be predicted by the number of apprehensions per agent,
+making apprehensions a very strong predictor of the year-to-year
+trends in successful illegal crossings. Given the similarities
+between illegal entry of people and the illegal entry of drugs, the
+same is likely true for drug seizures and smuggling.</p>
+<p>Seizures also fail to capture policy changes that could direct
+agents to prioritize or deprioritize marijuana smuggling, though it
+is not clear how Border Patrol could, as a technical matter, target
+a specific illicit drug without also seizing other drugs in the
+process. In any case, formal policy on marijuana smuggling has not
+changed during the relevant period, and there has been no apparent
+change in informal policy priorities. Moreover, the decline in
+marijuana seizures has occurred across multiple agencies and
+administrations. These factors make informal policy priorities an
+unlikely explanation for the trends.</p>
+<h2>Less Marijuana Smuggling</h2>
+<p>State-level marijuana legalization has undercut demand for
+illegal Mexican marijuana, which in turn has decreased the amount
+of drug smuggling into the United States across the southwest
+border. Because it is so much more difficult to conceal than other
+drugs, marijuana prior to legalization was, according to the DEA,
+“predominately smuggled between, instead of through, the ports of
+entry.”<sup><a id="endnote-046-backlink" href=
+"#endnote-046">46</a></sup> For this reason, the most important
+agency for marijuana interdiction is the Border Patrol, which
+patrols the areas between ports of entry.</p>
+<p>Figure 2 reports the number of pounds of marijuana seized
+annually per Border Patrol agent and compares these figures to the
+total length of the border fences in a year. From FY 2003 to FY
+2009, Border Patrol doubled its workforce and constructed hundreds
+of miles of fences, yet this increased enforcement did not reduce
+marijuana smuggling.<sup><a id="endnote-047-backlink" href=
+"#endnote-047">47</a></sup> Each agent annually seized virtually
+the same quantity of marijuana through 2013, indicating roughly the
+same overall inflow of the illegal substance.<sup><a id=
+"endnote-048-backlink" href="#endnote-048">48</a></sup> From 2013
+to 2018, however, the amount of marijuana each Border Patrol agent
+seized declined by 78 percent.</p>
+<p><strong>Figure 2: Marijuana seizures and length of border
+fences, FY 2013 to FY 2018</strong><br></p>
+<div class="infogram-embed" data-id=
+"d089524a-d8f2-424d-819f-6b83eeee63af" data-type="interactive"
+data-title="[HTML] Figure 2"></div>
+<script>
+!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script")[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(i)&&(i=d+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var r=e.createElement("script");r.async=1,r.id=s,r.src=i,o.parentNode.insertBefore(r,o)}}(document,0,"infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");
+</script>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+*Projected based on the first eleven months of the fiscal year.</p>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+<strong>Sources:</strong> U.S. Department of Homeland Security
+Office of Inspector General, “Independent Review of the U.S.
+Customs and Border Protection&#8217;s Reporting of Drug Control
+Performance Summary Reports,” 2008, 2011; Customs and Border
+Protection, “Sector Profiles,” 2012-2017; Customs and Border
+Protection, “Enforcement Statistics FY 2018,” August 31, 2018;
+Carla Argueta, “Border Security,” Congressional Research Service,
+April 19, 2016.</p>
+<p>Even within FY 2018, the first three months of the fiscal year
+&mdash; before California legalized sales in January &mdash; were
+29 percent above the next eight months.<sup><a id=
+"endnote-049-backlink" href="#endnote-049">49</a></sup> Marijuana
+smuggling has also not shifted toward entering through ports of
+entry. The total quantity of marijuana seized by the OFO, the
+agency that handles admissions at ports of entry, has dropped by 34
+percent from 2013 to 2018 (Table 1).<sup><a id=
+"endnote-050-backlink" href="#endnote-050">50</a></sup> Seizures
+have decreased over water and airborne smuggling routes. While
+numbers for FY 2018 are not available yet, Air and Marine
+Operations interdicted 42 percent fewer pounds of marijuana in 2017
+than in 2013.<sup><a id="endnote-051-backlink" href=
+"#endnote-051">51</a></sup> Likewise, the Coast Guard has seen a 65
+percent decline in marijuana seizures during that
+period.<sup><a id="endnote-052-backlink" href=
+"#endnote-052">52</a></sup> Overall, all DHS agencies seized 56
+percent less marijuana in 2017 than 2013.</p>
+<p><strong>Table 1: Department of Homeland Security marijuana
+seizures (in pounds), FY 2013 to FY 2018</strong><br></p>
+<div class="infogram-embed" data-id=
+"7f02b6ea-4424-42df-b9ee-cc8be277ec56" data-type="interactive"
+data-title="[HTML] Table 1"></div>
+<script>
+!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script")[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(i)&&(i=d+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var r=e.createElement("script");r.async=1,r.id=s,r.src=i,o.parentNode.insertBefore(r,o)}}(document,0,"infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");
+</script>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+*Approximation based on figures for all drug seizures.<br>
+**Projected based on the first 11 months of the fiscal year.</p>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+<strong>Sources:</strong> U.S. Department of State, “Narcotics
+Control Reports,” 2014-2018; Customs and Border Protection,
+“Enforcement Statistics FY 2018,” August 31, 2018; Air and Marine
+Operations, Reports and Testimony, 2013; 2014; 2015; 2016;
+2017.</p>
+<p>Full legalization of marijuana in several states dramatically
+increased the amount of marijuana sales that occur legally in the
+United States. A relatively small amount of legal marijuana sales
+had occurred prior to 2014 under the auspices of legal medicinal
+use, and in 2013 and 2014, four states &mdash; Massachusetts, New
+Hampshire, Illinois, and Maryland &mdash; legalized medical
+marijuana. But these states account for just 4 percent of medical
+marijuana users nationwide, so it is unlikely that they changed the
+trends substantially.<sup><a id="endnote-053-backlink" href=
+"#endnote-053">53</a></sup> Full legalization increased the amount
+of legal sales from about $1.5 billion to $9.7 billion from 2013 to
+2017.<sup><a id="endnote-054-backlink" href=
+"#endnote-054">54</a></sup> This increase coincided with a 66
+percent drop in the street value of all DHS marijuana seizures
+&mdash; a decline from $2.3 billion in 2013 to $765 million in 2017
+(Figure 3).<sup><a id="endnote-055-backlink" href=
+"#endnote-055">55</a></sup></p>
+<p><strong>Figure 3: Legal marijuana sales and street value of all
+DHS marijuana seizures, FY 2013 to FY 2017</strong><br></p>
+<div class="infogram-embed" data-id=
+"a402f973-4880-4c61-926a-935631f45582" data-type="interactive"
+data-title="[HTML] Figure 3"></div>
+<script>
+!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script")[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(i)&&(i=d+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var r=e.createElement("script");r.async=1,r.id=s,r.src=i,o.parentNode.insertBefore(r,o)}}(document,0,"infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");
+</script>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+<strong>Sources:</strong> Arcview Market Research, “The State of
+Legal Marijuana Markets,” 1st-6th editions; author&#8217;s calculations
+based on drug valuations and amounts from Customs and Border
+Protection, “Local Media Releases,” 2013-2018; U.S. Department of
+State, “Narcotics Control Reports”; Customs and Border Protection,
+“Enforcement Statistics FY 2018,” August 31, 2018; Air and Marine
+Operations, Reports and Testimony, 2013; 2014; 2015; 2016;
+2017.</p>
+<p>The street values of a pound of marijuana estimated by CBP also
+highlight the increased availability of domestic marijuana. From
+2012 to 2017, the average street value of a pound of marijuana
+seized by CBP declined by 40 percent, dropping from $794 per pound
+in 2012 to just $474 per pound in 2017.<sup><a id=
+"endnote-056-backlink" href="#endnote-056">56</a></sup> Legal
+marijuana is competing with the drug cartels and lowering prices,
+which undercuts the financial incentive to smuggle across the
+border.</p>
+<h2>Other Drug Smuggling</h2>
+<p>Mexican drug cartels have responded to their declining share of
+the marijuana market by smuggling other drugs through ports of
+entry but have failed to make up for the decline in marijuana
+smuggling. Most drugs other than marijuana are smuggled through
+ports of entry because traffickers can more easily conceal them.
+For this reason, Figure 4 presents seizures both between and at
+ports of entry.<sup><a id="endnote-057-backlink" href=
+"#endnote-057">57</a></sup> In FY 2013, marijuana accounted for 98
+percent of all border and customs drug seizures &mdash; both
+between and at ports of entry &mdash; by weight. By FY 2018, that
+percentage had declined to 84 percent.<sup><a id=
+"endnote-058-backlink" href="#endnote-058">58</a></sup> While
+non-marijuana drug seizures have increased &mdash; indicating that
+cartels may attempt to compensate by switching drug type &mdash;
+the decline in marijuana seizures has resulted in a 68 percent
+overall decline in pounds seized per agent of all drugs since FY
+2013.</p>
+<p><strong>Figure 4: Drug seizures per agent at and between ports
+of entry, FY 2013 to FY 2018</strong><br></p>
+<div class="infogram-embed" data-id=
+"6aaee90c-2c41-4ad9-8ae6-05d3312d42c3" data-type="interactive"
+data-title="[HTML] Figure 4"></div>
+<script>
+!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script")[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(i)&&(i=d+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var r=e.createElement("script");r.async=1,r.id=s,r.src=i,o.parentNode.insertBefore(r,o)}}(document,0,"infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");
+</script>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+*Projected based on the first eleven months of the fiscal year.</p>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+<strong>Source:</strong> Customs and Border Protection,
+“Enforcement Statistics FY 2018,” August 31, 2018; Border Patrol,
+“Staffing Statistics,” December 12, 2017; Fedscope, “Employment
+Cubes,” 2013-2018.</p>
+<p>Marijuana may still dominate by weight, but other drugs &mdash;
+methamphetamine (meth), heroin, cocaine, and fentanyl &mdash; are
+much more valuable per pound. Estimating the value of drug seizures
+is difficult because drug prices vary widely throughout the United
+States and no government agency consistently estimates a national
+average. Moreover, CBP does not report the purity of the drugs it
+seizes, making it impossible to use outside estimates to value its
+seizures. However, while the agency does not report the collective
+value of all the drugs it seizes, it does regularly issue press
+releases that value individual seizures based on “the latest DEA
+statistics.”<sup><a id="endnote-059-backlink" href=
+"#endnote-059">59</a></sup> Aggregating this information provides
+the best estimate of how the agency values drug
+seizures.<sup><a id="endnote-060-backlink" href=
+"#endnote-060">60</a></sup></p>
+<p>CBP reports the “street value” of a drug.<sup><a id=
+"endnote-061-backlink" href="#endnote-061">61</a></sup> Street
+prices inflate the <em>absolute</em> values of drug seizures
+because drugs obtain those values only after crossing the U.S.
+border and arriving at their destinations.<sup><a id=
+"endnote-062-backlink" href="#endnote-062">62</a></sup> However,
+the <em>relative</em> values between the different drugs and
+between different years are still useful for the purpose of
+comparison.<sup><a id="endnote-063-backlink" href=
+"#endnote-063">63</a></sup> The tables in the Appendix contain the
+valuations, seizure amounts, and number of agents and officers at
+ports of entry and between ports of entry.</p>
+<p>Figure 5 presents the street value of drug seizures made by both
+Border Patrol agents between ports of entry and by CBP officers at
+ports of entry, again showing the average amount seized per agent.
+By value, marijuana has fallen from about 57 percent of seizures to
+just 18 percent from FY 2013 to FY 2018. The absolute value of
+marijuana seizures at and between ports of entry has declined 79
+percent from $1.8 billion in FY 2013 to be on pace for just $380
+million in FY 2018. Overall, the total value of all drug seizures
+per agent (or officer) has declined by 34 percent from FY 2013 to
+FY 2018. Marijuana legalization appears to have cut
+<em>overall</em> drug smuggling.</p>
+<p><strong>Figure 5: Value of drug seizures per agent at and
+between ports of entry by drug type,<br>
+FY 2013 to FY 2018*</strong><br></p>
+<div class="infogram-embed" data-id=
+"b8a9d38c-e665-4f33-928d-4100df99506f" data-type="interactive"
+data-title="[HTML] Figure 5"></div>
+<script>
+!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script")[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(i)&&(i=d+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var r=e.createElement("script");r.async=1,r.id=s,r.src=i,o.parentNode.insertBefore(r,o)}}(document,0,"infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");
+</script>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+*Projected based on the first 11 months of the fiscal year.</p>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+<strong>Source:</strong> Author&#8217;s calculations based on drug
+valuations and amounts from Customs and Border Protection, “Local
+Media Releases,” 2013-2018; Customs and Border Protection,
+“Enforcement Statistics FY 2018,” August 31, 2018; Border Patrol,
+“Staffing Statistics,” December 12, 2017; Fedscope, “Employment
+Cubes,” 2013-2018.</p>
+<p>All the decline in the value of drug seizures occurred
+<em>between</em> ports of entry. The value of all drug seizures
+between ports of entry fell by 70 percent on a per-agent basis from
+FY 2013 to FY 2018, while those at ports of entry increased by just
+3 percent (Figure 6). In 2018, the drugs seized by OFO officers at
+ports of entry were three times more valuable than those seized by
+Border Patrol between ports of entry, while Border Patrol agents
+seized more valuable drugs in 2013. In 2018, the average inspector
+at a port of entry seized drugs valued at almost $71,000 compared
+to about $23,000 for Border Patrol agents between ports of entry.
+This fact significantly undermines the argument for more Border
+Patrol agents or a wall to interdict drug smuggling
+<em>between</em> ports of entry.</p>
+<p><strong>Figure 6: Value of drug seizures per agent by location
+of seizure, FY 2013 to 2018*</strong><br></p>
+<div class="infogram-embed" data-id=
+"a1f83a63-f3fa-44d8-9f51-40ed1ed157c2" data-type="interactive"
+data-title="[HTML] Figure 6"></div>
+<script>
+!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script")[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(i)&&(i=d+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var r=e.createElement("script");r.async=1,r.id=s,r.src=i,o.parentNode.insertBefore(r,o)}}(document,0,"infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");
+</script>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+*Projected based on the first 11 months of the fiscal year.</p>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+<strong>Source:</strong> Author&#8217;s calculations based on drug
+valuations and amounts from Customs and Border Protection, “Local
+Media Releases,” 2013-2018; Customs and Border Protection,
+“Enforcement Statistics FY 2018,” August 31, 2018; Border Patrol,
+“Staffing Statistics,” December 12, 2017; Fedscope, “Employment
+Cubes,” 2013-2018.</p>
+<p>Given the focus of the political debate, it is important to note
+that drugs other than marijuana are almost entirely seized at ports
+of entry (Table 2). By value, CBP seized 87 percent of all hard
+drugs at ports of entry, not between ports of entry, in 2018.
+Stated another way, the hard drugs seized at ports of entry were
+seven times more valuable than those seized between ports of
+entry.</p>
+<p><strong>Table 2: Value of non-marijuana drug seizures by
+location of seizure (in millions of U.S. dollars)</strong><br></p>
+<div class="infogram-embed" data-id=
+"4ef09957-b240-4952-9a38-956a294384aa" data-type="interactive"
+data-title="[HTML] Table 2"></div>
+<script>
+!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script")[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(i)&&(i=d+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var r=e.createElement("script");r.async=1,r.id=s,r.src=i,o.parentNode.insertBefore(r,o)}}(document,0,"infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");
+</script>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+*Projected based on the first 11 months of the fiscal year.</p>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+<strong>Source:</strong> Author&#8217;s calculations based on drug
+valuations and amounts from Customs and Border Protection, “Local
+Media Releases,” 2013-2018; Customs and Border Protection,
+“Enforcement Statistics FY 2018,” August 31, 2018.</p>
+<p>This fact becomes even more pronounced when considering that
+about half of all Border Patrol seizures of hard drugs in 2018 came
+at checkpoints in the interior of the United States.<sup><a id=
+"endnote-064-backlink" href="#endnote-064">64</a></sup> Drugs
+seized at checkpoints are already moving within the United States,
+primarily on major highways, where a border wall could do nothing.
+About two-thirds of Border Patrol seizures of heroin and meth and
+one-third of its seizures of fentanyl and cocaine came at
+checkpoints from April to August 2018 &mdash; the only months that
+the agency has published data on checkpoint seizures. Separating
+out these seizures reveals that hard drugs seized at ports of entry
+were 11 times more valuable than those seized between ports of
+entry or those seized at interior checkpoints from April to August
+2018 &mdash; just 7 percent of the value of the non-marijuana
+seizures by OFO and Border Patrol occurred between ports of entry
+(Figure 7).</p>
+<p><strong>Figure 7: Percentage of total value of non-marijuana
+drug seizures by location, April to August 2018</strong><br></p>
+<div class="infogram-embed" data-id=
+"3d38637d-8f12-4e3d-a2de-89ac50846373" data-type="interactive"
+data-title="[HTML] Figure 7"></div>
+<script>
+!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script")[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(i)&&(i=d+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var r=e.createElement("script");r.async=1,r.id=s,r.src=i,o.parentNode.insertBefore(r,o)}}(document,0,"infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");
+</script>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+<strong>Source:</strong> Author&#8217;s calculations based on drug
+valuations and amounts from Customs and Border Protection, “Local
+Media Releases,” 2013-2018; Customs and Border Protection,
+“Enforcement Statistics FY 2018,” August 31, 2018; Customs and
+Border Protection, “U.S. Border Patrol Nationwide Checkpoint Drug
+Seizures in Pounds,” October 12, 2018.</p>
+<p>During this time, each OFO officer seized at ports of entry
+slightly more pounds of marijuana, while confiscating 8 times more
+pounds of cocaine, 17 times more of fentanyl, 23 times more of
+methamphetamine, and 36 times more of heroin than each Border
+Patrol agent seized at the physical border &mdash; that is, at
+noncheckpoint locations between ports of entry (Table
+3).<sup><a id="endnote-065-backlink" href=
+"#endnote-065">65</a></sup> In light of these facts, a surge of
+agents, technology, and infrastructure between ports of entry does
+not make sense as a strategy to control the flow of hard drugs into
+the United States.<sup><a id="endnote-066-backlink" href=
+"#endnote-066">66</a></sup></p>
+<p><strong>Table 3: Drug seizures by location of seizure (pounds
+per agent), April to August 2018</strong><br></p>
+<div class="infogram-embed" data-id=
+"07e2f632-8624-4a82-a4c2-34e8d610afb8" data-type="interactive"
+data-title="[HTML] Table 3"></div>
+<script>
+!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script")[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(i)&&(i=d+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var r=e.createElement("script");r.async=1,r.id=s,r.src=i,o.parentNode.insertBefore(r,o)}}(document,0,"infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");
+</script>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+<strong>Source:</strong> Author&#8217;s calculations based on Customs and
+Border Protection, “Enforcement Statistics FY 2018,” August 31,
+2018; Customs and Border Protection, “U.S. Border Patrol Nationwide
+Checkpoint Drug Seizures in Pounds,” October 12, 2018; Border
+Patrol, “Staffing Statistics,” December 12, 2017; Fedscope,
+“Employment Cubes,” 2013-2018.</p>
+<h2>Lessons for Immigration Policy</h2>
+<p>Since the imposition of strict numerical limits on legal
+immigration in the 1920s, federal efforts to prevent illegal
+immigration have been largely unsuccessful in limiting the illegal
+entry and residence of large numbers of immigrants, except when
+combined with large increases in lawful migration or a collapse in
+American demand for foreign workers, such as during the Great
+Depression. Today, Congress spends more money on the agencies
+responsible for federal enforcement of immigration laws than on all
+other federal law enforcement agencies combined &mdash; about $187
+billion from 1986 to 2013.<sup><a id="endnote-067-backlink" href=
+"#endnote-067">67</a></sup> Since 2003, the federal government has
+deported about 1.7 million immigrants from the interior of the
+country and apprehended another 10 million at the
+borders.<sup><a id="endnote-068-backlink" href=
+"#endnote-068">68</a></sup></p>
+<p>Just as legalization of marijuana has helped secure the border
+against illicit entry of marijuana, making it easier for immigrant
+workers to live and work legally in the United States has reduced
+the incentive of would-be illegal immigrants to cross the border.
+Over the last 70 years, the number of work visas is negatively
+correlated with illegal entries along the border.<sup><a id=
+"endnote-069-backlink" href="#endnote-069">69</a></sup> In other
+words, more work visas mean fewer illegal entries. The best
+available indicator of illegal entries is the number of apprehended
+border crossers. All else being equal, the more people who attempt
+to cross, the more people who are apprehended. Of course, increases
+in the number of agents could result in more apprehensions &mdash;
+just as more agents lead to more drug seizures &mdash; but as in
+the drug context, it is possible to control for the effect of
+increased enforcement by focusing on the number of apprehensions
+that the average agent makes.</p>
+<p>Figure 8 presents the number of entries by lesser-skilled guest
+workers from 1949 to 2018 compared to the number of apprehensions
+per Border Patrol agent.<sup><a id="endnote-070-backlink" href=
+"#endnote-070">70</a></sup> The number of apprehensions spiked in
+the 1950s, but Congress responded by ramping up the number of
+admissions under the Bracero guest worker program, and illegal
+immigration almost disappeared. Unfortunately, Congress terminated
+the program in 1965, and the number of apprehensions per agent rose
+to a high of 528 in 1986. Starting in the mid-1990s, more guest
+workers began to enter under the H-2A and H-2B temporary worker
+programs, shooting up dramatically in the mid-2000s, while the
+number of apprehensions per agent collapsed.</p>
+<p><strong>Figure 8: Lesser-skilled guest worker admissions and
+apprehensions per Border Patrol agent*</strong><br></p>
+<div class="infogram-embed" data-id=
+"b2fad241-0bb8-44b4-b111-3e47983ac76d" data-type="interactive"
+data-title="[HTML] Figure 8"></div>
+<script>
+!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script")[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(i)&&(i=d+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var r=e.createElement("script");r.async=1,r.id=s,r.src=i,o.parentNode.insertBefore(r,o)}}(document,0,"infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");
+</script>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+*”Lesser-skilled” refers to Bracero admissions and H-2A and H-2B
+admissions; 2018 admissions estimated based on 2017.</p>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+<strong>Sources:</strong> U.S. Citizenship and Immigration
+Services, “General Collection,” 1949-1995; U.S. Department of
+Homeland Security, “Yearbook of Immigration Statistics,” 1996-2017;
+Immigration and Naturalization Service, “History: Border Patrol,”
+1985; TRAC Immigration, “Border Patrol Agents,” 2006; Border
+Patrol, “Staffing Statistics,” December 12, 2017.</p>
+<p>Since 1949, apprehensions per Border Patrol agent were
+two-thirds lower in years with greater than 200,000 lesser-skilled
+guest worker admissions when compared with years with less than
+200,000 admissions. During the same period, a 10 percent increase
+in guest workers was associated with an 8.8 percent decrease in
+apprehensions per agent. In recent years, the number of guest
+worker admissions increased twentyfold, from 26,014 in 1986 to
+536,634 in 2017, while the average agent in 2017 apprehended 97
+percent fewer people than in 1986.</p>
+<p>Congress is already reducing illegal immigration by issuing more
+temporary work visas, thus reducing the incentive to cross
+illegally. Nonetheless, roughly 190,000 people still made it across
+the border illegally in 2015.<sup><a id="endnote-071-backlink"
+href="#endnote-071">71</a></sup> Congress could address this flow
+by repealing visa regulations that limit lesser-skilled workers to
+seasonal jobs and exclude them from year-round or permanent
+positions. In addition, the government issues only 5,000 permanent
+residency visas for employment in lesser-skilled occupations.
+Lifting this quota and creating a work visa for year-round
+positions would help secure the border.</p>
+<p>Today, in addition to people entering mainly for the purpose of
+employment, the Border Patrol also stops many asylum seekers who
+have left their home countries, primarily in Central America, as a
+result of political instability and the world&#8217;s highest rates of
+homicide.<sup><a id="endnote-072-backlink" href=
+"#endnote-072">72</a></sup> Among these, there are also large
+numbers of individuals apprehended by Border Patrol who are trying
+to reunite with their families in the United States.<sup><a id=
+"endnote-073-backlink" href="#endnote-073">73</a></sup> While
+marijuana flows lack these noneconomic drivers, wage differences
+are still the best predictor of where asylum seekers ultimately end
+up.<sup><a id="endnote-074-backlink" href=
+"#endnote-074">74</a></sup> This helps explain the consistency in
+the pattern of low levels of apprehensions during periods of high
+work-visa issuances.</p>
+<p>Of course, the United States is already home to more than 11
+million illegal immigrants, most of whom entered before the
+increase in guest worker admissions in the mid-2000s.<sup><a id=
+"endnote-075-backlink" href="#endnote-075">75</a></sup> These
+workers have built their lives here, and while most probably would
+have availed themselves of a more permissive temporary worker
+program had it existed, a temporary worker program is no longer
+likely to result in a mass exodus. Rather, the United States should
+do with illegal immigrants what many states have done with illegal
+marijuana: legalize them &mdash; that is, provide an opportunity
+for them to obtain permanent residency.</p>
+<p>Current law not only offers just 5,000 green cards to
+lower-skilled workers but also bans anyone who crossed the border
+illegally from applying for a green card, including
+family-sponsored ones.<sup><a id="endnote-076-backlink" href=
+"#endnote-076">76</a></sup> This prevents many illegal immigrants
+married to U.S. citizens, who would normally be entitled to
+permanent residency, from legalizing. Even if they return to their
+home countries, current law requires them to wait a decade before
+applying to be reunited with their American spouses &mdash; an
+unrealistic option. The only viable solution is a legalization
+program that allows them to get right with the law. Paired with
+more work visas, such a program could dramatically reduce illegal
+residence and allow for a regulated legal form of entry and
+residence.</p>
+<p>In 1924, when Congress slashed legal immigration by roughly 80
+percent, the Border Patrol immediately made the connection between
+the effects of alcohol prohibition and the effects of the legal
+immigration restrictions, labeling illegal immigration “bootlegging
+in aliens.”<sup><a id="endnote-077-backlink" href=
+"#endnote-077">77</a></sup> In 1926, the commissioner of the Bureau
+of Immigration wrote to the secretary of labor that “as a
+consequence of more recent numerical limitation of immigration, the
+bootlegging of aliens &#8230; has grown to be an industry second in
+importance only to the bootlegging of liquor.”<sup><a id=
+"endnote-078-backlink" href="#endnote-078">78</a></sup> In other
+words, the government immediately recognized itself as the cause of
+both illegal immigration and alcohol smuggling. Alcohol
+legalization eliminated one of the trades, but the other has still
+not subsided. Marijuana legalization provides yet another model for
+how to address the illicit cross-border flow.</p>
+<h2>Conclusion</h2>
+<p>State-level marijuana legalization has significantly undercut
+marijuana smuggling. Based on Border Patrol seizures, smuggling has
+fallen 78 percent over just a five-year period. Because marijuana
+was the primary drug smuggled between ports of entry, where Border
+Patrol surveils, the value of the agency&#8217;s seizures overall &mdash;
+on a per-agent basis &mdash; has declined 70 percent. Now,
+smugglers seek to bring the most valuable drugs into the country
+through ports of entry rather than smuggling through the deserts of
+Arizona and New Mexico or across the Rio Grande. The average
+officer at ports of entry seized drugs valued at three times the
+amount of the average Border Patrol agent between ports of entry. A
+border wall or more Border Patrol agents would do nothing to stop
+most drug trafficking.</p>
+<p>Marijuana legalization also provides a model for addressing
+illegal immigration. The legalization of marijuana eliminated the
+incentive to smuggle it across the border. In the same way, the
+legalization of migration and employment by foreign workers in the
+United States would eliminate the incentive to cross, live, and
+work illegally. The state-level legalization of marijuana has had a
+major effect on cross-border smuggling, implying that even modest
+reforms to legal immigration could have strong effects on illegal
+border crossers.</p>
+<h2>Appendix: Drug Seizure Amounts and Values</h2>
+<p><strong>Table A.1: Office of Field Operations and Border Patrol
+drug seizures at and between ports of entry</strong><br></p>
+<div class="infogram-embed" data-id=
+"8097c159-b57e-4dbc-9114-27316c031c82" data-type="interactive"
+data-title="[HTML] Table A1"></div>
+<script>
+!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script")[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(i)&&(i=d+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var r=e.createElement("script");r.async=1,r.id=s,r.src=i,o.parentNode.insertBefore(r,o)}}(document,0,"infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");
+</script>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+*Valuations for 2018 reflect 2017 average valuations; all 2018
+estimates based on first 11 months of the fiscal year.</p>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+**Insufficient data, uses 2017 average valuations.</p>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+<strong>Sources:</strong> Amounts &mdash; Customs and Border
+Protection, “CBP Enforcement Statistics FY2018,” August 28,
+2018.</p>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+Values &mdash; Author&#8217;s calculation based on aggregating valuations
+from CBP press releases. Customs and Border Protection, “Local
+Media Releases,” 2013-2017.</p>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+Agents &mdash; Border Patrol, “Staffing Statistics,” December 12,
+2017; Fedscope, “Employment Cubes,” 2013-2018.</p>
+<p><strong>Table A.2: Office of Field Operations drug seizures at
+ports of entry</strong><br></p>
+<div class="infogram-embed" data-id=
+"7032686c-4968-4439-86f9-ca3c658f5f98" data-type="interactive"
+data-title="[HTML] Table A2"></div>
+<script>
+!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script")[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(i)&&(i=d+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var r=e.createElement("script");r.async=1,r.id=s,r.src=i,o.parentNode.insertBefore(r,o)}}(document,0,"infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");
+</script>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+*Valuations for 2018 reflect 2017 average valuations; all 2018
+estimates based on first 11 months of the fiscal year.</p>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+**Insufficient data, uses 2017 average valuations.</p>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+<strong>Sources:</strong> Amounts &mdash; Customs and Border
+Protection, “CBP Enforcement Statistics FY2018,” August 28,
+2018.</p>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+Values &mdash; Author&#8217;s calculation based on aggregating valuations
+from CBP press releases. Customs and Border Protection, “Local
+Media Releases,” 2013-2017.</p>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+Agents &mdash; Fedscope, “Employment Cubes,” 2013-2018.</p>
+<p><strong>Table A.3: Border Patrol drug seizures between ports of
+entry</strong><br></p>
+<div class="infogram-embed" data-id=
+"646eb472-82de-438e-a9fb-2408960084a8" data-type="interactive"
+data-title="[HTML] Table A3"></div>
+<script>
+!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script")[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(i)&&(i=d+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var r=e.createElement("script");r.async=1,r.id=s,r.src=i,o.parentNode.insertBefore(r,o)}}(document,0,"infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");
+</script>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+*Valuations for 2018 reflect 2017 average valuations; all 2018
+estimates based on first 11 months of the fiscal year.</p>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+<strong>Sources:</strong> Amounts &mdash; Customs and Border
+Protection, “CBP Enforcement Statistics FY2018,” August 28,
+2018.</p>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+Values &mdash; Author&#8217;s calculation based on aggregating valuations
+from CBP press releases. Customs and Border Protection, “Local
+Media Releases,” 2013-2017.</p>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+Agents &mdash; Border Patrol, “Staffing Statistics,” December 12,
+2017.</p>
+<p style="margin-top: 5px; font-size: 12px; line-height: 14px;">
+<strong>Note:</strong> In 2017, CBP valued fentanyl seized at about
+$29,000 per pound, while valuing heroin about $21,000 per
+pound.<sup><a id="endnote-079-backlink" href=
+"#endnote-079">79</a></sup> CBP describes its valuations as the
+“street value” of the drugs “based on the latest DEA
+statistics.”<sup><a id="endnote-080-backlink" href=
+"#endnote-080">80</a></sup> According to valuations from the DEA
+cited in news reports and elsewhere, smugglers can buy heroin in
+Colombia for about $2,721 per <em>pure</em> pound and sell it
+wholesale in the United States for about $36,287, while fentanyl
+can be bought in China for about $2,267 per <em>pure</em> pound and
+cut into 7 to 11 pounds &mdash; each sold for as much as a pound of
+heroin ($36,287) for a total value of about $725,749 per
+<em>pure</em> pound.<sup><a id="endnote-081-backlink" href=
+"#endnote-081">81</a></sup> Thus, the value of a pure pound of
+fentanyl is, according to these reports, about 20 times more
+valuable than heroin, while CBP&#8217;s valuations show that their seized
+fentanyl is only slightly more valuable than heroin. Only CBP knows
+the purity of the fentanyl that it seizes, and it would be
+surprising if CBP undervalues its own fentanyl seizures, but if it
+does &mdash; and the actual value of CBP&#8217;s fentanyl seizures is
+about 20 times more than heroin per pound &mdash; the total value
+of drug seizures at ports of entry since 2013 would have increased
+50 percent, rather than 8 percent; the total value of drug seizures
+between ports of entry would have declined 65 percent, rather than
+73 percent; and the total value of all drugs both at and between
+ports of entry would have declined 11 percent, rather than 35
+percent. Overall, in this counterfactual, ports of entry would
+account for 79 percent of the value of all drug seizures rather
+than 78 percent. Thus, the general conclusions in this paper
+&mdash; that ports of entry are now the dominant means of entry for
+drugs and that marijuana legalization reduced the overall value of
+drug flows &mdash; still hold, even if CBP is massively
+undervaluing its fentanyl seizures.</p>
+<h2>NOTES</h2>
+<p><sup><a id="endnote-001" href=
+"#endnote-001-backlink">1</a></sup> Drug Enforcement
+Administration, “Drug Scheduling,” <a href=
+"https://www.dea.gov/drug-scheduling">https://www.dea.gov/drug-scheduling</a>.</p>
+<p><sup><a id="endnote-002" href=
+"#endnote-002-backlink">2</a></sup> Louisa Degenhardt et al.,
+“Toward a Global View of Alcohol, Tobacco, Cannabis, and Cocaine
+Use: Findings from the WHO World Mental Health Surveys,” PLoS
+Medicine 5, no. 7 (2008): e141, <a href=
+"https://doi.org/10.1371/journal.pmed.0050141">https://doi.org/10.1371/journal.pmed.0050141</a>.</p>
+<p><sup><a id="endnote-003" href=
+"#endnote-003-backlink">3</a></sup> Statistic on marijuana use from
+Substance Abuse and Mental Health Services Administration, “Results
+from the 2016 National Survey on Drug Use and Health: Detailed
+Tables,” September 7, 2017, <a href=
+"https://www.samhsa.gov/data/sites/default/files/NSDUH-DetTabs-2016/NSDUH-DetTabs-2016.pdf">
+https://www.samhsa.gov/data/sites/default/files/NSDUH-DetTabs-2016/NSDUH-DetTabs-2016.pdf</a>.
+Statistic on value from The Arcview Group, “New Report: Marijuana
+Stores as Profitable as Starbucks,” November 16, 2017, <a href=
+"https://globenewswire.com/news-release/2017/11/16/1194273/0/en/NEW-REPORTMarijuana-Stores-as-Profitable-as-Starbucks.html">
+https://globenewswire.com/news-release/2017/11/16/1194273/0/en/NEW-REPORTMarijuana-Stores-as-Profitable-as-Starbucks.html</a>.</p>
+<p><sup><a id="endnote-004" href=
+"#endnote-004-backlink">4</a></sup> Melia Robinson, “Here&#8217;s Where
+You Can Legally Smoke Weed in 2018,” <em>Business Insider</em>,
+December 31, 2017.</p>
+<p><sup><a id="endnote-005" href=
+"#endnote-005-backlink">5</a></sup> Kathleen Gray, “Legal Marijuana
+in Michigan: What You Need to Know,” <em>Detroit Free Press</em>,
+November 7, 2018.</p>
+<p><sup><a id="endnote-006" href=
+"#endnote-006-backlink">6</a></sup> National Drug Intelligence
+Center, “Domestic Cannabis Cultivation Assessment 2009-Primary
+Foreign Source Countries for Marijuana,” U.S. Department of
+Justice, July 2009, <a href=
+"https://www.justice.gov/archive/ndic/pubs37/37035/foreign.htm">https://www.justice.gov/archive/ndic/pubs37/37035/foreign.htm</a>.</p>
+<p><sup><a id="endnote-007" href=
+"#endnote-007-backlink">7</a></sup> Brady Dennis, “Obama
+Administration Will Not Block State Marijuana Laws If Distribution
+Is Regulated,” <em>Washington Post</em>, August 29, 2013.</p>
+<p><sup><a id="endnote-008" href=
+"#endnote-008-backlink">8</a></sup> Jacob Sullum, “Did Jeff
+Sessions&#8217;s Marijuana Memo Restore the Rule of Law?,”
+<em>Reason</em>, January 5, 2018.</p>
+<p><sup><a id="endnote-009" href=
+"#endnote-009-backlink">9</a></sup> U.S. Department of Justice,
+“U.S. Attorney Bob Troyer Issues Statement Regarding Marijuana
+Prosecutions in Colorado,” January 4, 2018, <a href=
+"https://www.justice.gov/usao-co/pr/us-attorney-bob-troyer-issues-statement-regarding-marijuana-prosecutions-colorado">
+https://www.justice.gov/usao-co/pr/us-attorney-bob-troyer-issues-statement-regarding-marijuana-prosecutions-colorado</a>;
+and Wendy Fry, “San Diego U.S. Attorney Backs Sessions&#8217;s Pot
+Enforcement Policy,” NBC 7 San Diego, January 4, 2018.</p>
+<p><sup><a id="endnote-010" href=
+"#endnote-010-backlink">10</a></sup> Christopher Ingraham, “White
+House Hints at ‘Greater Enforcement’ of Federal Marijuana Ban in
+States Where It&#8217;s Legal,” Washington Post, February 23, 2017; and
+Dominic Holden, “Inside the Trump Administration&#8217;s Secret War on
+Weed,” BuzzFeed, August 29, 2018.</p>
+<p><sup><a id="endnote-011" href=
+"#endnote-011-backlink">11</a></sup> Office on Drugs and Crime,
+2006 World Drug Report, vol. 1 (Vienna: United Nations, 2007), p.
+175, <a href=
+"https://www.unodc.org/pdf/WDR_2006/wdr2006_volume1.pdf">https://www.unodc.org/pdf/WDR_2006/wdr2006_volume1.pdf</a>.</p>
+<p><sup><a id="endnote-012" href=
+"#endnote-012-backlink">12</a></sup> Beau Kilmer et al., “Reducing
+Drug Trafficking Revenues and Violence in Mexico,” RAND
+Corporation, October 12, 2010.</p>
+<p><sup><a id="endnote-013" href=
+"#endnote-013-backlink">13</a></sup> DEA, “2013 National Drug
+Threat Assessment Summary,” U.S. Department of Justice, November
+2013, <a href=
+"https://www.dea.gov/sites/default/files/2018-07/DIR-017-13%20NDTA%20Summary%20final.pdf">
+https://www.dea.gov/sites/default/files/2018-07/DIR-017-13%20NDTA%20Summary%20final.pdf.</a></p>
+<p><sup><a id="endnote-014" href=
+"#endnote-014-backlink">14</a></sup> U.S. Department of State,
+International Narcotics Control Strategy Report, Volume I: Drug and
+Chemical Control (March 2014), <a href=
+"https://www.state.gov/documents/organization/222881.pdf">https://www.state.gov/documents/organization/222881.pdf</a>.</p>
+<p><sup><a id="endnote-015" href=
+"#endnote-015-backlink">15</a></sup> Marijuana Policy Group,
+“Market Size and Demand for Marijuana in Colorado, 2017 Market
+Update,” University of Colorado, Boulder, Leeds School of Business,
+August 2018, p. 3, <a href=
+"https://www.colorado.gov/pacific/sites/default/files/MED%20Demand%20and%20Market%20%20Study%20%20082018.pdf">
+https://www.colorado.gov/pacific/sites/default/files/MED%20Demand%20and%20Market%20%20Study%20%20082018.pdf</a><a href="http://">.</a></p>
+<p><sup><a id="endnote-016" href=
+"#endnote-016-backlink">16</a></sup> Tom Wainwright,
+<em>Narconomics: How to Run a Drug Cartel</em> (New York:
+PublicAffairs, 2017), p. 221.</p>
+<p><sup><a id="endnote-017" href=
+"#endnote-017-backlink">17</a></sup> Marijuana Policy Group,
+“Market Size and Demand for Marijuana,” p. 3.</p>
+<p><sup><a id="endnote-018" href=
+"#endnote-018-backlink">18</a></sup> DEA, “2017 National Drug
+Threat Assessment,” U.S. Department of Justice, October 2017,
+<a href=
+"https://www.dea.gov/sites/default/files/2018-07/DIR-040-17_2017-NDTA.pdf">
+https://www.dea.gov/sites/default/files/2018-07/DIR-040-17_2017-NDTA.pdf</a>;
+Tom McGhee, “Massive Marijuana Bust Dismantles Illegal Trafficking
+Ring in Denver Metro Area,” <em>Denver Post</em>, June 28, 2017;
+and John Ingold, “Supreme Court Denies Oklahoma and Nebraska
+Challenge to Colorado Pot,” <em>Denver Post</em>, March 21,
+2016.</p>
+<p><sup><a id="endnote-019" href=
+"#endnote-019-backlink">19</a></sup> Instituto Mexicano para la
+Competitividad, “Possible Impact of the Legalization of Marijuana
+in the United States,” 2012, <a href=
+"http://imco.org.mx/seguridad/posible_impacto_de_la_legalizacion_de_la_marihuana_en_estados_unidos/">
+http://imco.org.mx/seguridad/posible_impacto_de_la_legalizacion_de_la_marihuana_en_estados_unidos/</a><a href="http://">.</a></p>
+<p><sup><a id="endnote-020" href=
+"#endnote-020-backlink">20</a></sup> Andrea Crossan, “Loosened U.S.
+Pot Laws Have Sent Mexican Weed Prices Plunging,” PRI, January 5,
+2016; and John Burnett, “Legal Pot in the U.S. May Be Undercutting
+Mexican Marijuana,” NPR, December 1, 2014.</p>
+<p><sup><a id="endnote-021" href=
+"#endnote-021-backlink">21</a></sup> DEA, “2017 National Drug
+Threat Assessment.”</p>
+<p><sup><a id="endnote-022" href=
+"#endnote-022-backlink">22</a></sup> CBP Office of Intelligence,
+“Drug Smuggling at the Border,” U.S. Department of Homeland
+Security, October 18, 2017, <a href=
+"http://www.nascsa.org/Conference2017/presentations/pena.pdf">http://www.nascsa.org/Conference2017/presentations/pena.pdf</a><a href="http://">.</a></p>
+<p><sup><a id="endnote-023" href=
+"#endnote-023-backlink">23</a></sup> Stephen Dinan, “Tunnels Become
+Human Smuggling Pathways across Border While Drug Transfers Go
+Airborne,” Washington <em>Times</em>, August 27, 2017.</p>
+<p><sup><a id="endnote-024" href=
+"#endnote-024-backlink">24</a></sup> Bureau of Immigration, “Annual
+Report of the Commissioner of Immigration to the Secretary of
+Labor: Fiscal Year Ended June 30, 1925,” U.S. Department of Labor,
+1925, available at U.S. Citizenship and Immigration Services,
+“General Collection,” <a href=
+"https://www.uscis.gov/history-and-genealogy/historical-library/our-collection/general-collection">
+https://www.uscis.gov/history-and-genealogy/historical-library/our-collection/general-collection</a><a href="http://">.</a></p>
+<p><sup><a id="endnote-025" href=
+"#endnote-025-backlink">25</a></sup> Bureau of Immigration reports
+available at U.S. Citizenship and Immigration Services, “General
+Collection,” <a href=
+"https://www.uscis.gov/history-and-genealogy/historical-library/our-collection/general-collection">
+https://www.uscis.gov/history-and-genealogy/historical-library/our-collection/general-collection</a><a href="http://">.</a></p>
+<p><sup><a id="endnote-026" href=
+"#endnote-026-backlink">26</a></sup> Immigration and Naturalization
+Service, “Annual Report for the Fiscal Year Ended June 30, 1951,”
+U.S. Department of Justice, 1951, available at U.S. Citizenship and
+Immigration Services, “General Collection,” <a href=
+"https://www.uscis.gov/history-and-genealogy/historical-library/our-collection/general-collection">
+https://www.uscis.gov/history-and-genealogy/historical-library/our-collection/general-collection</a>.</p>
+<p><sup><a id="endnote-027" href=
+"#endnote-027-backlink">27</a></sup> Isaac Campos, <em>Home
+Grown</em> (Chapel Hill: University of North Carolina Press, 2012),
+p. 82.</p>
+<p><sup><a id="endnote-028" href=
+"#endnote-028-backlink">28</a></sup> Marihuana Tax Act of 1937,
+Pub.L. 75-238, 50 Stat. 551.</p>
+<p><sup><a id="endnote-029" href=
+"#endnote-029-backlink">29</a></sup> Office of Inspector General,
+“DHS Drug Interdiction Efforts Need Improvement,” U.S. Department
+of Homeland Security, OIG-17-09, November 8, 2016, <a href=
+"https://www.oig.dhs.gov/sites/default/files/assets/2017/OIG-17-09-Nov16.pdf">
+https://www.oig.dhs.gov/sites/default/files/assets/2017/OIG-17-09-Nov16.pdf</a>.</p>
+<p><sup><a id="endnote-030" href=
+"#endnote-030-backlink">30</a></sup> David Bier, “GOP Bill Spends
+More on Border Patrol in 5 Years Than It Has Spent in 5 Decades,”
+Cato at Liberty (blog), January 24, 2018, <a href=
+"https://www.cato.org/blog/gop-bill-spends-more-border-patrol-5-years-it-has-spent-5-decades">
+https://www.cato.org/blog/gop-bill-spends-more-border-patrol-5-years-it-has-spent-5-decades</a>.</p>
+<p><sup><a id="endnote-031" href=
+"#endnote-031-backlink">31</a></sup> Border Patrol, “Border Patrol
+Agent Nationwide Staffing by Fiscal Year,” 2017, <a href=
+"https://www.cbp.gov/sites/default/files/assets/documents/2017-Dec/BP%20Staffing%20FY1992-FY2017.pdf">
+https://www.cbp.gov/sites/default/files/assets/documents/2017-Dec/BP%20Staffing%20FY1992-FY2017.pdf</a>.</p>
+<p><sup><a id="endnote-032" href=
+"#endnote-032-backlink">32</a></sup> Air and Marine Operations,
+“Vision 2025,” Customs and Border Protection, November 16, 2016,
+<a href=
+"https://www.cbp.gov/document/publications/air-and-marine-operations-vision-2025">
+https://www.cbp.gov/document/publications/air-and-marine-operations-vision-2025.</a></p>
+<p><sup><a id="endnote-033" href=
+"#endnote-033-backlink">33</a></sup> U.S. Department of Homeland
+Security, “Border Security in the 21st Century,” July 13, 2015,
+<a href=
+"https://www.dhs.gov/sites/default/files/publications/14_1009_s1_border_slide_508.pdf">
+https://www.dhs.gov/sites/default/files/publications/14_1009_s1_border_slide_508.pdf</a>.</p>
+<p><sup><a id="endnote-034" href=
+"#endnote-034-backlink">34</a></sup> 2017 canine data from Damian
+Montes, director CPB canine program, U.S. Department of Homeland
+Security, Testimony before the Subcommittee on Oversight and
+Management Efficiency of the House Committee on Homeland Security,
+115th Cong., 1st sess., May 18, 2017, <a href=
+"http://docs.house.gov/meetings/HM/HM09/20170518/105943/HHRG-115-HM09-Wstate-MontesD-20170518.pdf">
+http://docs.house.gov/meetings/HM/HM09/20170518/105943/HHRG-115-HM09-Wstate-MontesD-20170518.pdf</a>.
+2007 canine data from Office of Inspector General, “A Review of
+U.S. Customs and Border Protection&#8217;s Procurement of Untrained
+Canines,” U.S. Department of Homeland Security, OIG-08-46, April
+2008, <a href=
+"https://www.oig.dhs.gov/assets/Mgmt/OIG_08-46_Apr08.pdf">https://www.oig.dhs.gov/assets/Mgmt/OIG_08-46_Apr08.pdf</a>.</p>
+<p><sup><a id="endnote-035" href=
+"#endnote-035-backlink">35</a></sup> Government Accountability
+Office, “DHS Surveillance Technology Unmanned Aerial Systems and
+Other Assets,” GAO-16-671T, May 24, 2016, <a href=
+"https://www.gao.gov/products/GAO-16-671T">https://www.gao.gov/products/GAO-16-671T</a>.
+For a description of the technology employed, see Todd Owen et al.,
+“Deter, Detect, and Interdict: Technology&#8217;s Role in Securing the
+Border,” Subcommittee on Border and Maritime Security of the House
+Committee on Homeland Security, 115th Cong., 1st sess., July 25,
+2017, <a href=
+"https://www.dhs.gov/news/2017/07/25/written-testimony-cbp-house-homeland-security-subcommittee-border-and-maritime">
+https://www.dhs.gov/news/2017/07/25/written-testimony-cbp-house-homeland-security-subcommittee-border-and-maritime</a>.</p>
+<p><sup><a id="endnote-036" href=
+"#endnote-036-backlink">36</a></sup> Office of Inspector General,
+“DHS Drug Interdiction Efforts Need Improvement.”</p>
+<p><sup><a id="endnote-037" href=
+"#endnote-037-backlink">37</a></sup> Julia Edwards Ainsley,
+“Exclusive: Trump Border ‘Wall’ to Cost $21.6 Billion, Take 3.5
+Years to Build: Internal Report,” Reuters, February 9, 2017.</p>
+<p><sup><a id="endnote-038" href=
+"#endnote-038-backlink">38</a></sup> Office of the President of the
+United States, “2019 Budget Fact Sheet: Stronger Border Security,”
+<a href=
+"https://www.whitehouse.gov/wp-content/uploads/2018/02/FY19-Budget-Fact-Sheet_Border-Security.pdf">
+https://www.whitehouse.gov/wp-content/uploads/2018/02/FY19-Budget-Fact-Sheet_Border-Security.pdf</a>.</p>
+<p><sup><a id="endnote-039" href=
+"#endnote-039-backlink">39</a></sup> Dan Mangan, “President Trump
+Vows to ‘Liberate’ United States from Opioid Epidemic: ‘Failure Is
+Not an Option,’” CNBC, March 19, 2018.</p>
+<p><sup><a id="endnote-040" href=
+"#endnote-040-backlink">40</a></sup> Government Accountability
+Office, “Issues Related to Agent Deployment Strategy and
+Immigration Checkpoints,” GAO-18-50, November 2017, p. 72, <a href=
+"https://www.gao.gov/assets/690/688201.pdf">https://www.gao.gov/assets/690/688201.pdf</a>.</p>
+<p><sup><a id="endnote-041" href=
+"#endnote-041-backlink">41</a></sup> The standard deviation for the
+prelegalization period was 9.3 pounds per agent.</p>
+<p><sup><a id="endnote-042" href=
+"#endnote-042-backlink">42</a></sup> The old Immigration and
+Naturalization Service statistics failed to break down the figures
+between Border Patrol and immigration inspectors at ports of entry,
+but because marijuana is smuggled overwhelmingly between ports of
+entry, we can infer that the overall pattern was the same in the
+1990s. U.S. Department of Homeland Security, Yearbook of
+Immigration Statistics, <a href=
+"https://www.dhs.gov/sites/default/files/publications/Yearbook_Immigration_Statistics_2003.pdf">
+https://www.dhs.gov/sites/default/files/publications/Yearbook_Immigration_Statistics_2003.pdf</a>.</p>
+<p><sup><a id="endnote-043" href=
+"#endnote-043-backlink">43</a></sup> On the flip side, a decline in
+agent effectiveness during the ramp-up in agents from 2004 to 2009,
+to the extent that there was such a decline, would have disguised
+an increase in smuggling during that time.</p>
+<p><sup><a id="endnote-044" href=
+"#endnote-044-backlink">44</a></sup> Douglas S. Massey and Karen A.
+Pren, “Unintended Consequences of U.S. Immigration Policy:
+Explaining the Post-1965 Surge from Latin America,” <em>Population
+and Development Review</em> 38, no.1 (2012): 1-29.</p>
+<p><sup><a id="endnote-045" href=
+"#endnote-045-backlink">45</a></sup> DHS used survey data on the
+share of apprehended border crossers who return to their home
+country without making a new entry attempt to focus on the
+population that would attempt to enter again. It then subtracted
+the number who were apprehended while making their repeat entry
+from the estimate of those who would make a repeat attempt. The
+success rate thus determined for formerly apprehended immigrants
+enabled DHS to estimate the number of successful entries for all
+border crossers.</p>
+<p><sup><a id="endnote-046" href=
+"#endnote-046-backlink">46</a></sup> DEA, “2017 National Drug
+Threat Assessment.”</p>
+<p><sup><a id="endnote-047" href=
+"#endnote-047-backlink">47</a></sup> Carla Argueta, “Border
+Security: Immigration Enforcement between Ports of Entry,”
+Congressional Research Service, April 19, 2016,
+https://fas.org/sgp/crs/homesec/R42138.pdf.</p>
+<p><sup><a id="endnote-048" href=
+"#endnote-048-backlink">48</a></sup> Office of Inspector General,
+“Independent Review of the U.S. Customs and Border Protection&#8217;s
+Reporting of FY 2007 Drug Control Performance Summary,” U.S.
+Department of Homeland Security, April 2008, <a href=
+"https://www.oig.dhs.gov/assets/Mgmt/OIG_08-40_Apr08.pdf">https://www.oig.dhs.gov/assets/Mgmt/OIG_08-40_Apr08.pdf</a>;
+Office of Inspector General, “Independent Review of the U.S.
+Customs and Border Protection&#8217;s Reporting of FY 2010 Drug Control
+Performance Summary Report,” U.S. Department of Homeland Security,
+January 2011, <a href=
+"https://www.oig.dhs.gov/assets/Mgmt/OIG_11-36_Jan11.pdf">https://www.oig.dhs.gov/assets/Mgmt/OIG_11-36_Jan11.pdf</a>;
+U.S. Border Patrol, “Stats and Summaries-Sector Profile,” <a href=
+"https://www.cbp.gov/newsroom/media-resources/stats?title=sector+profile">
+https://www.cbp.gov/newsroom/media-resources/stats?title=sector+profile</a>;
+Customs and Border Protection, “CBP Enforcement Statistics FY2018,”
+<a href=
+"https://www.cbp.gov/newsroom/stats/cbp-enforcement-statistics">https://www.cbp.gov/newsroom/stats/cbp-enforcement-statistics</a>;
+and Customs and Border Protection, “Border Patrol Agent Nationwide
+Staffing by Fiscal Year,” 2017.</p>
+<p><sup><a id="endnote-049" href=
+"#endnote-049-backlink">49</a></sup> Customs and Border Protection,
+“CBP Enforcement Statistics FY2018.”</p>
+<p><sup><a id="endnote-050" href=
+"#endnote-050-backlink">50</a></sup> Customs and Border Protection,
+“CBP Enforcement Statistics FY2018.”</p>
+<p><sup><a id="endnote-051" href=
+"#endnote-051-backlink">51</a></sup> 2012 figure from Customs and
+Border Protection, “Air and Marine: A Rich and Varied History of
+Service,” March 14, 2014, <a href=
+"https://www.cbp.gov/border-security/air-sea/air-and-marine-rich-and-varied-history-service">
+https://www.cbp.gov/border-security/air-sea/air-and-marine-rich-and-varied-history-service</a>.
+2013 figure estimated based on Randolph Alles, “What Does a Secure
+Maritime Border Look Like?” House Committee on Homeland Security,
+November 19, 2013, <a href=
+"https://www.dhs.gov/news/2013/11/19/written-testimony-cbp-house-homeland-security-subcommittee-border-and-maritime">
+https://www.dhs.gov/news/2013/11/19/written-testimony-cbp-house-homeland-security-subcommittee-border-and-maritime</a>.
+2014 figure from Randolph Alles, “Securing the Maritime Border: The
+Future of CBP Air and Marine,” House Committee on Homeland
+Security, July 14, 2015, <a href=
+"https://www.dhs.gov/news/2015/07/14/written-testimony-cbp-house-homeland-security-subcommittee-border-and-maritime">
+https://www.dhs.gov/news/2015/07/14/written-testimony-cbp-house-homeland-security-subcommittee-border-and-maritime</a>.
+2015 figure from Air and Marine Operations, “Annual Review 2015,”
+Customs and Border Protection, <a href=
+"https://www.cbp.gov/sites/default/files/assets/documents/2016-Dec/Annual_Review_FINAL_2015.pdf">
+https://www.cbp.gov/sites/default/files/assets/documents/2016-Dec/Annual_Review_FINAL_2015.pdf</a>.
+2016 figure from Customs and Border Protection, “CBP&#8217;s Air and
+Marine Operations, Interagency Partners Thwart Attempts to Smuggle
+4,659 Pounds of Cocaine,” July 6, 2017, <a href=
+"https://www.cbp.gov/newsroom/local-media-release/cbp-s-air-and-marine-operations-interagency-partners-thwart-attempts">
+https://www.cbp.gov/newsroom/local-media-release/cbp-s-air-and-marine-operations-interagency-partners-thwart-attempts</a>.
+2017 figure from Customs and Border Protection, “Air and Marine
+Operations: Fact Sheet,” <a href=
+"https://www.cbp.gov/sites/default/files/assets/documents/2017-Dec/FS_2018_AMO_Fact%20Sheet.pdf">
+https://www.cbp.gov/sites/default/files/assets/documents/2017-Dec/FS_2018_AMO_Fact%20Sheet.pdf</a>.</p>
+<p><sup><a id="endnote-052" href=
+"#endnote-052-backlink">52</a></sup> U.S. Department of State,
+“Narcotics Control Reports,” <a href=
+"https://www.state.gov/j/inl/rls/nrcrpt/index.htm">https://www.state.gov/j/inl/rls/nrcrpt/index.htm</a>.
+2017 figure from U.S. Department of State, International Narcotics
+Control Strategy Report, Volume I: Drug and Chemical Control (March
+2018), <a href=
+"https://www.state.gov/documents/organization/278759.pdf">https://www.state.gov/documents/organization/278759.pdf</a>.
+2016 figure from U.S. Department of State, International Narcotics
+Control Strategy Report, Volume I: Drug and Chemical Control (March
+2017), <a href=
+"https://www.state.gov/documents/organization/268025.pdf">https://www.state.gov/documents/organization/268025.pdf</a>.
+2015 figure from U.S. Department of State, International Narcotics
+Control Strategy Report, Volume I: Drug and Chemical Control (March
+2016), <a href=
+"https://www.state.gov/documents/organization/268025.pdf">https://www.state.gov/documents/organization/268025.pdf</a>.
+2014 figure from U.S. Department of State, International Narcotics
+Control Strategy Report, Volume I: Drug and Chemical Control (March
+2015), <a href=
+"https://www.state.gov/documents/organization/253655.pdf">https://www.state.gov/documents/organization/253655.pdf</a>.
+2013 figure from U.S. Department of State, International Narcotics
+Control Strategy Report, Volume I: Drug and Chemical Control (March
+2014), <a href=
+"https://www.state.gov/documents/organization/222881.pdf">https://www.state.gov/documents/organization/222881.pdf</a>.
+2012 figure from U.S. Department of State, International Narcotics
+Control Strategy Report, Volume I: Drug and Chemical Control (March
+2013), <a href=
+"https://2009-2017.state.gov/documents/organization/204265.pdf">https://2009-2017.state.gov/documents/organization/204265.pdf</a>.</p>
+<p><sup><a id="endnote-053" href=
+"#endnote-053-backlink">53</a></sup> This figure counts only states
+where marijuana legalization included non-low-THC, high-CBD strains
+and smokable varieties. User statistics come from NORML, “Medical
+Marijuana,” http://norml.org/legal/medical-marijuana-2. See also
+National Conference of State Legislatures, “State Medical Marijuana
+Laws,” <a href=
+"http://www.ncsl.org/research/health/state-medical-marijuanalaws.aspx">
+http://www.ncsl.org/research/health/state-medical-marijuanalaws.aspx</a>.</p>
+<p><sup><a id="endnote-054" href=
+"#endnote-054-backlink">54</a></sup> Based on a constant valuation
+of $56.1 billion for the overall marijuana market, as given by The
+Arcview Group, “New Report: Marijuana Stores as Profitable as
+Starbucks,” November 16, 2017. 2013-2014 figures from The Arcview
+Group, “New Report: Legal Marijuana Is the Fastest Growing Industry
+in the U.S.-74% Growth in 2014,” January 25, 2015. 2015 figure from
+Arcview Market Research, “The State of Legal Marijuana Markets, 4th
+Edition,” <a href=
+"https://www.amazon.com/State-Legal-Marijuana-Markets-4th/dp/0991366522">
+https://www.amazon.com/State-Legal-Marijuana-Markets-4th/dp/0991366522</a>.
+2016 figure from The Arcview Group, “New Report: Marijuana Stores
+as Profitable as Starbucks,” November 16, 2017. 2017 figure from
+Jeremy Berke, “The Legal Marijuana Market Is Exploding-It&#8217;ll Hit
+Almost $10 Billion in Sales This Year,” Business Insider, December
+8, 2017.</p>
+<p><sup><a id="endnote-055" href=
+"#endnote-055-backlink">55</a></sup> Author&#8217;s calculation based on
+aggregating valuations from CBP press releases. See Customs and
+Border Protection, “Local Media Releases,” 2013-2017, <a href=
+"https://www.cbp.gov/newsroom/local-media-release">https://www.cbp.gov/newsroom/local-media-release</a>.</p>
+<p><sup><a id="endnote-056" href=
+"#endnote-056-backlink">56</a></sup> See appendix for values.
+Author&#8217;s calculation based on aggregating valuations from CBP press
+releases. See Customs and Border Protection, “Local Media
+Releases,” 2012-2017.</p>
+<p><sup><a id="endnote-057" href=
+"#endnote-057-backlink">57</a></sup> Note that since 2013, the
+number of officers at ports of entry (22,500) has averaged roughly
+about the same level as the number of Border Patrol agents
+(20,200).</p>
+<p><sup><a id="endnote-058" href=
+"#endnote-058-backlink">58</a></sup> Customs and Border Protection,
+“CBP Enforcement Statistics FY2018.”</p>
+<p><sup><a id="endnote-059" href=
+"#endnote-059-backlink">59</a></sup> Customs and Border Protection,
+“Heroin Found in Seat Cushion by CBP at JFK,” April 3, 2015,
+<a href=
+"https://www.cbp.gov/newsroom/local-media-release/heroin-found-seat-cushion-cbp-jfk">
+https://www.cbp.gov/newsroom/local-media-release/heroin-found-seat-cushion-cbp-jfk</a>.</p>
+<p><sup><a id="endnote-060" href=
+"#endnote-060-backlink">60</a></sup> The trends in CBP valuations
+appear to correlate with the DEA&#8217;s estimates of the value of each
+drug&#8217;s price per pure gram. See DEA, “2017 National Drug Threat
+Assessment,” <a href=
+"https://www.dea.gov/sites/default/files/2018-07/DIR-040-17_2017-NDTA.pdf">
+https://www.dea.gov/sites/default/files/2018-07/DIR-040-17_2017-NDTA.pdf</a>.</p>
+<p><sup><a id="endnote-061" href=
+"#endnote-061-backlink">61</a></sup> Customs and Border Protection,
+“Heroin Found in Seat Cushion By CBP at JFK.”</p>
+<p><sup><a id="endnote-062" href=
+"#endnote-062-backlink">62</a></sup> Wainwright,
+<em>Narconomics</em>, pp. 4-5.</p>
+<p><sup><a id="endnote-063" href=
+"#endnote-063-backlink">63</a></sup> In 2017, CBP valued the
+average pound of marijuana at $466; of meth at $8,999 per pound; of
+cocaine at $13,177 per pound; of heroin at $20,868 per pound; and
+of fentanyl at $28,835 per pound. (See appendix for full numbers
+for 2013-2017; see also the note on fentanyl values at the end of
+the appendix.) Author&#8217;s calculation based on aggregating valuations
+from CBP press releases. See Customs and Border Protection, “Local
+Media Releases,” 2013-2017.</p>
+<p><sup><a id="endnote-064" href=
+"#endnote-064-backlink">64</a></sup> Customs and Border Protection,
+“U.S. Border Patrol Nationwide Checkpoint Drug Seizures in Pounds,”
+U.S. Department of Homeland Security, September 10, 2018, <a href=
+"https://www.cbp.gov/newsroom/stats/cbp-enforcement-statistics/usbp-drug-seizures-sector">
+https://www.cbp.gov/newsroom/stats/cbp-enforcement-statistics/usbp-drug-seizures-sector</a>.</p>
+<p><sup><a id="endnote-065" href=
+"#endnote-065-backlink">65</a></sup> The number of Border Patrol
+agents was taken to be 9.4 percent of the total, on the basis of
+the share of agent hours devoted to checkpoints from FY 2013 to FY
+2016. See Government Accountability Office, “Issues Related to
+Agent Deployment Strategy and Immigration Checkpoints,” GAO-18-50,
+November 2017, p. 29.</p>
+<p><sup><a id="endnote-066" href=
+"#endnote-066-backlink">66</a></sup> The disparity may be even
+larger than these numbers suggest, since nearly 40 percent of
+Border Patrol drug seizures occur more than 20 miles from the
+border-at least, they did in FY 2016. See Government Accountability
+Office, “Issues Related to Agent Deployment Strategy and
+Immigration Checkpoints,” GAO-18-50, November 2017, p. 72.</p>
+<p><sup><a id="endnote-067" href=
+"#endnote-067-backlink">67</a></sup> The agencies also engage in
+other activities, including drug and customs enforcement. See Doris
+Meissner et al., “Immigration Enforcement in the United States: The
+Rise of a Formidable Machinery,” Migration Policy Institute,
+January 2013, <a href=
+"https://www.migrationpolicy.org/research/immigration-enforcement-united-states-rise-formidable-machinery">
+https://www.migrationpolicy.org/research/immigration-enforcement-united-states-rise-formidable-machinery</a>.</p>
+<p><sup><a id="endnote-068" href=
+"#endnote-068-backlink">68</a></sup> Border Patrol, “Nationwide
+Illegal Alien Apprehensions, Fiscal Years 1925-2017,” <a href=
+"https://www.cbp.gov/sites/default/files/assets/documents/2017-Dec/BP%20Total%20Apps%20FY1925-FY2017.pdf">
+https://www.cbp.gov/sites/default/files/assets/documents/2017-Dec/BP%20Total%20Apps%20FY1925-FY2017.pdf</a>;
+Marc R. Rosenblum and Kristen McCabe, “Deportation and Discretion:
+Reviewing the Record and Options for Change,” Migration Policy
+Institute, October 2014, <a href=
+"https://www.migrationpolicy.org/research/deportation-and-discretion-reviewing-record-and-options-change">
+https://www.migrationpolicy.org/research/deportation-and-discretion-reviewing-record-and-options-change</a>;
+and U.S. Immigration and Customs Enforcement, “Fiscal Year 2017 ICE
+Enforcement and Removal Operations Report,” <a href=
+"https://www.ice.gov/sites/default/files/documents/Report/2017/iceEndOfYearFY2017.pdf">
+https://www.ice.gov/sites/default/files/documents/Report/2017/iceEndOfYearFY2017.pdf</a>.</p>
+<p><sup><a id="endnote-069" href=
+"#endnote-069-backlink">69</a></sup> Alex Nowrasteh, “Guest Worker
+Visas Can Halt Illegal Immigration,” <em>Cato</em> <em>at
+Liberty</em> <em>(blog)</em>, May 5, 2014, <a href=
+"https://www.cato.org/blog/guest-worker-visas-can-halt-illegal-immigration">
+https://www.cato.org/blog/guest-worker-visas-can-halt-illegal-immigration</a>.</p>
+<p><sup><a id="endnote-070" href=
+"#endnote-070-backlink">70</a></sup> Donald Coppock,
+“History-Border Patrol,” Immigration and Naturalization Service,
+1986, <a href=
+"https://object.cato.org/sites/cato.org/files/wp-content/uploads/borderpatrolstaffing25_85.pdf">
+https://object.cato.org/sites/cato.org/files/wp-content/uploads/borderpatrolstaffing25_85.pdf</a>;
+TRACImmigration, “Border Patrol Agents: Southern vs. Northern
+Border,” Syracuse University, <a href=
+"http://trac.syr.edu/immigration/reports/143/include/rep143table2.html">
+http://trac.syr.edu/immigration/reports/143/include/rep143table2.html</a>;
+Customs and Border Protection, “Border Patrol Agent Nationwide
+Staffing by Fiscal Year,” 2017; Border Patrol, “Nationwide Illegal
+Alien Apprehensions Fiscal Years 1925-2017”; U.S. Department of
+Homeland Security, “Yearbook of Immigration Statistics”; U.S.
+Citizenship and Immigration Services, “General Collection-Annual
+Reports,” August 9, 2017.</p>
+<p><sup><a id="endnote-071" href=
+"#endnote-071-backlink">71</a></sup> For 2014 and 2015, CBP
+reported an average of 190,000 people per year made it across the
+border. See Tribune News Services, “Barely Half of Illegal Border
+Crossers Caught, According to Homeland Security Report,”
+<em>Chicago Tribune</em>, October 7, 2016.</p>
+<p><sup><a id="endnote-072" href=
+"#endnote-072-backlink">72</a></sup> David Bier, “Three Trends to
+Put Trump&#8217;s Anti-Immigration Executive Orders in Context,” <em>Cato
+at Liberty</em> <em>(blog)</em>, January 27, 2017, <a href=
+"https://www.cato.org/blog/three-trends-put-trumps-anti-immigration-executive-orders-context">
+https://www.cato.org/blog/three-trends-put-trumps-anti-immigration-executive-orders-context</a>.</p>
+<p><sup><a id="endnote-073" href=
+"#endnote-073-backlink">73</a></sup> Human Rights Watch, “Border
+Enforcement Policies Ensnare Parents of U.S. Citizen Children,”
+January 8, 2015.</p>
+<p><sup><a id="endnote-074" href=
+"#endnote-074-backlink">74</a></sup> Michael Clemens, “Violence,
+Development and Migration Waves: Evidence from Central American
+Child Migrant Apprehensions,” IZA Discussion Paper No. 10928,
+August 31, 2017, <a href=
+"https://www.cgdev.org/sites/default/files/violence-development-and-migration-waves-evidence-central-american-child-migrant.pdf">
+https://www.cgdev.org/sites/default/files/violence-development-and-migration-waves-evidence-central-american-child-migrant.pdf</a>.</p>
+<p><sup><a id="endnote-075" href=
+"#endnote-075-backlink">75</a></sup> Jeffrey Passel and D&#8217;Vera
+Cohn, “Overall Number of U.S. Unauthorized Immigrants Holds Steady
+Since 2009,” Pew Research Center, September 20, 2016.</p>
+<p><sup><a id="endnote-076" href=
+"#endnote-076-backlink">76</a></sup> “Allocation of Immigrant
+Visas,” 8 U.S.C. § 1153(b)(3)(A)(iii); and “Inadmissible Aliens,” 8
+U.S.C. § 1182(a)(6).</p>
+<p><sup><a id="endnote-077" href=
+"#endnote-077-backlink">77</a></sup> As quoted in David J. Bier,
+“Does America Ban Immigration?,” Foundation for Economic Education,
+July 31, 2015,
+https://fee.org/articles/does-america-ban-immigration/.</p>
+<p><sup><a id="endnote-078" href=
+"#endnote-078-backlink">78</a></sup> Bureau of Immigration, “Annual
+Report of the Commissioner General of Immigration to the Secretary
+of Labor Fiscal Year Ended June 30, 2017,” U.S. Department of
+Labor, available at U.S. Citizenship and Immigration Services,
+“General Collection-Annual Reports,” <a href=
+"https://www.uscis.gov/history-and-genealogy/historical-library/our-collection/general-collection">
+https://www.uscis.gov/history-and-genealogy/historical-library/our-collection/general-collection</a></p>
+<p><sup><a id="endnote-079" href=
+"#endnote-079-backlink">79</a></sup> Author&#8217;s calculation based on
+aggregating valuations from CBP press releases. See Customs and
+Border Protection, “Local Media Releases,” 2012-2017.</p>
+<p><sup><a id="endnote-080" href=
+"#endnote-080-backlink">80</a></sup> Customs and Border Protection,
+“Heroin Found in Seat Cushion by CBP at JFK,” April 3, 2015; and
+Customs and Border Protection, “CBP in San Diego and Imperial
+Valley Seizes $8.3 Million in Narcotics,” November 15, 2017.</p>
+<p><sup><a id="endnote-081" href=
+"#endnote-081-backlink">81</a></sup> Azam Ahmed, “Drug That Killed
+Prince Is Making Mexican Cartels Richer, U.S. Says,” <em>New York
+Times</em>, June 9, 2016..</p>
+  </div>
+</article>
+
+<div class="pub-page-share-tools"><div class="pub-page-share-tools-rel"><ul class="pub-page-share-list"><li class="twitter first"><a href="https://twitter.com/intent/tweet?url=https%3A//www.cato.org/publications/policy-analysis/how-legalizing-marijuana-securing-border-border-wall-drug-smuggling&amp;text=How%20Legalizing%20Marijuana%20Is%20%20Securing%20the%20Border%3A%20The%20Border%20Wall%2C%20Drug%20Smuggling%2C%20and%20Lessons%20for%20Immigration%20Policy&amp;via=CatoInstitute&amp;related=Libertarianism" target="_blank" rel="nofollow"><i class="fa fa-fw fa-twitter "></i>Tweet</a></li>
+<li class="facebook"><a href="https://www.facebook.com/dialog/share?app_id=158687980817033&amp;href=https%3A//www.cato.org/publications/policy-analysis/how-legalizing-marijuana-securing-border-border-wall-drug-smuggling" target="_blank" rel="nofollow"><i class="fa fa-fw fa-facebook-square "></i>Like</a></li>
+<li class="reddit"><a href="https://reddit.com/https://www.cato.org/publications/policy-analysis/how-legalizing-marijuana-securing-border-border-wall-drug-smuggling" target="_blank" rel="nofollow"><i class="fa fa-fw fa-reddit fa-lg "></i>Submit</a></li>
+<li class="linkedin last"><a href="https://www.linkedin.com/shareArticle?url=https%3A//www.cato.org/publications/policy-analysis/how-legalizing-marijuana-securing-border-border-wall-drug-smuggling&amp;mini=true&amp;title=How%20Legalizing%20Marijuana%20Is%20%20Securing%20the%20Border%3A%20The%20Border%20Wall%2C%20Drug%20Smuggling%2C%20and%20Lessons%20for%20Immigration%20Policy&amp;source=Cato%20Institute" target="_blank" rel="nofollow"><i class="fa fa-fw fa-linkedin fa-lg "></i>Share</a></li>
+</ul></div></div><!-- share-tools -->
+
+<div class="expert-attribution clearfix">
+      <div class="expert-attribution-link">
+  <div class="field-cropped-picture">
+    <a href="/people/david-bier"><picture >
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://object.cato.org/sites/cato.org/files/styles/resp__img__pubauthor-15x/s3/authors/crops/david-bier-cropped.jpg?itok=mc6Licmp&amp;timestamp=1469041731 1.5x, https://object.cato.org/sites/cato.org/files/styles/resp__img__pubauthor/s3/authors/crops/david-bier-cropped.jpg?itok=hpVO_f47&amp;timestamp=1469041731 1x, https://object.cato.org/sites/cato.org/files/styles/resp__img__pubauthor-2x/s3/authors/crops/david-bier-cropped.jpg?itok=Udr1WMvQ&amp;timestamp=1469041731 2x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  src="https://object.cato.org/sites/cato.org/files/styles/resp__img__pubauthor-2x/s3/authors/crops/david-bier-cropped.jpg?itok=Udr1WMvQ&amp;timestamp=1469041731" alt="" title="" />
+</picture></a>  </div>
+</div>
+      <div class="expert-attribution-text quote">
+      
+  <div class="field-auth-bio">
+    <a href="https://www.cato.org/people/david-bier">David J. Bier</a> is an immigration policy analyst at the Cato Institute’s Center for Global Liberty and Prosperity.  </div>
+    </div>
+</div><!-- expert-atribution -->
+  </div>
+</div>
+<div id="block-block-103" class="block block-block">
+
+      
+  <div class="content">
+    <!-- START HUBSPOT CTA -->
+
+<link rel="stylesheet" type="text/css" href="https://object.cato.org/sites/cato.org/files/file_attach/hubspot-cta-button-area.css" /><section role="article" about="/node/308551" class="node node-type-embed-promo"><header><h2><span>Related</span> </h2>
+                </header><div class="promo_content">
+   <h3 style="margin:1rem 0 0rem 0;">
+<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-f07c7be7-1bec-42b4-ad17-b31d16b4ce87"><span class="hs-cta-node hs-cta-f07c7be7-1bec-42b4-ad17-b31d16b4ce87" id="hs-cta-f07c7be7-1bec-42b4-ad17-b31d16b4ce87"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/4957480/f07c7be7-1bec-42b4-ad17-b31d16b4ce87"><img class="hs-cta-img" id="hs-cta-img-f07c7be7-1bec-42b4-ad17-b31d16b4ce87" style="border-width:0px;" src="https://object.cato.org/sites/cato.org/files/download-remote-images/no-cache.hubspot.com/81979052289/f07c7be7-1bec-42b4-ad17-b31d16b4ce87.png" alt="The 14 Most Common Arguments against Immigration and Why They’re Wrong" /></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+ hbspt.cta.load(4957480, 'f07c7be7-1bec-42b4-ad17-b31d16b4ce87', {}); 
+//--><!]]>
+</script></span><!-- end HubSpot Call-to-Action Code -->
+</h3>
+These are the main arguments against immigration — and they’re all wrong.
+
+
+ <h3 style="margin:1rem 0 0rem 0;">
+    
+<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-fd89bd8c-8a67-47d9-9982-b3e82c2a7809"><span class="hs-cta-node hs-cta-fd89bd8c-8a67-47d9-9982-b3e82c2a7809" id="hs-cta-fd89bd8c-8a67-47d9-9982-b3e82c2a7809"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/4957480/fd89bd8c-8a67-47d9-9982-b3e82c2a7809"><img class="hs-cta-img" id="hs-cta-img-fd89bd8c-8a67-47d9-9982-b3e82c2a7809" style="border-width:0px;" src="https://object.cato.org/sites/cato.org/files/download-remote-images/no-cache.hubspot.com/81979052289/fd89bd8c-8a67-47d9-9982-b3e82c2a7809.png" alt="Why the Wall Won’t Work" /></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+ hbspt.cta.load(4957480, 'fd89bd8c-8a67-47d9-9982-b3e82c2a7809', {}); 
+//--><!]]>
+</script></span><!-- end HubSpot Call-to-Action Code -->
+ 
+</h3>
+
+The legal, practical, and moral case against President Trump’s border barrier.
+
+
+
+
+
+   <h3 style="margin:1rem 0 0rem 0;">
+<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-e6868ab6-26ed-400f-9b04-9efbd45dbfaf"><span class="hs-cta-node hs-cta-e6868ab6-26ed-400f-9b04-9efbd45dbfaf" id="hs-cta-e6868ab6-26ed-400f-9b04-9efbd45dbfaf"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/4957480/e6868ab6-26ed-400f-9b04-9efbd45dbfaf" target="_blank"><img class="hs-cta-img" id="hs-cta-img-e6868ab6-26ed-400f-9b04-9efbd45dbfaf" style="border-width:0px;" src="https://object.cato.org/sites/cato.org/files/download-remote-images/no-cache.hubspot.com/81979052289/e6868ab6-26ed-400f-9b04-9efbd45dbfaf.png" alt="Trump Is Against Legal Immigration Too" /></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+ hbspt.cta.load(4957480, 'e6868ab6-26ed-400f-9b04-9efbd45dbfaf', {}); 
+//--><!]]>
+</script></span><!-- end HubSpot Call-to-Action Code -->
+</h3>
+President Trump has been mostly consistent on legal immigration: He wants to cut it.
+
+<br /><br /></div>
+<footer><div>
+
+
+
+</div>
+</footer></section>  </div>
+</div>
+<div id="block-block-30" class="block block-block creative-commons clearfix">
+
+      
+  <div class="content">
+    <p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>  </div>
+</div>
+  </div>
+            <!--googleoff: index-->
+                        <!--googleon: index-->
+    </section>
+    <!-- /#content -->
+
+  </div>
+</div> <!-- /#main -->
+
+<!--googleoff: index-->
+<footer class="main-footer">
+  <div class="wrapper">
+    <aside class="region region-footer-fourth col-1">
+      <div id="block-block-27" class="block block-block ftr-signup">
+
+        <h3 class="section-h3">Cato Today Newsletter</h3>
+
+        <div class="content">
+          <p class="ftr-txt"><i>Daily dose of liberty delivered straight to your inbox.</i></p>
+          <!-- Begin MailChimp Signup Form -->
+
+
+          <!--[if lte IE 8]>
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+          <![endif]-->
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+          <script>
+            hbspt.forms.create({
+              portalId: "4957480",
+              formId: "04e35c5d-83a7-4a31-9eed-0fb940cb121b"
+            });
+          </script>
+
+          <!--End mc_embed_signup-->
+
+          <p class="ftr-txt"><a
+              href="/ecommunity?utm_source=mailchimp-signup&utm_medium=banner&utm_campaign=ecommunity-mailchimp-signup"
+              target="_blank">View full list of newsletters</a></p>
+        </div>
+      </div>
+    </aside>
+    <aside class="region region-footer-third col-2">
+      <div id="block-menu-menu-also-from-cato"
+           class="block block-menu ftr-list">
+
+        <h3 class="section-h3">Also from Cato</h3>
+
+        <div class="content">
+          <ul class="menu">
+            <li class="first leaf level-1"><a href="/students" rel="me">Internships
+                and Student Programs</a></li>
+            <li class="leaf level-1"><a
+                href="https://www.downsizinggovernment.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato" rel="me"
+                target="_blank">DownsizingGovernment.org</a></li>
+            <li class="leaf level-1"><a href="https://www.libertarianism.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato"
+                                        rel="me" target="_blank">Libertarianism.org</a>
+            </li>
+            <li class="leaf level-1"><a href="http://humanprogress.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato"
+                                        rel="me" target="_blank">HumanProgress.org</a>
+            </li>
+            <li class="leaf level-1"><a href="https://www.cato-unbound.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato"
+                                        rel="me" target="_blank">Cato
+                Unbound</a></li>
+            <li class="leaf level-1"><a href="https://www.unlawfulshield.com?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato"
+                                        rel="me" target="_blank">Unlawful Shield</a>
+            </li>
+            <li class="leaf level-1"><a
+                href="https://www.freedominthe50states.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato" rel="me"
+                target="_blank">Freedom in the 50 States</a></li>
+            <li class="leaf level-1"><a href="https://overlawyered.com?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato" rel="me"
+                                        target="_blank">Overlawyered</a></li>
+            <li class="leaf level-1"><a href="https://www.elcato.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato" rel="me"
+                                        target="_blank">ElCato.org</a></li>
+            <li class="last leaf level-1"><a href="https://www.alt-m.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato"
+                                             rel="me" target="_blank">Alt-M</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <aside class="region region-footer-second col-3">
+      <div id="block-menu-menu-social-media" class="block block-menu ftr-list">
+
+        <h3 class="section-h3">Social Media</h3>
+
+        <div class="content">
+          <ul class="menu">
+            <li class="first leaf level-1"><a
+                href="https://www.facebook.com/CatoInstitute" rel="me"
+                class="link-facebook" target="_blank"><i
+                  class="fa fa-facebook-square fa-fw"></i> Facebook</a></li>
+            <li class="leaf level-1"><a href="https://twitter.com/catoinstitute"
+                                        rel="me" class="link-twitter"
+                                        target="_blank"><i
+                  class="fa fa-twitter fa-fw"></i> Twitter</a></li>
+            <li class="leaf level-1"><a
+                href="https://www.youtube.com/catoinstitutevideo" rel="me"
+                class="link-youtube" target="_blank"><i
+                  class="fa fa-youtube-play fa-fw"></i> YouTube</a></li>
+            <li class="leaf level-1"><a
+                href="https://www.linkedin.com/company/cato-institute" rel="me"
+                class="link-linkedin" target="_blank"><i
+                  class="fa fa-linkedin fa-fw"></i> LinkedIn</a></li>
+            <li class="leaf level-1"><a
+                href="https://instagram.com/catoinstitute" rel="me"
+                class="link-instagram" target="_blank"><i
+                  class="fa fa-instagram fa-fw"></i> Instagram</a></li>
+            <li class="leaf level-1"><a href="https://catoinstitute.tumblr.com"
+                                        rel="me" class="link-tumblr"
+                                        target="_blank"><i
+                  class="fa fa-tumblr fa-fw"></i> Tumblr</a></li>
+            <li class="last leaf level-1"><a
+                href="https://www.cato.org/ecommunity/rss" class="link-rss"><i
+                  class="fa fa-rss fa-fw"></i> RSS</a></li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <aside class="region region-footer-first col-4">
+      <div id="block-block-1" class="block block-block ftr-info">
+
+
+        <div class="content">
+          <a href="/" class="ftr-logo"><img
+              src="/sites/cato.org/files/cato-logo_0.png"/></a>
+          <p class="ftr-address">Cato Institute<br/>
+            1000 Massachusetts Ave, NW<br/>
+            Washington, DC 20001-5403</p>
+          <ul class="ftr-phone">
+            <li>Phone (202) 842 0200</li>
+          </ul>
+          <p class="ftr-txt"><a href="/privacy">Privacy Policy</a></p>
+          <p class="ftr-txt"><a href="/contact-us">Contact Us</a></p>
+          <p class="ftr-txt"><a href="/for-media">Media Contact</a></p></div>
+      </div>
+    </aside>
+  </div>
+</footer> <!-- /#footer -->
+<!--googleon: index-->
+<script>!function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);</script>
+<script src="https://www.cato.org/sites/all/libraries/modernizr/modernizr-latest.js?psvwyo"></script>
+<script src="//code.jquery.com/jquery-1.7.2.min.js"></script>
+<script>
+window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")
+</script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_dWhBODswdXXk1M5Z5nyqNfGljmqwxUwAK9i6D0YSDNs.js"></script>
+<script src="//code.jquery.com/ui/1.10.2/jquery-ui.min.js"></script>
+<script>
+window.jQuery.ui || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery-ui.min.js'>\x3C/script>")
+</script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_H7q2xORKmR9AN8Qx5spKEIBp7R_wG2apAswJoCUZY7I.js"></script>
+<script>
+document.createElement( "picture" );
+</script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_IfbrAP369vx7k2UxZQlS7WIHzbvVIbFbJOK4tI-0uw4.js"></script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_q6VmREnogkvjK__3W6iYvgr1enkjafpI3sj-R9_rlNs.js"></script>
+<script>
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-1677831-1", {"cookieDomain":"auto"});ga("set", "dimension1", "David Bier");ga("set", "dimension2", "Drug War, Immigration");ga("set", "dimension5", "Criminal Law and Civil Liberties; International Economics, Development \u0026amp; Immigration");ga("send", "pageview");
+</script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_XXq_LK6pKIixrCGe2YnQ0L_eKZIVBqjRJA9fq1Y9228.js"></script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_eeUNZzHjwOxqVQdIx_77SauAk-Q4Zsm6GipkMRhj6wc.js"></script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_MSll280CNvwRthMZU3Lor1hCVqeKZZ7QrUCpVn6appc.js"></script>
+<script>
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cato","theme_token":"XUX5Yo5bJjHLR7FdHBPKEN5BPFV5fqauD9mLAg7RBAI","js":{"sites\/all\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/contrib\/picture\/picture.min.js":1,"sites\/all\/libraries\/modernizr\/modernizr-latest.js":1,"\/\/code.jquery.com\/jquery-1.7.2.min.js":1,"0":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/code.jquery.com\/ui\/1.10.2\/jquery-ui.min.js":1,"1":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"2":1,"sites\/all\/modules\/contrib\/spamspan\/spamspan.js":1,"sites\/all\/modules\/contrib\/caption_filter\/js\/caption-filter.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"3":1,"misc\/form.js":1,"misc\/collapse.js":1,"sites\/all\/modules\/cato_institute\/custom_analytics_events\/custom_analytics_events.js":1,"sites\/all\/modules\/cato_institute\/custom_analytics_events\/custom_analytics_events_google_analytics.js":1,"sites\/all\/modules\/cato_institute\/custom_analytics_events\/custom_analytics_events_hubspot.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.sticky.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.fixed-scroll.js":1,"sites\/all\/themes\/cato\/_js\/libs\/wilto-carousel.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.masonry.min.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.getUrlVar.js":1,"sites\/all\/themes\/cato\/_js\/catomegamenu.js":1,"sites\/all\/themes\/cato\/_js\/identifyAnalyticsUser.js":1,"sites\/all\/themes\/cato\/_js\/script.js":1,"sites\/all\/themes\/cato\/_js\/dialog.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"sites\/all\/modules\/cato_institute\/responsivevideo\/responsivevideo.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/caption_filter\/caption-filter.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/custompage\/custompage.css":1,"sites\/all\/modules\/contrib\/oembed\/oembed.base.css":1,"sites\/all\/modules\/contrib\/oembed\/oembed.theme.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/typogrify\/typogrify.css":1,"sites\/all\/modules\/contrib\/wysiwyg_linebreaks\/wysiwyg_linebreaks.css":1,"sites\/all\/themes\/cato\/styles\/stylesheets\/screen.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip|epub|mobi","trackColorbox":1},"identifyAnalyticsUser":{"endpoint":"https:\/\/hubspot-microservice.cato.org\/prod"},"js":{"tokens":[]},"customAnalyticsEvents":[{"Topic":{"values":{"25961":"Criminal Law and Civil Liberties","15":"International Economics, Development \u0026 Immigration"},"action":"load","noninteraction":true}}]});
+</script>
+  <!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4957480.js"></script>
+<!-- End of HubSpot Embed Code --><!— Facebook Pixel Code —>
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '454916984694808'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id= 454916984694808&ev=PageView&noscript=1"
+/></noscript>
+<!— DO NOT MODIFY —>
+<!— End Facebook Pixel Code —><script src="https://www.cato.org/sites/cato.org/files/js/js_7Ukqb3ierdBEL0eowfOKzTkNu-Le97OPm-UqTS5NENU.js"></script>
+<script type="text/javascript" src="//customer.cludo.com/scripts/bundles/search-script.min.js"></script>
+<script>
+  var CludoSearch;
+  (function () {
+    var cludoSettings = {
+      customerId: 10000518,
+      engineId: 10000746,
+      searchUrl: '/search',
+      language: 'en',
+      searchInputs: ['cludo-search-form', 'search-form'],
+      type: 'inline',
+      disableAutocomplete: true
+    };
+    CludoSearch= new Cludo(cludoSettings);
+    CludoSearch.debug = true;
+    CludoSearch.init();
+  })();
+</script>
+<!--[if lte IE 9]>
+<script src="https://api.cludo.com/scripts/xdomain.js" slave="https://api.cludo.com/proxy.html" type="text/javascript"></script>
+<![endif]-->
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"a0fc03e915","applicationID":"7801710","transactionName":"ZF1SYUNRWkQCBkdZCV0XcVZFWVtZTBVSVwNsVVFbUFdRRTwLXFQDbE5ZUEZvRFYEAA==","queueTime":0,"applicationTime":325,"atts":"SBpRFwtLSUo=","errorBeacon":"bam.nr-data.net","agent":""}</script><script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1298083658';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+</html>

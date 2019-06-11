@@ -1,0 +1,1111 @@
+<!doctype html>  
+
+<!--[if IEMobile 7 ]> <html lang="en-US" prefix="og: http://ogp.me/ns#"class="no-js iem7"> <![endif]-->
+<!--[if lt IE 7 ]> <html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js"><!--<![endif]-->
+	
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+		<title>2018 Prescription Drug Abuse Statistics You Need To Know | Talbott Recovery</title>	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+		<link rel="apple-touch-icon" sizes="57x57" href="https://talbottcampus.com/wp-content/themes/talbott/images/favicon/apple-icon-57x57.png?ver=1.2">
+		<link rel="apple-touch-icon" sizes="60x60" href="https://talbottcampus.com/wp-content/themes/talbott/images/favicon/apple-icon-60x60.png?ver=1.2">
+		<link rel="apple-touch-icon" sizes="72x72" href="https://talbottcampus.com/wp-content/themes/talbott/images/favicon/apple-icon-72x72.png?ver=1.2">
+		<link rel="apple-touch-icon" sizes="76x76" href="https://talbottcampus.com/wp-content/themes/talbott/images/favicon/apple-icon-76x76.png?ver=1.2">
+		<link rel="apple-touch-icon" sizes="114x114" href="https://talbottcampus.com/wp-content/themes/talbott/images/favicon/apple-icon-114x114.png?ver=1.2">
+		<link rel="apple-touch-icon" sizes="120x120" href="https://talbottcampus.com/wp-content/themes/talbott/images/favicon/apple-icon-120x120.png?ver=1.2">
+		<link rel="apple-touch-icon" sizes="144x144" href="https://talbottcampus.com/wp-content/themes/talbott/images/favicon/apple-icon-144x144.png?ver=1.2">
+		<link rel="apple-touch-icon" sizes="152x152" href="https://talbottcampus.com/wp-content/themes/talbott/images/favicon/apple-icon-152x152.png?ver=1.2">
+		<link rel="apple-touch-icon" sizes="180x180" href="https://talbottcampus.com/wp-content/themes/talbott/images/favicon/apple-icon-180x180.png?ver=1.2">
+		<link rel="icon" type="image/png" sizes="192x192"  href="https://talbottcampus.com/wp-content/themes/talbott/images/favicon/android-icon-192x192.png?ver=1.2">
+		<link rel="icon" type="image/png" sizes="32x32" href="https://talbottcampus.com/wp-content/themes/talbott/images/favicon/favicon-32x32.png?ver=1.2">
+		<link rel="icon" type="image/png" sizes="96x96" href="https://talbottcampus.com/wp-content/themes/talbott/images/favicon/favicon-96x96.png?ver=1.2">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://talbottcampus.com/wp-content/themes/talbott/images/favicon/favicon-16x16.png?ver=1.2">
+		<link rel="manifest" href="https://talbottcampus.com/wp-content/themes/talbott/images/favicon/manifest.json?ver=1.2">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="https://talbottcampus.com/wp-content/themes/talbott/images/favicon/ms-icon-144x144.png?ver=1.2">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="pingback" href="https://talbottcampus.com/xmlrpc.php">
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600,700,600italic,700italic|Droid+Serif:700,700i,400' rel='stylesheet' type='text/css'>
+
+		<!-- wordpress head functions -->
+			
+	<!-- #####
+	FRN Browser Phone Linking Deactivation
+	Global JS vars for device and number pass-through
+	##### -->
+	<meta name="format-detection" content="telephone=no">
+	<script type='text/javascript'>
+		frn_phoneBasic="678-251-3189";		
+	</script>
+	<!-- #####
+	END phone & mobile treatment
+	##### -->
+	
+	
+<!-- This site is optimized with the Yoast SEO plugin v9.6 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://talbottcampus.com/prescription-drug-abuse-statistics/" />
+<link rel="publisher" href="https://plus.google.com/+TalbottCampus"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="2018 Prescription Drug Abuse Statistics You Need To Know | Talbott Recovery" />
+<meta property="og:description" content="Prescription drug abuse is a serious and growing problem in the United States. The 2016 National Study on Drug Use and Health reported that an estimated 28.6 million Americans age 12 and over used illicit drugs during the month prior to the study. That means roughly 1 in 10 people struggle with some level of&hellip;" />
+<meta property="og:url" content="https://talbottcampus.com/prescription-drug-abuse-statistics/" />
+<meta property="og:site_name" content="Talbott Recovery" />
+<meta property="article:publisher" content="https://www.facebook.com/TalbottRecovery" />
+<meta property="article:section" content="Treatment" />
+<meta property="article:published_time" content="2018-03-21T22:18:10+00:00" />
+<meta property="article:modified_time" content="2018-10-23T16:50:50+00:00" />
+<meta property="og:updated_time" content="2018-10-23T16:50:50+00:00" />
+<meta property="og:image" content="https://talbottcampus.com/wp-content/uploads/iStock-594927832-400x267.jpg" />
+<meta property="og:image:secure_url" content="https://talbottcampus.com/wp-content/uploads/iStock-594927832-400x267.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Prescription drug abuse is a serious and growing problem in the United States. The 2016 National Study on Drug Use and Health reported that an estimated 28.6 million Americans age 12 and over used illicit drugs during the month prior to the study. That means roughly 1 in 10 people struggle with some level of&hellip;" />
+<meta name="twitter:title" content="2018 Prescription Drug Abuse Statistics You Need To Know | Talbott Recovery" />
+<meta name="twitter:site" content="@TalbottRecovery" />
+<meta name="twitter:image" content="https://talbottcampus.com/wp-content/uploads/iStock-594927832-400x267.jpg" />
+<meta name="twitter:creator" content="@TalbottRecovery" />
+<script type='application/ld+json'>{"@context":"https://schema.org","@type":"Organization","url":"https://talbottcampus.com/","sameAs":["https://www.facebook.com/TalbottRecovery","https://plus.google.com/+TalbottCampus","https://www.youtube.com/user/TalbottCampus","https://twitter.com/TalbottRecovery"],"@id":"https://talbottcampus.com/#organization","name":"Talbott Recovery","logo":"https://talbottcampus.com/wp-content/uploads/Talbott-Recovery-Center-Atlanta-GA-Logo.jpg"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//talbottcampus.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/talbottcampus.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='https://talbottcampus.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='photoswipe-core-css-css'  href='https://talbottcampus.com/wp-content/plugins/photoswipe-masonry/photoswipe-dist/photoswipe.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='white_theme-css'  href='https://talbottcampus.com/wp-content/plugins/photoswipe-masonry/photoswipe-dist/white-skin/skin.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='wpbs-css'  href='https://talbottcampus.com/wp-content/themes/talbott/css/app.css?ver=2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpbs-style-css'  href='https://talbottcampus.com/wp-content/themes/talbott/style.css?ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='frn_plugin_styles-css'  href='https://talbottcampus.com/wp-content/plugins/frn_plugins/styles.css?ver=1.12' type='text/css' media='all' />
+<script type='text/javascript' src='https://talbottcampus.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://talbottcampus.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://talbottcampus.com/wp-content/plugins/photoswipe-masonry/photoswipe-dist/photoswipe.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://talbottcampus.com/wp-content/plugins/photoswipe-masonry/photoswipe-masonry.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://talbottcampus.com/wp-content/plugins/photoswipe-masonry/photoswipe-dist/photoswipe-ui-default.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://talbottcampus.com/wp-content/plugins/photoswipe-masonry/masonry.pkgd.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://talbottcampus.com/wp-content/plugins/photoswipe-masonry/imagesloaded.pkgd.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://talbottcampus.com/wp-content/plugins/wp-mailto-links/public/js/wp-mailto-links.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://talbottcampus.com/wp-content/themes/talbott/bower_components/jquery/dist/jquery.min.js?ver=1.1'></script>
+<script type='text/javascript' src='https://talbottcampus.com/wp-content/themes/talbott/bower_components/foundation-sites/dist/foundation.min.js?ver=1.4'></script>
+<link rel='https://api.w.org/' href='https://talbottcampus.com/wp-json/' />
+<link rel='shortlink' href='https://talbottcampus.com/?p=9046' />
+<link rel="alternate" type="application/json+oembed" href="https://talbottcampus.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftalbottcampus.com%2Fprescription-drug-abuse-statistics%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://talbottcampus.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftalbottcampus.com%2Fprescription-drug-abuse-statistics%2F&#038;format=xml" />
+ 
+ 
+ <!-- FRN Custom Opengraph --> 
+      <meta property="og:image" content="https://talbottcampus.com/wp-content/uploads/Talbott-Recovery-Banner-for-Social.jpg" />
+     <meta property="og:image:width" content="1200" />
+     <meta property="og:image:height" content="717" />
+     <meta name="twitter:image" content="https://talbottcampus.com/wp-content/uploads/Talbott-Recovery-Banner-for-Social.jpg" />
+ <!-- END FRN Custom Opengraph --> 
+ 
+ <style type="text/css" media="all">
+/* WP Mailto Links Plugin */
+span.wpml-nodis { display:none !important; }
+span.wpml-rtl { unicode-bidi:bidi-override !important; direction:rtl !important; display:inline !important; }
+.wpml-encoded { position:absolute; margin-top:-0.3em; z-index:1000; color:green; }
+.mail-link { white-space:nowrap; }
+
+a.mail-icon-13 {
+    background-image:url("https://talbottcampus.com/wp-content/plugins/wp-mailto-links/public/images/mail-icon-13.png");
+    background-repeat:no-repeat;
+        background-position:0% 50%; padding-left:18px;
+    }
+</style>
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		
+		
+	<!-- #####
+	FRN Google Analytics
+	##### -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-11247918-1');
+		ga('require', 'linkid');
+		ga('require', 'displayfeatures');
+		ga('set', 'dimension1', '2018-03-21');
+		ga('set', 'dimension2', '2018-10-23');
+		ga('set', 'contentGroup1', 'Long 3 (>2000)');
+		ga('send', 'pageview');
+	</script>
+	<!-- #####
+	FRN Google Analytics Ends
+	##### -->
+		
+
+	<!-- #####
+	LiveHelpNow Global Customizations
+	##### -->
+	<script type="text/javascript">
+		frn_phone = "678-251-3189";
+		lhnWindowN = 40304;		
+		function frn_open_lhnwindow (type,category,action,label) {
+			if(type===undefined) type=''; if(category===undefined) category='';  if(action===undefined) action=''; if(label===undefined) label='';
+			if (typeof ga==='function') {
+				if(type=="chat" || type=="") {
+					try{ frn_chat_window( category,action,label ) }
+					catch(err) { if (typeof ga==='function') ga('send', 'event', 'Live Chat', 'Chat Window Open Error', err); }
+					if(typeof fbq==='function') fbq('track', 'Lead'); 				}
+				else if(type=="email") {
+					try{ frn_email_window( category,action,label ) }
+					catch(err) { if (typeof ga==='function') ga('send', 'event', 'Live Chat', 'Email Window Open Error', err); }
+					if(typeof fbq==='function') fbq('track', 'Lead'); 				}
+			}
+			else {
+				if(type=="chat" || type=="") {frn_chat_window( category,action,label );}
+				else if(type=="email") {frn_email_window( category,action,label );}
+					if(typeof fbq==='function') fbq('track', 'Lead'); 			}
+		}
+	</script>
+	<!-- #####
+	LiveHelpNow Global Customizations
+	##### -->
+		
+	
+
+	<!-- #####
+	Infinity Tracking Options v2.0
+	##### -->
+			
+	<!-- Copyright Infinity 2018 www.infinitycloud.com -->
+	<script type="text/javascript">
+	    var _ictt = _ictt || [];
+	    _ictt.push(['_setIgrp','2728']); // Installation ID
+		_ictt.push(['_enableGAIntegration',{'gua':true,'ga':false}]);
+	    _ictt.push(['_includeExternal',[{'from':'ictDcmIntegration','to':'_setCustomVar','as':'dcm_gid'}]]);
+	    _ictt.push(['_includeExternal',[{'from':'_vis_opt_experiment_id','to':'_ictVwoIntegration'}]]);
+		_ictt.push(['_enableAutoDiscovery']);
+		_ictt.push(['_track']);
+	(function() {
+	    var ict = document.createElement('script'); ict.type = 'text/javascript'; ict.async = true;
+	    ict.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'ict.infinity-tracking.net/js/nas.v1.min.js';
+	    var scr = document.getElementsByTagName('script')[0]; scr.parentNode.insertBefore(ict, scr);
+	})();
+	</script>
+
+	<!-- #####
+	END Infinity Tracking Options
+	##### -->
+
+		
+		
+	
+	<!-- #####
+	FRN Google Analytics Error Checking
+	##### -->
+	<script type="text/javascript">
+		function frn_reporting (type,category,action,label,conv) {
+			if(conv===undefined || conv=="") conv='no';
+			if(type=="phone") {
+				if(category===undefined || category=="") category='Phone Numbers';
+				if(action===undefined || action=="") action='Phone Clicks [General]';
+				if(label===undefined || label=="") label='Calls';
+				var conv_url='/conversion-phone-number-click-touch/';
+				if(isTierIphone) conv='phone';
+			}
+			else { 
+				if(category===undefined || category=="") category='Unknown';
+				if(action===undefined || action=="") action='Unknown';
+				if(label===undefined || label=="") label='';
+				conv_url='';
+			}
+			try{ frn_analytics( category, action, label, conv, conv_url );  }
+			catch(err) { if (typeof ga==='function') ga('send', 'event', category, 'FRN_Analytics Function Not Loaded', err); }
+			if(type=="phone") { 
+				if(isTierIphone && (typeof fbq==='function')) fbq('track', 'Lead', {
+				    content_name: location.hostname+' Page',
+				    content_category: 'Regular Webpage',
+				    content_type: 'Phone Clicks'
+				}); 
+			}
+		}
+	</script>
+	<!-- #####
+	FRN Google Analytics Error Checking
+	##### -->
+		
+		
+	<!-- FRN Chartbeat-Part 1, Hotjar-Part 1, -->
+	<script type='text/javascript'>_sf_startpt=(new Date()).getTime();</script>
+	<script type='text/javascript'>frn_hj_act='Y'; //Hotjar trigger</script>
+
+
+		
+	<!-- #####
+	Facebook Pixel 	##### -->
+	<script>
+		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+		n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+		document,'script','https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '402262266824056');
+		fbq('track', "PageView");
+	</script>
+	<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=402262266824056&ev=PageView&noscript=1" /></noscript>
+	<!-- #####
+	END Facebook Pixel
+	##### -->
+
+
+				
+		<link rel="stylesheet" type="text/css" href="https://talbottcampus.com/wp-content/themes/talbott/plugins/Remodal-1.1.0/dist/remodal.css" />
+		<link rel="stylesheet" type="text/css" href="https://talbottcampus.com/wp-content/themes/talbott/plugins/Remodal-1.1.0/dist/remodal-default-theme.css" />
+		
+		<!-- custom css for foundatiosn team -->
+		<link rel="stylesheet" type="text/css" href="https://talbottcampus.com/wp-content/themes/talbott/css/custom.css" />
+		
+		<!-- end of wordpress head -->
+		<!-- IE8 fallback moved below head to work properly. Added respond as well. Tested to work. -->
+			<!-- media-queries.js (fallback) -->
+		<!--[if lt IE 9]>
+			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>			
+		<![endif]-->
+
+		<!-- html5.js -->
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->	
+		
+			<!-- respond.js -->
+		<!--[if lt IE 9]>
+		          <script type='text/javascript' src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+		<![endif]-->	
+			</head>
+	
+	<body class="post-template-default single single-post postid-9046 single-format-standard">
+		<div id="top-search">
+			<div id="top-search-form-box">
+				<a href="#close" id="top-search-close"></a>
+				<p>Start typing to search</p>
+				<form action="https://talbottcampus.com/" method="get" class="form-inline search-form">
+					<div class="input-group">
+						<span class="input-group-label show-for-lt-ie9">Search</span>
+						<input class="input-group-field form-control" name="s" id="search" placeholder="" value="" type="text">
+						<!--<button type="submit" class="button">Go</button>-->
+					</div>
+				</form>
+			</div>
+		</div>
+		<div id="mobile-nav-overlay"></div>
+		<header id="site-header">
+			<div class="row">
+				<div class="medium-12 columns">
+					<!--<a href="tel:<a  class="frn_phone InfinityNumber" href="tel:678-251-3189" style="white-space:nowrap;" data-ict-discovery-number="678-251-3189" data-ict-silent-replacements="false"  onClick="frn_reporting('','Phone Numbers','Phone Clicks [Global Header','Talbott Recovery','no');" >678-251-3189</a>">-->
+						
+					<!--</a>-->
+					<!--<span id="frn_phones" ga_phone_location="Phone Clicks in Global Header" frn_number="[frn_phone only='yes']"> </span>-->
+					<div id="miniNavPhoneBlock">
+						<span id="header-phone" > <a  class="frn_phone InfinityNumber" href="tel:678-251-3189" style="white-space:nowrap;" data-ict-discovery-number="678-251-3189" data-ict-silent-replacements="false"  onClick="frn_reporting('','Phone Numbers','Phone Clicks in Global Header','Talbott Recovery','no');" >678-251-3189</a> </span>
+						<span id="secondary-nav-links">
+							
+							 <ul id="menu-secondary-nav-menu" class="secondary-nav"><li id="menu-item-7705" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/alumni-services/"><strong>Alumni</strong> </a><li id="menu-item-6813" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/frequently-asked-questions/"><strong>FAQs</strong> </a><li id="menu-item-9375" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/online-bill-pay/"><strong>Bill Pay</strong> </a></ul>						</span>
+					</div>
+					<a href="https://talbottcampus.com" id="site-logo-link">
+						<img src="https://talbottcampus.com/wp-content/themes/talbott/images/talbott-recovery-alcohol-treatment.png" alt="Talbott Recovery" class="header-logo-gray">
+					</a>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</header>
+		<div class="clearfix"></div>
+		<div id="navStopper">
+			<div data-sticky-container>
+				<div class="sticky" data-sticky data-sticky-on="small" data-options="marginTop:0;" data-anchor="navStopper" style="width: 100%;">
+					<div id="main-nav">
+						<div id="large-nav">
+							<div class="row">
+								<div class="large-12 columns">
+									<ul class="menu logo-menu">
+										<li class=""><div><a href="https://talbottcampus.com"><div id="nav-logo" class="hide-logo"></div></a></div></li>
+									</ul>
+									<span id="primary-nav-links">
+										 
+										 <ul id="menu-main-menu" class="menu"><li id="menu-item-6508" class="has-kids menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children" data-dropdown-id="menu-shell-6508"><a href="https://talbottcampus.com/about-us/" class="hasDropdown" >About<i class="fa fa-sort-desc" aria-hidden="true"></i></a><div class="menu-shell" id="menu-shell-6508"> <div class="row tb-pad-20" id="mainSubNavRow" data-equalizer data-equalize-on="large"><div class="large-5 large-push-3 columns" data-equalizer-watch><div class="image-shell"><a href="https://talbottcampus.com/about-us/"><img src="https://talbottcampus.com/wp-content/uploads/substance-abuse-group-treatment-program.jpg"/></a></div></div><div class="large-4 large-push-3 columns main-sub-nav-intro-col" data-equalizer-watch><h1><a href="https://talbottcampus.com/about-us/">About</a></h1><div class="intro"><p>When Talbott Recovery opened its doors in the 1980s, we knew that the best way to serve our patients was to be the best at our specialty, to listen carefully to patients, to study our results and to invite family members into the treatment process.
+<a class="button" href="/about-us/">Learn More</a></p></div></div><div class="large-3 large-pull-9 columns last-sub-nav-col" data-equalizer-watch>
+<ul class="mm-subnav">
+	<li id="menu-item-6886" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/about-us/history-of-talbott/">History of Talbott</a></li>
+	<li id="menu-item-6610" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/news">Latest News</a></li>
+	<li id="menu-item-6631" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/our-team">Our Team</a></li>
+	<li id="menu-item-6719" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/careers/">Careers</a></li>
+	<li id="menu-item-7893" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/virtual-tour/">Virtual Tour</a></li>
+</ul>
+<div class="cta">Call <a class="frn_phone InfinityNumber" href="tel:877-345-3301" style="white-space:nowrap;" data-ict-discovery-number="877-345-3301" data-ict-silent-replacements="false" onclick="frn_reporting('','Phone Numbers','Phone Clicks in Global Header','Talbott Recovery','no');">877-345-3301</a></div></li>
+<li id="menu-item-6578" class="has-kids menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children" data-dropdown-id="menu-shell-6578"><a href="/locations/" class="hasDropdown" >Locations<i class="fa fa-sort-desc" aria-hidden="true"></i></a><div class="menu-shell" id="menu-shell-6578"> <div class="row tb-pad-20" id="mainSubNavRow" data-equalizer data-equalize-on="large"><div class="large-5 large-push-3 columns" data-equalizer-watch><div class="image-shell"><a href="/locations/"><img src="/wp-content/uploads/talbott-menu.jpg"/></a></div></div><div class="large-4 large-push-3 columns main-sub-nav-intro-col" data-equalizer-watch><h1><a href="/locations/">Locations</a></h1><div class="intro"><p>With locations in Atlanta, Columbus and Dunwoody, Talbott Recovery has been dedicated to providing compassionate comprehensive treatment for addiction and co-occurring disorders. 
+<a class="button" href="/locations/">Learn More</a></p></div></div><div class="large-3 large-pull-9 columns last-sub-nav-col" data-equalizer-watch>
+<ul class="mm-subnav">
+	<li id="menu-item-6581" class="menu-item menu-item-type-post_type menu-item-object-location"><a href="https://talbottcampus.com/locations/talbott-recovery-main-campus-atlanta-georgia/">Atlanta Main Campus</a></li>
+	<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-location"><a href="https://talbottcampus.com/locations/columbus-ga-outpatient-program/">Columbus Outpatient</a></li>
+	<li id="menu-item-6579" class="menu-item menu-item-type-post_type menu-item-object-location"><a href="https://talbottcampus.com/locations/dunwoody-ga-outpatient-program/">Dunwoody Outpatient</a></li>
+</ul>
+<div class="cta">Call <a class="frn_phone InfinityNumber" href="tel:877-345-3301" style="white-space:nowrap;" data-ict-discovery-number="877-345-3301" data-ict-silent-replacements="false" onclick="frn_reporting('','Phone Numbers','Phone Clicks in Global Header','Talbott Recovery','no');">877-345-3301</a></div></li>
+<li id="menu-item-6689" class="has-kids menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children" data-dropdown-id="menu-shell-6689"><a href="https://talbottcampus.com/addiction-treatment-programs/" class="hasDropdown" >Programs<i class="fa fa-sort-desc" aria-hidden="true"></i></a><div class="menu-shell" id="menu-shell-6689"> <div class="row tb-pad-20" id="mainSubNavRow" data-equalizer data-equalize-on="large"><div class="large-5 large-push-3 columns" data-equalizer-watch><div class="image-shell"><a href="https://talbottcampus.com/addiction-treatment-programs/"><img src="https://talbottcampus.com/wp-content/uploads/substance-abuse-treatment-programs-georgia.jpg"/></a></div></div><div class="large-4 large-push-3 columns main-sub-nav-intro-col" data-equalizer-watch><h1><a href="https://talbottcampus.com/addiction-treatment-programs/">Programs</a></h1><div class="intro"><p>At Talbott Recovery, we offer a variety of substance abuse treatment programs each designed to meet a specific need. Whether you are a young adult, an established professional or somewhere in between, we have a program to help you address all aspects of your unique addiction.
+<a class="button" href="/addiction-treatment-programs/">Learn More</a></p></div></div><div class="large-3 large-pull-9 columns last-sub-nav-col" data-equalizer-watch>
+<ul class="mm-subnav">
+	<li id="menu-item-6702" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/addiction-treatment-programs/professionals/">Professionals Program</a></li>
+	<li id="menu-item-6760" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/addiction-treatment-programs/pilots/">Pilots Program</a></li>
+	<li id="menu-item-6759" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/addiction-treatment-programs/young-adult-substance-abuse-program/">Young Adults</a></li>
+	<li id="menu-item-6758" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/addiction-treatment-programs/mirror-image/">Mirror Image</a></li>
+	<li id="menu-item-6757" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/addiction-treatment-programs/family-program/">Family Program</a></li>
+	<li id="menu-item-7199" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/alumni-services/">Alumni Support Services</a></li>
+</ul>
+<div class="cta">Call <a class="frn_phone InfinityNumber" href="tel:877-345-3301" style="white-space:nowrap;" data-ict-discovery-number="877-345-3301" data-ict-silent-replacements="false" onclick="frn_reporting('','Phone Numbers','Phone Clicks in Global Header','Talbott Recovery','no');">877-345-3301</a></div></li>
+<li id="menu-item-6676" class="has-kids menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children" data-dropdown-id="menu-shell-6676"><a href="https://talbottcampus.com/treatment/" class="hasDropdown" >Treatment<i class="fa fa-sort-desc" aria-hidden="true"></i></a><div class="menu-shell" id="menu-shell-6676"> <div class="row tb-pad-20" id="mainSubNavRow" data-equalizer data-equalize-on="large"><div class="large-5 large-push-3 columns" data-equalizer-watch><div class="image-shell"><a href="https://talbottcampus.com/treatment/"><img src="https://talbottcampus.com/wp-content/uploads/substance-treatment-programs-georgia.jpg"/></a></div></div><div class="large-4 large-push-3 columns main-sub-nav-intro-col" data-equalizer-watch><h1><a href="https://talbottcampus.com/treatment/">Treatment</a></h1><div class="intro"><p>Talbott Recovery incorporates varied treatment levels into each individual’s program plan to ensure the best chance of achieving and maintaining successful recovery.
+<a class="button" href="/treatment/">Learn More</a></p></div></div><div class="large-3 large-pull-9 columns last-sub-nav-col" data-equalizer-watch>
+<ul class="mm-subnav">
+	<li id="menu-item-6780" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/treatment/detoxification-and-stabilization/">Detoxification and Stabilization</a></li>
+	<li id="menu-item-6781" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/treatment/partial-hospitalization/">Partial Hospitalization</a></li>
+	<li id="menu-item-6782" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/treatment/intensive-outpatient-programs/">Intensive Outpatient Programs</a></li>
+</ul>
+<div class="cta">Call <a class="frn_phone InfinityNumber" href="tel:877-345-3301" style="white-space:nowrap;" data-ict-discovery-number="877-345-3301" data-ict-silent-replacements="false" onclick="frn_reporting('','Phone Numbers','Phone Clicks in Global Header','Talbott Recovery','no');">877-345-3301</a></div></li>
+<li id="menu-item-6594" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent"><a href="https://talbottcampus.com/resources/">Resources</a><div class="menu-shell" id="menu-shell-6594"> <div class="row tb-pad-20" id="mainSubNavRow" data-equalizer data-equalize-on="large"><div class="large-5 large-push-3 columns" data-equalizer-watch><div class="image-shell"><a href="https://talbottcampus.com/resources/"><img src=""/></a></div></div><div class="large-4 large-push-3 columns main-sub-nav-intro-col" data-equalizer-watch><h1><a href="https://talbottcampus.com/resources/">Resources</a></h1><div class="intro"><p></p></div></div><div class="large-3 large-pull-9 columns last-sub-nav-col" data-equalizer-watch></li>
+<li id="menu-item-6677" class="has-kids menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children" data-dropdown-id="menu-shell-6677"><a href="https://talbottcampus.com/admissions/" class="hasDropdown" >Admissions<i class="fa fa-sort-desc" aria-hidden="true"></i></a><div class="menu-shell" id="menu-shell-6677"> <div class="row tb-pad-20" id="mainSubNavRow" data-equalizer data-equalize-on="large"><div class="large-5 large-push-3 columns" data-equalizer-watch><div class="image-shell"><a href="https://talbottcampus.com/admissions/"><img src="https://talbottcampus.com/wp-content/uploads/georga-substance-abuse-admissions.jpg"/></a></div></div><div class="large-4 large-push-3 columns main-sub-nav-intro-col" data-equalizer-watch><h1><a href="https://talbottcampus.com/admissions/">Admissions</a></h1><div class="intro"><p>At Talbott Recovery we want to help make this important step you are about to take as simple as possible. We know there can be some anxiety about what happens next, and we are here to demystify the process and provide answers to your questions.
+<a class="button" href="/admissions/">Learn More</a></p></div></div><div class="large-3 large-pull-9 columns last-sub-nav-col" data-equalizer-watch>
+<ul class="mm-subnav">
+	<li id="menu-item-6763" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/admissions/the-abcs-of-insurance-coverage/">The ABC’s of Insurance Coverage</a></li>
+	<li id="menu-item-6771" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/admissions/how-much-will-treatment-cost/">How Much Will Treatment Cost?</a></li>
+	<li id="menu-item-6773" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/admissions/why-travel-for-treatment/">Why Travel for Treatment?</a></li>
+	<li id="menu-item-9709" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/addiction-rehab-programs/72-hour-assessments/">72-Hour Assessments for Substance Abuse</a></li>
+	<li id="menu-item-7569" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/admissions/what-to-bring/">What to Bring</a></li>
+</ul>
+<div class="cta">Call <a class="frn_phone InfinityNumber" href="tel:877-345-3301" style="white-space:nowrap;" data-ict-discovery-number="877-345-3301" data-ict-silent-replacements="false" onclick="frn_reporting('','Phone Numbers','Phone Clicks in Global Header','Talbott Recovery','no');">877-345-3301</a></div></li>
+<li id="menu-item-6616" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/contact/">Contact</a><div class="menu-shell" id="menu-shell-6616"> <div class="row tb-pad-20" id="mainSubNavRow" data-equalizer data-equalize-on="large"><div class="large-5 large-push-3 columns" data-equalizer-watch><div class="image-shell"><a href="https://talbottcampus.com/contact/"><img src=""/></a></div></div><div class="large-4 large-push-3 columns main-sub-nav-intro-col" data-equalizer-watch><h1><a href="https://talbottcampus.com/contact/">Contact</a></h1><div class="intro"><p></p></div></div><div class="large-3 large-pull-9 columns last-sub-nav-col" data-equalizer-watch></li>
+</ul>									</span>
+
+									
+									<!--<a href="." id="mega-btn" class=""></a>-->
+									<ul class="menu phone-menu float-right">
+										<li class="phone-menu-number"><div><a  class="frn_phone InfinityNumber" href="tel:678-251-3189" style="white-space:nowrap;" data-ict-discovery-number="678-251-3189" data-ict-silent-replacements="false"  onClick="frn_reporting('','Phone Numbers','Phone Clicks [General]','Talbott Recovery','no');" >678-251-3189</a></div></li>
+										<li class=""><a id="top-nav-search-btn" href="#" class="open-top-search"><div id="top-nav-search-icon"></div></a></li>
+										<li id="top-nav-mobile-menu-li"><a id="top-nav-mobile-menu-link" href="#" class="mobile-nav-closed"><span id="mobile-nav-text-closed">Menu</span><span id="mobile-nav-text-opened">Close</span></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div id="mobile-nav-links">
+							<ul id="menu-main-menu-1" class="mobile-nav menu dropdown "><li id="menu-item-6508" class="dropdown menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://talbottcampus.com/about-us/" >About<i class="fa fa-sort-desc" aria-hidden="true"></i></a>
+<ul class="menu" >
+	<li id="menu-item-6886" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/about-us/history-of-talbott/">History of Talbott</a></li>
+	<li id="menu-item-6610" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/news">Latest News</a></li>
+	<li id="menu-item-6631" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/our-team">Our Team</a></li>
+	<li id="menu-item-6719" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/careers/">Careers</a></li>
+	<li id="menu-item-7893" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/virtual-tour/">Virtual Tour</a></li>
+</ul>
+</li>
+<li id="menu-item-6578" class="dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="/locations/" >Locations<i class="fa fa-sort-desc" aria-hidden="true"></i></a>
+<ul class="menu" >
+	<li id="menu-item-6581" class="menu-item menu-item-type-post_type menu-item-object-location"><a href="https://talbottcampus.com/locations/talbott-recovery-main-campus-atlanta-georgia/">Atlanta Main Campus</a></li>
+	<li id="menu-item-6580" class="menu-item menu-item-type-post_type menu-item-object-location"><a href="https://talbottcampus.com/locations/columbus-ga-outpatient-program/">Columbus Outpatient</a></li>
+	<li id="menu-item-6579" class="menu-item menu-item-type-post_type menu-item-object-location"><a href="https://talbottcampus.com/locations/dunwoody-ga-outpatient-program/">Dunwoody Outpatient</a></li>
+</ul>
+</li>
+<li id="menu-item-6689" class="dropdown menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://talbottcampus.com/addiction-treatment-programs/" >Programs<i class="fa fa-sort-desc" aria-hidden="true"></i></a>
+<ul class="menu" >
+	<li id="menu-item-6702" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/addiction-treatment-programs/professionals/">Professionals Program</a></li>
+	<li id="menu-item-6760" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/addiction-treatment-programs/pilots/">Pilots Program</a></li>
+	<li id="menu-item-6759" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/addiction-treatment-programs/young-adult-substance-abuse-program/">Young Adults</a></li>
+	<li id="menu-item-6758" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/addiction-treatment-programs/mirror-image/">Mirror Image</a></li>
+	<li id="menu-item-6757" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/addiction-treatment-programs/family-program/">Family Program</a></li>
+	<li id="menu-item-7199" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/alumni-services/">Alumni Support Services</a></li>
+</ul>
+</li>
+<li id="menu-item-6676" class="dropdown menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://talbottcampus.com/treatment/" >Treatment<i class="fa fa-sort-desc" aria-hidden="true"></i></a>
+<ul class="menu" >
+	<li id="menu-item-6780" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/treatment/detoxification-and-stabilization/">Detoxification and Stabilization</a></li>
+	<li id="menu-item-6781" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/treatment/partial-hospitalization/">Partial Hospitalization</a></li>
+	<li id="menu-item-6782" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/treatment/intensive-outpatient-programs/">Intensive Outpatient Programs</a></li>
+</ul>
+</li>
+<li id="menu-item-6594" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent"><a href="https://talbottcampus.com/resources/">Resources</a></li>
+<li id="menu-item-6677" class="dropdown menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://talbottcampus.com/admissions/" >Admissions<i class="fa fa-sort-desc" aria-hidden="true"></i></a>
+<ul class="menu" >
+	<li id="menu-item-6763" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/admissions/the-abcs-of-insurance-coverage/">The ABC’s of Insurance Coverage</a></li>
+	<li id="menu-item-6771" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/admissions/how-much-will-treatment-cost/">How Much Will Treatment Cost?</a></li>
+	<li id="menu-item-6773" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/admissions/why-travel-for-treatment/">Why Travel for Treatment?</a></li>
+	<li id="menu-item-9709" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/addiction-rehab-programs/72-hour-assessments/">72-Hour Assessments for Substance Abuse</a></li>
+	<li id="menu-item-7569" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/admissions/what-to-bring/">What to Bring</a></li>
+</ul>
+</li>
+<li id="menu-item-6616" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/contact/">Contact</a></li>
+</ul>							<div id="mobile-secondary-nav-links">
+								<ul id="menu-secondary-nav-menu-1" class="secondary-nav"><li id="menu-item-7705" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/alumni-services/"><strong>Alumni</strong> </a><li id="menu-item-6813" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/frequently-asked-questions/"><strong>FAQs</strong> </a><li id="menu-item-9375" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/online-bill-pay/"><strong>Bill Pay</strong> </a></ul>							</div>
+						</div>
+					</div>
+				</div>
+			</div>				
+			<div id="global-side-nav" class="expanded">
+								<div id="gsn-links">
+					<ul>
+													<li class="gsn-link-3">
+								<!-- LiveHelpNow On-Page Chat Text Link --><a class="lhn_btn_chat gsn-square-link gsn-chat" href="#" onClick="frn_open_lhnwindow('chat','Global Contact Options','Chat Toggles'); return false;"></a>							</li>
+							<li class="gsn-link-2">
+								<!-- LiveHelpNow On-Page Email Text Link --><a  class="lhn_btn_email gsn-square-link gsn-email"  title="Email us"  href="#" onClick="frn_open_lhnwindow('email','Global Contact Options','Email Toggles'); return false;" ></a>							</li>
+												<li class="gsn-link-1">
+							<a href="/contact/"  id="snPhone" class="frn_phone gsn-square-link gsn-call" onClick="frn_reporting('','Global Contact Options','Desktop Clicks to Contact Us','Contact','no');" ></a>													
+						</li>
+					</ul>
+				</div>
+				<div id="gsn-button-box">
+					<a href="#contact" id="gsn-main-button" class="gsn-square-link">Contact</a>
+				</div>
+			</div>
+			<div id="content">			
+			
+			
+																				
+					<article id="post-9046" class="clearfix post-9046 post type-post status-publish format-standard hentry category-addiction-treatment-articles" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+						
+						<div class="clearfix row" data-equalizer="outer" data-equalize-on="large">
+											<div id="sidebar1" class="large-3 columns sidebar-one float-right" role="complementary" data-equalizer-watch="outer">
+					<div id="sidebar-link-box">
+						<div id="sidebar-menu-icon">
+							<a href="#">
+								<span class="spacer"></span>
+								<span class="words"> <span id="word-change">More</span> Resources</span>
+								</a>
+						</div>
+												<div id="mobile-share-shell" class="share-shell">
+							<div class="frn_social" style="text-align:center;  margin-bottom:10px;"><div class="sharethis-inline-share-buttons"></div></div>						</div>
+																				<div class="share-shell">
+								<div class="frn_social" style="text-align:center;  margin-bottom:10px;"><div class="sharethis-inline-share-buttons"></div></div>							</div>
+													<form action="https://talbottcampus.com/" method="get" class="form-inline search-form show-for-large" id="sidebar-search">
+							<div class="input-group">
+								<span class="input-group-label show-for-lt-ie9">Search</span>
+								
+								<input class="input-group-field form-control" name="s" id="search" placeholder="Search Resources" value="" type="text" style="background-color: #FFFFFF; box-shadow: none; border: none;">
+								<div class="input-group-button">
+									<button type="submit" class="button" style="border: 10px solid #fff; padding: 3px 10px; margin-left: -6px; background-color: #ececec; color: #171e3f;">Go</button>
+								</div>
+							</div>
+						</form>
+						<div id="sidebar-menu-items">
+							<div class="custom-categories">
+															<ul>
+								<li><a href="https://talbottcampus.com/alcohol-abuse/">Alcohol Abuse</a><ul><li><a href="https://talbottcampus.com/problem-drinking-vs-alcoholism-whats-the-difference/">Problem Drinking vs. Alcoholism: What&#8217;s the Difference?</a></li><li><a href="https://talbottcampus.com/alcoholism-statistics-2015/">2015 Alcoholism Statistics You Need to Know</a></li><li><a href="https://talbottcampus.com/how-can-i-tell-if-my-drinking-is-getting-out-of-control/">How Can I Tell If My Drinking Is Getting Out of Control?</a></li><li><a href="https://talbottcampus.com/nurses-nationwide-increasingly-disciplined-for-drug-alcohol-violations/">Nurses Nationwide Increasingly Disciplined for Drug, Alcohol Violations</a></li><li><a href="https://talbottcampus.com/how-to-talk-to-your-college-age-kid-about-binge-drinking/">How to Talk to Your College-age Kid About Binge Drinking</a></li></ul></li><li><a href="https://talbottcampus.com/atlanta-information/">Atlanta Information</a><ul><li><a href="https://talbottcampus.com/atlanta-addiction-treatment/">Atlanta Addiction Treatment</a></li></ul></li><li><a href="https://talbottcampus.com/drug-abuse/">Drug Abuse</a><ul><li><a href="https://talbottcampus.com/opioids-depressants-stimulants-whats-the-difference/">Opioids, Depressants and Stimulants: What&#8217;s the Difference?</a></li><li><a href="https://talbottcampus.com/how-much-morphine-will-cause-an-overdose/">How Much Morphine Will Cause an Overdose?</a></li><li><a href="https://talbottcampus.com/passing-a-drug-test-separating-fact-from-fiction/">Passing a Drug Test: Separating Fact From Fiction</a></li><li><a href="https://talbottcampus.com/dangers-of-combining-marijuana-and-morphine/">Dangers of Combining Marijuana and Morphine</a></li><li><a href="https://talbottcampus.com/low-self-esteem-drug-abuse-whats-connection/">Low Self-Esteem and Drug Abuse: What&#8217;s the Connection?</a></li></ul></li><li><a href="https://talbottcampus.com/mental-health/">Mental Health</a><ul><li><a href="https://talbottcampus.com/why-are-we-so-lonely/">Why Are We So Lonely?</a></li></ul></li><li><a href="https://talbottcampus.com/recovery/">Recovery</a><ul><li><a href="https://talbottcampus.com/are-you-ready-for-drug-addiction-rehab-questions/">Are You Ready for Drug Addiction Recovery? Ask Yourself These Questions</a></li><li><a href="https://talbottcampus.com/the-importance-of-professional-young-adult-addiction-programs/">The Importance of Professional Young Adult Addiction Programs</a></li><li><a href="https://talbottcampus.com/how-to-survive-holiday-events-in-sobriety/">How to Survive Holiday Events in Sobriety</a></li><li><a href="https://talbottcampus.com/walking-with-patients-through-resistance-with-jennifer-angier/">Walking with Patients Through Resistance with Jennifer Angier</a></li><li><a href="https://talbottcampus.com/the-benefits-of-pet-therapy-in-addiction-recovery/">The Benefits of Pet Therapy in Addiction Recovery</a></li></ul></li><li><a href="https://talbottcampus.com/addiction-treatment-articles/">Treatment</a><ul><li><a href="https://talbottcampus.com/why-are-people-with-alcohol-use-disorder-more-likely-to-die-young/">Why Are People with Alcohol Use Disorder More Likely to Die Young?</a></li><li><a href="https://talbottcampus.com/alcoholism-statistics/">2018 Alcoholism Statistics You Need to Know</a></li><li><a href="https://talbottcampus.com/tylenol-acetaminophen-addiction/">Tylenol® 3 (Acetaminophen) Addiction</a></li><li><a href="https://talbottcampus.com/prescription-drug-abuse-statistics/">2018 Prescription Drug Abuse Statistics You Need To Know</a></li><li><a href="https://talbottcampus.com/helping-young-adult-children-cope-with-depression/">Helping Young Adult Children Cope with Depression</a></li></ul></li><li><a href="https://talbottcampus.com/young-adults/">Young Adults</a><ul><li><a href="https://talbottcampus.com/teens-and-internet-addiction/">Teens and Internet Addiction</a></li><li><a href="https://talbottcampus.com/intervention-for-a-teen-family-member/">Intervention for a Teen Family Member</a></li><li><a href="https://talbottcampus.com/how-to-talk-to-your-college-age-kid-about-binge-drinking/">How to Talk to Your College-age Kid About Binge Drinking</a></li><li><a href="https://talbottcampus.com/how-and-where-are-youths-getting-drugs/">How and Where Are Youths Getting Drugs?</a></li><li><a href="https://talbottcampus.com/the-importance-of-professional-young-adult-addiction-programs/">The Importance of Professional Young Adult Addiction Programs</a></li></ul></li>	
+								</ul>
+							</div>
+							
+								<!-- This content shows up if there are no widgets defined in the backend. -->
+								
+								<div class="alert alert-message">
+								
+									<p></p>
+								
+								</div>
+
+													</div>
+					</div>
+
+
+				</div>							
+							<div id="main" class="large-9 columns tb-pad-30 float-left" role="main" data-equalizer-watch="outer">
+																	<header>
+										<h1 itemprop="headline" class="tb-pad-30">2018 Prescription Drug Abuse Statistics You Need To Know</h1>
+									</header>
+																<section class="post_content clearfix" itemprop="articleBody">
+									
+									
+						<style>
+							.frn_toc {
+							    border: 1px solid #ccc;
+							    border-radius: 10px;
+							    padding: 0;
+							    font-size: 1em;
+							    margin: 0 15px 20px 0;
+							    max-width: 50%;
+							    float: left;
+							}
+							.frn_toc_inner {
+							    margin: .8em 1em .3em 1em;
+							    padding: .3em .1em .3em .1em !important;
+							}
+							.frn_toc h1, .frn_toc h2, .frn_toc h3 {
+								font-size: 1.3em;
+								margin: 0 0 5px 0;
+								padding: 0;
+							}
+							.frn_toc ul {
+								padding: 0;
+								margin:0;
+								line-height: 1.2em;
+							}
+							.frn_toc .frn_toc_inner ul li {
+								list-style:none;
+								margin: .5em 0 .7em 0;
+							}
+							a[name].frn_toc_anchor:before {
+							    content: "";
+							    display: block;
+							    height: 60px;
+							    margin: -60px 0 0 0;
+							}
+							@media (max-width: 767px) {
+								.frn_toc {
+								    border: 1px solid #ccc;
+								    border-radius: 10px;
+								    padding: 0;
+								    font-size: 1em;
+								    margin: 0 0 20px 0;
+								    max-width: 100%;
+								    width: 100%;
+								    float: none;
+								}
+								.frn_toc .frn_toc_inner {
+								    margin: 8px 10px;
+								}
+								.frn_toc ul {
+									
+								}
+								.frn_toc .frn_toc_inner ul li {
+								    padding: 5px 5px 5px 0;
+								}
+								.frn_toc .frn_toc_inner ul li:active {
+								    background: #eee;
+								    padding: 5px 5px;
+								    border-radius: 5px;
+								}
+							}
+						</style>
+						
+
+					<div class="frn_toc">
+						<div class="frn_toc_inner">
+							<h2>On This Page:</h2>
+							<ul>
+							<li><a href="#the-opioid-crisis" onClick="frn_reporting('','Content Interactions', 'Table of Contents', 'the opioid crisis','no');">The Opioid Crisis</a></li>
+							<li><a href="#teens-and-drug-use" onClick="frn_reporting('','Content Interactions', 'Table of Contents', 'teens and drug use','no');">Teens and Drug Use</a></li>
+							<li><a href="#signs-of-addiction" onClick="frn_reporting('','Content Interactions', 'Table of Contents', 'signs of addiction','no');">Signs of Addiction</a></li>
+							<li><a href="#finding-help" onClick="frn_reporting('','Content Interactions', 'Table of Contents', 'finding help','no');">Finding Help</a></li>
+
+							</ul>
+						</div>
+					</div>
+					<p>Prescription <a href="/addiction-and-mental-health-resources/alcoholism-and-drug-abuse-articles/signs-your-prescription-drug-abuse-out-of-hand/">drug abuse</a> is a serious and growing problem in the United States. The 2016 National Study on Drug Use and Health reported that an estimated 28.6 million Americans age 12 and over used illicit drugs during the month prior to the study. That means roughly 1 in 10 people struggle with some level of substance use, including addiction to prescription drugs.<sup>1</sup></p>
+<p>When a person takes a prescription drug for a nonmedical reason, it can quickly lead to addiction and the need for drug treatment. In fact, 25 percent of people who misused prescription drugs by age 13 ended up with an addiction at some point in their life.<sup>2</sup></p>
+<p><strong>Let&rsquo;s take a closer look at the current prescription drug epidemic in the United States:</strong></p>
+<p><img class="alignright size-medium wp-image-9018" src="https://talbottcampus.com/wp-content/uploads/iStock-594927832-400x267.jpg" alt="" srcset="https://talbottcampus.com/wp-content/uploads/iStock-594927832-400x267.jpg 400w, https://talbottcampus.com/wp-content/uploads/iStock-594927832-200x133.jpg 200w, https://talbottcampus.com/wp-content/uploads/iStock-594927832-768x513.jpg 768w, https://talbottcampus.com/wp-content/uploads/iStock-594927832-1200x800.jpg 1200w, https://talbottcampus.com/wp-content/uploads/iStock-594927832-500x334.jpg 500w" sizes="(max-width: 400px) 100vw, 400px"></p>
+<ul><li>In the US alone, an estimated 54 million people over the age of 12 have used prescription drugs for nonmedical reasons in their lifetime.<sup>3</sup></li>
+<li>Most abused prescription drugs fall under four categories, based on the number of people who misuse the drug:
+<ul><li>Painkillers &ndash; 3.3 million users</li>
+<li>Tranquilizers &ndash; 2 million users</li>
+<li>Stimulants &ndash; 1.7 million users</li>
+<li>Sedatives &ndash; 0.5 million users<sup>1</sup></li>
+</ul></li>
+<li>More people report using controlled prescription drugs than cocaine, heroin and methamphetamine combined. That puts prescription drugs second behind marijuana when it comes to illicit drug use.<sup>4</sup></li>
+<li>Between 2006 and 2011, nonmedical use of <a href="/addiction-rehab-programs/prescription-drug-abuse/stimulants/adderall/" rel="noopener">Adderall</a> and emergency room visits involving the drug increased significantly, while treatment visits stayed the same. Adderall misuse rose 67 percent, and ER visits went up 156 percent, with family and friends serving as the primary source. Young adults (age 18-25) made up 60 percent of those using Adderall for nonmedical reasons.<sup>5</sup></li>
+<li>The number of adults filling a benzodiazepine prescription increased 67 percent (from 8.1 million to 13.5 million) between 1996 and 2013, while the total quantity filled more than tripled. During this same time period, the overdose death rate for benzodiazepines more than quadrupled.<sup>6</sup></li>
+<li>All 50 states have prescription drug monitoring programs (PDMPs) that actively track in-state prescriptions.<sup>4</sup></li>
+</ul><div class="image_banner_callout">
+<div class="row" data-equalizer data-equalize-on="large">
+<div class="small-12 large-12 columns" data-equalizer-watch>
+<div class="image_banner_text tb-pad-60">
+<p style="text-align: center;" class=""><strong>More people report using controlled prescription drugs than cocaine, heroin and methamphetamine combined. <sup>4</sup></strong></p>
+<div class="frn_social" style="text-align:right; float:right;  margin-bottom:10px;">
+<div class="frn_social_t" style="float:right; margin-left:5px; line-height:70%;"><a href="https://twitter.com/share" class="twitter-share-button" data-text="
+More people report using controlled prescription drugs than cocaine, heroin and methamphetamine combined. 4
+ " data-hashtags="addiction" data-related="HeroesNRecovery" data-count="none" data-dnt="true" rel="external noopener">Tweet It</a></div>
+</div>
+<p><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
+</div>
+</div>
+</div></div>
+<div class="read_next"><strong>&gt;&gt;&gt; READ THIS NEXT:</strong> <span><a href="https://talbottcampus.com/treatment/detoxification-and-stabilization/" title="Learn more about the first stage of drug addiction recovery">Start with Drug Detox</a></span></div>
+<a name="the-opioid-crisis" class="frn_toc_anchor"></a><h2>Prescription Painkillers and the Opioid Crisis</h2>
+<ul><li>The US makes up 5 percent of the world&rsquo;s population and consumes approximately 80 percent of the world&rsquo;s prescription <a href="/addiction-rehab-programs/prescription-drug-abuse/opioid/">opioid drugs</a>.<sup>7</sup></li>
+<li>Prescription opioid drugs contribute to 40 percent of all US opioid overdose deaths.<sup>8</sup></li>
+<li>In 2016, more than 46 people died each day from overdoses involving prescription opioids.<sup>8</sup></li>
+<li>Prescription opioid overdose rates are highest among people ages 25 to 54 years.<sup>8</sup></li>
+<li>Overdose rates were higher among non-Hispanic whites and American Indians or Alaskan Natives.<sup>8</sup></li>
+<li>Men are more likely to die from prescription opioid overdose, but the gap between men and women is decreasing.<sup>8</sup></li>
+<li>Because of its cheaper price, <a href="/addiction-and-mental-health-resources/alcoholism-and-drug-abuse-articles/where-is-heroin-most-prevalent/">heroin</a> has become the drug of choice for many who are addicted to opioid pain relievers. Approximately three out of four new heroin users misused prescription opioids prior to using heroin.<sup>9</sup></li>
+<li>More than half (53 percent) of prescription opioid users got their last painkillers from a friend or relative, with 40.4 percent paying nothing for the pills.<sup>1</sup></li>
+</ul><a name="teens-and-drug-use" class="frn_toc_anchor"></a><h2>Teens and Prescription Drug Use</h2>
+<ul><li>Many teens believe that prescription drugs are much safer than illegal street drugs because they are prescribed by a doctor.<sup>10</sup></li>
+<li>The top three prescription drugs used by high school seniors in 2017 were: Adderall (5.5 percent), tranquilizers (4.7 percent) and prescription opioids (4.2 percent).<sup>11</sup></li>
+<li>There&rsquo;s been a significant decline in the misuse of prescription opioids among teens over the past 15 years. For example, Vicodin use among high school seniors dropped from 10.5 percent in 2003 to 2 percent in 2017.<sup>12</sup></li>
+<li>Teens reported <a href="/how-and-where-are-youths-getting-drugs/">less availability</a> to prescription painkillers in 2017, with only 35.8 percent of high school seniors saying they were easy to get versus 54 percent in 2010.<sup>12</sup></li>
+</ul><div class="image_banner_callout">
+<div class="row" data-equalizer data-equalize-on="large">
+<div class="small-12 large-12 columns" data-equalizer-watch>
+<div class="image_banner_text tb-pad-60">
+<p style="text-align: center;" class=""><strong>Many teens believe that prescription drugs are much safer than illegal street drugs because they are prescribed by a doctor.<sup>10</sup></strong></p>
+<div class="frn_social" style="text-align:right; float:right;  margin-bottom:10px;">
+<div class="frn_social_t" style="float:right; margin-left:5px; line-height:70%;"><a href="https://twitter.com/share" class="twitter-share-button" data-text="
+Many teens believe that prescription drugs are much safer than illegal street drugs because they are prescribed by a doctor.10
+ " data-hashtags="addiction" data-related="HeroesNRecovery" data-count="none" data-dnt="true" rel="external noopener">Tweet It</a></div>
+</div>
+<p><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
+</div>
+</div>
+</div></div>
+<p>&nbsp;<br><a href="https://www.dualdiagnosis.org/wp-content/uploads/How-People-Receive-Prescription-Opioids.png" rel="external noopener"><img class="size-full" src="https://www.dualdiagnosis.org/wp-content/uploads/How-People-Receive-Prescription-Opioids.png" alt="In 2015, 50 percent of people who misused prescription painkillers got them from a friend or relative for free, and 22.1 percent got them from a doctor. While it can be true that people benefit from these medications for pain relief, opioids are also commonly misused. " width="100%" srcset="https://www.dualdiagnosis.org/wp-content/uploads/How-People-Receive-Prescription-Opioids-300x133.png 300w, https://www.dualdiagnosis.org/wp-content/uploads/How-People-Receive-Prescription-Opioids-150x66.png 150w, https://www.dualdiagnosis.org/wp-content/uploads/How-People-Receive-Prescription-Opioids-615x272.png 615w, https://www.dualdiagnosis.org/wp-content/uploads/How-People-Receive-Prescription-Opioids.png 960w"></a></p>
+<a name="signs-of-addiction" class="frn_toc_anchor"></a><h2>Signs of Prescription Drug Addiction</h2>
+<p>If you or a loved one uses prescription painkillers or other habit-forming medications, knowing the signs of abuse can help prevent addiction. Some of these include:</p>
+<p><img class="alignright size-medium wp-image-9033" src="https://talbottcampus.com/wp-content/uploads/precription-drug-talbott-2-267x400.jpg" alt="" srcset="https://talbottcampus.com/wp-content/uploads/precription-drug-talbott-2-267x400.jpg 267w, https://talbottcampus.com/wp-content/uploads/precription-drug-talbott-2-133x200.jpg 133w, https://talbottcampus.com/wp-content/uploads/precription-drug-talbott-2-768x1152.jpg 768w, https://talbottcampus.com/wp-content/uploads/precription-drug-talbott-2-800x1200.jpg 800w, https://talbottcampus.com/wp-content/uploads/precription-drug-talbott-2-400x600.jpg 400w, https://talbottcampus.com/wp-content/uploads/precription-drug-talbott-2.jpg 836w" sizes="(max-width: 267px) 100vw, 267px"></p>
+<ul><li>Becoming preoccupied with getting and using the drug<sup>13</sup></li>
+<li>Needing a supply of the drug on hand at all times<sup>13</sup></li>
+<li>Needing more of the drug to produce the same level of pain relief or symptom control<sup>13,</sup><sup>14</sup></li>
+<li>Engaging in dangerous activities, like driving, while under the influence of the drug<sup>14</sup></li>
+<li>Participating in illegal behaviors, such as stealing, to get more of the drug<sup>14</sup></li>
+<li>Changes in physical appearance, especially in the area of personal hygiene<sup>14</sup></li>
+<li>Doctor shopping to get new prescriptions for the drug<sup>13,</sup><sup>14</sup></li>
+<li>Stealing drugs from relatives or friends or asking to use someone else&rsquo;s prescription<sup>13,</sup><sup>14</sup></li>
+</ul><p>If you notice any of these symptoms in a loved one, or you think you might be developing a drug dependence, it&rsquo;s time to do something about it.</p>
+<a name="finding-help" class="frn_toc_anchor"></a><h2>Finding Help for Prescription Drug Abuse</h2>
+<p>These prescription drug abuse statistics show that the use of prescription medications for non-medical reasons is growing in America &ndash; and the effects are evident. If you or someone you love is addicted to prescription drugs, call our toll-free helpline now. Our admissions coordinators are available 24 hours a day to answer your questions and help you find treatment.</p>
+<div id="frn_related_posts" class="frn_related_posts">
+<div class="frn_related_posts_inner">
+<style>
+				.frn_related_posts {
+				    margin: 40px 0 60px 0;
+				    width: 100%;
+				    float: left;
+				    border-bottom:1px solid #ccc;
+padding: 0 0 60px 0;
+				}
+				.frn_related_posts ul {
+				    margin: 0;
+				    padding: .5em .5em 0 1.1em;
+					list-style: disc;
+    			}
+    			.frn_related_posts li {
+				    margin: 0;
+				    padding: 5px 5px 5px 0;
+    			}
+    			.frn_related_posts h2 {
+					padding: 0;
+					margin: 0;
+				}
+				.frn_clear {
+					clear:both;
+				}
+				@media (max-width: 1023px) {
+					.frn_related_posts {
+					    float: none;
+					    max-width:100%;
+					    width:inherit;
+					}
+					.frn_related_posts h2 {
+						padding: 0 0 5px 0;
+						margin: 0;
+					}
+					.frn_related_posts ul {
+					    padding: 0;
+					    list-style: none;
+					}
+					.frn_related_posts li {
+					    margin: 10px 0;
+					}
+					.frn_related_posts li:active {
+						background-color: #efefef;
+					}
+				}
+			</style><p>					<a name="frn_related_posts" class="frn_toc_anchor"></a></p>
+<h2 id="frn_related_hdr">Continue Reading</h2>
+<ul class="frn_rp_results"><li>
+							<a href="https://talbottcampus.com/prescription-drug-abuse-statistics-2015/" onclick="frn_reporting('','Content Interactions', 'Related Posts', '2015 Prescription Drug Abuse Statistics You Need to Know','no'); ">2015 Prescription Drug Abuse Statistics You Need to Know</a>
+						</li>
+<li>
+							<a href="https://talbottcampus.com/why-are-more-opioid-addicts-in-atlanta-dying-from-gray-death/" onclick="frn_reporting('','Content Interactions', 'Related Posts', 'Why Are More Opioid Addicts in Atlanta Dying from ">Why Are More Opioid Addicts in Atlanta Dying from "Gray Death?"</a>
+						</li>
+<li>
+							<a href="https://talbottcampus.com/addiction-and-mental-health-resources/alcoholism-and-drug-abuse-articles/signs-your-prescription-drug-abuse-out-of-hand/" onclick="frn_reporting('','Content Interactions', 'Related Posts', '6 Signs Your Prescription Drug Abuse is Out of Hand','no'); ">6 Signs Your Prescription Drug Abuse is Out of Hand</a>
+						</li>
+</ul></div>
+</div>
+<p></p>
+<p>Sources:<br><sup>1. Ahrnsbrak, Rebecca, et al.<a href="https://www.samhsa.gov/data/sites/default/files/NSDUH-FFR1-2016/NSDUH-FFR1-2016.pdf" rel="noopener external"> Key Substance Use and Mental Health Indicators in the United States: Results from the 2016 National Survey on Drug Use and Health</a>. Center for Behavioral Health Statistics and Quality, Substance Abuse and Mental Health Services Administration, September 2017.</sup><br><sup>2. &ldquo;<a href="https://www.drugabuse.gov/related-topics/trends-statistics/infographics/prescription-drug-abuse-young-people-risk" rel="noopener external">Prescription Drug Abuse: Young People at Risk.</a>&rdquo; National Institute on Drug Abuse, June 7, 2012.</sup><br><sup>3. &ldquo;<a href="https://www.drugabuse.gov/publications/research-reports/misuse-prescription-drugs/what-scope-prescription-drug-misuse" rel="noopener external">What is the scope of prescription drug misuse?</a>&rdquo; National Institute on Drug Abuse, August 2016.</sup><br><sup>4. <a href="https://www.dea.gov/documents/2017/10/01/2017-national-drug-threat-assessment" rel="noopener external">2017 National Drug Threat Assessment</a>. US Department of Justice, Drug Enforcement Administration, October 2017.</sup><br><sup>5. &ldquo;<a href="https://www.jhsph.edu/news/news-releases/2016/adderall-misuse-rising-among-young-adults.html" rel="noopener external">Adderall Misuse Rising Among Young Adults</a>.&rdquo; Johns Hopkins Bloomberg School of Public Health, February 16, 2016.</sup><br><sup>6. Bachhuber, Marcus A, MD, MSHP, et al. &ldquo;<a href="http://ajph.aphapublications.org/doi/full/10.2105/AJPH.2016.303061" rel="noopener external">Increasing Benzodiazepine Prescriptions and Overdose Mortality in the United States, 1996&ndash;2013</a>.&rdquo; American Journal of Public Health, March 09, 2016.</sup><br><sup>7. Gusovsky, Dina. &ldquo;<a href="https://www.cnbc.com/2016/04/27/americans-consume-almost-all-of-the-global-opioid-supply.html" rel="noopener external">Americans still lead the world in something: Use of highly addictive opioids</a>.&rdquo; CNBC, April 27, 2016.</sup><br><sup>8. &ldquo;<a href="https://www.cdc.gov/drugoverdose/data/overdose.html" rel="noopener external">Prescription Opioid Overdose Data</a>.&rdquo; Centers for Disease Control and Prevention, August 1, 2017.</sup><br><sup>9. &ldquo;<a href="https://www.cdc.gov/drugoverdose/data/heroin.html" rel="noopener external">Heroin Overdose Data</a>.&rdquo; Centers for Disease Control and Prevention, January 26, 2017.</sup><br><sup>10. Volk, Katherine. &ldquo;<a href="https://www.samhsa.gov/homelessness-programs-resources/hpr-resources/teen-prescription-drug-misuse-abuse" rel="noopener external">Teen Prescription Drug Misuse and Abuse</a>.&rdquo; SAMHSA, April 19, 2016.</sup><br><sup>11. &ldquo;<a href="https://www.drugabuse.gov/related-topics/trends-statistics/infographics/monitoring-future-2017-survey-results" rel="noopener external">Monitoring the Future 2017 Survey Results</a>.&rdquo; National Institute on Drug Abuse, December 2017.</sup><br><sup>12. &ldquo;<a href="https://www.drugabuse.gov/news-events/news-releases/2017/12/vaping-popular-among-teens-opioid-misuse-historic-lows" rel="noopener external">Vaping popular among teens; opioid misuse at historic lows</a>.&rdquo;National Institute on Drug Abuse, December 14, 2017.</sup><br><sup>13. Robinson, Kara Mayer. &ldquo;<a href="https://www.webmd.com/pain-management/features/painkiller-addiction-warning-signs#1" rel="external noopener">Painkillers: 7 Warning Signs of Addiction.</a>&rdquo; WebMD, October 9, 2017.</sup><br><sup>14. &ldquo;<a href="https://www.mayoclinic.org/diseases-conditions/prescription-drug-abuse/symptoms-causes/syc-20376813" rel="external noopener">Prescription Drug Abuse</a>.&rdquo; Mayo Clinic, Accessed January 9, 2018.</sup></p>
+<p><sup><i><b>By Patti Richards</b></i></sup></p>																		
+									
+																	</section> <!-- end article section -->
+							</div> <!-- end #main -->
+								
+						</div>
+						
+					</article> <!-- end article -->
+										
+										
+								
+					
+								
+				 <!-- end #content -->
+
+				<div id="call-us">
+
+					<div class="row tb-pad-60">
+
+						<div class="large-12 columns text-center">
+
+							<img src="https://talbottcampus.com/wp-content/themes/talbott/images/icon.phone.png" alt="" style="margin-bottom: 30px;">
+
+							<h2 id="footer-phone">Call us now <a  class="frn_phone InfinityNumber" href="tel:678-251-3189" style="white-space:nowrap;" data-ict-discovery-number="678-251-3189" data-ict-silent-replacements="false"  onClick="frn_reporting('','Phone Numbers','Phone Clicks in Global Footer','Talbott Recovery','no');" >678-251-3189</a></h2>
+
+							<div id="call-us-address">Talbott Recovery<br />
+5355 Hunter Road<br />
+Atlanta, GA 30349</div>
+							
+							<div>
+
+								<ul class="menu">
+
+									<li><a href="https://twitter.com/TalbottRecovery" target="_blank" class="social twitter"></a></li>
+
+									<li><a href="https://www.facebook.com/TalbottRecovery/"  target="_blank" class="social facebook"></a></li>
+
+									<li><a href="https://www.youtube.com/channel/UCOKKqVRBGPCZFwPktUzdeQw"  target="_blank" class="social youtube"></a></li>
+
+									<li><a href="https://www.linkedin.com/company/talbott-recovery-campus/" class="social linkedin"></a></li>
+
+								</ul>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div><!-- #content -->
+
+		</div><!-- nav sticky -->
+
+		<footer class="tb-pad-60">
+
+			<div class="row">
+
+				<div class="large-12 columns">
+
+					<div>
+
+						<div class="row">
+							<div class="medium-10 large-11 columns show-for-medium">
+								<div id="footer-nav">
+									<div class="footer-links clearfix"><ul id="menu-footer-menu" class="menu"><div class="medium-3 columns"><li id="menu-item-6553" class="has-kids start-column menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://talbottcampus.com/about-us/" class="test" >About Us<b class="caret"></b></a>
+<ul class="fmm-subnav">
+	<li id="menu-item-6887" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/about-us/history-of-talbott/">History of Talbott</a></li>
+	<li id="menu-item-6848" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/our-team">Our Team</a></li>
+	<li id="menu-item-6853" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/latest-news">Latest News</a></li>
+</ul>
+</li>
+<li id="menu-item-6556" class="has-kids menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="/locations/" class="test" >Locations<b class="caret"></b></a>
+<ul class="fmm-subnav">
+	<li id="menu-item-6558" class="menu-item menu-item-type-post_type menu-item-object-location"><a href="https://talbottcampus.com/locations/columbus-ga-outpatient-program/">Columbus Outpatient</a></li>
+	<li id="menu-item-6557" class="menu-item menu-item-type-post_type menu-item-object-location"><a href="https://talbottcampus.com/locations/dunwoody-ga-outpatient-program/">Dunwoody Outpatient</a></li>
+	<li id="menu-item-6559" class="menu-item menu-item-type-post_type menu-item-object-location"><a href="https://talbottcampus.com/locations/talbott-recovery-main-campus-atlanta-georgia/">Atlanta Main Campus</a></li>
+</ul>
+</li>
+</div><div class="medium-3 columns"><li id="menu-item-6560" class="has-kids new-column menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://talbottcampus.com/outpatient-addiction-treatment-programs/" class="test" >Programs<b class="caret"></b></a>
+<ul class="fmm-subnav">
+	<li id="menu-item-6798" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/addiction-treatment-programs/professionals/">Professionals Treatment Program</a></li>
+	<li id="menu-item-6797" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/addiction-treatment-programs/pilots/">Pilots Treatment Program</a></li>
+	<li id="menu-item-6796" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/addiction-treatment-programs/young-adult-substance-abuse-program/">Treatment for Young Adults</a></li>
+	<li id="menu-item-6795" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/addiction-treatment-programs/mirror-image/">Mirror Image</a></li>
+	<li id="menu-item-6794" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/addiction-treatment-programs/family-program/">Family Program</a></li>
+	<li id="menu-item-7662" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/alumni-services/">Alumni Support Services</a></li>
+</ul>
+</li>
+</div><div class="medium-3 columns"><li id="menu-item-6563" class="has-kids new-column menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="/treatment/" class="test" >Treatment<b class="caret"></b></a>
+<ul class="fmm-subnav">
+	<li id="menu-item-6801" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/treatment/detoxification-and-stabilization/">Detoxification and Stabilization</a></li>
+	<li id="menu-item-6800" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/treatment/partial-hospitalization/">Partial Hospitalization</a></li>
+	<li id="menu-item-6799" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/treatment/intensive-outpatient-programs/">Intensive Outpatient Programs</a></li>
+</ul>
+</li>
+<li id="menu-item-6567" class="has-kids menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="/resources/" class="test" >Resources<b class="caret"></b></a>
+<ul class="fmm-subnav">
+	<li id="menu-item-9374" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/online-bill-pay/">Online Bill Pay</a></li>
+	<li id="menu-item-6566" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/prescription-drug-resource-and-medication-guide/">Medication Guide</a></li>
+</ul>
+</li>
+</div><div class="medium-3 columns end"><li id="menu-item-6568" class="has-kids end-column menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="/admissions/" class="test" >Admissions<b class="caret"></b></a>
+<ul class="fmm-subnav">
+	<li id="menu-item-6805" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/admissions/the-abcs-of-insurance-coverage/">The ABC’s of Insurance Coverage</a></li>
+	<li id="menu-item-6804" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/admissions/how-much-will-treatment-cost/">How Much Will Treatment Cost?</a></li>
+	<li id="menu-item-6802" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/admissions/why-travel-for-treatment/">Why Travel for Treatment?</a></li>
+	<li id="menu-item-7689" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/admissions/what-to-bring/">What to Bring</a></li>
+</ul>
+</li>
+<li id="menu-item-6810" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://talbottcampus.com/frequently-asked-questions/">FAQs</a></li>
+<li id="menu-item-6811" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/seminars">Seminars</a></li>
+<li id="menu-item-6806" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/contact">Contact</a></li>
+<li id="menu-item-6573" class="search-link menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Search</a></li>
+</ul></div>								</div>
+							</div>
+							<div class="medium-2 large-1 columns">
+																		<div id="certification-section" class="tb-pad-10">
+											<div class="tb-pad-20">
+												<div class="row small-up-4 medium-up-1 large-up-1">
+																											<div class="column" style="padding-bottom: 20px;">
+															<a href="https://www.qualitycheck.org/quality-report/?bsnId=1202" title="The Joint Commission Quality Check">
+																<img class="certification-logo" alt="The Joint Commission Quality Check" src="https://talbottcampus.com/wp-content/uploads/footer_quality_check_gold-2.jpg"/>
+															</a>
+														</div>
+																												<div class="column" style="padding-bottom: 20px;">
+															<a href="https://www.gha.org/default.aspx" title="Georgia Hospital Association">
+																<img class="certification-logo" alt="Georgia Hospital Association" src="https://talbottcampus.com/wp-content/uploads/footer_gha_bw-2.jpg"/>
+															</a>
+														</div>
+																												<div class="column" style="padding-bottom: 20px;">
+															<a href="http://www.adacbga.org/" title="Alcohol &#038; Drug Abuse Certification Board of Georgia">
+																<img class="certification-logo" alt="Alcohol &#038; Drug Abuse Certification Board of Georgia" src="https://talbottcampus.com/wp-content/uploads/ADACBGA_seal_RGB1-2.jpg"/>
+															</a>
+														</div>
+																										</div><!-- end row -->
+											</div>
+										</div>
+								
+
+
+																	</div>
+						</div>
+						<div class="row footer-accreditations">
+			            <div class="columns medium-6 small-6">
+					      <script src="https://static.legitscript.com/seals/3417926.js"></script>
+					    </div>
+					    <div class="columns medium-6 small-6">
+					      <img class="naatp-logo" alt="NAATP "src="https://talbottcampus.com/wp-content/themes/talbott/images/accreditations/naatp-stacked-color.svg">
+					    </div>
+					    </div><!-- /.row -->
+						<div class="text-center">
+						
+			<!--START COPYRIGHT, WEBSITE NAME, PHONE NUMBER, PRIVACY POLICY-->
+			<div class="frn_footer"><p align="center">Copyright © 2019 Talbott Recovery. All Rights Reserved. | Confidential and Private Call: <a  class="frn_phone InfinityNumber" href="tel:678-251-3189" style="white-space:nowrap;" data-ict-discovery-number="678-251-3189" data-ict-silent-replacements="false"  onClick="frn_reporting('','Phone Numbers','Phone Clicks in Footer','Talbott Recovery','no');" >678-251-3189</a> | <a href="https://talbottcampus.com/wp-content/plugins/frn_plugins/privacy-policy.pdf" >Privacy Policy</a></p>
+			</div>
+			<!-- END COPYRIGHT, WEBSITE NAME, PHONE NUMBER, PRIVACY POLICY -->
+									</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+		<!--[if lt IE 7 ]>
+
+  			<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+
+  			<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+
+		<![endif]-->
+
+		
+
+		
+			
+			
+		<!-- #####
+		FRN Chartbeat Code 
+		##### -->
+		<script type='text/javascript'>
+			var _sf_async_config={};
+			/** CONFIGURATION START **/
+			_sf_async_config.uid = 37107;
+			_sf_async_config.domain = 'allwebsites.com';
+			_sf_async_config.path = 'https://talbottcampus.com/prescription-drug-abuse-statistics/';
+			_sf_async_config.authors = 'TalbottCampus.com';
+			/** CONFIGURATION END **/
+			(function(){
+			  function loadChartbeat() {
+				window._sf_endpt=(new Date()).getTime();
+				var e = document.createElement('script');
+				e.setAttribute('language', 'javascript');
+				e.setAttribute('type', 'text/javascript');
+				e.setAttribute('src',
+				   (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
+				   'js/chartbeat.js');
+				document.body.appendChild(e);
+			  }
+			  var oldonload = window.onload;
+			  window.onload = (typeof window.onload != 'function') ?
+				 loadChartbeat : function() { oldonload(); loadChartbeat(); };
+			})();
+		</script>
+		<!-- #####
+		End FRN Chartbeat Code
+		##### -->
+		
+		
+	<!-- #####
+	FRN Hotjar Tracking 
+	##### -->
+	<script>
+		(function(f,b){
+			var c;
+			f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};
+			f._hjSettings={hjid:302328, hjsv:3};
+			c=b.createElement("script");c.async=1;
+			c.src="//static.hotjar.com/c/hotjar-302328.js?sv=3";
+			b.getElementsByTagName("head")[0].appendChild(c); 
+		})(window,document);
+	</script>
+	<!-- #####
+	FRN Hotjar Tracking Ends
+	##### -->
+	
+		
+	<!--FRN Pinterest Buttons JS-->
+	<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+	
+	<!--FRN Facebook Popup JS-->
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+		   $('.popup').click(function() {
+			 var NWin = window.open($(this).prop('href'), '', 'scrollbars=1,height=400,width=400');
+			 if (window.focus)
+			 {
+			   NWin.focus();
+			 }
+			 return false;
+			});
+		});
+	</script>
+	
+	
+	<!--FRN LinkedIn Buttons JS-->
+	<script src="//platform.linkedin.com/in.js" async='async' type="text/javascript">
+	  lang: en_US
+	</script>
+	
+	
+	
+	<!-- #####
+	LiveHelpNow Invisible Chat Button
+	##### -->
+	<script type="text/javascript">
+		var lhnButtonN = -1;
+		var lhnAccountN = "14160-1"; 
+		var lhnWindowN = 40304;
+		var lhnDepartmentN = 15027;
+		var lhnCustom1 = "[CALL-IN CODE] Web Talbott";
+		var lhnCustom2 = "[CURRENT PAGE] https://talbottcampus.com/prescription-drug-abuse-statistics/";
+		var lhnCustom3 = "[Desktop] User is chatting on this.";
+	</script>
+	<script async='async' src="//www.livehelpnow.net/lhn/widgets/chatbutton/lhnchatbutton-current.min.js?v=1.0" type="text/javascript" id="lhnscript"></script>
+	<!-- #####
+	END LiveHelpNow Invisible Chat Button
+	##### -->
+	
+
+		<!--FRN ShareThis Buttons JS-->
+	<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c68effd7056550011c4a4da&product=social-ab' async='async'></script>
+				<!-- Root element of PhotoSwipe. Must have class pswp. -->
+			<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+			    <!-- Background of PhotoSwipe.
+			         Its a separate element, as animating opacity is faster than rgba(). -->
+			    <div class="pswp__bg"></div>
+
+			    <!-- Slides wrapper with overflow:hidden. -->
+			    <div class="pswp__scroll-wrap">
+
+			        <!-- Container that holds slides.
+			                PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+			        <div class="pswp__container">
+			            <!-- dont modify these 3 pswp__item elements, data is added later on -->
+			            <div class="pswp__item"></div>
+			            <div class="pswp__item"></div>
+			            <div class="pswp__item"></div>
+			        </div>
+
+			        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+			        <div class="pswp__ui pswp__ui--hidden">
+
+			            <div class="pswp__top-bar">
+
+			                <!--  Controls are self-explanatory. Order can be changed. -->
+
+			                <div class="pswp__counter"></div>
+
+			                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+			                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+			                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+			                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+			                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+			                <!-- element will get class pswp__preloader--active when preloader is running -->
+			                <div class="pswp__preloader">
+			                    <div class="pswp__preloader__icn">
+			                      <div class="pswp__preloader__cut">
+			                        <div class="pswp__preloader__donut"></div>
+			                      </div>
+			                    </div>
+			                </div>
+			            </div>
+
+			            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+			                <div class="pswp__share-tooltip"></div>
+			            </div>
+
+			            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+			            </button>
+
+			            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+			            </button>
+
+			            <div class="pswp__caption">
+			                <div class="pswp__caption__center"></div>
+			            </div>
+
+			          </div>
+
+			        </div>
+
+			</div><script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/talbottcampus.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://talbottcampus.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.1'></script>
+<script type='text/javascript' src='https://talbottcampus.com/wp-includes/js/comment-reply.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://talbottcampus.com/wp-content/themes/talbott/library/js/talbott.js?ver=1.6.0'></script>
+<script type='text/javascript' src='https://talbottcampus.com/wp-content/themes/talbott/library/js/moment.js?ver=1.3.0'></script>
+<script type='text/javascript' src='https://talbottcampus.com/wp-content/themes/talbott/library/js/chat.js?ver=1.3.0'></script>
+<script type='text/javascript' src='https://talbottcampus.com/wp-content/plugins/frn_plugins/scripts.js?ver=1.13' async='async'></script>
+<script type='text/javascript' src='https://talbottcampus.com/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+
+
+
+		<script src="https://talbottcampus.com/wp-content/themes/talbott/js/app.js"></script>
+
+		
+
+
+
+
+
+        
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"6d6be717cc","applicationID":"45327766","transactionName":"YgdbZRBVDUMAAU1RDFtNeFIWXQxeThFQVgRZBw==","queueTime":0,"applicationTime":630,"atts":"TkBYE1hPHk0=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+</html>

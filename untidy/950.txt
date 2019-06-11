@@ -1,0 +1,317 @@
+
+
+# Personal consumption expenditures price index
+
+From Wikipedia, the free encyclopedia
+
+Jump to navigation Jump to search
+
+Component statistic of the United States Gross Domestic Product
+
+The **personal consumption expenditure** ( **PCE** ) measure is the component
+statistic for consumption in gross domestic product (GDP) collected by the
+United States Bureau of Economic Analysis (BEA). It consists of the actual and
+imputed expenditures of households and includes data pertaining to durable and
+non-durable goods and services. It is essentially a measure of goods and
+services targeted towards individuals and consumed by individuals.[1]
+
+The **PCE price index** ( **PCEPI** ), also referred to as the **PCE
+deflator** , **PCE price deflator** , or the **Implicit Price Deflator for
+Personal Consumption Expenditures** ( **IPD** for **PCE** ) by the BEA, and as
+the **Chain-type Price Index for Personal Consumption Expenditures** (
+**CTPIPCE** ) by the Federal Open Market Committee (FOMC), is a United States-
+wide indicator of the average increase in prices for all domestic personal
+consumption. It is benchmarked to a base of 2009 = 100. Using a variety of
+data including U.S. Consumer Price Index and Producer Price Index prices, it
+is derived from the largest component of the GDP in the BEA's National Income
+and Product Accounts, personal consumption expenditures.
+
+The less volatile measure of the PCE price index is the **core PCE** (
+**CPCE** ) price index which excludes the more volatile and seasonal food and
+energy prices.
+
+In comparison to the headline United States Consumer Price Index (CPI), which
+uses one set of expenditure weights for several years, this index uses a
+Fisher Price Index, which uses expenditure data from the current period and
+the preceding period. Also, the PCEPI uses a chained index which compares one
+quarter's price to the previous quarter's instead of choosing a fixed base.
+This price index method assumes that the consumer has made allowances for
+changes in relative prices. That is to say, they have substituted from goods
+whose prices are rising to goods whose prices are stable or falling.
+
+PCE has been tracked since January 1959. Through July 2018, inflation measured
+by PCE has averaged 3.3%, while it has averaged 3.8% using CPI.[2] This may be
+due to the failure of CPI to take into account the substitution effect.
+Alternatively, an unpublished report on this difference by the Bureau of Labor
+Statistics suggests that most of it is from different ways of calculating
+hospital expenses and airfares.[3]
+
+## Contents
+
+  * 1 Federal Reserve
+  * 2 Comparison to CPI
+  * 3 See also
+  * 4 References
+  * 5 External links
+    * 5.1 Data
+    * 5.2 Articles
+
+## Federal Reserve[edit]
+
+In its "Monetary Policy Report to the Congress" ("Humphrey–Hawkins Report")
+from February 17, 2000 the FOMC said it was changing its primary measure of
+inflation from the consumer price index to the "chain-type price index for
+personal consumption expenditures".[4]
+
+## Comparison to CPI[edit]
+
+The differences between the two indexes can be grouped into four categories:
+formula effect, weight effect, scope effect, and "other effects".
+
+  * The formula effect accounts for the different formulas used to calculate the two indexes. The PCE price index is based on the Fisher-Ideal formula, while the CPI is based on a modified Laspeyres formula.
+  * The weight effect accounts for the relative importance of the underlying commodities reflected in the construction of the two indexes.
+  * The scope effect accounts for conceptual differences between the two indexes. PCE measures spending by and on behalf of the personal sector, which includes both households and nonprofit institutions serving households; the CPI measures out-of-pocket spending by households. The "net" scope effect adjusts for CPI items out-of-scope of the PCE price index less items in the PCE price index that are out-of-scope of the CPI.
+  * "Other effects" include seasonal adjustment differences, price differences, and residual differences.[5][ _dead link_ ]
+
+\- See more at: https://bea.gov/faq/index.cfm?faq_id=555#sthash.JuqEcudO.dpuf
+
+Consumption category | CPI-U | PCE-UNADJ | PCE-ADJ  
+\---|---|---|---  
+**Food and beverages** | 15.1% | 13.8% | 17.0%  
+Food at home | 8.0% | 7.1% | 8.7%  
+Food away from home | 6.0% | 4.9% | 6.0%  
+Alcoholic beverages | 1.1% | 1.8% | 2.3%  
+**Housing** | 42.4% | 26.5% | 32.9%  
+Rent | 5.8% | 3.4% | 4.1%  
+Owner's equivalent rent | 23.4% | 12.9% | 15.9%  
+Other housing | 13.1% | 10.2% | 12.9%  
+**Apparel** | 3.8% | 4.5% | 5.5%  
+**Medical care** | 6.2% | 22.3% | 5.0%  
+**Transportation** | 17.4% | 13.9% | 17.3%  
+Motor vehicles | 7.9% | 5.3% | 6.5%  
+Gasoline | 4.2% | 3.4% | 4.3%  
+Other transportation | 5.4% | 5.2% | 6.5%  
+**Education and communication** | 6.0% | 5.4% | 6.7%  
+**Recreation** | 5.6% | 6.8% | 8.4%  
+**Tobacco** | 0.7% | 1.0% | 1.2%  
+**Other goods and services** | 2.8% | 5.8% | 6.0%  
+| 100% | 100% | 100%
+
+[6]
+
+The above chart is illustrative but may not reflect current values. The
+comparisons in the table above will vary over time as the relative weights of
+the components of the indexes change. The CPI base price and weightings are
+adjusted every two years.
+
+The above table illustrates two commonly discussed important differences
+between the PCE deflator and CPI-U. The first is the relative importance of
+housing, which is due in part to the difference in scope mentioned above. CPI
+contains a large component of owner-equivalent rent, which by definition is an
+imputed value and not a real direct expenditure. The second major difference
+in weight is healthcare. This again stems from the definition of the index and
+the surveys used. CPI measures only the out-of-pocket healthcare costs of
+households where PCE includes healthcare purchased on behalf of households by
+third parties, including employer-provided health insurance. In the United
+States, employer health insurance is a large component and accounts for much
+of the difference in weights.
+
+Another notable difference is CPI prices and weightings are based on household
+surveys and PCE is based on business surveys. One reason for the difference in
+formulas is that not all the data needed for the Fisher-Ideal formula is
+available monthly even though it is considered superior. CPI is a practical
+alternative used to give a quicker read on prices in the previous month. PCE
+is typically revised three times in each of the months following the end of a
+quarter, and then the entire NIPA tables are re-based annually and every five
+years. Despite all these conceptual and methodological differences, the two
+indexes track fairly closely when averaged over several years.[7]
+
+## See also[edit]
+
+  * Price index
+  * Gross domestic product deflator (IPD for GDP)
+  * Household final consumption expenditure (HFCE)
+  * Inflation
+
+## References[edit]
+
+  1. **^** "Definition of 'Personal Consumption Expenditures - PCE'", Investopedia, Accessed 31-July-2012
+  2. **^** PCE and CPI indices, Jan 1959 - Jul 2018: "FRED Graph - FRED - St. Louis Fed". _fred.stlouisfed.org_. Retrieved September 9, 2018.
+  3. **^** Boskin, et al. "Consumer Prices, The Consumer Price Index, and the Cost of Living." _Journal of Economic Perspectives_ \- Volume 12, Number 1. Winter 1998, pp3-26.
+  4. **^** "FRB: Monetary Policy Report to the Congress - February 17, 2000". _www.federalreserve.gov_. Retrieved September 9, 2018.
+  5. **^** https://bea.gov/faq/index.cfm?faq_id=555
+  6. **^** https://www.nber.org/chapters/c12661.pdf
+  7. **^** Moyer, Brian C.; Stewart, Kenneth J. "A Reconciliation between the Consumer Price Index and the Personal Consumption Expenditures Price Index" (PDF). _www.bea.gov_. Bureau of Economic Analysis. Retrieved September 7, 2014.
+
+## External links[edit]
+
+### Data[edit]
+
+  * Briefing.com: Personal Income and Spending
+    * Briefing.com: CPI (the core CPI as a comparison)
+  * Current News Releases from the Bureau of Economic Analysis (click on "Personal Income and Outlays", then skip to Tables 9 and 11 near the bottom.)
+  * St. Louis Federal Reserve FRED2 PCE data index
+
+### Articles[edit]
+
+  * Personal Consumption Expenditures - PCE
+  * FAQ: What is the "market-based" PCE price index?
+  * Implicit Price Deflator for Personal Consumption Expenditures - Referendum 47's Measure of Inflation
+    * Implicit Price Deflator Information
+  * FRB: Monetary Policy Report to the Congress - February 17, 2000
+  * TheStreet.com: Meet the Fed's Elusive New Inflation Target
+
+![](//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1)
+
+Retrieved from
+"https://en.wikipedia.org/w/index.php?title=Personal_consumption_expenditures_price_index&oldid=887360429"
+
+Categories:
+
+  * Price indices
+
+Hidden categories:
+
+  * Use American English from March 2019
+  * All Wikipedia articles written in American English
+  * Articles with short description
+  * Use mdy dates from March 2019
+  * All articles with dead external links
+  * Articles with dead external links from March 2019
+
+## Navigation menu
+
+### Personal tools
+
+  * Not logged in
+  * Talk
+  * Contributions
+  * Create account
+  * Log in
+
+### Namespaces
+
+  * Article
+  * Talk
+
+### Variants
+
+### Views
+
+  * Read
+  * Edit
+  * View history
+
+### More
+
+### Search
+
+### Navigation
+
+  * Main page
+  * Contents
+  * Featured content
+  * Current events
+  * Random article
+  * Donate to Wikipedia
+  * Wikipedia store
+
+### Interaction
+
+  * Help
+  * About Wikipedia
+  * Community portal
+  * Recent changes
+  * Contact page
+
+### Tools
+
+  * What links here
+  * Related changes
+  * Upload file
+  * Special pages
+  * Permanent link
+  * Page information
+  * Wikidata item
+  * Cite this page
+
+### Print/export
+
+  * Create a book
+  * Download as PDF
+  * Printable version
+
+### Languages
+
+Add links
+
+  * This page was last edited on 12 March 2019, at 04:22 (UTC).
+  * Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+  * Privacy policy
+
+  * About Wikipedia
+  * Disclaimers
+  * Contact Wikipedia
+  * Developers
+  * Cookie statement
+  * Mobile view
+
+  * ![Wikimedia Foundation](/static/images/wikimedia-button.png)
+
+  * ![Powered by MediaWiki](/static/images/poweredby_mediawiki_88x31.png)
+
+_[ v]: View this template_ [t]: Discuss this template _[e]: Edit this
+template_ [v]: View this template _[AU]: Australia_ [CA]: Canada _[UK]: United
+Kingdom_ [US]: United States _[UN]: United Nations_ [EU]: European Union
+_[AAAD]: Aromatic L-amino acid decarboxylase_ [ MAO]: Monoamine oxidase _[
+ALDH]: Aldehyde dehydrogenase_ [ALR]: Aldehyde reductase _[PAH]: Phenylalanine
+hydroxylase_ [ TH]: Tyrosine hydroxylase _[ DBH]: Dopamine beta-monooxygenase_
+[ PNMT]: Phenylethanolamine N-methyltransferase _[ COMT]: Catechol-O-methyl
+transferase_ [TPH]: Tryptophan hydroxylase _[ AANAT]: Serotonin N-acetyl
+transferase_ [ ASMT]: Acetylserotonin O-methyltransferase _[ HDC]: Histidine
+decarboxylase_ [ HNMT]: Histamine N-methyltransferase _[ DAO]: Diamine
+oxidase_ [nAChRs]: Nicotinic acetylcholine receptors _[PAMs]: positive
+allosteric modulators_ [NAMs]: negative allosteric modulators _[TRP]:
+Transient receptor potential_ [TRPA]: Transient receptor potential ankyrin
+channel _[TRPC]: Transient receptor potential canonical channel_ [TRPM]:
+Transient receptor potential melastatin channel _[TRPML]: Transient receptor
+potential mucolipin channel_ [TRPP]: Transient receptor potential polycystin
+channel *[TRPV]: Transient receptor potential vanilloid channel
+
+  *[ v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[v]: View this template
+  *[AU]: Australia
+  *[CA]: Canada
+  *[UK]: United Kingdom
+  *[US]: United States
+  *[UN]: United Nations
+  *[EU]: European Union
+  *[AAAD]: Aromatic L-amino acid decarboxylase
+  *[ MAO]: Monoamine oxidase
+  *[ ALDH]: Aldehyde dehydrogenase
+  *[ALR]: Aldehyde reductase
+  *[PAH]: Phenylalanine hydroxylase
+  *[ TH]: Tyrosine hydroxylase
+  *[ DBH]: Dopamine beta-monooxygenase
+  *[ PNMT]: Phenylethanolamine N-methyltransferase
+  *[ COMT]: Catechol-O-methyl transferase
+  *[TPH]: Tryptophan hydroxylase
+  *[ AANAT]: Serotonin N-acetyl transferase
+  *[ ASMT]: Acetylserotonin O-methyltransferase
+  *[ HDC]: Histidine decarboxylase
+  *[ HNMT]: Histamine N-methyltransferase
+  *[ DAO]: Diamine oxidase
+  *[nAChRs]: Nicotinic acetylcholine receptors
+  *[PAMs]: positive allosteric modulators
+  *[NAMs]: negative allosteric modulators
+  *[TRP]: Transient receptor potential
+  *[TRPA]: Transient receptor potential ankyrin channel
+  *[TRPC]: Transient receptor potential canonical channel
+  *[TRPM]: Transient receptor potential melastatin channel
+  *[TRPML]: Transient receptor potential mucolipin channel
+  *[TRPP]: Transient receptor potential polycystin channel
+  *[TRPV]: Transient receptor potential vanilloid channel
+

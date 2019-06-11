@@ -1,0 +1,911 @@
+
+
+**Warning:** The NCBI web site requires JavaScript to function. more...
+
+  * NCBI![NCBI Logo](//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/28977)
+  * Skip to main content
+  * Skip to navigation
+  * Resources
+  * How To
+  * About NCBI Accesskeys
+
+My NCBISign in to NCBISign Out
+
+# PMC
+
+US National Library of Medicine  
+National Institutes of Health
+
+Search databasePMCAll
+DatabasesAssemblyBiocollectionsBioProjectBioSampleBioSystemsBooksClinVarConserved
+DomainsdbGaPdbVarGeneGenomeGEO DataSetsGEO ProfilesGTRHomoloGeneIdentical
+Protein GroupsMedGenMeSHNCBI Web SiteNLM
+CatalogNucleotideOMIMPMCPopSetProbeProteinProtein ClustersPubChem
+BioAssayPubChem CompoundPubChem
+SubstancePubMedSNPSparcleSRAStructureTaxonomyToolKitToolKitAllToolKitBookghUniGene
+
+Search term
+
+Search
+
+  * Advanced
+  * Journal list
+  * Help
+
+  * Journal List
+
+  * Europe PMC Author Manuscripts
+  * PMC2516340
+
+![Logo of wtpa](/corehtml/pmc/pmcgifs/logo-wtpa2.gif)
+
+Eur Respir J. Author manuscript; available in PMC 2008 Aug 14.
+
+Published in final edited form as:
+
+Eur Respir J. 2008 Feb; 31(2): 280–286.
+
+doi: 10.1183/09031936.00065707
+
+PMCID: PMC2516340
+
+EMSID: UKMS2178
+
+PMID: 18238947
+
+# CANNABIS USE AND RISK OF LUNG CANCER: A CASE-CONTROL STUDY
+
+Sarah Aldington,1 Matire Harwood,1 Brian Cox,2 Mark Weatherall,3 Lutz
+Beckert,1 Anna Hansell,4 Alison Pritchard,1 Geoffrey Robinson,1 and Richard
+Beasley1,5, On behalf of the Cannabis and Respiratory Disease Research Group
+
+### Sarah Aldington
+
+1Medical Research Institute of New Zealand, Wellington, New Zealand
+
+Find articles by Sarah Aldington
+
+### Matire Harwood
+
+1Medical Research Institute of New Zealand, Wellington, New Zealand
+
+Find articles by Matire Harwood
+
+### Brian Cox
+
+2Hugh Adam Cancer Epidemiology Unit, University of Otago, Dunedin, New Zealand
+
+Find articles by Brian Cox
+
+### Mark Weatherall
+
+3Wellington School of Medicine & Health Sciences, Wellington, New Zealand
+
+Find articles by Mark Weatherall
+
+### Lutz Beckert
+
+1Medical Research Institute of New Zealand, Wellington, New Zealand
+
+Find articles by Lutz Beckert
+
+### Anna Hansell
+
+4Imperial College London, United Kingdom
+
+Find articles by Anna Hansell
+
+### Alison Pritchard
+
+1Medical Research Institute of New Zealand, Wellington, New Zealand
+
+Find articles by Alison Pritchard
+
+### Geoffrey Robinson
+
+1Medical Research Institute of New Zealand, Wellington, New Zealand
+
+Find articles by Geoffrey Robinson
+
+### Richard Beasley
+
+1Medical Research Institute of New Zealand, Wellington, New Zealand
+
+5University of Southampton, Southampton, United Kingdom
+
+Find articles by Richard Beasley
+
+Author information Copyright and License information Disclaimer
+
+1Medical Research Institute of New Zealand, Wellington, New Zealand
+
+2Hugh Adam Cancer Epidemiology Unit, University of Otago, Dunedin, New Zealand
+
+3Wellington School of Medicine & Health Sciences, Wellington, New Zealand
+
+4Imperial College London, United Kingdom
+
+5University of Southampton, Southampton, United Kingdom
+
+**Correspondence:** Professor Richard Beasley, Medical Research Institute of
+New Zealand, PO Box 10055, Wellington, New Zealand, Telephone: +64-4-472 9199,
+Facsimile: +64-4-472 9224, Email: zn.ca.znirm@yelsaeB.drahciR
+
+Copyright notice
+
+The publisher's final edited version of this article is available free at Eur
+Respir J
+
+See other articles in PMC that cite the published article.
+
+## Abstract
+
+### Aim:
+
+To determine the risk of lung cancer associated with cannabis smoking.
+
+### Methods:
+
+A case-control study of lung cancer in adults ≤55 years of age was conducted
+in eight district health boards in New Zealand. Cases were identified from the
+New Zealand Cancer Registry and hospital databases. Controls were randomly
+selected from the electoral roll, with frequency matching to cases in 5-year
+age groups and district health boards. Interviewer administered questionnaires
+were used to assess possible risk factors including cannabis use. The relative
+risk of lung cancer associated with cannabis smoking was estimated by logistic
+regression.
+
+### Results:
+
+There were 79 cases of lung cancer and 324 controls. The risk of lung cancer
+increased 8% (95% CI 2% to 15%) for each joint-year of cannabis smoking, after
+adjustment for confounding variables including cigarette smoking, and 7% (95%
+CI 5% to 9%) for each pack-year of cigarette smoking, after adjustment for
+confounding variables including cannabis smoking. The highest tertile of
+cannabis use was associated with an increased risk of lung cancer RR=5.7 (95%
+CI 1.5 to 21.6), after adjustment for confounding variables including
+cigarette smoking.
+
+### Conclusions:
+
+Long term cannabis use increases the risk of lung cancer in young adults.
+
+**Keywords:** Cannabis, tobacco, lung cancer, case-control
+
+## INTRODUCTION
+
+Cannabis smoking may have a greater potential than tobacco smoking to cause
+lung cancer.[1-4] Cannabis smoke is qualitatively similar to tobacco smoke,
+although it contains up to twice the concentration of the carcinogenic
+polyaromatic hydrocarbons.[1] Cannabis is less densely packed than tobacco
+cigarettes, and tends to be smoked without filters [2] to a smaller butt
+size,[3] leading to higher concentrations of smoke inhaled. Furthermore,
+smokers of cannabis inhale more deeply and hold their breath for longer,[4]
+facilitating the deposition of the carcinogenic products in the lower
+respiratory tract. These factors are likely to be responsible for the five-
+fold greater absorption of carbon monoxide from a cannabis joint, compared
+with a tobacco cigarette of similar size despite similar carbon monoxide
+concentrations in the smoke inhaled.[4] Several studies have demonstrated pre-
+cancerous histological [5,6] and molecular [7] abnormalities in the
+respiratory tracts of cannabis smokers, and the carcinogenic effects of
+cannabis smoke have been demonstrated in vitro [8] and in different in vivo
+animal models.[1,9,10] Conversely, there is also evidence that
+delta-9-tetrahydrocannabinol may have anti-carcinogenic effects.[11-13]
+
+Epidemiological evidence for an association between cannabis and lung cancer
+is limited and conflicting. Case series have suggested a causative role for
+cannabis in lung cancer in young adults.[14,15] The few published case-control
+studies have shown both the presence [16-18] and absence [19] of an
+association, but have been limited by the inability to quantify use,[16-18]
+confounding with combined cannabis and tobacco use,[16-18] studies being
+undertaken in populations in which use may have serious legal consequences
+resulting in potential information bias [16-19] and poor response rates.[19]
+
+New Zealand represents an ideal country in which to study the association
+between cannabis and respiratory tract cancer. New Zealand has a high rate of
+cannabis use,[20] and it is rarely mixed with tobacco within the joint [21] as
+is the custom in the United Kingdom.[22] New Zealand has among the highest
+rates of lung cancer worldwide with the indigenous Maori population having the
+highest incidence of any ethnic group.[23] These circumstances provided the
+opportunity to undertake a case-control study to investigate the association
+between lung cancer and cannabis use in young people.
+
+## METHODS
+
+### Study participants
+
+Cases were patients with confirmed lung cancer aged 55 years and under at the
+time of diagnosis, identified from hospital databases and the New Zealand
+Cancer Registry between January 2001 and July 2005. Cases were a mixture of
+prevalent and incident cases of lung cancer. Subjects were excluded if they
+had lung metastasis from a distant primary other than lung, or a histological
+diagnosis of carcinoid or melanoma. Age at diagnosis, anatomical location of
+their malignancy and histological type were collected for cases. Controls
+without lung cancer were randomly selected from the electoral roll and
+frequency matched in 5-year age groups and district health boards. Subjects
+came from eight district health board regions, serving both urban and rural
+populations. The eight District Health Boards together serve approximately 1.8
+million people, representing just under half of the total New Zealand
+population. The study was approved by the regional ethics committees and each
+participant gave written informed consent. Patients with cancers of the head
+and neck were also interviewed, but will be reported separately.
+
+### Methods
+
+Questionnaires were administered face-to-face by trained interviewers, usually
+at the home of the participant. Information on demographics (including ethnic
+group), smoking history, passive smoking exposure, recreational drug use,
+diet, occupation, income, education, alcohol consumption and family history of
+malignancy was collected. A family history of lung cancer was defined as
+having a sibling or parent with lung cancer. Occupations associated with a
+higher risk of lung cancer were identified from the literature and subjects
+were assigned a 'duration at risk' value in years. Ethnicity was derived by
+priority coding of the responses into three groups; Maori, Pacific Islander
+and 'other'. The highest level of educational attainment was recorded, as was
+income at diagnosis (or reference age). Alcohol consumption was calculated
+using a semi-quantitative score based on amount and frequency of consumption.
+
+Subjects who reported having ever smoked 20 or more joint of cannabis were
+then asked to complete a more detailed exposure questionnaire regarding their
+cannabis smoking. This questionnaire obtained information about the age of
+starting cannabis use, the amount, frequency and duration of use, and the
+characteristics of their smoking. This information was collected for each
+period of their lives when pattern of use changed and was then summed to give
+an estimate of total lifetime use. If subjects smoked cannabis in a form other
+than a joint, e.g. pipes or bongs, they were asked to estimate the number of
+cannabis joints to which that would equate. This conversion allowed cannabis
+use for all participants to be quantified in joint-years of use, with 1 joint-
+year being equivalent to 1 joint per day for 1 year. Subjects who had smoked
+<20 and ≥20 cannabis joints in their lifetime were classified as non-smokers
+and smokers of cannabis respectively. A similar approach of determining
+lifetime use of cigarettes was employed to enable pack-years of cigarette
+smoking to be calculated, with 1 pack-year equivalent to 20 cigarettes per day
+for 1 year. Subjects who reported smoking tobacco cigarettes occasionally but
+never daily, or daily at some stage in their life, were classified as non-
+smokers and smokers of cigarettes, respectively. The questionnaire was piloted
+among ex-cannabis smokers.
+
+### Analysis
+
+Standard methods for analysis of case-control studies were used. The mean
+delay from diagnosis to interview was subtracted from the date of interview to
+calculate a reference date for duration of exposure for each control. Tertiles
+of cannabis use were determined by the marginal distribution of use for all
+subjects to reduce the chance of zero cell counts if just the control group
+was used. Relative risks were estimated by calculating odds ratios by logistic
+regression using SPSS version 11.0 for Mac OSX (SPSS Inc, Chicago, Ill) and
+adjusted for confounding variables. Adjustment for age, joint-years of
+cannabis smoking and pack-years of cigarette smoking was made by including
+them as continuous variables in the regression models. The effects of
+categories of pack-years of cigarette smoking (quintiles of smoking for all
+subjects interviewed) and joint-years of cannabis smoking (tertiles of use for
+all subjects interviewed) were also assessed. The relative risks were also
+calculated based on cannabis use up to 5 years prior to diagnosis or reference
+date in the controls, on the basis that exposure after that time was unlikely
+to have caused the malignancy. The age at which cannabis smoking started was
+categorised, and the relative risk associated with starting <16 years of age,
+compared with ≥21 years was estimated. Various logistic regression models were
+fitted with potential confounders as continuous and categorical variables, and
+the estimates of relative risk and the confidence intervals were not
+appreciably different from the results presented.
+
+### Power calculation
+
+Assuming that 15% of the population smokes cannabis, a sample size of 75 cases
+and 300 controls had 80% and 90% power at a type 1 error rate of 5% to detect
+an odds ratio of lung cancer of 2.4 and 2.7, respectively.
+
+## RESULTS
+
+A total of 102 eligible cases were contacted and invited for interview of whom
+79 (77%) agreed to participate. There were 493 controls contacted and invited
+for interview of whom 324 (66%) agreed to participate.
+
+The 79 cases of lung cancer included 16 (20%) small-cell and 63 (80%) non-
+small-cell cancers. This is consistent with the established distribution of
+histological type seen in the general population.[24] There were 39 (49%)
+female cases of lung cancer, similar to the female proportion (50%) of all
+lung cancer cases aged <55 years in New Zealand between 1998 and 2003.[25] The
+risk of lung cancer did not vary with age, due to cases and controls being
+frequency matched on 5-year age group to improve the efficiency of the study.
+A family history of lung cancer was associated with an increased risk of lung
+cancer (RR=3.9, 95% CI 1.8 to 8.4). There was no significant association
+between lung cancer risk and passive smoking, diet, occupation, income,
+educational level, and alcohol use after adjustment for age, sex, ethnicity,
+cigarette smoking and a family history of lung cancer. The proportion of
+controls (aged 35 to 55 years) who had ever smoked cannabis, with age-
+adjustment for the age distribution of the general population was 36%, similar
+to the 40-52% reported amongst the younger 15 to 45 year age group, in New
+Zealand population surveys undertaken between 1990 and 2001.[20]
+
+While cannabis smoking (defined as lifetime use of ≥20 joints) was not
+associated with a significantly increased risk of lung cancer (Table 3), those
+with the highest tertile of use (>10.5 joint-years of exposure) had a
+significantly increased risk, RR=5.7 (95% CI 1.5 to 21.6), after adjustment
+for age, sex, ethnicity, pack-years of cigarette smoking and a family history
+of lung cancer. Using the prevalence of the highest tertile of cannabis
+smoking of the controls we estimated that about 5% of lung cancer in those
+aged 55 years and under in New Zealand may be attributable to cannabis
+smoking.
+
+### TABLE 3
+
+Tobacco use, cannabis use and alcohol consumption and risk of lung cancer
+
+Characteristic| Number  
+of cases| Number  
+of controls| RR of  
+lung cancer| 95% Confidence  
+Interval  
+\---|---|---|---|---  
+**_Cigarette smoking_** * | | | |  
+Never| 9| 172| 1.0|  
+Ever| 70| 152| 6.7| (3.1 to 14.0)  
+| | | |  
+**_Pack-years_** * | | | |  
+Non-smoker| 9| 172| 1.0|  
+1st quintile| 7| 44| 2.6| (0.9 to 7.7)  
+2nd quintile| 5| 41| 2.5| (0.8 to 7.9)  
+3rd quintile| 13| 28| 6.1| (2.2 to 16.4)  
+4th quintile| 23| 22| 12.3| (4.7 to 32.7)  
+5th quintile| 22| 17| 23.9| (8.7 to 65.5)  
+| | | |  
+**_Cannabis use_** † | | | |  
+Non-smoker| 58| 285| 1.0|  
+Smoker| 21| 39| 1.2| (0.5 to 2.6)  
+| | | |  
+**_Joint-years_** † | | | |  
+Non-smoker| 58| 285| 1.0|  
+1st tertile| 3| 20| 0.3| (0.1 to 1.7)  
+2nd tertile| 4| 15| 0.5| (0.1 to 2.0)  
+3rd tertile| 14| 4| 5.7| (1.5 to 21.6)  
+| | | |  
+**_Joint-years up to 5_**  
+**_years prior to_**  
+**_reference date_** †| | | |  
+Non-smoker| 58 | 285 | 1.0 |  
+1st tertile| 3 | 21 | 0.3 | (0.1 to 1.3)  
+2nd tertile| 6 | 14 | 0.9 | (0.3 to 2.9)  
+3rd tertile| 12 | 4 | 5.2 | (1.3 to 20.4)  
+| | | |  
+**_Alcohol_**  
+**_consumption_** **| | | |  
+None| 5| 22| 1.0|  
+Light| 30| 126| 0.6| (0.2 to 2.1)  
+Moderate| 39| 161| 0.7| (0.2 to 2.6)  
+Heavy| 5| 15| 0.8| (0.1 to 4.0)
+
+Open in a separate window
+
+*Adjusted for age, sex, ethnicity, family history of lung cancer, and joint-years of cannabis use.
+
+†Adjusted for age, sex, ethnicity, family history of lung cancer and pack-
+years of cigarette smoking.
+
+**Adjusted for age, sex, ethnicity, family history of lung cancer, pack-years
+of cigarette smoking and joint-years of cannabis use. Alcohol consumption was
+measured using a semi-quantitative scale.
+
+Cigarette use (pack-years) quintiles were; <4.7, 4.7-14, 14.1-23.8,
+23.81-34.5, >34.5.
+
+Cannabis use (joint-years) tertiles were: <1.39, 1.39 -10.5, >10.5.
+
+When joint-years of use were fitted as a continuous variable, thus providing
+greater statistical power than the assessment by tertile of use, a significant
+increasing risk, 8%, with each joint-year of use was found (RR=1.08, 95% CI
+1.02 to 1.15) (Table 2). The strength of the association was maintained when
+cannabis use in the 5 years prior to diagnosis, or reference date for
+controls, was excluded (RR=1.10, 95% CI 1.02 to 1.18). (Table 2). A
+significant increase in the risk was also observed with increasing cigarette
+smoking, with a 7% increase in risk for each pack-year of exposure (RR=1.07,
+95% CI 1.05 to 1.09), after adjustment for confounding variables including
+cannabis smoking. Therefore, the increased risk for each pack-year of
+cigarette smoking was similar to that for each joint-year of cannabis use.
+
+### TABLE 2
+
+Cannabis use, tobacco use and age of onset of cannabis use as continuous
+variables
+
+Characteristic| RR of lung cancer| 95% CI  
+\---|---|---  
+Pack-year of cigarette smoking _| 1.07| (1.05 to1.09)  
+Joint-year of cannabis smoking_ *| 1.08| (1.02 to1.15)  
+Joint-years to 5 yrs prior to diagnosis§| 1.10| (1.02 to1.18)
+
+Open in a separate window
+
+*Adjusted for age, sex, ethnicity, family history of lung cancer and joint-years of cannabis use
+
+**Adjusted for age, sex, ethnicity, family history of lung cancer and pack-
+years
+
+§Adjusted for age, sex, ethnicity, family history of lung cancer, pack-years
+and age of onset of cannabis use
+
+Among users of cannabis no significant correlation between joint-years of use
+and age of onset of use was found (Pearson correlation coefficient 0.077,
+P=0.56). Compared with subjects who started smoking cannabis aged 21 or older,
+those that started under the age of 16 had a relative risk of lung cancer of
+10.3 (95% CI 0.8 to 132) after adjustment for joint-years of cannabis use,
+pack-years of cigarette smoking, age, sex, ethnicity, and a family history of
+lung cancer.
+
+## DISCUSSION
+
+This population-based case-control study provides evidence of a relationship
+between smoking cannabis and lung cancer in young adults. For each joint-year
+of cannabis exposure the risk of lung cancer was estimated to increase by 8%.
+
+There are a number of methodological considerations relevant to the
+interpretation of these findings. We studied subjects aged 55 years or younger
+due to published case series,[14,15] which suggested a strong association
+between cannabis use and lung cancer in young adults. Additionally, the
+lifetime exposure of older individuals would be expected to be much lower as
+they would have been older than the typical age for onset of use when the
+"epidemic" of cannabis use began in the 1960's. Due to the low incidence of
+lung cancer in this age group, representing less than 10% of all lung
+cancers,[23] cases diagnosed up to 5 years before interview were included. If
+survival after diagnosis was different for users compared to non-users of
+cannabis, this may have influenced the results obtained. Cases were identified
+from both the National Cancer Registry and from hospital outpatient and
+discharge databases to ensure case ascertainment was as complete as possible.
+
+In the initial approach no mention was made of the primary risk factor of
+interest to avoid recruitment bias with either the cases or the controls. To
+minimize response bias the interviewer did not state the specific research
+hypothesis and took a detailed history of all well known risk factors.
+Cannabis exposure was measured as joint-years of cannabis use, which combines
+both the intensity (amount and frequency) and duration of use. This approach
+follows the current convention for quantifying life long cannabis consumption
+and recognizes the evidence that the risk of lung cancer with cigarette
+smoking is related to both intensity and duration of use.[26] Recall of the
+amount of cannabis smoked over a long period of time may have been difficult
+for some subjects, however, this is likely to have been similar for both cases
+and controls as subjects were not aware of the study hypothesis.
+
+We used a population-based control group rather than a hospital-based control
+group as the latter is susceptible to significant bias due to the many medical
+conditions associated with cannabis use.[27,28] In recognition of the low
+incidence of lung cancer in the age group studied, we studied four controls
+for each case to increase the power of the study.
+
+The major finding from this study was that for each joint-year of cannabis
+exposure, the risk of lung cancer increased by 8%, after adjustment for
+confounding variables including tobacco smoking. A major differential risk
+between cannabis and cigarette smoking was observed, with 1 joint of cannabis
+similar to about 20 cigarettes for risk of lung cancer. This is consistent
+with the observation that smoking 'a few' cannabis joints a day causes similar
+histological changes in the tracheobronchial epithelium as smoking 20-30
+tobacco cigarettes a day.[29] It has also been reported that smoking 2 joints
+per day results in cytomorphological abnormalities in the sputum, similar to
+about 30 cigarettes per day.[30,31] These differential risks are greater than
+the 1:5 dose ratio between cannabis and tobacco for carbon monoxide levels and
+the 1:3 dose ratio for amount of tar inhaled,[4]. This suggests that as well
+as differences in smoking topography, in which cannabis joints are usually
+smoked without a filter,[2] to a smaller butt size,[3] using deeper and longer
+inhalation techniques,[4] differences in chemical composition of cannabis and
+cigarette smoke may also be responsible for the differences in their lung
+cancer risks. In this regard, cannabis smoke has been shown to have greater
+concentrations of the carcinogenic polyaromatic hydrocarbons benz[a]pyrene and
+benz[a]anthracene than cigarette smoke.[1]
+
+The risk of lung cancer from cannabis use was restricted to the upper tertile
+of joint-years of use, with a 5.7-fold greater risk in those with more than
+10.5 joint-years of cannabis use. However, it is unlikely that this represents
+a threshold effect, as a linear relationship has been clearly demonstrated
+between tobacco cigarette consumption and risk of lung cancer.[32] The lack of
+an association in the lower tertiles may be due to the relatively small number
+of cannabis users in the study and the young age of subjects reducing the time
+available for high numbers of joint-years to accumulate, resulting in low
+levels of exposure (up to 1.39 joint-years for the lower tertile).
+
+Further analysis was undertaken in which the risk of lung cancer was assessed
+for cannabis use up to 5 years prior to the diagnosis. This approach was based
+on evidence that in most cases with lung cancer, the duration between
+malignant change and diagnosis is greater than 5 years.[33] When cannabis use
+in the 5 years prior to diagnosis for the cases (and prior to the reference
+date for the controls) was excluded from the analysis the strength of the
+association was maintained, as would be expected if a causal association
+existed, with a 10% increase in risk for each joint-year of exposure.
+
+There was some suggestion that the risk of lung cancer may increase with
+earlier onset of cannabis use but the small number of subjects prevented more
+detailed assessment of this potential risk factor. However, such an
+association would be consistent with the evidence that the age of onset of
+tobacco smoking is a determinant of lung cancer risk.[34,35] Further case-
+control studies are needed to quantify the lung cancer risk associated with
+cannabis use, including the influence of the age of starting cannabis smoking,
+the dose-response relationship, and the dose equivalence with cigarette
+smoking.
+
+In the young adults we studied, the population attributable risk for cancer of
+the lung with cannabis smoking was estimated to be 5%. If any increased risk
+was maintained as these young people age, then a considerable burden from lung
+cancer due to cannabis smoking may occur in the future.
+
+Our findings are consistent with the three North African case-control studies
+[16-18] which have reported a six to eight-fold increased risk of lung cancer
+with cannabis smoking, although the lack of detailed smoking histories and the
+custom of mixing cannabis with tobacco may have contributed to the risks
+observed. In contrast, a large case-control study from California with an
+estimated participation rate in cases of only 39% reported no association
+between cannabis use and lung cancer.[19] The controls in the Californian
+study were matched for neighbourhood which may have made detection of an
+association less likely, as cannabis use is likely to be similar within
+distinct neighbourhoods. This may have contributed to the higher rates of
+cannabis use in the controls than previously reported from California.[36]
+Also, African-American people were less likely to have participated than other
+ethnic groups, suggesting significant selection bias may have occurred. A
+positive relationship between cannabis use and cigarette smoking was observed
+in the controls, but the opposite relationship was present in the lung cancer
+cases, which also suggests selection bias or differential reporting between
+cases and controls.
+
+These studies, and our own, highlight the difficulties inherent in undertaking
+epidemiological research of the effects of cannabis. While it is important to
+interpret the findings in the context of these limitations, the balance of
+evidence would suggest a positive association between cannabis and lung
+cancer. This issue is of major public health importance, due to the prevalent
+use of cannabis globally and lung cancer being responsible for over a million
+deaths each year.[37,38] With the prevalence and mortality from lung cancer
+increasing, prevention by risk factor modification is of paramount importance.
+Major efforts are being made to reduce the prevalence of tobacco smoking.[39]
+The findings of this study suggest that these public health programmes may
+need to include greater initiatives to reduce cannabis smoking and should be
+directed particularly at young people.
+
+​
+
+### TABLE 1
+
+The frequency distribution of cases and controls for selected variables
+
+Variable| Category| Cases (n=79)| Controls (n=324)| Total (n=403)  
+\---|---|---|---|---  
+| | No.| %| No.| %| No.| %  
+Age group| 35-39| 6| 7.6| 9| 2.8| 15| 3.7  
+| 40-44| 13| 16.5| 24| 7.4| 37| 9.2  
+| 45-49| 18| 22.8| 121| 37.3| 139| 34.5  
+| 50-54| 36| 45.6| 146| 45.1| 182| 45.2  
+| 55 years| 6| 7.6| 24| 7.4| 30| 7.4  
+| | | | | | |  
+Gender| Male| 40| 50.6| 147| 45.4| 187| 46.4  
+| Female| 39| 49.4| 177| 54.6| 216| 53.6  
+| | | | | | |  
+Ethnic group| Maori| 18| 22.8| 25| 7.7| 43| 10.7  
+| Pac. Islander| 1| 1.3| 3| 0.9| 4| 1.0  
+| Other| 60| 75.9| 296| 91.4| 356| 88.3  
+| | | | | | |  
+Cigarettes| Never| 9| 11.4| 172| 53.1| 181| 44.9  
+| Ever| 70| 88.6| 152| 46.9| 222| 55.1  
+| | | | | | |  
+Pack-years _| Non-smoker| 9| 11.4| 172| 53.1| 181| 44.9  
+| 1st quintile  
+( <4.7)| 7| 8.9| 44| 13.6| 51| 12.7  
+| 2nd quintile  
+(4.7-14)| 5| 6.3| 41| 12.7| 46| 11.4  
+| 3rd quintile  
+(14.1-23.8)| 13| 16.5| 28| 8.6| 41| 10.2  
+| 4th quintile  
+(23.9-34.5)| 23| 29.1| 22| 6.8| 45| 11.2  
+| 5th quintile  
+(>34.5)| 22| 27.8| 17| 5.2| 39| 9.7  
+| | | | | | |  
+Cannabis| Non-smoker| 58| 73.4| 285| 88.0| 343| 85.1  
+| Smoker| 21| 26.6| 39| 12.0| 60| 14.9  
+| | | | | | |  
+Joint-years_*| Non-smoker| 58| 73.4| 285| 88.0| 343| 85.1  
+| 1st tertile  
+(<1.39)| 3| 3.8| 20| 6.2| 23| 5.7  
+| 2nd tertile  
+(1.39-10.5)| 4| 5.1| 15| 4.6| 19| 4.7  
+| 3rd tertile  
+(>10.5)| 14| 17.1| 4| 1.2| 18| 4.5  
+| | | | | | |  
+Joint-years  
+of use up to 5  
+years before  
+reference  
+date| Non-smoker| 58| 73.4| 285| 88.0| 343| 85.1  
+| <1.39| 3| 3.8| 21| 6.5| 24| 6.0  
+| 1.39-10.5| 6| 7.6| 14| 4.3| 20| 5.0  
+| >10.5| 12| 15.2| 4| 1.2| 16| 4.0  
+| | | | | | |  
+Age at onset  
+of cannabis  
+use| Non-smoker| 58| 73.4| 285| 88.0| 343| 85.1  
+| 12-16 years| 8| 10.1| 12| 3.7| 20| 5.0  
+| 17-20 years| 7| 8.9| 18| 5.6| 25| 6.2  
+| 21+ years| 6| 7.6| 9| 2.8| 15| 3.7  
+| | | | | | |  
+Income $NZ| 0-25,000| 31| 39.2| 46| 14.2| 77| 19.1  
+| 25,001-40,000| 13| 16.5| 57| 17.6| 70| 17.4  
+| 40,001-70,000| 19| 24.1| 106| 32.7| 125| 31.0  
+| >70,000| 16| 20.3| 110| 34.0| 126| 31.3  
+| Not provided| 0| 0| 5| 1.5| 5| 1.2  
+| | | | | | |  
+Education§| Pre Sch. Cert| 13| 16.5| 25| 7.7| 38| 9.4  
+| School Cert| 29| 36.7| 76| 23.5| 105| 26.1  
+| Year 12,13| 11| 13.9| 57| 17.6| 68| 16.9  
+| Tertiary| 26| 32.9| 166| 51.2| 192| 47.6
+
+Open in a separate window
+
+*Pack-year: 1 pack of 20 tobacco cigarettes smoked per day for one year
+
+**Joint-year: 1 cannabis joint smoked per day for one year
+
+§School Cert: New Zealand Secondary School Certificate Examination (age
+15,16), Year 12, 13 (age 17, 18) were previously Forms 6 and 7
+
+## ACKNOWLEDGEMENTS
+
+The Cannabis and Respiratory Disease Research Group
+
+Executive Steering Committee:
+
+S Aldington, M Harwood, B Cox, M Weatherall, A Pritchard, G Robinson, L
+Beckert, A Hansell, R Beasley
+
+Regional Coordinators:
+
+M Tweed, B Mahon (Wellington), L Beckert, M Campbell (Christchurch), MJ Sneyd
+(Dunedin), R Armstrong, C Crawford (Hastings), A Watson, A Lobhan (Palmerston
+North), N Graham, S Holt (Tauranga), J McLachlan, P Swann (Waikato), S Tan
+(Hutt), G Lear, N Sheikh (Gisborne).
+
+Funding
+
+Funding was provided by The New Zealand Ministry of Health, The Hawke's Bay
+Medical Research Foundation and GlaxoSmithKline (UK). Associate Professor
+Brian Cox was funded by the Director's Cancer Research Trust. Dr Anna Hansell
+is a Wellcome Trust Intermediate Clinical Fellow supported by grant number
+075883\. The funders had no role in the design, data analysis or drafting of
+the manuscript.
+
+## REFERENCES
+
+1\. Hoffmann D, Brunnerman D, Gori G, Wynder E. On the carcinogenicity of
+marijuana smoke. Recent Advances Phytochem. 1975;9:63–81. [Google Scholar]
+
+2\. Rickert W, Robinson J, Rogers B. A comparison of tar, carbon monoxide and
+pH levels in smoke from marijuana and tobacco cigarettes. Can J Pub Health.
+1982;73:386–91. [PubMed] [Google Scholar]
+
+3\. Tashkin D, Gliederer F, Rose J, et al. Tar, CO and THC delivery from the
+1st and 2nd halves of a marijuana cigarette. Pharmacol Biochem Behav.
+1991;40:657–61. [PubMed] [Google Scholar]
+
+4\. Wu T, Tashkin D, Djahed B, Rose J. Pulmonary hazards of smoking marijuana
+as compared with tobacco. N Engl J Med. 1988;318:347–51. [PubMed] [Google
+Scholar]
+
+5\. Fligiel S, Roth M, Kleerup E, Barsky S, Simmons M, Tashkin D.
+Tracheobronchial histopathology in habitual smokers of cocaine, marijuana,
+and/or tobacco. Chest. 1997;112:319–26. [PubMed] [Google Scholar]
+
+6\. Gong H, Fligiel S, Tashkin D, Barbers R. Tracheobronchial changes in
+habitual, heavy smokers of marijuana with and without tobacco. Am Rev Respir
+Dis. 1987;136:142–9. [PubMed] [Google Scholar]
+
+7\. Barsky S, Roth M, Kleerup E, Simmons M, Tashkin D. Histopathologic and
+molecular alterations in bronchial epithelium in habitual smokers of
+marijuana, cocaine or tobacco. J Natl Cancer Instit. 1998;90:1198–204.
+[PubMed] [Google Scholar]
+
+8\. Busch F, Seid D, Wei E. Mutagenic activity of marihuana smoke condensates.
+Cancer Letters. 1979;6:319–24. [PubMed] [Google Scholar]
+
+9\. Roy P, Magnan-Lapoint F, Huy N, Boutet M. Chronic inhalation of marijuana
+and tobacco in dogs. Recent Commun Chem Pathol Pharmacol. 1976;14:305–17.
+[PubMed] [Google Scholar]
+
+10\. Zhu L, Sharma S, Stolina M, et al. Delta-9-tetrahydrocannabinol inhibits
+antitumour immunity by a CB2 receptor-mediated, cytokine dependent pathway. J
+Immunol. 2000;165:373–80. [PubMed] [Google Scholar]
+
+11\. Bifulco M, Laezza C, Pisanti S, Gazzerro P. Cannabinoids and cancer: pros
+and cons of an antitumour strategy. Br J Pharmaol. 2006;148:123–135. [PMC free
+article] [PubMed] [Google Scholar]
+
+12\. Guzman M. Cannabinoids: potential anticancer agents. Nat Rev Cancer.
+2003;3:745–755. [PubMed] [Google Scholar]
+
+13\. Hall W, MacDonald C, Currow D. Cannabinoids and cancer: causation,
+remediation and palliation. Lancet Oncol. 2005;6:35–42. [PubMed] [Google
+Scholar]
+
+14\. Sridhar K, Raub W, Weatherby N, et al. Possible role of marijuana smoking
+as a carcinogen in the development of lung cancer at a young age. J
+Psychoactive Drugs. 1994;26:285–8. [PubMed] [Google Scholar]
+
+15\. Fung M, Gallagher C, Machtay M. Lung and aero-digestive cancer in young
+marijuana smokers. Tumori. 1999;85:140–2. [PubMed] [Google Scholar]
+
+16\. Sasco A, Merrill R, Dari I, et al. A case control study of lung cancer in
+Casablanca, Morocco. Cancer, Causes and Control. 2002;13:609–16. [PubMed]
+[Google Scholar]
+
+17\. Hsairi M, Achour N, Zouari B, et al. Etiologic factors in primary
+bronchial carcinoma in Tunisia. La Tunisie Medicale. 1993;71:265–8. [PubMed]
+[Google Scholar]
+
+18\. Voirin N, Berthiller J, Benhaim-Luzon V, et al. Risk of lung cancer and
+past use of cannabis in Tunisia. J Thorac Oncol. 2006;1:577–9. [PubMed]
+[Google Scholar]
+
+19\. Hashibe M, Morgenstern H, Cui Y, et al. Marijuana use and the risk of
+lung and upper aerodigestive tract cancers: results of a population-based
+case-control study. Cancer Epidemiol Biomarkers Prev. 2006;15:1829–34.
+[PubMed] [Google Scholar]
+
+20\. Inquiry into the public health strategies related to cannabis use and the
+most appropriate legal status. Report of the Health Committee, Forty-seventh
+Parliament (Steve Chadwick, Chairperson); presented to the House of
+Representatives; August 2003. [Google Scholar]
+
+21\. Wilkins C, Girling M, Sweetsur P, Butler R. Cannabis and other illicit
+drug trends in New Zealand. Auckland: Massey University; 2005. [Google
+Scholar]
+
+22\. Britton J. Summary of long-term adverse effects of smoking marijuana on
+lung health. Report from the Royal College of Physicians of London to the
+Select Committee Inquiry into Drugs. 2001 Sep; [Google Scholar]
+
+23\. Parkin D, Whelan S, Ferlay J, Raymond L, Young J. Cancer incidence in
+five continents. VII. Lyon: International Agency for Research on Cancer,
+Scientific Publication; 1997. [Google Scholar]
+
+24\. Spiro S, editor. Lung Cancer. The European Respiratory Monograph.
+2001;6(17):1–329. [Google Scholar]
+
+25\. World Health Organization Statistical Information System Mortality
+Database
+http://www3.who.int/whosis/mort/table1.cfm?path=whosis,inds,mort,mort_table1&language=english
+Accessed 1 June 2007.
+
+26\. Peto R. Influence of dose and duration of smoking on lung cancer rates.
+IARC Sci Publ. 1986;74:23–33. [PubMed] [Google Scholar]
+
+27\. Khalsa JH, Genser S, Francis H, Martin B. Clinical consequences of
+marijuana. J Clin Pharmacol. 2002;42:7S–10S. [PubMed] [Google Scholar]
+
+28\. Hall W, Solowij N. Adverse effects of cannabis. Lancet. 1998;352:1611–6.
+[PubMed] [Google Scholar]
+
+29\. Roth M, Arora A, Barsky S, Kleerup E, Simmons M, Tashkin D. Airway
+inflammation in young marijuana and tobacco smokers. Am J Respir Crit Care
+Med. 1998;157:928–37. [PubMed] [Google Scholar]
+
+30\. Roby T, Hubbard G, Swan G. Cytomorphologic features of sputum samples
+from marijuana smokers. Diagnostic Cytopathol. 1991;7:229–34. [PubMed] [Google
+Scholar]
+
+31\. Starr K, Renneker M. A cytologic evaluation of sputum in marijuana
+smokers. J Fam Pract. 1994;39:359–63. [PubMed] [Google Scholar]
+
+32\. Doll R, Hill AB. Mortality in relation to smoking: Ten years observations
+of British Doctors. BMJ. 1964;1:1399–410. [PMC free article] [PubMed] [Google
+Scholar]
+
+33\. Geddes DM. The natural history of lung cancer: a review based on rates of
+tumour growth. Br J Dis Chest. 1979;73:1–17. [PubMed] [Google Scholar]
+
+34\. Wiencke JK, Thurston SW, Kelsey KT, et al. Early age at smoking
+initiation and tobacco carcinogen DNA damage in the lung. J Natl Cancer
+Instit. 91:614–9. 199. [PubMed] [Google Scholar]
+
+35\. Hirao T, Nelson NH, Ashok TDS, et al. Tobacco smoke-induced DNA damage
+and an early age of smoking initiation induce chromosome loss at 3p21 in lung
+cancer. Cancer Res. 2001;61:612–5. [PubMed] [Google Scholar]
+
+36\. National Survey on Drug Use & Health 2005.
+http://www.oas.samhsa.gov/NSDUH/2k5NSDUH/AppG.htm#TabG-2. Accessed 1 June
+2007.
+
+37\. Parkin DM, Bray F, Ferlay J, Pisani P. Global cancer statistics, 2002. CA
+Cancer J Clin. 2005;55:74–108. [PubMed] [Google Scholar]
+
+38\. World Health Organization Cancer. 2006. (Fact sheet No:297).
+http://www.who.int/mediacentre/factsheets/fs297/en/ Accessed 1 June 2007.
+
+39\. World Health Organization . WHO Framework Convention on Tobacco Control
+2005\. Geneva, Switzerland: WHO Press;
+http://www.who.int/tobacco/framework/WHO_FCTC_english.pdf Accessed 1 June
+2007\. [Google Scholar]
+
+## Formats:
+
+  * Article |
+
+  * PubReader |
+
+  * ePub (beta) |
+
+  * PDF (41K) |
+
+  * Citation
+
+## Share
+
+  * ![Share on Facebook](//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/4047626) Facebook 
+  * ![Share on Twitter](//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/4047627) Twitter 
+  * ![Share on Google Plus](//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/4047628) Google+ 
+
+Support Center Support Center
+
+External link. Please review our privacy policy.
+
+NLM
+
+NIH
+
+DHHS
+
+USA.gov
+
+National Center for Biotechnology Information, U.S. National Library of
+Medicine 8600 Rockville Pike, Bethesda MD, 20894 USA
+
+Policies and Guidelines | Contact
+
+![statistics](/stat?jsdisabled=true&ncbi_db=pmc&ncbi_pdid=article&ncbi_acc=&ncbi_domain=wtpa&ncbi_report=record&ncbi_type=fulltext&ncbi_objectid=&ncbi_pcid=/articles/PMC2516340/&ncbi_app=pmc)
+
+_[ v]: View this template_ [t]: Discuss this template _[e]: Edit this
+template_ [v]: View this template _[AU]: Australia_ [CA]: Canada _[UK]: United
+Kingdom_ [US]: United States _[UN]: United Nations_ [EU]: European Union
+_[AAAD]: Aromatic L-amino acid decarboxylase_ [ MAO]: Monoamine oxidase _[
+ALDH]: Aldehyde dehydrogenase_ [ALR]: Aldehyde reductase _[PAH]: Phenylalanine
+hydroxylase_ [ TH]: Tyrosine hydroxylase _[ DBH]: Dopamine beta-monooxygenase_
+[ PNMT]: Phenylethanolamine N-methyltransferase _[ COMT]: Catechol-O-methyl
+transferase_ [TPH]: Tryptophan hydroxylase _[ AANAT]: Serotonin N-acetyl
+transferase_ [ ASMT]: Acetylserotonin O-methyltransferase _[ HDC]: Histidine
+decarboxylase_ [ HNMT]: Histamine N-methyltransferase _[ DAO]: Diamine
+oxidase_ [nAChRs]: Nicotinic acetylcholine receptors _[PAMs]: positive
+allosteric modulators_ [NAMs]: negative allosteric modulators _[TRP]:
+Transient receptor potential_ [TRPA]: Transient receptor potential ankyrin
+channel _[TRPC]: Transient receptor potential canonical channel_ [TRPM]:
+Transient receptor potential melastatin channel _[TRPML]: Transient receptor
+potential mucolipin channel_ [TRPP]: Transient receptor potential polycystin
+channel _[TRPV]: Transient receptor potential vanilloid channel_ [CBR]:
+Cannabinoid receptor
+
+  *[ v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[v]: View this template
+  *[AU]: Australia
+  *[CA]: Canada
+  *[UK]: United Kingdom
+  *[US]: United States
+  *[UN]: United Nations
+  *[EU]: European Union
+  *[AAAD]: Aromatic L-amino acid decarboxylase
+  *[ MAO]: Monoamine oxidase
+  *[ ALDH]: Aldehyde dehydrogenase
+  *[ALR]: Aldehyde reductase
+  *[PAH]: Phenylalanine hydroxylase
+  *[ TH]: Tyrosine hydroxylase
+  *[ DBH]: Dopamine beta-monooxygenase
+  *[ PNMT]: Phenylethanolamine N-methyltransferase
+  *[ COMT]: Catechol-O-methyl transferase
+  *[TPH]: Tryptophan hydroxylase
+  *[ AANAT]: Serotonin N-acetyl transferase
+  *[ ASMT]: Acetylserotonin O-methyltransferase
+  *[ HDC]: Histidine decarboxylase
+  *[ HNMT]: Histamine N-methyltransferase
+  *[ DAO]: Diamine oxidase
+  *[nAChRs]: Nicotinic acetylcholine receptors
+  *[PAMs]: positive allosteric modulators
+  *[NAMs]: negative allosteric modulators
+  *[TRP]: Transient receptor potential
+  *[TRPA]: Transient receptor potential ankyrin channel
+  *[TRPC]: Transient receptor potential canonical channel
+  *[TRPM]: Transient receptor potential melastatin channel
+  *[TRPML]: Transient receptor potential mucolipin channel
+  *[TRPP]: Transient receptor potential polycystin channel
+  *[TRPV]: Transient receptor potential vanilloid channel
+  *[CBR]: Cannabinoid receptor
+

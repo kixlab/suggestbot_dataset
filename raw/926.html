@@ -1,0 +1,1417 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html lang="en" class="no-js ie"><![endif]--><!--[if (!IE)|(gte IE 9)]><!--><html xmlns="http://www.w3.org/1999/xhtml" lang="en-us" class="no-js" xml:lang="en-us"><!--<![endif]-->
+  <head><script type="text/javascript">//<!--
+window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);
+//--></script><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="dc:date" content="2018-10-04T08:59:46-06:00" /><meta name="generator" content="Plone - http://plone.org" /><meta name="application-name" content="High Country News" /><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png" /><style type="text/css" media="screen">@import url(https://www.hcn.org/portal_css/HCN%20theme/controlpanel-cachekey-3ba67e4cca8a39bdc2ac3de91db48bfc.css);</style><link rel="stylesheet" type="text/css" media="screen" href="https://www.hcn.org/portal_css/HCN%20theme/resourcetinymce.stylesheetstinymce-cachekey-bd74c8c20204f9da5ac0050695f904eb.css" /><style type="text/css">@import url(https://www.hcn.org/portal_css/HCN%20theme/maps-cachekey-c1b43e47c8d97bd9cf9b563116ea2e73.css);</style><link rel="stylesheet" type="text/css" media="screen" href="https://www.hcn.org/portal_css/HCN%20theme/resourcehcn-widgets-cachekey-5514435237eef776260b03619d44b51c.css" /><script type="text/javascript" src="https://www.hcn.org/portal_javascripts/HCN%20theme/resourceplone.app.jquery-cachekey-2006d148f4c3a08891b58420af680018.js"></script><script type="text/javascript" src="https://www.hcn.org/portal_javascripts/HCN%20theme/resourceflashembed-cachekey-cb8081d6958e1ec1f9385981a529a97a.js"></script><script type="text/javascript" src="https://www.hcn.org/portal_javascripts/HCN%20theme/resourcehcn.ads-cachekey-43c0b5f1ce206db1d2fc2e8f99c9230e.js"></script><script type="text/javascript" src="https://www.hcn.org/portal_javascripts/HCN%20theme/AnchorPosition-cachekey-87f3cc955f3145908d3b1c76e44393fd.js"></script><script type="text/javascript" src="https://www.hcn.org/portal_javascripts/HCN%20theme/resourcehcn.carousel-cachekey-c44eaccaaa5d8e050f65461b9f4c4efa.js"></script><script type="text/javascript" src="https://www.hcn.org/portal_javascripts/HCN%20theme/resourcepromos-cachekey-1270e41069e797a17500496d7892d2b1.js"></script><script type="text/javascript" src="https://www.hcn.org/portal_javascripts/HCN%20theme/settings-cachekey-65b2f535feaf33835c32037e3ac19380.js"></script><link rel="canonical" href="https://www.hcn.org/topics/marijuana" /><script type="text/javascript">
+        jQuery(function($){
+            if (typeof($.datepicker) != "undefined"){
+              $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional[''],
+                {dateFormat: 'mm/dd/yy'}));
+            }
+        });
+        </script><link rel="alternate" href="https://www.hcn.org/topics/marijuana/RSS" title="Marijuana - RSS 1.0" type="application/rss+xml" /><link rel="alternate" href="https://www.hcn.org/topics/marijuana/rss.xml" title="Marijuana - RSS 2.0" type="application/rss+xml" /><link rel="alternate" href="https://www.hcn.org/topics/marijuana/atom.xml" title="Marijuana - Atom" type="application/rss+xml" /><link rel="search" href="https://www.hcn.org/@@search" title="Search this site" /><link rel="alternate" type="application/rss+xml" title="Most Recent" href="https://www.hcn.org/rss/most-recent/RSS" /><link rel="alternate" type="application/rss+xml" title="Most Popular" href="https://www.hcn.org/rss/most-popular.rss" /><link rel="alternate" type="application/rss+xml" title="Current Issue" href="https://www.hcn.org/rss/current-issue/RSS" /><link rel="alternate" type="application/rss+xml" title="Ranch Diaries" href="https://www.hcn.org/voices/ranchdiaries/RSS" /><link rel="alternate" type="application/rss+xml" title="Writers on the Range" href="https://www.hcn.org/rss/wotr/RSS" /><meta http-equiv="imagetoolbar" content="no" /><base href="https://www.hcn.org/topics/marijuana/" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marijuana — High Country News</title>
+    <link rel="stylesheet" href="/++theme++hcn/css/app.css?v=17" />
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+      <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-384735-1', 'auto');if (jQuery('body.template-fg_thankspage_view_p3').length) {  var path = location.href.replace(/https?:\/\/(www.)?hcn.org/, '');  ga('send', 'pageview', path + '/thanks');} else {  ga('send', 'pageview');}setTimeout(function () {  ga('send', 'event', 'NoBounce', 'Over 30 seconds');}, 30000);var _sf_async_config = { uid: 55009, domain: 'hcn.org', useCanonical: true };(function() {  function loadChartbeat() {    window._sf_endpt = (new Date()).getTime();    var e = document.createElement('script');    e.setAttribute('language', 'javascript');    e.setAttribute('type', 'text/javascript');    e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');    document.body.appendChild(e);  };  var oldonload = window.onload;  window.onload = (typeof window.onload != 'function') ?  	loadChartbeat : function() { oldonload(); loadChartbeat(); };})();  </script></head>
+  <body class="antialiased template-folder_summary_view portaltype-topic site-hcn section-topics subsection-marijuana icons-on userrole-anonymous" dir="ltr"><div id="fb-root"></div><script>
+     window.fbAsyncInit = function() { FB.init({ appId: '244160065790652', xfbml: true, version: 'v2.12' }); };
+    (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/sdk.js"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script><script type="text/javascript" src="//use.typekit.net/jtx4nnn.js"></script><script type="text/javascript">
+      try{Typekit.load({async: true});}catch(e){}
+      document.body.className += [' mountains', ' monvalley', ' rubybeach'][Math.floor(Math.random() * 3)];
+    </script><div class="fixed">
+      <nav class="navbar">
+        <section class="primary">
+          <div class="row">
+            <ul class="left">
+              <li class="toggle-navbar"><a href="#">Menu</a></li>
+              <li class="logotype">
+                <h1><a href="/">High Country News</a></h1>
+              </li>
+            </ul>
+            <ul class="right">
+              <li class="cover hide-on-scroll"><a href="/current-issue"><img src="https://www.hcn.org/issues/51.10/@@images/5fb349f5-1606-4732-9225-45313184460a.jpeg" /></a></li>
+              <li class="hide-on-scroll"><a href="/subscribe?src=header"><em>Subscribe</em></a></li>
+              <li class="hide-on-scroll"><a href="/issues">The Magazine</a></li>
+              <li><a class="js-donate" href="/support/support-our-work?src=header">Donate Now</a></li>
+              <li class="icon twitter hide-on-scroll"><a target="_blank" href="https://twitter.com/highcountrynews">Twitter</a></li>
+              <li class="icon facebook hide-on-scroll"><a target="_blank" href="https://www.facebook.com/highcountrynews">Facebook</a></li>
+              <li class="icon search"><a href="/search">Search</a></li>
+            </ul>
+            <ul class="show-on-scroll" id="feature-utils"></ul>
+
+          </div>
+        </section>
+
+        <section class="secondary">
+          <div class="row row2">
+            <ul id="topics-nav">
+	<li>
+		<a href="https://www.hcn.org/topics/features">Features</a>
+	</li>
+ <li>
+		<a href="https://www.hcn.org/topics/wildfire">Wildfire</a>
+	</li>
+ <li>
+		<a href="https://www.hcn.org/topics/climate-change">Climate</a>
+	</li>
+ <li>
+		<a href="https://www.hcn.org/topics/public-lands">Public Lands</a>
+	</li>
+ <li>
+		<a href="https://www.hcn.org/topics/energy-industry">Energy &amp; Industry</a>
+	</li>
+ <li>
+		<a href="https://www.hcn.org/topics/tribal-affairs">Tribal Affairs</a>
+	</li>
+ <li>
+		<a href="https://www.hcn.org/topics/immigration">Immigration</a>
+	</li>
+ <li>
+		<a href="https://www.hcn.org/topics/photos">Photos</a>
+	</li>
+ <li>
+		<a href="https://www.hcn.org/topics/perspective">Perspective</a>
+	</li>
+</ul>
+          </div>
+
+          <div class="row row3">
+            <ul class="left">
+              <li class="show-on-scroll show-for-small-only"><a href="/subscribe?src=header"><em>Subscribe</em></a></li>
+              <li class="show-on-scroll show-for-small-only"><a class="js-donate" href="/support/support-our-work?src=header"><em>Donate Now</em></a></li>
+              <li class="show-on-scroll show-for-small-only"><a href="/issues">The Magazine</a></li>
+              <li class="show-on-scroll"><a href="/classifieds">Jobs &amp; Classifieds</a></li>
+            </ul>
+            <ul class="right">
+              <li class="hide-on-scroll"><a href="/classifieds">Jobs &amp; Classifieds</a></li>
+              
+    <li>
+        <a href="https://www.hcn.org/login">Login</a></li>
+
+    
+    
+
+              <li class="icon twitter show-on-scroll"><a target="_blank" href="https://twitter.com/highcountrynews">Twitter</a></li>
+              <li class="icon facebook show-on-scroll"><a target="_blank" href="https://www.facebook.com/highcountrynews">Facebook</a></li>
+            </ul>
+          </div>
+        </section>
+      </nav>
+    </div><div id="main"><div class="row">
+        <div class="large-12 columns">
+          <div class="header-ad">
+            <div id="zone-6-12355" class="ad-spot ad-728x90 ad-spot-center show-for-large-up"></div>
+            <div id="zone-27-20211" class="ad-spot ad-320x50 ad-spot-center show-for-small-only"></div>
+            <div id="zone-28-10111" class="ad-spot ad-468x60 ad-spot-center show-for-medium-only"></div>
+          </div>
+          <div id="content"><dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+            <div class="heading">
+    <h1 class="documentFirstHeading">Marijuana</h1>
+    
+  </div>
+
+            <div id="content-core" class="row">
+              <div class="large-8 columns">
+	                      
+
+	                      
+                            
+
+                             <div id="viewlet-above-content-title"></div>
+                             
+  
+
+                             <div id="viewlet-below-content-title"></div>
+
+                             
+                                 
+                                 
+            
+                
+            
+            
+        
+                             
+
+                             <div id="viewlet-above-content-body"></div>
+                             <div id="content-core">
+                                 
+  
+    
+    
+
+        
+      <div class="articles">
+      
+            
+                
+
+<div class="article  ">
+  <a href="https://www.hcn.org/articles/agriculture-blind-pot-farmer-cultivates-marijuana-at-high-altitude-with-zero-carbon-footprint">
+    <figure>
+      <img src="https://www.hcn.org/articles/agriculture-blind-pot-farmer-cultivates-marijuana-at-high-altitude-with-zero-carbon-footprint/@@images/2c5f30fc-8c8c-4345-85f2-4cd0c654a88c.jpeg" alt="A high alpine weed grower’s unusual harvest" title="A high alpine weed grower’s unusual harvest" height="200" width="300" />
+    </figure>
+  </a>
+             
+  <div class="brief">
+    <header><a class="state-public" href="https://www.hcn.org/articles/agriculture-blind-pot-farmer-cultivates-marijuana-at-high-altitude-with-zero-carbon-footprint">A high alpine weed grower’s unusual harvest</a>
+    </header>
+    <div class="summary">Rob Trotter’s vision continues to deteriorate as he works on his marijuana farm in Gypsum, Colorado.</div>
+    
+      
+  <div class="byline">
+    
+    <span class="author">
+      <a href="https://www.hcn.org/author_search?getAuthor=Daniel Brenner&amp;sort_on=PublicationDate&amp;sort_order=descending">Daniel Brenner</a>
+    </span>
+    
+    <span class="tag-label">Photos</span>
+    <span class="pubdate">March 1, 2019</span>
+    
+    
+  </div>
+
+    
+    
+  </div>
+</div>
+
+        
+            
+            
+            
+            
+                
+
+<div class="article  ">
+  <a href="https://www.hcn.org/issues/50.5/opinion-the-impending-corporate-takeover-of-legal-weed">
+    <figure>
+      <img src="https://www.hcn.org/issues/50.5/opinion-the-impending-corporate-takeover-of-legal-weed/@@images/32c581d1-45d7-44b9-9ba2-669e9967252b.jpeg" alt="A corporate takeover of legal weed looms in California" title="A corporate takeover of legal weed looms in California" height="200" width="300" />
+    </figure>
+  </a>
+             
+  <div class="brief">
+    <header><a class="state-public" href="https://www.hcn.org/issues/50.5/opinion-the-impending-corporate-takeover-of-legal-weed">A corporate takeover of legal weed looms in California</a>
+    </header>
+    <div class="summary">Thousands of small-scale marijuana growers could be replaced by Big Ag.</div>
+    
+      
+  <div class="byline">
+    
+    <span class="author">
+      <a href="https://www.hcn.org/author_search?getAuthor=Desdemona Dallas&amp;sort_on=PublicationDate&amp;sort_order=descending">Desdemona Dallas</a>
+    </span>
+    
+    <span class="tag-label">Opinion</span>
+    <span class="pubdate">Feb. 27, 2018</span>
+    <span class="issue-link">
+      From the
+      <a href="https://www.hcn.org/issues/50.5">print edition</a>
+    </span>
+    
+  </div>
+
+    
+    
+  </div>
+</div>
+
+        
+            
+            
+            
+            
+                
+
+<div class="article  ">
+  <a href="https://www.hcn.org/articles/rural-economies-get-high-on-legal-cannabis">
+    <figure>
+      <img src="https://www.hcn.org/articles/rural-economies-get-high-on-legal-cannabis/@@images/31c29e74-7785-4e09-809a-1f5dff430a44.jpeg" alt="Rural economies get high on legal cannabis" title="Rural economies get high on legal cannabis" height="200" width="300" />
+    </figure>
+  </a>
+             
+  <div class="brief">
+    <header><a class="state-public" href="https://www.hcn.org/articles/rural-economies-get-high-on-legal-cannabis">Rural economies get high on legal cannabis</a>
+    </header>
+    <div class="summary">For some small Colorado communities, recreational marijuana is generating much-needed revenue.</div>
+    
+      
+  <div class="byline">
+    
+    <span class="author">
+      <a href="https://www.hcn.org/author_search?getAuthor=Leah Todd/Solutions Journalism Network&amp;sort_on=PublicationDate&amp;sort_order=descending">Leah Todd/Solutions Journalism Network</a>
+    </span>
+    
+    
+    <span class="pubdate">Nov. 15, 2016</span>
+    
+    
+  </div>
+
+    
+    
+  </div>
+</div>
+
+        
+            
+            
+            
+            
+                
+
+<div class="article playable">
+  <a href="https://www.hcn.org/articles/podcast-western-weed-boom-marijuana-range-pot-podcast">
+    <figure>
+      <img src="https://www.hcn.org/articles/podcast-western-weed-boom-marijuana-range-pot-podcast/@@images/641bd8bc-73b0-48df-b39f-d9a105e2b26d.jpeg" alt="Podcast: What’s with the Western pot boom?" title="Podcast: What’s with the Western pot boom?" height="200" width="300" />
+    </figure>
+  </a>
+             
+  <div class="brief">
+    <header><a class="state-public" href="https://www.hcn.org/articles/podcast-western-weed-boom-marijuana-range-pot-podcast">Podcast: What’s with the Western pot boom?</a>
+    </header>
+    <div class="summary">Amid a patchwork of regulations, marijuana is becoming a legitimate industry.</div>
+    
+      
+  <div class="byline">
+    
+    <span class="author">
+      <a href="https://www.hcn.org/author_search?getAuthor=Amy Westervelt and Julia Ritchey&amp;sort_on=PublicationDate&amp;sort_order=descending">Amy Westervelt and Julia Ritchey</a>
+    </span>
+    
+    <span class="tag-label">Audio</span>
+    <span class="pubdate">April 20, 2016</span>
+    
+    
+  </div>
+
+    
+    
+  </div>
+</div>
+
+        
+            
+            
+            
+            
+                
+
+<div class="article  ">
+  <a href="https://www.hcn.org/wotr/77-years-later-here-comes-pot">
+    <figure>
+      <img src="https://www.hcn.org/wotr/77-years-later-here-comes-pot/@@images/73c44bc0-4d8e-4aaa-bdff-bbefb5a53941.jpeg" alt="77 years later, here comes pot" title="77 years later, here comes pot" height="200" width="300" />
+    </figure>
+  </a>
+             
+  <div class="brief">
+    <header><a class="state-public" href="https://www.hcn.org/wotr/77-years-later-here-comes-pot">77 years later, here comes pot</a>
+    </header>
+    <div class="summary">The history of marijuana is clouded by racism and muddled thinking.</div>
+    
+      
+  <div class="byline">
+    
+    <span class="author">
+      <a href="https://www.hcn.org/author_search?getAuthor=Allen Best&amp;sort_on=PublicationDate&amp;sort_order=descending">Allen Best</a>
+    </span>
+    
+    <span class="tag-label">Opinion</span>
+    <span class="pubdate">Feb. 19, 2014</span>
+    
+    
+  </div>
+
+    
+    
+  </div>
+</div>
+
+        
+            
+            
+            
+            
+                
+
+<div class="article  ">
+  <a href="https://www.hcn.org/blogs/goat/side-effects">
+    
+  </a>
+             
+  <div class="brief">
+    <header><a class="state-public" href="https://www.hcn.org/blogs/goat/side-effects">Side effects</a>
+    </header>
+    <div class="summary">Google Earth shows the toll marijuana takes on the land in Northern California</div>
+    
+      
+  <div class="byline">
+    
+    <span class="author">
+      <a href="https://www.hcn.org/author_search?getAuthor=Marshall Swearingen&amp;sort_on=PublicationDate&amp;sort_order=descending">Marshall Swearingen</a>
+    </span>
+    
+    
+    <span class="pubdate">Feb. 28, 2013</span>
+    
+    
+  </div>
+
+    
+    
+  </div>
+</div>
+
+        
+            
+            
+            
+            
+                
+
+<div class="article  ">
+  <a href="https://www.hcn.org/issues/44.14/a-long-strange-trip-a-review-of-pot-farm">
+    <figure>
+      <img src="https://www.hcn.org/issues/44.14/a-long-strange-trip-a-review-of-pot-farm/@@images/60f92f92-462c-4efc-be08-aee2d9c6524e.jpeg" alt="A long, strange trip: A review of Pot Farm" title="A long, strange trip: A review of Pot Farm" height="200" width="300" />
+    </figure>
+  </a>
+             
+  <div class="brief">
+    <header><a class="state-public" href="https://www.hcn.org/issues/44.14/a-long-strange-trip-a-review-of-pot-farm">A long, strange trip: A review of Pot Farm</a>
+    </header>
+    <div class="summary">In his memoir, Matthew Gavin Frank takes the reader on a hallucinatory journey through the medical marijuana industry in Mendocino County, Calif.</div>
+    
+      
+  <div class="byline">
+    
+    <span class="author">
+      <a href="https://www.hcn.org/author_search?getAuthor=Annie Dawid&amp;sort_on=PublicationDate&amp;sort_order=descending">Annie Dawid</a>
+    </span>
+    
+    
+    <span class="pubdate">Aug. 20, 2012</span>
+    <span class="issue-link">
+      From the
+      <a href="https://www.hcn.org/issues/44.14">print edition</a>
+    </span>
+    
+  </div>
+
+    
+    
+  </div>
+</div>
+
+        
+            
+            
+            
+            
+                
+
+<div class="article  ">
+  <a href="https://www.hcn.org/blogs/goat/friday-news-roundup-resignations-repeals-rivers">
+    
+  </a>
+             
+  <div class="brief">
+    <header><a class="state-public" href="https://www.hcn.org/blogs/goat/friday-news-roundup-resignations-repeals-rivers">Friday news roundup: repeals and drying rivers</a>
+    </header>
+    <div class="summary">Fish v. farmers in California; cleaning up gas; marijuana mayhem</div>
+    
+      
+  <div class="byline">
+    
+    <span class="author">
+      <a href="https://www.hcn.org/author_search?getAuthor=Danielle Venton&amp;sort_on=PublicationDate&amp;sort_order=descending">Danielle Venton</a>
+    </span>
+    
+    
+    <span class="pubdate">March 16, 2012</span>
+    
+    
+  </div>
+
+    
+    
+  </div>
+</div>
+
+        
+            
+            
+            
+            
+                
+
+<div class="article  ">
+  <a href="https://www.hcn.org/wotr/the-real-side-effect-of-medical-marijuana">
+    <figure>
+      <img src="https://www.hcn.org/wotr/the-real-side-effect-of-medical-marijuana/@@images/acf1124a-9b31-4724-9f92-5e543f561461.jpeg" alt="The real side effect of medical marijuana" title="The real side effect of medical marijuana" height="200" width="300" />
+    </figure>
+  </a>
+             
+  <div class="brief">
+    <header><a class="state-public" href="https://www.hcn.org/wotr/the-real-side-effect-of-medical-marijuana">The real side effect of medical marijuana</a>
+    </header>
+    <div class="summary">In a country where cigarettes and alcohol kill so many people every year, the argument against medical marijuana is pure hypocrisy.</div>
+    
+      
+  <div class="byline">
+    
+    <span class="author">
+      <a href="https://www.hcn.org/author_search?getAuthor=Ray Ring&amp;sort_on=PublicationDate&amp;sort_order=descending">Ray Ring</a>
+    </span>
+    
+    <span class="tag-label">Opinion</span>
+    <span class="tag-label">Essay</span>
+    <span class="pubdate">Aug. 26, 2011</span>
+    
+    
+  </div>
+
+    
+    
+  </div>
+</div>
+
+        
+            
+            
+            
+            
+                
+
+<div class="article  ">
+  <a href="https://www.hcn.org/issues/43.13/ganjanomics-bringing-humbolts-shadow-economy-into-the-light">
+    <figure>
+      <img src="https://www.hcn.org/issues/43.13/ganjanomics-bringing-humbolts-shadow-economy-into-the-light/@@images/66422c13-ade6-449f-83e4-184f6b4eb6b3.jpeg" alt="Ganjanomics: bringing Humboldt’s shadow economy into the light" title="Ganjanomics: bringing Humboldt’s shadow economy into the light" height="200" width="300" />
+    </figure>
+  </a>
+             
+  <div class="brief">
+    <header><a class="state-public" href="https://www.hcn.org/issues/43.13/ganjanomics-bringing-humbolts-shadow-economy-into-the-light">Ganjanomics: bringing Humboldt’s shadow economy into the light</a>
+    </header>
+    <div class="summary">Marijuana growers and government officials in California's notorious "Emerald Triangle" work towards legitimizing the local cash crop.</div>
+    
+      
+  <div class="byline">
+    
+    <span class="author">
+      <a href="https://www.hcn.org/author_search?getAuthor=Matt Jenkins&amp;sort_on=PublicationDate&amp;sort_order=descending">Matt Jenkins</a>
+    </span>
+    
+    
+    <span class="pubdate">Aug. 15, 2011</span>
+    <span class="issue-link">
+      From the
+      <a href="https://www.hcn.org/issues/43.13">print edition</a>
+    </span>
+    
+  </div>
+
+    
+    
+  </div>
+</div>
+
+        
+            
+            
+            
+            
+                
+
+<div class="article  ">
+  
+  <a href="https://www.hcn.org/issues/43.13">
+    <figure>
+      <img src="https://www.hcn.org/issues/43.13/@@images/ad67b02b-a79d-4024-a781-c7683166f309.jpeg" alt="Ganjanomics" title="Ganjanomics" height="300" width="250" />
+    </figure>
+  </a>           
+  <div class="brief">
+    <header><a class="state-public" href="https://www.hcn.org/issues/43.13">Ganjanomics</a>
+    </header>
+    <div class="summary">The marijuana growers of California's notorious "Emerald Triangle" wrestle with bringing their shadow economy into the light of day.
+</div>
+    
+    <div class="byline">
+      <span class="pubdate">Aug. 8, 2011</span>
+    </div>
+  </div>
+</div>
+
+        
+            
+            
+            
+            
+                
+
+<div class="article  ">
+  <a href="https://www.hcn.org/issues/43.13/economies-of-vice">
+    <figure>
+      <img src="https://www.hcn.org/issues/43.13/economies-of-vice/@@images/9f732a91-ccb8-491c-ba90-4f3b662c9984.jpeg" alt="Economies of vice" title="Economies of vice" height="200" width="300" />
+    </figure>
+  </a>
+             
+  <div class="brief">
+    <header><a class="state-public" href="https://www.hcn.org/issues/43.13/economies-of-vice">Economies of vice</a>
+    </header>
+    <div class="summary">If marijuana becomes fully legal and taxable, it won't be the first time authorities have learned that it's easier - and more profitable - to manage vice than to try to eliminate it.</div>
+    
+      
+  <div class="byline">
+    
+    <span class="author">
+      <a href="https://www.hcn.org/author_search?getAuthor=Sarah Gilman&amp;sort_on=PublicationDate&amp;sort_order=descending">Sarah Gilman</a>
+    </span>
+    
+    <span class="tag-label">Opinion</span>
+    <span class="pubdate">Aug. 8, 2011</span>
+    <span class="issue-link">
+      From the
+      <a href="https://www.hcn.org/issues/43.13">print edition</a>
+    </span>
+    
+  </div>
+
+    
+    
+  </div>
+</div>
+
+        
+            
+            
+            
+            
+                
+
+<div class="article  ">
+  <a href="https://www.hcn.org/issues/42.18/california-dope-ebay-pollution-and-moonbeams">
+    <figure>
+      <img src="https://www.hcn.org/issues/42.18/california-dope-ebay-pollution-and-moonbeams/@@images/6bb746c2-1b1a-45d2-998b-c6f822cf8e49.jpeg" alt="California: Dope, eBay, pollution and moonbeams" title="California: Dope, eBay, pollution and moonbeams" height="200" width="300" />
+    </figure>
+  </a>
+             
+  <div class="brief">
+    <header><a class="state-public" href="https://www.hcn.org/issues/42.18/california-dope-ebay-pollution-and-moonbeams">California: Dope, eBay, pollution and moonbeams</a>
+    </header>
+    <div class="summary">California flashes back to the 1970s with campaigns to legalize marijuana and re-elect Jerry Brown as governor, while other key races are also sizzling hot.</div>
+    
+      
+  <div class="byline">
+    
+    <span class="author">
+      <a href="https://www.hcn.org/author_search?getAuthor=Jonathan Thompson&amp;sort_on=PublicationDate&amp;sort_order=descending">Jonathan Thompson</a>
+    </span>
+    
+    
+    <span class="pubdate">Oct. 20, 2010</span>
+    <span class="issue-link">
+      From the
+      <a href="https://www.hcn.org/issues/42.18">print edition</a>
+    </span>
+    
+  </div>
+
+    
+    
+  </div>
+</div>
+
+        
+            
+            
+            
+            
+                
+
+<div class="article  ">
+  <a href="https://www.hcn.org/heard-around-the-west/finding-treasure-in-the-treasure-state">
+    
+  </a>
+             
+  <div class="brief">
+    <header><a class="state-public" href="https://www.hcn.org/heard-around-the-west/finding-treasure-in-the-treasure-state">Finding treasure in the "Treasure State"</a>
+    </header>
+    <div class="summary">"Medical" marijuana and a cat named Ricky on the loose in Montana</div>
+    
+      
+  <div class="byline">
+    
+    <span class="author">
+      <a href="https://www.hcn.org/author_search?getAuthor=Betsy Marston&amp;sort_on=PublicationDate&amp;sort_order=descending">Betsy Marston</a>
+    </span>
+    
+    
+    <span class="pubdate">Sept. 29, 2010</span>
+    
+    
+  </div>
+
+    
+    
+  </div>
+</div>
+
+        
+            
+            
+            
+            
+                
+
+<div class="article  ">
+  <a href="https://www.hcn.org/wotr/medical-marijuana-trips-up-montana">
+    <figure>
+      <img src="https://www.hcn.org/wotr/medical-marijuana-trips-up-montana/@@images/11c64b44-4a36-44f3-a212-eccd229dad1b.jpeg" alt="Medical marijuana trips up Montana" title="Medical marijuana trips up Montana" height="200" width="300" />
+    </figure>
+  </a>
+             
+  <div class="brief">
+    <header><a class="state-public" href="https://www.hcn.org/wotr/medical-marijuana-trips-up-montana">Medical marijuana trips up Montana</a>
+    </header>
+    <div class="summary">Montana's medical marijuana law is unnecessarily confusing and complicated.</div>
+    
+      
+  <div class="byline">
+    
+    <span class="author">
+      <a href="https://www.hcn.org/author_search?getAuthor=Joe Barnhart&amp;sort_on=PublicationDate&amp;sort_order=descending">Joe Barnhart</a>
+    </span>
+    
+    <span class="tag-label">Opinion</span>
+    <span class="tag-label">Essay</span>
+    <span class="pubdate">Aug. 19, 2010</span>
+    
+    
+  </div>
+
+    
+    
+  </div>
+</div>
+
+        
+            
+            
+            
+            
+                
+
+<div class="article  ">
+  <a href="https://www.hcn.org/issues/42.5/reefer-politics">
+    <figure>
+      <img src="https://www.hcn.org/issues/42.5/reefer-politics/@@images/245fe6c1-28b4-453e-b8af-7f147e225f66.jpeg" alt="Reefer politics" title="Reefer politics" height="200" width="300" />
+    </figure>
+  </a>
+             
+  <div class="brief">
+    <header><a class="state-public" href="https://www.hcn.org/issues/42.5/reefer-politics">Reefer politics</a>
+    </header>
+    <div class="summary">The West leads the way on medical marijuana.</div>
+    
+      
+  <div class="byline">
+    
+    <span class="author">
+      <a href="https://www.hcn.org/author_search?getAuthor=Ray Ring&amp;sort_on=PublicationDate&amp;sort_order=descending">Ray Ring</a>
+    </span>
+    
+    
+    <span class="pubdate">March 8, 2010</span>
+    <span class="issue-link">
+      From the
+      <a href="https://www.hcn.org/issues/42.5">print edition</a>
+    </span>
+    
+  </div>
+
+    
+    
+  </div>
+</div>
+
+        
+            
+            
+            
+            
+                
+
+<div class="article  ">
+  <a href="https://www.hcn.org/wotr/marijuana-stores-get-no-respect">
+    <figure>
+      <img src="https://www.hcn.org/wotr/marijuana-stores-get-no-respect/@@images/36e7e6dd-6f96-4fce-acfe-c422cc42df9b.jpeg" alt="Marijuana stores get no respect" title="Marijuana stores get no respect" height="200" width="300" />
+    </figure>
+  </a>
+             
+  <div class="brief">
+    <header><a class="state-public" href="https://www.hcn.org/wotr/marijuana-stores-get-no-respect">Marijuana stores get no respect</a>
+    </header>
+    <div class="summary">Marijuana should be legal for recreational as well as medical uses, as long as it’s taxed and nobody drives under the influence.  </div>
+    
+      
+  <div class="byline">
+    
+    <span class="author">
+      <a href="https://www.hcn.org/author_search?getAuthor=Rob Pudim&amp;sort_on=PublicationDate&amp;sort_order=descending">Rob Pudim</a>
+    </span>
+    
+    <span class="tag-label">Opinion</span>
+    <span class="pubdate">Jan. 29, 2010</span>
+    
+    
+  </div>
+
+    
+    
+  </div>
+</div>
+
+        
+            
+            
+            
+            
+                
+
+<div class="article  ">
+  <a href="https://www.hcn.org/heard-around-the-west/weed-picking">
+    
+  </a>
+             
+  <div class="brief">
+    <header><a class="state-public" href="https://www.hcn.org/heard-around-the-west/weed-picking">Weed picking</a>
+    </header>
+    <div class="summary">Growth of medical marijuana dispensaries in Colorado starts search for a "pot critic."</div>
+    
+      
+  <div class="byline">
+    
+    <span class="author">
+      <a href="https://www.hcn.org/author_search?getAuthor=Betsy Marston&amp;sort_on=PublicationDate&amp;sort_order=descending">Betsy Marston</a>
+    </span>
+    
+    
+    <span class="pubdate">Nov. 10, 2009</span>
+    
+    
+  </div>
+
+    
+    
+  </div>
+</div>
+
+        
+            
+            
+            
+            
+                
+
+<div class="article  ">
+  <a href="https://www.hcn.org/issues/329/16531">
+    
+  </a>
+             
+  <div class="brief">
+    <header><a class="state-public" href="https://www.hcn.org/issues/329/16531">Heard around the West</a>
+    </header>
+    <div class="summary">Dirk Kempthorne and luxury RVs; The Farmer Wants a Wife,
+maybe; no rules (or bras) at Sturgis; look before you pee;
+hard-working Washington pot-growers; Arizona’s biggest
+marijuana farm; with defense lawyers like this one, who needs a
+prosecutor?; and big bird with a bad grip</div>
+    
+      
+  <div class="byline">
+    
+    <span class="author">
+      <a href="https://www.hcn.org/author_search?getAuthor=Betsy Marston&amp;sort_on=PublicationDate&amp;sort_order=descending">Betsy Marston</a>
+    </span>
+    
+    
+    <span class="pubdate">Sept. 4, 2006</span>
+    <span class="issue-link">
+      From the
+      <a href="https://www.hcn.org/issues/329">print edition</a>
+    </span>
+    
+  </div>
+
+    
+    
+  </div>
+</div>
+
+        
+            
+            
+            
+            
+                
+
+<div class="article  ">
+  
+  <a href="https://www.hcn.org/issues/309">
+    <figure>
+      <img src="https://www.hcn.org/issues/309/@@images/872bc81b-d8a7-4f71-b955-f937023e1cb9.jpeg" alt="The Public Lands' Big Cash Crop" title="The Public Lands' Big Cash Crop" height="166" width="134" />
+    </figure>
+  </a>           
+  <div class="brief">
+    <header><a class="state-public" href="https://www.hcn.org/issues/309">The Public Lands' Big Cash Crop</a>
+    </header>
+    <div class="summary">Elaborate marijuana gardens created and managed by Mexican
+drug lords are turning California’s public lands into a
+dangerous, illegal, industrial-style landscape.  
+Also in this issue: The Forest Service’s
+claim that a recent court order would suspend routine activities
+– such as cutting Christmas trees or picking mushrooms
+– has been dismissed by the judge as the agency’s
+attempt to blow the issue out of proportion.  </div>
+    
+    <div class="byline">
+      <span class="pubdate">Oct. 31, 2005</span>
+    </div>
+  </div>
+</div>
+
+        
+            
+            
+      </div>
+    
+
+        
+
+    <!-- Navigation -->
+
+<div class="pagination">
+
+    <!-- Link to first -->
+    
+
+    <!-- Pagelist with links to previous pages for quick navigation -->
+    
+
+    <!-- Current page -->
+    
+        <span class="active_page">1</span>
+    
+
+    <!-- Pagelist with links to next pages for quick navigation -->
+    
+      <a href="https://www.hcn.org/topics/marijuana?gclid=EAIaIQobChMI8K78wsqi4QIVB4zICh1IrwUMEAAYAiAAEgLG1PD_BwE&amp;b_start:int=20">2</a>
+    
+
+    <!-- Link to last -->
+    
+</div>
+
+
+
+
+
+    
+    
+        
+    
+
+    
+    
+
+                             </div>
+                             <div id="viewlet-below-content-body">
+</div>
+
+                            
+	                    </div>
+              <div class="large-4 columns right-portlets"><div id="portal-column-two">
+	              <div class="visualPadding">
+	                
+	                  
+<div class="portletWrapper" data-portlethash="706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f68636e2f68636e0a41737369676e6d656e74" id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f68636e2f68636e0a41737369676e6d656e74">
+
+
+  
+    
+    
+        <div id="advertisement-rightcolumn" class="portlet advertisement">
+            <div id="zone-4-123121" class="ad-spot ad-300x250"></div>
+        </div>
+    
+
+  
+
+  
+
+</div>
+
+
+<div class="portletWrapper" data-portlethash="706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f68636e2f68636e0a41737369676e6d656e742d35" id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f68636e2f68636e0a41737369676e6d656e742d35"><div class="large highlight newsletter-signup button">Get Our Newsletter ↓</div>
+<div class="newsletter-signup portlet">
+
+<form action="https://www.hcn.org/@@email-prefs" method="post">
+
+    <div class="row collapse">
+      <div class="small-9 columns">
+        <input id="sit-email" placeholder="Email Address" type="text" name="form.email" />
+      </div>
+      <div class="small-3 columns end">
+        <input class="tiny button" type="submit" name="sit-join" id="sit-join" value="Sign up ›" />
+      </div>
+    </div>
+</form>
+
+  <script type="text/javascript">
+      $("#sit-join").click(function() {
+
+          // no email addy no will sendy to WC
+          if ($('#sit-email').val().indexOf('@') <= 0) {
+              return false;
+          }
+
+          ga('send', 'event', 'eNewsLetterSignUp', 'Clicked Join', 'Get Free Newsletter S.I.T.');
+      });
+      var signupDate = new Date();
+      var signupDateString;
+
+      signupDateString =  signupDate.getFullYear() + '/' + ('0' + (signupDate.getMonth()+1)).slice(-2) + '/' + ('0' + signupDate.getDate()).slice(-2) + ' 00:00:00';
+      $('<input>').attr('type','hidden').attr('name','custom_source_created_date').attr('value', signupDateString).appendTo('div.newsletter-signup form');
+  </script>
+
+</div>
+</div>
+
+
+<div class="portletWrapper" data-portlethash="706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f68636e2f68636e0a41737369676e6d656e742d37" id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f68636e2f68636e0a41737369676e6d656e742d37">
+
+
+  
+    
+<div class="portlet popular">
+  <dl class="tabs" data-tab="">
+    <dd class="active"><a href="#tab-most-popular">Most Popular Stories</a></dd>
+  </dl>
+  <div class="tabs-content">
+    <div class="content active" id="tab-most-popular">
+      <ul>
+        <li>
+          <a href="https://www.hcn.org/articles/water-court-throws-book-at-blm-over-fracking-chaco">Court throws book at BLM over fracking Chaco</a>
+        </li>
+        <li>
+          <a href="https://www.hcn.org/articles/ranching-one-ranchers-plan-to-establish-water-buffalo-in-colorado">One rancher’s plan to establish water buffalo in Colorado</a>
+        </li>
+        <li>
+          <a href="https://www.hcn.org/articles/april-fools-the-forrest-fenn-treasure-has-been-found">The Forrest Fenn treasure has been found</a>
+        </li>
+        <li>
+          <a href="https://www.hcn.org/articles/guns-gun-safety-debate-reaches-montanas-supreme-court">Gun-safety debate reaches Montana’s Supreme Court</a>
+        </li>
+        <li>
+          <a href="https://www.hcn.org/articles/opinion-the-playground-of-lake-powell-isnt-worth-drowned-canyons">The playground of Lake Powell isn’t worth drowned canyons</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+  
+
+  
+
+</div>
+
+
+<div class="portletWrapper" data-portlethash="706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f68636e2f68636e0a746f646179732d66656174757265642d706f72746c6574" id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f68636e2f68636e0a746f646179732d66656174757265642d706f72746c6574">
+
+
+  
+
+  
+    <section class="homepage-area todays-featured portlet"><header>
+  
+    <h2>Today's Featured Stories</h2>
+  
+</header>
+<ul class="articles">
+  
+  <li class="article  ">
+    
+      <a href="https://www.hcn.org/articles/climate-change-noaas-university-partners-tackle-climate-change-research-despite-attacks-on-science-trump-admin">
+        <figure>
+          <img src="https://www.hcn.org/articles/climate-change-noaas-university-partners-tackle-climate-change-research-despite-attacks-on-science-trump-admin/@@images/44b50a08-6943-4b1a-bf05-f4ab1b537e95.png" alt="NOAA’s university partners tackle climate change research" title="NOAA’s university partners tackle climate change research" height="85" width="128" />
+        </figure>
+      </a>
+    
+    <div class="brief">
+      <header><a class="state-public" href="https://www.hcn.org/articles/climate-change-noaas-university-partners-tackle-climate-change-research-despite-attacks-on-science-trump-admin">NOAA’s university partners tackle climate change research</a></header>
+      <a href="https://www.hcn.org/articles/climate-change-noaas-university-partners-tackle-climate-change-research-despite-attacks-on-science-trump-admin"><div class="summary">Despite the Trump administration’s attacks on science, university partnerships continue their studies.</div></a>
+      
+    </div>
+  </li>
+  
+  
+  <li class="article  ">
+    
+      <a href="https://www.hcn.org/issues/51.10/communities-none-of-this-happened-the-way-you-think-it-did-cremated-remains">
+        <figure>
+          <img src="https://www.hcn.org/issues/51.10/communities-none-of-this-happened-the-way-you-think-it-did-cremated-remains/@@images/d4a6b5ed-0948-45c2-8be6-e6b5721a3f59.png" alt="‘None of this happened the way you think it did’" title="‘None of this happened the way you think it did’" height="85" width="128" />
+        </figure>
+      </a>
+    
+    <div class="brief">
+      <header><a class="state-public" href="https://www.hcn.org/issues/51.10/communities-none-of-this-happened-the-way-you-think-it-did-cremated-remains">‘None of this happened the way you think it did’</a></header>
+      <a href="https://www.hcn.org/issues/51.10/communities-none-of-this-happened-the-way-you-think-it-did-cremated-remains"><div class="summary">For years, the clients of a Colorado funeral home kept their loved ones’ cremated remains. Then the FBI called.</div></a>
+      
+    </div>
+  </li>
+  
+  
+  <li class="article  ">
+    
+      <a href="https://www.hcn.org/articles/ranching-one-ranchers-plan-to-establish-water-buffalo-in-colorado">
+        <figure>
+          <img src="https://www.hcn.org/articles/ranching-one-ranchers-plan-to-establish-water-buffalo-in-colorado/@@images/fe7a16e9-a3fb-4690-8c5a-9f2aa3ac9e82.jpeg" alt="One rancher’s plan to establish water buffalo in Colorado" title="One rancher’s plan to establish water buffalo in Colorado" height="85" width="128" />
+        </figure>
+      </a>
+    
+    <div class="brief">
+      <header><a class="state-public" href="https://www.hcn.org/articles/ranching-one-ranchers-plan-to-establish-water-buffalo-in-colorado">One rancher’s plan to establish water buffalo in Colorado</a></header>
+      <a href="https://www.hcn.org/articles/ranching-one-ranchers-plan-to-establish-water-buffalo-in-colorado"><div class="summary">The challenges and possibilities of water buffalo ranching in the Roaring Fork Valley.</div></a>
+      
+    </div>
+  </li>
+  
+</ul>
+</section>
+  
+
+</div>
+
+
+<div class="portletWrapper" data-portlethash="706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f68636e2f68636e0a636c6173736966696564732d706f72746c6574" id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f68636e2f68636e0a636c6173736966696564732d706f72746c6574">
+
+
+  
+
+  
+    <div class="classifieds-portlet">
+  <header>
+    High Country News Classifieds
+  </header>
+  <ul class="classified-ads">
+    <li>
+      <a href="http://classifieds.hcn.org/denver/employment-education/assistant-director/67429bca8e7f43f58788459b9f5b">
+        <header>ASSISTANT DIRECTOR</header>
+        <img src="https://otf-cache1.adperfect.com/dfs1/eyJjaCI6ICI0NDgiLCAiY3IiOiAiMSIsICJjdyI6ICI3NzYiLCAiczMiOiAiQzBBODAxRkUxYjRjNzIwMUJFV1lYM0ZGMjlBOC82NzQyOWJjYThlN2Y0M2Y1ODc4ODQ1OWI5ZjViL2ltZy9iNGM0NjNiMWVmN2FiNzJmMjI3NWI0MWVkZTUwLkpQRyIsICJiIjogImFkYXMtb3JlZ29uLWNhcyIsICJkIjogNzIsICJybyI6ICIwIiwgImgiOiAxMDAsICJtIjogIkpQRyIsICJ3IjogMTAwLCAieCI6ICIzNyIsICJ5IjogIjE0In0=" />
+      </a>
+      The West Region Wildfire Council (www.COwildfire.org) is a regional wildfire organization that promotes wildfire adaptation, preparedness and mitigation education across Delta, Gunnison, Hinsdale, Montrose, Ouray...
+    </li>
+    <li>
+      <a href="http://classifieds.hcn.org/denver/employment-education/reporter/0c11198204be43fe97ac3e5871b3">
+        <header>REPORTER</header>
+        <img src="https://cdn-assets.prfct.cc/assets/brand/images/ui-elements/action-icons-orange-grey/no-photo-camera-white.jpg" />
+      </a>
+      The Wallowa County Chieftain, has an opening for a reporter. Experience with and understanding of editorial photography also required. Journalism degree or equivalent, an understanding...
+    </li>
+    <li>
+      <a href="http://classifieds.hcn.org/denver/employment-education/organizeroutreach-coordinator/c944c33ca41140f3aff893862193">
+        <header>ORGANIZER/OUTREACH COORDINATOR</header>
+        <img src="https://cdn-assets.prfct.cc/assets/brand/images/ui-elements/action-icons-orange-grey/no-photo-camera-white.jpg" />
+      </a>
+      Seeking an energetic Organizer/Outreach Coordinator to help us conserve Arizona's public lands and shape the policies that affect them.
+    </li>
+    <li>
+      <a href="http://classifieds.hcn.org/denver/garden-outdoor/2017-john-deere-lawn-mower-z930r/78a65861b81e4dc2b8654f06cf51">
+        <header>2017 JOHN DEERE LAWN MOWER Z930R</header>
+        <img src="https://otf-cache1.adperfect.com/dfs1/eyJzMyI6ICJDMEE4MDFGRTFiNGM3MjAxQkVXWVgzRkYyOUE4Lzc4YTY1ODYxYjgxZTRkYzJiODY1NGYwNmNmNTEvaW1nLzdmZDUwYjA4NmJiZTEwYzZlZGMyYmU4Y2I4YTQuanBnIiwgImIiOiAiYWRhcy1vcmVnb24tY2FzIiwgImQiOiA3MiwgImgiOiAxMDAsICJtIjogIkpQRyIsICJ3IjogMTAwfQ==" />
+      </a>
+      15 hours on it, 3 years warranty, 22,5 HP, $1600 Sale price. Contact: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="462e232a2328213371727106212b272f2a6825292b">[email&#160;protected]</a>
+    </li>
+    <li>
+      <a href="http://classifieds.hcn.org/denver/employment-education/donor-relations-manager/AC1E00440ec6722A6ExyUF6AA7FA">
+        <header>DONOR RELATIONS MANAGER</header>
+        <img src="https://cdn-otf-cas.adperfect.com/dfs1/eyJzMyI6ICJDMEE4MDFGRTFiNGM3MjAxQkVXWVgzRkYyOUE4L0FDMUUwMDQ0MGVjNjcyMkE2RXh5VUY2QUE3RkEvaW1nLzc0YjU2MDUzZmI0ODJmODlhM2NjOTE0MDk2YmEucG5nIiwgImIiOiAiYWRhcy1vcmVnb24tY2FzIiwgImgiOiAxMDAsICJtIjogIkpQRyIsICJ3IjogMTAwfQ==" />
+      </a>
+      Join us in helping to match charitable interests and passions to the needs of The Nature Conservancy. The Nature Conservancy seeks a fast learner with...
+    </li>
+    <li>
+      <a href="http://classifieds.hcn.org/denver/employment-education/yellowstone-river-field-institute/a2879e2b848243e0b16997afa6d1">
+        <header>YELLOWSTONE RIVER FIELD INSTITUTE</header>
+        <img src="https://otf-cache1.adperfect.com/dfs1/eyJzMyI6ICJDMEE4MDFGRTFiNGM3MjAxQkVXWVgzRkYyOUE4L2EyODc5ZTJiODQ4MjQzZTBiMTY5OTdhZmE2ZDEvaW1nL2QwMmYzMDA5Nzk0N2FkMjc2MWVlMjMzZWI1N2YuanBnIiwgImIiOiAiYWRhcy1vcmVnb24tY2FzIiwgImQiOiA3MiwgImgiOiAxMDAsICJtIjogIkpQRyIsICJ3IjogMTAwfQ==" />
+      </a>
+      The Yellowstone River Field Institute is an intensive week-long field course for multimedia storytellers, working journalists, and students of journalism, offered by the Montana-based Freeflow...
+    </li>
+    <li>
+      <a href="http://classifieds.hcn.org/denver/real-estate-for-sale/own-your-own-canyon-1400-sf-straw-bale-eco-home-on-80-acres-3-hours-from-l.a/cd08bf37ac8e4edaadc802586eeb">
+        <header>OWN YOUR OWN CANYON - 1400 SF STRAW-BALE ECO-HOME ON 80 ACRES - 3 HOURS FROM L.A.</header>
+        <img src="https://otf-cache1.adperfect.com/dfs1/eyJzMyI6ICJDMEE4MDFGRTFiNGM3MjAxQkVXWVgzRkYyOUE4L2NkMDhiZjM3YWM4ZTRlZGFhZGM4MDI1ODZlZWIvaW1nL2EzYTBlZWQ3YTEwNzUxOWRmYWM3NDIwNmRlMWYuanBnIiwgImIiOiAiYWRhcy1vcmVnb24tY2FzIiwgImQiOiA3MiwgImgiOiAxMDAsICJtIjogIkpQRyIsICJ3IjogMTAwfQ==" />
+      </a>
+      1400 sf of habitable space in a custom-designed eco-home created and completed by a published L.A. architect in 1997-99. Nestled within its own 80-acre mountain...
+    </li>
+    <li>
+      <a href="http://classifieds.hcn.org/denver/employment-education/education-engagement-program-manager/00c5541642f0432ab9b5478b09fd">
+        <header>EDUCATION &amp; ENGAGEMENT PROGRAM MANAGER</header>
+        <img src="https://otf-cache1.adperfect.com/dfs1/eyJzMyI6ICJDMEE4MDFGRTFiNGM3MjAxQkVXWVgzRkYyOUE4LzAwYzU1NDE2NDJmMDQzMmFiOWI1NDc4YjA5ZmQvaW1nLzk5NmZkNmQxOTM3OGY1ZDNhMDU5YWI5ZWY0MWMucG5nIiwgImIiOiAiYWRhcy1vcmVnb24tY2FzIiwgImQiOiA3MiwgImgiOiAxMDAsICJtIjogIkpQRyIsICJ3IjogMTAwfQ==" />
+      </a>
+      Baltimore Green Space (BGS) is Baltimore's environmental land trust. We promote vibrant neighborhoods and a healthy environment through land preservation, research, and community advocacy. We...
+    </li>
+    <li>
+      <a href="http://classifieds.hcn.org/denver/employment-education/lead-forester/d828134a7b564a96b2da9e5965ae">
+        <header>LEAD FORESTER</header>
+        <img src="https://otf-cache1.adperfect.com/dfs1/eyJzMyI6ICJDMEE4MDFGRTFiNGM3MjAxQkVXWVgzRkYyOUE4L2Q4MjgxMzRhN2I1NjRhOTZiMmRhOWU1OTY1YWUvaW1nLzYyZGQxN2ZkY2ZjZjdiZTczYTFkZDQ0ODdmMzcucG5nIiwgImIiOiAiYWRhcy1vcmVnb24tY2FzIiwgImQiOiA3MiwgImgiOiAxMDAsICJtIjogIkpQRyIsICJ3IjogMTAwfQ==" />
+      </a>
+      Northwest Natural Resource Group seeks forester based in Seattle or Olympia area to manage our ecological forestry harvest program. Full description at nnrg.org.
+    </li>
+    <li>
+      <a href="http://classifieds.hcn.org/denver/employment-education/energy-market-policy-analyst-clean-energy-program/5a591fd069444db38a4b18438b09">
+        <header>ENERGY MARKET POLICY ANALYST, CLEAN ENERGY PROGRAM</header>
+        <img src="https://otf-cache1.adperfect.com/dfs1/eyJzMyI6ICJDMEE4MDFGRTFiNGM3MjAxQkVXWVgzRkYyOUE4LzVhNTkxZmQwNjk0NDRkYjM4YTRiMTg0MzhiMDkvaW1nL2RjZGI4MzI1NjU3NWRlMjI1MDZhOGI2OWFmY2UucG5nIiwgImIiOiAiYWRhcy1vcmVnb24tY2FzIiwgImQiOiA3MiwgImgiOiAxMDAsICJtIjogIkpQRyIsICJ3IjogMTAwfQ==" />
+      </a>
+      Western Resource Advocates (WRA) is seeking an experienced Policy Analyst or Senior Analyst to develop and advocate for policies and mechanisms that promote the development...
+    </li>
+    <li>
+      <a href="http://classifieds.hcn.org/denver/real-estate-for-sale/million-dollar-view-for-460000/AC1E02F70ce5311269hP79D710AA">
+        <header>MILLION DOLLAR VIEW FOR $460,000</header>
+        <img src="https://cdn-otf-cas.adperfect.com/dfs1/eyJzMyI6ICJDMEE4MDFGRTFiNGM3MjAxQkVXWVgzRkYyOUE4L0FDMUUwMkY3MGNlNTMxMTI2OWhQNzlENzEwQUEvaW1nLzY0YzMwOWY2NDgwNzljZDUxMGI2M2Y0M2EzZTUuanBnIiwgImIiOiAiYWRhcy1vcmVnb24tY2FzIiwgImgiOiAxMDAsICJtIjogIkpQRyIsICJ3IjogMTAwfQ==" />
+      </a>
+      from a beautiful log home. 20-acre private parcel in the sunny Okanogan of WA. Visit: www.juliedubois.ca/house. Inquiries: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="46352f28212f28212c332a2f23223324292f3506212b272f2a6825292b68">[email&#160;protected]</a>
+    </li>
+    <li>
+      <a href="http://classifieds.hcn.org/denver/employment-education/vice-president-of-programs-and-strategy/5d912e5231da4d12bb1899ab044d">
+        <header>VICE PRESIDENT OF PROGRAMS AND STRATEGY</header>
+        <img src="https://otf-cache1.adperfect.com/dfs1/eyJzMyI6ICJDMEE4MDFGRTFiNGM3MjAxQkVXWVgzRkYyOUE4LzVkOTEyZTUyMzFkYTRkMTJiYjE4OTlhYjA0NGQvaW1nLzM1ZTNiNzhhMDIzODBlNThjYzQzNGJhY2ZjMDYucG5nIiwgImIiOiAiYWRhcy1vcmVnb24tY2FzIiwgImQiOiA3MiwgImgiOiAxMDAsICJtIjogIkpQRyIsICJ3IjogMTAwfQ==" />
+      </a>
+      Western Resource Advocates is looking for a VP of Programs and Strategy to bring a strategic focus to the development of multi-faceted advocacy plans that...
+    </li>
+    <li>
+      <a href="http://classifieds.hcn.org/denver/employment-education/head-breadpastry-baker-and-assistant-positions/a49037faca8b44828cc8a24fc3d6">
+        <header>HEAD BREAD/PASTRY BAKER AND ASSISTANT POSITIONS</header>
+        <img src="https://otf-cache1.adperfect.com/dfs1/eyJzMyI6ICJDMEE4MDFGRTFiNGM3MjAxQkVXWVgzRkYyOUE4L2E0OTAzN2ZhY2E4YjQ0ODI4Y2M4YTI0ZmMzZDYvaW1nLzJlNTg2ZGY1OTFhMDllMDBmZTI3NzllM2U4NjkucG5nIiwgImIiOiAiYWRhcy1vcmVnb24tY2FzIiwgImQiOiA3MiwgImgiOiAxMDAsICJtIjogIkpQRyIsICJ3IjogMTAwfQ==" />
+      </a>
+      Hiring Part/Full time for Summer Season - entry level &amp; experienced positions. Year round employment for optimal candidates. Pay DOE.
+    </li>
+    <li>
+      <a href="http://classifieds.hcn.org/denver/real-estate-for-sale/spectacular-scenic-mountain-view-home-building-site/7059f76858444758ae369b34d05f">
+        <header>SPECTACULAR SCENIC MOUNTAIN VIEW HOME BUILDING SITE</header>
+        <img src="https://otf-cache1.adperfect.com/dfs1/eyJzMyI6ICJDMEE4MDFGRTFiNGM3MjAxQkVXWVgzRkYyOUE4LzcwNTlmNzY4NTg0NDQ3NThhZTM2OWIzNGQwNWYvaW1nLzkyNjNhODBlNGIyNGM0NGMxYmE5NGYxMGI4NGQuSlBHIiwgImIiOiAiYWRhcy1vcmVnb24tY2FzIiwgImQiOiA3MiwgImgiOiAxMDAsICJtIjogIkpQRyIsICJ3IjogMTAwfQ==" />
+      </a>
+      Located on top of Sugarloaf Mtn. 5 mi W of downtown Colorado Springs, CO. $80,000.
+    </li>
+    <li>
+      <a href="http://classifieds.hcn.org/denver/employment-education/curator-draper-natural-history-museum/AC1E00F20cc5f11CE0ITm11E562A">
+        <header>CURATOR, DRAPER NATURAL HISTORY MUSEUM</header>
+        <img src="https://cdn-otf-cas.adperfect.com/dfs1/eyJzMyI6ICJDMEE4MDFGRTFiNGM3MjAxQkVXWVgzRkYyOUE4L0FDMUUwMEYyMGNjNWYxMUNFMElUbTExRTU2MkEvaW1nLzI2ZGFkMDAxMjYxYjU4NTBlYWI4YjhlNzY0ZTEuanBnIiwgImIiOiAiYWRhcy1vcmVnb24tY2FzIiwgImgiOiAxMDAsICJtIjogIkpQRyIsICJ3IjogMTAwfQ==" />
+      </a>
+      The Draper Natural History Museum (DNHM) at the Buffalo Bill Center of the West in Cody, WY, invites applications for Curator of Natural Science. Seeking...
+    </li>
+    <li>
+      <a href="http://classifieds.hcn.org/denver/real-estate-for-sale/undeveloped-40-acres-southwest-colorado/baf1f6bd78ad44f48a3035b9446c">
+        <header>UNDEVELOPED 40 ACRES - SOUTHWEST COLORADO</header>
+        <img src="https://otf-cache1.adperfect.com/dfs1/eyJzMyI6ICJDMEE4MDFGRTFiNGM3MjAxQkVXWVgzRkYyOUE4L2JhZjFmNmJkNzhhZDQ0ZjQ4YTMwMzViOTQ0NmMvaW1nL2QzNTRiYThiNDE0OGZkN2VlNzdkMGIxMGQ2MDUuanBnIiwgImIiOiAiYWRhcy1vcmVnb24tY2FzIiwgImQiOiA3MiwgImgiOiAxMDAsICJtIjogIkpQRyIsICJ3IjogMTAwfQ==" />
+      </a>
+      in Southwest Colorado. $60K plus costs.
+    </li>
+    <li>
+      <a href="http://classifieds.hcn.org/denver/real-estate-for-rent/partnership-lease/a15a61b985d24a8085739d074fac">
+        <header>PARTNERSHIP-LEASE</header>
+        <img src="https://cdn-assets.prfct.cc/assets/brand/images/ui-elements/action-icons-orange-grey/no-photo-camera-white.jpg" />
+      </a>
+      Seeking full-time experienced farmer on 52-acre organic farm Union, OR. <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="cda0aca3acaaa8bf8da9a2bfacbeaaacbfa9a8a3e3aea2a0">[email&#160;protected]</a>
+    </li>
+    <li>
+      <a href="http://classifieds.hcn.org/denver/merchandise/san-juan-metals/AC1E02F70c93f1976CUl6C40E445">
+        <header>SAN JUAN METALS</header>
+        <img src="https://cdn-otf-cas.adperfect.com/dfs1/eyJzMyI6ICJDMEE4MDFGRTFiNGM3MjAxQkVXWVgzRkYyOUE4L0FDMUUwMkY3MGM5M2YxOTc2Q1VsNkM0MEU0NDUvaW1nL2I2NTYxY2QxMTI0ODdlMDcxYmU1MGIxMDVmZDgucGRmIiwgImIiOiAiYWRhcy1vcmVnb24tY2FzIiwgImgiOiAxMDAsICJtIjogIkpQRyIsICJ3IjogMTAwfQ==" />
+      </a>
+      Metal roofing &amp; siding, thru-fastened &amp; seam profiles. Stronger, more attractive and longer lasting than any other panel on the market. 970-275-4070.
+    </li>
+    <li>
+      <a href="http://classifieds.hcn.org/denver/employment-education/executive-director/b3630f90ce2c4816a30cda9b74b1">
+        <header>EXECUTIVE DIRECTOR</header>
+        <img src="https://otf-cache1.adperfect.com/dfs1/eyJzMyI6ICJDMEE4MDFGRTFiNGM3MjAxQkVXWVgzRkYyOUE4L2IzNjMwZjkwY2UyYzQ4MTZhMzBjZGE5Yjc0YjEvaW1nLzdmZGRhZDQwYTEyYzI1Yjg5NWI1MDkzZWY1YzcuSlBHIiwgImIiOiAiYWRhcy1vcmVnb24tY2FzIiwgImQiOiA3MiwgImgiOiAxMDAsICJtIjogIkpQRyIsICJ3IjogMTAwfQ==" />
+      </a>
+      Forever Our Rivers Foundation seeks a driven and creative individual to lead this national movement for river health. Deadline 6/14/19.
+    </li>
+    <li>
+      <a href="http://classifieds.hcn.org/denver/employment-education/sierra-club-senior-campaign-representative-beyond-dirty-fuels/70bfc50dbd9f47bf805c2ca580f0">
+        <header>SIERRA CLUB SENIOR CAMPAIGN REPRESENTATIVE, BEYOND DIRTY FUELS</header>
+        <img src="https://cdn-assets.prfct.cc/assets/brand/images/ui-elements/action-icons-orange-grey/no-photo-camera-white.jpg" />
+      </a>
+      We are looking for an experienced campaigner to lead our work challenging the oil and fracked gas industry, specifically focused on fighting fossil fuel expansion...
+    </li>
+  </ul>
+  <footer>
+    <a class="highlight button" target="_blank" href="https://www.hcn.org/classifieds">VIEW ALL ADS ›</a>
+    <a class="highlight button" target="_blank" href="https://highcountrynews.adperfect.com">PLACE AN AD ›</a>
+  </footer>
+</div>
+
+  
+
+</div>
+
+
+<div class="portletWrapper" data-portlethash="706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f68636e2f68636e0a61645f6d6163726f73" id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f68636e2f68636e0a61645f6d6163726f73">
+
+
+  
+    
+    
+        <div id="advertisement-rightcolumn" class="portlet advertisement">
+            <div id="zone-29-125121" class="ad-spot ad-300x250"></div>
+        </div>
+    
+
+  
+
+  
+
+</div>
+
+
+<div class="portletWrapper" data-portlethash="706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f68636e2f68636e0a7065727370656374697665732d6f6e2d7468652d77657374" id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f68636e2f68636e0a7065727370656374697665732d6f6e2d7468652d77657374"><div class="portlet portlet-hcn-collection portlet-collection-perspectives-on-the-west">
+
+    <header>
+      <a href="https://www.hcn.org/rss/perspectives-on-the-west" title="Perspectives on the West">
+        <img src="https://www.hcn.org/media/west-in-perspective-header" />
+        
+      </a>
+    </header>
+    <ul>
+      
+      <li class="even">
+        <a href="https://www.hcn.org/articles/climate-change-new-godzilla-movie-makes-a-mess-of-environmental-ethics" title="Once an allegory for the atomic bomb, the big lizard has come to represent climate change.">New Godzilla movie makes a mess of environmental ethics</a>
+        <div class="author">Nick Bowlin</div>
+        
+      </li>
+      
+      
+      <li class="odd">
+        <a href="https://www.hcn.org/articles/water-court-throws-book-at-blm-over-fracking-chaco" title="The agency failed to consider water use.">Court throws book at BLM over fracking Chaco</a>
+        <div class="author">Jonathan Thompson</div>
+        
+      </li>
+      
+      
+      <li class="even">
+        <a href="https://www.hcn.org/articles/history-montanas-vigilante-obsession-obscures-the-truth" title="It’s time to face the facts about the hangmen who helped ‘settle’ Montana.">Montana’s vigilante obsession obscures the truth</a>
+        <div class="author">Gabriel Furshong</div>
+        
+      </li>
+      
+    </ul>
+
+    <footer>
+        
+    </footer>
+</div>
+</div>
+
+
+
+
+
+	                
+	                 
+	              </div>
+	            </div></div>
+            </div>
+
+          </div>
+        </div>
+      </div></div><footer class="hcn-footer">
+      <div class="row">
+        <div class="medium-12 large-5 large-push-7 columns">
+          <form class="subscribe-form" action="https://www.hcn.org/subscribe/trial?offer_code=TFOOTA" method="POST">
+            <div class="large button highlight subscribe-button">Get 2 free issues ↓</div>
+            <img class="cover show-for-medium-up" src="https://www.hcn.org/issues/51.10/@@images/5fb349f5-1606-4732-9225-45313184460a.jpeg" style="height: 129px;" />
+            <div class="fields">
+              <div class="row collapse">
+                <div class="small-6 columns"><input name="form.first_name" type="text" placeholder="First Name" /></div>
+                <div class="small-6 columns end"><input name="form.last_name" type="text" placeholder="Last Name" /></div>
+              </div>
+              <div class="row collapse">
+                <div class="small-6 columns"><input name="form.delivery_address_1" type="text" placeholder="Address 1" /></div>
+                <div class="small-6 columns end"><input name="form.delivery_address_2" type="text" placeholder="Address 2" /></div>
+              </div>
+              <div class="row collapse">
+                <div class="small-5 columns"><input name="form.delivery_city" type="text" placeholder="City" /></div>
+                <div class="small-3 columns">
+                  <select name="form.delivery_state">
+                    <option value="" default="" selected="selected">State</option>
+                    <option value="AL">AL</option> <option value="AK">AK</option> <option value="AZ">AZ</option> <option value="AR">AR</option> <option value="CA">CA</option> <option value="CO">CO</option> <option value="CT">CT</option> <option value="DC">DC</option> <option value="DE">DE</option> <option value="FL">FL</option> <option value="GA">GA</option> <option value="HI">HI</option> <option value="ID">ID</option> <option value="IL">IL</option> <option value="IN">IN</option> <option value="IA">IA</option> <option value="KS">KS</option> <option value="KY">KY</option> <option value="LA">LA</option> <option value="ME">ME</option> <option value="MD">MD</option> <option value="MA">MA</option> <option value="MI">MI</option> <option value="MN">MN</option> <option value="MS">MS</option> <option value="MO">MO</option> <option value="MT">MT</option> <option value="NE">NE</option> <option value="NV">NV</option> <option value="NH">NH</option> <option value="NJ">NJ</option> <option value="NM">NM</option> <option value="NY">NY</option> <option value="NC">NC</option> <option value="ND">ND</option> <option value="OH">OH</option> <option value="OK">OK</option> <option value="OR">OR</option> <option value="PA">PA</option> <option value="RI">RI</option> <option value="SC">SC</option> <option value="SD">SD</option> <option value="TN">TN</option> <option value="TX">TX</option> <option value="UT">UT</option> <option value="VT">VT</option> <option value="VA">VA</option> <option value="WA">WA</option> <option value="WV">WV</option> <option value="WI">WI</option> <option value="WY">WY</option>
+                  </select>
+                </div>
+                <div class="small-4 columns end"><input name="form.delivery_zip" type="text" placeholder="Zip Code" /></div>
+              </div>
+              <div class="row collapse">
+                <div class="small-9 columns"><input name="form.email" type="email" placeholder="Email" /></div>
+                <div class="small-3 columns end"><input class="button submit" type="submit" value="Submit ›" /></div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="medium-6 columns address-column">
+          <ul class="vcard">
+            <li class="fn org">High Country News</li>
+            <li class="street-address">119 Grand Avenue</li>
+            <li class="post-office-box">PO Box 1090</li>
+            <li><span class="locality">Paonia</span>, <span class="state">CO</span> <span class="postal-code">81428</span></li>
+            <li class="tel">(970) 527-4898</li>
+            <li class="contact"><a href="/feedback/contact-us">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="medium-6 columns nav-column">
+          <ul class="side-nav">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/about/submissions">Pitch us a Story</a></li>
+            <li><a href="/about/internships">Internships</a></li>
+            <li><a href="/edu">Education</a></li>
+            <li><a href="/support">Support Our Work</a></li>
+            <li><a href="/advertising">Advertising</a></li>
+            <li><a href="/syndication">Syndication</a></li>
+            <li><a href="/subscriber-services">Subscriber Services</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row colophon">
+        <div class="medium-6 columns">
+          <ul class="sharelinks inline-list">
+            <li class="icon facebook"><a target="_blank" href="https://www.facebook.com/highcountrynews" title="Facebook">Facebook</a></li>
+            <li class="icon twitter"><a target="_blank" href="https://twitter.com/highcountrynews" title="Twitter">Twitter</a></li>
+            <li class="icon instagram"><a target="_blank" href="https://www.instagram.com/highcountrynews/" title="Instagram">Instagram</a></li>
+            <li class="icon youtube"><a target="_blank" href="https://www.youtube.com/user/highcountrynews" title="YouTube">YouTube</a></li>
+            <li class="icon linkedin"><a target="_blank" href="https://www.linkedin.com/company/high-country-news" title="LinkedIn">LinkedIn</a></li>
+            <li class="icon tumblr"><a target="_blank" href="http://highcountrynews.tumblr.com/" title="Tumblr">Tumblr</a></li>
+            <li class="icon rss"><a href="/rss" title="RSS">RSS</a></li>
+          </ul>
+        </div>
+        <div class="medium-6 columns legal">
+          © <span class="year">2014</span> High Country News. All rights reserved.
+          <a href="/policies/privacy-policy">Privacy Policy</a> |
+          <a href="/policies/website-terms-of-use">Terms of Use</a>
+        </div>
+      </div>
+    </footer><div id="image-modal" class="reveal-modal" data-reveal="" onclick="$(this).foundation('reveal', 'close');"></div><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script id="appjs" src="/++theme++hcn/js/app.dev.js?v=2"></script><script type="text/javascript">//<!--
+window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":2,"licenseKey":"32a94a1c28","agent":"","transactionName":"bwAAZUJWXUYFBkJQVlZKOF5AUgEaAgpaXVxKOhFEXVpSRx06QFBcT0sSRQ==","applicationID":"233770702","errorBeacon":"bam.nr-data.net","applicationTime":1164}
+//--></script></body>
+</html>

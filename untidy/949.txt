@@ -1,0 +1,1424 @@
+
+
+![Page semi-protected](//upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-
+
+protection-shackle.svg/20px-Semi-protection-shackle.svg.png)
+
+# Alcohol
+
+From Wikipedia, the free encyclopedia
+
+Jump to navigation Jump to search
+
+This article is about the class of chemical compounds. For ethanol found in
+alcoholic drinks, see Alcohol (drug). For other uses, see Alcohol
+(disambiguation).
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/0/02/Alcohol.png/180px-
+
+Alcohol.png)
+
+Ball-and-stick model of an alcohol molecule (R3COH). The red and grey balls
+represent the hydroxyl group (-OH). The three "R's" stand for carbon
+substituents or hydrogen atoms.[1]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Alcohol_general.svg/180px-
+
+Alcohol_general.svg.png)
+
+The bond angle between an hydroxyl group (-OH) and a chain of carbon atoms (R)
+
+In chemistry, an **alcohol** is any organic compound in which the hydroxyl
+functional group (–OH) is bound to a carbon.[2] The term alcohol originally
+referred to the primary alcohol ethanol (ethyl alcohol), which is used as a
+drug and is the main alcohol present in alcoholic beverages. An important
+class of alcohols, of which methanol and ethanol are the simplest members,
+includes all compounds for which the general formula is C nH2n+1OH. It is
+these simple monoalcohols that are the subject of this article.
+
+The suffix _-ol_ appears in the IUPAC chemical name of all substances where
+the hydroxyl group is the functional group with the highest priority. When a
+higher priority group is present in the compound, the prefix _hydroxy-_ is
+used in its IUPAC name. The suffix _-ol_ in non-IUPAC names (such as
+paracetamol or cholesterol) also typically indicates that the substance is an
+alcohol. However, many substances that contain hydroxyl functional groups
+(particularly sugars, such as glucose and sucrose) have names which include
+neither the suffix _-ol_ , nor the prefix _hydroxy-_.
+
+## Contents
+
+  * 1 History
+  * 2 Nomenclature
+    * 2.1 Etymology
+    * 2.2 Systematic names
+    * 2.3 Common names
+  * 3 Applications
+  * 4 Toxicity
+  * 5 Physical properties
+  * 6 Occurrence in nature
+  * 7 Production
+    * 7.1 Ziegler and oxo processes
+    * 7.2 Hydration reactions
+    * 7.3 Biological routes
+    * 7.3.1 Substitution
+    * 7.3.2 Reduction
+    * 7.3.3 Hydrolysis
+  * 8 Reactions
+    * 8.1 Deprotonation
+    * 8.2 Nucleophilic substitution
+    * 8.3 Dehydration
+    * 8.4 Esterification
+    * 8.5 Oxidation
+  * 9 See also
+  * 10 Notes
+  * 11 References
+  * 12 External links
+
+## History
+
+Alcohol distillation likely originated in India. During 2000 BCE, people of
+India used an alcoholic drink called _Sura_.[3] Alcohol distillation was known
+to Islamic chemists as early as the eighth century.[4][5]
+
+The Arab chemist, al-Kindi, unambiguously described the distillation of wine
+in a treatise titled as "The Book of the chemistry of Perfume and
+Distillations".[6][7][8]
+
+The Persian physician, alchemist, polymath and philosopher Rhazes (854 CE –
+925 CE)[9] is credited with the discovery of ethanol.[10][11]
+
+## Nomenclature
+
+### Etymology
+
+The word "alcohol" is from the Arabic _kohl_ (Arabic: الكحل, romanized: _al-
+kuḥl_ ), a powder used as an eyeliner.[12] Al- is the Arabic definite article,
+equivalent to _the_ in English. _Alcohol_ was originally used for the very
+fine powder produced by the sublimation of the natural mineral stibnite to
+form antimony trisulfide Sb  
+2S  
+3\. It was considered to be the essence or "spirit" of this mineral. It was
+used as an antiseptic, eyeliner, and cosmetic. The meaning of alcohol was
+extended to distilled substances in general, and then narrowed to ethanol,
+when "spirits" was a synonym for hard liquor.[13]
+
+Bartholomew Traheron, in his 1543 translation of John of Vigo, introduces the
+word as a term used by "barbarous" (Moorish) authors for "fine powder." Vigo
+wrote: "the barbarous auctours use alcohol, or (as I fynde it sometymes
+wryten) alcofoll, for moost fine poudre."[14]
+
+The 1657 _Lexicon Chymicum_ , by William Johnson glosses the word as
+"antimonium sive stibium."[15] By extension, the word came to refer to any
+fluid obtained by distillation, including "alcohol of wine," the distilled
+essence of wine. Libavius in _Alchymia_ (1594) refers to "vini alcohol vel
+vinum alcalisatum". Johnson (1657) glosses _alcohol vini_ as "quando omnis
+superfluitas vini a vino separatur, ita ut accensum ardeat donec totum
+consumatur, nihilque fæcum aut phlegmatis in fundo remaneat." The word's
+meaning became restricted to "spirit of wine" (the chemical known today as
+ethanol) in the 18th century and was extended to the class of substances so-
+called as "alcohols" in modern chemistry after 1850.[14]
+
+The term _ethanol_ was invented 1892, combining the word ethane with the "-ol"
+ending of "alcohol".[16]
+
+### Systematic names
+
+IUPAC nomenclature is used in scientific publications and where precise
+identification of the substance is important, especially in cases where the
+relative complexity of the molecule does not make such a systematic name
+unwieldy. In naming simple alcohols, the name of the alkane chain loses the
+terminal _e_ and adds the suffix _-ol_ , _e.g._ , as in "ethanol" from the
+alkane chain name "ethane".[17] When necessary, the position of the hydroxyl
+group is indicated by a number between the alkane name and the _-ol_ :
+propan-1-ol for CH  
+3CH  
+2CH  
+2OH, propan-2-ol for CH  
+3CH(OH)CH  
+3\. If a higher priority group is present (such as an aldehyde, ketone, or
+carboxylic acid), then the prefix _hydroxy-_ is used,[17] e.g., as in
+1-hydroxy-2-propanone (CH  
+3C(O)CH  
+2OH).[18]
+
+Some examples of simple alcohols and how to name them CH3–CH2–CH2–OH |
+![Propan-2-ol
+
+displayed.svg](//upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Propan-2-ol_displayed.svg/85px-
+
+Propan-2-ol_displayed.svg.png) | ![Cyclohexanol
+
+displayed.svg](//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Cyclohexanol_displayed.svg/110px-
+
+Cyclohexanol_displayed.svg.png) | ![2-methylpropan-1-ol
+
+displayed.svg](//upload.wikimedia.org/wikipedia/commons/thumb/e/e1/2-methylpropan-1-ol_displayed.svg/100px-2-methylpropan-1-ol_displayed.svg.png)
+| ![2-methylbutan-2-ol
+
+displayed.svg](//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/2-methylbutan-2-ol_displayed.svg/100px-2-methylbutan-2-ol_displayed.svg.png)  
+\---|---|---|---|---  
+![Propan-1-ol.svg](//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Propan-1-ol.svg/100px-
+
+Propan-1-ol.svg.png) |
+![2-Propanol.svg](//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/2-Propanol.svg/60px-2-Propanol.svg.png)
+| ![Cyclohexanol
+
+acsv.svg](//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Cyclohexanol_acsv.svg/100px-
+
+Cyclohexanol_acsv.svg.png) |
+![Isobutanol.svg](//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Isobutanol.svg/110px-
+
+Isobutanol.svg.png) | ![2-Methyl-2-butanol
+
+FormulaV1-Seite001.svg](//upload.wikimedia.org/wikipedia/commons/thumb/9/98/2-Methyl-2-butanol_FormulaV1-Seite001.svg/100px-2-Methyl-2-butanol_FormulaV1-Seite001.svg.png)  
+_n_ -propyl alcohol,  
+propan-1-ol, or  
+1-propanol | isopropyl alcohol,  
+propan-2-ol, or  
+2-propanol | cyclohexanol | isobutyl alcohol,  
+2-methylpropan-1-ol, or  
+2-methyl-1-propanol | _tert_ -amyl alcohol,  
+2-methylbutan-2-ol, or  
+2-methyl-2-butanol  
+A primary alcohol | A secondary alcohol | A secondary alcohol | A primary
+alcohol | A tertiary alcohol
+
+In cases where the OH functional group is bonded to an sp2 carbon on an
+aromatic ring the molecule is known as a phenol, and is named using the IUPAC
+rules for naming phenols.[19]
+
+### Common names
+
+In other less formal contexts, an alcohol is often called with the name of the
+corresponding alkyl group followed by the word "alcohol", e.g., methyl
+alcohol, ethyl alcohol. Propyl alcohol may be _n_ -propyl alcohol or isopropyl
+alcohol, depending on whether the hydroxyl group is bonded to the end or
+middle carbon on the straight propane chain. As described under systematic
+naming, if another group on the molecule takes priority, the alcohol moiety is
+often indicated using the "hydroxy-" prefix.[20]
+
+Alcohols are then classified into primary, secondary ( _sec-_ , _s-_ ), and
+tertiary ( _tert-_ , _t-_ ), based upon the number of carbon atoms connected
+to the carbon atom that bears the hydroxyl functional group. (The respective
+numeric shorthands 1°, 2°, and 3° are also sometimes used in informal
+settings.[21]) The primary alcohols have general formulas RCH2OH. The simplest
+primary alcohol is methanol (CH3OH), for which R=H, and the next is ethanol,
+for which R=CH3, the methyl group. Secondary alcohols are those of the form
+RR'CHOH, the simplest of which is 2-propanol (R=R'=CH3). For the tertiary
+alcohols the general form is RR'R"COH. The simplest example is tert-butanol
+(2-methylpropan-2-ol), for which each of R, R', and R" is CH3. In these
+shorthands, R, R', and R" represent substituents, alkyl or other attached,
+generally organic groups.
+
+In archaic nomenclature, alcohols can be named as derivatives of methanol
+using "-carbinol" as the ending. For instance, (CH3)3COH can be named
+trimethylcarbinol.
+
+Type | Formula | IUPAC Name | Common name  
+\---|---|---|---  
+_Monohydric  
+alcohols_ | CH3OH | Methanol | Wood alcohol  
+C2H5OH | Ethanol | Alcohol  
+C3H7OH | Propan-2-ol | Isopropyl alcohol,  
+Rubbing alcohol  
+C4H9OH | Butan-1-ol | Butanol,  
+Butyl alcohol  
+C5H11OH | Pentan-1-ol | Pentanol,  
+Amyl alcohol  
+C16H33OH | Hexadecan-1-ol | Cetyl alcohol  
+_Polyhydric  
+alcohols_ | C2H4(OH)2 | Ethane-1,2-diol | Ethylene glycol  
+C3H6(OH)2 | Propane-1,2-diol | Propylene glycol  
+C3H5(OH)3 | Propane-1,2,3-triol | Glycerol  
+C4H6(OH)4 | Butane-1,2,3,4-tetraol | Erythritol,  
+Threitol  
+C5H7(OH)5 | Pentane-1,2,3,4,5-pentol | Xylitol  
+C6H8(OH)6 | hexane-1,2,3,4,5,6-hexol | Mannitol,  
+Sorbitol  
+C7H9(OH)7 | Heptane-1,2,3,4,5,6,7-heptol | Volemitol  
+_Unsaturated  
+aliphatic  
+alcohols_ | C3H5OH | Prop-2-ene-1-ol | Allyl alcohol  
+C10H17OH | 3,7-Dimethylocta-2,6-dien-1-ol | Geraniol  
+C3H3OH | Prop-2-yn-1-ol | Propargyl alcohol  
+_Alicyclic  
+alcohols_ | C6H6(OH)6 | Cyclohexane-1,2,3,4,5,6-hexol | Inositol  
+C10H19OH | 5-Methyl-2-(propan-2-yl)cyclohexan-1-ol | Menthol
+
+## Applications
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/9/94/Alcohol_by_Country.png/200px-
+
+Alcohol_by_Country.png)
+
+Total recorded alcohol per capita consumption (15+), in litres of pure
+ethanol[22]
+
+Alcohols have a long history of myriad uses. For simple mono-alcohols, which
+is the focus on this article, the following are most important industrial
+alcohols:[23]
+
+  * methanol, mainly for the production of formaldehyde and as a fuel additive
+  * ethanol, mainly for alcoholic beverages, fuel additive, solvent
+  * 1-propanol, 1-butanol, and isobutyl alcohol for use as a solvent and precursor to solvents
+  * C6–C11 alcohols used for plasticizers, e.g. in polyvinylchloride
+  * fatty alcohol (C12–C18), precursors to detergents
+
+Methanol is the most common industrial alcohol, with about 12 million tons/y
+produced in 1980. The combined capacity of the other alcohols is about the
+same, distributed roughly equally.[23]
+
+## Toxicity
+
+Main articles: ethanol and methanol
+
+With respect to acute toxicity, simple alcohols have low acute toxicities.
+Doses of several milliliters are tolerated. For pentanols, hexanols, octanols
+and longer alcohols, LD50 range from 2–5 g/kg (rats, oral). Methanol and
+ethanol are less acutely toxic. All alcohols are mild skin irritants.[23]
+
+The metabolism of methanol (and ethylene glycol) is affected by the presence
+of ethanol, which has a higher affinity for liver alcohol dehydrogenase. In
+this way methanol will be excreted intact in urine.[24][25][26]
+
+## Physical properties
+
+In general, the hydroxyl group makes alcohols polar. Those groups can form
+hydrogen bonds to one another and to most other compounds. Owing to the
+presence of the polar OH alcohols are more water-soluble than simple
+hydrocarbons. Methanol, ethanol, and propanol are miscible in water. Butanol,
+with a four-carbon chain, is moderately soluble.
+
+Because of hydrogen bonding, alcohols tend to have higher boiling points than
+comparable hydrocarbons and ethers. The boiling point of the alcohol ethanol
+is 78.29 °C, compared to 69 °C for the hydrocarbon hexane, and 34.6 °C for
+diethyl ether.
+
+## Occurrence in nature
+
+Simple alcohols are found widely in nature. Ethanol is most prominent because
+it is the product of fermentation, a major energy-producing pathway. The other
+simple alcohols are formed in only trace amounts. More complex alcohols are
+pervasive, as manifested in sugars, some amino acids, and fatty acids.
+
+## Production
+
+### Ziegler and oxo processes
+
+In the Ziegler process, linear alcohols are produced from ethylene and
+triethylaluminium followed by oxidation and hydrolysis.[23] An idealized
+synthesis of 1-octanol is shown:
+
+    
+    
+    Al(C2H5)3 \+ 9 C2H4 → Al(C8H17)3
+    Al(C8H17)3 \+ 3 O + 3 H2O → 3 HOC8H17 \+ Al(OH)3
+    
+
+The process generates a range of alcohols that are separated by distillation.
+
+Many higher alcohols are produced by hydroformylation of alkenes followed by
+hydrogenation. When applied to a terminal alkene, as is common, one typically
+obtains a linear alcohol:[23]
+
+    
+    
+    RCH=CH2 \+ H2 \+ CO → RCH2CH2CHO
+    RCH2CH2CHO + 3 H2 → RCH2CH2CH2OH
+    
+
+Such processes give fatty alcohols, which are useful for detergents.
+
+### Hydration reactions
+
+Some low molecular weight alcohols of industrial importance are produced by
+the addition of water to alkenes. Ethanol, isopropanol, 2-butanol, and tert-
+butanol are produced by this general method. Two implementations are employed,
+the direct and indirect methods. The direct method avoids the formation of
+stable intermediates, typically using acid catalysts. In the indirect method,
+the alkene is converted to the sulfate ester, which is subsequently
+hydrolyzed. The direct hydration using ethylene (ethylene hydration)[27] or
+other alkenes from cracking of fractions of distilled crude oil.
+
+Hydration is also used industrially to produce the diol ethylene glycol from
+ethylene oxide.
+
+### Biological routes
+
+Ethanol is obtained by fermentation using glucose produced from sugar from the
+hydrolysis of starch, in the presence of yeast and temperature of less than 37
+°C to produce ethanol. For instance, such a process might proceed by the
+conversion of sucrose by the enzyme invertase into glucose and fructose, then
+the conversion of glucose by the enzyme complex zymase into ethanol (and
+carbon dioxide).
+
+Several species of the benign bacteria in the intestine use fermentation as a
+form of anaerobic metabolism. This metabolic reaction produces ethanol as a
+waste product. Thus, human bodies contain some quantity of alcohol
+endogenously produced by these bacteria. In rare cases, this can be sufficient
+to cause "auto-brewery syndrome" in which intoxicating quantities of alcohol
+are produced.[28][29][30]
+
+Like ethanol, butanol can be produced by fermentation processes. Saccharomyces
+yeast are known to produce these higher alcohols at temperatures above 75 °F
+(24 °C). The bacterium _Clostridium acetobutylicum_ can feed on cellulose to
+produce butanol on an industrial scale.[31]
+
+#### Substitution
+
+Primary alkyl halides react with aqueous NaOH or KOH mainly to primary
+alcohols in nucleophilic aliphatic substitution. (Secondary and especially
+tertiary alkyl halides will give the elimination (alkene) product instead).
+Grignard reagents react with carbonyl groups to secondary and tertiary
+alcohols. Related reactions are the Barbier reaction and the Nozaki-Hiyama
+reaction.
+
+#### Reduction
+
+Aldehydes or ketones are reduced with sodium borohydride or lithium aluminium
+hydride (after an acidic workup). Another reduction by aluminiumisopropylates
+is the Meerwein-Ponndorf-Verley reduction. Noyori asymmetric hydrogenation is
+the asymmetric reduction of β-keto-esters.
+
+#### Hydrolysis
+
+Alkenes engage in an acid catalysed hydration reaction using concentrated
+sulfuric acid as a catalyst that gives usually secondary or tertiary alcohols.
+The hydroboration-oxidation and oxymercuration-reduction of alkenes are more
+reliable in organic synthesis. Alkenes react with NBS and water in halohydrin
+formation reaction. Amines can be converted to diazonium salts, which are then
+hydrolyzed.
+
+The formation of a secondary alcohol via reduction and hydration is shown:
+
+    
+    
+    ![Preparation of a secondary alcohol](//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Secondary_alcohol_formation-diagram.svg/350px-Secondary_alcohol_formation-diagram.svg.png)
+    
+
+## Reactions
+
+### Deprotonation
+
+With a pKa of around 16–19, they are, in general, slightly weaker acids than
+water. With strong bases such as sodium hydride or sodium they form salts
+called **alkoxides** , with the general formula RO− M+.
+
+    
+    
+    2 R-OH + 2 NaH → 2 R-O−Na+ \+ 2 H2
+    2 R-OH + 2 Na → 2 R-O−Na+ \+ H2
+    
+
+The acidity of alcohols is strongly affected by solvation. In the gas phase,
+alcohols are more acidic than is water.[32]
+
+### Nucleophilic substitution
+
+The OH group is not a good leaving group in nucleophilic substitution
+reactions, so neutral alcohols do not react in such reactions. However, if the
+oxygen is first protonated to give R−OH2+, the leaving group (water) is much
+more stable, and the nucleophilic substitution can take place. For instance,
+tertiary alcohols react with hydrochloric acid to produce tertiary alkyl
+halides, where the hydroxyl group is replaced by a chlorine atom by
+unimolecular nucleophilic substitution. If primary or secondary alcohols are
+to be reacted with hydrochloric acid, an activator such as zinc chloride is
+needed. In alternative fashion, the conversion may be performed directly using
+thionyl chloride.[1]
+
+![Some simple conversions of alcohols to alkyl
+
+chlorides](//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Alcohol_reaction_examples.gif/700px-
+
+Alcohol_reaction_examples.gif)
+
+Alcohols may, likewise, be converted to alkyl bromides using hydrobromic acid
+or phosphorus tribromide, for example:
+
+    
+    
+    3 R-OH + PBr3 → 3 RBr + H3PO3
+    
+
+In the Barton-McCombie deoxygenation an alcohol is deoxygenated to an alkane
+with tributyltin hydride or a trimethylborane-water complex in a radical
+substitution reaction.
+
+### Dehydration
+
+Meanwhile, the oxygen atom has lone pairs of nonbonded electrons that render
+it weakly basic in the presence of strong acids such as sulfuric acid. For
+example, with methanol:
+
+![Acidity & basicity of
+
+methanol](//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Methanol_acid_base.svg/500px-
+
+Methanol_acid_base.svg.png)
+
+Upon treatment with strong acids, alcohols undergo the E1 elimination reaction
+to produce alkenes. The reaction, in general, obeys Zaitsev's Rule, which
+states that the most stable (usually the most substituted) alkene is formed.
+Tertiary alcohols eliminate easily at just above room temperature, but primary
+alcohols require a higher temperature.
+
+This is a diagram of acid catalysed dehydration of ethanol to produce
+ethylene:
+
+![DehydrationOfAlcoholWithH-.png](//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/DehydrationOfAlcoholWithH-.png/550px-
+
+DehydrationOfAlcoholWithH-.png)
+
+A more controlled elimination reaction is the with carbon disulfide and
+iodomethane.
+
+### Esterification
+
+Alcohol and carboxylic acids react in the so-called Fischer esterification.
+The reaction usually requires a catalyst, such as concentrated sulfuric acid:
+
+    
+    
+    R-OH + R'-CO2H → R'-CO2R + H2O
+    
+
+Other types of ester are prepared in a similar manner - for example, tosyl
+(tosylate) esters are made by reaction of the alcohol with p-toluenesulfonyl
+chloride in pyridine.
+
+### Oxidation
+
+Main article: Alcohol oxidation
+
+Primary alcohols (R-CH2OH) can be oxidized either to aldehydes (R-CHO) or to
+carboxylic acids (R-CO2H). The oxidation of secondary alcohols (R1R2CH-OH)
+normally terminates at the ketone (R1R2C=O) stage. Tertiary alcohols
+(R1R2R3C-OH) are resistant to oxidation.
+
+The direct oxidation of primary alcohols to carboxylic acids normally proceeds
+via the corresponding aldehyde, which is transformed via an _aldehyde hydrate_
+(R-CH(OH) 2) by reaction with water before it can be further oxidized to the
+carboxylic acid.
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Alcohol_to_aldehyde_to_acid.png/500px-
+
+Alcohol_to_aldehyde_to_acid.png)
+
+Mechanism of oxidation of primary alcohols to carboxylic acids via aldehydes
+and aldehyde hydrates
+
+Reagents useful for the transformation of primary alcohols to aldehydes are
+normally also suitable for the oxidation of secondary alcohols to ketones.
+These include Collins reagent and Dess-Martin periodinane. The direct
+oxidation of primary alcohols to carboxylic acids can be carried out using
+potassium permanganate or the Jones reagent.
+
+## See also
+
+  *     * Enol
+  * Ethanol fuel
+  * Fatty alcohol
+  * Index of alcohol-related articles
+  * Polyol
+  * Rubbing alcohol
+  * Sugar alcohol
+  * Transesterification
+  * Viktor Meyer test
+  * Lucas test
+
+## Notes
+
+  1. **^** "alcohols". _IUPAC Gold Book_. Retrieved 16 December 2013.
+  2. **^** IUPAC, _Compendium of Chemical Terminology_ , 2nd ed. (the "Gold Book") (1997). Online corrected version: (2006-) "Alcohols". doi:10.1351/goldbook.A00204
+  3. **^** Dhawendra Kumar (11 May 2012). _Genomics and Health in the Developing World_. Oxford University Press. p. 1128. ISBN 9780199705474.
+  4. **^** Al-Hassani, Salim; Abattouy, Mohammed. "The Advent of Scientific Chemistry". _Muslim Heritage_. Retrieved 17 May 2018.
+  5. **^** Curzon, George Nathaniel (7 July 2010). "The History of Alcohol in Islam". _Coming Anarchy_. Retrieved 17 May 2018.
+  6. **^** Forbes, R. J. (1970). _A Short History of the Art of Distillation_. Brill Publishers. p. 87. ISBN 978-9004006171.
+  7. **^** Multhauf, Robert (1966). _The Origins of Chemistry_. London. pp. 204–6.
+  8. **^** Hill, Donald Routledge (1993). _Islamic science and engineering_. Edinburgh University Press. ISBN 9780748604555.
+  9. **^** Hitti, Philip K. (1977). _History of the Arabs from the earliest times to the present_ (10th ed.). London: Macmillan Publishers. p. 365. ISBN 978-0-333-09871-4. "The most notable medical authors who followed the epoch of the great translators were Persian in nationality but Arab in language: 'Ali al-Tabari, al-Razi, 'Ali ibn-al-'Abbas al-Majusi and ibn-Sina."
+  10. **^** Modanlou, Houchang D. (November 2008). "A tribute to Zakariya Razi (865 - 925 AD), an Iranian pioneer scholar" (PDF). _Archives of Iranian Medicine_. **11** (6): 673–677. PMID 18976043. Retrieved 17 May 2018. "Abu Bakr Mohammad Ibn Zakariya al-Razi, known in the West as Rhazes, was born in 865 AD in the ancient city of Rey, Near Tehran. A musician during his youth he became an alchemist. He discovered alcohol and sulfuric acid. He classified substances as plants, organic, and inorganic."
+  11. **^** Schlosser, Stefan (May 2011). "Distillation – from Bronze Age till today". Retrieved 17 May 2018. "Al-Razi (865–925) was the preeminent Pharmacist and physician of his time [5]. The discovery of alcohol, first to produce acids such as sulfuric acid, writing up extensive notes on diseases such as smallpox and chickenpox, a pioneer in ophthalmology, author of first book on pediatrics, making leading contributions in inorganic and organic chemistry, also the author of several philosophical works."
+  12. **^** Harper, Douglas. "Alcohol". _Etymonline_. MaoningTech. Retrieved 17 May 2018.
+  13. **^** Lohninger, H. (21 December 2004). "Etymology of the Word "Alcohol"". _VIAS Encyclopedia_. Retrieved 17 May 2018.
+  14. ^ _**a**_ _**b**_ "alcohol, n.". _OED Online_. Oxford University Press. 15 November 2016.
+  15. **^** Johnson, William (1652). _Lexicon Chymicum_.
+  16. **^** Armstrong, Henry E. (8 July 1892). "Contributions to an international system of nomenclature. The nomenclature of cycloids". _Proc. Chem. Soc._ **8** (114): 128. doi:10.1039/PL8920800127. " As ol is indicative of an OH derivative, there seems no reason why the simple word acid should not connote carboxyl, and why al should not connote COH; the names ethanol ethanal and ethanoic acid or simply ethane acid would then stand for the OH, COH and COOH derivatives of ethane."
+  17. ^ _**a**_ _**b**_ William Reusch. "Alcohols". _VirtualText of Organic Chemistry_. Archived from the original on 19 September 2007. Retrieved 14 September 2007.
+  18. **^** Organic chemistry IUPAC nomenclature. Alcohols Rule C-201.
+  19. **^** Organic Chemistry Nomenclature Rule C-203: Phenols
+  20. **^** "How to name organic compounds using the IUPAC rules". _www.chem.uiuc.edu_. THE DEPARTMENT OF CHEMISTRY AT THE UNIVERSITY OF ILLINOIS. Retrieved 14 November 2016.
+  21. **^** Reusch, William. "Nomenclature of Alcohols". _chemwiki.ucdavis.edu/_. Retrieved 17 March 2015.
+  22. **^** "Global Status Report on Alcohol 2004" (PDF). Retrieved 28 November 2010.
+  23. ^ _**a**_ _**b**_ _**c**_ _**d**_ _**e**_ Falbe, Jürgen; Bahrmann, Helmut; Lipps, Wolfgang; Mayer, Dieter, "Alcohols, Aliphatic", _Ullmann's Encyclopedia of Industrial Chemistry_ , Weinheim: Wiley-VCH, doi:10.1002/14356007.a01_279.
+  24. **^** Schep LJ, Slaughter RJ, Vale JA, Beasley DM (30 September 2009). "A seaman with blindness and confusion". _BMJ_. **339** : b3929. doi:10.1136/bmj.b3929. PMID 19793790.
+  25. **^** Zimmerman HE, Burkhart KK, Donovan JW (1999). "Ethylene glycol and methanol poisoning: diagnosis and treatment". _Journal of Emergency Nursing_. **25** (2): 116–20. doi:10.1016/S0099-1767(99)70156-X. PMID 10097201.
+  26. **^** Lobert S (2000). "Ethanol, isopropanol, methanol, and ethylene glycol poisoning". _Critical Care Nurse_. **20** (6): 41–7. PMID 11878258.
+  27. **^** Lodgsdon J.E. (1994). "Ethanol". In Kroschwitz J.I. (ed.). _Encyclopedia of Chemical Technology_. **9** (4th ed.). New York: John Wiley  & Sons. p. 820. ISBN 978-0-471-52677-3.
+  28. **^** P. Geertinger MD; J. Bodenhoff; K. Helweg-Larsen; A. Lund (1 September 1982). "Endogenous alcohol production by intestinal fermentation in sudden infant death". _Zeitschrift für Rechtsmedizin_. Springer-Verlag. **89** (3): 167–172. doi:10.1007/BF01873798.
+  29. **^** Logan BK, Jones AW (July 2000). "Endogenous ethanol 'auto-brewery syndrome' as a drunk-driving defence challenge". _Medicine, Science, and the Law_. **40** (3): 206–15. doi:10.1177/002580240004000304. PMID 10976182.
+  30. **^** Cecil Adams (20 October 2006). "Designated drunk: Can you get intoxicated without actually drinking alcohol?". _The Straight Dope_. Retrieved 27 February 2013.
+  31. **^** Zverlov, W; Berezina, O; Velikodvorskaya, GA; Schwarz, WH (August 2006). "Bacterial acetone and butanol production by industrial fermentation in the Soviet Union: use of hydrolyzed agricultural waste for biorefinery". _Applied Microbiology and Biotechnology_. **71** (5): 587–97. doi:10.1007/s00253-006-0445-z. PMID 16685494.
+  32. **^** Smith, Michael B.; March, Jerry (2007), _Advanced Organic Chemistry: Reactions, Mechanisms, and Structure_ (6th ed.), New York: Wiley-Interscience, ISBN 978-0-471-72091-1
+
+## References
+
+  * Metcalf, Allan A. (1999). _The World in So Many Words_. Houghton Mifflin. ISBN 0-395-95920-9.
+
+## External links
+
+**Alcohol** at Wikipedia's sister projects
+
+  * ![](//upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/27px-Wiktionary-logo-v2.svg.png) Definitions from Wiktionary
+  * ![](//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/20px-Commons-logo.svg.png)Media from Wikimedia Commons
+  * ![](//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/27px-Wikinews-logo.svg.png)News from Wikinews
+  * ![](//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/23px-Wikiquote-logo.svg.png)Quotations from Wikiquote
+  * ![](//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/26px-Wikisource-logo.svg.png)Texts from Wikisource
+  * ![](//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/27px-Wikibooks-logo.svg.png)Textbooks from Wikibooks
+  * ![](//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Wikivoyage-Logo-v3-icon.svg/27px-Wikivoyage-Logo-v3-icon.svg.png)Travel guide from Wikivoyage
+  * ![](//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Wikiversity-logo-en.svg/27px-Wikiversity-logo-en.svg.png)Resources from Wikiversity
+  * ![](//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/27px-Wikidata-logo.svg.png)Data from Wikidata
+
+  * Alcohol (Ethanol) at _The Periodic Table of Videos_ (University of Nottingham)
+
+  * v
+
+  * t
+  * e
+
+Alcohols
+
+* * *
+
+Straight-chain  
+primary  
+alcohols (1°)|
+
+  * Methanol (C  
+1)
+
+  * Ethanol (C  
+2)
+
+  * 1-Propanol (C  
+3)
+
+  * _n_ -Butanol (C  
+4)
+
+  * 1-Pentanol (C  
+5)
+
+  * 1-Hexanol (C  
+6)
+
+  * 1-Heptanol (C  
+7)
+
+  * 1-Octanol (C  
+8)
+
+  * 1-Nonanol (C  
+9)
+
+  * 1-Decanol (C  
+10)
+
+  * Undecanol (C  
+11)
+
+  * Dodecanol (C  
+12)
+
+  * Tridecan-1-ol (C  
+13)
+
+  * 1-Tetradecanol (C  
+14)
+
+  * Pentadecan-1-ol (C  
+15)
+
+  * Cetyl alcohol (C  
+16)
+
+  * Heptadecan-1-ol (C  
+17)
+
+  * Stearyl alcohol (C  
+18)
+
+  * Nonadecan-1-ol (C  
+19)
+
+  * Arachidyl alcohol (C  
+20)
+
+  * Heneicosan-1-ol (C  
+21)
+
+  * Docosanol (C  
+22)
+
+  * Tricosan-1-ol (C  
+23)
+
+  * 1-Tetracosanol (C  
+24)
+
+  * Pentacosan-1-ol (C  
+25)
+
+  * 1-Hexacosanol (C  
+26)
+
+  * 1-Heptacosanol (C  
+27)
+
+  * 1-Octacosanol (C  
+28)
+
+  * 1-Nonacosanol (C  
+29)
+
+  * Triacontanol (C  
+30)
+
+Other primary  
+alcohols|
+
+  * Isobutanol (C  
+4)
+
+  * Isoamyl alcohol (C  
+5)
+
+  * 2-Methyl-1-butanol (C  
+5)
+
+  * Phenethyl alcohol (C  
+8)
+
+  * Tryptophol (C  
+10)
+
+Secondary  
+alcohols (2°)|
+
+  * Isopropanol (C  
+3)
+
+  * 2-Butanol (C  
+4)
+
+  * 2-Pentanol (C  
+5)
+
+  * 2-Hexanol (C  
+6)
+
+  * 2-Heptanol (C  
+7)
+
+  * Cyclohexanol (C  
+6)
+
+  * 2-Octanol (C  
+8)
+
+Tertiary  
+alcohols (3°)|
+
+  * _tert_ -Butyl alcohol (C  
+4)
+
+  * _tert_ -Amyl alcohol (C  
+5)
+
+  * 2-Methyl-2-pentanol (C  
+6)
+
+  * 2-Methylhexan-2-ol (C  
+7)
+
+  * 2-Methylheptan-2-ol (C  
+8)
+
+  * 3-Methyl-3-pentanol (C  
+6)
+
+  * 3-Methyloctan-3-ol (C  
+9)
+
+  * ![Category](//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png) Category
+
+  * v
+
+  * t
+  * e
+
+Alcohol-related topics by country
+
+* * *
+
+Countries|
+
+  * Afghanistan
+  * Australia
+  * Bangladesh
+  * Indonesia
+  * Iran
+  * Malaysia
+  * New Zealand
+  * Sudan
+
+|
+
+![Alcohol by
+
+Country.png](//upload.wikimedia.org/wikipedia/commons/thumb/9/94/Alcohol_by_Country.png/160px-
+
+Alcohol_by_Country.png)
+
+Cultures|
+
+  * Australia
+  * Korea
+
+Types|
+
+  * Canada
+  * China
+  * Sweden
+
+Laws|
+
+  * Australia
+  * Canada
+  * Iceland
+  * India
+    * Prohibition
+  * Germany
+  * Russia
+    * Consumption
+  * United Kingdom
+  * United States
+
+    * Youth consumption
+  * v
+
+  * t
+  * e
+
+Functional groups
+
+* * *
+
+| Only carbon,  
+hydrogen,  
+and oxygen|
+
+| Hydrocarbons|
+
+  * Allene
+  * Alkene (Allyl, Vinyl)
+  * Alkyl (Methyl, Ethyl, Propyl, Butyl, Pentyl)
+  * Alkyne
+  * Benzyl
+  * Carbene
+  * Cumulene
+  * Methylene bridge
+  * Methylene group
+  * Methine
+  * Phenyl
+
+\---|---  
+Other|
+
+  * Acetoxy
+  * Acetyl
+  * Acryloyl
+  * Acyl
+  * Aldehyde
+  * Alkoxy (Methoxy)
+  * Benzoyl
+  * Carbonyl
+  * Carboxyl
+  * Carboxylic anhydride
+  * Dioxirane
+  * Epoxide
+  * Ester
+  * Ether
+  * Ethylenedioxy
+  * Hydroxy
+  * Ketone
+  * Methylenedioxy
+  * Peroxide (Organic)
+  * Ynone
+
+Only one  
+element  
+apart from  
+C, H, O|
+
+| Nitrogen|
+
+  * Amine
+  * Azo compound
+  * Cyanate
+  * Hydrazone
+  * Imide
+  * Imine
+  * Isocyanate
+  * Isonitrile
+  * Nitrene
+  * Nitrile
+  * Nitro compound
+  * Nitroso compound
+  * Organic amide
+  * Oxime
+
+\---|---  
+Phosphorus|
+
+  * Phosphonate
+  * Phosphonous
+
+Sulfur|
+
+  * Disulfide
+  * Sulfone
+  * Sulfonic acid
+  * Sulfoxide
+  * Thial
+  * Thioester
+  * Thioether
+  * Thioketone
+  * Thiol
+
+Selenium|
+
+  * Selenol
+  * Selenonic acid
+  * Seleninic acid
+  * Selenenic acid
+
+Tellurium|
+
+  * Tellurol
+
+Other|
+
+  * Isothiocyanate
+  * Phosphoramide
+  * Sulfenyl chloride
+  * Sulfonamide
+  * Thiocyanate
+
+See also _chemical classification_ , _chemical nomenclature_ (inorganic,
+organic)
+
+  * v
+  * t
+  * e
+
+Bioenergy
+
+* * *
+
+Biofuels|
+
+  * Alcohol
+  * Algae fuel
+  * Bagasse
+  * Babassu oil
+  * Biobutanol
+  * Biodiesel
+  * Biogas
+  * Biogasoline
+  * Bioliquids
+  * Corn stover
+  * Ethanol
+    * cellulosic
+    * mixtures
+  * Methanol
+  * Stover
+    * Corn stover
+  * Straw
+  * Cooking oil
+    * Vegetable oil fuel
+  * Water hyacinth
+  * Wood gas
+
+|
+
+![Sugarcane
+
+field.jpg](//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Sugarcane_field.jpg/120px-
+
+Sugarcane_field.jpg)
+
+Energy from  
+foodstock|
+
+  * Barley
+  * Cassava
+  * Coconut oil
+  * Grape
+  * Hemp
+  * Maize
+  * Oat
+  * Palm oil
+  * Potato
+  * Rapeseed
+  * Rice
+  * _Sorghum bicolor_
+  * Soybean
+  * Sugarcane
+  * Sugar beet
+  * Sunflower
+  * Wheat
+  * Yam
+  * _Camelina sativa_
+
+Non-food  
+energy crops|
+
+  * _Arundo_
+  * Big bluestem
+  * _Camelina_
+  * Chinese tallow
+  * Duckweed
+  * _Jatropha curcas_
+  * _Millettia pinnata_
+  * _Miscanthus giganteus_
+  * Switchgrass
+  * Salicornia
+  * Wood fuel
+
+Technology|
+
+  * BECCS
+  * Bioconversion
+  * Biomass heating systems
+  * Biorefinery
+  * Fischer–Tropsch process
+  * Industrial biotechnology
+  * Pellets
+    * mill
+    * stove
+  * Thermal depolymerization
+
+Concepts|
+
+  * Cellulosic ethanol commercialization
+  * Energy content of biofuel
+  * Energy crop
+  * Energy forestry
+  * EROEI
+  * Food vs. fuel
+  * Issues
+  * Sustainable biofuel
+
+  * v
+
+  * t
+  * e
+
+Alternative fuel vehicles
+
+* * *
+
+Compressed-air engine|
+
+  * Compressed air car
+  * Compressed-air vehicle
+  * Tesla turbine
+
+|
+
+![Elektroauto
+
+1.jpg](//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Elektroauto_1.jpg/250px-
+
+Elektroauto_1.jpg)
+
+Electric motor|
+
+  * Battery-electric locomotive
+  * Battery electric vehicle
+  * Cater MetroTrolley
+  * Electric aircraft
+  * Electric bicycle
+  * Pedelec
+  * Electric boat
+  * Electric bus
+    * Battery electric bus
+  * Electric car
+    * List
+  * Electric truck
+  * Electric platform truck
+  * Electric vehicle
+  * Electric motorcycles and scooters
+  * Electric kick scooter
+  * Gyro flywheel locomotive
+  * Hybrid electric vehicle
+  * Hybrid train
+  * Motorized bicycle
+  * Neighborhood Electric Vehicle
+  * Plug-in electric vehicle
+    * List
+  * Plug-in hybrid electric vehicle
+  * Solar vehicle
+    * Solar car
+    * Solar bus
+
+Biofuel ICE|
+
+  * Alcohol fuel
+  * Biodiesel
+  * Biogas
+  * Butanol fuel
+  * Common ethanol fuel mixtures
+  * E85
+  * Ethanol fuel
+  * Flexible-fuel vehicle
+  * Methanol economy
+  * Methanol fuel
+  * Wood gas
+
+Hydrogen|
+
+  * Fuel cell vehicle
+  * Hydrogen economy
+  * Hydrogen vehicle
+  * Hydrogen internal combustion engine vehicle
+
+Others|
+
+  * Autogas
+  * Hybrid electric vehicle
+  * Liquid nitrogen vehicle
+  * Natural gas vehicle
+  * Propane
+  * Steam car
+
+Multiple-fuel|
+
+  * Bi-fuel vehicle
+  * Flexible-fuel vehicle
+  * Hybrid vehicle
+  * Multifuel
+  * Plug-in hybrid
+
+Documentaries|
+
+  * _Who Killed the Electric Car?_
+  * _What Is the Electric Car?_
+  * _Revenge of the Electric Car_
+
+See also|
+
+  * Wind-powered vehicle
+  * Zero-emissions vehicle
+
+Authority control ![Edit this at
+
+Wikidata](//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-
+
+Blue_pencil.svg.png)|
+
+  * GND: 4141899-2
+  * LCCN: sh85003314
+  * NARA: 10640163
+  * NDL: 00560350
+
+\---|---
+
+![](//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1)
+
+Retrieved from
+"https://en.wikipedia.org/w/index.php?title=Alcohol&oldid=899348533"
+
+Categories:
+
+  * Alcohols
+  * Antiseptics
+  * Functional groups
+
+Hidden categories:
+
+  * CS1: Julian–Gregorian uncertainty
+  * Wikipedia indefinitely semi-protected pages
+  * Wikipedia indefinitely move-protected pages
+  * Use dmy dates from August 2014
+  * Articles containing Arabic-language text
+  * Portal templates with all redlinked portals
+  * Wikipedia articles with GND identifiers
+  * Wikipedia articles with LCCN identifiers
+  * Wikipedia articles with NARA identifiers
+  * Wikipedia articles with NDL identifiers
+
+## Navigation menu
+
+### Personal tools
+
+  * Not logged in
+  * Talk
+  * Contributions
+  * Create account
+  * Log in
+
+### Namespaces
+
+  * Article
+  * Talk
+
+### Variants
+
+### Views
+
+  * Read
+  * View source
+  * View history
+
+### More
+
+### Search
+
+### Navigation
+
+  * Main page
+  * Contents
+  * Featured content
+  * Current events
+  * Random article
+  * Donate to Wikipedia
+  * Wikipedia store
+
+### Interaction
+
+  * Help
+  * About Wikipedia
+  * Community portal
+  * Recent changes
+  * Contact page
+
+### Tools
+
+  * What links here
+  * Related changes
+  * Upload file
+  * Special pages
+  * Permanent link
+  * Page information
+  * Wikidata item
+  * Cite this page
+
+### In other projects
+
+  * Wikimedia Commons
+  * Wikibooks
+
+### Print/export
+
+  * Create a book
+  * Download as PDF
+  * Printable version
+
+### Languages
+
+  * Afrikaans
+  * Alemannisch
+  * العربية
+  * Aragonés
+  * Armãneashti
+  * অসমীয়া
+  * Asturianu
+  * Azərbaycanca
+  * تۆرکجه
+  * বাংলা
+  * Bân-lâm-gú
+  * Башҡортса
+  * Беларуская
+  * Беларуская (тарашкевіца)‎
+  * Български
+  * Bosanski
+  * Brezhoneg
+  * Català
+  * Čeština
+  * Cymraeg
+  * Dansk
+  * Deutsch
+  * Eesti
+  * Ελληνικά
+  * Español
+  * Esperanto
+  * Euskara
+  * فارسی
+  * Fiji Hindi
+  * Føroyskt
+  * Français
+  * Gaeilge
+  * Gaelg
+  * Gàidhlig
+  * Galego
+  * ગુજરાતી
+  * 한국어
+  * Հայերեն
+  * हिन्दी
+  * Hrvatski
+  * Ido
+  * Ilokano
+  * Bahasa Indonesia
+  * Interlingua
+  * Íslenska
+  * Italiano
+  * עברית
+  * Jawa
+  * Kabɩyɛ
+  * ಕನ್ನಡ
+  * ქართული
+  * Қазақша
+  * Kiswahili
+  * Kreyòl ayisyen
+  * Kurdî
+  * Кыргызча
+  * Ladino
+  * Latina
+  * Latviešu
+  * Lëtzebuergesch
+  * Lietuvių
+  * Ligure
+  * Limburgs
+  * Lingála
+  * Lumbaart
+  * Magyar
+  * Македонски
+  * മലയാളം
+  * Bahasa Melayu
+  * မြန်မာဘာသာ
+  * Nederlands
+  * नेपाली
+  * 日本語
+  * Nordfriisk
+  * Norsk
+  * Norsk nynorsk
+  * Occitan
+  * Oʻzbekcha/ўзбекча
+  * ਪੰਜਾਬੀ
+  * پنجابی
+  * پښتو
+  * Patois
+  * Plattdüütsch
+  * Polski
+  * Português
+  * Ripoarisch
+  * Română
+  * Runa Simi
+  * Русиньскый
+  * Русский
+  * Scots
+  * Shqip
+  * Sicilianu
+  * Simple English
+  * Slovenčina
+  * Slovenščina
+  * کوردی
+  * Српски / srpski
+  * Srpskohrvatski / српскохрватски
+  * Basa Sunda
+  * Suomi
+  * Svenska
+  * Tagalog
+  * தமிழ்
+  * Taqbaylit
+  * Татарча/tatarça
+  * తెలుగు
+  * ไทย
+  * Türkçe
+  * Українська
+  * اردو
+  * Tiếng Việt
+  * 文言
+  * West-Vlams
+  * Winaray
+  * 吴语
+  * ייִדיש
+  * Yorùbá
+  * 粵語
+  * Žemaitėška
+  * 中文
+
+Edit links
+
+  * This page was last edited on 29 May 2019, at 13:12 (UTC).
+  * Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+  * Privacy policy
+
+  * About Wikipedia
+  * Disclaimers
+  * Contact Wikipedia
+  * Developers
+  * Cookie statement
+  * Mobile view
+
+  * ![Wikimedia Foundation](/static/images/wikimedia-button.png)
+
+  * ![Powered by MediaWiki](/static/images/poweredby_mediawiki_88x31.png)
+
+_[ v]: View this template_ [t]: Discuss this template _[e]: Edit this
+template_ [v]: View this template _[AU]: Australia_ [CA]: Canada _[UK]: United
+Kingdom_ [US]: United States _[UN]: United Nations_ [EU]: European Union
+_[AAAD]: Aromatic L-amino acid decarboxylase_ [ MAO]: Monoamine oxidase _[
+ALDH]: Aldehyde dehydrogenase_ [ALR]: Aldehyde reductase _[PAH]: Phenylalanine
+hydroxylase_ [ TH]: Tyrosine hydroxylase _[ DBH]: Dopamine beta-monooxygenase_
+[ PNMT]: Phenylethanolamine N-methyltransferase _[ COMT]: Catechol-O-methyl
+transferase_ [TPH]: Tryptophan hydroxylase _[ AANAT]: Serotonin N-acetyl
+transferase_ [ ASMT]: Acetylserotonin O-methyltransferase _[ HDC]: Histidine
+decarboxylase_ [ HNMT]: Histamine N-methyltransferase _[ DAO]: Diamine
+oxidase_ [nAChRs]: Nicotinic acetylcholine receptors _[PAMs]: positive
+allosteric modulators_ [NAMs]: negative allosteric modulators _[TRP]:
+Transient receptor potential_ [TRPA]: Transient receptor potential ankyrin
+channel _[TRPC]: Transient receptor potential canonical channel_ [TRPM]:
+Transient receptor potential melastatin channel _[TRPML]: Transient receptor
+potential mucolipin channel_ [TRPP]: Transient receptor potential polycystin
+channel *[TRPV]: Transient receptor potential vanilloid channel
+
+  *[ v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[v]: View this template
+  *[AU]: Australia
+  *[CA]: Canada
+  *[UK]: United Kingdom
+  *[US]: United States
+  *[UN]: United Nations
+  *[EU]: European Union
+  *[AAAD]: Aromatic L-amino acid decarboxylase
+  *[ MAO]: Monoamine oxidase
+  *[ ALDH]: Aldehyde dehydrogenase
+  *[ALR]: Aldehyde reductase
+  *[PAH]: Phenylalanine hydroxylase
+  *[ TH]: Tyrosine hydroxylase
+  *[ DBH]: Dopamine beta-monooxygenase
+  *[ PNMT]: Phenylethanolamine N-methyltransferase
+  *[ COMT]: Catechol-O-methyl transferase
+  *[TPH]: Tryptophan hydroxylase
+  *[ AANAT]: Serotonin N-acetyl transferase
+  *[ ASMT]: Acetylserotonin O-methyltransferase
+  *[ HDC]: Histidine decarboxylase
+  *[ HNMT]: Histamine N-methyltransferase
+  *[ DAO]: Diamine oxidase
+  *[nAChRs]: Nicotinic acetylcholine receptors
+  *[PAMs]: positive allosteric modulators
+  *[NAMs]: negative allosteric modulators
+  *[TRP]: Transient receptor potential
+  *[TRPA]: Transient receptor potential ankyrin channel
+  *[TRPC]: Transient receptor potential canonical channel
+  *[TRPM]: Transient receptor potential melastatin channel
+  *[TRPML]: Transient receptor potential mucolipin channel
+  *[TRPP]: Transient receptor potential polycystin channel
+  *[TRPV]: Transient receptor potential vanilloid channel
+
