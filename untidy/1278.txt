@@ -1,0 +1,1260 @@
+
+
+Marie Haynes Consulting
+
+    
+        * ![twitter](https://mariehaynes.com/wp-content/themes/u-design/styles/common-images/twitter-icon.png)
+    * ![facebook](https://www.mariehaynes.com/wp-content/uploads/2017/11/facebook-icon.png)
+    * ![linkedin](https://mariehaynes.com/wp-content/themes/u-design/styles/common-images/linkedin-icon.png)
+    * ![email](https://mariehaynes.com/wp-content/themes/u-design/styles/common-images/email-icon.png)
+    
+    * Home
+    * Services
+      * Site Quality Assessments
+      * Link Audits
+    * Success Stories
+    * Resources
+      * Algo Changes
+      * Marie's Blacklist
+      * E-A-T and SEO
+    * Blog
+    * About
+      * Meet the MHC Team
+    * Contact
+    
+
+# The September 27 - early October algorithm update was likely about Google’s
+
+ability to assess trust
+
+Home -> Blog -> The September 27 - early October algorithm update was likely
+about Google’s ability to assess trust
+
+By Marie Haynes on October 12, 2018 / Blog / 43 Comments
+
+This fall has been crazy with algorithm updates. In this article I’m going to
+share my thoughts on what Google is doing with the updates that have happened
+between September 27 and mid-October. I normally don’t like to write a post
+about an algorithm update until I have a really good handle on what is going
+on. In this case, I have some interesting ideas, but I have to tell you that
+really _no one_ outside of Google knows what is happening.
+
+Danny Sullivan from Google did confirm this week that Google has made some
+significant updates. He also mentioned that we should be reading the Quality
+Raters’ Guidelines. He shared that this update started September 24. (Most of
+the changes we saw started September 27). He also said that it will take a
+week or more to fully roll out.
+
+> This year, we shared about two broad core algorithm updates we had: in April
+and August. We also had a further update we can confirm, one that began the
+week of Sept. 24. With any broad core update, the full rollout time might be
+over the course of a week or longer….
+
+>
+
+> -- Google SearchLiaison (@searchliaison) October 11, 2018
+
+## Fall 2018 update dates
+
+If you have been following my Google algorithm update list, you will see a lot
+of dates listed as significant updates.
+
+September 27, 2018 marked what I would call a very large update. It wasn’t as
+big as the August 1 (Medic) Update, but it still affected a lot of sites in a
+very significant way. After this, we had what seemed to be tremors or smaller
+updates on many dates in October. October 1 seems to be a date on which a lot
+of sites saw changes. October 4, 6 and 8 were all dates on which sites saw
+traffic losses or gains as well.
+
+I know what some of you are thinking…doesn’t Google update their algorithms
+every day? Back in March, Danny Sullivan from Google told us that Google
+releases updates every day, but every now and then they release a more broad
+core update:
+
+> Each day, Google usually releases one or more changes designed to improve
+our results. Some are focused around specific improvements. Some are broad
+changes. Last week, we released a broad core algorithm update. We do these
+routinely several times per year….
+
+>
+
+> -- Google SearchLiaison (@searchliaison) March 12, 2018
+
+He also just recently told us that while the Quality Raters don’t specifically
+impact rankings, if we can understand how to look at sites like they do, we
+can potentially be seen as higher quality by Google’s algorithms.
+
+> If you understand how raters learn to assess good content, that might help
+you improve your own content -- and, in turn, perhaps do better in search. You
+can find the raters guidelines here:https://t.co/MDdKOyEjrv
+
+>
+
+> -- Google SearchLiaison (@searchliaison) October 11, 2018
+
+I believe that what we are seeing now, is Google releasing a very broad change
+to their core quality algorithm. I also believe that these updates are all
+connected to one thing… Trust.
+
+## A refresher on E-A-T
+
+When the August 1 update happened, I was quite certain that this update was
+connected to E-A-T. E-A-T is a bit of a buzz-word in SEO for 2018. In my
+opinion it is a bigger ranking factor than links. I hope to have an article
+out soon that fully describes E-A-T, but for now, here is what you need to
+know.
+
+E-A-T is covered extensively in Google’s Quality Raters’ Guidelines. You can
+read the guidelines here, or if you are a paid subscriber of my newsletter,
+you can get a copy of my Quality Raters’ Guidelines checklist and summary.
+These guidelines are used to train Google’s Quality Raters. The Quality Raters
+are people who Google uses to do manual checks on the quality of the SERPS.
+While they don’t have a direct impact on what happens to your site, if a bunch
+of Quality Raters are noticing sites ranking that have quality issues, then
+this info feeds back to the Google engineers and they make tweaks to the
+algorithm so that those lower quality sites or pages don’t rank as well.
+
+If you CTRL-F for E-A-T in the guidelines, it is mentioned a whopping 186
+times! It is listed as the very first characteristic of a high quality page:
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/characteristics-
+
+high-quality-page-qrg.jpg)
+
+A lack of E-A-T is listed as the first characteristic of a low quality page:
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/characteristics-of-
+
+a-low-quality-page.jpg)
+
+Trust me… this E-A-T thing is important.
+
+## The August 1 (Medic) Update had a lot to do with E-A-T
+
+When I wrote about this massive algorithm update on August 1, 2018, I talked a
+lot about how sites with E-A-T issues saw drops. I had a lot of people comment
+to me that this could not be right because in some cases sites that were
+written by a licenced medical doctor saw massive drops.
+
+For example, take a look at the drop seen by Dr. Axe’s site (data from
+SEMRush):
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/draxe.png)
+
+But, if you look at Dr. Axe’s bio, we can see that this guy knows his stuff!
+He should have good E-A-T, right?
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/drjoshaxe.jpg)
+
+He is a doctor. He is a clinical nutritionist. He is world renowned. If he has
+such good E-A-T, why did his site see drops?
+
+Initially when we looked at this we wondered if these drops had to do with the
+nature of his degree, as natural medicine sometimes contradicts scientific
+evidence, but I don’t think this is the case.
+
+I think that what people were missing here was the “T” in E-A-T… TRUST.
+
+Here is what the BBB profile for Dr. Axe looked like until recently:
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/BBB-pattern-of-
+
+complaints-1024x269.png)
+
+The QRG are pretty specific about saying that a negative BBB profile is a sign
+of low quality.
+
+They instruct the Raters to specifically search for a BBB listing:
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/QRG-BBB-
+
+Listing.jpg)
+
+They also say that a very low BBB rating is a sign of low quality.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/low-quality-
+
+reputation-qrg.jpg)
+
+They give examples of websites that should be considered low quality and point
+out their negative BBB ratings as a reason why.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/not-bbb-
+
+accredited.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/bbb-negative-
+
+review-qrg.jpg)
+
+For more of my thoughts on the possible consideration of BBB ratings (as well
+as my thoughts on the role of the Quality Raters Guidelines as a whole) in
+Google's organic ranking algorithms, I took a deep dive on the subject in a
+separate article: "Does Google Use BBB ratings as a ranking factor?"
+
+I do believe that Dr. Axe’s site saw drops because they were deemed as
+untrustworthy, mostly because people overwhelmingly had problems with refunds
+and returns. As such, this business is lacking in trust, the “T” in E-A-T.
+
+Many other sites that saw big drops on August 1 had some type of issue that
+would cause users to possibly not trust them. Later in this article, I am
+going to give some examples of things that we believe can lead to a lack of
+E-A-T due to trust issues.
+
+## The September 27, 2018 algorithm update
+
+From looking at client data and also winners and losers data from this great
+post on winners and losers of the September 27 update on Sistrix, it really
+does look like September 27 was a tweak of whatever changes Google implemented
+on August 1.
+
+I think it’s quite possible that this is what happened:
+
+    
+        * Google made changes in how they evaluate whether a website or page is trustworthy and they implemented those changes August 1.
+    * The Quality Raters now had a whole new set of sites to analyze. If they were instructed to do a search for a popular medical query, they may see new sites that are now ranking well after the algo shift.
+    * As the Quality Raters assessed the new SERP landscape, they were likely able to see some sites ranking well that had trust issues. It’s possible they started to look even deeper for potential trust problems.
+    * This information fed back to the Google engineers and they made tweaks to the algorithm again to refine how they assess trust.
+    * These changes went live on September 27 (or as Danny Sullivan has now told us, they started to roll out September 24, 2018).
+    
+
+As such, we saw several sites that saw big gains Aug 1 and then, as the
+algorithm reassessed trust, they saw losses:
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/aug-1-gains-then-
+
+losses.jpg)
+
+In some cases, a site that had been seen as untrustworthy on Aug 1, saw a bit
+of a boost on September 27.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/aug-1-drop-
+
+sep-27-gains.jpg)
+
+In my opinion, September 27 was simply a tweak to Medic.
+
+## October algorithm updates
+
+We have seen a lot of sites that saw significant traffic changes starting in
+the first week of October. We saw a lot of sites that had a pattern like this
+where traffic plummeted on August 1 and then saw a little bit of a gain on
+October 1.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/first-week-oct-
+
+changes.jpg)
+
+Other sites saw a significant jump up at another point during the first week
+of October.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/fri-
+
+oct-5-jump.jpg.png)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/first-week-jump-
+
+oct.jpg)
+
+These are not seasonal changes. I have no doubt that these sites saw
+improvements due to a change in Google’s algorithms.
+
+### Is this update related to links?
+
+My team and I have spent many hours debating what these changes mean. We made
+some spreadsheets that look at our clients and also sites outlined as winners
+and losers on Sistrix to see what patterns we could see.
+
+We noticed a very interesting thing. Every one of the sites that were our past
+clients, that saw significant changes in October had some type of link issue.
+Either we had filed a disavow, or we had recommended filing a disavow.
+
+We don’t recommend disavowing for very many sites these days… only those with
+a very obvious history of manipulative link building.
+
+##### **Should we still be disavowing?**
+
+I thought I would add a paragraph here as a lot of people have been asking me
+lately about whether we still need to disavow in the age of Penguin 4.0 that
+ignores links. For over a year, I did not recommend disavowing. However, as
+Google has never come straight out and told us that we can ignore the disavow
+tool, we started to offer disavowing as a service about six months ago again.
+We have filed several disavows and do feel like they are making a difference.
+It’s often hard to measure though, as most of the sites that see improvements
+have also made on-site quality changes. I believe that there are algorithms
+outside of Penguin that look at link quality. If you have a history of
+building links for SEO purposes, then there is a good chance that disavowing
+could help.
+
+The problem with this interesting information though, is that it didn’t all
+make sense. In some cases, we had filed a disavow and saw a nice increase in
+early October. In other cases, we had pointed out a huge link problem and
+recommended a disavow, and the site saw October gains even though they did not
+follow our advice. Some sites saw October losses despite having filed a
+disavow.
+
+The point that I am trying to make is that it seems unusual to me that every
+one of the sites that saw changes in October had a significant number of
+unnatural links. Now, it is possible that this is just a coincidence as sites
+that saw drops with this update were generally in competitive spaces, which
+means that most sites will have experimented with link building. I do believe
+though, that part of what is happening with the algorithm right now is Google
+making changes in how they assess link quality.
+
+I could be wrong on this, but **I believe that link quality is now a component
+of trust.**
+
+I also think that it is interesting that October has historically been a big
+month for Penguin updates. We had Penguin updates in October of 2012, 2013 and
+2014. In 2015 we had no Penguin updates and then in 2016 it updated in late
+September and we continued to see changes into October.
+
+I tweeted about my theory that the October changes were related to links and I
+had a few people respond to say that they saw changes in sites with very few
+links.
+
+> Link related? I see traffic improvement on a site with low links.
+
+>
+
+> -- Felix (@internetfelix) October 9, 2018
+
+If my link theory is true, then it is possible that these sites are seeing
+gains because competitors who _were_ link building had some of those links
+devalued.
+
+I think there is a better explanation though.
+
+I think that all of the changes that we are seeing from September 27 and
+through October are related to Google’s assessment of trust. I think that
+links are just one of those factors. In the rest of this article, I will share
+some examples of things that could be causing Google to consider your site as
+untrustworthy. If you were negatively affected by an algorithm update on
+August 1, September 27, or early October of 2018, this is the part of the
+article to which you should be paying attention!
+
+If you _did_ see drops in early October, I’d look at the list given in this
+article first to see if you can find potential issues that could cause people
+and Google to distrust your site. If you do know that you have a history of
+manipulative link building then it may also make sense to do a thorough link
+audit and disavow links that are obviously there for SEO purposes only.
+
+## What do the QRG say about trust?
+
+We have already established that E-A-T (Expertise, Authoritativeness and
+Trust) are mentioned throughout the Quality Raters’ Guidelines.
+
+In late July of 2018, Google made a number of changes to the guidelines. One
+of the important changes, in my opinion, was that they added “safety of users”
+to this paragraph:
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/qrg-trust.jpg)
+
+They also added the highlighted words below.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/or-safety.png)
+
+It is important to note that these changes were added to the publicly
+available version of the QRG just twelve days before the big August 1 update.
+
+The guidelines also have several examples of sites that are considered high or
+low quality based on trust:
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/trust-qrg-
+
+examples.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/high-e-a-t.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/highest-
+
+informational-1.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/high-e-a-t-
+
+medical.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/low-quality-no-
+
+website-info.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/deceptive-page-
+
+purpose-qrg.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/highly-
+
+untrustworthy.jpg)
+
+## List of potential trust issues
+
+With all of the above in mind, we have looked at winners and losers of the
+August 1-mid October algorithm changes, combined with things outlined in the
+QRG and we have put together a big list of issues that we think could be
+considered a sign of low trust. While we don’t know exactly how Google
+assesses these algorithmically, we do think that all of these things matter.
+
+A recent interview on CNBC had a very interesting quote from Ben Gomes, VP of
+Search at Google:
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/ben-gomes-vp-
+
+search-quote.jpg)
+
+If the QRG tell us what Google wants the algorithm to do, then all of the
+following should be considered important. We have also included our thoughts
+on how to remedy each of these situations (if possible).
+
+### Negative BBB info
+
+We have discussed this factor earlier in this article, along with examples. If
+you have a negative rating on the BBB, then this can cause Google to assess
+your site as lower quality.
+
+##### How To Fix This
+
+We would recommend taking time to respond to every single complaint, whether
+it is on BBB or another review site. Respond in a way that shows that you are
+trying to remedy the situation. Never respond in anger.
+
+And of course, if your BBB rating is low because there truly are some
+questionable or frustrating business practices, some serious changes may need
+to be made in how your business runs.
+
+### Negative reviews online
+
+The QRG instruct the raters to find review information on Yelp, BBB, Google
+Shopping and Amazon (if applicable):
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/reputation-
+
+information-google-qrg.jpg)
+
+They also say that even a mildly negative reputation can be a sign of low
+quality, especially if you are YMYL (Your Money or Your Life):
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/mixed-reputation-
+
+low-rating-qrg.jpg)
+
+##### How To Fix This
+
+If you have a few negative reviews, I believe that it is unlikely that this is
+going to cause a problem. But, just as we mentioned with the BBB listing, if
+your negative reviews truly are a sign of bad business practices, then things
+to need change in order for the business to rank well. In the past, you could
+take a bad business and often you could still rank it well with enough links.
+This is not the case now.
+
+Respond to negative reviews and fix the problems that are causing them.
+
+### Lack of expertise
+
+If you are writing on a Your Money or Your Life topic (medical, financial,
+legal, eCommerce or any other topic that helps people make important
+decisions), you absolutely must have expertise to write about this. The QRG
+are full of examples of articles that are considered low quality because of a
+lack of expertise.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/author-e-a-t.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/no-financial-e-a-t-
+
+low-quality.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/low-medical.jpg)
+
+##### How To Fix This
+
+We have seen great increases in traffic in conjunction with quality updates
+for some clients of ours that went out and hired physicians to medically fact
+check their articles. If you have YMYL articles that are not written by people
+with E-A-T in this area, it is going to be difficult for you to rank well.
+
+It is also important that your authors are recognized online as authorities.
+If you have been practicing law for twenty years, but there are no external
+sources online that recognize you as a legal expert, ranking could be
+difficult. The key to improving in this area is to find ways to get mentions
+in truly authoritative places. It’s not easy to do… unless you actually are an
+authority!
+
+> I asked Gary about E-A-T. He said it's largely based on links and mentions
+on authoritative sites. i.e. if the Washington post mentions you, that's good.
+
+>
+
+> He recommended reading the sections in the QRG on E-A-T as it outlines
+things well.@methode #Pubcon
+
+>
+
+> -- Marie Haynes (@Marie_Haynes) February 21, 2018
+
+### Lack of online authority
+
+If you are writing on YMYL topics, you need to be recognized online as an
+authority.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/highest-
+
+medical.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/high-medical-e-a-t-
+
+good-reputation.jpg)
+
+You can have the best information in the world, but if no one recognizes you
+as an authority on your subjects, it’s likely going to be difficult to rank
+well.
+
+##### How To Fix This
+
+You will need to get mentions for your business or your authors on
+authoritative sites. Gary Illyes from Google has said in the past that Google
+knows which parts of the web to trust. They know that a mention in the
+contributor’s section of Forbes is very possibly paid, and as such, they
+ignore those.
+
+To get truly authoritative mentions, you need to be generating buzz about your
+business or producing content that truly gets people talking about you.
+Traditional PR can help here. Producing and promoting truly great content can
+help as well.
+
+Be careful not to fall into old link building tactics here though. If a link
+is easy to get or self made, there is a good chance that it will not help.
+
+### YMYL info not kept up to date or properly referenced
+
+If you are a medical site it is imperative that every claim you make is backed
+up by science. We recommend doing at least a quarterly review of each of your
+important posts to see if new research has been published that is relevant and
+helpful.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/high-e-a-t-medical-
+
+advice-update-regularly.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/high-e-a-t-
+
+financial-advice-updated-regularly.jpg)
+
+##### How To Fix This
+
+Do a regular review of posts to see what needs to be updated. If appropriate,
+keep Google alerts set for scholar.google.com to see if new research comes out
+that is applicable to add to your articles.
+
+Make sure that wherever possible, medical claims are backed up with links to
+scientific research articles.
+
+### Contradicting science
+
+This is a big one! If your subject area is one that is controversial and not
+backed up by scientific research, it may be difficult to rank well.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/contradicting-
+
+science.jpg)
+
+Quite a few of the sites that came to us for site reviews after seeing a big
+drop August 1 likely dropped because of this issue. We had several sites that
+were natural remedy sites or essential oil sites.
+
+Take a look at Doterra.com. Now, this is not a knock on this company. I just
+know (from my Facebook news feed) that they are well known as providers of
+essential oils. Essential oils _may_ be helpful and there is some science to
+support some of their benefits. But a lot of essential oil claims are likely
+ones that are not backed up by science.
+
+Doterra saw a big drop on August 1:
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/doterra-drop.jpg)
+
+Most of their top keywords now are for people doing branded searches:
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/doterra-branded-
+
+searches.jpg)
+
+Prior to the August 1 update, this site ranked between #2 and #4 for
+“essential oils”. They are now at #21.
+
+I have heard similar stories from other companies selling natural products.
+One of these companies shared with me that their legal team will not allow
+them to reference scientific articles. Unfortunately, if you are writing about
+health topics and you are not backing up your claims with science, it is
+likely that Google treats you as not completely trustworthy.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/contradicting-
+
+medical-consensus.jpg)
+
+##### How To Fix This
+
+Wherever possible, link to scientific references. This could be from within
+the article, or as footnotes. It’s hard to say whether you need to link with
+followed links. I think either is probably fine, but just to be sure, I would
+actually recommend following these links. I want to do everything I can to
+make sure that Google sees these references.
+
+If you have a lot of content on your site that contradicts science, I do think
+that it may help to put a disclaimer on the post. We don’t know whether Google
+can algorithmically see this, but it is likely something that would help users
+to trust the site.
+
+### Lack of info on who is responsible for the site / lack of contact info
+
+The QRG are clear in telling us that it is important to know who is
+responsible for a site’s content.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/contact-
+
+information-qrg.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/unsatisfying-
+
+amount-of-website-info.jpg)
+
+If you have a website that is providing YMYL info in an anonymous way, you are
+likely not going to rank well.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/ymyl-anonymous.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/no-website-
+
+information.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/whatisstomachflu-
+
+site.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/lowest-quality-
+
+stomach-flu.jpg)
+
+![](https://www.mariehaynes.com/wp-
+
+content/uploads/2018/10/nikeshoesbuyeasy.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/untrustworthy-
+
+shopping-page.jpg)
+
+It is also important to make sure that customers can easily contact you.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/easy-contact-info-
+
+ymyl.jpg)
+
+##### How To Fix This
+
+Have an easy to find About page. Make it clear on that page who is responsible
+for the content of the site. Unless there is a really good reason for
+anonymity, mention the names of the people who run the site and contribute to
+it.
+
+On your contact page, make sure that it is easy for customers to contact you.
+
+### Terms and conditions info, and refund info, is not easy to find
+
+I believe that this is a very important factor!
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/high-quality-
+
+stores.jpg)
+
+If your sell products or take transactions, it must be easy for people to find
+refund information. (Note: This is a classic case of the cobbler’s kids having
+no shoes, as my own website doesn’t currently have any information on refunds
+or returns. We’re working on it!)
+
+##### How To Fix This
+
+Make sure that your Terms and Conditions page is easy to find. A followed link
+in the footer is likely sufficient. While I can’t prove this, I also think it
+is important to have this page indexed. If a searcher is looking for “your
+brand + refund” they need to easily be able to find this information.
+
+I also think it is important to have a friendly refund policy. If you saw
+drops with these algorithm updates and you have a lot of complaints that
+people are not able to exchange items, this could possibly affect Google’s
+assessment of quality for your site.
+
+### Selling products on a non-https site
+
+Wait? Am I saying that https is a bigger ranking factor now? Take a look at
+this line in the QRG in regards to low quality characteristics:
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/mc-not-
+
+trustworthy.jpg)
+
+If you are taking transactions, I believe you must be https in order for
+Google to trust you.
+
+### Unmoderated user generated content
+
+If you’ve got places on your site that allow people to create their own
+content such as comments, forum discussions, etc. this needs to be closely
+moderated.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/unmoderated-
+
+ugc.jpg)
+
+If you can’t moderate the content and remove spam, then it may make sense to
+not allow UGC at all.
+
+Don’t be too quick to get rid of UGC though. Google has confirmed that they
+really like high quality UGC.
+
+> Breaking news time: high quality UGC is GREAT for your site. Crack down on
+lowq UGC instead of getting rid of it altogether #defcon1
+
+>
+
+> -- Gary "鯨理" Illyes (@methode) October 6, 2015
+
+## Grammar and spelling errors
+
+This likely isn’t a huge issue for most sites. If you have the odd error in
+grammar or spelling, I do not think that Google will see you as untrustworthy.
+But, if your site has a large number of them, it likely makes people distrust
+you.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/low-quality-
+
+grammar-spelling.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/untrustworthy-
+
+spelling-grammar.jpg)
+
+### Deceiving users
+
+This is a big one. Hopefully this doesn’t apply to your site!
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/deceiving-
+
+users.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/deceptive-page-
+
+purpose.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/deceptive-ad-
+
+example.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/lowest-lack-of-
+
+purpose.jpg)
+
+### Distracting Ads
+
+If you have ads that are deceptive or annoying to users, this can impact
+Google’s assessment of quality for your site.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/symptoms-
+
+dehydration-example.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/fake-search-page-
+
+example.jpg)
+
+##### How To Fix This
+
+This can be a hard thing to assess on your own site. I would encourage you to
+have someone who is not connected to your business navigate your site while
+you watch. Are they accidentally clicking on ads? Are they getting annoyed? If
+so, things should change.
+
+### The purpose of the site is completely for sales
+
+This is a tough issue to explain, but I do think it is important. We saw a lot
+of drops in sites that used to rank for informational queries, but worked
+really hard to funnel people into sales. Imagine you were doing a search on
+how to use a glucometer. In the past, a site that sells glucometers could rank
+really well. Now what we are seeing is that sites that are more informational
+heavy rather than transactionally heavy are ranking well. Now, what we are
+seeing is that the sites that are ranking well are ones that do a really good
+job at primarily providing information. Sales are secondary to the purpose of
+the page.
+
+This example is a little extreme, but is in the QRG.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/runescape-money-
+
+making-guide-example.jpg)
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/highly-
+
+untrustworthy-download-page.jpg)
+
+While this example is of a site that was very obviously trying to deceive
+people, we do believe that a lot of sites that saw drops starting August 1
+were ones for which the main purpose of the page was to sell, and that
+providing information was a secondary purpose.
+
+If you saw drops, I would recommend that you look at how pushy you are in your
+attempts to sell. It’s not wrong to sell things, but if you lost rankings for
+informational queries, it is possible that Google thinks your main purpose is
+sales. As such, they may not to rank you for people who don’t intend to buy.
+
+The QRG instruct the Quality Raters to determine the purpose of every page
+that they visit.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/purpose-of-a-
+
+page.jpg)
+
+We believe that if Google determines that the main purpose of a page is to
+sell something, then they won’t send people to that page if it is clear that
+their intent is to get information (as opposed to buying a product or
+service.)
+
+I have heard anecdotally of several sites that saw massive traffic drops but
+no drop in conversions. This makes sense to me as I feel that Google is
+getting better at figuring out a searcher’s intent. For those who really do
+want to buy, Google is probably ok with ranking transactional sites.
+
+One example of a site that saw drops was a site that used to rank #1 for the
+“keto diet”. This was their above the fold content:
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/mc-selling.jpg)
+
+This site saw massive drops on August 1.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/keto-site-
+
+drops.jpg)
+
+I believe that there were several issues with this site, but one of the
+important ones is how heavily they pushed people to buy. People can see
+through the tactic of saying “Ah! Our product used to be $147 and now just for
+you it’s $47!” Also, most people who Google “keto diet” are looking for
+information to describe the diet rather than to purchase a program.
+
+##### How To Fix This
+
+This is a tough one. If you saw drops with these algorithm updates and none of
+the previously mentioned trust issues are resonating with you, you may want to
+attempt to tone down the sales tone of your site. Make the information the
+primary purpose of the page, and sales secondary.
+
+### The purpose of the site is misleading
+
+This is not something that I have quotes for from the QRG, but I still think
+it is important. We saw some drops in sites that we believe are due to users
+being mislead in terms of the site’s purpose. For example, one site was a lead
+generating site. They have medical advice and their main source of
+monetization is to send leads to a particular type of medical doctor.
+
+When you go to the site, it looks like the purpose is simply to give
+information. This site lists on their “About us” page that they are a consumer
+advocacy group and that they exist to help provide people with information.
+
+This site saw big gains on August 1 and had them all clawed back on September
+27. We believe that what happened here is that the site saw a boost because
+they were doing _almost_ everything correctly in terms of trust. They have
+medical doctors as authors (or in some cases as fact checkers, listed as co-
+authors). They reference scientific articles. They keep articles up to date.
+They provide good, factual information and do it in a way that is better than
+almost all of their competitors.
+
+After the August 1 boost, their site appeared highly for many medical queries,
+which meant that many of the Google Quality Raters’ would now be assessing the
+site. We think it’s possible that Google asked the Quality Raters to determine
+what the purpose of a page was an whether it was meeting that purpose. In this
+case, while it appeared that the purpose of their articles was to provide
+information. Everyone knows though, that there are very few sites that exist
+online without some sort of monetization purpose. With a little digging in
+this site, it becomes obvious to see that the purpose is actually to connect
+people with doctors (and subsequently make money from selling the leads.)
+
+We can’t prove this, but we feel that this could be seen as a deceptive
+practice as it is not well disclosed.
+
+##### How To Fix This
+
+We are encouraging this business to be much more straightforward in telling
+people what the purpose of the site is. While they do provide information,
+they should disclose how they make money.
+
+If you saw drops in connection to one of these algorithmic updates and you are
+being a little bit sneaky in hiding your monetization methods, then you may
+find that you can regain trust by being more clear about what you are doing.
+
+This also applies to affiliate sites. If you make money from affiliate sales,
+disclose it. We have seen drops in sites that use cloaked affiliate links.
+These are links that kind of trick a user into thinking that they are staying
+on your site. For example, I might think I’m clicking on a link with more
+information about how to choose a new pair of shoes. But, I may be taken
+directly to Amazon without knowing it. Sites using a cloaking WordPress plugin
+that creates /go/ links (to make it look to the user like they are staying on
+site if clicking) may possibly be seen as lower quality in my opinion.
+
+If you need to trick people, or hide some monetization information in order to
+convince them to convert, this is likely going to cause trust issues with
+searchers and also with Google.
+
+## Real life examples
+
+This week my team and I spent quite a few hours analyzing sites that saw gains
+and drops to see if we could figure out why. Now, keep in mind that our full
+site quality reviews take us up to two weeks to complete as we have an
+extremely thorough look at a huge number of issues. But, our goal here was to
+take the list of losers from Sistrix’s post and see if we can make a case for
+any of the above trust issues contributing to the drop.
+
+These are not our clients and we have not done a thorough review. But, here
+are our cursory thoughts. For each of these you’ll see the SEMRush estimate of
+traffic followed by things we think Google could be considering untrustworthy.
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/high-times-
+
+drop.jpg)
+
+    
+        * This site is super ad heavy. The above the fold content is almost completely taken up with ads or images and very little text.
+    * Medical content written by people with no medical E-A-T.
+    * There is no information on the site telling us who is responsible for the site.![](https://www.mariehaynes.com/wp-content/uploads/2018/10/healthspan-drop.jpg)
+    * This site initially saw gains Aug 1 and then lost them starting September 27.
+    * We found several posts that are on medical topics, but written by authors with no obvious medical E-A-T.
+    * There are quite a few negative reviews online:
+    
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/healthspan-
+
+negative-reviews.jpg)
+
+    
+        * Another thing we would likely check if we were reviewing this site is whether the site promotes products that perhaps are not backed up by science.
+    
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/arthritisrsearch-
+
+drop.jpg)![](https://www.mariehaynes.com/wp-
+
+content/uploads/2018/10/arthritisresearchorg-drop-semrush.jpg)
+
+    
+        * There is no information in articles to tell us who wrote the article and whether they have medical E-A-T.
+    * There is no information on the site to tell us who is responsible for the content on the site.
+    * In the posts we checked, we could not find references to scientific studies. There also was no indication that posts with medical information were being kept updated.
+    
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/thehackernews-
+
+drop.jpg)
+
+    
+        * This site saw gains Aug 1 and then big losses.
+    * This is _not_ https://news.ycombinator.com/ which is known as “Hacker News”. We have another client in a similar situation. They call themselves “The council for _____” and yet, there is an official group with that name that is much more widely recognized as the authority. It may be that Google is getting better at figuring out which sites truly are the authority.
+    * The About page doesn’t tell us who is responsible for the site.
+    * There are quite a few negative reviews. Some point out some “markety” business practices that we mentioned earlier in this article.![](https://www.mariehaynes.com/wp-content/uploads/2018/10/hacker-news-reviews.jpg)
+    * They sell products on their site, but we could not find information on refunds. They do have a terms and conditions page, but it’s hard to find as it exists on a subdomain.
+    
+
+This last example is a client of ours. It is a really interesting case. They
+came to us for help after a traffic drop. We felt that all signs pointed to
+E-A-T issues, but couldn’t figure out why as the main author of the site
+really appeared to be known as an authoritative expert.
+
+After a bit of digging, we found out that this author actually had a bit of a
+secret with some issues with the law years ago. I can’t go into details, but
+these issues made this person significantly untrustworthy.
+
+We advised the site to cut ties with this person and get other authors who
+have good E-A-T. Our thought was that Google no longer trusted the site. We
+advised that there was a good chance that with a future update they would
+start to see improvements. It took a long time, but it looks like this is
+finally happening!
+
+![](https://www.mariehaynes.com/wp-content/uploads/2018/10/oct-1-recovery.jpg)
+
+There are many more examples, but this article is already long enough, so we
+won’t add more!
+
+## Conclusions
+
+I really do believe that the changes that Google is making these days are
+significant. I believe that Google is doing everything they can to only rank
+sites that are trustworthy. If you have seen drops on any of the following
+dates, you need to pay close attention to possible trust issues:
+
+    
+        * August 1, 2018
+    * September 24, 2018
+    * September 27, 2018
+    * October 1-9, 2018
+    
+
+There are also some other dates on which there were smaller updates likely
+related to site quality. You can find these on my Google algorithm update
+list. Also, if you want to stay updated whenever Google does a significant
+algorithm change, you can sign up for my newsletter here:
+
+## tl;dr
+
+This was a long article! To summarize, my theory is that this latest wave of
+algorithm updates is primarily due to trust. Any of the following could
+potentially cause Google’s algorithms to distrust your site:
+
+    
+        * Authors who are lacking E-A-T.
+    * Reputation issues, especially with the BBB.
+    * A YMYL (Your Money or Your Life) site that has very little external reputation information. (i.e. if no one is talking about your business, then Google may not want to rank it.)
+    * Lack of scientific references (where appropriate).
+    * Articles that could be kept up to date are not.
+    * Having information that contradict science.
+    * Lack of information regarding who is responsible for the site, and also contact information.
+    * No terms and conditions page. No information on how to get a refund (if applicable).
+    * Unmoderated user generated content.
+    * Distracting or deceptive ads.
+    * No obvious purpose for the site. (This is a big one! I feel that some sites saw drops because they have not made it clear how they monetize. If your site exists to sell leads to people, or make affiliate sales, you should make this clear.)
+    * Other deceptive or fraudulent issues that would make people not trust the site.
+    
+
+I do also think that link quality can be a component of trust. We noticed that
+most of the sites that saw changes in October of 2018 had link issues. Some
+had disavowed and some had not. I do think that Google has algorithms outside
+of Penguin that determine how much trust they can put in your link profile.
+
+Given that we have seen some good improvements in some (not all though) sites
+that we have filed a disavow for, it may make sense to do a link audit and
+disavow if you know you have a history of links made for SEO purposes.
+
+Do you agree with my theory? Do you think that Google can algorithmically
+determine trust?
+
+I would love to hear your thoughts in the comments below.
+
+### Google update newsletter
+
+Want an update when Google makes a big algorithm change or other announcement?
+Sign up here!
+
+The latest SEO news is on the way! Please check your email to confirm your
+subscription. If not in your inbox, check your junk mail.
+
+There was an error submitting your subscription. Please try again.
+
+Email Address
+
+Subscribe This is a weekly newsletter. We will never send spam. Unsubscribe at
+any time. Powered by ConvertKit
+
+![](https://secure.gravatar.com/avatar/ad387151cbc32aa3bab1633cfc86aea5?s=100&d=mm&r=g)
+
+Marie Haynes
+
+Dr. Marie Haynes is recognized as a leader in the SEO industry and has 10+
+years of experience helping businesses of all sizes improve their site
+quality. She is a frequent contributor to Moz.com and Search Engine Watch and
+a regular speaker at Pubcon and SMX. Marie was named one of the top five
+industry influencers by Rand Fishkin, founder of Moz, and constantly stays up
+to date with changes to Google’s algorithms to the benefit of her clients. To
+contact Marie, visit the contact page. For media Inquiries, click here.
+
+    
+        * Tweet
+    *     *     *     *  __
+    
+
+### Want to stay up to date on Google algorithm changes?
+
+![](https://courses.mariehaynes.com/wp-content/uploads/2016/12/email.png)Our
+newsletter will keep you posted each week (every Wednesday) on the latest
+Google algorithm activity from the previous week, including real-world
+examples of the impacts we're seeing with our clients and fresh insights on
+what may have changed with Google's algorithms.
+
+Sign Up Today
+
+* * *
+
+### Latest Posts
+
+    
+        * ![What can Google's Updated QRG tell us about quality in 2019?](https://www.mariehaynes.com/wp-content/uploads/2019/05/YMYL-safety-users-120x120_c.jpg)
+    
+
+What can Google's Updated QRG tell us about quality in 2019?
+
+Once again Google has updated their Search Quality Raters’ Guidelines. As we
+do each time this happens, the MHC team...
+
+Read more ->
+
+    
+        * ![John Mueller March 19 2019 Help Hangout](https://www.mariehaynes.com/wp-content/uploads/2019/03/John-Mueller--120x120_c.jpg)
+    
+
+March 19, 2019 - Google Help Hangout Notes
+
+In this Webmaster Help Hangout with John Mueller answered some great
+questions. Here are the ones we thought would be...
+
+Read more ->
+
+    
+        * ![March 8, 2019 - Google Help Hangout Notes](https://www.mariehaynes.com/wp-content/uploads/2019/03/John-Mueller-1-120x120_c.jpg)
+    
+
+March 8, 2019 - Google Help Hangout Notes
+
+This week John answers some great questions regarding Page Speed, Anchor Text,
+Java Script. As always the full video and...
+
+Read more ->
+
+    
+        * ![March 5, 2018 Help Hangout John Mueller](https://www.mariehaynes.com/wp-content/uploads/2019/03/John-Mueller-120x120_c.jpg)
+    
+
+March 5, 2019 - Google Help Hangout Notes
+
+We join John Mueller in his home in this Webmaster Help Hangout. We had some
+great questions about Page Speed,...
+
+Read more ->
+
+    
+        * ![Disavowing in 2019 and beyond - the latest info on link auditing](https://www.mariehaynes.com/wp-content/uploads/2019/02/john-tweet-120x120_c.jpg)
+    
+
+Disavowing in 2019 and beyond - the latest info on link auditing
+
+Last Updated: February 28, 2019 Are you trying to decide on whether or not you
+should submit a disavow file...
+
+Read more ->
+
+### Recent Posts
+
+    
+        * What can Google's Updated QRG tell us about quality in 2019?
+    * March 19, 2019 - Google Help Hangout Notes
+    
+
+### Recent Comments
+
+    
+        * Guido on The August 1, 2018 Google Update strongly affected YMYL sites.
+    * Marie Haynes on Https and SEO. Should you make the switch from http?
+    
+
+### Address
+
+300 March Rd., Suite #300  
+Kanata, ON  
+Canada
+
+Website: https://www.mariehaynes.com  
+Email: Contact the MHC team at help@mariehaynes.com
+
+    
+        * ![twitter](https://mariehaynes.com/wp-content/themes/u-design/styles/common-images/twitter-icon.png)
+    * ![linkedin](https://mariehaynes.com/wp-content/themes/u-design/styles/common-images/linkedin-icon.png)
+    * ![email](https://mariehaynes.com/wp-content/themes/u-design/styles/common-images/email-icon.png)
+    
+
+Privacy Policy  
+Referrals
+
+### HIS Web Marketing
+
+Marie Haynes is the founder of HIS Web Marketing, formerly at
+www.HISWebMarketing.com. In 2015, she rebranded the company to **Marie Haynes
+Consulting Inc.**
+
+All content © **Marie Haynes Consulting Inc.** 2018. Content may not be
+reproduced in any form without written consent.
+
+Back to Top
+
+Stay updated on Google algorithm changes and search news. Sign up here for
+Marie Haynes' newsletter.
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[AU]: Australia _[CA]: Canada_ [UK]: United Kingdom _[US]: United States_
+[UN]: United Nations _[EU]: European Union_ [ v]: View this template _[AAAD]:
+Aromatic L-amino acid decarboxylase_ [ MAO]: Monoamine oxidase _[ ALDH]:
+Aldehyde dehydrogenase_ [ALR]: Aldehyde reductase _[PAH]: Phenylalanine
+hydroxylase_ [ TH]: Tyrosine hydroxylase _[ DBH]: Dopamine beta-monooxygenase_
+[ PNMT]: Phenylethanolamine N-methyltransferase _[ COMT]: Catechol-O-methyl
+transferase_ [TPH]: Tryptophan hydroxylase _[ AANAT]: Serotonin N-acetyl
+transferase_ [ ASMT]: Acetylserotonin O-methyltransferase _[ HDC]: Histidine
+decarboxylase_ [ HNMT]: Histamine N-methyltransferase _[ DAO]: Diamine
+oxidase_ [nAChRs]: Nicotinic acetylcholine receptors _[PAMs]: positive
+allosteric modulators_ [NAMs]: negative allosteric modulators _[TRP]:
+Transient receptor potential_ [TRPA]: Transient receptor potential ankyrin
+channel _[TRPC]: Transient receptor potential canonical channel_ [TRPM]:
+Transient receptor potential melastatin channel _[TRPML]: Transient receptor
+potential mucolipin channel_ [TRPP]: Transient receptor potential polycystin
+channel _[TRPV]: Transient receptor potential vanilloid channel_ [CBR]:
+Cannabinoid receptor _[ GABA]: -Aminobutyric acid_ [GABAA]: γ-Aminobutyric
+acid A _[GABA]: γ-Aminobutyric acid_ [GHB]: γ-Hydroxybutyric acid _[ hTAAR]:
+human trace amine-associated receptor_ [ PAF]: Platelet-activating factor _[
+PPAR]: Peroxisome proliferator-activated receptor_ [ GH]: Growth hormone
+_[IGF-1]: Insulin-like growth factor 1_ [GnRH]: gonadotropin hormone-releasing
+hormone _[ TNF]: Tumor necrosis factor_ [ TGFβ]: Transforming growth factor
+beta _[ TRP]: Transient receptor potential_ [c.]: circa _[ON]: Ontario_ [FT]:
+Financial Times *[RSS]: Really Simple Syndication
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[AU]: Australia
+  *[CA]: Canada
+  *[UK]: United Kingdom
+  *[US]: United States
+  *[UN]: United Nations
+  *[EU]: European Union
+  *[ v]: View this template
+  *[AAAD]: Aromatic L-amino acid decarboxylase
+  *[ MAO]: Monoamine oxidase
+  *[ ALDH]: Aldehyde dehydrogenase
+  *[ALR]: Aldehyde reductase
+  *[PAH]: Phenylalanine hydroxylase
+  *[ TH]: Tyrosine hydroxylase
+  *[ DBH]: Dopamine beta-monooxygenase
+  *[ PNMT]: Phenylethanolamine N-methyltransferase
+  *[ COMT]: Catechol-O-methyl transferase
+  *[TPH]: Tryptophan hydroxylase
+  *[ AANAT]: Serotonin N-acetyl transferase
+  *[ ASMT]: Acetylserotonin O-methyltransferase
+  *[ HDC]: Histidine decarboxylase
+  *[ HNMT]: Histamine N-methyltransferase
+  *[ DAO]: Diamine oxidase
+  *[nAChRs]: Nicotinic acetylcholine receptors
+  *[PAMs]: positive allosteric modulators
+  *[NAMs]: negative allosteric modulators
+  *[TRP]: Transient receptor potential
+  *[TRPA]: Transient receptor potential ankyrin channel
+  *[TRPC]: Transient receptor potential canonical channel
+  *[TRPM]: Transient receptor potential melastatin channel
+  *[TRPML]: Transient receptor potential mucolipin channel
+  *[TRPP]: Transient receptor potential polycystin channel
+  *[TRPV]: Transient receptor potential vanilloid channel
+  *[CBR]: Cannabinoid receptor
+  *[ GABA]: -Aminobutyric acid
+  *[GABAA]: γ-Aminobutyric acid A
+  *[GABA]: γ-Aminobutyric acid
+  *[GHB]: γ-Hydroxybutyric acid
+  *[ hTAAR]: human trace amine-associated receptor
+  *[ PAF]: Platelet-activating factor
+  *[ PPAR]: Peroxisome proliferator-activated receptor
+  *[ GH]: Growth hormone
+  *[IGF-1]: Insulin-like growth factor 1
+  *[GnRH]: gonadotropin hormone-releasing hormone
+  *[ TNF]: Tumor necrosis factor
+  *[ TGFβ]: Transforming growth factor beta
+  *[ TRP]: Transient receptor potential
+  *[c.]: circa
+  *[ON]: Ontario
+  *[FT]: Financial Times
+  *[RSS]: Really Simple Syndication
+

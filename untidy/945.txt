@@ -907,11 +907,9 @@ Edit links
 
   * ![Powered by MediaWiki](/static/images/poweredby_mediawiki_88x31.png)
 
-_[ v]: View this template_ [t]: Discuss this template _[e]: Edit this
-template_ [v]: View this template
+_[v]: View this template_ [t]: Discuss this template *[e]: Edit this template
 
-  *[ v]: View this template
+  *[v]: View this template
   *[t]: Discuss this template
   *[e]: Edit this template
-  *[v]: View this template
 

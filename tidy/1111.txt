@@ -1,0 +1,714 @@
+Effects of Background Checks on Violent Crime
+Summary: Evidence that background checks may reduce violent crime and total homicides is limited, and studies provide moderate evidence that dealer background checks reduce firearm homicides. Evidence of the effect of private-seller background checks on firearm homicides is inconclusive.
+
+Key Findings Background checks may decrease violent crime and total homicides. Evidence for this relationship is limited. Dealer background checks may decrease firearm homicides. Evidence for this relationship is moderate. Private-seller background checks have uncertain effects on firearm homicides. Evidence for this relationship is inconclusive.
+
+We identified eight studies since 2003 that examined the relationship between background checks and violent crime and met our inclusion criteria.[1] In reviews of the literature before 2003, Hahn et al. (2005) and the National Research Council (2004) reviewed Ludwig and Cook (2000), which found no difference in homicide rates across states that had laws comparable to those the Brady Act would impose (which initially included both background checks and a waiting period) and states that experienced larger changes in the law when the Brady Act was implemented.[2] The Ludwig and Cook study had an unfavorable ratio of estimated parameters to observations (less than one to six), meaning its parameter estimates and confidence intervals (CIs) may not be accurate because of model overfitting.
+
+Gius (2015a) examined the effect of the federal Brady Act, state-mandated dealer background checks (either a check that was in place before the Brady Act or checks for categories of state-prohibited possessors other than those mandated by the Brady Act), and state-mandated private-seller background checks on gun-related homicides (the paper did not evaluate the effect of these variables on total homicides). The analysis of the federal Brady Act does not meet our criteria for inclusion because although the regression model evaluated whether changes occurred after implementation of the Brady Act, there was no comparison (control) group. State dealer background checks were found to significantly reduce firearm homicides by 20 percent (see the figure below), but the study’s design cannot distinguish whether this effect is attributable to a state’s implementation of background checks prior to the Brady Act, prohibition of more classes of people from owning guns after the Brady Act was passed, or some combination of the two. Private-seller background checks appeared to increase firearm homicides to levels 131 percent of what would be expected without the policy. Gius (2015a) does not provide information on the variation in state laws over the period evaluated, so the quality of causal effect estimates is uncertain.
+
+La Valle (2013) examined the effect of the existence of a pre–Brady Act state background check law on gun homicides and total homicides (as well as other state policies). Using data from 56 large U.S. cities over 1980–2010, the author found in his preferred models (weighted models with a one-year lag and using control variables that were interpolated over the period, but where the dependent variable was not interpolated) that pre–Brady Act state background check requirements had an uncertain effect on either gun homicides or total homicides.
+
+Sen and Panjamapirom (2012) examined the effects of the types of background checks conducted by states on homicides. They noted that the supply of state and local records to the National Instant Criminal Background Check System (NICS) is voluntary and that substantial variation exists in state laws regarding the categories of records included in background checks, such as restraining orders, mental illness, fugitive status, and misdemeanors. The authors characterized variation across states in background check requirements using an index of the comprehensiveness of such checks, as well as individual indicators for whether states check on restraining orders, mental illness, fugitive status, misdemeanors, and other miscellaneous records. Using state-level data from 1996 to 2005, the authors examined the effect of these types of checks on both firearm and total homicides. They found that, compared with background checks that examine only criminal history, background checks that include restraining orders, mental illness, and fugitive status are associated with significantly fewer total homicides and firearm homicides. Background checks that include restraining orders were associated with 13-percent drops in firearm homicide rates and 9-percent drops in overall homicide rates; background checks for mental illness were associated with 7-percent drops in both firearm and overall homicide rates; and background checks for fugitive status were associated with 21-percent and 23-percent reductions in firearm and total homicide rates, respectively (see the figure below). However, so few states changed criminal history background check or fugitive check policies during the study time frame that these effects cannot confidently be attributed to the background check policies as opposed to other factors affecting homicides in the states around the same time their laws changed. Although the authors also included a control for whether a state had a pre–Brady Act background check requirement, the variation in this policy variable was only across states and not over time because the period of analysis was post-Brady only. Thus, the analysis of the effect of pre-Brady background check policy does not meet our criteria for inclusion.
+
+Duggan, Hjalmarsson, and Jacob (2011) examined the localized, short-term effect of gun shows on firearm homicides. Absent state legislation to the contrary, gun-show vendors (and other private sellers) that are not federally licensed dealers are not required to conduct background checks on purchasers, which Duggan, Hjalmarsson, and Jacob (2011) referred to as the gun-show loophole and which we call the gun-show exception. Some states have legislation requiring background checks for all buyers at gun shows. Duggan, Hjalmarsson, and Jacob (2011) examined whether there is a differential effect of gun shows on violent crime or homicide in a state that has a gun-show exception (Texas) compared with a state that has no such exception (California). The authors found only uncertain effects of state background check policies on homicides that occur near where gun shows were recently held. However, the study focused only on background check requirements as they relate to gun shows and not on a broader set of background check policies. Moreover, as the authors acknowledged, their focus was on very short-term (four-week) and localized effects. The study had low statistical power, meaning that even if gun-show background check policies had meaningful effects on violence or homicide, these might not have been detected using this paper’s procedures (see Wintemute et al., 2010).
+
+Lott (2010) examined how state-required background checks for private sales affect violent crime. Detailed results that include coefficients and test statistics were available for only one specification and for the outcome of homicide (Lott, 2010, Table A6.3). This model indicated an uncertain effect of background checks on homicide rates. This model had an unfavorable ratio of estimated parameters to observations (less than one to ten), meaning the estimated effects and significance values may be inaccurate because of model overfitting.
+
+Swanson et al. (2013) and Swanson et al. (2016) merged administrative records from public health and criminal justice agencies to evaluate how changes in state reporting of gun-disqualifying mental health records to the NICS affected violent crime arrest rates for individuals with a disqualifying mental health condition relative to individuals diagnosed with serious mental health illness but not prohibited from purchasing a firearm. Swanson et al. (2013) obtained data from 2002 to 2009 for individuals in Connecticut who had been hospitalized for schizophrenia, bipolar disorder, or major depressive disorder. The authors estimated changes in violent crime arrest rates for individuals with at least one of the mental health adjudications reported to the NICS before and after Connecticut began reporting mental health records in 2007. The authors found a significant 31-percent decline in the probability of violent crime arrest in their sample of individuals who had a mental health adjudication but no disqualifying criminal record (see the figure below). The authors also estimated the likelihood of violent crime arrest for individuals with at least one voluntary psychiatric hospitalization but no mental health adjudication. Relative to the legally disqualified population, the nondisqualified group had a lower likelihood of violent crime arrest both before and after the NICS reporting change, but the magnitude of the decrease following NICS reporting was smaller than the reduction experienced by the “treated” group with a disqualifying mental health condition. However, neither test statistics nor CIs for this difference were reported.
+
+Swanson et al. (2016) employed analogous methods to analyze the effects of NICS reporting changes in 2007 for two Florida counties using data from 2002 to 2011. The authors similarly found a larger reduction in violent crime arrest rates for individuals with a disqualifying mental health condition compared with individuals with a serious mental health illness that did not legally prohibit firearm acquisition. This difference, a decline of 38 percent (see the figure below), was statistically significant. However, estimates became insignificant when the outcome variable was restricted specifically to violent crimes involving firearms, which could indicate the absence of a causal connection or could be due to measurement error in classifying crimes as involving firearms (Swanson et al., 2016).
+
+Wright, Wintemute, and Rivara (1999) used a retrospective cohort design to assess whether firearm purchase denial based on criminal record background checks affects subsequent criminal activity among a sample of individuals with a prior felony arrest in California. Specifically, the authors examined subsequent arrest rates for a sample of individuals with a prior felony arrest who attempted to purchase a handgun in California in 1997, comparing outcomes for a group of individuals who were able to purchase a handgun successfully because they had a prior felony arrest but no conviction (“purchaser cohort”) with a group of individuals who should have been denied purchase because of a felony conviction (“denied cohort”). In individual-level analyses, controlling for number of prior weapons and violent arrest charges, the authors found that the purchaser cohort was significantly more likely to be arrested for a subsequent offense in the three-year follow-up period. Estimates showed that, relative to the denied cohort, the purchaser cohort experienced an increase in the risk of arrest of 5 percent for any offense, 21 percent for gun offenses, and 24 percent for violent offenses (see the figure below). While this study did not specifically examine the effects of background check laws, the findings suggest that enforcing background checks for felony records may reduce violent crime.
+
+Finally, Vigdor and Mercy (2006) examined the effects of restraining order and violent misdemeanor background checks on intimate partner homicides and firearm intimate partner homicides, by comparing states with more-comprehensive or less-comprehensive approaches to performing those checks. The authors found small differences in rates of such homicides between states with high and low capacities for performing such checks, but they did not provide a test of the significance of these differences.
+
+Hahn et al. (2005) found insufficient evidence for determining the effectiveness of gun-acquisition restrictions, including background checks, on violent crime. The National Research Council (NRC (2004) concluded, “There is not much empirical evidence that assesses whether attempts to reduce criminal access to firearms will reduce gun availability or gun crime.” NRC reviewed Ludwig and Cook (2000), which found no difference in homicide rates across states that had laws comparable to those the Brady Act would impose (which initially included both background checks and a waiting period) and states that experienced larger changes in the law when the Brady Act was implemented.[1] The Ludwig and Cook study had an unfavorable ratio of estimated parameters to observations (less than one to six), meaning its parameter estimates and confidence intervals (CIs) may not be accurate because of model overfitting.
+
+The figure below displays the incidence rate ratios (IRRs) and CIs associated with the background check policies examined in these studies. Duggan, Hjalmarsson, and Jacob (2011); Swanson et al. (2013); and Vigdor and Mercy (2006) did not provide sufficient data for us to calculate IRRs and CIs for the effect size of interest, so these are not displayed in figure. Furthermore, we exclude the estimate of the Brady Act from Gius (2015a) because the estimate does not meet our criteria for inclusion. The Swanson et al. (2016) estimate in the figure is the change from before and after the NICS reporting requirements for legally disqualified individuals relative to the change for nonlegally disqualified individuals.
+
+Incidence Rate Ratios Associated with the Effect of Background Checks on Violent Crime How to read this chart This forest plot shows estimates of how this policy affects this outcome, based on the evidence in the studies examined. In particular, the graphic shows the standardized effect sizes (or incidence rate ratios [IRRs]) and their 95-percent confidence intervals (CIs) for each outcome. An effect size of 1.00 indicates that, after a state passes the law, we would expect the outcome (e.g., suicide or firearm suicide) to be unaffected. An effect size of less than 1.00 indicates that the law appears to reduce the outcome. For example, if the effect size were 0.92, we would expect the rate of the outcome to fall to 0.92 times the rate prior to passage of the law. Conversely, an effect size of more than 1.00 indicates that the law appears to increase the outcome by a factor equivalent to the effect size value. When the CIs do not include the value of 1.00, the estimated effect is statistically significant at p < 0.05. Study, by Policy Outcome Measure Effect Size (IRR) [95% CI] NOTE: IRR values marked with empty circles indicate that we identified concerns with the study's methodology, and these concerns are described in the text above. Filled circles indicate that we identified no significant methodological concerns. An arrow indicates that a confidence interval extends beyond the plotted area.
+
+Conclusions
+
+Homicides and violent crime. We identified six qualifying studies providing evidence on the effects of background checks, or some component of background checks, on violent crime. Three of these studies provided an overall effect of either dealer background checks or private-seller background checks on total homicide rates, although two of these estimated effects were partially confounded with the effect of waiting periods that were simultaneously introduced in many states when the Brady Act was passed. All three studies found those effects to be uncertain (the analyses of effects on those aged 21 and older in Ludwig and Cook, 2000; the Brady Act effect in La Valle, 2013; and the private-seller background check effect in Lott, 2010). Three background check component analyses identified significant effects indicating that mental illness checks, restraining order checks, or fugitive status checks reduced violent crime specific to homicides (Sen and Panjamapirom, 2012). A fourth component analysis found that mental illness checks significantly reduce violent crime arrests (Swanson et al., 2016). A component analysis of misdemeanor checks found that they had uncertain effects on homicides, while “other miscellaneous checks” had a suggestive effect consistent with increases in homicides (Sen and Panjamapirom, 2012). Finally, a component analysis of background checks targeting firearm purchase by individuals with prior felony convictions (Wright, Wintemute, and Rivara, 1999) found significant effects consistent with a reduction in arrests for firearm and violent crime offenses.
+
+The cumulative evidence is puzzling, as overall effects of background checks appear to be uncertain, but some components of background checks appear to significantly reduce homicides or violent crime. Because the studies examining component effects of background checks generally suffer from fewer noted weaknesses, we conclude that available studies provide limited evidence that background checks reduce violent crime and total homicide rates.
+
+Firearm homicide rates. We identified four qualifying studies that provided estimates for the effects of background checks, or some component of background checks, on firearm homicide rates. Four studies examined the overall effect of dealer background checks on firearm homicide rates; two used large independent data sets and found significant effects indicating that dealer background checks reduce firearm homicides (Gius, 2015a; Sen and Panjamapirom, 2012), and two found uncertain effects (La Valle, 2013; Ludwig and Cook, 2000). One analysis found significant effects consistent with private-seller checks increasing firearm homicides (Gius, 2015a). Component analyses from a single study found significant effects indicating that restraining order and fugitive checks reduce firearm homicides (Sen and Panjamapirom, 2012). The analyses also found that mental illness checks have suggestive effects consistent with a reduction in firearm homicides, uncertain effects for misdemeanor checks, and a significant effect indicating that “miscellaneous checks” increase firearm homicides.
+
+Based on these findings and an assessment of the relative strengths of the studies, we conclude that available studies provide moderate evidence that dealer background checks may reduce firearm homicides and inconclusive evidence for the effect of private-seller background checks on firearm homicides.
+
+References Abadie, Alberto, Alexis Diamond, and Jens Hainmueller, “Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California’s Tobacco Control Program,” Journal of the American Statistical Association , Vol. 105, No. 490, 2010, pp. 493–505.
+
+, Vol. 105, No. 490, 2010, pp. 493–505. Adler, W. C., F. M. Bielke, D. J. Doi, and J. F. Kennedy, Cops Under Fire: Law Enforcement Officers Killed with Assault Weapons or Guns with High Capacity , Washington, D.C.: Handgun Control, Inc., 1995.
+
+, Washington, D.C.: Handgun Control, Inc., 1995. Alcorn, Ted, “Trends in Research Publications About Gun Violence in the United States, 1960 to 2014,” JAMA Internal Medicine , Vol. 177, No. 1, 2016, pp. 124–126.
+
+, Vol. 177, No. 1, 2016, pp. 124–126. Alcorn, Ted, and Scott Burris, “Gun Violence Prevention,” Lancet , Vol. 388, No. 10041, 2016, p. 233.
+
+, Vol. 388, No. 10041, 2016, p. 233. American Law Institute, Model Penal Code, Section 2.02 cmt.at 238, 1985.
+
+AmmoSpy, “Trending,” web page, undated. As of June 29, 2017: http://www.ammospy.net/trending
+
+Andersen, Ronald, Martin R. Frankel, and Judith Kasper, Total Survey Error: Applications to Improve Health Surveys , San Francisco, Calif.: Jossey-Bass, 1979.
+
+, San Francisco, Calif.: Jossey-Bass, 1979. Aneja, Abhay, John J. Donohue III, and Alexandria Zhang, “The Impact of Right-to-Carry Laws and the NRC Report: Lessons for the Empirical Evaluation of Law and Policy,” American Law and Economics Review , Vol. 13, No. 2, 2011, pp. 565–631.
+
+, Vol. 13, No. 2, 2011, pp. 565–631. Aneja, Abhay, John J. Donohue III, and Alexandria Zhang, The Impact of Right to Carry Laws and the NRC Report: Lessons for the Empirical Evaluation of Law and Policy , Stanford, Calif.: Stanford Law School, Olin Working Paper No. 461, December 1, 2014. As of May 21, 2017: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2443681
+
+, Stanford, Calif.: Stanford Law School, Olin Working Paper No. 461, December 1, 2014. As of May 21, 2017: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2443681 Anestis, M. D., “Prior Suicide Attempts Are Less Common in Suicide Decedents Who Died by Firearms Relative to Those Who Died by Other Means,” Journal of Affective Disorders , Vol. 189, No. 1, 2016, pp. 106–109.
+
+, Vol. 189, No. 1, 2016, pp. 106–109. Appleby, Louis, John A. Dennehy, Christopher S. Thomas, E. Brian Faragher, and Glyn Lewis, “Aftercare and Clinical Characteristics of People with Mental Illness Who Commit Suicide: A Case-Control Study,” Lancet , Vol. 353, No. 9162, 1999, pp. 1397–1400.
+
+, Vol. 353, No. 9162, 1999, pp. 1397–1400. Arria, Amelia M., Emily R. Winick, Laura M. Garnier-Dykstra, Kathryn B. Vincent, Kimberly M. Caldeira, Holly C. Wilcox, and Kevin E. O’Grady, “Help Seeking and Mental Health Service Utilization Among College Students with a History of Suicide Ideation,” Psychiatric Services , Vol. 62, No. 12, 2011, pp. 1510–1513.
+
+, Vol. 62, No. 12, 2011, pp. 1510–1513. ATF— See Bureau of Alcohol, Tobacco, Firearms and Explosives.
+
+Bureau of Alcohol, Tobacco, Firearms and Explosives. Ayres, Ian, and John J. Donohue III, “Shooting Down the More Guns, Less Crime Hypothesis,” Stanford Law Review , Vol. 55, No. 4, 2003a, pp. 1193–1312.
+
+, Vol. 55, No. 4, 2003a, pp. 1193–1312. Ayres, Ian, and John J. Donohue III, “The Latest Misfires in Support of the More Guns, Less Crime Hypothesis,” Stanford Law Review , Vol. 55, No. 4, 2003b, pp. 1371–1398.
+
+, Vol. 55, No. 4, 2003b, pp. 1371–1398. Ayres, Ian, and John J. Donohue III, “Yet Another Refutation of the More Guns, Less Crime Hypothesis—with Some Help from Moody and Marvell,” Econ Journal Watch , Vol. 6, No. 1, January 2009a, pp. 35–59.
+
+, Vol. 6, No. 1, January 2009a, pp. 35–59. Ayres, Ian, and John J. Donohue III, “More Guns, Less Crime Fails Again: The Latest Evidence from 1977–2006,” Econ Journal Watch , Vol. 6, No. 2, May 2009b, pp. 218–238.
+
+, Vol. 6, No. 2, May 2009b, pp. 218–238. Azrael, Deborah, Philip J. Cook, and Matthew Miller, “State and Local Prevalence of Firearms Ownership Measurement, Structure, and Trends,” Journal of Quantitative Criminology , Vol. 20, No. 1, March 2004, pp. 43–62.
+
+, Vol. 20, No. 1, March 2004, pp. 43–62. Azrael, Deborah, Lisa Hepburn, David Hemenway, and Matthew Miller, "The Stock and Flow of U.S. Firearms: Results From the 2015 National Firearms Survey," Russell Sage Foundation Journal of the Social Sciences , Vol. 3, No. 5, 2017, pp. 38–57.
+
+, Vol. 3, No. 5, 2017, pp. 38–57. Azrael, Deborah, and Matthew Miller, “Reducing Suicide Without Affecting Underlying Mental Health: Theoretical Underpinnings and a Review of the Evidence Base Lining the Availability of Lethal Means and Suicide,” in Rory C. O’Connor and Jane Pirkis, eds., The International Handbook of Suicide Prevention , 2nd ed., Hoboken, N.J.: John Wiley and Sons, 2016.
+
+, 2nd ed., Hoboken, N.J.: John Wiley and Sons, 2016. Bailey, J. E., A. L. Kellermann, G. W. Somes, J. G. Banton, F. P. Rivara, and N. P. Rushforth, “Risk Factors for Violent Death of Women in the Home,” Archives of Internal Medicine , Vol. 157, No. 7, 1997, pp. 777–782.
+
+, Vol. 157, No. 7, 1997, pp. 777–782. Baker, Jeanine, and Samara McPhedran, “Gun Laws and Sudden Death: Did the Australian Firearms Legislation of 1996 Make a Difference?” British Journal of Criminology , Vol. 47, No. 3, 2007, pp. 455–469.
+
+, Vol. 47, No. 3, 2007, pp. 455–469. Baker, Jeanine, and Samara McPhedran, “Australian Firearm Related Deaths: New Findings and Implications for Crime Prevention and Health Policies Following Revisions to Official Death Count Data,” International Journal of Criminal Justice Sciences , Vol. 10, No. 1, 2015, pp. 1–9.
+
+, Vol. 10, No. 1, 2015, pp. 1–9. Barkin, Shari L., Stacia A. Finch, Edward H. Ip, Benjamin Scheindlin, Joseph A. Craig, Jennifer Steffes, Victoria Weiley, Eric Slora, David Altman, and Richard C. Wasserman, “Is Office-Based Counseling About Media Use, Timeouts, and Firearm Storage Effective? Results from a Cluster-Randomized, Controlled Trial,” Pediatrics , Vol. 122, No. 1, 2008, pp. E15–E25.
+
+, Vol. 122, No. 1, 2008, pp. E15–E25. BBC Research & Consulting, The Economic Impacts of Hunting, Fishing and Wildlife Watching in Colorado , Denver, Colo., September 26, 2008. As of October 13, 2017: https://cpw.state.co.us/Documents/About/Reports/08DOWEconomicImpactReport.pdf
+
+, Denver, Colo., September 26, 2008. As of October 13, 2017: https://cpw.state.co.us/Documents/About/Reports/08DOWEconomicImpactReport.pdf Beekman, Daniel, “How Gun-Tax Legislation Would Affect Seattle Firearms Stores,” Seattle Times , July 29, 2015. As of February 20, 2017: http://www.seattletimes.com/seattle-news/politics/how-gun-tax-legislation-would-affect-seattle-firearms-stores/
+
+, July 29, 2015. As of February 20, 2017: http://www.seattletimes.com/seattle-news/politics/how-gun-tax-legislation-would-affect-seattle-firearms-stores/ Betz, M. E., C. Barber, and M. Miller, “Suicidal Behavior and Firearm Access: Results from the Second Injury Control and Risk Survey,” Suicide and Life-Threatening Behavior , Vol. 41, No. 4, 2011, pp. 384–391.
+
+, Vol. 41, No. 4, 2011, pp. 384–391. Betz, M. E., M. Miller, C. Barber, B. Beaty, I. Miller, C. A. Camargo, Jr., and E. D. Boudreaux, “Lethal Means Access and Assessment Among Suicidal Emergency Department Patients,” Depression and Anxiety , Vol. 33, No. 6, 2016, pp. 502–511.
+
+, Vol. 33, No. 6, 2016, pp. 502–511. Bice, Douglas C., and David D. Hemley, “The Market for New Handguns: An Empirical Investigation,” Journal of Law & Economics , Vol. 45, No. 1, 2002, pp. 251–265.
+
+, Vol. 45, No. 1, 2002, pp. 251–265. Birckmayer, J., and D. Hemenway, “Suicide and Firearm Prevalence: Are Youth Disproportionately Affected?” Suicide and Life-Threatening Behavior , Vol. 31, No. 3, 2001, pp. 303–310.
+
+, Vol. 31, No. 3, 2001, pp. 303–310. Blair, J. Pete, and Katherine W. Schweit, A Study of Active Shooter Incidents, 2000–2013 , Washington, D.C.: Texas State University and Federal Bureau of Investigation, U.S. Department of Justice, 2014.
+
+, Washington, D.C.: Texas State University and Federal Bureau of Investigation, U.S. Department of Justice, 2014. Blau, Benjamin M., Devon H. Gorry, and Chip Wade, “Guns, Laws, and Public Shootings in the United States,” Applied Economics , Vol. 48, No. 49, 2016, pp. 4732–4746.
+
+, Vol. 48, No. 49, 2016, pp. 4732–4746. Bohnert, A. S., J. F. McCarthy, R. V. Ignacio, M. A. Ilgen, A. Eisenberg, and F. C. Blow, “Misclassification of Suicide Deaths: Examining the Psychiatric History of Overdose Decedents,” Injury Prevention , Vol. 19, No. 6, 2013, pp. 326–330.
+
+, Vol. 19, No. 6, 2013, pp. 326–330. Borowsky, I. W., M. D. Resnick, M. Ireland, and R. W. Blum, “Suicide Attempts Among American Indian and Alaska Native Youth: Risk and Protective Factors,” Archives of Pediatrics and Adolescent Medicine , Vol. 153, No. 6, 1999, pp. 573–580.
+
+, Vol. 153, No. 6, 1999, pp. 573–580. Brady Campaign to Prevent Gun Violence, “About Brady,” web page, undated. As of January 10, 2016: http://www.bradycampaign.org/about-brady
+
+Braga, Anthony A., “Guns and Crime,” in F. Parisi, ed., The Oxford Handbook of Law and Economics , Vol. 3: Public Law and Legal Institutions , New York: Oxford University Press, 2017, pp. 344–369.
+
+, Vol. 3: , New York: Oxford University Press, 2017, pp. 344–369. Braga, Anthony A., Andrew V. Papachristos, and David M. Hureau, “The Effects of Hot Spots Policing on Crime: An Updated Systematic Review and Meta-Analysis,” Justice Quarterly , Vol. 31, No. 4, 2014, pp. 633–663.
+
+, Vol. 31, No. 4, 2014, pp. 633–663. Braga, Anthony A., and David L. Weisburd, “The Effects of Focused Deterrence Strategies on Crime: A Systematic Review and Meta-Analysis of the Empirical Evidence,” Journal of Research in Crime and Delinquency , Vol. 49, No. 3, 2012, pp. 323–358.
+
+, Vol. 49, No. 3, 2012, pp. 323–358. Braga, Anthony A., Garen J. Wintemute, Glenn L. Pierce, Philip J. Cook, and Greg Ridgeway, “Interpreting the Empirical Evidence on Illegal Gun Market Dynamics,” Journal of Urban Health , Vol. 89, No. 5, 2012, pp. 779–793.
+
+, Vol. 89, No. 5, 2012, pp. 779–793. Branas, C. C., T. S. Richmond, D. P. Culhane, T. R. Ten Have, and D. J. Wiebe, “Investigating the Link Between Gun Possession and Gun Assault,” American Journal of Public Health , Vol. 99, No. 11, 2009, pp. 2034–2040.
+
+, Vol. 99, No. 11, 2009, pp. 2034–2040. Brent, D. A., M. Baugher, J. Bridge, T. H. Chen, and L. Chiappetta, “Suicide in Affectively Ill Adolescents: A Case-Control Study,” Journal of Affective Disorders , Vol. 31, No. 3, 1994, pp. 193–202.
+
+, Vol. 31, No. 3, 1994, pp. 193–202. Brent, D. A., M. Baugher, J. Bridge, T. H. Chen, and L. Chiappetta, “Age- and Sex-Related Risk Factors for Adolescent Suicide,” Journal of the American Academy of Child and Adolescent Psychiatry , Vol. 38, No. 12, 1999, pp. 1497–1505.
+
+, Vol. 38, No. 12, 1999, pp. 1497–1505. Brent, D. A., J. A. Perper, C. J. Allman, G. M. Moritz, M. E. Wartella, and J. P. Zelenak, “The Presence and Accessibility of Firearms in the Homes of Adolescent Suicides: A Case-Control Study,” JAMA , Vol. 266, No. 21, 1991, pp. 2989–2995.
+
+, Vol. 266, No. 21, 1991, pp. 2989–2995. Brent, D. A., J. Perper, G. Moritz, M. Baugher, and C. Allman, “Suicide in Adolescents with No Apparent Psychopathology,” Journal of the American Academy of Child and Adolescent Psychiatry , Vol. 32, No. 3, 1993a, pp. 494–500.
+
+, Vol. 32, No. 3, 1993a, pp. 494–500. Brent, D. A., J. A. Perper, G. Moritz, M. Baugher, J. Schweers, and C. Roth, “Firearms and Adolescent Suicide—A Community Case-Control Study,” American Journal of Diseases of Children , Vol. 147, No. 10, 1993b, pp. 1066–1071.
+
+, Vol. 147, No. 10, 1993b, pp. 1066–1071. Bridges, F. Stephen, Kimberly M. Tatum, and Julie C. Kunselman, “Domestic Violence Statutes and Rates of Intimate Partner and Family Homicide,” Criminal Justice Policy Review , Vol. 19, No. 1, 2008, pp. 117–130.
+
+, Vol. 19, No. 1, 2008, pp. 117–130. Briggs, J. T., and A. Tabarrok, “Firearms and Suicides in U.S. States,” International Review of Law and Economics , Vol. 37, 2014, pp. 180–188.
+
+, Vol. 37, 2014, pp. 180–188. Britt, Chester L., Gary Kleck, and David J. Bordua, “A Reassessment of the D.C. Gun Law: Some Cautionary Notes on the Use of Interrupted Time Series Designs for Policy Impact Assessment,” Law and Society Review , Vol. 30, No. 2, 1996, pp. 361–380.
+
+, Vol. 30, No. 2, 1996, pp. 361–380. Buchanan, Larry, Josh Keller, Richard A. Oppel, Jr., and Daniel Victor, “How They Got Their Guns,” New York Times , June 12, 2016. As of March 22, 2017: https://www.nytimes.com/interactive/2015/10/03/us/how-mass-shooters-got-their-guns.html?_r=0
+
+, June 12, 2016. As of March 22, 2017: https://www.nytimes.com/interactive/2015/10/03/us/how-mass-shooters-got-their-guns.html?_r=0 Bukstein, O. G., D. A. Brent, J. A. Perper, G. Moritz, M. Baugher, J. Schweers, C. Roth, and L. Balach, “Risk Factors for Completed Suicide Among Adolescents with a Lifetime History of Substance Abuse: A Case-Control Study,” Acta Psychiatrica Scandinavica , Vol. 88, No. 6, 1993, pp. 403–408.
+
+, Vol. 88, No. 6, 1993, pp. 403–408. Bureau of Alcohol, Tobacco, and Firearms, Crime Gun Trace Analysis Reports: The Illegal Youth Firearms Market in Seventeen Communities , Washington, D.C.: U.S. Department of the Treasury, 1997.
+
+, Washington, D.C.: U.S. Department of the Treasury, 1997. Bureau of Alcohol, Tobacco, and Firearms, Crime Gun Trace Reports (2000): Memphis, Tennessee , Washington, D.C.: U.S. Department of the Treasury, July 2002.
+
+, Washington, D.C.: U.S. Department of the Treasury, July 2002. Bureau of Alcohol, Tobacco, Firearms and Explosives, 2012 Summary: Firearms Reported Lost and Stolen , Washington, D.C.: U.S. Department of Justice, 2013. As of May 9, 2017: https://www.atf.gov/resource-center/docs/2012-firearms-reported-lost-and-stolenpdf-1/download
+
+, Washington, D.C.: U.S. Department of Justice, 2013. As of May 9, 2017: https://www.atf.gov/resource-center/docs/2012-firearms-reported-lost-and-stolenpdf-1/download Bureau of Alcohol, Tobacco, Firearms and Explosives, FFL Thefts/Losses: January 1, 2015–December 31, 2015 , Washington, D.C.: U.S. Department of Justice, 2016a. As of May 9, 2017: https://www.atf.gov/firearms/docs/report/2015-summary-firearms-reported-lost-and-stolen/download
+
+, Washington, D.C.: U.S. Department of Justice, 2016a. As of May 9, 2017: https://www.atf.gov/firearms/docs/report/2015-summary-firearms-reported-lost-and-stolen/download Bureau of Alcohol, Tobacco, Firearms and Explosives, Firearms Commerce in the United States: Annual Statistical Update 2016 , Washington, D.C.: U.S. Department of Justice, 2016b.
+
+, Washington, D.C.: U.S. Department of Justice, 2016b. Bureau of Alcohol, Tobacco, Firearms and Explosives, Annual Firearms Manufacturing and Export Report , Washington, D.C.: U.S. Department of Justice, January 27, 2017. As of March 8, 2017: https://www.atf.gov/resource-center/docs/undefined/afmer-2015-final/download
+
+, Washington, D.C.: U.S. Department of Justice, January 27, 2017. As of March 8, 2017: https://www.atf.gov/resource-center/docs/undefined/afmer-2015-final/download Bureau of Justice Statistics, “Data Collection: National Incident-Based Reporting System (NIBRS),” web page, 2017a. As of May 15, 2017: https://www.bjs.gov/index.cfm?ty=dcdetail&iid=301
+
+Bureau of Justice Statistics, “NCVS Redesign: Subnational,” web page, 2017b. As of May 15, 2017: https://www.bjs.gov/index.cfm?ty=tp&tid=911
+
+Butkus, Renee, and Arlene Weissman, “Internists’ Attitudes Toward Prevention of Firearm Injury,” Annals of Internal Medicine , Vol. 160, No. 12, 2014, pp. 821–827.
+
+, Vol. 160, No. 12, 2014, pp. 821–827. Cagle, M. Christine, and J. Michael Martinez, “Have Gun, Will Travel: The Dispute Between the CDC and the NRA on Firearm Violence as a Public Health Problem,” Politics & Policy , Vol. 32, No. 2, 2004, pp. 278–310.
+
+, Vol. 32, No. 2, 2004, pp. 278–310. California Department of Justice, “General Notice of Firearm Prohibition and Power of Attorney for Firearms Relinquishment, Sale, or Transfer for Storage,” BOF 110, October 2015. As of June 29, 2017: https://www.oag.ca.gov/sites/all/files/agweb/pdfs/firearms/forms/poafirearmsdecl.pdf
+
+Campbell Collaboration, Guidelines for Preparation of Review Protocols , Version 1.0, Oslo, Norway, January 1, 2001. As of October 13, 2017: https://www.campbellcollaboration.org/images/pdf/plain-language/C2_Protocols_guidelines_v1.pdf
+
+, Version 1.0, Oslo, Norway, January 1, 2001. As of October 13, 2017: https://www.campbellcollaboration.org/images/pdf/plain-language/C2_Protocols_guidelines_v1.pdf Campbell, J. C., D. Webster, J. Kozio-McLain, C. Block, D. Campbell, M. A. Curry, F. Gary, N. Glass, J. McFarlane, C. Sachs, P. Sharps, Y. Ulrich, S. A. Wilt, J. Manganello, X. Xu, J. Schollenberger, V. Frye, and K. Laughon, “Risk Factors for Femicide in Abusive Relationships: Results from a Multisite Case Control Study,” American Journal of Public Health , Vol. 93, No. 7, 2003, pp. 1089–1097.
+
+, Vol. 93, No. 7, 2003, pp. 1089–1097. Cantor, D., “Substantive Implications of Longitudinal Design Features: The National Crime Survey as a Case Study,” in D. Kasprzyk, G. Duncan, G. Kalton, and M. P. Singh, eds., Panel Surveys , New York: John Wiley, 1989, pp. 25–51.
+
+, New York: John Wiley, 1989, pp. 25–51. Carbone, Paul S., Conrad J. Clemens, and Thomas M. Ball, “Effectiveness of Gun-Safety Counseling and a Gun Lock Giveaway in a Hispanic Community,” Archives of Pediatrics and Adolescent Medicine , Vol. 159, No. 11, 2005, pp. 1049–1054.
+
+, Vol. 159, No. 11, 2005, pp. 1049–1054. Cavanagh, J. T., A. J. Carson, M. Sharpe, and S. M. Lawrie, “Psychological Autopsy Studies of Suicide: A Systematic Review,” Psychological Medicine , Vol. 33, 2003, pp. 395–405.
+
+, Vol. 33, 2003, pp. 395–405. Cavanaugh, Joseph E., “Unifying the Derivations for the Akaike and Corrected Akaike Information Criteria,” Statistics and Probability Letters , Vol. 33, No. 2, April 1997, pp. 201–208.
+
+, Vol. 33, No. 2, April 1997, pp. 201–208. CDC— See Centers for Disease Control and Prevention.
+
+Centers for Disease Control and Prevention. Centers for Disease Control and Prevention, WONDER data system, undated. As of March 8, 2017: https://wonder.cdc.gov
+
+Centers for Disease Control and Prevention, “Source of Firearms Used by Students in School-Associated Violent Deaths—United States, 1992–1999,” Morbidity and Mortality Weekly Report , Vol. 50, No. 31, 2001, pp. 657–660.
+
+, Vol. 50, No. 31, 2001, pp. 657–660. Centers for Disease Control and Prevention, “Nonfatal Injury Reports, 2001–2014,” WISQARS database, Atlanta, Ga., March 28, 2013. As of March 9, 2017: https://webappa.cdc.gov/sasweb/ncipc/nfirates2001.html
+
+Centers for Disease Control and Prevention, “Fatal Injury Reports, National and Regional, 1999–2015,” WISQARS database, Atlanta, Ga., June 24, 2015. As of March 23, 2017: https://webappa.cdc.gov/sasweb/ncipc/mortrate10_us.html
+
+Centers for Disease Control and Prevention, “Fatal Injury Reports, National, Regional, and State 1981–2015,” WISQARS database, Atlanta, Ga., 2017a. As of May 8, 2017: https://webappa.cdc.gov/sasweb/ncipc/mortrate.html
+
+Centers for Disease Control and Prevention, “Leading Causes of Death Reports, National and Regional, 1999–2015,” WISQARS database, Atlanta, Ga., 2017b. As of May 10, 2017: https://webappa.cdc.gov/sasweb/ncipc/leadcaus10_us.html
+
+Centers for Disease Control and Prevention, “Nonfatal Injury Reports: 2001–2014,” WISQARS database, Atlanta, Ga., 2017c. As of January 15, 2017: https://webappa.cdc.gov/sasweb/ncipc/nfirates2001.html
+
+Chang, Ailsa, “Why the AR-15 Is More Than Just a Gun,” NPR, June 24, 2013. As of June 29, 2017: http://www.npr.org/2013/06/24/194228925/why-the-ar-15-is-more-than-just-a-gun
+
+Chapman, S., P. Alpers, K. Agho, and M. Jones, “Australia’s 1996 Gun Law Reforms: Faster Falls in Firearm Deaths, Firearm Suicides, and a Decade Without Mass Shootings,” Injury Prevention , Vol. 12, No. 6, 2006, pp. 365–372.
+
+, Vol. 12, No. 6, 2006, pp. 365–372. Chapman, Simon, Philip Alpers, and Michael Jones, “Association Between Gun Law Reforms and Intentional Firearm Deaths in Australia, 1979–2013,” JAMA , Vol. 316, No. 3, 2016, pp. 291–299.
+
+, Vol. 316, No. 3, 2016, pp. 291–299. Chaudri, V., and J. Geanakoplos, “A Note on the Economic Rationalization of Gun Control,” Economics Letters , Vol. 58, 1998, pp. 51–53.
+
+, Vol. 58, 1998, pp. 51–53. Chauhan, P., M. Cerda, S. F. Messner, M. Tracy, K. Tardiff, and S. Galea, “Race/Ethnic-Specific Homicide Rates in New York City: Evaluating the Impact of Broken Windows Policing and Crack Cocaine Markets,” Homicide Studies , Vol. 15, No. 3, 2011, pp. 268–290.
+
+, Vol. 15, No. 3, 2011, pp. 268–290. Cheng, Cheng, and Mark Hoekstra, “Does Strengthening Self-Defense Law Deter Crime or Escalate Violence? Evidence from Expansions to Castle Doctrine,” Journal of Human Resources , Vol. 48, No. 3, 2013, pp. 821–853.
+
+, Vol. 48, No. 3, 2013, pp. 821–853. Cherney, Samantha, Andrew R. Morral, and Terry L. Schell, RAND State Firearm Law Database , Santa Monica, Calif.: RAND Corporation, TL-283-RC, 2018. As of March 2, 2018: https://www.rand.org/pubs/tools/TL283.html
+
+, Santa Monica, Calif.: RAND Corporation, TL-283-RC, 2018. As of March 2, 2018: https://www.rand.org/pubs/tools/TL283.html Choe, J. Y., L. A. Teplin, and K. M. Abram, “Perpetration of Violence, Violent Victimization, and Severe Mental Illness: Balancing Public Health Outcomes,” Psychiatric Services , Vol. 59, No. 2, 2008, pp. 153–164.
+
+, Vol. 59, No. 2, 2008, pp. 153–164. Coben, J. H., C. A. Steiner, M. Barrett, C. T. Merrill, and D. Adamson, “Completeness of Cause of Injury Coding in Healthcare Administrative Databases in the United States,” Injury Prevention , Vol. 12, No. 3, 2001, pp. 199–201.
+
+, Vol. 12, No. 3, 2001, pp. 199–201. Code of Federal Regulations, Title 27, Section 478.11, Meaning of Terms.
+
+Code of Federal Regulations, Title 38, Section 1.218, Security and Law Enforcement at VA Facilities.
+
+Code of Federal Regulations, Title 39, Section 232.1, Conduct on Postal Property.
+
+Cohen, Amy P., Deborah Azrael, and Matthew Miller, “Rate of Mass Shootings Has Tripled Since 2011, Harvard Research Shows,” Mother Jones , October 15, 2014.
+
+, October 15, 2014. Colquhoun, D., “An Investigation of the False Discovery Rate and the Misinterpretation of p -Values,” Royal Society Open Science , Vol. 1, No. 3, 2014.
+
+-Values,” , Vol. 1, No. 3, 2014. Conley, Timothy G., and Christopher R. Taber, “Inference with ‘Difference in Differences’ with a Small Number of Policy Changes,” Review of Economics and Statistics , Vol. 93, No. 1, 2011, pp. 113–125.
+
+, Vol. 93, No. 1, 2011, pp. 113–125. Conwell, Y., P. R. Duberstein, K. Connor, S. Eberly, C. Cox, and E. D. Caine, “Access to Firearms and Risk for Suicide in Middle-Aged and Older Adults,” American Journal of Geriatric Psychiatry , Vol. 10, No. 4, 2002, pp. 407–416.
+
+, Vol. 10, No. 4, 2002, pp. 407–416. Cook, Philip J., “The Case of the Missing Victims: Gunshot Woundings in the National Crime Survey,” Journal of Quantitative Criminology , Vol. 1, No. 1, March 1985, pp. 91–102.
+
+, Vol. 1, No. 1, March 1985, pp. 91–102. Cook, Philip J., and Anthony A. Braga, “Comprehensive Firearms Tracing: Strategic and Investigative Uses of New Data on Firearms Markets,” Arizona Law Review , Vol. 43, No. 2, 2001, pp. 277–309.
+
+, Vol. 43, No. 2, 2001, pp. 277–309. Cook, Philip J., and Kristin A. Goss, The Gun Debate: What Everyone Needs to Know , New York: Oxford University Press, 2014.
+
+, New York: Oxford University Press, 2014. Cook, P. J., and J. A. Leitzel, “‘Perversity, Futility, Jeopardy’: An Economic Analysis of the Attack on Gun Control,” Law and Contemporary Problems , Vol. 59, No. 1, 1996, pp. 91–118.
+
+, Vol. 59, No. 1, 1996, pp. 91–118. Cook, Philip J., and Jens Ludwig, Guns in America: Results of a Comprehensive National Survey on Firearms Ownership and Use , Washington, D.C.: Police Foundation, 1996.
+
+, Washington, D.C.: Police Foundation, 1996. Cook, Philip J., and Jens Ludwig, Guns in America: National Survey on Private Ownership and Use of Firearms: Research in Brief , Rockville, Md.: National Institute of Justice, 1997.
+
+, Rockville, Md.: National Institute of Justice, 1997. Cook, Philip J., and Jens Ludwig, “Defensive Gun Uses: New Evidence from a National Survey,” Journal of Quantitative Criminology , Vol. 14, No. 2, 1998, pp. 111–131.
+
+, Vol. 14, No. 2, 1998, pp. 111–131. Cook, Philip J., and Jens Ludwig, “The Effect of the Brady Act on Gun Violence,” in B. Harcourt, ed., Guns, Crime, and Punishment in America , New York: New York University Press, 2003, pp. 283–298.
+
+, New York: New York University Press, 2003, pp. 283–298. Cook, Philip J., and Jens Ludwig, “The Social Costs of Gun Ownership,” Journal of Public Economics , Vol. 90, No. 1–2, 2006, pp. 379–391.
+
+, Vol. 90, No. 1–2, 2006, pp. 379–391. Cook, Philip J., J. Ludwig, and A. A. Braga, “Criminal Records of Homicide Offenders,” JAMA , Vol. 294, No. 5, 2005, pp. 598–601.
+
+, Vol. 294, No. 5, 2005, pp. 598–601. Cook, Philip J., Jens Ludwig, and David Hemenway, “The Gun Debate’s New Mythical Number: How Many Defensive Uses Per Year?” Journal of Policy Analysis and Management , Vol. 16, No. 3, 1997, pp. 463–469.
+
+, Vol. 16, No. 3, 1997, pp. 463–469. Cook, P. J., J. Ludwig, S. Venkatesh, and A. A. Braga, “Underground Gun Markets,” Economic Journal , Vol. 117, 2007, pp. F558–F888.
+
+, Vol. 117, 2007, pp. F558–F888. Cook, Philip J., Stephanie Molliconi, and Thomas B. Cole, “Regulating Gun Markets,” Journal of Criminal Law and Criminology , Vol. 86, No. 1, 1995, pp. 59–92.
+
+, Vol. 86, No. 1, 1995, pp. 59–92. Cook, Philip J., Susan T. Parker, and Harold A. Pollack, “Sources of Guns to Dangerous People: What We Learn by Asking Them,” Preventive Medicine , Vol. 79, 2015, pp. 28–36.
+
+, Vol. 79, 2015, pp. 28–36. Cook, P. J., and H. A. Pollack, “Reducing Access to Guns by Violent Offenders,” presented at RSF Journal Conference: The Underground Gun Market, April 2016.
+
+Cooper, Alexia, and Erica L. Smith, Homicide Trends in the United States 1980–2008 , Washington, D.C.: U.S. Department of Justice, November 2011.
+
+, Washington, D.C.: U.S. Department of Justice, November 2011. Corrigan, P. W., and A. C. Watson, “Findings from the National Comorbidity Survey on the Frequency of Violent Behavior in Individuals with Psychiatric Disorders,” Psychiatry Research , Vol. 136, 2005, pp. 153–162.
+
+, Vol. 136, 2005, pp. 153–162. Cramer, Clayton E., and David B. Kopel, “‘Shall Issue’: The New Wave of Concealed Handgun Permit Laws,” Tennessee Law Review , Vol. 62, No. 3, 2005, pp. 679–757.
+
+, Vol. 62, No. 3, 2005, pp. 679–757. Crifasi, C. K., J. S. Meyers, J. S. Vernick, and D. W. Webster, “Effects of Changes in Permit-to-Purchase Handgun Laws in Connecticut and Missouri on Suicide Rates,” Preventive Medicine , Vol. 79, 2015, pp. 43–49.
+
+, Vol. 79, 2015, pp. 43–49. Crime Prevention Research Center, “Updated: More Misleading Information from Bloomberg’s Everytown for Gun Safety on Guns: ‘Analysis of Recent Mass Shootings,’ Showing How Mass Public Shootings Keep Occurring in Gun-Free Zones,” September 1, 2014. As of March 13, 2017: http://crimeresearch.org/2014/09/more-misleading-information-from-bloombergs-everytown-for-gun-safety-on-guns-analysis-of-recent-mass-shootings/
+
+Criminal Justice Information Services Division, National Instant Criminal Background Check System (NICS) Operations 2013 , Washington, D.C.: U.S. Department of Justice, Federal Bureau of Investigation, 2014. As of June 29, 2017: https://archives.fbi.gov/archives/about-us/cjis/nics/reports/2013-operations-report
+
+, Washington, D.C.: U.S. Department of Justice, Federal Bureau of Investigation, 2014. As of June 29, 2017: https://archives.fbi.gov/archives/about-us/cjis/nics/reports/2013-operations-report Criminal Justice Information Services Division, National Instant Criminal Background Check System (NICS) Operations 2014 , Washington, D.C.: U.S. Department of Justice, Federal Bureau of Investigation, 2015. As of March 16, 2017: https://www.fbi.gov/file-repository/2014-nics-ops-report-050115.pdf
+
+, Washington, D.C.: U.S. Department of Justice, Federal Bureau of Investigation, 2015. As of March 16, 2017: https://www.fbi.gov/file-repository/2014-nics-ops-report-050115.pdf Criminal Justice Information Services Division, “National Instant Criminal Background Check System (NICS) Section Active Records in the NICS Indices,” Washington, D.C.: U.S. Department of Justice, Federal Bureau of Investigation, December 31, 2016. As of March 31, 2017: https://www.fbi.gov/file-repository/active-records-in-the-nics-index-by-state.pdf/view
+
+Csere, M., State Comparison of Gun Permit Fees , Hartford, Conn.: Connecticut General Assembly, Office of Legislative Research, OLR Research Report 2013-R-0048, 2013. As of May 24, 2017: https://www.cga.ct.gov/2013/rpt/2013-R-0048.htm
+
+, Hartford, Conn.: Connecticut General Assembly, Office of Legislative Research, OLR Research Report 2013-R-0048, 2013. As of May 24, 2017: https://www.cga.ct.gov/2013/rpt/2013-R-0048.htm Cummings, P., D. C. Grossman, F. P. Rivara, and T. D. Koepsell, “State Gun Safe Storage Laws and Child Mortality Due to Firearms,” JAMA , Vol. 278, No. 13, 1997a, pp. 1084–1086.
+
+, Vol. 278, No. 13, 1997a, pp. 1084–1086. Cummings, P., T. D. Koepsell, D. C. Grossman, J. Savarino, and R. S. Thompson, “The Association Between the Purchase of a Handgun and Homicide or Suicide,” American Journal of Public Health , Vol. 87, No. 6, 1997b, pp. 974–978.
+
+, Vol. 87, No. 6, 1997b, pp. 974–978. Curtin, Sally C., Margaret Warner, and Holly Hedegaard, Suicide Rates for Females and Males by Race and Ethnicity: United States, 1999 and 2014 , Atlanta, Ga.: Centers for Disease Control and Prevention, 2016.
+
+, Atlanta, Ga.: Centers for Disease Control and Prevention, 2016. Czyz, Ewa K., Adam G. Horwitz, Daniel Eisenberg, Anne Kramer, and Cheryl A. King, “Self-Reported Barriers to Professional Help Seeking Among College Students at Elevated Risk for Suicide,” Journal of American College Health , Vol. 61, No. 7, 2013, pp. 398–406.
+
+, Vol. 61, No. 7, 2013, pp. 398–406. Dahlberg, L. L., R. M. Ikeda, and M. J. Kresnow, “Guns in the Home and Risk of a Violent Death in the Home: Findings from a National Study,” American Journal of Epidemiology , Vol. 160, No. 10, 2004, pp. 929–936.
+
+, Vol. 160, No. 10, 2004, pp. 929–936. Daigle, M. S., “Suicide Prevention Through Means Restriction: Assessing the Risk of Substitution—A Critical Review,” Accident Analysis and Prevention , Vol. 37, 2005, pp. 625–632.
+
+, Vol. 37, 2005, pp. 625–632. Desai, R. A., D. Dausey, and R. A. Rosenheck, “Suicide Among Discharged Psychiatric Inpatients in the Department of Veterans Affairs,” Military Medicine , Vol. 173, No. 8, 2008, pp. 721–728.
+
+, Vol. 173, No. 8, 2008, pp. 721–728. DeSimone, J., S. Markowitz, and J. Xu, “Child Access Prevention Laws and Nonfatal Gun Injuries,” Southern Economic Journal , Vol. 80, No. 1, 2013, pp. 5–25.
+
+, Vol. 80, No. 1, 2013, pp. 5–25. Desmarais, S. L., R. A. Van Dorn, K. L. Johnson, K. J. Grimm, K. S. Douglas, and M. S. Swartz, “Community Violence Perpetration and Victimization Among Adults with Mental Illness,” American Journal of Public Health , Vol. 104, 2014, pp. 2342–2349.
+
+, Vol. 104, 2014, pp. 2342–2349. Dickey, Jay, and Mark Rosenberg, “How to Protect Gun Rights While Reducing the Toll of Gun Violence,” Washington Post , December 25, 2015.
+
+, December 25, 2015. Donohue, John J., “The Impact of Concealed Carry Laws,” in Jens Ludwig and Phillip J. Cook, eds., Evaluating Gun Policy: Effects on Crime and Violence , Washington, D.C.: Brookings Institution Press, 2003, pp. 287–341.
+
+, Washington, D.C.: Brookings Institution Press, 2003, pp. 287–341. Donohue, John J., “Guns, Crime, and the Impact of State Right-to-Carry Laws,” Fordham Law Review , Vol. 73, No. 2, 2004, pp. 623–652.
+
+, Vol. 73, No. 2, 2004, pp. 623–652. Donohue, John J., Abhay Aneja, and Kyle D. Weber, Right-to-Carry Laws and Violent Crime: A Comprehensive Assessment Using Panel Data, the LASSO, and a State-Level Synthetic Controls Analysis , forthcoming.
+
+, forthcoming. Draper, Norman R., and Harry Smith, Applied Regression Analysis , 3rd ed., New York: John Wiley and Sons, 1998.
+
+, 3rd ed., New York: John Wiley and Sons, 1998. Duda, M. D., and K. C. Young, Factors Related to Hunting and Fishing Participation in the United States , Harrisonburg, Va.: Responsive Management, report for the U.S. Fish and Wildlife Service, Grant # 14–48-0009–92-1252, 1993.
+
+, Harrisonburg, Va.: Responsive Management, report for the U.S. Fish and Wildlife Service, Grant # 14–48-0009–92-1252, 1993. Duggan, Mark, “More Guns, More Crime,” Journal of Political Economy , Vol. 109, No. 5, 2001, pp. 1086–1114.
+
+, Vol. 109, No. 5, 2001, pp. 1086–1114. Duggan, Mark, “Guns and Suicide,” in Jens Ludwig and Philip J. Cook, eds., Evaluating Gun Policy: Effects on Crime and Violence , Washington, D.C.: Brookings Institution Press, 2003, pp. 41–73.
+
+, Washington, D.C.: Brookings Institution Press, 2003, pp. 41–73. Duggan, Mark, Randi Hjalmarsson, and Brian A. Jacob, “The Short-Term and Localized Effect of Gun Shows: Evidence from California and Texas,” Review of Economics and Statistics , Vol. 93, No. 3, 2011, pp. 786–799.
+
+, Vol. 93, No. 3, 2011, pp. 786–799. Duncan, O. D., As Compared to What? Offensive and Defensive Gun Use Surveys, 1973–1994 , Rockville, Md.: National Institute of Justice, working paper 185056, 2000a.
+
+, Rockville, Md.: National Institute of Justice, working paper 185056, 2000a. Duncan, O. D., “Gun Use Surveys: In Numbers We Trust?” Criminologist , Vol. 25, No. 1, 2000b, pp. 1–6.
+
+, Vol. 25, No. 1, 2000b, pp. 1–6. Durlauf, Steven, Salvador Navarro, and David Rivers, “Model Uncertainty and the Effect of Shall-Issue Right-to-Carry Laws on Crime,” European Economic Review , Vol. 81, 2016, pp. 32–67.
+
+, Vol. 81, 2016, pp. 32–67. Duwe, Grant, Tomislav Kovandzic, and Carlisle E. Moody, “The Impact of Right-to-Carry Concealed Firearm Laws on Mass Public Shootings,” Homicide Studies , Vol. 6, No. 4, 2002, pp. 271–296.
+
+, Vol. 6, No. 4, 2002, pp. 271–296. Everytown for Gun Safety Support Fund, Shoot First: "Stand Your Ground" Laws and Their Effect on Violent Crime and the Criminal Justice System , New York, 2013.
+
+, New York, 2013. Everytown for Gun Safety Support Fund, Innocents Lost: A Year of Unintentional Child Gun Deaths , June 2014. As of May 12, 2017: https://everytownresearch.org/documents/2015/04/innocents-lost.pdf
+
+, June 2014. As of May 12, 2017: https://everytownresearch.org/documents/2015/04/innocents-lost.pdf Everytown for Gun Safety Support Fund, Strategies for Reducing Gun Violence in American Cities , June 2016. As of May 3, 2017: https://everytownresearch.org/documents/2016/06/strategies-reducing-gun-violence-american-cities.pdf
+
+, June 2016. As of May 3, 2017: https://everytownresearch.org/documents/2016/06/strategies-reducing-gun-violence-american-cities.pdf Everytown for Gun Safety Support Fund, “Be SMART,” web page, 2017a. As of May 7, 2017: http://besmartforkids.org/
+
+Everytown for Gun Safety Support Fund, “Mass Shootings in the United States: 2009–2016,” April 11, 2017b. As of May 3, 2017: http://everytownresearch.org/reports/mass-shootings-analysis/
+
+Families Afield, An Initiative for the Future of Hunting , 2010. As of March 23, 2017: http://www.familiesafield.org/pdf/FamiliesAfield_Report.pdf
+
+, 2010. As of March 23, 2017: http://www.familiesafield.org/pdf/FamiliesAfield_Report.pdf Fay, Robert E., and Mamadou S. Diallo, Developmental Estimates of Subnational Crime Rates Based on the National Crime Victimization Survey , Washington, D.C.: Westat, 2015. As of May 12, 2017: https://www.bjs.gov/index.cfm?ty=pbdetail&iid=5499
+
+, Washington, D.C.: Westat, 2015. As of May 12, 2017: https://www.bjs.gov/index.cfm?ty=pbdetail&iid=5499 FBI— See Federal Bureau of Investigation.
+
+Federal Bureau of Investigation. Federal Bureau of Investigation, Crime in the United States: 2015 , Uniform Crime Reporting Program, 2016a. As of March 8, 2017: https://ucr.fbi.gov/crime-in-the-u.s/2015/crime-in-the-u.s.-2015
+
+, Uniform Crime Reporting Program, 2016a. As of March 8, 2017: https://ucr.fbi.gov/crime-in-the-u.s/2015/crime-in-the-u.s.-2015 Federal Bureau of Investigation, “Crime in the United States 2015: Expanded Homicide Data Table 8,” web page, 2016b. As of May 9, 2017: https://ucr.fbi.gov/crime-in-the-u.s/2015/crime-in-the-u.s.-2015/tables/expanded_homicide_data_table_8_murder_victims_by_weapon_2011–2015.xls
+
+Federal Bureau of Investigation, “Crime in the United States 2015: Expanded Homicide Data Table 15,” web page, 2016c. As of May 9, 2017: https://ucr.fbi.gov/crime-in-the-u.s/2015/crime-in-the-u.s.-2015/tables/expanded_homicide_data_table_15_justifiable_homicide_by_weapon_private_citizen_2011–2015.xls
+
+Federal Bureau of Investigation, “Crime in the United States 2015: Expanded Homicide Data Table 28,” web page, 2016d. As of May 9, 2017: https://ucr.fbi.gov/leoka/2015/tables/table_28_leos_fk_type_of_weapon_2006–2015.xls
+
+Federal Bureau of Investigation, “Crime in the United States 2015: Violent Crime,” Washington, D.C.: U.S. Department of Justice, 2016e. As of May 8, 2017: https://ucr.fbi.gov/crime-in-the-u.s/2015/crime-in-the-u.s.-2015/offenses-known-to-law-enforcement/violent-crime/violentcrimemain_final.pdf
+
+Federal Bureau of Investigation, “Active Records in the NICS Index,” April 30, 2017. As of May 8, 2017: https://www.fbi.gov/file-repository/active_records_in_the_nics-index.pdf/view
+
+Fjestad, S. P., Blue Book of Gun Values , 38th ed., Minneapolis, Minn.: Blue Book Publications, 2017.
+
+, 38th ed., Minneapolis, Minn.: Blue Book Publications, 2017. Follman, Mark, Gavin Aronsen, and Deanna Pan, “U.S. Mass Shootings, 1982–2017: Data from Mother Jones ’ Investigation,” Mother Jones , June 14, 2017. As of August 25, 2017: http://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/
+
+’ Investigation,” , June 14, 2017. As of August 25, 2017: http://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/ Fortunato, David, “Can Easing Concealed Carry Deter Crime?” Social Science Quarterly , Vol. 96, No. 4, December 2015, pp. 1071–1085.
+
+, Vol. 96, No. 4, December 2015, pp. 1071–1085. Fox, James A., and Emma E. Fridel, “The Tenuous Connections Involving Mass Shootings, Mental Illness, and Gun Laws,” Violence and Gender , Vol. 3, No. 1, 2016, pp. 14–19.
+
+, Vol. 3, No. 1, 2016, pp. 14–19. Fox, James A., and Jack Levin, Extreme Killing: Understanding Serial and Mass Murder , 3rd ed., Thousand Oaks, Calif.: Sage Publications, 2015.
+
+, 3rd ed., Thousand Oaks, Calif.: Sage Publications, 2015. Freed, L. H., D. W. Webster, J. J. Longwell, J. Carrese, and M. H. Wilson, “Factors Preventing Gun Acquisition and Carrying Among Incarcerated Adolescent Males,” JAMA Pediatrics , Vol. 155, 2001, pp. 335–341.
+
+, Vol. 155, 2001, pp. 335–341. Freedman, David A., “On the So-Called ‘Huber Sandwich Estimator’ and ‘Robust Standard Errors,’” American Statistician , Vol. 60, No. 4, 2006, pp. 299–302.
+
+, Vol. 60, No. 4, 2006, pp. 299–302. French, B., and P. J. Heagerty, “Analysis of Longitudinal Data to Evaluate a Policy Change,” Statistics in Medicine , Vol. 27, No. 24, 2008, pp. 5005–5025.
+
+, Vol. 27, No. 24, 2008, pp. 5005–5025. Gelman, Andrew, and John Carlin, “Power Calculations: Assessing Type S (Sign) and Type M (Magnitude) Errors,” Perspectives on Psychological Science , Vol. 9, No. 6, 2014, pp. 641–651.
+
+, Vol. 9, No. 6, 2014, pp. 641–651. Giffords Law Center to Prevent Gun Violence, “Assault Weapons,” web page, undated-a. As of October 18, 2017: http://lawcenter.giffords.org/gun-laws/policy-areas/hardware-ammunition/assault-weapons/
+
+Giffords Law Center to Prevent Gun Violence, “Browse Gun Laws by State,” web page, undated-b. As of November 10, 2017: http://lawcenter.giffords.org/search-gun-law-by-state/
+
+Giffords Law Center to Prevent Gun Violence, “Categories of Prohibited People,” web page, undated-c. As of October 18, 2017: http://lawcenter.giffords.org/gun-laws/policy-areas/who-can-have-a-gun/categories-of-prohibited-people/
+
+Giffords Law Center to Prevent Gun Violence, “Guns in Schools,” web page, undated-d. As of October 18, 2017: http://lawcenter.giffords.org/gun-laws/policy-areas/guns-in-public/guns-in-schools/
+
+Giffords Law Center to Prevent Gun Violence, “Maintaining Records of Gun Sales,” web page, undated-e. As of October 18, 2017: http://lawcenter.giffords.org/gun-laws/policy-areas/gun-sales/maintaining-records-of-gun-sales/
+
+Giffords Law Center to Prevent Gun Violence, “‘Stand Your Ground’ Laws,” web page, undated-f. As of October 18, 2017: http://lawcenter.giffords.org/gun-laws/policy-areas/guns-in-public/stand-your-ground-laws/
+
+Giffords Law Center to Prevent Gun Violence, “Universal Background Checks,” web page, undated-g. As of October 18, 2017: http://lawcenter.giffords.org/gun-laws/policy-areas/background-checks/universal-background-checks/
+
+Giffords Law Center to Prevent Gun Violence, “Waiting Periods,” web page, undated-h. As of October 18, 2017: http://lawcenter.giffords.org/gun-laws/policy-areas/gun-sales/waiting-periods/
+
+Gill, J. R., and M. Pasquale-Styles, “Firearm Deaths by Law Enforcement,” Journal of Forensic Science , Vol. 54, No. 1, 2009, pp. 185–188.
+
+, Vol. 54, No. 1, 2009, pp. 185–188. Gius, Mark, “An Examination of the Effects of Concealed Weapons Laws and Assault Weapons Bans on State-Level Murder Rates,” Applied Economics Letters , Vol. 21, No. 4, 2014, pp. 265–267.
+
+, Vol. 21, No. 4, 2014, pp. 265–267. Gius, Mark, “The Effects of State and Federal Background Checks on State-Level Gun-Related Murder Rates,” Applied Economics , Vol. 47, No. 38, 2015a, pp. 4090–4101.
+
+, Vol. 47, No. 38, 2015a, pp. 4090–4101. Gius, Mark, “The Impact of Minimum Age and Child Access Prevention Laws on Firearm-Related Youth Suicides and Unintentional Deaths,” Social Science Journal , Vol. 52, No. 2, 2015b, pp. 168–175.
+
+, Vol. 52, No. 2, 2015b, pp. 168–175. Gius, Mark, “The Impact of State and Federal Assault Weapons Bans on Public Mass Shootings,” Applied Economics Letters , Vol. 22, No. 4, 2015c, pp. 281–284.
+
+, Vol. 22, No. 4, 2015c, pp. 281–284. Glatt, K. M., “Helpline: Suicide Prevention at a Suicide Site,” Suicide and Life Threatening Behavior , Vol. 17, 1987, pp. 299–309.
+
+, Vol. 17, 1987, pp. 299–309. Good, Phillip I., and James W. Hardin, Common Errors in Statistics (And How to Avoid Them) , 4th ed., New York: John Wiley and Sons, 2012.
+
+, 4th ed., New York: John Wiley and Sons, 2012. Grambsch, P., “Regression to the Mean, Murder Rates, and Shall-Issue Laws,” American Statistician , Vol. 62, No. 4, 2008, pp. 289–295.
+
+, Vol. 62, No. 4, 2008, pp. 289–295. Grassel, K. M., G. J. Wintemute, M. A. Wright, and M. P. Romero, “Association Between Handgun Purchase and Mortality from Firearm Injury,” Injury Prevention , Vol. 9, No. 1, 2003, pp. 48–52.
+
+, Vol. 9, No. 1, 2003, pp. 48–52. Grinshteyn, Erin, and David Hemenway, “Violent Death Rates: The US Compared with Other High-Income OECD Countries, 2010,” American Journal of Medicine , Vol. 129, No. 3, March 2016, pp. 266–273.
+
+, Vol. 129, No. 3, March 2016, pp. 266–273. Grossman, David C., Peter Cummings, Thomas D. Koepsell, Jean Marshall, Luann D’Ambrosio, Robert S. Thompson, and Chris Mack, “Firearm Safety Counseling in Primary Care Pediatrics: A Randomized, Controlled Trial,” Pediatrics , Vol. 106, No. 1, 2000, pp. 22–26.
+
+, Vol. 106, No. 1, 2000, pp. 22–26. Grossman, D. C., B. A. Mueller, C. Riedy, M. D. Dowd, A. Villaveces, J. Prodzinski, J. Nakagawara, J. Howard, N. Thiersch, and R. Harruff, “Gun Storage Practices and Risk of Youth Suicide and Unintentional Firearm Injuries,” JAMA , Vol. 293, No. 6, 2005, pp. 707–714.
+
+, Vol. 293, No. 6, 2005, pp. 707–714. Grossman, D. C., D. T. Reay, and S. A. Baker, “Self-Inflicted and Unintentional Firearm Injuries Among Children and Adolescents,” JAMA Pediatrics , Vol. 153, No. 8, 1999, pp. 875–878.
+
+, Vol. 153, No. 8, 1999, pp. 875–878. Grossman, David C., Helen A. Stafford, Thomas D. Koepsell, Ryan Hill, Kyla D. Retzer, and Ward Jones, “Improving Firearm Storage in Alaska Native Villages: A Randomized Trial of Household Gun Cabinets,” American Journal of Public Health , Vol. 102, No. S2, 2012, pp. S291–S297.
+
+, Vol. 102, No. S2, 2012, pp. S291–S297. Grossman, Richard S., and Stephen A. Lee, “May Issue Versus Shall Issue: Explaining the Pattern of Concealed-Carry Handgun Laws, 1960–2001,” Contemporary Economic Policy , Vol. 26, No. 2, 2008, pp. 198–206.
+
+, Vol. 26, No. 2, 2008, pp. 198–206. Gun Violence Archive, homepage, undated-a. As of October 20, 2016: http://www.gunviolencearchive.org/
+
+Gun Violence Archive, “Mass Shootings,” website, undated-b. As of October 25, 2017: http://www.gunviolencearchive.org/reports/mass-shooting
+
+Hahn, Robert A., Oleg Bilukha, Alex Crosby, Mindy T. Fullilove, Akiva Liberman, Eve Moscicki, Susan Snyder, Farris Tuma, and Peter A. Briss, “Firearms Laws and the Reduction of Violence: A Systematic Review,” American Journal of Preventive Medicine , Vol. 28, No. 2, 2005, pp. 40–71.
+
+, Vol. 28, No. 2, 2005, pp. 40–71. Harlow, Caroline Wolf, Survey of Inmates in State and Federal Correctional Facilities: Firearm Use by Offenders , Washington, D.C.: U.S. Department of Justice, Bureau of Justice Statistics, NCJ 189369, November 2001.
+
+, Washington, D.C.: U.S. Department of Justice, Bureau of Justice Statistics, NCJ 189369, November 2001. Harrell, Erika, Crime Against Persons with Disabilities, 2009–2015—Statistical Tables , Washington, D.C.: U.S. Department of Justice, Bureau of Justice Statistics, NCJ 250632, 2017.
+
+, Washington, D.C.: U.S. Department of Justice, Bureau of Justice Statistics, NCJ 250632, 2017. Helland, E., and A. Tabarrok, “Using Placebo Laws to Test ‘More Guns, Less Crime,’” Advances in Economic Analysis and Policy , Vol. 4, No. 1, 2004.
+
+, Vol. 4, No. 1, 2004. Hemenway, David, “Survey Research and Self-Defense Gun Use: An Explanation of Extreme Overestimates,” Journal of Criminal Law and Criminology , Vol. 87, No. 4, 1997, pp. 1430–1445.
+
+, Vol. 87, No. 4, 1997, pp. 1430–1445. Hemenway, David, and Deborah Azrael, “The Relative Frequency of Offensive and Defensive Gun Uses: Results from a National Survey,” Violence and Victims , Vol. 15, No. 3, 2000, pp. 257–272.
+
+, Vol. 15, No. 3, 2000, pp. 257–272. Hemenway, David, Deborah Azrael, and Matthew Miller, “Gun Use in the United States: Results from Two National Surveys,” Injury Prevention , Vol. 6, No. 4, 2000, pp. 263–267.
+
+, Vol. 6, No. 4, 2000, pp. 263–267. Hemenway, David, Deborah Azrael, and Matthew Miller, “Whose Guns Are Stolen? The Epidemiology of Gun Theft Victims,” Injury Epidemiology , Vol. 4, No. 1, 2017, p. 11.
+
+, Vol. 4, No. 1, 2017, p. 11. Hemenway, David, and Sara J. Solnick, “Children and Unintentional Firearm Death,” Injury Epidemiology , Vol. 2, No. 26, 2015a.
+
+, Vol. 2, No. 26, 2015a. Hemenway, David, and Sara J. Solnick, “The Epidemiology of Self-Defense Gun Use: Evidence from the National Crime Victimization Surveys 2007–2011,” Preventive Medicine , Vol. 79, 2015b, pp. 22–27.
+
+, Vol. 79, 2015b, pp. 22–27. Hemenway, David, Sara J. Solnick, and Deborah R. Azrael, “Firearm Training and Storage,” JAMA , Vol. 273, No. 1, 1995, pp. 46–50.
+
+, Vol. 273, No. 1, 1995, pp. 46–50. Hepburn, L., D. Azrael, M. Miller, and D. Hemenway, “The Effect of Child Access Prevention Laws on Unintentional Child Firearm Fatalities, 1979–2000,” Journal of Trauma-Injury Infection and Critical Care , Vol. 61, No. 2, 2006, pp. 423–428.
+
+, Vol. 61, No. 2, 2006, pp. 423–428. Higgins, Julian P. T., and Sally Green, eds., Cochrane Handbook for Systematic Reviews of Interventions , Version 5.1.0, London: Cochrane Collaboration, March 2011. As of October 13, 2017: http://handbook.cochrane.org
+
+, Version 5.1.0, London: Cochrane Collaboration, March 2011. As of October 13, 2017: http://handbook.cochrane.org Hodur, Nancy M., F. Larry Leistritz, and Kara L. Wolfe, “Developing the Nature-Based Tourism Sector in Southwestern North Dakota,” Great Plains Research: A Journal of Natural and Social Sciences , Vol. 18, Spring 2008, pp. 81–92.
+
+, Vol. 18, Spring 2008, pp. 81–92. Hoskin, Anthony, “Household Gun Prevalence and Rates of Violent Crime: A Test of Competing Gun Theories,” Criminal Justice Studies , Vol. 24, No. 1, 2011, pp. 125–136.
+
+, Vol. 24, No. 1, 2011, pp. 125–136. Hughes, Karen, Mark A. Bellis, Lisa Jones, Sara Wood, Geoff Bates, Lindsay Eckley, Ellie McCoy, Christopher Mikton, Tom Shakespeare, and Alana Officer, “Prevalence and Risk of Violence Against Adults with Disabilities: A Systematic Review and Meta-Analysis of Observational Studies,” Lancet , Vol. 379, 2012, pp. 1621–1629.
+
+, Vol. 379, 2012, pp. 1621–1629. Humphreys, David K., Antonio Gasparrini, and Douglas J. Wiebe, “Evaluating the Impact of Florida’s ‘Stand Your Ground’ Self-Defense Law on Homicide and Suicide by Firearm: An Interrupted Time Series Study,” JAMA Internal Medicine , Vol. 177, No. 1, 2017, pp. 44–50.
+
+, Vol. 177, No. 1, 2017, pp. 44–50. IBISWorld, Guns and Ammunition Manufacturing in the U.S.: Market Research Report , Los Angeles, Calif., August 2016.
+
+, Los Angeles, Calif., August 2016. Ilgen, M. A., K. Zivin, R. J. McCammon, and M. Valenstein, “Mental Illness, Previous Suicidality, and Access to Guns in the United States,” Psychiatric Services , Vol. 59, No. 2, 2008, pp. 198–200.
+
+, Vol. 59, No. 2, 2008, pp. 198–200. Institute of Medicine, Finding What Works in Health Care: Standards for Systematic Reviews , Washington, D.C.: National Academies Press, 2011.
+
+, Washington, D.C.: National Academies Press, 2011. Jagodič, Helena Korošec, Tatjana Rokavec, Mark Agius, and Peter Pregelj, “Availability of Mental Health Service Providers and Suicide Rates in Slovenia: A Nationwide Ecological Study,” Croatian Medical Journal , Vol. 54, No. 5, 2013, pp. 444–452.
+
+, Vol. 54, No. 5, 2013, pp. 444–452. Joe, S., S. C. Marcus, and M. S. Kaplan, “Racial Differences in the Characteristics of Firearm Suicide Decedents in the United States,” American Journal of Orthopsychiatry , Vol. 77, No. 1, 2007, pp. 124–130.
+
+, Vol. 77, No. 1, 2007, pp. 124–130. Johnson, R. M., C. Barber, D. Azrael, D. E. Clark, and D. Hemenway, “Who Are the Owners of Firearms Used in Adolescent Suicides?” Suicide and Life-Threatening Behavior , Vol. 40, No. 6, 2010, pp. 609–611.
+
+, Vol. 40, No. 6, 2010, pp. 609–611. Jones, Edward D. III, “The District of Columbia’s ‘Firearms Control Regulations Act of 1975’: The Toughest Handgun Control Law in the United States—or Is It?” Annals of the American Academy of Political and Social Science , Vol. 455, 1981, pp. 138–149.
+
+, Vol. 455, 1981, pp. 138–149. Joshi, M., and S. B. Sorenson, “Intimate Partner Violence at the Scene: Incident Characteristics and Implications for Public Health Surveillance,” Evaluation Review , Vol. 34, No. 2, 2010, pp. 116–136.
+
+, Vol. 34, No. 2, 2010, pp. 116–136. Juodis, Marcus, Andrew Starzomski, Stephen Porter, and Michael Woodworth, “A Comparison of Domestic and Non-Domestic Homicides: Further Evidence for Distinct Dynamics and Heterogeneity of Domestic Homicide Perpetrators,” Journal of Family Violence , Vol. 29, No. 3, 2014, pp. 299–313.
+
+, Vol. 29, No. 3, 2014, pp. 299–313. Kahan, Dan M., “The Politically Motivated Reasoning Paradigm, Part 2: Unanswered Questions,” in Robert Scott and Stephen Kosslyn, eds., Emerging Trends in the Social and Behavioral Sciences , New York: John Wiley and Sons, Inc., 2016.
+
+, New York: John Wiley and Sons, Inc., 2016. Kahan, Dan M., “On the Sources of Ordinary Science Knowledge and Extraordinary Science Ignorance,” in Kathleen Hall Jamieson, Dan Kahan, and Dietram A. Scheufele, eds., Oxford Handbook of the Science of Science Communication , Oxford, UK: Oxford University Press, 2017.
+
+, Oxford, UK: Oxford University Press, 2017. Kahan, Dan M., E. Peters, E. Dawson, and P. Slovic, “Motivated Numeracy and Enlightened Self-Government,” Behavioural Public Policy , Vol. 1, No. 1, 2017, pp. 54–86.
+
+, Vol. 1, No. 1, 2017, pp. 54–86. Kalesan, Bindu, Matthew E. Mobily, Olivia Keiser, Jeffrey A. Fagan, and Sandro Galea, “Firearm Legislation and Firearm Mortality in the USA: A Cross-Sectional, State-Level Study,” Lancet , Vol. 387, No. 10030, April 30, 2016, pp. 1847–1855.
+
+, Vol. 387, No. 10030, April 30, 2016, pp. 1847–1855. Kann, L., T. McManus, W. A. Harris, S. L. Shanklin, K. H. Flint, J. Hawkins, B. Queen, R. Lowry, E. O. Olsen, D. Chyen, L. Whittle, J. Thornton, C. Lim, Y. Yamakawa, N. Brener, and S. Zaza, “Youth Risk Behavior Surveillance—United States, 2015,” Morbidity and Mortality Weekly Report , Vol. 65, No. 6, 2016, pp. 1–174.
+
+, Vol. 65, No. 6, 2016, pp. 1–174. Kapusta, Nestor D., Thomas Niederkrotenthaler, Elmar Etzersdorfer, Martin Voracek, Kanita Dervic, Elisabeth Jandl-Jager, and Gernot Sonneck, “Influence of Psychotherapist Density and Antidepressant Sales on Suicide Rates,” Acta Psychiatrica Scandinavica , Vol. 119, No. 3, 2009, pp. 236–242.
+
+, Vol. 119, No. 3, 2009, pp. 236–242. Kapusta, Nestor D., Martin Posch, Thomas Niederkrotenthaler, Melitta Fischer-Kern, Elmar Etzersdorfer, and Gernot Sonneck, “Availability of Mental Health Service Providers and Suicide Rates in Austria: A Nationwide Study,” Psychiatric Services , Vol. 61, No. 12, 2010, pp. 1198–1203.
+
+, Vol. 61, No. 12, 2010, pp. 1198–1203. Kapusta, N. D., U. S. Tran, I. R. Rockett, D. DeLeo, C. P. Naylor, T. Niederkrotenthaler, M. Voracek, E. Etzersdorfer, and G. Sonneck, “Declining Autopsy Rates and Suicide Misclassification: A Cross-National Analysis of 35 Countries,” Archives of General Psychiatry , Vol. 68, No. 10, 2011, pp. 1050–1057.
+
+, Vol. 68, No. 10, 2011, pp. 1050–1057. Kawaguchi, Hideaki, and Soichi Koike, “Association Between the Density of Physicians and Suicide Rates in Japan: Nationwide Ecological Study Using a Spatial Bayesian Model,” PLoS ONE , Vol. 11, No. 2, 2016.
+
+, Vol. 11, No. 2, 2016. Kellermann, Arthur L., and Frederick P. Rivara, “Silencing the Science on Gun Policy,” JAMA , Vol. 309, No. 6, 2013, pp. 549–550.
+
+, Vol. 309, No. 6, 2013, pp. 549–550. Kellermann, A. L., F. P. Rivara, G. Somes, D. T. Reay, J. Francisco, J. G. Banton, J. Prodzinski, C. Fligner, and B. B. Hackman, “Suicide in the Home in Relation to Gun Ownership,” New England Journal of Medicine , Vol. 327, No. 7, 1992, pp. 467–472.
+
+, Vol. 327, No. 7, 1992, pp. 467–472. Kendall, Todd D., and Robert Tamura, “Unmarried Fertility, Crime, and Social Stigma,” Journal of Law and Economics , Vol. 53, No. 1, 2010, pp. 185–221.
+
+, Vol. 53, No. 1, 2010, pp. 185–221. Kennedy, D. M., A. M. Piehl, and A. A. Braga, “Youth Violence in Boston: Gun Markets, Serious Youth Offenders, and a Use-Reduction Strategy,” Law and Contemporary Problems , Vol. 59, No. 1, 1996, pp. 147–196.
+
+, Vol. 59, No. 1, 1996, pp. 147–196. Khan, Khalid S., Regina Kunz, Jos Kleijnen, and Gerd Antes, “Five Steps to Conducting a Systematic Review,” Journal of the Royal Society of Medicine , Vol. 96, No. 3, 2003, pp. 118–121.
+
+, Vol. 96, No. 3, 2003, pp. 118–121. Kindy, Kimberly, “FBI to Sharply Expand System for Tracking Fatal Police Shootings,” Washington Post , December 8, 2015.
+
+, December 8, 2015. Kleck, Gary, Targeting Guns: Firearms and Their Control , New York: Aldine de Gruyter, 1997.
+
+, New York: Aldine de Gruyter, 1997. Kleck, Gary, “Degrading Scientific Standards to Get the Defensive Gun Use Estimate Down,” Journal on Firearms and Public Policy , Vol. 11, 1999, pp. 77–138.
+
+, Vol. 11, 1999, pp. 77–138. Kleck, Gary, “The Nature and Effectiveness of Owning, Carrying and Using Guns for Self-Protection,” in G. Kleck and D. B. Kates, eds., Armed: New Perspectives on Gun Control , New York: Prometheus Books, 2001.
+
+, New York: Prometheus Books, 2001. Kleck, Gary, “Measures of Gun Ownership Levels for Macro-Level Crime and Violence Research,” Journal of Research in Crime and Delinquency , Vol. 41, No. 1, 2004, pp. 3–36.
+
+, Vol. 41, No. 1, 2004, pp. 3–36. Kleck, Gary, “Large-Capacity Magazines and the Casualty Counts in Mass Shootings: The Plausibility of Linkages,” Justice Research and Policy , Vol. 17, No. 1, 2016, pp. 28–47.
+
+, Vol. 17, No. 1, 2016, pp. 28–47. Kleck, G., and D. J. Bordua, “The Factual Foundation for Certain Key Assumptions of Gun Control,” Law and Policy , Vol. 5, No. 3, 1983, pp. 271–298.
+
+, Vol. 5, No. 3, 1983, pp. 271–298. Kleck, G., and M. A. DeLone, “Victim Resistance and Offender Weapon Effects in Robbery,” Journal of Quantitative Criminology , Vol. 9, No. 1, 1993, pp. 55–81.
+
+, Vol. 9, No. 1, 1993, pp. 55–81. Kleck, Gary, and Marc G. Gertz, “Armed Resistance to Crime: The Prevalence and Nature of Self-Defense with a Gun,” Journal of Criminal Law and Criminology , Vol. 86, No. 1, 1995, pp. 150–187.
+
+, Vol. 86, No. 1, 1995, pp. 150–187. Kleck, Gary, Tomislav Kovandzic, and Mark E. Schaffer, Gun Prevalence, Homicide Rates and Causality: A GMM Approach to Endogeneity Bias , London: Centre for Economic Policy Research, Discussion Paper No. 5357, 2005.
+
+, London: Centre for Economic Policy Research, Discussion Paper No. 5357, 2005. Kleck, G., and E. B. Patterson, “The Impact of Gun Control and Gun Ownership Levels on Violence Rates,” Journal of Quantitative Criminology , Vol. 9, No. 3, 1993, pp. 249–287.
+
+, Vol. 9, No. 3, 1993, pp. 249–287. Klieve, H., J. Sveticic, and D. De Leo, “Who Uses Firearms as a Means of Suicide? A Population Study Exploring Firearm Accessibility and Method Choice,” BMC Medicine , Vol. 7, 2009.
+
+, Vol. 7, 2009. Klinger, D., R. Rosenfeld, D. Isom, and M. Deckard, “Race, Crime, and the Micro-Ecology of Deadly Force,” Criminology and Public Policy , Vol. 15, No. 1, February 2016, pp. 193–222.
+
+, Vol. 15, No. 1, February 2016, pp. 193–222. Koehler, J. J., “The Influence of Prior Beliefs on Scientific Judgments of Evidence Quality,” Organizational Behavior and Human Decision Processes , Vol. 56, 1993, pp. 28–55.
+
+, Vol. 56, 1993, pp. 28–55. Kolla, B. P., S. S. O’Connor, and T. W. Lineberry, “The Base Rates and Factors Associated with Reported Access to Firearms in Psychiatric Inpatients,” General Hospital Psychiatry , Vol. 33, No. 2, 2011, pp. 191–196.
+
+, Vol. 33, No. 2, 2011, pp. 191–196. Kopel, D. B., “Background Checks for Firearms Sales and Loans: Law, History, and Policy,” Harvard Journal on Legislation , Vol. 53, 2016, pp. 303–367.
+
+, Vol. 53, 2016, pp. 303–367. Koper, Christopher S., Updated Assessment of the Federal Assault Weapons Ban: Impacts on Gun Markets and Gun Violence 1994–2003 , Washington, D.C.: National Institute of Justice, U.S. Department of Justice, 2004.
+
+, Washington, D.C.: National Institute of Justice, U.S. Department of Justice, 2004. Koper, Christopher S., and Jeffrey A. Roth, “The Impact of the 1994 Federal Assault Weapon Ban on Gun Violence Outcomes: An Assessment of Multiple Outcome Measures and Some Lessons for Policy Evaluation,” Journal of Quantitative Criminology , Vol. 17, No. 1, 2001, pp. 33–74.
+
+, Vol. 17, No. 1, 2001, pp. 33–74. Koper, Christopher S., and Jeffrey A. Roth, “Impact of the 1994 Federal Assault Weapons Ban on Gun Markets: An Assessment of Short-Term Primary and Secondary Market Effects,” Journal of Quantitative Criminology , Vol. 18, No. 3, 2002, pp. 239–266.
+
+, Vol. 18, No. 3, 2002, pp. 239–266. Kovandzic, Tomislav V., and Thomas B. Marvell, “Right-to-Carry Concealed Handguns and Violent Crime: Crime Control Through Gun Control?” Criminology and Public Policy , Vol. 2, No. 3, 2003, pp. 363–396.
+
+, Vol. 2, No. 3, 2003, pp. 363–396. Kovandzic, T. V., T. B. Marvell, and L. M. Vieraitis, “The Impact of ‘Shall-Issue’ Concealed Handgun Laws on Violent Crime Rates—Evidence from Panel Data for Large Urban Cities,” Homicide Studies , Vol. 9, No. 4, 2005, pp. 292–323.
+
+, Vol. 9, No. 4, 2005, pp. 292–323. Kovandzic, Tomislav, Mark E. Schaffer, and Gary Kleck, “Estimating the Causal Effect of Gun Prevalence on Homicide Rates: A Local Average Treatment Effect Approach,” Journal of Quantitative Criminology , Vol. 29, No. 4, 2013, pp. 477–541.
+
+, Vol. 29, No. 4, 2013, pp. 477–541. Kposowa, A. J., “Association of Suicide Rates, Gun Ownership, Conservatism and Individual Suicide Risk,” Social Psychiatry and Psychiatric Epidemiology , Vol. 48, No. 9, 2013, pp. 1467–1479.
+
+, Vol. 48, No. 9, 2013, pp. 1467–1479. Kposowa, A., D. Hamilton, and K. Wang, “Impact of Firearm Availability and Gun Regulation on State Suicide Rates,” Suicide and Life-Threatening Behavior , Vol. 46, No. 6, 2016, pp. 678–696.
+
+, Vol. 46, No. 6, 2016, pp. 678–696. Krouse, W. J., Gun Control: Statutory Disclosure Limitations on ATF Firearms Trace Data and Multiple Handgun Sales Reports , Washington, D.C.: Congressional Research Service, 7–5700, 2009.
+
+, Washington, D.C.: Congressional Research Service, 7–5700, 2009. Krouse, William J., and Daniel J. Richardson, Mass Murder with Firearms: Incidents and Victims, 1999–2013 , Washington, D.C.: Congressional Research Service, R44126, 2015.
+
+, Washington, D.C.: Congressional Research Service, R44126, 2015. Kubrin, Charis E., and Tim Wadsworth, “Explaining Suicide Among Blacks and Whites: How Socioeconomic Factors and Gun Availability Affect Race-Specific Suicide Rates,” Social Science Quarterly , Vol. 90, No. 5, 2009, pp. 1203–1227.
+
+, Vol. 90, No. 5, 2009, pp. 1203–1227. Kung, H. C., J. L. Pearson, and X. Liu, “Risk Factors for Male and Female Suicide Decedents Ages 15–64 in the United States—Results from the 1993 National Mortality Followback Survey,” Social Psychiatry and Psychiatric Epidemiology , Vol. 38, No. 8, 2003, pp. 419–426.
+
+, Vol. 38, No. 8, 2003, pp. 419–426. Kung, H. C., J. L. Pearson, and R. Wei, “Substance Use, Firearm Availability, Depressive Symptoms, and Mental Health Service Utilization Among White and African American Suicide Decedents Aged 15 to 64 Years,” Annals of Epidemiology , Vol. 15, No. 8, 2005, pp. 614–621.
+
+, Vol. 15, No. 8, 2005, pp. 614–621. La Valle, James M., “Rebuilding at Gunpoint: A City-Level Re-Estimation of the Brady Law and RTC Laws in the Wake of Hurricane Katrina,” Criminal Justice Policy Review , Vol. 18, No. 4, 2007, pp. 451–465.
+
+, Vol. 18, No. 4, 2007, pp. 451–465. La Valle, James M., “Re-Estimating Gun-Policy Effects According to a National Science Academy Report: Were Previous Reports of Failure Premature?” Journal of Crime and Justice , Vol. 33, No. 1, 2010, pp. 71–95.
+
+, Vol. 33, No. 1, 2010, pp. 71–95. La Valle, James M., “‘Gun Control’ vs. ‘Self-Protection’: A Case Against the Ideological Divide,” Justice Policy Journal , Vol. 10, No. 1, 2013, pp. 1–26.
+
+, Vol. 10, No. 1, 2013, pp. 1–26. La Valle, James M., and Thomas C. Glover, “Revisiting Licensed Handgun Carrying: Personal Protection or Interpersonal Liability?” American Journal of Criminal Justice , Vol. 37, No. 4, 2012, pp. 580–601.
+
+, Vol. 37, No. 4, 2012, pp. 580–601. LaFree, G., and C. Birbeck, Controlling New Mexico Juveniles’ Possession of Firearms , Albuquerque, N.M.: New Mexico Criminal Justice Statistical Analysis Center, Working Paper 27, 1998. As of May 10, 2017: http://nmsc.unm.edu/reports/1998/JuvFirearmPossession.pdf
+
+, Albuquerque, N.M.: New Mexico Criminal Justice Statistical Analysis Center, Working Paper 27, 1998. As of May 10, 2017: http://nmsc.unm.edu/reports/1998/JuvFirearmPossession.pdf Lang, Matthew, “The Impact of Mental Health Insurance Laws on State Suicide Rates,” Health Economics , Vol. 22, No. 1, 2013, pp. 73–88.
+
+, Vol. 22, No. 1, 2013, pp. 73–88. Langton, L., Firearms Stolen During Household Burglaries and Other Property Crimes, 2005–2010 , Washington, D.C.: U.S. Department of Justice, Bureau of Justice Statistics, NCJ 239436, 2012.
+
+, Washington, D.C.: U.S. Department of Justice, Bureau of Justice Statistics, NCJ 239436, 2012. Leask, Anna, “Raurimu 20 Years On: The Madman, the Massacre and the Memories,” New Zealand Herald , February 4, 2017.
+
+, February 4, 2017. Lee, Wang-Sheng, and Sandy Suardi, “The Australian Firearms Buyback and Its Effect on Gun Deaths,” Contemporary Economic Policy , Vol. 28, No. 1, 2010, pp. 65–79.
+
+, Vol. 28, No. 1, 2010, pp. 65–79. Lehnen, R., and W. Skogan, The National Crime Survey: Working Papers , Vol. 2: Methodological Studies , Washington, D.C.: U.S. Department of Justice, Bureau of Justice Statistics, 1984.
+
+, Vol. 2: , Washington, D.C.: U.S. Department of Justice, Bureau of Justice Statistics, 1984. Leigh, Andrew, and Christine Neill, “Do Gun Buybacks Save Lives? Evidence from Panel Data,” American Law and Economics Review , Vol. 12, No. 2, 2010, pp. 462–508.
+
+, Vol. 12, No. 2, 2010, pp. 462–508. Lewiecki, E. M., and S. A. Miller, “Suicide, Guns, and Public Policy,” American Journal of Public Health , Vol. 103, No. 1, 2013, pp. 27–31.
+
+, Vol. 103, No. 1, 2013, pp. 27–31. Lexington, “Why the NRA Keeps Talking About Mental Illness, Rather Than Guns,” Economist , March 13, 2013. As of June 29, 2017: http://www.economist.com/blogs/lexington/2013/03/guns-and-mentally-ill
+
+, March 13, 2013. As of June 29, 2017: http://www.economist.com/blogs/lexington/2013/03/guns-and-mentally-ill Li, Z., A. Page, G. Martin, and R. Taylor, “Attributable Risk of Psychiatric and Socio-Economic Factors for Suicide from Individual-Level, Population-Based Studies: A Systematic Review,” Social Science and Medicine , Vol. 72, No. 4, 2011, pp. 608–616.
+
+, Vol. 72, No. 4, 2011, pp. 608–616. Liu, E. C., E. Bagalman, V. S. Chu, and C. S. Redhead, Submission of Mental Health Records to the NICS and the HIPAA Privacy Rule , Washington, D.C., Congressional Research Service, R43040, 2013.
+
+, Washington, D.C., Congressional Research Service, R43040, 2013. Loeber, R., and R. Stallings, “Modeling the Impact of Interventions on Local Indicators of Offending, Victimization, and Incarceration,” in R. Loeber and D. P. Farrington, eds., Young Homicide Offenders and Victims: Risk Factors, Prediction, and Prevention from Childhood , New York: Springer, 2011, pp. 137–152.
+
+, New York: Springer, 2011, pp. 137–152. Loftin, Colin, and Ellen J. MacKenzie, “Building National Estimates of Violent Victimization,” paper presented at the National Research Council Symposium on the Understanding and Control of Violent Behavior, Destin, Fla., April 1–6, 1990.
+
+Loftin, C., D. McDowall, B. Wiersema, and T. J. Cottey, “Effects of Restrictive Licensing of Handguns on Homicide and Suicide in the District of Columbia,” New England Journal of Medicine , Vol. 325, No. 23, 1991, pp. 1615–1620.
+
+, Vol. 325, No. 23, 1991, pp. 1615–1620. Lott, John R., Jr., More Guns, Less Crime: Understanding Crime and Gun-Control Laws , Chicago, Ill.: University of Chicago Press, 2000.
+
+, Chicago, Ill.: University of Chicago Press, 2000. Lott, John R., Jr., The Bias Against Guns: Why Almost Everything You’ve Heard About Gun Control Is Wrong , Washington, D.C.: Regnery Publishing, Inc., 2003.
+
+, Washington, D.C.: Regnery Publishing, Inc., 2003. Lott, John R., Jr., More Guns, Less Crime: Understanding Crime and Gun-Control Laws , 3rd ed., Chicago, Ill.: University of Chicago Press, 2010.
+
+, 3rd ed., Chicago, Ill.: University of Chicago Press, 2010. Lott, John R., Jr., “The FBI’s Misinterpretation of the Change in Mass Public Shootings,” ACJS Today , Vol. 40, No. 2, 2015, pp. 18–29.
+
+, Vol. 40, No. 2, 2015, pp. 18–29. Lott, John R., Jr., and William Landes, “Multiple Victim Public Shootings,” 2000 (unpublished). As of June 29, 2017: http://www.shack.co.nz/pistoltaupo/SSRN_ID272929_code010610560.pdf
+
+Lott, John R., Jr., Carlisle E. Moody, and John E. Whitley, “Re: ‘What Do We Know About the Association Between Firearm Legislation and Firearm-Related Injuries?’” American Journal of Epidemiology , Vol. 184, No. 1, 2016, pp. 81–82.
+
+, Vol. 184, No. 1, 2016, pp. 81–82. Lott, John R., Jr., and D. B. Mustard, “Crime, Deterrence, and Right-to-Carry Concealed Handguns,” Journal of Legal Studies , Vol. 26, No. 1, 1997, pp. 1–68.
+
+, Vol. 26, No. 1, 1997, pp. 1–68. Lott, John R., Jr., and John E. Whitley, “Safe-Storage Gun Laws: Accidental Deaths, Suicides, and Crime,” Journal of Law and Economics , Vol. 44, No. 2, 2001, pp. 659–689.
+
+, Vol. 44, No. 2, 2001, pp. 659–689. Lott, John R., Jr., and John E. Whitley, “Measurement Error in County-Level UCR Data,” Journal of Quantitative Criminology , Vol. 19, No. 2, June 2003, pp. 185–198.
+
+, Vol. 19, No. 2, June 2003, pp. 185–198. Lott, John R., Jr., and John E. Whitley, “Abortion and Crime: Unwanted Children and Out-of-Wedlock Births,” Economic Inquiry , Vol. 45, No. 2, 2007, pp. 304–324.
+
+, Vol. 45, No. 2, 2007, pp. 304–324. Lott, John R., Jr., John E. Whitley, and Rebekah C. Riley, Concealed Carry Permit Holders Across the United States , Crime Prevention Research Center, 2016.
+
+, Crime Prevention Research Center, 2016. Lubin, G., N. Werbeloff, D. Halperin, M. Shmushkevitch, M. Weiser, and H. Y. Knobler, “Decrease in Suicide Rates After a Change of Policy Reducing Access to Firearms in Adolescents: A Naturalistic Epidemiological Study,” Suicide and Life-Threatening Behavior , Vol. 40, No. 5, 2010, pp. 421–424.
+
+, Vol. 40, No. 5, 2010, pp. 421–424. Luca, Michael, Lahotra Deepak, and Christopher Poliquin, The Impact of Mass Shootings on Gun Policy , working paper, Boston, Mass.: Harvard Business School, 2016.
+
+, working paper, Boston, Mass.: Harvard Business School, 2016. Ludwig, Jens, “Gun Self-Defense and Deterrence,” Crime and Justice: A Review of Research , Vol. 27, 2000, pp. 363–417.
+
+, Vol. 27, 2000, pp. 363–417. Ludwig, J., and P. J. Cook, “Homicide and Suicide Rates Associated with Implementation of the Brady Handgun Violence Prevention Act,” JAMA , Vol. 284, No. 5, 2000, pp. 585–591.
+
+, Vol. 284, No. 5, 2000, pp. 585–591. Luoma, Jason B., Catherine E. Martin, and Jane L. Pearson, “Contact with Mental Health and Primary Care Providers Before Suicide: A Review of the Evidence,” American Journal of Psychiatry , Vol. 159, No. 6, 2002, pp. 909–916.
+
+, Vol. 159, No. 6, 2002, pp. 909–916. MacKinnon, James G., and Matthew D. Webb, “Wild Bootstrap Inference for Wildly Different Cluster Sizes,” Journal of Applied Econometrics , Vol. 32, No. 2, 2017, pp. 233–254.
+
+, Vol. 32, No. 2, 2017, pp. 233–254. Maltz, M. D., and J. Targonski, “A Note on the Use of County-Level UCR Data," Journal of Quantitative Criminology , Vol. 18, No. 2, 2002, pp. 297–318.
+
+, Vol. 18, No. 2, 2002, pp. 297–318. Manning, Willard, “Comment: The Impact of Concealed-Carry Laws,” in Jens Ludwig and Philip J. Cook, eds., Evaluating Gun Policy: Effects on Crime and Violence , Washington, D.C.: Brookings Institution Press, 2003, pp. 331–341.
+
+, Washington, D.C.: Brookings Institution Press, 2003, pp. 331–341. Manski, Charles F., and John V. Pepper, How Do Right-to-Carry Laws Affect Crime Rates? Coping with Ambiguity Using Bounded-Variation Assumptions , Cambridge, Mass.: National Bureau for Economic Research, NBER Working Paper 21701, November 2015.
+
+, Cambridge, Mass.: National Bureau for Economic Research, NBER Working Paper 21701, November 2015. Martin, Robert A., and Richard L. Legault, “Systematic Measurement Error with State-Level Crime Data: Evidence from the ‘More Guns, Less Crime’ Debate,” Journal of Research in Crime and Delinquency , Vol. 42, No. 2, May 2005, pp. 187–210.
+
+, Vol. 42, No. 2, May 2005, pp. 187–210. Marvell, T. B., “The Impact of Banning Juvenile Gun Possession,” Journal of Law and Economics , Vol. 44, 2001, pp. 691–713.
+
+, Vol. 44, 2001, pp. 691–713. Mass Shooting Tracker, homepage, undated. As of October 20, 2016: https://www.massshootingtracker.org
+
+Masters, Kate, “Fear of Other People Is Now the Primary Motivation for American Gun Ownership, a Landmark Survey Finds,” The Trace , September 19, 2016. As of October 13, 2017: https://www.thetrace.org/2016/09/harvard-gun-ownership-study-self-defense/
+
+, September 19, 2016. As of October 13, 2017: https://www.thetrace.org/2016/09/harvard-gun-ownership-study-self-defense/ Matejkowski, J., J. Fairfax-Columbo, S. W. Cullen, S. C. Marcus, and P. L. Solomon, “Exploring the Potential of Stricter Gun Restrictions for People with Serious Mental Illness to Reduce Homicide in the United States,” Journal of Forensic Psychiatry and Psychology , Vol. 25, No. 3, 2014, pp. 362–369.
+
+, Vol. 25, No. 3, 2014, pp. 362–369. Mayors Against Illegal Guns, “Access Denied: How the Gun Lobby Is Depriving Police, Policy Makers, and the Public of the Data We Need to Prevent Gun Violence,” Everytown for Gun Safety Support Fund, 2013. As of May 12, 2017: http://everytownresearch.org/reports/access-denied/
+
+McCarthy, John F., Frederic C. Blow, Rosalinda V. Ignacio, Mark A. Ilgen, Karen L. Austin, and Marcia Valenstein, “Suicide Among Patients in the Veterans Affairs Health System: Rural-Urban Differences in Rates, Risks, and Methods,” American Journal of Public Health , Vol. 102, No. S1, March 2012, pp. S111–S117.
+
+, Vol. 102, No. S1, March 2012, pp. S111–S117. McDonald, J. F., “An Economic Analysis of Guns, Crime, and Gun Control,” Journal of Criminal Justice , Vol. 27, No. 1, 1999, pp. 11–20.
+
+, Vol. 27, No. 1, 1999, pp. 11–20. McDowall, D., C. Loftin, and S. Presser, “Measuring Civilian Defensive Firearm Use: A Methodological Experiment,” Journal of Quantitative Criminology , Vol. 16, No. 1, 2000, pp. 1–19.
+
+, Vol. 16, No. 1, 2000, pp. 1–19. McDowall, D., C. Loftin, and B. Wiersema, “Estimates of the Frequency of Firearm Self Defense from the National Crime Victimization Survey,” Albany, N.Y.: State University of New York, School of Criminal Justice, Violence Research Group Discussion Paper 20, 1998 (unpublished).
+
+McDowall, D., and B. Wiersema, “The Incidence of Defensive Firearm Use by U.S. Crime Victims, 1987 Through 1990,” American Journal of Public Health , Vol. 84, No. 12, 1994, pp. 1982–1984.
+
+, Vol. 84, No. 12, 1994, pp. 1982–1984. McFarlane, J., J. C. Campbell, S. Wilt, C. Sachs, Y. Ulrich, and X. Xu, “Stalking and Intimate Partner Femicide,” Homicide Studies , Vol. 3, 1999, pp. 300–316.
+
+, Vol. 3, 1999, pp. 300–316. McGee, K. S., T. Coyne-Beasley, and R. M. Johnson, “Review of Evaluations of Educational Approaches to Promote Safe Storage of Firearms,” Injury Prevention , Vol. 9, No. 2, 2003, pp. 108–111.
+
+, Vol. 9, No. 2, 2003, pp. 108–111. McGinty, E. E., D. W. Webster, M. Jarlenski, and C. L. Barry, “News Media Framing of Serious Mental Illness and Gun Violence in the United States,” American Journal of Public Health , Vol. 104, No. 3, 2014, pp. 406–413.
+
+, Vol. 104, No. 3, 2014, pp. 406–413. McPhedran, Samara, “A Systematic Review of Quantitative Evidence About the Impacts of Australian Legislative Reform on Firearm Homicide,” Aggression and Violent Behavior , Vol. 28, 2016, pp. 64–72.
+
+, Vol. 28, 2016, pp. 64–72. McPhedran, Samara, and Jeanine Baker, “Mass Shootings in Australia and New Zealand: A Descriptive Study of Incidence,” Justice Policy Journal , Vol. 8, No. 1, 2011.
+
+, Vol. 8, No. 1, 2011. McPhedran, Samara, and Jeanine Baker, “Lethal and Non-Lethal Violence Against Women in Australia: Measurement Challenges, Conceptual Frameworks, and Limitations in Knowledge,” Violence Against Women , Vol. 18, No. 8, 2012, pp. 958–972.
+
+, Vol. 18, No. 8, 2012, pp. 958–972. Metzl, J. M., and K. T. MacLeish, “Mental Illness, Mass Shootings, and the Politics of American Firearms,” American Journal of Public Health , Vol. 105, No. 2, 2015, pp. 240–249.
+
+, Vol. 105, No. 2, 2015, pp. 240–249. Mill, John Stuart, A System of Logic , London: Parker, 1843.
+
+, London: Parker, 1843. Miller, M., D. Azrael, and C. Barber, “Suicide Mortality in the United States: The Importance of Attending to Method in Understanding Population-Level Disparities in the Burden of Suicide,” Annual Review of Public Health , Vol. 33, 2012, pp. 393–408.
+
+, Vol. 33, 2012, pp. 393–408. Miller, M., D. Azrael, and D. Hemenway, “Household Firearm Ownership and Suicide Rates in the United States,” Epidemiology , Vol. 13, No. 5, 2002, pp. 517–524.
+
+, Vol. 13, No. 5, 2002, pp. 517–524. Miller, M., D. Azrael, and D. Hemenway, “The Epidemiology of Case Fatality Rates for Suicide in the Northeast,” Annals of Emergency Medicine , Vol. 43, No. 6, 2004, pp. 723–730.
+
+, Vol. 43, No. 6, 2004, pp. 723–730. Miller, M., D. Azrael, D. Hemenway, and M. Vriniotis, “Firearm Storage Practices and Rates of Unintentional Firearm Deaths in the United States,” Accident Analysis and Prevention , Vol. 37, No. 4, 2005, pp. 661–667.
+
+, Vol. 37, No. 4, 2005, pp. 661–667. Miller, M., D. Azrael, L. Hepburn, D. Hemenway, and S. J. Lippmann, “The Association Between Changes in Household Firearm Ownership and Rates of Suicide in the United States, 1981–2002,” Injury Prevention , Vol. 12, No. 3, 2006, pp. 178–182.
+
+, Vol. 12, No. 3, 2006, pp. 178–182. Miller, M., C. Barber, D. Azrael, D. Hemenway, and B. E. Molnar, “Recent Psychopathology, Suicidal Thoughts and Suicide Attempts in Households With and Without Firearms: Findings from the National Comorbidity Study Replication,” Injury Prevention , Vol. 15, No. 3, 2009, pp. 183–187.
+
+, Vol. 15, No. 3, 2009, pp. 183–187. Miller, M., C. Barber, R. A. White, and D. Azrael, “Firearms and Suicide in the United States: Is Risk Independent of Underlying Suicidal Behavior?” American Journal of Epidemiology , Vol. 178, No. 6, 2013, pp. 946–955.
+
+, Vol. 178, No. 6, 2013, pp. 946–955. Miller, M., and D. Hemenway, “The Relationship Between Firearms and Suicide: A Review of the Literature,” Aggression and Violent Behavior , Vol. 4, No. 1, 1999, pp. 59–75.
+
+, Vol. 4, No. 1, 1999, pp. 59–75. Miller, M., L. Hepburn, and D. Azrael, “Firearm Acquisition Without Background Checks: Results of a National Survey,” Annals of Internal Medicine , Vol. 166, 2017, pp. 233–239.
+
+, Vol. 166, 2017, pp. 233–239. Miller, M., S. A. Swanson, and D. Azrael, “Are We Missing Something Pertinent? A Bias Analysis of Unmeasured Confounding in the Firearm-Suicide Literature,” Epidemiologic Reviews , Vol. 38, No. 1, 2016, pp. 62–69.
+
+, Vol. 38, No. 1, 2016, pp. 62–69. Miller, M., M. Warren, D. Hemenway, and D. Azrael, “Firearms and Suicide in U.S. Cities,” Injury Prevention , Vol. 21, No. E1, 2015, pp. E116–E119.
+
+, Vol. 21, No. E1, 2015, pp. E116–E119. Molina, J. A., and R. Duarte, “Risk Determinants of Suicide Attempts Among Adolescents,” American Journal of Economics and Sociology , Vol. 65, No. 2, 2006, pp. 407–434.
+
+, Vol. 65, No. 2, 2006, pp. 407–434. Monuteaux, M. C., L. K. Lee, D. Hemenway, R. Mannix, and E. W. Fleegler, “Firearm Ownership and Violent Crime in the U.S.: An Ecologic Study,” American Journal of Preventive Medicine , Vol. 49, No. 2, 2015, pp. 207–214.
+
+, Vol. 49, No. 2, 2015, pp. 207–214. Moody, Carlisle E., and Thomas B. Marvell, “The Debate on Shall-Issue Laws,” Econ Journal Watch , Vol. 5, No. 3, 2008, pp. 269–293.
+
+, Vol. 5, No. 3, 2008, pp. 269–293. Moody, Carlisle E., and Thomas B. Marvell, “The Debate on Shall-Issue Laws, Continued,” Econ Journal Watch , Vol. 6, No. 2, 2009.
+
+, Vol. 6, No. 2, 2009. Moody, Carlisle E., Thomas B. Marvell, Paul R. Zimmerman, and Fasil Alemante, “The Impact of Right-to-Carry Laws on Crime: An Exercise in Replication,” Review of Economics and Finance , Vol. 4, 2014, pp. 33–43.
+
+, Vol. 4, 2014, pp. 33–43. Morral, Andrew R., Terry Schell, Margaret Tankard, Magnitude and Sources of Disagreement Among Gun Policy Experts , Santa Monica Calif.: RAND Corporation, RR-2088/1-RC, 2018. As of March 2, 2018: https://www.rand.org/pubs/research_reports/RR2088z1.html
+
+, Santa Monica Calif.: RAND Corporation, RR-2088/1-RC, 2018. As of March 2, 2018: https://www.rand.org/pubs/research_reports/RR2088z1.html Moskos, Michelle A., Lenora Olson, Sarah R. Halbern, and Doug Gray, “Utah Youth Suicide Study: Barriers to Mental Health Treatment for Adolescents,” Suicide and Life-Threatening Behavior , Vol. 37, No. 2, 2007, pp. 179–186.
+
+, Vol. 37, No. 2, 2007, pp. 179–186. National Cancer Institute, The Role of the Media in Promoting and Reducing Tobacco Use , Washington, D.C.: U.S. Department of Health and Human Services, National Institutes of Health, No. 07–6242, 2008.
+
+, Washington, D.C.: U.S. Department of Health and Human Services, National Institutes of Health, No. 07–6242, 2008. National Research Council, Understanding and Preventing Violence , A. J. Reiss and J. Roth, eds., Washington, D.C.: National Academies Press, 1993.
+
+, A. J. Reiss and J. Roth, eds., Washington, D.C.: National Academies Press, 1993. National Research Council, Firearms and Violence: A Critical Review , Washington, D.C.: National Academies Press, 2004.
+
+, Washington, D.C.: National Academies Press, 2004. National Research Council, Estimating the Incidence of Rape and Sexual Assault , Washington, D.C.: National Academies Press, 2014.
+
+, Washington, D.C.: National Academies Press, 2014. National Rifle Association, Institute for Legislative Action, “State Gun Laws,” web page, undated. As of January 11, 2018: https://www.nraila.org/gun-laws/state-gun-laws
+
+National Shooting Sports Foundation, “Project ChildSafe,” web page, 2016. As of January 10, 2017: http://www.projectchildsafe.org/
+
+National Shooting Sports Foundation, Firearms and Ammunition Industry Economic Impact Report , Newtown, Conn., 2017. As of October 18, 2017: https://d3aya7xwz8momx.cloudfront.net/wp-content/uploads/2017/07/EconomicImpactofIndustry2017.pdf
+
+, Newtown, Conn., 2017. As of October 18, 2017: https://d3aya7xwz8momx.cloudfront.net/wp-content/uploads/2017/07/EconomicImpactofIndustry2017.pdf Nelson, Charles M., Economic Implications of Land Use Patterns for Natural Resource Recreation and Tourism , Lansing, Mich.: Michigan Land Resource Project, Public Sec

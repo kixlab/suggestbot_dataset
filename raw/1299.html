@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="https://www.drugcostfacts.org/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="Read conclusions of independent studies by the Department of Health and Human Services Task Force on Drug Importation and the US Department of Commerce." />
+<link rel="canonical" href="https://www.drugcostfacts.org/importing-prescription-drugs" />
+<link rel="shortlink" href="https://www.drugcostfacts.org/node/31" />
+<meta property="og:site_name" content="BIO / MRP" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.drugcostfacts.org/importing-prescription-drugs" />
+<meta property="og:title" content="Importation of Drugs" />
+<meta property="og:updated_time" content="2017-08-10T10:27:43-04:00" />
+<meta property="og:image" content="https://www.drugcostfacts.org/sites/default/files/default-bg.jpg" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="https://www.drugcostfacts.org/importing-prescription-drugs" />
+<meta name="twitter:title" content="Importation of Drugs" />
+<meta property="article:published_time" content="2016-10-04T16:24:24-04:00" />
+<meta property="article:modified_time" content="2017-08-10T10:27:43-04:00" />
+  <title>Does Importing Prescription Drugs to US Save Money?</title>
+  <link type="text/css" rel="stylesheet" href="https://www.drugcostfacts.org/sites/default/files/css/css_9LOg53a4eANLbddpzH6KpDcUQlKA8DVpFDC3vBdEoK4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.drugcostfacts.org/sites/default/files/css/css_HfwU9uBp-uk0m-q27q1Ri1AWXIfBdj-4jmteAC9YVlI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.drugcostfacts.org/sites/default/files/css/css_Lhi4L4e5QLGleTV5E75ewrnFbBRcDMo8ouAOV0Ed6jo.css" media="all" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<style>
+  /*.commander-iframe { display: none; } */
+</style>
+
+  
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-53BV4N');</script>
+<!-- End Google Tag Manager -->
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-31 node-type-related-debates" >
+  
+  <div class="print-header">
+    <div class="logo"></div>
+    <div class="link">drugcostfacts.org</div>
+  </div>
+
+  <div id="page-wrapper"><div id="page" class=" page animated fadeIn page--related_debates">
+
+  
+    
+    <div id="main-wrapper" class=""><div id="main" class="clearfix">
+
+      <div id="content" class="column"><div class="section">
+                <a id="main-content" style="display:block;line-height:0;"></a>
+                                
+        
+        
+<nav class="navigation">
+
+      <div class="region region-nav">
+    
+ <div class="button-container animated fadeInDown">
+  <div class="nav-actions">
+    <a href="#" class="button expand" data-nav="menu"><span>Menu</span></a>
+    <a href="https://www.drugcostfacts.org" class="button home" data-nav="home"><span>Home</span></a>
+  </div>
+
+</div>
+
+<div id="block-search-form" class="block block-search button-container search-container animated fadeInDown">
+  
+  <div class="content">
+    <form action="/importing-prescription-drugs" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-kKccD181ajMlAkkALvLtcW0YSU24aCzuoFvwqG104k4" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+
+<div class="nav-overlay nav--overlay--search"></div>
+
+
+
+
+<div class="modal-menu">
+  <div class="header">
+    <h2>Key Questions</h2>
+    <a href="#" class="button exit">X</a>
+  </div>
+
+  <div id="block-system-main-menu" class="block block-system primary-nav block-menu">
+
+        
+    <div class="content">
+      <ul class="menu"><li class="first leaf"><a href="/us-healthcare-spending">Are prescription drug costs out of control?</a></li>
+<li class="leaf"><a href="/innovative-medicine">Why are some drugs so expensive?</a></li>
+<li class="leaf"><a href="/prescription-drug-costs">How are prescription drug costs really determined?</a></li>
+<li class="leaf"><a href="/health-insurance-premium-increases">Does increasing out-of-pocket spending reduce premiums?</a></li>
+<li class="leaf"><a href="/drug-pricing-regulations">Shouldn&#039;t the U.S. Government do more to regulate high drug prices?</a></li>
+<li class="leaf"><a href="/how-does-us-maintain-its-leadership-innovation">How does the U.S. maintain its leadership in innovation?</a></li>
+<li class="leaf"><a href="/new-drug-impact-insurance-premiums">How much do innovative new drugs impact overall health care costs?</a></li>
+<li class="leaf"><a href="/public-vs-private-drug-funding">What role does private sector R&amp;D play compared to NIH?</a></li>
+<li class="last leaf"><a href="http://www.drugcostfacts.org/follow-the-debate">Follow the debate...</a></li>
+</ul>    </div>
+  </div>
+
+  <div class="subnav-menu"><ul class="menu"><li class="first leaf see-all"><a href="/all-questions">See all questions</a></li>
+<li class="leaf additional"><a href="https://www.bio.org/toolkit?utm_source=advocate_toolkit&amp;utm_medium=dcf&amp;utm_campaign=sub-nav">Advocate Toolkit</a></li>
+<li class="last leaf additional"><a href="/follow-the-debate">Follow the Debate</a></li>
+</ul></div>
+
+</div>
+    </div>
+  
+  <div class="nav-overlay"></div>
+
+</nav>
+
+        
+
+        
+        
+          <div class="region region-content">
+    <div id="block-system-main" class="block block-system main-page-content">
+
+    
+  <div class="content">
+    
+<div class="title contain-width">
+  <h1 class="heading">
+     <a href="/follow-the-debate">Follow the Debate</a>
+  </h1>
+</div>
+
+<div class="article-wrapper">
+  <div class="article-main">
+    <div class="article-actions">
+      <ul class="social-icon-container">
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.drugcostfacts.org%2Fimporting-prescription-drugs" class="social-icon js-share-fb js-share" data-channel="facebook"><i class="fa fa-facebook"></i></a></li>
+  <li><a href="https://twitter.com/home?status=https%3A%2F%2Fwww.drugcostfacts.org%2Fimporting-prescription-drugs" class="social-icon js-share-tw js-share" data-channel="twitter"><i class="fa fa-twitter"></i></a></li>
+  <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.drugcostfacts.org%2Fimporting-prescription-drugs" class="social-icon js-share-li js-share" data-channel="linkedin"><i class="fa fa-linkedin"></i></a></li>
+  <li><a href="mailto:?subject=Importation of Drugs&amp;body=%0A%0Ahttps://www.drugcostfacts.org/importing-prescription-drugs" class="social-icon js-share js-share-env" data-channel="email"><i class="fa fa-envelope"></i></a></li>
+</ul>
+    </div>
+    <div class="article-body">
+
+      <div id="node-31" class="node node-related-debates node-promoted clearfix">
+
+
+        
+                        
+                <div class="submitted">
+                </div>
+        
+        <h3 class="subheading">Importation of Drugs</h3>
+
+        <div class="content">
+
+                      <div class="question-container">
+<div class="field field-name-field-question field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><script language="JavaScript1.1" src="//pixel.mathtag.com/event/js?mt_id=1186389&amp;mt_adid=181258&amp;v1=&amp;v2=&amp;v3=&amp;s1=&amp;s2=&amp;s3="></script><p>The American people should be able to import lower-cost prescription drugs from other countries to save money.</p>
+</div>
+      </div>
+</div>
+</div>          
+                      <div class="people-container"><div class="person person-question">
+  <div class="person-icon">
+    <img class="person-icon-question" src="https://www.drugcostfacts.org/sites/default/files/icons/person02_0.png" width="82" height="91" alt="Elected Official" />
+  </div>
+  <div class="person-label">
+    Elected Official
+  </div>
+</div><div class="person person-answer">
+  <div class="person-icon">
+    <img class="person-icon-answer" src="https://www.drugcostfacts.org/sites/default/files/icons/person01.png" width="82" height="91" alt="Elected Official" />
+  </div>
+  <div class="person-label">
+    Elected Official
+  </div>
+</div></div>          
+                      <div class="answer-container">
+              <div><div class="accordion-content">
+  
+<div class="field field-name-field-section-fields field-type-paragraphs field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><div class="article-content-subsection">
+  <div><ul><li>Independent studies by the <a href="http://archive.hhs.gov/importtaskforce/Report1220.pdf" target="_blank">Department of Health and Human Services (HHS) Task Force on Drug Importation</a> and the U.S. Department of Commerce have concluded that importing prescription drugs from foreign countries poses safety risks to American consumers and does not result in overall net cost savings.</li>
+	<li>According to the HHS study, consumer savings from importing prescription drugs would be negated by the cost of policing such practices to ensure consumer safety.</li>
+	<li>Over many years, both Republican and Democratic Administrations have determined that it is not possible to certify the safety of imported drugs due to the inability to accurately trace the origins of foreign drugs, many of which are counterfeit and are sold through internet pharmacies that engage in highly questionable practices.</li>
+	<li>The United States has a safe and effective closed drug supply system, which the Congress acted to enhance only a few years ago by creating a national and uniform “track and trace” system for domestically distributed drugs.  Drug importation would undermine this system and create large “safety loopholes” in it.</li>
+	<li>Four former Food and Drug Administration (FDA) Commissioners who served under both Democratic and Republican administrations recently <a href="https://healthpolicy.duke.edu/sites/default/files/atoms/files/2017_03_16_commissioners_letter_final.pdf">wrote</a> to Members of Congress expressing strong concerns about the importation of prescription drugs from foreign countries – noting that doing so would pose serious safety risks for U.S. patients. </li>
+	<li>In 2011, the European Union, whose common market permits cross-border transfer of medicines, issued a “<a href="https://ec.europa.eu/health/sites/health/files/files/eudralex/vol-1/dir_2011_62/dir_2011_62_en.pdf">Falsified Medicine Directive</a>.” The Directive noted,  “There is an alarming increase of medicinal products detected in the Union which are falsified in relation to their identity, history or source. Those products usually contain sub-standard or falsified ingredients, or no ingredients or ingredients, including active substances, in the wrong dosage thus posing an important threat to public health.” </li>
+</ul></div>
+</div>
+</div>
+          <div class="field-item odd"><div class="article-reference-label-wrapper">
+   <div class="accordion-heading">
+    <h3>Additional Reading & Resources</h3>
+  </div>
+  <div class="accordion-content">
+    
+<div class="field field-name-field-accordion-content field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><ul><li>BIO; <a href="https://www.bio.org/sites/default/files/BIO-Drug-Importation-Infographic-FINAL2.pdf" target="_blank">The Real Cost of Importation Infographic</a></li>
+	<li>The Partnership for Safe Medicines; <a href="http://www.safemedicines.org/2017/06/investigation-by-former-fbi-director-louis-freeh-finds-congressional-drug-importation-proposals-would-pose-significant-threats.html" target="_blank">Report of the Potential Impact of Drug Importation Proposals on U.S. Law Enforcement</a></li>
+	<li>Forbes; <a href="https://www.forbes.com/sites/econostats/2017/04/27/drug-importation-will-not-improve-health-care-affordability/#294789fe6cc8" target="_blank">Drug Importation Will Not Improve Health Care Affordability</a></li>
+	<li>Real Clear Health; <a href="http://www.realclearhealth.com/articles/2017/04/19/canada_cannot_be_americas_drugstore_110556.html" target="_blank">Canada Cannot Be America's Drugstore</a></li>
+	<li>Morning Consult; <a href="https://morningconsult.com/opinions/applying-lessons-fake-news-online-pharmacies-drug-importation-policies/" target="_blank">Applying Lessons of ‘Fake News’ to Online Pharmacies, Drug Importation Policies</a></li>
+	<li>Wall Street Journal; <a href="https://www.wsj.com/articles/how-other-countries-freeload-on-u-s-drug-research-1487722580" target="_blank">How Other Countries Freeload on U.S. Drug Research</a></li>
+	<li>Health &amp; Human Services, Task Force on Drug Importation; <a href="https://archive.hhs.gov/importtaskforce/Report1220.pdf" target="_blank">Report on Prescription Drug Importation</a></li>
+</ul></div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+      </div>
+</div>
+  </div>
+</div>            </div>
+          
+        </div>
+
+                
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div id="block-views-debates-block" class="block block-views related-debates-container">
+  <div class="contain-width">
+              <h3 class="subheading">debates</h3>
+        
+    <div class="content">
+      <div class="view view-debates view-id-debates view-display-id-block view-dom-id-7ec42268e55229ba4875c8171facdc9c">
+        
+  
+  
+      <div class="view-content">
+      <div class="related-debate-list">    <ul>          <li class="">  
+  <div>        <span><a href="/medicare-drug-prices">Direct Government Negotiations on Price</a></span>  </div></li>
+          <li class="">  
+  <div>        <span><a href="/pharmaceutical-product-development">Profits and R&amp;D</a></span>  </div></li>
+          <li class="">  
+  <div>        <span><a href="/insurance-premium-increase">Rising Insurance Premiums</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+
+</div>
+  </div>
+
+
+              </div></div> <!-- /.section, /#content -->
+
+      
+      
+    </div></div> <!-- /#main, /#main-wrapper -->
+
+    <footer class="animated slideInUp">
+        <div class="region region-footer">
+    <div id="block-block-1" class="block block-block footer-company">
+
+    
+  <div class="content">
+    <p class="logo"><a href="https://www.bio.org">BIO</a></p>
+
+<p class="copy"> © BIO 2018 All Rights Reserved</p>
+  </div>
+</div>
+<div id="block-block-2" class="block block-block footer-social">
+
+    
+  <div class="content">
+    <ul class="social"><li><a class="icon icon-facebook" href="https://www.facebook.com/IAmBiotech" target="_blank"><span class="sr-only">Facebook</span></a></li>
+	<li><a class="icon icon-twitter" href="https://twitter.com/IAmBiotech" target="_blank"><span class="sr-only">Twitter</span></a></li>
+	<li><a class="icon icon-linkedin" href="https://www.linkedin.com/groups/35214/profile" target="_blank"><span class="sr-only">Linked In</span></a></li>
+	<li><a class="icon icon-youtube" href="https://www.youtube.com/user/BIOchannel" target="_blank"><span class="sr-only">Youtube</span></a></li>
+</ul>  </div>
+</div>
+<div id="block-menu-menu-navigation-footer" class="block block-menu footer-social">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/privacy-policy">Privacy Policy</a></li>
+<li class="leaf"><a href="/terms-of-use">Terms of Use</a></li>
+<li class="leaf"><a href="https://www.bio.org/contact-bio">Contact Us</a></li>
+<li class="last leaf"><a href="/graphic-library">Graphic Library</a></li>
+</ul>  </div>
+</div>
+  </div>
+    </footer> <!-- /#footer -->
+
+  </div> <!-- /#page -->
+
+
+</div> <!-- /#page-wrapper -->
+  <script type="text/javascript" src="https://www.drugcostfacts.org/sites/default/files/js/js_MpKfe1sTh5JIVGCZ17DsAuT1rqAC38MLLlkjqjQ1X_k.js"></script>
+<script type="text/javascript" src="https://www.drugcostfacts.org/sites/default/files/js/js_R9UbiVw2xuTUI0GZoaqMDOdX0lrZtgX-ono8RVOUEVc.js"></script>
+<script type="text/javascript" src="https://www.drugcostfacts.org/sites/default/files/js/js_zsU7pE_En9PuEzx00IjN_iCxIwgABAiEwJNkh1iTG9k.js"></script>
+<script type="text/javascript" src="https://www.drugcostfacts.org/sites/default/files/js/js_4Vr1ato2GdjMb57l_R8I0kiFVEcji3mP6mWTTj0ZO4M.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bio_v2","theme_token":"14rkrjc9TZot8fpdS5h-jic9enLhWyW2lwrS-jR2EPs","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/bio_v2\/js\/vendor\/clipboard.min.js":1,"sites\/all\/themes\/bio_v2\/js\/vendor\/jquery.validate.min.js":1,"sites\/all\/themes\/bio_v2\/js\/vendor\/sticky-kit.min.js":1,"sites\/all\/themes\/bio_v2\/js\/vendor\/smooth-state.min.js":1,"sites\/all\/themes\/bio_v2\/js\/vendor\/shuffle.min.js":1,"sites\/all\/themes\/bio_v2\/js\/modal.plugin.js":1,"sites\/all\/themes\/bio_v2\/js\/social-nav.js":1,"sites\/all\/themes\/bio_v2\/js\/debates.js":1,"sites\/all\/themes\/bio_v2\/js\/menu.plugin.js":1,"sites\/all\/themes\/bio_v2\/js\/social-share.js":1,"sites\/all\/themes\/bio_v2\/js\/embed.js":1,"sites\/all\/themes\/bio_v2\/js\/webform.js":1,"sites\/all\/themes\/bio_v2\/js\/accordion.js":1,"sites\/all\/themes\/bio_v2\/js\/backtotop.js":1,"sites\/all\/themes\/bio_v2\/js\/loadmore.js":1,"sites\/all\/themes\/bio_v2\/js\/homepage.js":1,"sites\/all\/themes\/bio_v2\/js\/vendor\/video.api.js":1},"css":{"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/references_coalescer\/css\/reference_tips.css":1,"modules\/search\/search.css":1,"sites\/all\/themes\/bio_v2\/css\/site.css":1,"sites\/all\/themes\/bio_v2\/css\/module\/animate.css":1}},"urlIsAjaxTrusted":{"\/importing-prescription-drugs":true},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script src="https://use.typekit.net/fjo7dzh.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script src="https://use.fontawesome.com/4597baab08.js"></script>
+  <script>
+    $ = jQuery;
+    $(function(){
+      var is_search = '0';
+      if(is_search == 1) {
+        $('.accordion-heading').addClass('expanded'); // Open accordion if search is true
+        $('.accordion-heading').next().show();
+      }
+    });
+  </script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e49c5f2b2f","applicationID":"51799934","transactionName":"ZwBXZBYFXRFSB0RaXl5KdFMQDVwMHApfV1RvFVRXATtFC1YT","queueTime":0,"applicationTime":101,"atts":"S0dUEl4fTh8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

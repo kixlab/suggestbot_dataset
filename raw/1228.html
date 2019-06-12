@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="https://www.drugcostfacts.org/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="Prescription medicines, including pharmacy sales and provider administered drugs, are only about 14% of overall healthcare spending. See more statistics." />
+<link rel="canonical" href="https://www.drugcostfacts.org/us-healthcare-spending" />
+<link rel="shortlink" href="https://www.drugcostfacts.org/node/5" />
+<meta property="og:site_name" content="BIO / MRP" />
+<meta property="og:url" content="https://www.drugcostfacts.org/us-healthcare-spending" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Are prescription drug costs out of control?" />
+<meta property="og:updated_time" content="2019-06-11T15:06:59-04:00" />
+<meta property="og:image" content="https://www.drugcostfacts.org/sites/default/files/q5_background.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content="https://www.drugcostfacts.org/us-healthcare-spending" />
+<meta name="twitter:title" content="Are prescription drug costs out of control?" />
+<meta property="article:published_time" content="2016-07-20T12:40:57-04:00" />
+<meta property="article:modified_time" content="2019-06-11T15:06:59-04:00" />
+  <title>Are Drugs the Biggest Category of Spending in US Healthcare? | Drug Cost Facts</title>
+  <link type="text/css" rel="stylesheet" href="https://www.drugcostfacts.org/sites/default/files/css/css_9LOg53a4eANLbddpzH6KpDcUQlKA8DVpFDC3vBdEoK4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.drugcostfacts.org/sites/default/files/css/css_HfwU9uBp-uk0m-q27q1Ri1AWXIfBdj-4jmteAC9YVlI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.drugcostfacts.org/sites/default/files/css/css_Lhi4L4e5QLGleTV5E75ewrnFbBRcDMo8ouAOV0Ed6jo.css" media="all" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<style>
+  /*.commander-iframe { display: none; } */
+</style>
+
+  
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-53BV4N');</script>
+<!-- End Google Tag Manager -->
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-5 node-type-question" >
+  
+  <div class="print-header">
+    <div class="logo"></div>
+    <div class="link">drugcostfacts.org</div>
+  </div>
+
+  <div id="page-wrapper"><div id="page" class=" page animated fadeIn page--question">
+
+  
+    
+    <div id="main-wrapper" class=""><div id="main" class="clearfix">
+
+      <div id="content" class="column"><div class="section">
+                <a id="main-content" style="display:block;line-height:0;"></a>
+                                
+        
+        
+<nav class="navigation">
+
+      <div class="region region-nav">
+    
+ <div class="button-container animated fadeInDown">
+  <div class="nav-actions">
+    <a href="#" class="button expand" data-nav="menu"><span>Menu</span></a>
+    <a href="https://www.drugcostfacts.org" class="button home" data-nav="home"><span>Home</span></a>
+  </div>
+
+</div>
+
+<div id="block-search-form" class="block block-search button-container search-container animated fadeInDown">
+  
+  <div class="content">
+    <form action="/us-healthcare-spending" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-hTzZv4dLL8UcbQZbqUoz3q_d1wIafevpBWUkoOE3xiQ" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+
+<div class="nav-overlay nav--overlay--search"></div>
+
+
+
+
+<div class="modal-menu">
+  <div class="header">
+    <h2>Key Questions</h2>
+    <a href="#" class="button exit">X</a>
+  </div>
+
+  <div id="block-system-main-menu" class="block block-system primary-nav block-menu">
+
+        
+    <div class="content">
+      <ul class="menu"><li class="first leaf active-trail"><a href="/us-healthcare-spending" class="active-trail active">Are prescription drug costs out of control?</a></li>
+<li class="leaf"><a href="/innovative-medicine">Why are some drugs so expensive?</a></li>
+<li class="leaf"><a href="/prescription-drug-costs">How are prescription drug costs really determined?</a></li>
+<li class="leaf"><a href="/health-insurance-premium-increases">Does increasing out-of-pocket spending reduce premiums?</a></li>
+<li class="leaf"><a href="/drug-pricing-regulations">Shouldn&#039;t the U.S. Government do more to regulate high drug prices?</a></li>
+<li class="leaf"><a href="/how-does-us-maintain-its-leadership-innovation">How does the U.S. maintain its leadership in innovation?</a></li>
+<li class="leaf"><a href="/new-drug-impact-insurance-premiums">How much do innovative new drugs impact overall health care costs?</a></li>
+<li class="leaf"><a href="/public-vs-private-drug-funding">What role does private sector R&amp;D play compared to NIH?</a></li>
+<li class="last leaf"><a href="http://www.drugcostfacts.org/follow-the-debate">Follow the debate...</a></li>
+</ul>    </div>
+  </div>
+
+  <div class="subnav-menu"><ul class="menu"><li class="first leaf see-all"><a href="/all-questions">See all questions</a></li>
+<li class="leaf additional"><a href="https://www.bio.org/toolkit?utm_source=advocate_toolkit&amp;utm_medium=dcf&amp;utm_campaign=sub-nav">Advocate Toolkit</a></li>
+<li class="last leaf additional"><a href="/follow-the-debate">Follow the Debate</a></li>
+</ul></div>
+
+</div>
+    </div>
+  
+  <div class="nav-overlay"></div>
+
+</nav>
+
+        
+  <div class="title contain-width">
+    <h1 class="heading">
+      Are prescription drug costs out of control?    </h1>
+  </div>
+
+        
+        
+          <div class="region region-content">
+    <div id="block-system-main" class="block block-system main-page-content">
+
+    
+  <div class="content">
+    
+  <div class="article-wrapper">
+    <div class="article-container article-5">
+
+        
+        
+        <div class="article-main">
+          <div class="article-actions">
+            <ul class="social-icon-container">
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.drugcostfacts.org%2Fus-healthcare-spending" class="social-icon js-share-fb js-share" data-channel="facebook"><i class="fa fa-facebook"></i></a></li>
+  <li><a href="https://twitter.com/home?status=https%3A%2F%2Fwww.drugcostfacts.org%2Fus-healthcare-spending" class="social-icon js-share-tw js-share" data-channel="twitter"><i class="fa fa-twitter"></i></a></li>
+  <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.drugcostfacts.org%2Fus-healthcare-spending" class="social-icon js-share-li js-share" data-channel="linkedin"><i class="fa fa-linkedin"></i></a></li>
+  <li><a href="mailto:?subject=Are prescription drug costs out of control?&amp;body=%0A%0Ahttps://www.drugcostfacts.org/us-healthcare-spending" class="social-icon js-share js-share-env" data-channel="email"><i class="fa fa-envelope"></i></a></li>
+</ul>
+          </div>
+          <div class="article-body">
+            <div class="accordion-content">
+  
+<div class="field field-name-field-section-fields field-type-paragraphs field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><div class="accordion-wrapper"><div class="accordion-content">
+  
+<div class="field field-name-field-section-fields field-type-paragraphs field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><div class="article-content-subsection">
+  <div><p>News stories frequently suggest that prescription drug costs are “skyrocketing.” But the reality that’s reflected across the country is quite different than the one portrayed in most media reports, which typically focus on isolated examples.</p>
+
+<p>In fact, prescription drugs costs — both the prices for drugs and how much money society spends on medicines — have been remarkably stable in recent years. Starting with spending on prescription drugs:</p>
+
+<ul><li>According to the Centers for Medicare &amp; Medicaid Services or CMS, national spending on retail prescription drugs grew just 0.4% percent in 2017. The growth in drug spending was slower than the spending growth for hospital services (4.6%), physician services (4.2%) and overall health care expenditures (3.8%).<sup>i</sup></li>
+	<li>IQVIA — a nonpartisan health care data analytics firm— reports that national spending on all prescription drugs increased less than 1 percent in 2017. Additionally, they note that spending on retail and mail-order pharmacies decreased by 2.1 percent.<sup>ii</sup></li>
+</ul><p>A similar trend exists when it comes drug prices.</p>
+
+<ul><li>The same report by IQVIA found that the average net price for brand-name drugs grew less than 2 percent in 2017. The net price is after factoring in discounts and rebates offered by drugmakers, which in 2017, reached an estimated $153 billion.<sup>iii</sup></li>
+</ul><p>The data clearly show that the trend on prescription drug costs is not as dire as some argue. This positive trend also been reaffirmed by pharmacy benefits managers (PBMs). These drug cost middlemen manage drug benefits on behalf of health plans, and some of the nation’s leading PBMs have reported very little change in drug prices for commercial health plans in 2017.<sup>iv</sup></p>
+
+<ul><li>One of the largest PBMs—Express Scripts—recently reported that net drug prices dropped by 0.4% in 2018 for the commercial health plans it services. Express Scripts also announced the drug prices for the Medicare plans it services declined by 1.4% last year.<sup>v</sup></li>
+</ul></div>
+</div>
+</div>
+          <div class="field-item odd"><div>
+  <div class="illustration">
+  <img src="https://www.drugcostfacts.org/sites/default/files/styles/question_illustration/public/By-the-number-charts-4_updated-06112019.png?itok=y0wHeBgw" width="1000" height="1000" alt="" />  <div class="share-container share--container--image">
+    <div class="share-tooltip animated fadeIn">
+      <ul class="share-social cf">
+          <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.drugcostfacts.org%2Fus-healthcare-spending%2F%3Fog_img%3Dpublic%3A%2F%2FBy-the-number-charts-4_updated-06112019.png" class="social-icon js-share-fb js-share" data-channel="facebook"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/home?status=https%3A%2F%2Fwww.drugcostfacts.org%2Fus-healthcare-spending%2F%3Fog_img%3Dpublic%3A%2F%2FBy-the-number-charts-4_updated-06112019.png" class="social-icon js-share-tw js-share" data-channel="twitter"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.drugcostfacts.org%2Fus-healthcare-spending%2F%3Fog_img%3Dpublic%3A%2F%2FBy-the-number-charts-4_updated-06112019.png" class="social-icon js-share-li js-share" data-channel="linkedin"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+    <a href="javascript:void(0);" class="share js-share-trigger">
+      Share
+    </a>
+  </div>
+</div>
+</div>
+</div>
+      </div>
+</div>
+  </div>
+</div></div>
+          <div class="field-item odd"><div class="accordion-wrapper"><div class="accordion-heading"><h2>Where are most health care dollars spent?</h2>
+</div>
+<div class="accordion-content">
+  
+<div class="field field-name-field-section-fields field-type-paragraphs field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><div class="article-content-subsection">
+  <div><p>Hospitals are by far the largest single share, at about 30 percent of all U.S. healthcare spending, or more than $1 trillion annually. Physicians and clinical services are another 18 percent, while other services (such as home health care and nursing care facilities) together make up just over a third of all health care spending.</p>
+
+<p>On the other hand, prescription medicines comprise just 14 percent of all health care spending,<sup>vi</sup> which is roughly the same share as in 1960. That is a remarkable fact considering that more than 450 new medicines have been brought to market over the past 15 years.</p>
+
+<div>
+	<div id="ftn1">
+		<p> </p>
+	</div>
+</div>
+</div>
+</div>
+</div>
+          <div class="field-item odd"><div>
+  <div class="illustration">
+  <img src="https://www.drugcostfacts.org/sites/default/files/styles/question_illustration/public/By-the-number-charts-5.jpg?itok=pm7RiYc5" width="1000" height="1000" alt="" />  <div class="share-container share--container--image">
+    <div class="share-tooltip animated fadeIn">
+      <ul class="share-social cf">
+          <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.drugcostfacts.org%2Fus-healthcare-spending%2F%3Fog_img%3Dpublic%3A%2F%2FBy-the-number-charts-5.jpg" class="social-icon js-share-fb js-share" data-channel="facebook"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/home?status=https%3A%2F%2Fwww.drugcostfacts.org%2Fus-healthcare-spending%2F%3Fog_img%3Dpublic%3A%2F%2FBy-the-number-charts-5.jpg" class="social-icon js-share-tw js-share" data-channel="twitter"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.drugcostfacts.org%2Fus-healthcare-spending%2F%3Fog_img%3Dpublic%3A%2F%2FBy-the-number-charts-5.jpg" class="social-icon js-share-li js-share" data-channel="linkedin"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+    <a href="javascript:void(0);" class="share js-share-trigger">
+      Share
+    </a>
+  </div>
+</div>
+</div>
+</div>
+          <div class="field-item even"><div class="article-content-subsection">
+  <div><p>The modest share of spending on prescriptions holds true even in very costly to treat conditions. A report on cancer care, for example, found that prescriptions accounted for just 12 percent of overall health costs for cancer in 2014, while hospital inpatient stays account for 27 percent, and hospital outpatient or office-based provider visits comprise 58 percent.<sup>vii</sup></p>
+</div>
+</div>
+</div>
+          <div class="field-item odd"><div>
+  <div class="illustration">
+  <img src="https://www.drugcostfacts.org/sites/default/files/styles/question_illustration/public/By-the-number-charts-1.jpg?itok=f-QdaLH0" width="1000" height="1000" alt="" />  <div class="share-container share--container--image">
+    <div class="share-tooltip animated fadeIn">
+      <ul class="share-social cf">
+          <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.drugcostfacts.org%2Fus-healthcare-spending%2F%3Fog_img%3Dpublic%3A%2F%2FBy-the-number-charts-1.jpg" class="social-icon js-share-fb js-share" data-channel="facebook"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/home?status=https%3A%2F%2Fwww.drugcostfacts.org%2Fus-healthcare-spending%2F%3Fog_img%3Dpublic%3A%2F%2FBy-the-number-charts-1.jpg" class="social-icon js-share-tw js-share" data-channel="twitter"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.drugcostfacts.org%2Fus-healthcare-spending%2F%3Fog_img%3Dpublic%3A%2F%2FBy-the-number-charts-1.jpg" class="social-icon js-share-li js-share" data-channel="linkedin"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+    <a href="javascript:void(0);" class="share js-share-trigger">
+      Share
+    </a>
+  </div>
+</div>
+</div>
+</div>
+          <div class="field-item even"><div class="article-content-subsection">
+  <div><p>As we look for ways to make health care more affordable, it is also important to consider what are the driving forces behind future health care spending. The answer is both payments to doctors and hospitals, which are expected to grow by a combined $1.1 trillion over the next debate.<sup>viii</sup></p>
+
+<div>
+	<div id="ftn1">
+		<p> </p>
+	</div>
+</div>
+</div>
+</div>
+</div>
+          <div class="field-item odd"><div>
+  <div class="illustration">
+  <img src="https://www.drugcostfacts.org/sites/default/files/styles/question_illustration/public/By-the-number-charts-Recovered-03132019.jpg?itok=oOIPqVsU" width="1000" height="1000" alt="" />  <div class="share-container share--container--image">
+    <div class="share-tooltip animated fadeIn">
+      <ul class="share-social cf">
+          <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.drugcostfacts.org%2Fus-healthcare-spending%2F%3Fog_img%3Dpublic%3A%2F%2FBy-the-number-charts-Recovered-03132019.jpg" class="social-icon js-share-fb js-share" data-channel="facebook"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/home?status=https%3A%2F%2Fwww.drugcostfacts.org%2Fus-healthcare-spending%2F%3Fog_img%3Dpublic%3A%2F%2FBy-the-number-charts-Recovered-03132019.jpg" class="social-icon js-share-tw js-share" data-channel="twitter"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.drugcostfacts.org%2Fus-healthcare-spending%2F%3Fog_img%3Dpublic%3A%2F%2FBy-the-number-charts-Recovered-03132019.jpg" class="social-icon js-share-li js-share" data-channel="linkedin"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+    <a href="javascript:void(0);" class="share js-share-trigger">
+      Share
+    </a>
+  </div>
+</div>
+</div>
+</div>
+      </div>
+</div>
+  </div>
+</div></div>
+          <div class="field-item even"><div class="accordion-wrapper"><div class="accordion-heading"><h2>How does U.S. spending on drugs compare to other developed countries?</h2>
+</div>
+<div class="accordion-content">
+  
+<div class="field field-name-field-section-fields field-type-paragraphs field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><div class="article-content-subsection">
+  <div><p>Quite favorably. According to OECD statistics, U.S. spending on prescription drugs is very similar to countries like Germany, France and Canada.</p>
+</div>
+</div>
+</div>
+          <div class="field-item odd"><div>
+  <div class="illustration">
+  <img src="https://www.drugcostfacts.org/sites/default/files/styles/question_illustration/public/By-the-number-charts-3.jpg?itok=OacxAGSE" width="1000" height="1000" alt="" />  <div class="share-container share--container--image">
+    <div class="share-tooltip animated fadeIn">
+      <ul class="share-social cf">
+          <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.drugcostfacts.org%2Fus-healthcare-spending%2F%3Fog_img%3Dpublic%3A%2F%2FBy-the-number-charts-3.jpg" class="social-icon js-share-fb js-share" data-channel="facebook"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/home?status=https%3A%2F%2Fwww.drugcostfacts.org%2Fus-healthcare-spending%2F%3Fog_img%3Dpublic%3A%2F%2FBy-the-number-charts-3.jpg" class="social-icon js-share-tw js-share" data-channel="twitter"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.drugcostfacts.org%2Fus-healthcare-spending%2F%3Fog_img%3Dpublic%3A%2F%2FBy-the-number-charts-3.jpg" class="social-icon js-share-li js-share" data-channel="linkedin"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+    <a href="javascript:void(0);" class="share js-share-trigger">
+      Share
+    </a>
+  </div>
+</div>
+</div>
+</div>
+          <div class="field-item even"><div class="article-content-subsection">
+  <div><p>What we in the U.S. spend on medicines is not high or unsustainable, and there is value in greater use of biopharmaceuticals instead of more expensive health care services such as hospital stays, surgeries and nursing homes. A smarter health care system would increase the use of cost-effective biopharmaceuticals, not seek to constrain or ration it.</p>
+</div>
+</div>
+</div>
+      </div>
+</div>
+  </div>
+</div></div>
+          <div class="field-item odd"><div class="accordion-wrapper"><div class="accordion-content">
+  
+<div class="field field-name-field-section-fields field-type-paragraphs field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><div class="article-reference-label-wrapper">
+   <div class="accordion-heading">
+    <h3>Additional Reading & Resources</h3>
+  </div>
+  <div class="accordion-content">
+    
+<div class="field field-name-field-accordion-content field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><p><a href="https://www.bio.org/toolkit/infographics/prescription-drug-costs-numbers">https://www.bio.org/toolkit/infographics/prescription-drug-costs-numbers</a></p>
+
+<p><a href="https://www.bio.org/toolkit/infographics/mid-year-2017-report-drug-spending-significantly-lower">https://www.bio.org/toolkit/infographics/mid-year-2017-report-drug-spending-significantly-lower</a></p>
+
+<p>Cuckler, Gigi A., et al, National Health Expenditure Projections, 20-17-26: Despite Uncertainty, Fundamentals Primarily Drive Spending Growth. Health Affairs, 2018. Vol. 37, No. 3. <a href="https://www.healthaffairs.org/doi/10.1377/hlthaff.2017.1655">https://www.healthaffairs.org/doi/10.1377/hlthaff.2017.1655</a></p>
+</div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+      </div>
+</div>
+  </div>
+</div></div>
+      </div>
+</div>
+  </div>
+            <div class="accordion-heading"><h3>References</h3></div>
+<div class="accordion-content">
+	<ol class="references">
+		<li value="1"><a href="https://www.cms.gov/newsroom/press-releases/cms-office-actuary-releases-2017-national-health-expenditures" target="_blank">https://www.cms.gov/newsroom/press-releases/cms-office-actuary-releases-2017-national-health-expenditures</a></li><li value="2"><a href="https://www.iqvia.com/institute/reports/medicine-use-and-spending-in-the-us-review-of-2017-outlook-to-2022">https://www.iqvia.com/institute/reports/medicine-use-and-spending-in-the-us-review-of-2017-outlook-to-2022</a></li><li value="3"><a href="https://www.drugchannels.net/2018/04/the-gross-to-net-rebate-bubble-topped.html">https://www.drugchannels.net/2018/04/the-gross-to-net-rebate-bubble-topped.html</a></li><li value="4">See trend reports by <a href="https://payorsolutions.cvshealth.com/sites/default/files/cvs-health-payor-solutions-2017-drug-trend-report-feature-april-2017.pdf">CVS Health</a>, <a href="http://lab.express-scripts.com/lab/drug-trend-report/2017-dtr">Express Scripts</a>, and <a href="https://www.primetherapeutics.com/content/dam/corporate/Documents/Newsroom/Pressreleases/2018/document-commercial-trend-spring-2018.pdf">Prime Therapeutics</a>.</li><li value="5"><a href="https://my.express-scripts.com/rs/809-VGG-836/images/Express%20Scripts%202018%20Drug%20Trend%20Report.pdf">https://my.express-scripts.com/rs/809-VGG-836/images/Express%20Scripts%202018%20Drug%20Trend%20Report.pdf</a></li><li value="6"><a href="https://altarum.org/sites/default/files/uploaded-publication-files/Non-Retail%20Rx%20Forecast%20Data%20Brief_with%20Addendum.pdf">https://altarum.org/sites/default/files/uploaded-publication-files/Non-Retail%20Rx%20Forecast%20Data%20Brief_with%20Addendum.pdf</a></li><li value="7">The Costs of Cancer Care: American Cancer Society: Cancer Action Network; April 2017.  <a href="https://www.cms.gov/research-statistics-data-and-systems/statistics-trends-and-reports/nationalhealthexpenddata/nationalhealthaccountsprojected.html" target="_blank">https://www.fightcancer.org/sites/default/files/Costs%20of%20Cancer%20-%20Final%20Web.pdf</a></li><li value="8"><a href="https://www.cms.gov/research-statistics-data-and-systems/statistics-trends-and-reports/nationalhealthexpenddata/nationalhealthaccountsprojected.html">https://www.cms.gov/research-statistics-data-and-systems/statistics-trends-and-reports/nationalhealthexpenddata/nationalhealthaccountsprojected.html</a></li>	</ol>
+</div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+<div id="block-views-related-questions-block" class="block block-views related-questions-container">
+  <div class="contain-width">
+
+    <div class="btn-backtotop-container">
+      <a href="#" class="btn btn--menu--backtotop js-backtotop"><i class="fa fa-caret-up" aria-hidden="true"></i> Back to top</a>
+    </div>
+              <h3 class="subheading">Related Questions</h3>
+        
+    <div class="content">
+      <div class="view view-related-questions view-id-related_questions view-display-id-block view-dom-id-c28cf485cf0ed26224d860db23552431">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="">  
+          <a href="/health-insurance-premium-increases">Does increasing patients’ out-of-pocket spending really reduce health insurance premiums?</a>  </li>
+          <li class="">  
+          <a href="/prescription-drug-costs">How are prescription drug costs really determined?</a>  </li>
+          <li class="">  
+          <a href="/drug-pricing-regulations">Shouldn&#039;t the U.S. Government do more to regulate high drug prices?</a>  </li>
+          <li class="">  
+          <a href="/innovative-medicine">Why are some drugs so expensive?</a>  </li>
+          <li class="">  
+          <a href="/prescription-insurance">Why do some patients pay so much for drugs?</a>  </li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+
+</div>
+
+<div id="block-views-related-debates-block" class="block block-views related-debates-container">
+  <div class="contain-width">
+              <h3 class="subheading">Related Debates</h3>
+        
+    <div class="content">
+      <div class="view view-related-debates view-id-related_debates view-display-id-block view-dom-id-dcc3c13c6220e9b43d1fce12e757fadb">
+        
+  
+  
+      <div class="view-content">
+      <div class="related-debate-list">    <ul>          <li class="">  
+          <a href="/pharmaceutical-product-development">Profits and R&amp;D</a>  </li>
+          <li class="">  
+          <a href="/drug-development">Private and Public R&amp;D Financing</a>  </li>
+          <li class="">  
+          <a href="/importing-prescription-drugs">Importation of Drugs</a>  </li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+
+</div>
+<div id="block-bio-next-question-bio-next-question" class="block block-bio-next-question">
+
+    
+  <div class="content">
+    <div class="cta cta--next--question">
+  <div class="contain-width">
+    <div class="cta-next-article-info">
+      <h3 class="heading">Why are some drugs so expensive?</h3>
+    </div>
+    <div class="cta-learn-more"><a data-next-nid="1" href="/innovative-medicine" class="btn btn--cta cta--load--more">Learn More</a></div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+
+              </div></div> <!-- /.section, /#content -->
+
+      
+      
+    </div></div> <!-- /#main, /#main-wrapper -->
+
+    <footer class="animated slideInUp">
+        <div class="region region-footer">
+    <div id="block-block-1" class="block block-block footer-company">
+
+    
+  <div class="content">
+    <p class="logo"><a href="https://www.bio.org">BIO</a></p>
+
+<p class="copy"> © BIO 2018 All Rights Reserved</p>
+  </div>
+</div>
+<div id="block-block-2" class="block block-block footer-social">
+
+    
+  <div class="content">
+    <ul class="social"><li><a class="icon icon-facebook" href="https://www.facebook.com/IAmBiotech" target="_blank"><span class="sr-only">Facebook</span></a></li>
+	<li><a class="icon icon-twitter" href="https://twitter.com/IAmBiotech" target="_blank"><span class="sr-only">Twitter</span></a></li>
+	<li><a class="icon icon-linkedin" href="https://www.linkedin.com/groups/35214/profile" target="_blank"><span class="sr-only">Linked In</span></a></li>
+	<li><a class="icon icon-youtube" href="https://www.youtube.com/user/BIOchannel" target="_blank"><span class="sr-only">Youtube</span></a></li>
+</ul>  </div>
+</div>
+<div id="block-menu-menu-navigation-footer" class="block block-menu footer-social">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/privacy-policy">Privacy Policy</a></li>
+<li class="leaf"><a href="/terms-of-use">Terms of Use</a></li>
+<li class="leaf"><a href="https://www.bio.org/contact-bio">Contact Us</a></li>
+<li class="last leaf"><a href="/graphic-library">Graphic Library</a></li>
+</ul>  </div>
+</div>
+  </div>
+    </footer> <!-- /#footer -->
+
+  </div> <!-- /#page -->
+
+
+</div> <!-- /#page-wrapper -->
+  <script type="text/javascript" src="https://www.drugcostfacts.org/sites/default/files/js/js_MpKfe1sTh5JIVGCZ17DsAuT1rqAC38MLLlkjqjQ1X_k.js"></script>
+<script type="text/javascript" src="https://www.drugcostfacts.org/sites/default/files/js/js_R9UbiVw2xuTUI0GZoaqMDOdX0lrZtgX-ono8RVOUEVc.js"></script>
+<script type="text/javascript" src="https://www.drugcostfacts.org/sites/default/files/js/js_zsU7pE_En9PuEzx00IjN_iCxIwgABAiEwJNkh1iTG9k.js"></script>
+<script type="text/javascript" src="https://www.drugcostfacts.org/sites/default/files/js/js_4Vr1ato2GdjMb57l_R8I0kiFVEcji3mP6mWTTj0ZO4M.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bio_v2","theme_token":"5eG1DQV05APaywkJzlwuNUUBBu5y1kRzL_-hJjXLNrU","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/bio_v2\/js\/vendor\/clipboard.min.js":1,"sites\/all\/themes\/bio_v2\/js\/vendor\/jquery.validate.min.js":1,"sites\/all\/themes\/bio_v2\/js\/vendor\/sticky-kit.min.js":1,"sites\/all\/themes\/bio_v2\/js\/vendor\/smooth-state.min.js":1,"sites\/all\/themes\/bio_v2\/js\/vendor\/shuffle.min.js":1,"sites\/all\/themes\/bio_v2\/js\/modal.plugin.js":1,"sites\/all\/themes\/bio_v2\/js\/social-nav.js":1,"sites\/all\/themes\/bio_v2\/js\/debates.js":1,"sites\/all\/themes\/bio_v2\/js\/menu.plugin.js":1,"sites\/all\/themes\/bio_v2\/js\/social-share.js":1,"sites\/all\/themes\/bio_v2\/js\/embed.js":1,"sites\/all\/themes\/bio_v2\/js\/webform.js":1,"sites\/all\/themes\/bio_v2\/js\/accordion.js":1,"sites\/all\/themes\/bio_v2\/js\/backtotop.js":1,"sites\/all\/themes\/bio_v2\/js\/loadmore.js":1,"sites\/all\/themes\/bio_v2\/js\/homepage.js":1,"sites\/all\/themes\/bio_v2\/js\/vendor\/video.api.js":1},"css":{"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/references_coalescer\/css\/reference_tips.css":1,"modules\/search\/search.css":1,"sites\/all\/themes\/bio_v2\/css\/site.css":1,"sites\/all\/themes\/bio_v2\/css\/module\/animate.css":1}},"urlIsAjaxTrusted":{"\/us-healthcare-spending":true},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script src="https://use.typekit.net/fjo7dzh.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script src="https://use.fontawesome.com/4597baab08.js"></script>
+  <script>
+    $ = jQuery;
+    $(function(){
+      var is_search = '0';
+      if(is_search == 1) {
+        $('.accordion-heading').addClass('expanded'); // Open accordion if search is true
+        $('.accordion-heading').next().show();
+      }
+    });
+  </script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e49c5f2b2f","applicationID":"51799934","transactionName":"ZwBXZBYFXRFSB0RaXl5KdFMQDVwMHApfV1RvFVRXATtFC1YT","queueTime":0,"applicationTime":147,"atts":"S0dUEl4fTh8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

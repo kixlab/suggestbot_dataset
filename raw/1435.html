@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+	<meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Why Fights Over Immigration Keep Shutting Down The Government | FiveThirtyEight</title>
+<!-- Jetpack Site Verification Tags -->
+<link rel='dns-prefetch' href='//cdn.registerdisney.go.com' />
+<link rel='dns-prefetch' href='//platform.twitter.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='all-css-0' href='https://fivethirtyeight.com/_static/??-eJylkd1OBCEMhV9IBp1E3RvjszDQgSp/0qLh7WUwqztrYjLxjvT0fJy28iMLjNpXAyQ1kTRILBef9KvwuBRVmiRuHqaAceoNN7I7dIoMkWX21WIkaXEV2asmlsqcolREwF+8K+lPTMmL0A6IlqSKGfZeGhVR8UL6JuyjK3LYmbT7ZNfy8lahtA1mUPlkj8Rhh8WIrAq3bTVn2A9zopASu9gdR7hrl3u6MeV4/2s/VgU4AljL6DG/POwg9K0B5ShWfIdtfG6A1vHlfa+k8+DP4enu/uF2fpxPp/kT2ODnxA==' type='text/css' media='all' />
+<style id='rpbchessboard-chessboard-inline-css' type='text/css'>
+
+
+@media all and (max-width:240px) {
+
+	
+	.rpbui-chessboard-size19 .rpbui-chessboard-sized, .rpbui-chessboard-size20 .rpbui-chessboard-sized, .rpbui-chessboard-size21 .rpbui-chessboard-sized, .rpbui-chessboard-size22 .rpbui-chessboard-sized, .rpbui-chessboard-size23 .rpbui-chessboard-sized, .rpbui-chessboard-size24 .rpbui-chessboard-sized, .rpbui-chessboard-size25 .rpbui-chessboard-sized, .rpbui-chessboard-size26 .rpbui-chessboard-sized, .rpbui-chessboard-size27 .rpbui-chessboard-sized, .rpbui-chessboard-size28 .rpbui-chessboard-sized, .rpbui-chessboard-size29 .rpbui-chessboard-sized, .rpbui-chessboard-size30 .rpbui-chessboard-sized, .rpbui-chessboard-size31 .rpbui-chessboard-sized, .rpbui-chessboard-size32 .rpbui-chessboard-sized, .rpbui-chessboard-size33 .rpbui-chessboard-sized, .rpbui-chessboard-size34 .rpbui-chessboard-sized, .rpbui-chessboard-size35 .rpbui-chessboard-sized, .rpbui-chessboard-size36 .rpbui-chessboard-sized, .rpbui-chessboard-size37 .rpbui-chessboard-sized, .rpbui-chessboard-size38 .rpbui-chessboard-sized, .rpbui-chessboard-size39 .rpbui-chessboard-sized, .rpbui-chessboard-size40 .rpbui-chessboard-sized, .rpbui-chessboard-size41 .rpbui-chessboard-sized, .rpbui-chessboard-size42 .rpbui-chessboard-sized, .rpbui-chessboard-size43 .rpbui-chessboard-sized, .rpbui-chessboard-size44 .rpbui-chessboard-sized, .rpbui-chessboard-size45 .rpbui-chessboard-sized, .rpbui-chessboard-size46 .rpbui-chessboard-sized, .rpbui-chessboard-size47 .rpbui-chessboard-sized, .rpbui-chessboard-size48 .rpbui-chessboard-sized, .rpbui-chessboard-size49 .rpbui-chessboard-sized, .rpbui-chessboard-size50 .rpbui-chessboard-sized, .rpbui-chessboard-size51 .rpbui-chessboard-sized, .rpbui-chessboard-size52 .rpbui-chessboard-sized, .rpbui-chessboard-size53 .rpbui-chessboard-sized, .rpbui-chessboard-size54 .rpbui-chessboard-sized, .rpbui-chessboard-size55 .rpbui-chessboard-sized, .rpbui-chessboard-size56 .rpbui-chessboard-sized, .rpbui-chessboard-size57 .rpbui-chessboard-sized, .rpbui-chessboard-size58 .rpbui-chessboard-sized, .rpbui-chessboard-size59 .rpbui-chessboard-sized, .rpbui-chessboard-size60 .rpbui-chessboard-sized, .rpbui-chessboard-size61 .rpbui-chessboard-sized, .rpbui-chessboard-size62 .rpbui-chessboard-sized, .rpbui-chessboard-size63 .rpbui-chessboard-sized, .rpbui-chessboard-size64 .rpbui-chessboard-sized {
+		min-width: 18px;
+		width    : 18px;
+		height   : 18px;
+		background-size: 18px 18px;
+		-webkit-background-size: 18px 18px;
+	}
+
+	.rpbui-chessboard-size19 .rpbui-chessboard-annotations, .rpbui-chessboard-size20 .rpbui-chessboard-annotations, .rpbui-chessboard-size21 .rpbui-chessboard-annotations, .rpbui-chessboard-size22 .rpbui-chessboard-annotations, .rpbui-chessboard-size23 .rpbui-chessboard-annotations, .rpbui-chessboard-size24 .rpbui-chessboard-annotations, .rpbui-chessboard-size25 .rpbui-chessboard-annotations, .rpbui-chessboard-size26 .rpbui-chessboard-annotations, .rpbui-chessboard-size27 .rpbui-chessboard-annotations, .rpbui-chessboard-size28 .rpbui-chessboard-annotations, .rpbui-chessboard-size29 .rpbui-chessboard-annotations, .rpbui-chessboard-size30 .rpbui-chessboard-annotations, .rpbui-chessboard-size31 .rpbui-chessboard-annotations, .rpbui-chessboard-size32 .rpbui-chessboard-annotations, .rpbui-chessboard-size33 .rpbui-chessboard-annotations, .rpbui-chessboard-size34 .rpbui-chessboard-annotations, .rpbui-chessboard-size35 .rpbui-chessboard-annotations, .rpbui-chessboard-size36 .rpbui-chessboard-annotations, .rpbui-chessboard-size37 .rpbui-chessboard-annotations, .rpbui-chessboard-size38 .rpbui-chessboard-annotations, .rpbui-chessboard-size39 .rpbui-chessboard-annotations, .rpbui-chessboard-size40 .rpbui-chessboard-annotations, .rpbui-chessboard-size41 .rpbui-chessboard-annotations, .rpbui-chessboard-size42 .rpbui-chessboard-annotations, .rpbui-chessboard-size43 .rpbui-chessboard-annotations, .rpbui-chessboard-size44 .rpbui-chessboard-annotations, .rpbui-chessboard-size45 .rpbui-chessboard-annotations, .rpbui-chessboard-size46 .rpbui-chessboard-annotations, .rpbui-chessboard-size47 .rpbui-chessboard-annotations, .rpbui-chessboard-size48 .rpbui-chessboard-annotations, .rpbui-chessboard-size49 .rpbui-chessboard-annotations, .rpbui-chessboard-size50 .rpbui-chessboard-annotations, .rpbui-chessboard-size51 .rpbui-chessboard-annotations, .rpbui-chessboard-size52 .rpbui-chessboard-annotations, .rpbui-chessboard-size53 .rpbui-chessboard-annotations, .rpbui-chessboard-size54 .rpbui-chessboard-annotations, .rpbui-chessboard-size55 .rpbui-chessboard-annotations, .rpbui-chessboard-size56 .rpbui-chessboard-annotations, .rpbui-chessboard-size57 .rpbui-chessboard-annotations, .rpbui-chessboard-size58 .rpbui-chessboard-annotations, .rpbui-chessboard-size59 .rpbui-chessboard-annotations, .rpbui-chessboard-size60 .rpbui-chessboard-annotations, .rpbui-chessboard-size61 .rpbui-chessboard-annotations, .rpbui-chessboard-size62 .rpbui-chessboard-annotations, .rpbui-chessboard-size63 .rpbui-chessboard-annotations, .rpbui-chessboard-size64 .rpbui-chessboard-annotations {
+		width : 144px;
+		height: 144px;
+		right : 26px;
+	}
+
+	
+	
+	.rpbui-chessboard-cell.rpbui-chessboard-rowCoordinate, .rpbui-chessboard-row.rpbui-chessboard-columnCoordinateRow {
+		display: none;
+	}
+
+	
+}
+@media all and (min-width:241px) and (max-width:320px) {
+
+	
+	.rpbui-chessboard-size25 .rpbui-chessboard-sized, .rpbui-chessboard-size26 .rpbui-chessboard-sized, .rpbui-chessboard-size27 .rpbui-chessboard-sized, .rpbui-chessboard-size28 .rpbui-chessboard-sized, .rpbui-chessboard-size29 .rpbui-chessboard-sized, .rpbui-chessboard-size30 .rpbui-chessboard-sized, .rpbui-chessboard-size31 .rpbui-chessboard-sized, .rpbui-chessboard-size32 .rpbui-chessboard-sized, .rpbui-chessboard-size33 .rpbui-chessboard-sized, .rpbui-chessboard-size34 .rpbui-chessboard-sized, .rpbui-chessboard-size35 .rpbui-chessboard-sized, .rpbui-chessboard-size36 .rpbui-chessboard-sized, .rpbui-chessboard-size37 .rpbui-chessboard-sized, .rpbui-chessboard-size38 .rpbui-chessboard-sized, .rpbui-chessboard-size39 .rpbui-chessboard-sized, .rpbui-chessboard-size40 .rpbui-chessboard-sized, .rpbui-chessboard-size41 .rpbui-chessboard-sized, .rpbui-chessboard-size42 .rpbui-chessboard-sized, .rpbui-chessboard-size43 .rpbui-chessboard-sized, .rpbui-chessboard-size44 .rpbui-chessboard-sized, .rpbui-chessboard-size45 .rpbui-chessboard-sized, .rpbui-chessboard-size46 .rpbui-chessboard-sized, .rpbui-chessboard-size47 .rpbui-chessboard-sized, .rpbui-chessboard-size48 .rpbui-chessboard-sized, .rpbui-chessboard-size49 .rpbui-chessboard-sized, .rpbui-chessboard-size50 .rpbui-chessboard-sized, .rpbui-chessboard-size51 .rpbui-chessboard-sized, .rpbui-chessboard-size52 .rpbui-chessboard-sized, .rpbui-chessboard-size53 .rpbui-chessboard-sized, .rpbui-chessboard-size54 .rpbui-chessboard-sized, .rpbui-chessboard-size55 .rpbui-chessboard-sized, .rpbui-chessboard-size56 .rpbui-chessboard-sized, .rpbui-chessboard-size57 .rpbui-chessboard-sized, .rpbui-chessboard-size58 .rpbui-chessboard-sized, .rpbui-chessboard-size59 .rpbui-chessboard-sized, .rpbui-chessboard-size60 .rpbui-chessboard-sized, .rpbui-chessboard-size61 .rpbui-chessboard-sized, .rpbui-chessboard-size62 .rpbui-chessboard-sized, .rpbui-chessboard-size63 .rpbui-chessboard-sized, .rpbui-chessboard-size64 .rpbui-chessboard-sized {
+		min-width: 24px;
+		width    : 24px;
+		height   : 24px;
+		background-size: 24px 24px;
+		-webkit-background-size: 24px 24px;
+	}
+
+	.rpbui-chessboard-size25 .rpbui-chessboard-annotations, .rpbui-chessboard-size26 .rpbui-chessboard-annotations, .rpbui-chessboard-size27 .rpbui-chessboard-annotations, .rpbui-chessboard-size28 .rpbui-chessboard-annotations, .rpbui-chessboard-size29 .rpbui-chessboard-annotations, .rpbui-chessboard-size30 .rpbui-chessboard-annotations, .rpbui-chessboard-size31 .rpbui-chessboard-annotations, .rpbui-chessboard-size32 .rpbui-chessboard-annotations, .rpbui-chessboard-size33 .rpbui-chessboard-annotations, .rpbui-chessboard-size34 .rpbui-chessboard-annotations, .rpbui-chessboard-size35 .rpbui-chessboard-annotations, .rpbui-chessboard-size36 .rpbui-chessboard-annotations, .rpbui-chessboard-size37 .rpbui-chessboard-annotations, .rpbui-chessboard-size38 .rpbui-chessboard-annotations, .rpbui-chessboard-size39 .rpbui-chessboard-annotations, .rpbui-chessboard-size40 .rpbui-chessboard-annotations, .rpbui-chessboard-size41 .rpbui-chessboard-annotations, .rpbui-chessboard-size42 .rpbui-chessboard-annotations, .rpbui-chessboard-size43 .rpbui-chessboard-annotations, .rpbui-chessboard-size44 .rpbui-chessboard-annotations, .rpbui-chessboard-size45 .rpbui-chessboard-annotations, .rpbui-chessboard-size46 .rpbui-chessboard-annotations, .rpbui-chessboard-size47 .rpbui-chessboard-annotations, .rpbui-chessboard-size48 .rpbui-chessboard-annotations, .rpbui-chessboard-size49 .rpbui-chessboard-annotations, .rpbui-chessboard-size50 .rpbui-chessboard-annotations, .rpbui-chessboard-size51 .rpbui-chessboard-annotations, .rpbui-chessboard-size52 .rpbui-chessboard-annotations, .rpbui-chessboard-size53 .rpbui-chessboard-annotations, .rpbui-chessboard-size54 .rpbui-chessboard-annotations, .rpbui-chessboard-size55 .rpbui-chessboard-annotations, .rpbui-chessboard-size56 .rpbui-chessboard-annotations, .rpbui-chessboard-size57 .rpbui-chessboard-annotations, .rpbui-chessboard-size58 .rpbui-chessboard-annotations, .rpbui-chessboard-size59 .rpbui-chessboard-annotations, .rpbui-chessboard-size60 .rpbui-chessboard-annotations, .rpbui-chessboard-size61 .rpbui-chessboard-annotations, .rpbui-chessboard-size62 .rpbui-chessboard-annotations, .rpbui-chessboard-size63 .rpbui-chessboard-annotations, .rpbui-chessboard-size64 .rpbui-chessboard-annotations {
+		width : 192px;
+		height: 192px;
+		right : 32px;
+	}
+
+	
+	
+	.rpbui-chessboard-cell.rpbui-chessboard-rowCoordinate, .rpbui-chessboard-row.rpbui-chessboard-columnCoordinateRow {
+		display: none;
+	}
+
+	
+}
+@media all and (min-width:321px) and (max-width:480px) {
+
+	
+	.rpbui-chessboard-size33 .rpbui-chessboard-sized, .rpbui-chessboard-size34 .rpbui-chessboard-sized, .rpbui-chessboard-size35 .rpbui-chessboard-sized, .rpbui-chessboard-size36 .rpbui-chessboard-sized, .rpbui-chessboard-size37 .rpbui-chessboard-sized, .rpbui-chessboard-size38 .rpbui-chessboard-sized, .rpbui-chessboard-size39 .rpbui-chessboard-sized, .rpbui-chessboard-size40 .rpbui-chessboard-sized, .rpbui-chessboard-size41 .rpbui-chessboard-sized, .rpbui-chessboard-size42 .rpbui-chessboard-sized, .rpbui-chessboard-size43 .rpbui-chessboard-sized, .rpbui-chessboard-size44 .rpbui-chessboard-sized, .rpbui-chessboard-size45 .rpbui-chessboard-sized, .rpbui-chessboard-size46 .rpbui-chessboard-sized, .rpbui-chessboard-size47 .rpbui-chessboard-sized, .rpbui-chessboard-size48 .rpbui-chessboard-sized, .rpbui-chessboard-size49 .rpbui-chessboard-sized, .rpbui-chessboard-size50 .rpbui-chessboard-sized, .rpbui-chessboard-size51 .rpbui-chessboard-sized, .rpbui-chessboard-size52 .rpbui-chessboard-sized, .rpbui-chessboard-size53 .rpbui-chessboard-sized, .rpbui-chessboard-size54 .rpbui-chessboard-sized, .rpbui-chessboard-size55 .rpbui-chessboard-sized, .rpbui-chessboard-size56 .rpbui-chessboard-sized, .rpbui-chessboard-size57 .rpbui-chessboard-sized, .rpbui-chessboard-size58 .rpbui-chessboard-sized, .rpbui-chessboard-size59 .rpbui-chessboard-sized, .rpbui-chessboard-size60 .rpbui-chessboard-sized, .rpbui-chessboard-size61 .rpbui-chessboard-sized, .rpbui-chessboard-size62 .rpbui-chessboard-sized, .rpbui-chessboard-size63 .rpbui-chessboard-sized, .rpbui-chessboard-size64 .rpbui-chessboard-sized {
+		min-width: 32px;
+		width    : 32px;
+		height   : 32px;
+		background-size: 32px 32px;
+		-webkit-background-size: 32px 32px;
+	}
+
+	.rpbui-chessboard-size33 .rpbui-chessboard-annotations, .rpbui-chessboard-size34 .rpbui-chessboard-annotations, .rpbui-chessboard-size35 .rpbui-chessboard-annotations, .rpbui-chessboard-size36 .rpbui-chessboard-annotations, .rpbui-chessboard-size37 .rpbui-chessboard-annotations, .rpbui-chessboard-size38 .rpbui-chessboard-annotations, .rpbui-chessboard-size39 .rpbui-chessboard-annotations, .rpbui-chessboard-size40 .rpbui-chessboard-annotations, .rpbui-chessboard-size41 .rpbui-chessboard-annotations, .rpbui-chessboard-size42 .rpbui-chessboard-annotations, .rpbui-chessboard-size43 .rpbui-chessboard-annotations, .rpbui-chessboard-size44 .rpbui-chessboard-annotations, .rpbui-chessboard-size45 .rpbui-chessboard-annotations, .rpbui-chessboard-size46 .rpbui-chessboard-annotations, .rpbui-chessboard-size47 .rpbui-chessboard-annotations, .rpbui-chessboard-size48 .rpbui-chessboard-annotations, .rpbui-chessboard-size49 .rpbui-chessboard-annotations, .rpbui-chessboard-size50 .rpbui-chessboard-annotations, .rpbui-chessboard-size51 .rpbui-chessboard-annotations, .rpbui-chessboard-size52 .rpbui-chessboard-annotations, .rpbui-chessboard-size53 .rpbui-chessboard-annotations, .rpbui-chessboard-size54 .rpbui-chessboard-annotations, .rpbui-chessboard-size55 .rpbui-chessboard-annotations, .rpbui-chessboard-size56 .rpbui-chessboard-annotations, .rpbui-chessboard-size57 .rpbui-chessboard-annotations, .rpbui-chessboard-size58 .rpbui-chessboard-annotations, .rpbui-chessboard-size59 .rpbui-chessboard-annotations, .rpbui-chessboard-size60 .rpbui-chessboard-annotations, .rpbui-chessboard-size61 .rpbui-chessboard-annotations, .rpbui-chessboard-size62 .rpbui-chessboard-annotations, .rpbui-chessboard-size63 .rpbui-chessboard-annotations, .rpbui-chessboard-size64 .rpbui-chessboard-annotations {
+		width : 256px;
+		height: 256px;
+		right : 40px;
+	}
+
+	
+	
+}
+@media all and (min-width:481px) and (max-width:768px) {
+
+	
+	.rpbui-chessboard-size57 .rpbui-chessboard-sized, .rpbui-chessboard-size58 .rpbui-chessboard-sized, .rpbui-chessboard-size59 .rpbui-chessboard-sized, .rpbui-chessboard-size60 .rpbui-chessboard-sized, .rpbui-chessboard-size61 .rpbui-chessboard-sized, .rpbui-chessboard-size62 .rpbui-chessboard-sized, .rpbui-chessboard-size63 .rpbui-chessboard-sized, .rpbui-chessboard-size64 .rpbui-chessboard-sized {
+		min-width: 56px;
+		width    : 56px;
+		height   : 56px;
+		background-size: 56px 56px;
+		-webkit-background-size: 56px 56px;
+	}
+
+	.rpbui-chessboard-size57 .rpbui-chessboard-annotations, .rpbui-chessboard-size58 .rpbui-chessboard-annotations, .rpbui-chessboard-size59 .rpbui-chessboard-annotations, .rpbui-chessboard-size60 .rpbui-chessboard-annotations, .rpbui-chessboard-size61 .rpbui-chessboard-annotations, .rpbui-chessboard-size62 .rpbui-chessboard-annotations, .rpbui-chessboard-size63 .rpbui-chessboard-annotations, .rpbui-chessboard-size64 .rpbui-chessboard-annotations {
+		width : 448px;
+		height: 448px;
+		right : 64px;
+	}
+
+	
+	
+}
+
+
+
+
+
+</style>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var DisneyOneID = {"config":{"clientId":"DATG-FIVETHIRTYEIGHT.WEB-PROD","langPref":"en-US","debug":false,"responderPage":"https:\/\/fivethirtyeight.com\/oneid-responder","cssOverride":"https:\/\/fivethirtyeight.com\/wp-content\/themes\/espn-fivethirtyeight\/assets\/css\/oneid.min.css"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cdn.registerdisney.go.com/v2/outer/DisneyID.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ESPNTaboola = {"publisher":"abcnews-fivethirtyeight","type":"article"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://fivethirtyeight.com/_static/??-eJyFkFkOwjAMRC9EGqjE8oM4S0hM65I6JXaKensiqERALF+WbM/zjPV1UDaQAIkefGqQWDtkgkn1wGxyo9GGGYR1xzoQoKt6pKrjhc5aJOuTg/uwuySI01z+Lqgem2gEStq7E+CBFAeLxhcmTsbCMYTzL2US9CiY7z51IzoIf8+JyWxvCt3c+RY7kYPINsSPUaSF/MgH+oQjSItRJsCmlTLS60S1YDJ05h36/Wq9WdbberdbdTfmUKMt'></script>
+<script type='text/javascript' defer="defer" src='https://platform.twitter.com/widgets.js?ver=1.0.12'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ABCAnalytics = {"nielsen":{"asset_id":198668,"section":"politics:the-trump-administration","seg_a":"","seg_b":"","seg_c":"","debug":""},"chartbeat":{"uid":"12240","domain":"fivethirtyeight.com","path":"\/features\/why-fights-over-immigration-keep-shutting-down-the-government\/","sections":"politics,features","authors":"Perry Bacon Jr.","title":"Why Fights Over Immigration Keep Shutting Down The Government","loadPubJS":false,"loadVidJS":true},"gtm":{"id":"GTM-KLHT6T2"},"omniture":{"pageName":"politics:features:why-fights-over-immigration-keep-shutting-down-the-government","prop1":"fivethirtyeight","prop2":"","prop5":"features","prop6":"Perry Bacon Jr.","prop7":"politics","prop8":"politics:the-trump-administration","prop12":"Why Fights Over Immigration Keep Shutting Down The Government","prop13":"198668:Why Fights Over Immigration Keep Shutting Down The Government","prop14":"","prop15":"https:\/\/fivethirtyeight.com\/features\/why-fights-over-immigration-keep-shutting-down-the-government\/","prop16":"https:\/\/fivethirtyeight.com\/features\/why-fights-over-immigration-keep-shutting-down-the-government\/","prop20":"Desktop","prop23":"Congress, Donald Trump, Government Shutdown, Immigration, The Trump Administration","eVar5":"features","eVar6":"Perry Bacon Jr.","eVar7":"politics","eVar8":"politics:the-trump-administration","eVar9":"2018-12-21","eVar10":"13:34","eVar12":"Why Fights Over Immigration Keep Shutting Down The Government","eVar13":"198668:Why Fights Over Immigration Keep Shutting Down The Government","eVar14":"","eVar15":"https:\/\/fivethirtyeight.com\/features\/why-fights-over-immigration-keep-shutting-down-the-government\/","eVar16":"https:\/\/fivethirtyeight.com\/features\/why-fights-over-immigration-keep-shutting-down-the-government\/","eVar20":"Desktop","eVar21":null,"prop35":"2018-12-21"},"account":"wdgnewfivethirtyeight"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://fivethirtyeight.com/wp-content/plugins/abc-analytics/assets/js/analytics.min.js?m=1559658131g'></script>
+<link rel='https://api.w.org/' href='https://fivethirtyeight.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://fivethirtyeight.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://fivethirtyeight.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.1" />
+<link rel='shortlink' href='https://53eig.ht/2PV6U7x' />
+<link rel="alternate" type="application/json+oembed" href="https://fivethirtyeight.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffivethirtyeight.com%2Ffeatures%2Fwhy-fights-over-immigration-keep-shutting-down-the-government%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://fivethirtyeight.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffivethirtyeight.com%2Ffeatures%2Fwhy-fights-over-immigration-keep-shutting-down-the-government%2F&#038;format=xml" />
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<style type='text/css'>img#wpstats{display:none}</style><link rel="amphtml" href="https://fivethirtyeight.com/features/why-fights-over-immigration-keep-shutting-down-the-government/amp/">
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Why Fights Over Immigration Keep Shutting Down The Government" />
+<meta property="og:url" content="https://fivethirtyeight.com/features/why-fights-over-immigration-keep-shutting-down-the-government/" />
+<meta property="og:description" content="We’re facing the third government shutdown in less than a year this Friday thanks, in part, to a fight over immigration policy. President Trump wants $5 billion&#8230;" />
+<meta property="article:published_time" content="2018-12-21T18:34:54+00:00" />
+<meta property="article:modified_time" content="2018-12-21T18:34:54+00:00" />
+<meta property="og:site_name" content="FiveThirtyEight" />
+<meta property="og:image" content="https://fivethirtyeight.com/wp-content/uploads/2018/12/GettyImages-931532180-1.jpg?w=1280" />
+<meta property="og:image:width" content="575" />
+<meta property="og:image:height" content="431" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:author" content="https://fivethirtyeight.com/contributors/perry-bacon-jr/" />
+<meta property="article:publisher" content="https://www.facebook.com/fivethirtyeight" />
+<meta property="fb:app_id" content="797620670264818" />
+<meta property="fb:pages" content="687958677914631" />
+<meta name="twitter:site" content="FiveThirtyEight" />
+<meta name="twitter:site:id" content="2303751216" />
+<meta name="twitter:widgets:csp" content="on" />
+<meta name="twitter:maxage" content="300" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="perrybaconjr" />
+<meta name="twitter:creator:id" content="20815668" />
+<meta name="twitter:image:src" content="https://fivethirtyeight.com/wp-content/uploads/2018/12/GettyImages-931532180-1.jpg?w=1280" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="Perry Bacon Jr." />
+<meta name="twitter:label2" content="Filed under" />
+<meta name="twitter:data2" content="Congress, Donald Trump, Government Shutdown, Immigration, The Trump Administration" />
+
+<!-- End Jetpack Open Graph Tags -->
+<meta name="DC.date.issued" content="2018-12-21T18:34:54+00:00" />
+<meta name="description" content="We’re facing the third government shutdown in less than a year this Friday thanks, in part, to a fight over immigration policy. President Trump wants $5 billion&#8230;" />
+<meta name='author' content='Perry Bacon Jr.' />
+<link rel='author' href='https://fivethirtyeight.com/contributors/perry-bacon-jr/' />
+<link rel="alternate" type="application/rss+xml" title="Posts feed for Perry Bacon Jr." href="https://fivethirtyeight.com/contributors/perry-bacon-jr/feed/">
+<link type="text/plain" rel="author" href="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/humans.txt" /><link rel='canonical' href='https://fivethirtyeight.com/features/why-fights-over-immigration-keep-shutting-down-the-government/' />
+<script type='application/ld+json'>
+{"@context":"http://schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https://fivethirtyeight.com/features/why-fights-over-immigration-keep-shutting-down-the-government/"},"headline":"Why Fights Over Immigration Keep Shutting Down The Government","datePublished":"2018-12-21T13:34:54-04:00","dateModified":"2018-12-21T14:21:25-04:00","publisher":{"@type":"Organization","name":"FiveThirtyEight","logo":{"url":"https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/fivethirtyeight-logo-rich-snippets.png","height":60,"width":546,"@type":"ImageObject"}},"author":{"@type":"Person","name":"Perry Bacon Jr."},"articleSection":"Politics","image":{"@type":"ImageObject","url":"https://fivethirtyeight.com/wp-content/uploads/2018/12/GettyImages-931532180.jpg?w=1024","width":1024,"height":768}}
+</script>
+		<style type="text/css" id="wp-custom-css">
+			/*
+Welcome to Custom CSS!
+
+CSS (Cascading Style Sheets) is a kind of code that tells the browser how
+to render a web page. You may delete these comments and get started with
+your customizations.
+
+By default, your stylesheet will be loaded after the theme stylesheets,
+which means that your rules can take precedence and override the theme CSS
+rules. Just write here what you want to change, you don't need to copy all
+your theme's stylesheet content.
+
+If you need any further help, ask in the CSS Customization forum.
+*/		</style>
+			<link rel="mask-icon" color="#ed713a" href="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/logo-fox-head-black.svg?v=1.0.12">
+	<link rel="shortcut icon" href="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/favicon.ico?v=1.0.12">
+	<link rel="apple-touch-icon" href="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/fivethirtyeight-logo-touch.png?v=1.0.12">
+</head>
+<body class="fte_features-template-default single single-fte_features postid-198668 vertical-politics slug-why-fights-over-immigration-keep-shutting-down-the-government topic-slug-the-trump-administration">
+
+<a href="#content" class="skip-to-content-link visually-hidden">Skip to main content</a>
+<div id="masterad" class="master-ad">
+<div id="ad-Banner" class="ad-banner" data-defer="none"></div></div><!-- #masterad -->
+<i class="header-global-bground"></i>
+<header class="header-global" id="header-global">
+	<div class="site-wrapper header-global-top">
+							<h2 class="header-global-logo">
+							<a href="/" name="&amp;lpos=fivethirtyeight&amp;lid=Header Home" class="header-global-logo-link">
+					<span class="visually-hidden">FiveThirtyEight</span>
+					<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="163.451" viewBox="0 318.275 1280 163.451" class="site-logo"><path d="M0 318.275h76.009v24.323H27.363v30.403h45.606v24.323H27.363v51.687H0zm94.252 109.453h15.202v-54.727H94.252v-24.323h39.525v79.05h12.162v21.283H94.252v-21.283zm15.202-109.453h24.323v24.323h-24.323v-24.323zm434.774 109.453h15.202v-54.727h-15.202v-24.323h39.525v79.05h12.162v21.283h-51.686v-21.283zm15.202-109.453h24.323v24.323H559.43v-24.323zm401.33 109.453h15.202v-54.727H960.76v-24.323h39.525v79.05h12.161v21.283H960.76v-21.283zm15.202-109.453h24.323v24.323h-24.323v-24.323zm-811.781 82.09v-51.687h24.323v45.606l12.161 30.343h3.04l12.162-30.343v-45.606h24.323v51.687l-21.283 48.646h-33.444zm173.301 48.646h-41.288c-24.901 0-37.762-11.584-37.762-35.968v-27.88c0-23.016 13.074-39.525 39.525-39.525 28.367 0 39.525 15.415 39.525 42.565v21.283h-51.686v5.29c0 7.966 3.04 12.952 10.398 12.952h41.288v21.283zm-51.686-60.808h24.323v-4.713c0-7.966-3.223-16.57-12.557-16.57-8.483 0-11.766 6.689-11.766 16.57v4.713zm94.251-45.605h-30.403v-24.323h88.171v24.323h-30.404v106.413h-27.364zm234.11 106.413V348.678h24.323v12.161c3.466-7.449 11.401-12.161 21.952-12.161h8.452v24.323h-18.242c-8.635 0-12.161 2.858-12.161 11.857v64.152h-24.324zm130.736 0h-14.715c-21.617 0-30.89-11.219-30.89-33.9v-42.109h-18.242v-24.323h18.242v-21.283h24.323v21.283h21.283v24.323H723.61l-.213 42.353c0 6.75 2.828 12.374 11.128 12.374h10.368v21.282zm535.107 0h-14.715c-21.617 0-30.89-11.219-30.89-33.9v-42.109h-18.242v-24.323h18.242v-21.283h24.323v21.283H1280v24.323h-21.283l-.213 42.353c0 6.75 2.828 12.374 11.128 12.374H1280v21.282zm-506.953 32.714l14.016-28.883-23.928-52.477v-51.687h24.323v45.606l12.162 30.404h3.04l12.162-30.404v-45.606h24.323v51.687l-37.397 81.36zm90.421-163.45h76.009v24.323h-48.646v27.363h45.606v24.323h-45.606v30.404h48.646v24.323h-76.009zm161.14 145.938v-6.081h48.95c6.081 0 8.817-.547 8.817-3.861v-1.034c0-3.284-2.767-4.226-8.817-4.226h-39.829v-15.202l15.202-15.202c-16.084-4.5-24.323-16.509-24.323-33.444v-3.04c0-22.985 13.499-36.485 42.565-36.485a66.672 66.672 0 0 1 18.09 3.04l12.313-18.242 15.202 9.121-12.161 18.242c4.165 5.868 9.121 14.989 9.121 24.323v3.04c0 21.283-10.033 32.41-36.484 33.444l-9.121 12.161h18.242c17.999 0 27.363 7.966 27.363 23.35v.334c0 15.384-8.239 24.962-26.208 24.962h-39.525c-13.043.002-19.397-5.593-19.397-15.2zm57.767-76.01v-9.121c0-10.033-4.044-12.161-15.202-12.161-11.158 0-15.202 2.128-15.202 12.161v9.121c0 10.033 4.226 12.162 15.202 12.162s15.202-2.128 15.202-12.162zm72.969 60.808h-24.323V318.275h24.323v42.565c3.466-8.118 10.337-12.161 21.283-12.161 19.033 0 27.363 9.364 27.363 32.714v67.618h-24.323v-63.848c0-9.516-3.253-15.202-12.162-15.202-8.908 0-12.161 5.686-12.161 15.202v63.848zm-678.004 0h-24.323V318.275h24.323v42.565c3.466-8.118 11.888-12.161 22.772-12.161 19.033 0 25.874 9.516 25.874 32.867v67.466h-24.323v-66.888c0-9.516-3.253-13.499-12.161-13.499s-12.162 6.871-12.162 16.388v63.998z"/></svg>					<img src="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/logo-fox-head-color.svg" alt="FiveThirtyEight" width="57" height="55" class="site-logo-small" id="site-logo-small" />
+				</a>
+							</h2>
+			
+			<form action="https://fivethirtyeight.com/" method="get" id="searchform" class="search-form">
+				<label for="search-field" class="search-form-label">Search</label>
+				<div class="search-form-input-wrapper"><input type="search" name="s" id="search-field" class="search-form-input" placeholder="Search" tabindex="-1"></div>
+				<input type="submit" value="Search" class="search-form-submit" tabindex="-1">
+				<button aria-label="Search" class="search-button" id="search-button">
+					<span class="visually-hidden">Search</span>
+				</button>
+			</form>
+
+			<a href="https://abcnews.go.com/" rel="noopener" title="ABC News" target="_blank" class="header-espn-link" name="&amp;lpos=fivethirtyeightHeader&amp;lid=Header ABC News">
+				<svg width="65" height="23" xmlns="http://www.w3.org/2000/svg"><path d="M25.089 6.709c-.47-.496-.974-.798-1.322-.798h-.313v-.275h.261c.121 0 1.548.058 1.687.058.227 0 .886-.058 1.026-.058h.278l6.618 7.345V7.187c0-.921-.4-1.276-1.407-1.276h-.296v-.275h.313c.035 0 1.529.058 1.65.058.173 0 1.164-.058 1.355-.058h.192l.017.275c-.922.071-1.165.32-1.165 1.135v9.16h-.312l-7.904-8.77v6.6c0 1.384.314 1.756 1.46 1.756h.295v.296h-.331c-.243 0-1.441-.06-1.72-.06-.156 0-1.269.06-1.512.06h-.279v-.296c1.166-.107 1.41-.302 1.41-1.153v-7.93h-.001zm11.98.106c0-.691-.261-.904-1.079-.904h-.26v-.275h.678c.47 0 3.008.058 3.026.058.364 0 2.777-.058 3.296-.058h.695l.035 2.277h-.27c-.053-1.188-.58-1.667-1.795-1.667h-2.43v4.026h2.1c.816 0 1.268-.39 1.389-1.225l.31.018v3.178h-.293c-.138-.993-.642-1.383-1.857-1.383h-1.666v3.672c0 .603.296.905.885.905h1.736c1.126 0 1.944-.515 2.43-1.58h.314l-.731 2.23c-.505 0-2.898-.058-3.696-.058-.539 0-3.13.04-3.722.058h-.452v-.295h.278c.818-.017 1.08-.23 1.08-.923V6.815zm16.701 9.41h-.487l-1.984-5.511-2.035 5.512h-.47L45.4 6.975c-.26-.71-.505-.993-.957-1.08v-.26h.296c.191 0 1.149.059 1.375.059.191 0 1.182-.058 1.391-.058h.314v.275c-.505.019-.714.16-.714.443 0 .16.052.39.14.639l2.383 6.557 1.357-3.74-.887-2.516c-.383-1.081-.714-1.364-1.55-1.383v-.275h.28c.243 0 1.496.058 1.793.058.242 0 1.495-.058 1.773-.058h.417v.275h-.417c-.574 0-.852.142-.852.443 0 .16.07.444.174.727l2.314 6.522 1.827-5.53c.226-.709.33-1.17.33-1.453 0-.496-.243-.71-.782-.71h-.313v-.274h.087c.243 0 .851.058 1.217.058.173 0 .851-.058 1.18-.058h.123v.275c-.436.125-.66.443-1.007 1.525l-2.923 8.79zm4.01-2.563c.278.688.52 1.008.988 1.361.59.46 1.37.69 2.237.69 1.491 0 2.497-.796 2.497-1.946 0-.85-.486-1.31-2.282-2.175-1.74-.85-2.174-1.274-2.538-1.628-.537-.584-.762-1.114-.762-1.822 0-1.627 1.3-2.704 3.265-2.704.592 0 1.236.088 1.933.264.278.07.557.106.714.106.138 0 .209-.035.26-.153h.3l.034 2.229h-.247c-.156-.531-.26-.76-.487-1.05-.488-.585-1.254-.903-2.237-.903-1.248 0-2.064.601-2.064 1.504 0 .778.47 1.22 2.134 1.998 2.134 1.008 3.426 1.911 3.426 3.573 0 1.91-1.537 3.2-3.807 3.2a8.04 8.04 0 0 1-1.838-.229 3.676 3.676 0 0 0-.624-.089c-.209 0-.277.036-.415.2h-.295l-.035-.248c-.118-.7-.258-1.398-.418-2.09l.261-.089zM3.97 9.732c-.262 0-.51.06-.73.168-.587.291-.957.89-.955 1.546 0 .946.755 1.714 1.684 1.714.931 0 1.684-.768 1.684-1.714 0-.947-.753-1.715-1.684-1.715zm7.259 0c-.93 0-1.685.767-1.685 1.714 0 .946.754 1.714 1.685 1.714.93 0 1.684-.768 1.684-1.714 0-.947-.755-1.715-1.684-1.715z"/><path d="M18.47 14.875c-1.862 0-3.37-1.535-3.37-3.43 0-1.893 1.508-3.428 3.37-3.428 1.596 0 2.932 1.132 3.28 2.65h-1.78a1.68 1.68 0 0 0-1.5-.936c-.932 0-1.686.768-1.686 1.715 0 .946.754 1.714 1.685 1.714a1.68 1.68 0 0 0 1.502-.94l1.783-.017c-.339 1.53-1.68 2.672-3.285 2.672zm-7.241 0c-1.853 0-3.356-1.522-3.369-3.405l-.04-6.016h1.704l.01 3.228c.499-.396 1.077-.665 1.695-.665 1.86 0 3.368 1.535 3.368 3.429s-1.509 3.429-3.368 3.429zm-5.546 0l-.007-.859c-.382.389-1.043.859-1.824.859-1.86 0-3.251-1.535-3.251-3.43 0-1.893 1.508-3.428 3.368-3.428.29 0 .573.037.843.108 1.453.38 2.526 1.723 2.526 3.32v.01l.02 3.42H5.682zM11.229.017C5.027.017 0 5.134 0 11.446s5.027 11.43 11.229 11.43c6.2 0 11.228-5.118 11.228-11.43 0-6.312-5.028-11.429-11.228-11.429z"/></svg>			</a>
+
+			<span class="nav-global-toggle" id="nav-global-toggle">Menu</span>
+
+	</div>
+			<div class="single-sticky">
+									<div class="single-sticky-vertical"></div>
+				<div class="single-sticky-title">
+											Why Fights Over Immigration Keep Shutting Down The Government									</div>
+				<a href="https://fivethirtyeight.com/features/why-fights-over-immigration-keep-shutting-down-the-government/?share=facebook" class="button share-sticky sticky-facebook">Share on Facebook</a>
+				<a href="https://fivethirtyeight.com/features/why-fights-over-immigration-keep-shutting-down-the-government/?share=twitter"  class="button share-sticky sticky-twitter">Share on Twitter</a>
+						</div>
+			<div class="site-wrapper header-global-bottom">
+		<nav class="nav-global" id="nav-global">
+			<ul class="nav-global-menu">
+				<li class="nav-global-menu-item menu-politics -current-vertical">
+					<a href="https://fivethirtyeight.com/politics/" name="&amp;lpos=fivethirtyeight&amp;lid=Header Politics">
+						Politics					</a>
+				</li>
+				<li class="nav-global-menu-item menu-sports">
+					<a href="https://fivethirtyeight.com/sports/" name="&amp;lpos=fivethirtyeight&amp;lid=Header Sports">
+						Sports					</a>
+				</li>
+				<li class="nav-global-menu-item menu-science">
+					<a href="https://fivethirtyeight.com/science/" name="&amp;lpos=fivethirtyeight&amp;lid=Header Science">
+						Science &amp; Health					</a>
+				</li>
+				<li class="nav-global-menu-item menu-economics">
+					<a href="https://fivethirtyeight.com/economics/" name="&amp;lpos=fivethirtyeight&amp;lid=Header Economics">
+						Economics					</a>
+				</li>
+				<li class="nav-global-menu-item menu-life">
+					<a href="https://fivethirtyeight.com/life/" name="&amp;lpos=fivethirtyeight&amp;lid=Header Culture">
+						Culture					</a>
+				</li>
+				<li class="nav-global-menu-item menu-abcn -mobile-only">
+					<a href="https://abcnews.go.com/" rel="noopener" name="&amp;lpos=fivethirtyeightHeader&amp;lid=Header ABC News">
+						ABC News					</a>
+				</li>
+			</ul>
+
+			
+							<div class="header-just-updated">
+					Politics Podcast: <a href="https://fivethirtyeight.com/features/politics-podcast-is-elizabeth-warren-surging/?ex_cid=navlink" class="header-just-updated-link" name="&amp;lpos=fivethirtyeight&amp;lid=Header Podcast/Just Updated">Is Elizabeth Warren Surging? </a>
+					</div>
+						</nav><!-- #nav-global -->
+		</div><!-- .site-wrapper -->
+</header><!-- #header-global -->
+
+
+<div class="site-main">
+	<div id="wrapper" class="site-wrapper">
+
+		
+	<div id="content" class="single single-feature" data-col="2">
+
+		
+		<div id="primary" class="single-col">
+			<article id="post-198668" class="post-198668 fte_features type-fte_features status-publish has-post-thumbnail hentry tag-congress tag-donald-trump tag-government-shutdown tag-immigration tag-the-trump-administration espn_verticals-politics vertical-politics topic-slug-the-trump-administration">
+
+				
+								<header class="post-info single-post-header">
+										<p class="topic single-topic">
+						<time class="datetime">Dec. 21, 2018</time>,
+						at
+						<time class="datetime updated" title="2018-12-21T18:34:54+00:00">1:34 PM</time>
+
+					</p>
+					
+					<div class="single-header">
+						<h1 class="article-title article-title-single entry-title">
+							Why Fights Over Immigration Keep Shutting Down The Government						</h1>
+
+											</div>
+
+					<div class="single-header-metadata-and-share-wrap">
+						<div class="single-header-metadata-wrap">
+															<p class="single-metadata single-byline vcard">By <a href="https://fivethirtyeight.com/contributors/perry-bacon-jr/" title="" class="author url fn" rel="author">Perry Bacon Jr.</a></p>
+								
+														<p class="single-metadata single-topic">Filed under <a href="https://fivethirtyeight.com/tag/the-trump-administration/" class="term " name="">The Trump Administration</a></p>
+								
+								
+													</div>
+						<div class="share">
+							<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-198668" class="share-facebook sd-button share-icon" href="https://fivethirtyeight.com/features/why-fights-over-immigration-keep-shutting-down-the-government/?share=facebook" target="_blank" title="Click to share on Facebook"><span>Facebook</span></a></li><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-198668" class="share-twitter sd-button share-icon" href="https://fivethirtyeight.com/features/why-fights-over-immigration-keep-shutting-down-the-government/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-end"></li></ul></div></div></div>						</div> <!-- .share -->
+					</div>
+
+				</header><!-- .post-info -->
+
+
+					
+<figure id="single-featured-image" class="single-featured-image">
+	<span class="has-bugs post-thumbnail">
+					<div class="bug-container">
+				<picture class="featured-picture">
+											<source media="(min-width: 768px)" srcset="https://fivethirtyeight.com/wp-content/uploads/2018/12/GettyImages-931532180.jpg?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2018/12/GettyImages-931532180.jpg?w=1150 2x">
+					
+											<source srcset="https://fivethirtyeight.com/wp-content/uploads/2018/12/GettyImages-931532180.jpg?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2018/12/GettyImages-931532180.jpg?w=1150 2x">
+						<img alt="US-POLITICS-TRUMP-WALL" src="https://fivethirtyeight.com/wp-content/uploads/2018/12/GettyImages-931532180.jpg?w=575" srcset="https://fivethirtyeight.com/wp-content/uploads/2018/12/GettyImages-931532180.jpg?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2018/12/GettyImages-931532180.jpg?w=1150 2x" />
+									</picture>
+
+				
+			</div>
+
+		
+		
+	</span><!-- .has-bugs -->
+
+	
+				<figcaption class="caption featured-image-caption">
+				President Trump inspects border wall prototypes in San Diego in March.									<p class="credits">Mandel Ngan / AFP / Getty Images</p>
+							</figcaption>
+			
+</figure><!-- .single-featured-image -->
+				
+				<div class="entry-content single-post-content">
+					<p>We’re facing the <a href="https://www.vox.com/policy-and-politics/2018/2/8/16993196/government-shutdown-2018-second">third government shutdown</a> in less than a year this Friday thanks, in part, to a fight over immigration policy. President Trump wants <a href="https://www.cnn.com/2018/12/20/politics/government-shutdown-congress-continuing-resolution-spending-bill/index.html">$5 billion for a border wall</a> &#8212; an amount that is unlikely to make it through the Senate. <a href="https://www.nytimes.com/2018/01/22/us/politics/congress-votes-to-end-government-shutdown.html">Back in January</a>, a disagreement over the Deferred Action for Childhood Arrivals program caused a partial government shutdown.<a class="espn-footnote-link" data-footnote-id="1" href="#fn-1" data-footnote-content="&lt;p&gt;The second shutdown, which occurred in February, included a dispute over immigration. But the lapse in government funding, which lasted only a few hours, might have been avoided if Sen. Rand Paul had not &lt;a href=&quot;https://www.washingtonpost.com/news/the-fix/wp/2018/02/09/the-hour-by-hour-drama-of-the-overnight-shutdown/?utm_term=.e6f981a7c973&quot;&gt;delayed consideration of a compromise bill&lt;/a&gt; not because he objected to its immigration policy, but simply because he felt it included too much spending.&lt;/p&gt;
+"><sup id="ss-1">1</sup></a> So it’s worth taking a step back and asking: Why is immigration such a stumbling block?</p>
+<p>After all, it wasn’t always like this. Conservatives once backed more liberal immigration policies, and liberals have at times backed more restrictionist ones. In 1986, for example, Ronald Reagan <a href="https://www.npr.org/templates/story/story.php?storyId=128303672">signed a law</a> that granted amnesty to nearly 3 million undocumented immigrants. Reagan and George H.W. Bush both used their executive powers to declare that <a href="http://www.pewresearch.org/fact-tank/2014/11/21/executive-actions-on-immigration-have-long-history/">children of undocumented immigrants</a> affected by the Reagan-era law could not be deported. In 2006, Barack Obama and Hillary Clinton, who were both then senators, voted for 700 miles of additional <a href="https://www.govtrack.us/congress/votes/109-2006/s262">fencing on the U.S.-Mexico border</a> as part of a provision to satisfy <a href="http://www.washingtonpost.com/wp-dyn/content/article/2006/10/26/AR2006102600120.html">conservatives concerned about a rise in illegal immigration</a>.<a class="espn-footnote-link" data-footnote-id="2" href="#fn-2" data-footnote-content="&lt;p&gt;Let me not overstate the flip-flopping by the two parties. Obama&rsquo;s DACA program affected &lt;a href=&quot;http://www.pewresearch.org/fact-tank/2014/11/21/executive-actions-on-immigration-have-long-history/&quot;&gt;far more people&lt;/a&gt; than Reagan and Bush&rsquo;s executive moves. Trump&rsquo;s proposed border wall is bigger (physically and symbolically) than a fence.&lt;/p&gt;
+"><sup id="ss-2">2</sup></a></p>
+<p>But over the past couple of decades &#8212; as the number of unauthorized immigrants in the U.S. <a href="http://www.pewhispanic.org/2018/11/27/u-s-unauthorized-immigrant-total-dips-to-lowest-level-in-a-decade/">rose steeply and then began to decline</a> &#8212; immigration policy has come to symbolize the two parties’ broader values and electoral coalitions. The battle over immigration policy is about way more than just immigration, in other words, in the same way that the <a href="https://fivethirtyeight.com/features/the-obamacare-fight-is-about-way-more-than-health-care/">tensions between the two parties on health policy</a> reflect deeper fault lines. The politics of immigration today are notably more divided and partisan than they were 10 or 20 years ago, and there are a few reasons why.</p>
+<p>First, there are the party coalitions. Compared to the mid-2000s, the Democratic Party of today includes fewer non-Hispanic white voters: 67 percent people who are or lean toward being Democrats were non-Hispanic whites in 2007, but that number had dropped to 59 percent in 2017, according to the <a href="http://www.people-press.org/2018/03/20/changing-composition-of-the-electorate-and-partisan-coalitions/">Pew Research Center</a>. Forty percent of self-identified Democrats are now nonwhite. Republicans too have grown more racially diverse, but only barely, and they are still overwhelmingly white: 88 percent in 2007, compared to 83 percent in 2017. About 12 percent of Democrats are Hispanic, roughly double the percentage of Republicans who are of Hispanic descent.</p>
+<p>So the Democrats have a huge bloc of people in their party who have racial, ethnic and cultural ties to America’s most recent immigrants, who are <a href="http://www.pewresearch.org/fact-tank/2018/11/30/key-findings-about-u-s-immigrants/">largely Asian- and Latino-American</a>. And while “minorities” and “people of color” are fraught terms that often ignore differences both between and within racial and ethnic groups, the Democrats are essentially now the home party for Americans who might feel that U.S. society treats them as “other.”</p>
+<p>Secondly, while both parties have undergone ideological shifts, Democrats have shifted more dramatically. Pollsters ask a variety of questions to measure public opinion on immigration, but they all show the same thing: Democrats have become far more pro-immigration in recent years.</p>
+<p>According to Pew, in 2006, 37 percent of Democrats<a class="espn-footnote-link" data-footnote-id="3" href="#fn-3" data-footnote-content="&lt;p&gt;Including people who lean Democratic.&lt;/p&gt;
+"><sup id="ss-3">3</sup></a> said that <a href="http://www.people-press.org/2018/06/28/shifting-public-views-on-legal-immigration-into-the-u-s/">legal immigration to the U.S. should be decreased</a>, compared to 20 percent who said it should increase.<a class="espn-footnote-link" data-footnote-id="4" href="#fn-4" data-footnote-content="&lt;p&gt;Thirty-six percent of respondents said that immigration levels should remain about the same.&lt;/p&gt;
+"><sup id="ss-4">4</sup></a> Pew found a huge reversal in those numbers earlier this year: 40 percent of Democrats back higher immigration levels, compared to 16 percent who want them lowered. According to Gallup, 85 percent of Democrats now feel <a href="https://news.gallup.com/poll/235793/record-high-americans-say-immigration-good-thing.aspx">immigration is a “good thing”</a> for America, compared to 69 percent who said the same in 2006. Republicans haven’t actually become more anti-immigration, according to Pew and Gallup. But, per Pew, there are more Republicans<a class="espn-footnote-link" data-footnote-id="5" href="#fn-5" data-footnote-content="&lt;p&gt;Including people who lean Republican.&lt;/p&gt;
+"><sup id="ss-5">5</sup></a> who want immigration decreased (33 percent) than who want it increased (22 percent).</p>
+<p>As a result, the <i>gap</i> between the parties on questions about immigration has become a chasm:</p>
+<figure id="attachment_198675" class="wp-caption aligncenter" style="max-width: 575px">
+					<img class="size-full wp-image-198675" src="https://fivethirtyeight.com/wp-content/uploads/2018/12/bacon-SHUTDOWN-1221-1.png" alt="" width="575" height="498" srcset="https://fivethirtyeight.com/wp-content/uploads/2018/12/bacon-SHUTDOWN-1221-1.png?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2018/12/bacon-SHUTDOWN-1221-1.png?w=1150 2x" /></figure>
+		
+<p>And immigration is indicative of a broader shift: Democratic voters have grown more liberal on issues of race, gender and identity generally. That includes <a href="https://fivethirtyeight.com/features/white-democrats-have-gotten-way-more-liberal-on-identity-issues/"><i>white</i> Democrats</a>.</p>
+<p>The voters are not alone. Elites in each party have moved toward the ideological poles on immigration policy. Liberal-leaning activists and Democratic politicians argue that policies like the wall aren’t just bad or ineffective, they are <a href="https://twitter.com/UNITEDWEDREAM/status/1075920468706775040">immoral</a> and <a href="https://www.statesman.com/news/20170127/congressman-beto-orourke-trumps-wall-is-racist">racist</a>. <a href="https://www.whitehouse.gov/briefings-statements/remarks-president-trump-illegal-immigration-crisis-border-security/">Trump</a> and <a href="https://www.motherjones.com/politics/2018/10/anti-immigrant-republican-candidates/">other conservatives</a> have suggested that more immigration could both hurt the U.S. economy and lead to more crime.</p>
+<p>Let me avoid making this a both-sides story: For the most part, Democrats are more aligned with overall public opinion on immigration. The <a href="https://poll.qu.edu/national/release-detail?ReleaseID=2514">majority of voters</a> want undocumented young people who were brought to the U.S. as children to be protected from deportation, and Democrats’ demand for that provision that led to last winter’s shutdown. Likewise, most voters <a href="https://poll.qu.edu/national/release-detail?ReleaseID=2590">don’t support</a> a border wall, but Trump is <a href="https://www.washingtonpost.com/powerpost/schumer-pelosi-set-to-meet-with-trump-on-wall-but-house-gop-stands-firm/2018/12/11/2604b1ae-fd56-11e8-862a-b6a6f3ce8199_story.html?utm_term=.3e75c86518ea">driving toward a shutdown</a> in pursuit of a wall, an idea that many congressional Republicans <a href="https://www.washingtonpost.com/business/economy/trump-demands-a-border-wall-but-many-congressional-republicans-just-not-into-it/2018/09/20/8513b368-b826-11e8-94eb-3bd52dfe917b_story.html?utm_term=.56dfc12a2d1a">are fairly lukewarm about</a>.</p>
+<p>That said, America did elect a president (in 2016) and a Senate majority (in 2016 and 2018) who belong to the party that is generally less supportive of immigration, so either there is some appetite for a middle ground or immigration is not a deal-breaker issue for many Americans. Either way, it would be logical for the two sides to find a compromise. But the shifts the parties have undergone in the last 10 or so years make such a compromise hard to execute. Democratic leaders can’t easily sign on to <i>any</i> funding for a wall that their base thinks is a physical monument to racism, particularly since the top Democratic leaders are white but much of the party base is not. Trump can’t easily give up on the wall, since he basically campaigned on the idea that America needs a wall to remain a great nation.</p>
+<p>So we’re already at two shutdowns involving immigration policy in the Trump era &#8212; and I would not rule out a few more.</p>
+				</div><!-- .entry-content -->
+			</article>
+
+			<div class="entry-footnotes print-only">
+	<h2>Footnotes</h2>
+	<div class="entry-footnotes-content">
+		<ol class="footnotes"><li data-wrap="false" data-footnote-id="1" id="fn-1"><span><p>The second shutdown, which occurred in February, included a dispute over immigration. But the lapse in government funding, which lasted only a few hours, might have been avoided if Sen. Rand Paul had not <a href="https://www.washingtonpost.com/news/the-fix/wp/2018/02/09/the-hour-by-hour-drama-of-the-overnight-shutdown/?utm_term=.e6f981a7c973">delayed consideration of a compromise bill</a> not because he objected to its immigration policy, but simply because he felt it included too much spending.</p>
+</span></li><li data-wrap="false" data-footnote-id="2" id="fn-2"><span><p>Let me not overstate the flip-flopping by the two parties. Obama’s DACA program affected <a href="http://www.pewresearch.org/fact-tank/2014/11/21/executive-actions-on-immigration-have-long-history/">far more people</a> than Reagan and Bush’s executive moves. Trump’s proposed border wall is bigger (physically and symbolically) than a fence.</p>
+</span></li><li data-wrap="false" data-footnote-id="3" id="fn-3"><span><p>Including people who lean Democratic.</p>
+</span></li><li data-wrap="false" data-footnote-id="4" id="fn-4"><span><p>Thirty-six percent of respondents said that immigration levels should remain about the same.</p>
+</span></li><li data-wrap="false" data-footnote-id="5" id="fn-5"><span><p>Including people who lean Republican.</p>
+</span></li></ol>	</div><!-- .entry-footnotes-content -->
+</div><!-- .entry-footnotes -->
+<div class="mini-bio">
+		<p>Perry Bacon Jr. is a senior writer for FiveThirtyEight. <span class="mail"><a href="mailto:perry.bacon@fivethirtyeight.com"><i class="icon icon-mail"></i></a></span> <span class="twitter"><a href="https://twitter.com/perrybaconjr" target="_blank"><i class="icon icon-twitter"></i> <span class="twitter-username">@perrybaconjr</span></a></span></p>
+</div>
+<!-- .post-author -->
+<div id="entry-comments" class="fte-expandable">
+	<h3 class="fte-expandable-title">Comments</h3>
+
+	<div class="entry-comments-content fte-expandable-content">
+		<div class="fb-comments" data-href="http://fivethirtyeight.com/?post_type=fte_features&#038;p=198668" data-numposts="5" data-colorscheme="light"
+														></div>
+	</div>
+	<!-- .entry-comments-content -->
+</div>
+<!-- .entry-comments -->
+<div id="taboola-198668" class="taboola-placeholder taboola-recommendations" data-src="https://fivethirtyeight.com/features/why-fights-over-immigration-keep-shutting-down-the-government/" data-mode="thumbnails-a" data-placement="Below Article Thumbnails"></div><div class="tags">
+	<p class="filed-under">Filed under</p>
+	<p class="tag-links"><a class="tag" href="https://fivethirtyeight.com/tag/donald-trump/">Donald Trump <span class="count">(1076 posts)</span></a>
+<a class="tag" href="https://fivethirtyeight.com/tag/the-trump-administration/">The Trump Administration <span class="count">(637)</span></a>
+<a class="tag" href="https://fivethirtyeight.com/tag/congress/">Congress <span class="count">(375)</span></a>
+<a class="tag" href="https://fivethirtyeight.com/tag/immigration/">Immigration <span class="count">(140)</span></a>
+<a class="tag" href="https://fivethirtyeight.com/tag/government-shutdown/">Government Shutdown <span class="count">(41)</span></a>
+</p>
+</div>
+		</div><!-- #primary -->
+
+		<div id="secondary" class="single-col vertical-col blog-col">
+
+	<div class="sidebar-feature visually-hidden"><aside id="fivethirtyeight-most-popular-stories-39" class="widget fivethirtyeight-most-popular-stories"><h2 class="widget-title">Most popular stories</h2><div class="col-abc more-features">
+	<div id="mostpopular-1" class=" js-link js-link-desktop-only post-211206 fte_features type-fte_features status-publish has-post-thumbnail hentry tag-2019-nba-finals tag-golden-state-warriors tag-nba espn_verticals-sports vertical-sports topic-slug-nba" data-href="https://fivethirtyeight.com/features/what-kevin-durants-injury-means-for-kd-the-finals-and-free-agency/">
+
+				<div class="post-info hentry no-image">
+			
+			<time class="updated visually-hidden" title="2019-06-11T13:09:04+00:00">June 11, 2019 9:09 AM</time>
+
+			<h3 class="article-title entry-title"><a href="https://fivethirtyeight.com/features/what-kevin-durants-injury-means-for-kd-the-finals-and-free-agency/" name="&amp;lpos=fivethirtyeight&amp;lid=mostpopular:story1">What Kevin Durant’s Injury Means For KD, The Finals And Free Agency</a></h3>
+
+							<span class='vcard visually-hidden'><span class='fn'>FiveThirtyEight</span></span>
+					</div>
+			</div>
+</div>
+<div class="col-abc more-features">
+	<div id="mostpopular-2" class=" js-link js-link-desktop-only post-211095 fte_features type-fte_features status-publish has-post-thumbnail hentry tag-congress tag-donald-trump tag-guns tag-health-care tag-immigration tag-impeachment tag-nancy-pelosi tag-the-trump-administration tag-voting-rights espn_verticals-politics vertical-politics topic-slug-congress" data-href="https://fivethirtyeight.com/features/pelosis-agenda-is-popular-much-more-so-than-impeaching-trump/">
+
+				<div class="post-info hentry no-image">
+			
+			<time class="updated visually-hidden" title="2019-06-11T10:01:28+00:00"> 6:01 AM</time>
+
+			<h3 class="article-title entry-title"><a href="https://fivethirtyeight.com/features/pelosis-agenda-is-popular-much-more-so-than-impeaching-trump/" name="&amp;lpos=fivethirtyeight&amp;lid=mostpopular:story2">Pelosi&#8217;s Agenda Is Popular &#8212; Much More So Than Impeaching Trump</a></h3>
+
+							<span class='vcard visually-hidden'><span class='fn'>FiveThirtyEight</span></span>
+					</div>
+			</div>
+</div>
+<div class="col-abc more-features">
+	<div id="mostpopular-3" class=" js-link js-link-desktop-only post-211196 fte_features type-fte_features status-publish has-post-thumbnail hentry tag-golden-state-warriors tag-kawhi-leonard tag-kevin-durant tag-klay-thompson tag-nba tag-nba-finals tag-nba-playoffs tag-stephen-curry tag-toronto-raptors espn_verticals-sports vertical-sports topic-slug-nba" data-href="https://fivethirtyeight.com/features/the-warriors-durant-gamble-backfired-and-helped-save-their-season/">
+
+				<div class="post-info hentry no-image">
+			
+			<time class="updated visually-hidden" title="2019-06-11T11:26:47+00:00"> 7:26 AM</time>
+
+			<h3 class="article-title entry-title"><a href="https://fivethirtyeight.com/features/the-warriors-durant-gamble-backfired-and-helped-save-their-season/" name="&amp;lpos=fivethirtyeight&amp;lid=mostpopular:story3">The Warriors&#8217; Durant Gamble Backfired &#8212; And Helped Save Their Season</a></h3>
+
+							<span class='vcard visually-hidden'><span class='fn'>FiveThirtyEight</span></span>
+					</div>
+			</div>
+</div>
+</aside><aside id="espn-sidebar-ad-3" class="widget gpt-sidebar-ad"><div id="ad-InContent" class="ad-incontent" data-defer="none"></div></aside><aside id="fivethirtyeight-embed-160" class="widget flexible interactives embed "><h2 class="widget-title">Interactives</h2>
+					<iframe id="pym-fivethirtyeight_embed_160" title="How Popular Is Donald Trump?" src="//projects.fivethirtyeight.com/trump-approval-ratings/promo.html" width="200" height="300" scrolling="no"></iframe>
+			</aside>
+
+		<aside id="fivethirtyeight-newsletter-84" class="widget flexible newsletter">
+			<div class="newsletter-article-signup newsletter-modal">
+	<h4 class="newsletter-main-copy">Want more FiveThirtyEight? Get our weekly most popular stories newsletter.</h4>
+		<button data-list-id="FiveThirtyEight Top Stories" aria-label="Subscribe" class="newsletter-subscribe-form button" type="submit" name="Submit">Subscribe</button>
+
+		<p class="newsletter-article-links">
+		<a class='subscribe-all-newsletters' href="/newsletter/">All newsletters</a>
+	</p>
+	</div>
+		</aside>
+		<aside id="fivethirtyeight-embed-213" class="widget flexible interactives embed ">
+					<iframe id="pym-fivethirtyeight_embed_213" title="" src="//projects.fivethirtyeight.com/2019-nba-predictions/promo-playoffs.html" width="200" height="213" scrolling="no"></iframe>
+			</aside>
+
+</div></div><!-- #secondary -->
+
+	</div><!-- .single -->
+
+	
+
+	</div><!-- #wrapper .site-wrapper -->
+	</div><!-- .site-main -->
+
+<footer id="colophon" class="site-footer">
+
+	<div class="site-wrapper footer-main-content">
+
+		<div class="footer-section-get-more">
+			Get more FiveThirtyEight		</div>
+
+		<div class="footer-section-primary-links">
+			<ul class="footer-menu">
+				<li class="footer-menu-item">
+					<a href="https://fivethirtyeight.com/newsletter/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=newsletter">Newsletter</a>
+				</li>
+				<li class="footer-menu-item">
+					<a href="https://fivethirtyeight.com/videos/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=videos">Videos</a>
+				</li>
+				<li class="footer-menu-item">
+					<a href="https://fivethirtyeight.com/tag/fivethirtyeight-podcasts/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=podcasts">Podcasts</a>
+				</li>
+				<li class="footer-menu-item">
+					<a href="https://twitter.com/fivethirtyeight" name="&amp;lpos=fivethirtyeightFooter&amp;lid=twitter">Twitter</a>
+				</li>
+				<li class="footer-menu-item">
+					<a href="https://www.facebook.com/fivethirtyeight" name="&amp;lpos=fivethirtyeightFooter&amp;lid=facebook">Facebook</a>
+				</li>
+				<li class="footer-menu-item">
+					<a href="https://data.fivethirtyeight.com/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=data">Data</a>
+				</li>
+				<li class="footer-menu-item">
+					<a href="https://fivethirtyeight.com/features/fear-not-readers-we-have-rss-feeds/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=rss">RSS</a>
+				</li>
+			</ul>
+		</div><!-- .footer-primary-links -->
+
+		<div class="footer-section-social-follow">
+			<ul class="footer-menu">
+				<li class="footer-menu-item social-share-item">
+					<div class="fb-like" data-href="https://www.facebook.com/fivethirtyeight" data-layout="button_count"></div>
+				</li>
+				<li class="footer-menu-item social-share-item">
+					<a href="https://twitter.com/FiveThirtyEight" class="twitter-follow-button" data-show-count="true">Follow @FiveThirtyEight</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="footer-section-secondary-links">
+			<ul class="footer-menu">
+				<li class="footer-menu-item">
+					<a href="https://fivethirtyeight.com/contact/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=contact">Contact</a>
+				</li>
+				<li class="footer-menu-item">
+					<a href="https://fivethirtyeight.com/jobs/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=jobs">Jobs</a>
+				</li>
+				<li class="footer-menu-item">
+					<a href="https://fivethirtyeight.com/masthead/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=masthead">Masthead</a>
+				</li>
+				<li class="footer-menu-item">
+					<a href="http://priv-policy.imrworldwide.com/priv/browser/us/en/optout.html" name="&amp;lpos=fivethirtyeightFooter&amp;lid=nielsen">About Nielsen Measurement</a>
+				</li>
+			</ul>
+		</div><!-- .footer-secondary-links -->
+
+		<div class="footer-section-powered-by">
+			Powered by <a href="https://wpvip.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit&#038;utm_term=fivethirtyeight.com" rel="generator nofollow" class="powered-by-wpcom">WordPress.com VIP</a>		</div><!-- .powered-by -->
+
+		<div class="footer-section-tertiary-links">
+			<ul class="footer-menu">
+				<li class="menu-item">
+					<a href="https://disneytermsofuse.com/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=disneyTOS" target="_blank" rel="noopener noreferrer">Terms of Use</a>
+				</li>
+				<li class="menu-item">
+					<a href="https://disneyprivacycenter.com/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=disneyPrivacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+				</li>
+				<li class="menu-item">
+					<a href="https://disneyprivacycenter.com/notice-to-california-residents/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=californiaPrivacyRights" target="_blank" rel="noopener noreferrer">Your California Privacy Rights</a>
+				</li>
+				<li class="menu-item">
+					<a href="https://disneyprivacycenter.com/kids-privacy-policy/english/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=childrensPrivacy" target="_blank" rel="noopener noreferrer">Children's Online Privacy Policy</a>
+				</li>
+				<li class="menu-item">
+					<a href="https://preferences-mgr.truste.com/?type=abcnews&affiliateId=11&cid=clicksource_4380645_footer_interestbasedads" name="&amp;lpos=fivethirtyeightFooter&amp;lid=adPreferences" target="_blank" rel="noopener noreferrer">Interest-Based Ads</a>
+				</li>
+			</ul>
+			<p>
+				&copy; 2019 ABC News Internet Ventures. All rights reserved.
+			</p>
+		</div>
+		<!-- / .footer-section-tertiary-links -->
+	</div><!-- .site-wrapper -->
+
+	<div class="footer-section-additional-info" id="footer-additional-info">
+		<div class="site-wrapper">
+			<button class="close-additional-info" id="close-additional-info" aria-label="Close"><span class="visually-hidden">Close Additional Information</span></button>
+			<a href="https://disneytermsofuse.com/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=disneyTOS">Terms of Use</a> and <a href="https://disneyprivacycenter.com/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=disneyPrivacy">Privacy Policy</a> and Safety Information/<a href="https://disneyprivacycenter.com/notice-to-california-residents/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=californiaPrivacyRights">Your California Privacy Rights</a>/<a href="https://disneyprivacycenter.com/kids-privacy-policy/english/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=childrensPrivacy">Children's Online Privacy Policy</a> are applicable to you. © 2019 ABC News Internet Ventures. All rights reserved. <a href="https://preferences-mgr.truste.com/?type=abcnews&affiliateId=11&cid=clicksource_4380645_footer_interestbasedads" name="&amp;lpos=fivethirtyeightFooter&amp;lid=adPreferences">Interest-Based Ads</a>. <a href="https://disneyprivacycenter.com/cookies-policy-translations/cookies-policy/">Cookie Policy</a>.
+		</div><!-- .site-wrapper -->
+	</div><!-- .footer-section-additional-info -->
+</footer><!-- .site-footer -->
+<aside class="newsletter-promo">
+	<div class="teaser">
+		<span class="email">&#58894;</span>
+		<span class="inbox">Get us in your inbox.</span>
+	</div>
+	<div class="header">
+		<div class="logo"></div>
+	</div>
+	<div class="dismiss">
+		<span class="no-thanks close">No thanks.</span>
+		<span class="done close">Done.</span>
+		<button class="x close button" aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M100 9.11L90.89 0 50 40.89 9.11 0 0 9.11 40.89 50 0 90.89 9.11 100 50 59.11 90.89 100l9.11-9.11L59.11 50 100 9.11z"/></svg></button>
+	</div>
+	<div class="subscription">
+		<div class="newsletter-article-signup newsletter-modal">
+	<h4 class="newsletter-main-copy">Stories that resonated</h4>
+			<h5 class="newsletter-subtitle">Get a newsletter of our most popular stories of the week.</h5>
+		<button data-list-id="FiveThirtyEight Top Stories" aria-label="Subscribe" class="newsletter-subscribe-form button" type="submit" name="Submit">Subscribe</button>
+
+	</div>
+	</div>
+</aside>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ESPNSocial = {"fbVersion":"3.0","fbAppId":"797620670264818"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var DTCIAdConfig = {"adSlotsToRefresh":["Banner","InContent"],"adUnitPath":"\/21783347309\/abc-news\/fivethirtyeight.com\/web\/politics","placements":{"Banner":{"out-of-page":false,"sizes":[[970,250],[970,66],[728,90],[320,50],[300,50]],"defer":"none"},"InContent":{"out-of-page":false,"sizes":[[300,250]],"defer":"none"}},"slots":{"Banner":[],"InContent":[]},"mappings":{"Banner":[[[1280,100],[[970,250],[970,66],[728,90]]],[[1024,100],[[970,250],[970,66],[728,90]]],[[768,100],[[728,90]]],[[0,0],[[320,50],[300,50]]]],"InContent":[[[0,0],[]],[[768,50],[300,250]]]},"targeting":{"sp":"fivethirtyeight","objid":"198668","lang":"en","devType":"desktop","tag":["congress","donald-trump","government-shutdown","immigration","the-trump-administration"]},"referringSite":null,"referralMap":{"facebook.com":"facebook","twitter.com":"twitter","t.co":"twitter","google.com":"google","bing.com":"bing","yahoo.com":"yahoo","espn.go.com":"espn","espn.com":"espn","instagram.com":"instagram","reddit.com":"reddit","bleacherreport.com":"bleacherreport","tumblr.com":"tumblr","t.umblr.com":"tumblr","pinterest.com":"pinterest","fivethirtyeight.com":"fivethirtyeight","grantland.com":"grantland","theundefeated.com":"theundefeated"},"useOverlay":"0","refreshSimulatenously":"1","usePrebid":"1","country":null,"deviceType":"desktop","prebidScript":"https:\/\/fivethirtyeight.com\/wp-content\/plugins\/dtci-ads\/assets\/js\/vendor\/prebid.min.js","prebidDebug":"","enableSendAllBids":"0","prebidTimeout":"1000","prebidPlacementIds":{"rubicon":{"desktop":{"zoneId":1002542,"siteId":203310},"mobile":{"zoneId":1002542,"siteId":203310},"accountId":8829},"aol":{"incontent":5068962,"banner":{"desktop":5068961,"mobile":5068961},"accountId":"11526.1"},"trustx":{"incontent":8067,"banner":{"desktop":8068,"mobile":8069}},"appnexus":{"incontent":{"US":15711477},"banner":{"US":14082360}}},"prebidSlots":[],"prebidIncludedCountries":["US"],"regionMap":{"US":"US","USA":"US"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://fivethirtyeight.com/_static/??-eJx9j9EKwjAMRX/ILlpQ9yJ+y9ZmXUabFZMq+3uLOBgqPl7OzT0EHtm4mRVZIccSiAUCDSbHbjF9UZ0ZOhFUgemLNIm4mWQHdYTYxeLxVauxKMUtXh06YqollMxmoDvqSDddkMKoG88H+ePB1KP/JVqf8erIdF426zW9L67pcjie9vZs29ZOTyJhYwY='></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"","is_stats_active":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://fivethirtyeight.com/wp-content/mu-plugins/jetpack/_inc/build/sharedaddy/sharing.min.js?ver=7.4'></script>
+<script type='text/javascript'>
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-facebook', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-twitter', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+</script>
+<script type='text/javascript' src='https://stats.wp.com/e-201924.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.4',blog:'144970551',post:'198668',tz:'-4',srv:'fivethirtyeight.com'} ]);
+	_stq.push([ 'clickTrackerInit', '144970551', '198668' ]);
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f6169b8cc4","applicationID":"100041457","transactionName":"bwcDZBYEW0ZVVhEMXVZNIFMQDFpbG0YMC1VUB0xWEABqU1FUERBAXRE=","queueTime":0,"applicationTime":183,"atts":"Q0AUEl4eSBkWVEdfSUUf","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

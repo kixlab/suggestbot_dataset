@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6 ie oldie" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7 ie oldie" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8 ie oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" version="XHTML+RDFa 1.1"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"> <!--<![endif]-->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <link rel="preconnect" href="https://use.typekit.net" crossorigin="anonymous">
+  <link rel="dns-prefetch" href="//use.typekit.net">
+  <link rel="preconnect" href="https://p.typekit.net">
+  <link rel="dns-prefetch" href="//p.typekit.net">
+  <noscript>
+    <link rel="stylesheet" href="https://use.typekit.net/rvt3xyd.css" crossorigin="anonymous"/>
+  </noscript><link rel='preload' href="https://use.typekit.net/hje6qdq.css" as='style' crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="https://www.cato.org/sites/cato.org/files/favicon_1.ico" type="image/vnd.microsoft.icon" />
+<meta name="publication_date" content="2018/5/3"/><meta name="node_creation_date" content="2018/5/3"/><meta name="site" content="Cato Institute"/><meta name="description" content="The official tax scorekeeper, the Joint Committee on Taxation, recently published estimates of average income tax rates by income group for 2018." />
+<meta name="robots" content="noodp" />
+<link rel="image_src" href="https://object.cato.org/sites/cato.org/files/logos/cato-logo.jpg" />
+<link rel="canonical" href="https://www.cato.org/blog/average-tax-rates-income-group" />
+<link rel="shortlink" href="https://www.cato.org/node/76150" />
+<meta property="fb:admins" content="5311211" />
+<meta property="fb:app_id" content="158687980817033" />
+<meta property="fb:pages" content="26668999076" />
+<meta property="og:site_name" content="Cato Institute" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Average Tax Rates by Income Group" />
+<meta property="og:url" content="https://www.cato.org/blog/average-tax-rates-income-group" />
+<meta property="og:description" content="The official tax scorekeeper, the Joint Committee on Taxation, recently published estimates of average income tax rates by income group for 2018." />
+<meta property="og:updated_time" content="2018-05-04T14:14:54-04:00" />
+<meta property="og:image" content="https://object.cato.org/sites/cato.org/files/default_images/cato-commentary-fb-1_0.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@CatoInstitute" />
+<meta name="twitter:url" content="https://www.cato.org/blog/average-tax-rates-income-group" />
+<meta name="twitter:title" content="Average Tax Rates by Income Group" />
+<meta name="twitter:description" content="The official tax scorekeeper, the Joint Committee on Taxation, recently published estimates of average income tax rates by income group for 2018." />
+<meta property="article:published_time" content="2018-05-03T12:21:00-04:00" />
+  <title>Average Tax Rates by Income Group | Cato @ Liberty</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link rel="preconnect" href="https://s3.amazonaws.com">
+  <link rel="preconnect" href="https://use.fontawesome.com">
+  <link rel="preconnect" href="https://customer.cludo.com">
+  <link rel="preconnect" href="https://api.cludo.com">
+  <link rel="dns-prefetch" href="//fonts.gstatic.com">
+  <link rel="dns-prefetch" href="//s3.amazonaws.com">
+  <link rel="dns-prefetch" href="//use.fontawesome.com">
+  <link rel="dns-prefetch" href="//customer.cludo.com">
+  <link rel="dns-prefetch" href="//api.cludo.com">
+  <link rel="preconnect" href="https://api.hubapi.com">
+  <link rel="dns-prefetch" href="//api.hubapi.com">
+  <link rel="preconnect" href="https://track.hubspot.com">
+  <link rel="dns-prefetch" href="//track.hubspot.com">
+  <link rel="preconnect" href="https://connect.facebook.net">
+  <link rel="dns-prefetch" href="//connect.facebook.net">
+  <link rel="preconnect" href="//stats.g.doubleclick.net" />
+  <link rel="dns-prefetch" href="//stats.g.doubleclick.net" />
+  <link rel="preconnect" href="https://hubspot-microservice.cato.org">
+  <link rel="dns-prefetch" href="//hubspot-microservice.cato.org">
+  <link rel="preconnect" href="//www.google-analytics.com" />
+  <link rel="dns-prefetch" href="//www.google-analytics.com" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0">
+  <link rel="preload" href="https://fonts.gstatic.com/s/notoserif/v6/ga6Iaw1J5X9T9RW6j9bNfFcWaDq8fMU.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://fonts.gstatic.com/s/notoserif/v6/ga6Kaw1J5X9T9RW6j9bNfFImajC7XsdBMg.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <style>@font-face{font-family:'Noto Serif';font-display:fallback;font-style:normal;font-weight:400;src:local('Noto Serif'),local('NotoSerif'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Iaw1J5X9T9RW6j9bNfFcWaDq8fMU.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:italic;font-weight:400;src:local('Noto Serif Italic'),local('NotoSerif-Italic'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Kaw1J5X9T9RW6j9bNfFImajC7XsdBMg.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:italic;font-weight:700;src:local('Noto Serif Bold Italic'),local('NotoSerif-BoldItalic'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Vaw1J5X9T9RW6j9bNfFIu0RWuc-VMGIUYDw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:normal;font-weight:700;src:local('Noto Serif Bold'),local('NotoSerif-Bold'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Law1J5X9T9RW6j9bNdOwzfReece9LOoc.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:italic;font-weight:400;src:local('Noto Serif Italic'),local('NotoSerif-Italic'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Kaw1J5X9T9RW6j9bNfFImZDC7XsdBMr8R.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:italic;font-weight:700;src:local('Noto Serif Bold Italic'),local('NotoSerif-BoldItalic'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Vaw1J5X9T9RW6j9bNfFIu0RWufeVMGIUYD6_8.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:normal;font-weight:400;src:local('Noto Serif'),local('NotoSerif'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Iaw1J5X9T9RW6j9bNfFkWaDq8fMVxMw.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:normal;font-weight:700;src:local('Noto Serif Bold'),local('NotoSerif-Bold'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Law1J5X9T9RW6j9bNdOwzfRmece9LOocoDg.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Shadows Into Light Two';font-display:fallback;font-style:normal;font-weight:400;src:local('Shadows Into Light Two'),local('ShadowsIntoLightTwo-Regular'),url(https://fonts.gstatic.com/s/shadowsintolighttwo/v5/4iC86LVlZsRSjQhpWGedwyOoW-0A6_kpsyNmpALHGZFkMFzObw.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Shadows Into Light Two';font-display:fallback;font-style:normal;font-weight:400;src:local('Shadows Into Light Two'),local('ShadowsIntoLightTwo-Regular'),url(https://fonts.gstatic.com/s/shadowsintolighttwo/v5/4iC86LVlZsRSjQhpWGedwyOoW-0A6_kpsyNmpAzHGZFkMFw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}</style>
+  <link href="https://customer.cludo.com/css/templates/v1.1/essentials/cludo-search.min.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/css/css_rEI_5cK_B9hB4So2yZUtr5weuEV3heuAllCDE6XsIkI.css" media="all" />
+<link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/css/css_KjM-vI880FQBOJlLzZAZR9EtGD82yidsxSOC6Lm2IK4.css" media="all" />
+<link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/css/css_Y8UJm3yOW6MfI7_nS6rJiIsG4ELCKJ5jJZYbtMpLmhg.css" media="all" />
+<link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/css/css_FLlu6XpjzE-zvGvoA5H_vHQ3g03UT9BrnfdWxcJMImc.css" media="all" />
+<link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/css/css_zbDR5tReWaOFBxwT24aN7i116Dd56CKV2hhimmcKmWA.css" media="all" />
+<link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/cpn/block-7.css?psy3z0" media="all" />
+  <script defer src="https://use.fontawesome.com/8f74555eb5.js"></script>
+  <!-- Do you want IE to work? -->
+  <!--[if lt IE 9 ]>
+  <script defer src="https://files.cato.org/sites/all/themes/cato/_js/libs/ieshiv.js"></script>
+  <script defer src="https://files.cato.org/sites/all/themes/cato/_js/browser-update.js"></script>
+  <![endif]-->
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-76150 node-type-blog blog" >
+<div id="skip-link">
+  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<header id="header" class="header">
+  <div class="wrapper">
+
+    <a href="/" title="Home" rel="home" id="logo" class="hdr-logo">
+      <img src="/sites/cato.org/files/cato-logo_0.png" alt="Home">
+    </a>
+
+    <div id="block-system-main-menu-trigger"><i class="fa fa-bars"></i></div>
+    <div id="main-search-trigger"><i class="fa fa-search"></i></div>
+
+    <!--googleoff: index-->
+    <div class="region region-menu">
+      <div id="block-catomegamenu-catomegamenu"
+           class="block block-catomegamenu main-nav">
+        <div class="content">
+          <div class="item-list">
+            <ul class="menu">
+              <li
+                class="expanded level-1 mega-top-link catomegamenu-research first">
+                <a href="/research">Research</a></li>
+              <li class="expanded level-1 mega-top-link catomegamenu-events"><a
+                  href="/events">Events</a></li>
+              <li
+                class="expanded level-1 mega-top-link catomegamenu-publications">
+                <a
+                  href="/publications">Publications</a></li>
+              <li
+                class="expanded reverse-flyout level-1 mega-top-link catomegamenu-commentary">
+                <a href="/commentary">Commentary</a></li>
+              <li
+                class="expanded reverse-flyout level-1 mega-top-link catomegamenu-store">
+                <a href="http://www.cato.org/store/">Store</a></li>
+              <li
+                class="expanded reverse-flyout level-1 mega-top-link catomegamenu-support last">
+                <a href="/support">Support</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <nav id="block-menu-menu-submenu" class="block block-menu nav-sub">
+        <div class="content">
+          <ul class="menu">
+            <li class="first leaf level-1"><a href="/about">About Cato</a></li>
+            <li class="leaf level-1"><a href="/blog">Blog</a></li>
+            <li class="leaf level-1"><a href="/people/policy-scholars">Our
+                Experts</a>
+            </li>
+            <li class="leaf level-1"><a href="/projects">Our Centers</a></li>
+            <li class="leaf level-1"><a
+                href="https://www.facebook.com/CatoInstitute"
+                rel="me" target="_blank"><i
+                  class="fa fa-facebook-square"></i>Facebook</a></li>
+            <li class="last leaf level-1"><a
+                href="https://twitter.com/catoinstitute"
+                rel="me" target="_blank"><i
+                  class="fa fa-twitter"></i>Twitter</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="block-block-57" class="block block-block hdr-search">
+        <div class="content">
+          <form class="search-form" action="/search"
+                method="get"
+                id="cludo-search-form" accept-charset="UTF-8" target="_self">
+            <div>
+              <div class="container-inline">
+                <h2 class="element-invisible">Search form</h2>
+                <div
+                  class="form-item form-type-searchfield form-item-search-block-form">
+                  <label class="element-invisible"
+                         for="edit-search-block-form--2">Search
+                    this site </label>
+                  <input title="Enter the terms you wish to search for."
+                         class="custom-search-box form-text form-search"
+                         placeholder="Search" type="search"
+                         id="edit-search-block-form--2" name="q" value=""
+                         size="15"
+                         maxlength="128"></div>
+                <div class="form-actions form-wrapper" id="edit-actions"><input
+                    type="submit" id="edit-submit" name="op" value="Search"
+                    class="form-submit"></div></div>
+            </div>
+          </form>
+        </div>
+      </div>
+          </div>
+        <!--googleon: index-->
+
+  </div>
+</header> <!-- /#header -->
+
+<div class="wrapper">
+  <div id="content" role="main">
+
+          <!--googleoff: index-->  <div class="region region-prescript">
+    <div id="block-block-6" class="block block-block">
+
+      
+  <div class="content">
+    <header class="blog-page-hdr">
+  <a class="blog-hdr-hlink" href="/blog">
+    <img class="blog-hdr-icon" src="/sites/all/themes/cato/styles/images/blog_rev4.png"/>
+    <hgroup class="blog-hdr-hgroup">
+      <h1 class="blog-hdr-h"><span class="abbv">Cato </span>At Liberty </h1>
+    </hgroup>
+  </a>
+  <ul class="blog-hdr-rss">
+    <li><a href="http://feeds.cato.org/Cato-at-liberty"><i class="fa fa-rss fa-lg"></i>RSS</a></li>
+    <li><a href="/blog/make-custom-rss-feed">Customize</a></li>
+  </ul>
+</header>  </div>
+</div>
+  </div>
+<!--googleon: index-->
+    
+    <section id="page-area">
+      <a id="main-content"></a>
+                                <div class="tabs">
+          </div>
+                                <div class="region region-content" data-swiftype-index='true'>
+    <div id="block-system-main" class="block block-system">
+
+      
+  <div class="content">
+    <article class="story-package-large" about="/blog/average-tax-rates-income-group" typeof="sioc:Item foaf:Document" class="node-type--blog view-mode--full">
+  <div class="story-overline"><time class="date-property-single" property="dc:date" datatype="xsd:dateTime" content="2018-05-03 16:21:00">May 3, 2018 <span class="time">12:21PM</time></div>
+    <h1 class="page-h1" data-swiftype-name="title" data-swiftype-type="string">Average Tax Rates by Income Group</h1>
+  
+  <div class="article-meta">
+    <div class="byline">
+            By 
+  <a href="/people/chris-edwards" typeof="foaf:Person" property="foaf:name" rel="foaf:publications" html="1">Chris Edwards</a>          </div>
+    <div class="share-tools"><a>Share</a><ul class="share-tools-list"><li class="twitter first"><a href="https://twitter.com/intent/tweet?url=https%3A//www.cato.org/blog/average-tax-rates-income-group&amp;text=Average%20Tax%20Rates%20by%20Income%20Group&amp;via=CatoInstitute&amp;related=Libertarianism" target="_blank" rel="nofollow"><i class="fa fa-fw fa-twitter fa-lg"></i>Tweet</a></li>
+<li class="facebook"><a href="https://www.facebook.com/dialog/share?app_id=158687980817033&amp;href=https%3A//www.cato.org/blog/average-tax-rates-income-group" target="_blank" rel="nofollow"><i class="fa fa-fw fa-facebook-square fa-lg"></i>Like</a></li>
+<li class="reddit"><a href="https://reddit.com/https://www.cato.org/blog/average-tax-rates-income-group" target="_blank" rel="nofollow"><i class="fa fa-fw fa-reddit fa-lg fa-lg"></i>Submit</a></li>
+<li class="linkedin last"><a href="https://www.linkedin.com/shareArticle?url=https%3A//www.cato.org/blog/average-tax-rates-income-group&amp;mini=true&amp;title=Average%20Tax%20Rates%20by%20Income%20Group&amp;source=Cato%20Institute" target="_blank" rel="nofollow"><i class="fa fa-fw fa-linkedin fa-lg fa-lg"></i>Share</a></li>
+</ul></div>  </div>
+
+  <div class="node-body body-text" data-swiftype-name="body" data-swiftype-type="text">
+    
+  <div class="field-body">
+    <p>For months, news articles and commentaries have decried the supposedly huge tax cuts for the rich passed by Republicans in December. In a classic rhetorical formulation, a <a href="https://www.nytimes.com/2018/02/25/opinion/investors-republican-tax-cut.html"><em>New York Times</em> editorial</a> in February said, “Republicans designed the law to principally benefit wealthy families while offering crumbs to low-income and middle class families.”</p>
+<p>Actually, the largest relative tax cuts went to the middle class, <a href="https://www.downsizinggovernment.org/who-gained-tax-cuts">as I discuss here</a>. But perhaps some people have fixed views on the tax cut, and can’t imagine the Republicans doing anything other than favors for plutocrats.</p>
+<p>So let’s try a different angle and look at overall burdens under the GOP tax law, which went into effect January 1. The official tax scorekeeper, the Joint Committee on Taxation, recently <a href="https://www.jct.gov/publications.html?func=fileinfo&amp;id=5060">published</a> estimates of average income tax rates by income group for 2018, which are presented in the table below. The tax rates are income taxes paid divided by total income within each group.</p>
+<p>Tax rates rise rapidly as income rises above $50,000 a year. The $1 million and over group pays a 10 times higher share (26.3 percent) of their income to taxes than does the middle $50,000 to $75,000 group (2.4 percent).</p>
+<p>In aggregate, households with incomes of less than $50,000 do not pay any federal income taxes. Instead, they receive large subsidies from the U.S. Treasury in the form of refundable tax credits. Those subsidies to low earners are expected to jump from $83 billion a year before the tax law to $99 billion after the tax law (<a href="https://www.cbo.gov/system/files/115th-congress-2017-2018/reports/53651-outlook.pdf">page 48</a>).</p>
+<p>That is more than crumbs.</p>
+<p style="text-align: center;"><img src="https://object.cato.org/sites/cato.org/files/wp-content/uploads/average_tax_rates.png" width="593" height="437">&nbsp;</p>
+<p>Data from <a href="https://www.jct.gov/publications.html?func=fileinfo&amp;id=5060">Table A-6</a>.</p>
+  </div>
+  </div>
+
+    <div class="blog-meta">
+      <span class="field-label">
+    Topics:
+  </span>
+
+  <div class="field-topics inline">
+    <a href="/research/tax-budget-policy" typeof="skos:Concept" property="rdfs:label skos:prefLabel" html="1">Tax and Budget Policy</a>  </div>
+
+              </div>
+  </article>
+  </div>
+</div>
+<div id="block-block-30" class="block block-block creative-commons clearfix">
+
+      
+  <div class="content">
+    <p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>  </div>
+</div>
+  </div>
+            <!--googleoff: index-->
+                      <aside class="region region-sidebar-second">
+    <div id="block-views-research-areas-blog-list" class="block block-views blog-tag-well ui-block-1">
+
+      <h3 class="section-h3">Topics</h3>
+    
+  <div class="content">
+    <div class="view view-research-areas view-id-research_areas view-display-id-blog_list view-dom-id-77477ea49e78250b087c6ef00b5cb184">
+        
+  
+  
+      <div class="view-content">
+        <ul class="blog-tag-list list-bull">
+    <li>
+      
+  
+    
+      <a href="https://www.cato.org/blog/topics/cato-publications">Cato Publications</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="https://www.cato.org/blog/topics/constitution%2C-the-law%2C-and-the-courts">Constitution, the Law, and the Courts</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="https://www.cato.org/blog/topics/criminal-law-and-civil-liberties">Criminal Law and Civil Liberties</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="https://www.cato.org/blog/topics/education-and-child-policy">Education and Child Policy</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="https://www.cato.org/blog/topics/energy-and-environment">Energy and Environment</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="https://www.cato.org/blog/topics/finance%2C-banking-%26-monetary-policy">Finance, Banking &amp; Monetary Policy</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="https://www.cato.org/blog/topics/foreign-policy-and-national-security">Foreign Policy and National Security</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="https://www.cato.org/blog/topics/general">General</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="https://www.cato.org/blog/topics/government-and-politics">Government and Politics</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="https://www.cato.org/blog/topics/health-care">Health Care</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="https://www.cato.org/blog/topics/international-economics%2C-development-%26-immigration">International Economics, Development &amp; Immigration</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="https://www.cato.org/blog/topics/political-philosophy">Political Philosophy</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="https://www.cato.org/blog/topics/poverty-%26-social-welfare">Poverty &amp; Social Welfare</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="https://www.cato.org/blog/topics/regulatory-studies">Regulatory Studies</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="https://www.cato.org/blog/topics/social-security">Social Security</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="https://www.cato.org/blog/topics/tax-and-budget-policy">Tax and Budget Policy</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="https://www.cato.org/blog/topics/telecom%2C-internet-%26-information-policy">Telecom, Internet &amp; Information Policy</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="https://www.cato.org/blog/topics/trade-policy">Trade Policy</a>
+  
+    </li>
+    </ul>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-blogarchives-blogarchives" class="block block-blogarchives blog-archive-well ui-block-2">
+
+      <h3 class="section-h3">Archives</h3>
+    
+  <div class="content">
+    <div class="item-list"><ul class="blog-archive-list list-bull two-col"><li class="first"><a href="/blog/archives/201906">June 2019</a></li>
+<li><a href="/blog/archives/201905">May 2019</a></li>
+<li><a href="/blog/archives/201904">April 2019</a></li>
+<li><a href="/blog/archives/201903">March 2019</a></li>
+<li><a href="/blog/archives/201902">February 2019</a></li>
+<li><a href="/blog/archives/201901">January 2019</a></li>
+<li><a href="/blog/archives/201812">December 2018</a></li>
+<li class="list-more"><a href="/blog/archives/201811">November 2018</a></li>
+<li class="list-more"><a href="/blog/archives/201810">October 2018</a></li>
+<li class="list-more"><a href="/blog/archives/201809">September 2018</a></li>
+<li class="list-more"><a href="/blog/archives/201808">August 2018</a></li>
+<li class="list-more"><a href="/blog/archives/201807">July 2018</a></li>
+<li class="list-more"><a href="/blog/archives/201806">June 2018</a></li>
+<li class="list-more"><a href="/blog/archives/201805">May 2018</a></li>
+<li class="list-more"><a href="/blog/archives/201804">April 2018</a></li>
+<li class="list-more"><a href="/blog/archives/201803">March 2018</a></li>
+<li class="list-more"><a href="/blog/archives/201802">February 2018</a></li>
+<li class="list-more"><a href="/blog/archives/201801">January 2018</a></li>
+<li class="list-more"><a href="/blog/archives/201712">December 2017</a></li>
+<li class="list-more"><a href="/blog/archives/201711">November 2017</a></li>
+<li class="list-more"><a href="/blog/archives/201710">October 2017</a></li>
+<li class="list-more"><a href="/blog/archives/201709">September 2017</a></li>
+<li class="list-more"><a href="/blog/archives/201708">August 2017</a></li>
+<li class="list-more"><a href="/blog/archives/201707">July 2017</a></li>
+<li class="list-more"><a href="/blog/archives/201706">June 2017</a></li>
+<li class="list-more"><a href="/blog/archives/201705">May 2017</a></li>
+<li class="list-more"><a href="/blog/archives/201704">April 2017</a></li>
+<li class="list-more"><a href="/blog/archives/201703">March 2017</a></li>
+<li class="list-more"><a href="/blog/archives/201702">February 2017</a></li>
+<li class="list-more"><a href="/blog/archives/201701">January 2017</a></li>
+<li class="list-more"><a href="/blog/archives/201612">December 2016</a></li>
+<li class="list-more"><a href="/blog/archives/201611">November 2016</a></li>
+<li class="list-more"><a href="/blog/archives/201610">October 2016</a></li>
+<li class="list-more"><a href="/blog/archives/201609">September 2016</a></li>
+<li class="list-more"><a href="/blog/archives/201608">August 2016</a></li>
+<li class="list-more"><a href="/blog/archives/201607">July 2016</a></li>
+<li class="list-more"><a href="/blog/archives/201606">June 2016</a></li>
+<li class="list-more"><a href="/blog/archives/201605">May 2016</a></li>
+<li class="list-more"><a href="/blog/archives/201604">April 2016</a></li>
+<li class="list-more"><a href="/blog/archives/201603">March 2016</a></li>
+<li class="list-more"><a href="/blog/archives/201602">February 2016</a></li>
+<li class="list-more"><a href="/blog/archives/201601">January 2016</a></li>
+<li class="list-more"><a href="/blog/archives/201512">December 2015</a></li>
+<li class="list-more"><a href="/blog/archives/201511">November 2015</a></li>
+<li class="list-more"><a href="/blog/archives/201510">October 2015</a></li>
+<li class="list-more"><a href="/blog/archives/201509">September 2015</a></li>
+<li class="list-more"><a href="/blog/archives/201508">August 2015</a></li>
+<li class="list-more"><a href="/blog/archives/201507">July 2015</a></li>
+<li class="list-more"><a href="/blog/archives/201506">June 2015</a></li>
+<li class="list-more"><a href="/blog/archives/201505">May 2015</a></li>
+<li class="list-more"><a href="/blog/archives/201504">April 2015</a></li>
+<li class="list-more"><a href="/blog/archives/201503">March 2015</a></li>
+<li class="list-more"><a href="/blog/archives/201502">February 2015</a></li>
+<li class="list-more"><a href="/blog/archives/201501">January 2015</a></li>
+<li class="list-more"><a href="/blog/archives/201412">December 2014</a></li>
+<li class="list-more"><a href="/blog/archives/201411">November 2014</a></li>
+<li class="list-more"><a href="/blog/archives/201410">October 2014</a></li>
+<li class="list-more"><a href="/blog/archives/201409">September 2014</a></li>
+<li class="list-more"><a href="/blog/archives/201408">August 2014</a></li>
+<li class="list-more"><a href="/blog/archives/201407">July 2014</a></li>
+<li class="list-more"><a href="/blog/archives/201406">June 2014</a></li>
+<li class="list-more"><a href="/blog/archives/201405">May 2014</a></li>
+<li class="list-more"><a href="/blog/archives/201404">April 2014</a></li>
+<li class="list-more"><a href="/blog/archives/201403">March 2014</a></li>
+<li class="list-more"><a href="/blog/archives/201402">February 2014</a></li>
+<li class="list-more"><a href="/blog/archives/201401">January 2014</a></li>
+<li class="list-more"><a href="/blog/archives/201312">December 2013</a></li>
+<li class="list-more"><a href="/blog/archives/201311">November 2013</a></li>
+<li class="list-more"><a href="/blog/archives/201310">October 2013</a></li>
+<li class="list-more"><a href="/blog/archives/201309">September 2013</a></li>
+<li class="list-more"><a href="/blog/archives/201308">August 2013</a></li>
+<li class="list-more"><a href="/blog/archives/201307">July 2013</a></li>
+<li class="list-more"><a href="/blog/archives/201306">June 2013</a></li>
+<li class="list-more"><a href="/blog/archives/201305">May 2013</a></li>
+<li class="list-more"><a href="/blog/archives/201304">April 2013</a></li>
+<li class="list-more"><a href="/blog/archives/201303">March 2013</a></li>
+<li class="list-more"><a href="/blog/archives/201302">February 2013</a></li>
+<li class="list-more"><a href="/blog/archives/201301">January 2013</a></li>
+<li class="list-more"><a href="/blog/archives/201212">December 2012</a></li>
+<li class="list-more"><a href="/blog/archives/201211">November 2012</a></li>
+<li class="list-more"><a href="/blog/archives/201210">October 2012</a></li>
+<li class="list-more"><a href="/blog/archives/201209">September 2012</a></li>
+<li class="list-more"><a href="/blog/archives/201208">August 2012</a></li>
+<li class="list-more"><a href="/blog/archives/201207">July 2012</a></li>
+<li class="list-more"><a href="/blog/archives/201206">June 2012</a></li>
+<li class="list-more"><a href="/blog/archives/201205">May 2012</a></li>
+<li class="list-more"><a href="/blog/archives/201204">April 2012</a></li>
+<li class="list-more"><a href="/blog/archives/201203">March 2012</a></li>
+<li class="list-more"><a href="/blog/archives/201202">February 2012</a></li>
+<li class="list-more"><a href="/blog/archives/201201">January 2012</a></li>
+<li class="list-more"><a href="/blog/archives/201112">December 2011</a></li>
+<li class="list-more"><a href="/blog/archives/201111">November 2011</a></li>
+<li class="list-more"><a href="/blog/archives/201110">October 2011</a></li>
+<li class="list-more"><a href="/blog/archives/201109">September 2011</a></li>
+<li class="list-more"><a href="/blog/archives/201108">August 2011</a></li>
+<li class="list-more"><a href="/blog/archives/201107">July 2011</a></li>
+<li class="list-more"><a href="/blog/archives/201106">June 2011</a></li>
+<li class="list-more"><a href="/blog/archives/201105">May 2011</a></li>
+<li class="list-more"><a href="/blog/archives/201104">April 2011</a></li>
+<li class="list-more"><a href="/blog/archives/201103">March 2011</a></li>
+<li class="list-more"><a href="/blog/archives/201102">February 2011</a></li>
+<li class="list-more"><a href="/blog/archives/201101">January 2011</a></li>
+<li class="list-more"><a href="/blog/archives/201012">December 2010</a></li>
+<li class="list-more"><a href="/blog/archives/201011">November 2010</a></li>
+<li class="list-more"><a href="/blog/archives/201010">October 2010</a></li>
+<li class="list-more"><a href="/blog/archives/201009">September 2010</a></li>
+<li class="list-more"><a href="/blog/archives/201008">August 2010</a></li>
+<li class="list-more"><a href="/blog/archives/201007">July 2010</a></li>
+<li class="list-more"><a href="/blog/archives/201006">June 2010</a></li>
+<li class="list-more"><a href="/blog/archives/201005">May 2010</a></li>
+<li class="list-more"><a href="/blog/archives/201004">April 2010</a></li>
+<li class="list-more"><a href="/blog/archives/201003">March 2010</a></li>
+<li class="list-more"><a href="/blog/archives/201002">February 2010</a></li>
+<li class="list-more"><a href="/blog/archives/201001">January 2010</a></li>
+<li class="list-more"><a href="/blog/archives/200912">December 2009</a></li>
+<li class="list-more"><a href="/blog/archives/200911">November 2009</a></li>
+<li class="list-more"><a href="/blog/archives/200910">October 2009</a></li>
+<li class="list-more"><a href="/blog/archives/200909">September 2009</a></li>
+<li class="list-more"><a href="/blog/archives/200908">August 2009</a></li>
+<li class="list-more"><a href="/blog/archives/200907">July 2009</a></li>
+<li class="list-more"><a href="/blog/archives/200906">June 2009</a></li>
+<li class="list-more"><a href="/blog/archives/200905">May 2009</a></li>
+<li class="list-more"><a href="/blog/archives/200904">April 2009</a></li>
+<li class="list-more"><a href="/blog/archives/200903">March 2009</a></li>
+<li class="list-more"><a href="/blog/archives/200902">February 2009</a></li>
+<li class="list-more"><a href="/blog/archives/200901">January 2009</a></li>
+<li class="list-more"><a href="/blog/archives/200812">December 2008</a></li>
+<li class="list-more"><a href="/blog/archives/200811">November 2008</a></li>
+<li class="list-more"><a href="/blog/archives/200810">October 2008</a></li>
+<li class="list-more"><a href="/blog/archives/200809">September 2008</a></li>
+<li class="list-more"><a href="/blog/archives/200808">August 2008</a></li>
+<li class="list-more"><a href="/blog/archives/200807">July 2008</a></li>
+<li class="list-more"><a href="/blog/archives/200806">June 2008</a></li>
+<li class="list-more"><a href="/blog/archives/200805">May 2008</a></li>
+<li class="list-more"><a href="/blog/archives/200804">April 2008</a></li>
+<li class="list-more"><a href="/blog/archives/200803">March 2008</a></li>
+<li class="list-more"><a href="/blog/archives/200802">February 2008</a></li>
+<li class="list-more"><a href="/blog/archives/200801">January 2008</a></li>
+<li class="list-more"><a href="/blog/archives/200712">December 2007</a></li>
+<li class="list-more"><a href="/blog/archives/200711">November 2007</a></li>
+<li class="list-more"><a href="/blog/archives/200710">October 2007</a></li>
+<li class="list-more"><a href="/blog/archives/200709">September 2007</a></li>
+<li class="list-more"><a href="/blog/archives/200708">August 2007</a></li>
+<li class="list-more"><a href="/blog/archives/200707">July 2007</a></li>
+<li class="list-more"><a href="/blog/archives/200706">June 2007</a></li>
+<li class="list-more"><a href="/blog/archives/200705">May 2007</a></li>
+<li class="list-more"><a href="/blog/archives/200704">April 2007</a></li>
+<li class="list-more"><a href="/blog/archives/200703">March 2007</a></li>
+<li class="list-more"><a href="/blog/archives/200702">February 2007</a></li>
+<li class="list-more"><a href="/blog/archives/200701">January 2007</a></li>
+<li class="list-more"><a href="/blog/archives/200612">December 2006</a></li>
+<li class="list-more"><a href="/blog/archives/200611">November 2006</a></li>
+<li class="list-more"><a href="/blog/archives/200610">October 2006</a></li>
+<li class="list-more"><a href="/blog/archives/200609">September 2006</a></li>
+<li class="list-more"><a href="/blog/archives/200608">August 2006</a></li>
+<li class="list-more"><a href="/blog/archives/200607">July 2006</a></li>
+<li class="list-more"><a href="/blog/archives/200606">June 2006</a></li>
+<li class="list-more"><a href="/blog/archives/200605">May 2006</a></li>
+<li class="list-more"><a href="/blog/archives/200604">April 2006</a></li>
+<li class="list-expand-trigger last"><a href="/">Show More</a></li>
+</ul></div>  </div>
+</div>
+<div id="block-block-7" class="block block-block blog-aside-teases clearfix">
+
+      
+  <div class="content">
+    <div class="tease-special blog-email-tease">
+  <span class="icon sprite-email-tease"></span>
+
+  <h3 class="section-h3">Email Alerts</h3>
+
+  <p class="text-sans">Sign up to have Cato At Liberty posts delivered straight to your inbox!</p>
+
+<!-- Begin Feedburner email subscription -->
+<!--
+  <form class="blog-email-signup form-basic" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=Cato-at-liberty', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+    <input type="email" placeholder="email@address.com" name="email" class="blog-email-input text-input"/>
+    <input type="hidden" value="Cato-at-liberty" name="uri"/>
+    <input type="hidden" name="loc" value="en_US"/>
+    <input type="submit" value="Subscribe" class="blog-email-submit submit-input"/>
+  </form> -->
+<!-- End Feedburner email subscription -->
+
+
+
+<!-- START HUBSPOT FORM -->
+
+<!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]-->
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "4957480",
+	formId: "b34d725c-09c0-4df5-9e77-11147d188704"
+});
+</script>
+
+<!-- END HUBSPOT FORM -->
+
+
+
+
+
+</div>
+
+<div class="tease-special blog-kindle-tease">
+  <span class="icon sprite-kindle-tease"></span>
+
+  <p class="text-sans">Read Cato At Liberty right <span class="word-wrap">on your Kindle. Sign up today!</span></p>
+  <a class="btn-alt blog-kindle-btn" href="http://www.amazon.com/gp/product/B00W1ULHRM" target="_blank">Subscribe</a>
+  </form>
+</div>  </div>
+</div>
+  </aside>
+                  <!--googleon: index-->
+    </section>
+    <!-- /#content -->
+
+  </div>
+</div> <!-- /#main -->
+
+<!--googleoff: index-->
+<footer class="main-footer">
+  <div class="wrapper">
+    <aside class="region region-footer-fourth col-1">
+      <div id="block-block-27" class="block block-block ftr-signup">
+
+        <h3 class="section-h3">Cato Today Newsletter</h3>
+
+        <div class="content">
+          <p class="ftr-txt"><i>Daily dose of liberty delivered straight to your inbox.</i></p>
+          <!-- Begin MailChimp Signup Form -->
+
+
+          <!--[if lte IE 8]>
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+          <![endif]-->
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+          <script>
+            hbspt.forms.create({
+              portalId: "4957480",
+              formId: "04e35c5d-83a7-4a31-9eed-0fb940cb121b"
+            });
+          </script>
+
+          <!--End mc_embed_signup-->
+
+          <p class="ftr-txt"><a
+              href="/ecommunity?utm_source=mailchimp-signup&utm_medium=banner&utm_campaign=ecommunity-mailchimp-signup"
+              target="_blank">View full list of newsletters</a></p>
+        </div>
+      </div>
+    </aside>
+    <aside class="region region-footer-third col-2">
+      <div id="block-menu-menu-also-from-cato"
+           class="block block-menu ftr-list">
+
+        <h3 class="section-h3">Also from Cato</h3>
+
+        <div class="content">
+          <ul class="menu">
+            <li class="first leaf level-1"><a href="/students" rel="me">Internships
+                and Student Programs</a></li>
+            <li class="leaf level-1"><a
+                href="https://www.downsizinggovernment.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato" rel="me"
+                target="_blank">DownsizingGovernment.org</a></li>
+            <li class="leaf level-1"><a href="https://www.libertarianism.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato"
+                                        rel="me" target="_blank">Libertarianism.org</a>
+            </li>
+            <li class="leaf level-1"><a href="http://humanprogress.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato"
+                                        rel="me" target="_blank">HumanProgress.org</a>
+            </li>
+            <li class="leaf level-1"><a href="https://www.cato-unbound.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato"
+                                        rel="me" target="_blank">Cato
+                Unbound</a></li>
+            <li class="leaf level-1"><a href="https://www.unlawfulshield.com?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato"
+                                        rel="me" target="_blank">Unlawful Shield</a>
+            </li>
+            <li class="leaf level-1"><a
+                href="https://www.freedominthe50states.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato" rel="me"
+                target="_blank">Freedom in the 50 States</a></li>
+            <li class="leaf level-1"><a href="https://overlawyered.com?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato" rel="me"
+                                        target="_blank">Overlawyered</a></li>
+            <li class="leaf level-1"><a href="https://www.elcato.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato" rel="me"
+                                        target="_blank">ElCato.org</a></li>
+            <li class="last leaf level-1"><a href="https://www.alt-m.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato"
+                                             rel="me" target="_blank">Alt-M</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <aside class="region region-footer-second col-3">
+      <div id="block-menu-menu-social-media" class="block block-menu ftr-list">
+
+        <h3 class="section-h3">Social Media</h3>
+
+        <div class="content">
+          <ul class="menu">
+            <li class="first leaf level-1"><a
+                href="https://www.facebook.com/CatoInstitute" rel="me"
+                class="link-facebook" target="_blank"><i
+                  class="fa fa-facebook-square fa-fw"></i> Facebook</a></li>
+            <li class="leaf level-1"><a href="https://twitter.com/catoinstitute"
+                                        rel="me" class="link-twitter"
+                                        target="_blank"><i
+                  class="fa fa-twitter fa-fw"></i> Twitter</a></li>
+            <li class="leaf level-1"><a
+                href="https://www.youtube.com/catoinstitutevideo" rel="me"
+                class="link-youtube" target="_blank"><i
+                  class="fa fa-youtube-play fa-fw"></i> YouTube</a></li>
+            <li class="leaf level-1"><a
+                href="https://www.linkedin.com/company/cato-institute" rel="me"
+                class="link-linkedin" target="_blank"><i
+                  class="fa fa-linkedin fa-fw"></i> LinkedIn</a></li>
+            <li class="leaf level-1"><a
+                href="https://instagram.com/catoinstitute" rel="me"
+                class="link-instagram" target="_blank"><i
+                  class="fa fa-instagram fa-fw"></i> Instagram</a></li>
+            <li class="leaf level-1"><a href="https://catoinstitute.tumblr.com"
+                                        rel="me" class="link-tumblr"
+                                        target="_blank"><i
+                  class="fa fa-tumblr fa-fw"></i> Tumblr</a></li>
+            <li class="last leaf level-1"><a
+                href="https://www.cato.org/ecommunity/rss" class="link-rss"><i
+                  class="fa fa-rss fa-fw"></i> RSS</a></li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <aside class="region region-footer-first col-4">
+      <div id="block-block-1" class="block block-block ftr-info">
+
+
+        <div class="content">
+          <a href="/" class="ftr-logo"><img
+              src="/sites/cato.org/files/cato-logo_0.png"/></a>
+          <p class="ftr-address">Cato Institute<br/>
+            1000 Massachusetts Ave, NW<br/>
+            Washington, DC 20001-5403</p>
+          <ul class="ftr-phone">
+            <li>Phone (202) 842 0200</li>
+          </ul>
+          <p class="ftr-txt"><a href="/privacy">Privacy Policy</a></p>
+          <p class="ftr-txt"><a href="/contact-us">Contact Us</a></p>
+          <p class="ftr-txt"><a href="/for-media">Media Contact</a></p></div>
+      </div>
+    </aside>
+  </div>
+</footer> <!-- /#footer -->
+<!--googleon: index-->
+<script>!function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);</script>
+<script src="https://www.cato.org/sites/all/libraries/modernizr/modernizr-latest.js?psy3z0"></script>
+<script src="//code.jquery.com/jquery-1.7.2.min.js"></script>
+<script>
+window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")
+</script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_dWhBODswdXXk1M5Z5nyqNfGljmqwxUwAK9i6D0YSDNs.js"></script>
+<script src="//code.jquery.com/ui/1.10.2/jquery-ui.min.js"></script>
+<script>
+window.jQuery.ui || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery-ui.min.js'>\x3C/script>")
+</script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_H7q2xORKmR9AN8Qx5spKEIBp7R_wG2apAswJoCUZY7I.js"></script>
+<script>
+document.createElement( "picture" );
+</script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_IfbrAP369vx7k2UxZQlS7WIHzbvVIbFbJOK4tI-0uw4.js"></script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_q6VmREnogkvjK__3W6iYvgr1enkjafpI3sj-R9_rlNs.js"></script>
+<script>
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-1677831-1", {"cookieDomain":"auto"});ga("set", "dimension1", "Chris Edwards");ga("set", "dimension2", "Tax and Budget Policy");ga("set", "dimension5", "Tax and Budget Policy");ga("send", "pageview");
+</script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_q43hdsQ2YlZDSvsKllMPlpiolz0GoS99Q-v7f36gaZI.js"></script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_eeUNZzHjwOxqVQdIx_77SauAk-Q4Zsm6GipkMRhj6wc.js"></script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_MSll280CNvwRthMZU3Lor1hCVqeKZZ7QrUCpVn6appc.js"></script>
+<script>
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cato","theme_token":"o53TXIEOTSHoPS1wPtqm4wMMvL_R5Wyd5s_RYIIFJ8w","js":{"sites\/all\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/contrib\/picture\/picture.min.js":1,"sites\/all\/libraries\/modernizr\/modernizr-latest.js":1,"\/\/code.jquery.com\/jquery-1.7.2.min.js":1,"0":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/code.jquery.com\/ui\/1.10.2\/jquery-ui.min.js":1,"1":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"2":1,"sites\/all\/modules\/contrib\/spamspan\/spamspan.js":1,"sites\/all\/modules\/contrib\/caption_filter\/js\/caption-filter.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"3":1,"sites\/all\/modules\/cato_institute\/custom_analytics_events\/custom_analytics_events.js":1,"sites\/all\/modules\/cato_institute\/custom_analytics_events\/custom_analytics_events_google_analytics.js":1,"sites\/all\/modules\/cato_institute\/custom_analytics_events\/custom_analytics_events_hubspot.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.sticky.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.fixed-scroll.js":1,"sites\/all\/themes\/cato\/_js\/libs\/wilto-carousel.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.masonry.min.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.getUrlVar.js":1,"sites\/all\/themes\/cato\/_js\/catomegamenu.js":1,"sites\/all\/themes\/cato\/_js\/identifyAnalyticsUser.js":1,"sites\/all\/themes\/cato\/_js\/script.js":1,"sites\/all\/themes\/cato\/_js\/dialog.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"sites\/all\/modules\/cato_institute\/responsivevideo\/responsivevideo.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/caption_filter\/caption-filter.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/custompage\/custompage.css":1,"sites\/all\/modules\/contrib\/oembed\/oembed.base.css":1,"sites\/all\/modules\/contrib\/oembed\/oembed.theme.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/typogrify\/typogrify.css":1,"sites\/all\/modules\/contrib\/wysiwyg_linebreaks\/wysiwyg_linebreaks.css":1,"sites\/all\/themes\/cato\/styles\/stylesheets\/screen.css":1,"public:\/\/cpn\/block-7.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip|epub|mobi","trackColorbox":1},"identifyAnalyticsUser":{"endpoint":"https:\/\/hubspot-microservice.cato.org\/prod"},"js":{"tokens":[]},"customAnalyticsEvents":[{"Topic":{"values":{"11":"Tax and Budget Policy"},"action":"load","noninteraction":true}}]});
+</script>
+  <!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4957480.js"></script>
+<!-- End of HubSpot Embed Code --><!— Facebook Pixel Code —>
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '454916984694808'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id= 454916984694808&ev=PageView&noscript=1"
+/></noscript>
+<!— DO NOT MODIFY —>
+<!— End Facebook Pixel Code —><script src="https://www.cato.org/sites/cato.org/files/js/js_7Ukqb3ierdBEL0eowfOKzTkNu-Le97OPm-UqTS5NENU.js"></script>
+<script type="text/javascript" src="//customer.cludo.com/scripts/bundles/search-script.min.js"></script>
+<script>
+  var CludoSearch;
+  (function () {
+    var cludoSettings = {
+      customerId: 10000518,
+      engineId: 10000746,
+      searchUrl: '/search',
+      language: 'en',
+      searchInputs: ['cludo-search-form', 'search-form'],
+      type: 'inline',
+      disableAutocomplete: true
+    };
+    CludoSearch= new Cludo(cludoSettings);
+    CludoSearch.debug = true;
+    CludoSearch.init();
+  })();
+</script>
+<!--[if lte IE 9]>
+<script src="https://api.cludo.com/scripts/xdomain.js" slave="https://api.cludo.com/proxy.html" type="text/javascript"></script>
+<![endif]-->
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"a0fc03e915","applicationID":"7801710","transactionName":"ZF1SYUNRWkQCBkdZCV0XcVZFWVtZTBVSVwNsVVFbUFdRRTwLXFQDbE5ZUEZvRFYEAA==","queueTime":0,"applicationTime":487,"atts":"SBpRFwtLSUo=","errorBeacon":"bam.nr-data.net","agent":""}</script><script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=109718349';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+</html>

@@ -1,0 +1,376 @@
+
+
+Skip to main content
+
+![Congressional Budget Office
+
+logo](/themes/custom/cbo/images/cbo_logo_white_desktop.png)
+
+menu ![Search](/themes/custom/cbo/images/search-icon.png)
+
+## Main menu
+
+    
+        * About CBO
+    * Topics
+    * Cost Estimates
+    * Interactives
+    * FAQs
+    * Blog
+    
+
+Enter your keywords
+
+Sort by
+
+Relevancy
+
+Publication Date
+
+# Raising the Age of Eligibility for Medicare to 67: An Updated Estimate of
+
+the Budgetary Effects
+
+October 24, 2013
+
+Report
+
+![](/sites/default/files/styles/480/public/44661-home-
+
+Medicare.png?itok=uq9sYSvq)
+
+CBO's new estimate of the net budgetary savings from adopting this policy is
+much lower than its earlier estimates for proposals to raise Medicare’s
+eligibility age. This report describes CBO’s new estimate and the reasons for
+the change.
+
+View Document
+
+131.99 KB
+
+## Summary
+
+Medicare, one of the federal government’s largest programs, provides health
+care benefits primarily to elderly people. The usual age of eligibility for
+those benefits is 65, although certain people qualify for the program earlier.
+(Medicare is available to people under age 65 who have been eligible for
+Social Security disability benefits for at least 24 months or who have end-
+stage renal disease.) Outlays for Medicare are projected to increase rapidly
+in coming decades because of the retirement of the baby-boom generation and
+because growth in per capita spending for health care is expected to continue
+to exceed growth in per capita gross domestic product over the long term.
+Moreover, increases in life expectancy mean that the average length of time
+that people are covered by Medicare has risen significantly since the program
+began in 1965. That trend, which increases the program’s costs, will almost
+certainly continue.
+
+In the course of preparing its forthcoming report on options for reducing the
+budget deficit, the Congressional Budget Office (CBO) updated its analysis of
+an option to raise the eligibility age for Medicare from 65 to 67. The
+agency’s new estimate of the net budgetary savings from that option is much
+lower than its earlier estimates for proposals to raise Medicare’s eligibility
+age. This report describes CBO’s new estimate and the reasons for the change.
+
+#### What Policy Option Did CBO Analyze?
+
+The option that CBO analyzed would raise the age of eligibility for Medicare
+by two months every year, beginning with people who were born in 1951 (who
+will turn 65 in 2016), until the eligibility age reached 67 for people born in
+1962 (who will turn 67 in 2029). Thereafter, the eligibility age would remain
+at 67. Those changes are similar to the ongoing increases in Social Security’s
+full retirement age (FRA)—the age at which workers become eligible for full
+retirement benefits—except that scheduled increases in the FRA include a
+12-year period during which the FRA remains at 66. (Unlike Medicare, which has
+a single eligibility age, Social Security allows workers to receive reduced
+retirement benefits as early as age 62, and the majority of eligible people
+choose to claim Social Security benefits before reaching the FRA.) Under this
+option, the eligibility age for Medicare would remain below Social Security’s
+FRA until 2029, when both would be 67 for people born in 1962; from that point
+on, the two eligibility ages would be identical.
+
+A change in the eligibility age for Medicare would affect people’s sources of
+health insurance coverage, including Medicaid. States have the option under
+current law to expand their Medicaid programs to people with income below 138
+percent of the federal poverty guidelines. Although that optional Medicaid
+expansion applies only to people under age 65, for this option, CBO assumed
+that the age limit would increase in tandem with Medicare’s eligibility age.
+
+#### What Is CBO's New Estimate?
+
+Implementing this option would reduce federal budget deficits by $19 billion
+between 2016 and 2023, according to estimates by CBO and the staff of the
+Joint Committee on Taxation (see Table 1). That figure represents the net
+effect of a $23 billion decrease in outlays and a $4 billion decrease in
+revenues over that period. The decrease in outlays includes a reduction in
+federal spending for Medicare as well as a slight reduction in outlays for
+Social Security retirement benefits. However, those savings would be
+substantially offset by increases in federal spending for Medicaid and for
+subsidies to purchase health insurance through the new insurance exchanges and
+by the decrease in revenues.
+
+![](/sites/default/files/cbofiles/images/pubs-images/44xxx/44661-Table1.jpg)
+
+Outlays for Medicare would be lower under this option because fewer people
+would be eligible for the program than the number projected under current law.
+In addition, outlays for Social Security retirement benefits would decline
+slightly because raising the eligibility age for Medicare would induce some
+people to delay applying for retirement benefits. One reason is that some
+people apply for Social Security at the same time that they apply for
+Medicare; another reason is that this option would encourage some people to
+postpone retirement to maintain their employment-based health insurance
+coverage until they became eligible for Medicare. CBO expects that latter
+effect would be fairly small, however, because of two considerations: First,
+the proportion of people who currently leave the labor force at age 65 is only
+slightly larger than the proportion who leave at slightly younger or older
+ages, which suggests that maintaining employment-based coverage until the
+eligibility age for Medicare is not the determining factor in most people’s
+retirement decisions. Second, with the opening of the health insurance
+exchanges, workers who give up employment-based insurance by retiring will
+have access to an alternative source of coverage (and may qualify for
+subsidies if they are not eligible for Medicare). This option could also
+prompt more people to apply for Social Security disability benefits so they
+could qualify for Medicare before reaching the usual age of eligibility.
+However, in CBO’s view, that effect would be quite small, and it is not
+included in this estimate.
+
+Other effects of this option would add to budget deficits, but by smaller
+amounts. Federal spending for Medicaid would increase for two groups of people
+whose age was between 65 and the new eligibility age for Medicare: those who,
+under current law, will be dual-eligible beneficiaries (Medicare beneficiaries
+who also qualify, on the basis of income and assets, to receive benefits from
+Medicaid) and those who will be beneficiaries of Medicaid before turning 65
+and will lose that eligibility under current law once they qualify for
+Medicare. This option would cause Medicaid to remain the primary source of
+coverage for members of both groups until they reached the new eligibility age
+for Medicare.
+
+Subsidies for health insurance coverage purchased through the exchanges would
+also increase under this option because some of the people whose eligibility
+for Medicare would be delayed would instead obtain insurance through the
+exchanges and would qualify for subsidies. (Those subsidies take two forms:
+tax credits to cover a portion of the premiums for policies bought through the
+exchanges and additional subsidies to reduce cost-sharing payments under those
+policies. The premium subsidies are structured as refundable tax credits, and
+CBO estimates that, in most cases, the amounts of those credits will exceed
+the total amount of federal income tax that recipients owe; the amounts that
+offset the taxes that recipients owe are classified as revenue losses, and the
+amounts that exceed the taxes owed are classified as outlays. Subsidies for
+the cost sharing of enrollees in exchange plans are also categorized as
+outlays.)
+
+This option would also affect federal revenues, decreasing them by an
+estimated $4 billion between 2016 and 2023. That decline is the net result of
+several partly offsetting effects, the largest of which would be a reduction
+in federal revenues because of the increase in exchange subsidies. A small
+portion of those additional subsidies would take the form of reduced revenues
+rather than outlays, as discussed above.
+
+Looking farther into the future, CBO estimates that by 2038, spending on
+Medicare would be about 3 percent less under this option than it would be
+under current law—4.7 percent of gross domestic product rather than 4.9
+percent. On the basis of its estimates for 2016 through 2023, CBO projects
+that roughly two-thirds of those long-term savings from this option would be
+offset by the increases in federal spending for Medicaid and exchange
+subsidies and the reduction in revenues described above.
+
+Although CBO anticipates that most people who would lose eligibility for
+Medicare under this option would continue their existing health insurance
+coverage or switch to other forms of coverage, the number of people without
+health insurance would increase slightly. For example, CBO estimates that of
+the 5.5 million people who would be affected by this option in 2023, about 50
+percent would obtain insurance from their (or their spouse’s) employer or
+former employer, about 15 percent would continue to qualify for Medicare on
+the basis of their eligibility for disability benefits, about 15 percent would
+buy insurance through the exchanges or in the nongroup market, about 10
+percent would receive coverage through Medicaid, and about 10 percent would
+become uninsured. To develop those estimates, CBO examined data on the
+patterns of health insurance coverage among people a few years younger than
+Medicare’s current eligibility age. CBO then adjusted those figures to account
+for changes in sources of health insurance coverage and in participation in
+the labor force as people age.
+
+#### How Much Did CBO's Estimate Change and Why?
+
+CBO’s current estimate of the savings to Medicare from this option is much
+lower than its earlier estimates for proposals to raise Medicare’s eligibility
+age. For example, in a report published in January 2012, CBO estimated that
+such a policy change would produce budgetary savings of $113 billion over 10
+years.
+
+The current, lower estimate primarily reflects a new assessment by CBO that
+some of the people whose eligibility for Medicare would be delayed under this
+option would not cost Medicare as much, under current law, as CBO previously
+projected. CBO’s current estimate incorporates a detailed analysis of the cost
+of 65- and 66-year-old Medicare beneficiaries.
+
+CBO’s analysis highlighted two points. First, at ages 65 and 66, beneficiaries
+who enrolled in Medicare when they turned 65 tend to be in much better
+health—and thus are substantially less expensive, on average—than
+beneficiaries who were already enrolled upon turning 65 (because of disability
+or end-stage renal disease). Second, the many 65- and 66-year-old
+beneficiaries who are workers (or workers’ elderly spouses) with employment-
+based health insurance are less costly to Medicare, on average, than other
+beneficiaries at those ages. For most of those workers, employment-based
+health insurance is the primary source of coverage, and Medicare is a
+secondary payer—meaning that Medicare’s payments are limited to the cost-
+sharing obligations that beneficiaries face under their employment-based
+health insurance policies. Moreover, most beneficiaries for whom Medicare is a
+secondary payer wait to enroll in Parts B and D of Medicare until they (or
+their spouses) stop working. As a result, Medicare spends much less on Part A
+services for those beneficiaries than it does for beneficiaries for whom
+Medicare is the primary payer, and it does not pay for services covered under
+Parts B and D.
+
+Taking into account both of those factors—differences in health status between
+beneficiaries who enroll in Medicare at age 65 and those already enrolled by
+65, and the effect of secondary-payer status—caused a significant reduction in
+CBO’s estimate of Medicare spending under current law for beneficiaries who
+would be affected by the increase in the eligibility age. Mostly as a result
+of those changes, CBO’s current estimate of the net costs to Medicare of those
+beneficiaries under current law is roughly 60 percent lower than CBO’s
+previous estimates.
+
+By contrast, CBO’s estimate of the extent to which this option would increase
+federal spending for Medicaid and exchange subsidies has not changed
+significantly. Compared with previous estimates, a similar proportion of
+beneficiaries who would lose Medicare eligibility under this option are
+estimated to enroll in Medicaid or the health insurance exchanges.
+
+The much smaller reduction in Medicare spending, combined with a similar
+increase in non-Medicare spending, results in a net change in projected
+outlays that is much smaller than previously estimated. Additionally, CBO’s
+new estimate includes the option’s projected effects on federal revenues,
+which was not included in previous estimates.
+
+## Related Publications
+
+    
+        * Raising the Ages of Eligibility for Medicare and Social Security
+    
+
+January 10, 2012
+
+    
+        * Reducing the Deficit: Spending and Revenue Options
+    
+
+March 10, 2011
+
+## Stay Connected
+
+Get CBO’s Email Updates
+
+    
+        1. Email Address
+    2. Submit
+    
+
+![CBO Twitter](/themes/custom/cbo/images/social-icons/twitter-icon.png) ![CBO
+
+Youtube](/themes/custom/cbo/images/social-icons/youtube-icon.png) ![CBO
+
+Slideshare](/themes/custom/cbo/images/social-icons/slideshare-icon.png) ![CBO
+
+RSS](/themes/custom/cbo/images/social-icons/rss-icon.png)
+
+## Footer Menu
+
+    
+        * About
+    * Topics
+    * Cost Estimates
+    * FAQs
+    * Blog
+    
+
+## Footer Menu - Utility
+
+    
+        * Work at CBO
+    * Business Opportunities
+    * Contact CBO
+    * Press Center
+    * Privacy, Security, and Copyright Policies
+    * Sitemap
+    
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[AU]: Australia _[CA]: Canada_ [UK]: United Kingdom _[US]: United States_
+[UN]: United Nations _[EU]: European Union_ [ v]: View this template _[AAAD]:
+Aromatic L-amino acid decarboxylase_ [ MAO]: Monoamine oxidase _[ ALDH]:
+Aldehyde dehydrogenase_ [ALR]: Aldehyde reductase _[PAH]: Phenylalanine
+hydroxylase_ [ TH]: Tyrosine hydroxylase _[ DBH]: Dopamine beta-monooxygenase_
+[ PNMT]: Phenylethanolamine N-methyltransferase _[ COMT]: Catechol-O-methyl
+transferase_ [TPH]: Tryptophan hydroxylase _[ AANAT]: Serotonin N-acetyl
+transferase_ [ ASMT]: Acetylserotonin O-methyltransferase _[ HDC]: Histidine
+decarboxylase_ [ HNMT]: Histamine N-methyltransferase _[ DAO]: Diamine
+oxidase_ [nAChRs]: Nicotinic acetylcholine receptors _[PAMs]: positive
+allosteric modulators_ [NAMs]: negative allosteric modulators _[TRP]:
+Transient receptor potential_ [TRPA]: Transient receptor potential ankyrin
+channel _[TRPC]: Transient receptor potential canonical channel_ [TRPM]:
+Transient receptor potential melastatin channel _[TRPML]: Transient receptor
+potential mucolipin channel_ [TRPP]: Transient receptor potential polycystin
+channel _[TRPV]: Transient receptor potential vanilloid channel_ [CBR]:
+Cannabinoid receptor _[ GABA]: -Aminobutyric acid_ [GABAA]: γ-Aminobutyric
+acid A _[GABA]: γ-Aminobutyric acid_ [GHB]: γ-Hydroxybutyric acid _[ hTAAR]:
+human trace amine-associated receptor_ [ PAF]: Platelet-activating factor _[
+PPAR]: Peroxisome proliferator-activated receptor_ [ GH]: Growth hormone
+_[IGF-1]: Insulin-like growth factor 1_ [GnRH]: gonadotropin hormone-releasing
+hormone _[ TNF]: Tumor necrosis factor_ [ TGFβ]: Transforming growth factor
+beta _[ TRP]: Transient receptor potential_ [c.]: circa _[ON]: Ontario_ [FT]:
+Financial Times *[RSS]: Really Simple Syndication
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[AU]: Australia
+  *[CA]: Canada
+  *[UK]: United Kingdom
+  *[US]: United States
+  *[UN]: United Nations
+  *[EU]: European Union
+  *[ v]: View this template
+  *[AAAD]: Aromatic L-amino acid decarboxylase
+  *[ MAO]: Monoamine oxidase
+  *[ ALDH]: Aldehyde dehydrogenase
+  *[ALR]: Aldehyde reductase
+  *[PAH]: Phenylalanine hydroxylase
+  *[ TH]: Tyrosine hydroxylase
+  *[ DBH]: Dopamine beta-monooxygenase
+  *[ PNMT]: Phenylethanolamine N-methyltransferase
+  *[ COMT]: Catechol-O-methyl transferase
+  *[TPH]: Tryptophan hydroxylase
+  *[ AANAT]: Serotonin N-acetyl transferase
+  *[ ASMT]: Acetylserotonin O-methyltransferase
+  *[ HDC]: Histidine decarboxylase
+  *[ HNMT]: Histamine N-methyltransferase
+  *[ DAO]: Diamine oxidase
+  *[nAChRs]: Nicotinic acetylcholine receptors
+  *[PAMs]: positive allosteric modulators
+  *[NAMs]: negative allosteric modulators
+  *[TRP]: Transient receptor potential
+  *[TRPA]: Transient receptor potential ankyrin channel
+  *[TRPC]: Transient receptor potential canonical channel
+  *[TRPM]: Transient receptor potential melastatin channel
+  *[TRPML]: Transient receptor potential mucolipin channel
+  *[TRPP]: Transient receptor potential polycystin channel
+  *[TRPV]: Transient receptor potential vanilloid channel
+  *[CBR]: Cannabinoid receptor
+  *[ GABA]: -Aminobutyric acid
+  *[GABAA]: γ-Aminobutyric acid A
+  *[GABA]: γ-Aminobutyric acid
+  *[GHB]: γ-Hydroxybutyric acid
+  *[ hTAAR]: human trace amine-associated receptor
+  *[ PAF]: Platelet-activating factor
+  *[ PPAR]: Peroxisome proliferator-activated receptor
+  *[ GH]: Growth hormone
+  *[IGF-1]: Insulin-like growth factor 1
+  *[GnRH]: gonadotropin hormone-releasing hormone
+  *[ TNF]: Tumor necrosis factor
+  *[ TGFβ]: Transforming growth factor beta
+  *[ TRP]: Transient receptor potential
+  *[c.]: circa
+  *[ON]: Ontario
+  *[FT]: Financial Times
+  *[RSS]: Really Simple Syndication
+

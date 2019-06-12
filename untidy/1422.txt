@@ -1,0 +1,448 @@
+
+
+Skip to main content
+
+![Home](/sites/cato.org/files/cato-logo_0.png)
+
+__
+
+__
+
+    
+        * Research
+    * Events
+    * Publications
+    * Commentary
+    * Store
+    * Support
+    
+    * About Cato
+    * Blog
+    * Our Experts
+    * Our Centers
+    * __Facebook
+    * __Twitter
+    
+
+## Search form
+
+Search this site
+
+Immigration Research and Policy Brief No. 1
+
+# Criminal Immigrants: Their Numbers, Demographics, and Countries of Origin
+
+By Michelangelo Landgrave and Alex Nowrasteh
+
+March 15, 2017
+
+In his first week in office, President Donald Trump issued an executive order
+directing the Department of Homeland Security to deport most illegal
+immigrants who come in contact with law enforcement.1His order is based on the
+widespread perception that illegal immigrants are a significant source of
+crime in the United States.2 This brief uses American Community Survey data to
+analyze incarcerated immigrants according to their citizenship and legal
+status. All immigrants are less likely to be incarcerated than natives
+relative to their shares of the population. Even illegal immigrants are less
+likely to be incarcerated than native-born Americans.
+
+Continue to full version __
+
+![](https://object.cato.org/sites/cato.org/files/styles/pdf/s3/pubs/covers/immigration-
+
+brief-1.jpg?itok=AXnCKJKM)
+
+#### Downloads
+
+    
+        *  __PDF (420.38 KB)
+    
+
+**BACKGROUND**  
+Estimates of the total criminal noncitizen population vary widely, from about
+820,000 according to the Migration Policy Institute to 1.9 million according
+to Immigration and Customs Enforcement (ICE), but rarely is the number of
+those incarcerated estimated. 3
+
+Empirical studies of immigrant criminality generally find that immigrants do
+not increase local crime rates and are less likely to cause crime than their
+native-born peers, and that natives are more likely to be incarcerated than
+immigrants.4 There are two broad strands of this literature. The first is an
+area approach that analyzes how immigrants affect crime in locations where
+they settle, finding a general decrease in crime rates.5 The second broad
+strand of research examines immigrant institutionalization rates and uniformly
+finds that that native-born Americans are more likely to be incarcerated than
+immigrants as a percentage of their population.6
+
+Illegal immigrant incarceration rates are not well studied, although one
+investigation estimated that 4.6 percent of Texas inmates are illegal
+immigrants while illegal immigrants comprise 6.3 percent of that state's total
+population.7
+
+The best research on illegal immigrant crime exploits a natural experiment to
+see how the removal of illegal immigrants from an area through the Secure
+Communities (SCOMM) program affects local crime rates. SCOMM was an interior
+immigration enforcement program started in 2008 that checked the fingerprints
+of local and state arrestees against federal immigration databases. If ICE
+suspected the arrestee of being an illegal immigrant, then ICE would issue a
+detainer to hold the arrestee until ICE could pick them up. The Obama
+administration ended SCOMM in 2014, but the Trump administration reactivated
+it. If illegal immigrants were more crime prone than natives, the crime rates
+in those local areas that were first enrolled in the program should have seen
+crime decline relative to areas that were not. As it turned out, SCOMM had no
+significant effect on local crime rates, which means that illegal immigrants
+were not more crime prone than natives.8
+
+**METHODOLOGY**  
+This brief uses the United States Census 's American Community Survey (ACS) to
+focus on immigrants aged 18 to 54 who are incarcerated in the United States,
+their incarceration rates, and their demographics for 2014. ACS inmate data is
+reliable because it is ordinarily collected by or under the supervision of
+correctional institution administrators.9
+
+We do not attempt to count the number of immigrant ex-felons, criminally
+inadmissible aliens who entered unlawfully, or other non-incarcerated
+foreigners. The ACS counts the incarcerated population by their nativity and
+naturalization status, but local and state governments do not record whether
+the prisoner is an illegal immigrant.10 As a result, we have to use common
+statistical methods to identify illegal immigrant prisoners by excluding
+incarcerated respondents who have characteristics that they are unlikely to
+have.11 In other words, we can identify likely illegal immigrants by looking
+at prisoners with individual characteristics that are highly correlated with
+being an illegal immigrant. Those characteristics are that the immigrant must
+have entered the country after 1982 (the cut-off date for the 1986 Reagan
+amnesty), cannot have been in the military, cannot be receiving Social
+Security or Railroad Retirement Income, cannot have been covered by Veteran
+Affairs or Indian Health Services, was not a citizen of the United States, is
+not living in a household where somebody received Food Stamps (unless the
+individual has a child living with them as the child may be eligible if they
+are a U.S. citizen), and was not of Puerto Rican or Cuban origin if classified
+as a Hispanic.
+
+Another limitation of the ACS data is that our estimates of the illegal
+immigrant population include some legal migrants who are here on other visas
+but whose answers are consistent with those of illegal immigrants. As a
+result, we likely overestimate the number of illegal immigrants who are
+incarcerated. Thus, our estimates of the illegal immigrant incarcerated
+population and incarceration rate are likely greater than they really are due
+to ACS's data limitations.
+
+The majority of inmates in the public-use microdata version of the ACS are in
+correctional facilities, but the data also include those in mental health,
+handicapped, and elderly care institutions.12 This adds ambiguity to our
+findings about the illegal immigrant population but not about the immigrant
+population as a whole, because the ACS releases macro-demographic snapshots of
+inmates in correctional facilities, which allows us to check our work.13 This
+ambiguity in illegal immigrant incarceration rates is why we narrowed the age
+range to 18-54 so as to exclude inmates in mental health and retirement
+facilities.
+
+Few prisoners are under the age of 18, but many in mental health facilities
+are juveniles. Many of those above the age of 54 are in elderly care
+institutions. Few illegal immigrants are elderly, so narrowing the age range
+does not exclude many individuals from our analysis.14 Our count of all
+prisoners between the ages of 18 and 54 is 8 percent below that of the ACS
+snapshot.15 Natives in our results include both those born in the United
+States and those born abroad to American parents.
+
+INCARCERATIONS There were an estimated 2,007,502 natives, 122,939 illegal
+immigrants, and 63,994 legal immigrants incarcerated in 2014. The
+incarceration rate was 1.53 percent for natives, 0.85 percent for illegal
+immigrants, and 0.47 percent for legal immigrants (see Figure 1). Illegal
+immigrants are 44 percent less likely to be incarcerated than natives. Legal
+immigrants are 69 percent less likely to be incarcerated than natives. Legal
+and illegal immigrants are underrepresented in the incarcerated population
+while natives are overrepresented (see Figure 2). If native-born Americans
+were incarcerated at the same rate as illegal immigrants, about 893,000 fewer
+natives would be incarcerated. If natives were incarcerated at the same rate
+as legal immigrants, about 1.4 million fewer natives would be incarcerated.
+
+![](https://object.cato.org/sites/cato.org/files/images/pubs/immigration-
+
+research-brief-1-figure-1.png)
+
+![](https://object.cato.org/sites/cato.org/files/images/pubs/immigration-
+
+research-brief-1-figure-2.png)
+
+The ACS data include illegal immigrants incarcerated for immigration offenses
+and in ICE detention facilities.16 Subtracting out the 17,000 convicted for
+immigration offenses and the 34,000 in ICE detention to focus on non-
+immigration alien offenders lowers the illegal immigrant incarceration rate to
+0.50 percent, which brings it close to the legal immigrant incarceration rate
+of 0.47 percent.17
+
+**Robustness Checks for Counting the Illegal Immigrant Population**  
+The variable choices we made in analyzing the ACS data can affect the number
+of illegal immigrants we identify. We altered some of the variables to see if
+the results significantly changed. First, we decided to include illegal
+immigrants who lived in households with users of means-tested welfare
+benefits. Illegal immigrants do not have access to these benefits but U.S.
+citizens and some lawful permanent residents in their households do. This
+dropped the illegal immigrant incarceration rate to 0.81 percent, increased
+the legal immigrant incarceration rate to 0.49 percent, and did not affect the
+native incarceration rate.
+
+Our second robustness check excluded all immigrants who entered the United
+States after 2006. Immigrants on lawful permanent residency can apply for
+citizenship after five years, guaranteeing that most of the lawful permanent
+residents who are able to naturalize have done so, which decreases the pool of
+potential illegal immigrants in our sample. This robustness check shrinks the
+size of the incarcerated illegal immigrant population to 89,402 but slightly
+raises their incarceration rate to 0.93 percent because the size of the non-
+incarcerated illegal immigrant population in the general population shrank
+more. Those variable changes did not affect our results enough to undermine
+our confidence in the findings.
+
+**DEMOGRAPHIC AND SOCIAL CHARACTERISTICS**  
+Different racial groups in the United States have widely varying incarceration
+rates even within each immigrant category (see Table 1). All racial groups
+exclude Hispanics, and the Hispanic category includes those who self-identify
+as Hispanic regardless of race. By race and ethnicity, every group of legal
+and illegal immigrants has a lower incarceration rate than their native peers.
+Even the incarceration rate for illegal immigrants is lower than the
+incarceration rate for native white Americans. The racial and ethnic
+incarceration rates reported here are very close to those in the ACS 's macro-
+demographic snapshot of adult correctional facilities.18
+
+Immigrants from certain parts of the world are more likely to be incarcerated
+than others (see Table 2). Of all legal immigrants, those from Oceania, North
+America, and Latin America have, respectively, the three highest incarceration
+rates. For illegal immigrants, those from other regions of the world have the
+highest incarceration rate of any group followed by those from Latin America.
+Across all broad groups, those born in the United States have the highest
+incarceration rate. Curiously, those born to American parents overseas in the
+Middle East have the highest incarceration rate of any native-born subgroup at
+2.15 percent. The distribution of prisoners by their immigration status and
+region of origin shows that a full 7.27 percent of all prisoners are from
+Latin America while 90.64 percent were born in the United States (see Table
+3). Latin American illegal and legal immigrant prisoners are about 50 percent
+more likely to be incarcerated than their percent of the population would
+suggest.
+
+Almost 89 percent of all prisoners are men, while only 11.47 percent are women
+(see Table 4). The percentage of legal immigrant prisoners who are men or
+women is very similar to that of natives. However, illegal immigrant women are
+even less likely to be in prison than native or legal immigrant women.
+
+Prisoners in every group are more likely to have less education (see Table 5).
+Very few more highly educated illegal immigrants and natives are in prison. A
+full 56.4 percent of all natives have some college education or above compared
+to 18.1 percent of native prisoners. Although 38.9 percent of illegal
+immigrants have at least some college education, only 13.2 of illegal
+immigrant prisoners have at least some college.19 More highly educated people
+in every immigration category tend to avoid incarceration.
+
+![](https://object.cato.org/sites/cato.org/files/images/pubs/immigration-
+
+research-brief-1-table-1.png)
+
+![](https://object.cato.org/sites/cato.org/files/images/pubs/immigration-
+
+research-brief-1-table-2.png)
+
+![](https://object.cato.org/sites/cato.org/files/images/pubs/immigration-
+
+research-brief-1-table-3.png)
+
+![](https://object.cato.org/sites/cato.org/files/images/pubs/immigration-
+
+research-brief-1-table-4.png)
+
+![](https://object.cato.org/sites/cato.org/files/images/pubs/immigration-
+
+research-brief-1-table-5.png)
+
+**CONCLUSION**  
+Legal and illegal immigrants are less likely to be incarcerated than natives.
+Our numbers do not represent the total number of immigrants who can be
+deported under current law or the complete number of convicted immigrant
+criminals who are in the United States, but merely those incarcerated. This
+report provides numbers and demographic characteristics to better inform the
+public policy debate over immigration and crime.
+
+**NOTES**
+
+    1. “Executive Order: Enhancing Public Safety in the Interior of the United States,” Executive Order of the President, January 25, 2017, https://www.whitehouse.gov/the-press-office/2017/01/25/presidentialexecutive-order-enhancing-public-safety-interior-united.
+
+    2. Lesley Stahl, “President-Elect Trump Speaks to a Divided Country on _60 Minutes_ ,” CBS News, November 13, 2016, http://www.cbsnews.com/news/60-minutes-donald-trump-familymelania-ivanka-lesley-stahl/.
+
+    3. U.S. Department of Homeland Security, “U.S. Immigration and Customs Enforcement Salaries and Expenses,” Congressional Submission (Washington: Department of Homeland Security, 2013), p. 61, https://www.dhs.gov/library/assets/mgmt/dhs-congressionalbudget-justification-fy2013.pdf. Marc R. Rosenblum, “Understanding the Potential Impact of Executive Action on Immigration Enforcement,” Migration Policy Institute, July 2015, p. 11, http://www.migrationpolicy.org/research/understanding-potentialimpact-executive-action-immigration-enforcement.
+
+    4. Kristin F. Butcher and Anne Morrison Piehl, “The Role of Deportation in the Incarceration of Immigrants,” in _Issues in the Economics of Immigration_ , George J. Borjas, ed. (Chicago, IL: University of Chicago Press, 2000), pp. 351-86; Kristin F. Butcher and Anne Morrison Piehl, “Why Are Immigrants’ Incarceration Rates so Low? Evidence on Selective Immigration, Deterrence, and Deportation,” NBER Working Paper no. 13229, National Bureau of Economic Research, July 2007; Alex Nowrasteh, “Immigration and Crime-What the Research Says,” Cato at Liberty, July 14, 2015, https://www.cato.org/blog/immigration-crime-whatresearch-says.
+
+    5. Jacob I. Stowell, Steven F. Messner, Kelly F. McGeever, and Lawrence E. Raffalovich, “Immigration and the Recent Violent Crime Drop in the United States: A Pooled, Cross-Sectional Time-Series Analysis of Metropolitan Areas,” _Criminology_ 47, no. 3 (2009): 889-928; Lesley Williams Reid, Harald E. Weiss, Robert M. Adelman, and Charles Jaret, “The Immigration-Crime Relationship: Evidence across US Metropolitan Areas,” Social Science Research 34, no. 4 (2005): 757-80; Matthew T. Lee, Ramiro Martinez, and Richard Rosenfeld, “Does Immigration Increase Homicide?” _The Sociological Quarterly_ 42, no. 4 (2001): 559-80.
+
+    6. Butcher and Piehl, “The Role of Deportation in the Incarceration of Immigrants”; Butcher and Piehl, “Why Are Immigrants’ Incarceration Rates So Low?” ; Walter A. Ewing, Daniel E. Martinez, and Ruben G. Rumbaut, “The Criminalization of Immigration in the United States,” _American Immigration Council Special Report_ , July 2015.
+
+    7. Nicole Cobler, “Less Than 5 Percent of Texas Prison Inmates Are Undocumented,” _Texas Tribune_ , February 19, 2016, https://www.texastribune.org/2016/02/19/ice-records-reveal-makeupundocumented-prison-popu/.
+
+    8. Thomas J. Miles and Adam B. Cox, “Does Immigration Enforcement Reduce Crime? Evidence from Secure Communities,” _Journal of Law and Economics_ 57, no. 4 (2014): 937-73; Elina Treyger, Aaron Chalfin, and Charles Loeffler, “Immigration Enforcement, Policing, and Crime,” _Criminology & Public Policy_ 13, no. 2 (2014): 285-322.
+
+    9. Butcher and Piehl, “The Role of Deportation in the Incarceration of Immigrants,” pp. 351-86.
+
+    10. Steven Ruggles, et al.,”Integrated Public Use Series: Version 6.0,” 2015, Minneapolis: University of Minnesota; incarceration rates and characteristics of immigrants incarcerated in the United States who are between 18 and 54 years of age for the years 2008 to 2014 (Figure 1).
+
+    11. Butcher and Piehl, “Why Are Immigrants’ Incarceration Rates So Low?” Enrico A. Marcelli and David M. Heer, “The Unauthorized Mexican Immigrant Population and Welfare in Los Angeles County: A Comparative Statistical Analysis,” _Sociological Perspectives_ 41, no. 2 (1998): 279-302; Robert Warren, “Democratizing Data about Unauthorized Residents in the United States: Estimates and Public-Use Data, 2010 to 2013,” _Journal on Migration and Human Security_ 2, no. 4 (2014): 305-28; Pia M. Orrenius and Madeline Zavodny, “Do State Work Eligibility Verification Laws Reduce Unauthorized Immigration?” _IZA Journal of Migration_ 5, no. 1 (2016): 1-17. 12. Butcher and Piehl, “The Role of Deportation in the Incarceration of Immigrants,” pp. 351-86; Butcher and Piehl, “Why Are Immigrants’ Incarceration Rates so Low?”
+
+    12. American Community Survey, “Characteristics of the Group Quarters Population by Group Quarters Type,” Table S2601B 1-Year Estimates, 2014.
+
+    13. Jeffrey S. Passel and D'Vera Cohn, “A Portrait of Unauthorized Immigrants in the United States,” Pew Research Center, April 14, 2009.
+
+    14. American Community Survey, “Characteristics of the Group Quarters Population by Group Quarters Type.”
+
+    15. 2015 American Community Survey/Puerto Rico Community Survey Group Quarters Definition, https://www2.census.gov/ programs-surveys/acs/tech_docs/group_definitions/2015GQ_Definitions.pdf.
+
+    16. Bureau of Justice Statistics, Corrections Statistical Analysis Tool (CSAT)-Prisoners; https://www.bjs.gov/content/pub/pdf/p08.pdf.
+
+    17. American Community Survey, “Characteristics of the Group Quarters Population by Group Quarters Type.”
+
+    18. Passel and Cohn.
+
+      * __Tweet
+      * __Like
+      * __Submit
+      * __Share
+
+Michelangelo Landgrave is a doctoral student in political science at the
+University of California, Riverside. Alex Nowrasteh is an immigration policy
+analyst at the Cato Institute’s Center for Global Liberty and Prosperity.
+
+This work is licensed under a Creative Commons Attribution-NonCommercial-
+ShareAlike 4.0 International License.
+
+### Cato Today Newsletter
+
+_Daily dose of liberty delivered straight to your inbox._
+
+View full list of newsletters
+
+### Also from Cato
+
+    
+        * Internships and Student Programs
+    * DownsizingGovernment.org
+    * Libertarianism.org
+    * HumanProgress.org
+    * Cato Unbound
+    * Unlawful Shield
+    * Freedom in the 50 States
+    * Overlawyered
+    * ElCato.org
+    * Alt-M
+    
+
+### Social Media
+
+    
+        * __Facebook
+    * __Twitter
+    * __YouTube
+    * __LinkedIn
+    * __Instagram
+    * __Tumblr
+    * __RSS
+    
+
+![](/sites/cato.org/files/cato-logo_0.png)
+
+Cato Institute  
+1000 Massachusetts Ave, NW  
+Washington, DC 20001-5403
+
+    
+        * Phone (202) 842 0200
+    
+
+Privacy Policy
+
+Contact Us
+
+Media Contact
+
+![](https://www.facebook.com/tr?id= 454916984694808&ev=PageView&noscript=1)
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[AU]: Australia _[CA]: Canada_ [UK]: United Kingdom _[US]: United States_
+[UN]: United Nations _[EU]: European Union_ [ v]: View this template _[AAAD]:
+Aromatic L-amino acid decarboxylase_ [ MAO]: Monoamine oxidase _[ ALDH]:
+Aldehyde dehydrogenase_ [ALR]: Aldehyde reductase _[PAH]: Phenylalanine
+hydroxylase_ [ TH]: Tyrosine hydroxylase _[ DBH]: Dopamine beta-monooxygenase_
+[ PNMT]: Phenylethanolamine N-methyltransferase _[ COMT]: Catechol-O-methyl
+transferase_ [TPH]: Tryptophan hydroxylase _[ AANAT]: Serotonin N-acetyl
+transferase_ [ ASMT]: Acetylserotonin O-methyltransferase _[ HDC]: Histidine
+decarboxylase_ [ HNMT]: Histamine N-methyltransferase _[ DAO]: Diamine
+oxidase_ [nAChRs]: Nicotinic acetylcholine receptors _[PAMs]: positive
+allosteric modulators_ [NAMs]: negative allosteric modulators _[TRP]:
+Transient receptor potential_ [TRPA]: Transient receptor potential ankyrin
+channel _[TRPC]: Transient receptor potential canonical channel_ [TRPM]:
+Transient receptor potential melastatin channel _[TRPML]: Transient receptor
+potential mucolipin channel_ [TRPP]: Transient receptor potential polycystin
+channel _[TRPV]: Transient receptor potential vanilloid channel_ [CBR]:
+Cannabinoid receptor _[ GABA]: -Aminobutyric acid_ [GABAA]: γ-Aminobutyric
+acid A _[GABA]: γ-Aminobutyric acid_ [GHB]: γ-Hydroxybutyric acid _[ hTAAR]:
+human trace amine-associated receptor_ [ PAF]: Platelet-activating factor _[
+PPAR]: Peroxisome proliferator-activated receptor_ [ GH]: Growth hormone
+_[IGF-1]: Insulin-like growth factor 1_ [GnRH]: gonadotropin hormone-releasing
+hormone _[ TNF]: Tumor necrosis factor_ [ TGFβ]: Transforming growth factor
+beta _[ TRP]: Transient receptor potential_ [c.]: circa _[ON]: Ontario_ [FT]:
+Financial Times _[RSS]: Really Simple Syndication_ [ MD]: Maryland _[.]: dot_
+[@]: at
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[AU]: Australia
+  *[CA]: Canada
+  *[UK]: United Kingdom
+  *[US]: United States
+  *[UN]: United Nations
+  *[EU]: European Union
+  *[ v]: View this template
+  *[AAAD]: Aromatic L-amino acid decarboxylase
+  *[ MAO]: Monoamine oxidase
+  *[ ALDH]: Aldehyde dehydrogenase
+  *[ALR]: Aldehyde reductase
+  *[PAH]: Phenylalanine hydroxylase
+  *[ TH]: Tyrosine hydroxylase
+  *[ DBH]: Dopamine beta-monooxygenase
+  *[ PNMT]: Phenylethanolamine N-methyltransferase
+  *[ COMT]: Catechol-O-methyl transferase
+  *[TPH]: Tryptophan hydroxylase
+  *[ AANAT]: Serotonin N-acetyl transferase
+  *[ ASMT]: Acetylserotonin O-methyltransferase
+  *[ HDC]: Histidine decarboxylase
+  *[ HNMT]: Histamine N-methyltransferase
+  *[ DAO]: Diamine oxidase
+  *[nAChRs]: Nicotinic acetylcholine receptors
+  *[PAMs]: positive allosteric modulators
+  *[NAMs]: negative allosteric modulators
+  *[TRP]: Transient receptor potential
+  *[TRPA]: Transient receptor potential ankyrin channel
+  *[TRPC]: Transient receptor potential canonical channel
+  *[TRPM]: Transient receptor potential melastatin channel
+  *[TRPML]: Transient receptor potential mucolipin channel
+  *[TRPP]: Transient receptor potential polycystin channel
+  *[TRPV]: Transient receptor potential vanilloid channel
+  *[CBR]: Cannabinoid receptor
+  *[ GABA]: -Aminobutyric acid
+  *[GABAA]: γ-Aminobutyric acid A
+  *[GABA]: γ-Aminobutyric acid
+  *[GHB]: γ-Hydroxybutyric acid
+  *[ hTAAR]: human trace amine-associated receptor
+  *[ PAF]: Platelet-activating factor
+  *[ PPAR]: Peroxisome proliferator-activated receptor
+  *[ GH]: Growth hormone
+  *[IGF-1]: Insulin-like growth factor 1
+  *[GnRH]: gonadotropin hormone-releasing hormone
+  *[ TNF]: Tumor necrosis factor
+  *[ TGFβ]: Transforming growth factor beta
+  *[ TRP]: Transient receptor potential
+  *[c.]: circa
+  *[ON]: Ontario
+  *[FT]: Financial Times
+  *[RSS]: Really Simple Syndication
+  *[ MD]: Maryland
+  *[.]:  dot 
+  *[@]:  at 
+

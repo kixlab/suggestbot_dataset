@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+<meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<script>window.mobileCheck=function(){var check=false;(function(a){if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0,4)))check=true;})(navigator.userAgent||navigator.vendor||window.opera);return check;};window.dataLayerValues=window.dataLayerValues||{};window.dataLayerValues={isMobileQuery:window.mobileCheck()};window.dataLayer=window.dataLayer||[];window.dataLayer.push(window.dataLayerValues);</script>
+<meta name="title" content="Does pharma spend more on marketing than R&amp;D? A numbers check | FiercePharma" />
+<meta property="og:site_name" content="FiercePharma" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="news_keywords" content="," />
+<meta name="twitter:description" content="So, do drug companies really spend more money on marketing than on R&amp;D? In the Pipeline takes a look at that contention, and the cold hard facts are these: Probably not. But it&#039;s hard to tell for sure." />
+<meta name="twitter:title" content="Does pharma spend more on marketing than R&amp;D? A numbers check" />
+<meta name="description" content="So, do drug companies really spend more money on marketing than on R&amp;D? In the Pipeline takes a look at that contention, and the cold hard facts are these: Probably not. But it&#039;s hard to tell for sure." />
+<meta property="og:url" content="https://www.fiercepharma.com/regulatory/does-pharma-spend-more-on-marketing-than-r-d-a-numbers-check" />
+<meta property="og:title" content="Does pharma spend more on marketing than R&amp;D? A numbers check" />
+<meta name="keywords" content="," />
+<meta property="og:description" content="So, do drug companies really spend more money on marketing than on R&amp;D? In the Pipeline takes a look at that contention, and the cold hard facts are these: Probably not. But it&#039;s hard to tell for sure." />
+<meta name="twitter:url" content="https://www.fiercepharma.com/regulatory/does-pharma-spend-more-on-marketing-than-r-d-a-numbers-check" />
+<meta property="article:tag" content="" />
+<meta property="article:tag" content="" />
+<meta name="gtm-article" content="156451" />
+<meta name="parsely-tags" content="" />
+<meta name="parsely-tags" content="" />
+<meta name="parsely-section" content="Regulatory" />
+<meta name="parsely-title" content="Does pharma spend more on marketing than R&amp;D? A numbers check" />
+<meta name="gtm-contenttype" content="Article" />
+<meta name="gtm-section" content="Regulatory" />
+<meta name="parsely-post-id" content="156451" />
+<meta name="parsely-author" content="Tracy Staton" />
+<meta name="parsely-type" content="post" />
+<meta name="parsely-pub-date" content="2013-05-21T11:46:42-0400" />
+<meta name="parsely-link" content="https://www.fiercepharma.com/regulatory/does-pharma-spend-more-on-marketing-than-r-d-a-numbers-check" />
+<meta name="gtm-section-root" content="Pharma" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "NewsArticle",
+            "headline": "Does pharma spend more on marketing than R\u0026D? A numbers check",
+            "name": "Does pharma spend more on marketing than R\u0026D? A numbers check",
+            "articleSection": "Regulatory",
+            "keywords": [],
+            "description": "So, do drug companies really spend more money on marketing than on R\u0026D? In the Pipeline takes a look at that contention, and the cold hard facts are these: Probably not. But it\u0027s hard to tell for sure.",
+            "datePublished": "2013-05-21T11:46:42-0400",
+            "isAccessibleForFree": "True",
+            "dateModified": "2013-05-21",
+            "author": {
+                "@type": "Person",
+                "name": "Tracy Staton"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "FiercePharma",
+                "url": "https://www.fiercepharma.com/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.fiercepharma.com//themes/custom/tektite_fierce/assets/images/logo/logo-pharma.svg"
+                }
+            },
+            "mainEntityOfPage": "https://www.fiercepharma.com/regulatory/does-pharma-spend-more-on-marketing-than-r-d-a-numbers-check",
+            "url": "https://www.fiercepharma.com/regulatory/does-pharma-spend-more-on-marketing-than-r-d-a-numbers-check"
+        }
+    ]
+}</script>
+<script>const CLIENT ='';</script>
+<link rel="shortcut icon" href="/themes/custom/tektite_fierce/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" type="application/rss+xml" href="https://www.fiercepharma.com/rss/xml" />
+<link rel="canonical" href="/regulatory/does-pharma-spend-more-on-marketing-than-r-d-a-numbers-check" />
+<link rel="shortlink" href="/node/156451" />
+<link rel="revision" href="/regulatory/does-pharma-spend-more-on-marketing-than-r-d-a-numbers-check" />
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0];var j=d.createElement(s);var dl=l!='dataLayer'?'&amp;l='+l:'';j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';j.async=true;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KLQFWCZ');</script>
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.templates=a2a_config.templates||{};a2a_config.onclick = 1;
+a2a_config.orientation = "down";
+a2a_config.icon_color = "transparent";
+a2a_config.color_link_text = "666666";
+a2a_config.color_link_text_hover = "333333";</script>
+<style>.a2a_menu, .a2a_menu_find_container { border-radius: 0 !important; }
+.a2a_menu .a2a_mini_services a span { background-color: #666666 !important; }
+.a2a_menu .a2a_mini_services a:hover span { background-color: #333333 !important; }</style>
+<title>Does pharma spend more on marketing than R&amp;D? A numbers check | FiercePharma</title>
+<link rel="stylesheet" href="/sites/fiercepharma/files/css/css_SU4tYtYmriNajhtRxlkVqjjbKbVdHaFjVFd0gx5gDuM.css?psxb3c" media="all" />
+<link rel="stylesheet" href="/sites/fiercepharma/files/css/css_Tesw60rX7ZIdl_-MBcl606SWtQ0yP-oPTktqkAcWo9w.css?psxb3c" media="all" />
+<script type="text/javascript">
+          /*! modernizr 3.3.1 (Custom Build) | MIT *
+ * http://modernizr.com/download/?-details-inputtypes-touchevents-addtest-prefixes-setclasses-teststyles !*/
+!function(e,t,n){function o(e,t){return typeof e===t}function i(){var e,t,n,i,s,a,r;for(var l in d)if(d.hasOwnProperty(l)){if(e=[],t=d[l],t.name&&(e.push(t.name.toLowerCase()),t.options&&t.options.aliases&&t.options.aliases.length))for(n=0;n<t.options.aliases.length;n++)e.push(t.options.aliases[n].toLowerCase());for(i=o(t.fn,"function")?t.fn():t.fn,s=0;s<e.length;s++)a=e[s],r=a.split("."),1===r.length?Modernizr[r[0]]=i:(!Modernizr[r[0]]||Modernizr[r[0]]instanceof Boolean||(Modernizr[r[0]]=new Boolean(Modernizr[r[0]])),Modernizr[r[0]][r[1]]=i),u.push((i?"":"no-")+r.join("-"))}}function s(e){var t=m.className,n=Modernizr._config.classPrefix||"";if(v&&(t=t.baseVal),Modernizr._config.enableJSClass){var o=new RegExp("(^|\\s)"+n+"no-js(\\s|$)");t=t.replace(o,"$1"+n+"js$2")}Modernizr._config.enableClasses&&(t+=" "+n+e.join(" "+n),v?m.className.baseVal=t:m.className=t)}function a(e,t){if("object"==typeof e)for(var n in e)h(e,n)&&a(n,e[n]);else{e=e.toLowerCase();var o=e.split("."),i=Modernizr[o[0]];if(2==o.length&&(i=i[o[1]]),"undefined"!=typeof i)return Modernizr;t="function"==typeof t?t():t,1==o.length?Modernizr[o[0]]=t:(!Modernizr[o[0]]||Modernizr[o[0]]instanceof Boolean||(Modernizr[o[0]]=new Boolean(Modernizr[o[0]])),Modernizr[o[0]][o[1]]=t),s([(t&&0!=t?"":"no-")+o.join("-")]),Modernizr._trigger(e,t)}return Modernizr}function r(){return"function"!=typeof t.createElement?t.createElement(arguments[0]):v?t.createElementNS.call(t,"http://www.w3.org/2000/svg",arguments[0]):t.createElement.apply(t,arguments)}function l(){var e=t.body;return e||(e=r(v?"svg":"body"),e.fake=!0),e}function f(e,n,o,i){var s,a,f,u,d="modernizr",c=r("div"),p=l();if(parseInt(o,10))for(;o--;)f=r("div"),f.id=i?i[o]:d+(o+1),c.appendChild(f);return s=r("style"),s.type="text/css",s.id="s"+d,(p.fake?p:c).appendChild(s),p.appendChild(c),s.styleSheet?s.styleSheet.cssText=e:s.appendChild(t.createTextNode(e)),c.id=d,p.fake&&(p.style.background="",p.style.overflow="hidden",u=m.style.overflow,m.style.overflow="hidden",m.appendChild(p)),a=n(c,e),p.fake?(p.parentNode.removeChild(p),m.style.overflow=u,m.offsetHeight):c.parentNode.removeChild(c),!!a}var u=[],d=[],c={_version:"3.3.1",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,t){var n=this;setTimeout(function(){t(n[e])},0)},addTest:function(e,t,n){d.push({name:e,fn:t,options:n})},addAsyncTest:function(e){d.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=c,Modernizr=new Modernizr;var p=c._config.usePrefixes?" -webkit- -moz- -o- -ms- ".split(" "):["",""];c._prefixes=p;var h,m=t.documentElement,v="svg"===m.nodeName.toLowerCase();!function(){var e={}.hasOwnProperty;h=o(e,"undefined")||o(e.call,"undefined")?function(e,t){return t in e&&o(e.constructor.prototype[t],"undefined")}:function(t,n){return e.call(t,n)}}(),c._l={},c.on=function(e,t){this._l[e]||(this._l[e]=[]),this._l[e].push(t),Modernizr.hasOwnProperty(e)&&setTimeout(function(){Modernizr._trigger(e,Modernizr[e])},0)},c._trigger=function(e,t){if(this._l[e]){var n=this._l[e];setTimeout(function(){var e,o;for(e=0;e<n.length;e++)(o=n[e])(t)},0),delete this._l[e]}},Modernizr._q.push(function(){c.addTest=a});var y=r("input"),g="search tel url email datetime date month week time datetime-local number range color".split(" "),_={};Modernizr.inputtypes=function(e){for(var o,i,s,a=e.length,r="1)",l=0;a>l;l++)y.setAttribute("type",o=e[l]),s="text"!==y.type&&"style"in y,s&&(y.value=r,y.style.cssText="position:absolute;visibility:hidden;",/^range$/.test(o)&&y.style.WebkitAppearance!==n?(m.appendChild(y),i=t.defaultView,s=i.getComputedStyle&&"textfield"!==i.getComputedStyle(y,null).WebkitAppearance&&0!==y.offsetHeight,m.removeChild(y)):/^(search|tel)$/.test(o)||(s=/^(url|email)$/.test(o)?y.checkValidity&&y.checkValidity()===!1:y.value!=r)),_[e[l]]=!!s;return _}(g);var w=c.testStyles=f;Modernizr.addTest("touchevents",function(){var n;if("ontouchstart"in e||e.DocumentTouch&&t instanceof DocumentTouch)n=!0;else{var o=["@media (",p.join("touch-enabled),("),"heartz",")","{#modernizr{top:9px;position:absolute}}"].join("");w(o,function(e){n=9===e.offsetTop})}return n}),Modernizr.addTest("details",function(){var e,t=r("details");return"open"in t?(w("#modernizr details{display:block}",function(n){n.appendChild(t),t.innerHTML="<summary>a</summary>b",e=t.offsetHeight,t.open=!0,e=e!=t.offsetHeight}),e):!1}),i(),s(u),delete c.addTest,delete c.addAsyncTest;for(var b=0;b<Modernizr._q.length;b++)Modernizr._q[b]();e.Modernizr=Modernizr}(window,document);
+      </script>
+<!--[if lte IE 8]>
+<script src="/sites/fiercepharma/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+<script src="//use.typekit.net/bmi3gnp.js" async defer></script>
+<script src="/sites/fiercepharma/files/js/js_xC4ZoY2Rzd5u9DcCgIN8yKp8QmEtX5IoWlkm9NbDq3k.js" async defer></script>
+<link rel="apple-touch-icon" sizes="57x57" href="/themes/custom/tektite_fierce/apple-touch-icon-57x57.png?v=wAAmkK2yLl">
+<link rel="apple-touch-icon" sizes="60x60" href="/themes/custom/tektite_fierce/apple-touch-icon-60x60.png?v=wAAmkK2yLl">
+<link rel="apple-touch-icon" sizes="72x72" href="/themes/custom/tektite_fierce/apple-touch-icon-72x72.png?v=wAAmkK2yLl">
+<link rel="apple-touch-icon" sizes="76x76" href="/themes/custom/tektite_fierce/apple-touch-icon-76x76.png?v=wAAmkK2yLl">
+<link rel="apple-touch-icon" sizes="114x114" href="/themes/custom/tektite_fierce/apple-touch-icon-114x114.png?v=wAAmkK2yLl">
+<link rel="apple-touch-icon" sizes="120x120" href="/themes/custom/tektite_fierce/apple-touch-icon-120x120.png?v=wAAmkK2yLl">
+<link rel="apple-touch-icon" sizes="144x144" href="/themes/custom/tektite_fierce/apple-touch-icon-144x144.png?v=wAAmkK2yLl">
+<link rel="apple-touch-icon" sizes="152x152" href="/themes/custom/tektite_fierce/apple-touch-icon-152x152.png?v=wAAmkK2yLl">
+<link rel="apple-touch-icon" sizes="180x180" href="/themes/custom/tektite_fierce/apple-touch-icon-180x180.png?v=wAAmkK2yLl">
+<link rel="icon" type="image/png" href="/themes/custom/tektite_fierce/favicon-32x32.png?v=wAAmkK2yLl" sizes="32x32">
+<link rel="icon" type="image/png" href="/themes/custom/tektite_fierce/favicon-194x194.png?v=wAAmkK2yLl" sizes="194x194">
+<link rel="icon" type="image/png" href="/themes/custom/tektite_fierce/favicon-96x96.png?v=wAAmkK2yLl" sizes="96x96">
+<link rel="icon" type="image/png" href="/themes/custom/tektite_fierce/android-chrome-192x192.png?v=wAAmkK2yLl" sizes="192x192">
+<link rel="icon" type="image/png" href="/themes/custom/tektite_fierce/favicon-16x16.png?v=wAAmkK2yLl" sizes="16x16">
+<link rel="manifest" href="/themes/custom/tektite_fierce/manifest.json?v=wAAmkK2yLl">
+<link rel="mask-icon" href="/themes/custom/tektite_fierce/safari-pinned-tab.svg?v=wAAmkK2yLl" color="#002358">
+<link rel="shortcut icon" href="/themes/custom/tektite_fierce/favicon.ico?v=wAAmkK2yLl">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/themes/custom/tektite_fierce/mstile-144x144.png?v=wAAmkK2yLl">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body class="sidebar-second path-node page-node-type-article">
+<div class="page-container">
+<a href="#main-content" class="visually-hidden focusable">Skip to main content</a>
+<noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLQFWCZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+<div id="scrollProgress"></div>
+<div class="page-wrapper">
+<div id="header-top">
+<div class="wrapper">
+<div class="region region-header-top">
+<div id="block-tektitegenericadinterstitialblock" class="block block-tektite-generic-blocks block-tektite-generic-ad-interstitial">
+<div id='interstitial-wrapper'>
+<div id='interstitial'>
+<script type='text/javascript'>
+            document.addEventListener("googletagEvent", function () {
+                let hideOnMobile = "0";
+                
+                let isMobileQuery = false;
+                if (typeof window.dataLayerValues === "undefined" || !window.dataLayerValues.hasOwnProperty('isMobileQuery') || window.dataLayerValues.isMobileQuery) {
+                    isMobileQuery = window.dataLayerValues.isMobileQuery;
+                }
+
+                // Don't display the ad unit if this is a mobile browser and we're supposed to hide the unit in mobile view.
+                if (isMobileQuery && hideOnMobile === '1') {
+                                        return;
+                }
+
+                let hideOnDesktop = "0";
+                // Don't display this ad unit if this is a desktop broser and we're supposed to hide the mobile ad unit
+                if(!isMobileQuery && hideOnDesktop === '1') {
+                                        return;
+                }
+
+                googletag.cmd.push(function () {
+                    googletag.display('interstitial');
+                });
+            });
+        </script>
+</div>
+</div>
+</div>
+<div id="block-tektitegenericmobileadhesionadblock" class="block block-tektite-generic-blocks block-tektite-generic-ad-mobile-adhesion">
+<div id='mobile-adhesion'>
+<script type='text/javascript'>
+                document.addEventListener("googletagEvent", function() {
+                googletag.cmd.push(function() { googletag.display('mobile-adhesion'); });
+                });
+                </script>
+</div>
+</div>
+<div id="block-tektitegenericadwallpaperblock" class="block block-tektite-generic-blocks block-tektite-generic-ad-wallpaper">
+<div id='wallpaper-wrapper'>
+<div id='wallpaper'>
+<script type='text/javascript'>
+            document.addEventListener("googletagEvent", function () {
+                let hideOnMobile = "0";
+                
+                let isMobileQuery = false;
+                if (typeof window.dataLayerValues === "undefined" || !window.dataLayerValues.hasOwnProperty('isMobileQuery') || window.dataLayerValues.isMobileQuery) {
+                    isMobileQuery = window.dataLayerValues.isMobileQuery;
+                }
+
+                // Don't display the ad unit if this is a mobile browser and we're supposed to hide the unit in mobile view.
+                if (isMobileQuery && hideOnMobile === '1') {
+                                        return;
+                }
+
+                let hideOnDesktop = "0";
+                // Don't display this ad unit if this is a desktop broser and we're supposed to hide the mobile ad unit
+                if(!isMobileQuery && hideOnDesktop === '1') {
+                                        return;
+                }
+
+                googletag.cmd.push(function () {
+                    googletag.display('wallpaper');
+                });
+            });
+        </script>
+</div>
+</div>
+</div>
+<div id="block-tektitegenericadheaderblock" class="block block-tektite-generic-blocks block-tektite-generic-ad-header">
+<div id='header-ad-wrapper'>
+<div id='header-ad'>
+<script type='text/javascript'>
+                    document.addEventListener("googletagEvent", function() {
+                      googletag.cmd.push(function() { googletag.display('header-ad'); });
+                    });
+                  </script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<header id="header" role="banner">
+<div class="wrapper">
+<div class="region region-header">
+<div id="block-tektitesocialshareblock" class="block block-tektite-generic-blocks block-social-share-block">
+<a class="icon icon-twitter" href='https://twitter.com/fiercepharma'>Twitter</a>
+<a class="icon icon-linkedin-squared" href='https://www.linkedin.com/groups/5042642'>LinkedIn</a>
+</div>
+<div class="search-popup">
+<span class="icon icon-search"></span>
+<div class="search-content">
+<div class="search-close icon icon-cancel"></div>
+<div class="search-api-page-block-form block block-search-api-page block-search-api-page-form-block" data-drupal-selector="search-api-page-block-form" autocomplete="off" id="block-searchapipagesearchblockform">
+<form action="/regulatory/does-pharma-spend-more-on-marketing-than-r-d-a-numbers-check" method="post" id="search-api-page-block-form" accept-charset="UTF-8">
+<div class="js-form-item form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label">
+<label for="edit-keys" class="visually-hidden">Search</label>
+<input title="Enter the terms you wish to search for." placeholder="New Search" data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search" />
+</div>
+<input autocomplete="off" data-drupal-selector="form-7iarlaulxv3p2g478e9yssfitxjtkufpclon9cazvhw" type="hidden" name="form_build_id" value="form-7iArLaUlxv3P2G478E9YSSfiTXjtkUFpCloN9cazVHw" />
+<input data-drupal-selector="edit-search-api-page-block-form" type="hidden" name="form_id" value="search_api_page_block_form" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Search" class="button js-form-submit form-submit" />
+</div>
+</form>
+<div class="search-help-text">Enclose phrases in quotes. Use a + to require a term in results and - to
+exclude terms.<br />Example: +water -Europe
+</div>
+</div>
+</div>
+</div>
+<nav role="navigation" aria-labelledby="block-topmenu-menu" id="block-topmenu" class="block block-menu navigation menu--top-menu">
+<h2 class="visually-hidden" id="block-topmenu-menu">Top Menu</h2>
+<ul class="menu">
+<li class="menu-item">
+<a href="http://exlevents.com/event-calendar/?utm_source=FiercePharma&amp;utm_medium=internal&amp;utm_campaign=top-menu" rel="nofollow">Fierce-ExL Events</a>
+</li>
+<li class="menu-item">
+<a href="https://www.fiercebiotech.com/" rel="nofollow">FierceBiotech</a>
+</li>
+<li class="menu-item">
+<a href="http://jobs.fiercebiotech.com/" rel="nofollow">Jobs</a>
+</li>
+<li class="menu-item">
+<a href="/resources" data-drupal-link-system-path="resources">Resources</a>
+</li>
+<li class="menu-item">
+<a href="/products/webinar" data-drupal-link-system-path="products/webinar">Webinars</a>
+</li>
+<li class="menu-item">
+<a href="/products/event" data-drupal-link-system-path="products/event">Industry Events</a>
+</li>
+<li class="menu-item">
+<a href="https://pages.questexweb.com/FiercePharma-Newsletter-Signup.html" title="Subscribe" rel="nofollow">Subscribe</a>
+</li>
+</ul>
+</nav>
+<a class="menu-icon icon icon-hamburger open-panel"></a>
+<div id="block-tektite-pharma-branding" class="block block-system block-system-branding-block">
+<div class="site-logo">
+<a href="/" title="Home" rel="home">
+<img src="/themes/custom/tektite_fierce/assets/images/logo/logo-pharma.svg" alt="Home" />
+</a>
+</div>
+<div class="questex-logo">
+<a href="http://questex.com" target="_blank" title="Questex">
+<img src="/themes/custom/tektite/assets/images/logo-questex.svg" alt="Questex" />
+</a>
+</div>
+</div>
+<nav role="navigation" aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation" class="block block-menu navigation menu--main">
+<h2 class="visually-hidden" id="block-mainnavigation-menu">Main navigation</h2>
+<ul class="menu">
+<li class="menu-item menu-item--collapsed">
+<a href="/manufacturing" data-drupal-link-system-path="taxonomy/term/166">Manufacturing</a>
+</li>
+<li class="menu-item menu-item--collapsed">
+<a href="/marketing" data-drupal-link-system-path="taxonomy/term/126">Marketing</a>
+</li>
+<li class="menu-item menu-item--expanded">
+<span class="menu-icon icon icon-angle-down"></span>
+<a href="/pharma" data-drupal-link-system-path="taxonomy/term/201">Pharma</a>
+<ul class="menu">
+<li class="menu-item menu-item--collapsed">
+<a href="/pharma-asia" data-drupal-link-system-path="taxonomy/term/91">Pharma Asia</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--collapsed">
+<a href="/vaccines" data-drupal-link-system-path="taxonomy/term/1">Vaccines</a>
+</li>
+</ul>
+</nav>
+<nav role="navigation" aria-labelledby="block-mainnavigation-mobile-menu" id="block-mainnavigation-mobile" class="block block-menu navigation menu--main">
+<h2 class="visually-hidden" id="block-mainnavigation-mobile-menu">Main navigation - Mobile</h2>
+<ul class="menu">
+<li class="menu-item menu-item--collapsed">
+<a href="/manufacturing" data-drupal-link-system-path="taxonomy/term/166">Manufacturing</a>
+</li>
+ <li class="menu-item menu-item--collapsed">
+<a href="/marketing" data-drupal-link-system-path="taxonomy/term/126">Marketing</a>
+</li>
+<li class="menu-item menu-item--expanded">
+<span class="menu-icon icon icon-angle-down"></span>
+<a href="/pharma" data-drupal-link-system-path="taxonomy/term/201">Pharma</a>
+<ul class="menu">
+<li class="menu-item menu-item--collapsed">
+<a href="/pharma-asia" data-drupal-link-system-path="taxonomy/term/91">Pharma Asia</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--collapsed">
+<a href="/vaccines" data-drupal-link-system-path="taxonomy/term/1">Vaccines</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</header>
+<div id="help">
+<div class="wrapper">
+<div class="region region-help">
+</div>
+</div>
+</div>
+<main id="main" role="main">
+<div class="region region-highlighted">
+<div id="block-qtxpromobanner" class="block block-qtx-promo-banner block-qtx-promo-banner-block-type">
+</div>
+</div>
+<div id="content">
+<div class="taxonomy-primary"><div about="/pharma/regulatory" id="taxonomy-term-211" class="taxonomy-term vocabulary-taxonomy">
+<h2><a href="/pharma/regulatory">
+<div>Regulatory</div>
+</a></h2>
+<div class="content">
+</div>
+</div>
+</div>
+<a id="main-content" tabindex="-1"></a> <div class="region region-content">
+<div id="block-tektite-pharma-page-title" class="block block-core block-page-title-block">
+<h1 class="page-title"><span property="schema:name">Does pharma spend more on marketing than R&amp;D? A numbers check</span>
+</h1>
+</div>
+<div id="block-tektite-pharma-content" class="block block-system block-system-main-block">
+<article role="article" about="/regulatory/does-pharma-spend-more-on-marketing-than-r-d-a-numbers-check" typeof="schema:Article" class="node node--type-article node--promoted node--view-mode-full">
+<div id="nodeid" data-nid="156451" style="display:none"></div>
+<span property="schema:name" content="Does pharma spend more on marketing than R&amp;D? A numbers check" class="rdf-meta hidden"></span>
+<footer class="node__meta">
+<div class="node__submitted">
+by <a href="/author/tracy-staton">Tracy Staton</a> |
+<div><time datetime="2013-05-21T15:46:42Z" property="schema:datePublished">May 21, 2013 11:46am</time>
+</div>
+</div>
+</footer>
+<div class="thumbnail-image">
+<div class="caption">
+</div>
+</div>
+<div class="node__container">
+<div class="social-container sticky-container">
+<div class="social-share"><span class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://www.fiercepharma.com/regulatory/does-pharma-spend-more-on-marketing-than-r-d-a-numbers-check" data-a2a-title="Does pharma spend more on marketing than R&amp;D? A numbers check"><a class="a2a_dd addtoany_share_save" href="https://www.addtoany.com/share#url=https%3A%2F%2Fwww.fiercepharma.com%2Fregulatory%2Fdoes-pharma-spend-more-on-marketing-than-r-d-a-numbers-check&amp;title=Does%20pharma%20spend%20more%20on%20marketing%20than%20R%26amp%3BD%3F%20A%20numbers%20check"></a><a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_linkedin"></a>
+<a class="a2a_button_email"></a>
+<a class="a2a_button_print"></a></span>
+</div>
+</div>
+<div class="node__content">
+<div property="schema:articleBody"><p>So, do drug companies really spend more money on marketing than on R&amp;D? <em>In the Pipeline </em>takes a look at that contention, and the cold hard facts are these: Probably not. But it&#39;s hard to tell for sure.</p>
+<p>Derek Lowe&#39;s blog dug up the numbers and calculated spending as a percentage of revenue. In the case of R&amp;D, that&#39;s pretty easy to determine; companies break that number out as its own line item. As for marketing, sales expenses are lumped into a category dubbed SG&amp;A, or sales, general and administrative expenses. And as Lowe notes, that category includes lots more than sales spending. Executive salaries, for instance.</p>
+<p>If you look at the R&amp;D percentages versus those for SG&amp;A, it&#39;s apparent that drugmakers allocate more of their budgets to SG&amp;A than to R&amp;D. For instance, Lowe found that Merck ($MRK) spends 27% of its revenue on SG&amp;A and 17.3% on research and development. Pfizer&#39;s ($PFE) ratio is even more lopsided, with 33% on SG&amp;A and 14.2% on R&amp;D. Smaller, more biotech-focused companies have better numbers; Biogen Idec, for one, spends 23% of its revenue on SG&amp;A and 24% on R&amp;D. That&#39;s partly because--we suspect--specialty drugs don&#39;t require the armies of sales reps sent out to support primary-care meds.</p>
+<p>Lowe then compares these figures with those in another innovation-powered business: technology. We&#39;ll let you peruse that analysis at <em>In the Pipeline</em>. We&#39;d like to elaborate on the SG&amp;A line item a bit.</p>
+<p>SG&amp;A is a sort of catch-all category that does include sales and marketing expenses, including sales salaries, support and so on. But it also includes legal and accounting fees, rent and utilities. In an annual industry audit, <em>Pharmaceutical Executive</em> notes that sales and marketing is a &quot;relatively low portion of SG&amp;A.&quot;</p>
+<p>To get a vague idea of the size of that &quot;low portion,&quot; let&#39;s look at a recent <em>FiercePharma</em> report on pharma advertising budgets. Pfizer topped that list with $622.3 million in ad spending last year. Pfizer came in fourth on <em>FierceBiotech</em>&#39;s list of R&amp;D budgets, with $7.9 billion. That means DTC ads were less than one-tenth the size of its R&amp;D budget.</p>
+<p>DTC spending is only part of the overall sales-and-marketing budget, of course. Detailing to doctors costs a pretty penny, and that&#39;s where drugmakers spend much of their sales budget. Consumer advertising spending dropped by 11.5% in 2012 to $3.47 billion. Marketing to physicians, according to a Johns Hopkins Bloomberg School of Public Health study, amounted to $27.7 billion in 2010; that same year, DTC spending was just over $4 billion.</p>
+<p>That&#39;s a total for 2010 of more than $31 billion, the best guess-timate we can come up with on short notice. According to <em>FierceBiotech</em>&#39;s 2010 R&amp;D spending report, the industry shelled out $67 billion on research that year--more than twice our quick-and-dirty marketing estimate.</p>
+<p>But as Lowe notes, quoting numbers at people isn&#39;t likely to change their &quot;pharma spends more on marketing than R&amp;D&quot; chant. As one of <em>In the Pipeline</em>&#39;s readers pointed out, the whole debate seems to suggest that people are uncomfortable with the very idea of drugmaking as a for-profit business. But then there are the big headlines about marketing violations, guilty pleas, manufacturing shortfalls and liability lawsuits. If people are predisposed to mistrust the industry, then it will take a lot of figures to change their minds--and it might not work even then.</p>
+<p>- read the <em>In the Pipeline</em> <a href="http://pipeline.corante.com/archives/2013/05/20/but_dont_drug_companies_spend_more_on_marketing.php?utm_source=feedly">post</a></p>
+<p><strong><font color="red">Special Reports: </font></strong>Top 10 Pharma Advertising Budgets - 2012 | Pfizer - Biopharma&#39;s Top R&amp;D Spenders - 2012 | Pfizer - Top Pharma Companies by 2012 Revenues</p>
+<div id='content-embed-one-wrapper'>
+<div id='content-embed-one'>
+<script type='text/javascript'>
+            document.addEventListener("googletagEvent", function () {
+                let hideOnMobile = "0";
+                
+                let isMobileQuery = false;
+                if (typeof window.dataLayerValues === "undefined" || !window.dataLayerValues.hasOwnProperty('isMobileQuery') || window.dataLayerValues.isMobileQuery) {
+                    isMobileQuery = window.dataLayerValues.isMobileQuery;
+                }
+
+                // Don't display the ad unit if this is a mobile browser and we're supposed to hide the unit in mobile view.
+                if (isMobileQuery && hideOnMobile === '1') {
+                                        return;
+                }
+
+                let hideOnDesktop = "0";
+                // Don't display this ad unit if this is a desktop broser and we're supposed to hide the mobile ad unit
+                if(!isMobileQuery && hideOnDesktop === '1') {
+                                        return;
+                }
+
+                googletag.cmd.push(function () {
+                    googletag.display('content-embed-one');
+                });
+            });
+        </script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div>
+<div id="block-tektitegenericarticlebottomadblock" class="block block-tektite-generic-blocks block-tektite-generic-ad-article-bottom">
+<div id='article-bottom'>
+<div id='bottom-pos-12'>
+<script type='text/javascript'>
+            document.addEventListener("googletagEvent", function () {
+                let hideOnMobile = "0";
+                
+                let isMobileQuery = false;
+                if (typeof window.dataLayerValues === "undefined" || !window.dataLayerValues.hasOwnProperty('isMobileQuery') || window.dataLayerValues.isMobileQuery) {
+                    isMobileQuery = window.dataLayerValues.isMobileQuery;
+                }
+
+                // Don't display the ad unit if this is a mobile browser and we're supposed to hide the unit in mobile view.
+                if (isMobileQuery && hideOnMobile === '1') {
+                                        return;
+                }
+
+                let hideOnDesktop = "1";
+                // Don't display this ad unit if this is a desktop broser and we're supposed to hide the mobile ad unit
+                if(!isMobileQuery && hideOnDesktop === '1') {
+                                        return;
+                }
+
+                googletag.cmd.push(function () {
+                    googletag.display('bottom-pos-12');
+                });
+            });
+        </script>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+            var ssaUrl = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'pixel-a.basis.net/iap/7f1874304d399254';
+            new Image().src = ssaUrl;
+            (function (d) {
+                var syncUrl = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'pixel-a.basis.net/dmp/asyncPixelSync';
+                var iframe = d.createElement('iframe');
+                (iframe.frameElement || iframe).style.cssText = "width: 0; height: 0; border: 0;";
+                iframe.src = "javascript:false";
+                d.body.appendChild(iframe);
+                var doc = iframe.contentWindow.document;
+                doc.open().write('<body onload="window.location.href=\'' + syncUrl + '\'">');
+                doc.close();
+            })(document);
+        </script>
+</div>
+<div class="region region-content-bottom">
+<div class="views-element-container block block-views block-views-blocksuggested-content-suggested-content-block" id="block-views-block-suggested-content-suggested-content-block">
+<div><div class="list-group js-view-dom-id-eaee0fca87c53175147f848f874fcc6d15626efc0e48d0703a3a6dbad1a96f32">
+<h4 class="sub-heading">Suggested Articles</h4>
+<div class="card horizontal views-row">
+<div class="thumbnail">
+<div class="views-field views-field-field-arc-article-thumbnail"><div class="field-content"> <a href="/pharma/astrazeneca-advances-toward-3b-sales-target-first-line-tagrisso-nod"> <picture>
+<img src="https://qtxasset.com/styles/content_well_thumb/s3/fiercepharma/1524143117/16792957331_fc90a25b3b_o.jpg/16792957331_fc90a25b3b_o.jpg?s9RV2hAhnvietLp0CVeeNcvuXL8IRZrs&amp;itok=qiJMt-am" alt="FDA" title="FDA" typeof="foaf:Image" />
+</picture>
+</a>
+</div></div> </div>
+<div class="content">
+<div class="views-field views-field-field-primary-taxonomy"><div class="field-content taxonomy"><a href="/pharma" hreflang="en">Pharma</a></div></div> <div class="views-field views-field-field-alternative-headline"><h2 class="field-content list-title"><a href="/pharma/astrazeneca-advances-toward-3b-sales-target-first-line-tagrisso-nod">AZ advances toward $3B sales target with first-line Tagrisso nod</a></h2></div> <div class="views-field views-field-field-introduction-teaser"><p class="field-content card-text">The future may be uncertain for AZ’s Imfinzi in first-line lung cancer, but its targeted med Tagrisso now boasts a green light in that setting.</p></div> <div class="views-field views-field-nothing byline"><span class="field-content"><span>by</span> <a href="/author/carly-helfand" hreflang="en">Carly Helfand</a> <time datetime="49Z">Apr 19, 2018 10:20am</time>
+</span></div> </div>
+</div>
+<div class="card horizontal views-row">
+<div class="thumbnail">
+<div class="views-field views-field-field-arc-article-thumbnail"><div class="field-content"> <a href="/regulatory/ultragenyx-nabs-fda-nod-for-200-000-per-year-crysvita-a-potential-blockbuster"> <picture>
+<img src="https://qtxasset.com/styles/content_well_thumb/s3/fiercepharma/1524058727/fda2_0.jpg/fda2_0.jpg?5LEVfqkVIPf..HY2djMke_ITdZ00gOIf&amp;itok=uY0eMPpD" alt="fda" title="fda" typeof="foaf:Image" />
+</picture>
+</a>
+</div></div> </div>
+<div class="content">
+<div class="views-field views-field-field-primary-taxonomy"><div class="field-content taxonomy"><a href="/pharma/regulatory" hreflang="en">Regulatory</a></div></div> <div class="views-field views-field-field-alternative-headline"><h2 class="field-content list-title"><a href="/regulatory/ultragenyx-nabs-fda-nod-for-200-000-per-year-crysvita-a-potential-blockbuster">Ultragenyx nabs FDA nod for $200K-per-year Crysvita</a></h2></div> <div class="views-field views-field-field-introduction-teaser"><p class="field-content card-text">Ultragenyx is back with another FDA nod, this time for Crysvita to treat X-linked hypophosphatemia in patients one year and older.</p></div> <div class="views-field views-field-nothing byline"><span class="field-content"><span>by</span> <a href="/author/eric-sagonowsky" hreflang="en">Eric Sagonowsky</a> <time datetime="46Z">Apr 18, 2018 11:00am</time>
+</span></div> </div>
+</div>
+<div class="card horizontal views-row">
+<div class="thumbnail">
+<div class="views-field views-field-field-arc-article-thumbnail"><div class="field-content"> <a href="/pharma/roche-gets-double-good-hemlibra-news-fda-breakthrough-icer-endorsement"> <picture>
+<img src="https://qtxasset.com/styles/content_well_thumb/s3/fiercepharma/1523977626/basel_stage.jpg/basel_stage.jpg?npX0rXGkmuG7N9p_0VVo2.sG0hfWoeSc&amp;itok=EaNq-0Um" alt="Roche" title="Roche" typeof="foaf:Image" />
+</picture>
+</a>
+</div></div> </div>
+<div class="content">
+<div class="views-field views-field-field-primary-taxonomy"><div class="field-content taxonomy"><a href="/pharma" hreflang="en">Pharma</a></div></div> <div class="views-field views-field-field-alternative-headline"><h2 class="field-content list-title"><a href="/pharma/roche-gets-double-good-hemlibra-news-fda-breakthrough-icer-endorsement">Roche gets double dose of good Hemlibra news </a></h2></div> <div class="views-field views-field-field-introduction-teaser"><p class="field-content card-text">Roche got a two pieces of good Hemlibra news early this week—and what&#039;s good for Hemlibra must be good for Roche.</p></div> <div class="views-field views-field-nothing byline"><span class="field-content"><span>by</span> <a href="/author/carly-helfand" hreflang="en">Carly Helfand</a> <time datetime="00Z">Apr 17, 2018 11:25am</time>
+</span></div> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<aside id="sidebar-second" role="complimentary">
+<section class="sidebar-container">
+<div class="region region-sidebar-second">
+<div id="block-tektitegenericadsidebarblock" class="block block-tektite-generic-blocks block-tektite-generic-ad-sidebar">
+<div id='sidebar-ad-wrapper'>
+<div id='sidebar-ad'>
+<script type='text/javascript'>
+            document.addEventListener("googletagEvent", function () {
+                let hideOnMobile = "1";
+                
+                let isMobileQuery = false;
+                if (typeof window.dataLayerValues === "undefined" || !window.dataLayerValues.hasOwnProperty('isMobileQuery') || window.dataLayerValues.isMobileQuery) {
+                    isMobileQuery = window.dataLayerValues.isMobileQuery;
+                }
+
+                // Don't display the ad unit if this is a mobile browser and we're supposed to hide the unit in mobile view.
+                if (isMobileQuery && hideOnMobile === '1') {
+                                        return;
+                }
+
+                let hideOnDesktop = "0";
+                // Don't display this ad unit if this is a desktop broser and we're supposed to hide the mobile ad unit
+                if(!isMobileQuery && hideOnDesktop === '1') {
+                                        return;
+                }
+
+                googletag.cmd.push(function () {
+                    googletag.display('sidebar-ad');
+                });
+            });
+        </script>
+</div>
+</div>
+</div>
+<div id="block-tektitegenericnewsletterblock" class="block block-tektite-generic-blocks block-tektite-generic-newsletter-multi">
+<form id='mktoForm_12997'></form>
+</div>
+</div>
+<div class="bottom">
+<div class="region region-sidebar-bottom">
+<div id="block-tektitegenericadsidebarblock2" class="block block-tektite-generic-blocks block-tektite-generic-ad-sidebar2">
+<div id='sidebar-ad2-wrapper'>
+<div id='sidebar-ad2'>
+<script type='text/javascript'>
+            document.addEventListener("googletagEvent", function () {
+                let hideOnMobile = "1";
+                
+                let isMobileQuery = false;
+                if (typeof window.dataLayerValues === "undefined" || !window.dataLayerValues.hasOwnProperty('isMobileQuery') || window.dataLayerValues.isMobileQuery) {
+                    isMobileQuery = window.dataLayerValues.isMobileQuery;
+                }
+
+                // Don't display the ad unit if this is a mobile browser and we're supposed to hide the unit in mobile view.
+                if (isMobileQuery && hideOnMobile === '1') {
+                                        return;
+                }
+
+                let hideOnDesktop = "0";
+                // Don't display this ad unit if this is a desktop broser and we're supposed to hide the mobile ad unit
+                if(!isMobileQuery && hideOnDesktop === '1') {
+                                        return;
+                }
+
+                googletag.cmd.push(function () {
+                    googletag.display('sidebar-ad2');
+                });
+            });
+        </script>
+</div>
+</div>
+</div>
+<div class="views-element-container block block-views block-views-blockauthor-block-1" id="block-tektite-pharma-views-block-author-block-1">
+<h2 class="block-title">About the Author</h2>
+<div><div class="js-view-dom-id-8d7a8b070383cf0ff18b87766aa95f79277e92caa11d9ae1a240d79633f945ac">
+<div class="views-row"><div class="views-field views-field-field-author-image"><div class="field-content"> <a href="/author/tracy-staton"><img src="https://qtxasset.com/field/image/tstaton.jpg?ueVlW0PYLevSZZ.YABlg26ybeimkq80D" width="260" height="260" alt="Tracy Staton" typeof="foaf:Image" />
+</a>
+</div></div><div class="views-field views-field-title"><span class="field-content"><div class="author-block-info">
+<div class="title"><a href="/author/tracy-staton" hreflang="en">Tracy Staton</a></div>
+<div class="job">Editor-in-Chief</div>
+<div class="email"><a href="/cdn-cgi/l/email-protection#502422313329103639352233353d31223b3524237e333f3d"><span class="__cf_email__" data-cfemail="80f4f2e1e3f9c0e6e9e5f2e3e5ede1f2ebe5f4f3aee3efed">[email&#160;protected]</span></a></div>
+<div class="twitter"><a href="https://twitter.com/TracyStaton" target="_blank">https://twitter.com/TracyStaton</a></div>
+<div class="linkedin"></div>
+<div class="facebook"></div>
+<div class="instagram"></div>
+</div></span></div></div>
+</div>
+</div>
+</div>
+<div id="block-tektitegenericadhouseblock" class="block block-tektite-generic-blocks block-tektite-generic-ad-house">
+<div id='sidebar-ad3-wrapper'>
+<div id='sidebar-ad3'>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type='text/javascript'>
+            document.addEventListener("googletagEvent", function () {
+                let hideOnMobile = "1";
+                
+                let isMobileQuery = false;
+                if (typeof window.dataLayerValues === "undefined" || !window.dataLayerValues.hasOwnProperty('isMobileQuery') || window.dataLayerValues.isMobileQuery) {
+                    isMobileQuery = window.dataLayerValues.isMobileQuery;
+                }
+
+                // Don't display the ad unit if this is a mobile browser and we're supposed to hide the unit in mobile view.
+                if (isMobileQuery && hideOnMobile === '1') {
+                                        return;
+                }
+
+                let hideOnDesktop = "0";
+                // Don't display this ad unit if this is a desktop broser and we're supposed to hide the mobile ad unit
+                if(!isMobileQuery && hideOnDesktop === '1') {
+                                        return;
+                }
+
+                googletag.cmd.push(function () {
+                    googletag.display('sidebar-ad3');
+                });
+            });
+        </script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</aside>
+</main>
+</div>
+<footer id="footer" role="contentinfo">
+<div class="region region-footer">
+<div id="block-tektitefooterblock" class="block block-tektite-generic-blocks block-generic-footer-block">
+<div class="wrapper">
+<div id="questex" class="footer-info">
+<div class="footer-logo">
+<a class="logo" href="http://questex.com">
+<img alt="" src="/themes/custom/tektite/assets/images/footer-questex.svg" />
+</a>
+</div>
+<div class="wrapper">
+<ul class="footer-menu">
+<li class="menu-item--expanded"><a href="">GENERAL</a>
+<ul class="sub-menu">
+<li class="menu-item"><a href="/">Home</a></li>
+<li class="menu-item"><a href="https://www.questex.com/privacy-policy">Privacy</a></li>
+<li class="menu-item"><a href="https://www.questex.com/terms-of-use">Terms of Use</a></li>
+<li class="menu-item"><a href="/rss-feeds">RSS</a></li>
+</ul>
+ </li>
+<li class="menu-item--expanded"><a href="">CONTACT</a>
+<ul class="sub-menu">
+<li class="menu-item"><a href="/advertise-us">Advertise</a></li>
+<li class="menu-item"><a href="/about-us">About Us</a></li>
+</ul>
+</li>
+<li class="menu-item--expanded"><a href="">NEWSLETTERS</a>
+<ul class="sub-menu">
+<li class="menu-item"><a href="https://pages.questexweb.com/FiercePharma-Newsletter-Signup.html">Subscribe</a></li>
+<li class="menu-item"><a href="https://pages.questexweb.com/Manage-Subscriptions_Manage-Your-Subscriptions.html">Manage Subscriptions</a></li>
+</ul>
+</li>
+<li class="social menu-item--expanded"><a>Connect</a>
+<ul class="social-menu">
+<li>
+<a href="https://www.linkedin.com/groups/5042642">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 18.9 18.9" style="enable-background:new 0 0 18.9 18.9;" xml:space="preserve">
+<path class="st0" d="M17.1,0H1.8C0.8,0,0,0.8,0,1.8v15.4c0,1,0.8,1.8,1.8,1.8h15.4c1,0,1.8-0.8,1.8-1.8V1.8C18.9,0.8,18.1,0,17.1,0z
+             M7.1,15.4H4.7V7.1h2.4V15.4z M5.9,5.9c-0.7,0-1.2-0.5-1.2-1.2s0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2S6.6,5.9,5.9,5.9z M15.4,15.4H13
+            v-4.7c0-0.7-0.5-1.2-1.2-1.2c-0.7,0-1.2,0.5-1.2,1.2v4.7H8.3V7.1h2.4v1.5c0.5-0.7,1.2-1.5,2.1-1.5c1.5,0,2.7,1.3,2.7,3V15.4z" />
+</svg>
+</a>
+</li>
+<li>
+<a href="https://twitter.com/fiercepharma">
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="19.4" height="15.7" viewBox="0 0 19.4 15.7"><path class="st0" d="M17.4 3.9v.5c0 5.2-4 11.3-11.3 11.3-2.2 0-4.3-.7-6.1-1.8h1c1.9 0 3.6-.6 4.9-1.7-1.7 0-3.2-1.2-3.7-2.8.2 0 .5.1.7.1.4 0 .7 0 1-.1C2.1 9 .7 7.4.7 5.5c.6.3 1.2.5 1.9.5C1.5 5.3.8 4.1.8 2.7c0-.7.2-1.4.5-2 2 2.4 4.9 4 8.2 4.2 0-.3-.1-.6-.1-.9 0-2.2 1.8-4 4-4 1.1 0 2.2.5 2.9 1.3.9-.2 1.8-.5 2.5-1-.3.9-.9 1.7-1.7 2.2.8-.1 1.6-.3 2.3-.6-.6.8-1.3 1.5-2 2z" /></svg>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer-message">
+<div class="wrapper">
+<p class="left">
+<span>© 2019 Questex LLC. All rights reserved.
+3 Speen Street, Suite 300, Framingham, MA 01701</span>
+</p>
+<p class="right">
+<span>Reproduction in whole or part is prohibited.</span>
+</p>
+</div>
+</div>
+</div>
+<div id="block-bottomstickyad" class="block block-tektite-ad-blocks block-tektite-generic-ad-bottom-sticky">
+<div id='bottom-sticky-wrapper'>
+<div id='bottom-sticky'>
+<script type='text/javascript'>
+            document.addEventListener("googletagEvent", function () {
+                let hideOnMobile = "0";
+                
+                let isMobileQuery = false;
+                if (typeof window.dataLayerValues === "undefined" || !window.dataLayerValues.hasOwnProperty('isMobileQuery') || window.dataLayerValues.isMobileQuery) {
+                    isMobileQuery = window.dataLayerValues.isMobileQuery;
+                }
+
+                // Don't display the ad unit if this is a mobile browser and we're supposed to hide the unit in mobile view.
+                if (isMobileQuery && hideOnMobile === '1') {
+                                        return;
+                }
+
+                let hideOnDesktop = "0";
+                // Don't display this ad unit if this is a desktop broser and we're supposed to hide the mobile ad unit
+                if(!isMobileQuery && hideOnDesktop === '1') {
+                                        return;
+                }
+
+                googletag.cmd.push(function () {
+                    googletag.display('bottom-sticky');
+                });
+            });
+        </script>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div id="parsely-root" class="hidden"><span id="parsely-cfg" data-parsely-site="fiercepharma.com"></span></div>
+</div>
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/156451","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","ajaxPageState":{"libraries":"addtoany\/addtoany,core\/html5shiv,core\/picturefill,parsely\/parsely-include,qtx_audience\/audienceGeneral,system\/base,tektite\/ads-js,tektite\/global-css,tektite\/global-js,tektite\/webfont.js,tektite_fierce\/GTMscripts,tektite_fierce\/fonts-js,tektite_fierce\/marketo-js,tektite_fierce\/override-css,tektite_fierce\/override-js,views\/views.module","theme":"tektite_fierce","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"parsely":{"parsely-include":{"apikey":"fiercepharma.com"}},"basePath":"www.fiercepharma.com","tektite":{"marketo":{"marketo_munchkin_id":null,"marketo_nlsignup_sidebar_form_id":null}},"tektite_fierce":{"gtm_key":"GTM-KLQFWCZ","marketo_id":"12997"},"r":{"route":{"query":[],"parameters":{"node":"156451"}},"page":{"isSection":false,"isFrontPage":false,"homepageTermId":"33231"}},"user":{"uid":0,"permissionsHash":"c003909b6ff4a05575bdcee340575082f6d46f9bb7cf0ac184a9a467a40e704e"}}</script>
+<script src="/sites/fiercepharma/files/js/js_EmZeXJHpdU4he7YNt0-FW7Pn-0kXZ-t8foo5nFjyFQk.js"></script>
+<script src="/sites/fiercepharma/files/js/js_eJrrbot5nghot36lxpWgiqrXl2jOSCsvcePARo8h6v8.js"></script>
+<script src="//static.addtoany.com/menu/page.js" async></script>
+<script src="/sites/fiercepharma/files/js/js_kDAGLn_-HsU65OR6xew6X6tKKk28OcjntbTKb7tWYQw.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" async></script>
+<script src="/sites/fiercepharma/files/js/js_6txShFh2kqJNyQ8zIiSXaxbK3dpMeRh5Z0PsEAh7qp8.js" defer></script>
+<script src="//app-sj10.marketo.com/js/forms2/js/forms2.min.js"></script>
+<script src="/sites/fiercepharma/files/js/js_73q544uNCCN0u73XVdgWpHaS3PJjIGwfCQpchHb3Ebw.js" defer></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"44925d6b58","applicationID":"51794171","transactionName":"NFBaMhZVDRIHABUPCg0aeQUQXQwPSScTExUCWWQHEUAMEgcVBDkDDEdVOiJbEQw6IhQSChBUTgMiWxEMJBYICgEGRxVYFlENBQMRMQoEAFBQCQhQBhMgDBMLJABBUQkK","queueTime":0,"applicationTime":506,"atts":"GBdZRF5PHhw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

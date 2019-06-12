@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6 ie oldie" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7 ie oldie" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8 ie oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" version="XHTML+RDFa 1.1"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"> <!--<![endif]-->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <link rel="preconnect" href="https://use.typekit.net" crossorigin="anonymous">
+  <link rel="dns-prefetch" href="//use.typekit.net">
+  <link rel="preconnect" href="https://p.typekit.net">
+  <link rel="dns-prefetch" href="//p.typekit.net">
+  <noscript>
+    <link rel="stylesheet" href="https://use.typekit.net/rvt3xyd.css" crossorigin="anonymous"/>
+  </noscript><link rel='preload' href="https://use.typekit.net/hje6qdq.css" as='style' crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="https://www.cato.org/sites/cato.org/files/favicon_1.ico" type="image/vnd.microsoft.icon" />
+<meta name="publication_date" content="2017/3/15"/><meta name="node_creation_date" content="2017/3/15"/><meta name="site" content="Cato Institute"/><meta name="robots" content="noodp" />
+<link rel="image_src" href="https://object.cato.org/sites/cato.org/files/logos/cato-logo.jpg" />
+<link rel="canonical" href="https://www.cato.org/publications/immigration-reform-bulletin/criminal-immigrants-their-numbers-demographics-countries" />
+<link rel="shortlink" href="https://www.cato.org/node/69313" />
+<meta property="fb:admins" content="5311211" />
+<meta property="fb:app_id" content="158687980817033" />
+<meta property="fb:pages" content="26668999076" />
+<meta property="og:site_name" content="Cato Institute" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Criminal Immigrants: Their Numbers, Demographics, and Countries of Origin" />
+<meta property="og:url" content="https://www.cato.org/publications/immigration-reform-bulletin/criminal-immigrants-their-numbers-demographics-countries" />
+<meta property="og:description" content="In his first week in office, President Donald Trump issued an executive order directing the Department of Homeland Security to deport most illegal immigrants who come in contact with law enforcement.1His order is based on the widespread perception that illegal immigrants are a significant source of crime in the United States.2 This brief uses American Community Survey data to analyze incarcerated immigrants according..." />
+<meta property="og:updated_time" content="2017-04-12T13:49:03-04:00" />
+<meta property="og:image" content="https://object.cato.org/sites/cato.org/files/default-social-images/catoresearch_fb.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@CatoInstitute" />
+<meta name="twitter:url" content="https://www.cato.org/publications/immigration-reform-bulletin/criminal-immigrants-their-numbers-demographics-countries" />
+<meta name="twitter:title" content="Criminal Immigrants: Their Numbers, Demographics, and Countries of" />
+<meta name="twitter:description" content="In his first week in office, President Donald Trump issued an executive order directing the Department of Homeland Security to deport most illegal immigrants who come in contact with law" />
+<meta property="article:published_time" content="2017-03-15T10:15:00-04:00" />
+  <title>Criminal Immigrants: Their Numbers, Demographics, and Countries of Origin | Cato Institute</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link rel="preconnect" href="https://s3.amazonaws.com">
+  <link rel="preconnect" href="https://use.fontawesome.com">
+  <link rel="preconnect" href="https://customer.cludo.com">
+  <link rel="preconnect" href="https://api.cludo.com">
+  <link rel="dns-prefetch" href="//fonts.gstatic.com">
+  <link rel="dns-prefetch" href="//s3.amazonaws.com">
+  <link rel="dns-prefetch" href="//use.fontawesome.com">
+  <link rel="dns-prefetch" href="//customer.cludo.com">
+  <link rel="dns-prefetch" href="//api.cludo.com">
+  <link rel="preconnect" href="https://api.hubapi.com">
+  <link rel="dns-prefetch" href="//api.hubapi.com">
+  <link rel="preconnect" href="https://track.hubspot.com">
+  <link rel="dns-prefetch" href="//track.hubspot.com">
+  <link rel="preconnect" href="https://connect.facebook.net">
+  <link rel="dns-prefetch" href="//connect.facebook.net">
+  <link rel="preconnect" href="//stats.g.doubleclick.net" />
+  <link rel="dns-prefetch" href="//stats.g.doubleclick.net" />
+  <link rel="preconnect" href="https://hubspot-microservice.cato.org">
+  <link rel="dns-prefetch" href="//hubspot-microservice.cato.org">
+  <link rel="preconnect" href="//www.google-analytics.com" />
+  <link rel="dns-prefetch" href="//www.google-analytics.com" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0">
+  <link rel="preload" href="https://fonts.gstatic.com/s/notoserif/v6/ga6Iaw1J5X9T9RW6j9bNfFcWaDq8fMU.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://fonts.gstatic.com/s/notoserif/v6/ga6Kaw1J5X9T9RW6j9bNfFImajC7XsdBMg.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <style>@font-face{font-family:'Noto Serif';font-display:fallback;font-style:normal;font-weight:400;src:local('Noto Serif'),local('NotoSerif'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Iaw1J5X9T9RW6j9bNfFcWaDq8fMU.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:italic;font-weight:400;src:local('Noto Serif Italic'),local('NotoSerif-Italic'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Kaw1J5X9T9RW6j9bNfFImajC7XsdBMg.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:italic;font-weight:700;src:local('Noto Serif Bold Italic'),local('NotoSerif-BoldItalic'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Vaw1J5X9T9RW6j9bNfFIu0RWuc-VMGIUYDw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:normal;font-weight:700;src:local('Noto Serif Bold'),local('NotoSerif-Bold'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Law1J5X9T9RW6j9bNdOwzfReece9LOoc.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:italic;font-weight:400;src:local('Noto Serif Italic'),local('NotoSerif-Italic'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Kaw1J5X9T9RW6j9bNfFImZDC7XsdBMr8R.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:italic;font-weight:700;src:local('Noto Serif Bold Italic'),local('NotoSerif-BoldItalic'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Vaw1J5X9T9RW6j9bNfFIu0RWufeVMGIUYD6_8.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:normal;font-weight:400;src:local('Noto Serif'),local('NotoSerif'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Iaw1J5X9T9RW6j9bNfFkWaDq8fMVxMw.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Noto Serif';font-display:fallback;font-style:normal;font-weight:700;src:local('Noto Serif Bold'),local('NotoSerif-Bold'),url(https://fonts.gstatic.com/s/notoserif/v6/ga6Law1J5X9T9RW6j9bNdOwzfRmece9LOocoDg.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Shadows Into Light Two';font-display:fallback;font-style:normal;font-weight:400;src:local('Shadows Into Light Two'),local('ShadowsIntoLightTwo-Regular'),url(https://fonts.gstatic.com/s/shadowsintolighttwo/v5/4iC86LVlZsRSjQhpWGedwyOoW-0A6_kpsyNmpALHGZFkMFzObw.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Shadows Into Light Two';font-display:fallback;font-style:normal;font-weight:400;src:local('Shadows Into Light Two'),local('ShadowsIntoLightTwo-Regular'),url(https://fonts.gstatic.com/s/shadowsintolighttwo/v5/4iC86LVlZsRSjQhpWGedwyOoW-0A6_kpsyNmpAzHGZFkMFw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}</style>
+  <link href="https://customer.cludo.com/css/templates/v1.1/essentials/cludo-search.min.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/css/css_rEI_5cK_B9hB4So2yZUtr5weuEV3heuAllCDE6XsIkI.css" media="all" />
+<link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/css/css_KjM-vI880FQBOJlLzZAZR9EtGD82yidsxSOC6Lm2IK4.css" media="all" />
+<link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/css/css_Y8UJm3yOW6MfI7_nS6rJiIsG4ELCKJ5jJZYbtMpLmhg.css" media="all" />
+<link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/css/css_FLlu6XpjzE-zvGvoA5H_vHQ3g03UT9BrnfdWxcJMImc.css" media="all" />
+<link rel="stylesheet" href="https://www.cato.org/sites/cato.org/files/css/css_zbDR5tReWaOFBxwT24aN7i116Dd56CKV2hhimmcKmWA.css" media="all" />
+  <script defer src="https://use.fontawesome.com/8f74555eb5.js"></script>
+  <!-- Do you want IE to work? -->
+  <!--[if lt IE 9 ]>
+  <script defer src="https://files.cato.org/sites/all/themes/cato/_js/libs/ieshiv.js"></script>
+  <script defer src="https://files.cato.org/sites/all/themes/cato/_js/browser-update.js"></script>
+  <![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-69313 node-type-publications pub-page" >
+<div id="skip-link">
+  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<header id="header" class="header">
+  <div class="wrapper">
+
+    <a href="/" title="Home" rel="home" id="logo" class="hdr-logo">
+      <img src="/sites/cato.org/files/cato-logo_0.png" alt="Home">
+    </a>
+
+    <div id="block-system-main-menu-trigger"><i class="fa fa-bars"></i></div>
+    <div id="main-search-trigger"><i class="fa fa-search"></i></div>
+
+    <!--googleoff: index-->
+    <div class="region region-menu">
+      <div id="block-catomegamenu-catomegamenu"
+           class="block block-catomegamenu main-nav">
+        <div class="content">
+          <div class="item-list">
+            <ul class="menu">
+              <li
+                class="expanded level-1 mega-top-link catomegamenu-research first">
+                <a href="/research">Research</a></li>
+              <li class="expanded level-1 mega-top-link catomegamenu-events"><a
+                  href="/events">Events</a></li>
+              <li
+                class="expanded level-1 mega-top-link catomegamenu-publications">
+                <a
+                  href="/publications">Publications</a></li>
+              <li
+                class="expanded reverse-flyout level-1 mega-top-link catomegamenu-commentary">
+                <a href="/commentary">Commentary</a></li>
+              <li
+                class="expanded reverse-flyout level-1 mega-top-link catomegamenu-store">
+                <a href="http://www.cato.org/store/">Store</a></li>
+              <li
+                class="expanded reverse-flyout level-1 mega-top-link catomegamenu-support last">
+                <a href="/support">Support</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <nav id="block-menu-menu-submenu" class="block block-menu nav-sub">
+        <div class="content">
+          <ul class="menu">
+            <li class="first leaf level-1"><a href="/about">About Cato</a></li>
+            <li class="leaf level-1"><a href="/blog">Blog</a></li>
+            <li class="leaf level-1"><a href="/people/policy-scholars">Our
+                Experts</a>
+            </li>
+            <li class="leaf level-1"><a href="/projects">Our Centers</a></li>
+            <li class="leaf level-1"><a
+                href="https://www.facebook.com/CatoInstitute"
+                rel="me" target="_blank"><i
+                  class="fa fa-facebook-square"></i>Facebook</a></li>
+            <li class="last leaf level-1"><a
+                href="https://twitter.com/catoinstitute"
+                rel="me" target="_blank"><i
+                  class="fa fa-twitter"></i>Twitter</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="block-block-57" class="block block-block hdr-search">
+        <div class="content">
+          <form class="search-form" action="/search"
+                method="get"
+                id="cludo-search-form" accept-charset="UTF-8" target="_self">
+            <div>
+              <div class="container-inline">
+                <h2 class="element-invisible">Search form</h2>
+                <div
+                  class="form-item form-type-searchfield form-item-search-block-form">
+                  <label class="element-invisible"
+                         for="edit-search-block-form--2">Search
+                    this site </label>
+                  <input title="Enter the terms you wish to search for."
+                         class="custom-search-box form-text form-search"
+                         placeholder="Search" type="search"
+                         id="edit-search-block-form--2" name="q" value=""
+                         size="15"
+                         maxlength="128"></div>
+                <div class="form-actions form-wrapper" id="edit-actions"><input
+                    type="submit" id="edit-submit" name="op" value="Search"
+                    class="form-submit"></div></div>
+            </div>
+          </form>
+        </div>
+      </div>
+          </div>
+        <!--googleon: index-->
+
+  </div>
+</header> <!-- /#header -->
+
+<div class="wrapper">
+  <div id="content" role="main">
+
+    
+    <section id="page-area">
+      <a id="main-content"></a>
+                                <div class="tabs">
+          </div>
+                                <div class="region region-content" data-swiftype-index='true'>
+    <div id="block-system-main" class="block block-system">
+
+      
+  <div class="content">
+    <div class="pub-section-head">
+  Immigration Research and Policy Brief  No. 1</div>
+
+<h1 class="page-h1" data-swiftype-name="title" data-swiftype-type="string">Criminal Immigrants: Their Numbers, Demographics, and Countries of Origin</h1>
+
+<article about="/publications/immigration-reform-bulletin/criminal-immigrants-their-numbers-demographics-countries" typeof="sioc:Item foaf:Document" class="node-type--publications view-mode--full">
+
+  <footer class="byline">
+          <div id="pub-authors">By 
+  Michelangelo Landgrave and <a href="/people/alex-nowrasteh" typeof="foaf:Person" property="foaf:name" rel="foaf:publications" html="1">Alex Nowrasteh</a></div>
+        
+  <div class="field-date">
+    <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-03-15T10:15:00-04:00">March 15, 2017</span>  </div>
+  </footer>
+
+  
+  
+  <div class="article-body body-text dropcap-detail-text" data-swiftype-name="body" data-swiftype-type="text">
+    
+  <div class="field-body">
+    <p>In his first week in office, President Donald Trump issued an executive order directing the Department of Homeland Security to deport most illegal immigrants who come in contact with law enforcement.<sup>1</sup>His order is based on the widespread perception that illegal immigrants are a significant source of crime in the United States.<sup>2</sup> This brief uses American Community Survey data to analyze incarcerated immigrants according to their citizenship and legal status. All immigrants are less likely to be incarcerated than natives relative to their shares of the population. Even illegal immigrants are less likely to be incarcerated than native-born Americans.</p>  </div>
+
+    <p><a href="/publications/immigration-reform-bulletin/criminal-immigrants-their-numbers-demographics-countries#full">Continue to full version <i class="fa fa-long-arrow-right"></i></a></p>  </div>
+
+      <div class="pdf-section clearfix">
+      <a href="https://object.cato.org/sites/cato.org/files/pubs/pdf/immigration_brief-1.pdf" target="_blank" title=" PDF (420.38 KB)">
+  <div class="field-cover-image">
+    <img typeof="foaf:Image" src="https://object.cato.org/sites/cato.org/files/styles/pdf/s3/pubs/covers/immigration-brief-1.jpg?itok=AXnCKJKM" width="410" height="530" alt="" />  </div>
+</a>      <div class="cover-text">
+        <h4 class="page-h2">Downloads</h4><ul class="byline"><li class="pdf first last"><a href="https://object.cato.org/sites/cato.org/files/pubs/pdf/immigration_brief-1.pdf"><i class="fa fa-download"></i> PDF (420.38 KB)</a></li>
+</ul>      </div>
+    </div>
+  
+  
+  
+  <a name="full"></a>
+  
+  <div class="field-study-html body-text">
+    <p><strong>BACKGROUND</strong><br>
+Estimates of the total criminal noncitizen population vary widely,
+from about 820,000 according to the Migration Policy Institute to
+1.9 million according to Immigration and Customs Enforcement (ICE),
+but rarely is the number of those incarcerated
+estimated.<sup>3</sup></p>
+<p>Empirical studies of immigrant criminality generally find that
+immigrants do not increase local crime rates and are less likely to
+cause crime than their native-born peers, and that natives are more
+likely to be incarcerated than immigrants.<sup>4</sup> There are
+two broad strands of this literature. The first is an area approach
+that analyzes how immigrants affect crime in locations where they
+settle, finding a general decrease in crime rates.<sup>5</sup> The
+second broad strand of research examines immigrant
+institutionalization rates and uniformly finds that that
+native-born Americans are more likely to be incarcerated than
+immigrants as a percentage of their population.<sup>6</sup></p>
+<p>Illegal immigrant incarceration rates are not well studied,
+although one investigation estimated that 4.6 percent of Texas
+inmates are illegal immigrants while illegal immigrants comprise
+6.3 percent of that state&#8217;s total population.<sup>7</sup></p>
+<p>The best research on illegal immigrant crime exploits a natural
+experiment to see how the removal of illegal immigrants from an
+area through the Secure Communities (SCOMM) program affects local
+crime rates. SCOMM was an interior immigration enforcement program
+started in 2008 that checked the fingerprints of local and state
+arrestees against federal immigration databases. If ICE suspected
+the arrestee of being an illegal immigrant, then ICE would issue a
+detainer to hold the arrestee until ICE could pick them up. The
+Obama administration ended SCOMM in 2014, but the Trump
+administration reactivated it. If illegal immigrants were more
+crime prone than natives, the crime rates in those local areas that
+were first enrolled in the program should have seen crime decline
+relative to areas that were not. As it turned out, SCOMM had no
+significant effect on local crime rates, which means that illegal
+immigrants were not more crime prone than natives.<sup>8</sup></p>
+<p><strong>METHODOLOGY</strong><br>
+This brief uses the United States Census&#8217;s American Community
+Survey (ACS) to focus on immigrants aged 18 to 54 who are
+incarcerated in the United States, their incarceration rates, and
+their demographics for 2014. ACS inmate data is reliable because it
+is ordinarily collected by or under the supervision of correctional
+institution administrators.<sup>9</sup></p>
+<p>We do not attempt to count the number of immigrant ex-felons,
+criminally inadmissible aliens who entered unlawfully, or other
+non-incarcerated foreigners. The ACS counts the incarcerated
+population by their nativity and naturalization status, but local
+and state governments do not record whether the prisoner is an
+illegal immigrant.<sup>10</sup> As a result, we have to use common
+statistical methods to identify illegal immigrant prisoners by
+excluding incarcerated respondents who have characteristics that
+they are unlikely to have.<sup>11</sup> In other words, we can
+identify likely illegal immigrants by looking at prisoners with
+individual characteristics that are highly correlated with being an
+illegal immigrant. Those characteristics are that the immigrant
+must have entered the country after 1982 (the cut-off date for the
+1986 Reagan amnesty), cannot have been in the military, cannot be
+receiving Social Security or Railroad Retirement Income, cannot
+have been covered by Veteran Affairs or Indian Health Services, was
+not a citizen of the United States, is not living in a household
+where somebody received Food Stamps (unless the individual has a
+child living with them as the child may be eligible if they are a
+U.S. citizen), and was not of Puerto Rican or Cuban origin if
+classified as a Hispanic.</p>
+<p>Another limitation of the ACS data is that our estimates of the
+illegal immigrant population include some legal migrants who are
+here on other visas but whose answers are consistent with those of
+illegal immigrants. As a result, we likely overestimate the number
+of illegal immigrants who are incarcerated. Thus, our estimates of
+the illegal immigrant incarcerated population and incarceration
+rate are likely greater than they really are due to ACS&#8217;s data
+limitations.</p>
+<p>The majority of inmates in the public-use microdata version of
+the ACS are in correctional facilities, but the data also include
+those in mental health, handicapped, and elderly care
+institutions.12 This adds ambiguity to our findings about the
+illegal immigrant population but not about the immigrant population
+as a whole, because the ACS releases macro-demographic snapshots of
+inmates in correctional facilities, which allows us to check our
+work.<sup>13</sup> This ambiguity in illegal immigrant
+incarceration rates is why we narrowed the age range to 18-54 so as
+to exclude inmates in mental health and retirement facilities.</p>
+<p>Few prisoners are under the age of 18, but many in mental health
+facilities are juveniles. Many of those above the age of 54 are in
+elderly care institutions. Few illegal immigrants are elderly, so
+narrowing the age range does not exclude many individuals from our
+analysis.<sup>14</sup> Our count of all prisoners between the ages
+of 18 and 54 is 8 percent below that of the ACS
+snapshot.<sup>15</sup> Natives in our results include both those
+born in the United States and those born abroad to American
+parents.</p>
+<p>INCARCERATIONS There were an estimated 2,007,502 natives,
+122,939 illegal immigrants, and 63,994 legal immigrants
+incarcerated in 2014. The incarceration rate was 1.53 percent for
+natives, 0.85 percent for illegal immigrants, and 0.47 percent for
+legal immigrants (see Figure 1). Illegal immigrants are 44 percent
+less likely to be incarcerated than natives. Legal immigrants are
+69 percent less likely to be incarcerated than natives. Legal and
+illegal immigrants are underrepresented in the incarcerated
+population while natives are overrepresented (see Figure 2). If
+native-born Americans were incarcerated at the same rate as illegal
+immigrants, about 893,000 fewer natives would be incarcerated. If
+natives were incarcerated at the same rate as legal immigrants,
+about 1.4 million fewer natives would be incarcerated.</p>
+<p><img src=
+"https://object.cato.org/sites/cato.org/files/images/pubs/immigration-research-brief-1-figure-1.png"
+style="width: 600px; height: auto;"></p>
+<p><img src=
+"https://object.cato.org/sites/cato.org/files/images/pubs/immigration-research-brief-1-figure-2.png"
+style="width: 600px; height: auto;"></p>
+<p>The ACS data include illegal immigrants incarcerated for
+immigration offenses and in ICE detention facilities.<sup>16</sup>
+Subtracting out the 17,000 convicted for immigration offenses and
+the 34,000 in ICE detention to focus on non-immigration alien
+offenders lowers the illegal immigrant incarceration rate to 0.50
+percent, which brings it close to the legal immigrant incarceration
+rate of 0.47 percent.<sup>17</sup></p>
+<p><strong>Robustness Checks for Counting the Illegal Immigrant
+Population</strong><br>
+The variable choices we made in analyzing the ACS data can affect
+the number of illegal immigrants we identify. We altered some of
+the variables to see if the results significantly changed. First,
+we decided to include illegal immigrants who lived in households
+with users of means-tested welfare benefits. Illegal immigrants do
+not have access to these benefits but U.S. citizens and some lawful
+permanent residents in their households do. This dropped the
+illegal immigrant incarceration rate to 0.81 percent, increased the
+legal immigrant incarceration rate to 0.49 percent, and did not
+affect the native incarceration rate.</p>
+<p>Our second robustness check excluded all immigrants who entered
+the United States after 2006. Immigrants on lawful permanent
+residency can apply for citizenship after five years, guaranteeing
+that most of the lawful permanent residents who are able to
+naturalize have done so, which decreases the pool of potential
+illegal immigrants in our sample. This robustness check shrinks the
+size of the incarcerated illegal immigrant population to 89,402 but
+slightly raises their incarceration rate to 0.93 percent because
+the size of the non-incarcerated illegal immigrant population in
+the general population shrank more. Those variable changes did not
+affect our results enough to undermine our confidence in the
+findings.</p>
+<p><strong>DEMOGRAPHIC AND SOCIAL CHARACTERISTICS</strong><br>
+Different racial groups in the United States have widely varying
+incarceration rates even within each immigrant category (see Table
+1). All racial groups exclude Hispanics, and the Hispanic category
+includes those who self-identify as Hispanic regardless of race. By
+race and ethnicity, every group of legal and illegal immigrants has
+a lower incarceration rate than their native peers. Even the
+incarceration rate for illegal immigrants is lower than the
+incarceration rate for native white Americans. The racial and
+ethnic incarceration rates reported here are very close to those in
+the ACS&#8217;s macro- demographic snapshot of adult correctional
+facilities.<sup>18</sup></p>
+<p>Immigrants from certain parts of the world are more likely to be
+incarcerated than others (see Table 2). Of all legal immigrants,
+those from Oceania, North America, and Latin America have,
+respectively, the three highest incarceration rates. For illegal
+immigrants, those from other regions of the world have the highest
+incarceration rate of any group followed by those from Latin
+America. Across all broad groups, those born in the United States
+have the highest incarceration rate. Curiously, those born to
+American parents overseas in the Middle East have the highest
+incarceration rate of any native-born subgroup at 2.15 percent. The
+distribution of prisoners by their immigration status and region of
+origin shows that a full 7.27 percent of all prisoners are from
+Latin America while 90.64 percent were born in the United States
+(see Table 3). Latin American illegal and legal immigrant prisoners
+are about 50 percent more likely to be incarcerated than their
+percent of the population would suggest.</p>
+<p>Almost 89 percent of all prisoners are men, while only 11.47
+percent are women (see Table 4). The percentage of legal immigrant
+prisoners who are men or women is very similar to that of natives.
+However, illegal immigrant women are even less likely to be in
+prison than native or legal immigrant women.</p>
+<p>Prisoners in every group are more likely to have less education
+(see Table 5). Very few more highly educated illegal immigrants and
+natives are in prison. A full 56.4 percent of all natives have some
+college education or above compared to 18.1 percent of native
+prisoners. Although 38.9 percent of illegal immigrants have at
+least some college education, only 13.2 of illegal immigrant
+prisoners have at least some college.<sup>19</sup> More highly
+educated people in every immigration category tend to avoid
+incarceration.</p>
+<p><img src=
+"https://object.cato.org/sites/cato.org/files/images/pubs/immigration-research-brief-1-table-1.png"
+style="width: 600px; height: auto;"></p>
+<p><img src=
+"https://object.cato.org/sites/cato.org/files/images/pubs/immigration-research-brief-1-table-2.png"
+style="width: 600px; height: auto;"></p>
+<p><img src=
+"https://object.cato.org/sites/cato.org/files/images/pubs/immigration-research-brief-1-table-3.png"
+style="width: 600px; height: auto;"></p>
+<p><img src=
+"https://object.cato.org/sites/cato.org/files/images/pubs/immigration-research-brief-1-table-4.png"
+style="width: 400px; height: auto;"></p>
+<p><img src=
+"https://object.cato.org/sites/cato.org/files/images/pubs/immigration-research-brief-1-table-5.png"
+style="width: 600px; height: auto;"></p>
+<p><strong>CONCLUSION</strong><br>
+Legal and illegal immigrants are less likely to be incarcerated
+than natives. Our numbers do not represent the total number of
+immigrants who can be deported under current law or the complete
+number of convicted immigrant criminals who are in the United
+States, but merely those incarcerated. This report provides numbers
+and demographic characteristics to better inform the public policy
+debate over immigration and crime.</p>
+<p><strong>NOTES</strong></p>
+<p>1. “Executive Order: Enhancing Public Safety in the Interior of
+the United States,” Executive Order of the President, January 25,
+2017,
+https://www.whitehouse.gov/the-press-office/2017/01/25/presidentialexecutive-order-enhancing-public-safety-interior-united.</p>
+<p>2. Lesley Stahl, “President-Elect Trump Speaks to a Divided
+Country on <em>60 Minutes</em>,” CBS News, November 13, 2016,
+http://www.cbsnews.com/news/60-minutes-donald-trump-familymelania-ivanka-lesley-stahl/.</p>
+<p>3. U.S. Department of Homeland Security, “U.S. Immigration and
+Customs Enforcement Salaries and Expenses,” Congressional
+Submission (Washington: Department of Homeland Security, 2013), p.
+61,
+https://www.dhs.gov/library/assets/mgmt/dhs-congressionalbudget-justification-fy2013.pdf.
+Marc R. Rosenblum, “Understanding the Potential Impact of Executive
+Action on Immigration Enforcement,” Migration Policy Institute,
+July 2015, p. 11,
+http://www.migrationpolicy.org/research/understanding-potentialimpact-executive-action-immigration-enforcement.</p>
+<p>4. Kristin F. Butcher and Anne Morrison Piehl, “The Role of
+Deportation in the Incarceration of Immigrants,” in <em>Issues in
+the Economics of Immigration</em>, George J. Borjas, ed. (Chicago,
+IL: University of Chicago Press, 2000), pp. 351-86; Kristin F.
+Butcher and Anne Morrison Piehl, “Why Are Immigrants’ Incarceration
+Rates so Low? Evidence on Selective Immigration, Deterrence, and
+Deportation,” NBER Working Paper no. 13229, National Bureau of
+Economic Research, July 2007; Alex Nowrasteh, “Immigration and
+Crime-What the Research Says,” Cato at Liberty, July 14, 2015,
+https://www.cato.org/blog/immigration-crime-whatresearch-says.</p>
+<p>5. Jacob I. Stowell, Steven F. Messner, Kelly F. McGeever, and
+Lawrence E. Raffalovich, “Immigration and the Recent Violent Crime
+Drop in the United States: A Pooled, Cross-Sectional Time-Series
+Analysis of Metropolitan Areas,” <em>Criminology</em> 47, no. 3
+(2009): 889-928; Lesley Williams Reid, Harald E. Weiss, Robert M.
+Adelman, and Charles Jaret, “The Immigration-Crime Relationship:
+Evidence across US Metropolitan Areas,” Social Science Research 34,
+no. 4 (2005): 757-80; Matthew T. Lee, Ramiro Martinez, and Richard
+Rosenfeld, “Does Immigration Increase Homicide?” <em>The
+Sociological Quarterly</em> 42, no. 4 (2001): 559-80.</p>
+<p>6. Butcher and Piehl, “The Role of Deportation in the
+Incarceration of Immigrants”; Butcher and Piehl, “Why Are
+Immigrants’ Incarceration Rates So Low?”&nbsp;; Walter A. Ewing, Daniel
+E. Martinez, and Ruben G. Rumbaut, “The Criminalization of
+Immigration in the United States,” <em>American Immigration Council
+Special Report</em>, July 2015.</p>
+<p>7. Nicole Cobler, “Less Than 5 Percent of Texas Prison Inmates
+Are Undocumented,” <em>Texas Tribune</em>, February 19, 2016,
+https://www.texastribune.org/2016/02/19/ice-records-reveal-makeupundocumented-prison-popu/.</p>
+<p>8. Thomas J. Miles and Adam B. Cox, “Does Immigration
+Enforcement Reduce Crime? Evidence from Secure Communities,”
+<em>Journal of Law and Economics</em> 57, no. 4 (2014): 937-73;
+Elina Treyger, Aaron Chalfin, and Charles Loeffler, “Immigration
+Enforcement, Policing, and Crime,” <em>Criminology & Public
+Policy</em> 13, no. 2 (2014): 285-322.</p>
+<p>9. Butcher and Piehl, “The Role of Deportation in the
+Incarceration of Immigrants,” pp. 351-86.</p>
+<p>10. Steven Ruggles, et al.,”Integrated Public Use Series:
+Version 6.0,” 2015, Minneapolis: University of Minnesota;
+incarceration rates and characteristics of immigrants incarcerated
+in the United States who are between 18 and 54 years of age for the
+years 2008 to 2014 (Figure 1).</p>
+<p>11. Butcher and Piehl, “Why Are Immigrants’ Incarceration Rates
+So Low?” Enrico A. Marcelli and David M. Heer, “The Unauthorized
+Mexican Immigrant Population and Welfare in Los Angeles County: A
+Comparative Statistical Analysis,” <em>Sociological
+Perspectives</em> 41, no. 2 (1998): 279-302; Robert Warren,
+“Democratizing Data about Unauthorized Residents in the United
+States: Estimates and Public-Use Data, 2010 to 2013,” <em>Journal
+on Migration and Human Security</em> 2, no. 4 (2014): 305-28; Pia
+M. Orrenius and Madeline Zavodny, “Do State Work Eligibility
+Verification Laws Reduce Unauthorized Immigration?” <em>IZA Journal
+of Migration</em> 5, no. 1 (2016): 1-17. 12. Butcher and Piehl,
+“The Role of Deportation in the Incarceration of Immigrants,” pp.
+351-86; Butcher and Piehl, “Why Are Immigrants’ Incarceration Rates
+so Low?”</p>
+<p>13. American Community Survey, “Characteristics of the Group
+Quarters Population by Group Quarters Type,” Table S2601B 1-Year
+Estimates, 2014.</p>
+<p>14. Jeffrey S. Passel and D&#8217;Vera Cohn, “A Portrait of
+Unauthorized Immigrants in the United States,” Pew Research Center,
+April 14, 2009.</p>
+<p>15. American Community Survey, “Characteristics of the Group
+Quarters Population by Group Quarters Type.”</p>
+<p>16. 2015 American Community Survey/Puerto Rico Community Survey
+Group Quarters Definition, https://www2.census.gov/
+programs-surveys/acs/tech_docs/group_definitions/2015GQ_Definitions.pdf.</p>
+<p>17. Bureau of Justice Statistics, Corrections Statistical
+Analysis Tool (CSAT)-Prisoners;
+https://www.bjs.gov/content/pub/pdf/p08.pdf.</p>
+<p>18. American Community Survey, “Characteristics of the Group
+Quarters Population by Group Quarters Type.”</p>
+<p>19. Passel and Cohn.</p>
+  </div>
+</article>
+
+<div class="pub-page-share-tools"><div class="pub-page-share-tools-rel"><ul class="pub-page-share-list"><li class="twitter first"><a href="https://twitter.com/intent/tweet?url=https%3A//www.cato.org/publications/immigration-reform-bulletin/criminal-immigrants-their-numbers-demographics-countries&amp;text=Criminal%20Immigrants%3A%20Their%20Numbers%2C%20Demographics%2C%20and%20Countries%20of%20Origin&amp;via=CatoInstitute&amp;related=Libertarianism" target="_blank" rel="nofollow"><i class="fa fa-fw fa-twitter "></i>Tweet</a></li>
+<li class="facebook"><a href="https://www.facebook.com/dialog/share?app_id=158687980817033&amp;href=https%3A//www.cato.org/publications/immigration-reform-bulletin/criminal-immigrants-their-numbers-demographics-countries" target="_blank" rel="nofollow"><i class="fa fa-fw fa-facebook-square "></i>Like</a></li>
+<li class="reddit"><a href="https://reddit.com/https://www.cato.org/publications/immigration-reform-bulletin/criminal-immigrants-their-numbers-demographics-countries" target="_blank" rel="nofollow"><i class="fa fa-fw fa-reddit fa-lg "></i>Submit</a></li>
+<li class="linkedin last"><a href="https://www.linkedin.com/shareArticle?url=https%3A//www.cato.org/publications/immigration-reform-bulletin/criminal-immigrants-their-numbers-demographics-countries&amp;mini=true&amp;title=Criminal%20Immigrants%3A%20Their%20Numbers%2C%20Demographics%2C%20and%20Countries%20of%20Origin&amp;source=Cato%20Institute" target="_blank" rel="nofollow"><i class="fa fa-fw fa-linkedin fa-lg "></i>Share</a></li>
+</ul></div></div><!-- share-tools -->
+
+<div class="expert-attribution clearfix">
+      <div class="expert-attribution-text quote">
+      
+  <div class="field-auth-bio">
+    Michelangelo Landgrave is a doctoral student in political science at the University of California, Riverside. <a href="https://www.cato.org/people/alex-nowrasteh">Alex Nowrasteh</a> is an immigration policy analyst at the Cato Institute’s Center for Global Liberty and Prosperity.  </div>
+    </div>
+</div><!-- expert-atribution -->
+  </div>
+</div>
+<div id="block-block-30" class="block block-block creative-commons clearfix">
+
+      
+  <div class="content">
+    <p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>  </div>
+</div>
+  </div>
+            <!--googleoff: index-->
+                        <!--googleon: index-->
+    </section>
+    <!-- /#content -->
+
+  </div>
+</div> <!-- /#main -->
+
+<!--googleoff: index-->
+<footer class="main-footer">
+  <div class="wrapper">
+    <aside class="region region-footer-fourth col-1">
+      <div id="block-block-27" class="block block-block ftr-signup">
+
+        <h3 class="section-h3">Cato Today Newsletter</h3>
+
+        <div class="content">
+          <p class="ftr-txt"><i>Daily dose of liberty delivered straight to your inbox.</i></p>
+          <!-- Begin MailChimp Signup Form -->
+
+
+          <!--[if lte IE 8]>
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+          <![endif]-->
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+          <script>
+            hbspt.forms.create({
+              portalId: "4957480",
+              formId: "04e35c5d-83a7-4a31-9eed-0fb940cb121b"
+            });
+          </script>
+
+          <!--End mc_embed_signup-->
+
+          <p class="ftr-txt"><a
+              href="/ecommunity?utm_source=mailchimp-signup&utm_medium=banner&utm_campaign=ecommunity-mailchimp-signup"
+              target="_blank">View full list of newsletters</a></p>
+        </div>
+      </div>
+    </aside>
+    <aside class="region region-footer-third col-2">
+      <div id="block-menu-menu-also-from-cato"
+           class="block block-menu ftr-list">
+
+        <h3 class="section-h3">Also from Cato</h3>
+
+        <div class="content">
+          <ul class="menu">
+            <li class="first leaf level-1"><a href="/students" rel="me">Internships
+                and Student Programs</a></li>
+            <li class="leaf level-1"><a
+                href="https://www.downsizinggovernment.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato" rel="me"
+                target="_blank">DownsizingGovernment.org</a></li>
+            <li class="leaf level-1"><a href="https://www.libertarianism.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato"
+                                        rel="me" target="_blank">Libertarianism.org</a>
+            </li>
+            <li class="leaf level-1"><a href="http://humanprogress.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato"
+                                        rel="me" target="_blank">HumanProgress.org</a>
+            </li>
+            <li class="leaf level-1"><a href="https://www.cato-unbound.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato"
+                                        rel="me" target="_blank">Cato
+                Unbound</a></li>
+            <li class="leaf level-1"><a href="https://www.unlawfulshield.com?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato"
+                                        rel="me" target="_blank">Unlawful Shield</a>
+            </li>
+            <li class="leaf level-1"><a
+                href="https://www.freedominthe50states.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato" rel="me"
+                target="_blank">Freedom in the 50 States</a></li>
+            <li class="leaf level-1"><a href="https://overlawyered.com?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato" rel="me"
+                                        target="_blank">Overlawyered</a></li>
+            <li class="leaf level-1"><a href="https://www.elcato.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato" rel="me"
+                                        target="_blank">ElCato.org</a></li>
+            <li class="last leaf level-1"><a href="https://www.alt-m.org?utm_source=cato_footer&utm_medium=menu&utm_campaign=also_from_cato"
+                                             rel="me" target="_blank">Alt-M</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <aside class="region region-footer-second col-3">
+      <div id="block-menu-menu-social-media" class="block block-menu ftr-list">
+
+        <h3 class="section-h3">Social Media</h3>
+
+        <div class="content">
+          <ul class="menu">
+            <li class="first leaf level-1"><a
+                href="https://www.facebook.com/CatoInstitute" rel="me"
+                class="link-facebook" target="_blank"><i
+                  class="fa fa-facebook-square fa-fw"></i> Facebook</a></li>
+            <li class="leaf level-1"><a href="https://twitter.com/catoinstitute"
+                                        rel="me" class="link-twitter"
+                                        target="_blank"><i
+                  class="fa fa-twitter fa-fw"></i> Twitter</a></li>
+            <li class="leaf level-1"><a
+                href="https://www.youtube.com/catoinstitutevideo" rel="me"
+                class="link-youtube" target="_blank"><i
+                  class="fa fa-youtube-play fa-fw"></i> YouTube</a></li>
+            <li class="leaf level-1"><a
+                href="https://www.linkedin.com/company/cato-institute" rel="me"
+                class="link-linkedin" target="_blank"><i
+                  class="fa fa-linkedin fa-fw"></i> LinkedIn</a></li>
+            <li class="leaf level-1"><a
+                href="https://instagram.com/catoinstitute" rel="me"
+                class="link-instagram" target="_blank"><i
+                  class="fa fa-instagram fa-fw"></i> Instagram</a></li>
+            <li class="leaf level-1"><a href="https://catoinstitute.tumblr.com"
+                                        rel="me" class="link-tumblr"
+                                        target="_blank"><i
+                  class="fa fa-tumblr fa-fw"></i> Tumblr</a></li>
+            <li class="last leaf level-1"><a
+                href="https://www.cato.org/ecommunity/rss" class="link-rss"><i
+                  class="fa fa-rss fa-fw"></i> RSS</a></li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <aside class="region region-footer-first col-4">
+      <div id="block-block-1" class="block block-block ftr-info">
+
+
+        <div class="content">
+          <a href="/" class="ftr-logo"><img
+              src="/sites/cato.org/files/cato-logo_0.png"/></a>
+          <p class="ftr-address">Cato Institute<br/>
+            1000 Massachusetts Ave, NW<br/>
+            Washington, DC 20001-5403</p>
+          <ul class="ftr-phone">
+            <li>Phone (202) 842 0200</li>
+          </ul>
+          <p class="ftr-txt"><a href="/privacy">Privacy Policy</a></p>
+          <p class="ftr-txt"><a href="/contact-us">Contact Us</a></p>
+          <p class="ftr-txt"><a href="/for-media">Media Contact</a></p></div>
+      </div>
+    </aside>
+  </div>
+</footer> <!-- /#footer -->
+<!--googleon: index-->
+<script>!function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);</script>
+<script src="https://www.cato.org/sites/all/libraries/modernizr/modernizr-latest.js?psy3z0"></script>
+<script src="//code.jquery.com/jquery-1.7.2.min.js"></script>
+<script>
+window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")
+</script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_dWhBODswdXXk1M5Z5nyqNfGljmqwxUwAK9i6D0YSDNs.js"></script>
+<script src="//code.jquery.com/ui/1.10.2/jquery-ui.min.js"></script>
+<script>
+window.jQuery.ui || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery-ui.min.js'>\x3C/script>")
+</script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_H7q2xORKmR9AN8Qx5spKEIBp7R_wG2apAswJoCUZY7I.js"></script>
+<script>
+document.createElement( "picture" );
+</script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_IfbrAP369vx7k2UxZQlS7WIHzbvVIbFbJOK4tI-0uw4.js"></script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_q6VmREnogkvjK__3W6iYvgr1enkjafpI3sj-R9_rlNs.js"></script>
+<script>
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-1677831-1", {"cookieDomain":"auto"});ga("set", "dimension1", "Michelangelo Landgrave, Alex Nowrasteh");ga("set", "dimension2", "Immigration");ga("set", "dimension5", "International Economics, Development \u0026amp; Immigration");ga("send", "pageview");
+</script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_XXq_LK6pKIixrCGe2YnQ0L_eKZIVBqjRJA9fq1Y9228.js"></script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_eeUNZzHjwOxqVQdIx_77SauAk-Q4Zsm6GipkMRhj6wc.js"></script>
+<script src="https://www.cato.org/sites/cato.org/files/js/js_MSll280CNvwRthMZU3Lor1hCVqeKZZ7QrUCpVn6appc.js"></script>
+<script>
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cato","theme_token":"OlpfH4qEdBWhaSmQLI-3z4Jwq31eujGIraBHIIe-PdY","js":{"sites\/all\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/contrib\/picture\/picture.min.js":1,"sites\/all\/libraries\/modernizr\/modernizr-latest.js":1,"\/\/code.jquery.com\/jquery-1.7.2.min.js":1,"0":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/code.jquery.com\/ui\/1.10.2\/jquery-ui.min.js":1,"1":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"2":1,"sites\/all\/modules\/contrib\/spamspan\/spamspan.js":1,"sites\/all\/modules\/contrib\/caption_filter\/js\/caption-filter.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"3":1,"misc\/form.js":1,"misc\/collapse.js":1,"sites\/all\/modules\/cato_institute\/custom_analytics_events\/custom_analytics_events.js":1,"sites\/all\/modules\/cato_institute\/custom_analytics_events\/custom_analytics_events_google_analytics.js":1,"sites\/all\/modules\/cato_institute\/custom_analytics_events\/custom_analytics_events_hubspot.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.sticky.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.fixed-scroll.js":1,"sites\/all\/themes\/cato\/_js\/libs\/wilto-carousel.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.masonry.min.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.getUrlVar.js":1,"sites\/all\/themes\/cato\/_js\/catomegamenu.js":1,"sites\/all\/themes\/cato\/_js\/identifyAnalyticsUser.js":1,"sites\/all\/themes\/cato\/_js\/script.js":1,"sites\/all\/themes\/cato\/_js\/dialog.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"sites\/all\/modules\/cato_institute\/responsivevideo\/responsivevideo.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/caption_filter\/caption-filter.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/custompage\/custompage.css":1,"sites\/all\/modules\/contrib\/oembed\/oembed.base.css":1,"sites\/all\/modules\/contrib\/oembed\/oembed.theme.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/typogrify\/typogrify.css":1,"sites\/all\/modules\/contrib\/wysiwyg_linebreaks\/wysiwyg_linebreaks.css":1,"sites\/all\/themes\/cato\/styles\/stylesheets\/screen.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip|epub|mobi","trackColorbox":1},"identifyAnalyticsUser":{"endpoint":"https:\/\/hubspot-microservice.cato.org\/prod"},"js":{"tokens":[]},"customAnalyticsEvents":[{"Topic":{"values":{"15":"International Economics, Development \u0026 Immigration"},"action":"load","noninteraction":true}}]});
+</script>
+  <!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4957480.js"></script>
+<!-- End of HubSpot Embed Code --><!— Facebook Pixel Code —>
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '454916984694808'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id= 454916984694808&ev=PageView&noscript=1"
+/></noscript>
+<!— DO NOT MODIFY —>
+<!— End Facebook Pixel Code —><script src="https://www.cato.org/sites/cato.org/files/js/js_7Ukqb3ierdBEL0eowfOKzTkNu-Le97OPm-UqTS5NENU.js"></script>
+<script type="text/javascript" src="//customer.cludo.com/scripts/bundles/search-script.min.js"></script>
+<script>
+  var CludoSearch;
+  (function () {
+    var cludoSettings = {
+      customerId: 10000518,
+      engineId: 10000746,
+      searchUrl: '/search',
+      language: 'en',
+      searchInputs: ['cludo-search-form', 'search-form'],
+      type: 'inline',
+      disableAutocomplete: true
+    };
+    CludoSearch= new Cludo(cludoSettings);
+    CludoSearch.debug = true;
+    CludoSearch.init();
+  })();
+</script>
+<!--[if lte IE 9]>
+<script src="https://api.cludo.com/scripts/xdomain.js" slave="https://api.cludo.com/proxy.html" type="text/javascript"></script>
+<![endif]-->
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"a0fc03e915","applicationID":"7801710","transactionName":"ZF1SYUNRWkQCBkdZCV0XcVZFWVtZTBVSVwNsVVFbUFdRRTwLXFQDbE5ZUEZvRFYEAA==","queueTime":0,"applicationTime":474,"atts":"SBpRFwtLSUo=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

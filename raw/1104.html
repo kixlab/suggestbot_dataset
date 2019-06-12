@@ -1,0 +1,1720 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-174314-19", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<meta name="title" content="Marijuana Shown to Be Less Damaging to Lungs Than Tobacco | UC San Francisco" />
+<meta property="og:site_name" content="Marijuana Shown to Be Less Damaging to Lungs Than Tobacco | UC San Francisco" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="canonical" href="https://www.ucsf.edu/news/2012/01/98519/marijuana-shown-be-less-damaging-lungs-tobacco" />
+<meta name="twitter:description" content="A large-scale national study suggests low to moderate use of marijuana is less harmful to users’ lungs than exposure to tobacco, even though the two substances contain many of the same components, according to a study led by UCSF and University of Alabama at Birmingham." />
+<meta name="twitter:site" content="@ucsf" />
+<meta property="og:type" content="news" />
+<meta name="description" content="A large-scale national study suggests low to moderate use of marijuana is less harmful to users’ lungs than exposure to tobacco, even though the two substances contain many of the same components, according to a study led by UCSF and University of Alabama at Birmingham." />
+<meta name="twitter:title" content="Marijuana Shown to Be Less Damaging to Lungs Than Tobacco" />
+<meta property="og:url" content="https://www.ucsf.edu/news/2012/01/98519/marijuana-shown-be-less-damaging-lungs-tobacco" />
+<meta name="abstract" content="A large-scale national study suggests low to moderate use of marijuana is less harmful to users’ lungs than exposure to tobacco, even though the two substances contain many of the same components, according to a study led by UCSF and University of Alabama at Birmingham." />
+<meta name="twitter:creator" content="@ucsf" />
+<meta property="og:title" content="Marijuana Shown to Be Less Damaging to Lungs Than Tobacco" />
+<link rel="image_src" href="https://www.ucsf.edu/sites/default/files/2019-04/ucsf_tapestry_portal_full_1230.jpg" />
+<meta property="og:description" content="A large-scale national study suggests low to moderate use of marijuana is less harmful to users’ lungs than exposure to tobacco, even though the two substances contain many of the same components, according to a study led by UCSF and University of Alabama at Birmingham." />
+<meta name="twitter:url" content="https://www.ucsf.edu/news/2012/01/98519/marijuana-shown-be-less-damaging-lungs-tobacco" />
+<meta name="twitter:image" content="https://www.ucsf.edu/sites/default/files/field/image/news/man-smoking.jpg" />
+<meta property="og:image" content="https://www.ucsf.edu/sites/default/files/field/image/news/man-smoking.jpg" />
+<meta property="og:image:secure_url" content="https://www.ucsf.edu/sites/default/files/2019-04/ucsf_tapestry_portal_full_1230.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/themes/custom/ucsf/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="revision" href="/news/2012/01/98519/marijuana-shown-be-less-damaging-lungs-tobacco" />
+
+  <title>Marijuana Shown to Be Less Damaging to Lungs Than Tobacco | UC San Francisco</title>
+  <link rel="stylesheet" href="/sites/default/files/css/css_KvG7rjs43DBQ36tR2eo48lUGK1xV-ndCq_QpnFB1Hqg.css?psr6d8" media="all" />
+<link rel="stylesheet" href="/sites/default/files/css/css_mHNReUP5Gzi9vURwnMXEUxm2HtGVwC0IubZrnuFbWSU.css?psr6d8" media="all" />
+
+
+  <script>if (!window.customElements) { document.write('<!--'); }</script>
+  <script type="text/javascript" src="/modules/custom/ckeditor_y3ti_plugins/bower_components/webcomponentsjs/custom-elements-es5-adapter.js"></script>
+  <!--! do not remove -->
+  
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+<script src="/modules/custom/ckeditor_y3ti_plugins/bower_components/webcomponentsjs/webcomponents-loader.js?psr6d8"></script>
+
+</head>
+<body class="alias-news-2012-01-98519-marijuana-shown-be-less-damaging-lungs-tobacco path-node page-node-type-article loading">
+<a href="#main-content" class="visually-hidden focusable skip-link">
+  Skip to main content
+</a>
+
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="svgsprite">
+  <svg xmlns="http://www.w3.org/2000/svg"><symbol id="icon-plus" viewBox="0 0 12 13"><title>+ copy</title><text fill="#009E78" transform="translate(-13 -15)" fill-rule="evenodd" font-family="OpenSans, Open Sans" font-size="25"><tspan x="12" y="30">+</tspan></text></symbol><symbol id="icon-slash" viewBox="0 0 53 53"><title>Line Copy 7</title><path d="M1.5 1.5l50 50" stroke="#E87D1D" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="square"/></symbol></svg></div>
+
+<div  class="page">
+
+            <div class="combined-header-region">
+        <div class="universal-header-region">
+            <header class="universal-header">
+                <p class="universal-header__title">University of California San Francisco</p>
+                <a href="https://giving.ucsf.edu" class="universal-header__give">Give to UCSF</a>
+            </header>
+        </div>
+        <div class="header-region">
+            <header class="header" role="banner">
+                <figure class="header--logo logo">
+  <a class="logo__link" href="/" title="Home" rel="home">
+    <picture class="logo__image">
+      <img class="logo__img" src="/themes/custom/ucsf/logo.svg" alt="Home">
+    </picture>
+  </a>
+</figure>                
+<div class="header--search menu-item"><a href="/search" class="nolink mobile-search-reveal"><span>Search</span></a>
+<div class="home-search__form">
+  <form action="/search" accept-charset="utf-8" method="get" class="search__form">
+    <label for="search" style="display:none;">search</label>
+    <input type="text" name="search" id="search" size="32" class="home-search__form-input" value="" placeholder="Search people, places, ideas" />
+        <input type="submit" id="edit-submit" name="op" value="Search" class="home-search__form-submit">
+  </form>
+</div>
+</div>
+                <div class="slicknav-placeholder"></div>
+                <nav role="navigation" aria-labelledby="block-ucsf-main-menu-menu" id="block-ucsf-main-menu" class="block block-menu navigation menu--main main-nav">
+            
+  <h2 class="visually-hidden" id="block-ucsf-main-menu-menu">Main navigation</h2>
+  
+
+        
+              <ul block="block-ucsf-main-menu" class="menu-parent-wrapper">
+                          <li class="menu-item menu-item--expanded"
+                      >
+        <a href="/about" class="nolink" data-drupal-link-system-path="node/130301">About</a>
+                                <ul class="menu-child-wrapper">
+                          <li class="menu-item"
+                      >
+        <a href="/about" data-drupal-link-system-path="node/130301">Overview</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/about/mission-and-values" data-drupal-link-system-path="node/406481">Mission &amp; Values</a>
+              </li>
+                      <li class="menu-item menu-item--expanded"
+                      >
+        <span data-drupal-link-system-path="&lt;front&gt;">Our Impact</span>
+                                <ul class="menu-child-wrapper">
+                          <li class="menu-item"
+                      >
+        <a href="/about/achievements" data-drupal-link-system-path="node/413636">Achievements</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/about/economic-impact-report" data-drupal-link-system-path="node/413536">Economic Impact</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/about/community-overview" data-drupal-link-system-path="node/408071">UCSF in the Community</a>
+              </li>
+        </ul>
+    <div class="universal-header__give-mobile">
+      <a class="universal-header__give" href="https://giving.ucsf.edu">Give to UCSF</a>
+    </div>
+
+  
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/about/history-1" data-drupal-link-system-path="node/93484">History</a>
+              </li>
+                      <li class="menu-item menu-item--expanded"
+                      >
+        <span data-drupal-link-system-path="&lt;front&gt;">Facts &amp; Figures</span>
+                                <ul class="menu-child-wrapper">
+                          <li class="menu-item"
+                      >
+        <a href="/about/ucsf-budget" data-drupal-link-system-path="node/403036">Budget</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/about/innovation" data-drupal-link-system-path="node/413691">Inventions &amp; Entrepreneurship</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/sites/default/files/UCSF_General_Fact_Sheet.pdf">UCSF Fact Sheet</a>
+              </li>
+        </ul>
+    <div class="universal-header__give-mobile">
+      <a class="universal-header__give" href="https://giving.ucsf.edu">Give to UCSF</a>
+    </div>
+
+  
+              </li>
+                      <li class="menu-item menu-item--expanded"
+                      >
+        <span data-drupal-link-system-path="&lt;front&gt;">Administration</span>
+                                <ul class="menu-child-wrapper">
+                          <li class="menu-item"
+                      >
+        <a href="https://chancellor.ucsf.edu/leadership/chancellors-cabinet" target="_blank">Campus Leaders</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://chancellor.ucsf.edu/sites/chancellor.ucsf.edu/files/Admin_Campus.pdf">Campus Organizational Chart</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://chancellor.ucsf.edu/chancellor">Chancellor</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://controller.ucsf.edu/">Controller&#039;s Office</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://diversity.ucsf.edu/">Diversity &amp; Outreach</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://evcprovost.ucsf.edu/">Executive Vice Chancellor &amp; Provost</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://giving.ucsf.edu/">University Development &amp; Alumni Relations</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/university-relations" data-drupal-link-system-path="node/93581">University Relations</a>
+              </li>
+        </ul>
+    <div class="universal-header__give-mobile">
+      <a class="universal-header__give" href="https://giving.ucsf.edu">Give to UCSF</a>
+    </div>
+
+  
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/about/locations" data-drupal-link-system-path="node/96416">Locations</a>
+              </li>
+        </ul>
+    <div class="universal-header__give-mobile">
+      <a class="universal-header__give" href="https://giving.ucsf.edu">Give to UCSF</a>
+    </div>
+
+  
+              </li>
+                      <li class="menu-item menu-item--expanded"
+                      >
+        <a href="/patient-care" class="nolink" data-drupal-link-system-path="node/130356">Patient Care</a>
+                                <ul class="menu-child-wrapper">
+                          <li class="menu-item"
+                      >
+        <a href="/patient-care" data-drupal-link-system-path="node/130356">Overview</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://www.ucsfhealth.org/">UCSF Medical Center</a>
+              </li>
+                      <li class="menu-item menu-item--expanded"
+                      >
+        <span data-drupal-link-system-path="&lt;front&gt;">UCSF Benioff Children&#039;s Hospitals</span>
+                                <ul class="menu-child-wrapper">
+                          <li class="menu-item"
+                      >
+        <a href="https://www.childrenshospitaloakland.org">Oakland</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://www.ucsfbenioffchildrens.org/">San Francisco</a>
+              </li>
+        </ul>
+    <div class="universal-header__give-mobile">
+      <a class="universal-header__give" href="https://giving.ucsf.edu">Give to UCSF</a>
+    </div>
+
+  
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://www.ucsfdentalcenter.org/">UCSF Dental Center</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://psych.ucsf.edu/lpphc">Langley Porter Psychiatric Hospital and Clinics</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://www.ucsfhealth.org/clinics/specialty_care/index.html">Specialty Clinics</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/patient-care/clinical-trials" data-drupal-link-system-path="node/93456">Clinical Trials</a>
+              </li>
+        </ul>
+    <div class="universal-header__give-mobile">
+      <a class="universal-header__give" href="https://giving.ucsf.edu">Give to UCSF</a>
+    </div>
+
+  
+              </li>
+                      <li class="menu-item menu-item--expanded"
+                      >
+        <a href="/research" class="nolink" data-drupal-link-system-path="node/130351">Research</a>
+                                <ul class="menu-child-wrapper">
+                          <li class="menu-item"
+                      >
+        <a href="/research" data-drupal-link-system-path="node/130351">Overview</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/research/partnerships" data-drupal-link-system-path="node/130491">Partnerships</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://research.ucsf.edu">Office of Research</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://innovation.ucsf.edu/">Innovation Ventures</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://postdocs.ucsf.edu/">Postdoctoral Scholars</a>
+              </li>
+        </ul>
+    <div class="universal-header__give-mobile">
+      <a class="universal-header__give" href="https://giving.ucsf.edu">Give to UCSF</a>
+    </div>
+
+  
+              </li>
+                      <li class="menu-item menu-item--expanded"
+                      >
+        <a href="/education" class="nolink" data-drupal-link-system-path="node/130311">Education</a>
+                                <ul class="menu-child-wrapper">
+                          <li class="menu-item"
+                      >
+        <a href="/education" data-drupal-link-system-path="node/130311">Overview</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/education/admissions" data-drupal-link-system-path="node/409171">Admissions</a>
+              </li>
+                      <li class="menu-item menu-item--expanded"
+                      >
+        <span data-drupal-link-system-path="&lt;front&gt;">Schools &amp; Programs</span>
+                                <ul class="menu-child-wrapper">
+                          <li class="menu-item"
+                      >
+        <a href="http://dentistry.ucsf.edu/" title="School of Dentistry">School of Dentistry</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://medschool.ucsf.edu" title="School of Medicine">School of Medicine</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://pharmacy.ucsf.edu" title="School Pharmacy">School of Pharmacy</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://nursing.ucsf.edu" title="School of Nursing">School of Nursing</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://graduate.ucsf.edu" title="Graduate Education">Graduate Division</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://globalhealthsciences.ucsf.edu" title="Global Health Sciences">Global Health Sciences</a>
+              </li>
+        </ul>
+    <div class="universal-header__give-mobile">
+      <a class="universal-header__give" href="https://giving.ucsf.edu">Give to UCSF</a>
+    </div>
+
+  
+              </li>
+                      <li class="menu-item menu-item--expanded"
+                      >
+        <span data-drupal-link-system-path="&lt;front&gt;">Resources for Students</span>
+                                <ul class="menu-child-wrapper">
+                          <li class="menu-item"
+                      >
+        <a href="https://registrar.ucsf.edu/academic-calendar">Academic Calendar</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://career.ucsf.edu/">Career Center</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://finaid.ucsf.edu/">Financial Aid</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://www.library.ucsf.edu/">Library</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://registrar.ucsf.edu/">Registrar</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://success.ucsf.edu/">Student Success Guide</a>
+              </li>
+        </ul>
+    <div class="universal-header__give-mobile">
+      <a class="universal-header__give" href="https://giving.ucsf.edu">Give to UCSF</a>
+    </div>
+
+  
+              </li>
+        </ul>
+    <div class="universal-header__give-mobile">
+      <a class="universal-header__give" href="https://giving.ucsf.edu">Give to UCSF</a>
+    </div>
+
+  
+              </li>
+                      <li class="menu-item menu-item--expanded"
+                      >
+        <a href="/news" class="nolink" data-drupal-link-system-path="node/413561">News &amp; Media</a>
+                                <ul class="menu-child-wrapper">
+                          <li class="menu-item"
+                      >
+        <a href="/news" data-drupal-link-system-path="node/413561">UCSF News Center</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/campus-news" data-drupal-link-system-path="taxonomy/term/1006">Campus News</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/news/media-coverage" data-drupal-link-system-path="taxonomy/term/413496">Media Coverage</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/news-media/journalists" data-drupal-link-system-path="node/130226">Resources for Journalists</a>
+              </li>
+        </ul>
+    <div class="universal-header__give-mobile">
+      <a class="universal-header__give" href="https://giving.ucsf.edu">Give to UCSF</a>
+    </div>
+
+  
+              </li>
+                      <li class="menu-item search"
+                      >
+        <a href="/search" data-drupal-link-system-path="search">Search</a>
+              </li>
+        </ul>
+    <div class="universal-header__give-mobile">
+      <a class="universal-header__give" href="https://giving.ucsf.edu">Give to UCSF</a>
+    </div>
+
+  
+
+
+  
+  </nav>
+<nav role="navigation" aria-labelledby="block-ucsf-main-menu-desktop-menu" id="block-ucsf-main-menu-desktop" class="block block-menu navigation menu--main main-nav">
+            
+  <h2 class="visually-hidden" id="block-ucsf-main-menu-desktop-menu">Main navigation - Desktop</h2>
+  
+
+        
+        <ul block="block-ucsf-main-menu-desktop" class="menu-parent--wrapper">
+            
+                  
+      <li class="menu-item menu-item-parent menu-item--expanded"
+                      >
+        
+        <a href="/about" class="nolink" data-drupal-link-system-path="node/130301">          <span>About</span>
+        </a>
+
+        
+                                                              <div class="menu-child--wrapper wrapper--about-menu" data-level="level-0">
+
+                                    <span class="menu-item-close">Close menu</span>
+
+            <div data-section="section-about-menu" class="menu-child--label">
+                            <span>About</span>
+            </div>
+            
+                      <ul class="menu-child--menu">
+              
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/about" data-drupal-link-system-path="node/130301">          <span>Overview</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/about/mission-and-values" data-drupal-link-system-path="node/406481">          <span>Mission &amp; Values</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item menu-item--expanded"
+                      >
+        
+        <span data-drupal-link-system-path="&lt;front&gt;">          <span>Our Impact</span>
+        </span>
+
+                  <i class="fas fa-angle-right"></i>
+        
+                                                              <div class="menu-child--wrapper wrapper--our-impact" data-level="level-1">
+
+                                    <span class="menu-item-close">Close menu</span>
+
+            <div data-section="section-our-impact" class="menu-child--label">
+                            <span>Our Impact</span>
+            </div>
+            
+                      <ul class="menu-child--menu">
+              
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/about/achievements" data-drupal-link-system-path="node/413636">          <span>Achievements</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/about/economic-impact-report" data-drupal-link-system-path="node/413536">          <span>Economic Impact</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/about/community-overview" data-drupal-link-system-path="node/408071">          <span>UCSF in the Community</span>
+        </a>
+
+        
+              </li>
+      </ul>
+    
+
+                                              </div>
+
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/about/history-1" data-drupal-link-system-path="node/93484">          <span>History</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item menu-item--expanded"
+                      >
+        
+        <span data-drupal-link-system-path="&lt;front&gt;">          <span>Facts &amp; Figures</span>
+        </span>
+
+                  <i class="fas fa-angle-right"></i>
+        
+                                                              <div class="menu-child--wrapper wrapper--facts--figures" data-level="level-1">
+
+                                    <span class="menu-item-close">Close menu</span>
+
+            <div data-section="section-facts--figures" class="menu-child--label">
+                            <span>Facts &amp; Figures</span>
+            </div>
+            
+                      <ul class="menu-child--menu">
+              
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/about/ucsf-budget" data-drupal-link-system-path="node/403036">          <span>Budget</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/about/innovation" data-drupal-link-system-path="node/413691">          <span>Inventions &amp; Entrepreneurship</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/sites/default/files/UCSF_General_Fact_Sheet.pdf">          <span>UCSF Fact Sheet</span>
+        </a>
+
+        
+              </li>
+      </ul>
+    
+
+                                              </div>
+
+              </li>
+          
+                  
+      <li class="menu-item menu-item--expanded"
+                      >
+        
+        <span data-drupal-link-system-path="&lt;front&gt;">          <span>Administration</span>
+        </span>
+
+                  <i class="fas fa-angle-right"></i>
+        
+                                                              <div class="menu-child--wrapper wrapper--administration" data-level="level-1">
+
+                                    <span class="menu-item-close">Close menu</span>
+
+            <div data-section="section-administration" class="menu-child--label">
+                            <span>Administration</span>
+            </div>
+            
+                      <ul class="menu-child--menu">
+              
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://chancellor.ucsf.edu/leadership/chancellors-cabinet" target="_blank">          <span>Campus Leaders</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://chancellor.ucsf.edu/sites/chancellor.ucsf.edu/files/Admin_Campus.pdf">          <span>Campus Organizational Chart</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://chancellor.ucsf.edu/chancellor">          <span>Chancellor</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://controller.ucsf.edu/">          <span>Controller&#039;s Office</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://diversity.ucsf.edu/">          <span>Diversity &amp; Outreach</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://evcprovost.ucsf.edu/">          <span>Executive Vice Chancellor &amp; Provost</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://giving.ucsf.edu/">          <span>University Development &amp; Alumni Relations</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/university-relations" data-drupal-link-system-path="node/93581">          <span>University Relations</span>
+        </a>
+
+        
+              </li>
+      </ul>
+    
+
+                                              </div>
+
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/about/locations" data-drupal-link-system-path="node/96416">          <span>Locations</span>
+        </a>
+
+        
+              </li>
+      </ul>
+    
+
+                                              </div>
+
+              </li>
+          
+                  
+      <li class="menu-item menu-item-parent menu-item--expanded"
+                      >
+        
+        <a href="/patient-care" class="nolink" data-drupal-link-system-path="node/130356">          <span>Patient Care</span>
+        </a>
+
+        
+                                                              <div class="menu-child--wrapper wrapper--patient-care" data-level="level-0">
+
+                                    <span class="menu-item-close">Close menu</span>
+
+            <div data-section="section-patient-care" class="menu-child--label">
+                            <span>Patient Care</span>
+            </div>
+            
+                      <ul class="menu-child--menu">
+              
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/patient-care" data-drupal-link-system-path="node/130356">          <span>Overview</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://www.ucsfhealth.org/">          <span>UCSF Medical Center</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item menu-item--expanded"
+                      >
+        
+        <span data-drupal-link-system-path="&lt;front&gt;">          <span>UCSF Benioff Children&#039;s Hospitals</span>
+        </span>
+
+                  <i class="fas fa-angle-right"></i>
+        
+                                                              <div class="menu-child--wrapper wrapper--ucsf-benioff-childrens-hospitals" data-level="level-1">
+
+                                    <span class="menu-item-close">Close menu</span>
+
+            <div data-section="section-ucsf-benioff-childrens-hospitals" class="menu-child--label">
+                            <span>UCSF Benioff Children&#039;s Hospitals</span>
+            </div>
+            
+                      <ul class="menu-child--menu">
+              
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://www.childrenshospitaloakland.org">          <span>Oakland</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://www.ucsfbenioffchildrens.org/">          <span>San Francisco</span>
+        </a>
+
+        
+              </li>
+      </ul>
+    
+
+                                              </div>
+
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://www.ucsfdentalcenter.org/">          <span>UCSF Dental Center</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://psych.ucsf.edu/lpphc">          <span>Langley Porter Psychiatric Hospital and Clinics</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://www.ucsfhealth.org/clinics/specialty_care/index.html">          <span>Specialty Clinics</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/patient-care/clinical-trials" data-drupal-link-system-path="node/93456">          <span>Clinical Trials</span>
+        </a>
+
+        
+              </li>
+      </ul>
+    
+
+                                              </div>
+
+              </li>
+          
+                  
+      <li class="menu-item menu-item-parent menu-item--expanded"
+                      >
+        
+        <a href="/research" class="nolink" data-drupal-link-system-path="node/130351">          <span>Research</span>
+        </a>
+
+        
+                                                              <div class="menu-child--wrapper wrapper--research" data-level="level-0">
+
+                                    <span class="menu-item-close">Close menu</span>
+
+            <div data-section="section-research" class="menu-child--label">
+                            <span>Research</span>
+            </div>
+            
+                      <ul class="menu-child--menu">
+              
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/research" data-drupal-link-system-path="node/130351">          <span>Overview</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/research/partnerships" data-drupal-link-system-path="node/130491">          <span>Partnerships</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://research.ucsf.edu">          <span>Office of Research</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://innovation.ucsf.edu/">          <span>Innovation Ventures</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://postdocs.ucsf.edu/">          <span>Postdoctoral Scholars</span>
+        </a>
+
+        
+              </li>
+      </ul>
+    
+
+                                              </div>
+
+              </li>
+          
+                  
+      <li class="menu-item menu-item-parent menu-item--expanded"
+                      >
+        
+        <a href="/education" class="nolink" data-drupal-link-system-path="node/130311">          <span>Education</span>
+        </a>
+
+        
+                                                              <div class="menu-child--wrapper wrapper--education" data-level="level-0">
+
+                                    <span class="menu-item-close">Close menu</span>
+
+            <div data-section="section-education" class="menu-child--label">
+                            <span>Education</span>
+            </div>
+            
+                      <ul class="menu-child--menu">
+              
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/education" data-drupal-link-system-path="node/130311">          <span>Overview</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/education/admissions" data-drupal-link-system-path="node/409171">          <span>Admissions</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item menu-item--expanded"
+                      >
+        
+        <span data-drupal-link-system-path="&lt;front&gt;">          <span>Schools &amp; Programs</span>
+        </span>
+
+                  <i class="fas fa-angle-right"></i>
+        
+                                                              <div class="menu-child--wrapper wrapper--schools--programs" data-level="level-1">
+
+                                    <span class="menu-item-close">Close menu</span>
+
+            <div data-section="section-schools--programs" class="menu-child--label">
+                            <span>Schools &amp; Programs</span>
+            </div>
+            
+                      <ul class="menu-child--menu">
+              
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="http://dentistry.ucsf.edu/" title="School of Dentistry">          <span>School of Dentistry</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://medschool.ucsf.edu" title="School of Medicine">          <span>School of Medicine</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://pharmacy.ucsf.edu" title="School Pharmacy">          <span>School of Pharmacy</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://nursing.ucsf.edu" title="School of Nursing">          <span>School of Nursing</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://graduate.ucsf.edu" title="Graduate Education">          <span>Graduate Division</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://globalhealthsciences.ucsf.edu" title="Global Health Sciences">          <span>Global Health Sciences</span>
+        </a>
+
+        
+              </li>
+      </ul>
+    
+
+                                              </div>
+
+              </li>
+          
+                  
+      <li class="menu-item menu-item--expanded"
+                      >
+        
+        <span data-drupal-link-system-path="&lt;front&gt;">          <span>Resources for Students</span>
+        </span>
+
+                  <i class="fas fa-angle-right"></i>
+        
+                                                              <div class="menu-child--wrapper wrapper--resources-for-students" data-level="level-1">
+
+                                    <span class="menu-item-close">Close menu</span>
+
+            <div data-section="section-resources-for-students" class="menu-child--label">
+                            <span>Resources for Students</span>
+            </div>
+            
+                      <ul class="menu-child--menu">
+              
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://registrar.ucsf.edu/academic-calendar">          <span>Academic Calendar</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://career.ucsf.edu/">          <span>Career Center</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://finaid.ucsf.edu/">          <span>Financial Aid</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://www.library.ucsf.edu/">          <span>Library</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://registrar.ucsf.edu/">          <span>Registrar</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="https://success.ucsf.edu/">          <span>Student Success Guide</span>
+        </a>
+
+        
+              </li>
+      </ul>
+    
+
+                                              </div>
+
+              </li>
+      </ul>
+    
+
+                                              </div>
+
+              </li>
+          
+                  
+      <li class="menu-item menu-item-parent menu-item--expanded"
+                      >
+        
+        <a href="/news" class="nolink" data-drupal-link-system-path="node/413561">          <span>News &amp; Media</span>
+        </a>
+
+        
+                                                              <div class="menu-child--wrapper wrapper--news--media" data-level="level-0">
+
+                                    <span class="menu-item-close">Close menu</span>
+
+            <div data-section="section-news--media" class="menu-child--label">
+                            <span>News &amp; Media</span>
+            </div>
+            
+                      <ul class="menu-child--menu">
+              
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/news" data-drupal-link-system-path="node/413561">          <span>UCSF News Center</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/campus-news" data-drupal-link-system-path="taxonomy/term/1006">          <span>Campus News</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/news/media-coverage" data-drupal-link-system-path="taxonomy/term/413496">          <span>Media Coverage</span>
+        </a>
+
+        
+              </li>
+          
+                  
+      <li class="menu-item"
+                      >
+        
+        <a href="/news-media/journalists" data-drupal-link-system-path="node/130226">          <span>Resources for Journalists</span>
+        </a>
+
+        
+              </li>
+      </ul>
+    
+
+                                              </div>
+
+              </li>
+          
+                  
+      <li class="menu-item menu-item-parent search"
+                      >
+        
+        <a href="/search" data-drupal-link-system-path="search">          <span>Search</span>
+        </a>
+
+        
+                                                              <div class="menu-child--wrapper wrapper--search-menu" data-level="level-0">
+
+                        
+                  
+
+                                    <div class="home-search__form">
+              <form action="/search" accept-charset="utf-8" method="get" class="search__form">
+                <label for="search" style="display:none;">search</label>
+                <input type="text" name="search" id="search" size="32" class="home-search__form-input" value="" placeholder="Search people, places, ideas" />
+                                <input type="submit" id="edit-submit" name="op" value="Search" class="home-search__form-submit">
+              </form>
+            </div>
+                              </div>
+
+              </li>
+      </ul>
+    
+
+
+  </nav>
+             </header>
+        </div>
+    </div>
+
+
+  <div class="help">
+          <div class="region-highlighted">
+      
+
+    </div>
+  
+    
+  </div>
+
+  
+        <div class="region-tabs">
+      
+    </div>
+  
+
+          <div class="region-content">
+      <div id="block-ucsf-content" class="block block-system block-system-main-block">
+  
+    
+      
+<main role="main" class="main">
+    <a id="main-content" tabindex="-1"></a>
+        
+<figure data-history-node-id="98519" role="article" about="/news/2012/01/98519/marijuana-shown-be-less-damaging-lungs-tobacco" typeof="schema:Article" class="article-medium-banner">
+  
+</figure>
+<div class="main-content narrow-page">
+  
+        <header class="article-header ">
+      
+
+<ul class="article-header__byline">
+      <li class="article-header__primary-area" data-primary-area="pa-research">
+                  <div class="field field-primary-area field--type-entity-reference field--label-hidden field__item">Research</div>
+            </li>
+    <li class="article-header__date">
+                  <div class="field field-date-and-time field--type-datetime field--label-hidden field__item"><time datetime="2012-01-10T08:00:00Z" class="datetime">January 10, 2012</time>
+</div>
+            </li>
+</ul>
+<h1><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Marijuana Shown to Be Less Damaging to Lungs Than Tobacco</span>
+</h1>
+
+              <p class="field field-sub-title field--type-text field--label-hidden article-header__subheading">UCSF-Led Study Compares Effects on Pulmonary Function </p>
+      
+<p class="article-header__author">
+
+            
+      By
+  
+    <a href="/bio/leland-kim">Leland Kim</a></p>
+    </header>
+          <ul class="article-meta-share">
+        <li><a rel="nofollow" href="http://www.facebook.com/share.php?u=https://www.ucsf.edu/news/2012/01/98519/marijuana-shown-be-less-damaging-lungs-tobacco" target="_blank" title="Facebook"><span class="fab fa-facebook-square"></span> <span class="indent-text">Facebook</span></a></li>
+
+        <li><a rel="nofollow" href="http://www.twitter.com/share?text=Marijuana Shown to Be Less Damaging to Lungs Than Tobacco&url=https://www.ucsf.edu/news/2012/01/98519/marijuana-shown-be-less-damaging-lungs-tobacco" target="_blank" title="Twitter"><span class="fab fa-twitter-square"></span> <span class="indent-text">Twitter</span></a></li>
+
+        <li><a rel="nofollow" href="http://www.reddit.com/submit?url=https://www.ucsf.edu/news/2012/01/98519/marijuana-shown-be-less-damaging-lungs-tobacco&title=Marijuana Shown to Be Less Damaging to Lungs Than Tobacco" target="_blank" title="Reddit"><span class="fab fa-reddit-square"></span> <span class="indent-text">Reddit</span></a></li>
+
+        <li><a rel="nofollow" href="/cdn-cgi/l/email-protection#96a9e2f9abb0e5e3f4fcf3f5e2abd0e4f9fbb6c3d5c5d0b6d8f3e1e5acb6dbf7e4fffce3f7f8f7b6c5fef9e1f8b6e2f9b6d4f3b6daf3e5e5b6d2f7fbf7f1fff8f1b6e2f9b6dae3f8f1e5b6c2fef7f8b6c2f9f4f7f5f5f9b0f4f9f2efabdbf7e4fffce3f7f8f7b6c5fef9e1f8b6e2f9b6d4f3b6daf3e5e5b6d2f7fbf7f1fff8f1b6e2f9b6dae3f8f1e5b6c2fef7f8b6c2f9f4f7f5f5f9b3a6d2b3a6d7b3a6d2b3a6d7d7b6faf7e4f1f3bbe5f5f7faf3b6f8f7e2fff9f8f7fab6e5e2e3f2efb6e5e3f1f1f3e5e2e5b6faf9e1b6e2f9b6fbf9f2f3e4f7e2f3b6e3e5f3b6f9f0b6fbf7e4fffce3f7f8f7b6ffe5b6faf3e5e5b6fef7e4fbf0e3fab6e2f9b6e3e5f3e4e574160fb6fae3f8f1e5b6e2fef7f8b6f3eee6f9e5e3e4f3b6e2f9b6e2f9f4f7f5f5f9bab6f3e0f3f8b6e2fef9e3f1feb6e2fef3b6e2e1f9b6e5e3f4e5e2f7f8f5f3e5b6f5f9f8e2f7fff8b6fbf7f8efb6f9f0b6e2fef3b6e5f7fbf3b6f5f9fbe6f9f8f3f8e2e5bab6f7f5f5f9e4f2fff8f1b6e2f9b6f7b6e5e2e3f2efb6faf3f2b6f4efb6c3d5c5d0b6f7f8f2b6c3f8ffe0f3e4e5ffe2efb6f9f0b6d7faf7f4f7fbf7b6f7e2b6d4ffe4fbfff8f1fef7fbb8b6b3a6d2b3a6d7b3a6d2b3a6d7fee2e2e6e5acb9b9e1e1e1b8e3f5e5f0b8f3f2e3b9f8f3e1e5b9a4a6a7a4b9a6a7b9afaea3a7afb9fbf7e4fffce3f7f8f7bbe5fef9e1f8bbf4f3bbfaf3e5e5bbf2f7fbf7f1fff8f1bbfae3f8f1e5bbe2f9f4f7f5f5f9" title="Email Article"><span class="fas fa-envelope-square"></span> <span class="indent-text">Email</span></a></li>
+
+        <li><a rel="nofollow" onclick="window.print();return false;" href="https://www.ucsf.edu/news/2012/01/98519/marijuana-shown-be-less-damaging-lungs-tobacco" title="Print Article"><span class="fas fa-print"></span> <span class="indent-text">Print</span></a></li>
+      </ul>
+
+      <div property="schema:text" class="page_narrow"><p>A large-scale national study suggests low to moderate use of marijuana is less harmful to users’ lungs than exposure to tobacco, even though the two substances contain many of the same components.</p>
+
+<p>This comprehensive study, led by UCSF and University of Alabama at Birmingham, collected data from more than 5,000 U.S. adults for more than 20 years.</p>
+
+<p>Smoking cigarettes can cause significant lung damage, including respiratory symptoms, chronic obstructive pulmonary disease and lung cancer. It accounts for an estimated 443,000 deaths, or nearly one in every five deaths, each year in the United States, according to the U.S. Centers for Disease Control and Prevention (CDC). Data for the long-term effects of marijuana use on the pulmonary system has been scarce until now.</p>
+
+<div class="ckimagebox" style="float: right; width: 200px;"><img alt="Mark Pletcher, MD, MPH" src="/sites/default/files/legacy_files/pletcher_mark_j_2.jpg" style="width:200px" title="Mark Pletcher, MD, MPH" />Mark Pletcher, MD, MPH</div>
+
+<p>“We found exactly what we thought we would find in relation to tobacco exposure: a consistent loss of lung function with increasing exposure,” said the paper’s lead author, <a href="http://profiles.ucsf.edu/ProfileDetails.aspx?Person=5386815" target="_blank">Mark Pletcher</a>, MD, MPH, associate professor in the Division of Clinical Epidemiology at UCSF. “We were, however, surprised that we found such a different pattern of association with marijuana exposure.” </p>
+
+<p>In a paper published today in <a href="http://jama.ama-assn.org/content/307/2/173.full" target="_blank"><em>the Journal of American Medical Association (JAMA)</em></a>, researchers analyzed the relationship between current and lifetime exposure to marijuana and pulmonary function. The Coronary Artery Risk Development in Young Adults (CARDIA) study collected medical data from 5,115 men and women in four U.S. cities from 1985 to 2006.</p>
+
+<p>They measured air flow rate – the speed in which a person can blow out air – and lung volume, which is the amount of air a person is capable of holding, typically about six liters of air for an adult male. Lung function was measured using a common medical device called a spirometer that measures air flow when the participant breathes in and out.</p>
+
+<p>“Essentially with tobacco, the more you use, the more loss you have with both of the indicators, air flow rate and lung volume,” said the paper’s last author Stefan Kertesz, MD, MSc, associate professor in the Division of Preventive Medicine at the University of Alabama at Birmingham School of Medicine and the Birmingham VA Medical Center. “There’s a straight-line relationship: the more you use, the more you lose.”</p>
+
+<p>The same was not true with marijuana use. Air flow rate increased rather than decreased with increased exposure to marijuana up to a certain level.</p>
+
+<p>“An important factor that helps explain the difference in effects from these two substances is the amount of each that is typically smoked,” Pletcher said. “Tobacco users typically smoke ten to 20 cigarettes/day, and some smoke much more than that. Marijuana users, on average, smoke only two to three times a month, so the typical exposure to marijuana is much lower than for tobacco.”</p>
+
+<p>“And marijuana is one where a lot of people dabble with it in their late teens and 20s, and some people continue with relatively low levels for a long period of time,” Kertesz added.</p>
+
+<h2>Heavy Marijuana Use May Take Toll</h2>
+
+<p>Although there was a suggestion that very heavy use of marijuana might be taking a toll on the lungs, the researchers could not get reliable estimates of the effects of very heavy marijuana exposure, as such smokers were relatively rare in the study population.</p>
+
+<p>All participants in the study began as young, healthy adults 18 to 30 years old from four communities: Oakland, Chicago, Minneapolis and Birmingham. They volunteered to be part of this long-term medical research study, agreeing that their data could be used to explore questions, including about tobacco and marijuana use.</p>
+</div>
+
+      
+<div class="article-full-width__space"></div>
+  <div  class="video article-full-width">
+    
+                  <div class="field field-video-link-media field--type-entity-reference field--label-hidden field__item"><article class="media media--type-remote-video media--view-mode-default">
+  
+      
+                  <div class="field field-media-video-embed-field field--type-video-embed-field field--label-hidden field__item"><div class="video-embed-field-provider-youtube video-embed-field-responsive-video"><iframe width="854" height="480" frameborder="0" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/OgzoEMDM-c0?autoplay=0&amp;start=0&amp;rel=0"></iframe>
+</div>
+</div>
+            
+  </article>
+</div>
+            
+  </div>
+<div class="article-full-width__space"></div>
+
+  
+<div class="paragraph-text-block">
+  
+              <p>Researchers believe the results can supplement the growing body of knowledge about beneficial aspects of low to moderate marijuana use in controlling pain, stimulating appetite, elevating mood and managing other chronic symptoms.</p>
+
+<p>“Our findings suggest that occasional use of marijuana for these or other purposes may not be associated with adverse consequences on pulmonary function,” Pletcher said. “On the other hand, our findings do suggest an accelerated decline in pulmonary function with heavier use – either very frequent use or frequent use over many years – and a resulting need for caution and moderation when marijuana use is considered.”</p>
+
+<p>Pletcher is the lead author of the paper; co-authors are Eric Vittinghoff, PhD, and Feng Lin, MS; of the UCSF Department of Epidemiology and Biostatistics; Ravi Kalhan, MD, MS, of the Divison of Pulmonary and Critical Care Medicine at Northwestern University Feinberg School of Medicine; Stephen Sidney, MD, MPH, of Kaiser Permanente of Northern California, Oakland; Joshua Richman, MD, PhD, Monika Safford, MD, and Stefan Kertesz, MD, of the University of Alabama at Birmingham and Veterans Affairs Medical Center.</p>
+
+<p>The study was supported by funds from the National Heart Lung Blood Institute.</p>
+
+<p>UCSF is a leading university dedicated to promoting health worldwide through advanced biomedical research, graduate-level education in the life sciences and health professions, and excellence in patient care.</p>
+
+<h2>Related Links</h2>
+
+<dom-twocolumn-layout data-column1-color="transparent" data-column1-size="50" data-column2-color="transparent" data-column2-size="50"><div class="column1" slot="column1" style="--column1-color: var(--bg-transparent); --column1-size: var(--size-50); --column1-font-color: var(--font-black)">
+	<ul><li class="first"><a href="https://www.ucsf.edu/news/2011/12/11077/ucsf-study-finds-medical-marijuana-could-help-patients-reduce-pain-opiates">UCSF Study Finds Medical Marijuana Could Help Patients Reduce Pain with Opiates</a></li>
+		<li><a href="http://healthland.time.com/2012/01/10/study-smoking-marijuana-not-linked-with-lung-damage/">Time Article</a></li>
+		<li><a href="http://www.npr.org/blogs/health/?ps=sh_hdshots">NPR Shots</a></li>
+		<li><a href="http://www.washingtonpost.com/blogs/the-checkup/post/moderate-marijuana-use-not-linked-to-lung-damage/2010/12/20/gIQAjm3roP_blog.html">Washington Post Article</a></li>
+		<li><a href="http://www.reuters.com/article/2012/01/10/us-pot-health-idUSTRE8092BC20120110">Reuters Article</a></li>
+		<li><a href="http://thechart.blogs.cnn.com/2012/01/10/study-occasional-pot-smoking-not-as-damaging-as-cigarettes/">CNN Article</a></li>
+		<li><a href="http://www.bloomberg.com/news/2012-01-10/one-marijuana-joint-a-week-for-49-years-doesn-t-harm-lungs-research-finds.html">Bloomberg Article</a></li>
+	</ul></div>
+
+	<div class="column2" slot="column2" style="--column2-color: var(--bg-transparent); --column2-size: var(--size-50); --column2-font-color: var(--font-black)">
+	<ul><li><a href="http://vitals.msnbc.msn.com/_news/2012/01/10/10098412-smoking-pot-doesnt-hurt-lung-capacity-study-shows">MSNBC Vitals Article</a></li>
+		<li><a href="http://abcnews.go.com/Health/smoking-pot-harm-lung-function-time/story?id=15331989#.Tw4zaYG4qVp">ABC News Article</a></li>
+		<li><a href="http://www.latimes.com/health/boostershots/la-heb-marijuana-lungs-20120110,0,773919.story">Los Angeles Times Article</a></li>
+		<li><a href="http://health.usnews.com/health-news/family-health/cancer/articles/2012/01/10/occasional-pot-smoking-wont-harm-lungs-study">U.S. News &amp; World Report Article</a></li>
+		<li><a href="http://yourlife.usatoday.com/health/story/2012-01-10/Marijuana-doesnt-harm-lung-function-study-says/52483604/1">USA Today Article</a></li>
+		<li class="last"><a href="http://www.webmd.com/lung/news/20120103/marijuana-smoking-not-linked_to-chronic-breathing-problems">WebMD Article</a></li>
+	</ul></div>
+</dom-twocolumn-layout>
+      
+</div>
+
+
+
+<div class="tags-menu-region">
+      <h3 class="tags-menu__title">Topics</h3>
+    <ul class="tags-menu">
+      
+            <li class="tags-menu__item"><a href="/topics/drugs-and-alcohol" hreflang="en">Drugs and Alcohol</a></li>
+      <li class="tags-menu__item"><a href="/topics/epidemiology" hreflang="en">Epidemiology</a></li>
+      <li class="tags-menu__item"><a href="/topics/smoking-and-tobacco" hreflang="en">Smoking and Tobacco</a></li>
+      <li class="tags-menu__item"><a href="/topics/marijuana-and-cannabis" hreflang="en">Marijuana and Cannabis</a></li>
+     
+    </ul>
+  </div>
+  </div>
+</div>
+  </main>
+
+<div class="recommended-articles ">
+  <div class="recommended-articles__banner">
+    <h2 class="recommended-articles__title">Recommended Reading</h2>
+    
+  </div>
+  <div class="views-element-container"><div class="view view-articles-by-term view-id-articles_by_term view-display-id-block_1 js-view-dom-id-4332f67adba195ca99a201eedbab88014432d793490413e9ae56108d87e444ea">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row">
+
+
+
+ 
+<article  data-history-node-id="414651" role="article" about="/news/2019/06/414651/motivational-interview-may-lessen-problem-drinking-people-hiv" typeof="schema:Article" class="news-card" data-primary-area="pa-patient-care">
+  <a href="/news/2019/06/414651/motivational-interview-may-lessen-problem-drinking-people-hiv" class="news-card__link">
+
+          
+              <figure>
+    <picture class="field field-card-image field--type-entity-reference field--label-hidden field__item">  
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/news_card__image/public/2019-06/talk_therapy_counseling_psychiatrist.jpg?itok=63u4lQmR 1x, /sites/default/files/styles/news_card__image/public/2019-06/talk_therapy_counseling_psychiatrist.jpg?itok=63u4lQmR 2x" media="all and (max-width: 599px)" type="image/jpeg"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="/sites/default/files/styles/news_card__image/public/2019-06/talk_therapy_counseling_psychiatrist.jpg?itok=63u4lQmR" alt="Person with interlocked fingers talking. " typeof="foaf:Image" />
+
+
+
+</picture>
+  </figure>
+      
+    
+    <header class="news-card__copy">
+      
+
+<ul class="article-header__byline">
+      <li class="article-header__primary-area" data-primary-area="pa-patient-care">
+                  <div class="field field-primary-area field--type-entity-reference field--label-hidden field__item">Patient Care</div>
+            </li>
+    <li class="article-header__date">
+                  <div class="field field-date-and-time field--type-datetime field--label-hidden field__item"><time datetime="2019-06-11T22:46:19Z" class="datetime">Jun. 11, 2019</time>
+</div>
+            </li>
+</ul>
+              <h2><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">‘Motivational Interview’ May Lessen Problem Drinking in People with HIV</span>
+</h2>
+          </header>
+  </a>
+</article>
+</div>
+    <div class="views-row">
+
+
+
+ 
+<article  data-history-node-id="414471" role="article" about="/news/2019/05/414471/legal-marijuana-reduces-chronic-pain-increases-injuries-and-car-accidents" typeof="schema:Article" class="news-card" data-primary-area="pa-research">
+  <a href="/news/2019/05/414471/legal-marijuana-reduces-chronic-pain-increases-injuries-and-car-accidents" class="news-card__link">
+
+          
+              <figure>
+    <picture class="field field-card-image field--type-entity-reference field--label-hidden field__item">  
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/news_card__image/public/2019-05/marijuana-plant-banner.jpg?itok=eXnRKT6h 1x, /sites/default/files/styles/news_card__image/public/2019-05/marijuana-plant-banner.jpg?itok=eXnRKT6h 2x" media="all and (max-width: 599px)" type="image/jpeg"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="/sites/default/files/styles/news_card__image/public/2019-05/marijuana-plant-banner.jpg?itok=eXnRKT6h" alt="Marijuana buds spilling out of plastic bag. " typeof="foaf:Image" />
+
+
+
+</picture>
+  </figure>
+      
+    
+    <header class="news-card__copy">
+      
+
+<ul class="article-header__byline">
+      <li class="article-header__primary-area" data-primary-area="pa-research">
+                  <div class="field field-primary-area field--type-entity-reference field--label-hidden field__item">Research</div>
+            </li>
+    <li class="article-header__date">
+                  <div class="field field-date-and-time field--type-datetime field--label-hidden field__item"><time datetime="2019-05-15T20:01:48Z" class="datetime">May. 15, 2019</time>
+</div>
+            </li>
+</ul>
+              <h2><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Legal Marijuana Reduces Chronic Pain, But Increases Injuries and Car Accidents</span>
+</h2>
+          </header>
+  </a>
+</article>
+</div>
+    <div class="views-row">
+
+
+
+ 
+<article  data-history-node-id="414166" role="article" about="/news/2019/04/413921/medicaid-could-save-26-billion-within-year-if-just-1-percent-recipients-quit" typeof="schema:Article" class="news-card" data-primary-area="pa-patient-care">
+  <a href="/news/2019/04/413921/medicaid-could-save-26-billion-within-year-if-just-1-percent-recipients-quit" class="news-card__link">
+
+          
+              <figure>
+    <picture class="field field-card-image field--type-entity-reference field--label-hidden field__item">  
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/news_card__image/public/field/image/landing-page-two-columns/hands-breaking-cigarette-smoking.jpg?itok=oBNM3h01 1x, /sites/default/files/styles/news_card__image/public/field/image/landing-page-two-columns/hands-breaking-cigarette-smoking.jpg?itok=oBNM3h01 2x" media="all and (max-width: 599px)" type="image/jpeg"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="/sites/default/files/styles/news_card__image/public/field/image/landing-page-two-columns/hands-breaking-cigarette-smoking.jpg?itok=oBNM3h01" alt="hands breaking a cigarette" typeof="foaf:Image" />
+
+
+
+</picture>
+  </figure>
+      
+    
+    <header class="news-card__copy">
+      
+
+<ul class="article-header__byline">
+      <li class="article-header__primary-area" data-primary-area="pa-patient-care">
+                  <div class="field field-primary-area field--type-entity-reference field--label-hidden field__item">Patient Care</div>
+            </li>
+    <li class="article-header__date">
+                  <div class="field field-date-and-time field--type-datetime field--label-hidden field__item"><time datetime="2019-04-12T15:41:37Z" class="datetime">Apr. 12, 2019</time>
+</div>
+            </li>
+</ul>
+              <h2><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Medicaid Could Save $2.6 Billion Within a Year if Just 1 Percent of Recipients Quit Smoking</span>
+</h2>
+          </header>
+  </a>
+</article>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  <div class="footer-ctas-wrapper">
+    
+          <div class="field field-ankle-cta field--type-entity-reference field--label-hidden field__items">
+              <div class="field__item">
+                  <div class="clearfix text-formatted field body field--type-text-with-summary field--label-hidden field__item"><h2>Are you a member of the news media?</h2>
+
+<p><a class="icon-media" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="389ec7dc-e40f-4077-9e9c-884ccbea0dec" href="/news-media/journalists" title="Resources for Journalists">Visit the Media Center</a></p>
+</div>
+            </div>
+              <div class="field__item">
+                  <div class="clearfix text-formatted field body field--type-text-with-summary field--label-hidden field__item"><h2>Stay in touch with the latest updates.</h2>
+
+<p><a class="icon-media" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="cab6a11f-4158-4d04-88f1-d511d9455ca2" href="/subscribe-ucsf-news" title="Subscribe to UCSF News">Subscribe to UCSF News</a></p>
+</div>
+            </div>
+                      </div>
+      
+  </div>
+</div>
+
+  </div>
+
+    </div>
+  
+
+  <footer class="footer-region">
+  <div class="footer">
+    <div class="logo-follow">
+      <figure class="footer-logo">
+        <a class="footer-logo__link" href="/">
+          <div class="footer-logo__image">
+            <img class="footer-logo__img" src="/themes/custom/ucsf/images/footer-logo.svg" alt="UCSF Footer Logo">
+          </div>
+        </a>
+      </figure>
+
+      <div class="follow">
+        <h2>Follow Us:</h2>
+        <ul>
+          <li class="follow-facebook"><a href="https://www.facebook.com/ucsf"><span class="fab fa-facebook-f"></span> <span class="indent-text">Facebook</span></a></li>
+          <li class="follow-twitter"><a href="https://www.twitter.com/ucsf"><span class="fab fa-twitter"></span> <span class="indent-text">Twitter</span></a></li>
+          <li class="follow-youtube"><a href="https://www.youtube.com/ucsf"><span class="fab fa-youtube"></span> <span class="indent-text">YouTube</span></a></li>
+          <li class="follow-instagram"><a href="https://www.instagram.com/ucsf"><span class="fab fa-instagram"></span> <span class="indent-text">Instagram</span></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <nav role="navigation" aria-labelledby="block-ucsf-footer-menu" id="block-ucsf-footer" class="block block-menu navigation menu--footer">
+      
+  <h2 id="block-ucsf-footer-menu">Get Involved</h2>
+  
+
+        
+
+  
+              <ul block="block-ucsf-footer" class="menu">
+                          <li class="menu-item"
+                      >
+        <a href="/cgr/advocacy" data-drupal-link-system-path="node/408041">Become a UCSF Advocate</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://ucsfhealth.samaritan.com">Volunteer at UCSF Medical Center</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://campaign.ucsf.edu/fundraise">Start a Fundraiser</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/subscribe-ucsf-news" data-drupal-link-system-path="node/403161">Subscribe to UCSF News</a>
+              </li>
+        </ul>
+  
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-footer2resources-menu" id="block-footer2resources" class="block block-menu navigation menu--footer2">
+      
+  <h2 id="block-footer2resources-menu">Resources</h2>
+  
+
+        
+
+  
+              <ul block="block-footer2resources" class="menu">
+                          <li class="menu-item"
+                      >
+        <a href="https://websites.ucsf.edu/azlist">A to Z Website List</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://policies.ucsf.edu/">Administrative Policies</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://identity.ucsf.edu/">Brand Guidelines</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/about/locations" data-drupal-link-system-path="node/96416">Campus Maps</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/about/working-ucsf" data-drupal-link-system-path="node/409191">Careers at UCSF</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://chancellor.ucsf.edu/">Chancellor</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://diversity.ucsf.edu/">Diversity &amp; Outreach</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://police.ucsf.edu/emergency-management">Emergency Management</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://hr.ucsf.edu/hr.php">Human Resources</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://www.library.ucsf.edu/">Library</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://directory.ucsf.edu/">People Directory</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://police.ucsf.edu/">Police</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://campuslifeservices.ucsf.edu/transportation/services/shuttles/">Shuttle Schedule</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="https://profiles.ucsf.edu/search/">UCSF Profiles</a>
+              </li>
+        </ul>
+  
+
+  </nav>
+<div id="block-popwiseblock" class="block block-block-content block-block-content6efc2b33-6a3d-487d-8945-4c884ad0df82">
+  
+    
+      
+                  <div class="clearfix text-formatted field body field--type-text-with-summary field--label-hidden field__item"><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" data-cfasync="false">
+<!--//--><![CDATA[// ><!--
+
+  (function(W,i,s,e,P,o,p){W['WisePopsObject']=P;W[P]=W[P]||function(){
+  (W[P].q=W[P].q||[]).push(arguments)},W[P].l=1*new Date();o=i.createElement(s),
+  p=i.getElementsByTagName(s)[0];o.async=1;o.src=e;p.parentNode.insertBefore(o,p)
+  })(window,document,'script','//loader.wisepops.com/get-loader.js?v=1&site=dQ5haeqNrm','wisepops');
+
+//--><!]]>
+</script></div>
+            
+  </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2019 The Regents of The University of California</p>
+
+    <ul class="text-align: right;">
+      <li><a href="/sitemap.xml" style="left: -9999px; position:absolute;">Site Map</a></li>
+      <li><a href="/website-terms-use">Terms of Use</a></li>
+      <li><a href="/feedback">Report an issue with UCSF.edu website</a></li>
+    </ul>
+
+  </div>
+</footer>
+
+
+</div>
+  </div>
+
+
+<link name="polymer_platform" href="/modules/custom/ckeditor_y3ti_plugins/elements/build.html" rel="import" />
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/98519","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","ajaxPageState":{"libraries":"ckeditor_y3ti_plugins\/webcomponents,classy\/base,classy\/messages,core\/html5shiv,core\/normalize,core\/picturefill,extlink\/drupal.extlink,google_analytics\/google_analytics,lazyloader\/lazysizes-min,paragraphs\/drupal.paragraphs.unpublished,system\/base,twitter_tweets\/twitter_tweets.twitter_feeds,ucsf\/fontawesome,ucsf\/global,ucsf\/universalsearch,video_embed_field\/responsive-video,views\/views.ajax,views\/views.module,youtube_gallery\/global-styling","theme":"ucsf","theme_token":null},"ajaxTrustedUrl":[],"google_analytics":{"trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":true},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":false,"extNofollow":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":".menu--main","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"0","mailtoLabel":"(link sends email)"}},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:4332f67adba195ca99a201eedbab88014432d793490413e9ae56108d87e444ea":{"view_name":"articles_by_term","view_display_id":"block_1","view_args":"635+638+699+413886\/98519","view_path":"\/news\/2012\/01\/98519\/marijuana-shown-be-less-damaging-lungs-tobacco","view_base_path":null,"view_dom_id":"4332f67adba195ca99a201eedbab88014432d793490413e9ae56108d87e444ea","pager_element":0}}},"user":{"uid":0,"permissionsHash":"38595c9d6541fcdaf5d7c929dccf9a29faa4ca134cd4d16d44cd2e0ee82cf2f0"}}</script>
+<script src="/sites/default/files/js/js_-hIQcF_MhmiWS3qX7_nUxgyV6Ld0y75Cywtbac737sI.js"></script>
+
+<script type="text/javascript">
+  /*<![CDATA[*/
+  (function() {
+    var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+    sz.src = '//siteimproveanalytics.com/js/siteanalyze_8343.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+  })();
+  /*]]>*/
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3f2f22c0ca","applicationID":"56771044","transactionName":"ZlVaMBQEXksEV0dbWF8feQcSDF9WSlJaV1tVb18WCRBAZwBaR1tDSG9ODQMSb0gXUWxAUl9UXRY=","queueTime":0,"applicationTime":345,"atts":"ShJZRlweTUU=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

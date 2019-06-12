@@ -1,0 +1,719 @@
+<!doctype html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UQQGVldACQYHXVla"};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(18),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(19),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var x=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof x&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof x&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(21)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(21)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(21)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(21)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(b?b.then(a):w?w(a):(E=-E,R.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(21)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var x=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!w&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(){var t=window.NREUM,n=t.info.accountID||null,e=t.info.agentID||null,r=t.info.trustKey||null,i="btoa"in window&&"function"==typeof window.btoa;if(!n||!e||!i)return null;var a={v:[0,1],d:{ty:"Browser",ac:n,ap:e,id:o.generateCatId(),tr:o.generateCatId(),ti:Date.now()}};return r&&n!==r&&(a.d.tk=r),btoa(JSON.stringify(a))}var o=t(16);n.exports={generateTraceHeader:r}},{}],11:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<p;r++)t.removeEventListener(l[r],this.listener,!1);n.aborted||(e.duration=s.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==n.status&&(n.status=0):a(this,t),e.cbTime=this.cbTime,d.emit("xhr-done",[t],t),c("xhr",[n,e,this.startTime]))}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return w(r)}function i(t,n){var e=f(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}function a(t,n){t.params.status=n.status;var e=o(n,t.lastSize);if(e&&(t.metrics.rxSize=e),t.sameOrigin){var r=n.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var s=t("loader");if(s.xhrWrappable){var c=t("handle"),f=t(12),u=t(10).generateTraceHeader,d=t("ee"),l=["load","error","abort","timeout"],p=l.length,h=t("id"),m=t(15),w=t(14),v=window.XMLHttpRequest;s.features.xhr=!0,t(9),d.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,n.loadCaptureCalled=!1,t.addEventListener("load",function(e){a(n,t)},!1),m&&(m>34||m<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),d.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),d.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var e=!1;if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(e=!!NREUM.init.distributed_tracing.enabled),e&&this.sameOrigin){var r=u();r&&n.setRequestHeader("newrelic",r)}}),d.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=w(r);i&&(e.txSize=i)}this.startTime=s.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{d.emit("internal-error",[e])}catch(r){}}};for(var a=0;a<p;a++)n.addEventListener(l[a],this.listener,!1)}),d.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),d.on("xhr-load-added",function(t,n){var e=""+h(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),d.on("xhr-load-removed",function(t,n){var e=""+h(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),d.on("addEventListener-end",function(t,n){n instanceof v&&"load"===t[0]&&d.emit("xhr-load-added",[t[1],t[2]],n)}),d.on("removeEventListener-end",function(t,n){n instanceof v&&"load"===t[0]&&d.emit("xhr-load-removed",[t[1],t[2]],n)}),d.on("fn-start",function(t,n,e){n instanceof v&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=s.now()))}),d.on("fn-end",function(t,n){this.xhrCbStart&&d.emit("xhr-cb-time",[s.now()-this.xhrCbStart,this.onload,n],n)})}},{}],12:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],13:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(18),s=t(19),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,n])}},{}],14:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],15:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],16:[function(t,n,e){function r(){function t(){return n?15&n[e++]:16*Math.random()|0}var n=null,e=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(n=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){function t(){return n?15&n[e++]:16*Math.random()|0}var n=null,e=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(n=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<16;i++)o.push(t().toString(16));return o.join("")}n.exports={generateUuid:r,generateCatId:o}},{}],17:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],18:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],19:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],20:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],21:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(19),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([x,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function w(t){return d[t]=d[t]||o(e)}function v(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},x={on:p,addEventListener:p,removeEventListener:h,emit:e,get:w,listeners:m,context:n,buffer:v,abort:a,aborted:!1};return x}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(18),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=b.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return R.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(18),u=t("ee"),d=t(17),l=window,p=l.document,h="addEventListener",m="attachEvent",w=l.XMLHttpRequest,v=w&&w.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:w,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},x=w&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:x,userAgent:d};t(13),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,R=t(20)},{}]},{},["loader",2,11,4,3]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="amphtml" href="https://amp.insurancejournal.com/news/national/2018/01/17/477331.htm">
+
+    <title>Number of Americans Without Health Insurance Rose by 3 Million in 2017: Gallup</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v9.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="The number of Americans without healthcare insurance rose by 3.2 million people between 2016 and 2017, or 1.3 percentage points to 12.2 percent, according"/>
+<link rel="canonical" href="https://www.insurancejournal.com/news/national/2018/01/17/477331.htm" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Number of Americans Without Health Insurance Rose by 3 Million in 2017: Gallup" />
+<meta property="og:description" content="The number of Americans without healthcare insurance rose by 3.2 million people between 2016 and 2017, or 1.3 percentage points to 12.2 percent, according" />
+<meta property="og:url" content="https://www.insurancejournal.com/news/national/2018/01/17/477331.htm" />
+<meta property="og:site_name" content="Insurance Journal" />
+<meta property="article:publisher" content="https://www.facebook.com/insurancejournal" />
+<meta property="article:tag" content="GOP Obamacare repeal" />
+<meta property="article:tag" content="Obamacare" />
+<meta property="article:tag" content="Republicans Obamacare" />
+<meta property="article:tag" content="rise in uninsured" />
+<meta property="article:tag" content="uninsured Americans" />
+<meta property="article:section" content="National News" />
+<meta property="article:published_time" content="2018-01-17T06:00:33-05:00" />
+<meta property="article:modified_time" content="2018-01-17T01:45:39-05:00" />
+<meta property="og:updated_time" content="2018-01-17T01:45:39-05:00" />
+<meta property="og:image" content="https://www.insurancejournal.com/img/insurancejournal-square.png" />
+<meta property="og:image:secure_url" content="https://www.insurancejournal.com/img/insurancejournal-square.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="The number of Americans without healthcare insurance rose by 3.2 million people between 2016 and 2017, or 1.3 percentage points to 12.2 percent, according" />
+<meta name="twitter:title" content="Number of Americans Without Health Insurance Rose by 3 Million in 2017: Gallup" />
+<meta name="twitter:site" content="@ijournal" />
+<meta name="twitter:image" content="https://www.insurancejournal.com/img/insurancejournal-square.png" />
+<meta name="twitter:creator" content="@ijournal" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//code.jquery.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='bootstrap-css-css'  href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='sage/css-css'  href='https://www.insurancejournal.com/app/themes/insurancejournal/dist/styles/main-ce81093fae.css' type='text/css' media='all' />
+    <script id="zones">
+    <!--// <![CDATA[
+        var OA_source = ""
+        var OA_zones = {'interstitial':"",'header-728x90':63,'footer-728x90':64,'right-125x125-1':"",'right-125x125-2':"",'right-125x125-3':"",'right-125x125-4':"",'right-125x125-5':"",'right-125x125-6':"",'research-sidebar-1':137,'research-sidebar-2':137,'right-300x250-1':62,'right-2nd-300x250-1':75,'site-partner':89,'video-sponsor':41,'poll-sponsor':134,'article-billboard':104,'afl-1':65,'afl-2':65,'content-300x250-1':69,'intext':79}
+    // ]]> -->
+    </script>
+    <link rel='https://api.w.org/' href='https://www.insurancejournal.com/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.insurancejournal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.insurancejournal.com%2Fnews%2Fnational%2F2018%2F01%2F17%2F477331.htm" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.insurancejournal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.insurancejournal.com%2Fnews%2Fnational%2F2018%2F01%2F17%2F477331.htm&#038;format=xml" />
+			<meta property="fb:pages" content="75524109257" />
+							<meta property="ia:markup_url" content="https://www.insurancejournal.com/news/national/2018/01/17/477331.htm?ia_markup=1" />
+				<link rel="icon" href="https://www.insurancejournal.com/app/uploads/2015/12/cropped-insurancejournal-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://www.insurancejournal.com/app/uploads/2015/12/cropped-insurancejournal-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.insurancejournal.com/app/uploads/2015/12/cropped-insurancejournal-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://www.insurancejournal.com/app/uploads/2015/12/cropped-insurancejournal-270x270.jpg" />
+
+    <script>
+!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+analytics.load("Saj7sFK0VnscWFClcqscVeMd3nlORioG");
+analytics.page({"platform":"web","category":"national","author":"Yasmeen Abutaleb","fivepos":1});
+}}();
+</script>
+
+
+</head>
+
+    <body class="post-template-default single single-post postid-477331 single-format-standard 477331.htm">
+        <!-- Begin Header -->
+<header class="header">
+    <div class="header-topbar">
+    <div class="container">
+        <ul class="menu menu-horizontal menu-topbar clearfix">
+            <li class="menu-item"><a href="https://www.mynewmarkets.com/">MyNewMarkets.com</a></li>
+            <li class="menu-item"><a href="https://www.claimsjournal.com/">Claims Journal</a></li>
+            <li class="menu-item"><a href="https://www.insurancejournal.tv/">Insurance Journal TV</a></li>
+            <li class="menu-item"><a href="https://www.ijacademy.com/">Academy of Insurance</a></li>
+            <li class="menu-item"><a href="https://www.carriermanagement.com/">Carrier Management</a></li>
+        </ul>
+    </div>
+</div>
+
+    <div class="header-main">
+    <div class="container">
+        <div class="row">
+            <div class="col col-sm-5 col-md-4">
+                <a href="/" class="logo logo-header">
+    <img src="https://www.insurancejournal.com/img/insurance-journal-logo-680.png" alt="Insurance Journal - Property Casualty Industry News">
+</a>            </div>
+
+            <div class="col col-sm-7 col-md-5">
+                <div class="featured-stories featured-stories-header">
+    <h3>Featured Stories</h3>
+    <ul class="menu menu-header">
+            <li class="menu-item"><a href="https://www.insurancejournal.com/news/international/2019/06/04/528321.htm">Large Marine Losses Drop; New Risks Emerge</a></li>
+            <li class="menu-item"><a href="https://www.insurancejournal.com/news/midwest/2019/06/03/528231.htm">Michigan Overhauls Auto Insurance</a></li>
+        </ul>
+</div>
+                <ul class="nav nav-tabs tabs tabs-header" role="tablist">
+    <li role="presentation" class="active"><a href="#search-news" aria-controls="search-news" role="tab" data-toggle="tab">News</a></li>
+    <li role="presentation"><a href="#search-markets" aria-controls="search-markets" role="tab" data-toggle="tab">Markets</a></li>
+    </ul>
+<div class="tab-content search search-header">
+    <div role="tabpanel" class="tab-pane active" id="search-news">
+        <form action="/search/" method="get" class="clearfix">
+            <input type="hidden" value="news" name="section">
+            <input type="text" class="large" name="q" value="">
+            <input type="submit" value="Search">
+        </form>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="search-markets">
+        <form action="/search/" method="get" class="clearfix">
+            <input type="hidden" value="markets" name="section">
+            <input type="text" class="large" name="q" value="">
+            <input type="submit" value="Search">
+        </form>
+    </div>
+    </div>
+            </div>
+
+            <div class="col col-md-3 hidden-sm hidden-xs">
+                <div class="current-issue current-issue-header">
+    <h3>Current Magazine</h3>
+    <a class="magazine" href="/magazines/insurance-journal-west-2019-06-03/" target="_top">
+        <img src="https://d6zxf491dr98g.cloudfront.net/img/magazines/120/ije_20190603.png" alt="current magazine" style="height:146px;width:115px;">
+    </a>
+    <ul class="menu menu-header menu-horizontal">
+        <li class="menu-item">
+            <a href="/magazines/insurance-journal-west-2019-06-03/" class="current-link" target="_top">Read Online</a>
+        </li>
+        <li class="menu-item">
+            <a href="/subscribe/magazine" class="current-link" target="_top">Subscribe</a>
+        </li>
+    </ul>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="header-nav">
+    <div class="container">
+        <nav id="nav">
+            <ul class="menu menu-horizontal menu-main clearfix">
+                                <li class="hidden-sm hidden-xs menu-item has-submenu">
+                    <a href="/" id="nav-front">Front Page<span class="caret"></span></a>
+                    <ul class="menu-submenu">
+                        <li class="menu-item"><a href="/news/national/">National</a></li>
+                        <li class="menu-item"><a href="/news/international/">International</a></li>
+                        <li class="menu-item"><a href="/mostpopular/">Most Popular</a></li>
+                        <li class="menu-item"><a href="/magazines/">Magazine</a></li>
+                        <li class="menu-item"><a href="/forums/">Forums</a></li>
+                        <li class="menu-item"><a href="/blogs/">Blogs</a></li>
+                        <li class="menu-item"><a href="http://www.insurancejournal.tv/">Videos/Podcasts</a></li>
+                        <li class="menu-item"><a href="/subscribe/">Newsletters</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item has-submenu current">
+                    <a href="/news/">News<span class="caret"></span></a>
+                    <ul class="menu-submenu">
+                        <li class="menu-item"><a href="/mostpopular/">Most Popular</a></li>
+                        <li class="menu-item current"><a href="/news/national/">National</a></li>
+                        <li class="menu-item"><a href="/news/international/">International</a></li>
+                        <li class="menu-item"><a href="/news/east/">East</a></li>
+                        <li class="menu-item"><a href="/news/midwest/">Midwest</a></li>
+                        <li class="menu-item"><a href="/news/southcentral/">South Central</a></li>
+                        <li class="menu-item"><a href="/news/southeast/">Southeast</a></li>
+                        <li class="menu-item"><a href="/news/west/">West</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item has-submenu">
+                    <a href="/magazines/">Magazines<span class="caret"></span></a>
+                    <ul class="menu-submenu">
+                        <li class="menu-item"><a href="/magazines/east/">East</a></li>
+                        <li class="menu-item"><a href="/magazines/midwest/">Midwest</a></li>
+                        <li class="menu-item"><a href="/magazines/southcentral/">South Central</a></li>
+                        <li class="menu-item"><a href="/magazines/southeast/">Southeast</a></li>
+                        <li class="menu-item"><a href="/magazines/west/">West</a></li>
+                        <li class="menu-item"><a href="/subscribe/magazine/">Subscribe</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item hidden-xs"><a href="https://www.insurancejournal.com/research/">Research</a></li>
+                <li class="menu-item hidden-xs"><a href="/directories/">Directories</a></li>
+                <li class="menu-item">
+                    <a href="/jobs/">Jobs</a>
+                </li>
+                                <li class="menu-item hidden-xs has-submenu">
+                    <a href="#">Features<span class="caret"></span></a>
+                    <ul class="menu-submenu">
+                        <li class="menu-item"><a href="/events/">Events</a></li>
+                        <li class="menu-item"><a href="/forums/">Forums</a></li>
+                        <li class="menu-item"><a href="/buyers/">Buyers Guide</a></li>
+                        <li class="menu-item"><a href="/twitter/">Insurance Twitter</a></li>
+                        <li class="menu-item"><a href="/directories/">Market Directories</a></li>
+                        <li class="menu-item"><a href="/adshowcase/">Ad Showcase</a></li>
+                        <li class="menu-item"><a href="/quotes/">Quotes</a></li>
+                        <li class="menu-item"><a href="/polls/">Polls</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item"><a href="/subscribe/">Subscribe</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+</header>
+<!-- End Header -->
+        <div class="wrap container" role="document">
+                        
+            
+            <div class="content row">
+                <main class="main">
+                    
+<div class="article-feed" data-infinite-scroll data-toc="[{&quot;id&quot;:477331,&quot;title&quot;:&quot;Number of Americans Without Health Insurance Rose by 3 Million in 2017: Gallup&quot;,&quot;permalink&quot;:&quot;https:\/\/www.insurancejournal.com\/news\/national\/2018\/01\/17\/477331.htm&quot;,&quot;author&quot;:&quot;Yasmeen Abutaleb&quot;,&quot;category&quot;:&quot;national&quot;},{&quot;id&quot;:528917,&quot;title&quot;:&quot;Crane Falls on Dallas Apartments; 1 Killed, 5 Injured&quot;,&quot;permalink&quot;:&quot;https:\/\/www.insurancejournal.com\/news\/southcentral\/2019\/06\/11\/528917.htm&quot;,&quot;author&quot;:&quot;Juan Lozano, Jake Bleiberg&quot;,&quot;category&quot;:&quot;southcentral&quot;},{&quot;id&quot;:528848,&quot;title&quot;:&quot;Supreme Court Accepts 3 Cases Seeking to Limit Lawsuits Against Businesses&quot;,&quot;permalink&quot;:&quot;https:\/\/www.insurancejournal.com\/news\/national\/2019\/06\/11\/528848.htm&quot;,&quot;author&quot;:&quot;Greg Stohr&quot;,&quot;category&quot;:&quot;national&quot;},{&quot;id&quot;:528876,&quot;title&quot;:&quot;Two Killed When Small Plane Crashes on Long Island&quot;,&quot;permalink&quot;:&quot;https:\/\/www.insurancejournal.com\/news\/east\/2019\/06\/11\/528876.htm&quot;,&quot;author&quot;:&quot;&quot;,&quot;category&quot;:&quot;east&quot;},{&quot;id&quot;:528877,&quot;title&quot;:&quot;How Insurers Are Digitizing Claims with Apps, Photos, Videos, E-Payments and More&quot;,&quot;permalink&quot;:&quot;https:\/\/www.insurancejournal.com\/news\/national\/2019\/06\/11\/528877.htm&quot;,&quot;author&quot;:&quot;Jim Sams&quot;,&quot;category&quot;:&quot;national&quot;}]">
+
+    <!-- Begin Entry -->
+<article
+    class="article post-477331 post type-post status-publish format-standard hentry category-national tag-gop-obamacare-repeal tag-obamacare tag-republicans-obamacare tag-rise-in-uninsured tag-uninsured-americans"    data-id="477331"
+    data-permalink="https://www.insurancejournal.com/news/national/2018/01/17/477331.htm"
+>
+    <div class="bzn bzn-header-728x90 bzn-between-articles">
+        <ins data-revive-zoneid="63" data-revive-block="1" data-revive-id="36eb7c2bd3daa932a43cc2a8ffbed3a9"></ins>
+        <script async src="https://ra.wellsmedia.com/www/delivery/asyncjs.php"></script>
+    </div>
+    
+    <div class="row">
+        <div class="main with-sidebar article-main article-equal-heights">
+                        <header class="entry-header">
+                
+<div id="article-header">
+    <h1>Number of Americans Without Health Insurance Rose by 3 Million in 2017: Gallup</h1>
+    <div class="publish-date">
+                By <a href="https://www.insurancejournal.com/author/yasmeen-abutaleb/" title="Posts by Yasmeen Abutaleb" class="author url fn" rel="author">Yasmeen Abutaleb</a> |                 <span class="the-date">January 17, 2018</span>    </div>
+</div>
+
+
+<div class="article-tools clearfix">
+    <div class="left">
+        <a href="mailto:?subject=Number%20of%20Americans%20Without%20Health%20Insurance%20Rose%20by%203%20Million%20in%202017%3A%20Gallup&amp;body=Number%20of%20Americans%20Without%20Health%20Insurance%20Rose%20by%203%20Million%20in%202017%3A%20Gallup%0Ahttps%3A%2F%2Fwww.insurancejournal.com%2Fnews%2Fnational%2F2018%2F01%2F17%2F477331.htm" rel="nofollow" class="article-tool print" onClick="_gaq.push(['_trackEvent', 'Email This', 'Type', 'Article Tools']);">
+            <i class="icon-envelope"></i> Email This
+        </a>
+
+        <span class="separator"></span>
+        <a href="/subscribe/" rel="nofollow" class="article-tool subscribe">
+            <i class="icon-newspaper-o"></i> Subscribe to Newsletter
+        </a>
+    </div>
+        <div class="right">
+        <a title="Email to a friend" href="mailto:?subject=Number%20of%20Americans%20Without%20Health%20Insurance%20Rose%20by%203%20Million%20in%202017%3A%20Gallup&amp;body=Number%20of%20Americans%20Without%20Health%20Insurance%20Rose%20by%203%20Million%20in%202017%3A%20Gallup%0Ahttps%3A%2F%2Fwww.insurancejournal.com%2Fnews%2Fnational%2F2018%2F01%2F17%2F477331.htm" class="icon-envelope social-link email" onClick="_gaq.push(['_trackEvent', 'Email This', 'Type', 'Article Tools']);">
+            Email to a friend
+        </a>
+        <a title="Post to Facebook." target="_blank" class="icon-facebook social-link facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://www.insurancejournal.com/news/national/2018/01/17/477331.htm">
+            Facebook
+        </a>
+        <a title="Share on Twitter." class="icon-twitter social-link twitter" target="_blank" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fwww.insurancejournal.com%2Fnews%2Fnational%2F2018%2F01%2F17%2F477331.htm&amp;text=Number+of+Americans+Without+Health+Insurance+Rose+by+3+Million+in+2017%3A+Gallup&amp;url=https%3A%2F%2Fwww.insurancejournal.com%2Fnews%2Fnational%2F2018%2F01%2F17%2F477331.htm">
+            Tweet
+        </a>
+        <a title="Share on LinkedIn." target="_blank" class="icon-linkedin social-link linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.insurancejournal.com/news/national/2018/01/17/477331.htm">
+            LinkedIn
+        </a>
+        <a title="Print Article" href="https://www.insurancejournal.com/news/national/2018/01/17/477331.htm?print" class="icon-print social-link print" onClick="_gaq.push(['_trackEvent', 'Print', 'Type', 'Article Print']);">
+            Print Article
+        </a>
+    </div>
+    </div>
+
+
+            </header>
+            
+            <div class="entry-content">
+                
+<ul class="nav nav-tabs tabs tabs-entry">
+    <li  class="active"><a href="https://www.insurancejournal.com/news/national/2018/01/17/477331.htm">Article</a></li>
+        <li ><a href="https://www.insurancejournal.com/news/national/2018/01/17/477331.htm/?comments" rel="nofollow">46 Comments</a></li>
+        </ul>    <div class="article-content clearfix">
+        <p class="reuters">The number of Americans without healthcare insurance rose by 3.2 million people between 2016 and 2017, or 1.3 percentage points to 12.2 percent, according to a Gallup poll released on Tuesday, the biggest jump in the uninsured rate in nearly a decade.</p>
+<p>Several factors likely contributed to the jump, Gallup said, including attempts by Republicans, who control both chambers of Congress and the White House, to repeal and replace the 2010 Affordable Care Act, commonly called Obamacare. The law extended health insurance to 20 million Americans.</p><div class="bzn bzn-intext">
+        <ins data-revive-zoneid="79" data-revive-block="1" data-revive-id="36eb7c2bd3daa932a43cc2a8ffbed3a9"></ins>
+        <script async src="https://ra.wellsmedia.com/www/delivery/asyncjs.php"></script>
+    </div>
+<p>Republicans have so far failed to make good on President Donald Trump&#8217;s campaign promise to end Obamacare, but they repealed the so-called individual mandate, or requirement that most Americans purchase health insurance or else pay a fine, in a tax bill that passed in December. The jump in uninsured followed a consistent decline between 2014 and 2016, the time period when much of Obamacare was being implemented, after peaking at 18 percent in 2013, Gallup said. With the repeal of the individual mandateand insurance premiums that are likely to continue rising, the uninsured rate will likely increase further in coming years, the pollster said.</p>
+<p>The Trump administration has said it was wrong to force Americans to sign up for healthcare, as Obamacare did. It did not immediately respond to a request for comment.</p>
+<p>The uninsured rate rose among all demographic groups in 2017, except those 65 and older, who qualify for Medicare, the government health insurance program for the elderly. But young adults, blacks, Hispanics and low-income Americans saw the biggest rise in the uninsured rate, Gallup found. Young and healthy consumers, in particular, are needed to help offset the costs of older, sicker and more expensive patients.</p>
+<p>The overall jump in uninsured was the biggest since Gallup began the poll in 2008.</p>
+<p>Gallup said media coverage of repeated attempts to repeal and replace Obamacare, former President Barack Obama&#8217;s signature domestic policy achievement, may have caused confusion among consumers. It also pointed to health insurers who pulled out of the Obamacare individual market due to uncertainty, leaving consumers with fewer and more expensive choices, which may have prompted some to forego coverage.</p>
+<p>Trump administration decisions to slash the Obamacare advertising budget by 90 percent and cut the sign-up period in half also likely played a role in the rise of uninsured Americans, Gallup said.</p>
+<p><em>(Reporting By Yasmeen Abutaleb; Editing by Andrew Hay)</em></p>
+</p><div class="copyright-notice lite">Copyright 2019 Reuters. <a href="https://www.insurancejournal.com/terms/#reuters">Click for restrictions</a>.</div>    </div>
+    <div class="article-poll" data-post="477331">
+    <div class="article-poll-vote">
+        <p>Was this article valuable?</p>
+        <div class="article-poll-buttons">
+            <button class="article-poll-yes">Yes</button>
+            <button class="article-poll-no">No</button>
+        </div>
+    </div>
+
+    <div class="article-poll-feedback voted-no">
+        <form class="feedback-form">
+            <p>Thank you! Please tell us what we can do to improve this article.</p>
+            <textarea placeholder="Enter your feedback..."></textarea>
+            <button type="submit" class="submit" disabled>Submit</button>
+            <button class="cancel">No Thanks</button>
+        </form>
+    </div>
+
+    <div class="article-poll-feedback voted-yes">
+        <form class="feedback-form">
+            <p>Thank you! <span class="percent"></span>% of people found this article valuable. Please tell us what you liked about it.</p>
+            <textarea placeholder="Enter your feedback..."></textarea>
+            <button type="submit" class="submit" disabled>Submit</button>
+            <button class="cancel">No Thanks</button>
+        </form>
+    </div>
+
+    <div class="article-poll-more-articles">
+        <p class="thank-you-text">Here are more articles you may enjoy.</p>
+        <div class="article-grid-list row">
+                    <div class="col col-sm-3">
+                <a href="https://www.insurancejournal.com/news/national/2019/06/06/528517.htm">
+                    <img width="134" height="134" src="https://www.insurancejournal.com/app/uploads/2019/06/walker-kirk-nationwide-150x150.jpg" class="attachment-134x134 size-134x134 wp-post-image" alt="" srcset="https://www.insurancejournal.com/app/uploads/2019/06/walker-kirk-nationwide-150x150.jpg 150w, https://www.insurancejournal.com/app/uploads/2019/06/walker-kirk-nationwide-32x32.jpg 32w, https://www.insurancejournal.com/app/uploads/2019/06/walker-kirk-nationwide-50x50.jpg 50w, https://www.insurancejournal.com/app/uploads/2019/06/walker-kirk-nationwide-64x64.jpg 64w, https://www.insurancejournal.com/app/uploads/2019/06/walker-kirk-nationwide-96x96.jpg 96w, https://www.insurancejournal.com/app/uploads/2019/06/walker-kirk-nationwide-128x128.jpg 128w, https://www.insurancejournal.com/app/uploads/2019/06/walker-kirk-nationwide-1472x1472.jpg 1472w, https://www.insurancejournal.com/app/uploads/2019/06/walker-kirk-nationwide-1104x1104.jpg 1104w, https://www.insurancejournal.com/app/uploads/2019/06/walker-kirk-nationwide-912x912.jpg 912w, https://www.insurancejournal.com/app/uploads/2019/06/walker-kirk-nationwide-550x550.jpg 550w, https://www.insurancejournal.com/app/uploads/2019/06/walker-kirk-nationwide-470x470.jpg 470w" sizes="(max-width: 134px) 100vw, 134px" />Nationwide Taps Insider Walker as CEO to Succeed Rasmussen                </a>
+            </div>
+                    <div class="col col-sm-3">
+                <a href="https://www.insurancejournal.com/news/national/2019/05/29/526984.htm">
+                    <img width="134" height="134" src="https://www.insurancejournal.com/app/uploads/2019/03/cannabis-hands-150x150.jpg" class="attachment-134x134 size-134x134 wp-post-image" alt="" srcset="https://www.insurancejournal.com/app/uploads/2019/03/cannabis-hands-150x150.jpg 150w, https://www.insurancejournal.com/app/uploads/2019/03/cannabis-hands-32x32.jpg 32w, https://www.insurancejournal.com/app/uploads/2019/03/cannabis-hands-50x50.jpg 50w, https://www.insurancejournal.com/app/uploads/2019/03/cannabis-hands-64x64.jpg 64w, https://www.insurancejournal.com/app/uploads/2019/03/cannabis-hands-96x96.jpg 96w, https://www.insurancejournal.com/app/uploads/2019/03/cannabis-hands-128x128.jpg 128w, https://www.insurancejournal.com/app/uploads/2019/03/cannabis-hands-1472x1472.jpg 1472w, https://www.insurancejournal.com/app/uploads/2019/03/cannabis-hands-1104x1104.jpg 1104w, https://www.insurancejournal.com/app/uploads/2019/03/cannabis-hands-912x912.jpg 912w, https://www.insurancejournal.com/app/uploads/2019/03/cannabis-hands-550x550.jpg 550w, https://www.insurancejournal.com/app/uploads/2019/03/cannabis-hands-470x470.jpg 470w" sizes="(max-width: 134px) 100vw, 134px" />Early Cannabis Insurance Claims Experience Differs from Expectations                </a>
+            </div>
+                    <div class="col col-sm-3">
+                <a href="https://www.insurancejournal.com/news/national/2019/06/06/528556.htm">
+                    <img width="134" height="134" src="https://www.insurancejournal.com/app/uploads/2019/06/home-renovation-dumpster-150x150.jpg" class="attachment-134x134 size-134x134 wp-post-image" alt="" srcset="https://www.insurancejournal.com/app/uploads/2019/06/home-renovation-dumpster-150x150.jpg 150w, https://www.insurancejournal.com/app/uploads/2019/06/home-renovation-dumpster-32x32.jpg 32w, https://www.insurancejournal.com/app/uploads/2019/06/home-renovation-dumpster-50x50.jpg 50w, https://www.insurancejournal.com/app/uploads/2019/06/home-renovation-dumpster-64x64.jpg 64w, https://www.insurancejournal.com/app/uploads/2019/06/home-renovation-dumpster-96x96.jpg 96w, https://www.insurancejournal.com/app/uploads/2019/06/home-renovation-dumpster-128x128.jpg 128w, https://www.insurancejournal.com/app/uploads/2019/06/home-renovation-dumpster-1472x1472.jpg 1472w, https://www.insurancejournal.com/app/uploads/2019/06/home-renovation-dumpster-1104x1104.jpg 1104w, https://www.insurancejournal.com/app/uploads/2019/06/home-renovation-dumpster-912x912.jpg 912w, https://www.insurancejournal.com/app/uploads/2019/06/home-renovation-dumpster-550x550.jpg 550w, https://www.insurancejournal.com/app/uploads/2019/06/home-renovation-dumpster-470x470.jpg 470w" sizes="(max-width: 134px) 100vw, 134px" />Repairing Homes After Disasters Requires Planning, Patience Even with Insurance                </a>
+            </div>
+                    <div class="col col-sm-3">
+                <a href="https://www.insurancejournal.com/news/midwest/2019/06/06/528614.htm">
+                    <img width="134" height="134" src="https://www.insurancejournal.com/app/uploads/2013/09/medical-malpractice-tort-reform-liability-150x150.jpg" class="attachment-134x134 size-134x134 wp-post-image" alt="" />Ohio Doctor Now Faces Murder Charges in Painkiller Overdose Deaths                </a>
+            </div>
+                </div>
+    </div>
+
+    <div class="article-poll-loading">
+        <div class="loader"></div>
+    </div>
+</div>
+<div class="subscribe-banner subscribe-banner-in-content">
+    <img src="/img/subscribe-background-580x250.png" alt="subscribe">
+    <div class="content">
+        <h4>Want to stay up to date?</h4>
+        <p>Get the latest insurance news<br>sent straight to your inbox.</p>
+        <form action="https://www.insurancejournal.com/subscribe/store" method="post">
+            <input type="hidden" name="subscriber_source" value="ij/single-footer">
+            <input type="hidden" name="newsletters[]" value="1a869caa25-6105">
+            <input type="hidden" name="all_newsletters" value="a0faa7527e-4709,1a869caa25-6105,1a869caa25-6109,1a869caa25-6133,1a869caa25-6117,1a869caa25-6113,1a869caa25-6129,1a869caa25-6125,1a869caa25-6137,1a869caa25-6141,2325ff2e4f-6157,b8316ac465-6101,b8316ac465-6097,9463e36914-6093,57f20b1aa2-6145">
+
+            <input type="text" name="twitter" class="twitter-input">
+            <input type="email" name="email" placeholder="Enter your email" required="required">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+<div class="article-tools clearfix">
+    <div class="left">
+        <a href="mailto:?subject=Number%20of%20Americans%20Without%20Health%20Insurance%20Rose%20by%203%20Million%20in%202017%3A%20Gallup&amp;body=Number%20of%20Americans%20Without%20Health%20Insurance%20Rose%20by%203%20Million%20in%202017%3A%20Gallup%0Ahttps%3A%2F%2Fwww.insurancejournal.com%2Fnews%2Fnational%2F2018%2F01%2F17%2F477331.htm" rel="nofollow" class="article-tool print" onClick="_gaq.push(['_trackEvent', 'Email This', 'Type', 'Article Tools']);">
+            <i class="icon-envelope"></i> Email This
+        </a>
+
+        <span class="separator"></span>
+        <a href="/subscribe/" rel="nofollow" class="article-tool subscribe">
+            <i class="icon-newspaper-o"></i> Subscribe to Newsletter
+        </a>
+    </div>
+        <div class="right">
+        <a title="Email to a friend" href="mailto:?subject=Number%20of%20Americans%20Without%20Health%20Insurance%20Rose%20by%203%20Million%20in%202017%3A%20Gallup&amp;body=Number%20of%20Americans%20Without%20Health%20Insurance%20Rose%20by%203%20Million%20in%202017%3A%20Gallup%0Ahttps%3A%2F%2Fwww.insurancejournal.com%2Fnews%2Fnational%2F2018%2F01%2F17%2F477331.htm" class="icon-envelope social-link email" onClick="_gaq.push(['_trackEvent', 'Email This', 'Type', 'Article Tools']);">
+            Email to a friend
+        </a>
+        <a title="Post to Facebook." target="_blank" class="icon-facebook social-link facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://www.insurancejournal.com/news/national/2018/01/17/477331.htm">
+            Facebook
+        </a>
+        <a title="Share on Twitter." class="icon-twitter social-link twitter" target="_blank" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fwww.insurancejournal.com%2Fnews%2Fnational%2F2018%2F01%2F17%2F477331.htm&amp;text=Number+of+Americans+Without+Health+Insurance+Rose+by+3+Million+in+2017%3A+Gallup&amp;url=https%3A%2F%2Fwww.insurancejournal.com%2Fnews%2Fnational%2F2018%2F01%2F17%2F477331.htm">
+            Tweet
+        </a>
+        <a title="Share on LinkedIn." target="_blank" class="icon-linkedin social-link linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.insurancejournal.com/news/national/2018/01/17/477331.htm">
+            LinkedIn
+        </a>
+        <a title="Print Article" href="https://www.insurancejournal.com/news/national/2018/01/17/477331.htm?print" class="icon-print social-link print" onClick="_gaq.push(['_trackEvent', 'Print', 'Type', 'Article Print']);">
+            Print Article
+        </a>
+    </div>
+    </div>
+<div class="related-items">
+    <ul>
+        <li><span><strong>Categories:</strong> <a href="https://www.insurancejournal.com/news/national/" rel="category tag">National News</a></span><span><strong>Topics:</strong> <a href="https://www.insurancejournal.com/topics/gop-obamacare-repeal/" rel="tag">GOP Obamacare repeal</a>, <a href="https://www.insurancejournal.com/topics/obamacare/" rel="tag">Obamacare</a>, <a href="https://www.insurancejournal.com/topics/republicans-obamacare/" rel="tag">Republicans Obamacare</a>, <a href="https://www.insurancejournal.com/topics/rise-in-uninsured/" rel="tag">rise in uninsured</a>, <a href="https://www.insurancejournal.com/topics/uninsured-americans/" rel="tag">uninsured Americans</a></span></li>
+        <li>
+            <em>Have a hot lead?  Email us at <a href="mailto:newsdesk@insurancejournal.com">newsdesk@insurancejournal.com</a></em>
+        </li>
+    </ul>
+</div>
+            </div>
+
+            <footer class="entry-footer">
+                        <div id="article-bottom">
+            <div id="execphp-16" class="block widget_execphp">			<div class="execphpwidget"><div class="bzn bzn-article-billboard">
+        <ins data-revive-zoneid="104" data-revive-block="1" data-revive-id="36eb7c2bd3daa932a43cc2a8ffbed3a9"></ins>
+        <script async src="https://ra.wellsmedia.com/www/delivery/asyncjs.php"></script>
+    </div>
+<div style="background:#eee;color:#333;font-size:16px;font-weight:bold;margin:1.5em 0 0.5em;padding:4px 12px;">Advertisers</div>
+<div class="bzn bzn-afl-1">
+        <ins data-revive-zoneid="65" data-revive-block="1" data-revive-id="36eb7c2bd3daa932a43cc2a8ffbed3a9"></ins>
+        <script async src="https://ra.wellsmedia.com/www/delivery/asyncjs.php"></script>
+    </div></div>
+		</div>        </div>
+                <div id="featured-comments">
+            <h4>Featured Comment</h4>
+            <ul class="commentlist">
+                    <li id="li-comment-4780167">
+        <div id="comment-4780167" class="comment even thread-even depth-1 ckrating_hotly_debated">
+            <div class="posted">
+                                    January 17, 2018 at 9:14 am                                            </div>
+            <div class="comment-author vcard">
+                <img alt='' src='https://secure.gravatar.com/avatar/e02cfd16d3b59c12b57ffb20e0861386?s=40&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/e02cfd16d3b59c12b57ffb20e0861386?s=80&#038;d=mm&#038;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />                <cite class="fn">PolarBeaRepeal</cite> <span class="says">says:</span>            </div>
+                        <div class="comment-body">
+                <div class="CommentRating">Hot debate. What do you think?<div class="left"><img style="padding: 0px; margin: 0px; border: none; cursor: pointer;" id="up-4780167" src="https://www.insurancejournal.com/app/plugins/comment-rating-pro/images/1_16_up.png" alt="Thumb up" onclick="javascript:ckratingKarma('4780167', 'add', 'www.insurancejournal.com/app/plugins/comment-rating-pro/', '1_16_');" title="Thumb up" /> <span id="karma-4780167-up" style="font-size:12px; color:#009933;">17</span><div class="right"><img style="padding: 0px; margin: 0px; border: none; cursor: pointer;" id="down-4780167" src="https://www.insurancejournal.com/app/plugins/comment-rating-pro/images/1_16_down.png" alt="Thumb down" onclick="javascript:ckratingKarma('4780167', 'subtract', 'www.insurancejournal.com/app/plugins/comment-rating-pro/', '1_16_')" title="Thumb down" /> <span id="karma-4780167-down" style="font-size:12px; color:#990033;">19</span></div></div></div><div style="background-color:#FFF0F5 !important"><p>This is largely due to CHOICE, not government removing coverage that some think is a right.</p>
+<p>The choice is partially affected by the Death Spiral of ACA, which was INTENTIONALLY caused by architects of that disaster&#8230; to lead to Single Slayer, er, Single Delayer, er, Single Payer Socialistic Health Insurance.</p>
+<p>(Anticipated) Removal of the mandate is the key reason some choose to not insure.  Hooray for freedom to chose under the current administration rather than the out of control Federal Government acting in a manner that violated the US Constitution!</p>
+</div>            </div>
+
+            <div class="reply">
+                            </div><!-- .reply -->
+        </div><!-- #comment-##  -->
+
+                </ul>
+        </div>
+            <div id="latest-comments">
+        <h4>Latest Comments</h4>
+
+        <ul class="commentlist">
+            <li id="li-comment-4790593">
+        <div id="comment-4790593" class="comment odd alt thread-odd thread-alt depth-1">
+            <div class="posted">
+                                    January 23, 2018 at 2:30 pm                                            </div>
+            <div class="comment-author vcard">
+                <img alt='' src='https://secure.gravatar.com/avatar/abd9b8e03ef289d74dda756eb4f4d3f1?s=40&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/abd9b8e03ef289d74dda756eb4f4d3f1?s=80&#038;d=mm&#038;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />                <cite class="fn">Not-a-right-winger</cite> <span class="says">says:</span>            </div>
+                        <div class="comment-body">
+                mr bob, You're a person with a different view on health care than I have, not a deplorable. Regarding your question, I would hazard a guess that James Madison was more concern... <a href="/news/national/2018/01/17/477331.htm?comments#comment-4790593">read more</a>            </div>
+
+            <div class="reply">
+                            </div><!-- .reply -->
+        </div><!-- #comment-##  -->
+
+        <li id="li-comment-4789620">
+        <div id="comment-4789620" class="comment even thread-even depth-1">
+            <div class="posted">
+                                    January 23, 2018 at 7:42 am                                            </div>
+            <div class="comment-author vcard">
+                <img alt='' src='https://secure.gravatar.com/avatar/9a8ca6f63d893b42cb6f4b5d3f20457b?s=40&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/9a8ca6f63d893b42cb6f4b5d3f20457b?s=80&#038;d=mm&#038;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />                <cite class="fn">Ron</cite> <span class="says">says:</span>            </div>
+                        <div class="comment-body">
+                "When the employment situation improves for all Americans, it improves for Americans who are Hispanic, black, white, Chinese . . ." I agree. My issue is that our president is ... <a href="/news/national/2018/01/17/477331.htm?comments#comment-4789620">read more</a>            </div>
+
+            <div class="reply">
+                            </div><!-- .reply -->
+        </div><!-- #comment-##  -->
+
+        <li id="li-comment-4785886">
+        <div id="comment-4785886" class="comment odd alt thread-odd thread-alt depth-1">
+            <div class="posted">
+                                    January 22, 2018 at 4:25 pm                                            </div>
+            <div class="comment-author vcard">
+                <img alt='' src='https://secure.gravatar.com/avatar/2ddd820a35798b425f3be433fc8ad691?s=40&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/2ddd820a35798b425f3be433fc8ad691?s=80&#038;d=mm&#038;r=g 2x' class='avatar avatar-40 photo' height='40' width='40' />                <cite class="fn">Craig Cornell</cite> <span class="says">says:</span>            </div>
+                        <div class="comment-body">
+                When the employment situation improves for all Americans, it improves for Americans who are Hispanic, black, white, Chinese . . . Get it now? Did it improve for these people b... <a href="/news/national/2018/01/17/477331.htm?comments#comment-4785886">read more</a>            </div>
+
+            <div class="reply">
+                            </div><!-- .reply -->
+        </div><!-- #comment-##  -->
+
+            </ul>
+    </div>
+                                    <div id="respond" class="clearfix">
+                <h3 id="reply-title"><a class="comment-button comment-add" data-toggle-comments data-toggle-text="Cancel">Add a Comment</a><a class="comment-button comment-all" href="https://www.insurancejournal.com/news/national/2018/01/17/477331.htm/?comments">See All Comments (46)</a><span class="comment-form-heading">Add a Comment</span> <small><a rel="nofollow" id="cancel-comment-reply-link" href="/news/national/2018/01/17/477331.htm#respond" style="display:none;">Cancel reply</a></small></h3>
+                                    <form action="https://www.insurancejournal.com/wp/wp-comments-post.php" method="post" id="commentform">
+                                                                            <p class="comment-notes">Your email address will not be published. Required fields are marked <span class="required">*</span></p>                            <p class="comment-form-author"><label for="author">Name</label> <span class="required">*</span><input id="author" name="author" type="text" value="" size="30" aria-required='true' /></p>
+<p class="comment-form-email"><label for="email">Email</label> <span class="required">*</span><input id="email" name="email" type="text" value="" size="30" aria-required='true' /></p>
+                                                <p class="comment-form-comment"><label for="comment">Comment</label><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>                                                <p class="form-submit">
+                            <input name="submit" type="submit" id="submit" value="Post Comment" />
+                            <input type='hidden' name='comment_post_ID' value='477331' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+                        </p>
+                                                <p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="a50bdf8716" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="7"/></p><p><input type="checkbox" name="notify_me" id="notify_me" value="yes" /><label for="comment_mail_notify">Notify me of comments via e-mail</label></p>                        <input type="hidden" name="redirect_to" value="/news/national/2018/01/17/477331.htm" />
+                    </form>
+                            </div><!-- #respond -->
+                        <div style="background:#eee;color:#333;font-size:16px;font-weight:bold;margin:1.5em 0 0.5em;padding:4px 12px;">More News</div><div class="article-grid-list row"><div class="col col-sm-3"><a href="https://www.insurancejournal.com/news/midwest/2019/06/11/528919.htm"><img width="134" height="134" src="https://www.insurancejournal.com/app/uploads/2013/10/tornado-150x150.jpg" class="attachment-134x134 size-134x134 wp-post-image" alt="" srcset="https://www.insurancejournal.com/app/uploads/2013/10/tornado-150x150.jpg 150w, https://www.insurancejournal.com/app/uploads/2013/10/tornado-300x300.jpg 300w, https://www.insurancejournal.com/app/uploads/2013/10/tornado-580x580.jpg 580w, https://www.insurancejournal.com/app/uploads/2013/10/tornado-200x200.jpg 200w, https://www.insurancejournal.com/app/uploads/2013/10/tornado.jpg 1600w" sizes="(max-width: 134px) 100vw, 134px" />Digital Billboards in Illinois City to Display Tornado Warnings</a></div><div class="col col-sm-3"><a href="https://www.insurancejournal.com/news/southcentral/2019/06/11/528917.htm"><img width="134" height="134" src="https://www.insurancejournal.com/app/uploads/2019/06/AP_texascranecollapse2019-150x150.jpg" class="attachment-134x134 size-134x134 wp-post-image" alt="" srcset="https://www.insurancejournal.com/app/uploads/2019/06/AP_texascranecollapse2019-150x150.jpg 150w, https://www.insurancejournal.com/app/uploads/2019/06/AP_texascranecollapse2019-32x32.jpg 32w, https://www.insurancejournal.com/app/uploads/2019/06/AP_texascranecollapse2019-50x50.jpg 50w, https://www.insurancejournal.com/app/uploads/2019/06/AP_texascranecollapse2019-64x64.jpg 64w, https://www.insurancejournal.com/app/uploads/2019/06/AP_texascranecollapse2019-96x96.jpg 96w, https://www.insurancejournal.com/app/uploads/2019/06/AP_texascranecollapse2019-128x128.jpg 128w, https://www.insurancejournal.com/app/uploads/2019/06/AP_texascranecollapse2019-1472x1472.jpg 1472w, https://www.insurancejournal.com/app/uploads/2019/06/AP_texascranecollapse2019-1104x1104.jpg 1104w, https://www.insurancejournal.com/app/uploads/2019/06/AP_texascranecollapse2019-912x912.jpg 912w, https://www.insurancejournal.com/app/uploads/2019/06/AP_texascranecollapse2019-550x550.jpg 550w, https://www.insurancejournal.com/app/uploads/2019/06/AP_texascranecollapse2019-470x470.jpg 470w" sizes="(max-width: 134px) 100vw, 134px" />Crane Falls on Dallas Apartments; 1 Killed, 5 Injured</a></div><div class="col col-sm-3"><a href="https://www.insurancejournal.com/news/west/2019/06/11/528930.htm"><img width="134" height="134" src="https://www.insurancejournal.com/app/uploads/2018/09/rate-hikes-fees-approved-150x150.jpg" class="attachment-134x134 size-134x134 wp-post-image" alt="" srcset="https://www.insurancejournal.com/app/uploads/2018/09/rate-hikes-fees-approved-150x150.jpg 150w, https://www.insurancejournal.com/app/uploads/2018/09/rate-hikes-fees-approved-300x300.jpg 300w, https://www.insurancejournal.com/app/uploads/2018/09/rate-hikes-fees-approved-768x768.jpg 768w, https://www.insurancejournal.com/app/uploads/2018/09/rate-hikes-fees-approved-580x580.jpg 580w, https://www.insurancejournal.com/app/uploads/2018/09/rate-hikes-fees-approved-1472x1472.jpg 1472w, https://www.insurancejournal.com/app/uploads/2018/09/rate-hikes-fees-approved-1104x1104.jpg 1104w, https://www.insurancejournal.com/app/uploads/2018/09/rate-hikes-fees-approved-912x912.jpg 912w, https://www.insurancejournal.com/app/uploads/2018/09/rate-hikes-fees-approved-550x550.jpg 550w, https://www.insurancejournal.com/app/uploads/2018/09/rate-hikes-fees-approved-470x470.jpg 470w, https://www.insurancejournal.com/app/uploads/2018/09/rate-hikes-fees-approved.jpg 1500w" sizes="(max-width: 134px) 100vw, 134px" />California Surplus Lines Stamping Fee Goes to 0.25% in 2020</a></div><div class="col col-sm-3" style="margin-right:0;"><a href="https://www.insurancejournal.com/news/national/2019/06/11/528908.htm"><img width="134" height="134" src="https://www.insurancejournal.com/app/uploads/2011/08/debt-lightning-150x150.jpg" class="attachment-134x134 size-134x134 wp-post-image" alt="" />Regulators Warn But Slow to Fix Blind Spots on Rising Risky Corporate Debt</a></div></div><a href="/news/featured/" class="more-results">More News Features</a>            </footer>
+        </div>
+
+        <aside class="article-sidebar article-equal-heights sidebar">
+            <div class="sidebar-static clearfix">
+    <div class="block" style="height: 900px;">
+        <div class="sidebar-inner-sticky">
+            <div class="bzn bzn-right-300x250-1 bzn-sidebar">
+        <ins data-revive-zoneid="62" data-revive-block="1" data-revive-id="36eb7c2bd3daa932a43cc2a8ffbed3a9"></ins>
+        <script async src="https://ra.wellsmedia.com/www/delivery/asyncjs.php"></script>
+    </div>        </div>
+    </div>
+    <div class="sidebar-inner-spacer"></div>
+</div>
+
+<div class="sidebar-sticky clearfix">
+    <div class="block">
+        <div class="article-toc">
+            <h3 class="section-top">Read This Next</h3>
+            <ul class="article-list current-read">
+                            <li class="current-read-item" data-article-id="477331">
+                    <span class="bar"></span>
+                    <a href="https://www.insurancejournal.com/news/national/2018/01/17/477331.htm">Number of Americans Without Health Insurance Rose by 3 Million in 2017: Gallup</a>
+                </li>
+                            <li class="current-read-item" data-article-id="528917">
+                    <span class="bar"></span>
+                    <a href="https://www.insurancejournal.com/news/southcentral/2019/06/11/528917.htm">Crane Falls on Dallas Apartments; 1 Killed, 5 Injured</a>
+                </li>
+                            <li class="current-read-item" data-article-id="528848">
+                    <span class="bar"></span>
+                    <a href="https://www.insurancejournal.com/news/national/2019/06/11/528848.htm">Supreme Court Accepts 3 Cases Seeking to Limit Lawsuits Against Businesses</a>
+                </li>
+                            <li class="current-read-item" data-article-id="528876">
+                    <span class="bar"></span>
+                    <a href="https://www.insurancejournal.com/news/east/2019/06/11/528876.htm">Two Killed When Small Plane Crashes on Long Island</a>
+                </li>
+                            <li class="current-read-item" data-article-id="528877">
+                    <span class="bar"></span>
+                    <a href="https://www.insurancejournal.com/news/national/2019/06/11/528877.htm">How Insurers Are Digitizing Claims with Apps, Photos, Videos, E-Payments and More</a>
+                </li>
+                        </ul>
+        </div>
+    </div>
+
+    <div class="block" data-refresh-ad data-zone="75">
+        <div class="bzn bzn-right-2nd-300x250-1 bzn-sidebar">
+        <ins data-revive-zoneid="75" data-revive-block="1" data-revive-id="36eb7c2bd3daa932a43cc2a8ffbed3a9"></ins>
+        <script async src="https://ra.wellsmedia.com/www/delivery/asyncjs.php"></script>
+    </div>    </div>
+</div>
+
+<div class="sidebar-spacer"></div>        </aside>
+    </div>
+
+</article>
+<!-- End Entry -->
+
+</div>
+                </main>
+
+                            </div>
+
+            <div class="row footer-rss infinite-scroll-hide">
+    <!-- Jobs Syndication -->
+    <div class="col col-sm-3">
+    <div class="syndicate" id="syndicate-jobs"><h3 class="section-top" style="margin-top:0;">Insurance Jobs</h3><ul class="article-list"><li><a href="https://www.insurancejournal.com/jobs/528829-manager-medicare-market-sales">Manager, Medicare Market Sales - <span class="meta" style="font-size: 100%;">Detroit, Michigan</span></a></li><li><a href="https://www.insurancejournal.com/jobs/528381-service-center-representative">Service Center Representative - <span class="meta" style="font-size: 100%;">Keene, NH</span></a></li><li><a href="https://www.insurancejournal.com/jobs/528148-vice-president-of-legal-and-compliance">Vice President of Legal and Compliance - <span class="meta" style="font-size: 100%;">Sarasota, FL</span></a></li><li><a href="https://www.insurancejournal.com/jobs/527223-account-executiveaccount-managercustomer-service-rep">Account Executive/Account Manager/Customer Service Rep - <span class="meta" style="font-size: 100%;">Los Angeles and Brentwood, TN</span></a></li><li><a href="https://www.insurancejournal.com/jobs/526840-insurance-commercial-lines-surplus-lines-tax-filings-compliance-work-at-home-25-years-experience">Insurance Commercial Lines Surplus Lines Tax Filings / Compliance - <span class="meta" style="font-size: 100%;">Remote</span></a></li></ul></div>    </div>
+
+    <!-- Recent MNM Posts -->
+    <div class="col col-sm-3">
+                <div class="syndicate" id="syndicate-mynewmarkets">
+            <div class="align-center"><img src="/img/blocks/mynewmarkets-logo-220x38.png" alt="MyNewMarkets" /></div>
+            <ul class="article-list">
+                            <li><a href="https://www.mynewmarkets.com/articles/183427/mynewmarkets-com-upgrades-with-new-features-for-agents-markets">MyNewMarkets.com Upgrades with New Features for Agents, Markets</a></li>
+                            <li><a href="https://www.mynewmarkets.com/articles/183423/best-insurers-remain-cautious-about-marijuana-insurance-market">Best: Insurers Remain Cautious About Marijuana Insurance Market</a></li>
+                            <li><a href="https://www.mynewmarkets.com/articles/183420/how-workers-comp-brokers-can-increase-commissions-by-81">How Workers' Comp Brokers Can Increase Commissions by 81%</a></li>
+                            <li><a href="https://www.mynewmarkets.com/articles/183415/agents-warned-about-eo-risks-in-claiming-cyber-cannabis-expertise">Agents Warned About E&amp;O Risks in Claiming Cyber, Cannabis Expertise</a></li>
+                            <li><a href="https://www.mynewmarkets.com/articles/183409/how-to-reverse-engineer-your-insurance-career-avoid-job-burnout">How to Reverse Engineer Your Insurance Career, Avoid Job Burnout</a></li>
+                        </ul>
+        </div>
+            </div>
+
+    <!-- Recent Claims Journal Posts. -->
+    <div class="col col-sm-3">
+                <div class="syndicate" id="syndicate-claimsjournal">
+            <div class="align-center"><img src="/img/blocks/claimsjournal-logo-220x38.png" alt="Claims Journal" /></div>
+            <ul class="article-list">
+                            <li><a href="https://www.claimsjournal.com/news/national/2019/06/11/291418.htm">Mass Shootings in the Workplace are Rare and Puzzling</a></li>
+                            <li><a href="https://www.claimsjournal.com/news/west/2019/06/11/291416.htm">Supreme Court to Hear BP Unit's Dispute over Montana Superfund Site</a></li>
+                            <li><a href="https://www.claimsjournal.com/news/national/2019/06/11/291414.htm">Green Groups Sue Trump Administration for Gutting Offshore Oil Safety Rules</a></li>
+                            <li><a href="https://www.claimsjournal.com/news/international/2019/06/11/291411.htm">Da Vinci's $450 Million Masterpiece Is Kept on Saudi Prince's Yacht: Artnet</a></li>
+                            <li><a href="https://www.claimsjournal.com/news/international/2019/06/11/291409.htm">New Groping Claim at Lloyd's of London Agent Deepens Scandal</a></li>
+                        </ul>
+        </div>
+            </div>
+
+    <!-- Recent IJA Posts -->
+    <div class="col col-sm-3">
+        <div class="syndicate" id="syndicate-academy"><div class="align-center"><img src="/img/blocks/ijacademy-logo-220x38.png" alt="Academy of Insurance education" /></div><ul class="article-list"><li><span style="font-weight:bold;color:#777;">June 13</span> <a href="https://www.ijacademy.com/additional-insureds-certificates-of-insurance">The Latest Scoop on Additional Insureds and Certificates of Insurance</a></li><li><span style="font-weight:bold;color:#777;">June 27</span> <a href="https://www.ijacademy.com/claims-made-and-professional-liability-endorsements">Claims Made and Professional Liability Endorsements</a></li><li><span style="font-weight:bold;color:#777;">July 9</span> <a href="https://www.ijacademy.com/resolving-claims-disputes-step-1-the-rtfp-doctrine">Resolving Claims Disputes: Legal and Contractual Principles - Part 1 of 2</a></li><li><span style="font-weight:bold;color:#777;">July 11</span> <a href="https://www.ijacademy.com/business-auto-symbols-and-endorsements">Business Auto Symbols and Endorsements</a></li></ul></div>    </div>
+</div>
+        </div>
+
+        <!-- Begin Footer -->
+<footer class="footer">
+
+    <div class="container">
+        <div class="footer-widgets row infinite-scroll-hide">
+    <div class="col col-sm-3">
+        <div class="block">
+            <h4>Insurance News</h4>
+            <ul class="ruled">
+                <li><a href="/news/">News by Region</a></li>
+                <li><a href="/topics/" title="Insurance News by Topic">News by Topic</a></li>
+                <li><a href="/date/">Yesterday</a></li>
+            </ul>
+        </div>
+
+        <div class="block">
+            <h4>Site Search</h4>
+            <form action="/search/" method="get">
+                <input type="text" name="q" value="" /> <input type="submit" value="Go" />
+            </form>
+        </div>
+    </div>
+
+    <div class="col col-sm-3">
+        <div class="block">
+            <h4>Features</h4>
+            <ul class="ruled">
+                <li><a href="/directories/">Insurance Markets Directory</a></li>
+                <li><a href="/forums/">Forums</a></li>
+                <li><a href="/ambest/">A.M. Best Company Ratings</a></li>
+                <li><a href="/events/" title="Insurance Events Calendar">Industry Events</a></li>
+                <li><a href="/agencies-for-sale/">Agencies Wanted / For Sale</a></li>
+                <li><a href="/buyers/">Buyers Guide</a></li>
+                <li><a href="/services/newswire/">Newswire</a></li>
+                <li><a href="/adshowcase/">Ad Showcase</a></li>
+                <li><a href="/jobs/">Insurance Jobs</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="col col-sm-3">
+        <div class="block">
+            <h4>Connect with us</h4>
+            <ul class="ruled">
+                <li><a href="/subscribe/">Email Newsletters</a></li>
+                <li><a href="/subscribe/magazine/">Magazine Subscriptions</a></li>
+                <li><a href="/newsfeed/">For Your Website</a></li>
+                <li><a href="/newsfeed/" class="social-rss">RSS Feeds</a></li>
+                <li><a href="https://www.twitter.com/ijournal" class="social-twitter"><i class="fa fa-twiiter"></i>Twitter</a></li>
+                <li><a href="https://www.facebook.com/insurancejournal" class="social-facebook">Facebook</a></li>
+                <li><a href="https://www.linkedin.com/groups?home=&amp;gid=2044159" class="social-linkedin">LinkedIn</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="col col-sm-3">
+        <div class="block">
+            <h4>Insurance Journal</h4>
+            <ul class="ruled">
+                <li><a href="/submitnews/">Submit News</a></li>
+                <li><a href="/advertise/">Advertise</a></li>
+                <li><a href="/subscribe/">Subscribe</a></li>
+                <li><a href="/reprints/">Reprints</a></li>
+                <li><a href="/linkto/">Link to Us</a></li>
+                <li><a href="/contact/">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="block">
+            <h4>Wells Media Group Network</h4>
+            <ul class="ruled">
+                <li><a href="/">Insurance Journal</a></li>
+                <li><a href="https://www.mynewmarkets.com/" title="Insurance Market Search Engine">MyNewMarkets.com</a></li>
+                <li><a href="https://www.claimsjournal.com/">Claims Journal</a></li>
+                <li><a href="https://www.insurancejournal.tv/">Insurance Journal TV</a></li>
+                <li><a href="https://www.ijacademy.com/">Academy of Insurance</a></li>
+                <li><a href="https://www.carriermanagement.com/">Carrier Management</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="footer-copyright row">
+    &copy; 2019 by Wells Media Group, Inc. <a href="/privacy/">Privacy Policy</a> | <a href="/terms/">Terms &amp; Conditions</a> | <a href="/sitemap/">Site Map</a>
+</div>
+    </div>
+
+</footer>
+<!-- End Footer -->
+
+<div id="cookie-policy-alert" class="alert alert-cookie-policy">
+    <div class="alert-content">
+        <p>We have updated our privacy policy to be more clear and meet the new requirements of the GDPR. By continuing to use our site, you accept our <a href="/privacy">revised Privacy Policy</a>.</p>
+    </div>
+    <div class="alert-actions">
+        <button class="btn btn-light accept" data-dismiss="alert">OK</button>
+        <button class="btn btn-link btn-close dismiss" data-dismiss="alert">&nbsp;</button>
+    </div>
+</div>
+
+<script src='https://www.insurancejournal.com/app/plugins/comment-rating-pro/ck-karma.102.js?ver=4.9.7'></script>
+<script src='https://code.jquery.com/jquery-1.12.4.min.js'></script>
+<script type='text/javascript'>
+window.jQuery||document.write('<script src="https://www.insurancejournal.com/app/themes/insurancejournal/dist/scripts/jquery.js"><\/script>')
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js?ver=4.9.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var IJ_Global = {"ajaxUrl":"https:\/\/www.insurancejournal.com\/wp\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script src='https://www.insurancejournal.com/app/themes/insurancejournal/dist/scripts/main-34a4969950.js?ver=4.9.7'></script>
+<script src='https://www.insurancejournal.com/wp/wp-includes/js/comment-reply.min.js?ver=4.9.7'></script>
+<script src='https://www.insurancejournal.com/wp/wp-includes/js/wp-embed.min.js?ver=4.9.7'></script>
+<script async="async" src='https://www.insurancejournal.com/app/plugins/akismet/_inc/form.js?ver=4.1'></script>
+
+<div id="page-bottom"></div>
+
+
+<!--20 queries. 0.340 seconds.-->
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"1194c1f0c5","applicationID":"157988","transactionName":"b1BQMBNQVhBUWkcNXFYaZxYIHlENUVxLSkNQRQ==","queueTime":0,"applicationTime":346,"atts":"QxdTRltKRR4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using disk: enhanced 
+Database Caching 1/19 queries in 0.014 seconds using memcached
+
+Served from: www.insurancejournal.com @ 2019-06-11 18:11:07 by W3 Total Cache
+-->

@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html class="grunticon">
+  <head>
+    <script>var _trackAnalytics = function() {};var dataLayer = {/* Specific data layer requirements go here */};var gaDataLayer = [dataLayer];</script>
+<meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta name="citation_reference" content="" />
+<meta name="citation_reference" content="" />
+<meta name="citation_reference" content="" />
+<meta name="citation_reference" content="" />
+<meta name="citation_reference" content="" />
+<meta name="citation_reference" content="" />
+<meta name="citation_reference" content="" />
+<meta name="citation_reference" content="" />
+<meta name="citation_reference" content="" />
+<meta name="citation_reference" content="" />
+<meta name="citation_reference" content="" />
+<meta name="citation_reference" content="citation_title=The Women’s Health Amendment and religious freedom: finding a sufficient compromise
+;citation_author=Hall R;citation_journal_title=J Health Care Law Policy
+;citation_volume=15;citation_issue=2;citation_number=2;citation_publication_date=2019;citation_firstpage=401;citation_lastpage=424;" />
+<meta name="citation_reference" content="" />
+<meta name="citation_reference" content="" />
+<meta name="citation_reference" content="" />
+<meta name="citation_reference" content="" />
+<meta name="citation_reference" content="" />
+<meta name="citation_reference" content="" />
+<meta name="citation_reference" content="" />
+<meta name="citation_reference" content="" />
+<meta name="citation_author" content="Lauren Sydney Flicker" />
+<meta name="citation_fulltext_world_readable" content=" " />
+<meta name="title" content="Religious Employers and Exceptions to Mandated Coverage of Contraceptives | Journal of Ethics | American Medical Association" />
+<meta name="citation_title" content="Religious Employers and Exceptions to Mandated Coverage of Contraceptives" />
+<meta name="twitter:card" content="summary" />
+<meta property="og:site_name" content="Journal of Ethics | American Medical Association" />
+<meta name="citation_fulltext_html_url" content="https://journalofethics.ama-assn.org/article/religious-employers-and-exceptions-mandated-coverage-contraceptives/2013-03" />
+<link rel="canonical" href="https://journalofethics.ama-assn.org/article/religious-employers-and-exceptions-mandated-coverage-contraceptives/2013-03" />
+<meta name="twitter:description" content=" 
+The Patient Protection and Affordable Care Act (ACA) has been one of the most divisive pieces of legislation in the last few years [1]. And the most controversial component of the ACA has arguably been the mandate that group health plans cover contraception costs. The contraception mandate, part of a seemingly straightforward effort to enhance preventive care for women, has elicited backlash from religious and conservative groups who believe it violates certain employers’ religious freedoms." />
+<meta name="citation_publisher" content="American Medical Association" />
+<meta name="citation_publication_date" content="2013-03-01" />
+<meta name="description" content=" 
+The Patient Protection and Affordable Care Act (ACA) has been one of the most divisive pieces of legislation in the last few years [1]. And the most controversial component of the ACA has arguably been the mandate that group health plans cover contraception costs. The contraception mandate, part of a seemingly straightforward effort to enhance preventive care for women, has elicited backlash from religious and conservative groups who believe it violates certain employers’ religious freedoms." />
+<meta name="citation_doi" content="10.1001/virtualmentor.2013.15.3.hlaw1-1303." />
+<meta name="citation_journal_title" content="AMA Journal of Ethics" />
+<meta property="og:url" content="https://journalofethics.ama-assn.org/article/religious-employers-and-exceptions-mandated-coverage-contraceptives/2013-03" />
+<meta name="google-site-verification" content="TBbitFF4VJF1paIv0qHbeEV-7EQ58PPXk8hamar5DkQ" />
+<meta property="og:title" content="Religious Employers and Exceptions to Mandated Coverage of Contraceptives" />
+<meta name="citation_issn" content="2376-6980" />
+<meta name="citation_volume" content="15" />
+<meta property="og:description" content=" 
+The Patient Protection and Affordable Care Act (ACA) has been one of the most divisive pieces of legislation in the last few years [1]. And the most controversial component of the ACA has arguably been the mandate that group health plans cover contraception costs. The contraception mandate, part of a seemingly straightforward effort to enhance preventive care for women, has elicited backlash from religious and conservative groups who believe it violates certain employers’ religious freedoms." />
+<meta name="twitter:image:alt" content="mandated contraceptive coverage" />
+<meta name="twitter:image" content="https://journalofethics.ama-assn.org/sites/journalofethics.ama-assn.org/files/2018-07/shutterstock_752516788.jpg" />
+<meta name="citation_issue" content="3" />
+<meta name="citation_firstpage" content="220" />
+<meta name="citation_lastpage" content="225" />
+<meta property="og:image:url" content="https://journalofethics.ama-assn.org/sites/journalofethics.ama-assn.org/files/2018-07/shutterstock_752516788.jpg" />
+<meta name="citation_pdf_url" content="https://journalofethics.ama-assn.org/sites/journalofethics.ama-assn.org/files/2018-05/hlaw1-1303.pdf" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/themes/custom/ama_joe_theme/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="revision" href="/article/religious-employers-and-exceptions-mandated-coverage-contraceptives/2013-03" />
+
+    <title>Religious Employers and Exceptions to Mandated Coverage of Contraceptives | Journal of Ethics | American Medical Association</title>
+    <link rel="stylesheet" href="/sites/journalofethics.ama-assn.org/files/css/css_3A6ZeJdp8BKNUan2nmtmeGFTTHqW8PFYB1etdS7jO_w.css?psojcw" media="all" />
+<link rel="stylesheet" href="/sites/journalofethics.ama-assn.org/files/css/css_O3dVaAOwQsFjo3BjWbrQt4lHH6PXizBhzSmNM8fgreI.css?psojcw" media="all" />
+
+    
+<!--[if lte IE 8]>
+<script src="/sites/journalofethics.ama-assn.org/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+<script src="/sites/journalofethics.ama-assn.org/files/js/js_movRD9PPfOBuzV8oawF2KbQk1i7gtQdpJWMvMKX424Q.js"></script>
+
+    <link rel="stylesheet" href="https://use.typekit.net/arm2urd.css">
+  </head>
+  <body class="">
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MVM33G" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','gaDataLayer','GTM-MVM33G');</script> 
+        <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="layout-container">
+  <header class ="joe__header" role="banner">
+    <div class="container">
+      <div class="joe__wordmark">
+      <a href="/">
+        <h1 class="joe__wordmark__title">AMA Journal of Ethics</h1>
+        <h2 class="joe__wordmark__subtitle">Illuminating the Art of Medicine</h2>
+      </a>
+      </div>
+      <button id="search-trigger" class="joe__trigger joe__search-trigger" aria-controls="#joe__site-search">
+        <span class="icon-search joe__icon " style="background-image: none;">
+           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><title>Search</title><path d="M93.4 86.5L74 67.1c5.4-6.8 8.3-15.3 8.3-24.1C82.3 21.3 64.7 3.7 43 3.7S3.8 21.3 3.8 43c0 21.7 17.6 39.3 39.3 39.3 8.4 0 16.6-2.7 23.4-7.8L86 94.1c1 1 2.3 1.6 3.8 1.6s2.8-.6 3.8-1.6c1.9-2.2 1.9-5.5-.2-7.6zM71.7 43c0 15.8-12.8 28.6-28.6 28.6S14.5 58.8 14.5 43 27.2 14.4 43 14.4 71.7 27.2 71.7 43z"/></svg>
+        </span>
+      </button>
+        
+    
+      <form action="/article/religious-employers-and-exceptions-mandated-coverage-contraceptives/2013-03" method="post" id="site-search-form" accept-charset="UTF-8" class="joe__site-search">
+  <div class="js-form-item form-item js-form-type-textfield form-item-site-search js-form-item-site-search form-no-label">
+        <input placeholder="Search" id="site-search" data-drupal-selector="edit-site-search" type="text" name="site-search" value="" size="60" maxlength="128" class="form-text required" required="required" aria-required="true" />
+
+        </div>
+<input autocomplete="off" data-drupal-selector="form-9-dwb8mbvzlsn08wk2g8nypa7tydmtkzvauf-ts-j9m" type="hidden" name="form_build_id" value="form-9-dWB8MbvZlsN08WK2g8NYpa7tYDMtKZvAUf-TS-J9M" />
+<input data-drupal-selector="edit-ama-joe-header-search-bar-form" type="hidden" name="form_id" value="ama_joe_header_search_bar_form" />
+
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions">
+		 <input data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Search" class="button button--primary js-form-submit form-submit" />
+	
+	 
+</div>
+
+</form>
+
+
+  
+            <button id="menu-trigger" class="joe__trigger joe__menu-trigger" aria-controls="#joe__nav-drawer">
+  <span class="icon-menu joe__icon " style="background-image: none;">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><title>Menu</title><path d="M85.9 26.6H13.1c-3.2 0-5.8-2.6-5.8-5.8S9.9 15 13.1 15H86c3.2 0 5.8 2.6 5.8 5.8s-2.7 5.8-5.9 5.8zM85.9 53.7H13.1c-3.2 0-5.8-2.6-5.8-5.8s2.6-5.8 5.8-5.8H86c3.2 0 5.8 2.6 5.8 5.8s-2.7 5.8-5.9 5.8zM85.9 80.8H13.1c-3.2 0-5.8-2.6-5.8-5.8 0-3.2 2.6-5.8 5.8-5.8H86c3.2 0 5.8 2.6 5.8 5.8-.1 3.2-2.7 5.8-5.9 5.8z"/></svg>
+  </span>
+</button>
+<div id="joe__nav-drawer" class="joe__nav-drawer">
+  <nav role="navigation" aria-labelledby="block-ama-joe-theme-main-menu-menu" id="block-ama-joe-theme-main-menu" class="joe__primary-nav">
+                      
+    <h2 class="visually-hidden" id="block-ama-joe-theme-main-menu-menu">Main navigation</h2>
+    
+
+              
+              <ul class="joe__primary-nav__list">
+              <li class="joe__primary-nav__item">
+        <a href="/" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+              </li>
+          <li class="joe__primary-nav__item">
+        <a href="/issues" data-drupal-link-system-path="issues">Issues</a>
+              </li>
+          <li class="joe__primary-nav__item">
+        <a href="/articles" data-drupal-link-system-path="articles">Browse Articles</a>
+              </li>
+          <li class="joe__primary-nav__item">
+        <a href="/cases" data-drupal-link-system-path="cases">Cases</a>
+              </li>
+          <li class="joe__primary-nav__item">
+        <a href="/podcasts" data-drupal-link-system-path="podcasts">Podcast</a>
+              </li>
+          <li class="joe__primary-nav__item">
+        <a href="/cme" data-drupal-link-system-path="cme">CME</a>
+              </li>
+        </ul>
+  
+
+
+      </nav>
+  <nav class="joe__utility-nav">
+    
+              <ul class="joe__utility-nav__list">
+              <li class="joe__utility-nav__item">
+        <a href="/authors" title="Author information" data-drupal-link-system-path="node/11256">For Authors</a>
+              </li>
+          <li class="joe__utility-nav__item">
+        <a href="/call-papers" title="See the upcoming theme issues" data-drupal-link-system-path="node/16911">Call for Papers</a>
+              </li>
+          <li class="joe__utility-nav__item">
+        <a href="https://journalofethics.ama-assn.org/call-theme-issue-editors" title="Receive $2,500 as a Theme Issue Editor">Call for Theme Issue Editors</a>
+              </li>
+          <li class="joe__utility-nav__item">
+        <a href="https://journalofethics.ama-assn.org/2019-conley-contests" title="Learn more about the Conley Essay and Art of Medicine Contests">2019 Conley Contests</a>
+              </li>
+        </ul>
+    
+              <ul class="joe__utility-nav__list joe__utility-nav__list--right">
+              <li class="joe__utility-nav__item">
+        <a href="/newsletter-sign" data-drupal-link-system-path="node/11261">Sign Up for Newsletter</a>
+                      </li>
+          <li class="joe__utility-nav__item">
+        <a href="https://twitter.com/journalofethics">Follow Us</a>
+                          <span class="icon-twitter joe__icon" style="background-image: none;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><title>Twitter</title><path d="M85.2 33.2v2.3c0 23.5-17.9 50.7-50.7 50.7-10.1 0-19.5-2.9-27.3-8 1.4.1 2.8.3 4.3.3 8.3 0 16-2.9 22.1-7.6-7.8-.1-14.4-5.3-16.7-12.4 1.1.3 2.3.3 3.3.3 1.6 0 3.2-.3 4.7-.6-8.2-1.6-14.3-8.8-14.3-17.4v-.3c2.4 1.4 5.2 2.1 8.1 2.3-4.8-3.2-8-8.6-8-14.9 0-3.3.9-6.3 2.4-9 8.8 10.7 22 17.9 36.8 18.6-.3-1.3-.5-2.7-.5-4 0-9.9 8-17.8 17.8-17.8 5.2 0 9.7 2.1 13 5.7 4-.8 7.8-2.3 11.4-4.3-1.3 4.2-4.2 7.7-7.8 9.9 3.5-.4 7.1-1.4 10.2-2.8-2.4 3.3-5.4 6.5-8.8 9z"/></svg>          </span>
+              </li>
+        </ul>
+  
+
+
+  
+
+
+  </nav>
+</div>
+
+  
+    </div>
+  </header>
+
+  
+  
+
+  
+
+  
+
+  
+
+  <div class="joe__article-hero  " style=background:url(&#039;https://journalofethics.ama-assn.org/sites/journalofethics.ama-assn.org/files/styles/hero_overlay/public/2018-07/shutterstock_752516788.jpg?itok=6ladLl4U&#039;);background-repeat:no-repeat;background-size:cover;background-position:center;>
+    <span class="joe__article-hero__overlay"></span>
+  </div>
+  <main role="main">
+    <div class="container">
+    <a id="main-content" tabindex="-1"></a>              
+    
+      
+
+  
+  
+        
+<article role="article" about="/article/religious-employers-and-exceptions-mandated-coverage-contraceptives/2013-03" typeof="schema:Article" class="joe__layout--two-column-left">
+  <div id="joe__top" class="joe__page-content joe__article--top" role="article">
+    <header class="joe__article-header">
+      <a class="joe__flag joe__flag--larger joe__flag--orange" href="/issue/conscience-rights-and-responsibilities">
+        <div class="joe__flag__type">
+          
+            Health Law
+      
+        </div>
+        <div class="joe__flag__date">
+          Mar 2013
+        </div>
+      </a>
+            <h2 class="joe__article-header__title"><span property="schema:name">Religious Employers and Exceptions to Mandated Coverage of Contraceptives</span>
+</h2>
+      <div class="joe__article-header__meta">
+      
+
+ Lauren Sydney Flicker, JD, MBE      </div>
+    </header>
+    <div class="joe__article-tools">
+      <div class="joe__tool-drawer">
+      <div id="citation-drawer" class="joe__tool-drawer__content"><em>Virtual Mentor.</em> 2013;15(3):220-225. doi: 
+            10.1001/virtualmentor.2013.15.3.hlaw1-1303.
+      </div>
+      <button type="button" class=" joe__button--tool tool-drawer__trigger" aria-label="" aria-controls="#citation-drawer">Citation</button>
+      </div>
+              <a href="/sites/journalofethics.ama-assn.org/files/2018-05/hlaw1-1303.pdf">
+          <button type="link" class=" joe__button--tool " aria-label="Download PDF">
+            PDF
+          </button>
+        </a>
+            <a target="_blank" href="https://www.altmetric.com/details/doi/10.1001/virtualmentor.2013.15.3.hlaw1-1303">
+        <button type="link" class=" joe__button--tool " aria-label="Altmetric">Altmetric</button>
+      </a>
+    </div>
+    
+
+
+<button id="joe__share--trigger" class="joe__share-trigger" title="Open Sharing Options" style=""><span
+    class="icon-square-share joe__icon "
+    style="background-image: none;"><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90"><style>.st0{fill:#fff}</style><path d="M85.4 0H4.5C2 0 0 2 0 4.5v81C0 88 2 90 4.5 90h81c2.5 0 4.5-2 4.5-4.5v-81C89.9 2 87.9 0 85.4 0z"/><path class="st0" d="M64.5 53.1c-2.7 0-5.2 1.2-6.8 3.1L34.3 46c0-.3.1-.7.1-1s0-.7-.1-1l23.3-10.2c1.6 1.9 4.1 3.1 6.8 3.1 4.9 0 8.9-4 8.9-8.9s-4-8.9-8.9-8.9-8.9 4-8.9 8.9c0 .4 0 .7.1 1L32.3 39.3c-1.6-1.9-4.1-3.1-6.8-3.1-4.9 0-8.9 4-8.9 8.9s4 8.9 8.9 8.9c2.7 0 5.2-1.2 6.8-3.1l23.3 10.2c0 .3-.1.7-.1 1 0 4.9 4 8.9 8.9 8.9s8.9-4 8.9-8.9-3.9-9-8.8-9z"/></svg></span>
+</button>
+
+<ul class="joe__share">
+  <li class="joe__share__item">
+    <a
+      href="https://twitter.com/intent/tweet?text=Religious Employers and Exceptions to Mandated Coverage of Contraceptives&via=journalofethics&url=https://journalofethics.ama-assn.org/article/religious-employers-and-exceptions-mandated-coverage-contraceptives/2013-03"><span
+        class="icon-square-twitter joe__icon"
+        style="background-image: none;"><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90"><style>.st0{fill:#fff}</style><path d="M85.4 0H4.5C2 0 0 2 0 4.5v81C0 88 2 90 4.5 90h81c2.5 0 4.5-2 4.5-4.5v-81C89.9 2 87.9 0 85.4 0z"/><path class="st0" d="M71.7 22.6c-2.3 1.3-4.8 2.3-7.4 2.8-2.2-2.3-5.2-3.7-8.5-3.7-6.4 0-11.6 5.2-11.6 11.6 0 .9.1 1.8.3 2.6-9.7-.5-18.2-5.1-23.9-12.1-1 1.7-1.6 3.7-1.6 5.8 0 4 2.1 7.5 5.2 9.6-1.9 0-3.7-.5-5.3-1.4v.1c0 5.5 4 10.3 9.3 11.3-.9.3-2 .4-3 .4-.8 0-1.5-.1-2.2-.2 1.5 4.6 5.7 7.9 10.8 8-4 3.1-9 5-14.4 5-.9 0-1.8-.1-2.7-.2 5.1 3.3 11.2 5.2 17.7 5.2 21.3 0 32.9-17.6 32.9-32.9V33c2.2-1.7 4.2-3.7 5.9-5.8-2 .9-4.3 1.5-6.6 1.8 2.4-1.4 4.3-3.7 5.1-6.4z"/></svg></span></a>
+  </li>
+  <li class="joe__share__item">
+    <a href="https://www.facebook.com/sharer.php?u=https://journalofethics.ama-assn.org/article/religious-employers-and-exceptions-mandated-coverage-contraceptives/2013-03"><span class="icon-square-facebook joe__icon"
+                                                                                 style="background-image: none;"><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90"><style>.st0{fill:#fff}</style><path d="M85.2 90.1c2.7 0 5-2.2 5-5v-80C90 2.2 87.8 0 85 0H5C2.3 0 0 2.2 0 5v80c0 2.7 2.2 5 5 5l80.2.1z"/><path class="st0" d="M63.6 90.1V55.3h11.7L77 41.7H63.5V33c0-3.9 1-6.6 6.7-6.6h7.2V14.2c-1.3-.1-5.5-.5-10.5-.5-10.4 0-17.5 6.3-17.5 17.9v10H37.7v13.6h11.7V90"/></svg>
+  </span></a>
+  </li>
+  <li class="joe__share__item">
+    <a href="https://www.linkedin.com/shareArticle?url=https://journalofethics.ama-assn.org/article/religious-employers-and-exceptions-mandated-coverage-contraceptives/2013-03"><span
+        class="icon-square-linkedin joe__icon"
+        style="background-image: none;"><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90"><style>.st0{fill:#fff}</style><path d="M83.3 0H6.6C2.9 0 0 2.9 0 6.5v77C0 87.1 3 90 6.6 90h76.7c3.7 0 6.7-2.9 6.7-6.5v-77C90 2.9 87 0 83.3 0z"/><path class="st0" d="M57.4 35.8c-5 0-8.3 2.7-9.6 5.3h-.2v-4.4h-9.8v32.9H48V53.3c0-4.3.8-8.4 6.1-8.4 5.2 0 5.3 4.9 5.3 8.7v16H69.7V51.5c0-8.9-1.9-15.7-12.3-15.7zM21.1 36.7h10.2v32.9H21.1zM26.2 20.4c-3.2 0-5.9 2.6-5.9 5.9 0 3.2 2.6 5.9 5.9 5.9 3.3 0 6-2.7 5.9-5.9 0-3.2-2.6-5.9-5.9-5.9z"/></svg></span></a>
+  </li>
+  <li class="joe__share__item">
+    <a href="https://plus.google.com/share?url=https://journalofethics.ama-assn.org/article/religious-employers-and-exceptions-mandated-coverage-contraceptives/2013-03"><span class="icon-square-gplus joe__icon"
+                                                                             style="background-image: none;"><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89.9 89.9"><style>.st0{fill:#fff}</style><path d="M85.4 0h-81C1.9 0-.1 2-.1 4.5v81c0 2.5 2 4.5 4.5 4.5h81c2.5 0 4.5-2 4.5-4.5v-81c0-2.5-2-4.5-4.5-4.5z"/><path class="st0" d="M73.9 35.4h-6.4v6.4h-6.4v6.4h6.4v6.4h6.4v-6.4h6.5v-6.4h-6.5zM32 41.8v7.7h12.8c-.5 3.3-3.9 9.7-12.8 9.7-7.7 0-14-6.4-14-14.2s6.3-14.2 14-14.2c4.4 0 7.3 1.9 9 3.5l6.1-5.9c-3.9-3.7-9-5.9-15.1-5.9C19.6 22.5 9.5 32.6 9.5 45s10 22.5 22.5 22.5c13 0 21.6-9.1 21.7-22 0-1.4-.2-2.6-.4-3.7H32z"/></svg></span></a>
+  </li>
+  <li class="joe__share__item">
+    <a href="/cdn-cgi/l/email-protection#8bb4f8fee9e1eee8ffb6d9eee7e2ece2e4fef8abcee6fbe7e4f2eef9f8abeae5efabcef3e8eefbffe2e4e5f8abffe4abc6eae5efeaffeeefabc8e4fdeef9eaeceeabe4edabc8e4e5fff9eae8eefbffe2fdeef8ade9e4eff2b6e3fffffbf8b1a4a4e1e4fef9e5eae7e4edeeffe3e2e8f8a5eae6eaa6eaf8f8e5a5e4f9eca4eaf9ffe2e8e7eea4f9eee7e2ece2e4fef8a6eee6fbe7e4f2eef9f8a6eae5efa6eef3e8eefbffe2e4e5f8a6e6eae5efeaffeeefa6e8e4fdeef9eaeceea6e8e4e5fff9eae8eefbffe2fdeef8a4b9bbbab8a6bbb8"><span class="icon-square-email joe__icon"
+                                                                                 style="background-image: none;"><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90"><style>.st0{fill:#fff}</style><path d="M85.4 0H4.5C2 0 0 2 0 4.5v81C0 88 2 90 4.5 90h81c2.5 0 4.5-2 4.5-4.5v-81C89.9 2 87.9 0 85.4 0z"/><title>email</title><path class="st0" d="M45.3 54.3c-1.2 0-2.3-.4-3.1-1.1L18.6 32.8v35h52.8V33.4l-23 19.8c-.8.7-1.9 1.1-3.1 1.1z"/><path class="st0" d="M71.3 22.2H18.8l26.6 22.9 26-22.5h-.1z"/></svg></span></a>
+  </li>
+</ul>
+  </div>
+    <div class="joe__page-content joe__article">
+            
+            <p>
+ </p>
+<p>The Patient Protection and Affordable Care Act (ACA) has been one of the most divisive pieces of legislation in the last few years [1]. And the most controversial component of the ACA has arguably been the mandate that group health plans cover contraception costs. The contraception mandate, part of a seemingly straightforward effort to enhance preventive care for women, has elicited backlash from religious and conservative groups who believe it violates certain employers’ religious freedoms.</p>
+<h3>The Contraception Mandate</h3>
+<p>The ACA, signed into law in March 2010, mandates that group health plans, including self-insured plans (in which an employer is the insurer of its employees and assumes financial risk for the plan), cover the cost of preventive care for women without requiring cost-sharing from beneficiaries [2]. These preventive services, recommended by an Institute of Medicine expert committee in women’s health and prevention, include annual well-woman visits, screening for sexually transmitted infections (STIs), domestic violence counseling, and coverage for contraceptives for women with reproductive capacity [3, 4]. All plans that are not grandfathered (i.e., the plan has not covered at least one person continuously since March 23, 2010) or otherwise exempt (discussed in detail below) must comply [3, 4].</p>
+<p>The federal mandate does not pose as significant a change to health care coverage in the United States as some believe. Prior to the ACA, 28 states already had laws that required insurance policies that covered other prescription drugs to cover FDA-approved contraceptive drugs and devices [5]. Although these state laws did not affect self-insured employer plans, a 2000 ruling by the United States Equal Employment Opportunity Commission (EEOC) held that employers who provided coverage for other prescription drugs but not for contraceptives were in violation of Title VII of the Civil Rights Act [6]. The ACA then, did not create a sweeping change as much as it extended earlier legislation to all states and included self-insured employer plans.</p>
+<h3>Religious Exemptions</h3>
+<p>In the wake of the objections that covering contraception costs would violate some employers’ religious freedoms, interim final rules were published in August 2011 announcing that churches, but not religiously affiliated groups such as religious schools or hospitals, would be exempt from the contraception mandate [4]. The interim final rules defined a religious employer eligible for exemption as “one that (1) has the inculcation of religious values as its purpose; (2) primarily employs persons who share its religious tenets; (3) primarily serves persons who share its religious tenets; and (4) is a non-profit organization under the Internal Revenue Code” [4]. This narrow exemption appeased some, but left many religious employers seeking further accommodation.</p>
+<p>In January 2012, the Department of Health and Human Services announced a compromise [7]. Although HHS continued to guarantee that all women with health insurance would have access to contraception coverage without cost sharing, it provided a 1-year extension to nonprofit employers who, on the basis of religious beliefs, do not cover the cost of contraception. While other employers would be bound by the mandate starting in August 2012, these religious employers were given until August 2013 to comply [7]. HHS Secretary Kathleen Sebelius stated that “this proposal strikes the appropriate balance between respecting religious freedom and increasing access to important preventive services” [7]. This compromise did not satisfy many religious groups, who felt that the extension merely gave religious employers an extra year to “figure out how to violate [their] consciences” [8].</p>
+<p>A further compromise on institutional exemptions to the contraception mandate came from the federal government on February 10, 2012. The “Final Rule” provided a second level of exemptions [9, 10]. In addition to the complete exemption for churches and other employers who fell into the guidelines established in August 2011, HHS granted a further compromise to not-for-profit employers such as hospitals, universities, and charities that object on religious grounds to the provision of contraceptive services. Under the final rule, this second group of employers would not be forced to pay for contraceptives themselves. Instead, their insurance providers would directly pay for the services [9, 10]. To some, this compromise seemed hollow because it required religious employers to be complicit in behavior that they believed to be morally wrong [11]. This compromise addresses neither self-insured nor for-profit companies with religious objections to contraception service.</p>
+<p>Finally, on March 21, 2012, HHS released an Advance Notice of Proposed Rulemaking that requested comments on how to accommodate self-insured religious institutions, while ensuring that women receive contraceptive coverage [9]. For these institutions, HHS proposed that “a third-party administrator of the group health plan or some other independent entity assume this responsibility” [9]. These proposals have not yet been finalized, and, in the meantime, multiple lawsuits have been filed.</p>
+<h3>Challenges</h3>
+<p>Dozens of lawsuits have been filed in federal court in recent months challenging the contraception mandate or seeking injunctions against it [12]. Lawsuits have been filed by for-profit institutions that have been given no exemptions to the contraception mandate and nonprofit institutions that do not believe that the accommodations made by the government have sufficiently protected their interests.</p>
+<p>Lawsuits have been filed on behalf of for-profit companies ranging from those with a clear religious purpose such as Tyndale Publishing House, a Christian publishing company [13], to seemingly secular organizations founded by deeply religious individuals, such as Hobby Lobby, a national chain of craft supply stores [14]. The outcomes of these cases have varied significantly.</p>
+<p>In <i>Tyndale House Publishers v. Sebelius</i>, the plaintiffs succeeded in winning an injunction against having to pay for intrauterine devices (IUDs) and Plan B (an oral emergency contraception), which the plaintiffs consider to be abortifacients. The court found that the government had not demonstrated that these specific contraceptives furthered the government’s interest in promoting public health. The court further noted that, “when the beliefs of a closely-held corporation and its owners are inseparable, the corporation should be deemed the alter-ego of its owners for religious purposes” [13]. This view is not shared by all district court judges.</p>
+<p>The plaintiffs in <i>Hobby Lobby Stores v. Sebelius</i>, who also sought an injunction specifically against providing Plan B and IUDs, were unsuccessful after the judge held that Hobby Lobby is not a religious organization and that the government has a compelling interest in ensuring that all women have access to contraceptive services [14].</p>
+<p>While these decisions seem to be unpredictable, companies with a clear religious purpose, even when for-profit, are more likely to be successful in their challenges. As Judge Heaton said in <i>Hobby Lobby</i>, “The court has not found any case concluding that secular, for-profit corporations…have a constitutional right to the free exercise of religion” [14].</p>
+<p>Many of the lawsuits brought by nonprofit institutions have been filed on behalf of Catholic and Christian colleges, such as Belmont Abbey College [15], Wheaton College [16], East Texas Baptist University [17], and Colorado Christian University [18]. Unlike the lawsuits filed by for-profit companies, the suits filed by nonprofits have been largely unsuccessful. Most have been dismissed for being premature because, unlike for-profit companies, which were required to comply with the mandate as of August 2012, plaintiffs at nonprofits have until August 2013 to comply and have not yet been able to demonstrate that they have been harmed by the mandate. However, there has recently been a major change on this front.</p>
+<p>On December 18, 2012, the D.C. Court of Appeals ruled that the Belmont Abbey and Wheaton College cases should not have been dismissed [19]. In oral arguments, the federal government stated that it was never planning on enforcing the contraception mandate against religious colleges and institutions and that HHS would be publishing a Notice of Proposed Rulemaking in the first quarter of 2013 and issuing a new Final Rule by August 2013 [19]. The court promised to hold the government to its word, and lawsuits against the contraception mandate are pending until HHS has amended its rules. As an enforcement mechanism, the court has ordered that HHS must file status reports with the court every 60 days [19].</p>
+<h3>The Current Status of the Mandate</h3>
+<p>Employers who do not believe that the compromise is sufficient have sued and will continue to sue the federal government. Because these cases are decided on an ad-hoc basis and affect individual companies rather than the general applicability of the contraception mandate in general, their outcomes have varied significantly. The lower court cases have affected individual companies but have not affected the general applicability of the contraception mandate. However, the December 18, 2012, opinion by the D.C. Circuit Court ushered in significant changes.</p>
+<p>In response to the court ruling, the Department of Health and Human Services issued a Notice of Proposed Rulemaking in February 2013. The proposed rules [20] expand compromises to nonprofit religious institutions such as colleges and hospitals. Under the proposed rules, these institutions would be completely removed from the process of providing contraceptive coverage to enrollees. Not only would these institutions be exempt from directly paying for contraceptive coverage, but they would not have to contract with or arrange for contraceptive coverage by insurance companies. Instead an institution would self-certify as a nonprofit religious organization that opposes providing contraceptive coverage on religious grounds. The organization would submit this self-certification to its insurance provider, which would then notify enrollees and provide them separate contraception coverage at no cost to the employer or to the enrollee. Similarly, the employees of religious organizations that are self-insured would be covered by an insurance provider arranged for by a third-party administrator. The proposed rules are open to public commentary through April 2013.</p>
+<p>It is likely that there will be further adjustments to the contraception mandate down the road.</p>
+
+      
+      <div class="joe__page-content--article" role="article">
+                  <div class="joe__tags">
+            <h2 class="joe__tags-title">Read More</h2>
+                  <ul class="joe__tags-list">
+              <li class="joe__tag"><a href="/taxonomy/health-policyaffordable-care-act" hreflang="en">Health policy/Affordable Care Act</a>,</li>
+              <li class="joe__tag"><a href="/taxonomy/religion-and-health-careconscientious-objection" hreflang="en">Religion and health care/Conscientious objection</a>,</li>
+              <li class="joe__tag"><a href="/taxonomy/reproductive-healthcontraception" hreflang="en">Reproductive health/Contraception</a></li>
+          </ul>
+  
+          </div>
+                          <div class="joe__references">
+            <h3 class="joe__title-label">References</h3>
+            <ol class="joe__references__list">
+              
+                
+<li> 
+  Patient Protection and Affordable Care Act, Pub L No 111-148.
+</li>
+
+              
+<li> 
+  <p>Coverage of preventive health services, 42 USC section 300gg-13(a)(4) (Supp. 2010).</p>
+
+</li>
+
+              
+<li> 
+  <p>Institute of Medicine. <i>Clinical Preventive Services for Women: Closing the Gaps.</i> Published July 19, 2011. Accessed January 2, 2013.</p>
+
+</li>
+
+              
+<li> 
+  <p>Internal Revenue Service, Department of the Treasury; Employee Benefits Security Administration, Department of Labor; Centers for Medicare &amp; Medicaid Services, Department of Health and Human Services. Group health plans and health insurance issuers relating to coverage of preventive services under the Patient Protection and Affordable Care Act. Interim final rules with request for comments. <i>Fed Regist.</i> 2011;76(149):46621-46626.</p>
+
+<div class="joe__references__item-links">
+	
+         <a href="https://www.ncbi.nlm.nih.gov/pubmed?term=76%5Bvolume%5D%20AND%20149%5Bissue%5D%20AND%2046621%5Bpage%5D%20AND%202011%5Bpdat%5D%20AND%20Group%20health%20plans%20and%20health%20insurance%20issuers%20relating%20to%20coverage%20of%20preventive%20services%20under%20the%20Patient%20Protection%20and%20Affordable%20Care%20Act&amp;TransSchema=title&amp;cmd=detailssearch">PubMed</a>
+       <a href="https://scholar.google.com/scholar_lookup?title=Group%20health%20plans%20and%20health%20insurance%20issuers%20relating%20to%20coverage%20of%20preventive%20services%20under%20the%20Patient%20Protection%20and%20Affordable%20Care%20Act&amp;author=Internal%20Revenue%20Service%2C%20Department%20of%20the%20Treasury%3B%20Employee%20Benefits%20Security%20Administration%2C%20Department%20of%20Labor&amp;publication_year=2011">Google Scholar</a>
+       
+</div>
+</li>
+
+              
+<li> 
+  <p>Guttmacher Institute. State policies in brief: insurance coverage of contraceptives. <a href="https://www.guttmacher.org/statecenter/spibs/spib_ICC.pdf" target="_blank">http://www.guttmacher.org/statecenter/spibs/spib_ICC.pdf</a>. Accessed January 2, 2013.</p>
+
+</li>
+
+              
+<li> 
+  <p>Equal Employment Opportunity Commission. Decision on contraception. <a href="http://www.eeoc.gov/policy/docs/decision-contraception.html" target="_blank">http://www.eeoc.gov/policy/docs/decision-contraception.html</a>. Accessed January 2, 2013.</p>
+
+</li>
+
+              
+<li> 
+  <p>A statement by U.S. Department of Health and Human Services Secretary Kathleen Sebelius [news release]. Washington, DC: Department of Health and Human Services; January 20, 2012. Accessed December 12, 2012.</p>
+
+</li>
+
+              
+<li> 
+  <p>Times Topics: contraception and insurance coverage (religious exemption debate). <i>New York Times.</i><a href="http://topics.nytimes.com/top/news/health/diseasesconditionsandhealthtopics/health_insurance_and_managed_care/health_care_reform/contraceptionindex.html" target="_blank">http://topics.nytimes.com/top/news/health/diseasesconditionsandhealthtopics/health_insurance_and_managed_care/health_care_reform/contraceptionindex.html</a>. Accessed January 2, 2013.</p>
+
+</li>
+
+              
+<li> 
+  <p>Internal Revenue Service, Department of the Treasury; Employee Benefits Security Administration, Department of Labor; Centers for Medicare &amp; Medicaid Services, Department of Health and Human Services. Certain preventive services under the Affordable Care Act. <i>Fed Regist.</i> 2012;77(55):16501-16508.</p>
+
+</li>
+
+              
+<li> 
+  <p>Administration releases advance notice of proposed rulemaking on preventive services policy [news release]. Washington, DC: Department of Health and Human Services; March 16, 2012. Published March 16, 2012. Accessed January 2, 2013.</p>
+
+</li>
+
+              
+<li> 
+  <p>Goodstein L. Bishops reject White House’s new plan on contraception. <i>New York Times.</i> February 11, 2012. <a href="https://www.nytimes.com/2012/02/12/us/catholic-bishops-criticize-new-contraception-proposal.html?scp=1&amp;sq=Catholic%20Bishops%20Reject%20New%20Plan%20on%20Contraception&amp;st=cse" target="_blank">http://www.nytimes.com/2012/02/12/us/catholic-bishops-criticize-new-contraception-proposal.html?scp=1&amp;sq=Catholic%20Bishops%20Reject%20New%20Plan%20on%20Contraception&amp;st=cse</a>. Accessed December 10, 2012.</p>
+
+</li>
+
+              
+<li>
+         Hall R.       
+               <span>The Women’s Health Amendment and religious freedom: finding a sufficient compromise.</span>
+       
+               <span><em>J Health Care Law Policy</em>.</span>
+        
+ 2012;15(2):401-424. 
+<div class="joe__references__item-links">
+	
+         <a href="https://scholar.google.com/scholar_lookup?title=The%20Women%E2%80%99s%20Health%20Amendment%20and%20religious%20freedom%3A%20finding%20a%20sufficient%20compromise&amp;author=Hall%20R.&amp;publication_year=2012">Google Scholar</a>
+       
+</div>
+</li>
+
+              
+<li> 
+  <p><i>Tyndale House Publishers v Sebelius</i>, Civil Action No. 12-1635 (D DC 2012).</p>
+
+</li>
+
+              
+<li> 
+  <p><i>Hobby Lobby Stores v Sebelius</i>, Civil Action No. 12-1000 (WD Ok 2012).</p>
+
+</li>
+
+              
+<li> 
+  <p><i>Belmont Abbey College v Sebelius</i>, Civil Action No. 11-1989 (D DC 2012).</p>
+
+</li>
+
+              
+<li> 
+  <p><i>Wheaton College v Sebelius</i>, Civil Action No. 12-1169 (D DC 2012).</p>
+
+</li>
+
+              
+<li> 
+  <p><i>East Texas Baptist University v Sebelius</i>, Civil Action No. H-12-3009 (SD Tex 2012).</p>
+
+</li>
+
+              
+<li> 
+  <p>Complaint, <i>Colo Christian Univ v Sebelius</i>, Civil Action Complaint No. 11-03350 (D Col 2011).</p>
+
+</li>
+
+              
+<li> 
+  <p><i>Wheaton College v Sebelius</i>, Civil Action No. 12-5273 (D DC Cir 2012).</p>
+
+</li>
+
+              
+<li> 
+  <p>Internal Revenue Service, the Employee Benefits Security Administration, and the Health and Human Services Department. Proposed rules: coverage of certain preventative services under the Affordable Care Act. <a href="https://www.federalregister.gov/articles/2013/02/06/2013-02420/coverage-of-certain-preventive-services-under-the-affordable-care-act" target="_blank">https://www.federalregister.gov/articles/2013/02/06/2013-02420/coverage-of-certain-preventive-services-under-the-affordable-care-act</a>. Accessed February 20, 2013.</p>
+
+</li>
+
+        
+            </ol>
+          </div>
+                <footer class="joe__article-footer">
+
+          
+          <h3 class="joe__title-label">Citation</h3>
+          <div>
+            <em>Virtual Mentor.</em> 2013;15(3):220-225.
+          </div>
+          <h3 class="joe__title-label">DOI</h3>
+          
+            10.1001/virtualmentor.2013.15.3.hlaw1-1303.
+      
+                                          <small>
+            <p>The viewpoints expressed in this article are those of the author(s) and do not necessarily reflect the views and policies of the AMA.</p>
+
+      </small>
+                  </footer>
+                  <aside class="joe__author-information">
+            <h3 class="joe__title-label">Author Information</h3>
+            <ul class="joe__author-information__list">
+                              <li>  <div class="paragraph paragraph--type--author paragraph--view-mode--article-biography">
+          <p><strong>Lauren Sydney Flicker, JD, MBE</strong> is a 2012-2014 fellow in the Cleveland Fellowship in Advanced Bioethics, a multi-institutional program administered by the Cleveland Clinic. In 2010, Ms. Flicker was a postdoctoral fellow at the University of Pennsylvania Center for Bioethics and an adjunct professor at Earle Mack School of Law at Drexel University in Philadelphia. Her research focuses on the legal rights and ethical questions in assisted reproduction and physician-assisted suicide.</p>
+
+      </div>
+</li>
+                          </ul>
+          </aside>
+              </div>
+    </div>
+
+          <aside id="sidebar" class="joe__sidebar joe__sidebar--top" role="complementary">
+                  
+                
+  
+<aside class="joe__rail-cta ">
+<h3 class="joe__rail-cta__title"><span>Art of Medicine Contest</span>
+</h3>
+	<div class="joe__rail-cta__text">
+		<p>
+            <p>Winning artist is awarded a $5000 prize.</p>
+
+      </p>
+	</div>
+		<a href="https://journalofethics.ama-assn.org/2019-conley-art-medicine-contest-0" class="joe__button joe__button--small" title="alt">Learn more
+	</a>
+	</aside>
+
+        
+                        <aside class="joe__related-articles">
+          <h3 class="joe__rail-title">You may also be interested in</h3>
+                                      
+<div class="views-element-container">
+		 
+    <div>
+<article class="joe__article-teaser">
+  <div class="joe__article-teaser__block">
+    <div class="joe__flag joe__flag--blue">
+      <div class="joe__flag__type">
+      
+      </div>
+      
+            <time datetime="2019-03-01T12:00:00Z">Mar 2019</time>
+
+      
+    </div>
+    <h2 class="joe__article-teaser__title"><a href="/article/how-should-nonprofit-hospitals-community-benefit-be-more-responsive-health-disparities/2019-03" class="joe__article-teaser__title"><span property="schema:name">How Should Nonprofit Hospitals’ Community Benefit Be More Responsive to Health Disparities?</span>
+</a></h2>
+    <span class="joe__article-teaser__meta">
+    
+
+ Michael Rozier, PhD, MHS, Susan Goold, MD, MA, MHSA, and  Simone Singh, PhD    </span>
+  </div>
+</article>
+</div>
+    <div>
+<article class="joe__article-teaser">
+  <div class="joe__article-teaser__block">
+    <div class="joe__flag joe__flag--green">
+      <div class="joe__flag__type">
+      
+      </div>
+      
+            <time datetime="2019-03-01T12:00:00Z">Mar 2019</time>
+
+      
+    </div>
+    <h2 class="joe__article-teaser__title"><a href="/article/how-can-clinicians-catalyze-investments-improve-community-health/2019-03" class="joe__article-teaser__title"><span property="schema:name">How Can Clinicians Catalyze Investments to Improve Community Health?</span>
+</a></h2>
+    <span class="joe__article-teaser__meta">
+    
+
+ Robin Hacke, MBA and  Alyia Gaskins, MPH    </span>
+  </div>
+</article>
+</div>
+    <div>
+<article class="joe__article-teaser">
+  <div class="joe__article-teaser__block">
+    <div class="joe__flag joe__flag--orange">
+      <div class="joe__flag__type">
+      
+      </div>
+      
+            <time datetime="2019-03-01T12:00:00Z">Mar 2019</time>
+
+      
+    </div>
+    <h2 class="joe__article-teaser__title"><a href="/article/hospitals-obligations-address-social-determinants-health/2019-03" class="joe__article-teaser__title"><span property="schema:name">Hospitals’ Obligations to Address Social Determinants of Health</span>
+</a></h2>
+    <span class="joe__article-teaser__meta">
+    
+
+ Hannah R. Sullivan    </span>
+  </div>
+</article>
+</div>
+    <div>
+<article class="joe__article-teaser">
+  <div class="joe__article-teaser__block">
+    <div class="joe__flag joe__flag--green">
+      <div class="joe__flag__type">
+      
+      </div>
+      
+            <time datetime="2019-01-01T12:00:00Z">Jan 2019</time>
+
+      
+    </div>
+    <h2 class="joe__article-teaser__title"><a href="/article/why-physicians-should-advocate-undocumented-immigrants-unimpeded-access-prenatal-care/2019-01" class="joe__article-teaser__title"><span property="schema:name">Why Physicians Should Advocate for Undocumented Immigrants’ Unimpeded Access to Prenatal Care</span>
+</a></h2>
+    <span class="joe__article-teaser__meta">
+    
+
+ Rachel Fabi, PhD    </span>
+  </div>
+</article>
+</div>
+
+	
+	 
+</div>
+
+                    </aside>
+              </aside>
+    </article>
+
+  
+  
+        </div>
+  </main> 
+       
+    
+       <section class="joe__article-issue-footer">
+        <div class="container">
+      <h3 class="joe__title-label">Also in this Issue</h3>
+      <h4 class="joe__title-label">Mar 2013</h4>
+      <div class="joe__layout--two-column joe__article-issue-footer__block">
+        <div class="joe__col-one--med">
+                      
+<article class="joe__article-teaser joe__article-teaser--reverse">
+  <a href="/article/limits-conscientious-refusal-duty-ensure-access/2013-03" class="joe__article-teaser__image">
+        <img alt="" src="/sites/journalofethics.ama-assn.org/files/styles/teaser_image_style_450x225_/public/2018-07/shutterstock_1015109143.jpg?itok=F_0eJ4uU">
+  </a>
+  
+  <div class="joe__article-teaser__block">
+          <div class="joe__flag joe__flag--orange">
+          <div class="joe__flag__type">
+            
+            Viewpoint
+      
+          </div>
+      </div>
+        <h2 class="joe__article-teaser__title"><a href="/article/limits-conscientious-refusal-duty-ensure-access/2013-03" class="joe__article-teaser__title"><span property="schema:name">The Limits of Conscientious Refusal: A Duty to Ensure Access</span>
+</a></h2>
+    <span class="joe__article-teaser__meta">
+      
+
+ Margaret Little, PhD and  Anne Drapkin Lyerly, MA, MD    </span>
+  </div>
+</article>
+
+                      
+<article class="joe__article-teaser joe__article-teaser--reverse">
+  <a href="/article/protecting-positive-claims-conscience-employees-religious-institutions-threatens-religious-liberty/2013-03" class="joe__article-teaser__image">
+        <img alt="" src="/sites/journalofethics.ama-assn.org/files/styles/teaser_image_style_450x225_/public/2018-08/shutterstock_566091370.jpg?itok=9Ne-2ck1">
+  </a>
+  
+  <div class="joe__article-teaser__block">
+          <div class="joe__flag joe__flag--blue">
+          <div class="joe__flag__type">
+            
+            Policy Forum
+      
+          </div>
+      </div>
+        <h2 class="joe__article-teaser__title"><a href="/article/protecting-positive-claims-conscience-employees-religious-institutions-threatens-religious-liberty/2013-03" class="joe__article-teaser__title"><span property="schema:name">Protecting Positive Claims of Conscience for Employees of Religious Institutions Threatens Religious Liberty</span>
+</a></h2>
+    <span class="joe__article-teaser__meta">
+      
+
+ Christopher O. Tollefsen, PhD    </span>
+  </div>
+</article>
+
+                  </div>
+        <div class="joe__col-two--med">
+                      
+<article class="joe__article-teaser joe__article-teaser--reverse">
+  <a href="/article/invoking-shared-beliefs-end-life-decision-making/2013-03" class="joe__article-teaser__image">
+        <img alt="" src="/sites/journalofethics.ama-assn.org/files/styles/teaser_image_style_450x225_/public/2018-09/shutterstock_437089900.jpg?itok=6dAY0lAA">
+  </a>
+  
+  <div class="joe__article-teaser__block">
+          <div class="joe__flag joe__flag--green">
+          <div class="joe__flag__type">
+            
+            Case and Commentary
+      
+          </div>
+      </div>
+        <h2 class="joe__article-teaser__title"><a href="/article/invoking-shared-beliefs-end-life-decision-making/2013-03" class="joe__article-teaser__title"><span property="schema:name">Invoking Shared Beliefs in End-of-Life Decision Making</span>
+</a></h2>
+    <span class="joe__article-teaser__meta">
+      
+
+ William J. Hogan, Jr., MD and  Juan R. Velez, MD    </span>
+  </div>
+</article>
+
+                      
+<article class="joe__article-teaser joe__article-teaser--reverse">
+  <a href="/article/medical-school-accommodations-religious-and-cultural-practices/2013-03" class="joe__article-teaser__image">
+        <img alt="" src="/sites/journalofethics.ama-assn.org/files/styles/teaser_image_style_450x225_/public/2018-07/shutterstock_499379230.jpg?itok=mJErY30t">
+  </a>
+  
+  <div class="joe__article-teaser__block">
+          <div class="joe__flag joe__flag--green">
+          <div class="joe__flag__type">
+            
+            Case and Commentary
+      
+          </div>
+      </div>
+        <h2 class="joe__article-teaser__title"><a href="/article/medical-school-accommodations-religious-and-cultural-practices/2013-03" class="joe__article-teaser__title"><span property="schema:name">Medical School Accommodations for Religious and Cultural Practices</span>
+</a></h2>
+    <span class="joe__article-teaser__meta">
+      
+
+ Lori Arviso Alvord, MD    </span>
+  </div>
+</article>
+
+                  </div>
+      </div>
+      <a href="/issue/conscience-rights-and-responsibilities" class="joe__link--reversed">View Full Issue</a>
+    </div>
+  </section>
+ 
+  
+             <footer class="joe__footer">
+  <div class="container">
+    <div class="joe__layout--66-33">
+      <div class="joe__col-66">
+        <div class="joe__wordmark">
+          <a href="/">
+            <h1 class="joe__wordmark__title">AMA Journal of Ethics<sup>®</sup></h1>
+            <h2 class="joe__wordmark__subtitle">Illuminating the Art of Medicine</h2>
+          </a>
+        </div>
+              <nav role="navigation" aria-labelledby="block-ama-joe-theme-footer-menu" id="block-ama-joe-theme-footer" class="joe__footer-nav">
+            
+  <h2 class="visually-hidden" id="block-ama-joe-theme-footer-menu">Footer menu</h2>
+  
+
+        
+              <ul class="joe__footer-nav__list">
+              <li class="joe__footer-nav__item">
+        <a href="/about" data-drupal-link-system-path="node/16971">About</a>
+              </li>
+          <li class="joe__footer-nav__item">
+        <a href="/conditions-use" data-drupal-link-system-path="node/16866">Conditions of Use</a>
+              </li>
+          <li class="joe__footer-nav__item">
+        <a href="/privacy-policy" data-drupal-link-system-path="node/17456">Privacy Policy</a>
+              </li>
+          <li class="joe__footer-nav__item">
+        <a href="/frequently-asked-questions" data-drupal-link-system-path="node/13781">FAQ</a>
+              </li>
+          <li class="joe__footer-nav__item">
+        <a href="/contact-us" data-drupal-link-system-path="node/13786">Contact</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+   
+      </div>
+      <div class="joe__col-33">
+        <a class="joe__footer-brand" href="https://www.ama-assn.org/">
+        <img alt="American Medical Association" src="/themes/custom/ama_joe_theme/images/brand/logo.svg">
+        </a>
+      </div>
+    </div>  
+    <div class="joe__copyright joe__type--smaller">
+      Copyright 2019 American Medical Association. All Rights Reserved. ISSN 2376-6980
+    </div>
+  </div>
+</footer>
+</div>
+  </div>
+
+    
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/6481","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"user":{"uid":0,"permissionsHash":"578807214e53851e1deff69e2c1877b74da07002551957e6252f9861db214380"}}</script>
+<script src="/sites/journalofethics.ama-assn.org/files/js/js_VdVQfNXAktxaSYCuC15UZFTPAMJR2r7cYVMgnlZfkH0.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"22656e4355","applicationID":"153878993","transactionName":"YFQDZhFVWUpRVUZYWlkeIFEXXVhXH3JAREVWXT1xDEZSZXZZQFxpcV4TXyFBXlVUU0AcC0VUD1YGRmdVUVVXWVpbVQRAJVtFVHFVRlhaWQ==","queueTime":0,"applicationTime":459,"atts":"TBMAEFlPSkQ=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

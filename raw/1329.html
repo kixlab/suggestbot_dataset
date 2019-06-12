@@ -1,0 +1,1676 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:product="http://ogp.me/ns/product#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5PZXSDR');</script>
+<!-- End Google Tag Manager -->
+<script>var gtmDebug = false;</script><script>
+
+  /**
+   *
+   * Gere le coté JS du tag GTM
+   */
+
+  //pays de connexion de l'utilisateur
+  var connectionCountry = null;
+
+  //permet de récuperer la valeur d'un cookie
+  function getCookieValue(a) {
+    var b = document.cookie.match('(^|;)\\s*' + a + '\\s*=\\s*([^;]+)');
+    return eval(decodeURIComponent(b ? b.pop() : ''));
+  }
+
+
+  //rempli la partie lisa du GTM en fonction des cookies présents (cookies set par le lisa)
+  function handleLisaTag(dataObject) {
+
+    var lisa = getCookieValue('lisa');
+
+    //si la recherche lisa est en cours , mais qu'elle n'a pas été finie
+    if (lisa !== undefined && lisa.length > 0 && lisa.indexOf('END') !== (lisa.length - 1)) {
+
+      dataObject.page.pageType = 'lisa-step';
+      dataObject.page.fromLisa = 'NO';
+      dataObject.page.isBusiness = 'YES';
+      dataObject.page.isCorporate = 'NO';
+      dataObject.page.isMyAccount = 'NO';
+      dataObject.page.subsidiary = 'AI';
+      dataObject.page.market = undefined;
+      dataObject.products = undefined;
+      dataObject.article = undefined;
+      dataObject.contact = undefined;
+    }
+
+
+    //si la recherche lisa a été finie
+    if (lisa !== undefined && lisa.length > 0 && lisa.indexOf('END') === (lisa.length - 1)) {
+      dataObject.page.fromLisa = 'YES';
+      dataObject.page.isBusiness = 'YES';
+
+      var lisa_filters = getCookieValue('lisa_filters');
+
+      dataObject.lisa = {};
+
+      var durationMapping = {};
+
+      durationMapping['< 3 months'] = 'DUREE_INF3';
+      durationMapping['>= 3 months'] = 'DUREE_SUP3';
+      durationMapping['< 12 months'] = 'DUREE_INF12';
+      durationMapping['>= 12 months'] = 'DUREE_SUP12';
+
+      for(var index in lisa_filters){
+
+        if(lisa_filters[index]['solrField'] === 'attr_destination_s'){
+          dataObject.lisa.destinationCountry = lisa_filters[index]['solrFieldValue'];
+        }
+        if(lisa_filters[index]['solrField'] === 'attr_nationality_s'){
+          dataObject.lisa.nationality = lisa_filters[index]['solrFieldValue'];
+        }
+        if(lisa_filters[index]['solrField'] === 'attr_type_s'){
+          dataObject.lisa.departureReason = lisa_filters[index]['solrFieldValue'];
+        }
+        if(lisa_filters[index]['solrField'] === 'attr_duration_s'){
+          dataObject.lisa.duration = durationMapping[lisa_filters[index]['solrFieldValue']];
+        }
+
+      }
+
+    } else {
+      dataObject.page.fromLisa = 'NO';
+    }
+
+  }
+
+
+  /**
+   * Récupere le code pays de l'utilisateur
+   */
+  function getConnectionCountryAndFireGTMEvent()
+  {
+    //run the query
+
+    var getCountryUrl = '/fr/ajax/country-code';
+    const req = new XMLHttpRequest();
+
+    req.onreadystatechange = function(event) {
+      if (this.readyState === XMLHttpRequest.DONE) {
+        if (this.status === 200) {
+          var json = JSON.parse(this.responseText);
+          connectionCountry = json.countryCode;
+          fireGTMEvent(null);
+        }
+      }
+    };
+
+    req.open('GET', getCountryUrl, true);
+    req.send(null);
+
+  }
+
+
+  /**
+   * remplace les valeurs "null" par "undefined"
+   * @param object
+   * @returns {*}
+   */
+  function clearNullValue(object){
+    if(object === null) {
+      object = undefined;
+    } else {
+      for (var property in object) {
+        if(object[property] === null){
+          object[property] = undefined;
+        }
+      }
+    }
+
+    return object;
+  }
+
+  /**
+   * fait le push vers GTM
+   * @param data
+   * @param virtualPath
+   */
+  function dataLayerPush(data,virtualPath) {
+
+    var dataLayer = window.dataLayer = window.dataLayer || [];
+
+    data.connectionCountry = connectionCountry;
+
+    data.event = clearNullValue(data.event);
+    data.page = clearNullValue(data.page);
+
+    if(virtualPath !== null && data.page != undefined){
+      data.page.virtualPath = virtualPath;
+    }
+
+    data.connectionCountry = clearNullValue(data.connectionCountry);
+    data.article = clearNullValue(data.article);
+    data.products = clearNullValue(data.products);
+    data.lisa = clearNullValue(data.lisa);
+    data.contact = clearNullValue(data.contact);
+
+    var dataObject = {
+      "event": data.event,
+      "page": data.page,
+      "connectionCountry": data.connectionCountry,
+      "article": data.article,
+      "products": data.products,
+      "lisa": data.lisa,
+      "contact": data.contact
+    };
+
+    handleLisaTag(dataObject);
+
+    //on active le debug en dev et en recette uniquement
+    if(gtmDebug){
+      console.log('dataLayer debug', dataObject);
+    }
+
+    dataLayer.push(dataObject);
+  }
+
+
+  //envoi l'evenement GTM, utilisé par le lisa
+  function fireGTMEvent(virtualPath)
+  {
+    dataLayerPush({
+    "event": "screenView",
+    "page": {
+        "subsidiary": "AI",
+        "pageType": "article",
+        "market": "Healthcare abroad",
+        "isBusiness": "NO",
+        "isCorporate": "NO",
+        "isMyAccount": "NO",
+        "fromLisa": "NO",
+        "virtualPath": null
+    },
+    "connectionCountry": null,
+    "article": {
+        "categoryL1": "Healthcare abroad",
+        "categoryL2": "Healthcare for expatriates",
+        "articleTitle": "Which countries have the best healthcare systems?"
+    },
+    "products": null,
+    "lisa": null,
+    "contact": {
+        "lastname": null,
+        "firstname": null,
+        "email": null,
+        "birthday": null
+    }
+}, virtualPath)
+  }
+
+
+  //au démarrage de la page , on récupere le code pays de l'utlisateur en cours et on envoi l'evenement GTM
+  getConnectionCountryAndFireGTMEvent();
+
+</script>
+<meta name="title" content="Which countries have the best healthcare systems?" />
+<meta property="og:site_name" content="APRIL International" />
+<link rel="canonical" href="https://fr.april-international.com/en/healthcare-expatriates/which-countries-have-best-healthcare-systems" />
+<meta name="description" content="How do you know the quality of your future country of expatriation? With this article, you will find out which countries have the best health systems." />
+<meta property="og:url" content="https://fr.april-international.com/en/healthcare-expatriates/which-countries-have-best-healthcare-systems" />
+<meta property="og:title" content="Which countries have the best healthcare systems? | APRIL International" />
+<meta property="og:image" content="https://fr.april-international.com/sites/france/files/2018-04/quels-sont-les-pays-avec-les-meilleurs-systemes-de-sante-miniature_0.jpg" />
+<meta property="og:locale" content="en" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style media="all">.article-teaser-414 {background-color: #FFFFFF !important;background-image: url('https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-04/le-systeme-de-sante-au-royaume-uni-visuel-miniature_0.jpg?itok=Zg_1amKO') !important;background-repeat: no-repeat !important;background-attachment: scroll !important;background-position: left top !important;z-index: auto;background-size: cover !important;-webkit-background-size: cover !important;-moz-background-size: cover !important;-o-background-size: cover !important;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-04/le-systeme-de-sante-au-royaume-uni-visuel-miniature_0.jpg?itok=Zg_1amKO', sizingMethod='scale');-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-04/le-systeme-de-sante-au-royaume-uni-visuel-miniature_0.jpg?itok=Zg_1amKO', sizingMethod='scale');}</style>
+<style media="all">.article-teaser-682 {background-color: #FFFFFF !important;background-image: url('https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-05/facemask.jpg?itok=gwcYdfJ_') !important;background-repeat: no-repeat !important;background-attachment: scroll !important;background-position: left top !important;z-index: auto;background-size: cover !important;-webkit-background-size: cover !important;-moz-background-size: cover !important;-o-background-size: cover !important;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-05/facemask.jpg?itok=gwcYdfJ_', sizingMethod='scale');-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-05/facemask.jpg?itok=gwcYdfJ_', sizingMethod='scale');}</style>
+<style media="all">.article-teaser-623 {background-color: #FFFFFF !important;background-image: url('https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-06/massage-1929064.jpg?itok=ZMkbyPEw') !important;background-repeat: no-repeat !important;background-attachment: scroll !important;background-position: left top !important;z-index: auto;background-size: cover !important;-webkit-background-size: cover !important;-moz-background-size: cover !important;-o-background-size: cover !important;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-06/massage-1929064.jpg?itok=ZMkbyPEw', sizingMethod='scale');-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-06/massage-1929064.jpg?itok=ZMkbyPEw', sizingMethod='scale');}</style>
+<style media="all">.article-teaser-630 {background-color: #FFFFFF !important;background-image: url('https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-06/adorable-baby-baby-feet-266011.jpg?itok=mPEwxo_B') !important;background-repeat: no-repeat !important;background-attachment: scroll !important;background-position: left top !important;z-index: auto;background-size: cover !important;-webkit-background-size: cover !important;-moz-background-size: cover !important;-o-background-size: cover !important;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-06/adorable-baby-baby-feet-266011.jpg?itok=mPEwxo_B', sizingMethod='scale');-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-06/adorable-baby-baby-feet-266011.jpg?itok=mPEwxo_B', sizingMethod='scale');}</style>
+<style media="all">.article-teaser-617 {background-color: #FFFFFF !important;background-image: url('https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-06/freestocks-org-73878_1.jpg?itok=0EN7dxKu') !important;background-repeat: no-repeat !important;background-attachment: scroll !important;background-position: left top !important;z-index: auto;background-size: cover !important;-webkit-background-size: cover !important;-moz-background-size: cover !important;-o-background-size: cover !important;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-06/freestocks-org-73878_1.jpg?itok=0EN7dxKu', sizingMethod='scale');-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-06/freestocks-org-73878_1.jpg?itok=0EN7dxKu', sizingMethod='scale');}</style>
+<style media="all">.article-teaser-695 {background-color: #FFFFFF !important;background-image: url('https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-06/rawpixel-645295-unsplash.jpg?itok=tM2wHLi0') !important;background-repeat: no-repeat !important;background-attachment: scroll !important;background-position: left top !important;z-index: auto;background-size: cover !important;-webkit-background-size: cover !important;-moz-background-size: cover !important;-o-background-size: cover !important;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-06/rawpixel-645295-unsplash.jpg?itok=tM2wHLi0', sizingMethod='scale');-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-06/rawpixel-645295-unsplash.jpg?itok=tM2wHLi0', sizingMethod='scale');}</style>
+<style media="all">.article-teaser-629 {background-color: #FFFFFF !important;background-image: url('https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-06/crew-22256%20%281%29_1.jpg?itok=FrULHG-U') !important;background-repeat: no-repeat !important;background-attachment: scroll !important;background-position: left top !important;z-index: auto;background-size: cover !important;-webkit-background-size: cover !important;-moz-background-size: cover !important;-o-background-size: cover !important;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-06/crew-22256%20%281%29_1.jpg?itok=FrULHG-U', sizingMethod='scale');-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-06/crew-22256%20%281%29_1.jpg?itok=FrULHG-U', sizingMethod='scale');}</style>
+<style media="all">.article-teaser-721 {background-color: #FFFFFF !important;background-image: url('https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-11/Health%20Insurance%20in%20Thailand%20-%20Thumbnail.jpg?itok=BYQIRCgR') !important;background-repeat: no-repeat !important;background-attachment: scroll !important;background-position: left top !important;z-index: auto;background-size: cover !important;-webkit-background-size: cover !important;-moz-background-size: cover !important;-o-background-size: cover !important;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-11/Health%20Insurance%20in%20Thailand%20-%20Thumbnail.jpg?itok=BYQIRCgR', sizingMethod='scale');-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2018-11/Health%20Insurance%20in%20Thailand%20-%20Thumbnail.jpg?itok=BYQIRCgR', sizingMethod='scale');}</style>
+<style media="all">.article-teaser-733 {background-color: #FFFFFF !important;background-image: url('https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2019-01/Flu%20Vaccination%20small.jpg?itok=J357YEZh') !important;background-repeat: no-repeat !important;background-attachment: scroll !important;background-position: left top !important;z-index: auto;background-size: cover !important;-webkit-background-size: cover !important;-moz-background-size: cover !important;-o-background-size: cover !important;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2019-01/Flu%20Vaccination%20small.jpg?itok=J357YEZh', sizingMethod='scale');-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://fr.april-international.com/sites/france/files/styles/miniature_article/public/2019-01/Flu%20Vaccination%20small.jpg?itok=J357YEZh', sizingMethod='scale');}</style>
+<link rel="shortcut icon" href="/themes/custom/april/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="revision" href="/en/healthcare-expatriates/which-countries-have-best-healthcare-systems" />
+<script src="/sites/france/files/google_tag/google_tag.script.js?prygpu"></script>
+
+    <title>Which countries have the best healthcare systems?</title>
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="/sites/france/files/css/css_ttcP6gVWJrTh_T-bMRi1h3ASzOXtdYSkHOiBB3_fLfs.css?prygpu" media="all" />
+<link rel="stylesheet" href="/sites/france/files/css/css_tNhLswEtAMYLxnekWQcs4X9HngGnBWIfRGV0n830JB4.css?prygpu" media="all" />
+
+    
+<!--[if lte IE 8]>
+<script src="/sites/france/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit&hl=en" async defer></script>
+  </head>
+  <body class="path-node page-node-type-article language-en">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PZXSDR" height="0" width="0" title="Google Tag Manager"></iframe></noscript>
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<header class="Header" role="banner">
+    <div class="Header-top Nav">
+        <div class="region region-header-top">
+    <div id="block-april-branding" class="block block-system block-system-branding-block">
+  
+    
+        <a href="/en" title="Home" rel="home" class="site-logo">
+      <svg class="April-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 444.9 63.7">
+        <style>
+          .st4{fill:#fff}
+        </style>
+        <path d="M198 21.4c0-3.8-2.8-7-6.6-7.5l-.6-.1v33.3c0 2 1.6 3.6 3.6 3.6s3.6-1.6 3.6-3.6V21.4zm-14.7-7.6h-8c-4.9-.1-9.7 1.9-13.1 5.3-3.6 3.4-5.6 8.1-5.5 13v18.4l.6-.1c3.7-.5 6.5-3.7 6.6-7.5V32.2v-.1c0-3 1.2-6 3.3-8.1 2.1-2.2 5-3.4 8.1-3.4h8c1.9-.1 3.3-1.7 3.2-3.6-.1-1.7-1.5-3-3.2-3.2zm48.5 36.1c-.2-1.5-.9-2.9-2-4l-.4.4.4-.4c-1.3-1.3-3.1-2.1-5-2.1h-3.6c-3 0-6-1.2-8.1-3.4-2.2-2.2-3.4-5.1-3.4-8.2v-7.4-7.6c0-2-1.6-3.6-3.6-3.6-1.9 0-3.4 1.5-3.6 3.3V32.1c-.1 4.9 1.9 9.6 5.5 13 3.5 3.5 8.2 5.4 13.1 5.3h10.7v-.5zM105.1 19.6l.4-.4c-7.3-7.2-19-7.2-26.3 0-3.6 3.4-5.6 8.1-5.5 13-.1 4.9 1.9 9.6 5.5 13 3.5 3.5 8.2 5.4 13.1 5.3H111V32.3c.1-4.9-1.9-9.6-5.5-13l-.4.3zm-1.4 24.2H92.3c-3 0-6-1.2-8.1-3.4-2.1-2.1-3.3-5.1-3.3-8.1v-.1c0-3.1 1.1-6 3.3-8.2 2.1-2.2 5-3.5 8.1-3.4h.1c3 0 5.9 1.2 8 3.4 2.2 2.2 3.4 5.1 3.3 8.2v11.6zm43.2-24.1l.4-.4c-7.3-7.2-19-7.2-26.3 0-3.6 3.4-5.6 8.1-5.5 13v31.4l.6-.1c3.7-.5 6.5-3.7 6.6-7.5v-5.6h11.4c4.9.1 9.7-1.9 13.2-5.3 7.2-7 7.4-18.4.4-25.6l-.4-.4-.4.5zm-1.3 12.6c0 3-1.1 6-3.3 8.1-2.1 2.2-5 3.4-8 3.4h-11.5V32.2c0-3 1.2-6 3.3-8.1 1.9-2.1 4.6-3.3 7.5-3.4v.1l.6-.1c3 0 5.9 1.2 8 3.4 2.2 2.1 3.4 5.1 3.4 8.2z" fill="#fff"/>
+        <radialGradient id="SVGID_1_" cx="25.154" cy="37.61" r="36.31" gradientTransform="matrix(1 0 0 -1 .13 62.99)" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#ffc20e"/>
+          <stop offset="1" stop-color="#f58220"/>
+        </radialGradient>
+        <path d="M50.8 50.6c-13.9.1-25.3-11.2-25.3-25.1v-.1h14.4c6 0 10.9 4.9 10.9 10.9v14.3z" fill="url(#SVGID_1_)"/>
+        <radialGradient id="SVGID_2_" cx="-.176" cy="63.06" r="53.93" gradientTransform="matrix(1 0 0 -1 .13 62.99)" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#bfd730"/>
+          <stop offset="1" stop-color="#6d9d31"/>
+        </radialGradient>
+        <path d="M38.1 38c0-21-17-38-38-38v27.3C.2 33.2 5 38 10.9 38h27.2z" fill="url(#SVGID_2_)"/>
+        <radialGradient id="SVGID_3_" cx="25.264" cy="37.64" r="17.96" gradientTransform="matrix(1 0 0 -1 .13 62.99)" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#ffc20e"/>
+          <stop offset="1" stop-color="#6d9d31"/>
+        </radialGradient>
+        <path d="M36 25.4H25.5c0 4.4 1.2 8.8 3.4 12.6h9.3c-.1-4.3-.8-8.6-2.2-12.6z" fill="url(#SVGID_3_)"/>
+        <path class="st4" d="M259.8 29v-3.8h3.8V29h-3.8zm.1 21.4V32.6h3.6v17.9l-3.6-.1zM278.8 50.4V39.6c0-2.8-1.6-4-3.6-4s-3.7 1.2-3.7 4v10.9h-3.6V32.6h3.5v1.8c1.2-1.3 3-2 4.8-2 1.6-.1 3.2.5 4.4 1.6 1.3 1.3 1.9 3.2 1.8 5v11.4h-3.6zM291.9 50.4c-2.6.1-4.8-1.8-4.9-4.4V35.6h-2v-2.8h2v-5.4h3.6v5.4h3.5v2.8h-3.5v9.7c0 1.3.6 2.1 2 2.1h1.5v3.1h-2.2zM300 42.6c0 3.1 1.6 5 4.5 5 1.6.1 3.2-.6 4.3-1.8l2.3 2.2c-1.7 1.9-4.2 2.9-6.7 2.8-4.5 0-8-2.4-8-9.2 0-5.8 3-9.1 7.6-9.1 4.8 0 7.6 3.5 7.6 8.6v1.6H300zm7.6-5c-.6-1.4-2-2.3-3.5-2.2-1.5-.1-3 .8-3.6 2.2-.3.8-.5 1.6-.5 2.4h8c0-.8-.1-1.7-.4-2.4zM324.9 36.8c-.7-.8-1.6-1.2-2.7-1.2-1.9 0-3.6 1.6-3.6 4v10.9H315V32.6h3.5v1.9c1.2-1.4 2.9-2.2 4.8-2.2 1.6-.1 3.2.5 4.3 1.7l-2.7 2.8zM340.1 50.4V39.6c0-2.8-1.6-4-3.6-4s-3.7 1.2-3.7 4v10.9h-3.6V32.6h3.5v1.8c1.2-1.3 3-2 4.8-2 1.6-.1 3.2.5 4.4 1.6 1.3 1.3 1.9 3.2 1.8 5v11.4h-3.6zM357.6 50.4v-1.6c-1.2 1.3-3 2-4.8 1.8-1.8.1-3.5-.4-4.8-1.6-.9-1.1-1.4-2.4-1.4-3.8 0-3 2.1-5.2 6.2-5.2h4.7v-1.3c0-2.3-1.1-3.3-3.9-3.3-1.5-.2-3 .5-3.9 1.7l-2.4-2.2c1.7-2 3.5-2.6 6.4-2.6 4.9 0 7.4 2.1 7.4 6.1v11.9l-3.5.1zm-.1-7.9h-4.2c-2.1 0-3.2 1-3.2 2.6s1 2.5 3.3 2.5c1.2.2 2.4-.2 3.4-1 .6-.7.9-1.7.8-2.6l-.1-1.5zM370.7 50.4c-2.6.1-4.8-1.8-4.9-4.4V35.6h-2v-2.8h2v-5.4h3.6v5.4h3.5v2.8h-3.5v9.7c0 1.3.6 2.1 2 2.1h1.5v3.1h-2.2zM376 29v-3.8h3.8V29H376zm.1 21.4V32.6h3.6v17.9l-3.6-.1zM396.1 48.6c-1.4 1.4-3.4 2.2-5.4 2.1-2 .1-3.9-.7-5.3-2.1-1.7-1.8-2.1-4-2.1-7.1s.4-5.2 2.1-7c1.4-1.4 3.3-2.2 5.3-2.2 2-.1 3.9.7 5.4 2.1 1.7 1.8 2.1 4 2.1 7s-.4 5.4-2.1 7.2zm-2.7-12c-.7-.7-1.7-1-2.6-1-1 0-1.9.3-2.6 1-1.1 1.1-1.2 3-1.2 4.9s.1 3.8 1.2 4.9c.7.7 1.6 1 2.6 1s1.9-.3 2.6-1c1.1-1.1 1.2-3 1.2-4.9s-.2-3.8-1.2-4.9zM412.6 50.4V39.6c0-2.8-1.6-4-3.6-4s-3.7 1.2-3.7 4v10.9h-3.6V32.6h3.5v1.8c1.2-1.3 3-2 4.8-2 1.6-.1 3.2.5 4.4 1.6 1.3 1.3 1.9 3.2 1.8 5v11.4h-3.6zM430.1 50.4v-1.6c-1.2 1.3-3 2-4.8 1.8-1.8.2-3.5-.4-4.8-1.6-.9-1-1.5-2.4-1.4-3.8 0-3 2.1-5.2 6.2-5.2h4.7v-1.3c0-2.3-1.1-3.3-3.9-3.3-1.5-.2-3 .5-3.9 1.7l-2.4-2.2c1.7-2 3.5-2.6 6.4-2.6 4.9 0 7.4 2.1 7.4 6.1v11.9h-3.5zm-.1-7.9h-4.2c-2.1 0-3.2 1-3.2 2.6s1 2.5 3.3 2.5c1.2.2 2.4-.2 3.4-1 .6-.7.9-1.7.8-2.6v-1.5zM442.7 50.4c-3.4 0-4.9-2.3-4.9-4.9V25.3h3.6v20c0 1.4.5 2.1 1.9 2.1h1.6v3.1l-2.2-.1z"/>
+      </svg>
+    </a>
+      </div>
+<div id="block-liensheader" class="block block-block-content block-block-content3181c7e2-4d10-4245-bee1-5a3f1e4e73f1">
+  
+    
+      
+  <div class="field field--name-field-link-contact-us field--type-link field--label-visually_hidden">
+    <div class="field__label visually-hidden">Lien contactez-nous</div>
+              <div class="field__item"><a href="/en/contact-our-different-offices-around-world">Contact us</a></div>
+          </div>
+
+  <div class="field field--name-field-link-my-account field--type-link field--label-visually_hidden">
+    <div class="field__label visually-hidden">Lien mon compte</div>
+              <div class="field__item"><a href="/en/customer-access">My account</a></div>
+          </div>
+
+  </div>
+<div id="block-languageandzoneselectorforaprilinternational-2" class="block block-april-international block-april-language-block">
+  
+    
+      <div class="language_selector item-list"><ul><li class="selected"><a href="/en/healthcare-expatriates/which-countries-have-best-healthcare-systems" hreflang="en">English</a></li><li class="fr"><a href="/fr/sante-des-expatries/quels-sont-les-pays-avec-les-meilleurs-systemes-de-sante" hreflang="fr">Français</a></li><li class="de"><a href="https://de.april-international.com/de" target="_blank">Deutsch</a></li></ul></div>
+  </div>
+<nav role="navigation" aria-labelledby="block-april-main-menu-menu" id="block-april-main-menu" class="block block-menu navigation menu--main">
+                
+        
+<div class="Menu js-State" data-state="inactive">
+  <button class="Menu-burger js-State-btn" type="button">
+    <svg class="icon icon-burger" width="27" height="16" viewport="0 0 27 16">
+      <rect x="0" y="0" rx="4" ry="4" width="27" height="3" fill="currentColor"/>
+      <rect x="0" y="6" rx="4" ry="4" width="27" height="3" fill="currentColor"/>
+      <rect x="0" y="12" rx="4" ry="4" width="27" height="3" fill="currentColor"/>
+    </svg>
+    <span>Menu</span>
+  </button>
+  <div class="Menu-panel">
+    <div class="Menu-header">
+      <button class="Menu-close js-State-btn" type="button">Menu</button>
+    </div>
+
+                                  <ul class="Menu-nav">
+                                                <li class="Menu-navItem">
+                                  <a href="/en" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+                                              </li>
+                                        <li class="icon-profile Menu-navItem">
+                                  <a href="/en/customer-access" data-drupal-link-system-path="node/34">Customer access</a>
+                                              </li>
+                                        <li class="icon-right-arrow navItem-separator Menu-navItem">
+                                  <a href="/en/partners-connect-your-broker-access" data-drupal-link-system-path="node/35">Partner &amp; broker access</a>
+                                              </li>
+                                        <li class="navItem-title Menu-navItem">
+                                  <a href="https://fr.april-international.com/fr" target="_self">INDIVIDUALS</a>
+                                              </li>
+                                        <li class="icon-health Menu-navItem">
+                                  <a href="/en/living-abroad/international-health-insurance" data-drupal-link-system-path="node/18">International health insurance</a>
+                                              </li>
+                                        <li class="icon-book Menu-navItem">
+                                  <a href="/en/studying-abroad/international-student-medical-insurance" data-drupal-link-system-path="node/4">International student medical insurance</a>
+                                              </li>
+                                        <li class="icon-eu-flag Menu-navItem">
+                                  <a href="/en/schengen-visa-coming-france/schengen-travel-insurance" data-drupal-link-system-path="node/26">Schengen travel insurance</a>
+                                              </li>
+                                        <li class="icon-suitcase Menu-navItem">
+                                  <a href="/en/living-abroad/short-term-working-holidays-au-pair-and-international-volunteer-insurance" target="_self" data-drupal-link-system-path="node/25">Working holiday, au pair and international volunteer insurance</a>
+                                              </li>
+                                        <li class="icon-passport Menu-navItem">
+                                  <a href="/en/travel-and-holidays/travel-insurance-0" data-drupal-link-system-path="node/24">Travel insurance</a>
+                                              </li>
+                                        <li class="navItem-title Menu-navItem">
+                                  <a href="https://www.april-international.com" target="_blank">BUSINESSES</a>
+                                              </li>
+                                        <li class="icon-tie navItem-separator Menu-navItem">
+                                  <a href="/en/working-abroad/international-group-health-insurance" target="_self" data-drupal-link-system-path="node/704">International group health insurance</a>
+                                              </li>
+                                        <li class="navItem-title Menu-navItem">
+                                  <a href="https://www.april-international.com" target="_blank">APRIL INTERNATIONAL</a>
+                                              </li>
+                                        <li class="icon-about Menu-navItem">
+                                  <a href="/en/about-us" data-drupal-link-system-path="node/97">About us</a>
+                                              </li>
+                                        <li class="icon-contact navItem-separator Menu-navItem">
+                                  <a href="/en/contact-our-different-offices-around-world" data-drupal-link-system-path="node/33">Contact us</a>
+                                              </li>
+                                        <li class="navItem-title Menu-navItem">
+                                  <a href="https://www.global.april-international.com" target="_blank">ADVICE &amp; INFORMATION</a>
+                                              </li>
+                                        <li class="icon-countrypage Menu-navItem">
+                                  <a href="/en/discover-our-destination-sheets" data-drupal-link-system-path="node/98">Discover our destination sheets</a>
+                                              </li>
+                                        <li class="icon-news Menu-navItem">
+                                  <a href="/en/get-advice-information-you-need" data-drupal-link-system-path="node/10">All our articles</a>
+                                              </li>
+                      </ul>
+          
+
+      </div>
+</div>
+
+  </nav>
+
+  </div>
+
+
+            <div class="Lisa-sticky">
+        <div class="Lisa-stickyGeneric">
+          <p class="Lisa-stickyStatement">Find the health/travel insurance solution to suit your needs</p>
+          <button class="Lisa-stickySearch">Search for an insurance solution</button>
+        </div>
+
+        <p class="Lisa-searchCriterionLabel">My search criteria :</p>
+        <div class="Lisa-stickyResponse">
+          <ul class="Lisa-responseItems">
+          </ul>
+          <button class="Lisa-stickyModify">Change my search settings</button>
+        </div>
+      </div>
+
+    </div>
+    <div class="Header-middle">  <div class="region region-header">
+    <div id="block-aprilheader" class="block block-april-international block-april-header">
+  
+    
+      <div class="Hero" style="background-image: url('https://fr.april-international.com/sites/france/files/styles/hero/public/2019-03/Sant%C3%A9%20expat_0.jpg')">
+  <div class="Hero-overlay">
+    <div class="Hero-inner">
+      <div class="Hero-innerContent">                   <h1 class="Hero-title">Which countries have the best healthcare systems?</h1>
+
+                      <p class="Hero-subtitle"></p>
+                  
+        
+        
+                                                          
+        
+    </div>
+  </div>
+</div>
+
+  </div>
+
+
+  </div>
+</div>
+    <div class="Header-bottom">  <div class="region region-header-bottom">
+    <div id="block-april-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+    
+        <nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ol>
+          <li>
+                  <a href="/en">Home</a>
+              </li>
+          <li>
+                  <a href="/en/get-advice-information-you-need">All the actualities</a>
+              </li>
+          <li>
+                  <a href="/en/healthcare-abroad">Healthcare abroad</a>
+              </li>
+          <li>
+                  <a href="/en/healthcare-abroad/healthcare-expatriates">Healthcare for expatriates</a>
+              </li>
+          <li>
+                  <a href="/en/healthcare-expatriates/which-countries-have-best-healthcare-systems">Which countries have the best healthcare systems?</a>
+              </li>
+        </ol>
+  </nav>
+
+  </div>
+
+  </div>
+</div>
+</header>
+
+
+<main role="main">
+  <a id="main-content" tabindex="-1"></a>
+    <div class="layout-content">
+          <div class="region region-content">
+    <div id="block-april-content" class="block block-system block-system-main-block">
+  
+    
+      
+<article data-history-node-id="451" role="article" about="/en/healthcare-expatriates/which-countries-have-best-healthcare-systems" typeof="schema:Article" class="node node--type-article node--view-mode-full">
+
+  
+      <span property="schema:name" content="Which countries have the best healthcare systems?" class="rdf-meta hidden"></span>
+
+
+  
+  <div class="node__content">
+    
+<div  class="article-intro">
+      
+  <div class="field field--name-field-introduction-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image d&#039;introduction</div>
+              <div class="field__item">  <img src="/sites/france/files/styles/intro_image/public/2018-04/quels-sont-les-pays-avec-les-meilleurs-systemes-de-sante-miniature_0.jpg?itok=VfNoedho" width="380" height="250" alt="Which countries have the best healthcare systems?" typeof="foaf:Image" class="image-style-intro-image" />
+
+
+</div>
+          </div>
+
+<div >
+      
+  <div class="field field--name-field-publication-date field--type-datetime field--label-visually_hidden">
+    <div class="field__label visually-hidden">Date de publication</div>
+              <div class="field__item"><time datetime="2019-03-12T12:00:00Z" class="datetime">12 March 2019</time>
+</div>
+          </div>
+
+  <div class="clearfix text-formatted field field--name-field-introduction field--type-text-long field--label-visually_hidden">
+    <div class="field__label visually-hidden">Texte d&#039;introduction</div>
+              <div class="field__item"><p>Do you know if your (future) country of expatriation has an efficient healthcare system? According to the WHO, average global life expectancy is rising steadily, which suggests that the quality of healthcare also tends to increase. However, the rankings of health systems in the world show that only high-income countries are better off. Also, in these nations, healthcare costs often are quite high. Find out which countries have the best health systems.</p></div>
+          </div>
+
+  </div>
+
+  </div>
+
+  <div class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-visually_hidden">
+    <div class="field__label visually-hidden">Corps de l&#039;article</div>
+              <div class="field__item"><h2 class="style1">Europe's best healthcare systems</h2>
+
+<p>Every year, the Health Consumer Powerhouse publishes a study about healthcare systems across Europe: <a href="https://healthpowerhouse.com/media/EHCI-2018/EHCI-2018-report.pdf" target="_blank">the Euro Health Consumer Index (EHCI)</a>. This report ranks 35 countries according to the quality of their healthcare systems, based on 48 indicators.</p>
+
+<ol><li dir="ltr">
+	<p dir="ltr">Switzerland</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Netherlands</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Norway</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Denmark</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Belgium</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Finland</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Luxemburg</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Sweden</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Austria</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Iceland</p>
+	</li>
+</ol><h2 class="style1">2 rankings of world's best healthcare systems</h2>
+
+<p>In its study called <a href="https://www.commonwealthfund.org/publications/fund-reports/2017/jul/mirror-mirror-2017-international-comparison-reflects-flaws-and" target="_blank">Mirror, Mirror 2017- International Comparison Reflects Flaws and Opportunities for Better U.S. Health Care,</a> the Commonwealth Fund assessed the performance of healthcare systems in 11 countries based on 72 indicators. The idea was to find out how efficient healthcare in the United States is. The survey ranked US healthcare clear last…</p>
+
+<p dir="ltr"><strong class="style1">1.</strong> <a href="/en/united-kingdom">United Kingdom</a></p>
+
+<p dir="ltr"><strong class="style1">2</strong>. Australia</p>
+
+<p dir="ltr"><strong class="style1">3.</strong> Netherlands</p>
+
+<p dir="ltr"><strong class="style1">4.</strong> New Zealand and Norway</p>
+
+<p dir="ltr"><strong class="style1">6.</strong> Switzerland and Sweden</p>
+
+<p dir="ltr"><strong class="style1">8. </strong>Germany</p>
+
+<p dir="ltr"><strong class="style1">9.</strong> Canada</p>
+
+<p dir="ltr"><strong class="style1">10.</strong> France</p>
+
+<p dir="ltr"><strong class="style1">11.</strong> USA</p>
+
+<p>The Bloomberg annual study, <a href="https://www.bloomberg.com/news/articles/2018-09-19/u-s-near-bottom-of-health-index-hong-kong-and-singapore-at-top" target="_blank">Most Efficient Health Care 2018,</a> ranked no less than 56 countries. Asia is the big winner of these rankings.</p>
+
+<ol><li dir="ltr">
+	<p dir="ltr">Hong Kong</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Singapore</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Spain</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Italy</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">S. Korea</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Israel</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Japan</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Australia</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">Taiwan</p>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr">United Arab Emirates</p>
+	</li>
+</ol><h2 class="style1">Ranking world's healthcare systems: what criteria?</h2>
+
+<p dir="ltr">To succeed in ranking healthcare systems around the world, surveys use a more or less significant amount of indicators.</p>
+
+<ul dir="ltr"><li>The EHCI study ranks healthcare systems based on such criteria as patient rights, waiting times for treatment, services provided to patients and prevention.</li>
+	<li>The Commonwealth Fund classifies indicators into 5 groups: quality, access, efficiency, equity and healthy lives. Thus, the survey includes indicators like safety, waiting times, administrative organisation and equal access to healthcare.</li>
+	<li>Bloomberg uses life expectancy, healthcare cost as percentage of GDP and healthcare cost per capita to rank world's healthcare systems.</li>
+</ul></div>
+          </div>
+
+<div  class="Layout--gray">
+      
+  <div class="field field--name-field-pushed-articles-title field--type-string field--label-visually_hidden">
+    <div class="field__label visually-hidden">Titre articles poussés</div>
+              <div class="field__item">Know more about : Healthcare for expatriates</div>
+          </div>
+<div class="pushed-articles-wrapper"><div>
+      <h3></h3>
+    <div class="Slider js-Slider">
+      <ul class="Slider-slides slides clearfix">
+          <!-- Custom template form '/modules/custom/april_misc/templates/pushed-article-template.html.twig' -->
+            <li class="Slider-slide slide">
+        <a href="/en/healthcare-expatriates/hong-kong-s-winter-2019-flu-season-reinforces-importance-vaccinations"
+                      style="background-image: url('https://fr.april-international.com/sites/france/files/styles/intro_image/public/2019-01/Flu%20Vaccination%20small.jpg?itok=l-pM-Sad')"
+                  >
+          <div class="Slider-colorBox"></div>
+          <span>See more</span>
+        </a>
+        
+<article data-history-node-id="733" role="article" about="/en/healthcare-expatriates/hong-kong-s-winter-2019-flu-season-reinforces-importance-vaccinations" typeof="schema:Article" class="node node--type-article node--view-mode-teaser">
+
+  
+      <h2>
+      <a href="/en/healthcare-expatriates/hong-kong-s-winter-2019-flu-season-reinforces-importance-vaccinations" rel="bookmark"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Hong Kong’s winter 2019 flu season reinforces the importance of vaccinations</span>
+</a>
+    </h2>
+      <span property="schema:name" content="Hong Kong’s winter 2019 flu season reinforces the importance of vaccinations" class="rdf-meta hidden"></span>
+
+
+  
+  <div class="node__content">
+    
+  <div class="field field--name-field-category field--type-entity-reference field--label-visually_hidden">
+    <div class="field__label visually-hidden">Catégorie</div>
+              <div class="field__item"><a href="/en/healthcare-abroad/healthcare-expatriates" hreflang="en">Healthcare for expatriates</a></div>
+          </div>
+
+  <div class="clearfix text-formatted field field--name-field-introduction field--type-text-long field--label-visually_hidden">
+    <div class="field__label visually-hidden">Texte d&#039;introduction</div>
+              <div class="field__item"><p>Hong Kong’s winter flu season started early with 6 outbreaks in the first week of January 2019, however that number skyrocketed to over 250 by January 16th.</div>
+          </div>
+
+  <div class="field field--name-field-introduction-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image d&#039;introduction</div>
+              <div class="field__item"></div>
+          </div>
+
+  </div>
+
+</article>
+
+      </li>
+                <li class="Slider-slide slide">
+        <a href="/en/healthcare-expatriates/health-insurance-thailand"
+                      style="background-image: url('https://fr.april-international.com/sites/france/files/styles/intro_image/public/2018-11/Health%20Insurance%20in%20Thailand%20-%20Thumbnail.jpg?itok=T-_Te_NH')"
+                  >
+          <div class="Slider-colorBox"></div>
+          <span>See more</span>
+        </a>
+        
+<article data-history-node-id="721" role="article" about="/en/healthcare-expatriates/health-insurance-thailand" typeof="schema:Article" class="node node--type-article node--view-mode-teaser">
+
+  
+      <h2>
+      <a href="/en/healthcare-expatriates/health-insurance-thailand" rel="bookmark"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Health Insurance in Thailand</span>
+</a>
+    </h2>
+      <span property="schema:name" content="Health Insurance in Thailand" class="rdf-meta hidden"></span>
+
+
+  
+  <div class="node__content">
+    
+  <div class="field field--name-field-category field--type-entity-reference field--label-visually_hidden">
+    <div class="field__label visually-hidden">Catégorie</div>
+              <div class="field__item"><a href="/en/healthcare-abroad/healthcare-expatriates" hreflang="en">Healthcare for expatriates</a></div>
+          </div>
+
+  <div class="clearfix text-formatted field field--name-field-introduction field--type-text-long field--label-visually_hidden">
+    <div class="field__label visually-hidden">Texte d&#039;introduction</div>
+              <div class="field__item"><p>When considering your health insurance options in Thailand, the best choice will often depend on your personal circumstances: whether you’re living, working or just travelling through Thailand, and whether o</div>
+          </div>
+
+  <div class="field field--name-field-introduction-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image d&#039;introduction</div>
+              <div class="field__item"></div>
+          </div>
+
+  </div>
+
+</article>
+
+      </li>
+                <li class="Slider-slide slide">
+        <a href="/en/healthcare-expatriates/how-stay-healthy-hong-kong-busy-schedule"
+                      style="background-image: url('https://fr.april-international.com/sites/france/files/styles/intro_image/public/2018-06/crew-22256%20%281%29_1.jpg?itok=c-hwk53x')"
+                  >
+          <div class="Slider-colorBox"></div>
+          <span>See more</span>
+        </a>
+        
+<article data-history-node-id="629" role="article" about="/en/healthcare-expatriates/how-stay-healthy-hong-kong-busy-schedule" typeof="schema:Article" class="node node--type-article node--view-mode-teaser">
+
+  
+      <h2>
+      <a href="/en/healthcare-expatriates/how-stay-healthy-hong-kong-busy-schedule" rel="bookmark"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">How to stay healthy in Hong Kong with a busy schedule</span>
+</a>
+    </h2>
+      <span property="schema:name" content="How to stay healthy in Hong Kong with a busy schedule" class="rdf-meta hidden"></span>
+
+
+  
+  <div class="node__content">
+    
+  <div class="field field--name-field-category field--type-entity-reference field--label-visually_hidden">
+    <div class="field__label visually-hidden">Catégorie</div>
+              <div class="field__item"><a href="/en/healthcare-abroad/healthcare-expatriates" hreflang="en">Healthcare for expatriates</a></div>
+          </div>
+
+  <div class="clearfix text-formatted field field--name-field-introduction field--type-text-long field--label-visually_hidden">
+    <div class="field__label visually-hidden">Texte d&#039;introduction</div>
+              <div class="field__item"><p>Hong Kong, one of the most densely populated cities in the world, is a city that never sleeps.</div>
+          </div>
+
+  <div class="field field--name-field-introduction-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image d&#039;introduction</div>
+              <div class="field__item"></div>
+          </div>
+
+  </div>
+
+</article>
+
+      </li>
+                <li class="Slider-slide slide">
+        <a href="/en/healthcare-expatriates/six-tips-save-money-your-healthcare-expenses-hong-kong"
+                      style="background-image: url('https://fr.april-international.com/sites/france/files/styles/intro_image/public/2018-06/rawpixel-645295-unsplash.jpg?itok=F73F2aKB')"
+                  >
+          <div class="Slider-colorBox"></div>
+          <span>See more</span>
+        </a>
+        
+<article data-history-node-id="695" role="article" about="/en/healthcare-expatriates/six-tips-save-money-your-healthcare-expenses-hong-kong" typeof="schema:Article" class="node node--type-article node--view-mode-teaser">
+
+  
+      <h2>
+      <a href="/en/healthcare-expatriates/six-tips-save-money-your-healthcare-expenses-hong-kong" rel="bookmark"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Six Tips to Save Money on your Healthcare Expenses in Hong Kong</span>
+</a>
+    </h2>
+      <span property="schema:name" content="Six Tips to Save Money on your Healthcare Expenses in Hong Kong" class="rdf-meta hidden"></span>
+
+
+  
+  <div class="node__content">
+    
+  <div class="field field--name-field-category field--type-entity-reference field--label-visually_hidden">
+    <div class="field__label visually-hidden">Catégorie</div>
+              <div class="field__item"><a href="/en/healthcare-abroad/healthcare-expatriates" hreflang="en">Healthcare for expatriates</a></div>
+          </div>
+
+  <div class="clearfix text-formatted field field--name-field-introduction field--type-text-long field--label-visually_hidden">
+    <div class="field__label visually-hidden">Texte d&#039;introduction</div>
+              <div class="field__item"><p>In 2017, Hong Kong ranked as the country with the most efficient healthcare system in the world.</div>
+          </div>
+
+  <div class="field field--name-field-introduction-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image d&#039;introduction</div>
+              <div class="field__item"></div>
+          </div>
+
+  </div>
+
+</article>
+
+      </li>
+                <li class="Slider-slide slide">
+        <a href="/en/healthcare-expatriates/five-things-you-should-know-about-maternity-hong-kong"
+                      style="background-image: url('https://fr.april-international.com/sites/france/files/styles/intro_image/public/2018-06/freestocks-org-73878_1.jpg?itok=Tsisooci')"
+                  >
+          <div class="Slider-colorBox"></div>
+          <span>See more</span>
+        </a>
+        
+<article data-history-node-id="617" role="article" about="/en/healthcare-expatriates/five-things-you-should-know-about-maternity-hong-kong" typeof="schema:Article" class="node node--type-article node--view-mode-teaser">
+
+  
+      <h2>
+      <a href="/en/healthcare-expatriates/five-things-you-should-know-about-maternity-hong-kong" rel="bookmark"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Five things you should know about maternity in Hong Kong</span>
+</a>
+    </h2>
+      <span property="schema:name" content="Five things you should know about maternity in Hong Kong" class="rdf-meta hidden"></span>
+
+
+  
+  <div class="node__content">
+    
+  <div class="field field--name-field-category field--type-entity-reference field--label-visually_hidden">
+    <div class="field__label visually-hidden">Catégorie</div>
+              <div class="field__item"><a href="/en/healthcare-abroad/healthcare-expatriates" hreflang="en">Healthcare for expatriates</a></div>
+          </div>
+
+  <div class="clearfix text-formatted field field--name-field-introduction field--type-text-long field--label-visually_hidden">
+    <div class="field__label visually-hidden">Texte d&#039;introduction</div>
+              <div class="field__item"><p>Being pregnant in a foreign country is not always a smooth experience.</div>
+          </div>
+
+  <div class="field field--name-field-introduction-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image d&#039;introduction</div>
+              <div class="field__item"></div>
+          </div>
+
+  </div>
+
+</article>
+
+      </li>
+                <li class="Slider-slide slide">
+        <a href="/en/healthcare-expatriates/maternity-hong-kong-public-vs-private-hospitals"
+                      style="background-image: url('https://fr.april-international.com/sites/france/files/styles/intro_image/public/2018-06/adorable-baby-baby-feet-266011.jpg?itok=4Qq6Yymj')"
+                  >
+          <div class="Slider-colorBox"></div>
+          <span>See more</span>
+        </a>
+        
+<article data-history-node-id="630" role="article" about="/en/healthcare-expatriates/maternity-hong-kong-public-vs-private-hospitals" typeof="schema:Article" class="node node--type-article node--view-mode-teaser">
+
+  
+      <h2>
+      <a href="/en/healthcare-expatriates/maternity-hong-kong-public-vs-private-hospitals" rel="bookmark"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Maternity in Hong Kong: Public VS Private Hospitals</span>
+</a>
+    </h2>
+      <span property="schema:name" content="Maternity in Hong Kong: Public VS Private Hospitals" class="rdf-meta hidden"></span>
+
+
+  
+  <div class="node__content">
+    
+  <div class="field field--name-field-category field--type-entity-reference field--label-visually_hidden">
+    <div class="field__label visually-hidden">Catégorie</div>
+              <div class="field__item"><a href="/en/healthcare-abroad/healthcare-expatriates" hreflang="en">Healthcare for expatriates</a></div>
+          </div>
+
+  <div class="clearfix text-formatted field field--name-field-introduction field--type-text-long field--label-visually_hidden">
+    <div class="field__label visually-hidden">Texte d&#039;introduction</div>
+              <div class="field__item"><p>As a soon-to-be mother, there is a lot to consider before giving birth in Hong Kong.</div>
+          </div>
+
+  <div class="field field--name-field-introduction-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image d&#039;introduction</div>
+              <div class="field__item"></div>
+          </div>
+
+  </div>
+
+</article>
+
+      </li>
+                <li class="Slider-slide slide">
+        <a href="/en/healthcare-expatriates/traditional-chinese-medicine-hong-kong"
+                      style="background-image: url('https://fr.april-international.com/sites/france/files/styles/intro_image/public/2018-06/massage-1929064.jpg?itok=KerGhW-l')"
+                  >
+          <div class="Slider-colorBox"></div>
+          <span>See more</span>
+        </a>
+        
+<article data-history-node-id="623" role="article" about="/en/healthcare-expatriates/traditional-chinese-medicine-hong-kong" typeof="schema:Article" class="node node--type-article node--view-mode-teaser">
+
+  
+      <h2>
+      <a href="/en/healthcare-expatriates/traditional-chinese-medicine-hong-kong" rel="bookmark"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Traditional Chinese Medicine in Hong Kong</span>
+</a>
+    </h2>
+      <span property="schema:name" content="Traditional Chinese Medicine in Hong Kong" class="rdf-meta hidden"></span>
+
+
+  
+  <div class="node__content">
+    
+  <div class="field field--name-field-category field--type-entity-reference field--label-visually_hidden">
+    <div class="field__label visually-hidden">Catégorie</div>
+              <div class="field__item"><a href="/en/healthcare-abroad/healthcare-expatriates" hreflang="en">Healthcare for expatriates</a></div>
+          </div>
+
+  <div class="clearfix text-formatted field field--name-field-introduction field--type-text-long field--label-visually_hidden">
+    <div class="field__label visually-hidden">Texte d&#039;introduction</div>
+              <div class="field__item"><p>In a city like Hong Kong where the ancient and the modern co-exist every day, it comes as no surprise that Traditional Chinese Medicine is deeply rooted into the local culture.</div>
+          </div>
+
+  <div class="field field--name-field-introduction-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image d&#039;introduction</div>
+              <div class="field__item"></div>
+          </div>
+
+  </div>
+
+</article>
+
+      </li>
+                <li class="Slider-slide slide">
+        <a href="/en/healthcare-expatriates/keep-breathing-air-pollution-hong-kong-getting-better"
+                      style="background-image: url('https://fr.april-international.com/sites/france/files/styles/intro_image/public/2018-05/facemask.jpg?itok=dajR8hgM')"
+                  >
+          <div class="Slider-colorBox"></div>
+          <span>See more</span>
+        </a>
+        
+<article data-history-node-id="682" role="article" about="/en/healthcare-expatriates/keep-breathing-air-pollution-hong-kong-getting-better" typeof="schema:Article" class="node node--type-article node--view-mode-teaser">
+
+  
+      <h2>
+      <a href="/en/healthcare-expatriates/keep-breathing-air-pollution-hong-kong-getting-better" rel="bookmark"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Keep breathing: is air pollution in Hong Kong getting better?</span>
+</a>
+    </h2>
+      <span property="schema:name" content="Keep breathing: is air pollution in Hong Kong getting better?" class="rdf-meta hidden"></span>
+
+
+  
+  <div class="node__content">
+    
+  <div class="field field--name-field-category field--type-entity-reference field--label-visually_hidden">
+    <div class="field__label visually-hidden">Catégorie</div>
+              <div class="field__item"><a href="/en/healthcare-abroad/healthcare-expatriates" hreflang="en">Healthcare for expatriates</a></div>
+          </div>
+
+  <div class="clearfix text-formatted field field--name-field-introduction field--type-text-long field--label-visually_hidden">
+    <div class="field__label visually-hidden">Texte d&#039;introduction</div>
+              <div class="field__item"><p>The focus for international Earth Day this month was on reducing the amount of plastic pollution in the world.</div>
+          </div>
+
+  <div class="field field--name-field-introduction-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image d&#039;introduction</div>
+              <div class="field__item"></div>
+          </div>
+
+  </div>
+
+</article>
+
+      </li>
+                <li class="Slider-slide slide">
+        <a href="/en/healthcare-expatriates/health-system-united-kingdom"
+                      style="background-image: url('https://fr.april-international.com/sites/france/files/styles/intro_image/public/2018-04/le-systeme-de-sante-au-royaume-uni-visuel-miniature_0.jpg?itok=rEQ0253D')"
+                  >
+          <div class="Slider-colorBox"></div>
+          <span>See more</span>
+        </a>
+        
+<article data-history-node-id="414" role="article" about="/en/healthcare-expatriates/health-system-united-kingdom" typeof="schema:Article" class="node node--type-article node--view-mode-teaser">
+
+  
+      <h2>
+      <a href="/en/healthcare-expatriates/health-system-united-kingdom" rel="bookmark"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">The health system in the United Kingdom</span>
+</a>
+    </h2>
+      <span property="schema:name" content="The health system in the United Kingdom" class="rdf-meta hidden"></span>
+
+
+  
+  <div class="node__content">
+    
+  <div class="field field--name-field-category field--type-entity-reference field--label-visually_hidden">
+    <div class="field__label visually-hidden">Catégorie</div>
+              <div class="field__item"><a href="/en/healthcare-abroad/healthcare-expatriates" hreflang="en">Healthcare for expatriates</a></div>
+          </div>
+
+  <div class="clearfix text-formatted field field--name-field-introduction field--type-text-long field--label-visually_hidden">
+    <div class="field__label visually-hidden">Texte d&#039;introduction</div>
+              <div class="field__item"><p>Are you intending to get a job London, settle in Bristol or study in Manchester? To get ready to live in Great Britain, learn about the health care system in the United Kingdom.</div>
+          </div>
+
+  <div class="field field--name-field-introduction-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image d&#039;introduction</div>
+              <div class="field__item"></div>
+          </div>
+
+  </div>
+
+</article>
+
+      </li>
+              <!-- End of custom template -->
+      </ul>
+
+            <div class="Slider-nav">
+      <button class="Slider-prev js-Slider-prev" type="button">X</button>
+      <button class="Slider-next js-Slider-next" type="button">X</button>
+    </div>
+  
+      <ul class="Slider-dots js-Slider-nav">
+              <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+
+    </div>
+
+</main>
+
+<footer role="contentinfo">
+              <div class="region region-footer">
+    <div id="block-languageandzoneselectorforaprilinternational" class="block block-april-international block-april-language-block">
+  
+    
+      <div class="Site-logo"></div>
+<div class="Zone-display">
+  Zone: France
+</div>
+
+<div class="Country-selector">
+  <input type="text" name="CountrySelector" value="" placeholder="Change country"/>
+</div>
+
+
+<script type="text/javascript">
+  var country_links = {
+    "Afghanistan": "https://global.april-international.com/en",
+    "Albania": "https://global.april-international.com/en",
+    "Algeria": "https://global.april-international.com/en",
+    "American Samoa": "https://global.april-international.com/en",
+    "Andorra": "https://global.april-international.com/en",
+    "Angola": "https://global.april-international.com/en",
+    "Anguilla": "https://global.april-international.com/en",
+    "Antarctica": "https://global.april-international.com/en",
+    "Antigua & Barbuda": "https://global.april-international.com/en",
+    "Argentina": "https://global.april-international.com/en",
+    "Armenia": "https://global.april-international.com/en",
+    "Aruba": "https://global.april-international.com/en",
+    "Ascension Island": "https://global.april-international.com/en",
+    "Australia": "https://hk.april-international.com/en",
+    "Austria": "https://global.april-international.com/en",
+    "Azerbaijan": "https://global.april-international.com/en",
+    "Bahamas": "https://global.april-international.com/en",
+    "Bahrain": "https://global.april-international.com/en",
+    "Bangladesh": "https://hk.april-international.com/en",
+    "Barbados": "https://global.april-international.com/en",
+    "Belarus": "https://global.april-international.com/en",
+    "Belgium": "https://global.april-international.com/en",
+    "Belize": "https://global.april-international.com/en",
+    "Benin": "https://global.april-international.com/en",
+    "Bermuda": "https://global.april-international.com/en",
+    "Bhutan": "https://hk.april-international.com/en",
+    "Bolivia": "https://global.april-international.com/en",
+    "Bosnia & Herzegovina": "https://global.april-international.com/en",
+    "Botswana": "https://global.april-international.com/en",
+    "Brazil": "https://global.april-international.com/en",
+    "British Indian Ocean Territory": "https://hk.april-international.com/en",
+    "British Virgin Islands": "https://global.april-international.com/en",
+    "Brunei": "https://hk.april-international.com/en",
+    "Bulgaria": "https://global.april-international.com/en",
+    "Burkina Faso": "https://global.april-international.com/en",
+    "Burundi": "https://global.april-international.com/en",
+    "Cambodia": "https://hk.april-international.com/en",
+    "Cameroon": "https://global.april-international.com/en",
+    "Canada": "https://global.april-international.com/en",
+    "Canary Islands": "https://global.april-international.com/en",
+    "Cape Verde": "https://global.april-international.com/en",
+    "Caribbean Netherlands": "https://global.april-international.com/en",
+    "Cayman Islands": "https://global.april-international.com/en",
+    "Central African Republic": "https://global.april-international.com/en",
+    "Chad": "https://global.april-international.com/en",
+    "Chile": "https://global.april-international.com/en",
+    "China": "https://hk.april-international.com/en",
+    "Christmas Island": "https://global.april-international.com/en",
+    "Cocos (Keeling) Islands": "https://global.april-international.com/en",
+    "Colombia": "https://global.april-international.com/en",
+    "Comoros": "https://global.april-international.com/en",
+    "Congo - Brazzaville": "https://global.april-international.com/en",
+    "Congo - Kinshasa": "https://global.april-international.com/en",
+    "Cook Islands": "https://global.april-international.com/en",
+    "Costa Rica": "https://global.april-international.com/en",
+    "Croatia": "https://global.april-international.com/en",
+    "Cuba": "https://global.april-international.com/en",
+    "Curaçao": "https://global.april-international.com/en",
+    "Cyprus": "https://global.april-international.com/en",
+    "Czechia": "https://global.april-international.com/en",
+    "Côte d’Ivoire": "https://global.april-international.com/en",
+    "Denmark": "https://global.april-international.com/en",
+    "Djibouti": "https://global.april-international.com/en",
+    "Dominica": "https://global.april-international.com/en",
+    "Dominican Republic": "https://global.april-international.com/en",
+    "Ecuador": "https://global.april-international.com/en",
+    "Egypt": "https://global.april-international.com/en",
+    "El Salvador": "https://global.april-international.com/en",
+    "Equatorial Guinea": "https://global.april-international.com/en",
+    "Eritrea": "https://global.april-international.com/en",
+    "Estonia": "https://global.april-international.com/en",
+    "Ethiopia": "https://global.april-international.com/en",
+    "Falkland Islands": "https://global.april-international.com/en",
+    "Faroe Islands": "https://global.april-international.com/en",
+    "Fiji": "https://hk.april-international.com/en",
+    "Finland": "https://global.april-international.com/en",
+    "France": "https://fr.april-international.com/fr",
+    "French Guiana": "https://global.april-international.com/en",
+    "French Polynesia": "https://hk.april-international.com/en",
+    "French Southern Territories": "https://global.april-international.com/en",
+    "Gabon": "https://global.april-international.com/en",
+    "Gambia": "https://global.april-international.com/en",
+    "Georgia": "https://global.april-international.com/en",
+    "Germany": "https://de.april-international.com/de",
+    "Ghana": "https://global.april-international.com/en",
+    "Gibraltar": "https://global.april-international.com/en",
+    "Greece": "https://global.april-international.com/en",
+    "Greenland": "https://global.april-international.com/en",
+    "Grenada": "https://global.april-international.com/en",
+    "Guadeloupe": "https://global.april-international.com/en",
+    "Guam": "https://global.april-international.com/en",
+    "Guatemala": "https://global.april-international.com/en",
+    "Guernsey": "https://global.april-international.com/en",
+    "Guinea": "https://global.april-international.com/en",
+    "Guinea-Bissau": "https://global.april-international.com/en",
+    "Guyana": "https://global.april-international.com/en",
+    "Haiti": "https://global.april-international.com/en",
+    "Honduras": "https://global.april-international.com/en",
+    "Hong-Kong": "https://hk.april-international.com/en",
+    "Hungary": "https://global.april-international.com/en",
+    "Iceland": "https://global.april-international.com/en",
+    "India": "https://hk.april-international.com/en",
+    "Indonesia": "https://hk.april-international.com/en",
+    "Iran": "https://global.april-international.com/en",
+    "Iraq": "https://global.april-international.com/en",
+    "Ireland": "https://global.april-international.com/en",
+    "Isle of Man": "https://global.april-international.com/en",
+    "Israel": "https://global.april-international.com/en",
+    "Italy": "https://global.april-international.com/en",
+    "Jamaica": "https://global.april-international.com/en",
+    "Japan": "https://hk.april-international.com/en",
+    "Jersey": "https://global.april-international.com/en",
+    "Jordan": "https://global.april-international.com/en",
+    "Kazakhstan": "https://global.april-international.com/en",
+    "Kenya": "https://global.april-international.com/en",
+    "Kiribati": "https://global.april-international.com/en",
+    "Kuwait": "https://global.april-international.com/en",
+    "Kyrgyzstan": "https://global.april-international.com/en",
+    "Laos": "https://hk.april-international.com/en",
+    "Latvia": "https://global.april-international.com/en",
+    "Lebanon": "https://global.april-international.com/en",
+    "Lesotho": "https://global.april-international.com/en",
+    "Liberia": "https://global.april-international.com/en",
+    "Libya": "https://global.april-international.com/en",
+    "Liechtenstein": "https://global.april-international.com/en",
+    "Lithuania": "https://global.april-international.com/en",
+    "Luxembourg": "https://global.april-international.com/en",
+    "Macau SAR China": "https://hk.april-international.com/en",
+    "Macedonia": "https://global.april-international.com/en",
+    "Madagascar": "https://global.april-international.com/en",
+    "Malawi": "https://global.april-international.com/en",
+    "Malaysia": "https://hk.april-international.com/en",
+    "Maldives": "https://global.april-international.com/en",
+    "Mali": "https://global.april-international.com/en",
+    "Malta": "https://global.april-international.com/en",
+    "Marshall Islands": "https://global.april-international.com/en",
+    "Martinique": "https://global.april-international.com/en",
+    "Mauritania": "https://global.april-international.com/en",
+    "Mauritius": "https://global.april-international.com/en",
+    "Mayotte": "https://global.april-international.com/en",
+    "Mexico": "https://global.april-international.com/en",
+    "Micronesia": "https://hk.april-international.com/en",
+    "Moldova": "https://global.april-international.com/en",
+    "Monaco": "https://global.april-international.com/en",
+    "Mongolia": "https://global.april-international.com/en",
+    "Montenegro": "https://global.april-international.com/en",
+    "Montserrat": "https://global.april-international.com/en",
+    "Morocco": "https://global.april-international.com/en",
+    "Mozambique": "https://global.april-international.com/en",
+    "Myanmar (Burma)": "https://hk.april-international.com/en",
+    "Namibia": "https://global.april-international.com/en",
+    "Nauru": "https://global.april-international.com/en",
+    "Nepal": "https://hk.april-international.com/en",
+    "Netherlands": "https://global.april-international.com/en",
+    "New Caledonia": "https://hk.april-international.com/en",
+    "New Zealand": "https://hk.april-international.com/en",
+    "Nicaragua": "https://global.april-international.com/en",
+    "Niger": "https://global.april-international.com/en",
+    "Nigeria": "https://global.april-international.com/en",
+    "Niue": "https://global.april-international.com/en",
+    "Norfolk Island": "https://global.april-international.com/en",
+    "North Korea": "https://hk.april-international.com/en",
+    "Northern Mariana Islands": "https://global.april-international.com/en",
+    "Norway": "https://global.april-international.com/en",
+    "Oman": "https://global.april-international.com/en",
+    "Pakistan": "https://global.april-international.com/en",
+    "Palau": "https://global.april-international.com/en",
+    "Palestinian Territories": "https://global.april-international.com/en",
+    "Panama": "https://global.april-international.com/en",
+    "Papua New Guinea": "https://global.april-international.com/en",
+    "Paraguay": "https://global.april-international.com/en",
+    "Peru": "https://global.april-international.com/en",
+    "Philippines": "https://global.april-international.com/en",
+    "Pitcairn Islands": "https://global.april-international.com/en",
+    "Poland": "https://global.april-international.com/en",
+    "Portugal": "https://global.april-international.com/en",
+    "Pseudo-Accents": "https://global.april-international.com/en",
+    "Pseudo-Bidi": "https://global.april-international.com/en",
+    "Puerto Rico": "https://global.april-international.com/en",
+    "Qatar": "https://global.april-international.com/en",
+    "Romania": "https://global.april-international.com/en",
+    "Russia": "https://global.april-international.com/en",
+    "Rwanda": "https://global.april-international.com/en",
+    "Réunion": "https://global.april-international.com/en",
+    "Samoa": "https://global.april-international.com/en",
+    "San Marino": "https://global.april-international.com/en",
+    "Saudi Arabia": "https://global.april-international.com/en",
+    "Senegal": "https://global.april-international.com/en",
+    "Serbia": "https://global.april-international.com/en",
+    "Seychelles": "https://global.april-international.com/en",
+    "Sierra Leone": "https://global.april-international.com/en",
+    "Singapore": "https://sg.april-international.com/en",
+    "Sint Maarten": "https://global.april-international.com/en",
+    "Slovakia": "https://global.april-international.com/en",
+    "Slovenia": "https://global.april-international.com/en",
+    "Solomon Islands": "https://global.april-international.com/en",
+    "Somalia": "https://global.april-international.com/en",
+    "South Africa": "https://global.april-international.com/en",
+    "South Georgia & South Sandwich Islands": "https://global.april-international.com/en",
+    "South Korea": "https://hk.april-international.com/en",
+    "South Sudan": "https://global.april-international.com/en",
+    "Spain": "https://global.april-international.com/en",
+    "Sri Lanka": "https://hk.april-international.com/en",
+    "St. Barthélemy": "https://global.april-international.com/en",
+    "St. Helena": "https://global.april-international.com/en",
+    "St. Kitts & Nevis": "https://global.april-international.com/en",
+    "St. Lucia": "https://global.april-international.com/en",
+    "St. Martin": "https://global.april-international.com/en",
+    "St. Pierre & Miquelon": "https://global.april-international.com/en",
+    "St. Vincent & Grenadines": "https://global.april-international.com/en",
+    "Sudan": "https://global.april-international.com/en",
+    "Suriname": "https://global.april-international.com/en",
+    "Svalbard & Jan Mayen": "https://global.april-international.com/en",
+    "Swaziland": "https://global.april-international.com/en",
+    "Sweden": "https://global.april-international.com/en",
+    "Switzerland": "https://ch.april-international.com/en",
+    "Syria": "https://global.april-international.com/en",
+    "São Tomé & Príncipe": "https://global.april-international.com/en",
+    "Taiwan": "https://hk.april-international.com/en",
+    "Tajikistan": "https://global.april-international.com/en",
+    "Tanzania": "https://global.april-international.com/en",
+    "Thailand": "https://th.april-international.com/en",
+    "Timor-Leste": "https://hk.april-international.com/en",
+    "Togo": "https://global.april-international.com/en",
+    "Tokelau": "https://global.april-international.com/en",
+    "Tonga": "https://global.april-international.com/en",
+    "Trinidad & Tobago": "https://global.april-international.com/en",
+    "Tristan da Cunha": "https://global.april-international.com/en",
+    "Tunisia": "https://global.april-international.com/en",
+    "Turkey": "https://global.april-international.com/en",
+    "Turkmenistan": "https://global.april-international.com/en",
+    "Turks & Caicos Islands": "https://global.april-international.com/en",
+    "Tuvalu": "https://global.april-international.com/en",
+    "U.S. Outlying Islands": "https://global.april-international.com/en",
+    "U.S. Virgin Islands": "https://global.april-international.com/en",
+    "Uganda": "https://global.april-international.com/en",
+    "Ukraine": "https://global.april-international.com/en",
+    "United Arab Emirates": "https://global.april-international.com/en",
+    "United Kingdom": "https://uk.april-international.com/en",
+    "United States": "https://us.april-international.com/en",
+    "Uruguay": "https://global.april-international.com/en",
+    "Uzbekistan": "https://global.april-international.com/en",
+    "Vanuatu": "https://global.april-international.com/en",
+    "Vatican City": "https://global.april-international.com/en",
+    "Venezuela": "https://global.april-international.com/en",
+    "Vietnam": "https://vn.april-international.com/en",
+    "Wallis & Futuna": "https://global.april-international.com/en",
+    "Western Sahara": "https://global.april-international.com/en",
+    "Yemen": "https://global.april-international.com/en",
+    "Zambia": "https://global.april-international.com/en",
+    "Zimbabwe": "https://global.april-international.com/en",
+    "Åland Islands": "https://global.april-international.com/en"
+};
+  var countries_autocomplete = [
+    "Afghanistan",
+    "Albania",
+    "Algeria",
+    "American Samoa",
+    "Andorra",
+    "Angola",
+    "Anguilla",
+    "Antarctica",
+    "Antigua & Barbuda",
+    "Argentina",
+    "Armenia",
+    "Aruba",
+    "Ascension Island",
+    "Australia",
+    "Austria",
+    "Azerbaijan",
+    "Bahamas",
+    "Bahrain",
+    "Bangladesh",
+    "Barbados",
+    "Belarus",
+    "Belgium",
+    "Belize",
+    "Benin",
+    "Bermuda",
+    "Bhutan",
+    "Bolivia",
+    "Bosnia & Herzegovina",
+    "Botswana",
+    "Brazil",
+    "British Indian Ocean Territory",
+    "British Virgin Islands",
+    "Brunei",
+    "Bulgaria",
+    "Burkina Faso",
+    "Burundi",
+    "Cambodia",
+    "Cameroon",
+    "Canada",
+    "Canary Islands",
+    "Cape Verde",
+    "Caribbean Netherlands",
+    "Cayman Islands",
+    "Central African Republic",
+    "Chad",
+    "Chile",
+    "China",
+    "Christmas Island",
+    "Cocos (Keeling) Islands",
+    "Colombia",
+    "Comoros",
+    "Congo - Brazzaville",
+    "Congo - Kinshasa",
+    "Cook Islands",
+    "Costa Rica",
+    "Croatia",
+    "Cuba",
+    "Curaçao",
+    "Cyprus",
+    "Czechia",
+    "Côte d’Ivoire",
+    "Denmark",
+    "Djibouti",
+    "Dominica",
+    "Dominican Republic",
+    "Ecuador",
+    "Egypt",
+    "El Salvador",
+    "Equatorial Guinea",
+    "Eritrea",
+    "Estonia",
+    "Ethiopia",
+    "Falkland Islands",
+    "Faroe Islands",
+    "Fiji",
+    "Finland",
+    "France",
+    "French Guiana",
+    "French Polynesia",
+    "French Southern Territories",
+    "Gabon",
+    "Gambia",
+    "Georgia",
+    "Germany",
+    "Ghana",
+    "Gibraltar",
+    "Greece",
+    "Greenland",
+    "Grenada",
+    "Guadeloupe",
+    "Guam",
+    "Guatemala",
+    "Guernsey",
+    "Guinea",
+    "Guinea-Bissau",
+    "Guyana",
+    "Haiti",
+    "Honduras",
+    "Hong-Kong",
+    "Hungary",
+    "Iceland",
+    "India",
+    "Indonesia",
+    "Iran",
+    "Iraq",
+    "Ireland",
+    "Isle of Man",
+    "Israel",
+    "Italy",
+    "Jamaica",
+    "Japan",
+    "Jersey",
+    "Jordan",
+    "Kazakhstan",
+    "Kenya",
+    "Kiribati",
+    "Kuwait",
+    "Kyrgyzstan",
+    "Laos",
+    "Latvia",
+    "Lebanon",
+    "Lesotho",
+    "Liberia",
+    "Libya",
+    "Liechtenstein",
+    "Lithuania",
+    "Luxembourg",
+    "Macau SAR China",
+    "Macedonia",
+    "Madagascar",
+    "Malawi",
+    "Malaysia",
+    "Maldives",
+    "Mali",
+    "Malta",
+    "Marshall Islands",
+    "Martinique",
+    "Mauritania",
+    "Mauritius",
+    "Mayotte",
+    "Mexico",
+    "Micronesia",
+    "Moldova",
+    "Monaco",
+    "Mongolia",
+    "Montenegro",
+    "Montserrat",
+    "Morocco",
+    "Mozambique",
+    "Myanmar (Burma)",
+    "Namibia",
+    "Nauru",
+    "Nepal",
+    "Netherlands",
+    "New Caledonia",
+    "New Zealand",
+    "Nicaragua",
+    "Niger",
+    "Nigeria",
+    "Niue",
+    "Norfolk Island",
+    "North Korea",
+    "Northern Mariana Islands",
+    "Norway",
+    "Oman",
+    "Pakistan",
+    "Palau",
+    "Palestinian Territories",
+    "Panama",
+    "Papua New Guinea",
+    "Paraguay",
+    "Peru",
+    "Philippines",
+    "Pitcairn Islands",
+    "Poland",
+    "Portugal",
+    "Pseudo-Accents",
+    "Pseudo-Bidi",
+    "Puerto Rico",
+    "Qatar",
+    "Romania",
+    "Russia",
+    "Rwanda",
+    "Réunion",
+    "Samoa",
+    "San Marino",
+    "Saudi Arabia",
+    "Senegal",
+    "Serbia",
+    "Seychelles",
+    "Sierra Leone",
+    "Singapore",
+    "Sint Maarten",
+    "Slovakia",
+    "Slovenia",
+    "Solomon Islands",
+    "Somalia",
+    "South Africa",
+    "South Georgia & South Sandwich Islands",
+    "South Korea",
+    "South Sudan",
+    "Spain",
+    "Sri Lanka",
+    "St. Barthélemy",
+    "St. Helena",
+    "St. Kitts & Nevis",
+    "St. Lucia",
+    "St. Martin",
+    "St. Pierre & Miquelon",
+    "St. Vincent & Grenadines",
+    "Sudan",
+    "Suriname",
+    "Svalbard & Jan Mayen",
+    "Swaziland",
+    "Sweden",
+    "Switzerland",
+    "Syria",
+    "São Tomé & Príncipe",
+    "Taiwan",
+    "Tajikistan",
+    "Tanzania",
+    "Thailand",
+    "Timor-Leste",
+    "Togo",
+    "Tokelau",
+    "Tonga",
+    "Trinidad & Tobago",
+    "Tristan da Cunha",
+    "Tunisia",
+    "Turkey",
+    "Turkmenistan",
+    "Turks & Caicos Islands",
+    "Tuvalu",
+    "U.S. Outlying Islands",
+    "U.S. Virgin Islands",
+    "Uganda",
+    "Ukraine",
+    "United Arab Emirates",
+    "United Kingdom",
+    "United States",
+    "Uruguay",
+    "Uzbekistan",
+    "Vanuatu",
+    "Vatican City",
+    "Venezuela",
+    "Vietnam",
+    "Wallis & Futuna",
+    "Western Sahara",
+    "Yemen",
+    "Zambia",
+    "Zimbabwe",
+    "Åland Islands"
+];
+</script>
+<div class="language_selector item-list"><ul><li class="selected"><a href="/en/healthcare-expatriates/which-countries-have-best-healthcare-systems" hreflang="en">English</a></li><li class="fr"><a href="/fr/sante-des-expatries/quels-sont-les-pays-avec-les-meilleurs-systemes-de-sante" hreflang="fr">Français</a></li><li class="de"><a href="https://de.april-international.com/de" target="_blank">Deutsch</a></li></ul></div>
+  </div>
+<nav role="navigation" aria-labelledby="block-votreassurance-menu" id="block-votreassurance" class="block block-menu navigation menu--votre-assurance">
+          
+        
+            <h2>Find the right insurance</h2>
+<ul class="menu">
+            
+                          <li class="menu-item">
+          <a href="/en/travel-and-holidays/travel-insurance-0" data-drupal-link-system-path="node/24">Travel insurance</a>
+                  </li>
+      
+                          <li class="menu-item">
+          <a href="/en/living-abroad/international-health-insurance" data-drupal-link-system-path="node/18">International health insurance</a>
+                  </li>
+      
+                          <li class="menu-item">
+          <a href="/en/working-abroad/international-group-health-insurance" target="_self" data-drupal-link-system-path="node/704">International group health insurance</a>
+                  </li>
+      
+                          <li class="menu-item">
+          <a href="/en/studying-abroad/international-student-medical-insurance" data-drupal-link-system-path="node/4">International student medical insurance</a>
+                  </li>
+      
+                          <li class="menu-item">
+          <a href="/en/living-abroad/short-term-working-holidays-au-pair-and-international-volunteer-insurance" data-drupal-link-system-path="node/25">Short-term and working holiday visa insurance</a>
+                  </li>
+      
+                          <li class="menu-item">
+          <a href="/en/schengen-visa-coming-france/schengen-travel-insurance" data-drupal-link-system-path="node/26">Schengen travel insurance</a>
+                  </li>
+      
+      </ul>
+    
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-trouverlabonneassurance-menu" id="block-trouverlabonneassurance" class="block block-menu navigation menu--menu-du-footer-de-droite">
+          
+        
+        <h2>Discover APRIL</h2>
+<ul class="menu">
+            
+                          <li class="menu-item">
+          <a href="http://groupe.april.fr" target="_blank">APRIL Group</a>
+                  </li>
+      
+                          <li class="menu-item">
+          <a href="http://www.april.com/journalists" target="_blank">Press</a>
+                  </li>
+      
+                          <li class="menu-item">
+          <a href="https://www.april.com/investors" target="_blank">Finance</a>
+                  </li>
+      
+                          <li class="menu-item">
+          <a href="http://www.april.com/applicants" target="_blank">Career</a>
+                  </li>
+      
+                          <li class="menu-item">
+          <a href="https://www.associationdesassuresapril.fr/" target="_blank">Association des Assurés d’APRIL</a>
+                  </li>
+      
+      </ul>
+    
+
+
+  </nav>
+
+  </div>
+
+      <hr/>
+              <div class="region region-footer-bottom">
+    <div id="block-bloccopyright" class="block block-block-content block-block-contenta49755cd-d5d2-4308-a14e-9d0516ee51e9">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>@ 2018 April International</p></div>
+      
+  </div>
+<nav role="navigation" aria-labelledby="block-april-footer-menu" id="block-april-footer" class="block block-menu navigation menu--footer">
+                
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/en/general-terms-use" data-drupal-link-system-path="node/44">Site terms and conditions</a>
+              </li>
+                <li class="menu-item">
+        <a href="/en/about-us" data-drupal-link-system-path="node/97">About us</a>
+              </li>
+                <li class="menu-item">
+        <a href="/en/contact-our-different-offices-around-world" data-drupal-link-system-path="node/33">Contact</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<div id="block-sociallinksblock" class="block block-april-international block-april-footer-social-block">
+  
+    
+      <a href="https://www.facebook.com/AprilExpat" class="facebook_link" target="_blank"></a><a href="https://twitter.com/AprilExpat" class="twitter_link" target="_blank"></a><a href="https://www.youtube.com/user/APRILIntl" class="youtube_link" target="_blank"></a>
+  </div>
+<div id="block-chatblocforaprilinternational" class="block block-april-international block-april-chat-block">
+  
+    
+            
+
+  </div>
+
+  </div>
+
+    </footer>
+
+
+  </div>
+
+    
+        <script>window.april={}</script>
+        <script>
+      !function(a,b){"function"==typeof define&&define.amd?define([],function(){return a.svg4everybody=b()}):"object"==typeof module&&module.exports?module.exports=b():a.svg4everybody=b()}(this,function(){function a(a,b,c){if(c){var d=document.createDocumentFragment(),e=!b.hasAttribute("viewBox")&&c.getAttribute("viewBox");e&&b.setAttribute("viewBox",e);for(var f=c.cloneNode(!0);f.childNodes.length;)d.appendChild(f.firstChild);a.appendChild(d)}}function b(b){b.onreadystatechange=function(){if(4===b.readyState){var c=b._cachedDocument;c||(c=b._cachedDocument=document.implementation.createHTMLDocument(""),c.body.innerHTML=b.responseText,b._cachedTarget={}),b._embeds.splice(0).map(function(d){var e=b._cachedTarget[d.id];e||(e=b._cachedTarget[d.id]=c.getElementById(d.id)),a(d.parent,d.svg,e)})}},b.onreadystatechange()}function c(c){function e(){for(var c=0;c<o.length;){var h=o[c],i=h.parentNode,j=d(i),k=h.getAttribute("xlink:href")||h.getAttribute("href");if(!k&&g.attributeName&&(k=h.getAttribute(g.attributeName)),j&&k){if(f)if(!g.validate||g.validate(k,j,h)){i.removeChild(h);var l=k.split("#"),q=l.shift(),r=l.join("#");if(q.length){var s=m[q];s||(s=m[q]=new XMLHttpRequest,s.open("GET",q),s.send(),s._embeds=[]),s._embeds.push({parent:i,svg:j,id:r}),b(s)}else a(i,j,document.getElementById(r))}else++c,++p}else++c}(!o.length||o.length-p>0)&&n(e,67)}var f,g=Object(c),h=/\bTrident\/[567]\b|\bMSIE (?:9|10)\.0\b/,i=/\bAppleWebKit\/(\d+)\b/,j=/\bEdge\/12\.(\d+)\b/,k=/\bEdge\/.(\d+)\b/,l=window.top!==window.self;f="polyfill"in g?g.polyfill:h.test(navigator.userAgent)||(navigator.userAgent.match(j)||[])[1]<10547||(navigator.userAgent.match(i)||[])[1]<537||k.test(navigator.userAgent)&&l;var m={},n=window.requestAnimationFrame||setTimeout,o=document.getElementsByTagName("use"),p=0;f&&e()}function d(a){for(var b=a;"svg"!==b.nodeName.toLowerCase()&&(b=b.parentNode););return b}return c});
+      svg4everybody();
+    </script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"en\/","currentPath":"node\/451","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","ajaxPageState":{"libraries":"april\/global-styling,april_international\/april-international-ajax-commands,april_international\/april-international-country-autocomplete,april_international\/april-international-lisa,april_international\/april-international-modal,april_international\/april-international-tag-behavior,april_international\/cookie-consent-js,april_international\/cookie-consent-js-lib,april_international\/cookie-js,classy\/base,classy\/messages,classy\/node,core\/html5shiv,core\/normalize,system\/base","theme":"april","theme_token":null},"ajaxTrustedUrl":[],"field_group":{"html_element":{"mode":"full","context":"view","settings":{"id":"","classes":"","element":"div","show_label":false,"label_element":"h3","attributes":"","effect":"none","speed":"fast","label":"intro"}}},"currentZone":"france","user":{"uid":0,"permissionsHash":"7546cf72da8746287553479c33297b45c3339c02ce63c2a8cc61bd6dee64ae85"}}</script>
+<script src="/sites/france/files/js/js_6fg3In8TKN_Cf133GrhVgaQayqVfYbRRVS5vBA9Tpjk.js"></script>
+
+  </body>
+</html>

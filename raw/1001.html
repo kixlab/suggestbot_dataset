@@ -5140,7 +5140,7 @@
                   
 <div class="comment-util-links">
   
-  <a class="reply-link comment-prompt>" on="tap:replySubscribeComment-{{ID}}.show, comments-list.changeToLayoutContainer(),body.toggleClass('class'='comments-list-open','force'=true)">Reply</a>
+  <a class="reply-link comment-prompt>" on="tap:replyOpenComment-{{ID}}.show, comments-list.changeToLayoutContainer(),body.toggleClass('class'='comments-list-open','force'=true)">Reply</a>
   
   {{#sender.isSelf}}
   <a class="secondary-link" on="tap:delete-lightbox,AMP.setState({commentId:'{{ID}}',sourceId:'{{streamId}}'})">Delete</a>
@@ -5293,7 +5293,7 @@
                       
 <div class="comment-util-links">
   
-  <a class="reply-link comment-prompt>" on="tap:replySubscribeComment-{{ID}}.show, comments-list.changeToLayoutContainer(),body.toggleClass('class'='comments-list-open','force'=true)">Reply</a>
+  <a class="reply-link comment-prompt>" on="tap:replyOpenComment-{{ID}}.show, comments-list.changeToLayoutContainer(),body.toggleClass('class'='comments-list-open','force'=true)">Reply</a>
   
   {{#sender.isSelf}}
   <a class="secondary-link" on="tap:delete-lightbox,AMP.setState({commentId:'{{ID}}',sourceId:'{{streamId}}'})">Delete</a>
@@ -6949,7 +6949,7 @@
     })
   })();
  </script>
-<script>esi_loader(["/subscriber/premium.js?r=1560265886251"], function () {
+<script>esi_loader(["/subscriber/premium.js?r=1560301805816"], function () {
   var tp = window['tp'] || [];
   var tags = [];
   const _userRef = window._userRef;

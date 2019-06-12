@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 9]><!--><html lang="en-US" prefix="og: http://ogp.me/ns#"><!--<![endif]-->
+<head profile="http://gmpg.org/xfn/11" prefix="og: http://ogp.me/ns#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width">
+<title>II. Mexican-American Fertility Patterns | Pew Research Center</title>
+ 
+<link rel="alternate" type="application/rss+xml" title="Pew Research Center&#039;s Hispanic Trends Project RSS Feed" href="https://www.pewhispanic.org/feed/">
+	<!--
+	#    _____                  _____                                     _        _____              _
+	#   |  __ \                |  __ \                                   | |      / ____|            | |
+	#   | |__) |___ __      __ | |__) | ___  ___   ___   __ _  _ __  ___ | |__   | |      ___  _ __  | |_  ___  _ __
+	#   |  ___// _ \\ \ /\ / / |  _  / / _ \/ __| / _ \ / _` || '__|/ __|| '_ \  | |     / _ \| '_ \ | __|/ _ \| '__|
+	#   | |   |  __/ \ V  V /  | | \ \|  __/\__ \|  __/| (_| || |  | (__ | | | | | |____|  __/| | | || |_|  __/| |
+	#   |_|    \___|  \_/\_/   |_|  \_\\___||___/ \___| \__,_||_|   \___||_| |_|  \_____|\___||_| |_| \__|\___||_|
+	#
+	#   Github: http://github.com/pewresearch
+	#   Version: 3.3.0	#
+	-->
+	
+<!-- This site is optimized with the Yoast SEO Premium plugin v9.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="U.S. births are disproportionately Hispanic, accounting for one-in-four (25%) of the nation’s newborns in 2008 (Martin, et. al, 2008). U.S. births are"/>
+<link rel="canonical" href="https://www.pewhispanic.org/2011/07/14/ii-mexican-american-fertility-patterns/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="II. Mexican-American Fertility Patterns" />
+<meta property="og:description" content="U.S. births are disproportionately Hispanic, accounting for one-in-four (25%) of the nation’s newborns in 2008 (Martin, et. al, 2008). U.S. births are" />
+<meta property="og:url" content="https://www.pewhispanic.org/2011/07/14/ii-mexican-american-fertility-patterns/" />
+<meta property="og:site_name" content="Pew Research Center&#039;s Hispanic Trends Project" />
+<meta property="article:publisher" content="https://www.facebook.com/pewresearch" />
+<meta property="article:section" content="Reports" />
+<meta property="article:published_time" content="2011-07-14T16:00:00+00:00" />
+<meta property="article:modified_time" content="2012-05-17T14:31:47+00:00" />
+<meta property="og:updated_time" content="2012-05-17T14:31:47+00:00" />
+<meta property="og:image" content="https://assets.pewresearch.org/wp-content/uploads/sites/7/2011/07/2011-births-05.png" />
+<meta property="og:image:secure_url" content="https://assets.pewresearch.org/wp-content/uploads/sites/7/2011/07/2011-births-05.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="U.S. births are disproportionately Hispanic, accounting for one-in-four (25%) of the nation’s newborns in 2008 (Martin, et. al, 2008). U.S. births are" />
+<meta name="twitter:title" content="II. Mexican-American Fertility Patterns " />
+<meta name="twitter:site" content="@PewHispanic" />
+<meta name="twitter:image" content="https://assets.pewresearch.org/wp-content/uploads/sites/7/2011/07/2011-births-05.png" />
+<meta name="twitter:creator" content="@PewHispanic" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/www.pewhispanic.org\/","sameAs":["https:\/\/www.facebook.com\/pewresearch","https:\/\/www.linkedin.com\/company\/pew-research-center\/","https:\/\/www.youtube.com\/user\/PewResearchCenter","https:\/\/twitter.com\/PewHispanic"],"@id":"https:\/\/www.pewhispanic.org\/#organization","name":"Pew Research Center","logo":""}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//use.typekit.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='all-css-0' href='https://www.pewhispanic.org/_static/??-eJyVj8uOwjAMRX9oUvNQYTWan2CP2tSAheNEsUvVvycFKpBgwSiLxDfn6sgwJOejGIqBnTCgQsLBnUhTI+TB6y2Y56rMP/BFR0mOjG+4ZyqXC71L3B9J7k31mZIptHHAvPcxpCgFU+gaK6dl1ErQXEYtP0oXdJ3dNM+kmtjdnQ0k/zQfiA2ze7jmLonnvivrTaqO1KDl6M+Oqc1NHkFtLDt+ss2OEqUmK/L48pzov/C7rDeL1Xa1rddXQFKStA==' type='text/css' media='all' />
+<link rel='stylesheet' id='typekit-css'  href='https://use.typekit.net/xos5dbo.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-2' href='https://www.pewhispanic.org/_static/??-eJyVj0sOwjAMRC9EahWaChaIoyDXNTTQfBQn6vVpKLAAIcHOnhk/jWEKirxL7BKEMZ+NEwg8qcgnpOSjksFYQBFOAiSLST5yZY2rZmEFPxE6P3E8krfBuzkpIGzRJUPQG0mv7Q+icTTmnhdLGCMN7z0X9TszksrCUSGRz6VUl83YgyQsxQrF4vwlc9uskZoPkM3qybpwCkjX+9FjLvGD3dda77Z6U+v2BtuYh/U=' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-2' href='https://www.pewhispanic.org/wp-content/themes/pew-hispanic/css/print.css?m=1555507079g' type='text/css' media='print' />
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
+<script type='text/javascript' src='https://www.pewhispanic.org/_static/??-eJyNjEEOwjAMBD9E6nJAVQ+Ip6AQDHWF7ShrlO+TA+LM3na0s9RrKm7BFlRf76cYqHJPjR+5hLeETZQywAFqPNikYtOOA/1l3rxzuxbX6jaWILBmCyl0F8SvfU8vej6eRuZlXtb9A0KuOfg='></script>
+<link rel='https://api.w.org/' href='https://www.pewhispanic.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.pewhispanic.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.pewhispanic.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.1" />
+<link rel='shortlink' href='https://www.pewhispanic.org/?p=2686' />
+<link rel="alternate" type="application/json+oembed" href="https://www.pewhispanic.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.pewhispanic.org%2F2011%2F07%2F14%2Fii-mexican-american-fertility-patterns%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.pewhispanic.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.pewhispanic.org%2F2011%2F07%2F14%2Fii-mexican-american-fertility-patterns%2F&#038;format=xml" />
+<link rel='alternate' type='application/json' title='JSON Representation' href='https://www.pewhispanic.org/2011/07/14/ii-mexican-american-fertility-patterns//feed/json/'><link rel='alternate' type='text/plain' title='Prism XML Version' href='https://www.pewhispanic.org/2011/07/14/ii-mexican-american-fertility-patterns//feed/prism/'><link rel='alternate' type='text/plain' title='Plain Text Version' href='https://www.pewhispanic.org/2011/07/14/ii-mexican-american-fertility-patterns//feed/plain/'><meta name='robots' content='NOODP' />
+
+<!-- Begin Taxonomy Meta -->
+<meta name='category' content='Reports'>
+<meta name='category' content='Multi-section Reports'>
+<meta name='category' content='Publications'>
+<!-- End Taxonomy Meta --><!-- / HREFLANG Tags by DCGWS -->
+<!-- / HREFLANG Tags by DCGWS -->
+    <!-- Begin comScore Tag -->
+    <script>
+		var _comscore = _comscore || [];
+		_comscore.push({ c1: "2", c2: "19750649" });
+		(function() {
+			var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+			s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+			el.parentNode.insertBefore(s, el);
+		})();
+    </script>
+    <noscript>
+        <img src="http://b.scorecardresearch.com/p?c1=2&c2=19750649&cv=2.0&cj=1" />
+    </noscript>
+    <!-- End comScore Tag -->
+    <script>var chart = [];</script>        <!-- GTM Data Layer -->
+        <script>
+			dataLayer = [];
+        </script>
+        <!-- Cross Domain GTM -->
+				
+        <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MVFJNW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MVFJNW');
+        </script>
+        <!-- End Google Tag Manager -->
+
+    
+                        <!-- Site Specific GTM -->
+        <!-- Google Tag Manager -->
+        <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-M7PQHB');
+        </script>
+        <!-- End Google Tag Manager -->
+        <!--[if lt IE 9]><script src="https://www.pewhispanic.org/wp-content/plugins/pew-scripts/js/html5shiv-printshiv.min.js"></script><![endif]-->
+<meta property="share:appID:fb" content="126537481149191">
+<!-- BEGIN wp-parsely Plugin Version 1.14 -->
+<meta name="wp-parsely_version" id="wp-parsely_version" content="1.14"/>
+			<script type="application/ld+json">
+		{"@context":"http:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/www.pewhispanic.org\/2011\/07\/14\/ii-mexican-american-fertility-patterns\/"},"headline":"II. Mexican-American Fertility Patterns","url":"http:\/\/www.pewhispanic.org\/2011\/07\/14\/ii-mexican-american-fertility-patterns\/","dateCreated":"2011-07-14T16:00:00Z","datePublished":"2011-07-14T16:00:00Z","dateModified":"2011-07-14T16:00:00Z","articleSection":"Reports","author":[],"creator":[],"keywords":[],"publisher":{"@type":"Organization","name":"Pew Research Center&#039;s Hispanic Trends Project","logo":{"@type":"ImageObject","url":"https:\/\/www.pewhispanic.org\/wp-content\/uploads\/sites\/5\/2018\/09\/favicon_128x128.png"}}}
+		</script>
+
+			<!-- END wp-parsely Plugin Version 1.14 -->
+    <style>
+    .pullquote > div:before,
+    .pullquote > div:after {
+        color: ;
+    }
+    .chapter-title .honkin-number {
+        color: ;
+    }
+    </style>
+    <meta name='theme-color' content='#A55A26'>
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<style type='text/css'>img#wpstats{display:none}</style><link rel="icon" href="https://www.pewhispanic.org/wp-content/uploads/sites/5/2018/09/favicon_128x128.png?w=32" sizes="32x32" />
+<link rel="icon" href="https://www.pewhispanic.org/wp-content/uploads/sites/5/2018/09/favicon_128x128.png?w=128" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.pewhispanic.org/wp-content/uploads/sites/5/2018/09/favicon_128x128.png?w=128" />
+<meta name="msapplication-TileImage" content="https://www.pewhispanic.org/wp-content/uploads/sites/5/2018/09/favicon_128x128.png?w=128" />
+</head>
+<!--googleoff: index-->
+<body class="post-template-default single single-post group-blog singular no-js hispanic multi-section-report multi-section-child project pewhispanic reports multi-section-reports publications">
+
+	    <div id="js-tophat" class="tophat">
+        <div class="container xl">
+            <div class="flex">
+                <p>Numbers, Facts and Trends Shaping Your World</p>
+                <p>
+                    <a href="https://www.pewresearch.org/about">About</a>
+                    <a href="https://www.pewresearch.org/follow-us">Follow</a>
+                    		<div class="ui dropdown item">
+			My Account
+			<i class="dropdown icon"></i>
+			<div class="menu">
+				<a href="https://www.pewresearch.org/profile" class="item is-logged-out">Log in</a>
+				<a href="https://www.pewresearch.org/profile" class="item is-logged-in">View Account</a>
+				<a id="js-prc-logout" class="item is-logged-in">Log out</a>
+			</div>
+		</div>
+		<style>
+		body.external-user-signed-in .is-logged-out {
+			display: none!important;
+		}
+		body:not(.external-user-signed-in) .is-logged-in {
+			display: none!important;
+		}
+		</style>
+		                    <div><a href='https://pewresearch.networkforgood.com/?utm_source=PewHispanic&utm_medium=InternalPromo&utm_campaign=TopDonateButton' class='tophat-button'>Donate</a></div>                </p>
+            </div>
+        </div>
+    </div>
+
+    <header id="masthead" class="site-header" role="banner">
+        <div class="container xl">
+            <div class="site-branding">
+                <a href="https://www.pewresearch.org/" class="logo" rel="home"><img src="https://www.pewhispanic.org/wp-content/plugins/pew-refactor-shim/assets/img/logos/desktop-header.svg" alt="Pew Research Center"></a>
+                <p class='project hispanic site-description label'>Hispanic Trends</p>                
+    <div id="quick_search_form">
+        <div data-st-search-form="search_form"></div>
+    </div>
+                    <ul id="js-mobile-menu-tabs" class="flex flex-list">
+                    <li data-target-state="false"><a href="javascript:void(0)" data-target-menu="#js-site-menu" class="hispanic bg">Menu</a></li>
+                                        <li data-target-state="false"><a href="javascript:void(0)" data-target-menu="#js-verticals-menu">Research Areas</a></li>
+                </ul>
+            </div><!-- /.site-branding -->
+
+            <nav id="js-verticals-menu" role="navigation">
+                <ul class="navigation verticals-menu flex flex-list">
+                    <li><a href="https://www.pewresearch.org" class="pewresearch">Home</a></li><li><a href="https://www.people-press.org" class="politics">U.S. Politics</a></li><li><a href="https://www.journalism.org" class="journalism">Media &amp; News</a></li><li><a href="https://www.pewsocialtrends.org" class="social-trends">Social Trends</a></li><li><a href="https://www.pewforum.org" class="religion">Religion</a></li><li><a href="https://www.pewinternet.org" class="internet">Internet &amp; Tech</a></li><li><a href="https://www.pewresearch.org/science" class="science">Science</a></li><li><a href="http://www.pewhispanic.org" class="hispanic">Hispanics</a></li><li><a href="https://www.pewglobal.org" class="global">Global</a></li><li><a href="//www.pewresearch.org/methods" class="methods">Methods</a></li>                </ul>
+            </nav><!-- /#verticals-menu -->
+        </div>
+    </header><!-- /#masthead -->
+
+    <div id="js-site-menu-container" class="container xl">
+        <nav id="js-site-menu" class="hispanic bg"><ul id="site-navigation" class="navigation site-menu flex flex-list "><li id="menu-item-3711" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-3711"><a href="https://www.pewhispanic.org/category/publications/">Publications</a></li>
+<li id="menu-item-165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-165"><a href="https://www.pewhispanic.org/topics/">Topics</a></li>
+<li id="menu-item-19503" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19503"><a href="https://www.pewhispanic.org/category/interactives/">Interactives</a></li>
+<li id="menu-item-166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-166"><a href="https://www.pewhispanic.org/data-and-resources/">Data and Resources</a></li>
+<li id="menu-item-21672" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21672"><a href="https://www.pewresearch.org/areas-of-expertise/latinos/">Experts</a></li>
+</ul></nav>    </div>
+    	<!--Begin Main Holder--><div class="holder"><div id="banner"></div>
+<!--googleon: index-->
+<div id="content" class="content" role="main">
+				<div class="ui text menu social share-tools">			<div class="item fb-pew-share" fb-share-url="http://pewrsr.ch/KiHmt2" fb-share-description=""><i class="facebook icon"></i></div>
+			<a href="" class="item twtr-pew-share" twtr-share-url="http://pewrsr.ch/KiHmt2" twtr-share-description="II. Mexican-American Fertility Patterns"><i class="twitter icon"></i></a>
+			<a href="" class="item linkedin-pew-share" linkedin-share-url="http://pewrsr.ch/KiHmt2" linkedin-share-description=""><i class="linkedin square icon"></i></a>
+			<a href="javascript:window.print();" class="item"><i class="print icon"></i></a>
+		</div><div class="meta"><span class="date" data-datetime="July 14, 2011">July 14, 2011</span></div>
+				<a href="https://www.pewhispanic.org/2011/07/14/the-mexican-american-boom-brbirths-overtake-immigration/" class="breadcrumb"><h1>The Mexican-American Boom: Births Overtake Immigration</h1></a>
+	<h2>II. Mexican-American Fertility Patterns</h2>
+			
+			<p><img class="alignright size-full wp-image-200" src="https://assets.pewresearch.org/wp-content/uploads/sites/7/2011/07/2011-births-05.png" alt="" width="272" height="498" srcset="https://www.pewhispanic.org/wp-content/uploads/sites/5/2011/07/2011-births-05.png 272w, https://www.pewhispanic.org/wp-content/uploads/sites/5/2011/07/2011-births-05.png?resize=164,300 164w, https://www.pewhispanic.org/wp-content/uploads/sites/5/2011/07/2011-births-05.png?resize=160,293 160w, https://www.pewhispanic.org/wp-content/uploads/sites/5/2011/07/2011-births-05.png?resize=221,405 221w, https://www.pewhispanic.org/wp-content/uploads/sites/5/2011/07/2011-births-05.png?resize=200,366 200w, https://www.pewhispanic.org/wp-content/uploads/sites/5/2011/07/2011-births-05.png?resize=260,476 260w" sizes="(max-width: 272px) 100vw, 272px" />U.S. births are disproportionately Hispanic, accounting for one-in-four (25%) of the nation’s newborns in 2008 (<a href="http://www.cdc.gov/nchs/data/nvsr/nvsr59/nvsr59_01.pdf">Martin, et. al, 2008</a>). U.S. births are also disproportionately Mexican-American. While 10% of the nation’s population in 2008 was Mexican-American, 16% of the nation’s births were to Mexican-American mothers.</p>
+<p style="text-align: left;">Two demographic factors explain the high share of births among Mexican-Americans: age and fertility. On average, Mexican-Americans are younger than other major racial and ethnic groups. The median age of Mexican-Americans in this country is 25, compared with 30 for non-Mexican-origin Hispanics, 32 for blacks, 35 for Asians and 41 for whites.<sup class="footnote"><a href="#fn-144-6" id="fnref-144-6">6</a></sup> This means that a higher share of Mexican-American women is of child-bearing age than is the case for other racial or ethnic groups.<img class="size-full wp-image-199 aligncenter" src="https://assets.pewresearch.org/wp-content/uploads/sites/7/2011/07/2011-births-04.png" alt="" width="465" height="854" srcset="https://www.pewhispanic.org/wp-content/uploads/sites/5/2011/07/2011-births-04.png 465w, https://www.pewhispanic.org/wp-content/uploads/sites/5/2011/07/2011-births-04.png?resize=163,300 163w, https://www.pewhispanic.org/wp-content/uploads/sites/5/2011/07/2011-births-04.png?resize=160,294 160w, https://www.pewhispanic.org/wp-content/uploads/sites/5/2011/07/2011-births-04.png?resize=221,405 221w, https://www.pewhispanic.org/wp-content/uploads/sites/5/2011/07/2011-births-04.png?resize=200,367 200w, https://www.pewhispanic.org/wp-content/uploads/sites/5/2011/07/2011-births-04.png?resize=260,478 260w, https://www.pewhispanic.org/wp-content/uploads/sites/5/2011/07/2011-births-04.png?resize=310,569 310w, https://www.pewhispanic.org/wp-content/uploads/sites/5/2011/07/2011-births-04.png?resize=420,771 420w" sizes="(max-width: 465px) 100vw, 465px" /></p>
+<p>In addition, Mexican-American women have more children than do their same-aged counterparts in other racial and Hispanic origin groups. For example, according to Pew Hispanic Center tabulations from the 2006 to 2010 June Fertility Supplements of the U.S. Current Population Survey, the typical Mexican-American woman ages 40 to 44 has given birth to 2.5 children, compared with 1.9 children for the typical same-aged non-Mexican-Hispanic woman, 1.8 children for the typical same-aged white woman, 2.0 for the typical same-aged black woman and 1.8 for the typical same-aged Asian woman.</p>
+<p>Mexican-American fertility is also higher than that of non-Mexican-origin U.S. Hispanics. Across all cohorts ages 20 and older, Mexican-American women have anywhere from about 20% to 50% more children than non-Mexican U.S. Hispanic women.</p>
+<p>Among Mexican-American women, fertility differs by immigration status. On average, the typical Mexican immigrant woman ages 40 to 44 has about one-third more children over the course of her lifetime than the typical U.S.-born Mexican-American in the same age group—2.7 versus 2.1.</p>
+
+
+<div class='footnotes'><ol start="6"><li id="fn-144-6">In this report, white, black and Asian populations include only non-Hispanics who reported a single race. Native Americans and mixed-race groups are not shown. Hispanics can be of any race. <span class="footnotereverse"><a href="#fnref-144-6">&#8617;</a></span></li></ol></div>
+	<script>
+	jQuery(document).ready(function(){
+		jQuery('.footnotes').insertAfter('#pagination');
+	});
+	</script>
+		<div id="pagination">
+		<h2 class="hidden" id="pagination-label">Pagination</h2>
+					<a href="https://www.pewhispanic.org/2011/07/14/iii-comparing-mexicans-and-mexican-american-immigrants/" class="multi-section-button" rel="next">Next: III. Comparing Mexicans and Mexican-American Immigrants</a>
+		
+
+					<a href="https://www.pewhispanic.org/2011/07/14/iii-comparing-mexicans-and-mexican-american-immigrants/" class="next" rel="next">Next Page <span class="arrow" aria-hidden="true">&rarr;</span></a>
+		
+
+					<a href="https://www.pewhispanic.org/2011/07/14/the-mexican-american-boom-brbirths-overtake-immigration/" class="prev" rel="prev"><span class="arrow" aria-hidden="true">&larr;</span> Prev Page</a>
+		
+				<ol start="1"  aria-labelledby="pagination-label">
+								<li><a href="https://www.pewhispanic.org/2011/07/14/the-mexican-american-boom-brbirths-overtake-immigration/" rel="prev"><span class="hidden">Page</span> 1</a></li>
+												<li class="active"><a><span class="hidden">You are reading page</span> 2</a></li>
+												<li><a href="https://www.pewhispanic.org/2011/07/14/iii-comparing-mexicans-and-mexican-american-immigrants/" rel="next"><span class="hidden">Page</span> 3</a></li>
+												<li><a href="https://www.pewhispanic.org/2011/07/14/iv-the-mexican-migration/" ><span class="hidden">Page</span> 4</a></li>
+												<li><a href="https://www.pewhispanic.org/2011/07/14/appendix-6/" ><span class="hidden">Page</span> 5</a></li>
+									</ol>
+			</div>
+	</div>
+
+<!--googleoff: index-->
+
+<div id="sidebar" role="complementary">
+<div class="widget" id="report-materials"><h5 class="uppercase-label widget-title">Report Materials</h5><div class="inner filter"><ul><li class="legacy complete-report pdf"><a href="https://www.pewresearch.org/wp-content/uploads/sites/5/reports/144.pdf" download>Complete Report PDF</a></li></ul></div></div>	
+<div class="widget">
+
+	<h2 class="header">Table of Contents</h2>
+	<div class="inner toc filter">
+		<ul>
+							<li><a href="https://www.pewhispanic.org/2011/07/14/the-mexican-american-boom-brbirths-overtake-immigration/">The Mexican-American Boom: Births Overtake Immigration</a></li>
+									<li class="active"><a>II. Mexican-American Fertility Patterns</a>
+											</li>
+									<li><a href="https://www.pewhispanic.org/2011/07/14/iii-comparing-mexicans-and-mexican-american-immigrants/">III. Comparing Mexicans and Mexican-American Immigrants</a></li>
+									<li><a href="https://www.pewhispanic.org/2011/07/14/iv-the-mexican-migration/">IV. The Mexican Migration</a></li>
+									<li><a href="https://www.pewhispanic.org/2011/07/14/appendix-6/">Appendix</a></li>
+							</ul>
+		</div>
+
+	</div>
+
+<div id="related-inject">
+<div class="widget"><h5 class="uppercase-label widget-title">Related</h5><div class="inner with-posts"><a class='post' href='https://www.pewhispanic.org/2016/09/08/latino-population-growth-and-dispersion-has-slowed-since-the-onset-of-the-great-recession/'><div class="meta"><span class="category right-seperator reports label" data-project-slug="reports">Reports</span><span class="date" data-datetime="Sep 8, 2016">Sep 8, 2016</span></div><h2>U.S. Latino Population Growth and Dispersion Has Slowed Since Onset of the Great Recession</h2></a><a class='post' href='https://www.pewhispanic.org/2014/04/29/2012-statistical-information-on-immigrants-in-united-states/'><div class="meta"><span class="category right-seperator statistical-portraits label" data-project-slug="statistical-portraits">Statistical Portraits</span><span class="date" data-datetime="Apr 29, 2014">Apr 29, 2014</span></div><h2>2012, Foreign-Born Population in the United States Statistical Portrait</h2></a><a class='post' href='https://www.pewhispanic.org/2013/01/29/2011-statistical-information-on-immigrants-in-united-states/'><div class="meta"><span class="category right-seperator statistical-portraits label" data-project-slug="statistical-portraits">Statistical Portraits</span><span class="date" data-datetime="Jan 29, 2013">Jan 29, 2013</span></div><h2>2011, Foreign-Born Population in the United States Statistical Portrait</h2></a><a class='post' href='https://www.pewhispanic.org/2012/02/21/2010-statistical-information-on-immigrants-in-united-states/'><div class="meta"><span class="category right-seperator statistical-portraits label" data-project-slug="statistical-portraits">Statistical Portraits</span><span class="date" data-datetime="Feb 21, 2012">Feb 21, 2012</span></div><h2>2010, Foreign-Born Population in the United States Statistical Portrait</h2></a><a class='post' href='https://www.pewhispanic.org/2011/02/17/2009-statistical-information-on-immigrants-in-united-states/'><div class="meta"><span class="category right-seperator reports label" data-project-slug="reports">Reports</span><span class="date" data-datetime="Feb 17, 2011">Feb 17, 2011</span></div><h2>2009, Foreign-Born Population in the United States Statistical Portrait</h2></a></div></div></div>
+
+<div class="widget" id="topics-sidebar"><h5 class="uppercase-label widget-title">Topics</h5><div class="inner filter"><ul><li><a href="https://www.pewhispanic.org/topics/hispaniclatino-demographics/">Hispanic/Latino Demographics</a></li><li><a href="https://www.pewhispanic.org/topics/immigration/">Immigration</a></li><li><a href="https://www.pewhispanic.org/topics/immigration-trends/">Immigration Trends</a></li><li><a href="https://www.pewhispanic.org/topics/population-trends/">Population Trends</a></li><li><a href="https://www.pewhispanic.org/topics/country-of-origin/">Country of Origin</a></li><li><a href="https://www.pewhispanic.org/topics/birth-rate-and-fertility/">Birth Rate and Fertility</a></li></ul></div></div><div id="popular-inject"><div class="widget"><h5 class="uppercase-label widget-title">Popular On Pew Research</h5><div class="inner"><a class="post most-popular" href="https://www.pewresearch.org/fact-tank/2019/01/17/where-millennials-end-and-generation-z-begins/"><p class="meta"><span class="project right-seperator fact-tank">Fact Tank</span><span>01/17/2019</span></p><h2>Defining generations: Where Millennials end and Generation Z begins</h2></a><a class="post most-popular" href="https://www.pewresearch.org/fact-tank/2018/09/06/are-you-in-the-american-middle-class/"><p class="meta"><span class="project right-seperator fact-tank">Fact Tank</span><span>09/06/2018</span></p><h2>Are you in the American middle class? Find out with our income calculator</h2></a><a class="post most-popular" href="https://www.pewresearch.org/fact-tank/2018/11/28/5-facts-about-illegal-immigration-in-the-u-s/"><p class="meta"><span class="project right-seperator fact-tank">Fact Tank</span><span>11/28/2018</span></p><h2>5 facts about illegal immigration in the U.S.</h2></a><a class="post most-popular" href="https://www.pewinternet.org/2018/03/01/social-media-use-in-2018/"><p class="meta"><span class="project right-seperator internet-tech">Internet &amp; Tech</span><span>03/01/2018</span></p><h2>Social Media Use in 2018</h2></a><a class="post most-popular" href="https://www.pewsocialtrends.org/2019/01/17/generation-z-looks-a-lot-like-millennials-on-key-social-and-political-issues/"><p class="meta"><span class="project right-seperator social-trends">Social Trends</span><span>01/17/2019</span></p><h2>Generation Z Looks a Lot Like Millennials on Key Social and Political Issues</h2></a></div></div></div></div>
+	<form id="newsletter" action="https://pewresearch.us1.list-manage.com/subscribe/post?u=434f5d1199912232d416897e4&id=3e953b9b70" method="post">
+		<input type="hidden" name="u" value="434f5d1199912232d416897e4">
+		<input type="hidden" name="id" value="3e953b9b70">
+		<input type="hidden" name="group[153][1]" value="1">
+
+		<label class="signup-kicker" for="newsletter-email-address">Get <strong>Pew Research Center</strong> data by email</label>
+		<input type="email" class="text" placeholder="Enter your email address" name="MERGE0" id="newsletter-email-address">
+		<input type="submit" class="submit" value="Signup" name="submit">
+	</form>
+	</div><!--.holder-->    <div id="footer" role="contentinfo">
+        <div class="holder">
+            <div class="contact vcard">
+                <p><img class="fn org organization-name" src="https://www.pewhispanic.org/wp-content/plugins/pew-refactor-shim/assets/img/logos/desktop-footer.svg" onerror="this.src='https://www.pewhispanic.org/wp-content/plugins/pew-refactor-shim/assets/legacylib/img/pew-research-center.png'" alt="Pew Research Center"> <span class="adr"> <span class="street-address">1615 L St. NW, Suite 800</span> <span class="locality">Washington</span>, <span class="region">DC</span> <span class="postal-code">20036</span> <span class="country-name">USA</span></span>
+                    <a href="tel:+12024194300" class="tel"> <span class="value">(+1) 202-419-4300</span> | <span class="type">Main</span></a>
+                    <a href="tel:+12024194349" class="tel"> <span class="value">(+1) 202-419-4349</span> | <span class="type">Fax</span></a>
+                    <a href="tel:+12024194372" class="tel"> <span class="value">(+1) 202-419-4372</span> | <span class="type">Media Inquiries</span></a>
+                </p>
+            </div>
+            <div class="links">
+                <div class="projects">
+                    <h2>Research Areas</h2>
+                    <ul>
+                        <li><a href="https://www.people-press.org/">U.S. Politics &amp; Policy</a></li>
+                        <li><a href="https://www.journalism.org/">Journalism &amp; Media</a></li>
+                        <li><a href="https://www.pewinternet.org/">Internet &amp; Technology</a></li>
+                        <li><a href="https://www.pewresearch.org/science/">Science &amp; Society</a></li>
+                        <li><a href="https://www.pewforum.org/">Religion &amp; Public Life</a></li>
+                        <li><a href="http://www.pewhispanic.org/">Hispanic Trends</a></li>
+                        <li><a href="https://www.pewglobal.org/">Global Attitudes &amp; Trends</a></li>
+                        <li><a href="https://www.pewsocialtrends.org/">Social &amp; Demographic Trends</a></li>
+                    </ul>
+                </div>
+                <div class="follow-prc">
+                    <h2><a href="https://www.pewresearch.org/follow-pew-research-center/">Follow Us</a></h2>
+                    <ul>
+                        <li><a href="https://www.pewresearch.org/follow-pew-research-center/" class="email"><span>Email Newsletters</span></a></li>
+                        <li><a href="https://www.facebook.com/pewresearch" class="facebook"><span>Facebook</span></a></li>
+                        <li><a href="https://twitter.com/pewresearch" class="twitter"><span>Twitter</span></a></li>
+                        <li><a href="http://pewresearch.tumblr.com/" class="tumblr"><span>Tumblr</span></a></li>
+                        <li><a href="http://www.youtube.com/user/PewResearchCenter/featured" class="youtube"><span>YouTube</span></a></li>
+                        <li><a href="https://www.pewresearch.org/feed/" class="rss" title="Really Simple Syndication"><span>RSS</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="about"><strong><a href="https://www.pewresearch.org/about/">About Pew Research Center</a></strong> Pew Research Center is a nonpartisan fact tank that informs the public about the issues, attitudes and trends shaping the world. It conducts public opinion polling, demographic research, media content analysis and other empirical social science research. Pew Research Center does not take policy positions. It is a subsidiary of <a href="http://www.pewtrusts.org/">The Pew Charitable Trusts</a>.</p>
+        </div>
+    </div>
+    <div id="fine-print" class="holder">
+        <ul>
+            <li class="first">Copyright 2019 Pew Research Center</li>
+            <li><a href="https://www.pewresearch.org/about/">About</a></li>
+            <li><a href="https://www.pewresearch.org/terms-and-conditions/">Terms &amp; Conditions</a></li>
+            <li><a href="https://www.pewresearch.org/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="https://www.pewresearch.org/about/use-policy/">Reprints, Permissions &amp; Use Policy</a></li>
+            <li><a href="https://www.pewresearch.org/contact-form/">Feedback</a></li>
+            <li><a href="https://www.pewresearch.org/about/careers/">Careers</a></li>
+        </ul>
+    </div>
+    <script>var atpLegalModal = "\t<div id=\"js-atp-legal-modal\" class=\"ui modal\">\n\t\t<i class=\"close icon\"><\/i>\n\t\t<div class=\"header\">\n\t\t\tAmerican Trends Panel Dataset\n\t\t<\/div>\n\t\t<div class=\"content\">\n\t\t\t<div id=\"js-atp-legal-form\" class=\"ui form\">\n\t\t\t\t<textarea wrap=\"virtual\" cols=\"65\" rows=\"10\" id=\"Legal\" disabled>Terms and Conditions\n\n\tThis is a legal agreement (this \u201cAgreement\u201d) between you, the end user (\u201cyou\u201d or \u201cUser\u201d), and Pew Research Center (the \u201cCenter\u201d). By downloading the American Trends Panel survey data made available on this web site (\u201cData\u201d) you are agreeing to be bound by the terms and conditions of this Agreement. If you do not agree to be bound by these terms, do not download or use the Data.\n\n\tI.\tLicense.\n\tA.\t The Center hereby grants User a non-exclusive, revocable, limited, non-sublicensable, non-transferable, worldwide, royalty-free license to use the Data solely for (1) research, scholarly or academic purposes, or (2) User\u2019s own personal, non-commercial use. The foregoing license is personal to User, and you may not share (or otherwise permit access to) the Data to any other individual or entity, including those within your business or organization.  Further, you may not reproduce, sell, rent, lease, loan, distribute or sublicense, or otherwise transfer any Data, in whole or in part, to any other party, or use the Data to create any derivative work or product for resale, lease or license. Notwithstanding the foregoing, you may incorporate limited portions of the Data in scholarly, research or academic publications or for the purposes of news reporting provided that you:\n\t1.\t acknowledge the source of the Data with express reference to the Center in accordance with the following citation:\n\n\t\u201cPew Research Center\u2019s American Trends Panel\u201d\n\n\t2.\tdo not use the Data in any manner that implies, suggests, or could otherwise be perceived as attributing a particular policy or lobbying objective or opinion to the Center, and\n\t3.\tinclude the following disclaimer: \u201cThe opinions expressed herein, including any implications for policy, are those of the author and not of Pew Research Center.\u201d\n\tB.\tUser acknowledges that, as between the parties, the Center is the sole and exclusive owner of all right, title and interest in the Data.  Except for the limited license granted herein, this Agreement does not give User any right, title or interest in the Data.\n\n\tII.\tDisclaimers and Limitations of Liability. THE DATA IS PROVIDED \u201cAS IS\u201d WITHOUT ANY WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, ARISING BY LAW OR OTHERWISE, INCLUDING BUT NOT LIMITED TO WARRANTIES OF COMPLETENESS, NON-INFRINGEMENT, ACCURACY, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. THE CENTER EXPRESSLY DISCLAIMS, AND SHALL HAVE NO LIABILITY FOR, ANY ERRORS, OMISSIONS, INACCURACIES, OR INTERRUPTIONS IN THE DATA.  USER ASSUMES ALL RISK ASSOCIATED WITH USE OF THE DATA AND AGREES THAT IN NO EVENT SHALL THE CENTER OR ITS AFFILIATES BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR THE INABILITY TO USE EQUIPMENT OR ACCESS DATA, LOSS OF BUSINESS, LOSS OF REVENUE OR PROFITS, BUSINESS INTERRUPTIONS, LOSS OF INFORMATION OR DATA, OR OTHER FINANCIAL LOSS, ARISING OUT OF THE USE OF, OR INABILITY TO USE, THE DATA BASED ON ANY THEORY OF LIABILITY INCLUDING, BUT NOT LIMITED TO, BREACH OF CONTRACT, BREACH OF WARRANTY, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, EVEN IF USER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.\n\n\tIII.\tPrivacy, Confidentiality and Security.\n\tA.\tThe Center respects the privacy of individuals. The Center has taken measures to ensure that the Data is devoid of information that could be used to identify individuals (including, but not limited to, names, telephone numbers and email addresses) who participated in or who were the subject of any research surveys or studies used to collect the Data (\u201cPersonally Identifying Information\u201d). However, in the event that you discover any such Personally Identifying Information in the Data, you shall immediately notify the Center and refrain from using any such Personally Identifying Information. User further agrees not to (and will not allow other to) attempt to ascertain the identity of or derive information about individual survey respondents nor link the individual survey records contained in the Data with other data sets for the purpose of identifying individuals.\n\tB.\tUser shall maintain the Data as confidential, and will not use it, in any way nor disclose it to any third party, except as expressly permitted under this Agreement. User agrees, at its sole expense, to take reasonable precautions to protect the confidentiality of Data, at least as stringent as User takes to protect User\u2019s own confidential information, but in no case less than reasonable care.  The foregoing confidentiality obligations shall not apply to any information which: (a) is known to User prior to receipt from the Center other than as a result of User\u2019s breach of any legal obligation; (b) becomes known (independently of disclosure by the Center) to User directly or indirectly from a source having the legal right to disclose such information; (c) is or becomes publicly known, except through a breach of this Agreement by User; or (d) is required to be disclosed by User to comply with applicable laws or governmental regulations, provided that User gives the Center, to the extent practicable, reasonable prior written notice of such disclosure sufficient to permit the Center to contest such disclosure and User takes reasonable and lawful actions to avoid and\/or minimize the extent of such disclosure.  The parties agree that any breach of the confidentiality obligations of this Agreement by User will result in irreparable damage to the Center for which it will have no adequate remedy at law.  Therefore, it is agreed that the Center shall be entitled to equitable relief, including an injunction enjoining any such breach by any court of competent jurisdiction.  Such injunction shall be without prejudice to any other right or remedy to which the Center may be entitled, including but not limited to any damages resulting from User\u2019s breach of the confidentiality obligations under this Agreement.  Any failure or delay in exercising any right, power or privilege hereunder shall not operate as a waiver thereof, nor shall any single or partial exercise thereof preclude any other or further exercise thereof or the exercise of any right, power or privilege hereunder.\n\tC.\tUser will immediately notify the Center and cooperate with investigations, and provide any information reasonably requested by the Center if User knows of or suspects any breach of security or potential vulnerability of the Data and will promptly remedy such breach.\n\n\tIV.\tIndemnification. User shall indemnify and hold harmless the Center, its affiliates and related organizations, and each of their respective officers, directors, employees, legal representatives, agents, successors and assigns, from and against any damages, liabilities, costs and expenses (including reasonable attorneys\u2019 and professionals\u2019 fees and court costs arising out of any third-party claims based on (a) User\u2019s access or use of the Data; (b) any changes made by User to the Data in accordance with this Agreement; or (c) any breach by User of any of the terms and conditions of this Agreement.\n\n\tV.\tTermination. This license will terminate (1) automatically without notice from the Center if you fail to comply with the provisions of this Agreement or (2) immediately upon written notice (by e-mail or otherwise) from the Center. Upon termination of this Agreement, you agree to destroy all copies of any Data, in whole or in part and in any and all media, in your custody and control.\n\n\tVI.\tGoverning law. This Agreement shall be governed by, construed and interpreted in accordance with the laws of the District of Columbia. You further agree to submit to the jurisdiction and venue of the courts of the District of Columbia for any dispute relating to this Agreement.<\/textarea>\n\n\t\t\t\t<div class=\"required field\" style=\"margin-top: 1em\">\n\t\t\t\t\t<div class=\"ui checkbox\">\n\t\t\t\t\t\t<input type=\"checkbox\" tabindex=\"0\" name=\"acceptance\" data-validate=\"terms\">\n\t\t\t\t\t\t<label>I have read and abide by the conditions in this agreement<\/label>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\n\t\t\t\t<div class=\"ui secondary submit button flat\">Submit<\/div>\n\t\t\t<\/div>\n\t\t<\/div>\n\t<\/div>\n\t"</script><script>var siteURL = 'https://www.pewhispanic.org'; var siteID = 5;</script>	        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7PQHB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        
+
+<!-- START Parse.ly Include: Standard -->
+	<script data-cfasync="false">
+
+		function uuidProfileCall() {
+			var rootUrl = 'https://api.parsely.com/v2/profile?apikey=pewresearch.org';
+			var uuid = '&uuid=' + PARSELY.config.parsely_site_uuid;
+			var requestUrl = rootUrl + uuid + '&url=' + window.location.href;
+			jQuery.ajax({
+				url: requestUrl,
+				dataType: "jsonp"
+			});
+		}
+
+		if (typeof PARSELY == 'object') {
+			var oldonload = PARSELY.onload;
+			if (typeof PARSELY.onload != 'function') {
+				PARSELY.onload = uuidProfileCall
+			}
+			else {
+				PARSELY.onload = function () {
+					if (oldonload) {
+						oldonload();
+					}
+					uuidProfileCall();
+				};
+			}
+		}
+
+		else {
+			PARSELY = {
+				onload: uuidProfileCall
+			}
+		}
+	</script>
+
+<div id="parsely-root" style="display: none">
+	<div id="parsely-cfg" data-parsely-site="pewresearch.org"></div>
+</div>
+<script data-cfasync="false">
+	(function (s, p, d) {
+		var h = d.location.protocol, i = p + "-" + s,
+			e = d.getElementById(i), r = d.getElementById(p + "-root"),
+			u = h === "https:" ? "d1z2jf7jlzjs58.cloudfront.net"
+				: "static." + p + ".com";
+		if (e) return;
+		e = d.createElement(s);
+		e.id = i;
+		e.async = true;
+		e.setAttribute('data-cfasync', 'false');
+		e.src = h + "//" + u + "/p.js";
+		r.appendChild(e);
+	})("script", "parsely", document);
+</script>
+
+<!-- END Parse.ly Include: Standard -->
+	<script>
+	(function($) {
+    $.fn.changeElementType = function(newType) {
+        this.each(function() {
+            var attrs = {};
+
+            $.each(this.attributes, function(idx, attr) {
+               attrs[attr.nodeName] = attr.nodeValue;
+            });
+
+            $(this).replaceWith(function() {
+                return $("<" + newType + "/>", attrs).append($(this).contents());
+            });
+	});
+    };
+})(jQuery);
+	jQuery(document).ready(function(){
+		jQuery('.inner.toc ul > div.item').changeElementType('li');
+	});
+	</script>
+	    <script type="text/javascript">
+    var addthis_share = addthis_share || {}; addthis_share = {
+        passthrough : {
+            twitter: { title: "II. Mexican-American Fertility Patterns" }
+        }
+    }
+    </script>
+    		<div style="display:none">
+	</div>
+	<script>
+	//CrazyEgg
+	setTimeout(function(){var a=document.createElement("script");
+	var b=document.getElementsByTagName('script')[0];
+	a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0011/2177.js?"+Math.floor(new Date().getTime()/3600000);
+	a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+	</script>
+	<script type='text/javascript' src='https://www.pewhispanic.org/_static/??-eJytjrsOwjAMRX+IxGVAFQPiJ9hRG0xIlBe2Q8XfkwoQrEXYg4fjq3NhKsrkJJgETHDtqFhVCdW6xFBwUmzIFWEY84R0NDmWnNobw2mQtmNA1gkFPIO/VqS7nsHhCaJL2vMK/mVRhNwIuxvOwi/TByyXMhl4ORblmggkWxvwHfjNTXgejGSCC4aCNLfYx91606bru37rHwPun+c='></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201924'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var interactivesDBConfig = {"apiKey":"AIzaSyCrK2dKMxf9Fmhpym2M4dajfcKyMY4_MBA","databaseURL":"https:\/\/prc-app-prod-interactives.firebaseio.com","projectId":"prc-app-prod"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var appConfig = {"apiKey":"AIzaSyCrK2dKMxf9Fmhpym2M4dajfcKyMY4_MBA","authDomain":"prc-app-prod.firebaseapp.com","databaseURL":"https:\/\/prc-app-prod.firebaseio.com","projectId":"prc-app-prod"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.pewhispanic.org/_static/??-eJytkt1OwzAMhV+ILLAxJi4QF3sEHgC5rru5yh9xQsXb47J1IDSYEL2K7cSfT05ih2QwhkKhWHSsi/HVJFd3HMQmGoxg5lTENnGg/IzRpxj0mNiOMzUgdAoMpLTo5crOyWyhwBj8DSwZbaYOsMRsWTuyhvxK8k99FF6qKrMtS5mShefwHXsO1h/SnYsNuItNERmckT3oNBChA0C7Dttj3fRyDvP7lSaCXsrHcEnG5KEOZK9GoqstHYEEGfdftD0N3JW3RNuTXXORtb/jXc1QOM4m97NoamH3s9iMpgplA4ixjp+gqexaK0Xl4MejgJq46vCWutX9hDkN1wOakm+oPbr96B9u1nfXy81ys17173KNU5w='></script>
+    <div data-st-manage-conditionals></div>
+    <span data-st-defaults="articles_only"></span>
+    <div data-st-fix-misspelling="misspelling"></div>
+    <div data-st-simple-routing="routing"></div>
+    <script type='text/javascript' src='https://stats.wp.com/e-201924.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.4',blog:'151703645',post:'2686',tz:'-4',srv:'www.pewhispanic.org'} ]);
+	_stq.push([ 'clickTrackerInit', '151703645', '2686' ]);
+</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"40e18f227a","applicationID":"128711286","transactionName":"bldUMkpRXRVYVhJfXVcddwVMWVwIFkYPWFVVVw==","queueTime":0,"applicationTime":305,"atts":"QhBDRAJLTkobVEQMSURP","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>

@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9" lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 9]><!--><html lang="en-US" prefix="og: http://ogp.me/ns#"><!--<![endif]-->
+<head profile="http://gmpg.org/xfn/11" prefix="og: http://ogp.me/ns#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width">
+<title>Americans&#039; beliefs about the nature of God | Pew Research Center</title>
+<meta name="date" content="20180425">
+
+<link rel="alternate" type="application/rss+xml" title="Pew Research Center&#039;s Religion &amp; Public Life Project RSS Feed" href="https://www.pewforum.org/feed/">
+	<!--
+	#    _____                  _____                                     _        _____              _
+	#   |  __ \                |  __ \                                   | |      / ____|            | |
+	#   | |__) |___ __      __ | |__) | ___  ___   ___   __ _  _ __  ___ | |__   | |      ___  _ __  | |_  ___  _ __
+	#   |  ___// _ \\ \ /\ / / |  _  / / _ \/ __| / _ \ / _` || '__|/ __|| '_ \  | |     / _ \| '_ \ | __|/ _ \| '__|
+	#   | |   |  __/ \ V  V /  | | \ \|  __/\__ \|  __/| (_| || |  | (__ | | | | | |____|  __/| | | || |_|  __/| |
+	#   |_|    \___|  \_/\_/   |_|  \_\\___||___/ \___| \__,_||_|   \___||_| |_|  \_____|\___||_| |_| \__|\___||_|
+	#
+	#   Github: http://github.com/pewresearch
+	#   Version: 3.3.0	#
+	-->
+	
+<!-- This site is optimized with the Yoast SEO Premium plugin v9.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Nine-in-ten Americans believe in a higher power, but only a slim majority believe in God as described in the Bible."/>
+<link rel="canonical" href="https://www.pewforum.org/2018/04/25/when-americans-say-they-believe-in-god-what-do-they-mean/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Americans&#039; beliefs about the nature of God" />
+<meta property="og:description" content="Nine-in-ten Americans believe in a higher power, but only a slim majority believe in God as described in the Bible." />
+<meta property="og:url" content="https://www.pewforum.org/2018/04/25/when-americans-say-they-believe-in-god-what-do-they-mean/" />
+<meta property="og:site_name" content="Pew Research Center&#039;s Religion &amp; Public Life Project" />
+<meta property="article:publisher" content="https://www.facebook.com/pewresearch" />
+<meta property="article:section" content="Publications" />
+<meta property="article:published_time" content="2018-04-25T13:58:17+00:00" />
+<meta property="article:modified_time" content="2018-05-03T14:46:20+00:00" />
+<meta property="og:updated_time" content="2018-05-03T14:46:20+00:00" />
+<meta property="og:image" content="https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/PF_18.04.25_typologyBeliefsGod_featured.jpg" />
+<meta property="og:image:secure_url" content="https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/PF_18.04.25_typologyBeliefsGod_featured.jpg" />
+<meta property="og:image:width" content="640" />
+<meta property="og:image:height" content="320" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Nine-in-ten Americans believe in a higher power, but only a slim majority believe in God as described in the Bible." />
+<meta name="twitter:title" content="Americans&#039; beliefs about the nature of God " />
+<meta name="twitter:site" content="@PewReligion" />
+<meta name="twitter:image" content="https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/PF_18.04.25_typologyBeliefsGod_featured.jpg" />
+<meta name="twitter:creator" content="@PewReligion" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/www.pewforum.org\/","sameAs":["https:\/\/www.facebook.com\/pewresearch","https:\/\/www.linkedin.com\/company\/pew-research-center\/","https:\/\/www.youtube.com\/user\/PewResearchCenter","https:\/\/twitter.com\/PewReligion"],"@id":"https:\/\/www.pewforum.org\/#organization","name":"Pew Research Center","logo":""}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//use.typekit.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='all-css-0' href='https://www.pewforum.org/_static/??-eJyFj91uwjAMRl+I1IOJlZuJl+AetanprDk/st1VfXtSGAKpCJSLxM75dGwYs/MpGkYD+8GAChlHd0oyBPB6qQSZekqxKvUK3gWUYs+4YD1TuVwYXOahp3iNqRfKptCmEeXoU8gpFkyha6ycllGriOYEtfwo/aHr7KK5d6qZPVzZQMspX5tPxIbi/l23LEXPQ1d2m1UdqUHLyf86plYamUBtKjs+s90cpZUbUeTp4TnT+/C93n59bOpNvfs8A9X0kHU=' type='text/css' media='all' />
+<link rel='stylesheet' id='typekit-css'  href='https://use.typekit.net/xos5dbo.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-2' href='https://www.pewforum.org/_static/??-eJyVj80OgkAMhF/ItUKAcDE+iimlyir7k203vL4g6kFjord2ZvplClM0FLyyV4hjPlsvEHkyiU9IGpKRwTpAEVYBktWkkHjrrN/OwgZ+InRh4nSk4GLwc1JA2KFXS9Bb0df2B9F6GnPPqyWMiYb3nqv6nZnIZOFkkCjkpVSX7diDKC7FForD+UvmpiqRqg+Qy+bJurBGpOv96DEv8YPbF3WzK4u2bOsb20WH6w==' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-2' href='https://www.pewforum.org/wp-content/themes/pew-forum/css/print.css?m=1560218285g' type='text/css' media='print' />
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
+<script type='text/javascript' src='https://www.pewforum.org/_static/??-eJyNjEEOwjAMBD9EalqpqBfEU1AIBlxhO8q6yvfpAXHmuKOZpV5TcQu2oPrenmKgyj01fuQS3hJeopQBDlDjnQ0qNqw40F/lzTu3a3GtbrsJAmu2kEJ3QfzW9/Si53E+HadxmZZ5/QBCiDny'></script>
+<link rel='https://api.w.org/' href='https://www.pewforum.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.pewforum.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.pewforum.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.1" />
+<link rel='shortlink' href='https://www.pewforum.org/?p=29637' />
+<link rel="alternate" type="application/json+oembed" href="https://www.pewforum.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.pewforum.org%2F2018%2F04%2F25%2Fwhen-americans-say-they-believe-in-god-what-do-they-mean%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.pewforum.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.pewforum.org%2F2018%2F04%2F25%2Fwhen-americans-say-they-believe-in-god-what-do-they-mean%2F&#038;format=xml" />
+<link rel='alternate' type='application/json' title='JSON Representation' href='https://www.pewforum.org/2018/04/25/when-americans-say-they-believe-in-god-what-do-they-mean//feed/json/'><link rel='alternate' type='text/plain' title='Prism XML Version' href='https://www.pewforum.org/2018/04/25/when-americans-say-they-believe-in-god-what-do-they-mean//feed/prism/'><link rel='alternate' type='text/plain' title='Plain Text Version' href='https://www.pewforum.org/2018/04/25/when-americans-say-they-believe-in-god-what-do-they-mean//feed/plain/'><meta name='robots' content='NOODP' />
+
+<!-- Begin Taxonomy Meta -->
+<meta name='category' content='Publications'>
+<meta name='category' content='Polling and Analysis'>
+<meta name='category' content='Multi-section reports'>
+<meta name='topics' content='Catholics and Catholicism'>
+<meta name='topics' content='Christians and Christianity'>
+<meta name='topics' content='Muslims and Islam'>
+<meta name='topics' content='Religion and Society'>
+<meta name='topics' content='Religious Affiliation'>
+<meta name='topics' content='Religious Beliefs and Practices'>
+<meta name='topics' content='Jews and Judaism'>
+<meta name='topics' content='Religiously Unaffiliated'>
+<meta name='topics' content='Buddhists and Buddhism'>
+<!-- End Taxonomy Meta --><meta name="content-type" content="Report">
+<!-- / HREFLANG Tags by DCGWS -->
+<!-- / HREFLANG Tags by DCGWS -->
+    <!-- Begin comScore Tag -->
+    <script>
+		var _comscore = _comscore || [];
+		_comscore.push({ c1: "2", c2: "19750649" });
+		(function() {
+			var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+			s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+			el.parentNode.insertBefore(s, el);
+		})();
+    </script>
+    <noscript>
+        <img src="http://b.scorecardresearch.com/p?c1=2&c2=19750649&cv=2.0&cj=1" />
+    </noscript>
+    <!-- End comScore Tag -->
+    	<meta name='parsely-metadata' content='{"project": "Religion"}'>
+	<script>var chart = [];</script>        <!-- GTM Data Layer -->
+        <script>
+			dataLayer = [];
+        </script>
+        <!-- Cross Domain GTM -->
+				
+        <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MVFJNW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MVFJNW');
+        </script>
+        <!-- End Google Tag Manager -->
+
+    
+                        <!-- Site Specific GTM -->
+        <!-- Google Tag Manager -->
+        <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-N8242V9');
+        </script>
+        <!-- End Google Tag Manager -->
+        <!--[if lt IE 9]><script src="https://www.pewforum.org/wp-content/plugins/pew-scripts/js/html5shiv-printshiv.min.js"></script><![endif]-->
+<meta property="share:appID:fb" content="686513701498767">
+<!-- BEGIN wp-parsely Plugin Version 1.14 -->
+<meta name="wp-parsely_version" id="wp-parsely_version" content="1.14"/>
+			<script type="application/ld+json">
+		{"@context":"http:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/www.pewforum.org\/2018\/04\/25\/when-americans-say-they-believe-in-god-what-do-they-mean\/"},"headline":"When Americans Say They Believe in God, What Do They Mean?","url":"http:\/\/www.pewforum.org\/2018\/04\/25\/when-americans-say-they-believe-in-god-what-do-they-mean\/","thumbnailUrl":"https:\/\/www.pewforum.org\/wp-content\/uploads\/sites\/7\/2018\/04\/PF_18.04.25_typologyBeliefsGod_featured.jpg?w=150&h=150&crop=1","image":{"@type":"ImageObject","url":"https:\/\/www.pewforum.org\/wp-content\/uploads\/sites\/7\/2018\/04\/PF_18.04.25_typologyBeliefsGod_featured.jpg?w=150&h=150&crop=1"},"dateCreated":"2018-04-25T13:58:17Z","datePublished":"2018-04-25T13:58:17Z","dateModified":"2018-04-25T13:58:17Z","articleSection":"Polling and Analysis","author":[],"creator":[],"keywords":[],"publisher":{"@type":"Organization","name":"Pew Research Center&#039;s Religion &amp; Public Life Project","logo":{"@type":"ImageObject","url":"https:\/\/www.pewforum.org\/wp-content\/uploads\/sites\/7\/2018\/09\/favicon_128x128.png"}}}
+		</script>
+
+			<!-- END wp-parsely Plugin Version 1.14 -->
+    <style>
+    .pullquote > div:before,
+    .pullquote > div:after {
+        color: ;
+    }
+    .chapter-title .honkin-number {
+        color: ;
+    }
+    </style>
+    <meta name='theme-color' content='#4FA9CE'>
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<style type='text/css'>img#wpstats{display:none}</style><link rel="icon" href="https://www.pewforum.org/wp-content/uploads/sites/7/2018/09/favicon_128x128.png?w=32" sizes="32x32" />
+<link rel="icon" href="https://www.pewforum.org/wp-content/uploads/sites/7/2018/09/favicon_128x128.png?w=128" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.pewforum.org/wp-content/uploads/sites/7/2018/09/favicon_128x128.png?w=128" />
+<meta name="msapplication-TileImage" content="https://www.pewforum.org/wp-content/uploads/sites/7/2018/09/favicon_128x128.png?w=128" />
+</head>
+<!--googleoff: index-->
+<body class="post-template-default single single-post group-blog singular no-js religion multi-section-report multi-section-parent project pewforum">
+
+	    <div id="js-tophat" class="tophat">
+        <div class="container xl">
+            <div class="flex">
+                <p>Numbers, Facts and Trends Shaping Your World</p>
+                <p>
+                    <a href="https://www.pewresearch.org/about">About</a>
+                    <a href="https://www.pewresearch.org/follow-us">Follow</a>
+                    		<div class="ui dropdown item">
+			My Account
+			<i class="dropdown icon"></i>
+			<div class="menu">
+				<a href="https://www.pewresearch.org/profile" class="item is-logged-out">Log in</a>
+				<a href="https://www.pewresearch.org/profile" class="item is-logged-in">View Account</a>
+				<a id="js-prc-logout" class="item is-logged-in">Log out</a>
+			</div>
+		</div>
+		<style>
+		body.external-user-signed-in .is-logged-out {
+			display: none!important;
+		}
+		body:not(.external-user-signed-in) .is-logged-in {
+			display: none!important;
+		}
+		</style>
+		                    <div><a href='https://pewresearch.networkforgood.com/?utm_source=PewForum&utm_medium=InternalPromo&utm_campaign=TopDonateButton' class='tophat-button'>Donate</a></div>                </p>
+            </div>
+        </div>
+    </div>
+
+    <header id="masthead" class="site-header" role="banner">
+        <div class="container xl">
+            <div class="site-branding">
+                <a href="https://www.pewresearch.org/" class="logo" rel="home"><img src="https://www.pewforum.org/wp-content/plugins/pew-refactor-shim/assets/img/logos/desktop-header.svg" alt="Pew Research Center"></a>
+                <p class='project religion site-description label'>Religion &amp; Public Life</p>                
+    <div id="quick_search_form">
+        <div data-st-search-form="search_form"></div>
+    </div>
+                    <ul id="js-mobile-menu-tabs" class="flex flex-list">
+                    <li data-target-state="false"><a href="javascript:void(0)" data-target-menu="#js-site-menu" class="religion bg">Menu</a></li>
+                                        <li data-target-state="false"><a href="javascript:void(0)" data-target-menu="#js-verticals-menu">Research Areas</a></li>
+                </ul>
+            </div><!-- /.site-branding -->
+
+            <nav id="js-verticals-menu" role="navigation">
+                <ul class="navigation verticals-menu flex flex-list">
+                    <li><a href="https://www.pewresearch.org" class="pewresearch">Home</a></li><li><a href="https://www.people-press.org" class="politics">U.S. Politics</a></li><li><a href="https://www.journalism.org" class="journalism">Media &amp; News</a></li><li><a href="https://www.pewsocialtrends.org" class="social-trends">Social Trends</a></li><li><a href="https://www.pewforum.org" class="religion">Religion</a></li><li><a href="https://www.pewinternet.org" class="internet">Internet &amp; Tech</a></li><li><a href="https://www.pewresearch.org/science" class="science">Science</a></li><li><a href="http://www.pewhispanic.org" class="hispanic">Hispanics</a></li><li><a href="https://www.pewglobal.org" class="global">Global</a></li><li><a href="//www.pewresearch.org/methods" class="methods">Methods</a></li>                </ul>
+            </nav><!-- /#verticals-menu -->
+        </div>
+    </header><!-- /#masthead -->
+
+    <div id="js-site-menu-container" class="container xl">
+        <nav id="js-site-menu" class="religion bg"><ul id="site-navigation" class="navigation site-menu flex flex-list "><li id="menu-item-7218" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-7218"><a href="https://www.pewforum.org/category/publications/">Publications</a></li>
+<li id="menu-item-17835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17835"><a href="https://www.pewforum.org/topics/">Topics</a></li>
+<li id="menu-item-13139" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13139"><a href="https://www.pewforum.org/category/interactives/">Interactives</a></li>
+<li id="menu-item-15291" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15291"><a href="https://www.pewforum.org/data/">Data and Resources</a></li>
+<li id="menu-item-22417" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22417"><a href="https://www.pewresearch.org/areas-of-expertise/religion/">Experts</a></li>
+</ul></nav>    </div>
+    	<!--Begin Main Holder--><div class="holder">
+<div id="banner"><p class="meta"><a href="https://www.pewforum.org/category/publications/polling-and-analysis/" title="Polling and Analysis">Polling and Analysis</a></p></div>
+<div id="content" role="main" class="content">
+
+<div class="ui text menu social share-tools">			<div class="item fb-pew-share" fb-share-url="https://pewrsr.ch/2KgdDHQ" fb-share-description=""><i class="facebook icon"></i></div>
+			<a href="" class="item twtr-pew-share" twtr-share-url="https://pewrsr.ch/2KgdDHQ" twtr-share-description="When Americans Say They Believe in God, What Do They Mean?"><i class="twitter icon"></i></a>
+			<a href="" class="item linkedin-pew-share" linkedin-share-url="https://pewrsr.ch/2KgdDHQ" linkedin-share-description=""><i class="linkedin square icon"></i></a>
+			<a href="javascript:window.print();" class="item"><i class="print icon"></i></a>
+		</div><div class="meta"><span class="date" data-datetime="April 25, 2018">April 25, 2018</span></div>
+    <h1>When Americans Say They Believe in God, What Do They Mean?</h1>
+    <p class="subhead">Nine-in-ten Americans believe in a higher power, but only a slim majority believe in God as described in the Bible</p>
+<div class="text ">
+	<figure class="image-box alignnone has-caption"><a rel="attachment wp-att-29676"><img class="wp-photo wp-image-29676 size-full" src="https://www.pewresearch.org/wp-content/uploads/sites/7/2018/04/PF_18.04.25_typologyBeliefsGod_featured.jpg" alt="" width="640" height="320" data-attachid="29676" srcset="https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/PF_18.04.25_typologyBeliefsGod_featured.jpg 640w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/PF_18.04.25_typologyBeliefsGod_featured.jpg?resize=300,150 300w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/PF_18.04.25_typologyBeliefsGod_featured.jpg?resize=160,80 160w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/PF_18.04.25_typologyBeliefsGod_featured.jpg?resize=200,100 200w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/PF_18.04.25_typologyBeliefsGod_featured.jpg?resize=260,130 260w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/PF_18.04.25_typologyBeliefsGod_featured.jpg?resize=310,155 310w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/PF_18.04.25_typologyBeliefsGod_featured.jpg?resize=420,210 420w" sizes="(max-width: 640px) 100vw, 640px" /></a><div class="image-meta"><span class="photo-caption">(Bettmann/GettyImages)</div></figure>
+<p>Previous <a href="https://www.pewforum.org/2015/11/03/u-s-public-becoming-less-religious/">Pew Research Center studies</a> have shown that the share of Americans who believe in God with absolute certainty has declined in recent years, while the share saying they have doubts about God’s existence – or that they do not believe in God at all – has grown.</p>
+<p>These trends raise a series of questions: When respondents say they don’t believe in God, what are they rejecting? Are they rejecting belief in any higher power or spiritual force in the universe? Or are they rejecting only a traditional Christian idea of God – perhaps recalling images of a bearded man in the sky? Conversely, when respondents say they <em>do</em> believe in God, what do they believe in – God as described in the Bible, or some other spiritual force or supreme being?</p>
+<a class="image-box" href="https://www.pewforum.org/2018/04/25/when-americans-say-they-believe-in-god-what-do-they-mean/04-25-18_beliefingod-00-00/" rel="attachment wp-att-29646"><img class="wp-photo aligncenter wp-image-29646 size-full" src="https://www.pewresearch.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-00.png" alt="" width="639" height="445" data-attachid="29646" srcset="https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-00.png 639w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-00.png?resize=300,209 300w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-00.png?resize=160,111 160w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-00.png?resize=582,405 582w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-00.png?resize=200,139 200w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-00.png?resize=260,181 260w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-00.png?resize=310,216 310w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-00.png?resize=420,292 420w" sizes="(max-width: 639px) 100vw, 639px" /></a>
+<p>A new Pew Research Center survey of more than 4,700 U.S. adults finds that one-third of Americans say they do <em>not</em> believe in the God of the Bible, but that they do believe there is some other higher power or spiritual force in the universe. A slim majority of Americans (56%) say they believe in God “as described in the Bible.” And one-in-ten do not believe in any higher power or spiritual force.</p>
+<p>In the U.S., belief in a deity is common even among the religiously unaffiliated – a group composed of those who identify themselves, religiously, as atheist, agnostic or “nothing in particular,” and sometimes referred to, collectively, as religious “nones.” Indeed, nearly three-quarters of religious “nones” (72%) believe in a higher power of some kind, even if not in God as described in the Bible.</p>
+<p>The survey questions that mention the Bible do not specify any particular verses or translations, leaving that up to each respondent’s understanding. But it is clear from questions elsewhere in the survey that Americans who say they believe in God “as described in the Bible” generally envision an all-powerful, all-knowing, loving deity who determines most or all of what happens in their lives. By contrast, people who say they believe in a “higher power or spiritual force” – but <em>not</em> in God as described in the Bible – are much less likely to believe in a deity who is omnipotent, omniscient, benevolent and active in human affairs.</p>
+<p><a class="image-box" href="https://www.pewforum.org/2018/04/25/when-americans-say-they-believe-in-god-what-do-they-mean/04-25-18_beliefingod-00-01/" rel="attachment wp-att-29647"><img class="wp-photo alignright size-full wp-image-29647" src="https://www.pewresearch.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-01.png" alt="" width="417" height="613" data-attachid="29647" srcset="https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-01.png 417w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-01.png?resize=204,300 204w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-01.png?resize=160,235 160w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-01.png?resize=276,405 276w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-01.png?resize=200,294 200w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-01.png?resize=260,382 260w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-01.png?resize=310,456 310w" sizes="(max-width: 417px) 100vw, 417px" /></a>Overall, about half of Americans (48%) say that God or another higher power directly determines what happens in their lives all or most of the time. An additional 18% say God or some other higher power determines what happens to them “just some of the time.”</p>
+<p>Nearly eight-in-ten U.S. adults think God or a higher power has protected them, and two-thirds say they have been rewarded by the Almighty. By comparison, somewhat fewer see God as judgmental and punitive. Six-in-ten Americans say God or a higher power will judge all people on what they have done, and four-in-ten say they have been punished by God or the spiritual force they believe is at work in the universe.</p>
+<p>In addition, the survey finds that three-quarters of American adults say they try to talk to God (or another higher power in the universe), and about three-in-ten U.S. adults say God (or a higher power) talks back. The survey also asked, separately, about rates of prayer. People who pray on a regular basis are especially likely to say that they speak to God and that God speaks to them. But the survey shows that praying and talking to God are not fully interchangeable. For example, four-in-ten people (39%) who say they seldom or never pray nonetheless report that they talk to God.</p>
+<p>These are among the key findings of the new survey, conducted Dec. 4 to 18, 2017, among 4,729 participants in Pew Research Center’s nationally representative American Trends Panel, with an overall margin of sampling error for the full survey of plus or minus 2.3 percentage points. (For more details, see the <a href="https://www.pewforum.org/2018/04/25/methodology-19/">Methodology</a>.)</p>
+<p>To explore the U.S. public’s beliefs about God, the survey first asked, simply: “Do you believe in God, or not?”</p>
+<p>Those who said “yes” – 80% of all respondents – received a follow-up question asking them to clarify whether they believe in “God as described in the Bible” or they “do not believe in God as described in the Bible, but do believe there is some other higher power or spiritual force in the universe.” Most people in this group – indeed, a slim majority of all Americans (56%) – say they believe in God as described in the Bible.</p>
+<p><a class="image-box" href="https://www.pewforum.org/2018/04/25/when-americans-say-they-believe-in-god-what-do-they-mean/04-25-18_beliefingod-00-02/" rel="attachment wp-att-29648"><img class="wp-photo alignright size-full wp-image-29648" src="https://www.pewresearch.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-02.png" alt="" width="415" height="426" data-attachid="29648" srcset="https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-02.png 415w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-02.png?resize=292,300 292w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-02.png?resize=160,164 160w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-02.png?resize=395,405 395w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-02.png?resize=200,205 200w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-02.png?resize=260,267 260w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-02.png?resize=310,318 310w" sizes="(max-width: 415px) 100vw, 415px" /></a>Those who answered the first question by saying that they do <em>not</em> believe in God (19% of all respondents) also received a follow-up question. They were asked to clarify whether they “do not believe in God as described in the Bible, but do believe there is some other higher power or spiritual force in the universe” or, on the contrary, they “do not believe there is ANY higher power or spiritual force in the universe.” Of this group, about half (10% of U.S. adults) say they do not believe in a higher power or spiritual force of any kind.</p>
+<p>All told, one-third of respondents ultimately say that although they do not believe in the God of the Bible, they do believe in a higher power or spiritual force of some kind – including 23% who initially said they believe in God and 9% who initially said they do <em>not</em> believe in God.<br />
+<div class="ui callout callout-wide shortcode-collapsible"></p>
+<a class="toc-anchor" name="a-note-on-trends-in-belief-in-god"></a><a class="toc-anchor" name="a-note-on-trends-in-belief-in-god"></a><div class="ui collapsed"><h4 class="collapsible-title"><i class="dropdown icon"></i>A note on trends in belief in God</h4></div><div class="content" style="display:none;">
+<p>Many surveys, stretching back decades, have included questions that ask respondents about belief in God. For example, the General Social Survey, conducted by NORC at the University of Chicago, has regularly asked the public whether they believe in God, providing six response options ranging from “I don’t believe in God” to “I know God really exists and I have no doubts about it.” Since 1976, Gallup has <a href="http://news.gallup.com/poll/193271/americans-believe-god.aspx">regularly asked</a> Americans whether they “believe in God or a universal spirit.” Researchers have explored how Americans conceive of God (see, for example, “<a href="https://global.oup.com/academic/product/americas-four-gods-9780190248857?cc=us&amp;lang=en&amp;">America’s Four Gods: What We Say About God – And What That Says About Us</a>,” by sociologists Paul Froese and Christopher Bader), the degree of certitude with which they hold these beliefs, and much more.</p>
+<p>Why, then, is this an opportune moment for a new survey exploring American beliefs about God?</p>
+<p>Simply put, the U.S. is in the midst of significant religious change. The share of Americans who identify with Christianity is declining, while the share of Americans who say they have no religion (including self-described atheists, agnostics, and those who identify, religiously, as “nothing in particular”) is <a href="https://www.pewforum.org/2015/05/12/americas-changing-religious-landscape/">growing rapidly</a>. Surveys also show that the percentage of Americans who believe in God has <a href="https://www.pewforum.org/2015/11/03/chapter-1-importance-of-religion-and-religious-beliefs/">ticked downward</a> in recent years. In Pew Research Center’s 2007 Religious Landscape Study, for example, 92% of U.S. adults said “yes” when asked if they believe in “God or a universal spirit.” When the study was repeated in 2014, the share who said they believe in God had slipped to 89%. Over the same period, the share of Americans who said they believe in God with absolute certainty declined even more sharply (from 71% in 2007 to 63% in 2014).</p>
+<p>These trends raise a variety of questions. When Americans say they do not believe in God, what are they rejecting, exactly?  Is it just the <em>number</em> of Americans who believe in God that is changing, or are the underlying beliefs and <em>conceptions</em> of God changing, too? How many Americans today view God as an all-powerful being who continually intercedes in their lives, handing out punishments or rewards? And how many believe in some other kind of spiritual force (one that may, for example, be less judgmental or less active in human affairs)?</p>
+<p>The current survey includes many new questions designed to begin to address these issues. One thing the new survey <em>cannot </em>do, however, is provide a direct indication of how beliefs about God have changed in recent years. There are a couple of reasons for this. First, the wording of many questions in the new survey is different from the wording of questions in previous Pew Research Center surveys. Second, the mode in which the new survey was administered (online) differs from the mode in which previous Pew Research Center surveys were conducted (telephone). For both reasons, making direct comparisons with previous surveys to measure change over time is not possible.</p>
+<p>Nevertheless, the new survey can help illuminate how Americans conceive of God at this particular moment in time and also set a baseline for future studies that may be able to go further toward establishing how and why beliefs about God are changing over time.<br />
+</div></div></p>
+<p><a class="image-box" href="https://www.pewforum.org/2018/04/25/when-americans-say-they-believe-in-god-what-do-they-mean/04-25-18_beliefingod-00-03/" rel="attachment wp-att-29649"><img class="wp-photo alignright size-full wp-image-29649" src="https://www.pewresearch.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-03.png" alt="" width="423" height="520" data-attachid="29649" /></a>When asked additional questions about what they believe God or another higher power in the universe is like, those who believe in God as described in the Bible and those who believe in another kind of higher power or spiritual force express substantially different views. Simply put, those who believe in the God of the Bible tend to perceive a more powerful, knowing, benevolent and active deity.</p>
+<p>For instance, nearly all adults who say they believe in the God of the Bible say they think God loves all people regardless of their faults, and that God has protected them. More than nine-in-ten people who believe in the biblical God envisage a deity who knows everything that goes on in the world, and nearly nine-in-ten say God has rewarded them, and has the power to direct or change everything that happens in the world.</p>
+<p>Far fewer people who believe in some other higher power or spiritual force (but not the God of the Bible) ascribe these attributes and actions to that higher power. Still, even among this group, half or more say they believe another higher power in the universe loves all people (69%), is omniscient (53%), has protected them (68%) and rewarded them (53%).</p>
+<p>Belief in God as described in the Bible is most pronounced among U.S. Christians. Overall, eight-in-ten self-identified Christians say they believe in the God of the Bible, while one-in-five do not believe in the biblical description of God but do believe in a higher power of some kind. Very few self-identified Christians (just 1%) say they do not believe in any higher power at all.</p>
+<p>Compared with Christians, Jews and people with no religious affiliation are much more likely to say they do not believe in God or a higher power of any kind. Still, big majorities in both groups <em>do</em> believe in a deity (89% among Jews, 72% among religious “nones”), including 56% of Jews and 53% of the religiously unaffiliated who say they do not believe in the God of the Bible but do believe in some other higher power of spiritual force in the universe. (The survey did not include enough interviews with Muslims, Buddhists, Hindus or respondents from other minority religious groups in the United States to permit separate analysis of their beliefs.)</p>
+<a class="image-box" href="https://www.pewforum.org/2018/04/25/when-americans-say-they-believe-in-god-what-do-they-mean/04-25-18_beliefingod-00-04/" rel="attachment wp-att-29650"><img class="wp-photo aligncenter size-full wp-image-29650" src="https://www.pewresearch.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-04.png" alt="" width="638" height="487" data-attachid="29650" srcset="https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-04.png 638w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-04.png?resize=300,229 300w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-04.png?resize=160,122 160w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-04.png?resize=531,405 531w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-04.png?resize=200,153 200w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-04.png?resize=260,198 260w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-04.png?resize=310,237 310w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-04.png?resize=420,321 420w" sizes="(max-width: 638px) 100vw, 638px" /></a>
+<p>When asked about a variety of possible attributes or characteristics of God, U.S. Christians by and large paint a portrait that reflects common Christian teachings about God. For instance, 93% of Christians believe God (or another higher power in the universe) loves all people, regardless of their faults. Nearly nine-in-ten (87%) say that God knows everything that happens in the world. And about eight-in-ten (78%) believe God has the power to direct or change everything that goes on in the world. In total, three-quarters of U.S. Christians believe that God possesses all three of these attributes – that the deity is loving, omniscient and omnipotent.</p>
+<p>However, the survey finds sizable differences in the way various Christian subgroups perceive God. For example, while nine-in-ten of those in the historically black Protestant (92%) and evangelical (91%) traditions say they believe in God as described in the Bible, smaller majorities of mainline Protestants and Catholics say they have faith in the biblical God.<sup class="footnote"><a href="#fn-29637-1" id="fnref-29637-1">1</a></sup> Sizable minorities of Catholics (28%) and mainline Protestants (26%) say they believe in a higher power or spiritual force, but <em>not</em> in God as described in the Bible.</p>
+<a class="image-box" href="https://www.pewforum.org/2018/04/25/when-americans-say-they-believe-in-god-what-do-they-mean/04-25-18_beliefingod-00-05/" rel="attachment wp-att-29651"><img class="wp-photo aligncenter size-full wp-image-29651" src="https://www.pewresearch.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-05.png" alt="" width="640" height="355" data-attachid="29651" srcset="https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-05.png 640w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-05.png?resize=300,166 300w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-05.png?resize=160,89 160w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-05.png?resize=200,111 200w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-05.png?resize=260,144 260w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-05.png?resize=310,172 310w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-05.png?resize=420,233 420w" sizes="(max-width: 640px) 100vw, 640px" /></a>
+<p>Similarly, while about nine-in-ten adherents in the historically black Protestant tradition (91%) and evangelicals (87%) believe that God is all-loving, all-knowing and all-powerful, just six-in-ten Catholics and mainline Protestants say God possesses all three attributes.</p>
+<p>Evangelicals and those in the historically black Protestant tradition are also more likely than members of other major U.S. Christian traditions to say that God has personally protected, rewarded and punished them. But across all subgroups, Christians are far more likely to say God has protected and rewarded them than to say God has punished them. (See <a href="https://www.pewforum.org/2018/04/25/2-beliefs-about-gods-involvement-in-the-world/">Chapter 2</a> for details.)</p>
+<a class="toc-anchor" name="religious-nones-are-divided-in-their-views-about-god"></a><a class="toc-anchor" name="religious-nones-are-divided-in-their-views-about-god"></a><h3><a name="_Toc511737077"></a>Religious ‘nones’ are divided in their views about God</h3>
+<p>Seven-in-ten religiously unaffiliated adults believe in a higher power of some kind, including 17% who say they believe in God as described in the Bible and 53% who believe in some other form of higher power or spiritual force in the universe. Roughly one-quarter of religious “nones” (27%) say they do not believe in a higher power of any kind. But there are stark differences based on how, exactly, members of this group describe their religious identity.</p>
+<p>None of the survey respondents who describe themselves as atheists believe in God as described in the Bible. About one-in-five, however, do believe in some other kind of higher power or spiritual force in the universe (18%). Roughly eight-in-ten self-described atheists (81%) say they do not believe in a higher power of any kind.</p>
+<a class="image-box" href="https://www.pewforum.org/?attachment_id=29652" rel="attachment wp-att-29652"><img class="wp-photo aligncenter size-full wp-image-29652" src="https://www.pewresearch.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-06.png" alt="" width="640" height="432" data-attachid="29652" srcset="https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-06.png 640w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-06.png?resize=300,203 300w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-06.png?resize=160,108 160w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-06.png?resize=600,405 600w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-06.png?resize=200,135 200w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-06.png?resize=260,176 260w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-06.png?resize=310,209 310w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-06.png?resize=420,284 420w" sizes="(max-width: 640px) 100vw, 640px" /></a>
+<p>Self-described agnostics look very different from atheists on this question. While very few agnostics (3%) say they believe in God as described in the Bible, a clear majority (62%) say they believe in some other kind of spiritual force. Just three-in-ten say there is no higher power in the universe.</p>
+<p>Respondents who describe their religion as “nothing in particular” are even more likely to express belief in a deity; nine-in-ten take this position, mirroring the U.S. public overall in this regard. While most people in this “nothing in particular” group believe in a spiritual force other than the biblical God (60%), a sizable minority (28%) say they do believe in God as described in the Bible.</p>
+<a class="toc-anchor" name="young-people-less-inclined-to-claim-belief-in-biblical-god"></a><a class="toc-anchor" name="young-people-less-inclined-to-claim-belief-in-biblical-god"></a><h3><a name="_Toc511737078"></a>Young people less inclined to claim belief in biblical God</h3>
+<p><a class="image-box" href="https://www.pewforum.org/?attachment_id=29653" rel="attachment wp-att-29653"><img class="wp-photo size-full wp-image-29653 alignright" src="https://www.pewresearch.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-07.png" alt="" width="420" height="499" data-attachid="29653" srcset="https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-07.png 420w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-07.png?resize=253,300 253w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-07.png?resize=160,190 160w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-07.png?resize=341,405 341w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-07.png?resize=200,238 200w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-07.png?resize=260,309 260w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-07.png?resize=310,368 310w" sizes="(max-width: 420px) 100vw, 420px" /></a>Majorities in all adult age groups say they believe in God or some other higher power, ranging from 83% of those ages 18 to 29 to 96% of those ages 50 to 64. But young adults are far less likely than their older counterparts to say they believe in God as described in the Bible. Whereas roughly two-thirds of adults ages 50 and older say they believe in the biblical God, just 49% of those in their 30s and 40s and just 43% of adults under 30 say the same. A similar share of adults ages 18 to 29 say they believe in another higher power (39%).</p>
+<p>The survey also shows that, compared with older adults, those under age 50 generally view God as less powerful and less involved in earthly affairs than do older Americans. At the same time, however, young adults are somewhat <em>more</em> likely than their elders to say they believe that they personally have been punished by God or a higher power in the universe.</p>
+<a class="toc-anchor" name="highly-educated-americans-less-likely-to-believe-in-god-of-the-bible"></a><a class="toc-anchor" name="highly-educated-americans-less-likely-to-believe-in-god-of-the-bible"></a><h3><a name="_Toc511737079"></a>Highly educated Americans less likely to believe in God of the Bible</h3>
+<p>Among U.S. adults with a high school education or less, fully two-thirds say they believe in God as described in the Bible. Far fewer adults who have obtained some college education say they believe in God as described in the Bible (53%). And among college graduates, fewer than half (45%) say they believe in the biblical God.</p>
+<p>The data also show that, compared with those with lower levels of educational attainment, college graduates are less likely to believe that God (or another higher power in the universe) is active and involved in the world and in their personal lives. For instance, while roughly half of college graduates (54%) say they have been rewarded by God, two-thirds of those with some college education (68%) and three-quarters of those with a high school education or less (75%) say this. And just one-third of college graduates say God determines all or most of what happens in their lives, far below the share who say this among those with less education.</p>
+<a class="image-box" href="https://www.pewforum.org/?attachment_id=29654" rel="attachment wp-att-29654"><img class="wp-photo aligncenter size-full wp-image-29654" src="https://www.pewresearch.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-08.png" alt="" width="638" height="704" data-attachid="29654" srcset="https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-08.png 638w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-08.png?resize=272,300 272w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-08.png?resize=160,177 160w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-08.png?resize=367,405 367w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-08.png?resize=200,221 200w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-08.png?resize=260,287 260w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-08.png?resize=310,342 310w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-08.png?resize=420,463 420w" sizes="(max-width: 638px) 100vw, 638px" /></a>
+<a class="toc-anchor" name="republicans-and-democrats-have-very-different-beliefs-about-the-divine"></a><a class="toc-anchor" name="republicans-and-democrats-have-very-different-beliefs-about-the-divine"></a><h3><span class="Heading3Char">Republicans and Democrats have very different beliefs about the divine</span></h3>
+<p><a class="image-box" href="https://www.pewforum.org/2018/04/25/when-americans-say-they-believe-in-god-what-do-they-mean/04-25-18_beliefingod-00-09/" rel="attachment wp-att-29655"><img class="wp-photo alignright size-full wp-image-29655" src="https://www.pewresearch.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-09.png" alt="" width="420" height="423" data-attachid="29655" srcset="https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-09.png 420w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-09.png?resize=150,150 150w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-09.png?resize=298,300 298w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-09.png?resize=160,161 160w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-09.png?resize=100,100 100w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-09.png?resize=402,405 402w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-09.png?resize=75,75 75w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-09.png?resize=140,140 140w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-09.png?resize=200,201 200w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-09.png?resize=260,262 260w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-09.png?resize=310,312 310w" sizes="(max-width: 420px) 100vw, 420px" /></a>Republicans and Democrats have very different notions about God. Among Republicans and those who lean toward the GOP, seven-in-ten say they believe in God as described in the Bible. Democrats and those who lean Democratic, by contrast, are far less likely to believe in God as described in the Bible (45%), and are more likely than Republicans to believe in another kind of higher power (39% vs. 23%). Democrats also are more likely than Republicans to say they do not believe in any higher power or spiritual force in the universe (14% vs. 5%).</p>
+<p>Additionally, while 85% of Republicans believe God loves all people, eight-in-ten believe God is all-knowing, and seven-in-ten believe God is all-powerful; Democrats are less likely to express each of these views. Two-thirds of Republicans say they believe God possesses all three of these attributes, compared with roughly half of Democrats (49%). Republicans also are more likely than Democrats to say God has protected, rewarded or punished them (see <a href="https://www.pewforum.org/2018/04/25/2-beliefs-about-gods-involvement-in-the-world/">Chapter 2</a>).</p>
+<p>Among Democrats, the survey finds big differences between whites and nonwhites in views about God. Most nonwhite Democrats, who are predominantly black or Hispanic, say they believe in God as described in the Bible, and seven-in-ten or more say they believe God is all-loving, all-knowing or all-powerful, with two-thirds ascribing all of these attributes to God. In these ways, nonwhite Democrats have more in common with Republicans than they do with white Democrats.</p>
+<p>In stark contrast with non-white Democrats, just one-third of white Democrats say they believe in God as described in the Bible, while 21% do not believe in a higher power of any kind. And just one-in-three white Democrats say they believe God (or another higher power in the universe) is all-knowing, all-powerful and all-loving.</p>
+<p><a class="image-box" href="https://www.pewforum.org/2018/04/25/when-americans-say-they-believe-in-god-what-do-they-mean/04-25-18_beliefingod-00-10/" rel="attachment wp-att-29656"><img class="wp-photo aligncenter size-full wp-image-29656" src="https://www.pewresearch.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-10.png" alt="" width="640" height="644" data-attachid="29656" srcset="https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-10.png 640w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-10.png?resize=150,150 150w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-10.png?resize=298,300 298w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-10.png?resize=160,161 160w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-10.png?resize=100,100 100w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-10.png?resize=402,405 402w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-10.png?resize=75,75 75w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-10.png?resize=140,140 140w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-10.png?resize=200,201 200w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-10.png?resize=260,262 260w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-10.png?resize=310,312 310w, https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/04.25.18_beliefingod-00-10.png?resize=420,423 420w" sizes="(max-width: 640px) 100vw, 640px" /></a><br />
+<script>jQuery(document).ready(function(){jQuery('#sidebar').insertAfter('#content');});</script></p>
+
+
+<div class='footnotes'><ol start="1"><li id="fn-29637-1">In this report, Protestants are categorized into one of three traditions (the evangelical Protestant tradition, the mainline Protestant tradition or the historically black Protestant tradition) based, as much as possible, on their denominational affiliation. For details on how denominations were categorized into traditions, see “<a href="https://www.pewforum.org/2015/05/12/appendix-b-classification-of-protestant-denominations/">Appendix B: Classification of Protestant Denominations</a>” in Pew Research Center’s 2015 report “<a href="https://www.pewforum.org/2015/05/12/americas-changing-religious-landscape/">America’s Changing Religious Landscape</a>.” <span class="footnotereverse"><a href="#fnref-29637-1">&#8617;</a></span></li></ol></div>
+	<script>
+	jQuery(document).ready(function(){
+		jQuery('.footnotes').insertAfter('#pagination');
+	});
+	</script>
+	</div>
+
+	<div id="pagination">
+		<h2 class="hidden" id="pagination-label">Pagination</h2>
+					<a href="https://www.pewforum.org/2018/04/25/1-beliefs-about-the-nature-of-god/" class="multi-section-button" rel="next">Next: 1. Beliefs about the nature of God</a>
+		
+
+					<a href="https://www.pewforum.org/2018/04/25/1-beliefs-about-the-nature-of-god/" class="next" rel="next">Next Page <span class="arrow" aria-hidden="true">&rarr;</span></a>
+		
+
+					<a class="prev disabled"><span class="arrow" aria-hidden="true">&larr;</span> Prev Page</a>
+		
+				<ol start="1"  aria-labelledby="pagination-label">
+								<li class="active"><a><span class="hidden">You are reading page</span> 1</a></li>
+												<li><a href="https://www.pewforum.org/2018/04/25/1-beliefs-about-the-nature-of-god/" rel="next"><span class="hidden">Page</span> 2</a></li>
+												<li><a href="https://www.pewforum.org/2018/04/25/2-beliefs-about-gods-involvement-in-the-world/" ><span class="hidden">Page</span> 3</a></li>
+												<li><a href="https://www.pewforum.org/2018/04/25/acknowledgements-3/" ><span class="hidden">Page</span> 4</a></li>
+												<li><a href="https://www.pewforum.org/2018/04/25/methodology-19/" ><span class="hidden">Page</span> 5</a></li>
+									</ol>
+			</div>
+	
+</div>
+
+
+<div id="sidebar" role="complementary">
+<div class="widget" id="report-materials"><h5 class="uppercase-label widget-title">Report Materials</h5><div class="inner filter"><ul><li class="complete-report pdf"><a href="https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/Beliefs-about-God-FOR-WEB-FULL-REPORT.pdf" download>Complete Report PDF</a></li><li class="link-with-icon-report"><a href="https://assets.pewresearch.org/wp-content/uploads/sites/11/2018/04/23160206/Beliefs-about-God-Questionnaire.pdf">Questionnaire</a></li><li class="topline-questionnaire pdf"><a href="https://www.pewforum.org/wp-content/uploads/sites/7/2018/04/Topline-for-release.pdf" download>Topline</a></li></ul></div></div>  <div class="widget">
+
+	<h2 class="header">Table of Contents</h2>
+	<div class="inner toc filter">
+		<ul>
+							<li class="active"><a>Overview</a>
+						<ul class="sub-toc children"><li class="toc-level-3 "><a rel="bookmark" href="#religious-nones-are-divided-in-their-views-about-god" title="Religious ‘nones’ are divided in their views about God">Religious ‘nones’ are divided in their views about God</a></li><li class="toc-level-3 "><a rel="bookmark" href="#young-people-less-inclined-to-claim-belief-in-biblical-god" title="Young people less inclined to claim belief in biblical God">Young people less inclined to claim belief in biblical God</a></li><li class="toc-level-3 "><a rel="bookmark" href="#highly-educated-americans-less-likely-to-believe-in-god-of-the-bible" title="Highly educated Americans less likely to believe in God of the Bible">Highly educated Americans less likely to believe in God of the Bible</a></li><li class="toc-level-3 "><a rel="bookmark" href="#republicans-and-democrats-have-very-different-beliefs-about-the-divine" title="Republicans and Democrats have very different beliefs about the divine">Republicans and Democrats have very different beliefs about the divine</a></li></ul>					</li>
+									<li><a href="https://www.pewforum.org/2018/04/25/1-beliefs-about-the-nature-of-god/">1. Beliefs about the nature of God</a></li>
+									<li><a href="https://www.pewforum.org/2018/04/25/2-beliefs-about-gods-involvement-in-the-world/">2. Beliefs about God’s involvement in the world</a></li>
+									<li><a href="https://www.pewforum.org/2018/04/25/acknowledgements-3/">Acknowledgements</a></li>
+									<li><a href="https://www.pewforum.org/2018/04/25/methodology-19/">Methodology</a></li>
+							</ul>
+		</div>
+
+	</div>
+
+<div id="related-inject">
+<div class="widget cached"><h5 class="uppercase-label widget-title">Related</h5><div class="inner with-posts"><a class='post' href='https://www.pewresearch.org/fact-tank/2018/04/25/key-findings-about-americans-belief-in-god/'><div class="meta"><span class=" right-seperator fact-tank label" data-project-slug="fact-tank">Fact Tank</span><span class="date" data-datetime="Apr 25, 2018">Apr 25, 2018</span></div><h2>Key findings about Americans’ belief in God</h2></a><a class='post' href='https://www.pewforum.org/2015/11/03/u-s-public-becoming-less-religious/'><div class="meta"><span class="category right-seperator publications label" data-project-slug="publications">Publications</span><span class="date" data-datetime="Nov 3, 2015">Nov 3, 2015</span></div><h2>U.S. Public Becoming Less Religious</h2></a><a class='post' href='https://www.pewforum.org/2014/07/16/how-americans-feel-about-religious-groups/'><div class="meta"><span class="category right-seperator publications label" data-project-slug="publications">Publications</span><span class="date" data-datetime="Jul 16, 2014">Jul 16, 2014</span></div><h2>How Americans Feel About Religious Groups</h2></a><a class='post' href='https://www.pewforum.org/2015/05/12/americas-changing-religious-landscape/'><div class="meta"><span class="category right-seperator publications label" data-project-slug="publications">Publications</span><span class="date" data-datetime="May 12, 2015">May 12, 2015</span></div><h2>America's Changing Religious Landscape</h2></a><a class='post' href='https://www.pewforum.org/religious-landscape-study/'><div class="meta"><span class="category right-seperator interactives label" data-project-slug="interactives">Interactives</span><span class="date" data-datetime="May 12, 2015">May 12, 2015</span></div><h2>Religious Landscape Study</h2></a></div></div></div><!--/.#related-inject-->
+
+<div class="widget" id="topics-sidebar"><h5 class="uppercase-label widget-title">Topics</h5><div class="inner filter"><ul><li><a href="https://www.pewforum.org/topics/religion-and-society/">Religion and Society</a></li><li><a href="https://www.pewforum.org/topics/religious-affiliation/">Religious Affiliation</a></li><li><a href="https://www.pewforum.org/topics/religious-beliefs-and-practices/">Religious Beliefs and Practices</a></li><li><a href="https://www.pewforum.org/topics/muslims-and-islam/">Muslims and Islam</a></li><li><a href="https://www.pewforum.org/topics/christians-and-christianity/">Christians and Christianity</a></li><li><a href="https://www.pewforum.org/topics/jews-and-judaism/">Jews and Judaism</a></li><li><a href="https://www.pewforum.org/topics/catholics-and-catholicism/">Catholics and Catholicism</a></li><li><a href="https://www.pewforum.org/topics/buddhists-and-buddhism/">Buddhists and Buddhism</a></li><li><a href="https://www.pewforum.org/topics/religiously-unaffiliated/">Religiously Unaffiliated</a></li></ul></div></div><div id="popular-inject"><div class="widget"><h5 class="uppercase-label widget-title">Popular On Pew Research</h5><div class="inner"><a class="post most-popular" href="https://www.pewresearch.org/fact-tank/2019/01/17/where-millennials-end-and-generation-z-begins/"><p class="meta"><span class="project right-seperator fact-tank">Fact Tank</span><span>01/17/2019</span></p><h2>Defining generations: Where Millennials end and Generation Z begins</h2></a><a class="post most-popular" href="https://www.pewresearch.org/fact-tank/2018/09/06/are-you-in-the-american-middle-class/"><p class="meta"><span class="project right-seperator fact-tank">Fact Tank</span><span>09/06/2018</span></p><h2>Are you in the American middle class? Find out with our income calculator</h2></a><a class="post most-popular" href="https://www.pewresearch.org/fact-tank/2018/11/28/5-facts-about-illegal-immigration-in-the-u-s/"><p class="meta"><span class="project right-seperator fact-tank">Fact Tank</span><span>11/28/2018</span></p><h2>5 facts about illegal immigration in the U.S.</h2></a><a class="post most-popular" href="https://www.pewinternet.org/2018/03/01/social-media-use-in-2018/"><p class="meta"><span class="project right-seperator internet-tech">Internet &amp; Tech</span><span>03/01/2018</span></p><h2>Social Media Use in 2018</h2></a><a class="post most-popular" href="https://www.pewsocialtrends.org/2019/01/17/generation-z-looks-a-lot-like-millennials-on-key-social-and-political-issues/"><p class="meta"><span class="project right-seperator social-trends">Social Trends</span><span>01/17/2019</span></p><h2>Generation Z Looks a Lot Like Millennials on Key Social and Political Issues</h2></a></div></div></div><!--/.#popular-inject--></div>
+	<form id="newsletter" action="https://pewresearch.us1.list-manage.com/subscribe/post?u=434f5d1199912232d416897e4&id=3e953b9b70" method="post">
+		<input type="hidden" name="u" value="434f5d1199912232d416897e4">
+		<input type="hidden" name="id" value="3e953b9b70">
+		<input type="hidden" name="group[153][1]" value="1">
+
+		<label class="signup-kicker" for="newsletter-email-address">Get <strong>Pew Research Center</strong> data by email</label>
+		<input type="email" class="text" placeholder="Enter your email address" name="MERGE0" id="newsletter-email-address">
+		<input type="submit" class="submit" value="Signup" name="submit">
+	</form>
+	</div><!--.holder-->    <div id="footer" role="contentinfo">
+        <div class="holder">
+            <div class="contact vcard">
+                <p><img class="fn org organization-name" src="https://www.pewforum.org/wp-content/plugins/pew-refactor-shim/assets/img/logos/desktop-footer.svg" onerror="this.src='https://www.pewforum.org/wp-content/plugins/pew-refactor-shim/assets/legacylib/img/pew-research-center.png'" alt="Pew Research Center"> <span class="adr"> <span class="street-address">1615 L St. NW, Suite 800</span> <span class="locality">Washington</span>, <span class="region">DC</span> <span class="postal-code">20036</span> <span class="country-name">USA</span></span>
+                    <a href="tel:+12024194300" class="tel"> <span class="value">(+1) 202-419-4300</span> | <span class="type">Main</span></a>
+                    <a href="tel:+12024194349" class="tel"> <span class="value">(+1) 202-419-4349</span> | <span class="type">Fax</span></a>
+                    <a href="tel:+12024194372" class="tel"> <span class="value">(+1) 202-419-4372</span> | <span class="type">Media Inquiries</span></a>
+                </p>
+            </div>
+            <div class="links">
+                <div class="projects">
+                    <h2>Research Areas</h2>
+                    <ul>
+                        <li><a href="https://www.people-press.org/">U.S. Politics &amp; Policy</a></li>
+                        <li><a href="https://www.journalism.org/">Journalism &amp; Media</a></li>
+                        <li><a href="https://www.pewinternet.org/">Internet &amp; Technology</a></li>
+                        <li><a href="https://www.pewresearch.org/science/">Science &amp; Society</a></li>
+                        <li><a href="https://www.pewforum.org/">Religion &amp; Public Life</a></li>
+                        <li><a href="http://www.pewhispanic.org/">Hispanic Trends</a></li>
+                        <li><a href="https://www.pewglobal.org/">Global Attitudes &amp; Trends</a></li>
+                        <li><a href="https://www.pewsocialtrends.org/">Social &amp; Demographic Trends</a></li>
+                    </ul>
+                </div>
+                <div class="follow-prc">
+                    <h2><a href="https://www.pewresearch.org/follow-pew-research-center/">Follow Us</a></h2>
+                    <ul>
+                        <li><a href="https://www.pewresearch.org/follow-pew-research-center/" class="email"><span>Email Newsletters</span></a></li>
+                        <li><a href="https://www.facebook.com/pewresearch" class="facebook"><span>Facebook</span></a></li>
+                        <li><a href="https://twitter.com/pewresearch" class="twitter"><span>Twitter</span></a></li>
+                        <li><a href="http://pewresearch.tumblr.com/" class="tumblr"><span>Tumblr</span></a></li>
+                        <li><a href="http://www.youtube.com/user/PewResearchCenter/featured" class="youtube"><span>YouTube</span></a></li>
+                        <li><a href="https://www.pewresearch.org/feed/" class="rss" title="Really Simple Syndication"><span>RSS</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="about"><strong><a href="https://www.pewresearch.org/about/">About Pew Research Center</a></strong> Pew Research Center is a nonpartisan fact tank that informs the public about the issues, attitudes and trends shaping the world. It conducts public opinion polling, demographic research, media content analysis and other empirical social science research. Pew Research Center does not take policy positions. It is a subsidiary of <a href="http://www.pewtrusts.org/">The Pew Charitable Trusts</a>.</p>
+        </div>
+    </div>
+    <div id="fine-print" class="holder">
+        <ul>
+            <li class="first">Copyright 2019 Pew Research Center</li>
+            <li><a href="https://www.pewresearch.org/about/">About</a></li>
+            <li><a href="https://www.pewresearch.org/terms-and-conditions/">Terms &amp; Conditions</a></li>
+            <li><a href="https://www.pewresearch.org/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="https://www.pewresearch.org/about/use-policy/">Reprints, Permissions &amp; Use Policy</a></li>
+            <li><a href="https://www.pewresearch.org/contact-form/">Feedback</a></li>
+            <li><a href="https://www.pewresearch.org/about/careers/">Careers</a></li>
+        </ul>
+    </div>
+    <script>var atpLegalModal = "\t<div id=\"js-atp-legal-modal\" class=\"ui modal\">\n\t\t<i class=\"close icon\"><\/i>\n\t\t<div class=\"header\">\n\t\t\tAmerican Trends Panel Dataset\n\t\t<\/div>\n\t\t<div class=\"content\">\n\t\t\t<div id=\"js-atp-legal-form\" class=\"ui form\">\n\t\t\t\t<textarea wrap=\"virtual\" cols=\"65\" rows=\"10\" id=\"Legal\" disabled>Terms and Conditions\n\n\tThis is a legal agreement (this \u201cAgreement\u201d) between you, the end user (\u201cyou\u201d or \u201cUser\u201d), and Pew Research Center (the \u201cCenter\u201d). By downloading the American Trends Panel survey data made available on this web site (\u201cData\u201d) you are agreeing to be bound by the terms and conditions of this Agreement. If you do not agree to be bound by these terms, do not download or use the Data.\n\n\tI.\tLicense.\n\tA.\t The Center hereby grants User a non-exclusive, revocable, limited, non-sublicensable, non-transferable, worldwide, royalty-free license to use the Data solely for (1) research, scholarly or academic purposes, or (2) User\u2019s own personal, non-commercial use. The foregoing license is personal to User, and you may not share (or otherwise permit access to) the Data to any other individual or entity, including those within your business or organization.  Further, you may not reproduce, sell, rent, lease, loan, distribute or sublicense, or otherwise transfer any Data, in whole or in part, to any other party, or use the Data to create any derivative work or product for resale, lease or license. Notwithstanding the foregoing, you may incorporate limited portions of the Data in scholarly, research or academic publications or for the purposes of news reporting provided that you:\n\t1.\t acknowledge the source of the Data with express reference to the Center in accordance with the following citation:\n\n\t\u201cPew Research Center\u2019s American Trends Panel\u201d\n\n\t2.\tdo not use the Data in any manner that implies, suggests, or could otherwise be perceived as attributing a particular policy or lobbying objective or opinion to the Center, and\n\t3.\tinclude the following disclaimer: \u201cThe opinions expressed herein, including any implications for policy, are those of the author and not of Pew Research Center.\u201d\n\tB.\tUser acknowledges that, as between the parties, the Center is the sole and exclusive owner of all right, title and interest in the Data.  Except for the limited license granted herein, this Agreement does not give User any right, title or interest in the Data.\n\n\tII.\tDisclaimers and Limitations of Liability. THE DATA IS PROVIDED \u201cAS IS\u201d WITHOUT ANY WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, ARISING BY LAW OR OTHERWISE, INCLUDING BUT NOT LIMITED TO WARRANTIES OF COMPLETENESS, NON-INFRINGEMENT, ACCURACY, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. THE CENTER EXPRESSLY DISCLAIMS, AND SHALL HAVE NO LIABILITY FOR, ANY ERRORS, OMISSIONS, INACCURACIES, OR INTERRUPTIONS IN THE DATA.  USER ASSUMES ALL RISK ASSOCIATED WITH USE OF THE DATA AND AGREES THAT IN NO EVENT SHALL THE CENTER OR ITS AFFILIATES BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR THE INABILITY TO USE EQUIPMENT OR ACCESS DATA, LOSS OF BUSINESS, LOSS OF REVENUE OR PROFITS, BUSINESS INTERRUPTIONS, LOSS OF INFORMATION OR DATA, OR OTHER FINANCIAL LOSS, ARISING OUT OF THE USE OF, OR INABILITY TO USE, THE DATA BASED ON ANY THEORY OF LIABILITY INCLUDING, BUT NOT LIMITED TO, BREACH OF CONTRACT, BREACH OF WARRANTY, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, EVEN IF USER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.\n\n\tIII.\tPrivacy, Confidentiality and Security.\n\tA.\tThe Center respects the privacy of individuals. The Center has taken measures to ensure that the Data is devoid of information that could be used to identify individuals (including, but not limited to, names, telephone numbers and email addresses) who participated in or who were the subject of any research surveys or studies used to collect the Data (\u201cPersonally Identifying Information\u201d). However, in the event that you discover any such Personally Identifying Information in the Data, you shall immediately notify the Center and refrain from using any such Personally Identifying Information. User further agrees not to (and will not allow other to) attempt to ascertain the identity of or derive information about individual survey respondents nor link the individual survey records contained in the Data with other data sets for the purpose of identifying individuals.\n\tB.\tUser shall maintain the Data as confidential, and will not use it, in any way nor disclose it to any third party, except as expressly permitted under this Agreement. User agrees, at its sole expense, to take reasonable precautions to protect the confidentiality of Data, at least as stringent as User takes to protect User\u2019s own confidential information, but in no case less than reasonable care.  The foregoing confidentiality obligations shall not apply to any information which: (a) is known to User prior to receipt from the Center other than as a result of User\u2019s breach of any legal obligation; (b) becomes known (independently of disclosure by the Center) to User directly or indirectly from a source having the legal right to disclose such information; (c) is or becomes publicly known, except through a breach of this Agreement by User; or (d) is required to be disclosed by User to comply with applicable laws or governmental regulations, provided that User gives the Center, to the extent practicable, reasonable prior written notice of such disclosure sufficient to permit the Center to contest such disclosure and User takes reasonable and lawful actions to avoid and\/or minimize the extent of such disclosure.  The parties agree that any breach of the confidentiality obligations of this Agreement by User will result in irreparable damage to the Center for which it will have no adequate remedy at law.  Therefore, it is agreed that the Center shall be entitled to equitable relief, including an injunction enjoining any such breach by any court of competent jurisdiction.  Such injunction shall be without prejudice to any other right or remedy to which the Center may be entitled, including but not limited to any damages resulting from User\u2019s breach of the confidentiality obligations under this Agreement.  Any failure or delay in exercising any right, power or privilege hereunder shall not operate as a waiver thereof, nor shall any single or partial exercise thereof preclude any other or further exercise thereof or the exercise of any right, power or privilege hereunder.\n\tC.\tUser will immediately notify the Center and cooperate with investigations, and provide any information reasonably requested by the Center if User knows of or suspects any breach of security or potential vulnerability of the Data and will promptly remedy such breach.\n\n\tIV.\tIndemnification. User shall indemnify and hold harmless the Center, its affiliates and related organizations, and each of their respective officers, directors, employees, legal representatives, agents, successors and assigns, from and against any damages, liabilities, costs and expenses (including reasonable attorneys\u2019 and professionals\u2019 fees and court costs arising out of any third-party claims based on (a) User\u2019s access or use of the Data; (b) any changes made by User to the Data in accordance with this Agreement; or (c) any breach by User of any of the terms and conditions of this Agreement.\n\n\tV.\tTermination. This license will terminate (1) automatically without notice from the Center if you fail to comply with the provisions of this Agreement or (2) immediately upon written notice (by e-mail or otherwise) from the Center. Upon termination of this Agreement, you agree to destroy all copies of any Data, in whole or in part and in any and all media, in your custody and control.\n\n\tVI.\tGoverning law. This Agreement shall be governed by, construed and interpreted in accordance with the laws of the District of Columbia. You further agree to submit to the jurisdiction and venue of the courts of the District of Columbia for any dispute relating to this Agreement.<\/textarea>\n\n\t\t\t\t<div class=\"required field\" style=\"margin-top: 1em\">\n\t\t\t\t\t<div class=\"ui checkbox\">\n\t\t\t\t\t\t<input type=\"checkbox\" tabindex=\"0\" name=\"acceptance\" data-validate=\"terms\">\n\t\t\t\t\t\t<label>I have read and abide by the conditions in this agreement<\/label>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\n\t\t\t\t<div class=\"ui secondary submit button flat\">Submit<\/div>\n\t\t\t<\/div>\n\t\t<\/div>\n\t<\/div>\n\t"</script><script>var siteURL = 'https://www.pewforum.org'; var siteID = 7;</script>	        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8242V9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        
+
+<!-- START Parse.ly Include: Standard -->
+	<script data-cfasync="false">
+
+		function uuidProfileCall() {
+			var rootUrl = 'https://api.parsely.com/v2/profile?apikey=pewresearch.org';
+			var uuid = '&uuid=' + PARSELY.config.parsely_site_uuid;
+			var requestUrl = rootUrl + uuid + '&url=' + window.location.href;
+			jQuery.ajax({
+				url: requestUrl,
+				dataType: "jsonp"
+			});
+		}
+
+		if (typeof PARSELY == 'object') {
+			var oldonload = PARSELY.onload;
+			if (typeof PARSELY.onload != 'function') {
+				PARSELY.onload = uuidProfileCall
+			}
+			else {
+				PARSELY.onload = function () {
+					if (oldonload) {
+						oldonload();
+					}
+					uuidProfileCall();
+				};
+			}
+		}
+
+		else {
+			PARSELY = {
+				onload: uuidProfileCall
+			}
+		}
+	</script>
+
+<div id="parsely-root" style="display: none">
+	<div id="parsely-cfg" data-parsely-site="pewresearch.org"></div>
+</div>
+<script data-cfasync="false">
+	(function (s, p, d) {
+		var h = d.location.protocol, i = p + "-" + s,
+			e = d.getElementById(i), r = d.getElementById(p + "-root"),
+			u = h === "https:" ? "d1z2jf7jlzjs58.cloudfront.net"
+				: "static." + p + ".com";
+		if (e) return;
+		e = d.createElement(s);
+		e.id = i;
+		e.async = true;
+		e.setAttribute('data-cfasync', 'false');
+		e.src = h + "//" + u + "/p.js";
+		r.appendChild(e);
+	})("script", "parsely", document);
+</script>
+
+<!-- END Parse.ly Include: Standard -->
+	<script>
+	(function($) {
+    $.fn.changeElementType = function(newType) {
+        this.each(function() {
+            var attrs = {};
+
+            $.each(this.attributes, function(idx, attr) {
+               attrs[attr.nodeName] = attr.nodeValue;
+            });
+
+            $(this).replaceWith(function() {
+                return $("<" + newType + "/>", attrs).append($(this).contents());
+            });
+	});
+    };
+})(jQuery);
+	jQuery(document).ready(function(){
+		jQuery('.inner.toc ul > div.item').changeElementType('li');
+	});
+	</script>
+	    <script type="text/javascript">
+    var addthis_share = addthis_share || {}; addthis_share = {
+        passthrough : {
+            twitter: { title: "When Americans Say They Believe in God, What Do They Mean?" }
+        }
+    }
+    </script>
+    		<div style="display:none">
+	</div>
+	<script>
+	//CrazyEgg
+	setTimeout(function(){var a=document.createElement("script");
+	var b=document.getElementsByTagName('script')[0];
+	a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0011/2177.js?"+Math.floor(new Date().getTime()/3600000);
+	a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+	</script>
+	<link rel='stylesheet' id='all-css-0' href='https://www.pewforum.org/wp-content/plugins/pew-refactor-shim/assets/legacylib/chunks/collapsible-shortcode.css?m=1560218285g' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.pewforum.org/_static/??-eJytzj0OwjAMBeALkZpWBXVBXIIdtcGURPnDdqi4PakAwVqEPHh4fvoMU1I6BsEgoJ0pS/msksujCQwJJ8WaTBKGIU5IRx19iqGcMZx6KTM45CqggGWw14x0r+bg8Ay8CZXlFfxLUYRcEjY3nMEv6RMsR5k0vIxFvQKBxHF0+C78ZhOeey2R4IIuIc1f7P2u3mzXTd01XWsfA8af4A=='></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201924'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var interactivesDBConfig = {"apiKey":"AIzaSyCrK2dKMxf9Fmhpym2M4dajfcKyMY4_MBA","databaseURL":"https:\/\/prc-app-prod-interactives.firebaseio.com","projectId":"prc-app-prod"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.pewforum.org/_static/??-eJytkNtOwzAMhl+ILGzS0G4QFzwCD4Dc1O1c5YSdrOLtcVU60DRtQvQqPuT//Nt2zMalWDAW6zzpY0I12deeotiMoxHHlIvYJo3I7y6FnKJ+E9sRYwOC58BAzptBHuyazBYKTMHfwMLOMnbgSmJLqmAN6YTyT38YP6o6sy1JWZJNoHiJvQYb5rT3qQF/V5QcgTdyBJ0GIjgDVDW3p7oZ5Brm9koLQZcKKd6zsdxQB1LQQzpfW/wGIrA7/vL2NlJXPjO+ns+1Fln1HfWVoVBaze5P0dRCfjL7Ep63+6fH3fawO+yHL33MLg8='></script>
+<script type='text/javascript' src='https://secure.gravatar.com/js/gprofiles.js?ver=2019Junaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var appConfig = {"apiKey":"AIzaSyCrK2dKMxf9Fmhpym2M4dajfcKyMY4_MBA","authDomain":"prc-app-prod.firebaseapp.com","databaseURL":"https:\/\/prc-app-prod.firebaseio.com","projectId":"prc-app-prod"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.pewforum.org/_static/??-eJx1jUsOwiAQQC8kHW3V6sJ4FjpMLQgMYYb0+n6iiRv37wNrMchZKSukZkpsN58FAmmxeIfErkUSWMut8sJdkA38GF+8VDRNqBqLyC2rwNR8dCBq1SMEgWR97oYZ9zQP52/GZ4zNPfPhdTCUJnJdeoL/NrQaweqLvhXkGG0RP0UysnBVZEcf/5ouu8Nx24/9eBrCA+uvVGY='></script>
+    <div data-st-manage-conditionals></div>
+    <span data-st-defaults="articles_only"></span>
+    <div data-st-fix-misspelling="misspelling"></div>
+    <div data-st-simple-routing="routing"></div>
+    <script type='text/javascript' src='https://stats.wp.com/e-201924.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.4',blog:'151703664',post:'29637',tz:'-4',srv:'www.pewforum.org'} ]);
+	_stq.push([ 'clickTrackerInit', '151703664', '29637' ]);
+</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"40e18f227a","applicationID":"128711286","transactionName":"bldUMkpRXRVYVhJfXVcddwVMWVwIFkYPWFVVVw==","queueTime":0,"applicationTime":499,"atts":"QhBDRAJLTkobVEQMSURP","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>

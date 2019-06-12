@@ -1,0 +1,548 @@
+
+
+**Warning:** The NCBI web site requires JavaScript to function. more...
+
+  * NCBI![NCBI Logo](//static.pubmed.gov/portal/portal3rc.fcgi/4181515/img/28977)
+  * Skip to main content
+  * Skip to navigation
+  * Resources
+    * All Resources
+    * Chemicals & Bioassays
+    * BioSystems
+    * PubChem BioAssay
+    * PubChem Compound
+    * PubChem Structure Search
+    * PubChem Substance
+    * All Chemicals & Bioassays Resources...
+    * DNA & RNA
+    * BLAST (Basic Local Alignment Search Tool)
+    * BLAST (Stand-alone)
+    * E-Utilities
+    * GenBank
+    * GenBank: BankIt
+    * GenBank: Sequin
+    * GenBank: tbl2asn
+    * Genome Workbench
+    * Influenza Virus
+    * Nucleotide Database
+    * PopSet
+    * Primer-BLAST
+    * ProSplign
+    * Reference Sequence (RefSeq)
+    * RefSeqGene
+    * Sequence Read Archive (SRA)
+    * Splign
+    * Trace Archive
+    * UniGene
+    * All DNA & RNA Resources...
+    * Data & Software
+    * BLAST (Basic Local Alignment Search Tool)
+    * BLAST (Stand-alone)
+    * Cn3D
+    * Conserved Domain Search Service (CD Search)
+    * E-Utilities
+    * GenBank: BankIt
+    * GenBank: Sequin
+    * GenBank: tbl2asn
+    * Genome ProtMap
+    * Genome Workbench
+    * Primer-BLAST
+    * ProSplign
+    * PubChem Structure Search
+    * SNP Submission Tool
+    * Splign
+    * Vector Alignment Search Tool (VAST)
+    * All Data & Software Resources...
+    * Domains & Structures
+    * BioSystems
+    * Cn3D
+    * Conserved Domain Database (CDD)
+    * Conserved Domain Search Service (CD Search)
+    * Structure (Molecular Modeling Database)
+    * Vector Alignment Search Tool (VAST)
+    * All Domains & Structures Resources...
+    * Genes & Expression
+    * BioSystems
+    * Database of Genotypes and Phenotypes (dbGaP)
+    * E-Utilities
+    * Gene
+    * Gene Expression Omnibus (GEO) Database 
+    * Gene Expression Omnibus (GEO) Datasets
+    * Gene Expression Omnibus (GEO) Profiles
+    * Genome Workbench
+    * HomoloGene
+    * Online Mendelian Inheritance in Man (OMIM)
+    * RefSeqGene
+    * UniGene
+    * All Genes & Expression Resources...
+    * Genetics & Medicine
+    * Bookshelf
+    * Database of Genotypes and Phenotypes (dbGaP)
+    * Genetic Testing Registry
+    * Influenza Virus
+    * Online Mendelian Inheritance in Man (OMIM)
+    * PubMed
+    * PubMed Central (PMC)
+    * PubMed Clinical Queries
+    * RefSeqGene
+    * All Genetics & Medicine Resources...
+    * Genomes & Maps
+    * Database of Genomic Structural Variation (dbVar)
+    * GenBank: tbl2asn
+    * Genome
+    * Genome Project
+    * Genome Data Viewer (GDV)
+    * Genome ProtMap
+    * Genome Workbench
+    * Influenza Virus
+    * Nucleotide Database
+    * PopSet
+    * ProSplign
+    * Sequence Read Archive (SRA)
+    * Splign
+    * Trace Archive
+    * All Genomes & Maps Resources...
+    * Homology
+    * BLAST (Basic Local Alignment Search Tool)
+    * BLAST (Stand-alone)
+    * BLAST Link (BLink)
+    * Conserved Domain Database (CDD)
+    * Conserved Domain Search Service (CD Search)
+    * Genome ProtMap
+    * HomoloGene
+    * Protein Clusters
+    * All Homology Resources...
+    * Literature
+    * Bookshelf
+    * E-Utilities
+    * Journals in NCBI Databases
+    * MeSH Database
+    * NCBI Handbook
+    * NCBI Help Manual
+    * NCBI News & Blog
+    * PubMed
+    * PubMed Central (PMC)
+    * PubMed Clinical Queries
+    * All Literature Resources...
+    * Proteins
+    * BioSystems
+    * BLAST (Basic Local Alignment Search Tool)
+    * BLAST (Stand-alone)
+    * BLAST Link (BLink)
+    * Conserved Domain Database (CDD)
+    * Conserved Domain Search Service (CD Search)
+    * E-Utilities
+    * ProSplign
+    * Protein Clusters
+    * Protein Database
+    * Reference Sequence (RefSeq)
+    * All Proteins Resources...
+    * Sequence Analysis
+    * BLAST (Basic Local Alignment Search Tool)
+    * BLAST (Stand-alone)
+    * BLAST Link (BLink)
+    * Conserved Domain Search Service (CD Search)
+    * Genome ProtMap
+    * Genome Workbench
+    * Influenza Virus
+    * Primer-BLAST
+    * ProSplign
+    * Splign
+    * All Sequence Analysis Resources...
+    * Taxonomy
+    * Taxonomy
+    * Taxonomy Browser
+    * Taxonomy Common Tree
+    * All Taxonomy Resources...
+    * Training & Tutorials
+    * NCBI Education Page
+    * NCBI Handbook
+    * NCBI Help Manual
+    * NCBI News & Blog
+    * All Training & Tutorials Resources...
+    * Variation
+    * Database of Genomic Structural Variation (dbVar)
+    * Database of Genotypes and Phenotypes (dbGaP)
+    * Database of Single Nucleotide Polymorphisms (dbSNP)
+    * SNP Submission Tool
+    * All Variation Resources...
+  * How To
+    * All How To
+    * Chemicals & Bioassays
+    * DNA & RNA
+    * Data & Software
+    * Domains & Structures
+    * Genes & Expression
+    * Genetics & Medicine
+    * Genomes & Maps
+    * Homology
+    * Literature
+    * Proteins
+    * Sequence Analysis
+    * Taxonomy
+    * Training & Tutorials
+    * Variation
+  * About NCBI Accesskeys
+
+My NCBISign in to NCBISign Out
+
+# PubMed
+
+US National Library of Medicine National Institutes of Health
+
+Search databaseAll
+DatabasesAssemblyBiocollectionsBioProjectBioSampleBioSystemsBooksClinVarConserved
+DomainsdbGaPdbVarGeneGenomeGEO DataSetsGEO ProfilesGTRHomoloGeneIdentical
+Protein GroupsMedGenMeSHNCBI Web SiteNLM
+CatalogNucleotideOMIMPMCPopSetProbeProteinProtein ClustersPubChem
+BioAssayPubChem CompoundPubChem
+SubstancePubMedSNPSparcleSRAStructureTaxonomyToolKitToolKitAllToolKitBookghUniGene
+
+Search term
+
+Search
+
+  * Advanced
+  * Help
+
+## Result Filters
+
+  * Format: Abstract
+
+Format
+
+  * Summary
+  * Summary (text)
+  * Abstract
+  * Abstract (text)
+  * MEDLINE
+  * XML
+  * PMID List
+
+Apply
+
+#### Send to
+
+Choose Destination
+
+  * File
+  * Clipboard
+  * Collections
+  * E-mail
+  * Order
+  * My Bibliography
+  * Citation manager
+
+  * FormatSummary (text)Abstract (text)MEDLINEXMLPMID ListCSV
+
+Create File
+
+  * 1 selected item: 30060862
+  * FormatSummarySummary (text)AbstractAbstract (text)MEDLINEXMLPMID ListMeSH and Other Data
+  * E-mail
+  * Subject
+  * Additional text
+  * E-mail
+
+Didn't get the message? Find out why...
+
+Add to Clipboard
+
+Add to Collections
+
+Order articles
+
+Add to My Bibliography
+
+Generate a file for use with external citation management software.
+
+Create File
+
+J Adolesc Health. 2018 Jul;63(1):88-93. doi: 10.1016/j.jadohealth.2018.01.008.
+
+# Medical Marijuana Availability, Price, and Product Variety, and Adolescents'
+
+Marijuana Use.
+
+Shi Y1, Cummins SE2, Zhu SH2.
+
+### Author information
+
+1
+
+    
+    
+    Department of Family Medicine and Public Health, University of California, San Diego, California. Electronic address: yus001@ucsd.edu.
+    
+
+2
+
+    
+    
+    Department of Family Medicine and Public Health, University of California, San Diego, California.
+    
+
+### Abstract
+
+#### PURPOSE:
+
+We aimed to examine the availability of medical marijuana dispensaries, price
+of medical marijuana products, and variety of medical marijuana products in
+school neighborhoods and their associations with adolescents' use of marijuana
+and susceptibility to use marijuana in the future.
+
+#### METHODS:
+
+A representative sample of 8th, 10th, and 12th graders (N = 46,646) from 117
+randomly selected schools in California participated in the cross-sectional
+2015-2016 California Student Tobacco Survey (CSTS). Characteristics of medical
+marijuana dispensaries in California were collected and combined with school
+locations to compute availability, price, and product variety of medical
+marijuana in school neighborhoods. Multilevel logistic regressions with random
+intercepts at school level were conducted to test the associations, accounting
+for individual and school socioeconomic characteristics.
+
+#### RESULTS:
+
+The distance from school to the nearest medical marijuana dispensary (within
+0- to 1-mi and 1- to 3-mi bands) was not associated with adolescents' use of
+marijuana in the past month or susceptibility to use marijuana in the future,
+nor was the weighted count of medical marijuana dispensaries within the 3-mi
+band of school. Neither the product price nor the product variety in the
+dispensary nearest to school was associated with marijuana use or
+susceptibility to use. The results were robust to different specifications of
+medical marijuana measures.
+
+#### CONCLUSIONS:
+
+There was no evidence supporting the associations of medical marijuana
+availability, price, or product variety around school with adolescents'
+marijuana use and susceptibility to use.
+
+Copyright © 2018 The Society for Adolescent Health and Medicine. Published by
+Elsevier Inc. All rights reserved.
+
+#### KEYWORDS:
+
+Adolescent health; Drug abuse; Medical marijuana dispensary; School
+neighborhood
+
+PMID:
+
+    
+    
+    30060862
+    
+
+PMCID:
+
+    
+    
+    PMC6070346
+     [Available on 2019-07-01]
+    
+
+DOI:
+
+    
+    
+    10.1016/j.jadohealth.2018.01.008
+    
+
+Share
+
+### Grant support
+
+#### Grant support
+
+  * R01 DA042290/DA/NIDA NIH HHS/United States
+
+### LinkOut - more resources
+
+#### Full Text Sources
+
+  * Elsevier Science
+  * ClinicalKey
+
+#### Miscellaneous
+
+  * NCI CPTAC Assay Portal
+
+  * 
+
+## Supplemental Content
+
+### Full text links
+
+![Icon for Elsevier
+
+Science](//www.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--linkinghub.elsevier.com-
+
+ihub-images-PubMedLink.gif)
+
+![Loading ... ](//static.pubmed.gov/portal/portal3rc.fcgi/4185393/img/3631476)
+
+You are here: NCBI > Literature > PubMed
+
+Support Center
+![](/stat?jsdisabled=true&ncbi_app=entrez&ncbi_db=pubmed&ncbi_pdid=abstract&ncbi_phid=CE8A7431D004687100000000072703AB)
+
+## Simple NCBI Directory
+
+  * ### Getting Started
+
+  * NCBI Education
+
+  * NCBI Help Manual
+  * NCBI Handbook
+  * Training & Tutorials
+  * Submit Data
+
+  * ### Resources
+
+  * Chemicals & Bioassays
+
+  * Data & Software
+  * DNA & RNA
+  * Domains & Structures
+  * Genes & Expression
+  * Genetics & Medicine
+  * Genomes & Maps
+  * Homology
+  * Literature
+  * Proteins
+  * Sequence Analysis
+  * Taxonomy
+  * Variation
+
+  * ### Popular
+
+  * PubMed
+
+  * Bookshelf
+  * PubMed Central
+  * BLAST
+  * Nucleotide
+  * Genome
+  * SNP
+  * Gene
+  * Protein
+  * PubChem
+
+  * ### Featured
+
+  * Genetic Testing Registry
+
+  * GenBank
+  * Reference Sequences
+  * Gene Expression Omnibus
+  * Genome Data Viewer
+  * Human Genome
+  * Mouse Genome
+  * Influenza Virus
+  * Primer-BLAST
+  * Sequence Read Archive
+
+  * ### NCBI Information
+
+  * About NCBI
+
+  * Research at NCBI
+  * NCBI News & Blog
+  * NCBI FTP Site
+  * NCBI on Facebook
+  * NCBI on Twitter
+  * NCBI on YouTube
+  * Privacy Policy
+
+External link. Please review our privacy policy.
+
+NLM
+
+NIH
+
+DHHS
+
+USA.gov
+
+National Center for Biotechnology Information, U.S. National Library of
+Medicine 8600 Rockville Pike, Bethesda MD, 20894 USA
+
+Policies and Guidelines | Contact
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[AU]: Australia _[CA]: Canada_ [UK]: United Kingdom _[US]: United States_
+[UN]: United Nations _[EU]: European Union_ [ v]: View this template _[AAAD]:
+Aromatic L-amino acid decarboxylase_ [ MAO]: Monoamine oxidase _[ ALDH]:
+Aldehyde dehydrogenase_ [ALR]: Aldehyde reductase _[PAH]: Phenylalanine
+hydroxylase_ [ TH]: Tyrosine hydroxylase _[ DBH]: Dopamine beta-monooxygenase_
+[ PNMT]: Phenylethanolamine N-methyltransferase _[ COMT]: Catechol-O-methyl
+transferase_ [TPH]: Tryptophan hydroxylase _[ AANAT]: Serotonin N-acetyl
+transferase_ [ ASMT]: Acetylserotonin O-methyltransferase _[ HDC]: Histidine
+decarboxylase_ [ HNMT]: Histamine N-methyltransferase _[ DAO]: Diamine
+oxidase_ [nAChRs]: Nicotinic acetylcholine receptors _[PAMs]: positive
+allosteric modulators_ [NAMs]: negative allosteric modulators _[TRP]:
+Transient receptor potential_ [TRPA]: Transient receptor potential ankyrin
+channel _[TRPC]: Transient receptor potential canonical channel_ [TRPM]:
+Transient receptor potential melastatin channel _[TRPML]: Transient receptor
+potential mucolipin channel_ [TRPP]: Transient receptor potential polycystin
+channel _[TRPV]: Transient receptor potential vanilloid channel_ [CBR]:
+Cannabinoid receptor _[ GABA]: -Aminobutyric acid_ [GABAA]: γ-Aminobutyric
+acid A _[GABA]: γ-Aminobutyric acid_ [GHB]: γ-Hydroxybutyric acid _[ hTAAR]:
+human trace amine-associated receptor_ [ PAF]: Platelet-activating factor _[
+PPAR]: Peroxisome proliferator-activated receptor_ [ GH]: Growth hormone
+_[IGF-1]: Insulin-like growth factor 1_ [GnRH]: gonadotropin hormone-releasing
+hormone _[ TNF]: Tumor necrosis factor_ [ TGFβ]: Transforming growth factor
+beta _[ TRP]: Transient receptor potential_ [c.]: circa
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[AU]: Australia
+  *[CA]: Canada
+  *[UK]: United Kingdom
+  *[US]: United States
+  *[UN]: United Nations
+  *[EU]: European Union
+  *[ v]: View this template
+  *[AAAD]: Aromatic L-amino acid decarboxylase
+  *[ MAO]: Monoamine oxidase
+  *[ ALDH]: Aldehyde dehydrogenase
+  *[ALR]: Aldehyde reductase
+  *[PAH]: Phenylalanine hydroxylase
+  *[ TH]: Tyrosine hydroxylase
+  *[ DBH]: Dopamine beta-monooxygenase
+  *[ PNMT]: Phenylethanolamine N-methyltransferase
+  *[ COMT]: Catechol-O-methyl transferase
+  *[TPH]: Tryptophan hydroxylase
+  *[ AANAT]: Serotonin N-acetyl transferase
+  *[ ASMT]: Acetylserotonin O-methyltransferase
+  *[ HDC]: Histidine decarboxylase
+  *[ HNMT]: Histamine N-methyltransferase
+  *[ DAO]: Diamine oxidase
+  *[nAChRs]: Nicotinic acetylcholine receptors
+  *[PAMs]: positive allosteric modulators
+  *[NAMs]: negative allosteric modulators
+  *[TRP]: Transient receptor potential
+  *[TRPA]: Transient receptor potential ankyrin channel
+  *[TRPC]: Transient receptor potential canonical channel
+  *[TRPM]: Transient receptor potential melastatin channel
+  *[TRPML]: Transient receptor potential mucolipin channel
+  *[TRPP]: Transient receptor potential polycystin channel
+  *[TRPV]: Transient receptor potential vanilloid channel
+  *[CBR]: Cannabinoid receptor
+  *[ GABA]: -Aminobutyric acid
+  *[GABAA]: γ-Aminobutyric acid A
+  *[GABA]: γ-Aminobutyric acid
+  *[GHB]: γ-Hydroxybutyric acid
+  *[ hTAAR]: human trace amine-associated receptor
+  *[ PAF]: Platelet-activating factor
+  *[ PPAR]: Peroxisome proliferator-activated receptor
+  *[ GH]: Growth hormone
+  *[IGF-1]: Insulin-like growth factor 1
+  *[GnRH]: gonadotropin hormone-releasing hormone
+  *[ TNF]: Tumor necrosis factor
+  *[ TGFβ]: Transforming growth factor beta
+  *[ TRP]: Transient receptor potential
+  *[c.]: circa
+

@@ -1,0 +1,530 @@
+Patient Protection and Affordable Care Act
+The Patient Protection and Affordable Care Act (PPACA), often shortened to the Affordable Care Act (ACA) or nicknamed Obamacare, is a United States federal statute enacted by the 111th United States Congress and signed into law by President Barack Obama on March 23, 2010. Together with the Health Care and Education Reconciliation Act of 2010 amendment, it represents the U.S. healthcare system's most significant regulatory overhaul and expansion of coverage since the passage of Medicare and Medicaid in 1965.[1][2][3][4]
+
+The ACA's major provisions came into force in 2014. By 2016, the uninsured share of the population had roughly halved, with estimates ranging from 20 to 24 million additional people covered during 2016.[5][6] The increased coverage was due, roughly equally, to an expansion of Medicaid eligibility and to major changes to individual insurance markets. Both involved new spending, funded through a combination of new taxes and cuts to Medicare provider rates and Medicare Advantage. Several Congressional Budget Office reports said that overall these provisions reduced the budget deficit, that repealing the ACA would increase the deficit,[7][8] and that the law reduced income inequality by taxing primarily the top 1% to fund roughly $600 in benefits on average to families in the bottom 40% of the income distribution.[9] The law also enacted a host of delivery system reforms intended to constrain healthcare costs and improve quality. After the law went into effect, increases in overall healthcare spending slowed, including premiums for employer-based insurance plans.[10]
+
+The act largely retains the existing structure of Medicare, Medicaid, and the employer market, but individual markets were radically overhauled around a three-legged program.[1][11] Insurers in these markets are made to accept all applicants and charge the same rates regardless of pre-existing conditions or sex. To combat resultant adverse selection, the act mandates that individuals buy insurance and insurers cover a list of "essential health benefits". However, a repeal of the individual tax mandate, passed as part of the Tax Cuts and Jobs Act of 2017, became effective on January 1, 2019. To help households between 100–400% of the Federal Poverty Line afford these compulsory policies, the law provides insurance premium subsidies. Other individual market changes include health marketplaces and risk adjustment programs.
+
+Since being signed into law in 2010, the PPACA has faced strong political opposition, calls for repeal (from Republicans) and numerous legal challenges; its enactment is considered to be a catalyst for the Tea Party movement. In National Federation of Independent Business v. Sebelius, the Supreme Court ruled that states could choose not to participate in the ACA's Medicaid expansion, although it upheld the law as a whole.[12] The federal health exchange, HealthCare.gov, faced major technical problems at the beginning of its rollout in 2013. In 2017, a unified Republican government attempted but failed to pass several different partial repeals of the ACA. The law spent several years opposed by a slim plurality of Americans polled, although its provisions were generally more popular than the law as a whole,[13] and the law gained majority support by 2017.[14]
+
+Provisions
+
+The President and White House Staff react to the House of Representatives passing the bill on March 21, 2010.
+
+Jim Clyburn and Nancy Pelosi celebrating after the House passes the amended bill on March 21
+
+The ACA includes provisions to take effect from 2010 to 2020, although most took effect on January 1, 2014. It amended the Public Health Service Act of 1944 and inserted new provisions on affordable care into Title 42 of the United States Code.[citation needed] Few areas of the US health care system were left untouched, making it the most sweeping health care reform since the enactment of Medicare and Medicaid in 1965.[1][2][3][15][4] However, some areas were more affected than others. The individual insurance market was radically overhauled, and many of the law's regulations applied specifically to this market,[1] while the structure of Medicare, Medicaid, and the employer market were largely retained.[2] Most of the coverage gains were made through the expansion of Medicaid,[16] and the biggest cost savings were made in Medicare.[2] Some regulations applied to the employer market, and the law also made delivery system changes that affected most of the health care system.[2] Not all provisions took full effect. Some were made discretionary, some were deferred, and others were repealed before implementation.
+
+Insurance regulations
+
+In 2012 Senator Sheldon Whitehouse created this summary to explain his view on the act.
+
+The individual mandate was the requirement to buy insurance or pay a penalty for everyone not covered by an employer sponsored health plan, Medicaid, Medicare or other public insurance programs (such as Tricare). Also exempt were those facing a financial hardship or who were members in a recognized religious sect exempted by the Internal Revenue Service.[51]
+
+The mandate and the limits on open enrollment[52][53] were designed to avoid the insurance death spiral in which healthy people delay insuring themselves until they get sick. In such a situation, insurers would have to raise their premiums to cover the relatively sicker and thus more expensive policies,[55] which could create a vicious cycle in which more and more people drop their coverage.[56]
+
+The purpose of the mandate was to prevent the healthcare system from succumbing to adverse selection, which would result in high premiums for the insured and little coverage (and thus more illness and medical bankruptcy) for the uninsured.[57][58] Studies by the CBO, Gruber and Rand Health concluded that a mandate was required.[59][61] The mandate increased the size and diversity of the insured population, including more young and healthy participants to broaden the risk pool, spreading costs.[62] Experience in New Jersey and Massachusetts offered divergent outcomes.[57][63]
+
+Among the groups who were not subject to the individual mandate are:
+
+On December 20, 2017, the individual mandate was repealed starting in January 2019 via the "Tax Cuts and Jobs Act of 2017".[68]
+
+Subsidies
+
+Households with incomes between 100% and 400% of the federal poverty level are eligible to receive federal subsidies for policies purchased via an exchange.[69][70] Households living in the federal poverty level are not eligible to receive federal subsidies. Subsidies are provided as an advanceable, refundable tax credits.[71][72] Additionally, small businesses are eligible for a tax credit provided that they enroll in the SHOP Marketplace.[73] Under the law, workers whose employers offer affordable coverage will not be eligible for subsidies via the exchanges. To be eligible the cost of employer-based health insurance must exceed 9.5% of the worker's household income.
+
+Subsidies (2014) for Family of 4[74][75][76][77][78] Income % of federal poverty level Premium Cap as a Share of Income Income Max Annual Out-of-Pocket Premium Premium Savings Additional Cost-Sharing Subsidy 133% 3% of income $31,900 $992 $10,345 $5,040 150% 4% of income $33,075 $1,323 $9,918 $5,040 200% 6.3% of income $44,100 $2,778 $8,366 $4,000 250% 8.05% of income $55,125 $4,438 $6,597 $1,930 300% 9.5% of income $66,150 $6,284 $4,628 $1,480 350% 9.5% of income $77,175 $7,332 $3,512 $1,480 400% 9.5% of income $88,200 $8,379 $2,395 $1,480 a.^ Note: In 2014, the FPL was $11,800 for a single person and $24,000 for family of four.[79][80] See Subsidy Calculator for specific dollar amount.[81] b.^ DHHS and CBO estimate the average annual premium cost in 2014 would have been $11,328 for a family of 4 without the reform.[76]
+
+Exchanges
+
+Established the creation of health insurance exchanges in all fifty states. The exchanges are regulated, largely online marketplaces, administered by either federal or state government, where individuals and small business can purchase private insurance plans.[82][83][84]
+
+Setting up an exchange gives a state partial discretion on standards and prices of insurance.[85][86] For example, states approve plans for sale, and influence (through limits on and negotiations with private insurers) the prices on offer. They can impose higher or state-specific coverage requirements—including whether plans offered in the state can cover abortion.[87] States without an exchange do not have that discretion. The responsibility for operating their exchanges moves to the federal government.[85]
+
+Risk corridor program
+
+The risk-corridor program was a temporary risk management device defined under the PPACA section 1342[88]:1 to encourage reluctant insurers into the "new and untested"[attribution needed] ACA insurance market during the first three years that ACA was implemented (2014–2016). For those years the Department of Health and Human Services (HHS) "would cover some of the losses for insurers whose plans performed worse than they expected. Insurers that were especially profitable, for their part, would have to return to HHS some of the money they earned on the exchanges"[89][90][attribution needed]
+
+According to an article in Forbes, risk corridors "had been a successful part of the Medicare prescription drug benefit, and the ACA's risk corridors were modeled after Medicare's Plan D."[91] They operated on the principle that "more participation would mean more competition, which would drive down premiums and make health insurance more affordable"[attribution needed] and "[w]hen insurers signed up to sell health plans on the exchanges, they did so with the expectation that the risk-corridor program would limit their downside losses."[89][attribution needed] The risk corridors succeeded in attracting ACA insurers. The program did not pay for itself as planned with "accumulated losses"[attribution needed] up to $8.3 billion for 2014 and 2015 alone. Authorization had to be given so that HHS could pay insurers from "general government revenues".[attribution needed] Congressional Republicans "railed against"[attribution needed] the program as a 'bailout' for insurers. Then-Rep. Jack Kingston (R-Ga.), on the Appropriations Committee that funds the Department of Health and Human Services and the Labor Department "[slipped] in a sentence"—Section 227—in the "massive" appropriations Consolidated Appropriations Act, 2014 (H.R. 3547) that said that no funds in the discretionary spending bill "could be used for risk-corridor payments."[attribution needed] This effectively "blocked the administration from obtaining the necessary funds from other programs"[92][attribution needed] and placed Congress in a potential breach of contract with insurers who offered qualified health plans, under the Tucker Act[88] as it did not pay the insurers.[93][93]
+
+On February 10, 2017, in the Moda Health v the US Government, Moda, one of the insurers that struggled financially because of the elimination of the risk corridor program, won a "$214-million judgment against the federal government".[attribution needed] On appeal, judge Thomas C. Wheeler stated, "the Government made a promise in the risk corridors program that it has yet to fulfill. Today, the court directs the Government to fulfill that promise. After all, to say to [Moda], 'The joke is on you. You shouldn't have trusted us,' is hardly worthy of our great government."[94]
+
+Temporary reinsurance
+
+Temporary reinsurance for insurance for insurers against unexpectedly high claims was a program that ran from 2014 through 2016. It was intended to limit insurer losses.[citation needed]
+
+Risk adjustment
+
+Of the three risk management programs, only risk adjustment was permanent. Risk adjustment attempts to spread risk among insurers to prevent purchasers with good knowledge of their medical needs from using insurance to cover their costs (adverse selection). Plans with low actuarial risk compensate plans with high actuarial risk.[citation needed]
+
+Medicaid expansion
+
+ACA revised and expanded Medicaid eligibility starting in 2014. Under the law as written, all U.S. citizens and legal residents with income up to 133% of the poverty line, including adults without dependent children, would qualify for coverage in any state that participated in the Medicaid program. The federal government paid 100% of the cost of Medicaid eligibility expansion in participating states in 2014, 2015, and 2016; and will pay 95% in 2017, 94% in 2018, 93% in 2019, and 90% in 2020 and all subsequent years.[95][96][97] The law provides a 5% "income disregard", making the effective income eligibility limit for Medicaid 138% of the poverty level.[98]
+
+However, the Supreme Court ruled in NFIB v. Sebelius that this provision of the ACA was coercive, and that the federal government must allow states to continue at pre-ACA levels of funding and eligibility if they chose.
+
+Medicare savings
+
+Spending reductions included a reduction in Medicare reimbursements to insurers and drug companies for private Medicare Advantage policies that the Government Accountability Office and Medicare Payment Advisory Commission found to be excessively costly relative to government Medicare;[99][100] and reductions in Medicare reimbursements to hospitals that failed standards of efficiency and care.[99]
+
+Taxes
+
+Medicare taxes
+
+Income from self-employment and wages of single individuals in excess of $200,000 annually are subject to an additional tax of 0.9%. The threshold amount is $250,000 for a married couple filing jointly (threshold applies to joint compensation of the two spouses), or $125,000 for a married person filing separately.[101]
+
+In the ACA's companion legislation, the Health Care and Education Reconciliation Act of 2010, an additional Medicare tax of 3.8% was applied to unearned income, specifically the lesser of net investment income or the amount by which adjusted gross income exceeds $200,000 ($250,000 for a married couple filing jointly; $125,000 for a married person filing separately.)[102]
+
+Excise taxes
+
+Excise taxes for the Affordable Care Act raised $16.3 billion in fiscal year 2015 (17% of all excise taxes collected by the Federal Government). $11.3 billion was raised by an excise tax placed directly on health insurers based on their market share. The ACA also includes an excise tax of 40% ("Cadillac tax") on total employer premium spending in excess of specified dollar amounts ($10,200 for single coverage and $27,500 for family coverage[103]) indexed to inflation, originally scheduled to take effect in 2018, but delayed until 2020 by the Consolidated Appropriations Act, 2016. Annual excise taxes totaling $3 billion were levied on importers and manufacturers of prescription drugs. An excise tax of 2.3% on medical devices and a 10% excise tax on indoor tanning services were applied as well.[104]
+
+SCHIP
+
+The State Children's Health Insurance Program (CHIP) enrollment process was simplified.[105]
+
+Dependents' health insurance
+
+Dependents were permitted to remain on their parents' insurance plan until their 26th birthday, including dependents who no longer live with their parents, are not a dependent on a parent's tax return, are no longer a student, or are married.[106][107]
+
+Businesses that employ 50 or more people but do not offer health insurance to their full-time employees pay a tax penalty if the government has subsidized a full-time employee's healthcare through tax deductions or other means. This is commonly known as the employer mandate.[108][109] This provision was included to encourage employers to continue providing insurance once the exchanges began operating.[110] Approximately 44% of the population was covered directly or indirectly through an employer.[111][112]
+
+Delivery system reforms
+
+The act includes a host of delivery system reforms intended to constrain healthcare costs and improve quality. These include Medicare payment changes to discourage hospital-acquired conditions and readmissions, bundled payment initiatives, the Center for Medicare and Medicaid Innovation, the Independent Payment Advisory Board, and the creation of Accountable care organizations.
+
+Hospital quality
+
+Health care cost/quality initiatives including incentives to reduce hospital infections, to adopt electronic medical records, and to coordinate care and prioritize quality over quantity.[113]
+
+The Hospital Readmissions Reduction Program (HRPP) was established as an addition to the Social Security Act, in an effort to reduce hospital readmissions. This program penalizes hospitals with higher than expected readmission rates by decreasing their Medicare reimbursement rate.
+
+Bundled Payments
+
+The Medicare payment system switched from fee-for-service to bundled payments.[114][115] A single payment was to be paid to a hospital and a physician group for a defined episode of care (such as a hip replacement) rather than individual payments to individual service providers. In addition, the Medicare Part D coverage gap (commonly called the "donut hole") was to shrink incrementally, closing completely by January 1, 2020.[116]
+
+Accountable Care Organizations
+
+The Act allowed the creation of Accountable Care Organizations (ACOs), which are groups of doctors, hospitals and other providers that commit to give coordinated, high quality care to Medicare patients. ACOs were allowed to continue using a fee for service billing approach. They receive bonus payments from the government for minimizing costs while achieving quality benchmarks that emphasize prevention and mitigation of chronic disease. If they fail to do so, they are subject to penalties.[117]
+
+Unlike Health Maintenance Organizations, ACO patients are not required to obtain all care from the ACO. Also, unlike HMOs, ACOs must achieve quality of care goals.[117]
+
+Medicare donut hole
+
+Medicare Part D participants received a 50% discount on brand name drugs purchased after exhausting their initial coverage and before reaching the catastrophic-coverage threshold.[118] The United States Department of Health and Human Services began mailing rebate checks in 2010.[119] By the year 2020, the donut hole will be completely phased out.[120]
+
+State waivers
+
+From 2017 onwards, states can apply for a "waiver for state innovation" that allows them to conduct experiments that meet certain criteria.[121] To obtain a waiver, a state must pass legislation setting up an alternative health system that provides insurance at least as comprehensive and as affordable as ACA, covers at least as many residents and does not increase the federal deficit.[122] These states can be exempt from some of ACA's central requirements, including the individual and employer mandates and the provision of an insurance exchange.[123] The state would receive compensation equal to the aggregate amount of any federal subsidies and tax credits for which its residents and employers would have been eligible under ACA plan, if they cannot be paid under the state plan.[121]
+
+In May 2011, Vermont enacted Green Mountain Care, a state-based single-payer system for which they intended to pursue a waiver to implement.[124][125][126] In December 2014, Vermont decided not to continue due to high expected costs.[127]
+
+Other insurance provisions
+
+Menu calorie listings
+
+Nutrition labeling requirements of the Affordable Care Act were signed into federal law in 2010, but implementation was delayed by the FDA several times until they went into effect on May 7, 2018.[132]
+
+Legislative history
+
+President Obama signing the Patient Protection and Affordable Care Act on March 23, 2010
+
+Background
+
+An individual mandate coupled with subsidies for private insurance as a means for universal healthcare was considered the best way to win the support of the Senate because it had been included in prior bipartisan reform proposals. The concept goes back to at least 1989, when the conservative The Heritage Foundation proposed an individual mandate as an alternative to single-payer health care.[133][134] It was championed for a time by conservative economists and Republican senators as a market-based approach to healthcare reform on the basis of individual responsibility and avoidance of free rider problems. Specifically, because the 1986 Emergency Medical Treatment and Active Labor Act (EMTALA) requires any hospital participating in Medicare (nearly all do) to provide emergency care to anyone who needs it, the government often indirectly bore the cost of those without the ability to pay.[135][137]
+
+President Bill Clinton proposed a healthcare reform bill in 1993 that included a mandate for employers to provide health insurance to all employees through a regulated marketplace of health maintenance organizations. Republican Senators proposed an alternative that would have required individuals, but not employers, to buy insurance. Ultimately the Clinton plan failed amid an unprecedented barrage of negative advertising funded by politically conservative groups and the health insurance industry and due to concerns that it was overly complex.[138] Clinton negotiated a compromise with the 105th Congress to instead enact the State Children's Health Insurance Program (SCHIP) in 1997.[139]
+
+John Chafee
+
+The 1993 Republican alternative, introduced by Senator John Chafee as the Health Equity and Access Reform Today Act, contained a "universal coverage" requirement with a penalty for noncompliance—an individual mandate—as well as subsidies to be used in state-based 'purchasing groups'.[140] Advocates for the 1993 bill included prominent Republicans such as Senators Orrin Hatch, Chuck Grassley, Bob Bennett and Kit Bond.[141][142] Of 1993's 43 Republican Senators, 20 supported the HEART Act.[133][143] Another Republican proposal, introduced in 1994 by Senator Don Nickles (R-OK), the Consumer Choice Health Security Act, contained an individual mandate with a penalty provision;[144] however, Nickles subsequently removed the mandate from the bill, stating he had decided "that government should not compel people to buy health insurance".[145] At the time of these proposals, Republicans did not raise constitutional issues with the mandate; Mark Pauly, who helped develop a proposal that included an individual mandate for George H. W. Bush, remarked, "I don't remember that being raised at all. The way it was viewed by the Congressional Budget Office in 1994 was, effectively, as a tax."[133]
+
+[146] Mitt Romney's Massachusetts went from 90% of its residents insured to 98%, the highest rate in the nation.
+
+In 2006, an insurance expansion bill was enacted at the state level in Massachusetts. The bill contained both an individual mandate and an insurance exchange. Republican Governor Mitt Romney vetoed the mandate, but after Democrats overrode his veto, he signed it into law.[147] Romney's implementation of the 'Health Connector' exchange and individual mandate in Massachusetts was at first lauded by Republicans. During Romney's 2008 presidential campaign, Senator Jim DeMint praised Romney's ability to "take some good conservative ideas, like private health insurance, and apply them to the need to have everyone insured". Romney said of the individual mandate: "I'm proud of what we've done. If Massachusetts succeeds in implementing it, then that will be the model for the nation."[148]
+
+In 2007, a year after the Massachusetts reform, Republican Senator Bob Bennett and Democratic Senator Ron Wyden introduced the Healthy Americans Act, which featured an individual mandate and state-based, regulated insurance markets called "State Health Help Agencies".[137][148] The bill initially attracted bipartisan support, but died in committee. Many of the sponsors and co-sponsors remained in Congress during the 2008 healthcare debate.[149]
+
+By 2008 many Democrats were considering this approach as the basis for healthcare reform. Experts said that the legislation that eventually emerged from Congress in 2009 and 2010 bore similarities to the 2007 bill[140] and that it was deliberately patterned after Romney's state healthcare plan.[150]
+
+Healthcare debate, 2008–10
+
+Healthcare reform was a major topic during the 2008 Democratic presidential primaries. As the race narrowed, attention focused on the plans presented by the two leading candidates, Hillary Clinton and the eventual nominee, Barack Obama. Each candidate proposed a plan to cover the approximately 45 million Americans estimated to not have health insurance at some point each year. Clinton's proposal would have required all Americans to obtain coverage (in effect, an individual mandate), while Obama's proposal provided a subsidy but rejected the use of an individual mandate.[151][152]
+
+During the general election, Obama said that fixing healthcare would be one of his top four priorities as president.[153] Obama and his opponent, Sen. John McCain, proposed health insurance reforms though they differed greatly. Senator John McCain proposed tax credits for health insurance purchased in the individual market, which was estimated to reduce the number of uninsured people by about 2 million by 2018. Obama proposed private and public group insurance, income-based subsidies, consumer protections, and expansions of Medicaid and SCHIP, which was estimated at the time to reduce the number of uninsured people by 33.9 million by 2018.[154]
+
+After his inauguration, Obama announced to a joint session of Congress in February 2009 his intent to work with Congress to construct a plan for healthcare reform.[155][156] By July, a series of bills were approved by committees within the House of Representatives.[157] On the Senate side, from June to September, the Senate Finance Committee held a series of 31 meetings to develop a healthcare reform bill. This group—in particular, Democrats Max Baucus, Jeff Bingaman and Kent Conrad, along with Republicans Mike Enzi, Chuck Grassley and Olympia Snowe—met for more than 60 hours, and the principles that they discussed, in conjunction with the other committees, became the foundation of the Senate healthcare reform bill.[158][159][160]
+
+Congressional Democrats and health policy experts like MIT economics professor Jonathan Gruber[161] and David Cutler argued that guaranteed issue would require both community rating and an individual mandate to ensure that adverse selection and/or "free riding" would not result in an insurance "death spiral".[162] This approach was taken because the president and congressional leaders had concluded that more progressive plans, such as the (single-payer) Medicare for All act, could not obtain filibuster-proof support in the Senate. By deliberately drawing on bipartisan ideas—the same basic outline was supported by former Senate majority leaders Howard Baker, Bob Dole, Tom Daschle and George J. Mitchell—the bill's drafters hoped to garner the votes necessary for passage.[163][164]
+
+However, following the adoption of an individual mandate, Republicans came to oppose the mandate and threatened to filibuster any bills that contained it.[133] Senate minority leader Mitch McConnell, who led the Republican congressional strategy in responding to the bill, calculated that Republicans should not support the bill, and worked to prevent defections:[165]
+
+It was absolutely critical that everybody be together because if the proponents of the bill were able to say it was bipartisan, it tended to convey to the public that this is O.K., they must have figured it out.[166]
+
+Republican Senators, including those who had supported previous bills with a similar mandate, began to describe the mandate as "unconstitutional". Journalist Ezra Klein wrote in The New Yorker that "a policy that once enjoyed broad support within the Republican Party suddenly faced unified opposition."[137] Reporter Michael Cooper of The New York Times wrote that: "the provision ... requiring all Americans to buy health insurance has its roots in conservative thinking."[143]
+
+The reform negotiations also attracted attention from lobbyists,[167] including deals between certain lobby groups and the advocates of the law to win the support of groups that had opposed past reforms, as in 1993.[168][169] The Sunlight Foundation documented many of the reported ties between "the healthcare lobbyist complex" and politicians in both parties.[170]
+
+During the August 2009 summer congressional recess, many members went back to their districts and held town hall meetings on the proposals. The nascent Tea Party movement organized protests and many conservative groups and individuals attended the meetings to oppose the proposed reforms.[156] Many threats were made against members of Congress over the course of the debate.[171][172]
+
+When Congress returned from recess, in September 2009 President Obama delivered a speech to a joint session of Congress supporting the ongoing Congressional negotiations.[173] He acknowledged the polarization of the debate, and quoted a letter from the late Senator Edward "Ted" Kennedy urging on reform: "what we face is above all a moral issue; that at stake are not just the details of policy, but fundamental principles of social justice and the character of our country."[174] On November 7, the House of Representatives passed the Affordable Health Care for America Act on a 220–215 vote and forwarded it to the Senate for passage.[156]
+
+Senate
+
+The Senate began work on its own proposals while the House was still working. The United States Constitution requires all revenue-related bills to originate in the House.[175] To formally comply with this requirement, the Senate used H.R. 3590, a bill regarding housing tax changes for service members.[176] It had been passed by the House as a revenue-related modification to the Internal Revenue Code. The bill became the Senate's vehicle for its healthcare reform proposal, discarding the bill's original content.[177] The bill ultimately incorporated elements of proposals that were reported favorably by the Senate Health and Finance committees. With the Republican Senate minority vowing to filibuster, 60 votes would be necessary to pass the Senate.[178] At the start of the 111th Congress, Democrats had only 58 votes; the Senate seat in Minnesota ultimately won by Al Franken was still undergoing a recount, while Arlen Specter was still a Republican (he became a Democrat in April, 2009).
+
+Negotiations were undertaken attempting to satisfy moderate Democrats and to bring Republican senators aboard; particular attention was given to Republicans Bennett, Enzi, Grassley and Snowe. On July 7 Franken was sworn into office, providing a potential 60th vote. On August 25 Ted Kennedy—a longtime healthcare reform advocate—died. Paul Kirk was appointed as Senator Kennedy's temporary replacement on September 24.
+
+After the Finance Committee vote on October 15, negotiations turned to moderate Democrats. Majority leader Harry Reid focused on satisfying centrists. The holdouts came down to Joe Lieberman of Connecticut, an independent who caucused with Democrats, and conservative Nebraska Democrat Ben Nelson. Lieberman's demand that the bill not include a public option[162][179] was met,[180] although supporters won various concessions, including allowing state-based public options such as Vermont's Green Mountain Care.[180][181]
+
+Senate vote by state Democratic yes (58) Independent yes (2) Republican no (39) Republican not voting (1)
+
+The White House and Reid addressed Nelson's concerns[182] during a 13-hour negotiation with two concessions: a compromise on abortion, modifying the language of the bill "to give states the right to prohibit coverage of abortion within their own insurance exchanges", which would require consumers to pay for the procedure out of pocket if the state so decided; and an amendment to offer a higher rate of Medicaid reimbursement for Nebraska.[156][183] The latter half of the compromise was derisively termed the "Cornhusker Kickback"[184] and was repealed in the subsequent reconciliation amendment bill.
+
+On December 23, the Senate voted 60–39 to end debate on the bill: a cloture vote to end the filibuster.[185] The bill then passed, also 60–39, on December 24, 2009, with all Democrats and two independents voting for it, and all Republicans against (except Jim Bunning, who did not vote).[186] The bill was endorsed by the AMA and AARP.[187]
+
+On January 19, 2010, Massachusetts Republican Scott Brown was elected to the Senate in a special election to replace Kennedy, having campaigned on giving the Republican minority the 41st vote needed to sustain Republican filibusters.[156][188][189] His victory had become significant because of its effects on the legislative process. The first was psychological: the symbolic importance of losing Kennedy's traditionally Democratic Massachusetts seat made many Congressional Democrats concerned about the political cost of passing a bill.[190][191]
+
+House
+
+House vote by congressional district Democratic yes (219) Democratic no (34) Republican no (178) No representative seated (4)
+
+Brown's election meant Democrats could no longer break a filibuster in the Senate. In response, White House Chief of Staff Rahm Emanuel argued that Democrats should scale back to a less ambitious bill; House Speaker Nancy Pelosi pushed back, dismissing Emanuel's scaled-down approach as "Kiddie Care".[192][193]
+
+Obama remained insistent on comprehensive reform. The news that Anthem Blue Cross in California intended to raise premium rates for its patients by as much as 39% gave him new evidence of the need for reform.[192][193] On February 22, he laid out a "Senate-leaning" proposal to consolidate the bills.[194] He held a meeting with both parties' leaders on February 25. The Democrats decided that the House would pass the Senate's bill, to avoid another Senate vote.
+
+House Democrats had expected to be able to negotiate changes in a House–Senate conference before passing a final bill. Since any bill that emerged from conference that differed from the Senate bill would have to pass the Senate over another Republican filibuster, most House Democrats agreed to pass the Senate bill on condition that it be amended by a subsequent bill.[191] They drafted the Health Care and Education Reconciliation Act, which could be passed by the reconciliation process.[192][195][196]
+
+Per the Congressional Budget Act of 1974, reconciliation cannot be subject to a filibuster. But reconciliation is limited to budget changes, which is why the procedure was not used to pass ACA in the first place; the bill had inherently non-budgetary regulations.[197][198] Although the already-passed Senate bill could not have been passed by reconciliation, most of House Democrats' demands were budgetary: "these changes—higher subsidy levels, different kinds of taxes to pay for them, nixing the Nebraska Medicaid deal—mainly involve taxes and spending. In other words, they're exactly the kinds of policies that are well-suited for reconciliation."[195]
+
+The remaining obstacle was a pivotal group of pro-life Democrats led by Bart Stupak who were initially reluctant to support the bill. The group found the possibility of federal funding for abortion significant enough to warrant opposition. The Senate bill had not included language that satisfied their concerns, but they could not address abortion in the reconciliation bill as it would be non-budgetary. Instead, Obama issued Executive Order 13535, reaffirming the principles in the Hyde Amendment.[199] This won the support of Stupak and members of his group and assured the bill's passage.[196][200] The House passed the Senate bill with a 219–212 vote on March 21, 2010, with 34 Democrats and all 178 Republicans voting against it.[201] The next day, Republicans introduced legislation to repeal the bill.[202] Obama signed ACA into law on March 23, 2010.[203] Since passage, Republicans have voted to repeal all or parts of the Affordable Care Act over sixty times; no such attempt by Republicans has been successful.[204] The amendment bill, The Health Care and Education Reconciliation Act, cleared the House on March 21; the Senate passed it by reconciliation on March 25, and Obama signed it on March 30.
+
+Impact
+
+[5] U.S. health insurance coverage by source in 2016. CBO estimated ACA/Obamacare was responsible for 23 million persons covered via exchanges and Medicaid expansion.
+
+This chart illustrates several aspects of the Affordable Care Act, including number of persons covered, cost before and after subsidies, and public opinion.
+
+Coverage
+
+The law has caused a significant reduction in the number and percentage of people without health insurance. The CDC reported that the percentage of people without health insurance fell from 16.0% in 2010 to 8.9% from January to June 2016.[205] The uninsured rate dropped in every congressional district in the U.S. from 2013 to 2015.[206] The Congressional Budget Office reported in March 2016 that there were approximately 12 million people covered by the exchanges (10 million of whom received subsidies to help pay for insurance) and 11 million made eligible for Medicaid by the law, a subtotal of 23 million people. An additional 1 million were covered by the ACA's "Basic Health Program," for a total of 24 million.[5] CBO also estimated that the ACA would reduce the net number of uninsured by 22 million in 2016, using a slightly different computation for the above figures totaling ACA coverage of 26 million, less 4 million for reductions in "employment-based coverage" and "non-group and other coverage."[5]
+
+The U.S. Department of Health and Human Services (HHS) estimated that 20.0 million adults (aged 18–64) gained healthcare coverage via ACA as of February 2016, a 2.4 million increase over September 2015. HHS estimated that this 20.0 million included: a) 17.7 million from the start of open enrollment in 2013–2016; and b) 2.3 million young adults aged 19–25 who initially gained insurance from 2010 to 2013, as they were allowed to remain on their parent's plans until age 26. Of the 20.0 million, an estimated 6.1 million were aged 19–25.[6] Similarly, the Urban Institute issued a report in December 2016 that said that about 19.2 million non-elderly Americans had gained health insurance coverage from 2010 to 2015.[207] In March 2016, the CBO reported that there were approximately 27 million people without insurance in 2016, a figure they expected would range from 26 to 28 million through 2026. CBO also estimated the percentage of insured among all U.S. residents would remain at 90% during that period, 92–93% excluding unauthorized immigrants.[5]
+
+States that expanded Medicaid had a 7.3% uninsured rate on average in the first quarter of 2016, while those that did not expand it had a 14.1% uninsured rate, among adults aged 18–64.[208] As of December 2016 there were 32 states (including Washington DC) that had adopted the Medicaid extension, while 19 states had not.[209]
+
+By 2017, nearly 70% of those on the exchanges could purchase insurance for less than $75 per month after subsidies, which rose to offset significant pre-subsidy price increases in the exchange markets.[210] Healthcare premium cost increases in the employer market continued to lessen. For example, healthcare premiums for those covered by employers rose by 69% from 2000 to 2005, but only 27% from 2010 to 2015,[10] with only a 3% increase from 2015 to 2016.[211]
+
+The ACA also helps reduce income inequality measured after taxes, due to higher taxes on the top 5% of income earners and both subsidies and Medicaid expansion for lower-income persons.[212] The CBO estimated that subsidies paid under the law in 2016 averaged $4,240 per person for 10 million individuals receiving them, roughly $42 billion. For scale, the subsidy for the employer market, in the form of exempting from taxation those health insurance premiums paid on behalf of employees by employers, was approximately $1,700 per person in 2016, or $266 billion total in the employer market. The employer market subsidy was not changed by the law.[5]
+
+Taxes
+
+Excise taxes for the Affordable Care Act raised $16.3 billion in fiscal year 2015. $11.3 billion was an excise tax placed directly on health insurers based on their market share. The ACA was going to impose a 40% "Cadillac tax" on expensive employer sponsored health insurance but that was postponed until 2018.[213] Annual excise taxes totaling $3 billion were levied on importers and manufacturers of prescription drugs. An excise tax of 2.32% on medical devices and a 10% excise tax on indoor tanning services were applied as well. The Individual mandate was $695 per individual or $2,085 per family minimum who wasn't insured and was as high as 2.5% of household income (whichever was higher). The individual mandate was repealed by Republicans ending at the end of 2018.[213] 0.9 percent payroll tax and a 3.8 percent tax on net investment income for individuals with incomes exceeding $200,000 and couples with incomes exceeding $250,000.[214][215]
+
+Insurance exchanges
+
+As of August 2016, 15 states operated their own exchanges. Other states either used the federal exchange, or operated in partnership with or supported by the federal government.[216]
+
+Medicaid expansion
+
+[217] Adopted the Medicaid expansion Medicaid expansion under discussion Not adopting Medicaid expansion Medicaid expansion by state, as of November 7, 2018
+
+As of December 2016 there were 32 states (including Washington DC) that had adopted the Medicaid extension, while 19 states had not.[209] Those states that expanded Medicaid had a 7.3% uninsured rate on average in the first quarter of 2016, while those that did not expand Medicaid had a 14.1% uninsured rate, among adults aged 18 to 64.[208] Following the Supreme Court ruling in 2012, which held that states would not lose Medicaid funding if they didn't expand Medicaid under the ACA, several states rejected expanded Medicaid coverage. Over half of the national uninsured population lived in those states.[218] In a report to Congress, the Centers for Medicare and Medicaid Services (CMS) estimated that the cost of expansion was $6,366 per person for 2015, about 49 percent above previous estimates. An estimated 9 million to 10 million people had gained Medicaid coverage, mostly low-income adults.[219] The Kaiser Family Foundation estimated in October 2015 that 3.1 million additional people were not covered because of states that rejected the Medicaid expansion.[220]
+
+States that rejected the Medicaid expansion could maintain their Medicaid eligibility thresholds, which in many states were significantly below 133% of the poverty line.[221] Many states did not make Medicaid available to childless adults at any income level.[222] Because subsidies on exchange insurance plans were not available to those below the poverty line, such individuals had no new options.[223][224] For example, in Kansas, where only able-bodied adults with children and with an income below 32% of the poverty line were eligible for Medicaid, those with incomes from 32% to 100% of the poverty level ($6,250 to $19,530 for a family of three) were ineligible for both Medicaid and federal subsidies to buy insurance. Absent children, able-bodied adults were not eligible for Medicaid in Kansas.[218]
+
+Studies of the impact of state decisions to reject the Medicaid expansion calculated that up to 6.4 million people could fall into this status.[225] The federal government initially paid for 100% of the expansion (through 2016). The subsidy tapered to 90% by 2020 and continued to shrink thereafter.[226] Several states argued that they could not afford their 10% contribution.[226][227] Studies suggested that rejecting the expansion would cost more than expanding Medicaid due to increased spending on uncompensated emergency care that otherwise would have been partially paid for by Medicaid coverage,[228]
+
+A 2016 study led by Harvard University health economics professor Benjamin Sommers found that residents of Kentucky and Arkansas, which both accepted the Medicaid expansion, were more likely to receive health care services and less likely to incur emergency room costs or have trouble paying their medical bills than before the expansion. Residents of Texas, which did not accept the Medicaid expansion, did not see a similar improvement during the same period.[229] Kentucky opted for increased managed care, while Arkansas subsidized private insurance. The new Arkansas and Kentucky governors have proposed reducing or modifying their programs. From 2013 to 2015, the uninsured rate dropped from 42% to 14% in Arkansas and from 40% to 9% in Kentucky, compared with 39% to 32% in Texas. Specific improvements included additional primary and preventive care, fewer emergency departments visits, reported higher quality care, improved health, improved drug affordability, reduced out-of-pocket spending and increased outpatient visits, increased diabetes screening, glucose testing among diabetes patients and regular care for chronic conditions.[230]
+
+A 2016 DHHS study found that states that expanded Medicaid had lower premiums on exchange policies, because they had fewer low-income enrollees, whose health on average is worse than that of those with higher income.[231]
+
+Healthcare insurance costs
+
+The law is designed to pay subsidies in the form of tax credits to the individuals or families purchasing the insurance, based on income levels. Higher income consumers receive lower subsidies. While pre-subsidy prices rose considerably from 2016 to 2017, so did the subsidies, to reduce the after-subsidy cost to the consumer. For example, a study published in 2016 found that the average requested 2017 premium increase among 40-year-old non-smokers was about 9 percent, according to an analysis of 17 cities, although Blue Cross Blue Shield proposed increases of 40 percent in Alabama and 60 percent in Texas.[233] However, some or all of these costs are offset by subsidies, paid as tax credits. For example, the Kaiser Foundation reported that for the second-lowest cost "Silver plan" (a plan often selected and used as the benchmark for determining financial assistance), a 40-year old non-smoker making $30,000 per year would pay effectively the same amount in 2017 as they did in 2016 (about $208/month) after the subsidy/tax credit, despite large increases in the pre-subsidy price. This was consistent nationally. In other words, the subsidies increased along with the pre-subsidy price, fully offsetting the price increases.[234]
+
+Healthcare premium cost increases in the employer market continued to moderate after the implementation of the law. For example, healthcare premiums for those covered by employers rose by 69% from 2000 to 2005, but only 27% from 2010 to 2015,[10] with only a 3% increase from 2015 to 2016.[211] From 2008 to 2010 (before passage of the ACA) health insurance premiums rose by an average of 10% per year.[235]
+
+Several studies found that the financial crisis and accompanying recession could not account for the entirety of the slowdown and that structural changes likely share at least partial credit.[236][237][238][239] A 2013 study estimated that changes to the health system had been responsible for about a quarter of the recent reduction in inflation.[240] Paul Krawzak claimed that even if cost controls succeed in reducing the amount spent on healthcare, such efforts on their own may be insufficient to outweigh the long-term burden placed by demographic changes, particularly the growth of the population on Medicare.[241]
+
+In a 2016 review of the ACA published in JAMA, Barack Obama himself wrote that from 2010 through 2014 mean annual growth in real per-enrollee Medicare spending was negative, down from a mean of 4.7% per year from 2000 through 2005 and 2.4% per year from 2006 to 2010; similarly, mean real per-enrollee growth in private insurance spending was 1.1% per year over the period, compared with a mean of 6.5% from 2000 through 2005 and 3.4% from 2005 to 2010.[242]
+
+Effect on deductibles and co-payments
+
+While health insurance premium costs have moderated, some of this is because of insurance policies that have a higher deductible, co-payments and out-of-pocket maximums that shift costs from insurers to patients. In addition, many employees are choosing to combine a health savings account with higher deductible plans, making the impact of the ACA difficult to determine precisely.
+
+For those who obtain their insurance through their employer ("group market"), a 2016 survey found that:
+
+Deductibles grew by 63% from 2011 to 2016, while premiums increased 19% and worker earnings grew by 11%.
+
+In 2016, 4 in 5 workers had an insurance deductible, which averaged $1,478. For firms with less than 200 employees, the deductible averaged $2,069.
+
+The percentage of workers with a deductible of at least $1,000 grew from 10% in 2006 to 51% in 2016. The 2016 figure drops to 38% after taking employer contributions into account.[243]
+
+For the "non-group" market, of which two-thirds are covered by the ACA exchanges, a survey of 2015 data found that:
+
+49% had individual deductibles of at least $1,500 ($3,000 for family), up from 36% in 2014.
+
+Many marketplace enrollees qualify for cost-sharing subsidies that reduce their net deductible.
+
+While about 75% of enrollees were "very satisfied" or "somewhat satisfied" with their choice of doctors and hospitals, only 50% had such satisfaction with their annual deductible.
+
+While 52% of those covered by the ACA exchanges felt "well protected" by their insurance, in the group market 63% felt that way.[244]
+
+Health outcomes
+
+[245] The map illustrates the frequency of premature deaths (those under age 75) adjusted for the age of persons in the county.
+
+Insurance coverage helps save lives, by encouraging early detection and prevention of dangerous medical conditions. According to a 2014 study, the ACA likely prevented an estimated 50,000 preventable patient deaths from 2010 to 2013.[246] City University public health professors David Himmelstein and Steffie Woolhandler wrote in January 2017 that a rollback of the ACA's Medicaid expansion alone would cause an estimated 43,956 deaths annually.[247]
+
+The Federal Reserve publishes data on premature death rates by county, defined as those dying below age 74.[245] According to the Kaiser Foundation, expanding Medicaid in the remaining 19 states would cover up to 4.5 million persons.[248] Since expanding Medicaid expands coverage[248] and expanding coverage reduces mortality,[246] therefore expanding Medicaid reduces mortality by syllogism. Texas, Oklahoma, Mississippi, Alabama, Georgia, Tennessee, Missouri and South Carolina, indicated on the map at right as having many counties with high premature mortality rates[245] could therefore reduce mortality by expanding Medicaid, other things equal.
+
+Two 2018 JAMA studies found the Hospital Readmissions Reduction Program was associated with increased post-discharge mortality for patients hospitalized for heart failure and pneumonia.[249][250][251] A 2019 JAMA study found that the ACA decreased emergency department and hospital use by uninsured individuals.[252]
+
+Distributional impact
+
+The distributional impact of the Affordable Care Act (ACA or Obamacare) during 2014. The ACA raised taxes mainly on the top 1% to fund approximately $600 in benefits on average for the bottom 40% of families.
+
+In March 2018, the CBO reported that the ACA had reduced income inequality in 2014, saying that the law led the lowest and second quintiles (the bottom 40%) to receive an average of an additional $690 and $560 respectively while causing households in the top 1% to pay an additional $21,000 due mostly to the net investment income tax and the additional Medicare tax. The law placed relatively little burden on households in the top quintile (top 20%) outside of the top 1%.[9]
+
+Federal deficit
+
+CBO estimates of revenue and impact on deficit
+
+The CBO reported in several studies that the ACA would reduce the deficit, and that repealing it would increase the deficit.[7][8][253][254] The 2011 comprehensive CBO estimate projected a net deficit reduction of more than $200 billion during the 2012–2021 period:[8][255] it calculated the law would result in $604 billion in total outlays offset by $813 billion in total receipts, resulting in a $210 billion net deficit reduction.[8] The CBO separately predicted that while most of the spending provisions do not begin until 2014,[256][257] revenue would exceed spending in those subsequent years.[258] The CBO claimed that the bill would "substantially reduce the growth of Medicare's payment rates for most services; impose an excise tax on insurance plans with relatively high premiums; and make various other changes to the federal tax code, Medicare, Medicaid, and other programs"[259]—ultimately extending the solvency of the Medicare trust fund by 8 years.[260]
+
+This estimate was made prior to the Supreme Court's ruling that enabled states to opt out of the Medicaid expansion, thereby forgoing the related federal funding. The CBO and JCT subsequently updated the budget projection, estimating the impact of the ruling would reduce the cost estimate of the insurance coverage provisions by $84 billion.[261][262][263]
+
+The CBO in June 2015 forecast that repeal of ACA would increase the deficit between $137 billion and $353 billion over the 2016–2025 period, depending on the impact of macroeconomic feedback effects. The CBO also forecasted that repeal of ACA would likely cause an increase in GDP by an average of 0.7% in the period from 2021 to 2025, mainly by boosting the supply of labor.[7]
+
+Although the CBO generally does not provide cost estimates beyond the 10-year budget projection period because of the degree of uncertainty involved in the projection, it decided to do so in this case at the request of lawmakers, and estimated a second decade deficit reduction of $1.2 trillion.[259][264] CBO predicted deficit reduction around a broad range of one-half percent of GDP over the 2020s while cautioning that "a wide range of changes could occur".[265]
+
+Opinions on CBO projections
+
+The CBO cost estimates were criticized because they excluded the effects of potential legislation that would increase Medicare payments by more than $200 billion from 2010 to 2019.[266][267][268] However, the so-called "doc fix" is a separate issue that would have existed whether or not ACA became law – omitting its cost from ACA was no different from omitting the cost of other tax cuts.[269][270][271]
+
+Uwe Reinhardt, a Princeton health economist, wrote. "The rigid, artificial rules under which the Congressional Budget Office must score proposed legislation unfortunately cannot produce the best unbiased forecasts of the likely fiscal impact of any legislation", but went on to say "But even if the budget office errs significantly in its conclusion that the bill would actually help reduce the future federal deficit, I doubt that the financing of this bill will be anywhere near as fiscally irresponsible as was the financing of the Medicare Modernization Act of 2003."[272] Douglas Holtz-Eakin, CBO director during the George W. Bush administration, who later served as the chief economic policy adviser to U.S. Senator John McCain's 2008 presidential campaign, alleged that the bill would increase the deficit by $562 billion because, he argued, it front-loaded revenue and back-loaded benefits.[273]
+
+Scheiber and Cohn rejected critical assessments of the law's deficit impact, arguing that predictions were biased towards underestimating deficit reduction. They noted that for example, it is easier to account for the cost of definite levels of subsidies to specified numbers of people than account for savings from preventive healthcare, and that the CBO had a track record of overestimating costs and underestimating savings of health legislation;[274][275] stating, "innovations in the delivery of medical care, like greater use of electronic medical records[276] and financial incentives for more coordination of care among doctors, would produce substantial savings while also slowing the relentless climb of medical expenses ... But the CBO would not consider such savings in its calculations, because the innovations hadn't really been tried on such large scale or in concert with one another—and that meant there wasn't much hard data to prove the savings would materialize."[274]
+
+In 2010, David Walker, former U.S. Comptroller General then working for The Peter G. Peterson Foundation, stated that the CBO estimates are not likely to be accurate, because they were based on the assumption that the law would not change.[277] The Center on Budget and Policy Priorities objected that Congress had a good record of implementing Medicare savings. According to their study, Congress followed through on the implementation of the vast majority of provisions enacted in the past 20 years to produce Medicare savings, although not the payment reductions addressed by the annual "doc fix".[278][279]
+
+Economic consequences
+
+Coverage rate, employer market cost trends, budgetary impact, and income inequality aspects of the Affordable Care Act
+
+CBO estimated in June 2015 that repealing the ACA would:
+
+Decrease aggregate demand (GDP) in the short-term, as low-income persons who tend to spend a large fraction of their additional resources would have fewer resources (e.g., ACA subsidies would be eliminated). This effect would be offset in the long-run by the labor supply factors below.
+
+Increase the supply of labor and aggregate compensation by about 0.8 and 0.9 percent over the 2021–2025 period. CBO cited the ACA's expanded eligibility for Medicaid and subsidies and tax credits that rise with income as disincentives to work, so repealing the ACA would remove those disincentives, encouraging workers to supply more hours of labor.
+
+Increase the total number of hours worked by about 1.5% over the 2021–2025 period.
+
+Remove the higher tax rates on capital income, thereby encouraging additional investment, raising the capital stock and output in the long-run.[7]
+
+In 2015 the Center for Economic and Policy Research found no evidence that companies were reducing worker hours to avoid ACA requirements[280] for employees working over 30 hours per week.[281]
+
+The CBO estimated that the ACA would slightly reduce the size of the labor force and number of hours worked, as some would no longer be tethered to employers for their insurance. Cohn, citing CBO's projections, claimed that ACA's primary employment effect was to alleviate job lock: "People who are only working because they desperately need employer-sponsored health insurance will no longer do so."[282] He concluded that the "reform's only significant employment impact was a reduction in the labor force, primarily because people holding onto jobs just to keep insurance could finally retire", because they have health insurance outside of their jobs.[283]
+
+Further information on health insurance mandates: Health insurance mandate
+
+The employer mandate requires employers meeting certain criteria to provide health insurance to their workers. The mandate applies to employers with more than 50 employees that do not offer health insurance to their full-time workers.[284] Critics claimed that the mandate created a perverse incentive for business to keep their full-time headcount below 50 and to hire part-time workers instead.[285][286] Between March 2010 and 2014 the number of part-time jobs declined by 230,000, while the number of full-time jobs increased by 2 million.[287][288] In the public sector full-time jobs turned into part-time jobs much more than in the private sector.[287][289] A 2016 study found only limited evidence that ACA had increased part-time employment.[290]
+
+Several businesses and the state of Virginia added a 29-hour-a-week cap for their part-time employees,[291][unreliable source?][292][unreliable source?] to reflect the 30-hour-or-more definition for full-time worker.[284] As of yet, however, only a small percent of companies have shifted their workforce towards more part-time hours (4% in a survey from the Federal Reserve Bank of Minneapolis).[286] Trends in working hours[293] and the effects of the Great Recession correlate with part-time working hour patterns.[294][295] The impact of this provision may have been offset by other factors, including that health insurance helps attract and retain employees, increases productivity and reduces absenteeism; and the lower training and administration costs of a smaller full-time workforce over a larger part-time work force.[286][293][296] Relatively few firms employ over 50 employees[286] and more than 90% of them offered insurance.[297] Workers without employer insurance could purchase insurance on the exchanges.[298]
+
+Most policy analysts (on both right and left) were critical of the employer mandate provision.[285][297] They argued that the perverse incentives regarding part-time hours, even if they did not change existing plans, were real and harmful;[299] that the raised marginal cost of the 50th worker for businesses could limit companies' growth;[301] that the costs of reporting and administration were not worth the costs of maintaining employer plans;[299] and noted that the employer mandate was not essential to maintain adequate risk pools.[302] The effects of the provision generated vocal opposition from business interests and some unions not granted exemptions.[304]
+
+A 2013/4 survey by the National Association for Business Economics found that about 75 percent of those surveyed said ACA hadn't influenced their planning or expectations for 2014, and 85 percent said the law wouldn't prompt a change in their hiring practices. Some 21 percent of 64 businesses surveyed said that the act would have a harmful effect and 5 percent said it would be beneficial.[305]
+
+Hospitals
+
+From the start of 2010 to November 2014, 43 hospitals in rural areas closed. Critics claimed that the new law caused these hospitals to close. Many of these rural hospitals were built using funds from the 1946 Hill–Burton Act, to increase access to medical care in rural areas. Some of these hospitals reopened as other medical facilities, but only a small number operated emergency rooms (ER) or urgent care centers.[306]
+
+Between January 2010 and 2015, a quarter of emergency room doctors said they had seen a major surge in patients, while nearly half had seen a smaller increase. Seven in ten ER doctors claimed that they lacked the resources to deal with large increases in the number of patients. The biggest factor in the increased number of ER patients was insufficient primary care providers to handle the larger number of insured patients.[307]
+
+Insurers claimed that because they have access to and collect patient data that allow evaluations of interventions, they are essential to ACO success. Large insurers formed their own ACOs. Many hospitals merged and purchased physician practices. The increased market share gave them more leverage in negotiations with insurers over costs and reduced patient care options.[117]
+
+Public opinion
+
+Prior to the law's passage, polling indicated the public's views became increasingly negative in reaction to specific plans discussed during the legislative debate over 2009 and 2010. Polling statistics showed a general negative opinion of the law; with those in favor at approximately 40% and those against at 51%, as of October 2013.[308][309] About 29% of whites approved of the law, compared with 61% of Hispanics and 91% of African Americans.[310] Opinions were divided by age of the person at the law's inception, with a solid majority of seniors opposing the bill and a solid majority of those younger than forty years old in favor.[311]
+
+Congressional Democrats celebrating the 6th anniversary of the Affordable Care Act in March 2016 on the steps of the U.S. Capitol
+
+Specific elements were popular across the political spectrum, while others, such as the mandate to purchase insurance, were widely disliked. In a 2012 poll 44% supported the law, with 56% against. By party affiliation, 75% of Democrats, 27% of Independents and 14% of Republicans favored the law overall. 82% favored banning insurance companies from denying coverage to people with pre-existing conditions, 61% favored allowing children to stay on their parents' insurance until age 26, 72% supported requiring companies with more than 50 employees to provide insurance for their employees, and 39% supported the individual mandate to own insurance or pay a penalty. By party affiliation, 19% of Republicans, 27% of Independents, and 59% of Democrats favored the mandate.[312] Other polls showed additional provisions receiving majority support, including the creation of insurance exchanges, pooling small businesses and the uninsured with other consumers so that more people can take advantage of large group pricing benefits and providing subsidies to individuals and families to make health insurance more affordable.[313][314]
+
+In a 2010 poll, 62% of respondents said they thought ACA would "increase the amount of money they personally spend on health care", 56% said the bill "gives the government too much involvement in health care", and 19% said they thought they and their families would be better off with the legislation.[315] Other polls found that people were concerned that the law would cost more than projected and would not do enough to control costs.[316]
+
+Some opponents believed that the reform did not go far enough: a 2012 poll indicated that 71% of Republican opponents rejected it overall, while 29% believed it did not go far enough; independent opponents were divided 67% to 33%; and among the much smaller group of Democratic opponents, 49% rejected it overall and 51% wanted more.[312] In June 2013, a majority of the public (52–34%) indicated a desire for "Congress to implement or tinker with the law rather than repeal it".[317] After the Supreme Court upheld the individual mandate, a 2012 poll held that "most Americans (56%) want to see critics of President Obama's health care law drop efforts to block it and move on to other national issues".[318]A 2014 poll reported that 48.9% of respondents had an unfavorable view of ACA vs. 38.3% who had a favorable view (of more than 5,500 individuals).[319]
+
+A 2014 poll reported that 26% of Americans support ACA.[320] Another held that 8% of respondents say that the Affordable Care Act "is working well the way it is".[321] In late 2014, a Rasmussen poll reported Repeal: 30%, Leave as is: 13%, Improve: 52%.[322]
+
+In 2015, a CBS News / New York Times poll reported that 47% of Americans approved the health care law. This was the first time that a major poll indicated that more respondents approved ACA than disapproved of it.[323] The recurring Kaiser Health Tracking Poll from December 2016 reported that: a) 30% wanted to expand what the law does; b) 26% wanted to repeal the entire law; c) 19% wanted to move forward with implementing the law as it is; and d) 17% wanted to scale back what the law does, with the remainder undecided.[324]
+
+Separate polls from Fox News and NBC/WSJ both taken during January 2017 indicated more people viewed the law favorably than did not for the first time. One of the reasons for the improving popularity of the law is that Democrats who opposed it in the past (many prefer a "Medicare for All" approach) have shifted their positions since the ACA is under threat of repeal.[325]
+
+A January 2017 Morning Consult poll showed that 35% of respondents either believed that "Obamacare" and the "Affordable Care Act" were different or did not know.[326] Approximately 45% were unsure whether the "repeal of Obamacare" also meant the "repeal of the Affordable Care Act."[326] 39% did not know that "many people would lose coverage through Medicaid or subsidies for private health insurance if the A.C.A. were repealed and no replacement enacted," with Democrats far more likely (79%) to know that fact than Republicans (47%).[326]
+
+A 2017 study found that personal experience with public health insurance programs leads to greater support for the Affordable Care Act, and the effects appear to be most pronounced among Republicans and low-information voters.[327]
+
+Political aspects
+
+"Obamacare"
+
+The term "Obamacare" was originally coined by opponents as a pejorative. The term emerged in March 2007 when healthcare lobbyist Jeanne Schulte Scott used it in a health industry journal, writing "We will soon see a 'Giuliani-care' and 'Obama-care' to go along with 'McCain-care', 'Edwards-care', and a totally revamped and remodeled 'Hillary-care' from the 1990s".[328][329] According to research by Elspeth Reeve, the expression was used in early 2007, generally by writers describing the candidate's proposal for expanding coverage for the uninsured.[330] It first appeared in a political campaign by Mitt Romney in May 2007 in Des Moines, Iowa. Romney said, "In my state, I worked on healthcare for some time. We had half a million people without insurance, and I said, 'How can we get those people insured without raising taxes and without having government take over healthcare?' And let me tell you, if we don't do it, the Democrats will. If the Democrats do it, it will be socialized medicine; it'll be government-managed care. It'll be what's known as Hillarycare or Barack Obamacare, or whatever you want to call it."[328]
+
+By mid-2012, Obamacare had become the colloquial term used by both supporters and opponents. In contrast, the use of "Patient Protection and Affordable Care Act" or "Affordable Care Act" became limited to more formal and official use.[330] Use of the term in a positive sense was suggested by Democrat John Conyers.[331] Obama endorsed the nickname, saying, "I have no problem with people saying Obama cares. I do care."[332]
+
+In March 2012, the Obama reelection campaign embraced the term "Obamacare", urging Obama's supporters to post Twitter messages that begin, "I like #Obamacare because ...".[333]
+
+In October 2013, the Associated Press and NPR began cutting back on use of the term.[334] Stuart Seidel, NPR's managing editor, said that the term "seems to be straddling somewhere between being a politically-charged term and an accepted part of the vernacular".[335]
+
+Common misconceptions
+
+"Death panels"
+
+On August 7, 2009, Sarah Palin pioneered the term "death panels" to describe groups that would decide whether sick patients were "worthy" of medical care.[336] "Death panel" referred to two claims about early drafts.
+
+One was that under the law, seniors could be denied care due to their age[337] and the other that the government would advise seniors to end their lives instead of receiving care. The ostensible basis of these claims was the provision for an Independent Payment Advisory Board (IPAB).[338] IPAB was given the authority to recommend cost-saving changes to Medicare by facilitating the adoption of cost-effective treatments and cost-recovering measures when the statutory levels set for Medicare were exceeded within any given 3-year period. In fact, the Board was prohibited from recommending changes that would reduce payments to certain providers before 2020, and was prohibited from recommending changes in premiums, benefits, eligibility and taxes, or other changes that would result in rationing.[339][340]
+
+The other related issue concerned advance-care planning consultation: a section of the House reform proposal would have reimbursed physicians for providing patient-requested consultations for Medicare recipients on end-of-life health planning (which is covered by many private plans), enabling patients to specify, on request, the kind of care they wished to receive.[341] The provision was not included in ACA.[342]
+
+In 2010, the Pew Research Center reported that 85% of Americans were familiar with the claim, and 30% believed it was true, backed by three contemporaneous polls.[343] A poll in August 2012 found that 39% of Americans believed the claim.[344] The allegation was named PolitiFact's "Lie of the Year",[336][345] one of FactCheck.org's "whoppers"[346][347] and the most outrageous term by the American Dialect Society.[348] AARP described such rumors as "rife with gross—and even cruel—distortions".[349]
+
+Members of Congress
+
+ACA requires members of Congress and their staffs to obtain health insurance either through an exchange or some other program approved by the law (such as Medicare), instead of using the insurance offered to federal employees (the Federal Employees Health Benefits Program).[350][351][352][353][354]
+
+Illegal immigrants
+
+ACA does not provide benefits to illegal immigrants.[355] It explicitly denies insurance subsidies to "unauthorized (illegal) aliens".[64][65][356]
+
+Exchange "death spiral"
+
+One argument against the ACA is that the insurers are leaving the marketplaces, as they cannot profitably cover the available pool of customers, which contains too many unhealthy participants relative to healthy participants. A scenario where prices rise, due to an unfavorable mix of customers from the insurer's perspective, resulting in fewer customers and fewer insurers in the marketplace, further raising prices, has been called a "death spiral."[357] During 2017, the median number of insurers offering plans on the ACA exchanges in each state was 3.0, meaning half the states had more and half had fewer insurers. There were five states with one insurer in 2017; 13 states with two; 11 states with three; and the remainder had four insurers or more. Wisconsin had the most, with 15 insurers in the marketplace. The median number of insurers was 4.0 in 2016, 5.0 in 2015, and 4.0 in 2014.[358]
+
+Further, the CBO reported in January 2017 that it expected enrollment in the exchanges to rise from 10 million during 2017 to 13 million by 2027, assuming laws in place at the end of the Obama administration were continued.[359] Following a 2015 CBO report that reached a similar conclusion, Paul Krugman wrote: "But the truth is that this report is much, much closer to what supporters of reform have said than it is to the scare stories of the critics—no death spirals, no job-killing, major gains in coverage at relatively low cost."[360]
+
+Opposition
+
+Opposition and efforts to repeal the legislation have drawn support from sources that include labor unions,[361][362] conservative advocacy groups,[363][364] Republicans, small business organizations and the Tea Party movement.[365] These groups claimed that the law would disrupt existing health plans, increase costs from new insurance standards, and increase the deficit.[366] Some opposed the idea of universal healthcare, viewing insurance as similar to other unsubsidized goods.[367][368] President Donald Trump has repeatedly promised to "repeal and replace" it.[369][370]
+
+As of 2013 unions that expressed concerns about ACA included the AFL-CIO,[371] which called ACA "highly disruptive" to union health care plans, claiming it would drive up costs of union-sponsored plans; the International Brotherhood of Teamsters, United Food and Commercial Workers International Union, and UNITE-HERE, whose leaders sent a letter to Reid and Pelosi arguing, " ACA will shatter not only our hard-earned health benefits, but destroy the foundation of the 40-hour work week that is the backbone of the American middle class."[362] In January 2014, Terry O'Sullivan, president of the Laborers' International Union of North America (LIUNA) and D. Taylor, president of Unite Here sent a letter to Reid and Pelosi stating, "ACA, as implemented, undermines fair marketplace competition in the health care industry."[361]
+
+In October 2016, Mark Dayton, the governor of Minnesota and a member of the Minnesota Democratic–Farmer–Labor Party, said that the ACA had "many good features" but that it was "no longer affordable for increasing numbers of people" and called on the Minnesota legislature to provide emergency relief to policyholders.[372] Dayton later said he regretted his remarks after they were seized on by Republicans seeking to repeal the law.[373]
+
+Legal challenges
+
+National Federation of Independent Business v. Sebelius
+
+Opponents challenged ACA's constitutionality in multiple lawsuits on multiple grounds.[374][375][not in citation given] In National Federation of Independent Business v. Sebelius, the Supreme Court ruled on a 5–4 vote that the individual mandate was constitutional when viewed as a tax, although not under the Commerce Clause.
+
+The Court further determined that states could not be forced to participate in the Medicaid expansion. ACA withheld all Medicaid funding from states declining to participate in the expansion. The Court ruled that this withdrawal of funding was unconstitutionally coercive and that individual states had the right to opt out without losing preexisting Medicaid funding.[12]
+
+In March 2012, the Roman Catholic Church, while supportive of ACA's objectives, voiced concern through the United States Conference of Catholic Bishops that aspects of the mandate covering contraception and sterilization and HHS's narrow definition of a religious organization violated the First Amendment right to free exercise of religion and conscience. Various lawsuits addressed these concerns.[376][377]
+
+On June 25, 2015, the U.S. Supreme Court ruled 6–3 that federal subsidies for health insurance premiums could be used in the 34 states that did not set up their own insurance exchanges.[378]
+
+House v. Price
+
+In United States House of Representatives v. Price (previously United States House of Representatives v. Burwell) the House sued the administration alleging that the money for premium subsidy payments to insurers had not been appropriated, as required for any federal government spending. The ACA subsidy that helps customers pay premiums was not part of the suit.
+
+Without the cost-sharing subsidies, the government estimated that premiums would increase by 20 percent to 30 percent for silver plans.[379] In 2017, the uncertainty about whether the payments would continue caused Blue Cross Blue Shield of North Carolina to try to raise premiums by 22.9 percent the next year, as opposed to an increase of only 8.8 percent that it would have sought if the payments were assured.[380]
+
+Texas et al v. United States of America et al
+
+Texas and nineteen other states filed a civil suit in the United States District Court for the Northern District of Texas in February 2018, arguing that with the passage of the Tax Cuts and Jobs Act of 2017, which eliminate the tax penalty for not having health insurance starting January 1, 2019, the constitutionality of the individual mandate that formed the basis of the ACA, as determined in National Federation of Independent Business, was no longer valid, and thus the entire ACA was no longer constitutional.[381] During the prosecution of the case, the Justice Department said it would no longer defend the ACA in court, but seventeen states led by California stepped in to defend it.[382]
+
+District judge Reed O'Connor of Texas ruled in favor of the plaintiffs on December 14, 2018, stating [that the] "Individual Mandate can no longer be fairly read as an exercise of Congress's Tax Power and is still impermissible under the Interstate Commerce Clause—meaning the Individual Mandate is unconstitutional." He then further reasoned that the individual mandate is an essential part of the entire law, and thus inseverable, leading to declaring the entire law unconstitutional.[383][384] Judge O'Connor's decision regarding severability turned on several passages from the Congressional record during the ACA debate that focused on the importance of the mandate in supporting the healthcare marketplace.[385] While O'Connor ruled the law unconstitutional, he did not declare the law overturned with this decision.[382] Through Twitter messages following the decision, President Trump urged Congress, particularly Mitch McConnell and Nancy Pelosi, to enact a replacement for the ACA with stronger protections for pre-existing conditions.[386][387]
+
+Several states with Democratic leadership state they plan to appeal the decision to the United States Court of Appeals for the Fifth Circuit, and observers believe this case will ultimately be seen by the Supreme Court.[388] O'Connor wrote in a December 30, 2018 order that his decision is to be held back while such appeals are in progress, allowing the ACA to continue to be used after January 1, 2019.[389]
+
+Non-cooperation
+
+Officials in Texas, Florida, Alabama, Wyoming, Arizona, Oklahoma and Missouri opposed those elements of ACA over which they had discretion.[390][391] For example, Missouri declined to expand Medicaid or establish a health insurance marketplace engaging in active non-cooperation, enacting a statute forbidding any state or local official to render any aid not specifically required by federal law.[392] Other Republican politicians discouraged efforts to advertise the benefits of the law. Some conservative political groups launched ad campaigns to discourage enrollment.[393][394]
+
+Repeal efforts
+
+ACA was the subject of unsuccessful repeal efforts by Republicans in the 111th, 112th, and 113th Congresses: Representatives Steve King (R-IA) and Michele Bachmann (R-MN) introduced bills in the House to repeal ACA the day after it was signed, as did Senator Jim DeMint (R-SC) in the Senate.[395] In 2011, after Republicans gained control of the House of Representatives, one of the first votes held was on a bill titled "Repealing the Job-Killing Health Care Law Act" (H.R. 2), which the House passed 245–189.[396] All Republicans and 3 Democrats voted for repeal.[397] House Democrats proposed an amendment that repeal not take effect until a majority of the Senators and Representatives had opted out of the Federal Employees Health Benefits Program; Republicans voted down the measure.[398] In the Senate, the bill was offered as an amendment to an unrelated bill, but was voted down.[399] President Obama had stated that he would have vetoed the bill even if it had passed both chambers of Congress.[400]
+
+2017 House Budget
+
+Following the 2012 Supreme Court ruling upholding ACA as constitutional, Republicans held another vote to repeal the law on July 11;[401] the House of Representatives voted with all 244 Republicans and 5 Democrats in favor of repeal, which marked the 33rd, partial or whole, repeal attempt.[402][403] On February 3, 2015, the House of Representatives added its 67th repeal vote to the record (239 to 186). This attempt also failed.[404]
+
+2013 federal government shutdown
+
+Strong partisan disagreement in Congress prevented adjustments to the Act's provisions.[405] However, at least one change, a proposed repeal of a tax on medical devices, has received bipartisan support.[406] Some Congressional Republicans argued against improvements to the law on the grounds they would weaken the arguments for repeal.[407]
+
+Republicans attempted to defund its implementation,[391][408] and in October 2013, House Republicans refused to fund the federal government unless accompanied with a delay in ACA implementation, after the President unilaterally deferred the employer mandate by one year, which critics claimed he had no power to do. The House passed three versions of a bill funding the government while submitting various versions that would repeal or delay ACA, with the last version delaying enforcement of the individual mandate. The Democratic Senate leadership stated the Senate would only pass a "clean" funding bill without any restrictions on ACA. The government shutdown began on October 1.[409][410][411] Senate Republicans threatened to block appointments to relevant agencies, such as the Independent Payment Advisory Board[412] and Centers for Medicare and Medicaid Services.[413][414]
+
+2017 repeal effort
+
+During a midnight congressional session starting January 11, 2017, the Senate of the 115th Congress of the United States voted to approve a "budget blueprint" which would allow Republicans to repeal parts of the law "without threat of a Democratic filibuster."[415][416] The plan, which passed 51–48, is a budget blueprint named by Senate Republicans the "Obamacare 'repeal resolution.'"[417] Democrats opposing the resolution staged a protest during the vote.[418]
+
+House Republicans announced their replacement for the ACA, the American Health Care Act, on March 6, 2017.[419] On March 24, 2017 the effort, led by Paul Ryan and Donald Trump, to repeal and replace the ACA failed amid a revolt among Republican representatives.[420]
+
+May 4, 2017, the United States House of Representatives voted to pass the American Health Care Act (and thereby repeal most of the Affordable Care Act) by a narrow margin of 217 to 213, sending the bill to the Senate for deliberation.[421] The Senate Republican leadership announced that Senate Republicans would write their own version of the bill, instead of voting on the House version.[422]
+
+The Senate process began with an unprecedented level of secrecy; Senate Majority Leader Mitch McConnell named a group of 13 Republican Senators to draft the Senate's substitute version in private, raising bipartisan concerns about a lack of transparency.[423][424][425] On June 22, 2017, Republicans released the first discussion draft for an amendment to the bill, which would rename it to the "Better Care Reconciliation Act of 2017" (BCRA).[426] On July 25, 2017, although no amendment proposal had yet garnered majority support, Senate Republicans voted to advance the bill to the floor and begin formal consideration of amendments. Senators Susan Collins and Lisa Murkowski were the only two dissenting Republicans making the vote a 50–50 tie. Vice President Mike Pence then cast the tiebreaking vote in the affirmative.[427]
+
+All specific bills were defeated, however. The revised BCRA failed on a vote of 43–57. A subsequent "Obamacare Repeal and Reconciliation Act" abandoned the "repeal and replace" approach in favor of a straight repeal, but failed on a vote of 45–55. Finally, the "Health Care Freedom Act", nicknamed "skinny repeal" because it would have made the least change to the ACA, failed by 49–51, with Collins, Murkowski, and Senator John McCain joining all the Democrats and independents in voting against it.[428]
+
+Actions to hinder implementation
+
+[429] Tax Cuts and Jobs Act - Number of additional persons uninsured
+
+Under both the ACA (current law) and the AHCA, CBO reported that the health exchange marketplaces would remain stable (i.e., no "death spiral").[430] However, Republican politicians have taken a variety of steps to undermine it, creating uncertainty that has adversely impacted enrollment and insurer participation while increasing premiums.[431] Insisting the exchanges are in difficulty was also used as an argument for passing reforms such as AHCA or BCRA. Past and ongoing Republican attempts to weaken the law have included, among others:
+
+Lawsuits such as King v. Burwell , which resulted in a decision by the Supreme Court that limited Medicaid expansion but upheld the mandates and insurance subsidies. According to the Kaiser Family Foundation, not expanding Medicaid in 19 states has increased the number uninsured by an estimated 4.5 million persons. [432]
+
+, which resulted in a decision by the Supreme Court that limited Medicaid expansion but upheld the mandates and insurance subsidies. According to the Kaiser Family Foundation, not expanding Medicaid in 19 states has increased the number uninsured by an estimated 4.5 million persons. Lawsuits pending ( House v. Price ) such as whether cost-sharing subsidies must be paid. President Trump threatened not to pay these subsidies in early 2017 and later decided to stop paying them. CBO estimated in September 2017 that discontinuing the payments would add an average of 15–20 percentage points to health insurance costs on the exchanges in 2018 while increasing the budget deficit nearly $200 billion over a decade. [433]
+
+) such as whether cost-sharing subsidies must be paid. President Trump threatened not to pay these subsidies in early 2017 and later decided to stop paying them. CBO estimated in September 2017 that discontinuing the payments would add an average of 15–20 percentage points to health insurance costs on the exchanges in 2018 while increasing the budget deficit nearly $200 billion over a decade. Prevention of appropriations for transitional financing ("risk corridors") to steady insurance markets, resulting the bankruptcy of many co-ops offering insurance. This action was attributed to Senator Marco Rubio. [434]
+
+Weakening of the individual mandate through his first executive order, which resulted in limiting enforcement of mandate penalties by the IRS. For example, tax returns without indications of health insurance ("silent returns") will still be processed, overriding instructions from the Obama administration to the IRS to reject them. [435]
+
+Reduction to funding for advertising for the 2017 and 2018 exchange enrollment periods by up to 90%, with other reductions to support resources used to answer questions and help people sign-up for coverage. [436] CBO said in September 2017 that the reductions would lead to reduced ACA enrollment. [433]
+
+CBO said in September 2017 that the reductions would lead to reduced ACA enrollment. The Trump administration reduced the enrollment period for 2018 by half, to 45 days. The NYT editorial board referred to this as part of a concerted "sabotage" effort. [437]
+
+Public statements by Trump that the exchanges are unstable or in a death spiral. [438]
+
+Trump's October 12, 2017 executive order and a related action the same day ending federal subsidies of questionable legality [439] used to help those buying insurance through exchanges with their co-payments and deductibles. About 6 million people were helped at a cost of $7 billion a year but that amount was expected to double in 10 years. State officials claimed the action caused insurance premiums to go up dramatically. Many states sued in federal court on the grounds that Trump was not legally allowed to take the action. [440]
+
+used to help those buying insurance through exchanges with their co-payments and deductibles. About 6 million people were helped at a cost of $7 billion a year but that amount was expected to double in 10 years. State officials claimed the action caused insurance premiums to go up dramatically. Many states sued in federal court on the grounds that Trump was not legally allowed to take the action. Several insurers and actuary groups cited uncertainty created by President Trump, specifically non-enforcement of the individual mandate and not funding cost sharing reduction subsidies, as contributing 20–30 percentage points to premium increases for the 2018 plan year on the ACA exchanges. In other words, absent Trump's actions against the ACA, premium increases would have averaged 10% or less, rather than the estimated 28–40% under the uncertainty his actions created. [441]
+
+The progressive think tank Center on Budget and Policy Priorities (CBPP) maintains a timeline of many "sabotage" efforts by the Trump Administration.[442]
+
+Ending cost-sharing reduction (CSR) payments
+
+President Trump announced on October 12, 2017,[443] he would end the smaller of the two types of subsidies under the ACA, the cost sharing reduction (CSR) subsidies. This controversial decision significantly raised premiums on the ACA exchanges along with the premium tax credit subsidies that rise with them, with the CBO estimating a $200 billion increase in the budget deficit over a decade. The reasons for this are complex and require discussion of how the two major subsidies work.[444]
+
+The CSR subsidies are paid to insurance companies to reduce copayments and deductibles for a smaller group of ACA enrollees, those earning less than 250% of the federal poverty line (FPL). The second and larger type of subsidy, the premium tax credits designed to reduce the post-subsidy cost of monthly premiums, apply to all enrollees earning less than 400% of the FPL. For scale, during 2017, approximately $7 billion in CSR subsidies will be paid, versus $34 billion for the premium tax credits.[445] A court decision meant that CSR subsidies were treated as discretionary spending, meaning Congress must decide to appropriate funds for them each year. This effectively gave the President the power to end them, as Democrats with a minority in Congress could not appropriate the funds, let alone override his veto of an appropriations bill.[444]
+
+However, the premium tax credits are mandatory spending, meaning all those eligible under the ACA receive them without Congressional appropriation. These adjust with premium increases to limit after-subsidy premium payments by ACA enrollees to a fixed percentage of income. Based on President Trump's threats to end the CSR payments during early 2017, several insurers and actuarial groups estimated this resulted in a 20 percentage point or more increase in premiums for the 2018 plan year. In other words, premium increases expected to be 10% or less in 2018 became 28–40% instead.[441][444]
+
+The CBO reported in August 2017 (prior to President Trump's decision) that ending the CSR payments might increase ACA premiums by 20 percentage points or more, with a resulting increase of nearly $200 billion in the budget deficit over a decade, as the premium tax credit subsidies would rise along with premium prices. CBO also estimated that initially up to one million fewer would have health insurance coverage, although more might have it in the long-run as the subsidies expand. CBO expected the exchanges to remain stable (i.e., no "death spiral" before or after Trump's action) as the premiums would increase and prices would stabilize at the higher (non-CSR) level.[446]
+
+CBO estimated that of the 12 million with private insurance via the ACA exchanges in 2017, about 10 million receive premium tax credit subsidies and will be shielded from premium increases, as their after-subsidy premiums are limited as a percentage of income under the ACA. However, those 2 million who do not receive subsidies face the brunt of the 20%+ premium increases, without subsidy assistance. This may adversely impact enrollment in 2018 and beyond. Another 13 million who are covered under the ACA's Medicaid expansion (in the 31 states that chose to expand coverage) should not be directly affected by Trump's action.[446][445]
+
+President Trump's argument that the CSR payments were a "bailout" for insurance companies and therefore should be stopped, actually results in the government paying more to insurance companies ($200B over a decade) due to increases in the premium tax credit subsidies.[444]
+
+Implementation
+
+At various times during and after the ACA debate, Obama stated that "if you like your health care plan, you'll be able to keep your health care plan".[447][448] However, in fall 2013 millions of Americans with individual policies received notices that their insurance plans were terminated,[449] and several million more risked seeing their current plans cancelled.[450][451][452] However, Poltifact cited various estimates that only about 2% of the total insured population (4 million out of 262 million) received such notices.[453] Obama's previous unambiguous assurance that consumers' could keep their own plans became a focal point for critics, who challenged his truthfulness.[454][455] On November 7, 2013, President Obama stated: "I am sorry that [people losing their plans] are finding themselves in this situation based on assurances they got from me."[456] Various bills were introduced in Congress to allow people to keep their plans.[457]
+
+In 2010 small business tax credits took effect.[458] Then Pre-Existing Condition Insurance Plan (PCIP) took effect to offer insurance to those that had been denied coverage by private insurance companies because of a pre-existing condition.[458] By 2011, insurers had stopped marketing child-only policies in 17 states, as they sought to escape this requirement.[459] In National Federation of Independent Business v. Sebelius decided on June 28, 2012, the Supreme Court ruled that the individual mandate was constitutional when the associated penalties were construed as a tax. The decision allowed states to opt out of the Medicaid expansion.[460][461][462]
+
+In 2013, the Internal Revenue Service ruled that the cost of covering only the individual employee would be considered in determining whether the cost of coverage exceeded 9.5% of income. Family plans would not be considered even if the cost was above the 9.5% income threshold.[463][464] In July 2 it was announced the implementation of the employer mandate would be delayed until 2015.[297][465][466] The launch for both the state and federal exchanges was troubled due to management and technical failings. HealthCare.gov, the website that offers insurance through the exchanges operated by the federal government, crashed on opening and suffered endless problems.[467] Operations stabilized in 2014, although not all planned features were complete.[468][469]
+
+The Government Accountability Office released a non-partisan study in 2014 that concluded that the administration did not provide "effective planning or oversight practices" in developing the ACA website.[470] In Burwell v. Hobby Lobby the Supreme Court exempted closely held corporations with religious convictions from the contraception rule.[471] At the beginning of the 2015, 11.7 million had signed up (ex-Medicaid).[472] By the end of the year about 8.8 million consumers had stayed in the program.[473] The December spending bill delayed the onset of the "Cadillac tax" on expensive insurance plans by two years, until 2020.[474] In January 2018, the implementation of the "Cadillac Tax" was postponed until 2022.
+
+An estimated 9 million to 10 million people had gained Medicaid coverage in 2016, mostly low-income adults.[219] A survey of New York businesses found an increase of 8.5 percent in health care costs, less than the prior year's survey had expected.[475] The five major national insurers expected to lose money on ACA policies in 2016.[476] One of the causes of insurer losses is the lower income, older and sicker enrollee population.[477]
+
+More than 9.2 million people signed up for care on the national exchange (healthcare.gov) for 2017, down some 400,000 from 2016. This decline was due primarily to the election of President Trump.[478] Of the 9.2 million, 3.0 million were new customers and 6.2 million were returning. The 9.2 million excludes the 11 states that run their own exchanges, which have signed up around 3 million additional people.[478] The IRS announced that it would not require that tax returns indicate that a person has health insurance, reducing the effectiveness of the individual mandate, in response to an executive order from President Donald Trump.[479] The CBO reported in March that the healthcare exchanges were expected to be stable.[430] In May the United States House of Representatives voted to repeal the ACA using the American Health Care Act of 2017.[480][481] The individual mandate was repealed starting in 2019 via the "Tax Cuts and Jobs Act of 2017".[68] The CBO estimated that the repeal would cause 13 million people to lose their health insurance by 2027.[482]
+
+By 2019, 35 states and the District of Columbia had either expanded coverage via traditional Medicare or via an alternative program.[483]
+
+Murray—Alexander Individual Market Stabilization Bill
+
+Senator Lamar Alexander and Senator Patty Murray reached a compromise to amend the Affordable Care Act to fund cost cost-sha

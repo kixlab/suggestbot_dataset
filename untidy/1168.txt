@@ -1,0 +1,996 @@
+
+
+**Warning:** The NCBI web site requires JavaScript to function. more...
+
+  * NCBI![NCBI Logo](//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/28977)
+  * Skip to main content
+  * Skip to navigation
+  * Resources
+  * How To
+  * About NCBI Accesskeys
+
+My NCBISign in to NCBISign Out
+
+# PMC
+
+US National Library of Medicine  
+National Institutes of Health
+
+Search databasePMCAll
+DatabasesAssemblyBiocollectionsBioProjectBioSampleBioSystemsBooksClinVarConserved
+DomainsdbGaPdbVarGeneGenomeGEO DataSetsGEO ProfilesGTRHomoloGeneIdentical
+Protein GroupsMedGenMeSHNCBI Web SiteNLM
+CatalogNucleotideOMIMPMCPopSetProbeProteinProtein ClustersPubChem
+BioAssayPubChem CompoundPubChem
+SubstancePubMedSNPSparcleSRAStructureTaxonomyToolKitToolKitAllToolKitBookghUniGene
+
+Search term
+
+Search
+
+  * Advanced
+  * Journal list
+  * Help
+
+  * Journal List
+
+  * BJPsych Open
+  * v.4(2); 2018 Mar
+  * PMC6020272
+
+![Logo of bjpsychopen](/corehtml/pmc/pmcgifs/logo-bjpsychopen.gif)
+
+BJPsych Open. 2018 Mar; 4(2): 31–38.
+
+Published online 2018 Feb 22. doi: 10.1192/bjo.2017.4
+
+PMCID: PMC6020272
+
+PMID: 29467057
+
+# Prevalence and predictors of involuntary psychiatric hospital admissions in
+
+Ontario, Canada: a population-based linked administrative database study
+
+Michael Lebenbaum, MSc, Maria Chiu, MSc, PhD, Simone Vigod, MD, MSc, and Paul
+Kurdyak, MD, PhD
+
+### Michael Lebenbaum
+
+Epidemiologist, Mental Health and Addictions Program, ICES, and PhD student,
+IHPME, University of Toronto, G-106, 2075 Bayview Avenue, Toronto, ON M4N 3M5
+
+Find articles by Michael Lebenbaum
+
+### Maria Chiu
+
+Staff Scientist, Mental Health and Addictions Program, ICES, G-106, 2075
+Bayview Avenue, Toronto, ON M4N 3M5
+
+Find articles by Maria Chiu
+
+### Simone Vigod
+
+Scientist, Women's College Research Institute, Assistant Professor, IHPME,
+University of Toronto
+
+Find articles by Simone Vigod
+
+### Paul Kurdyak
+
+Director of Health Outcomes and Performance Evaluation (HOPE), CAMH, 250
+College Street, Toronto, ON M5T 1R8, Program Lead, Mental Health & Addictions
+Research Program, ICES, Associate Professor, IHPME, University of Toronto.
+
+Find articles by Paul Kurdyak
+
+Author information Article notes Copyright and License information Disclaimer
+
+Epidemiologist, Mental Health and Addictions Program, ICES, and PhD student,
+IHPME, University of Toronto, G-106, 2075 Bayview Avenue, Toronto, ON M4N 3M5
+
+Staff Scientist, Mental Health and Addictions Program, ICES, G-106, 2075
+Bayview Avenue, Toronto, ON M4N 3M5
+
+Scientist, Women's College Research Institute, Assistant Professor, IHPME,
+University of Toronto
+
+Director of Health Outcomes and Performance Evaluation (HOPE), CAMH, 250
+College Street, Toronto, ON M5T 1R8, Program Lead, Mental Health & Addictions
+Research Program, ICES, Associate Professor, IHPME, University of Toronto.
+
+**Correspondence** : Michael Lebenbaum, Mental Health and Addictions Program,
+ICES, G-106, 2075 Bayview Avenue, Toronto, ON M4N 3M5, Canada. Email:
+ac.no.seci@muabnebel.leahcim
+
+Received 2017 May 23; Revised 2017 Aug 23; Accepted 2017 Nov 9.
+
+Copyright (C) The Royal College of Psychiatrists 2018
+
+This is an Open Access article, distributed under the terms of the Creative
+Commons Attribution-NonCommercial-NoDerivatives licence
+(http://creativecommons.org/licenses/by-nc-nd/4.0/), which permits non-
+commercial re-use, distribution, and reproduction in any medium, provided the
+original work is unaltered and is properly cited. The written permission of
+Cambridge University Press must be obtained for commercial re-use or in order
+to create a derivative work.
+
+This article has been cited by other articles in PMC.
+
+## Abstract
+
+### Background
+
+Involuntary admissions to psychiatric hospitals are common; however, research
+examining the trends in prevalence over time and predictors is limited.
+
+### Aims
+
+To examine trends in prevalence and risk factors for involuntary admissions in
+Ontario, Canada.
+
+### Method
+
+We conducted an analysis of all mental health bed admissions from 2009 to 2013
+and assessed the association between patient sociodemographics, service
+utilisation, pathway to care and severity characteristics for involuntary
+admissions using a modified Poisson regression.
+
+### Results
+
+We found a high and increasing prevalence of involuntary admissions (70.7% in
+2009, 77.1% in 2013, 74.1% overall). Individuals with police contact in the
+prior week (risk ratio (RR) = 1.20) and immigrants both experienced greater
+likelihood of being involuntarily admitted, regardless of control for other
+characteristics (RR = 1.07) (both _P_ < 0.0001).
+
+### Conclusions
+
+We identified numerous modifiable and non-modifiable risk factors for
+involuntary admissions. The prevalence of involuntary admissions was high,
+linearly increasing over time.
+
+### Declaration of interest
+
+The authors have completed the ICMJE Form for Disclosure of Potential
+Conflicts of Interest and none were reported. This study was conducted using
+funding entirely from public sources. P.K. has received operational support
+via an Ontario Ministry of Health and Long-Term Care (MOHLTC) Health Services
+Research Fund Capacity Award to support this project. The Institute for
+Clinical Evaluative Sciences (ICES) is funded by the Ontario MOHLTC. The study
+results and conclusions are those of the authors, and should not be attributed
+to any of the funding agencies or sponsoring agencies. No endorsement by ICES
+or the Ontario MOHLTC is intended or should be inferred. All decisions
+regarding study design, publication, and data analysis were made independent
+of the funding agencies.
+
+Involuntary psychiatric hospital admissions generally occur when an individual
+with mental illness is admitted to hospital against their will owing to a
+perceived imminent danger to the individual or others and unwillingness to
+remain in hospital voluntarily. These admissions are not desirable, because
+they can be disruptive to the patient-provider relationship and have a
+negative impact on the patient's perception of their care at the time of the
+admission and afterwards. 1 - 3 Although there is variability across
+jurisdictions, involuntary admissions are common and increasing in high-income
+countries, including several European countries such as the UK, 4 , 5 The
+Netherlands 5 , 6 and Germany. 5 There are few studies investigating trends in
+involuntary admissions over time in other jurisdictions.
+
+Involuntary admission to hospital may, to some extent, be an avoidable event
+if care provided in community settings mitigates psychiatric crises that
+precipitate involuntary admissions. Studies mostly from Europe have shown
+that, in addition to these service-related factors, risk factors for
+involuntary admissions include patient sociodemographic characteristics such
+as being an immigrant or ethnic minority, and clinical severity variables such
+as a diagnosis of a psychotic disorder. 7 - 11 Studies from other
+jurisdictions are largely from the USA and emphasise the importance of
+available mental health resources. 12 , 13 In Canada, the most recent country-
+wide prevalence estimate of involuntary admissions (25%) was in the late
+1970s. 14 One recent study among 200 patients with first-episode psychosis at
+four sites in Ontario had a prevalence of involuntary admissions of 68.6%, 15
+suggesting a large increase in prevalence. However, no recent population-based
+Canadian study has examined prevalence of involuntary admissions among all
+patients. 16 , 17 Furthermore, existing Canadian studies have examined only a
+very limited set of characteristics of involuntarily admitted patients. 18 -
+21 This is consistent with many international studies, which are often small
+in size, based on one or a few sites, and examine only a limited number of
+risk factors. The aims of this study were to determine the trends in
+prevalence of involuntary admissions in a large population-based North
+American sample covering the whole Province of Ontario, Canada (population ~14
+million), and to examine the independent risk factors that predict involuntary
+admission status in this jurisdiction.
+
+## Methods
+
+### Study design, setting, and participants
+
+We examined the prevalence and risk factors of involuntary admissions among
+all patients admitted to mental health and addictions (MHA) beds in Ontario,
+Canada. Annual prevalence was examined from fiscal year (April 1 to March 31)
+2009 to 2013, and risk factors for involuntary admission were examined for all
+years pooled. The index date was defined as the admission date, and risk
+factors were measured at or up to 5 years prior to index.
+
+We included adults aged 16-105 years at index admission date who were Ontario
+residents with valid health card numbers, owing to the requirement to link
+across databases. We excluded any informal (decision to admit was made by a
+substitute decision maker) and forensic admissions, as these patients are
+ineligible for voluntary or involuntary admissions. We excluded any patients
+without a linked emergency department record immediately preceding the
+admission date, given that elective admissions are a different population and
+a number of previous studies have taken place in the psychiatric emergency
+department. For individuals with more than one admission to hospital during
+the study period, we included one random admission. We also excluded
+individuals without healthcare eligibility at 1 year prior to index, given
+that a number of risk factors were measured in the year prior to admission.
+
+### Data sources
+
+We used the Ontario Mental Health Reporting System (OMHRS) to identify our
+study population of patients who had been admitted to a mental health bed. The
+OMHRS database uses the Resident Assessment Instrument - Mental Health (RAI-
+MH), a standardised assessment instrument that captures a number of
+sociodemographic characteristics, diagnoses according to the DSM-IV and
+clinical assessments.
+
+To ascertain sociodemographic information and other patient-level factors and
+service use, we linked the OMHRS database to other administrative health
+databases at the Institute for Clinical Evaluative Sciences, including the
+Canadian Institute for Health Information (CIHI) hospital Discharge Abstract
+Database (DAD), the Ontario Health Insurance Program (OHIP) physician claims
+database, the National Ambulatory Care Reporting System (NACRS) emergency
+department database, the Registered Persons Database (RPDB) and the
+Immigration Refugees and Citizenship Canada Permanent Resident (IRCC-PR)
+database.
+
+### Involuntary admissions
+
+Involuntary admissions are defined within OMHRS as a patient status of either
+Form 1 or Form 3 at admission. Involuntary admissions in Ontario in most cases
+begin in the emergency department, where a physician will complete an
+Application for Psychiatric Assessment ('Form 1'); this is an involuntary hold
+that allows the patient to be detained and examined for up to 72 h in a
+psychiatric hospital. 22 In some cases, a Form 3 is subsequently completed to
+involuntarily admit the patient for up to 2 weeks. The Form 3 is completed by
+a psychiatrist, who must be a different physician than the physician who
+completed the Form 1.
+
+### Predictors of involuntary admissions
+
+#### Sociodemographic variables
+
+Patient sociodemographic characteristics included age (16-24, 25-44, 45-64,
+65+), gender, area-level income quintiles identified with the use of the RPDB,
+housing status (homeless/private/non-private) identified within OMHRS, and
+immigration status identified within the IRCC-PR and categorised as immigrant
+or long-term resident (including non-immigrants or immigrants migrating prior
+to 1985).
+
+#### Prior mental health service use
+
+Past service use included whether they had had a mental health admission,
+mental health emergency department visit, psychiatrist visit, or a mental
+health 23 or non-mental health family physician visit within the past year
+(definitions are listed in supplementary Table 1; available at
+https://doi.org/10.1192/bjo.2017.4). In addition, we examined whether they had
+any involuntary records within the past 5 years, including admissions or
+physician billings for involuntary assessments.
+
+#### Pathway to care variables
+
+The pathway to care was defined as care received or contacts acquired during
+the week prior to and including the day of the emergency department visit.
+This included contact with police, out-patient visits to a psychiatrist, and
+mental health and non-mental health out-patient visits to family physicians.
+Physician visits were identified in the OHIP database, and mental health
+visits to family physicians was identified with a validated algorithm. 23 We
+also examined whether the patient arrived at the emergency department via
+ambulance or had a transfer from a medical bed prior to admission to the
+mental health bed.
+
+#### Clinical variables
+
+We included several clinical measures of patient severity. We assessed the
+primary diagnoses, which included schizophrenia or psychosis, mood disorders,
+anxiety disorders, dementia and all other psychiatric diagnoses. We examined
+whether they had any indication of a substance misuse disorder or a
+personality disorder. We identified emergency department visits that had
+indication of self-harm. Specific codes for each diagnosis are listed in
+supplementary Table 1. Triage status was measured on a five-point scale and
+combined into low (suicidal/depressed or other milder psychiatric complaints
+and not agitated), medium (acute psychosis and/or suicidal) and high triage
+(patients experiencing acute psychosis/extreme agitation). 24 We also included
+whether they had any comorbidities included in the Charlson comorbidity index
+as assessed in the year prior to admission.
+
+We also examined a number of InterRAI rating scales at admission, including
+the Severity of Self-Harm (SOS), Risk of Harm to Others (RHO) and Self-Care
+Index (SCI), which are all directly related to the criteria for involuntary
+admissions and included three symptom scales, the Positive Symptoms Scale
+(PSS), Mania Rating Scale (MRS) and Depression Rating Scale (DRS). 25 The SOS,
+RHO and SCI are each based on predictive risk algorithms with combinations of
+inputs based on individual symptoms, past behaviour, or other symptom scales.
+25 Each of the PSS, MRS and DRS were based on items assessing the frequency of
+symptoms in the past 3 days as: 0 (not exhibited in past 3 days), 1 (not
+exhibited in the past 3 days but reported to be present), 2 (exhibited on 1-2
+of the past 3 days), or 3 (exhibited daily). Each scale aggregated items to
+different numbers of points based on the number of symptoms and the points
+assigned to each frequency of occurrence. The range and list of symptoms
+included in the calculation of each scale is shown in supplementary Table 2.
+
+### Statistical methods
+
+We examined the prevalence of involuntary admissions overall and by year. We
+assessed the trend over time by fitting a linear time trend across the 5-year
+study period using a modified Poisson regression.
+
+We estimated the prevalence of each risk factor for both voluntary and
+involuntary patients. We used a modified Poisson regression to determine the
+unadjusted and multivariable adjusted association between each risk factor and
+involuntary admissions. All variables were included in the multivariable model
+regardless of significance. Patients with missing data were excluded from
+analyses, except for individuals with missing income. All analyses were
+conducted in SAS Enterprise Guide 6.1.
+
+### Ethics committee approval
+
+Ethics approval for this study was obtained from the Research Ethics Board at
+Sunnybrook Health Sciences Centre in Toronto, Ontario.
+
+## Results
+
+A total of 250 773 admissions were identified between fiscal years 2009-2013
+among adults living in Ontario with valid health card numbers. We excluded
+informal or forensic admissions ( _n_ = 7214), individuals who had voluntary
+admissions that subsequently were coded as involuntary ( _N_ = 676),
+individuals without eligibility for healthcare a year prior to index ( _N_ =
+2831), and individuals who lacked linked emergency department records ( _n_ =
+39 589). Of the remaining 200 463 admissions, we kept one random admission per
+individual ( _N_ = 84 948 admissions excluded), which resulted in a final
+sample size of 115 515 patients admitted to hospital.
+
+Among the 115 515 individuals who met inclusion criteria, 85 607 (74.1%) were
+involuntarily admitted. The prevalence of involuntary admissions significantly
+increased from 70.7% in 2009 to 77.1% in 2013 (RR = 1.021 per year, 95% CI
+1.019-1.023; _P_ < 0.0001) (Fig. 1). 28 726 (33.6%) of individuals who were
+involuntarily admitted were released within 72 h of admission. Additional
+descriptive characteristics for patients by involuntary status are shown in
+Table 1.
+
+![An external file that holds a picture, illustration, etc.
+
+Object name is
+S2056472417000047_fig1.jpg](/pmc/articles/PMC6020272/bin/S2056472417000047_fig1.jpg)
+
+Open in a separate window
+
+Fig. 1
+
+Trends over time in the prevalence of involuntary admissions within Ontario,
+Canada.
+
+### Table 1
+
+Descriptive characteristics for patients who are involuntary or voluntary at
+admission
+
+| Involuntary ( _N_ = 85 607)| Voluntary ( _N_ = 29 908)  
+---|---|---  
+%| %  
+Percentage of total| 74.1| 25.9  
+Reason for admission  
+Only threat to others| 5.5| 1.8  
+Only threat to self| 40.3| 33.6  
+Only inability to care for self due to mental illness| 13.0| 12.8  
+More than one of the above| 29.1| 15.1  
+Type of hospital  
+Psychiatric| 10.0| 13.5  
+General| 90.0| 86.5  
+Status at admission| |  
+Form 1| 73.5| NA  
+Form 3| 26.5| NA  
+Status at initial assessment (Up to 72 h post admission)  
+Released (LOS ≤ 72 h)| 33.6| 32.7  
+Form 1| 20.8| 1.4  
+Form 3| 28.2| 2.0  
+Voluntary| 17.1| 63.9  
+Other| 0.4| 0.1
+
+Open in a separate window
+
+LOS, Length of Stay.
+
+Sociodemographic, utilisation, pathway to care and severity characteristics
+are summarised by involuntary status in Table 2, along with unadjusted and
+adjusted associations from modified Poisson regression. Most variables were
+complete, except for 645 individuals missing triage status, 764 individuals
+with missing income and 8458 individuals missing SOS and SCI.
+
+### Table 2
+
+Breakdown of patient characteristics by involuntary status, and unadjusted and
+multivariable logistic regression of association between each characteristics
+and involuntary status
+
+| Involuntary ( _N_ = 85 607)| Voluntary ( _N_ = 29 908)| Unadjusted analysis|
+Multivariable analysis  
+---|---|---|---|---  
+%| %| RR| 95% CI| RR| 95% CI  
+_Sociodemographic characteristics_  
+Age category, years| | | | | |  
+16-24| 22.2| 16.3| 1.16| (1.15, 1.18)| 1.10| (1.08, 1.12)  
+25-44| 36.6| 36.2| 1.09| (1.07, 1.10)| 1.04| (1.02, 1.05)  
+45-64| 31.2| 34.3| 1.05| (1.04, 1.07)| 1.03| (1.02, 1.05)  
+65+| 10.0| 13.1| _Reference_  
+Male| 52.6| 44.5| 1.09| (1.08, 1.09)| 1.02| (1.01, 1.02)  
+Housing status  
+Homeless| 3.2| 2.7| 1.05| (1.03, 1.07)| 0.98| (0.96, 1.00)  
+Non-private| 6.3| 5.7| 1.03| (1.02, 1.04)| 0.99| (0.98, 1.01)  
+Private residence| 90.5| 91.7| _Reference_  
+Income quintile  
+Missing| 0.7| 0.6| 1.07| (1.03, 1.11)| 1.01| (0.97, 1.05)  
+Quintile 1| 29.8| 27.8| 1.05| (1.03, 1.06)| 1.01| (1.00, 1.02)  
+Quintile 2| 21.2| 21.9| 1.02| (1.01, 1.03)| 1.00| (0.98, 1.01)  
+Quintile 3| 17.8| 17.6| 1.03| (1.02, 1.04)| 1.01| (1.00, 1.02)  
+Quintile 4| 16.7| 16.8| 1.03| (1.01, 1.04)| 1.01| (1.00, 1.02)  
+Quintile 5| 13.9| 15.3| _Reference_  
+Immigrant| 11.6| 7.7| 1.11| (1.10, 1.12)| 1.07| (1.06, 1.08)  
+_Past service utilisation_  
+Past 5 years involuntary record| 34.1| 26.1| 1.10| (1.09, 1.11)| 1.09| (1.08,
+1.10)  
+Past year utilisation:  
+MHA admission| 20.1| 20.6| 0.99| (0.98, 1.00)| 0.97| (0.96, 0.98)  
+MHA ED visit| 28.5| 31.6| 0.96| (0.95, 0.97)| 0.98| (0.97, 0.98)  
+Out-patient psychiatrist visit| 39.3| 45.2| 0.94| (0.93, 0.95)| 0.94| (0.93,
+0.95)  
+Out-patient MHA family physician visit| 53.4| 60.6| 0.93| (0.92, 0.93)| 0.98|
+(0.97, 0.99)  
+Out-patient non-MHA family physician visit| 75.7| 81.2| 0.92| (0.92, 0.93)|
+0.99| (0.98, 1.00)  
+_Pathway to care_  
+Transfer from medical bed| 9.9| 10.0| 1.00| (0.98, 1.01)| 0.93| (0.92, 0.94)  
+Police contact  
+Past week| 28.8| 7.2| 1.36| (1.36, 1.37)| 1.20| (1.19, 1.21)  
+Any other contact| 13.2| 12.7| 1.11| (1.10, 1.12)| 1.03| (1.02, 1.05)  
+Never| 58.0| 80.1| _Reference_  
+Arrival by ambulance| 30.0| 20.9| 1.12| (1.12, 1.13)| 1.09| (1.08, 1.10)  
+Past week physician visit:  
+Psychiatrist visit| 20.1| 24.1| 0.94| (0.93, 0.95)| 0.98| (0.97, 0.99)  
+Family physician MHA visit| 14.4| 20.5| 0.89| (0.88, 0.89)| 0.95| (0.94, 0.96)  
+Family physician non-MHA-visit| 12.3| 13.2| 0.98| (0.97, 0.99)| 1.01| (1.00,
+1.02)  
+_Severity_  
+Primary diagnosis| | | | | |  
+Schizophrenia or psychotic disorder| 26.3| 15.6| _Reference_  
+Anxiety and adjustment disorders| 12.7| 13.0| 0.89| (0.88, 0.90)| 0.92| (0.90,
+0.93)  
+Mood disorders| 39.8| 52.2| 0.83| (0.82, 0.83)| 0.89| (0.88, 0.90)  
+Dementia| 3.0| 2.5| 0.93| (0.91, 0.95)| 1.02| (1.00, 1.04)  
+Other| 18.3| 16.7| 0.91| (0.91, 0.92)| 0.92| (0.91, 0.93)  
+Any indication of a substance abuse disorder| 29.1| 24.6| 1.06| (1.05, 1.07)|
+1.01| (1.00, 1.02)  
+Any indication of a personality disorder| 13.9| 14.1| 1.00| (0.99, 1.01)|
+0.99| (0.98, 1.00)  
+ED self-harm| 11.4| 5.7| 1.17| (1.16, 1.18)| 1.11| (1.10, 1.12)  
+Triage status  
+High| 55.2| 35.2| 1.55| (1.51, 1.58)| 1.39| (1.36, 1.42)  
+Medium| 40.2| 53.0| 1.30| (1.27, 1.33)| 1.22| (1.19, 1.24)  
+Low| 4.6| 11.8| _Reference_  
+Any Charlson comorbidity| 4.5| 6.2| 0.91| (0.89, 0.93)| 0.96| (0.94, 0.98)  
+InterRAI clinical rating scales a , b | | | _See_ Fig. 2  
+Risk of Harm to Others (RHO)| 1.9| 1.1| NA| NA| NA| NA  
+Severity of Self-Harm (SOS)| 2.6| 2.2| NA| NA| NA| NA  
+Self-Care Index (SCI)| 1.8| 1.3| NA| NA| NA| NA  
+Positive Symptoms Scale (PSS)| 2.0| 1.2| NA| NA| NA| NA  
+Mania Rating Scale (MRS)| 2.7| 1.6| NA| NA| NA| NA  
+Depression Rating Scale (DRS)| 2.9| 3.0| NA| NA| NA| NA
+
+Open in a separate window
+
+RR, risk ratio; MHA, Mental Health and Addictions; ED, Emergency Department.
+
+a.InterRAI scales are presented as means.
+
+b.Multivariable model includes InterRAI clinical rating scales, but results
+are shown in Fig. 2.
+
+Almost all variables were associated with involuntary admission to hospital in
+unadjusted analyses (Table 2). The strongest factors associated with increased
+likelihood for involuntary admission were past week police contact (RR = 1.36,
+95% CI 1.36-1.37) and severity variables including high-acuity triage status
+(RR = 1.55, 95% CI 1.51-1.58) and medium triage status (RR = 1.30, 95% CI
+1.27-1.33) _v._ low acuity, self-harm identified in the emergency department
+contact preceding the admission (RR = 1.17, 95% CI 1.16-1.18). Not having a
+psychotic disorder (RR = 0.83-0.93, depending on the diagnosis) and having a
+mental health visit in the week preceding admission with either a family
+physician (RR = 0.89, 95% CI 0.88-0.89) or a psychiatrist (RR = 0.94, 95% CI
+0.93-0.95) were protective. These relationships were all maintained, although
+slightly attenuated, in the adjusted models (Table 2). Several other variables
+were also significantly associated with involuntary admission in the adjusted
+models. Notably, younger age (16-24) (RR = 1.10, 95 CI 1.08-1.12), immigrant
+status (RR = 1.07, 95% CI 1.06-1.08) and previous involuntary
+assessments/admissions (RR = 1.09, 95% CI 1.08-1.10) all increased the
+likelihood of involuntary admission. Meanwhile, past year mental health visits
+to psychiatrists (RR = 0.94, 95% CI 0.93-0.95) were associated with a reduced
+likelihood of involuntary admissions. After adjusting for other variables,
+there was no association between any level of income and likelihood of
+involuntary admission, and a minimal increased likelihood among males (RR =
+1.02, 95% CI 1.01-1.02).
+
+The unadjusted and adjusted associations between six clinical rating scales
+are shown in Fig. 2. Higher scores on all scales were associated with an
+increased risk of involuntary admission, except for the DRS, where higher
+scores were associated with a decreased risk of involuntary admission.
+
+![An external file that holds a picture, illustration, etc.
+
+Object name is
+S2056472417000047_fig2.jpg](/pmc/articles/PMC6020272/bin/S2056472417000047_fig2.jpg)
+
+Open in a separate window
+
+Fig. 2
+
+Forest plot of unadjusted and fully adjusted associations between clinical
+rating scales and involuntary admissions (all included continuously).
+
+a. Risk ratios, RR (95% confidence intervals) are from Poisson regression
+models without adjustment for other risk factors. b. Risk ratios, RR (95%
+confidence intervals) are from Poisson regression models with adjustment for
+all other risk factors.
+
+## Discussion
+
+In this large population-based study, we found a very high prevalence of
+involuntary psychiatric admissions - almost three-quarters of all hospital
+admissions. The prevalence has increased steadily over the years between 2009
+and 2013, from 70.7 to 77.1%. There were also significant risk factors for
+involuntary admission to hospital among sociodemographic, past service
+utilisation, pathway to care, and clinical severity characteristics. The
+sociodemographic factors included immigration status and young age, both of
+which increased involuntary admissions. Mental health service utilisation in
+the prior year was also a strong predictor, with physician contact reducing
+the likelihood of involuntary admission. Police contacts in the week prior to
+admission, a pathway to care variable, and a number of severity variables
+including triage status, self-harm and psychosis were also risk factors
+increasing the likelihood of involuntary admissions.
+
+Given previous Ontario estimates of 11-12% in the late 1970s 14 , 26 and 19.3%
+in 1983, 16 , 17 our results show that there has been a dramatic four- fold
+increase in the prevalence of involuntary admissions, such that three out of
+four psychiatric admissions to hospital start as involuntary. Although the
+prevalence of involuntary admissions has increased, current patients likely
+spend much less time being detained involuntarily relative to patients who
+were involuntarily admitted prior to 1978. Prior to 1978, patients were
+admitted involuntarily for up to 1 month, while fewer than half of current
+patients with involuntary status spend more than 3 days with involuntary
+status, with 33.6% being released and 17.1% transferred to voluntary status by
+day 3. Therefore, these results suggest that there is a much greater
+prevalence of exposure to involuntary conditions, but for shorter periods of
+time. Although involuntary admissions may help prevent suicide and homicide
+among those at high risk, they represent a significant reduction in patient
+autonomy and are often considered unjustified by patients. 3 Further research
+is needed on the impacts of short-term involuntary admissions.
+
+Three factors in Ontario have likely contributed to the rising involuntary
+admission prevalence that we have observed over time. First, involuntary
+admissions became a two-step process in 1978: an initial assessment period
+lasting up to 120 h (a 'Form 1') and a subsequent involuntary hospital stay
+lasting, initially, for up to 2 weeks. 27 The 120 h period was further
+shortened to 72 h in 1986, and the wide application of the brief, 72-h
+assessment period likely explains the high prevalence of relatively short
+duration involuntary admissions we have observed. Indeed, if we remove the
+approximately 50% of involuntarily admitted individuals who are either
+released or made voluntary after 72 h, the prevalence of prolonged involuntary
+hospital stays is closer to the reported prevalence in the 1970s. Therefore,
+the revision of legislation permitting an involuntary assessment for up to 72
+h appears to have had a very significant impact on the process of admission to
+hospitals. Second, there has been a dramatic reduction in the number of
+psychiatric hospital beds per capita in Ontario. Psychiatric beds in Ontario
+dropped from 219 to 81 per 100 000 population from 1965 to 1980, 28 and
+further dropped to 34.2 per 100 000 population in 2015, 29 a decline of 84.4%
+over the 50-year period. The reduction in the number of hospital beds may have
+resulted in the remaining beds being preferentially deployed for the most
+severely ill presentations, which would be highly correlated with the need for
+involuntary admission. Bed reductions have been associated with increasing
+risk of involuntary admissions in England. 30
+
+Lastly, a consequence of deinstitutionalisation has been the rapid rise in
+interactions between people with severe mental illness and the police across
+the developed world. 31 From 1997 to 2013, there was a 17-fold increase in the
+number of police Mental Health Act apprehensions in Toronto, Ontario's largest
+urban centre, from 520 to 8441. 32 Police Mental Health Act apprehensions also
+rose across the province, with a 35% increase between 2003/4 and 2007. 33
+Given that one of the strongest risk factors was police contact in the week
+prior to admissions, these striking increases in police Mental Health Act
+apprehensions are likely responsible in part for the high prevalence of
+involuntary admissions found in this study. Amsterdam has seen similar trends,
+with large increases in police referrals to psychiatric emergency services
+accompanied by large increases in the proportion of admissions that are
+involuntary. 34
+
+### Strengths and limitations
+
+This study represents one of the largest and most comprehensive examinations
+of involuntary admissions to date. The OMHRS database collects a large number
+of different sociodemographic and clinical characteristics through the use of
+a standardised assessment tool (RAI-MH). Many of these clinical
+characteristics were taken into consideration by the six clinical rating
+scales included in the study (supplementary Table 2). Furthermore, the ability
+to link with other administrative databases enabled an extensive examination
+of risk factors for involuntary admissions, including utilisation of different
+types of healthcare and immigration status. Lastly, the generalisability of
+the findings is enhanced by the use of a population-based sample that
+collected data across all Ontario psychiatric beds from over 60 hospitals.
+
+This study is not without limitations. First, although the OMHRS database
+collects data for all admissions to MHA beds, approximately 20% of MHA
+admissions are to non-MHA beds captured in the DAD and were not included, as
+the RAI-MH is not implemented in medical beds and most variables would be
+missing. Second, the exact pathway to care is not known; we used care received
+or contacts within the week prior to admission as proxies. Third, the symptom
+scales were recorded on the third day of the admission, reflecting the first 3
+days, which may have attenuated their associations with involuntary
+admissions. However, symptoms likely only changed minimally over the course of
+3 days, and having the rating scales completed 3 days after admission assures
+that the assessment of symptoms was not completed by the same individual who
+made the admission decision.
+
+### International comparison of prevalence
+
+Reviews of mostly European countries, covering the period 1971-2000, found
+that the prevalence ranged from a low of 1.0% in Spain to a high of 93% in
+some hospitals in Switzerland, with all other estimates less than 50%. 35 , 36
+Therefore, the prevalence found in our study is among the highest reported
+prevalences for a Western country. This considerable variation in prevalence
+across countries likely reflects variation in data collection and definitions,
+36 laws, 36 psychiatric resources, 5 , 37 cultures, 38 , 39 and societal and
+physician attitudes towards involuntary admissions. 40 A key contributing
+factor to the high prevalence in Ontario may be the low supply of psychiatric
+beds compared with both Western 5 and Eastern European countries. 37
+
+Studies from East Asian countries have found even higher prevalence of
+involuntary admissions than found in Ontario, with one study in Korea finding
+a prevalence of 91%. 38 In China, the prevalence is similarly high, with one
+study reporting that 42% of admissions to hospital were involuntary and 30%
+were partly voluntary. 39 In both countries, this is potentially due to a more
+collectivist culture in which a family member is the deciding authority on the
+involuntary admission instead of the patient. 39 However, this is not uniform
+across the Asian continent, with one of the lowest reported prevalences of
+4.0% found in Taiwan. 41 This is likely due to the strict criteria for
+involuntary admissions that only allow involuntary admissions of patients with
+psychosis and also requires non-compliance with treatment and dangerousness,
+and, although families are often involved, the patient still has to provide
+consent themselves. 41
+
+### International comparison of risk factors and implications
+
+We examined risk factors among an admitted cohort of patients, which allowed
+us to isolate which factors are specifically associated with involuntary
+status and not incorporated into the association factors that are associated
+with the decision to admit the patient or the decision to visit an emergency
+department. We found that youth aged 16-24 years were at a higher likelihood
+of involuntary admissions, regardless of control for other risk factors. This
+is not surprising, given the higher onset and burden of mental health
+conditions in this age group, and consistent access issues with long wait
+lists to receive care during a time of transition from youth to adult mental
+health services. 42 Previous research on the role of age is conflicting, with
+studies showing increased likelihood with younger age 11 and older age, 43 and
+others finding no associations with age. 7 - 9 , 20 The elevated likelihood of
+involuntary admissions among immigrants is a consistent finding in the UK and
+in other European countries, especially for immigrants or ethnic minorities
+from Caribbean, 7 , 11 African 7 , 11 or non-Western 8 countries or
+ethnicities. Although some studies show that controlling for observable
+characteristics, including greater levels of psychosis and more adversarial
+pathways to care involving the justice system, explain these findings, 8 , 10
+our study is not the only study to find that these factors did not explain the
+excess likelihood of involuntary admissions. 7 Patients with any diagnosis
+other than schizophrenia or psychosis were at lower likelihood of involuntary
+admissions, which is a common finding with these conditions. 20 , 39 , 44
+Psychosis is elevated among younger individuals and among immigrants, which
+together suggests that individuals with psychosis may be a key target group
+for future intervention studies which may help disparities among key
+demographic groups. Further research is required to understand which groups of
+immigrants are at excess likelihood of involuntary admission and explore
+possible explanations and potential interventions to address this disparity.
+
+Our findings of increased likelihood with adversarial routes such as police
+contacts 10 , 41 , 44 and decreased likelihood with physician contact 7 are
+consistent with the international literature. We also found independent
+associations between past year mental health visits and visits on the pathway
+to care, both with decreased likelihood of involuntary admissions. This
+suggests that potential interventions to reduce the likelihood of involuntary
+admission may involve increasing access to out-patient resources for patients
+with severe mental illness.
+
+A wide variety of severity measures were independently associated with an
+increased likelihood of involuntary admissions beyond a primary diagnosis of
+psychosis, including self-harm on the emergency department record and all
+clinical rating scales except the DRS. Measures of dangerousness towards
+others were the strongest predictors among symptom measures. 7 , 8 , 41 In
+contrast to our findings, studies in other jurisdictions have found no
+significant increase in 8 , 9 , 41 or lower likelihood 7 of involuntary
+admission associated with suicide risk/self-harm, measured in this study with
+the SOS scale, potentially reflecting a greater focus of involuntary
+admissions on suicide prevention in Ontario, with dangerousness to self
+included as an indication. The only exception to higher likelihood of
+involuntary admissions with greater severity was the lower likelihood of
+involuntary admission with higher ratings of depression measured by the DRS,
+which has been found in other studies and has been suggested to reflect
+greater levels of insight. 44 The set of factors included in this study is
+more diverse and extensive than that used in most previous studies, 7 , 8 , 10
+, 12 , 41 , 44 but the general finding of greater likelihood of involuntary
+admissions with greater severity is a consistent finding among studies.
+
+Although we observed differences in risk factors compared with other systems,
+given differences in the legislation governing involuntary admissions and
+differences in mental healthcare systems, it is difficult to explain why risk
+factors may differ across systems.
+
+### Conclusions
+
+In conclusion, we found a very high prevalence of involuntary admissions among
+Ontario residents that represents a substantial four-fold increase from the
+early 1980s. Although our data are limited in explaining the cause of the high
+prevalence of involuntary admissions, it is likely to be a consequence of the
+introduction of short involuntary holds and a dramatic reduction in the supply
+of psychiatric hospital beds. We found a significantly increased likelihood of
+involuntary admissions for individuals with police contact in the prior week,
+and a lower likelihood with psychiatric care, which is concerning given the
+rise in police Mental Health Act apprehensions and inadequate access to
+psychiatrists among those with severe mental illness. We also found increased
+likelihood among immigrants, even after controlling for other factors, which
+points to a potential disparity that requires further research to investigate.
+In any jurisdiction, the rights of freedom for individuals need to be balanced
+with the right to safety. Future research should further examine explanations
+for the high prevalence of involuntary admissions and determine what system-
+level changes may be able to mitigate this undesirable trend.
+
+### Contributors
+
+P.K. was the Principal Investigator and with M.L. conceived the study. M.L.
+conducted the statistical analysis and prepared the first draft of the
+manuscript. All authors interpreted the data, critically revised the
+manuscript for important intellectual content, and approved the final version
+of the manuscript. M.L. had full access to all the data in the study and takes
+responsibility for the integrity of the data and the accuracy of the data
+analysis.
+
+### Data sharing
+
+The data set from this study is held securely in coded form at the Institute
+for Clinical Evaluative Sciences (ICES). While data sharing agreements
+prohibit ICES from making the data set publicly available, access may be
+granted to those who meet pre-specified criteria for confidential access,
+available at www.ices.on.ca/DAS. The full data set creation plan and
+underlying analytic code are available from the authors upon request,
+understanding that the programs may rely upon coding templates or macros that
+are unique to ICES.
+
+## Acknowledgements
+
+All data-sets used in the study were held securely and analysed at ICES. Parts
+of this material are based on data and information compiled and provided by
+CIHI. However, the analyses, conclusions, opinions and statements expressed
+herein are those of the authors, and not necessarily those of CIHI. The
+authors wish to thank Immigration, Refugee and Citizenship Canada for
+providing data to the ICES, where the analyses were conducted. We thank Laura
+Holder for assistance with the analysis.
+
+## Supplementary material
+
+Supplementary material is available online at
+https://doi.org/10.1192/bjo.2017.4
+
+## References
+
+  1. Newton-Howes G. Coercion in psychiatric care: where are we now, what do we know, where do we go? Psychiatrist 2010; 34: 217-20. [Google Scholar]
+
+  2. Kallert TW, Glockner M, Schutzwohl M. Involuntary vs. voluntary hospital admission. A systematic literature review on outcome diversity. Eur Arch Psychiatry Clin Neurosci 2008; 258: 195-209. [PubMed] [Google Scholar]
+
+  3. Priebe S, Katsakou C, Glockner M, Dembinskas A, Fiorillo A, Karastergiou A, et al. Patients' views of involuntary hospital admission after 1 and 3 months: prospective study in 11 European countries. Br J Psychiatry 2010; 196: 179-85. [PubMed] [Google Scholar]
+
+  4. Keown P, Mercer G, Scott J. Retrospective analysis of hospital episode statistics, involuntary admissions under the Mental Health Act 1983, and number of psychiatric beds in England 1996-2006. BMJ 2008; 337: a1837. [PMC free article] [PubMed] [Google Scholar]
+
+  5. Priebe S, Badesconyi A, Fioritti A, Hansson L, Kilian R, Torres-Gonzales F, et al. Reinstitutionalisation in mental health care: comparison of data on service provision from six European countries. BMJ 2005; 330: 123-6. [PMC free article] [PubMed] [Google Scholar]
+
+  6. CL Mulder, Uitenbroek D, Broer J, Lendemeijer B, van Veldhuizen JR, van Tilburg W, et al. Changing patterns in emergency involuntary admissions in the Netherlands in the period 2000-2004. Int J Law Psychiatry 2008; 31: 331-6. [PubMed] [Google Scholar]
+
+  7. Morgan C, Mallett R, Hutchinson G, Bagalkote H, Morgan K, Fearon P, et al. Pathways to care and ethnicity. 1: Sample characteristics and compulsory admission. Report from the AESOP study. Br J Psychiatry 2005; 186: 281-9. [PubMed] [Google Scholar]
+
+  8. Mulder CL, Koopmans GT, Selten JP. Emergency psychiatry, compulsory admissions and clinical presentation among immigrants to the Netherlands. Br J Psychiatry 2006; 188: 386-91. [PubMed] [Google Scholar]
+
+  9. van der Post L, Mulder CL, Bernardt CM, Schoevers RA, Beekman AT, Dekker J. Involuntary admission of emergency psychiatric patients: report from the Amsterdam Study of Acute Psychiatry. Psychiatr Serv 2009; 60: 1543-6. [PubMed] [Google Scholar]
+
+  10. van der Post L, Visch I, Mulder C, Schoevers R, Dekker J, Beekman A. Factors associated with higher risks of emergency compulsory admission for immigrants: a report from the ASAP study. Int J Soc Psychiatry 2012; 58: 374-80. [PubMed] [Google Scholar]
+
+  11. Davies S, Thornicroft G, Leese M, Higgingbotham A, Phelan M. Ethnic differences in risk of compulsory psychiatric admission among representative cases of psychosis in London. BMJ 1996; 312: 533-7. [PMC free article] [PubMed] [Google Scholar]
+
+  12. Segal SP, Laurie TA, Segal MJ. Factors in the use of coercive retention in civil commitment evaluations in psychiatric emergency services. Psychiatr Serv 2001; 52: 514-20. [PubMed] [Google Scholar]
+
+  13. McGarvey EL, Leon-Verdin M, Wanchek TN, Bonnie RJ. Decisions to initiate involuntary commitment: the role of intensive community services and other factors. Psychiatr Serv 2013; 64: 120-6. [PubMed] [Google Scholar]
+
+  14. Riley R, Richman A. Involuntary hospitalization in Canadian psychiatric inpatient facilities, 1970-1978. Can J Psychiatry 1983; 28: 536-41. [PubMed] [Google Scholar]
+
+  15. Archie S, Akhtar-Danesh N, Norman R, Malla A, Roy P, Zipursky RB. Ethnic diversity and pathways to care for a first episode of psychosis in Ontario. Schizophr Bull 2010; 36: 688-701. [PMC free article] [PubMed] [Google Scholar]
+
+  16. Bagby RM. The effects of legislative reform on admission rates to psychiatric units of general hospitals. Int J Law Psychiatry 1987; 10: 383-94. [PubMed] [Google Scholar]
+
+  17. Bagby RM, Silverman I, Ryan DP, Dickens SE. Effects of mental health legislative reform in Ontario. Can Psychol 1987; 29: 21-9. [PubMed] [Google Scholar]
+
+  18. Malla A, Norman RM, Helmes E. Factors associated with involuntary admission to psychiatric facilities in Newfoundland. CMAJ 1987; 136: 1166-71. [PMC free article] [PubMed] [Google Scholar]
+
+  19. Malla A, Norman RM. Involuntary admissions in a Canadian province: the influence of geographic and population factors. Soc Psychiatry Psychiatr Epidemiol 1988; 23: 247-51. [PubMed] [Google Scholar]
+
+  20. Crisanti AS, Love EJ. Characteristics of psychiatric inpatients detained under civil commitment legislation: a Canadian study. Int J Law Psychiatry 2001; 24: 399-410. [PubMed] [Google Scholar]
+
+  21. Tremblay PF, King PR, Baines GR. Clinical and demographic characteristics of voluntary and involuntary psychiatric inpatients. Can J Psychiatry 1994; 39: 297-9. [PubMed] [Google Scholar]
+
+  22. Ontario Hospital Association. _A Practical Guide to Mental Health and the Law in Ontario_ 2012.
+
+  23. Steele LS, Glazier RH, Lin E, Evans M. Using administrative data to measure ambulatory mental health service provision in primary care. Med Care 2004; 42: 960-5. [PubMed] [Google Scholar]
+
+  24. Atzema CL, Schull MJ, Kurdyak P, Menezes NM, Wilton AS, Vermuelen MJ, et al. Wait times in the emergency department for patients with mental illness. Can Med Assoc J 2012; 184: E969-E976. [PMC free article] [PubMed] [Google Scholar]
+
+  25. interRAI. _Scales: Status and Outcome Measures_ , 2017. (http://www.interrai.org/scales.html).
+
+  26. Martin BA, Cheung KD. Civil commitment trends in Ontario: the effect of legislation on clinical practice. Can J Psychiatry 1985; 30: 259-64. [PubMed] [Google Scholar]
+
+  27. Czukar G, O'Brien DD. _Mental Health Law in Ontario: An Overview - Final Report_ 2013.
+
+  28. Hartford K, Schrecker T, Wiktorowicz M, Hoch JS, Sharp C. Report: four decades of mental health policy in Ontario, Canada. Adm Policy Ment Health Ment Health Serv Res 2003; 31: 65-73. [PubMed] [Google Scholar]
+
+  29. Government of Ontario. News Release: _Ontario Investing $28 Million in Mental Health and Addictions Services_ , 2015. (https://news.ontario.ca/mohltc/en/2015/02/ontario-investing-28-million-in-mental-health-and-addictions-services.html).
+
+  30. Keown P, Weich S, Bhui KS, Scott J. Association between provision of mental illness beds and rate of involuntary admissions in the NHS in England 1988-2008: ecological study. BMJ 2011; 343: d3736. [PMC free article] [PubMed] [Google Scholar]
+
+  31. Lamb HR, Weinberger LE, DeCuir WJ. The police and mental health. Psychiatr Serv 2002; 53: 1266-71. [PubMed] [Google Scholar]
+
+  32. Laura Kane. _In crisis: Why are police apprehending more mentally ill people?_ 2014. (https://www.thestar.com/news/gta/2014/06/01/in_crisis_why_are_police_apprehending_more_mentally_ill_people.html).
+
+  33. Centre for Addiction and Mental Health. Mental Health and Criminal Justice Policy Framework. 2013.
+
+  34. van der Post LF, Dekker JJ, Jonkers JF, Beekman AT, Mulder CL, de Haan L, et al. Crisis intervention and acute psychiatry in Amsterdam, 20 years of change: a historical comparison of consultations in 1983 and 2004-2005. Int J Soc Psychiatry 2010; 56: 348-58. [PubMed] [Google Scholar]
+
+  35. Riecher-Rossler A, Rossler W. Compulsory admission of psychiatric patients - an international comparison. Acta Psychiatr Scand 1993; 87: 231-6. [PubMed] [Google Scholar]
+
+  36. Salize HJ, Dressing H. Epidemiology of involuntary placement of mentally ill people across the European Union. Br J Psychiatry 2004; 184: 163-8. [PubMed] [Google Scholar]
+
+  37. Mundt AP, Frančišković T, Gurovich I, Heinz A, Ignatyev Y, Ismayilov F, et al. Changes in the provision of institutionalized mental health care in post-communist countries. PLoS ONE 2012; 7: e38490. [PMC free article] [PubMed] [Google Scholar]
+
+  38. Bola JR, Park EH, Kim SY. Reassessing the high proportion of involuntary psychiatric hospital admissions in South Korea. Community Ment Health J 2011; 47: 603-6. [PubMed] [Google Scholar]
+
+  39. Zhou JS, Xiang YT, Zhu XM, Liang W, Li H, Yi J, et al. Voluntary and involuntary psychiatric admissions in China. Psychiatr Serv 2015; 66: 1341-6. [PubMed] [Google Scholar]
+
+  40. Steinert T, Lepping P, Baranyai R, Hoffmann M, Leherr H. Compulsory admission and treatment in schizophrenia: a study of ethical attitudes in four European countries. Soc Psychiatry Psychiatr Epidemiol 2005; 40: 635-41. [PubMed] [Google Scholar]
+
+  41. Wang JP, Chiu CC, Yang TH, Liu TH, Wu CY, Chou P. The low proportion and associated factors of involuntary admission in the psychiatric emergency service in Taiwan. PLoS ONE 2015; 10: e0129204. [PMC free article] [PubMed] [Google Scholar]
+
+  42. Gandy HM. Form 1 - A powerful and complex tool for managing mental health problems. Paediatr Child Health 2004; 9: 222-4. [PMC free article] [PubMed] [Google Scholar]
+
+  43. Hustoft K, Larsen TK, Auestad B, Joa I, Johannessen JO, Ruud T. Predictors of involuntary hospitalizations to acute psychiatry. Int J Law Psychiatry 2013; 36: 136-43. [PubMed] [Google Scholar]
+
+  44. Preti A, Rucci P, Santone G, Picardi A, Miglio R, Bracco R, et al. Patterns of admission to acute psychiatric in-patient facilities: a national survey in Italy. Psychol Med 2009; 39: 485-96. [PubMed] [Google Scholar]
+
+* * *
+
+Articles from BJPsych Open are provided here courtesy of **Royal College of
+Psychiatrists**
+
+## Formats:
+
+  * Article |
+
+  * PubReader |
+
+  * ePub (beta) |
+
+  * PDF (367K) |
+
+  * Citation
+
+## Share
+
+  * ![Share on Facebook](//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/4047626) Facebook 
+  * ![Share on Twitter](//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/4047627) Twitter 
+  * ![Share on Google Plus](//static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/4047628) Google+ 
+
+Support Center Support Center
+
+External link. Please review our privacy policy.
+
+NLM
+
+NIH
+
+DHHS
+
+USA.gov
+
+National Center for Biotechnology Information, U.S. National Library of
+Medicine 8600 Rockville Pike, Bethesda MD, 20894 USA
+
+Policies and Guidelines | Contact
+
+![statistics](/stat?jsdisabled=true&ncbi_db=pmc&ncbi_pdid=article&ncbi_acc=&ncbi_domain=bjpsychopen&ncbi_report=record&ncbi_type=fulltext&ncbi_objectid=&ncbi_pcid=/articles/PMC6020272/&ncbi_app=pmc)
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[AU]: Australia _[CA]: Canada_ [UK]: United Kingdom _[US]: United States_
+[UN]: United Nations _[EU]: European Union_ [ v]: View this template _[AAAD]:
+Aromatic L-amino acid decarboxylase_ [ MAO]: Monoamine oxidase _[ ALDH]:
+Aldehyde dehydrogenase_ [ALR]: Aldehyde reductase _[PAH]: Phenylalanine
+hydroxylase_ [ TH]: Tyrosine hydroxylase _[ DBH]: Dopamine beta-monooxygenase_
+[ PNMT]: Phenylethanolamine N-methyltransferase _[ COMT]: Catechol-O-methyl
+transferase_ [TPH]: Tryptophan hydroxylase _[ AANAT]: Serotonin N-acetyl
+transferase_ [ ASMT]: Acetylserotonin O-methyltransferase _[ HDC]: Histidine
+decarboxylase_ [ HNMT]: Histamine N-methyltransferase _[ DAO]: Diamine
+oxidase_ [nAChRs]: Nicotinic acetylcholine receptors _[PAMs]: positive
+allosteric modulators_ [NAMs]: negative allosteric modulators _[TRP]:
+Transient receptor potential_ [TRPA]: Transient receptor potential ankyrin
+channel _[TRPC]: Transient receptor potential canonical channel_ [TRPM]:
+Transient receptor potential melastatin channel _[TRPML]: Transient receptor
+potential mucolipin channel_ [TRPP]: Transient receptor potential polycystin
+channel _[TRPV]: Transient receptor potential vanilloid channel_ [CBR]:
+Cannabinoid receptor _[ GABA]: -Aminobutyric acid_ [GABAA]: γ-Aminobutyric
+acid A _[GABA]: γ-Aminobutyric acid_ [GHB]: γ-Hydroxybutyric acid _[ hTAAR]:
+human trace amine-associated receptor_ [ PAF]: Platelet-activating factor _[
+PPAR]: Peroxisome proliferator-activated receptor_ [ GH]: Growth hormone
+_[IGF-1]: Insulin-like growth factor 1_ [GnRH]: gonadotropin hormone-releasing
+hormone _[ TNF]: Tumor necrosis factor_ [ TGFβ]: Transforming growth factor
+beta _[ TRP]: Transient receptor potential_ [c.]: circa _[ON]: Ontario_ [FT]:
+Financial Times *[RSS]: Really Simple Syndication
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[AU]: Australia
+  *[CA]: Canada
+  *[UK]: United Kingdom
+  *[US]: United States
+  *[UN]: United Nations
+  *[EU]: European Union
+  *[ v]: View this template
+  *[AAAD]: Aromatic L-amino acid decarboxylase
+  *[ MAO]: Monoamine oxidase
+  *[ ALDH]: Aldehyde dehydrogenase
+  *[ALR]: Aldehyde reductase
+  *[PAH]: Phenylalanine hydroxylase
+  *[ TH]: Tyrosine hydroxylase
+  *[ DBH]: Dopamine beta-monooxygenase
+  *[ PNMT]: Phenylethanolamine N-methyltransferase
+  *[ COMT]: Catechol-O-methyl transferase
+  *[TPH]: Tryptophan hydroxylase
+  *[ AANAT]: Serotonin N-acetyl transferase
+  *[ ASMT]: Acetylserotonin O-methyltransferase
+  *[ HDC]: Histidine decarboxylase
+  *[ HNMT]: Histamine N-methyltransferase
+  *[ DAO]: Diamine oxidase
+  *[nAChRs]: Nicotinic acetylcholine receptors
+  *[PAMs]: positive allosteric modulators
+  *[NAMs]: negative allosteric modulators
+  *[TRP]: Transient receptor potential
+  *[TRPA]: Transient receptor potential ankyrin channel
+  *[TRPC]: Transient receptor potential canonical channel
+  *[TRPM]: Transient receptor potential melastatin channel
+  *[TRPML]: Transient receptor potential mucolipin channel
+  *[TRPP]: Transient receptor potential polycystin channel
+  *[TRPV]: Transient receptor potential vanilloid channel
+  *[CBR]: Cannabinoid receptor
+  *[ GABA]: -Aminobutyric acid
+  *[GABAA]: γ-Aminobutyric acid A
+  *[GABA]: γ-Aminobutyric acid
+  *[GHB]: γ-Hydroxybutyric acid
+  *[ hTAAR]: human trace amine-associated receptor
+  *[ PAF]: Platelet-activating factor
+  *[ PPAR]: Peroxisome proliferator-activated receptor
+  *[ GH]: Growth hormone
+  *[IGF-1]: Insulin-like growth factor 1
+  *[GnRH]: gonadotropin hormone-releasing hormone
+  *[ TNF]: Tumor necrosis factor
+  *[ TGFβ]: Transforming growth factor beta
+  *[ TRP]: Transient receptor potential
+  *[c.]: circa
+  *[ON]: Ontario
+  *[FT]: Financial Times
+  *[RSS]: Really Simple Syndication
+

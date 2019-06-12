@@ -1,0 +1,1629 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang="en-us" class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-us"  class="responsive"> <!--<![endif]-->
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<title>Key Facts about the Uninsured Population | The Henry J. Kaiser Family Foundation</title>
+<meta name="viewport" content="width=device-width" />
+<script type="text/javascript"> if (!window.console) console = {log: function() {}}; </script>
+<script type="text/javascript">
+	var kff_context = { id: 85226, type: "post", post_type: "fact-sheet" };</script>
+<script type="text/javascript">
+	var kff_twitter_handle = "@KaiserFamFound";</script>
+<!--[if IE lte 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://www.kff.org/wp-content/themes/kaiser-foundation-2016/static/js/lib/css3-multi-column.min.js"></script>
+<![endif]-->
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+	<script type="text/javascript">var ajaxurl = 'https://www.kff.org/wp-admin/admin-ajax.php';</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.kff.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.1"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://www.kff.org/wp-includes/css/dist/block-library/style.min.css?ver=5.2.1' type='text/css' media='all' />
+<link crossorigin="anonymous" rel='stylesheet' id='kff-webfonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C400i%2C600%2C600i%2C700%2C700i&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-style-css'  href='https://www.kff.org/wp-content/themes/kaiser-foundation-2016/static/stylesheets/jquery-ui.css?ver=1.7.7' type='text/css' media='all' />
+<link rel='stylesheet' id='screen-css'  href='https://www.kff.org/wp-content/themes/kaiser-foundation-2016/static/stylesheets/screen.css?ver=1.7.7' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css'  href='https://www.kff.org/wp-content/themes/kaiser-foundation-2016/static/stylesheets/print.css?ver=1.7.7' type='text/css' media='print' />
+<link rel='stylesheet' id='mobile-768px-css'  href='https://www.kff.org/wp-content/themes/kaiser-foundation-2016/static/stylesheets/mobile-768px.css?ver=1.7.7' type='text/css' media='screen and (max-width: 768px) and (min-width: 480px)' />
+<link rel='stylesheet' id='mobile-320px-css'  href='https://www.kff.org/wp-content/themes/kaiser-foundation-2016/static/stylesheets/mobile-320px.css?ver=1.7.7' type='text/css' media='screen and (max-width: 480px)' />
+<link rel='stylesheet' id='dashicons-css'  href='https://www.kff.org/wp-includes/css/dashicons.min.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='https://www.kff.org/wp-includes/js/thickbox/thickbox.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://www.kff.org/wp-content/mu-plugins/jetpack/css/jetpack.css?ver=7.4' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.kff.org/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://www.kff.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.kff.org/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.kff.org/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='https://www.kff.org/wp-content/themes/kaiser-foundation-2016/static/js/jquery_plugins/jquery.customSelect.min.js?ver=1.7.7'></script>
+<script type='text/javascript' src='https://www.kff.org/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='https://www.kff.org/wp-content/themes/kaiser-foundation-2016/static/js/jquery_plugins/jquery.hoverIntent.minified.js?ver=1.7.7'></script>
+<script type='text/javascript' src='https://www.kff.org/wp-content/themes/kaiser-foundation-2016/static/js/jquery_plugins/jquery.stickytableheaders.js?ver=1.7.7'></script>
+<script type='text/javascript' src='https://www.kff.org/wp-content/themes/kaiser-foundation-2016/static/js/jquery_plugins/jquery.history.js?ver=1.7.7'></script>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js?ver=5.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var kff_shortlink = {"ajaxurl":"https:\/\/www.kff.org\/wp-admin\/admin-ajax.php","ajax_security":"e91787a09b"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.kff.org/wp-content/themes/kaiser-foundation-2016/static/js/global.bundle.min.js?ver=1.7.7'></script>
+<script type='text/javascript' src='https://www.kff.org/wp-content/themes/kaiser-foundation-2016/static/js/attachments.js?ver=1.7.7'></script>
+<script type='text/javascript' src='https://www.kff.org/wp-content/themes/kaiser-foundation-2016/static/js/navigation.js?ver=1.7.7'></script>
+<script type='text/javascript' src='https://www.kff.org/wp-content/themes/kaiser-foundation-2016/static/js/jquery_plugins/jquery.livesearch.js?ver=1.7.7'></script>
+<script type='text/javascript' src='https://www.kff.org/wp-content/themes/kaiser-foundation-2016/static/js/jquery_plugins/jquery.simple-lightbox.js?ver=1.7.7'></script>
+<link rel='https://api.w.org/' href='https://www.kff.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.kff.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.kff.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.1" />
+<link rel="canonical" href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/" />
+<link rel='shortlink' href='https://www.kff.org/10845da/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.kff.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.kff.org%2Funinsured%2Ffact-sheet%2Fkey-facts-about-the-uninsured-population%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.kff.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.kff.org%2Funinsured%2Ffact-sheet%2Fkey-facts-about-the-uninsured-population%2F&#038;format=xml" />
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<style type='text/css'>img#wpstats{display:none}</style>			<style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style>
+			<script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script>
+		<link rel="amphtml" href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/amp/">
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Key Facts about the Uninsured Population" />
+<meta property="og:url" content="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/" />
+<meta property="og:description" content="This fact sheet describes how coverage has changed under the ACA, examines the characteristics of the uninsured population, and summarizes the access and financial implications of not having covera…" />
+<meta property="article:published_time" content="2018-12-07T20:37:47+00:00" />
+<meta property="article:modified_time" content="2019-02-07T17:11:26+00:00" />
+<meta property="og:site_name" content="The Henry J. Kaiser Family Foundation" />
+<meta property="og:image" content="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png" />
+<meta property="og:image:width" content="960" />
+<meta property="og:image:height" content="720" />
+<meta property="og:image:alt" content="Number of Uninsured and Uninsured Rate Among the Nonelderly Population, 2008-2017" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:text:title" content="Key Facts about the Uninsured Population" />
+<meta name="twitter:image" content="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png?w=640" />
+<meta name="twitter:image:alt" content="Number of Uninsured and Uninsured Rate Among the Nonelderly Population, 2008-2017" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="fb:app_id" content="539445989434974" />
+<meta name="twitter:site" content="@KaiserFamFound" />
+
+<!-- End Jetpack Open Graph Tags -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', "UA-36655148-1", 'auto');
+  ga('send', 'pageview');
+</script>
+<script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0024/5869.js" async="async"></script>
+<link rel="icon" href="https://www.kff.org/wp-content/uploads/2019/05/cropped-KFF-Favicon.png?w=32" sizes="32x32" />
+<link rel="icon" href="https://www.kff.org/wp-content/uploads/2019/05/cropped-KFF-Favicon.png?w=192" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.kff.org/wp-content/uploads/2019/05/cropped-KFF-Favicon.png?w=180" />
+<meta name="msapplication-TileImage" content="https://www.kff.org/wp-content/uploads/2019/05/cropped-KFF-Favicon.png?w=270" />
+</head>
+<body class="fact-sheet-template-default single single-fact-sheet postid-85226 legacy-layout-active key-facts-about-the-uninsured-population report-tabs">
+		<!-- Google Tag Manager -->
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PPSVK8"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-PPSVK8');</script>
+	<!-- End Google Tag Manager -->
+		<div class="viewport">
+		<div class="pane">
+			
+			<nav class="primary"><ul id="menu-main-menu" class="menu"><li id="menu-item-180518" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-180518"><a href="https://www.kff.org/">Home</a></li>
+<li id="menu-item-180520" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-180520"><a href="#">Topics</a>
+<ul class="sub-menu">
+	<li id="menu-item-185314" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185314"><a href="/disparities-policy/">Disparities Policy</a></li>
+	<li id="menu-item-185315" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185315"><a href="/global-health-policy/">Global Health Policy</a></li>
+	<li id="menu-item-185316" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185316"><a href="/health-costs/">Health Costs</a></li>
+	<li id="menu-item-185317" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185317"><a href="/health-reform/">Health Reform</a></li>
+	<li id="menu-item-185318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185318"><a href="/hivaids/">HIV/AIDS</a></li>
+	<li id="menu-item-185320" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185320"><a href="/medicaid/">Medicaid</a></li>
+	<li id="menu-item-185319" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185319"><a href="/medicare/">Medicare</a></li>
+	<li id="menu-item-185321" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185321"><a href="/private-insurance/">Private Insurance</a></li>
+	<li id="menu-item-185322" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185322"><a href="/uninsured/">Uninsured</a></li>
+	<li id="menu-item-185323" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185323"><a href="/womens-health-policy/">Women&#8217;s Health Policy</a></li>
+</ul>
+</li>
+<li id="menu-item-180531" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180531"><a href="/polling">Polling</a></li>
+<li id="menu-item-180540" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180540"><a href="/perspectives/">Perspectives</a></li>
+<li id="menu-item-180537" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-180537"><a href="/statedata">State Health Facts</a>
+<ul class="sub-menu">
+	<li id="menu-item-254102" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-254102"><a href="/statedata">State Health Facts</a></li>
+	<li id="menu-item-254101" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-254101"><a href="/statedata/custom-state-report/">Custom State Reports</a></li>
+</ul>
+</li>
+<li id="menu-item-180539" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180539"><a href="/graphics/search/">Graphics &amp; Interactives</a></li>
+<li id="menu-item-180538" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180538"><a href="/charts-slides/">Charts &amp; Slides</a></li>
+<li id="menu-item-180551" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180551"><a href="http://www.khn.org">Kaiser Health News</a></li>
+<li id="menu-item-180553" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180553"><a href="/health-communication-media-partnerships/">Media Campaigns</a></li>
+<li id="menu-item-227302" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-227302"><a href="http://www.healthsystemtracker.org/">Peterson-Kaiser Health System Tracker</a></li>
+<li id="menu-item-180555" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-180555"><a href="/newsroom">Newsroom</a>
+<ul class="sub-menu">
+	<li id="menu-item-189647" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189647"><a href="/newsroom">Newsroom</a></li>
+	<li id="menu-item-180556" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180556"><a href="/search/?post_type=press-release">News Releases</a></li>
+	<li id="menu-item-180557" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180557"><a href="/search/?post_type=event">Events</a></li>
+	<li id="menu-item-180558" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180558"><a href="/email/">Subscribe to Emails</a></li>
+	<li id="menu-item-180559" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180559"><a href="/cite-and-reprint-kff/">Cite Us/Reprint</a></li>
+	<li id="menu-item-180560" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180560"><a href="/newsroom/#media-contacts">Media Contacts</a></li>
+</ul>
+</li>
+<li id="menu-item-180561" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-180561"><a href="/about-us/">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-189648" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189648"><a href="/about-us">About Us</a></li>
+	<li id="menu-item-180562" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180562"><a href="/our-programs/">Our Programs</a></li>
+	<li id="menu-item-180563" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180563"><a href="/people/key-staff/">Key Staff</a></li>
+	<li id="menu-item-180552" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180552"><a href="/media-internships-fellowships/">Media Fellowships</a></li>
+	<li id="menu-item-180564" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180564"><a href="/barbara-jordan-conference-center/">Barbara Jordan Conference Center</a></li>
+	<li id="menu-item-180565" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180565"><a href="/contact-us/">Contact Us</a></li>
+	<li id="menu-item-180566" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180566"><a href="/employment-opportunities/">Employment Opportunities</a></li>
+</ul>
+</li>
+</ul></nav>
+			<header class="primary legacy">
+    <div id="print-logo">
+        <img
+            alt="The Henry J. Kaiser Family Foundation"
+            src="https://www.kff.org/wp-content/themes/kaiser-foundation-2016/static/images/kff-logo.png"
+        />
+                <p class="program-on-medicaid-uninsured">
+            Filling the need for trusted information on national health issues        </p>
+    </div>
+    <div class="header-main site-header__layer--primary">
+        <div class="site-header__inner inner">
+            <a
+                class="menu site-header__menu-toggle"
+                href="#"
+                role="button"
+            >
+                <span>
+                    menu                </span>
+            </a>
+            <a
+                class="site-header__logo"
+                href="/"
+                rel="home"
+                title="Key Facts about the Uninsured Population"
+            ></a>
+                        <div class="site-header__share share">
+                <a
+                    class="link facebook"
+                    href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.kff.org%2F10845da%2F"
+                    target="_blank"
+                >
+                    <span class="screen-reader-text">
+                        Share on Facebook. Opens in a new window.                    </span>
+                </a>
+                <a
+                    class="link twitter"
+                    href="http://twitter.com/share?text=Key+Facts+about+the+Uninsured+Population&#038;url=https%3A%2F%2Fwww.kff.org%2F10845da%2F"
+                    target="_blank"
+                >
+                    <span class="screen-reader-text">
+                        Share on Twitter. Opens in a new window.                    </span>
+                </a>
+                <a
+                    class="link email"
+                    href="mailto:?subject=Key%20Facts%20about%20the%20Uninsured%20Population&#038;body=https%3A%2F%2Fwww.kff.org%2F10845da%2F"
+                >
+                    <span class="screen-reader-text">
+                        Email. Opens in a new window.                    </span>
+                </a>
+            </div>
+            <form
+                action="https://www.kff.org/search/"
+                class="site-header__search-form search-form"
+            >
+                                <label class="screen-reader-text" for="search-field">
+                    Search KFF.org                </label>
+                <input
+                    class="search-form__input--text"
+                    id="search-field"
+                    name="s"
+                    placeholder="Search KFF.org"
+                    type="text"
+                />
+                <input
+                    class="search-form__input--submit"
+                    id="search-submit"
+                    type="submit"
+                    value="search"
+                />
+            </form>
+            <div class="site-header__social-links">
+                <a
+                    class="link twitter"
+                    href="https://twitter.com/KaiserFamFound"
+                    target="_blank"
+                >
+                    <span>
+                        Twitter                    </span>
+                </a>
+                <a
+                    class="link facebook"
+                    href="https://www.facebook.com/KaiserFamilyFoundation"
+                    target="_blank"
+                >
+                    <span>
+                        Facebook                    </span>
+                </a>
+                <a
+                    class="link instagram"
+                    href="https://www.instagram.com/KaiserFamilyFoundation/"
+                    target="_blank"
+                >
+                    <span>
+                        Instagram                    </span>
+                </a>
+                <a
+                    class="link email"
+                    href="/email/"
+                    target="_blank"
+                >
+                    <span>
+                        Email                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+        <div class="site-header__layer--secondary inner">
+                <p class="site-header__tagline">
+            Filling the need for trusted information on national health issues        </p>
+                <nav
+            class="site-header__trending"
+            data-label="Trending on KFF"
+        >
+            <ul id="menu-trending-links" class="menu"><li id="menu-item-180652" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180652"><a href="https://www.kff.org/tag/abortion/?utm_source=web&#038;utm_medium=trending&#038;utm_campaign=abortion">Abortion</a></li>
+<li id="menu-item-180653" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180653"><a href="https://www.kff.org/search/?s=%22medicare-for-all%22&#038;fs=search&#038;orderby=date&#038;tab&#038;layout&#038;facets%5Bstart_date%5D&#038;facets%5Bend_date%5D&#038;s=%22medicare-for-all%22&#038;?utm_source=web&#038;utm_medium=trending&#038;utm_campaign=%22medicare-for-all%22">Medicare-for-all</a></li>
+<li id="menu-item-180654" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180654"><a href="https://www.kff.org/tag/prescription-drugs/?utm_source=web&#038;utm_medium=trending&#038;utm_campaign=prescription-drugs">Prescription Drugs</a></li>
+</ul>        </nav>
+    </div>
+    </header>
+				<nav class="tertiary">
+		<div class="inner">
+			<h2 class="uninsured has-icon dark-blue">
+				<a href="/uninsured/" class="topic">
+					Uninsured				</a>
+			</h2>
+							<ul class="title-icons">
+											<li>
+							<a href="/topic/uninsured/" class="magnifying-glass">
+								Search							</a>
+						</li>
+											<li>
+							<a href="/graphics/uninsured/" class="pie-graph">
+								Graphics &amp; Interactives							</a>
+						</li>
+											<li>
+							<a href="/polling/uninsured/" class="poll">
+								Polls							</a>
+						</li>
+									</ul>
+					</div>
+	</nav>
+
+<nav class="page-meta">
+	<ul id="breadcrumbs"><li><a href="https://www.kff.org/">Home</a></li><li><a href="/uninsured/">Uninsured</a></li><li><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/">Key Facts about the Uninsured Population</a></li></ul></nav>
+
+			
+			<div id="content" class="inner ">
+	<div id="report-wrapper">
+		<div class="left-column ">
+			<div class="box primary">
+										<h2 class="post_title">Key Facts about the Uninsured Population</h2>
+						<p class="byline">
+		<br>
+	<span>Published: Dec 07, 2018</span>
+</p>
+<div class="share">
+	<a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.kff.org%2F10845da%2F" target="_blank" class="facebook">Facebook</a>
+	<a href="http://twitter.com/share?text=Key+Facts+about+the+Uninsured+Population&#038;url=https%3A%2F%2Fwww.kff.org%2F10845da%2F" target="_blank" class="twitter">Twitter</a>
+	<a href="https://www.linkedin.com/shareArticle?mini=true&#038;title=Key+Facts+about+the+Uninsured+Population&#038;url=https%3A%2F%2Fwww.kff.org%2F10845da%2F" target="_blank" class="linkedin">LinkedIn</a>
+	<a href="mailto:?subject=Key%20Facts%20about%20the%20Uninsured%20Population&#038;body=https%3A%2F%2Fwww.kff.org%2F10845da%2F" class="email">Email</a>
+	<a href="#" class="print">Print</a>
+</div>
+			</div>
+			<div class="box full-post">
+				<p>The Affordable Care Act (ACA) led to historic gains in health insurance coverage by extending Medicaid coverage to many low-income individuals and providing Marketplace subsidies for individuals below 400% of poverty. The number of uninsured nonelderly Americans decreased from over 44 million in 2013 (the year before the major coverage provisions went into effect) to just below 27 million in 2016. However, in 2017, the number of uninsured people increased by nearly 700,000 people, the first increase since implementation of the ACA. Ongoing efforts to alter the ACA or to make receipt of Medicaid contingent on work may further erode coverage gains seen under the ACA. This fact sheet describes how coverage has changed in recent years, examines the characteristics of the uninsured population, and summarizes the access and financial implications of not having coverage.</p>
+<table class=" table-p-font">
+<tbody>
+<tr class="header-blue">
+<td>Summary: Key Facts about the Uninsured Population</td>
+</tr>
+<tr>
+<td><strong>How many people are uninsured?<br />
+</strong>In the past, gaps in the public insurance system and lack of access to affordable private coverage left millions without health insurance. Beginning in 2014, the ACA expanded coverage to millions of previously uninsured people through the expansion of Medicaid and the establishment of Health Insurance Marketplaces. Data show substantial gains in public and private insurance coverage and historic decreases in the number of uninsured people under the ACA, with nearly 20 million gaining coverage. However, for the first time since the implementation of the ACA, the number of uninsured increased by more than half a million in 2017.</p>
+<p><strong>Why do people remain uninsured?<br />
+</strong>Even under the ACA, many uninsured people cite the high cost of insurance as the main reason they lack coverage. In 2017, 45% of uninsured adults said that they remained uninsured because the cost of coverage was too high. Many people do not have access to coverage through a job, and some people, particularly poor adults in states that did not expand Medicaid, remain ineligible for financial assistance for coverage. Some people who are eligible for financial assistance under the ACA may not know they can get help, and undocumented immigrants are ineligible for Medicaid or Marketplace coverage.</p>
+<p><strong>Who remains uninsured?<br />
+</strong>Most uninsured people are in low-income families and have at least one worker in the family. Reflecting the more limited availability of public coverage in some states, adults are more likely to be uninsured than children. People of color are at higher risk of being uninsured than non-Hispanic Whites.</p>
+<p><strong>How does not having coverage affect health care access?<br />
+</strong>People without insurance coverage have worse access to care than people who are insured. One in five uninsured adults in 2017 went without needed medical care due to cost. Studies repeatedly demonstrate that the uninsured are less likely than those with insurance to receive preventive care and services for major health conditions and chronic diseases.</p>
+<p><strong>What are the financial implications of being uninsured?<br />
+</strong>The uninsured often face unaffordable medical bills when they do seek care. In 2017, uninsured nonelderly adults were over twice as likely as their insured counterparts to have had problems paying medical bills in the past 12 months. These bills can quickly translate into medical debt since most of the uninsured have low or moderate incomes and have little, if any, savings.</td>
+</tr>
+</tbody>
+</table>
+<h3>How many people are uninsured?</h3>
+<p>In the past, gaps in the public insurance system and lack of access to affordable private coverage left millions without health insurance, and the number of uninsured Americans grew over time, particularly during periods of economic downturns. By 2013, more than 44 million people lacked coverage. Under the ACA, as of 2014, Medicaid coverage has been expanded to nearly all adults with incomes at or below 138% of poverty in states that have expanded their programs, and tax credits are available for people who purchase coverage through a health insurance marketplace. Millions of people have enrolled in these new coverage options, and the uninsured rate dropped to a historic low. Coverage gains were particularly large among low-income adults living in states that expanded Medicaid. Still, millions of people—27.4 million nonelderly individuals in 2017—remain without coverage.<a class="footnote-link" href="#footnote-384995-1" title="Kaiser Family Foundation analysis of 2017 American Community Survey (ACS), 1-Year Estimates." id="endnote_link_384995-1"><sup>1</sup></a></p>
+<h6>Key Details:</h6>
+<ul>
+<li>The number of uninsured, and the share of the nonelderly population that was uninsured, rose from 44.2 million (17.1%) to 46.5 million (17.8%) between 2008 and 2010 as the country faced an economic recession (Figure 1). As early provisions of the ACA went into effect in 2010, and as the economy improved, the number of uninsured people and uninsured rate began to drop. When the major ACA coverage provisions went into effect in 2014, the number of uninsured and uninsured rate dropped dramatically and continued to fall through 2016, when just below 27 million people (10% of the nonelderly population) lacked coverage.</li>
+</ul>
+<div id="attachment_385048" style="width: 745px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-385048" class="size-kaiser-slide wp-image-385048 no-lazy-loaded" src="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png?w=735&amp;h=551&amp;crop=1" alt="Number of Uninsured and Uninsured Rate Among the Nonelderly Population, 2008-2017" width="735" height="551" srcset="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png 960w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png?resize=300,225 300w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png?resize=768,576 768w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png?resize=758,569 758w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png?resize=735,551 735w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png?resize=698,524 698w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png?resize=600,450 600w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png?resize=200,150 200w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png?resize=215,161 215w" sizes="(max-width: 735px) 100vw, 735px"><noscript><img aria-describedby="caption-attachment-385048" class="size-kaiser-slide wp-image-385048 no-lazy-loaded" src="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png?w=735&amp;h=551&amp;crop=1" alt="Number of Uninsured and Uninsured Rate Among the Nonelderly Population, 2008-2017" width="735" height="551" srcset="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png 960w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png?resize=300,225 300w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png?resize=768,576 768w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png?resize=758,569 758w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png?resize=735,551 735w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png?resize=698,524 698w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png?resize=600,450 600w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png?resize=200,150 200w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-1.png?resize=215,161 215w" sizes="(max-width: 735px) 100vw, 735px" /></noscript><p id="caption-attachment-385048" class="wp-caption-text">Figure 1: Number of Uninsured and Uninsured Rate Among the Nonelderly Population, 2008-2017</p></div>
+<div id="attachment_385049" style="width: 745px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-385049" class="size-kaiser-slide wp-image-385049 no-lazy-loaded" src="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-2.png?w=735&amp;h=551&amp;crop=1" alt="Change in Uninsured Rate Among the Nonelderly Population by Selected Characteristics, 2013-2016" width="735" height="551" srcset="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-2.png 960w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-2.png?resize=300,225 300w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-2.png?resize=768,576 768w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-2.png?resize=758,569 758w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-2.png?resize=735,551 735w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-2.png?resize=698,524 698w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-2.png?resize=600,450 600w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-2.png?resize=200,150 200w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-2.png?resize=215,161 215w" sizes="(max-width: 735px) 100vw, 735px"><noscript><img aria-describedby="caption-attachment-385049" class="size-kaiser-slide wp-image-385049 no-lazy-loaded" src="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-2.png?w=735&amp;h=551&amp;crop=1" alt="Change in Uninsured Rate Among the Nonelderly Population by Selected Characteristics, 2013-2016" width="735" height="551" srcset="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-2.png 960w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-2.png?resize=300,225 300w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-2.png?resize=768,576 768w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-2.png?resize=758,569 758w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-2.png?resize=735,551 735w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-2.png?resize=698,524 698w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-2.png?resize=600,450 600w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-2.png?resize=200,150 200w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-2.png?resize=215,161 215w" sizes="(max-width: 735px) 100vw, 735px" /></noscript><p id="caption-attachment-385049" class="wp-caption-text">Figure 2: Change in Uninsured Rate Among the Nonelderly Population by Selected Characteristics, 2013-2016</p></div>
+<ul>
+<li>Coverage gains from 2013 to 2016 were particularly large among groups targeted by the ACA, including adults and poor and low-income individuals. The uninsured rate among nonelderly adults, who are more likely than children to be uninsured, dropped 8.4 percentage points from 20.6% in 2013 to 12.2% in 2016, a 41% decline.<a class="footnote-link" href="#footnote-384995-2" title="Kaiser Family Foundation analysis of 2013 and 2016 American Community Survey (ACS), 1-Year Estimates." id="endnote_link_384995-2"><sup>2</sup></a> In addition, between 2013 and 2016, the uninsured rate declined substantially for poor and near-poor nonelderly individuals (Figure 2). People of color, who had higher uninsured rates than non-Hispanic Whites prior to 2014, had larger coverage gains from 2013 to 2016 than non-Hispanic Whites. Though uninsured rates dropped across all states, they dropped more in states that chose to expand Medicaid, decreasing by 7.2 percentage points from 2013 to 2016 compared to a 6.1 percentage point drop in non-expansion states.<a class="footnote-link" href="#footnote-384995-3" title="Kaiser Family Foundation analysis of 2017 American Community Survey (ACS), 1-Year Estimates." id="endnote_link_384995-3"><sup>3</sup></a></li>
+<li>In 2017, the uninsured rate reversed course and, for the first time since the passage of the ACA, rose significantly to 10.2%. Changes in the uninsured rate in the set of states that expanded Medicaid were essentially flat overall, declining by less than 0.1 percentage points, but patterns varied by states (Appendix Table A) and by demographic group (Figure 3). In contrast, the uninsured rate in states that did not expand Medicaid increased both overall (rising by 0.6 percentage points) and for most groups (Figure 3). The largest increases in the uninsured rates in non-expansion states were among non-Hispanic Blacks and those living above poverty (Figure 3). Again, changes in coverage from 2016-2017 varied within the set of states that have not expanded Medicaid (Appendix A).</li>
+</ul>
+<div id="attachment_385050" style="width: 745px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-385050" class="size-kaiser-slide wp-image-385050 no-lazy-loaded" src="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-3.png?w=735&amp;h=551&amp;crop=1" alt width="735" height="551" srcset="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-3.png 960w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-3.png?resize=300,225 300w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-3.png?resize=768,576 768w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-3.png?resize=758,569 758w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-3.png?resize=735,551 735w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-3.png?resize=698,524 698w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-3.png?resize=600,450 600w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-3.png?resize=200,150 200w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-3.png?resize=215,161 215w" sizes="(max-width: 735px) 100vw, 735px"><noscript><img aria-describedby="caption-attachment-385050" class="size-kaiser-slide wp-image-385050 no-lazy-loaded" src="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-3.png?w=735&amp;h=551&amp;crop=1" alt="" width="735" height="551" srcset="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-3.png 960w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-3.png?resize=300,225 300w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-3.png?resize=768,576 768w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-3.png?resize=758,569 758w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-3.png?resize=735,551 735w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-3.png?resize=698,524 698w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-3.png?resize=600,450 600w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-3.png?resize=200,150 200w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-3.png?resize=215,161 215w" sizes="(max-width: 735px) 100vw, 735px" /></noscript><p id="caption-attachment-385050" class="wp-caption-text">Figure 3: Change in Uninsured Rate Among the Nonelderly Population by Selected Characteristics and Expansion Status, 2016-2017</p></div>
+<h3>Why do people remain uninsured?</h3>
+<p>Most of the nonelderly in the United States obtain health insurance through an employer, but not all workers are offered employer-sponsored coverage or, if offered, can afford their share of the premiums. Medicaid covers many low-income individuals, and financial assistance for Marketplace coverage is available for many moderate-income people. However, Medicaid eligibility for adults remains limited in some states, and few people can afford to purchase coverage without financial assistance. Some people who are eligible for coverage under the ACA may not know they can get help, and others may still find the cost of coverage prohibitive.</p>
+<h6>Key Details:</h6>
+<ul>
+<li>Cost still poses a major barrier to coverage for the uninsured. In 2017, 45% of uninsured nonelderly adults said they were uninsured because the cost is too high, making it the most common reason cited for being uninsured (Figure 4). Though financial assistance is available to many of the remaining uninsured under the ACA,<a class="footnote-link" href="#footnote-384995-4" title="Rachel Garfield, Anthony Damico, Kendal Orgera, Gary Claxton, and Larry Levitt, Estimates of Eligibility for ACA Coverage among the Uninsured in 2016 (Washington, DC:  Kaiser Family Foundation, June 2018), https://www.kff.org/uninsured/issue-brief/estimates-of-eligibility-for-aca-coverage-among-the-uninsured-in-2016/." id="endnote_link_384995-4"><sup>4</sup></a> not everyone who is uninsured is eligible for free or subsidized coverage. In addition, some uninsured who are eligible for help may not be aware of coverage options or may face barriers to enrollment.<a class="footnote-link" href="#footnote-384995-5" title="Ashley Kirzinger, Liz Hamel, Cailey Muñana, and Mollyann Brodie. Kaiser Health Tracking Poll – March 2018: Non-Group Enrollees, (Washington, D.C.: Kaiser Family Foundation, April 2018), https://www.kff.org/health-reform/poll-finding/kaiser-health-tracking-poll-march-2018-non-group-enrollees/." id="endnote_link_384995-5"><sup>5</sup></a> Outreach and enrollment assistance was key to facilitating both initial and ongoing enrollment in ACA coverage, but these programs face challenges due to funding cuts and high demand.<a class="footnote-link" href="#footnote-384995-6" title="Karen Pollitz, Jennifer Tolbert, and Ashley Semanskee. 2016 Survey of Health Insurance Marketplace Assister Programs and Brokers (Washington, DC: Kaiser Family Foundation, June 2016), http://www.kff.org/health-reform/report/2016-survey-of-health-insurance-marketplace-assister-programs-and-brokers/" id="endnote_link_384995-6"><sup>6</sup></a><sup>,</sup><a class="footnote-link" href="#footnote-384995-7" title="Karen Pollitz, Jennifer Tolbert, and Maria Diaz. Data Note: Further Reductions in Navigator Funding for Federal Marketplace States, (Washington, D.C.: Kaiser Family Foundation, September 2018), https://www.kff.org/health-reform/issue-brief/data-note-further-reductions-in-navigator-funding-for-federal-marketplace-states/." id="endnote_link_384995-7"><sup>7</sup></a>
+<p><div id="attachment_385051" style="width: 745px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-385051" class="size-kaiser-slide wp-image-385051 no-lazy-loaded" src="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-4.png?w=735&amp;h=551&amp;crop=1" alt="Reasons for Being Uninsured Among Uninsured Nonelderly Adults, 2017" width="735" height="551" srcset="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-4.png 960w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-4.png?resize=300,225 300w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-4.png?resize=768,576 768w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-4.png?resize=758,569 758w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-4.png?resize=735,551 735w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-4.png?resize=698,524 698w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-4.png?resize=600,450 600w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-4.png?resize=200,150 200w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-4.png?resize=215,161 215w" sizes="(max-width: 735px) 100vw, 735px"><noscript><img aria-describedby="caption-attachment-385051" class="size-kaiser-slide wp-image-385051 no-lazy-loaded" src="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-4.png?w=735&amp;h=551&amp;crop=1" alt="Reasons for Being Uninsured Among Uninsured Nonelderly Adults, 2017" width="735" height="551" srcset="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-4.png 960w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-4.png?resize=300,225 300w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-4.png?resize=768,576 768w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-4.png?resize=758,569 758w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-4.png?resize=735,551 735w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-4.png?resize=698,524 698w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-4.png?resize=600,450 600w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-4.png?resize=200,150 200w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-4.png?resize=215,161 215w" sizes="(max-width: 735px) 100vw, 735px" /></noscript><p id="caption-attachment-385051" class="wp-caption-text">Figure 4: Reasons for Being Uninsured Among Uninsured Nonelderly Adults, 2017</p></div></li>
+<li>Access to health coverage changes as a person’s situation changes. In 2017, 22% of uninsured nonelderly adults said they were uninsured because the person who carried the health coverage in their family lost their job or changed employers (Figure 4). More than one in ten were uninsured because of a marital status change, the death of a spouse or parent, or loss of eligibility due to age or leaving school (11%), and some lost Medicaid because of a new job/increase in income or the plan stopping after pregnancy (11%).<a class="footnote-link" href="#footnote-384995-8" title="Kaiser Family Foundation analysis of the 2017 National Health Interview Survey." id="endnote_link_384995-8"><sup>8</sup></a></li>
+<li>As indicated above, not all workers have access to coverage through their job. In 2017, 71% of nonelderly uninsured workers worked for an employer that did not offer health benefits to the worker.<a class="footnote-link" href="#footnote-384995-9" title="Kaiser Family Foundation analysis of the March 2018 Current Population Survey, Annual Social and Economic Supplement." id="endnote_link_384995-9"><sup>9</sup></a> Moreover, nine out of ten uninsured workers who do not take up an offer of employer-sponsored coverage report cost as the main reason for declining (90%).<a class="footnote-link" href="#footnote-384995-10" title="Kaiser Family Foundation analysis of the March 2018 Current Population Survey, Annual Social and Economic Supplement." id="endnote_link_384995-10"><sup>10</sup></a> From 2008 to 2018, total premiums for family coverage increased by 55%, and the worker’s share increased by 65%, outpacing wage growth.<a class="footnote-link" href="#footnote-384995-11" title="Kaiser Family Foundation. 2018 Employer Health Benefits Survey (Washington, DC: Kaiser Family Foundation, October 2018), https://www.kff.org/health-costs/report/2018-employer-health-benefits-survey/." id="endnote_link_384995-11"><sup>11</sup></a></li>
+<li>Medicaid and CHIP are available for low-income children, but eligibility for adults is more limited. As of November 2018, 37 states including DC adopted Medicaid expansion eligibility for adults under the ACA.<a class="footnote-link" href="#footnote-384995-12" title="State Health Facts. “Status of State Action on the Medicaid Expansion Decision.” Kaiser Family Foundation, 2018, https://www.kff.org/health-reform/state-indicator/state-activity-around-expanding-medicaid-under-the-affordable-care-act/." id="endnote_link_384995-12"><sup>12</sup></a><sup>,</sup><a class="footnote-link" href="#footnote-384995-13" title="Idaho, Nebraska, and Utah had ballot initiatives in the 2018 midterm elections on Medicaid expansion where each state voted to expand. Montana voters also had a ballot initiative that voted down the extension of Medicaid expansion, which is planned to end on June 30, 2019." id="endnote_link_384995-13"><sup>13</sup></a> However, in states that have not expanded Medicaid, eligibility for adults remains limited, with median eligibility level for parents at just 43% of poverty and adults without dependent children ineligible in most cases.<a class="footnote-link" href="#footnote-384995-14" title="Tricia Brooks, Karina Wagnerman, Samantha Artiga, and Elizabeth Cornachione, Medicaid and CHIP Eligibility, Enrollment, Renewal, and Cost Sharing Policies as of January 2018: Findings from a 50-State Survey (Washington, DC: Kaiser Family Foundation, January 2018), https://www.kff.org/medicaid/report/medicaid-and-chip-eligibility-enrollment-renewal-and-cost-sharing-policies-as-of-january-2018-findings-from-a-50-state-survey/." id="endnote_link_384995-14"><sup>14</sup></a> Millions of poor uninsured adults fall in a “coverage gap” because they earn too much to qualify for Medicaid but not enough to qualify for Marketplace premium tax credits.<a class="footnote-link" href="#footnote-384995-15" title="Rachel Garfield, Anthony Damico, and Kendal Orgera, The Coverage Gap: Uninsured Poor Adults in States that Do Not Expand Medicaid (Washington, DC: Kaiser Family Foundation, June 2018), https://www.kff.org/medicaid/issue-brief/the-coverage-gap-uninsured-poor-adults-in-states-that-do-not-expand-medicaid/." id="endnote_link_384995-15"><sup>15</sup></a></li>
+<li>Undocumented immigrants are ineligible for Medicaid or Marketplace coverage.<a class="footnote-link" href="#footnote-384995-16" title="Health Coverage of Immigrants (Washington, DC: Kaiser Family Foundation, December 2017), https://www.kff.org/disparities-policy/fact-sheet/health-coverage-of-immigrants/.  " id="endnote_link_384995-16"><sup>16</sup></a> While lawfully-present immigrants under 400% of poverty are eligible for Marketplace tax credits, only those who have passed a five-year waiting period after receiving qualified immigration status can qualify for Medicaid.</li>
+</ul>
+<h3>Who remains uninsured?</h3>
+<p>Most remaining uninsured people are in working families, are in families with low incomes, and are nonelderly adults.<a class="footnote-link" href="#footnote-384995-17" title="Kaiser Family Foundation analysis of 2017 American Community Survey (ACS), 1-Year Estimates." id="endnote_link_384995-17"><sup>17</sup></a> Reflecting income and the availability of public coverage, people who live in the South or West are more likely to be uninsured. Most who remain uninsured have been without coverage for long periods of time. (See Appendix Table B for detailed data on the uninsured population.)</p>
+<h6>Key Details:</h6>
+<ul>
+<li>In 2017, over three quarters of the uninsured (77%) had at least one full-time worker in their family, and an additional 10% had a part-time worker in their family (Figure 5).</li>
+</ul>
+<div id="attachment_385052" style="width: 745px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-385052" class="size-kaiser-slide wp-image-385052 no-lazy-loaded" src="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-5.png?w=735&amp;h=551&amp;crop=1" alt="Figure 5: Characteristics of the Nonelderly Uninsured, 2017" width="735" height="551" srcset="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-5.png 960w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-5.png?resize=300,225 300w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-5.png?resize=768,576 768w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-5.png?resize=758,569 758w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-5.png?resize=735,551 735w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-5.png?resize=698,524 698w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-5.png?resize=600,450 600w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-5.png?resize=200,150 200w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-5.png?resize=215,161 215w" sizes="(max-width: 735px) 100vw, 735px"><noscript><img aria-describedby="caption-attachment-385052" class="size-kaiser-slide wp-image-385052 no-lazy-loaded" src="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-5.png?w=735&amp;h=551&amp;crop=1" alt="Figure 5: Characteristics of the Nonelderly Uninsured, 2017" width="735" height="551" srcset="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-5.png 960w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-5.png?resize=300,225 300w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-5.png?resize=768,576 768w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-5.png?resize=758,569 758w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-5.png?resize=735,551 735w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-5.png?resize=698,524 698w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-5.png?resize=600,450 600w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-5.png?resize=200,150 200w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-5.png?resize=215,161 215w" sizes="(max-width: 735px) 100vw, 735px" /></noscript><p id="caption-attachment-385052" class="wp-caption-text">Figure 5: Characteristics of the Nonelderly Uninsured, 2017</p></div>
+<ul>
+<li>Individuals below poverty<a class="footnote-link" href="#footnote-384995-18" title="$19,730 for a family of three in 2017." id="endnote_link_384995-18"><sup>18</sup></a> are at the highest risk of being uninsured. In total, more than eight in ten of the uninsured were in families with incomes below 400% of poverty in 2017 (Figure 5).</li>
+<li><span style="font-family:'Open Sans', sans-serif;"><span style="font-family:'Open Sans', sans-serif;">While a plurality (41%) of the uninsured are non-Hispanic Whites, people of color are at higher risk of being uninsured than Whites. People of color make up 42% of the nonelderly U.S. population<a class="footnote-link" href="#footnote-384995-19" title="Kaiser Family Foundation analysis of 2017 American Community Survey (ACS), 1-Year Estimates." id="endnote_link_384995-19"><sup>19</sup></a> but account for over half of the total nonelderly uninsured population (Figure 5). Hispanics and Blacks have significantly higher uninsured rates (19% and 11%, respectively) than Whites (7%) (Figure 6).<a class="footnote-link" href="#footnote-384995-20" title="Kaiser Family Foundation analysis of 2017 American Community Survey (ACS), 1-Year Estimates." id="endnote_link_384995-20"><sup>20</sup></a> </span></span></li>
+</ul>
+<div id="attachment_387124" style="width: 745px" class="wp-caption aligncenter"><a href="https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png"><img aria-describedby="caption-attachment-387124" class="size-kaiser-slide wp-image-387124 no-lazy-loaded" src="https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png?w=735&amp;h=551&amp;crop=1" alt width="735" height="551" srcset="https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png 960w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png?resize=300,225 300w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png?resize=768,576 768w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png?resize=758,569 758w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png?resize=735,551 735w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png?resize=698,524 698w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png?resize=600,450 600w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png?resize=200,150 200w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png?resize=215,161 215w" sizes="(max-width: 735px) 100vw, 735px"><noscript><img aria-describedby="caption-attachment-387124" class="size-kaiser-slide wp-image-387124 no-lazy-loaded" src="https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png?w=735&amp;h=551&amp;crop=1" alt="" width="735" height="551" srcset="https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png 960w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png?resize=300,225 300w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png?resize=768,576 768w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png?resize=758,569 758w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png?resize=735,551 735w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png?resize=698,524 698w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png?resize=600,450 600w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png?resize=200,150 200w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-dec-figure-6.png?resize=215,161 215w" sizes="(max-width: 735px) 100vw, 735px" /></noscript></a><p id="caption-attachment-387124" class="wp-caption-text">Figure 6: Uninsured Rates Among the Nonelderly Population by Selected Characteristics, 2017</p></div>
+<ul>
+<li>Most (86%) of the uninsured are nonelderly adults. The uninsured rate among children was just 5% in 2017, less than half the rate among nonelderly adults (12%),<a class="footnote-link" href="#footnote-384995-21" title="Kaiser Family Foundation analysis of 2017 American Community Survey (ACS), 1-Year Estimates." id="endnote_link_384995-21"><sup>21</sup></a> largely due to broader availability of Medicaid/CHIP for children than for adults.</li>
+<li>Most of the uninsured (75%) are U.S. citizens, and 25% are non-citizens.<a class="footnote-link" href="#footnote-384995-22" title="Kaiser Family Foundation analysis of 2017 American Community Survey (ACS), 1-Year Estimates." id="endnote_link_384995-22"><sup>22</sup></a> Uninsured non-citizens include both lawfully present and undocumented immigrants. Undocumented immigrants are ineligible for federally funded health coverage, but legal immigrants can qualify for subsidies in the Marketplaces and those who have been in the country for more than five years are eligible for Medicaid.<a class="footnote-link" href="#footnote-384995-23" title="Health Coverage of Immigrants (Washington, DC: Kaiser Family Foundation, December 2017), https://www.kff.org/disparities-policy/fact-sheet/health-coverage-of-immigrants/." id="endnote_link_384995-23"><sup>23</sup></a></li>
+<li>Uninsured rates vary by state and by region, with individuals living in non-expansion states being the most likely to be uninsured (Figure 6). Thirteen of the eighteen states with the highest uninsured rates in 2017 were non-expansion states as of that year (Figure 7 and Appendix A). Economic conditions, availability of employer-sponsored coverage, and demographics are other factors contributing to variation in uninsured rates across states.
+<p><div id="attachment_385058" style="width: 745px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-385058" class="size-kaiser-slide wp-image-385058 no-lazy-loaded" src="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-7.png?w=735&amp;h=551&amp;crop=1" alt="Figure 7:" width="735" height="551" srcset="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-7.png 960w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-7.png?resize=300,225 300w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-7.png?resize=768,576 768w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-7.png?resize=758,569 758w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-7.png?resize=735,551 735w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-7.png?resize=698,524 698w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-7.png?resize=600,450 600w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-7.png?resize=200,150 200w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-7.png?resize=215,161 215w" sizes="(max-width: 735px) 100vw, 735px"><noscript><img aria-describedby="caption-attachment-385058" class="size-kaiser-slide wp-image-385058 no-lazy-loaded" src="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-7.png?w=735&amp;h=551&amp;crop=1" alt="Figure 7:" width="735" height="551" srcset="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-7.png 960w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-7.png?resize=300,225 300w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-7.png?resize=768,576 768w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-7.png?resize=758,569 758w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-7.png?resize=735,551 735w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-7.png?resize=698,524 698w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-7.png?resize=600,450 600w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-7.png?resize=200,150 200w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-7.png?resize=215,161 215w" sizes="(max-width: 735px) 100vw, 735px" /></noscript><p id="caption-attachment-385058" class="wp-caption-text">Figure 7: Uninsured Rates Among the Nonelderly by State, 2017</p></div></li>
+<li>Nearly three-fourths (74%) of the nonelderly adults uninsured in 2017 have been without coverage for more than a year.<a class="footnote-link" href="#footnote-384995-24" title=" Kaiser Family Foundation analysis of the 2017 National Health Interview Survey." id="endnote_link_384995-24"><sup>24</sup></a> People who have been without coverage for long periods may be particularly hard to reach in outreach and enrollment efforts.</li>
+</ul>
+<h3>How does not having coverage affect health care access?</h3>
+<p>Health insurance makes a difference in whether and when people get necessary medical care, where they get their care, and ultimately, how healthy they are. Uninsured adults are far more likely than those with insurance to postpone health care or forgo it altogether. The consequences can be severe, particularly when preventable conditions or chronic diseases go undetected.</p>
+<h6>Key Details:</h6>
+<ul>
+<li>Studies repeatedly demonstrate that the uninsured are less likely than those with insurance to receive preventive care and services for major health conditions and chronic diseases.<a class="footnote-link" href="#footnote-384995-25" title="Jack Hadley, “Insurance Coverage, Medical Care Use, and Short-term Health Changes Following an Unintentional Injury or the Onset of a Chronic Condition.” JAMA 297, no. 10 (March 2007):1073-84." id="endnote_link_384995-25"><sup>25</sup></a><sup>, </sup><a class="footnote-link" href="#footnote-384995-26" title="Stacey McMorrow, Genevieve M. Kenney, and Dana Goin,“Determinants of Receipt of Recommended Preventive Services: Implications for the Affordable Care Act,” American Journal of Public Health 104, no. 12 (Dec 2014): 2392-9." id="endnote_link_384995-26"><sup>26</sup></a> One in five (20%) nonelderly adults without coverage say that they went without care in the past year because of cost compared to 3% of adults with private coverage and 8% of adults with public coverage. Part of the reason for poor access among the uninsured is that many (50%) do not have a regular place to go when they are sick or need medical advice (Figure 8).
+<p><div id="attachment_385056" style="width: 745px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-385056" class="size-kaiser-slide wp-image-385056 no-lazy-loaded" src="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-8.png?w=735&amp;h=551&amp;crop=1" alt width="735" height="551" srcset="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-8.png 960w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-8.png?resize=300,225 300w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-8.png?resize=768,576 768w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-8.png?resize=758,569 758w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-8.png?resize=735,551 735w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-8.png?resize=698,524 698w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-8.png?resize=600,450 600w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-8.png?resize=200,150 200w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-8.png?resize=215,161 215w" sizes="(max-width: 735px) 100vw, 735px"><noscript><img aria-describedby="caption-attachment-385056" class="size-kaiser-slide wp-image-385056 no-lazy-loaded" src="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-8.png?w=735&amp;h=551&amp;crop=1" alt="" width="735" height="551" srcset="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-8.png 960w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-8.png?resize=300,225 300w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-8.png?resize=768,576 768w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-8.png?resize=758,569 758w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-8.png?resize=735,551 735w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-8.png?resize=698,524 698w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-8.png?resize=600,450 600w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-8.png?resize=200,150 200w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-8.png?resize=215,161 215w" sizes="(max-width: 735px) 100vw, 735px" /></noscript><p id="caption-attachment-385056" class="wp-caption-text">Figure 8: Barriers to Health Care Among Nonelderly Adults by Insurance Status, 2017</p></div></li>
+<li>Because of the cost of care, many uninsured people do not obtain the treatments their health care providers recommend for them. In 2017, uninsured nonelderly adults were more than three times as likely as adults with private coverage to say that they postponed or did not get a needed prescription drug due to cost (19% vs. 6%).<a class="footnote-link" href="#footnote-384995-27" title="Kaiser Family Foundation analysis of the 2017 National Health Interview Survey." id="endnote_link_384995-27"><sup>27</sup></a> And while insured and uninsured people who are injured or newly diagnosed with a chronic condition receive similar plans for follow-up care, people without health coverage are less likely than those with coverage to obtain all the recommended services.<a class="footnote-link" href="#footnote-384995-28" title="Jack Hadley, “Insurance Coverage, Medical Care Use, and Short-term Health Changes Following an Unintentional Injury or the Onset of a Chronic Condition,” JAMA 297, no. 10 (March 2007): 1073-84." id="endnote_link_384995-28"><sup>28</sup></a></li>
+<li>Because people without health coverage are less likely than those with insurance to have regular outpatient care, they are more likely to be hospitalized for avoidable health problems and to experience declines in their overall health. When they are hospitalized, uninsured people receive fewer diagnostic and therapeutic services and also have higher mortality rates than those with insurance.<a class="footnote-link" href="#footnote-384995-29" title="Marco A Castaneda and Meryem Saygili, “The health conditions and the health care consumption of the uninsured,” Health Economics Review (2016)." id="endnote_link_384995-29"><sup>29</sup></a><sup>,</sup><a class="footnote-link" href="#footnote-384995-30" title="Steffie Woolhandler, et al., “The Relationship of Health Insurance and Mortality: Is Lack of Insurance Deadly?” Annals of Internal Medicine 167 (June 2017): 424-431." id="endnote_link_384995-30"><sup>30</sup></a><sup>,</sup><a class="footnote-link" href="#footnote-384995-31" title="Destini A Smith, et al., “The effect of health insurance coverage and the doctor-patient relationship on health care utilization in high poverty neighborhoods.” Preventive Medicine Reports 7 (2017): 158-161." id="endnote_link_384995-31"><sup>31</sup></a><sup>,</sup><a class="footnote-link" href="#footnote-384995-32" title="Andrea S. Christopher, et al., “Access to Care and Chronic Disease Outcomes Among Medicaid-Insured Persons Versus the Uninsured,” American Journal of Public Health 106, no. 1 (January 2016): 63-69." id="endnote_link_384995-32"><sup>32</sup></a></li>
+<li>Research demonstrates that gaining health insurance improves access to health care considerably and diminishes the adverse effects of having been uninsured. A seminal study of a Medicaid expansion in Oregon found that uninsured adults who gained Medicaid coverage were more likely to receive care than their counterparts who did not gain coverage.<a class="footnote-link" href="#footnote-384995-33" title="Amy Finkelstein, et. al, “The Oregon Health Insurance Experiment: Evidence from the First Year” (National Bureau of Economic Research, July 2011), http://www.nber.org/papers/w17190." id="endnote_link_384995-33"><sup>33</sup></a> A comprehensive review of research on the effects of the ACA Medicaid expansion finds that expansion led to positive effects on access to care, utilization of services, the affordability of care, and financial security among the low-income population.<a class="footnote-link" href="#footnote-384995-34" title="Larisa Antonisse, Rachel Garfield, Robin Rudowitz, and Samantha Artiga, The Effects of Medicaid Expansion on the ACA: Updated Findings From a Literature Review (Washington, D.C.: Kaiser Family Foundation, March 2018), https://www.kff.org/medicaid/issue-brief/the-effects-of-medicaid-expansion-under-the-aca-updated-findings-from-a-literature-review-march-2018/." id="endnote_link_384995-34"><sup>34</sup></a></li>
+<li>Public hospitals, community clinics and health centers, and local providers that serve disadvantaged communities provide a crucial health care safety net for uninsured people. However, safety net providers have limited resources and service capacity, and not all uninsured people have geographic access to a safety net provider.<a class="footnote-link" href="#footnote-384995-35" title="Sara Rosenbaum, Jennifer Tolbert, Jessica Sharac, Peter Shin, Rachel Gunsalus, and Julia Zur, Community Health Centers: Growing Important in a Changing Health Care System, (Washington, DC: Kaiser Family Foundation, March 2018), https://www.kff.org/medicaid/issue-brief/community-health-centers-growing-importance-in-a-changing-health-care-system/." id="endnote_link_384995-35"><sup>35</sup></a><sup style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;">,</sup><span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;"><a class="footnote-link" href="#footnote-384995-36" title="Allen Dobson, Joan DaVanzo, Randy Haught, and Phap-Hoa Luu, Comparing the Affordable Care Act’s Financial Impact on Safety-Net Hospitals in States That Expanded Medicaid and Those That Did Not, (New York, NY: The Commonweath Fund, November 2017), https://www.commonwealthfund.org/publications/issue-briefs/2017/nov/comparing-affordable-care-acts-financial-impact-safety-net." id="endnote_link_384995-36"><sup>36</sup></a> High uninsured rates also contribute to rural hospital closures, leaving individuals living in rural areas at an even greater disadvantage to accessing care.<a class="footnote-link" href="#footnote-384995-37" title="Jane Wishner, et al., A Look at Rural Hospital Closures and Implications for Access to Care: Three Case Studies (Washington, DC: The Urban Institute and Kaiser Family Foundation, July 2016), https://www.kff.org/report-section/a-look-at-rural-hospital-closures-and-implications-for-access-to-care-three-case-studies-issue-brief/." id="endnote_link_384995-37"><sup>37</sup></a></span></li>
+</ul>
+<h3>What are the financial implications of being uninsured?</h3>
+<p>The uninsured often face unaffordable medical bills when they do seek care. These bills can quickly translate into medical debt since most of the uninsured have low or moderate incomes and have little, if any, savings.<a class="footnote-link" href="#footnote-384995-38" title="Sherry Glied and Richard Kronick, The Value of Health Insurance: Few of the Uninsured Have Adequate Resources to Pay Potential Hospital Bills (Washington, DC: Office of Assistant Secretary for Planning and Evaluation, HHS, May 2011), http://aspe.hhs.gov/health/reports/2011/ValueofInsurance/rb.pdf" id="endnote_link_384995-38"><sup>38</sup></a></p>
+<h6>Key Details:</h6>
+<ul>
+<li>Those without insurance for an entire year pay for one-fourth of their care out-of-pocket.<a class="footnote-link" href="#footnote-384995-39" title="Philippe Gwet, Jerrod Anderson, and Steven Machlin, “Out-of-Pocket Health Care Expenses in the U.S. Civilian Noninstitutionalized Population by Age and Insurance Coverage, 2014,” Agency for Healthcare Research and Quality (AHRQ), Statistical Brief #495, https://meps.ahrq.gov/data_files/publications/st495/stat495.shtml." id="endnote_link_384995-39"><sup>39</sup></a> In addition, hospitals frequently charge uninsured patients much higher rates than those paid by private health insurers and public programs.<a class="footnote-link" href="#footnote-384995-40" title="Tim Xu, Angela Park, Ge Bai, Sarah Joo, Susan Hutfless, Ambar Mehta, Gerard Anderson, and Martin Makary, “Variation in Emergency Department vs Internal Medicine Excess Charges in the United States,” JAMA Intern Med. 177(8): 1130-1145 (June 2017), https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2629494.   " id="endnote_link_384995-40"><sup>40</sup></a><sup>,</sup><a class="footnote-link" href="#footnote-384995-41" title="Stacie Dusetzina, Ethan Basch, and Nancy Keating, “For Uninsured Cancer Patients, Outpatient Charges Can Be Costly, Putting Treatments out of Reach,” Health Affairs 34, no. 4 (April 2015): 584-591, http://content.healthaffairs.org/content/34/4/584.abstract" id="endnote_link_384995-41"><sup>41</sup></a></li>
+<li>Medical bills can put great strain on the uninsured and threaten their financial well-being. In 2017, nonelderly uninsured adults were over twice as likely as those with insurance to have problems paying medical bills (29% vs. 14%; Figure 9) with nearly two thirds of uninsured who had medical bill problems unable to pay their medical bills at all (65%).<a class="footnote-link" href="#footnote-384995-42" title="Kaiser Family Foundation analysis of the 2017 National Health Interview Survey." id="endnote_link_384995-42"><sup>42</sup></a> Uninsured adults are also more likely to face negative consequences due to medical bills, such as using up savings, having difficulty paying for necessities, borrowing money, or having medical bills sent to collection.<a class="footnote-link" href="#footnote-384995-43" title="Liz Hamel, Mira Norton, Karen Pollitz, Larry Levitt, Gary Claxton, and Mollyann Brodie, The Burden of Medical Debt: Results from the Kaiser Family Foundation/New York Times Medical Bills Survey, (Washington, D.C.: Kaiser Family Foundation, Jan 2016),  https://www.kff.org/health-costs/report/the-burden-of-medical-debt-results-from-the-kaiser-family-foundationnew-york-times-medical-bills-survey/." id="endnote_link_384995-43"><sup>43</sup></a></li>
+<li>Uninsured nonelderly adults are also much more likely than their insured counterparts to lack confidence in their ability to afford usual medical costs and major medical expenses or emergencies. Uninsured nonelderly adults are over twice as likely as insured adults to worry about being able to pay costs for normal health care (61% vs. 27%; Figure 9). Furthermore, over three quarters of uninsured nonelderly adults (76%) say they are very or somewhat worried about paying medical bills if they get sick or have an accident, compared to 45% of insured adults.</li>
+<li>Lacking insurance coverage puts people at risk of medical debt. In 2017, three in ten (31%) of uninsured nonelderly adults said they were paying off at least one medical bill over time (Figure 9). Nearly three in five consumers (59%) reported being contacted regarding a collection for medical bills in the United States.<a class="footnote-link" href="#footnote-384995-44" title="Consumer Financial Protection Bureau, “Consumer Experiences with Debt Collection: Findings from the CFPB’s Survey of Consumer Views on Debt.” (Consumer Financial Protection Bureau: January 2017), https://www.consumerfinance.gov/data-research/research-reports/consumer-experiences-debt-collection-findings-cfpbs-survey-consumer-views-debt/." id="endnote_link_384995-44"><sup>44</sup></a> More than half (53%) of uninsured people said they had problems paying household medical bills in the past year and are more likely to be in medical debt than people with insurance.<a class="footnote-link" href="#footnote-384995-45" title="Liz Hamel, Mira Norton, Karen Pollitz, Larry Levitt, Gary Claxton, and Mollyann Brodie, The Burden of Medical Debt: Results from the Kaiser Family Foundation/New York Times Medical Bills Survey (Washington, D.C.: Kaiser Family Foundation, January 2016), https://www.kff.org/report-section/the-burden-of-medical-debt-section-1-who-has-medical-bill-problems-and-what-are-the-contributing-factors/." id="endnote_link_384995-45"><sup>45</sup></a>
+<p><div id="attachment_385057" style="width: 745px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-385057" class="size-kaiser-slide wp-image-385057 no-lazy-loaded" src="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-9.png?w=735&amp;h=551&amp;crop=1" alt width="735" height="551" srcset="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-9.png 960w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-9.png?resize=300,225 300w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-9.png?resize=768,576 768w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-9.png?resize=758,569 758w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-9.png?resize=735,551 735w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-9.png?resize=698,524 698w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-9.png?resize=600,450 600w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-9.png?resize=200,150 200w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-9.png?resize=215,161 215w" sizes="(max-width: 735px) 100vw, 735px"><noscript><img aria-describedby="caption-attachment-385057" class="size-kaiser-slide wp-image-385057 no-lazy-loaded" src="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-9.png?w=735&amp;h=551&amp;crop=1" alt="" width="735" height="551" srcset="https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-9.png 960w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-9.png?resize=300,225 300w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-9.png?resize=768,576 768w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-9.png?resize=758,569 758w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-9.png?resize=735,551 735w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-9.png?resize=698,524 698w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-9.png?resize=600,450 600w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-9.png?resize=200,150 200w, https://www.kff.org/wp-content/uploads/2018/12/8848-06-figure-9.png?resize=215,161 215w" sizes="(max-width: 735px) 100vw, 735px" /></noscript><p id="caption-attachment-385057" class="wp-caption-text">Figure 9: Problems Paying Medical Bills by Insurance Status, 2017</p></div></li>
+<li>Though the uninsured are typically billed for medical services they use, when they cannot pay these bills, the costs may become bad debt or uncompensated care for providers. State, federal, and private funds defray some but not all of these costs. With the expansion of coverage under the ACA, providers are seeing reductions in uncompensated care costs, particularly in states that expanded Medicaid.<a class="footnote-link" href="#footnote-384995-46" title="Larisa Antonisse, Rachel Garfield, Robin Rudowitz, and Samantha Artiga, The Effects of Medicaid Expansion on the ACA: Updated Findings From a Literature Review (Washington, D.C.: Kaiser Family Foundation, March 2018), https://www.kff.org/medicaid/issue-brief/the-effects-of-medicaid-expansion-under-the-aca-updated-findings-from-a-literature-review-march-2018/.  " id="endnote_link_384995-46"><sup>46</sup></a></li>
+<li>Research suggests that gaining health coverage improves the affordability of care and financial security among the low-income population. Multiple studies of the ACA have found larger declines in trouble paying medical bills in expansion states relative to non-expansion states. A separate study found that, among those residing in areas with high shares of low-income, uninsured individuals, Medicaid expansion significantly reduced the number of unpaid bills and the amount of debt sent to third-party collection agencies.<a class="footnote-link" href="#footnote-384995-47" title="Ibid.    " id="endnote_link_384995-47"><sup>47</sup></a></li>
+</ul>
+<h3>Conclusion</h3>
+<p>Millions of people gained coverage under the ACA, but recent trends in insurance coverage indicate that coverage gains may be eroding. In 2017, 27.4 million people lacked health coverage, up slightly from 2016. Ongoing debate about altering the ACA or limiting Medicaid to populations traditionally served by the program could lead to further loss of coverage. On the other hand, if additional states opt to expand Medicaid as allowed under the ACA, there may be additional coverage gains as low-income individuals gain access to affordable coverage. Going without coverage can have serious health consequences for the uninsured because they receive less preventive care, and delayed care often results in serious illness or other health problems. Being uninsured also can have serious financial consequences. The outcome of ongoing debate over health coverage policy in the United States has substantial implications for people’s coverage, access, and overall health and well-being.</p>
+<div>
+<table class=" less-padding">
+<tbody>
+<tr class="header-blue" style="height:17px;">
+<td style="height:17px;" colspan="8"><strong>Appendix Table A: Uninsured Rate Among the Nonelderly by State, 2013-2017</strong></td>
+</tr>
+<tr class="highlight" style="height:68px;">
+<td style="height:68px;"></td>
+<td style="height:68px;text-align:center;"><strong>2013<br />
+Uninsured Rate</strong></td>
+<td style="height:68px;text-align:center;"><strong>2016<br />
+Uninsured Rate</strong></td>
+<td style="height:68px;text-align:center;"><strong>2017<br />
+Uninsured Rate</strong></td>
+<td style="height:68px;text-align:center;"><strong>Change in<br />
+Uninsured Rate<br />
+2013-2017</strong></td>
+<td style="height:68px;text-align:center;"><strong>Change in Number of Uninsured<br />
+2013-2017</strong></td>
+<td style="height:68px;text-align:center;"><strong>Change in<br />
+Uninsured Rate<br />
+2016-2017</strong></td>
+<td style="height:68px;text-align:center;"><strong>Change in Number of Uninsured<br />
+2016-2017</strong></td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;"><strong>US Total</strong></td>
+<td style="height:17px;text-align:right;"><strong>16.8%</strong></td>
+<td style="height:17px;text-align:right;"><strong>10.0%</strong></td>
+<td style="height:17px;text-align:right;"><strong>10.2%</strong></td>
+<td style="height:17px;text-align:right;"><strong>-6.6%</strong></td>
+<td style="height:17px;text-align:right;"><strong>-17,037,000</strong></td>
+<td style="height:17px;text-align:right;"><strong>0.2%</strong></td>
+<td style="height:17px;text-align:right;"><strong>684,800</strong></td>
+</tr>
+<tr style="height:34px;">
+<td style="height:34px;"><strong>Expansion States</strong></td>
+<td style="height:34px;text-align:right;"><strong>15.1%</strong></td>
+<td style="height:34px;text-align:right;"><strong>7.7%</strong></td>
+<td style="height:34px;text-align:right;"><strong>7.6%</strong></td>
+<td style="height:34px;text-align:right;"><strong>-7.4%</strong></td>
+<td style="height:34px;text-align:right;"><strong>-12,070,200</strong></td>
+<td style="height:34px;text-align:right;"><strong>0.0%</strong></td>
+<td style="height:34px;text-align:right;"><strong>4,400</strong></td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Alaska</td>
+<td style="height:17px;text-align:right;">20.5%</td>
+<td style="height:17px;text-align:right;">16.0%</td>
+<td style="height:17px;text-align:right;">15.5%</td>
+<td style="height:17px;text-align:right;">-4.9%</td>
+<td style="height:17px;text-align:right;">-32,900</td>
+<td style="height:17px;text-align:right;">-0.5%</td>
+<td style="height:17px;text-align:right;">-4,900</td>
+</tr>
+<tr style="height:17.75px;">
+<td style="height:17.75px;">Arizona</td>
+<td style="height:17.75px;text-align:right;">20.4%</td>
+<td style="height:17.75px;text-align:right;">11.9%</td>
+<td style="height:17.75px;text-align:right;">12.0%</td>
+<td style="height:17.75px;text-align:right;">-8.4%</td>
+<td style="height:17.75px;text-align:right;">-435,600</td>
+<td style="height:17.75px;text-align:right;">0.1%</td>
+<td style="height:17.75px;text-align:right;">11,600</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Arkansas</td>
+<td style="height:17px;text-align:right;">19.0%</td>
+<td style="height:17px;text-align:right;">9.5%</td>
+<td style="height:17px;text-align:right;">9.6%</td>
+<td style="height:17px;text-align:right;">-9.5%</td>
+<td style="height:17px;text-align:right;">-230,300</td>
+<td style="height:17px;text-align:right;">0.1%</td>
+<td style="height:17px;text-align:right;">2,400</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">California</td>
+<td style="height:17px;text-align:right;">19.4%</td>
+<td style="height:17px;text-align:right;">8.4%</td>
+<td style="height:17px;text-align:right;">8.2%</td>
+<td style="height:17px;text-align:right;">-11.2%</td>
+<td style="height:17px;text-align:right;">-3,619,900</td>
+<td style="height:17px;text-align:right;">-0.2%</td>
+<td style="height:17px;text-align:right;">-48,700</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Colorado</td>
+<td style="height:17px;text-align:right;">15.8%</td>
+<td style="height:17px;text-align:right;">8.7%</td>
+<td style="height:17px;text-align:right;">8.6%</td>
+<td style="height:17px;text-align:right;">-7.2%</td>
+<td style="height:17px;text-align:right;">-306,600</td>
+<td style="height:17px;text-align:right;">-0.1%</td>
+<td style="height:17px;text-align:right;">-3,400</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Connecticut</td>
+<td style="height:17px;text-align:right;">10.9%</td>
+<td style="height:17px;text-align:right;">5.7%</td>
+<td style="height:17px;text-align:right;">6.6%</td>
+<td style="height:17px;text-align:right;">-4.3%</td>
+<td style="height:17px;text-align:right;">-129,900</td>
+<td style="height:17px;text-align:right;">0.9%</td>
+<td style="height:17px;text-align:right;">25,600</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Delaware</td>
+<td style="height:17px;text-align:right;">11.8%</td>
+<td style="height:17px;text-align:right;">6.8%</td>
+<td style="height:17px;text-align:right;">6.6%</td>
+<td style="height:17px;text-align:right;">-5.2%</td>
+<td style="height:17px;text-align:right;">-38,600</td>
+<td style="height:17px;text-align:right;">-0.1%</td>
+<td style="height:17px;text-align:right;">-1,000</td>
+</tr>
+<tr style="height:34px;">
+<td style="height:34px;">District of Columbia</td>
+<td style="height:34px;text-align:right;">7.2%</td>
+<td style="height:34px;text-align:right;">4.5%</td>
+<td style="height:34px;text-align:right;">4.1%</td>
+<td style="height:34px;text-align:right;">-3.1%</td>
+<td style="height:34px;text-align:right;">-15,000</td>
+<td style="height:34px;text-align:right;">-0.4%</td>
+<td style="height:34px;text-align:right;">-1,900</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Hawaii</td>
+<td style="height:17px;text-align:right;">8.2%</td>
+<td style="height:17px;text-align:right;">4.1%</td>
+<td style="height:17px;text-align:right;">4.5%</td>
+<td style="height:17px;text-align:right;">-3.7%</td>
+<td style="height:17px;text-align:right;">-41,800</td>
+<td style="height:17px;text-align:right;">0.4%</td>
+<td style="height:17px;text-align:right;">3,200</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Illinois</td>
+<td style="height:17px;text-align:right;">14.5%</td>
+<td style="height:17px;text-align:right;">7.5%</td>
+<td style="height:17px;text-align:right;">7.9%</td>
+<td style="height:17px;text-align:right;">-6.6%</td>
+<td style="height:17px;text-align:right;">-739,500</td>
+<td style="height:17px;text-align:right;">0.4%</td>
+<td style="height:17px;text-align:right;">37,400</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Indiana</td>
+<td style="height:17px;text-align:right;">16.3%</td>
+<td style="height:17px;text-align:right;">9.4%</td>
+<td style="height:17px;text-align:right;">9.8%</td>
+<td style="height:17px;text-align:right;">-6.5%</td>
+<td style="height:17px;text-align:right;">-358,700</td>
+<td style="height:17px;text-align:right;">0.4%</td>
+<td style="height:17px;text-align:right;">23,300</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Iowa</td>
+<td style="height:17px;text-align:right;">10.3%</td>
+<td style="height:17px;text-align:right;">4.8%</td>
+<td style="height:17px;text-align:right;">5.2%</td>
+<td style="height:17px;text-align:right;">-5.1%</td>
+<td style="height:17px;text-align:right;">-129,900</td>
+<td style="height:17px;text-align:right;">0.4%</td>
+<td style="height:17px;text-align:right;">9,400</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Kentucky</td>
+<td style="height:17px;text-align:right;">16.8%</td>
+<td style="height:17px;text-align:right;">6.0%</td>
+<td style="height:17px;text-align:right;">6.4%</td>
+<td style="height:17px;text-align:right;">-10.4%</td>
+<td style="height:17px;text-align:right;">-380,900</td>
+<td style="height:17px;text-align:right;">0.4%</td>
+<td style="height:17px;text-align:right;">14,700</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Louisiana</td>
+<td style="height:17px;text-align:right;">19.2%</td>
+<td style="height:17px;text-align:right;">11.9%</td>
+<td style="height:17px;text-align:right;">9.7%</td>
+<td style="height:17px;text-align:right;">-9.6%</td>
+<td style="height:17px;text-align:right;">-375,800</td>
+<td style="height:17px;text-align:right;">-2.2%</td>
+<td style="height:17px;text-align:right;">-85,600</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Maryland</td>
+<td style="height:17px;text-align:right;">11.5%</td>
+<td style="height:17px;text-align:right;">7.0%</td>
+<td style="height:17px;text-align:right;">7.1%</td>
+<td style="height:17px;text-align:right;">-4.4%</td>
+<td style="height:17px;text-align:right;">-220,500</td>
+<td style="height:17px;text-align:right;">0.1%</td>
+<td style="height:17px;text-align:right;">6,100</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Massachusetts</td>
+<td style="height:17px;text-align:right;">4.4%</td>
+<td style="height:17px;text-align:right;">2.9%</td>
+<td style="height:17px;text-align:right;">3.2%</td>
+<td style="height:17px;text-align:right;">-1.2%</td>
+<td style="height:17px;text-align:right;">-63,200</td>
+<td style="height:17px;text-align:right;">0.3%</td>
+<td style="height:17px;text-align:right;">18,900</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Michigan</td>
+<td style="height:17px;text-align:right;">12.9%</td>
+<td style="height:17px;text-align:right;">6.3%</td>
+<td style="height:17px;text-align:right;">6.1%</td>
+<td style="height:17px;text-align:right;">-6.9%</td>
+<td style="height:17px;text-align:right;">-571,800</td>
+<td style="height:17px;text-align:right;">-0.2%</td>
+<td style="height:17px;text-align:right;">-19,400</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Minnesota</td>
+<td style="height:17px;text-align:right;">9.6%</td>
+<td style="height:17px;text-align:right;">4.9%</td>
+<td style="height:17px;text-align:right;">5.2%</td>
+<td style="height:17px;text-align:right;">-4.3%</td>
+<td style="height:17px;text-align:right;">-194,900</td>
+<td style="height:17px;text-align:right;">0.3%</td>
+<td style="height:17px;text-align:right;">15,000</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Montana</td>
+<td style="height:17px;text-align:right;">19.9%</td>
+<td style="height:17px;text-align:right;">10.1%</td>
+<td style="height:17px;text-align:right;">11.0%</td>
+<td style="height:17px;text-align:right;">-8.9%</td>
+<td style="height:17px;text-align:right;">-72,700</td>
+<td style="height:17px;text-align:right;">0.8%</td>
+<td style="height:17px;text-align:right;">7,200</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Nevada</td>
+<td style="height:17px;text-align:right;">23.5%</td>
+<td style="height:17px;text-align:right;">12.8%</td>
+<td style="height:17px;text-align:right;">12.9%</td>
+<td style="height:17px;text-align:right;">-10.6%</td>
+<td style="height:17px;text-align:right;">-235,000</td>
+<td style="height:17px;text-align:right;">0.1%</td>
+<td style="height:17px;text-align:right;">6,100</td>
+</tr>
+<tr style="height:34px;">
+<td style="height:34px;">New Hampshire</td>
+<td style="height:34px;text-align:right;">12.8%</td>
+<td style="height:34px;text-align:right;">7.6%</td>
+<td style="height:34px;text-align:right;">6.8%</td>
+<td style="height:34px;text-align:right;">-6.0%</td>
+<td style="height:34px;text-align:right;">-66,400</td>
+<td style="height:34px;text-align:right;">-0.8%</td>
+<td style="height:34px;text-align:right;">-9,000</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">New Jersey</td>
+<td style="height:17px;text-align:right;">15.4%</td>
+<td style="height:17px;text-align:right;">8.9%</td>
+<td style="height:17px;text-align:right;">8.9%</td>
+<td style="height:17px;text-align:right;">-6.5%</td>
+<td style="height:17px;text-align:right;">-488,200</td>
+<td style="height:17px;text-align:right;">0.0%</td>
+<td style="height:17px;text-align:right;">-1,000</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">New Mexico</td>
+<td style="height:17px;text-align:right;">22.3%</td>
+<td style="height:17px;text-align:right;">10.7%</td>
+<td style="height:17px;text-align:right;">10.7%</td>
+<td style="height:17px;text-align:right;">-11.6%</td>
+<td style="height:17px;text-align:right;">-205,600</td>
+<td style="height:17px;text-align:right;">0.1%</td>
+<td style="height:17px;text-align:right;">1,500</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">New York</td>
+<td style="height:17px;text-align:right;">12.5%</td>
+<td style="height:17px;text-align:right;">7.0%</td>
+<td style="height:17px;text-align:right;">6.7%</td>
+<td style="height:17px;text-align:right;">-5.8%</td>
+<td style="height:17px;text-align:right;">-961,800</td>
+<td style="height:17px;text-align:right;">-0.3%</td>
+<td style="height:17px;text-align:right;">-58,600</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">North Dakota</td>
+<td style="height:17px;text-align:right;">12.0%</td>
+<td style="height:17px;text-align:right;">9.1%</td>
+<td style="height:17px;text-align:right;">8.7%</td>
+<td style="height:17px;text-align:right;">-3.3%</td>
+<td style="height:17px;text-align:right;">-17,500</td>
+<td style="height:17px;text-align:right;">-0.4%</td>
+<td style="height:17px;text-align:right;">-2,700</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Ohio</td>
+<td style="height:17px;text-align:right;">12.9%</td>
+<td style="height:17px;text-align:right;">6.6%</td>
+<td style="height:17px;text-align:right;">6.9%</td>
+<td style="height:17px;text-align:right;">-6.0%</td>
+<td style="height:17px;text-align:right;">-579,800</td>
+<td style="height:17px;text-align:right;">0.3%</td>
+<td style="height:17px;text-align:right;">29,100</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Oregon</td>
+<td style="height:17px;text-align:right;">17.5%</td>
+<td style="height:17px;text-align:right;">7.3%</td>
+<td style="height:17px;text-align:right;">8.1%</td>
+<td style="height:17px;text-align:right;">-9.4%</td>
+<td style="height:17px;text-align:right;">-296,500</td>
+<td style="height:17px;text-align:right;">0.8%</td>
+<td style="height:17px;text-align:right;">28,900</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Pennsylvania</td>
+<td style="height:17px;text-align:right;">11.5%</td>
+<td style="height:17px;text-align:right;">7.0%</td>
+<td style="height:17px;text-align:right;">6.6%</td>
+<td style="height:17px;text-align:right;">-4.8%</td>
+<td style="height:17px;text-align:right;">-508,400</td>
+<td style="height:17px;text-align:right;">-0.3%</td>
+<td style="height:17px;text-align:right;">-35,400</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Rhode Island</td>
+<td style="height:17px;text-align:right;">14.1%</td>
+<td style="height:17px;text-align:right;">5.0%</td>
+<td style="height:17px;text-align:right;">5.3%</td>
+<td style="height:17px;text-align:right;">-8.7%</td>
+<td style="height:17px;text-align:right;">-74,700</td>
+<td style="height:17px;text-align:right;">0.3%</td>
+<td style="height:17px;text-align:right;">2,900</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Vermont</td>
+<td style="height:17px;text-align:right;">8.3%</td>
+<td style="height:17px;text-align:right;">4.4%</td>
+<td style="height:17px;text-align:right;">5.1%</td>
+<td style="height:17px;text-align:right;">-3.2%</td>
+<td style="height:17px;text-align:right;">-17,100</td>
+<td style="height:17px;text-align:right;">0.7%</td>
+<td style="height:17px;text-align:right;">3,300</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Washington</td>
+<td style="height:17px;text-align:right;">16.2%</td>
+<td style="height:17px;text-align:right;">6.9%</td>
+<td style="height:17px;text-align:right;">7.1%</td>
+<td style="height:17px;text-align:right;">-9.2%</td>
+<td style="height:17px;text-align:right;">-519,300</td>
+<td style="height:17px;text-align:right;">0.2%</td>
+<td style="height:17px;text-align:right;">15,800</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">West Virginia</td>
+<td style="height:17px;text-align:right;">16.3%</td>
+<td style="height:17px;text-align:right;">6.0%</td>
+<td style="height:17px;text-align:right;">7.1%</td>
+<td style="height:17px;text-align:right;">-9.2%</td>
+<td style="height:17px;text-align:right;">-141,400</td>
+<td style="height:17px;text-align:right;">1.1%</td>
+<td style="height:17px;text-align:right;">13,600</td>
+</tr>
+<tr class="highlight" style="height:51px;">
+<td style="height:51px;"><strong>Non-Expansion States</strong></td>
+<td style="height:51px;text-align:right;"><strong>19.6%</strong></td>
+<td style="height:51px;text-align:right;"><strong>13.8%</strong></td>
+<td style="height:51px;text-align:right;"><strong>14.3%</strong></td>
+<td style="height:51px;text-align:right;"><strong>-5.3%</strong></td>
+<td style="height:51px;text-align:right;"><strong>-4,966,700</strong></td>
+<td style="height:51px;text-align:right;"><strong>0.6%</strong></td>
+<td style="height:51px;text-align:right;"><strong>680,400</strong></td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Alabama</td>
+<td style="height:17px;text-align:right;">16.0%</td>
+<td style="height:17px;text-align:right;">10.9%</td>
+<td style="height:17px;text-align:right;">11.3%</td>
+<td style="height:17px;text-align:right;">-4.7%</td>
+<td style="height:17px;text-align:right;">-191,700</td>
+<td style="height:17px;text-align:right;">0.4%</td>
+<td style="height:17px;text-align:right;">16,200</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Florida</td>
+<td style="height:17px;text-align:right;">24.4%</td>
+<td style="height:17px;text-align:right;">15.3%</td>
+<td style="height:17px;text-align:right;">15.9%</td>
+<td style="height:17px;text-align:right;">-8.5%</td>
+<td style="height:17px;text-align:right;">-1,179,400</td>
+<td style="height:17px;text-align:right;">0.6%</td>
+<td style="height:17px;text-align:right;">133,400</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Georgia</td>
+<td style="height:17px;text-align:right;">21.2%</td>
+<td style="height:17px;text-align:right;">14.8%</td>
+<td style="height:17px;text-align:right;">15.4%</td>
+<td style="height:17px;text-align:right;">-5.9%</td>
+<td style="height:17px;text-align:right;">-466,400</td>
+<td style="height:17px;text-align:right;">0.6%</td>
+<td style="height:17px;text-align:right;">62,800</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Idaho</td>
+<td style="height:17px;text-align:right;">18.6%</td>
+<td style="height:17px;text-align:right;">12.1%</td>
+<td style="height:17px;text-align:right;">12.6%</td>
+<td style="height:17px;text-align:right;">-6.0%</td>
+<td style="height:17px;text-align:right;">-73,400</td>
+<td style="height:17px;text-align:right;">0.6%</td>
+<td style="height:17px;text-align:right;">10,900</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Kansas</td>
+<td style="height:17px;text-align:right;">14.3%</td>
+<td style="height:17px;text-align:right;">9.8%</td>
+<td style="height:17px;text-align:right;">10.0%</td>
+<td style="height:17px;text-align:right;">-4.3%</td>
+<td style="height:17px;text-align:right;">-106,200</td>
+<td style="height:17px;text-align:right;">0.2%</td>
+<td style="height:17px;text-align:right;">4,500</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Maine</td>
+<td style="height:17px;text-align:right;">13.4%</td>
+<td style="height:17px;text-align:right;">9.7%</td>
+<td style="height:17px;text-align:right;">9.8%</td>
+<td style="height:17px;text-align:right;">-3.7%</td>
+<td style="height:17px;text-align:right;">-41,500</td>
+<td style="height:17px;text-align:right;">0.0%</td>
+<td style="height:17px;text-align:right;">-200</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Mississippi</td>
+<td style="height:17px;text-align:right;">19.7%</td>
+<td style="height:17px;text-align:right;">13.8%</td>
+<td style="height:17px;text-align:right;">14.3%</td>
+<td style="height:17px;text-align:right;">-5.5%</td>
+<td style="height:17px;text-align:right;">-144,000</td>
+<td style="height:17px;text-align:right;">0.5%</td>
+<td style="height:17px;text-align:right;">9,200</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Missouri</td>
+<td style="height:17px;text-align:right;">15.3%</td>
+<td style="height:17px;text-align:right;">10.6%</td>
+<td style="height:17px;text-align:right;">10.8%</td>
+<td style="height:17px;text-align:right;">-4.5%</td>
+<td style="height:17px;text-align:right;">-228,800</td>
+<td style="height:17px;text-align:right;">0.2%</td>
+<td style="height:17px;text-align:right;">6,100</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Nebraska</td>
+<td style="height:17px;text-align:right;">12.4%</td>
+<td style="height:17px;text-align:right;">10.3%</td>
+<td style="height:17px;text-align:right;">10.0%</td>
+<td style="height:17px;text-align:right;">-2.4%</td>
+<td style="height:17px;text-align:right;">-35,300</td>
+<td style="height:17px;text-align:right;">-0.3%</td>
+<td style="height:17px;text-align:right;">-4,500</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">North Carolina</td>
+<td style="height:17px;text-align:right;">18.2%</td>
+<td style="height:17px;text-align:right;">12.3%</td>
+<td style="height:17px;text-align:right;">12.7%</td>
+<td style="height:17px;text-align:right;">-5.5%</td>
+<td style="height:17px;text-align:right;">-422,500</td>
+<td style="height:17px;text-align:right;">0.4%</td>
+<td style="height:17px;text-align:right;">38,500</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Oklahoma</td>
+<td style="height:17px;text-align:right;">20.6%</td>
+<td style="height:17px;text-align:right;">16.1%</td>
+<td style="height:17px;text-align:right;">16.4%</td>
+<td style="height:17px;text-align:right;">-4.2%</td>
+<td style="height:17px;text-align:right;">-130,200</td>
+<td style="height:17px;text-align:right;">0.3%</td>
+<td style="height:17px;text-align:right;">7,000</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">South Carolina</td>
+<td style="height:17px;text-align:right;">18.6%</td>
+<td style="height:17px;text-align:right;">11.8%</td>
+<td style="height:17px;text-align:right;">13.4%</td>
+<td style="height:17px;text-align:right;">-5.1%</td>
+<td style="height:17px;text-align:right;">-186,600</td>
+<td style="height:17px;text-align:right;">1.6%</td>
+<td style="height:17px;text-align:right;">66,100</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">South Dakota</td>
+<td style="height:17px;text-align:right;">14.6%</td>
+<td style="height:17px;text-align:right;">9.8%</td>
+<td style="height:17px;text-align:right;">11.0%</td>
+<td style="height:17px;text-align:right;">-3.5%</td>
+<td style="height:17px;text-align:right;">-23,900</td>
+<td style="height:17px;text-align:right;">1.2%</td>
+<td style="height:17px;text-align:right;">8,200</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Tennessee</td>
+<td style="height:17px;text-align:right;">16.3%</td>
+<td style="height:17px;text-align:right;">10.8%</td>
+<td style="height:17px;text-align:right;">11.1%</td>
+<td style="height:17px;text-align:right;">-5.2%</td>
+<td style="height:17px;text-align:right;">-267,700</td>
+<td style="height:17px;text-align:right;">0.3%</td>
+<td style="height:17px;text-align:right;">23,600</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Texas</td>
+<td style="height:17px;text-align:right;">24.6%</td>
+<td style="height:17px;text-align:right;">18.7%</td>
+<td style="height:17px;text-align:right;">19.6%</td>
+<td style="height:17px;text-align:right;">-5.0%</td>
+<td style="height:17px;text-align:right;">-879,100</td>
+<td style="height:17px;text-align:right;">0.9%</td>
+<td style="height:17px;text-align:right;">275,300</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Utah</td>
+<td style="height:17px;text-align:right;">14.8%</td>
+<td style="height:17px;text-align:right;">9.4%</td>
+<td style="height:17px;text-align:right;">10.0%</td>
+<td style="height:17px;text-align:right;">-4.7%</td>
+<td style="height:17px;text-align:right;">-106,300</td>
+<td style="height:17px;text-align:right;">0.6%</td>
+<td style="height:17px;text-align:right;">19,800</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Virginia</td>
+<td style="height:17px;text-align:right;">14.2%</td>
+<td style="height:17px;text-align:right;">10.3%</td>
+<td style="height:17px;text-align:right;">10.2%</td>
+<td style="height:17px;text-align:right;">-3.9%</td>
+<td style="height:17px;text-align:right;">-266,700</td>
+<td style="height:17px;text-align:right;">0.0%</td>
+<td style="height:17px;text-align:right;">-400</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Wisconsin</td>
+<td style="height:17px;text-align:right;">10.5%</td>
+<td style="height:17px;text-align:right;">6.1%</td>
+<td style="height:17px;text-align:right;">6.1%</td>
+<td style="height:17px;text-align:right;">-4.4%</td>
+<td style="height:17px;text-align:right;">-213,900</td>
+<td style="height:17px;text-align:right;">-0.1%</td>
+<td style="height:17px;text-align:right;">-3,600</td>
+</tr>
+<tr style="height:17px;">
+<td style="height:17px;">Wyoming</td>
+<td style="height:17px;text-align:right;">14.7%</td>
+<td style="height:17px;text-align:right;">12.7%</td>
+<td style="height:17px;text-align:right;">14.5%</td>
+<td style="height:17px;text-align:right;">-0.1%</td>
+<td style="height:17px;text-align:right;">-3,100</td>
+<td style="height:17px;text-align:right;">1.8%</td>
+<td style="height:17px;text-align:right;">7,400</td>
+</tr>
+<tr style="height:34px;">
+<td style="height:34px;" colspan="8"><strong>NOTES</strong>: Includes nonelderly individuals ages 0-64. Expansion status reflects the implementation of Medicaid expansion as of 2017.<br />
+<strong>SOURCE</strong>: Kaiser Family Foundation analysis of 2013, 2016, and 2017 American Community Survey (ACS), 1-Year Estimates.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<table class=" less-padding">
+<tbody>
+<tr class="header-blue">
+<td colspan="6"><strong>Appendix Table B: Characteristics of the Nonelderly Uninsured, 2017</strong></td>
+</tr>
+<tr class="highlight">
+<td></td>
+<td style="text-align:center;"><strong>Nonelderly<br />
+(millions)</strong></td>
+<td style="text-align:center;"><strong>Percent of Nonelderly</strong></td>
+<td style="text-align:center;"><strong>Uninsured<br />
+(millions)</strong></td>
+<td style="text-align:center;"><strong>Percent of Uninsured</strong></td>
+<td style="text-align:center;"><strong>Uninsured<br />
+Rate</strong></td>
+</tr>
+<tr>
+<td><strong>Total Nonelderly</strong></td>
+<td style="text-align:right;">267.5</td>
+<td style="text-align:right;">100.0%</td>
+<td style="text-align:right;">27.4</td>
+<td style="text-align:right;">100.0%</td>
+<td style="text-align:right;">10.2%</td>
+</tr>
+<tr class="highlight">
+<td><strong>Age</strong></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+</tr>
+<tr>
+<td>Children &#8211; Total</td>
+<td style="text-align:right;">76.1</td>
+<td style="text-align:right;">28.5%</td>
+<td style="text-align:right;">3.8</td>
+<td style="text-align:right;">13.8%</td>
+<td style="text-align:right;">5.0%</td>
+</tr>
+<tr>
+<td>Nonelderly Adults &#8211; Total</td>
+<td style="text-align:right;">191.4</td>
+<td style="text-align:right;">71.5%</td>
+<td style="text-align:right;">23.6</td>
+<td style="text-align:right;">86.2%</td>
+<td style="text-align:right;">12.3%</td>
+</tr>
+<tr>
+<td>Adults 19 &#8211; 25</td>
+<td style="text-align:right;">28.3</td>
+<td style="text-align:right;">10.6%</td>
+<td style="text-align:right;">4.2</td>
+<td style="text-align:right;">15.4%</td>
+<td style="text-align:right;">14.8%</td>
+</tr>
+<tr>
+<td>Adults 26 &#8211; 34</td>
+<td style="text-align:right;">39.1</td>
+<td style="text-align:right;">14.6%</td>
+<td style="text-align:right;">6.1</td>
+<td style="text-align:right;">22.3%</td>
+<td style="text-align:right;">15.6%</td>
+</tr>
+<tr>
+<td>Adults 35 &#8211; 44</td>
+<td style="text-align:right;">40.5</td>
+<td style="text-align:right;">15.1%</td>
+<td style="text-align:right;">5.5</td>
+<td style="text-align:right;">20.2%</td>
+<td style="text-align:right;">13.6%</td>
+</tr>
+<tr>
+<td>Adults 45 &#8211; 54</td>
+<td style="text-align:right;">41.8</td>
+<td style="text-align:right;">15.6%</td>
+<td style="text-align:right;">4.5</td>
+<td style="text-align:right;">16.3%</td>
+<td style="text-align:right;">10.7%</td>
+</tr>
+<tr>
+<td>Adults 55 &#8211; 64</td>
+<td style="text-align:right;">41.6</td>
+<td style="text-align:right;">15.6%</td>
+<td style="text-align:right;">3.3</td>
+<td style="text-align:right;">12.0%</td>
+<td style="text-align:right;">7.9%</td>
+</tr>
+<tr class="highlight">
+<td><strong>Annual Family Income</strong></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+</tr>
+<tr>
+<td>&lt;$20,000</td>
+<td style="text-align:right;">31.8</td>
+<td style="text-align:right;">11.9%</td>
+<td style="text-align:right;">5.5</td>
+<td style="text-align:right;">20.0%</td>
+<td style="text-align:right;">17.2%</td>
+</tr>
+<tr>
+<td>$20,000 &#8211; &lt;$40,000</td>
+<td style="text-align:right;">42.8</td>
+<td style="text-align:right;">16.0%</td>
+<td style="text-align:right;">7.4</td>
+<td style="text-align:right;">27.0%</td>
+<td style="text-align:right;">17.3%</td>
+</tr>
+<tr>
+<td>$40,000+</td>
+<td style="text-align:right;">192.9</td>
+<td style="text-align:right;">72.1%</td>
+<td style="text-align:right;">14.5</td>
+<td style="text-align:right;">53.0%</td>
+<td style="text-align:right;">7.5%</td>
+</tr>
+<tr class="highlight">
+<td><strong>Family Poverty Level</strong></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+</tr>
+<tr>
+<td>&lt;100%</td>
+<td style="text-align:right;">30.4</td>
+<td style="text-align:right;">11.4%</td>
+<td style="text-align:right;">5.0</td>
+<td style="text-align:right;">18.4%</td>
+<td style="text-align:right;">16.6%</td>
+</tr>
+<tr>
+<td>100% &#8211; &lt;200%</td>
+<td style="text-align:right;">45.3</td>
+<td style="text-align:right;">16.9%</td>
+<td style="text-align:right;">7.8</td>
+<td style="text-align:right;">28.5%</td>
+<td style="text-align:right;">17.2%</td>
+</tr>
+<tr>
+<td>200% &#8211; &lt;400%</td>
+<td style="text-align:right;">81.9</td>
+<td style="text-align:right;">30.6%</td>
+<td style="text-align:right;">9.6</td>
+<td style="text-align:right;">35.2%</td>
+<td style="text-align:right;">11.7%</td>
+</tr>
+<tr>
+<td>400%+</td>
+<td style="text-align:right;">109.9</td>
+<td style="text-align:right;">41.1%</td>
+<td style="text-align:right;">4.9</td>
+<td style="text-align:right;">18.0%</td>
+<td style="text-align:right;">4.5%</td>
+</tr>
+<tr class="highlight">
+<td><strong>Household Type</strong></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+</tr>
+<tr>
+<td>1 Parent with Children</td>
+<td style="text-align:right;">19.0</td>
+<td style="text-align:right;">7.1%</td>
+<td style="text-align:right;">1.3</td>
+<td style="text-align:right;">4.9%</td>
+<td style="text-align:right;">7.1%</td>
+</tr>
+<tr>
+<td>2 Parents with Children</td>
+<td style="text-align:right;">84.2</td>
+<td style="text-align:right;">31.5%</td>
+<td style="text-align:right;">6.0</td>
+<td style="text-align:right;">22.0%</td>
+<td style="text-align:right;">7.2%</td>
+</tr>
+<tr>
+<td>Multigenerational</td>
+<td style="text-align:right;">18.7</td>
+<td style="text-align:right;">7.0%</td>
+<td style="text-align:right;">2.2</td>
+<td style="text-align:right;">7.9%</td>
+<td style="text-align:right;">11.6%</td>
+</tr>
+<tr>
+<td>Adults Living Alone or with Other Adults</td>
+<td style="text-align:right;">111.7</td>
+<td style="text-align:right;">41.8%</td>
+<td style="text-align:right;">13.2</td>
+<td style="text-align:right;">48.3%</td>
+<td style="text-align:right;">11.8%</td>
+</tr>
+<tr>
+<td>Other</td>
+<td style="text-align:right;">33.9</td>
+<td style="text-align:right;">12.7%</td>
+<td style="text-align:right;">4.6</td>
+<td style="text-align:right;">16.9%</td>
+<td style="text-align:right;">13.6%</td>
+</tr>
+<tr class="highlight">
+<td><strong>Family Work Status</strong></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+</tr>
+<tr>
+<td>2+ Full-time</td>
+<td style="text-align:right;">101.8</td>
+<td style="text-align:right;">38.1%</td>
+<td style="text-align:right;">8.6</td>
+<td style="text-align:right;">31.5%</td>
+<td style="text-align:right;">8.5%</td>
+</tr>
+<tr>
+<td>1 Full-time</td>
+<td style="text-align:right;">119.3</td>
+<td style="text-align:right;">44.6%</td>
+<td style="text-align:right;">12.4</td>
+<td style="text-align:right;">45.3%</td>
+<td style="text-align:right;">10.4%</td>
+</tr>
+<tr>
+<td>Only Part-time</td>
+<td style="text-align:right;">19.5</td>
+<td style="text-align:right;">7.3%</td>
+<td style="text-align:right;">2.8</td>
+<td style="text-align:right;">10.4%</td>
+<td style="text-align:right;">14.6%</td>
+</tr>
+<tr>
+<td>Non-workers</td>
+<td style="text-align:right;">26.9</td>
+<td style="text-align:right;">10.1%</td>
+<td style="text-align:right;">3.5</td>
+<td style="text-align:right;">12.8%</td>
+<td style="text-align:right;">13.0%</td>
+</tr>
+<tr class="highlight">
+<td><strong>Race/Ethnicity</strong></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+</tr>
+<tr>
+<td>White</td>
+<td style="text-align:right;">154.3</td>
+<td style="text-align:right;">57.7%</td>
+<td style="text-align:right;">11.3</td>
+<td style="text-align:right;">41.3%</td>
+<td style="text-align:right;">7.3%</td>
+</tr>
+<tr>
+<td>Black</td>
+<td style="text-align:right;">34.0</td>
+<td style="text-align:right;">12.7%</td>
+<td style="text-align:right;">3.8</td>
+<td style="text-align:right;">13.8%</td>
+<td style="text-align:right;">11.1%</td>
+</tr>
+<tr>
+<td>Hispanic</td>
+<td style="text-align:right;">53.5</td>
+<td style="text-align:right;">20.0%</td>
+<td style="text-align:right;">10.1</td>
+<td style="text-align:right;">36.9%</td>
+<td style="text-align:right;">18.9%</td>
+</tr>
+<tr>
+<td>Asian/N. Hawaiian and Pacific Islander</td>
+<td style="text-align:right;">15.9</td>
+<td style="text-align:right;">5.9%</td>
+<td style="text-align:right;">1.1</td>
+<td style="text-align:right;">4.2%</td>
+<td style="text-align:right;">7.2%</td>
+</tr>
+<tr>
+<td>American Indian/Alaska Native</td>
+<td style="text-align:right;">1.8</td>
+<td style="text-align:right;">0.7%</td>
+<td style="text-align:right;">0.4</td>
+<td style="text-align:right;">1.5%</td>
+<td style="text-align:right;">22.0%</td>
+</tr>
+<tr>
+<td>Two or More Races</td>
+<td style="text-align:right;">8.0</td>
+<td style="text-align:right;">3.0%</td>
+<td style="text-align:right;">0.6</td>
+<td style="text-align:right;">2.3%</td>
+<td style="text-align:right;">7.9%</td>
+</tr>
+<tr class="highlight">
+<td><strong>Citizenship</strong></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+<td style="text-align:right;"></td>
+</tr>
+<tr>
+<td>U.S. Citizen &#8211; Native</td>
+<td style="text-align:right;">230.6</td>
+<td style="text-align:right;">86.2%</td>
+<td style="text-align:right;">18.9</td>
+<td style="text-align:right;">69.2%</td>
+<td style="text-align:right;">8.2%</td>
+</tr>
+<tr>
+<td>U.S. Citizen &#8211; Naturalized</td>
+<td style="text-align:right;">16.7</td>
+<td style="text-align:right;">6.2%</td>
+<td style="text-align:right;">1.7</td>
+<td style="text-align:right;">6.1%</td>
+<td style="text-align:right;">10.0%</td>
+</tr>
+<tr>
+<td>Non-U.S. Citizen, Residents for &lt;5 Years</td>
+<td style="text-align:right;">6.4</td>
+<td style="text-align:right;">2.4%</td>
+<td style="text-align:right;">1.7</td>
+<td style="text-align:right;">6.4%</td>
+<td style="text-align:right;">27.2%</td>
+</tr>
+<tr>
+<td>Non-U.S. Citizen, Residents for 5+ Years</td>
+<td style="text-align:right;">13.9</td>
+<td style="text-align:right;">5.2%</td>
+<td style="text-align:right;">5.0</td>
+<td style="text-align:right;">18.3%</td>
+<td style="text-align:right;">36.0%</td>
+</tr>
+<tr>
+<td colspan="6"><strong>NOTES</strong>: Includes nonelderly individuals ages 0-64. The U.S. Census Bureau&#8217;s poverty threshold for a family with two adults and one child was $19,730 in 2017. Parent includes any person with a dependent child. Multigenerational/other families with children include families with at least three generations in a household, plus families in which adults are caring for children other than their own. Part-time workers were defined as working &lt;35 hours per week. Respondents who identify as mixed race who do not also identify as Hispanic fall intot he &#8220;Two or More Races&#8221; category. All individuals who identify as Hispanic ethnicity fall into the Hispanic category regardless of race.<br />
+<strong>SOURCE</strong>: Kaiser Family Foundation analysis of 2017 American Community Survey (ACS), 1-Year Estimates.</td>
+</tr>
+</tbody>
+</table>
+			</div>
+							<div class="box">
+					<h6>Endnotes</h6><ol class="footnote-wrapper"><li class="footnote-target" id="footnote-384995-1"><p>Kaiser Family Foundation analysis of 2017 American Community Survey (ACS), 1-Year Estimates.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-1">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-2"><p>Kaiser Family Foundation analysis of 2013 and 2016 American Community Survey (ACS), 1-Year Estimates.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-2">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-3"><p>Kaiser Family Foundation analysis of 2017 American Community Survey (ACS), 1-Year Estimates.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-3">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-4"><p>Rachel Garfield, Anthony Damico, Kendal Orgera, Gary Claxton, and Larry Levitt<em>, Estimates of Eligibility for ACA Coverage among the Uninsured in 2016</em> (Washington, DC:  Kaiser Family Foundation, June 2018), <a href="https://www.kff.org/uninsured/issue-brief/estimates-of-eligibility-for-aca-coverage-among-the-uninsured-in-2016/">https://www.kff.org/uninsured/issue-brief/estimates-of-eligibility-for-aca-coverage-among-the-uninsured-in-2016/</a>.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-4">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-5"><p>Ashley Kirzinger, Liz Hamel, Cailey Muñana, and Mollyann Brodie. <em>Kaiser Health Tracking Poll – March 2018: Non-Group Enrollees</em>, (Washington, D.C.: Kaiser Family Foundation, April 2018), https://www.kff.org/health-reform/poll-finding/kaiser-health-tracking-poll-march-2018-non-group-enrollees/.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-5">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-6"><p>Karen Pollitz, Jennifer Tolbert, and Ashley Semanskee. <em>2016 Survey of Health Insurance Marketplace Assister Programs and Brokers </em>(Washington, DC: Kaiser Family Foundation, June 2016), <a href="http://www.kff.org/health-reform/report/2016-survey-of-health-insurance-marketplace-assister-programs-and-brokers/">http://www.kff.org/health-reform/report/2016-survey-of-health-insurance-marketplace-assister-programs-and-brokers/</a></p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-6">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-7"><p>Karen Pollitz, Jennifer Tolbert, and Maria Diaz. <em>Data Note: Further Reductions in Navigator Funding for Federal Marketplace States</em>, (Washington, D.C.: Kaiser Family Foundation, September 2018), <a href="https://www.kff.org/health-reform/issue-brief/data-note-further-reductions-in-navigator-funding-for-federal-marketplace-states/">https://www.kff.org/health-reform/issue-brief/data-note-further-reductions-in-navigator-funding-for-federal-marketplace-states/</a>.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-7">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-8"><p>Kaiser Family Foundation analysis of the 2017 National Health Interview Survey.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-8">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-9"><p>Kaiser Family Foundation analysis of the March 2018 Current Population Survey, Annual Social and Economic Supplement.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-9">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-10"><p>Kaiser Family Foundation analysis of the March 2018 Current Population Survey, Annual Social and Economic Supplement.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-10">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-11"><p>Kaiser Family Foundation. <em>2018 Employer Health Benefits Survey</em> (Washington, DC: Kaiser Family Foundation, October 2018), https://www.kff.org/health-costs/report/2018-employer-health-benefits-survey/.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-11">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-12"><p>State Health Facts. “Status of State Action on the Medicaid Expansion Decision.” Kaiser Family Foundation<em>, </em>2018, <a href="https://www.kff.org/health-reform/state-indicator/state-activity-around-expanding-medicaid-under-the-affordable-care-act/">https://www.kff.org/health-reform/state-indicator/state-activity-around-expanding-medicaid-under-the-affordable-care-act/</a>.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-12">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-13"><p>Idaho, Nebraska, and Utah had ballot initiatives in the 2018 midterm elections on Medicaid expansion where each state voted to expand. Montana voters also had a ballot initiative that voted down the extension of Medicaid expansion, which is planned to end on June 30, 2019.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-13">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-14"><p>Tricia Brooks, Karina Wagnerman, Samantha Artiga, and Elizabeth Cornachione, <em>Medicaid and CHIP Eligibility, Enrollment, Renewal, and Cost Sharing Policies as of January 2018: Findings from a 50-State Survey</em> (Washington, DC: Kaiser Family Foundation, January 2018), <a href="https://www.kff.org/medicaid/report/medicaid-and-chip-eligibility-enrollment-renewal-and-cost-sharing-policies-as-of-january-2018-findings-from-a-50-state-survey/">https://www.kff.org/medicaid/report/medicaid-and-chip-eligibility-enrollment-renewal-and-cost-sharing-policies-as-of-january-2018-findings-from-a-50-state-survey/</a>.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-14">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-15"><p>Rachel Garfield, Anthony Damico, and Kendal Orgera, <em>The Coverage Gap: Uninsured Poor Adults in States that Do Not Expand Medicaid </em>(Washington, DC: Kaiser Family Foundation, June 2018), <a href="https://www.kff.org/medicaid/issue-brief/the-coverage-gap-uninsured-poor-adults-in-states-that-do-not-expand-medicaid/">https://www.kff.org/medicaid/issue-brief/the-coverage-gap-uninsured-poor-adults-in-states-that-do-not-expand-medicaid/</a>.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-15">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-16"><p><em>Health Coverage of Immigrants</em> (Washington, DC: Kaiser Family Foundation, December 2017), <a href="https://www.kff.org/disparities-policy/fact-sheet/health-coverage-of-immigrants/">https://www.kff.org/disparities-policy/fact-sheet/health-coverage-of-immigrants/</a>.</p>
+<p> </p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-16">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-17"><p>Kaiser Family Foundation analysis of 2017 American Community Survey (ACS), 1-Year Estimates.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-17">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-18"><p>$19,730 for a family of three in 2017.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-18">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-19"><p>Kaiser Family Foundation analysis of 2017 American Community Survey (ACS), 1-Year Estimates.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-19">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-20"><p>Kaiser Family Foundation analysis of 2017 American Community Survey (ACS), 1-Year Estimates.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-20">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-21"><p>Kaiser Family Foundation analysis of 2017 American Community Survey (ACS), 1-Year Estimates.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-21">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-22"><p>Kaiser Family Foundation analysis of 2017 American Community Survey (ACS), 1-Year Estimates.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-22">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-23"><p><em>Health Coverage of Immigrants</em> (Washington, DC: Kaiser Family Foundation, December 2017), <a href="https://www.kff.org/disparities-policy/fact-sheet/health-coverage-of-immigrants/">https://www.kff.org/disparities-policy/fact-sheet/health-coverage-of-immigrants/</a>.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-23">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-24"><p> Kaiser Family Foundation analysis of the 2017 National Health Interview Survey.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-24">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-25"><p>Jack Hadley, “Insurance Coverage, Medical Care Use, and Short-term Health Changes Following an Unintentional Injury or the Onset of a Chronic Condition.” <em>JAMA</em> 297, no. 10 (March 2007):1073-84.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-25">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-26"><p>Stacey McMorrow, Genevieve M. Kenney, and Dana Goin,“Determinants of Receipt of Recommended Preventive Services: Implications for the Affordable Care Act,” <em>American Journal of Public Health</em> 104, no. 12 (Dec 2014): 2392-9.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-26">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-27"><p>Kaiser Family Foundation analysis of the 2017 National Health Interview Survey.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-27">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-28"><p>Jack Hadley, “Insurance Coverage, Medical Care Use, and Short-term Health Changes Following an Unintentional Injury or the Onset of a Chronic Condition,” <em>JAMA</em> 297, no. 10 (March 2007): 1073-84.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-28">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-29"><p>Marco A Castaneda and Meryem Saygili, “The health conditions and the health care consumption of the uninsured,” <em>Health Economics Review</em> (2016).</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-29">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-30"><p>Steffie Woolhandler, et al., “The Relationship of Health Insurance and Mortality: Is Lack of Insurance Deadly?” <em>Annals of Internal Medicine</em> 167 (June 2017): 424-431.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-30">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-31"><p>Destini A Smith, et al., “The effect of health insurance coverage and the doctor-patient relationship on health care utilization in high poverty neighborhoods.” <em>Preventive Medicine Reports</em> 7 (2017): 158-161.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-31">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-32"><p>Andrea S. Christopher, et al., “Access to Care and Chronic Disease Outcomes Among Medicaid-Insured Persons Versus the Uninsured,” <em>American Journal of Public Health</em> 106, no. 1 (January 2016): 63-69.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-32">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-33"><p>Amy Finkelstein, et. al, “The Oregon Health Insurance Experiment: Evidence from the First Year” (National Bureau of Economic Research, July 2011), <a href="http://www.nber.org/papers/w17190">http://www.nber.org/papers/w17190</a>.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-33">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-34"><p>Larisa Antonisse, Rachel Garfield, Robin Rudowitz, and Samantha Artiga<em>, The Effects of Medicaid Expansion on the ACA: Updated Findings From a Literature Review </em>(Washington, D.C.: Kaiser Family Foundation, March 2018), <a href="https://www.kff.org/medicaid/issue-brief/the-effects-of-medicaid-expansion-under-the-aca-updated-findings-from-a-literature-review-march-2018/">https://www.kff.org/medicaid/issue-brief/the-effects-of-medicaid-expansion-under-the-aca-updated-findings-from-a-literature-review-march-2018/</a>.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-34">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-35"><p>Sara Rosenbaum, Jennifer Tolbert, Jessica Sharac, Peter Shin, Rachel Gunsalus, and Julia Zur, <em>Community Health Centers: Growing Important in a Changing Health Care System</em>, (Washington, DC: Kaiser Family Foundation, March 2018), <a href="https://www.kff.org/medicaid/issue-brief/community-health-centers-growing-importance-in-a-changing-health-care-system/">https://www.kff.org/medicaid/issue-brief/community-health-centers-growing-importance-in-a-changing-health-care-system/</a>.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-35">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-36"><p>Allen Dobson, Joan DaVanzo, Randy Haught, and Phap-Hoa Luu, <em>Comparing the Affordable Care Act’s Financial Impact on Safety-Net Hospitals in States That Expanded Medicaid and Those That Did Not</em>, (New York, NY: The Commonweath Fund, November 2017), <a href="https://www.commonwealthfund.org/publications/issue-briefs/2017/nov/comparing-affordable-care-acts-financial-impact-safety-net">https://www.commonwealthfund.org/publications/issue-briefs/2017/nov/comparing-affordable-care-acts-financial-impact-safety-net</a>.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-36">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-37"><p>Jane Wishner, et al., <em>A Look at Rural Hospital Closures and Implications for Access to Care: Three Case Studies</em> (Washington, DC: The Urban Institute and Kaiser Family Foundation, July 2016), https://www.kff.org/report-section/a-look-at-rural-hospital-closures-and-implications-for-access-to-care-three-case-studies-issue-brief/.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-37">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-38"><p>Sherry Glied and Richard Kronick, <em>The Value of Health Insurance: Few of the Uninsured Have Adequate Resources to Pay Potential Hospital Bills</em> (Washington, DC: Office of Assistant Secretary for Planning and Evaluation, HHS, May 2011), <a href="http://aspe.hhs.gov/health/reports/2011/ValueofInsurance/rb.pdf">http://aspe.hhs.gov/health/reports/2011/ValueofInsurance/rb.pdf</a></p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-38">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-39"><p>Philippe Gwet, Jerrod Anderson, and Steven Machlin, “Out-of-Pocket Health Care Expenses in the U.S. Civilian Noninstitutionalized Population by Age and Insurance Coverage, 2014,” Agency for Healthcare Research and Quality (AHRQ), Statistical Brief #495, <a href="https://meps.ahrq.gov/data_files/publications/st495/stat495.shtml">https://meps.ahrq.gov/data_files/publications/st495/stat495.shtml</a>.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-39">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-40"><p>Tim Xu, Angela Park, Ge Bai, Sarah Joo, Susan Hutfless, Ambar Mehta, Gerard Anderson, and Martin Makary, “Variation in Emergency Department vs Internal Medicine Excess Charges in the United States,” <em>JAMA</em> <em>Intern Med.</em> 177(8): 1130-1145 (June 2017), <a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2629494%20">https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2629494%20</a>.  <em> </em></p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-40">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-41"><p>Stacie Dusetzina, Ethan Basch, and Nancy Keating, “For Uninsured Cancer Patients, Outpatient Charges Can Be Costly, Putting Treatments out of Reach,” <em>Health Affairs</em> 34, no. 4 (April 2015): 584-591, <a href="http://content.healthaffairs.org/content/34/4/584.abstract">http://content.healthaffairs.org/content/34/4/584.abstract</a></p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-41">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-42"><p>Kaiser Family Foundation analysis of the 2017 National Health Interview Survey.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-42">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-43"><p>Liz Hamel, Mira Norton, Karen Pollitz, Larry Levitt, Gary Claxton, and Mollyann Brodie<em>, The Burden of Medical Debt: Results from the Kaiser Family Foundation/New York Times Medical Bills Survey,</em> (Washington, D.C.: Kaiser Family Foundation, Jan 2016),  <a href="https://www.kff.org/health-costs/report/the-burden-of-medical-debt-results-from-the-kaiser-family-foundationnew-york-times-medical-bills-survey/">https://www.kff.org/health-costs/report/the-burden-of-medical-debt-results-from-the-kaiser-family-foundationnew-york-times-medical-bills-survey/</a>.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-43">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-44"><p>Consumer Financial Protection Bureau, “Consumer Experiences with Debt Collection: Findings from the CFPB’s Survey of Consumer Views on Debt.” (Consumer Financial Protection Bureau: January 2017),</p>
+<p><a href="https://www.consumerfinance.gov/data-research/research-reports/consumer-experiences-debt-collection-findings-cfpbs-survey-consumer-views-debt/">https://www.consumerfinance.gov/data-research/research-reports/consumer-experiences-debt-collection-findings-cfpbs-survey-consumer-views-debt/</a>.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-44">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-45"><p>Liz Hamel, Mira Norton, Karen Pollitz, Larry Levitt, Gary Claxton, and Mollyann Brodie, <em>The Burden of Medical Debt: Results from the Kaiser Family Foundation/New York Times Medical Bills Survey</em> (Washington, D.C.: Kaiser Family Foundation, January 2016), <a href="https://www.kff.org/report-section/the-burden-of-medical-debt-section-1-who-has-medical-bill-problems-and-what-are-the-contributing-factors/">https://www.kff.org/report-section/the-burden-of-medical-debt-section-1-who-has-medical-bill-problems-and-what-are-the-contributing-factors/</a>.</p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-45">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-46"><p>Larisa Antonisse, Rachel Garfield, Robin Rudowitz, and Samantha Artiga<em>, The Effects of Medicaid Expansion on the ACA: Updated Findings From a Literature Review </em>(Washington, D.C.: Kaiser Family Foundation, March 2018), <a href="https://www.kff.org/medicaid/issue-brief/the-effects-of-medicaid-expansion-under-the-aca-updated-findings-from-a-literature-review-march-2018/">https://www.kff.org/medicaid/issue-brief/the-effects-of-medicaid-expansion-under-the-aca-updated-findings-from-a-literature-review-march-2018/</a>.</p>
+<p> </p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-46">&larr; Return to text</a></p></li><li class="footnote-target" id="footnote-384995-47"><p>Ibid.</p>
+<p> </p>
+<p> </p>
+ <p class="footnote-return"><a href="https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/#endnote_link_384995-47">&larr; Return to text</a></p></li></ol>				</div>
+						<div id="page-taxonomy" class="box primary">
+						<div class="tax-wrapper">
+			<h4>Topics</h4>
+				<ul>
+										<li><a href="https://www.kff.org/topic/uninsured/">Uninsured</a></li>
+					</ul>
+					</div>
+									<div class="tax-wrapper">
+			<h4>Tags</h4>
+				<ul>
+										<li><a href="https://www.kff.org/tag/affordable-care-act/">Affordable Care Act</a></li>
+							<li><a href="https://www.kff.org/tag/access-to-care/">Access to Care</a></li>
+							<li><a href="https://www.kff.org/tag/coverage/">Coverage</a></li>
+							<li><a href="https://www.kff.org/tag/low-income/">Low income</a></li>
+					</ul>
+					</div>
+				</div>
+		</div>
+								<div class="slab-container right-column sidebar">
+				<div class="slab light-blue default attachments small">
+							<h3 class="kicker">
+															DOWNLOAD									</h3>
+																<section class="feature attachments">
+						<ul>
+								<li>
+				<a href="http://files.kff.org/attachment//fact-sheet-key-facts-about-the-uninsured-population" class="pdf-document">
+					FACT SHEET				</a>
+			</li>
+			</ul>
+				</section>
+					</div>
+				<div class="slab light-blue default news-release small">
+							<h3 class="kicker">
+															news release									</h3>
+																<section class="feature news-release">
+						<p class="byline">Dec 2018</p>
+	<ul>
+		<li>
+			<a href="https://www.kff.org/uninsured/press-release/the-number-of-uninsured-people-rose-in-2017-reversing-some-of-the-coverage-gains-under-the-affordable-care-act/">
+				The Number of Uninsured People Rose in 2017, Reversing Some of the Coverage Gains Under the Affordable Care Act			</a>
+		</li>
+	</ul>
+				</section>
+					</div>
+				<div class="slab dark-blue default posts small">
+							<h3 class="kicker">
+															Also of Interest									</h3>
+																<section class="feature posts">
+						<ul>
+					<li>
+									<a href="https://www.kff.org/medicaid/press-release/a-comprehensive-review-of-research-finds-that-the-aca-medicaid-expansion-has-reduced-the-uninsured-rate-and-increased-access-to-care-in-expansion-states/">
+						A Comprehensive Review of Research Finds That the ACA Medicaid Expansion Has Reduced the Uninsured Rate and Increased Access to Care in Expansion States					</a>
+							</li>
+			</ul>
+				</section>
+					</div>
+			</div>
+				</div>
+				</div><!-- end #content -->
+			<div class="site-footer--type--legacy">
+	<footer class="site-footer site-footer--type--top">
+	<div class="site-footer__inner inner">
+		<nav class="site-footer__nav"><ul id="menu-footer-menu" class="menu"><li id="menu-item-251253" class="nav-group menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-251253"><a href="#">Nav Group</a>
+<ul class="sub-menu">
+	<li id="menu-item-189674" class="menu-item menu-item-type-post_type menu-item-object-landing-page menu-item-189674"><a href="https://www.kff.org/disparities-policy/">Disparities Policy</a></li>
+	<li id="menu-item-204540" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-204540"><a href="https://www.kff.org/topic/global-health-policy/">Global Health Policy</a></li>
+	<li id="menu-item-380424" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-380424"><a href="https://www.kff.org/topic/health-costs/">Health Costs</a></li>
+	<li id="menu-item-380421" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-380421"><a href="https://www.kff.org/topic/health-reform/">Health Reform</a></li>
+	<li id="menu-item-380422" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-380422"><a href="https://www.kff.org/topic/hivaids/">HIV/AIDS</a></li>
+	<li id="menu-item-380420" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-380420"><a href="https://www.kff.org/topic/medicaid/">Medicaid</a></li>
+	<li id="menu-item-189676" class="menu-item menu-item-type-post_type menu-item-object-landing-page menu-item-189676"><a href="https://www.kff.org/medicare/">Medicare</a></li>
+	<li id="menu-item-189675" class="menu-item menu-item-type-post_type menu-item-object-landing-page menu-item-189675"><a href="https://www.kff.org/private-insurance/">Private Insurance</a></li>
+	<li id="menu-item-189670" class="menu-item menu-item-type-post_type menu-item-object-landing-page menu-item-189670"><a href="https://www.kff.org/uninsured/">Uninsured</a></li>
+	<li id="menu-item-202434" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-202434"><a href="https://www.kff.org/womens-health-policy/">Women&#8217;s Health Policy</a></li>
+	<li id="menu-item-189677" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189677"><a href="/polling/">Polling</a></li>
+	<li id="menu-item-189678" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189678"><a href="/perspectives/">Perspectives</a></li>
+	<li id="menu-item-189679" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189679"><a href="/statedata/">State Health Facts</a></li>
+	<li id="menu-item-189680" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189680"><a href="/graphics/search/">Graphics &amp; Interactives</a></li>
+	<li id="menu-item-189681" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189681"><a href="/charts-slides/">Charts &amp; Slides</a></li>
+	<li id="menu-item-189682" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189682"><a href="http://khn.org/">Kaiser Health News</a></li>
+	<li id="menu-item-189683" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189683"><a href="/health-communication-media-partnerships/">Media Campaigns</a></li>
+	<li id="menu-item-227304" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-227304"><a href="http://www.healthsystemtracker.org/">Peterson-Kaiser Health System Tracker</a></li>
+</ul>
+</li>
+<li id="menu-item-189684" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-189684"><a href="/newsroom/">Newsroom</a>
+<ul class="sub-menu">
+	<li id="menu-item-189685" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189685"><a href="/search/?post_type=press-release">News Releases</a></li>
+	<li id="menu-item-189686" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189686"><a href="/search/?post_type=event">Events</a></li>
+	<li id="menu-item-189687" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189687"><a href="/email/">Subscribe to Emails</a></li>
+	<li id="menu-item-189688" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189688"><a href="/cite-and-reprint-kff/">Cite Us/Reprint</a></li>
+	<li id="menu-item-189689" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189689"><a href="/newsroom/#media-contacts">Media Contacts</a></li>
+</ul>
+</li>
+<li id="menu-item-189690" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-189690"><a href="/about-us/">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-189691" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189691"><a href="/our-programs/">Our Programs</a></li>
+	<li id="menu-item-189692" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189692"><a href="/people/key-staff/">Key Staff</a></li>
+	<li id="menu-item-189694" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189694"><a href="/media-internships-fellowships/">Media Fellowships</a></li>
+	<li id="menu-item-189695" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189695"><a href="/barbara-jordan-conference-center/">Barbara Jordan Conference Center</a></li>
+	<li id="menu-item-189696" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189696"><a href="/contact-us/">Contact Us</a></li>
+	<li id="menu-item-189698" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189698"><a href="/employment-opportunities/">Employment Opportunities</a></li>
+	<li id="menu-item-251254" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251254"><a href="https://www.kff.org/privacy-policy/">Privacy Policy</a></li>
+</ul>
+</li>
+</ul></nav>		<section class="site-footer__signup">
+			<p>
+				<strong>Get the Latest on Health Policy</strong>
+				Sign Up for Email Alerts			</p>
+			<form method="post" action="/email/">
+				<input type="hidden" id="hubspot_contacts_nonce" name="hubspot_contacts_nonce" value="0a6617ec56" /><input type="hidden" name="_wp_http_referer" value="/uninsured/fact-sheet/key-facts-about-the-uninsured-population/" />				<input
+					type="email"
+					name="hubspot_contact[email]"
+					placeholder="Enter Email Address"
+				/>
+				<button type="submit">
+					Sign Up				</button>
+			</form>
+		</section>
+	</div>
+	</footer>
+	<footer class="site-footer site-footer--type--bottom">
+		<div class="site-footer__inner inner">
+			<section class="site-footer__copyright">
+				&copy; 2019 Kaiser Family Foundation				<div class="site-footer__vip">
+					Powered by <a href="https://wpvip.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit&#038;utm_term=www.kff.org" rel="generator nofollow" class="powered-by-wpcom">WordPress.com VIP</a>				</div>
+			</section>
+			<section class="site-footer__social">
+				<p>
+					Follow Us				</p>
+				<a href="https://www.facebook.com/KaiserFamilyFoundation" class="facebook" target="_blank">
+					<span>Facebook</span>
+				</a>
+				<a href="https://twitter.com/KaiserFamFound" class="twitter" target="_blank">
+					<span>Twitter</span>
+				</a>
+				<a href="https://www.instagram.com/KaiserFamilyFoundation/" class="link instagram" target="_blank">
+					<span>Instagram</span>
+				</a>
+				<a href="/rss_feeds/" class="feeds" target="_blank">
+					<span>Feeds</span>
+				</a>
+			</section>
+		</div>
+	</footer>
+	
+<footer class="print site-footer--type--print">
+	<p>
+		The Henry J. Kaiser Family Foundation Headquarters: 185 Berry St., Suite 2000, San Francisco, CA 94170 | Phone 650-854-9400		<br />
+		Washington Offices and Barbara Jordan Conference Center: 1330 G Street, NW, Washington, DC 20005 | Phone 202-347-5270	</p>
+	<p>www.kff.org | Email Alerts: kff.org/email | facebook.com/KaiserFamilyFoundation | twitter.com/KaiserFamFound</p>
+	<p class="tagline">
+		<strong>Filling the need for trusted information on national health issues,</strong> the Kaiser Family Foundation is a nonprofit organization based in San Francisco, California.	</p>
+</footer></div>
+
+		</div><!-- end .pane -->
+	</div><!-- end .viewport -->
+		<div style="display:none">
+	</div>
+		<!-- Start of Async HubSpot Analytics Code -->
+		<script type="text/javascript">
+			(
+				function ( d, s, i, r ) {
+					if ( d.getElementById( i ) ) {
+						return;
+					}
+					var n = d.createElement( s ), e = d.getElementsByTagName( s )[0];
+					n.id = i;
+					n.src = '//js.hubspot.com/analytics/' + (
+						Math.ceil( new Date() / r ) * r
+					) + '/292449.js';
+					e.parentNode.insertBefore( n, e );
+				}
+			)( document, "script", "hs-analytics", 300000 );
+		</script>
+		<!-- End of Async HubSpot Analytics Code -->
+	<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201924'></script>
+<script type='text/javascript' src='https://secure.gravatar.com/js/gprofiles.js?ver=2019Junaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.kff.org/wp-content/mu-plugins/jetpack/modules/wpgroho.js?ver=5.2.1'></script>
+<script type='text/javascript' src='https://www.kff.org/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='https://www.kff.org/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='https://www.kff.org/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b'></script>
+<script type='text/javascript' src='https://www.kff.org/wp-content/themes/kaiser-foundation-2016/static/js/jquery_plugins/jquery.cycle2.min.js?ver=1.7.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/www.kff.org\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.kff.org/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript' src='https://www.kff.org/wp-content/mu-plugins/jetpack/_inc/build/lazy-images/js/lazy-images.min.js?ver=7.4'></script>
+<script type='text/javascript' src='https://www.kff.org/wp-includes/js/wp-embed.min.js?ver=5.2.1'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201924.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.4',blog:'158133116',post:'85226',tz:'-4',srv:'www.kff.org'} ]);
+	_stq.push([ 'clickTrackerInit', '158133116', '85226' ]);
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"1fa8b5b91a","applicationID":"211788170","transactionName":"YgMBZ0cFWUFUUBEICVtJIlBBDVhcGkAMDwFZAw==","queueTime":0,"applicationTime":353,"atts":"TkQWEQ8fSh4XUkdbHUgb","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

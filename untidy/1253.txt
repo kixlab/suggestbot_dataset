@@ -1,0 +1,466 @@
+
+
+Skip Navigation
+
+![CNBC logo](//sc.cnbcfm.com/applications/cnbc.com/staticcontent/img/login-
+
+cnbc-logo.png)
+
+×
+
+    
+        * LOG IN
+    * SIGN UP
+    
+
+Keep Me Logged In
+
+![logo](data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIwLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAyMjMgMzQuMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjIzIDM0LjI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojRkZGRkZGO30KCS5zdDF7ZmlsbDojNjQ1RkE5O30KCS5zdDJ7ZmlsbDojQzgyMzRBO30KCS5zdDN7ZmlsbDojMDA4OENGO30KCS5zdDR7ZmlsbDojRjI2RjIxO30KCS5zdDV7ZmlsbDojMERCMDRCO30KCS5zdDZ7ZmlsbDojRkNCODEzO30KPC9zdHlsZT4KPGcgaWQ9IkxheWVyXzMiPgoJPGc+CgkJPGc+CgkJCTxnPgoJCQkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTI2LjgsNC44YzAuNy0xLjIsMS44LTIuMywzLjItM2MyLjItMSw1LjEtMC41LDcsMWMxLjcsMS41LDIuNywzLjcsMi4yLDYuMWMwLjUsMCwwLjgtMC4zLDEuMy0wLjUKCQkJCQljMi43LTAuOCw1LjUsMCw3LjMsMi4zYzEuMywxLjcsMS43LDQuMiwwLjgsNi4xYy0wLjMsMS0xLDEuOC0xLjgsMi43bDAuMiwwLjJjMi41LDAuMiw1LDIsNS44LDQuNXMwLjIsNS0xLjcsNi44CgkJCQkJYy0xLjUsMS41LTMuMywyLTUuMywxLjhIOC4yYy0zLjIsMC01LjUtMS4zLTYuNi00Yy0xLTIuMy0wLjUtNS4zLDEuMy03LjFjMS4yLTEuMiwyLjctMS43LDQuMy0yYy0xLjgtMS43LTIuNy00LTIuMi02LjUKCQkJCQljMC4yLTEuOCwxLjgtNCwzLjgtNC43YzEuNy0wLjcsNC0wLjUsNS42LDAuM2wwLDBjLTAuNS0yLjcsMC43LTUuMSwzLTYuNmMyLTEuMyw1LjEtMS4zLDcuMSwwLjJDMjUuNSwzLDI2LjMsNCwyNi44LDQuOHoiLz4KCQkJCTxnPgoJCQkJCTxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0zNy40LDUuOEMzNy4xLDUuMSwzNi42LDQuNSwzNiw0Yy0xLjUtMS4zLTQtMS41LTUuOC0wLjVjLTEuNywwLjgtMi43LDIuNy0yLjcsNC41bDAsMGgyLjIKCQkJCQkJYzAuMiwwLjIsMC4zLDAuMiwwLjUsMC4zQzI5LjMsOSwyNy42LDkuNiwyOCwxMWwyLjMsMTQuOGwwLDBsNi41LTE0LjZDMzcuOCw5LjUsMzguMyw3LjUsMzcuNCw1Ljh6Ii8+CgkJCQkJPHBhdGggY2xhc3M9InN0MiIgZD0iTTIzLjUsMjUuNmwyLjctMTYuOWMwLjItMS4yLTAuMi0yLjMtMC43LTMuM0MyNSw0LjMsMjQsMy42LDIzLDMuMWMtMS44LTAuOC00LjItMC4zLTUuNSwxcy0yLDMuMy0xLjMsNS4zCgkJCQkJCWw2LjYsMTQuOEwyMy41LDI1LjZMMjMuNSwyNS42eiIvPgoJCQkJCTxwYXRoIGNsYXNzPSJzdDMiIGQ9Ik00Ny4xLDEyLjRjMC44LDEuNSwwLjcsMy44LTAuMyw1LjFjLTAuNywxLTEuNywxLjUtMi41LDIuMmwtMTMuOCw5LjVsMCwwbDAuMi0wLjVsNy4zLTE2LjQKCQkJCQkJYzEuMi0yLDMuMi0zLDUuMy0yLjdDNDQuOCwxMCw0Ni4zLDExLDQ3LjEsMTIuNHoiLz4KCQkJCQk8cGF0aCBjbGFzcz0ic3Q0IiBkPSJNOC4xLDE4LjZsMTUuMywxMC41aDAuMmwtNy42LTE2LjhjLTEuMy0yLjItNC0zLjItNi41LTIuM2MtMS41LDAuNy0yLjcsMi0zLDMuNQoJCQkJCQlDNS43LDE1LjQsNi40LDE3LjQsOC4xLDE4LjZ6Ii8+CgkJCQkJPHBhdGggY2xhc3M9InN0NSIgZD0iTTUwLjQsMjkuNmMxLjItMS4zLDEuMy0zLjcsMC43LTUuMWMtMC41LTEuMi0xLjUtMi4yLTIuNy0yLjdjLTEuNS0wLjctMy41LTAuNS00LjgsMC4zTDMwLDMxLjVoMTYuMwoJCQkJCQlDNDcuOSwzMS41LDQ5LjIsMzAuOSw1MC40LDI5LjZ6Ii8+CgkJCQkJPHBhdGggY2xhc3M9InN0NiIgZD0iTTIzLjgsMzEuNWwtMTMuNi05LjZjLTEuMy0wLjgtMy4zLTEtNC44LTAuM2MtMS4yLDAuNS0yLjIsMS41LTIuNywyLjdjLTAuOCwxLjctMC41LDMuOCwwLjcsNS4xCgkJCQkJCWMxLDEuMywyLjUsMiw0LjIsMkwyMy44LDMxLjV6Ii8+CgkJCQk8L2c+CgkJCTwvZz4KCQk8L2c+CgkJPGc+CgkJCTxnPgoJCQkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTg0LjgsMTMuNGMtMC43LTMtMy0zLjgtNS44LTRjLTguOC0wLjgtMTAuMyw1LjgtMTAuMyw4LjZjMCw0LjgsMS4zLDguNiwxMCw4LjZjMS43LDAsNi0xLjcsNi00LjNoMTIuNQoJCQkJCWMtMC41LDgtMTMuOCw5LjgtMTkuNiw5LjhjLTEyLDAtMjIuMy0yLjItMjEuOC0xNC4xYzAuMy04LjUsOC4zLTE0LjQsMjQuMi0xNGM4LjgsMC4yLDE3LjMsMywxNy4zLDkuM0g4NC44eiIvPgoJCQkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTIwOS40LDEzLjRjLTAuNy0zLTMtMy44LTUuOC00Yy04LjgtMC44LTEwLjMsNS44LTEwLjMsOC41YzAsNC44LDEuMyw4LjYsMTAsOC42YzEuNywwLDYtMS43LDYtNC4zaDEyLjUKCQkJCQljLTAuNSw4LTEzLjgsOS44LTE5LjYsOS44Yy0xMiwwLTIyLjMtMi4yLTIxLjgtMTQuMWMwLjMtOC41LDguMy0xNC40LDI0LjItMTRjOC44LDAuMiwxNy40LDMsMTcuNCw5LjNoLTEyLjZWMTMuNHoiLz4KCQkJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik05OS42LDQuNmgxNi4xbDEzLjgsMTkuM2gwLjJWNC42SDE0MHYyNi43aC0xNS40bC0xNC40LTE5LjNoLTAuMnYxOS4zSDk5LjZDOTkuNiwzMS40LDk5LjYsNC42LDk5LjYsNC42eiIKCQkJCQkvPgoJCQkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTE0My4xLDQuNmgxOS42YzkuNSwwLDE0LjksMi43LDE0LjksNi42YzAsMi4zLTIuMyw1LjMtNy41LDYuMWwwLDBjNi4xLDAuMyw4LjUsNC4zLDguNSw2LjYKCQkJCQljMCw0LjgtNS4zLDcuMy0xNS45LDcuM2gtMTkuNlY0LjZ6IE0xNTQuNiwxNS4xaDMuM2M1LDAsNy42LTAuMyw3LjYtMi41cy0yLjItMy02LjYtM2gtNC4ydjUuNUgxNTQuNnogTTE1NC42LDI1LjloMy4zCgkJCQkJYzYsMCw4LjMtMC43LDguMy0yLjdjMC0yLjItMi44LTMtNy4zLTNoLTQuMnY1LjZIMTU0LjZ6Ii8+CgkJCTwvZz4KCQk8L2c+Cgk8L2c+CjwvZz4KPC9zdmc+Cg==)
+
+    
+        * Sign In
+    * Pro
+    * Watchlist
+    * Make It
+    * USA
+    * INTL
+    
+
+![logo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NDAiIGhlaWdodD0iNDA4IiB2aWV3Qm94PSIwIDAgNTQwIDQwOCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogIDxkZWZzPgogICAgPHBvbHlnb24gaWQ9ImEiIHBvaW50cz0iLjAwMSA5Mi42MDQgMTM1LjI4OSA5Mi42MDQgMTM1LjI4OSAxLjMxNiAuMDAxIDEuMzE2Ii8+CiAgICA8cG9seWdvbiBpZD0iYyIgcG9pbnRzPSIzLjU1IDkyLjYwNCAxMzguODU3IDkyLjYwNCAxMzguODU3IDEuMzE2IDMuNTUgMS4zMTYgMy41NSA5Mi42MDQiLz4KICA8L2RlZnM+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMzE0Ljk1KSI+CiAgICAgIDxtYXNrIGlkPSJiIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgPHVzZSB4bGluazpocmVmPSIjYSIvPgogICAgICA8L21hc2s+CiAgICAgIDxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik05NC41Mzc4LDMxLjgxOTA0MjUgQzkyLjU2Mjk0MjksMjIuMTY1MDk5MSA4NC42MzY1MTQzLDE5LjYxNDYzNjggNzUuNzg4MjI4NiwxOC43OTI3NzgzIEM0Ny4xNzk4LDE2LjEyNjU2MTMgNDIuMDk2MDg1NywzNy41MjE4OTE1IDQyLjA5NjA4NTcsNDYuNTQ2OTAwOSBDNDIuMDk2MDg1Nyw2MS45OTI0Mzg3IDQ2LjYwODk0MjksNzQuNzQwODkxNSA3NC43MzUyMjg2LDc0Ljc0MDg5MTUgQzc5Ljg5MjIyODYsNzQuNzQwODkxNSA5NC4xODY4LDY5LjQzNTQ2NyA5NC4xODY4LDYwLjc2MTU4MDIgTDEzNC41ODY1MTQsNjAuNzYxNTgwMiBDMTMyLjk3NDIyOSw4Ni40NjI5ODU4IDg5Ljc0NzIyODYsOTIuNjA1NzAyOCA3MC45MjQzNzE0LDkyLjYwNTcwMjggQzMxLjg3MDgsOTIuNjA1NzAyOCAtMS41NTUyLDg1LjM1MTc0MDYgMC4wNTcwODU3MTQzLDQ2Ljg5ODAyMzYgQzEuMTk4OCwxOS40NjgwMTQyIDI3LjE1MzUxNDMsMC4xODMyNzgzMDIgNzguNzYyMDg1NywxLjM2NzgzNDkxIEMxMDcuNTMyNTE0LDIuMDU4NTA0NzIgMTM1LjE0MTk0MywxMS4wMjU2MzY4IDEzNS4yODg1MTQsMzEuODE5MDQyNSBMOTQuNTM3OCwzMS44MTkwNDI1IFoiIG1hc2s9InVybCgjYikiLz4KICAgIDwvZz4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQwMS4xNDMgMzE0Ljk1KSI+CiAgICAgIDxtYXNrIGlkPSJkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgPHVzZSB4bGluazpocmVmPSIjYyIvPgogICAgICA8L21hc2s+CiAgICAgIDxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik05OC4xMzMwNDI5LDMxLjgxOTA0MjUgQzk2LjExMTksMjIuMTY1MDk5MSA4OC4yMDA5LDE5LjYxNDYzNjggNzkuMzU2NDcxNCwxOC43OTI3NzgzIEM1MC43NTk2MTQzLDE2LjEyNjU2MTMgNDUuNjkxMzI4NiwzNy41MjE4OTE1IDQ1LjY5MTMyODYsNDYuNTQ2OTAwOSBDNDUuNjkxMzI4Niw2MS45OTI0Mzg3IDUwLjE3MzMyODYsNzQuNzQwODkxNSA3OC4yNzI2MTQzLDc0Ljc0MDg5MTUgQzgzLjQ1NjYxNDMsNzQuNzQwODkxNSA5Ny43NjY2MTQzLDY5LjQzNTQ2NyA5Ny43NjY2MTQzLDYwLjc2MTU4MDIgTDEzOC4xODE3NTcsNjAuNzYxNTgwMiBDMTM2LjU0MjQ3MSw4Ni40NjI5ODU4IDkzLjMyNzA0MjksOTIuNjA1NzAyOCA3NC40OTI2MTQzLDkyLjYwNTcwMjggQzM1LjQzOTA0MjksOTIuNjA1NzAyOCAxLjk5NzYxNDI5LDg1LjM1MTc0MDYgMy42MDYwNDI4Niw0Ni44OTgwMjM2IEM0Ljc2MzE4NTcxLDE5LjQ2ODAxNDIgMzAuNzIxNzU3MSwwLjE4MzI3ODMwMiA4Mi4zNDE5LDEuMzY3ODM0OTEgQzExMS4wODE0NzEsMi4wNTg1MDQ3MiAxMzguNzQxMDQzLDExLjAyNTYzNjggMTM4Ljg1Njc1NywzMS44MTkwNDI1IEw5OC4xMzMwNDI5LDMxLjgxOTA0MjUgWiIgbWFzaz0idXJsKCNkKSIvPgogICAgPC9nPgogICAgPHBvbHlnb24gZmlsbD0iI0ZGRkZGRiIgcG9pbnRzPSIxNDIuNTI2IDMxOC4xOCAxOTQuOTY4IDMxOC4xOCAyMzkuNzAzIDM4MC45MTUgMjQwLjA1OCAzODAuOTE1IDI0MC4wNTggMzE4LjE4IDI3My42ODggMzE4LjE4IDI3My42ODggNDA1LjI4MiAyMjMuNDQ1IDQwNS4yODIgMTc2LjQ2OSAzNDIuNTYyIDE3Ni4xMjkgMzQyLjU2MiAxNzYuMTI5IDQwNS4yODIgMTQyLjUyNiA0MDUuMjgyIi8+CiAgICA8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMzIwLjk0NzA3MSAzODcuMDM3NDcyTDMzMS40OTI1IDM4Ny4wMzc0NzJDMzUxLjEyMTUgMzg3LjAzNzQ3MiAzNTguMzMwNSAzODQuOTU3NzQ1IDM1OC4zMzA1IDM3OC4yMDE1MjggMzU4LjMzMDUgMzcwLjk0NzU2NiAzNDkuMjQ2OTI5IDM2OC41NTkxNiAzMzQuNTk3NSAzNjguNTU5MTZMMzIwLjk0NzA3MSAzNjguNTU5MTYgMzIwLjk0NzA3MSAzODcuMDM3NDcyek0zMjAuOTQ3MDcxIDM1MS45ODY5NDNMMzMxLjQ5MjUgMzUxLjk4Njk0M0MzNDcuNzgxMjE0IDM1MS45ODY5NDMgMzU2LjM5NDIxNCAzNTAuNzQwNjUxIDM1Ni4zOTQyMTQgMzQzLjk3Mjg1OCAzNTYuMzk0MjE0IDMzNi43NzY3NzQgMzQ5LjI0NjkyOSAzMzQuMzMwNDkxIDMzNC41OTc1IDMzNC4zMzA0OTFMMzIwLjk0NzA3MSAzMzQuMzMwNDkxIDMyMC45NDcwNzEgMzUxLjk4Njk0M3pNMjg0LjA3NjY0MyAzMTguMTc4ODQ5TDM0Ny43ODEyMTQgMzE4LjE3ODg0OUMzNzguMzk5MjE0IDMxOC4xNzg4NDkgMzk2LjQxNTkyOSAzMjYuNzIxNTQ3IDM5Ni40MTU5MjkgMzM5LjYzMjA1NyAzOTYuNDE1OTI5IDM0Ny4yODM0NDMgMzg4Ljg3MTM1NyAzNTYuNjkwNDQzIDM3Mi4wMzg3ODYgMzU5LjQ3MjQxNUwzNzIuMDM4Nzg2IDM1OS43Mzg2NTFDMzkyLjMwMDM1NyAzNjAuOTExNjMyIDM5OS43NTYyMTQgMzczLjY4NzA5NCAzOTkuNzU2MjE0IDM4MS4zNTAwNTcgMzk5Ljc1NjIxNCAzOTYuNzI2MTQyIDM4Mi4yMzcwNzEgNDA1LjI4NDI3NCAzNDcuOTU0Nzg2IDQwNS4yODQyNzRMMjg0LjA3NjY0MyA0MDUuMjg0Mjc0IDI4NC4wNzY2NDMgMzE4LjE3ODg0OXpNMjY5LjM4NDAxNCAzMi42NzA2MTEzQzI3Ni4xODAzIDIxLjYwODMxODkgMjg3LjQzMTU4NiAxMC4wMTM1NTQ3IDI5OS41NTg0NDMgNS4xMDU1NTQ3MiAzMjAuNDE3ODcxLTQuMzk0MDQ5MDYgMzQ4LjM5NzU4Ni0uMzIzMzQxNTA5IDM2NS40MTkxNTcgMTQuNzEzMTk2MiAzODEuODk2ODcxIDI5LjY0OTQxMzIgMzkwLjI2MzAxNCA1MC4xMDcxMzAyIDM4Ni4yNzg1ODYgNzIuOTg3OTc5MiAzOTAuMzc4NzI5IDcyLjI1MTAwNzUgMzk0LjQyMTAxNCA2OS42NDI2Njc5IDM5OC42OTg1ODYgNjguMTgwMyA0MjQuMzA2MTU3IDYwLjk4MDM1NjYgNDUxLjMxNzcyOSA2OC44MDUzNzU1IDQ2Ny43MjIxNTcgOTAuNzI1NDYwNCA0ODAuMDI2NDQzIDEwNi40MDYzNjYgNDgzLjI1MTAxNCAxMzAuNzMwMjkxIDQ3NS44Njg0NDMgMTQ5LjYzMzAzNiA0NzIuMTkyNTg2IDE1OS4xMjg3ODEgNDY1LjkzNjMgMTY3LjY4NjkxMyA0NTcuNzkzODcxIDE3NS4wMDI2MTFMNDU4LjY0MjQ0MyAxNzUuODM2MDQ1QzQ4Mi40Mjk0NDMgMTc2Ljk3ODE1OCA1MDUuODExNDQzIDE5NS40NjgwNDUgNTEzLjAyMDQ0MyAyMTguMTI1MTAyIDUyMC44Mzg4NzEgMjQwLjk4MjggNTEzLjk1Mzg3MSAyNjUuNDI2MzM4IDQ5Ny4yNTYzIDI4Mi4xMjk3NDMgNDgzLjU3NTAxNCAyOTUuNjExMzA5IDQ2Ni4wMjUwMTQgMzAwLjMwMzIzNCA0NDYuNTExNzI5IDI5OS44OTQyMzRMOTIuMjUyNDQyOSAyOTkuODk0MjM0QzYzLjEzMTAxNDMgMzAwLjUzODYwMiA0MC42NjMxNTcxIDI4Ny42NDM1MjYgMjguNTU5NDQyOSAyNjEuNzY0NjMgMTkuMDcwODcxNCAyMzkuNTMyMDA4IDIzLjc1NzMgMjExLjEyMTk0MiA0MS41MTE3Mjg2IDE5NC4yMTAxNzcgNTIuNjg1ODcxNCAxODIuNTE4OTUxIDY2LjY2MDMgMTc3LjcxMTI3MiA4MS44MjY1ODU3IDE3NS4zMDc0MzIgNjQuNjg1NDQyOSAxNTkuNDQ5MDM2IDU2LjQ1NDMgMTM3LjcyMTg3NSA2MS4yNTY0NDI5IDExNC40MzU4ODUgNjQuNjg1NDQyOSA5NS41MzMxMzk2IDgwLjc2OTcyODYgNzYuNDI1ODk0MyA5OS4yMjYxNTcxIDY5Ljg1NDg4NDkgMTE1LjUxNDg3MSA2My4zNzY0NzkyIDEzNy41NDY4NzEgNjQuNTI2MzA5NCAxNTIuNDg5NDQzIDczLjI4ODk0MTVMMTUzLjAwMjQ0MyA3Mi42NzE1ODNDMTQ4LjUwNTAxNCA0Ni45Nzc4OTQzIDE1OS44NzIwMTQgMjMuNzg4MzY2IDE4MS4xODI3MjkgOS42MDQ1NTQ3MiAyMDAuMTgzMDE0LTMuMjQ4MDc3MzYgMjMwLjUzNDg3MS0yLjkzOTM5ODExIDI0OS4xMjYzIDEwLjc0NjY2NzkgMjU3LjQ4ODU4NiAxNS44NzA3NDM0IDI2NC4zNzM1ODYgMjQuNjM3MjM0IDI2OS4zODQwMTQgMzIuNjcwNjExMyIvPgogICAgPHBhdGggZmlsbD0iIzY0NUZBOSIgZD0iTTM2OS42OTYzNDMsNDIuMjgyODgzIEMzNjYuODg0NDg2LDM1LjQ4ODA4MTEgMzYxLjk2Mjc3MSwyOS40NDU2ODQ5IDM1Ni4xMTUzNDMsMjQuMjIxMjg4NyBDMzQxLjcxNjYyOSwxMS44ODk1NTI4IDMxOC4zMzg0ODYsOS4yODEyMTMyMSAzMDEuNzI1NzcxLDE4Ljg5MjcxMzIgQzI4NS44NjUyLDI3LjM1MDUyNDUgMjc2LjQ3MzA1Nyw0My40MjQ5OTYyIDI3Ni4zNTczNDMsNjAuODYxNTE1MSBMMjc3LjAwMTQ4Niw2MS40OTgxNjYgTDI5Ny43NzIyLDYxLjcxMDM4MyBDMjk5LjE0OTIsNjIuNjQ3OTk2MiAzMDEuMzE2OTE0LDYyLjUzMjI0MTUgMzAxLjcyNTc3MSw2NC41MjcwODExIEMyOTMuMjkwMiw3MS4wMDE2MjgzIDI3OC44NzYwNTcsNzYuNzUwNzc5MiAyODAuNjQ2NDg2LDkwLjIwMTQ3NzQgTDMwMi44OTgzNDMsMjMwLjU1MDIxMyBMMzAzLjQyNjc3MSwyMjkuOTM2NzEzIEwzNjQuODkwMzQzLDkxLjU3NTEgQzM3Mi44MjgzNDMsNzcuNzg0ODU0NyAzNzcuMzE0Miw1Ny42Mzk2NzU1IDM2OS42OTYzNDMsNDIuMjgyODgzIi8+CiAgICA8cGF0aCBmaWxsPSIjQzgyMzRBIiBkPSJNMjM3LjU1MTQsMjI5LjcxNzE2NSBMMjYyLjU4NDI1Nyw2OS4wMTEwMzMgQzI2NC4zNzM5NzEsNTcuMzE1OTQ4MSAyNjEuNDU3OTcxLDQ2Ljc2NjgzNDkgMjU2LjQzNTk3MSwzNy40NzU1ODk2IEMyNTEuMDEyODI5LDI4LjUwODQ1NzUgMjQyLjI1MzI1NywyMS4xODExODQgMjMzLjA1Mzk3MSwxNy4yMjYyMzExIEMyMTUuNzA4NCw5LjkxMDUzMzAyIDE5My45MTU1NDMsMTMuNTYwNjY1MSAxODAuNjcwMTE0LDI3LjA0MjIzMTEgQzE2Ny40ODY0LDM5Ljk4NzQ2NyAxNjIuMDgyNTQzLDU4Ljg4NjM1MzggMTY3LjkxMDY4Niw3Ni45NTE4MDY2IEwyMzAuNzcwNTQzLDIxNy4yODg5NjcgTDIzNy4yMTU4MjksMjMwLjIzMDM0NCBDMjM3LjQ1MTExNCwyMzAuMTQxNTk5IDIzNy42NDAxMTQsMjI5LjkzNzA5OSAyMzcuNTUxNCwyMjkuNzE3MTY1Ii8+CiAgICA8cGF0aCBmaWxsPSIjMDA4OENGIiBkPSJNNDYwLjYxOTYxNCwxMDUuMTQ1NDExIEM0NjkuMDcwNjE0LDExOS41NDkxNTcgNDY3LjE5NjA0MywxNDEuMzY4OTIxIDQ1Ny43OTIzMjksMTU0LjczNDczMiBDNDUxLjk2MDMyOSwxNjQuMTQxNzMyIDQ0Mi4zNTIxODYsMTY4LjgyOTc5OCA0MzQuMjA1OSwxNzQuOTk5NTI1IEwzMDQuMDI3MzI5LDI2NC4zNzM3NDIgTDMwMy43MTg3NTcsMjY0LjM3Mzc0MiBMMzA1LjE4NDQ3MSwyNjAuMDk0Njc1IEwzNzQuMTc3MTg2LDEwNC4zMDgxMTkgQzM4NC41MjIwNDMsODUuOTMwMTI4MyA0MDQuMjUxMzI5LDc2LjYyNzMwNzUgNDI1LjEyNjE4Niw3OS40NTk0Mzk2IEM0MzkuNDIwNzU3LDgyLjA2Nzc3OTIgNDUzLjcxOTE4Niw5MS4zNzQ0NTg1IDQ2MC42MTk2MTQsMTA1LjE0NTQxMSIvPgogICAgPHBhdGggZmlsbD0iI0YyNkYyMSIgZD0iTTkwLjc4Nzg4NTcsMTY0LjU1MjY2MSBMMjM1LjU3NzMxNCwyNjQuMzcxODEyIEwyMzYuNzAzNiwyNjQuMzcxODEyIEwxNjQuOTEwNiwxMDQuMzEwMDQ4IEMxNTIuNzc5ODg2LDgyLjc5NTEwNDcgMTI3LjExNDQ1Nyw3My45MjA1NzY0IDEwNC4zNTM0NTcsODIuMjgxOTI1NSBDOTAuNDY3NzQyOSw4Ny41MDI0NjMyIDc4Ljc3Njc0MjksMTAwLjY1OTkxNiA3NS4wMjc2LDExNC43NTg4NDEgQzcwLjAwMTc0MjksMTMzLjU0NTgzMSA3Ni4wODA2LDE1Mi4xMjQ0NjMgOTAuNzg3ODg1NywxNjQuNTUyNjYxIi8+CiAgICA8cGF0aCBmaWxsPSIjMERCMDRCIiBkPSJNNDkyLjQ1MDY4NiwyNjcuMjE3MDYzIEM1MDIuNzc2MjU3LDI1NC4yNjQxMSA1MDUuNjAzNTQzLDIzMy4zNjY1MjUgNDk4LjM5ODQsMjE4LjEyNTQ4OCBDNDkzLjY5NjU0MywyMDcuNjkyMTI5IDQ4My42NzU2ODYsMTk3LjIyNzkwMyA0NzMuMDQxNTQzLDE5My4wNjg0NSBDNDU5LjI1OTk3MSwxODYuNDg5NzI0IDQ0MC4wNjY4MjksMTg3Ljk0MDUxNiA0MjcuNDExNTQzLDE5Ni4wODU3OSBMMjk4LjA5MzExNCwyODYuMTA4MjMzIEw0NTIuNDc1MjU3LDI4Ni4wMDAxOTUgQzQ2OC41NDQxMTQsMjg2LjQxMzA1NCA0ODIuMjA5OTcxLDI3OS42MjU5NjkgNDkyLjQ1MDY4NiwyNjcuMjE3MDYzIi8+CiAgICA8cGF0aCBmaWxsPSIjRkNCODEzIiBkPSJNMjQxLjYwOTg4NiwyODYuMTA2MzA0IEwxMTIuMjkxNDU3LDE5Ni4wODc3MTkgQzk5LjYzNjE3MTQsMTg3Ljk0MjQ0NSA4MC40NDY4ODU3LDE4Ni40OTE2NTMgNjYuNjYxNDU3MSwxOTMuMDcwMzc5IEM1Ni4wMjczMTQzLDE5Ny4yMjk4MzIgNDYuMDEwMzE0MywyMDcuNjk0MDU4IDQxLjMwNDYsMjE4LjEyNzQxNyBDMzQuMDk5NDU3MSwyMzMuMzY0NTk2IDM2LjkzODMxNDMsMjU0LjI2MjE4MSA0Ny4yNTIzMTQzLDI2Ny4yMTUxMzQgQzU3LjQ5MzAyODYsMjc5LjYyNDA0IDcxLjE1ODg4NTcsMjg2LjQxMTEyNSA4Ny4yMjc3NDI5LDI4Ni4wMDIxMjUgTDI0MS42MDk4ODYsMjg2LjEwNjMwNCBaIi8+CiAgPC9nPgo8L3N2Zz4K)
+
+Markets
+
+    
+        * Pre-Markets
+    * U.S. Markets
+    * Europe Markets
+    * China Markets
+    * Asia Markets
+    * World Markets
+    * Currencies
+    * Cryptocurrency
+    * Futures & Commodities
+    * Bonds
+    * Funds & ETFs
+    
+
+Watchlist
+
+Business
+
+    
+        * Economy
+    * Finance
+    * Health & Science
+    * Media
+    * Real Estate
+    * Energy
+    * Transportation
+    * Industrials
+    * Retail
+    * Wealth
+    * Small Business
+    
+
+Investing
+
+    
+        * Invest In You
+    * Personal Finance
+    * Financial Advisors
+    * Trading Nation
+    * Futures Now
+    * Options Action
+    * ETF Street
+    * Buffett Archive
+    * Earnings
+    * Trader Talk
+    
+
+Tech
+
+    
+        * Cybersecurity
+    * Enterprise
+    * Internet
+    * Media
+    * Mobile
+    * Social Media
+    * Venture Capital
+    * Tech Guide
+    
+
+Politics
+
+    
+        * White House
+    * Policy
+    * Defense
+    * Congress
+    * Elections
+    * Europe Politics
+    * China Politics
+    * Asia Politics
+    * World Politics
+    
+
+CNBC TV
+
+    
+        * Live Audio
+    * Latest Video
+    * Top Video
+    * Europe TV
+    * Asia TV
+    * Digital Originals
+    
+
+Menu
+
+SEARCH QUOTES __
+
+Top Stories
+
+Top Stories
+
+### China's loans to other nations are causing 'hidden' debt. That...
+
+China's lending to other countries, often shrouded in secrecy, is thought to
+be higher than the amounts that are officially tracked, resulting in much
+"hidden debt." That...
+
+World Economyread more __
+
+### Trump to sign executive order streamlining biotech regulations...
+
+The order was viewed as a way to bolster the bottom line of farmers caught in
+the crosshairs of Trump's trade war with China, sources said.
+
+Politicsread more __
+
+### Asia Pacific shares trade mixed as Dow winning streak ends
+
+Shares in Asia Pacific traded mixed on Wednesday morning following an
+overnight trading session on Wall Street that saw the end of the Dow Jones
+Industrial Average's winning...
+
+Asia Marketsread more __
+
+### CrowdStrike prices IPO at $34, above range
+
+CrowdStrike follows several other major tech companies into the public markets
+this year.
+
+Technologyread more __
+
+### Elon Musk, at Tesla shareholder meeting, promises '400-mile range...
+
+CEO Elon Musk spoke at Tesla's annual shareholder meeting in Mountain View,
+California on Tuesday.
+
+Technologyread more __
+
+### Kudlow says the US economy will maintain 3% pace even without a...
+
+Larry Kudlow says the U.S. economy will keep growing at a strong pace this
+year despite the weakness seen in recent economic reports.
+
+Marketsread more __
+
+### Elon Musk says Tesla is waiting on an acquisition before offering...
+
+The idea behind Tesla offering its own insurance would be to lower rates for
+drivers, leveraging internal data from Tesla's AutoPilot systems to justify
+that.
+
+Technologyread more __
+
+### The stock market is closing in on its all-time high. Here 's what...
+
+The next test for the stock market will be whether the major indexes can break
+through their all-time highs, just a short distance away.
+
+Market Insiderread more __
+
+### Coinbase launches its cryptocurrency debit card in six more...
+
+Digital currency exchange Coinbase announced Wednesday its Visa debit card
+will launch in Europe after debuting in the U.K. in April.
+
+Cryptocurrencyread more __
+
+### Bill Ackman sent letter opposing United Technologies mega-deal...
+
+Ackman, whose Pershing Square Capital Management owned 5.8 million United
+Technologies shares at the end of the first quarter, said in a letter that the
+tie-up is ill-advised.
+
+Marketsread more __
+
+### Cramer: 'The bull is fatigued,' and the market is ready to...
+
+"We've had a colossal rally. After this kind of run, the bull is fatigued,"
+the "Mad Money" host says.
+
+Mad Money with Jim Cramerread more __
+
+### LaCroix parent company 's stock falls to multiyear low following...
+
+Shares of National Beverage hit their lowest point since 2016 after a former
+employee filed a lawsuit alleging he was fired after objecting to a plan to
+falsely claims that...
+
+Food & Beverageread more __
+
+Previous Nextopen
+
+Personal Finance
+
+# Employers to spend about $10,000 on health care for each worker
+
+Published Wed, Aug 9 2017 1:13 PM EDT
+
+Sarah O'Brien@sarahtgobrien
+
+Key Points
+
+    
+        * Health care benefits per worker will run more than $14,000. 
+    * Study shows the average employee will pay $4,200 next year.
+    * Biggest driver of increases are high-priced pharmaceuticals.
+    
+
+Employees at big companies should be prepared to pay 5 percent more for their
+health care next year.
+
+New results from an industry organization's annual study shows that large
+employers expect the total average per-employee cost for health insurance
+benefits — which includes premiums and out-of-pocket costs for employees and
+dependents — to rise in 2018 to $14,156 from $13,482 this year.
+
+With employers covering about 70 percent of that cost, the average worker will
+pay 30 percent of the tab, or about $4,200.
+
+VIDEO0:4900:49
+
+How hospitals could kill the health insurance industry
+
+The Bottom Line
+
+"I think you'll see [the 5 percent rise] in premium increases," said Brian
+Marcotte, president and CEO of the Washington, D.C.-based National Business
+Group on Health, which released the study this week. "Most people will
+probably see minimal changes to deductibles and co-pays unless they move to a
+[higher-deductible] plan."
+
+This marks the fifth consecutive year that health care costs are expected to
+rise by 5 percent, according to the study. That outpaces the rate of
+inflation, which was 2.54 percent in 2016 and 2 percent for the first half of
+2017.
+
+Workers' salaries also aren't rising as quickly as health care costs. The most
+recent data from the Federal Reserve shows that wages are growing by 3.2
+percent annually.
+
+_Source: National Business Group on Health_
+
+The National Business Group of Health's annual study surveyed 148 companies,
+79 percent of which have 10,000 or more employees. It shows that employers
+rank the cost of "specialty pharmaceuticals" as the top driver of cost
+increases, which is unchanged from last year's survey results.
+
+Basically, new treatments for specific conditions ranging from diabetes and
+asthma to hemophilia and immune disorders can come with hefty price tags.
+
+"There's a rich pipeline of specialty medicines," Marcotte said. "They can be
+thousands or tens of thousands of dollars per treatment."
+
+_Source: National Business Group on Health_
+
+Marcotte said that the cost can vary depending on where the treatment is
+administered (i.e., a hospital or doctor's office or even in the home). The
+survey shows that 44 percent of companies plan to combat pharma costs in part
+by better managing where patients receive those high-price medicines.
+
+Employers also increasingly have been offer high-deductible plans as a way to
+control costs. The study shows that by next year, 90 percent of large
+companies will offer this option.
+
+Under these plans — sometimes called consumer-driven health plans in industry
+lingo — employees can put away tax-deductible savings in a health savings
+account, or HSA. For 2017, contribution limits are $3,400 for individual
+coverage and $6,750 for family plans. An extra $1,000 is allowed for people
+age 55 or older.
+
+HSA balances can carry over from year to year, and withdrawals are tax-free as
+long as they go toward qualified medical expenses.
+
+The survey also says that without such various cost-cutting measures being
+implemented by employers, overall costs would increase by 6.6 percent next
+year instead of the anticipated 5 percent.
+
+Related Tags
+
+    
+        * Personal finance
+    
+
+Trending Now
+
+    
+        1. ![Tesla CEO Elon Musk speaks during the unveiling of the new Tesla Model Y in Hawthorne, California on March 14, 2019.](https://image.cnbcfm.com/api/v1/image/105797042-1552679396530gettyimages-1130598362.jpeg?v=1559854937&w=100&h=75)Elon Musk at Tesla shareholder meeting: 'It won't be long before we have a 400-mile range car'
+    
+    2. ![](https://image.cnbcfm.com/api/v1/image/102781166-457981457.jpg?v=1467730979&w=100&h=75)Turns out it's not baby boomers who have taken the most from Social Security
+    
+    3. ![Democratic candidate for President Joe Biden shakes hands as he leaves after speaking at a campaign event on June 4, 2019 in Concord, NH.](https://image.cnbcfm.com/api/v1/image/105960845-1560276586823gettyimages-1153857605.jpeg?v=1560276665&w=100&h=75)Wall Street expects a Trump win in 2020, but a new poll points to a different outcome
+    
+    4. ![Cranes stand at a construction site by a Chinese company in Colombo, Sri Lanka.](https://image.cnbcfm.com/api/v1/image/104912817-GettyImages-492821684_1.jpg?v=1560300598&w=100&h=75)China's loans to other countries are causing 'hidden' debt. That may be a problem
+    
+    5. ![Prospective homebuyers tour a model home in Albuquerque, N.M.](https://image.cnbcfm.com/api/v1/image/103643394-GettyImages-511847692.jpg?v=1532564114&w=100&h=75)The majority of consumers are wildly wrong about what it takes to get a mortgage
+    
+
+![logo](data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIwLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAyMjMgMzQuMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjIzIDM0LjI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojRkZGRkZGO30KCS5zdDF7ZmlsbDojNjQ1RkE5O30KCS5zdDJ7ZmlsbDojQzgyMzRBO30KCS5zdDN7ZmlsbDojMDA4OENGO30KCS5zdDR7ZmlsbDojRjI2RjIxO30KCS5zdDV7ZmlsbDojMERCMDRCO30KCS5zdDZ7ZmlsbDojRkNCODEzO30KPC9zdHlsZT4KPGcgaWQ9IkxheWVyXzMiPgoJPGc+CgkJPGc+CgkJCTxnPgoJCQkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTI2LjgsNC44YzAuNy0xLjIsMS44LTIuMywzLjItM2MyLjItMSw1LjEtMC41LDcsMWMxLjcsMS41LDIuNywzLjcsMi4yLDYuMWMwLjUsMCwwLjgtMC4zLDEuMy0wLjUKCQkJCQljMi43LTAuOCw1LjUsMCw3LjMsMi4zYzEuMywxLjcsMS43LDQuMiwwLjgsNi4xYy0wLjMsMS0xLDEuOC0xLjgsMi43bDAuMiwwLjJjMi41LDAuMiw1LDIsNS44LDQuNXMwLjIsNS0xLjcsNi44CgkJCQkJYy0xLjUsMS41LTMuMywyLTUuMywxLjhIOC4yYy0zLjIsMC01LjUtMS4zLTYuNi00Yy0xLTIuMy0wLjUtNS4zLDEuMy03LjFjMS4yLTEuMiwyLjctMS43LDQuMy0yYy0xLjgtMS43LTIuNy00LTIuMi02LjUKCQkJCQljMC4yLTEuOCwxLjgtNCwzLjgtNC43YzEuNy0wLjcsNC0wLjUsNS42LDAuM2wwLDBjLTAuNS0yLjcsMC43LTUuMSwzLTYuNmMyLTEuMyw1LjEtMS4zLDcuMSwwLjJDMjUuNSwzLDI2LjMsNCwyNi44LDQuOHoiLz4KCQkJCTxnPgoJCQkJCTxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0zNy40LDUuOEMzNy4xLDUuMSwzNi42LDQuNSwzNiw0Yy0xLjUtMS4zLTQtMS41LTUuOC0wLjVjLTEuNywwLjgtMi43LDIuNy0yLjcsNC41bDAsMGgyLjIKCQkJCQkJYzAuMiwwLjIsMC4zLDAuMiwwLjUsMC4zQzI5LjMsOSwyNy42LDkuNiwyOCwxMWwyLjMsMTQuOGwwLDBsNi41LTE0LjZDMzcuOCw5LjUsMzguMyw3LjUsMzcuNCw1Ljh6Ii8+CgkJCQkJPHBhdGggY2xhc3M9InN0MiIgZD0iTTIzLjUsMjUuNmwyLjctMTYuOWMwLjItMS4yLTAuMi0yLjMtMC43LTMuM0MyNSw0LjMsMjQsMy42LDIzLDMuMWMtMS44LTAuOC00LjItMC4zLTUuNSwxcy0yLDMuMy0xLjMsNS4zCgkJCQkJCWw2LjYsMTQuOEwyMy41LDI1LjZMMjMuNSwyNS42eiIvPgoJCQkJCTxwYXRoIGNsYXNzPSJzdDMiIGQ9Ik00Ny4xLDEyLjRjMC44LDEuNSwwLjcsMy44LTAuMyw1LjFjLTAuNywxLTEuNywxLjUtMi41LDIuMmwtMTMuOCw5LjVsMCwwbDAuMi0wLjVsNy4zLTE2LjQKCQkJCQkJYzEuMi0yLDMuMi0zLDUuMy0yLjdDNDQuOCwxMCw0Ni4zLDExLDQ3LjEsMTIuNHoiLz4KCQkJCQk8cGF0aCBjbGFzcz0ic3Q0IiBkPSJNOC4xLDE4LjZsMTUuMywxMC41aDAuMmwtNy42LTE2LjhjLTEuMy0yLjItNC0zLjItNi41LTIuM2MtMS41LDAuNy0yLjcsMi0zLDMuNQoJCQkJCQlDNS43LDE1LjQsNi40LDE3LjQsOC4xLDE4LjZ6Ii8+CgkJCQkJPHBhdGggY2xhc3M9InN0NSIgZD0iTTUwLjQsMjkuNmMxLjItMS4zLDEuMy0zLjcsMC43LTUuMWMtMC41LTEuMi0xLjUtMi4yLTIuNy0yLjdjLTEuNS0wLjctMy41LTAuNS00LjgsMC4zTDMwLDMxLjVoMTYuMwoJCQkJCQlDNDcuOSwzMS41LDQ5LjIsMzAuOSw1MC40LDI5LjZ6Ii8+CgkJCQkJPHBhdGggY2xhc3M9InN0NiIgZD0iTTIzLjgsMzEuNWwtMTMuNi05LjZjLTEuMy0wLjgtMy4zLTEtNC44LTAuM2MtMS4yLDAuNS0yLjIsMS41LTIuNywyLjdjLTAuOCwxLjctMC41LDMuOCwwLjcsNS4xCgkJCQkJCWMxLDEuMywyLjUsMiw0LjIsMkwyMy44LDMxLjV6Ii8+CgkJCQk8L2c+CgkJCTwvZz4KCQk8L2c+CgkJPGc+CgkJCTxnPgoJCQkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTg0LjgsMTMuNGMtMC43LTMtMy0zLjgtNS44LTRjLTguOC0wLjgtMTAuMyw1LjgtMTAuMyw4LjZjMCw0LjgsMS4zLDguNiwxMCw4LjZjMS43LDAsNi0xLjcsNi00LjNoMTIuNQoJCQkJCWMtMC41LDgtMTMuOCw5LjgtMTkuNiw5LjhjLTEyLDAtMjIuMy0yLjItMjEuOC0xNC4xYzAuMy04LjUsOC4zLTE0LjQsMjQuMi0xNGM4LjgsMC4yLDE3LjMsMywxNy4zLDkuM0g4NC44eiIvPgoJCQkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTIwOS40LDEzLjRjLTAuNy0zLTMtMy44LTUuOC00Yy04LjgtMC44LTEwLjMsNS44LTEwLjMsOC41YzAsNC44LDEuMyw4LjYsMTAsOC42YzEuNywwLDYtMS43LDYtNC4zaDEyLjUKCQkJCQljLTAuNSw4LTEzLjgsOS44LTE5LjYsOS44Yy0xMiwwLTIyLjMtMi4yLTIxLjgtMTQuMWMwLjMtOC41LDguMy0xNC40LDI0LjItMTRjOC44LDAuMiwxNy40LDMsMTcuNCw5LjNoLTEyLjZWMTMuNHoiLz4KCQkJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik05OS42LDQuNmgxNi4xbDEzLjgsMTkuM2gwLjJWNC42SDE0MHYyNi43aC0xNS40bC0xNC40LTE5LjNoLTAuMnYxOS4zSDk5LjZDOTkuNiwzMS40LDk5LjYsNC42LDk5LjYsNC42eiIKCQkJCQkvPgoJCQkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTE0My4xLDQuNmgxOS42YzkuNSwwLDE0LjksMi43LDE0LjksNi42YzAsMi4zLTIuMyw1LjMtNy41LDYuMWwwLDBjNi4xLDAuMyw4LjUsNC4zLDguNSw2LjYKCQkJCQljMCw0LjgtNS4zLDcuMy0xNS45LDcuM2gtMTkuNlY0LjZ6IE0xNTQuNiwxNS4xaDMuM2M1LDAsNy42LTAuMyw3LjYtMi41cy0yLjItMy02LjYtM2gtNC4ydjUuNUgxNTQuNnogTTE1NC42LDI1LjloMy4zCgkJCQkJYzYsMCw4LjMtMC43LDguMy0yLjdjMC0yLjItMi44LTMtNy4zLTNoLTQuMnY1LjZIMTU0LjZ6Ii8+CgkJCTwvZz4KCQk8L2c+Cgk8L2c+CjwvZz4KPC9zdmc+Cg==)
+
+    
+        * Subscribe to CNBC PRO
+    
+    * Licensing & Reprints
+    
+    * Join the CNBC Panel
+    
+    * Supply Chain Values
+    
+    * Advertise With Us
+    
+    * Closed Captioning
+    
+    * Digital Products
+    
+    * Terms of Service
+    
+    * Privacy Policy
+    
+    * News Releases
+    
+    * Internships
+    
+    * Corrections
+    
+    * About CNBC
+    
+    * AdChoices
+    
+    * Site Map
+    
+    * Contact
+    
+    * Careers
+    
+    * Help
+    
+    *     *     *     *     *     *     * #### News Tips
+    
+
+Got a confidential news tip? We want to hear from you.
+
+Get In Touch
+
+####
+
+CNBC Newsletters
+
+Sign up for free newsletters and get more CNBC delivered to your inbox
+
+Sign Up Now
+
+Get this delivered to your inbox, and more info about our products and
+services. Privacy Policy.
+
+© 2019 CNBC LLC. All Rights Reserved. A Division of NBCUniversal
+
+Data is a real-time snapshot *Data is delayed at least 15 minutes. Global
+Business and Financial News, Stock Quotes, and Market Data and Analysis.
+
+Data also provided by
+![Reuters](data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NjIuNTIgMjIxLjkzIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6bm9uZTt9LmNscy0ye2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPlJlZmluaXRpdl9oX3RtX3c8L3RpdGxlPjxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjY2Mi41MiIgaGVpZ2h0PSIyMjEuOTMiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik02MDcuNDIsMTY2LjgySDU4OS42OWwtNjItNjJoNzAuODh2MTIuNDFINTU3LjgyWk01OTguNTYsNTUuMUg0ODYuODRWMTY2LjgyaDEyLjQxVjY3LjUxaDk5LjMxWk00NDEuMzUsODQuMjV2OC4wN2gtMVY4NC4yNUg0MzcuN3YtLjg0SDQ0NHYuODRabTExLjU0LDguMDdWODQuMThoMGwtMi41LDguMTRoLS43NmwtMi41LTguMTRoMHY4LjE0aC0uODlWODMuNDFoMS41M2wyLjI3LDcuMmgwbDIuMjQtNy4yaDEuNTV2OC45MVpNODUuMzYsMTM4LjUxaDExTDg0LjE1LDExMy43NWwuNDEtLjEyYzYuNC0xLjgyLDEwLTYuOTMsMTAtMTRDOTQuNDIsODkuMzEsODgsODMuNDEsNzcsODMuNDFINTUuMXY1NS4xaDkuOTVWMTE1Ljc4aDkuNzlaTTY1LjA1LDEwNy44NFY5MS4zNWgxMC4xYzYuMTYsMCw5LjQxLDIuODUsOS40MSw4LjI1LDAsNS44NS0zLjI2LDguMjQtMTEuMjYsOC4yNFptNzEuOSw2LjA5di04LjI1SDExNy44NnYtMTRoMjYuMjhWODMuNDFIMTA3LjkxdjU1LjFIMTQ1di04LjI1SDExNy44NlYxMTMuOTNabTUwLjE4LTguMjVIMTY4LjV2LTE0aDI0Ljg5VjgzLjQxSDE1OC41NXY1NS4xaDkuOTVWMTEzLjkzaDE4LjYzWm0xOC4xOS0yMi4yN3Y1NS4xaDEwVjgzLjQxWm04Ni4yMSwwdjU1LjFoMTBWODMuNDFabTYxLjI5LDBIMzEzLjY0djguMjVoMTQuNjF2NDYuODVoOS45NVY5MS42NmgxNC42MlptMTIuMDgsMHY1NS4xaDEwVjgzLjQxWm0tOTkuNSwwdjM5LjA1aC0uMTVsLTIyLjUzLTM5SDIzMi4xNXY1NS4xaDkuMzNWOTcuNzZoLjE1bDEyLjMsMjEuNDVoMEwyNjUsMTM4LjUxaDkuNzJWODMuNDFabTE1Ni41OCwwLTEyLjkxLDQ0LjY2SDQwOWwtMTIuOS00NC42NmgtOS43NmwxNyw1NS4xaDExLjM3bDE3LTU1LjFaIi8+PC9zdmc+)
+
+_[v]: View this template_ [t]: Discuss this template _[e]: Edit this template_
+[AU]: Australia _[CA]: Canada_ [UK]: United Kingdom _[US]: United States_
+[UN]: United Nations _[EU]: European Union_ [ v]: View this template _[AAAD]:
+Aromatic L-amino acid decarboxylase_ [ MAO]: Monoamine oxidase _[ ALDH]:
+Aldehyde dehydrogenase_ [ALR]: Aldehyde reductase _[PAH]: Phenylalanine
+hydroxylase_ [ TH]: Tyrosine hydroxylase _[ DBH]: Dopamine beta-monooxygenase_
+[ PNMT]: Phenylethanolamine N-methyltransferase _[ COMT]: Catechol-O-methyl
+transferase_ [TPH]: Tryptophan hydroxylase _[ AANAT]: Serotonin N-acetyl
+transferase_ [ ASMT]: Acetylserotonin O-methyltransferase _[ HDC]: Histidine
+decarboxylase_ [ HNMT]: Histamine N-methyltransferase _[ DAO]: Diamine
+oxidase_ [nAChRs]: Nicotinic acetylcholine receptors _[PAMs]: positive
+allosteric modulators_ [NAMs]: negative allosteric modulators _[TRP]:
+Transient receptor potential_ [TRPA]: Transient receptor potential ankyrin
+channel _[TRPC]: Transient receptor potential canonical channel_ [TRPM]:
+Transient receptor potential melastatin channel _[TRPML]: Transient receptor
+potential mucolipin channel_ [TRPP]: Transient receptor potential polycystin
+channel _[TRPV]: Transient receptor potential vanilloid channel_ [CBR]:
+Cannabinoid receptor _[ GABA]: -Aminobutyric acid_ [GABAA]: γ-Aminobutyric
+acid A _[GABA]: γ-Aminobutyric acid_ [GHB]: γ-Hydroxybutyric acid _[ hTAAR]:
+human trace amine-associated receptor_ [ PAF]: Platelet-activating factor _[
+PPAR]: Peroxisome proliferator-activated receptor_ [ GH]: Growth hormone
+_[IGF-1]: Insulin-like growth factor 1_ [GnRH]: gonadotropin hormone-releasing
+hormone _[ TNF]: Tumor necrosis factor_ [ TGFβ]: Transforming growth factor
+beta _[ TRP]: Transient receptor potential_ [c.]: circa _[ON]: Ontario_ [FT]:
+Financial Times *[RSS]: Really Simple Syndication
+
+  *[v]: View this template
+  *[t]: Discuss this template
+  *[e]: Edit this template
+  *[AU]: Australia
+  *[CA]: Canada
+  *[UK]: United Kingdom
+  *[US]: United States
+  *[UN]: United Nations
+  *[EU]: European Union
+  *[ v]: View this template
+  *[AAAD]: Aromatic L-amino acid decarboxylase
+  *[ MAO]: Monoamine oxidase
+  *[ ALDH]: Aldehyde dehydrogenase
+  *[ALR]: Aldehyde reductase
+  *[PAH]: Phenylalanine hydroxylase
+  *[ TH]: Tyrosine hydroxylase
+  *[ DBH]: Dopamine beta-monooxygenase
+  *[ PNMT]: Phenylethanolamine N-methyltransferase
+  *[ COMT]: Catechol-O-methyl transferase
+  *[TPH]: Tryptophan hydroxylase
+  *[ AANAT]: Serotonin N-acetyl transferase
+  *[ ASMT]: Acetylserotonin O-methyltransferase
+  *[ HDC]: Histidine decarboxylase
+  *[ HNMT]: Histamine N-methyltransferase
+  *[ DAO]: Diamine oxidase
+  *[nAChRs]: Nicotinic acetylcholine receptors
+  *[PAMs]: positive allosteric modulators
+  *[NAMs]: negative allosteric modulators
+  *[TRP]: Transient receptor potential
+  *[TRPA]: Transient receptor potential ankyrin channel
+  *[TRPC]: Transient receptor potential canonical channel
+  *[TRPM]: Transient receptor potential melastatin channel
+  *[TRPML]: Transient receptor potential mucolipin channel
+  *[TRPP]: Transient receptor potential polycystin channel
+  *[TRPV]: Transient receptor potential vanilloid channel
+  *[CBR]: Cannabinoid receptor
+  *[ GABA]: -Aminobutyric acid
+  *[GABAA]: γ-Aminobutyric acid A
+  *[GABA]: γ-Aminobutyric acid
+  *[GHB]: γ-Hydroxybutyric acid
+  *[ hTAAR]: human trace amine-associated receptor
+  *[ PAF]: Platelet-activating factor
+  *[ PPAR]: Peroxisome proliferator-activated receptor
+  *[ GH]: Growth hormone
+  *[IGF-1]: Insulin-like growth factor 1
+  *[GnRH]: gonadotropin hormone-releasing hormone
+  *[ TNF]: Tumor necrosis factor
+  *[ TGFβ]: Transforming growth factor beta
+  *[ TRP]: Transient receptor potential
+  *[c.]: circa
+  *[ON]: Ontario
+  *[FT]: Financial Times
+  *[RSS]: Really Simple Syndication
+

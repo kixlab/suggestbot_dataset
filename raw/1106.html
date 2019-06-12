@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://www.wikileaf.com/thestash/xmlrpc.php" />
+<title>Fact-Check: Has Crime Risen in States that Legalized Cannabis? - Wikileaf</title>
+
+<!-- Social Warfare v3.6.0 https://warfareplugins.com --><meta property="og:description" content="No. No it has not. "><meta property="og:title" content="Fact-Check: Has Crime Risen in States that Legalized Cannabis?"><meta name='image' property='og:image' content='https://www.wikileaf.com/thestash/wp-content/uploads/2018/12/iStock-958062674-e1544830638722.jpg'><meta property="fb:app_id" content="529576650555031"><meta property="og:type" content="article"><meta property="og:url" content="https://www.wikileaf.com/thestash/crime-legal-states/"><meta property="og:site_name" content="Wikileaf"><meta property="article:published_time" content="2018-12-14T12:00:02+00:00"><meta property="article:modified_time" content="2019-01-09T09:27:51+00:00"><meta property="og:updated_time" content="2019-01-09T09:27:51+00:00"><meta name="twitter:title" content=""><meta name="twitter:description" content=""><meta name="twitter:image" content=""><meta name="twitter:creator" content=""><meta name="twitter:card" content="summary"><style>@font-face {font-family: "sw-icon-font";src:url("https://www.wikileaf.com/thestash/wp-content/plugins/social-warfare/assets/fonts/sw-icon-font.eot?ver=3.6.0");src:url("https://www.wikileaf.com/thestash/wp-content/plugins/social-warfare/assets/fonts/sw-icon-font.eot?ver=3.6.0#iefix") format("embedded-opentype"),url("https://www.wikileaf.com/thestash/wp-content/plugins/social-warfare/assets/fonts/sw-icon-font.woff?ver=3.6.0") format("woff"),
+	url("https://www.wikileaf.com/thestash/wp-content/plugins/social-warfare/assets/fonts/sw-icon-font.ttf?ver=3.6.0") format("truetype"),url("https://www.wikileaf.com/thestash/wp-content/plugins/social-warfare/assets/fonts/sw-icon-font.svg?ver=3.6.0#1445203416") format("svg");font-weight: normal;font-style: normal;}</style>
+<!-- Social Warfare v3.6.0 https://warfareplugins.com -->
+
+
+<!-- This site is optimized with the Yoast SEO plugin v10.1.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Across the board, Americans are safer than they have ever been. There are fewer criminals, and they are committing fewer crimes. So why does the myth of cannabis causing skyrocketing crime rates continue to persist?"/>
+<link rel="canonical" href="https://www.wikileaf.com/thestash/crime-legal-states/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Across the board, Americans are safer than they have ever been. There are fewer criminals, and they are committing fewer crimes. So why does the myth of cannabis causing skyrocketing crime rates continue to persist?" />
+<meta name="twitter:title" content="Fact-Check: Has Crime Risen in States that Legalized Cannabis? - Wikileaf" />
+<meta name="twitter:site" content="@wiki_leaf" />
+<meta name="twitter:image" content="https://www.wikileaf.com/thestash/wp-content/uploads/2018/12/iStock-958062674-e1544830638722.jpg" />
+<meta name="twitter:creator" content="@wiki_leaf" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Wikileaf &raquo; Feed" href="https://www.wikileaf.com/thestash/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Wikileaf &raquo; Comments Feed" href="https://www.wikileaf.com/thestash/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Wikileaf &raquo; Fact-Check: Has Crime Risen in States that Legalized Cannabis? Comments Feed" href="https://www.wikileaf.com/thestash/crime-legal-states/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.wikileaf.com\/thestash\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wpts_ui_css-css'  href='https://www.wikileaf.com/thestash/wp-content/plugins/customppl-post-tabs/css/styles/default/style.css?ver=1.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fix-structured-data-errors-css'  href='https://www.wikileaf.com/thestash/wp-content/plugins/fix-structured-data-errors/public/css/fix-structured-data-errors-public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='related-posts-by-taxonomy-css'  href='https://www.wikileaf.com/thestash/wp-content/plugins/related-posts-by-taxonomy/includes/assets/css/styles.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='bb-tcs-editor-style-shared-css'  href='https://www.wikileaf.com/thestash/wp-content/themes/mh_purity/editor-style-shared.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='social_warfare-css'  href='https://www.wikileaf.com/thestash/wp-content/plugins/social-warfare/assets/css/style.min.css?ver=3.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-google-fonts-css'  href='//fonts.googleapis.com/css?family=Lato:300italic,300,400italic,400,900|Vollkorn:400,400italic|Source+Sans+Pro:300,400,600,700,400italic|Open+Sans:300,400,600,700,400italic' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-font-awesome-css'  href='//use.fontawesome.com/releases/v5.3.1/css/all.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-style-css'  href='https://www.wikileaf.com/thestash/wp-content/themes/mh_purity/style.css?ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='recent-posts-widget-with-thumbnails-public-style-css'  href='https://www.wikileaf.com/thestash/wp-content/plugins/recent-posts-widget-with-thumbnails/public.css?ver=6.5.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-lazyloadxt-fadein-css-css'  href='//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/css/jquery.lazyloadxt.fadein.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='a3a3_lazy_load-css'  href='//www.wikileaf.com/thestash/wp-content/uploads/sass/a3_lazy_load.min.css?ver=1559892127' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.wikileaf.com/thestash/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.wikileaf.com/thestash/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.wikileaf.com/thestash/wp-content/plugins/fix-structured-data-errors/public/js/fix-structured-data-errors-public.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://www.wikileaf.com/thestash/wp-content/themes/mh_purity/js/scripts.js?ver=1560302557'></script>
+<link rel='https://api.w.org/' href='https://www.wikileaf.com/thestash/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.wikileaf.com/thestash/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.wikileaf.com/thestash/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.8" />
+<link rel='shortlink' href='https://www.wikileaf.com/thestash/?p=12047' />
+<link rel="alternate" type="application/json+oembed" href="https://www.wikileaf.com/thestash/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.wikileaf.com%2Fthestash%2Fcrime-legal-states%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.wikileaf.com/thestash/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.wikileaf.com%2Fthestash%2Fcrime-legal-states%2F&#038;format=xml" />
+<!--[if lt IE 9]>
+<script src="https://www.wikileaf.com/thestash/wp-content/themes/mh_purity/js/css3-mediaqueries.js"></script>
+<![endif]-->
+    <style type="text/css">
+    	    	    	    			    			.sidebar .rpwwt-post-title
+{
+display:inline !important;
+}
+
+.mce_SELRES_start {
+	width:600px;
+	height:450px;
+	max-width:100%;
+}
+
+@media screen and (max-width:420px) {
+	.mce_SELRES_start {
+		height: 227px;
+		width:341px;
+                 max-width:100%;
+                 display:inline;
+	}
+
+}
+	</style>
+    <link rel="icon" href="https://www.wikileaf.com/thestash/wp-content/uploads/2018/02/footer-logo.png" sizes="32x32" />
+<link rel="icon" href="https://www.wikileaf.com/thestash/wp-content/uploads/2018/02/footer-logo.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.wikileaf.com/thestash/wp-content/uploads/2018/02/footer-logo.png" />
+<meta name="msapplication-TileImage" content="https://www.wikileaf.com/thestash/wp-content/uploads/2018/02/footer-logo.png" />
+<style type="text/css">
+    	    	    	    			    			.sidebar .rpwwt-post-title
+{display: flex !important;}	</style>
+</head>
+<body class="post-template-default single single-post postid-12047 single-format-standard">
+<div class="body-wrapper">
+<header class="header-wrap">
+<div class="header-top">
+	<a href="https://www.wikileaf.com/" title="Wikileaf Logo Black" rel="home">
+<div class="logo-wrap" role="banner">
+<img class="header-image" src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/05/wikileaf_logo.svg" height="" width="" alt="Wikileaf Logo Black" />
+<div class="logo logo-overlay">
+</div>
+</div>
+</a>
+	<div class="logo-mobile">
+		<a href="https://www.wikileaf.com/" title="" rel="home">
+			<img class="header-image" src="https://www.wikileaf.com/thestash/wp-content/themes/mh_purity/images/logo_small.svg" height="36" width="36">
+		</a>
+	</div>
+	<a href="#" class="menu-cta-mob">&nbsp;</a>
+	<a href="#" class="search-cta-mob">&nbsp;</a>
+	<div class="header-search">
+		<a href="#" class="serach-arrow-mob">&nbsp;</a>
+		<form role="search" method="get" id="searchform" action="https://www.wikileaf.com/thestash/" >
+	<fieldset>
+	<input type="text" value="" name="s" id="s" placeholder="Search" />
+	<input type="submit" id="searchsubmit" value="Search">
+	</fieldset>
+	</form>		<a href="#" class="serach-close-mob">&nbsp;</a>
+	</div>
+	<div class="top-nav clearfix"><div class="menu-top-menu-container"><ul id="menu-top-menu" class="menu"><li id="menu-item-11928" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11928"><a href="https://www.wikileaf.com/marketplace/">Dispensaries</a></li>
+<li id="menu-item-11927" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11927"><a href="https://www.wikileaf.com/strains/">Strains</a></li>
+<li id="menu-item-13895" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13895"><a href="https://www.wikileaf.com/brands/">Brands</a></li>
+<li id="menu-item-11929" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-11929"><a href="https://www.wikileaf.com/thestash/">News</a></li>
+</ul></div></div>
+</div>
+<div class="header-bottom">
+	<div class="container">
+		<nav class="main-nav clearfix">
+			<div class="menu-main-menu-container"><ul id="menu-main-menu" class="category-menu"><li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-112"><a href="https://www.wikileaf.com/thestash/">The Stash</a></li>
+<li id="menu-item-129" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-129"><a href="https://www.wikileaf.com/thestash/category/news/">Cannabis News</a></li>
+<li id="menu-item-13584" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13584"><a href="https://www.wikileaf.com/thestash/category/growing/">Growing</a></li>
+<li id="menu-item-114" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-114"><a href="https://www.wikileaf.com/thestash/category/learn/">Learn</a></li>
+<li id="menu-item-11129" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11129"><a href="https://www.wikileaf.com/thestash/category/industry/">Industry</a></li>
+<li id="menu-item-113" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-113"><a href="https://www.wikileaf.com/thestash/category/lifestyle/">Lifestyle</a></li>
+<li id="menu-item-11131" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11131"><a href="https://www.wikileaf.com/thestash/category/products/">Products</a></li>
+<li id="menu-item-12106" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12106"><a href="https://www.wikileaf.com/thestash/category/health/">Health</a></li>
+<li id="menu-item-123" class="mobilelink menu-item menu-item-type-custom menu-item-object-custom menu-item-123"><a href="https://www.wikileaf.com/strains/">Strains</a></li>
+<li id="menu-item-124" class="mobilelink menu-item menu-item-type-custom menu-item-object-custom menu-item-124"><a href="https://www.wikileaf.com/marketplace/">Dispensaries</a></li>
+</ul></div>		</nav>
+	</div>
+</div>
+</header><div class="container">
+<div class="wrapper page-wrapper clearfix">
+	<div class="content left"><article class="post-12047 post type-post status-publish format-standard has-post-thumbnail hentry category-news tag-crime">
+	<header class="post-header">
+		<h1 class="entry-title">
+			Fact-Check: Has Crime Risen in States that Legalized Cannabis?		</h1>
+		<h2 class="subheading">No, no it has not. </h2>
+<p class="meta post-meta clearfix"><span class="vcard author meta-author"><span class="fn">by <a href="https://www.wikileaf.com/thestash/author/katefrancis/" title="Posts by Kate Francis" rel="author">Kate Francis</a></span></span><span class="updated meta-date">&ndash; December 14, 2018</span></p>
+<p class="meta post-meta clearfix"><span class="meta-tags"><a href="https://www.wikileaf.com/thestash/category/news/" rel="category tag">News</a></span></p>
+	</header>
+		<div class="entry clearfix">
+		
+<div class="post-thumbnail">
+<a href="#"><img src="https://www.wikileaf.com/thestash/wp-content/uploads/2018/12/iStock-958062674-e1544830638722.jpg" alt="crime rates in legal states" title="Two police officers are crossing the street near the World Trade Center 'Ground Zero' in Manhattan, New York. Blurred skyscrapers and steam coming out of the manholes in the background." /></a>
+</div>
+		<div class="swp_social_panel swp_horizontal_panel swp_flat_fresh  swp_default_full_color swp_other_full_color swp_individual_full_color scale-100 scale-full_width" data-min-width="1100" data-float-color="#ffffff" data-float="none" data-float-mobile="none" data-transition="slide" ><div class="nc_tweetContainer swp_share_button swp_facebook" data-network="facebook"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.wikileaf.com%2Fthestash%2Fcrime-legal-states%2F" data-link="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.wikileaf.com%2Fthestash%2Fcrime-legal-states%2F"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_facebook_icon"></i><span class="swp_share">Share</span></span></span><span class="swp_count">75</span></a></div><div class="nc_tweetContainer swp_share_button swp_twitter" data-network="twitter"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://twitter.com/intent/tweet?text=Fact-Check%3A+Has+Crime+Risen+in+States+that+Legalized+Cannabis%3F&url=https%3A%2F%2Fwww.wikileaf.com%2Fthestash%2Fcrime-legal-states%2F" data-link="https://twitter.com/intent/tweet?text=Fact-Check%3A+Has+Crime+Risen+in+States+that+Legalized+Cannabis%3F&url=https%3A%2F%2Fwww.wikileaf.com%2Fthestash%2Fcrime-legal-states%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_twitter_icon"></i><span class="swp_share">Tweet</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button swp_reddit" data-network="reddit"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.wikileaf.com%2Fthestash%2Fcrime-legal-states%2F" data-link="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.wikileaf.com%2Fthestash%2Fcrime-legal-states%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_reddit_icon"></i><span class="swp_share">Reddit</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button total_shares total_sharesalt" ><span class="swp_count ">75 <span class="swp_label">Shares</span></span></div></div><p><span class="s1">Across the board, Americans are safer than they have ever been. There are fewer criminals, and they are committing fewer crimes. So why does the myth of skyrocketing crime rates persist? In 2017, <a href="https://www.wikileaf.com/thestash/jeff-sessions-rescinding-important-memos/">then-Attorney General Jeff Sessions</a>, a notorious anti-legalization (and pro-mass-incarceration) Republican with a long history of using the moral panic surrounding cannabis to drum up votes, claimed that there was a link between THC levels in marijuana and violent crime.</span></p>
+<h2>Using Logic To Debunk The Crime Myth</h2>
+<p class="p1"><span class="s1">Before getting into the claims made by anti-cannabis activist groups, it&rsquo;s helpful to apply some simple logic. In states that passed recreational legalization, something that used to be illegal is now legal. On Monday cannabis users were lumped in with heroin users, on Tuesday they&rsquo;re beer drinkers. It&rsquo;s doubtful there were too many first-time users walking through the door the day rec dispensaries opened for business, so the marijuana-consuming population remains the same cross-section of society it always was. Crime rates, in general, have been <a href="https://ucr.fbi.gov/crime-in-the-u.s/2010/crime-in-the-u.s.-2010/tables/10tbl01.xls"><span class="s2">dropping</span></a> for the past twenty-five years. Property crimes like burglary are often linked in the public imagination to rates of drug use, but while cannabis consumption has <a href="https://www.washingtonpost.com/news/wonk/wp/2017/04/19/11-charts-that-show-marijuana-has-truly-gone-mainstream/?utm_term=.5f29fd23617a"><span class="s2">risen</span></a>, the FBI says property crimes have <a href="http://www.pewresearch.org/fact-tank/2018/01/30/5-facts-about-crime-in-the-u-s/"><span class="s2">fallen</span></a> a staggering 48% since 1993, while the Bureau of Justice Statistics reports an even more optimistic 66%.</span></p>
+<div style="width: 810px" class="wp-caption alignnone"><a href="https://ucr.fbi.gov/crime-in-the-u.s/2017/crime-in-the-u.s.-2017/topic-pages/property-crime"><img class="lazy lazy-hidden" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://ucr.fbi.gov/crime-in-the-u.s/2017/crime-in-the-u.s.-2017/figures/property-crime.gif" alt="the FBI's property crime stats from 2013-2017" width="800" height="600"><noscript><img src="https://ucr.fbi.gov/crime-in-the-u.s/2017/crime-in-the-u.s.-2017/figures/property-crime.gif" alt="the FBI's property crime stats from 2013-2017" width="800" height="600"></noscript></a><p class="wp-caption-text">In September 2018, the FBI released the five-year trend of property crimes in The United States. Source: Fbi.gov</p></div>
+<p class="p1"><span class="s1">&ldquo;I don&rsquo;t think America is going to be a better place when people of all ages, and particularly young people, are smoking pot,&rdquo; Sessions said to reporters Monday at the Department of Justice. &ldquo;I believe it&rsquo;s an unhealthy practice, and current levels of THC in marijuana are very high compared to what they were a few years ago, and we&rsquo;re seeing real violence around that.&rdquo;</span></p>
+<p class="p1"><span class="s1">Sessions said he had a meeting on Monday with the attorney general of Nebraska, who is very concerned about marijuana flowing in from Colorado, which legalized weed in 2012. &ldquo;Experts are telling me there&rsquo;s more violence around marijuana than one would think and there&rsquo;s big money involved,&rdquo; he said. [&hellip;]</span></p>
+<p class="p3"><span class="s1">&ldquo;You can&rsquo;t sue somebody for drug debt; the only way to get your money is through strong-arm tactics, and violence tends to follow that,&rdquo; <a href="http://www.huffingtonpost.com/entry/jeff-sessions-marijuana-comments_us_58b4b189e4b0780bac2c9fd8"><span class="s2">Sessions said</span></a>.</span></p>
+<p class="p1"><span class="s1">Anyone familiar with cannabis dispensaries will spot a flaw in his logic right away. It&rsquo;s hard to go into &ldquo;drug debt&rdquo; in a cash-only business. The persistent characterization of cannabis users as drug-crazed maniacs putting their lives into hock for one more puff of that devil weed has old and deeply racist roots, due in part to the 20</span><span class="s3"><sup>th</sup></span><span class="s1">-century association of cannabis with <a href="https://en.oxforddictionaries.com/definition/us/jazz_cigarette"><span class="s2">jazz musicians</span></a>. </span></p>
+<h2>The Difference Between Correlation and Causation</h2>
+<p class="p1"><span class="s1">Now, Sessions&rsquo; supporters didn&rsquo;t reason their way into racism and they can&rsquo;t be reasoned out of it. There will always be a contingent of the country who are willing to believe any negative thing they hear about people and activities they disapprove of. But it&rsquo;s more disheartening to hear government officials with better access to facts repeat the same misinformation. Colorado Governor John Hickenlooper has a front-row seat to his state&rsquo;s experiment with cannabis legalization, a measure he opposed but relented to at the will of Colorado voters. Now that legalization has passed and the state is reaping the benefits in <a href="https://www.colorado.gov/pacific/revenue/colorado-marijuana-tax-data"><span class="s2">rising tax income</span></a> and <a href="https://www.npr.org/sections/health-shots/2018/04/02/598787768/opioid-use-lower-in-states-that-eased-marijuana-laws"><span class="s2">falling opioid use</span></a>, he&rsquo;s testing the waters for a reversal, making claims about rising crime rates to justify <a href="https://www.cnn.com/2018/04/20/us/colorado-marijuana-and-crime/index.html"><span class="s2">repealing legalization</span></a>. He cites reports showing a five-percent spike in crime, with a twelve-percent increase in violent crime statewide, but police in Denver, Colorado&rsquo;s destination city and a burgh that now boasts over 170 recreational dispensaries, don&rsquo;t think correlation necessarily indicates causation.</span></p>
+<p class="p1"><span class="s1">&ldquo;[Property crime is] the biggest driver of our [overall] crime, and of our increases. So, can you attribute that to marijuana? I don&rsquo;t think you can,&rdquo; said Denver Police Commander James Henning. &ldquo;The data isn&rsquo;t there.&rdquo;</span></p>
+<h2>There&rsquo;s Actually Been A Decrease in Crime Since Legalization</h2>
+<p class="p1"><span class="s1">The data isn&rsquo;t even consistent in pointing towards a trend in one direction or another. The Colorado Department of Public Safety reports a six percent decrease in violent crime statewide, and Colorado showed a 2.2% drop in violence during the first year of recreational legalization alone.</span></p>
+<div id="attachment_12232" style="width: 2000px" class="wp-caption alignnone"><img class="lazy lazy-hidden size-full wp-image-12232" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2018/12/iStock-952389966-1-e1547054854336.jpg" alt="" width="1990" height="1120" srcset="" data-srcset="https://www.wikileaf.com/thestash/wp-content/uploads/2018/12/iStock-952389966-1-e1547054854336.jpg 1990w, https://www.wikileaf.com/thestash/wp-content/uploads/2018/12/iStock-952389966-1-e1547054854336-300x169.jpg 300w, https://www.wikileaf.com/thestash/wp-content/uploads/2018/12/iStock-952389966-1-e1547054854336-768x432.jpg 768w, https://www.wikileaf.com/thestash/wp-content/uploads/2018/12/iStock-952389966-1-e1547054854336-1024x576.jpg 1024w, https://www.wikileaf.com/thestash/wp-content/uploads/2018/12/iStock-952389966-1-e1547054854336-310x174.jpg 310w" sizes="(max-width: 1990px) 100vw, 1990px"><noscript><img class="size-full wp-image-12232" src="https://www.wikileaf.com/thestash/wp-content/uploads/2018/12/iStock-952389966-1-e1547054854336.jpg" alt="" width="1990" height="1120" srcset="https://www.wikileaf.com/thestash/wp-content/uploads/2018/12/iStock-952389966-1-e1547054854336.jpg 1990w, https://www.wikileaf.com/thestash/wp-content/uploads/2018/12/iStock-952389966-1-e1547054854336-300x169.jpg 300w, https://www.wikileaf.com/thestash/wp-content/uploads/2018/12/iStock-952389966-1-e1547054854336-768x432.jpg 768w, https://www.wikileaf.com/thestash/wp-content/uploads/2018/12/iStock-952389966-1-e1547054854336-1024x576.jpg 1024w, https://www.wikileaf.com/thestash/wp-content/uploads/2018/12/iStock-952389966-1-e1547054854336-310x174.jpg 310w" sizes="(max-width: 1990px) 100vw, 1990px"></noscript><p class="wp-caption-text">GOLDEN, COLORADO&mdash;OCTOBER 2017: A Jefferson County police car blends in with the traffic in Golden, Colorado.</p></div>
+<p class="p1"><span class="s1">&ldquo;The Denver, Aurora and Edgewater police departments have not shown any link between violent crime and marijuana,&rdquo; said <a href="https://www.westword.com/news/meet-kristi-kelly-the-face-of-colorados-marijuana-industry-10023864"><span class="s2">Kristi Kelly</span></a>, executive director of the Marijuana Industry Group. </span></p>
+<p class="p1"><span class="s1">&ldquo;In fact, the statistics trend in the opposite direction.&rdquo; Kelly is one of the leading advocates for the cannabis industry in Colorado, so she&rsquo;s especially alert to the rumblings of the Justice Department about a nationwide crackdown.</span></p>
+<p class="p1"><span class="s1">&ldquo;We have a sensitivity to the concerns that are being expressed at the federal level, and we want to do what we can to mitigate those concerns. We have members in an industry who are thoughtful and pragmatic and sophisticated. This is not a fly-by-night kind of deal. People are putting a lot of resources into this industry and really want to see a successful model.&rdquo;</span></p>
+<h2>Biased Data Interpretation</h2>
+<p class="p1"><span class="s1">Part of the challenge with getting an accurate answer about the possible connection between cannabis legalization and changes in crime rates, positive or negative, is how many reporting agencies have institutional reasons to highlight data that suggests a particular reading. True studies into crime causation, not just correlated statistics, are rare. <a href="http://www.tylervigen.com/spurious-correlations"><span class="s2">Spurious correlations</span></a> are easy to generate for just about any set of data. Ever since the &ldquo;War on Drugs&rdquo; began in the 1980s, the United States Justice Department has been heavily invested in the business of prosecuting and incarcerating drug users. Data that makes it look like drugs cause drug-users to break more laws than just the ones against using drugs help sell the idea that the War on Drugs is a noble cause worth earmarking a sizable chunk of the federal budget to.</span></p>
+<p class="p1"><span class="s1">For a more even-handed stance, it&rsquo;s better to go to academia for statistics. The scientific journal PLOS-ONE published a <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0092816"><span class="s2">study</span></a> examining the link between medical marijuana laws and crime statistics in multiple states. In the researchers&rsquo; own words, &ldquo;These findings run counter to arguments suggesting the legalization of marijuana for medical purposes poses a danger to public health in terms of exposure to violent crime and property crimes.&rdquo; </span></p>
+<p class="p1"><span class="s1">Not only did their research not show that marijuana consumption exacerbated crime statistics, but they found a possible link between medical marijuana and a drop in homicide and assault rates. More research is needed and will continue, but one might speculate that cannabis use is replacing at least some alcohol consumption, a drug for which the link between consumption and violence is <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3170096/"><span class="s2">much less spurious</span></a>.</span></p>
+<div class="hatom-extra"><small><span class="entry-title">Fact-Check: Has Crime Risen in States that Legalized Cannabis?</span> was last modified: <span class="post-date updated">January 9th, 2019</span> by <span class="vcard author post-author"><span class="fn">Kate Francis</span></span></small></div>
+<div class="swp_social_panel swp_horizontal_panel swp_flat_fresh  swp_default_full_color swp_other_full_color swp_individual_full_color scale-100 scale-full_width" data-min-width="1100" data-float-color="#ffffff" data-float="none" data-float-mobile="none" data-transition="slide" ><div class="nc_tweetContainer swp_share_button swp_facebook" data-network="facebook"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.wikileaf.com%2Fthestash%2Fcrime-legal-states%2F" data-link="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.wikileaf.com%2Fthestash%2Fcrime-legal-states%2F"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_facebook_icon"></i><span class="swp_share">Share</span></span></span><span class="swp_count">75</span></a></div><div class="nc_tweetContainer swp_share_button swp_twitter" data-network="twitter"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://twitter.com/intent/tweet?text=Fact-Check%3A+Has+Crime+Risen+in+States+that+Legalized+Cannabis%3F&url=https%3A%2F%2Fwww.wikileaf.com%2Fthestash%2Fcrime-legal-states%2F" data-link="https://twitter.com/intent/tweet?text=Fact-Check%3A+Has+Crime+Risen+in+States+that+Legalized+Cannabis%3F&url=https%3A%2F%2Fwww.wikileaf.com%2Fthestash%2Fcrime-legal-states%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_twitter_icon"></i><span class="swp_share">Tweet</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button swp_reddit" data-network="reddit"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.wikileaf.com%2Fthestash%2Fcrime-legal-states%2F" data-link="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.wikileaf.com%2Fthestash%2Fcrime-legal-states%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_reddit_icon"></i><span class="swp_share">Reddit</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button total_shares total_sharesalt" ><span class="swp_count ">75 <span class="swp_label">Shares</span></span></div></div><div class="swp-content-locator"></div>	</div>
+	<div class="post-tags meta clearfix"><p class="meta-tags"><i class="fa fa-tag"></i><a href="https://www.wikileaf.com/thestash/tag/crime/" rel="tag">crime</a></p></div>	</article>
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@type": "Article",
+"author": "Kate Francis",
+"datePublished": "2018-12-14T12:00:02+00:00",
+"headline": "Fact-Check: Has Crime Risen in States that Legalized Cannabis?",
+"image":  "https://www.wikileaf.com/thestash/wp-content/uploads/2018/12/iStock-958062674-e1544830638722.jpg",
+"publisher": {
+"@type": "Organization",
+"name": "Wikileaf",
+"logo": {
+	"@type": "ImageObject",
+	"url": "https://www.wikileaf.com/assets/images/logos/wikileaf_logo_black.png",
+	"width": 175,
+	"height": 40
+}
+},
+"dateModified": "2019-01-09T09:27:51+00:00"
+}
+</script><nav class="post-nav-wrap clearfix" role="navigation">
+<div class="post-nav left">
+<a href="https://www.wikileaf.com/thestash/difference-smoking-vaping/" rel="prev"><i class="fas fa-arrow-left"></i> Previous article</a></div>
+<div class="post-nav post-nav-next right">
+<a href="https://www.wikileaf.com/thestash/cannabis-equity-reinvestment/" rel="next">Next article <i class="fas fa-arrow-right"></i></a></div>
+</nav>
+<section class="author-box">
+<div class="author-box-wrap clearfix">
+<div class="author-box-avatar"><img src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2018/11/Headshot-2018-150x150.jpeg" width="113" height="113" alt="Kate Francis" class="lazy lazy-hidden avatar avatar-113 wp-user-avatar wp-user-avatar-113 alignnone photo" /><noscript><img src="https://www.wikileaf.com/thestash/wp-content/uploads/2018/11/Headshot-2018-150x150.jpeg" width="113" height="113" alt="Kate Francis" class="avatar avatar-113 wp-user-avatar wp-user-avatar-113 alignnone photo" /></noscript></div>
+<h5 class="author-box-name"><a href="https://www.wikileaf.com/thestash/author/katefrancis/">About Kate Francis</a></h5>
+<div class="author-box-desc">Kate Francis is a journalist specializing in business reporting and politics. She lives in Los Angeles, where she divides her time between Lakers games, yoga, and avocado toast</div>
+</div>
+</section>
+
+<div id="disqus_thread"></div>
+	</div>
+	<aside class="sidebar sb-right">
+	<div id="recent-posts-widget-with-thumbnails-2" class="sb-widget recent-posts-widget-with-thumbnails"><div id="rpwwt-recent-posts-widget-with-thumbnails-2" class="rpwwt-widget">
+	<h4 class="widget-title">Recent Posts</h4>	<ul>
+			<li><a href="https://www.wikileaf.com/thestash/how-to-roll-a-blunt/"><img width="75" height="75" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/06/weed-blunt-closeup-two-buds-of-marijuana-lying-on-a-cigarette-sheet-picture-id860116958-150x150.jpg" class="lazy lazy-hidden attachment-75x75 size-75x75 wp-post-image" alt="How To Roll A Blunt" /><noscript><img width="75" height="75" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/06/weed-blunt-closeup-two-buds-of-marijuana-lying-on-a-cigarette-sheet-picture-id860116958-150x150.jpg" class="lazy lazy-hidden attachment-75x75 size-75x75 wp-post-image" alt="How To Roll A Blunt" /><noscript><img width="75" height="75" src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/06/weed-blunt-closeup-two-buds-of-marijuana-lying-on-a-cigarette-sheet-picture-id860116958-150x150.jpg" class="attachment-75x75 size-75x75 wp-post-image" alt="How To Roll A Blunt" /></noscript></noscript><span class="rpwwt-post-title">How To Roll A Blunt (5 Easy Steps)</span></a><div class="rpwwt-post-date">June 11, 2019</div></li>
+			<li><a href="https://www.wikileaf.com/thestash/google-bans-marijuana-play-store/"><img width="75" height="75" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/06/google-play-150x150.jpg" class="lazy lazy-hidden attachment-75x75 size-75x75 wp-post-image" alt="Google play" /><noscript><img width="75" height="75" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/06/google-play-150x150.jpg" class="lazy lazy-hidden attachment-75x75 size-75x75 wp-post-image" alt="Google play" /><noscript><img width="75" height="75" src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/06/google-play-150x150.jpg" class="attachment-75x75 size-75x75 wp-post-image" alt="Google play" /></noscript></noscript><span class="rpwwt-post-title">Google Bans Marijuana Sales Through The Play Store</span></a><div class="rpwwt-post-date">June 11, 2019</div></li>
+			<li><a href="https://www.wikileaf.com/thestash/oregon-halting-cannabis-production/"><img width="75" height="75" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/06/front-of-white-stone-capitol-building-in-salem-oregon-picture-id119083564-150x150.jpg" class="lazy lazy-hidden attachment-75x75 size-75x75 wp-post-image" alt="Oregon Capitol Building" /><noscript><img width="75" height="75" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/06/front-of-white-stone-capitol-building-in-salem-oregon-picture-id119083564-150x150.jpg" class="lazy lazy-hidden attachment-75x75 size-75x75 wp-post-image" alt="Oregon Capitol Building" /><noscript><img width="75" height="75" src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/06/front-of-white-stone-capitol-building-in-salem-oregon-picture-id119083564-150x150.jpg" class="attachment-75x75 size-75x75 wp-post-image" alt="Oregon Capitol Building" /></noscript></noscript><span class="rpwwt-post-title">Oregon Is Halting Any New Cannabis Production</span></a><div class="rpwwt-post-date">June 10, 2019</div></li>
+			<li><a href="https://www.wikileaf.com/thestash/smoke-weed-pregnant/"><img width="75" height="75" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/06/young-pregnant-woman-150x150.jpg" class="lazy lazy-hidden attachment-75x75 size-75x75 wp-post-image" alt="can pregnant women smoke weed" /><noscript><img width="75" height="75" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/06/young-pregnant-woman-150x150.jpg" class="lazy lazy-hidden attachment-75x75 size-75x75 wp-post-image" alt="can pregnant women smoke weed" /><noscript><img width="75" height="75" src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/06/young-pregnant-woman-150x150.jpg" class="attachment-75x75 size-75x75 wp-post-image" alt="can pregnant women smoke weed" /></noscript></noscript><span class="rpwwt-post-title">Is It Okay To Smoke Cannabis While Pregnant?</span></a><div class="rpwwt-post-date">June 10, 2019</div></li>
+			<li><a href="https://www.wikileaf.com/thestash/ben-and-jerrys-cbd-ice-cream/"><img width="75" height="75" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/06/ben-jerrys-e1560150546322-150x150.jpg" class="lazy lazy-hidden attachment-75x75 size-75x75 wp-post-image" alt="&quot;San Francisco, USA - May 27, 2011: Ben + Jerry&#039;s ice-cream shop in the famous Haight-Ashbury district in San Francisco during daytime. No people present in the photo&quot;" /><noscript><img width="75" height="75" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/06/ben-jerrys-e1560150546322-150x150.jpg" class="lazy lazy-hidden attachment-75x75 size-75x75 wp-post-image" alt="&quot;San Francisco, USA - May 27, 2011: Ben + Jerry&#039;s ice-cream shop in the famous Haight-Ashbury district in San Francisco during daytime. No people present in the photo&quot;" /><noscript><img width="75" height="75" src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/06/ben-jerrys-e1560150546322-150x150.jpg" class="attachment-75x75 size-75x75 wp-post-image" alt="&quot;San Francisco, USA - May 27, 2011: Ben + Jerry&#039;s ice-cream shop in the famous Haight-Ashbury district in San Francisco during daytime. No people present in the photo&quot;" /></noscript></noscript><span class="rpwwt-post-title">Ben and Jerry&#8217;s Teases New CBD Ice Cream</span></a><div class="rpwwt-post-date">June 8, 2019</div></li>
+		</ul>
+</div><!-- .rpwwt-widget -->
+</div><div id="recent-posts-widget-with-thumbnails-3" class="sb-widget recent-posts-widget-with-thumbnails"><div id="rpwwt-recent-posts-widget-with-thumbnails-3" class="rpwwt-widget">
+	<h4 class="widget-title">Trending Articles</h4>	<ul>
+			<li><a href="https://www.wikileaf.com/thestash/uganda-cannabis-export/"><img width="75" height="75" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/05/gray-morning-fog-over-tea-plantations-bwindi-picture-id530577284-150x150.jpg" class="lazy lazy-hidden attachment-75x75 size-75x75 wp-post-image" alt="Uganda" /><noscript><img width="75" height="75" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/05/gray-morning-fog-over-tea-plantations-bwindi-picture-id530577284-150x150.jpg" class="lazy lazy-hidden attachment-75x75 size-75x75 wp-post-image" alt="Uganda" /><noscript><img width="75" height="75" src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/05/gray-morning-fog-over-tea-plantations-bwindi-picture-id530577284-150x150.jpg" class="attachment-75x75 size-75x75 wp-post-image" alt="Uganda" /></noscript></noscript><span class="rpwwt-post-title">Uganda to Export Cannabis to Canada and Germany</span></a><div class="rpwwt-post-date">May 17, 2019</div></li>
+			<li><a href="https://www.wikileaf.com/thestash/weed-etiquette/"><img width="75" height="75" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/05/gang-of-young-people-taking-drugs-picture-id494768215-150x150.jpg" class="lazy lazy-hidden attachment-75x75 size-75x75 wp-post-image" alt="weed etiquette" /><noscript><img width="75" height="75" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/05/gang-of-young-people-taking-drugs-picture-id494768215-150x150.jpg" class="lazy lazy-hidden attachment-75x75 size-75x75 wp-post-image" alt="weed etiquette" /><noscript><img width="75" height="75" src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/05/gang-of-young-people-taking-drugs-picture-id494768215-150x150.jpg" class="attachment-75x75 size-75x75 wp-post-image" alt="weed etiquette" /></noscript></noscript><span class="rpwwt-post-title">A Simple Guide to Proper Weed Etiquette</span></a><div class="rpwwt-post-date">May 17, 2019</div></li>
+			<li><a href="https://www.wikileaf.com/thestash/medical-marijuana-programs/"><img width="75" height="75" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/05/cannabis-plant-leaf-hlding-in-hand-commercial-growing-facility-picture-id1089974754-150x150.jpg" class="lazy lazy-hidden attachment-75x75 size-75x75 wp-post-image" alt="medical marijuana" /><noscript><img width="75" height="75" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/05/cannabis-plant-leaf-hlding-in-hand-commercial-growing-facility-picture-id1089974754-150x150.jpg" class="lazy lazy-hidden attachment-75x75 size-75x75 wp-post-image" alt="medical marijuana" /><noscript><img width="75" height="75" src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/05/cannabis-plant-leaf-hlding-in-hand-commercial-growing-facility-picture-id1089974754-150x150.jpg" class="attachment-75x75 size-75x75 wp-post-image" alt="medical marijuana" /></noscript></noscript><span class="rpwwt-post-title">The Fight For Medical Marijuana Doesn&#8217;t End With Legalization</span></a><div class="rpwwt-post-date">May 16, 2019</div></li>
+			<li><a href="https://www.wikileaf.com/thestash/recreational-marijuana-states/"><img width="75" height="75" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/05/iStock-OlegMalyshev2-e1557953654633-150x150.jpg" class="lazy lazy-hidden attachment-75x75 size-75x75 wp-post-image" alt="cannabis marijuana American flag" /><noscript><img width="75" height="75" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/05/iStock-OlegMalyshev2-e1557953654633-150x150.jpg" class="lazy lazy-hidden attachment-75x75 size-75x75 wp-post-image" alt="cannabis marijuana American flag" /><noscript><img width="75" height="75" src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/05/iStock-OlegMalyshev2-e1557953654633-150x150.jpg" class="attachment-75x75 size-75x75 wp-post-image" alt="cannabis marijuana American flag" /></noscript></noscript><span class="rpwwt-post-title">All Recreationally Legal States And Their Laws</span></a><div class="rpwwt-post-date">May 15, 2019</div></li>
+			<li><a href="https://www.wikileaf.com/thestash/second-amendment-protection-act/"><img width="75" height="75" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/05/news-second-amend-150x150.jpg" class="lazy lazy-hidden attachment-75x75 size-75x75 wp-post-image" alt="second amendment protection act" /><noscript><img width="75" height="75" src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/05/news-second-amend-150x150.jpg" class="lazy lazy-hidden attachment-75x75 size-75x75 wp-post-image" alt="second amendment protection act" /><noscript><img width="75" height="75" src="https://www.wikileaf.com/thestash/wp-content/uploads/2019/05/news-second-amend-150x150.jpg" class="attachment-75x75 size-75x75 wp-post-image" alt="second amendment protection act" /></noscript></noscript><span class="rpwwt-post-title">The Second Amendment Protection Act</span></a><div class="rpwwt-post-date">May 10, 2019</div></li>
+		</ul>
+</div><!-- .rpwwt-widget -->
+</div><div id="custom_html-5" class="widget_text sb-widget widget_custom_html"><h4 class="widget-title">Re-Up on Cannabis News with The Stash</h4><div class="textwidget custom-html-widget"><script>(function() {
+	if (!window.mc4wp) {
+		window.mc4wp = {
+			listeners: [],
+			forms    : {
+				on: function (event, callback) {
+					window.mc4wp.listeners.push({
+						event   : event,
+						callback: callback
+					});
+				}
+			}
+		}
+	}
+})();
+</script><!-- Mailchimp for WordPress v4.5.0 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-13988" method="post" data-id="13988" data-name="" ><div class="mc4wp-form-fields"><div class="newsletter-side-input">
+   
+    <input type="email" name="EMAIL"  class="input-box grey" id="txt_email_side" placeholder="Your email address">
+
+  
+  </div>
+<div class="newsletter-cta-side">
+    <input type="submit" value="Subscribe"  class="btn btn-default btn-primary">
+</div>
+
+</div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1560302558" /><input type="hidden" name="_mc4wp_form_id" value="13988" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin --></div></div></aside></div>
+</div>
+<footer class="footer">
+	<div class="copyright-wrap mobile-only">
+		<div class="container">	
+			<div class="copyright-outer clearfix">
+				<div class="footer-logo">
+					<img src="https://www.wikileaf.com/thestash/wp-content/themes/mh_purity/images/logo.svg" alt="footer logo" />
+				</div>
+				<div class="footer-line">
+					<p>Wikileaf is your best source for cannabis brands, prices, strain information, and dispensaries near you.</p>
+				</div>
+				<div class="copyright-line">
+					<p>© 2019 Wikileaf All Rights Reserved.</p>
+					<span>"There's a Strain For That." Registered Trademark.</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container clearfix">
+			<div class="col-1-3 footer-widget-area">
+			<div id="nav_menu-3" class="footer-widget footer-1 widget_nav_menu"><h6 class="footer-widget-title">Quick Links</h6><div class="menu-footer-1-container"><ul id="menu-footer-1" class="menu"><li id="menu-item-11937" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11937"><a href="https://www.wikileaf.com/locations/">Locations</a></li>
+<li id="menu-item-11933" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11933"><a href="https://www.wikileaf.com/dispensaries/">Dispensaries</a></li>
+<li id="menu-item-11934" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11934"><a href="https://www.wikileaf.com/strains/">Strains</a></li>
+<li id="menu-item-11936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11936"><a href="https://www.wikileaf.com/brands/">Brands</a></li>
+<li id="menu-item-11935" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-11935"><a href="https://www.wikileaf.com/thestash/">News</a></li>
+</ul></div></div>		</div>
+				<div class="col-1-3 footer-widget-area">
+			<div id="nav_menu-4" class="footer-widget footer-2 widget_nav_menu"><h6 class="footer-widget-title">Wikileaf</h6><div class="menu-footer-2-container"><ul id="menu-footer-2" class="menu"><li id="menu-item-13886" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13886"><a href="https://www.wikileaf.com/mobileapp/">Mobile Apps</a></li>
+<li id="menu-item-13887" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13887"><a href="https://www.wikileaf.com/contact/">Contact Us</a></li>
+<li id="menu-item-14598" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14598"><a href="https://www.wikileaf.com/about/">About Us</a></li>
+<li id="menu-item-13888" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13888"><a href="https://www.wikileaf.com/careers/">Careers</a></li>
+<li id="menu-item-13889" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13889"><a href="https://www.wikileaf.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-13890" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13890"><a href="https://www.wikileaf.com/terms-of-services/">Terms and Conditions</a></li>
+</ul></div></div>		</div>
+				<div class="col-1-3 footer-widget-area">
+			<div id="nav_menu-5" class="footer-widget footer-3 widget_nav_menu"><h6 class="footer-widget-title">Dispensaries</h6><div class="menu-footer-3-container"><ul id="menu-footer-3" class="menu"><li id="menu-item-13891" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13891"><a target="_blank" href="https://www.wikileaf.com/user/">Signup / Login</a></li>
+</ul></div></div>		</div>
+				<div class="col-1-3 footer-widget-area">
+			<div id="custom_html-4" class="widget_text footer-widget footer-4 widget_custom_html"><div class="textwidget custom-html-widget"><div class="social-box clearfix"><a href="https://www.instagram.com/wiki_leaf/" target="_blank" title="Wikileaf on instagram"><i class="fab fa-instagram"></i></a><a href="https://twitter.com/Wiki_Leaf" target="_blank" title="Wikileaf on twitter"><i class="fab fa-twitter"></i></a><a href="https://www.facebook.com/Wikileaf" target="_blank" title="Wikileaf on facebook"><i class="fab fa-facebook-f"></i></a><a href="https://www.youtube.com/channel/UCYrVk_RdlITvF1xvLcjKYBg" target="_blank" title="Wikileaf on youtube"><i class="fab fa-youtube"></i></a></div><div class="footer-mobile-app-icon"><a href="https://itunes.apple.com/us/app/wikileaf/id1112272351" title="Wikileaf ios app" target="_blank"><img src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/themes/mh_purity/images/app-store-badge.svg" width="170" height="57" alt="wikileaf on apple store" class="lazy lazy-hidden loading"><noscript><img src="https://www.wikileaf.com/thestash/wp-content/themes/mh_purity/images/app-store-badge.svg" width="170" height="57" alt="wikileaf on apple store" class="loading"></noscript></a></div>
+<div class="footer-mobile-app-icon"><a href="https://play.google.com/store/apps/details?id=com.wikileaf&amp;hl=en" title="Wikileaf on android" target="_blank"><img src="//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.wikileaf.com/thestash/wp-content/themes/mh_purity/images/google-play-badge.svg" width="170" height="50" alt="wikileaf on google play store" class="lazy lazy-hidden loading"><noscript><img src="https://www.wikileaf.com/thestash/wp-content/themes/mh_purity/images/google-play-badge.svg" width="170" height="50" alt="wikileaf on google play store" class="loading"></noscript></a></div></div></div>		</div>
+		</div>
+</footer>
+<div class="copyright-wrap">
+	<div class="container">	
+		<div class="copyright-outer clearfix">
+			<div class="footer-logo">
+				<img src="https://www.wikileaf.com/thestash/wp-content/themes/mh_purity/images/logo.svg" alt="footer logo" />
+			</div>
+			<div class="footer-line">
+				<p>Wikileaf is your best source for cannabis brands, prices, strain information, and dispensaries near you.</p>
+			</div>
+			<div class="copyright-line">
+				<p>© 2019 Wikileaf All Rights Reserved.</p>
+				<span>"There's a Strain For That." Registered Trademark.</span>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39805017-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PTJ89FN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><script>(function() {function addEventListener(element,event,handler) {
+	if(element.addEventListener) {
+		element.addEventListener(event,handler, false);
+	} else if(element.attachEvent){
+		element.attachEvent('on'+event,handler);
+	}
+}function maybePrefixUrlField() {
+	if(this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+		this.value = "http://" + this.value;
+	}
+}
+
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if( urlFields && urlFields.length > 0 ) {
+	for( var j=0; j < urlFields.length; j++ ) {
+		addEventListener(urlFields[j],'blur',maybePrefixUrlField);
+	}
+}/* test if browser supports date fields */
+var testInput = document.createElement('input');
+testInput.setAttribute('type', 'date');
+if( testInput.type !== 'date') {
+
+	/* add placeholder & pattern to all date fields */
+	var dateFields = document.querySelectorAll('.mc4wp-form input[type="date"]');
+	for(var i=0; i<dateFields.length; i++) {
+		if(!dateFields[i].placeholder) {
+			dateFields[i].placeholder = 'YYYY-MM-DD';
+		}
+		if(!dateFields[i].pattern) {
+			dateFields[i].pattern = '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])';
+		}
+	}
+}
+
+})();</script><script type='text/javascript' src='https://www.wikileaf.com/thestash/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.wikileaf.com/thestash/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.wikileaf.com/thestash/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.wikileaf.com/thestash/wp-content/plugins/customppl-post-tabs/js/jquery.posttabs.js?ver=1.6.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"thestash-1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.wikileaf.com/thestash/wp-content/plugins/disqus-comment-system/public/js/comment_count.js?ver=3.0.17'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var embedVars = {"disqusConfig":{"integration":"wordpress 3.0.17"},"disqusIdentifier":"12047 https:\/\/www.wikileaf.com\/thestash\/?p=12047","disqusShortname":"thestash-1","disqusTitle":"Fact-Check: Has Crime Risen in States that Legalized Cannabis?","disqusUrl":"https:\/\/www.wikileaf.com\/thestash\/crime-legal-states\/","postId":"12047"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.wikileaf.com/thestash/wp-content/plugins/disqus-comment-system/public/js/comment_embed.js?ver=3.0.17'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var socialWarfare = {"addons":[{"name":"Social Warfare - Pro","key":"pro","core_required":"3.3.0","product_id":63157,"store_url":"https:\/\/warfareplugins.com","version":"3.6.0","filepath":"\/home\/140049.cloudwaysapps.com\/xnghwsnhdf\/public_html\/thestash\/wp-content\/plugins\/social-warfare-pro\/social-warfare-pro.php","license_key":true,"is_registered":true},"pro"],"post_id":"12047","floatBeforeContent":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.wikileaf.com/thestash/wp-content/plugins/social-warfare/assets/js/script.min.js?ver=3.6.0'></script>
+<script type='text/javascript' src='https://www.wikileaf.com/thestash/wp-includes/js/comment-reply.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://www.wikileaf.com/thestash/wp-content/plugins/page-links-to/js/new-tab.min.js?ver=3.1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var a3_lazyload_params = {"apply_images":"1","apply_videos":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/js/jquery.lazyloadxt.extra.min.js?ver=1.9.2'></script>
+<script type='text/javascript' src='//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/js/jquery.lazyloadxt.srcset.min.js?ver=1.9.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var a3_lazyload_extend_params = {"edgeY":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//www.wikileaf.com/thestash/wp-content/plugins/a3-lazy-load/assets/js/jquery.lazyloadxt.extend.js?ver=1.9.2'></script>
+<script type='text/javascript' src='https://www.wikileaf.com/thestash/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mc4wp_forms_config = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.wikileaf.com/thestash/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js?ver=4.5.0'></script>
+<!--[if lte IE 9]>
+<script type='text/javascript' src='https://www.wikileaf.com/thestash/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js?ver=4.5.0'></script>
+<![endif]-->
+<script type="text/javascript"> var swp_nonce = "4ca7f14a3d";
+function parentIsEvil() { var html = null; try { var doc = top.location.pathname; } catch(err){ }; if(typeof doc === "undefined") { return true } else { return false }; }; if (parentIsEvil()) { top.location = self.location.href; };var url = "https://www.wikileaf.com/thestash/crime-legal-states/";if(url.indexOf("stfi.re") != -1) { var canonical = ""; var links = document.getElementsByTagName("link"); for (var i = 0; i < links.length; i ++) { if (links[i].getAttribute("rel") === "canonical") { canonical = links[i].getAttribute("href")}}; canonical = canonical.replace("?sfr=1", "");top.location = canonical; console.log(canonical);};var swpFloatBeforeContent = false;var swpClickTracking = false; swpPinIt={"enabled":true,"post_title":"Fact-Check: Has Crime Risen in States that Legalized Cannabis?","image_description":"","image_source":"","hLocation":"center","vLocation":"top","minWidth":"200","minHeight":"200","disableOnAnchors":true};</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"8f8cd0bc81","applicationID":"104743834","transactionName":"YQFaYkNSXBYDV0AMXVhLeVVFWl0LTUddC1VaAQ==","queueTime":0,"applicationTime":325,"atts":"TUZZFAtITxg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
